@@ -1,0 +1,15 @@
+[project]
+name = "jcls-coref"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "datasets>=4.4.1",
+    "numpy>=2.3.5",
+    "omegaconf>=2.3.0",
+    "pandas>=2.3.3",
+    "pydantic>=2.12.4",
+    "torch>=2.9.1",
+    "transformers>=4.57.2",
+]
