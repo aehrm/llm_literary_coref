@@ -2,20 +2,21 @@ import argparse
 import json
 import sys
 from pathlib import Path
-from typing import List, Iterator, Hashable, Dict, Type
+from typing import Iterator, Dict, Type
 
 import pandas as pd
 
-from llm_literay_coref.llm_annotator import LLMAnnotator
-from llm_literay_coref.mention import Mention
-from llm_literay_coref.prompts import Prompt, PromptBasic
+from llm_literay_coref.llm_annotator import LLMMentionAnnotator
 
 from omegaconf import OmegaConf
 
+from llm_literay_coref.mention import Mention
+from llm_literay_coref.prompts.mention_prompts import MentionPromptBasic
+from llm_literay_coref.prompts.prompt import MentionPrompt
 from llm_literay_coref.util import JSONEncoder
 
-PROMPT_REGISTRY: Dict[str, Type[Prompt]] = {
-    "default": PromptBasic,
+PROMPT_REGISTRY: Dict[str, Type[MentionPrompt]] = {
+    "default": MentionPromptBasic,
     # TODO droc
 }
 
@@ -31,7 +32,7 @@ def get_mention_spans(mentions: pd.Series) -> Iterator[Mention]:
 
 
 
-def annotate_section(section_path: Path, annotator: LLMAnnotator, prompt: Prompt, output_dir: Path):
+def annotate_section(section_path: Path, annotator: LLMMentionAnnotator, prompt: MentionPrompt, output_dir: Path):
     section_df = pd.read_csv(section_path, sep='\t', keep_default_na=False, index_col='i')
 
     if not {'token', 'mention'} <= set(section_df.columns):
@@ -83,7 +84,16 @@ def main():
     output_dir = Path(args.output_dir)
     output_dir.mkdir(parents=True, exist_ok=True)
 
-    gen_args = OmegaConf.from_dotlist(args.generation_args or [])
+    if args.generation_args:
+        gen_args = OmegaConf.from_dotlist(args.generation_args or [])
+    else:
+        gen_args = OmegaConf.create(dict(
+            seed=123,
+            temperature=0,
+            reasoning=dict(enabled=False)
+        ))
+        print('Picked up the following generation arguments:')
+        print(OmegaConf.to_yaml(gen_args))
 
     PromptClass = PROMPT_REGISTRY.get(args.prompt_type, None)
     if PromptClass is None:
@@ -91,10 +101,10 @@ def main():
         sys.exit(1)
 
     prompt_instance = PromptClass()
-    annotator = LLMAnnotator(
+    annotator = LLMMentionAnnotator(
         model=args.model,
         prompt=prompt_instance,
-        request_args=gen_args
+        request_args=gen_args.as_dict()
     )
 
     for input_path_str in args.input_files:

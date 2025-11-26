@@ -1,13 +1,11 @@
 import itertools
-import json
 import logging
-from abc import abstractmethod, ABC
-from dataclasses import dataclass
-from typing import Literal, Optional, List, TypeVar, Generic
+from typing import Literal, Optional, List
 
 from pydantic import BaseModel, TypeAdapter
 
 from llm_literay_coref.mention import Mention, Entity, Reference
+from llm_literay_coref.prompts.prompt import MentionAnnotatorOutputLine, MentionPrompt
 
 logger = logging.getLogger(__name__)
 
@@ -123,46 +121,6 @@ Input B:
 {incomplete_response}
 """
 
-T = TypeVar('T')
-
-@dataclass
-class LLMOutputLine(Generic[T]):
-    mention: Mention
-    annotation: T
-
-@dataclass
-class LLMOutput(Generic[T]):
-    model: str
-    raw_input: any
-    raw_output: any
-    generation_details: any
-    output: List[LLMOutputLine[T]] = None
-    exception: Exception = None
-
-class Prompt(Generic[T], ABC):
-
-    def __init__(self):
-        pass
-
-    @abstractmethod
-    def parse_response_annotation(self, response: str) -> T:
-        pass
-
-    @abstractmethod
-    def prompt_tempate(self):
-        pass
-
-    def format_prompt(self, formatted_input, mention_annotations):
-        # incomplete_response = re.sub(r'}, ', '},\n', json.dumps(self.mention_annotations))
-        incomplete_response = '\n'.join(json.dumps(a) for a in mention_annotations)
-        prompt = self.prompt_tempate().format(doc_formatted=formatted_input, incomplete_response=incomplete_response)
-        return prompt
-
-    @abstractmethod
-    def decode(self, llm_output: List[LLMOutputLine[T]]):
-        pass
-
-
 
 class BasicAnnotationReference(BaseModel):
     entity_id: str
@@ -173,7 +131,7 @@ class BasicAnnotationReference(BaseModel):
 BasicAnnotationObject = TypeAdapter(list[BasicAnnotationReference])
 
 
-class PromptBasic(Prompt[List[BasicAnnotationReference]]):
+class MentionPromptBasic(MentionPrompt[List[BasicAnnotationReference]]):
 
     entity_fields = ['gender', 'specialcase_entity']
 
@@ -183,12 +141,12 @@ class PromptBasic(Prompt[List[BasicAnnotationReference]]):
     def prompt_tempate(self):
         return PROMPT_BASIC
 
-    def decode(self, llm_output: List[LLMOutputLine[List[BasicAnnotationReference]]]):
+    def decode(self, llm_output: List[MentionAnnotatorOutputLine[List[BasicAnnotationReference]]]) -> List[Mention]:
         entities = self.get_entities(llm_output)
         mentions = list(self.get_mentions(llm_output, entities))
         return mentions
 
-    def get_entities(self, llm_output: List[LLMOutputLine[List[BasicAnnotationReference]]]):
+    def get_entities(self, llm_output: List[MentionAnnotatorOutputLine[List[BasicAnnotationReference]]]):
         entities = {}
 
         all_entity_annotations = []
@@ -230,7 +188,7 @@ class PromptBasic(Prompt[List[BasicAnnotationReference]]):
 
         return entities
 
-    def get_mentions(self, llm_output: List[LLMOutputLine[List[BasicAnnotationReference]]], entities):
+    def get_mentions(self, llm_output: List[MentionAnnotatorOutputLine[List[BasicAnnotationReference]]], entities):
         for line in llm_output:
             mention = line.mention
             references = []
@@ -243,5 +201,8 @@ class PromptBasic(Prompt[List[BasicAnnotationReference]]):
                     borderline_reference=[],
                 )
                 references.append(ref)
+
+            if len(references) == 0:
+                continue
 
             yield mention.with_references(references)
