@@ -1,15 +1,17 @@
 import itertools
 import logging
-from typing import Literal, Optional, List
+from abc import abstractmethod
+from typing import Literal, Optional, List, Tuple, Dict, Generic, TypeVar
 
+import pandas
 from pydantic import BaseModel, TypeAdapter
 
 from llm_literay_coref.mention import Mention, Entity, Reference
-from llm_literay_coref.prompts.prompt import MentionAnnotatorOutputLine, MentionPrompt
+from llm_literay_coref.prompts.prompt import Prompt, T
 
 logger = logging.getLogger(__name__)
 
-PROMPT_BASIC = """
+BASIC_MENTION_PROMPT = """
 # Entitätsannotation in literarischen Texten
 
 ## Aufgabe
@@ -91,25 +93,25 @@ Beachte, dass sich diese Entscheidung auf die gesamte Entität bezieht. Überpr�
 ## Beispiele
 
 **Beispiel-Text:**
-In der Frühe fragte [Madlen][1] [ihre][2] [Tochter][3]. Vor dem Schloss warteten die [Wachen][4]. Danach kamen die zwei [Jungen][5]. Gemeinsam gingen [sie][6] ins Haus. Charlotte sagte: "[Männer][7] sind so."
+In der Frühe fragte [Madlen][1] [ihre][2] [Tochter][3] . Vor dem Schloss warteten die [Wachen][4] . Danach kamen die zwei [Jungen][5] . Gemeinsam gingen [sie][6] ins Haus . Charlotte sagte : " [Männer][7] sind so . "
 
 **Input B:**
-{{"ID": 1, "Text": "Madlen", "Annotation": []}}
-{{"ID": 2, "Text": "ihre", "Annotation": []}}
-{{"ID": 3, "Text": "Tochter", "Annotation": []}}
-{{"ID": 4, "Text": "Wachen", "Annotation": []}}
-{{"ID": 5, "Text": "Jungen", "Annotation": []}}
-{{"ID": 6, "Text": "sie", "Annotation": []}}
-{{"ID": 7, "Text": "Männer", "Annotation": []}}
+{{"ID": 1, "Position": 4, "Text": "Madlen", "Annotation": []}}
+{{"ID": 2, "Position": 5, "Text": "ihre", "Annotation": []}}
+{{"ID": 3, "Position": 6, "Text": "Tochter", "Annotation": []}}
+{{"ID": 4, "Position": 13, "Text": "Wachen", "Annotation": []}}
+{{"ID": 5, "Position": 19, "Text": "Jungen", "Annotation": []}}
+{{"ID": 6, "Position": 23, "Text": "sie", "Annotation": []}}
+{{"ID": 7, "Position": 31, "Text": "Männer", "Annotation": []}}
 
 **Erwartete Ausgabe:**
-{{"ID": 1, "Text": "Madlen", "Annotation": [{{"entity_id": "Madlen", "gender": "f"}}]}}
-{{"ID": 2, "Text": "ihre", "Annotation": [{{"entity_id": "Madlen"}}]}}
-{{"ID": 3, "Text": "Tochter", "Annotation": [{{"entity_id": "Tochter_Madlens", "gender": "f"}}]}}
-{{"ID": 4, "Text": "Wachen", "Annotation": [{{"entity_id": "die Wachen", "gender": "u", "specialcase_entity": ["group"]}}]}}
-{{"ID": 5, "Text": "Jungen", "Annotation": [{{"entity_id": "Junge1", "gender": "m"}}, {{"entity_id": "Junge2", "gender": "m"}}]}}
-{{"ID": 6, "Text": "sie", "Annotation": [{{"entity_id": "Junge1"}}, {{"entity_id": "Junge2"}}]}}
-{{"ID": 7, "Text": "Männer", "Annotation": [{{"entity_id": "Männer im Allgemeinen", "gender": "m", "specialcase_entity": ["group", "generic"]}}]}}
+{{"ID": 1, "Position": 4, "Text": "Madlen", "Annotation": [{{"entity_id": "Madlen", "gender": "f"}}]}}
+{{"ID": 2, "Position": 5, "Text": "ihre", "Annotation": [{{"entity_id": "Madlen"}}]}}
+{{"ID": 3, "Position": 6, "Text": "Tochter", "Annotation": [{{"entity_id": "Tochter_Madlens", "gender": "f"}}]}}
+{{"ID": 4, "Position": 13, "Text": "Wachen", "Annotation": [{{"entity_id": "die Wachen", "gender": "u", "specialcase_entity": ["group"]}}]}}
+{{"ID": 5, "Position": 19, "Text": "Jungen", "Annotation": [{{"entity_id": "Junge1", "gender": "m"}}, {{"entity_id": "Junge2", "gender": "m"}}]}}
+{{"ID": 6, "Position": 23, "Text": "sie", "Annotation": [{{"entity_id": "Junge1"}}, {{"entity_id": "Junge2"}}]}}
+{{"ID": 7, "Position": 31, "Text": "Männer", "Annotation": [{{"entity_id": "Männer im Allgemeinen", "gender": "m", "specialcase_entity": ["group", "generic"]}}]}}
 
 ---
 
@@ -120,6 +122,78 @@ Input A:
 Input B:
 {incomplete_response}
 """
+
+T = TypeVar('T')
+
+
+class MentionPrompt(Generic[T], Prompt[List[Mention]]):
+
+    def __init__(self, tokens: pandas.Series, mention_spans: List[Mention]):
+        self.tokens = tokens
+        self.mention_spans = mention_spans
+        self.formatted_input = None
+        self.mention_span_map = None
+        self.span_annotations = None
+
+    def prepare_input(self, tokens: pandas.Series, mention_spans: List[Mention]) -> Tuple[str, dict[int, Mention], list]:
+        input_text_df = tokens.copy()
+
+        mention_span_map = {}
+        span_annotations = []
+
+        index_mapper = pandas.Series(range(len(tokens)), index=input_text_df.index)
+        for id_, mention_span in enumerate(sorted(mention_spans, key=lambda x: x.token_idx[0])):
+            begin = min(mention_span.token_idx)
+            end = max(mention_span.token_idx)
+            input_text_df.loc[begin] = '[' + input_text_df.loc[begin]
+            input_text_df.loc[end] = str(input_text_df.loc[end]) + f'][{id_ + 1}]'
+            pos = index_mapper.loc[begin]
+
+            mention_span_map[id_ + 1] = mention_span
+            span_annotations.append({
+                "ID": id_ + 1,
+                "Position": int(pos),
+                "Text": " ".join(tokens.loc[begin:end]),
+                "Annotation": [],
+            })
+
+        formatted_input = ' '.join(input_text_df)
+
+        return formatted_input, mention_span_map, span_annotations
+
+    def format_prompt(self):
+        (formatted_input,
+         self.mention_span_map,
+         span_annotations) = self.prepare_input(self.tokens, self.mention_spans)
+
+        return self.prompt_template(formatted_input, span_annotations)
+
+    @abstractmethod
+    def prompt_template(self, formatted_input: str, span_annotations: list) -> str:
+        raise NotImplementedError
+
+    def decode(self, json_lines: list) -> List[Mention]:
+        extended_output: List[Tuple[Mention, T]] = []
+        for line in json_lines:
+            try:
+                id_ = line['ID']
+                annotated_span = self.mention_span_map[id_]
+
+                annotation_raw = line['Annotation']
+                annotation_parsed = self.decode_annotation(annotation_raw)
+                extended_output.append((annotated_span, annotation_parsed))
+            except Exception as e:
+                logger.warning(f'Error decoding line {line!r}: {e}')
+
+        return self.decode_annotations(extended_output)
+
+    @abstractmethod
+    def decode_annotation(self, annotation_raw: any) -> T:
+        pass
+
+    @abstractmethod
+    def decode_annotations(self, extended_output: List[Tuple[Mention, T]]) -> List[Mention]:
+        pass
 
 
 class BasicAnnotationReference(BaseModel):
@@ -135,24 +209,28 @@ class MentionPromptBasic(MentionPrompt[List[BasicAnnotationReference]]):
 
     entity_fields = ['gender', 'specialcase_entity']
 
-    def parse_response_annotation(self, response: str) -> List[BasicAnnotationReference]:
-        return BasicAnnotationObject.validate_python(response)
+    def __init__(self, tokens: pandas.Series, mention_spans: List[Mention]):
+        super().__init__(tokens, mention_spans)
+        self.entities = None
 
-    def prompt_tempate(self):
-        return PROMPT_BASIC
+    def prompt_template(self, formatted_input: str, span_annotations: list) -> str:
+        return BASIC_MENTION_PROMPT.format(doc_formatted=formatted_input, incomplete_response=span_annotations)
 
-    def decode(self, llm_output: List[MentionAnnotatorOutputLine[List[BasicAnnotationReference]]]) -> List[Mention]:
-        entities = self.get_entities(llm_output)
-        mentions = list(self.get_mentions(llm_output, entities))
+    def decode_annotations(self, parsed_output: List[Tuple[Mention, List[Tuple[Mention, BasicAnnotationObject]]]]) -> List[Mention]:
+        entities = self.get_entities(parsed_output)
+        mentions = list(self.get_mentions(parsed_output, entities))
         return mentions
 
-    def get_entities(self, llm_output: List[MentionAnnotatorOutputLine[List[BasicAnnotationReference]]]):
+    def decode_annotation(self, annotation_raw: any) -> BasicAnnotationObject:
+        return BasicAnnotationObject.validate_python(annotation_raw)
+
+    def get_entities(self, llm_output: List[Tuple[Mention, BasicAnnotationObject]]) -> Dict[str, Entity]:
         entities = {}
 
         all_entity_annotations = []
-        for line in llm_output:
-            for annotation in line.annotation:
-                all_entity_annotations.append((line.mention, annotation))
+        for mention, annotations in llm_output:
+            for annotation in annotations:
+                all_entity_annotations.append((mention, annotation))
 
         entity_id_counter = 0
         for entity_id, entity_annotations in itertools.groupby(sorted(all_entity_annotations, key=lambda x: x[1].entity_id),
@@ -167,10 +245,10 @@ class MentionPromptBasic(MentionPrompt[List[BasicAnnotationReference]]):
 
                 if value is None:
                     if entity_field == 'gender':
-                        logger.warn(f'for response entity {entity_id!r} no gender was specified! Defaulting to u')
+                        logger.warning(f'for response entity {entity_id!r} no gender was specified! Defaulting to u')
                         fields[entity_field] = 'u'
                     elif entity_field == 'specialcase_entity':
-                        logger.warn(f'for response entity {entity_id!r} no specialcase_entity was specified! Defaulting to empty list')
+                        logger.warning(f'for response entity {entity_id!r} no specialcase_entity was specified! Defaulting to empty list')
                         fields[entity_field] = []
                 else:
                     fields[entity_field] = value
@@ -185,14 +263,13 @@ class MentionPromptBasic(MentionPrompt[List[BasicAnnotationReference]]):
 
             entities[entity_id] = entity
 
-
         return entities
 
-    def get_mentions(self, llm_output: List[MentionAnnotatorOutputLine[List[BasicAnnotationReference]]], entities):
+    def get_mentions(self, llm_output: List[Tuple[Mention, BasicAnnotationObject]], entities: Dict[str, Entity]):
         for line in llm_output:
-            mention = line.mention
+            mention, annotations = line
             references = []
-            for annotation in line.annotation:
+            for annotation in annotations:
                 entity_id = annotation.entity_id
                 entity = entities[entity_id]
                 ref = Reference(

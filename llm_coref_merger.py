@@ -1,8 +1,9 @@
 import argparse
 import json
+import re
 import sys
 from pathlib import Path
-from typing import Iterator, Dict, Type
+from typing import Iterator, Dict, Type, List
 
 import pandas as pd
 
@@ -10,78 +11,87 @@ from omegaconf import OmegaConf
 
 from llm_literay_coref.llm_annotator import LLMRunner
 from llm_literay_coref.mention import Mention
-from llm_literay_coref.prompts.mention_prompts import MentionPromptBasic, MentionPrompt
+from llm_literay_coref.prompts.merge_prompts import MergePrompt, BasicMergePrompt
 from llm_literay_coref.util import JSONEncoder
 
-PROMPT_REGISTRY: Dict[str, Type[MentionPrompt]] = {
-    "default": MentionPromptBasic,
+PROMPT_REGISTRY: Dict[str, Type[MergePrompt]] = {
+    "default": BasicMergePrompt,
     # TODO droc
 }
 
 
+def load_document(input_files: List[Path]) -> pd.DataFrame:
+    """Load and concatenate TSV files into a single DataFrame."""
+    dfs = []
+    for f in input_files:
+        df = pd.read_csv(f, sep="\t", index_col='i')
+        df['is_section_start'] = 0
+        df.loc[df.index[0], 'is_section_start'] = 1
+        dfs.append(df)
 
-def get_mention_spans(mentions: pd.Series) -> Iterator[Mention]:
-    id_: str
-    for id_, g in mentions.groupby(mentions):
-        if id_ == '' or pd.isna(id_):
-            continue
-
-        yield Mention(str(id_), token_idx=list(g.index), references=[])
+    all_df = pd.concat(dfs)
+    return all_df.sort_index()
 
 
+def get_mentions(document_df: pd.DataFrame):
+    mention_id = document_df['pred'].fillna('').apply(lambda x: re.findall(r'mention_id=([^|]*)\|', x)).apply(
+        lambda x: x[0] if x else None)
+    for _, mention_rows in document_df['pred'].groupby(mention_id):
+        mention = Mention.parse(mention_rows.iloc[0], list(mention_rows.index))
+        if len(mention.references) > 0:
+            yield mention
 
-def annotate_section(section_path: Path, annotator: LLMRunner, prompt_class: Type[MentionPrompt], output_dir: Path):
-    section_df = pd.read_csv(section_path, sep='\t', keep_default_na=False, index_col='i')
 
-    if not {'token', 'mention'} <= set(section_df.columns):
-        raise ValueError("Input file must contain columns 'token' and 'mention'.")
+def merge_section(input_files: List[Path], annotator: LLMRunner, prompt_class: Type[MergePrompt], output_file: Path):
+    document_df = load_document(input_files)
 
-    tokens = section_df['token']
-    mention_spans = list(get_mention_spans(section_df['mention']))
+    if not {'token', 'pred'} <= set(document_df.columns):
+        raise ValueError("Input file must contain columns 'token' and 'pred'.")
 
-    print(f'Starting annotations for {section_path.name}: {len(tokens)} tokens, {len(mention_spans)} mentions found.')
+    tokens = document_df['token']
+    mentions: List[Mention] = list(get_mentions(document_df))
 
-    if not mention_spans:
-        res = None
-    else:
-        prompt = prompt_class(tokens, mention_spans)
-        res = annotator.run(prompt)
+    prompt = prompt_class(tokens, document_df['is_section_start'], mentions)
+    res = annotator.run(prompt)
 
     # output res as debug output
     if res:
-        debug_filename = output_dir / f"{section_path.stem}_debug.json"
+        debug_filename = output_file.parent / f"{output_file.stem}_debug.json"
         with open(debug_filename, 'w', encoding='utf-8') as f:
             json.dump(res, f, indent=2, cls=JSONEncoder)
         print(f"Saved debug output to {debug_filename}")
 
     if res.exception:
-        print(f"Annotator failed for {section_path.name}: {res.exception}")
+        print(f"Annotator failed: {res.exception}")
         sys.exit(1)
 
 
     decoded_mentions = res.output
-    output_df = section_df.copy().drop('mention', axis='columns')
+    output_df = document_df.copy().drop('is_section_start', axis='columns')
     output_df['pred'] = ''
 
     for mention in decoded_mentions:
         for k in mention.token_idx:
             output_df.loc[k, 'pred'] = output_df.loc[k, 'pred'] + str(mention)
 
-    output_filename = output_dir / f"{section_path.stem}_processed.tsv"
-    output_df.to_csv(output_filename, sep='\t')
-    print(f"Saved annotations to {output_filename}")
+    output_df.to_csv(output_file, sep='\t')
+    print(f"Saved annotations to {str(output_file)}")
+
+
+
+
 
 
 def main():
     parser = argparse.ArgumentParser(description="Run LLM-based annotation on TSV text sections.")
     parser.add_argument('--input_files', type=Path, nargs='+', required=True, help='List of input TSV files to process.' )
-    parser.add_argument('--output_dir', type=Path, required=True, help='Directory to save output TSV and debug JSON files.' )
+    parser.add_argument('--output_file', type=Path, required=True, help='Directory to save output TSV and debug JSON files.' )
     parser.add_argument('--model', type=str, required=True, help='LLM Model string (e.g., "openai/gpt-4-turbo", "anthropic/claude-3-opus").')
     parser.add_argument('--prompt_type', type=str, default="default", help=f'Key for the prompt class to use. Options: {list(PROMPT_REGISTRY.keys())}' )
     parser.add_argument('-X', '--generation_args', type=str, required=False, action='append', help='Generation arguments.')
     args = parser.parse_args()
 
-    args.output_dir.mkdir(parents=True, exist_ok=True)
+    # args.output_file.parent.mkdir(parents=True, exist_ok=True)
 
     if args.generation_args:
         gen_args = OmegaConf.from_dotlist(args.generation_args or [])
@@ -104,8 +114,7 @@ def main():
         request_args=OmegaConf.to_container(gen_args, resolve=True)
     )
 
-    for input_path in args.input_files:
-        annotate_section(input_path, annotator, prompt_class, args.output_dir)
+    merge_section(args.input_files, annotator, prompt_class, args.output_file)
 
 
 if __name__ == "__main__":
