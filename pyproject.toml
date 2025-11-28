@@ -1,11 +1,12 @@
 [project]
-name = "jcls-coref"
+name = "llm_literary_coref"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "datasets>=4.4.1",
+    "more-itertools>=10.8.0",
     "numpy>=2.3.5",
     "omegaconf>=2.3.0",
     "pandas>=2.3.3",
@@ -13,3 +14,13 @@ dependencies = [
     "torch>=2.9.1",
     "transformers>=4.57.2",
 ]
+
+[tool.uv]
+package = true
+
+[tool.hatch.build.targets.wheel]
+packages = ["llm_literary_coref"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

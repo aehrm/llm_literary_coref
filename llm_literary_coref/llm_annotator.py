@@ -4,8 +4,8 @@ import re
 from dataclasses import dataclass
 from typing import TypeVar, Generic, Optional
 
-from llm_literay_coref.openrouter import make_openrouter_request
-from llm_literay_coref.prompts.prompt import Prompt
+from llm_literary_coref.openrouter import make_openrouter_request
+from llm_literary_coref.prompts.prompt import Prompt
 
 logger = logging.getLogger(__name__)
 

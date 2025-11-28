@@ -6,8 +6,8 @@ from typing import Literal, Optional, List, Tuple, Dict, Generic, TypeVar
 import pandas
 from pydantic import BaseModel, TypeAdapter
 
-from llm_literay_coref.mention import Mention, Entity, Reference
-from llm_literay_coref.prompts.prompt import Prompt, T
+from llm_literary_coref.mention import Mention, Entity, Reference
+from llm_literary_coref.prompts.prompt import Prompt
 
 logger = logging.getLogger(__name__)
 

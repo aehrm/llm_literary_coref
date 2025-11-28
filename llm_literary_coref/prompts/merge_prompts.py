@@ -8,8 +8,8 @@ from typing import List, Tuple, Counter, Dict
 
 import pandas
 
-from llm_literay_coref.mention import Mention, Reference
-from llm_literay_coref.prompts.prompt import Prompt, T
+from llm_literary_coref.mention import Mention, Reference
+from llm_literary_coref.prompts.prompt import Prompt
 
 logger = logging.getLogger(__name__)
 

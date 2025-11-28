@@ -10,7 +10,7 @@ from xml.etree.ElementTree import Element
 import more_itertools
 import pandas
 
-from llm_literay_coref.mention import Entity, Mention, Reference
+from llm_literary_coref.mention import Entity, Mention, Reference
 
 
 def read_entity_table(entity_table: pandas.DataFrame) -> Dict[int, Dict[str, Entity]]:

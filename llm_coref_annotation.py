@@ -8,10 +8,10 @@ import pandas as pd
 
 from omegaconf import OmegaConf
 
-from llm_literay_coref.llm_annotator import LLMRunner
-from llm_literay_coref.mention import Mention
-from llm_literay_coref.prompts.mention_prompts import MentionPromptBasic, MentionPrompt
-from llm_literay_coref.util import JSONEncoder
+from llm_literary_coref.llm_annotator import LLMRunner
+from llm_literary_coref.mention import Mention
+from llm_literary_coref.prompts.mention_prompts import MentionPromptBasic, MentionPrompt
+from llm_literary_coref.util import JSONEncoder
 
 PROMPT_REGISTRY: Dict[str, Type[MentionPrompt]] = {
     "default": MentionPromptBasic,
