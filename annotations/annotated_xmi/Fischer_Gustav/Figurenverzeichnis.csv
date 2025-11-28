@@ -1,0 +1,106 @@
+﻿ID_general;fullname;gender;possible_identity_with;members;members_names;specialcase;borderline_entity;comment_entity;ID_chapter_1;ID_chapter_2;ID_chapter_3;ID_chapter_4;ID_chapter_5;ID_chapter_6
+entity_0001;Herausgeber;u;;;;;;;Herausgeber;;;;;
+entity_0002;Gustav von S.;m;;;;;;;;Gustav;Gustav;Gustav;Gustav;Gustav
+entity_0003;Marie;f;;;;;;;;Marie;Marie;Marie;;Marie
+entity_0004;Heinrich;m;;;;;;;;Heinrich;Heinrich;Heinrich;Heinrich;Heinrich
+entity_0005;Maries Mutter;f;;;;;;;;Maries Begleiterin;Mutter von Marie;;;Maries Mutter
+entity_0006;Gustavs Tante;f;;;;;;;;Tante;Gustavs Tante;;Tante;
+entity_0007;Wirtin;f;;;;;;;;Wirtin;;;;
+entity_0008;Kammerjungfer;f;;;;;;;;Kammerjungfer;;;Röschen;Röschen
+entity_0009;Bote;m;;;;;;;;Bote;;;;
+entity_0010;Pächter;m;;;;;;;;Pächter;;;;
+entity_0011;Ludwig;m;;;;;;;;Ludwig;;;;
+entity_0012;Arzt;m;;;;;;;;Arzt;Arzt;;;Gustavs Arzt
+entity_0013;Chirurg;m;;;;;;;;Chirurg;;;;
+entity_0014;Frau des Pächters;f;;;;;;;;Frau des Pächters;;;;
+entity_0015;Gustavs Vormünder;m;;x;x;group;;;;Gustavs Vormünder;;;;
+entity_0016;Kinder;u;;x;x;group;;;;Kinder;;;;
+entity_0017;Gustavs Eltern;mf;;x;x;group;;;;Gustavs Eltern;;;;
+entity_0018;Sophie;f;;;;;;;;;Sophie;Sophie;;Sophie
+entity_0019;Gustavs Nachbar bei Ball;m;;;;;;;;;Gustavs Nachbar bei Ball;;;
+entity_0020;Freund der Tante;m;;;;;;;;;Freund der Tante;;;
+entity_0021;Hofmeister;m;;;;;;;;;Hofmeister;;;
+entity_0022;eine Frau in Berlin;f;;;;;;;;;eine Frau in Berlin;;;
+entity_0023;Gesellschaft bei Ms.;u;;x;x;group;;;;;Gesellschaft bei Ms.;;;
+entity_0024;Blühende Mädchen bei Ball in Berlin;f;;x;x;group;;;;;Blühende Mädchen bei Ball in Berlin;;;
+entity_0025;Bekannte von Gustav in Berlin;u;;x;x;group;;;;;Bekannte von Gustav in Berlin;;;
+entity_0026;Schöne Frauen bei Ball in Berlin;f;;x;x;group;;;;;Schöne Frauen bei Ball in Berlin;;;
+entity_0027;R. (Sophies Vater);m;;;;;;;;;R. (Sophies Vater);;;
+entity_0028;Bekannte von Gustav in Berlin 2;u;;x;x;group;;;;;Bekannte von Gustav in Berlin 2;;;
+entity_0029;Ms.;f;;;;;;;;;Ms.;;;
+entity_0030;Junge Männer bei Ball in Berlin;m;;x;x;group;;;;;Junge Männer bei Ball in Berlin;;;
+entity_0031;Freundin von Sophie;f;;;;;;;;;Freundin von Sophie;;;
+entity_0032;Junge Leute bei Ball in Berlin;u;;x;x;group;;;;;Junge Leute bei Ball in Berlin;;;
+entity_0033;Bräutigam von Sophie;m;;;;;;;;;Bräutigam von Sophie;;;
+entity_0034;Frauen in Berlin;f;;x;x;group;;;;;Frauen in Berlin 1;;;
+entity_0035;Freunde von Gustav in Berlin;u;;x;x;group;;;;;Freunde von Gustav in Berlin;;;
+entity_0036;Alte Leute bei Ball in Berlin;u;;x;x;group;;;;;Alte Leute bei Ball in Berlin;;;
+entity_0037;Frauen auf dem Ball;f;;x;x;group;;;;;Frauen auf dem Ball;;;
+entity_0038;Menschen die Gustav einladen;u;;x;x;group;;;;;Menschen die Gustav einladen;;;
+entity_0039;Sophies Bedienstete(r);u;;;;;;;;;Sophies Bedienstete(r);;;
+entity_0040;Gräfin B.;f;;;;;;;;;;Gräfin B.;;
+entity_0041;Milly;f;;;;;;;;;;Milly;;
+entity_0042;Robert;m;;;;;;;;;;Robert;;
+entity_0043;Verstorbener Ehemann der Gräfin B.;m;;;;;;;;;;Ehemann der Gräfin B.;;
+entity_0044;Begleiterin der Gräfin;f;;;;;;;;;;Begleiterin der Gräfin;;
+entity_0045;Mädchen mit Laute;f;;;;;;;;;;Mädchen mit Laute;;
+entity_0046;Orchester;u;;x;x;group;;;;;;Orchester;;
+entity_0047;Vater der Gräfin B.;m;;;;;;;;;;Vater der Gräfin B.;;
+entity_0048;sehr vornehmer Besuch;u;;;;;group;nicht klar ob Gruppe oder einzelne Person;;;;sehr vornehmer Besuch;;
+entity_0049;Ankommende Besucher im Schauspielhaus;u;;x;x;group;;;;;;Ankommende Besucher im Schauspielhaus;;
+entity_0050;Mädchen mit Frühstück;f;;;;;;;;;;Mädchen mit Frühstück;;
+entity_0051;Bedienstete der Gräfin B.;u;;entity_0041, entity_0042, entity_0045, entity_0050, entity_0052, x ;Milly, Mädchen mit Frühstück, Mädchen mit Laute, Robert, Kammerdiener der Gräfin, x;group;;;;;;Bedienstete der Gräfin B.;;
+entity_0052;Kammerdiener der Gräfin;m;;;;;;;;;;Kammerdiener der Gräfin;;
+entity_0053;Freunde der Gräfin B.;u;;;x;group;;;;;;Freunde der Gräfin B.;;
+entity_0054;Bekannte der Gräfin B.;u;;;x;group;;;;;;Bekannte der Gräfin B.;;
+entity_0055;Bedienstete des Ehemanns der Gräfin B.;u;;entity_0041, entity_0042, x;Milly, Robert, x;group;;Verstehe es so, dass Milly und Robert schon für Grafen gearbeitet haben;;;;Bedienstete des Ehemanns der Gräfin B.;;
+entity_0056;Wächter der Gräfin;u;;;x;group;;;;;;Wächter der Gräfin;;
+entity_0057;italienische Maler;m;;;x;group;;;;;;italienische Maler;;
+entity_0058;Marquise P.;f;;;;;;;;;;;Marquise P.;
+entity_0059;Friedrich;m;;;;;;;;;;;Friedrich;
+entity_0060;Anton;m;;;;;;;;;;;Anton;
+entity_0061;Greis;m;;;;;;;;;;;Greis;
+entity_0062;Erster Enkel;m;;;;;;;;;;;Erster Enkel;
+entity_0063;Bedienstete;u;;entity_0059, x;Friedrich, x;group;;;;;;;Bedienstete;
+entity_0064;Zweiter Enkel;m;;;;;;;;;;;Zweiter Enkel;
+entity_0065;Sohn des Greises;m;;;;;;;;;;;Sohn des Greises;
+entity_0066;Röschens Vater;m;;;;;;;;;;;Röschens Vater;
+entity_0067;Vierter Enkel;m;;;;;;;;;;;Vierter Enkel;
+entity_0068;Dritter Enkel;m;;;;;;;;;;;Dritter Enkel;
+entity_0069;Fünfter Enkel;m;;;;;;;;;;;Fünfter Enkel;
+entity_0070;Schwiegertochter des Greises;m;;;;;;;;;;;Schwiegertochter des Greises;
+entity_0071;Bedienstete der Marquise;u;;entity_0075, entity_0060, x;Kammerjungfer der Marquise, Anton, x;group;;;;;;;Bedienstete der Marquise;
+entity_0072;ein sehr erfahrener Mann;m;;;;;;;;;;;ein sehr erfahrener Mann;
+entity_0073;Andere Bedienstete außer Friedrich;m;;;x;group;;;;;;;Andere Bedienstete außer Friedrich;
+entity_0074;Raphael;m;;;;;;;;;;;Raphael;
+entity_0075;Kammerjungfer der Marquise;f;;;;;;;;;;;Kammerjungfer der Marquise;
+entity_0076;Gott;u;;;;;;;;;;;Gott;
+entity_0077;Bekannte von Gustav;u;;;x;group;;;;;;;Bekannte von Gustav;
+entity_0078;Arzt der Marquise P.;m;;;;;;;;;;;Arzt der Marquise P.;
+entity_0079;Arbeiter des Sohnes des Greises;m;;;x;group;;;;;;;Arbeiter des Sohnes des Greises;
+entity_0080;Ärzte der Marquise P.;m;;entity_0078, x;Arzt der Marquise P., x;group;;;;;;;Ärzte der Marquise P.;
+entity_0081;von Heinrich geliebte Person;f;;;;nonfact;;;;;;;von Heinrich geliebte Person;
+entity_0082;Frau für Friedrich;f;;;;nonfact;;;;;;;Frau für Friedrich;
+entity_0083;potentieller Mann von Röschen;f;;;;nonfact;;;;;;;potentieller Mann von Röschen;
+entity_0084;Knabe bei dem jungen Weib;m;entity_0089;;;;;Eine Möglichkeit die Leerstellen des Textes auszufüllen ist: Bei dem Kind das Marie besucht handelt es sich um das Kind von Gustav und Röschen. Wenn das so ist könnte man weiter annehmen, dass Heinrich aufgrund seines edlen Charakters das Kind als seines aufgenommen und ausgegeben hat. Die Nachdenklichkeit des ältesten Sohnes an Gustavs Grab und dass gerade dieser sich mit Gustav beschäftigt deutet das ein bisschen an. Auch dass es gerade der Älteste ist... Und dass diese Szene das Ende des Romans ist;;;;;;Kind
+entity_0085;Bediente von Gustav;u;;;x;group;;;;;;;;Bediente von Gustav
+entity_0086;Apoll;m;;;;;;;;;;;;Apoll
+entity_0087;Maries verstorbener Vater;m;;;;;;;;;;;;Maries Vater
+entity_0088;junges Weib;f;;;;;;;;;;;;junges Weib
+entity_0089;Heinrichs und Maries ältester Sohn;m;entity_0084;;;;;Eine Möglichkeit die Leerstellen des Textes auszufüllen ist: Bei dem Kind das Marie besucht handelt es sich um das Kind von Gustav und Röschen. Wenn das so ist könnte man weiter annehmen, dass Heinrich aufgrund seines edlen Charakters das Kind als seines aufgenommen und ausgegeben hat. Die Nachdenklichkeit des ältesten Sohnes an Gustavs Grab und dass gerade dieser sich mit Gustav beschäftigt deutet das ein bisschen an. Auch dass es gerade der Älteste ist... Und dass diese Szene das Ende des Romans ist;;;;;;Heinrichs und Maries ältester Sohn
+entity_0090;Heinrichs und Maries Söhne;m;;entity_0089, entity_0096;Heinrichs und Maries ältester Sohn, Heinrichs und Maries jüngere Söhne;group;;;;;;;;Heinrichs und Maries Söhne
+entity_0091;Fremder;m;;;;;;;;;;;;Fremder
+entity_0092;Heinrichs und Maries Töchter;f;;;x;group;;;;;;;;Heinrichs und Maries Töchter
+entity_0093;Gustavs Neider;m;;;x;group;;;;;;;;Gustavs Neider
+entity_0094;Gustavs Bauern;u;;;x;group;;;;;;;;Gustavs Bauern
+entity_0095;Greis;m;;;;;;;;;;;;Greis
+entity_0096;Heinrichs und Maries jüngere Söhne;m;;;x;group;;;;;;;;Heinrichs und Maries jüngere Söhne
+entity_0097;Hochzeitsgäste;u;;entity_0093, entity_0004, entity_0018, entity_0005, entity_0006, x;Gustavs Neider, Sophie, Heinrich, Maries Mutter, Tante, x;group;members;Maries Mutter und Tante nicht in diesem Kontext erwähnt, aber man würde erwarten, dass sie bei der Hochzeit dabei sind;;;;;;Hochzeitsgäste
+entity_0098;Gellert;m;;;;;;;;;;;;Gellert
+entity_0099;Freunde von Maries Familie in Deutschland;u;;x;x;group;;;;;;;;Freunde von Maries Familie in Deutschland
+entity_0100;Sophies Bruder;m;;;;;;;;;;;;Sophies Bruder
+entity_0101;ein N;m;;;;nonfact;;;;;;;;ein N
+entity_0102;ein Chinese;m;;;;nonfact;;;;;;;;ein Chinese
+entity_0103;ein Grieche;m;;;;nonfact;;;;;;;;ein Grieche
+entity_0104;ein Feuerländer;m;;;;nonfact;;;;;;;;ein Feuerländer
+entity_0105;Heinrichs hypothetischer Zögling;m;;;;nonfact;;;;;;;;Heinrichs hypothetischer Zögling
