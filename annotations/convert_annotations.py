@@ -4,6 +4,7 @@ import itertools
 from pathlib import Path
 from typing import Dict, List, Tuple, Iterator, Optional, Iterable
 from xml.etree import ElementTree
+import re
 
 from xml.etree.ElementTree import Element
 
@@ -17,7 +18,7 @@ def read_entity_table(entity_table: pandas.DataFrame) -> Dict[int, Dict[str, Ent
     def split_fields(s):
         if pandas.isna(s):
             return []
-        return [x.strip() for x in s.split(',') if x.strip() != ""]
+        return re.findall(r'\w+', s)
 
     # verify integrity of ID
     assert entity_table['ID_general'].nunique() == len(entity_table), "ID column is not unique"
@@ -31,7 +32,7 @@ def read_entity_table(entity_table: pandas.DataFrame) -> Dict[int, Dict[str, Ent
         if is_generic_:
             continue
 
-        print(f'warn: entities {', '.join(g["ID_general"])} have same name name {name!r}')
+        print(f'warn: entities {', '.join(g["ID_general"])} have same name {name!r}')
 
 
     all_entities = {}
@@ -64,7 +65,8 @@ def read_entity_table(entity_table: pandas.DataFrame) -> Dict[int, Dict[str, Ent
         if not pandas.isna(possible_identity):
             matches = entity_table[entity_table["ID_general"] == possible_identity]
             if len(matches) == 0:
-                print(f'warn: entity {row["fullname"]}, {row["ID_general"]} has unknown possible_identity_with {row["possible_identity_with"]!r}')
+                print(f'warn: entity {row["fullname"]}, {row["ID_general"]} has unknown possible_identity_with {possible_identity!r}')
+                possible_identity = None
 
         e = Entity(
             id=row['ID_general'],
@@ -148,15 +150,15 @@ def gather_entities(xmi: Element) -> Dict[str, Entity]:
             attribs['specialcase_mention'].remove('generic')
 
         i = i + 1
-        entities[entity_id] = Entity(id=f'figur_{i:03d}',
-                                     gender=attribs['gender'][0],
-                                     possible_identity_with=attribs['possible_identity_with'][0] if len(attribs['possible_identity_with']) > 0 else None,
-                                     members=members if 'group' in attribs['specialcase_entity'] else None,
-                                     all_members_given=all_members_given if 'group' in attribs['specialcase_entity'] else None,
-                                     fullname=entity_id,
-                                     specialcase_entity=attribs['specialcase_entity'],
-                                     borderline_entity=attribs['borderline_entity'],
-                                     )
+        entities[entity_id] = Entity(id=f'figur_{i:04d}',
+             gender=attribs['gender'][0] if len(attribs['gender']) > 0 else 'u',
+             possible_identity_with=attribs['possible_identity_with'][0] if len(attribs['possible_identity_with']) > 0 else None,
+             members=members if 'group' in attribs['specialcase_entity'] else None,
+             all_members_given=all_members_given if 'group' in attribs['specialcase_entity'] else None,
+             fullname=entity_id,
+             specialcase_entity=attribs['specialcase_entity'],
+             borderline_entity=attribs['borderline_entity'],
+        )
 
     return entities
 
@@ -278,7 +280,7 @@ def convert_booklevel_annotations(annotations_dir: Path, source_df: pandas.DataF
 
         all_references.extend(list(
             extract_and_align_references(xmi,
-                                         tokens=chapter['token'],
+                                         tokens=chapter['text'],
                                          generic_entity_factory=generic_entity_factory,
                                          entity_label_map=entity_table[chapter_id])))
 
