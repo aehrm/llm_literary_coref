@@ -1,0 +1,2001 @@
+	i	text	gold
+0	85	Erstes	
+1	86	Buch	
+2	87	Erstes	
+3	88	Kapitel	
+4	89	Ich	(mention_id=1|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+5	90	war	
+6	91	achtzehn	
+7	92	Jahr	
+8	93	alt	
+9	94	,	
+10	95	und	
+11	96	die	
+12	97	ganze	
+13	98	Welt	
+14	99	lag	
+15	100	wie	
+16	101	ein	
+17	102	Paradies	
+18	103	vor	
+19	104	mir	(mention_id=2|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+20	105	.	
+21	106	Meine	(mention_id=3|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+22	107	Familie	
+23	108	,	
+24	109	meine	(mention_id=4|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+25	110	Figur	
+26	111	,	
+27	112	mein	(mention_id=5|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+28	113	Vermögen	
+29	114	,	
+30	115	alles	
+31	116	versprach	
+32	117	mir	(mention_id=6|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+33	118	die	
+34	119	glänzendsten	
+35	120	Aussichten	
+36	121	.	
+37	122	Meine	(mention_id=7|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+38	123	Aeltern	(mention_id=8|references=(entity=(entity_id=figur_005|fullname=Gustavs Eltern|gender=mf|specialcase_entity=group)))
+39	124	waren	
+40	125	sehr	
+41	126	frühzeitig	
+42	127	gestorben	
+43	128	,	
+44	129	und	
+45	130	ich	(mention_id=9|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+46	131	wurde	
+47	132	bey	
+48	133	einer	
+49	134	Tante	(mention_id=10|references=(entity=(entity_id=figur_011|fullname=Tante|gender=f)))
+50	135	erzogen	
+51	136	.	
+52	137	Sie	(mention_id=11|references=(entity=(entity_id=figur_011|fullname=Tante|gender=f)))
+53	138	war	
+54	139	seit	
+55	140	vielen	
+56	141	Jahren	
+57	142	Wittwe	(mention_id=12|references=(entity=(entity_id=figur_011|fullname=Tante|gender=f)))
+58	143	und	
+59	144	außerordentlich	
+60	145	reich	
+61	146	.	
+62	147	Meine	(mention_id=13|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+63	148	Vormünder	(mention_id=14|references=(entity=(entity_id=figur_006|fullname=Gustavs Vormünder|gender=m|specialcase_entity=group)))
+64	149	hatten	
+65	150	mich	(mention_id=15|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+66	151	ihr	(mention_id=16|references=(entity=(entity_id=figur_011|fullname=Tante|gender=f)))
+67	152	gänzlich	
+68	153	überlassen	
+69	154	,	
+70	155	und	
+71	156	sie	(mention_id=17|references=(entity=(entity_id=figur_011|fullname=Tante|gender=f)))
+72	157	machte	
+73	158	ihren	(mention_id=18|references=(entity=(entity_id=figur_011|fullname=Tante|gender=f)))
+74	159	Abgott	(mention_id=19|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+75	160	aus	
+76	161	mir	(mention_id=20|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+77	162	.	
+78	163	Meine	(mention_id=21|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+79	164	Figur	
+80	165	war	
+81	166	bezaubernd	
+82	167	,	
+83	168	und	
+84	169	ich	(mention_id=22|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+85	170	floß	
+86	171	von	
+87	172	Gesundheit	
+88	173	über	
+89	174	.	
+90	175	Ich	(mention_id=23|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+91	176	schien	
+92	177	alle	
+93	178	Reitze	
+94	179	der	
+95	180	Jugend	
+96	181	und	
+97	182	die	
+98	183	ganze	
+99	184	Kraft	
+100	185	eines	
+101	186	Mannes	(mention_id=24|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+102	187	zu	
+103	188	haben	
+104	189	.	
+105	190	Aber	
+106	191	mein	(mention_id=25|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+107	192	Temperament	
+108	193	war	
+109	194	noch	
+110	195	unentwickelt	
+111	196	,	
+112	197	und	
+113	198	ein	
+114	199	rasches	
+115	200	Pferd	
+116	201	war	
+117	202	mir	(mention_id=26|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+118	203	lieber	
+119	204	,	
+120	205	als	
+121	206	alle	
+122	207	Mädchen	(mention_id=27|references=(entity=(entity_id=generic_0001|fullname=generic_0001|gender=u|specialcase_entity=generic)))
+123	208	in	
+124	209	der	
+125	210	Welt	
+126	211	.	
+127	212	Doch	
+128	213	die	
+129	214	Natur	
+130	215	blieb	
+131	216	ihrem	
+132	217	Plane	
+133	218	getreu	
+134	219	,	
+135	220	und	
+136	221	mein	(mention_id=28|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+137	222	ganzes	
+138	223	Wesen	
+139	224	verwandelte	
+140	225	sich	
+141	226	.	
+142	227	Ein	
+143	228	neues	
+144	229	Blut	
+145	230	schien	
+146	231	meine	(mention_id=29|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+147	232	Adern	
+148	233	zu	
+149	234	durchströhmen	
+150	235	,	
+151	236	ein	
+152	237	neues	
+153	238	Herz	
+154	239	in	
+155	240	meiner	(mention_id=30|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+156	241	Brust	
+157	242	zu	
+158	243	klopfen	
+159	244	.	
+160	245	Alle	
+161	246	Bilder	
+162	247	des	
+163	248	Lebens	
+164	249	schienen	
+165	250	mir	(mention_id=31|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+166	251	gleichsam	
+167	252	aus	
+168	253	der	
+169	254	Dämmerung	
+170	255	hervorzutreten	
+171	256	,	
+172	257	und	
+173	258	eine	
+174	259	Menge	
+175	260	unbekannter	
+176	261	Empfindungen	
+177	262	wachten	
+178	263	plötzlich	
+179	264	in	
+180	265	meiner	(mention_id=32|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+181	266	Seele	
+182	267	auf	
+183	268	.	
+184	269	Ohne	
+185	270	zu	
+186	271	wissen	
+187	272	,	
+188	273	was	
+189	274	mir	(mention_id=33|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+190	275	fehlte	
+191	276	,	
+192	277	fing	
+193	278	ich	(mention_id=34|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+194	279	an	
+195	280	eine	
+196	281	Leere	
+197	282	,	
+198	283	eine	
+199	284	Unruhe	
+200	285	,	
+201	286	eine	
+202	287	Sehnsucht	
+203	288	zu	
+204	289	fühlen	
+205	290	,	
+206	291	die	
+207	292	mich	(mention_id=35|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+208	293	unglücklich	
+209	294	machte	
+210	295	.	
+211	296	Alle	
+212	297	meine	(mention_id=36|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+213	298	vorigen	
+214	299	Beschäftigungen	
+215	300	,	
+216	301	alle	
+217	302	meine	(mention_id=37|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+218	303	bisherigen	
+219	304	Vergnügungen	
+220	305	konnten	
+221	306	mich	(mention_id=38|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+222	307	nicht	
+223	308	mehr	
+224	309	befriedigen	
+225	310	.	
+226	311	Alle	
+227	312	meine	(mention_id=39|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+228	313	Gedanken	
+229	314	und	
+230	315	Empfindungen	
+231	316	schienen	
+232	317	einem	
+233	318	geheimnißvollen	
+234	319	Ziele	
+235	320	zuzufliegen	
+236	321	,	
+237	322	und	
+238	323	alle	
+239	324	Pulse	
+240	325	meines	(mention_id=40|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+241	326	Körpers	
+242	327	klopften	
+243	328	demselben	
+244	329	mit	
+245	330	Ungeduld	
+246	331	entgegen	
+247	332	.	
+248	333	Plötzlich	
+249	334	fingen	
+250	335	die	
+251	336	Weiber	(mention_id=41|references=(entity=(entity_id=generic_0002|fullname=generic_0002|gender=u|specialcase_entity=generic)))
+252	337	an	
+253	338	mir	(mention_id=42|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+254	339	interessant	
+255	340	zu	
+256	341	werden	
+257	342	,	
+258	343	und	
+259	344	es	
+260	345	bedurfte	
+261	346	nur	
+262	347	eines	
+263	348	Gegenstandes	
+264	349	,	
+265	350	um	
+266	351	diese	
+267	352	unbestimmte	
+268	353	Neigung	
+269	354	zu	
+270	355	entwickeln	
+271	356	.	
+272	357	Zweytes	
+273	358	Kapitel	
+274	359	Der	
+275	360	glückliche	
+276	361	Zeitpunkt	
+277	362	war	
+278	363	näher	
+279	364	,	
+280	365	als	
+281	366	ich	(mention_id=43|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+282	367	dachte	
+283	368	.	
+284	369	Eine	
+285	370	halbe	
+286	371	Stunde	
+287	372	von	
+288	373	unserm	(mention_id=44|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)),(entity=(entity_id=figur_011|fullname=Tante|gender=f)))
+289	374	Guthe	
+290	375	lag	
+291	376	ein	
+292	377	Städtchen	
+293	378	,	
+294	379	das	
+295	380	von	
+296	381	jeher	
+297	382	sehr	
+298	383	viel	
+299	384	Anziehendes	
+300	385	für	
+301	386	mich	(mention_id=45|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+302	387	gehabt	
+303	388	hatte	
+304	389	.	
+305	390	Oft	
+306	391	fand	
+307	392	ich	(mention_id=46|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+308	393	mich	(mention_id=47|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+309	394	mitten	
+310	395	zwischen	
+311	396	den	
+312	397	kleinen	
+313	398	reinlichen	
+314	399	Häusern	
+315	400	,	
+316	401	ohne	
+317	402	zu	
+318	403	wissen	
+319	404	,	
+320	405	wie	
+321	406	ich	(mention_id=48|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+322	407	dahin	
+323	408	gekommen	
+324	409	war	
+325	410	.	
+326	411	Träumend	
+327	412	ging	
+328	413	ich	(mention_id=49|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+329	414	dann	
+330	415	in	
+331	416	den	
+332	417	Gasthof	
+333	418	,	
+334	419	ließ	
+335	420	mein	(mention_id=50|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+336	421	Essen	
+337	422	unter	
+338	423	die	
+339	424	große	
+340	425	Linde	
+341	426	bringen	
+342	427	,	
+343	428	und	
+344	429	bezahlte	
+345	430	der	
+346	431	dicken	
+347	432	Wirthin	(mention_id=51|references=(entity=(entity_id=figur_012|fullname=Wirtin|gender=f)))
+348	433	gern	
+349	434	die	
+350	435	doppelte	
+351	436	Zeche	
+352	437	;	
+353	438	wenn	
+354	439	sie	(mention_id=52|references=(entity=(entity_id=figur_012|fullname=Wirtin|gender=f)))
+355	440	mir	(mention_id=53|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+356	441	nur	
+357	442	erlaubte	
+358	443	,	
+359	444	so	
+360	445	wenig	
+361	446	als	
+362	447	möglich	
+363	448	auf	
+364	449	ihr	(mention_id=54|references=(entity=(entity_id=figur_012|fullname=Wirtin|gender=f)))
+365	450	Geschwätz	
+366	451	zu	
+367	452	antworten	
+368	453	.	
+369	454	Nein	
+370	455	,	
+371	456	man	
+372	457	sage	
+373	458	,	
+374	459	was	
+375	460	man	
+376	461	wolle	
+377	462	!	
+378	463	es	
+379	464	giebt	
+380	465	Ahnungen	
+381	466	.	
+382	467	–	
+383	468	Unter	
+384	469	dieser	
+385	470	Linde	
+386	471	....	
+387	472	doch	
+388	473	welch	
+389	474	eine	
+390	475	Ausschweifung	
+391	476	!	
+392	477	Zurück	
+393	478	:	
+394	479	zu	
+395	480	dem	
+396	481	schönsten	
+397	482	Abende	
+398	483	meines	(mention_id=55|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+399	484	Lebens	
+400	485	!	
+401	486	Es	
+402	487	war	
+403	488	ein	
+404	489	Mayabend	
+405	490	.	
+406	491	Ich	(mention_id=56|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+407	492	drängte	
+408	493	mich	(mention_id=57|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+409	494	mit	
+410	495	meinem	(mention_id=58|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+411	496	Pferde	
+412	497	durch	
+413	498	duftende	
+414	499	Hecken	
+415	500	,	
+416	501	und	
+417	502	jeder	
+418	503	Athemzug	
+419	504	vermehrte	
+420	505	die	
+421	506	Lebensfülle	
+422	507	,	
+423	508	die	
+424	509	meine	(mention_id=59|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+425	510	Brust	
+426	511	mit	
+427	512	schmerzhaftem	
+428	513	Entzücken	
+429	514	hob	
+430	515	.	
+431	516	Achtzehn	
+432	517	Jahre	
+433	518	und	
+434	519	der	
+435	520	May	
+436	521	!	
+437	522	–	
+438	523	was	
+439	524	brauche	
+440	525	ich	(mention_id=60|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+441	526	mehr	
+442	527	zu	
+443	528	sagen	
+444	529	?	
+445	530	–	
+446	531	–	
+447	532	Schon	
+448	533	erblickte	
+449	534	ich	(mention_id=61|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+450	535	die	
+451	536	Linde	
+452	537	;	
+453	538	aber	
+454	539	es	
+455	540	war	
+456	541	nicht	
+457	542	mehr	
+458	543	die	
+459	544	sehnsüchtige	
+460	545	Träumerey	
+461	546	,	
+462	547	die	
+463	548	mich	(mention_id=62|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+464	549	vormals	
+465	550	bey	
+466	551	ihrem	
+467	552	Anblicke	
+468	553	ergriff	
+469	554	.	
+470	555	Ich	(mention_id=63|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+471	556	zitterte	
+472	557	vor	
+473	558	brennender	
+474	559	Ungeduld	
+475	560	,	
+476	561	und	
+477	562	sprengte	
+478	563	mit	
+479	564	dem	
+480	565	heftigsten	
+481	566	Galloppe	
+482	567	in	
+483	568	den	
+484	569	Gasthof	
+485	570	hinein	
+486	571	.	
+487	572	Da	
+488	573	flohen	
+489	574	zwey	
+490	575	weiße	
+491	576	Gestalten	(mention_id=64|references=(entity=(entity_id=figur_009|fullname=Marie|gender=f)),(entity=(entity_id=figur_010|fullname=Maries Begleiterin|gender=f)))
+492	577	vor	
+493	578	mir	(mention_id=65|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+494	579	auf	
+495	580	die	
+496	581	Wiese	
+497	582	.	
+498	583	Die	
+499	584	letzte	(mention_id=66|references=(entity=(entity_id=figur_009|fullname=Marie|gender=f)))
+500	585	schlug	
+501	586	die	
+502	587	kleine	
+503	588	Gatterthüre	
+504	589	schnell	
+505	590	hinter	
+506	591	sich	(mention_id=67|references=(entity=(entity_id=figur_009|fullname=Marie|gender=f)))
+507	592	zu	
+508	593	–	
+509	594	aber	
+510	595	wie	
+511	596	glücklich	
+512	597	!	
+513	598	ihr	(mention_id=68|references=(entity=(entity_id=figur_009|fullname=Marie|gender=f)))
+514	599	Kleid	
+515	600	ward	
+516	601	von	
+517	602	der	
+518	603	Thüre	
+519	604	festgehalten	
+520	605	.	
+521	606	»	
+522	607	Ach	
+523	608	!	
+524	609	«	
+525	610	rief	
+526	611	sie	(mention_id=69|references=(entity=(entity_id=figur_009|fullname=Marie|gender=f)))
+527	612	–	
+528	613	und	
+529	614	ein	
+530	615	Engelgesicht	
+531	616	strahlte	
+532	617	mir	(mention_id=70|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+533	618	entgegen	
+534	619	.	
+535	620	»	
+536	621	Ach	
+537	622	!	
+538	623	«	
+539	624	–	
+540	625	rief	
+541	626	ich	(mention_id=71|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+542	627	–	
+543	628	und	
+544	629	der	
+545	630	Zügel	
+546	631	sank	
+547	632	mir	(mention_id=72|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+548	633	aus	
+549	634	der	
+550	635	Hand	
+551	636	.	
+552	637	Ich	(mention_id=73|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+553	638	vergaß	
+554	639	ihr	(mention_id=74|references=(entity=(entity_id=figur_009|fullname=Marie|gender=f)))
+555	640	zu	
+556	641	helfen	
+557	642	,	
+558	643	und	
+559	644	sie	(mention_id=75|references=(entity=(entity_id=figur_009|fullname=Marie|gender=f)))
+560	645	vergaß	
+561	646	ihr	(mention_id=76|references=(entity=(entity_id=figur_009|fullname=Marie|gender=f)))
+562	647	Kleid	
+563	648	,	
+564	649	vergaß	
+565	650	,	
+566	651	daß	
+567	652	sie	(mention_id=77|references=(entity=(entity_id=figur_009|fullname=Marie|gender=f)))
+568	653	fliehen	
+569	654	wollte	
+570	655	.	
+571	656	–	
+572	657	Endlich	
+573	658	erwachte	
+574	659	ich	(mention_id=78|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+575	660	,	
+576	661	sprang	
+577	662	vom	
+578	663	Pferde	
+579	664	und	
+580	665	eilte	
+581	666	die	
+582	667	Thür	
+583	668	zu	
+584	669	öffnen	
+585	670	.	
+586	671	Sie	(mention_id=79|references=(entity=(entity_id=figur_009|fullname=Marie|gender=f)))
+587	672	stammelte	
+588	673	etwas	
+589	674	von	
+590	675	Dank	
+591	676	und	
+592	677	erröthete	
+593	678	.	
+594	679	Ohne	
+595	680	zu	
+596	681	wissen	
+597	682	,	
+598	683	was	
+599	684	ich	(mention_id=80|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+600	685	that	
+601	686	,	
+602	687	drückte	
+603	688	ich	(mention_id=81|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+604	689	einen	
+605	690	brennenden	
+606	691	Kuß	
+607	692	auf	
+608	693	das	
+609	694	Kleid	
+610	695	,	
+611	696	aber	
+612	697	plötzlich	
+613	698	fühlte	
+614	699	ich	(mention_id=82|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+615	700	es	
+616	701	von	
+617	702	meinen	(mention_id=83|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+618	703	Lipven	
+619	704	entfliehen	
+620	705	,	
+621	706	und	
+622	707	als	
+623	708	ich	(mention_id=84|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+624	709	wieder	
+625	710	aufblickte	
+626	711	,	
+627	712	war	
+628	713	auch	
+629	714	sie	(mention_id=85|references=(entity=(entity_id=figur_009|fullname=Marie|gender=f)))
+630	715	verschwunden	
+631	716	.	
+632	717	Drittes	
+633	718	Kapitel	
+634	719	»	
+635	720	Wo	
+636	721	bleibst	
+637	722	du	(mention_id=86|references=(entity=(entity_id=figur_009|fullname=Marie|gender=f)))
+638	723	denn	
+639	724	Marie	(mention_id=87|references=(entity=(entity_id=figur_009|fullname=Marie|gender=f)))
+640	725	?	
+641	726	«	
+642	727	–	
+643	728	rief	
+644	729	eine	
+645	730	Stimme	(mention_id=88|references=(entity=(entity_id=figur_010|fullname=Maries Begleiterin|gender=f)|specialcase_reference=part))
+646	731	hinter	
+647	732	der	
+648	733	Laube	
+649	734	–	
+650	735	»	
+651	736	Marie	(mention_id=89|references=(entity=(entity_id=figur_009|fullname=Marie|gender=f)))
+652	737	!	
+653	738	«	
+654	739	–	
+655	740	wiederholte	
+656	741	ich	(mention_id=90|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+657	742	–	
+658	743	und	
+659	744	streckte	
+660	745	meine	(mention_id=91|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+661	746	Arme	
+662	747	sehnsuchtsvoll	
+663	748	nach	
+664	749	der	
+665	750	Laube	
+666	751	aus	
+667	752	.	
+668	753	Aber	
+669	754	wie	
+670	755	?	
+671	756	sah	
+672	757	,	
+673	758	hörte	
+674	759	mich	(mention_id=92|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+675	760	auch	
+676	761	jemand	
+677	762	?	
+678	763	–	
+679	764	der	
+680	765	Gedanke	
+681	766	trieb	
+682	767	mir	(mention_id=93|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+683	768	alles	
+684	769	Blut	
+685	770	in	
+686	771	die	
+687	772	Wangen	
+688	773	,	
+689	774	ich	(mention_id=94|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+690	775	hatte	
+691	776	nicht	
+692	777	den	
+693	778	Muth	
+694	779	der	
+695	780	Stimme	(mention_id=95|references=(entity=(entity_id=figur_010|fullname=Maries Begleiterin|gender=f)|specialcase_reference=part))
+696	781	zu	
+697	782	folgen	
+698	783	,	
+699	784	und	
+700	785	schlich	
+701	786	träumend	
+702	787	zu	
+703	788	meiner	(mention_id=96|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+704	789	Linde	
+705	790	zurück	
+706	791	.	
+707	792	Die	
+708	793	dicke	
+709	794	Wirthin	(mention_id=97|references=(entity=(entity_id=figur_012|fullname=Wirtin|gender=f)))
+710	795	hatte	
+711	796	mich	(mention_id=98|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+712	797	schon	
+713	798	erwartet	
+714	799	und	
+715	800	kreischte	
+716	801	mir	(mention_id=99|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+717	802	nun	
+718	803	zärtliche	
+719	804	Vorwürfe	
+720	805	wegen	
+721	806	meines	(mention_id=100|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+722	807	schnellen	
+723	808	Reitens	
+724	809	entgegen	
+725	810	.	
+726	811	Aber	
+727	812	ob	
+728	813	ich	(mention_id=101|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+729	814	mich	(mention_id=102|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+730	815	gleich	
+731	816	dem	
+732	817	Streicheln	
+733	818	ihrer	(mention_id=103|references=(entity=(entity_id=figur_012|fullname=Wirtin|gender=f)))
+734	819	unsaubern	
+735	820	Hände	
+736	821	Preis	
+737	822	gab	
+738	823	;	
+739	824	so	
+740	825	konnte	
+741	826	ich	(mention_id=104|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+742	827	doch	
+743	828	keine	
+744	829	befriedigende	
+745	830	Nachricht	
+746	831	wegen	
+747	832	der	
+748	833	Frauenzimmer	(mention_id=105|references=(entity=(entity_id=figur_009|fullname=Marie|gender=f)),(entity=(entity_id=figur_010|fullname=Maries Begleiterin|gender=f)))
+749	834	von	
+750	835	ihr	(mention_id=106|references=(entity=(entity_id=figur_012|fullname=Wirtin|gender=f)))
+751	836	erhalten	
+752	837	.	
+753	838	Im	
+754	839	Gegentheil	
+755	840	klagte	
+756	841	sie	(mention_id=107|references=(entity=(entity_id=figur_012|fullname=Wirtin|gender=f)))
+757	842	sehr	
+758	843	bitter	
+759	844	über	
+760	845	ihr	(mention_id=108|references=(entity=(entity_id=figur_009|fullname=Marie|gender=f)),(entity=(entity_id=figur_010|fullname=Maries Begleiterin|gender=f)))
+761	846	geheimnißvolles	
+762	847	Wesen	
+763	848	,	
+764	849	und	
+765	850	meinte	
+766	851	:	
+767	852	es	
+768	853	müsse	
+769	854	–	
+770	855	da	
+771	856	sie	(mention_id=109|references=(entity=(entity_id=figur_010|fullname=Maries Begleiterin|gender=f)),(entity=(entity_id=figur_009|fullname=Marie|gender=f)))
+772	857	eine	
+773	858	Wohnung	
+774	859	auf	
+775	860	dem	
+776	861	Lande	
+777	862	suchten	
+778	863	–	
+779	864	mit	
+780	865	ihrem	(mention_id=110|references=(entity=(entity_id=figur_010|fullname=Maries Begleiterin|gender=f)),(entity=(entity_id=figur_009|fullname=Marie|gender=f)))
+781	866	Stande	
+782	867	wohl	
+783	868	nicht	
+784	869	viel	
+785	870	zu	
+786	871	bedeuten	
+787	872	haben	
+788	873	.	
+789	874	–	
+790	875	»	
+791	876	Auf	
+792	877	dem	
+793	878	Lande	
+794	879	!	
+795	880	«	
+796	881	–	
+797	882	wiederholte	
+798	883	ich	(mention_id=111|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+799	884	,	
+800	885	und	
+801	886	plötzlich	
+802	887	keimte	
+803	888	in	
+804	889	meinem	(mention_id=112|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+805	890	Herzen	
+806	891	die	
+807	892	Hoffnung	
+808	893	auf	
+809	894	.	
+810	895	Entzückt	
+811	896	überließ	
+812	897	ich	(mention_id=113|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+813	898	mich	(mention_id=114|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+814	899	diesem	
+815	900	Gedanken	
+816	901	,	
+817	902	und	
+818	903	hörte	
+819	904	nicht	
+820	905	mehr	
+821	906	auf	
+822	907	das	
+823	908	Geschwätz	
+824	909	der	
+825	910	Wirthin	(mention_id=115|references=(entity=(entity_id=figur_012|fullname=Wirtin|gender=f)))
+826	911	.	
+827	912	Sie	(mention_id=116|references=(entity=(entity_id=figur_012|fullname=Wirtin|gender=f)))
+828	913	begriff	
+829	914	endlich	
+830	915	,	
+831	916	daß	
+832	917	sie	(mention_id=117|references=(entity=(entity_id=figur_012|fullname=Wirtin|gender=f)))
+833	918	keine	
+834	919	Antwort	
+835	920	mehr	
+836	921	von	
+837	922	mir	(mention_id=118|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+838	923	erwarten	
+839	924	konnte	
+840	925	,	
+841	926	und	
+842	927	ließ	
+843	928	mich	(mention_id=119|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+844	929	nun	
+845	930	mit	
+846	931	meinen	(mention_id=120|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+847	932	Plänen	
+848	933	allein	
+849	934	.	
+850	935	Mit	
+851	936	welchen	
+852	937	Plänen	
+853	938	!	
+854	939	es	
+855	940	galt	
+856	941	nichts	
+857	942	Geringeres	
+858	943	als	
+859	944	Marien	(mention_id=121|references=(entity=(entity_id=figur_009|fullname=Marie|gender=f)))
+860	945	die	
+861	946	Wohnung	
+862	947	meiner	(mention_id=122|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+863	948	Tante	(mention_id=123|references=(entity=(entity_id=figur_011|fullname=Tante|gender=f)))
+864	949	anzubieten	
+865	950	.	
+866	951	Aber	
+867	952	wie	
+868	953	?	
+869	954	–	
+870	955	durch	
+871	956	wen	
+872	957	?	
+873	958	–	
+874	959	nun	
+875	960	durch	
+876	961	wen	
+877	962	anders	
+878	963	als	
+879	964	durch	
+880	965	mich	(mention_id=124|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+881	966	selbst	
+882	967	?	
+883	968	–	
+884	969	war	
+885	970	ich	(mention_id=125|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+886	971	nicht	
+887	972	schön	
+888	973	und	
+889	974	liebenswürdig	
+890	975	?	
+891	976	sagte	
+892	977	mir	(mention_id=126|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+893	978	meine	(mention_id=127|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+894	979	Tante	(mention_id=128|references=(entity=(entity_id=figur_011|fullname=Tante|gender=f)))
+895	980	das	
+896	981	nicht	
+897	982	täglich	
+898	983	?	
+899	984	–	
+900	985	hatten	
+901	986	es	
+902	987	mir	(mention_id=129|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+903	988	die	
+904	989	Blicke	
+905	990	der	
+906	991	Mädchen	(mention_id=130|references=(entity=(entity_id=generic_0003|fullname=generic_0003|gender=u|specialcase_entity=generic)))
+907	992	nicht	
+908	993	oft	
+909	994	genug	
+910	995	wiederholt	
+911	996	?	
+912	997	und	
+913	998	mußte	
+914	999	ich	(mention_id=131|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+915	1000	nicht	
+916	1001	auf	
+917	1002	Marien	(mention_id=132|references=(entity=(entity_id=figur_009|fullname=Marie|gender=f)))
+918	1003	selbst	
+919	1004	einen	
+920	1005	vortheilhaften	
+921	1006	Eindruck	
+922	1007	gemacht	
+923	1008	haben	
+924	1009	?	
+925	1010	–	
+926	1011	Es	
+927	1012	war	
+928	1013	beschlossen	
+929	1014	:	
+930	1015	ich	(mention_id=133|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+931	1016	wollte	
+932	1017	sie	(mention_id=134|references=(entity=(entity_id=figur_009|fullname=Marie|gender=f)))
+933	1018	aufsuchen	
+934	1019	,	
+935	1020	und	
+936	1021	–	
+937	1022	im	
+938	1023	Fall	
+939	1024	ich	(mention_id=135|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+940	1025	sie	(mention_id=136|references=(entity=(entity_id=figur_009|fullname=Marie|gender=f)))
+941	1026	nicht	
+942	1027	fände	
+943	1028	–	
+944	1029	sie	(mention_id=137|references=(entity=(entity_id=figur_009|fullname=Marie|gender=f)))
+945	1030	zu	
+946	1031	sprechen	
+947	1032	verlangen	
+948	1033	.	
+949	1034	Viertes	
+950	1035	Kapitel	
+951	1036	»	
+952	1037	Es	
+953	1038	kann	
+954	1039	nicht	
+955	1040	fehlen	
+956	1041	!	
+957	1042	«	
+958	1043	–	
+959	1044	sagte	
+960	1045	ich	(mention_id=138|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+961	1046	–	
+962	1047	und	
+963	1048	eilte	
+964	1049	im	
+965	1050	Fluge	
+966	1051	auf	
+967	1052	die	
+968	1053	Wiese	
+969	1054	.	
+970	1055	Aber	
+971	1056	wo	
+972	1057	blieb	
+973	1058	mein	(mention_id=139|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+974	1059	Muth	
+975	1060	und	
+976	1061	meine	(mention_id=140|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+977	1062	Selbstgenügsamkeit	
+978	1063	als	
+979	1064	mir	(mention_id=141|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+980	1065	die	
+981	1066	Graziengestalt	(mention_id=142|references=(entity=(entity_id=figur_009|fullname=Marie|gender=f)|specialcase_reference=part))
+982	1067	entgegen	
+983	1068	kam	
+984	1069	!	
+985	1070	–	
+986	1071	ich	(mention_id=143|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+987	1072	zitterte	
+988	1073	so	
+989	1074	heftig	
+990	1075	,	
+991	1076	daß	
+992	1077	ich	(mention_id=144|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+993	1078	genöthigt	
+994	1079	war	
+995	1080	,	
+996	1081	mich	(mention_id=145|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+997	1082	an	
+998	1083	einen	
+999	1084	Baum	
+1000	1085	zu	
+1001	1086	lehnen	
+1002	1087	;	
+1003	1088	und	
+1004	1089	so	
+1005	1090	,	
+1006	1091	mit	
+1007	1092	dem	
+1008	1093	Huthe	
+1009	1094	in	
+1010	1095	der	
+1011	1096	Hand	
+1012	1097	,	
+1013	1098	in	
+1014	1099	der	
+1015	1100	Stellung	
+1016	1101	eines	
+1017	1102	demüthig	
+1018	1103	Bittenden	(mention_id=146|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+1019	1104	,	
+1020	1105	erwartete	
+1021	1106	ich	(mention_id=147|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+1022	1107	sie	(mention_id=148|references=(entity=(entity_id=figur_009|fullname=Marie|gender=f)))
+1023	1108	.	
+1024	1109	Was	
+1025	1110	ich	(mention_id=149|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+1026	1111	sagte	
+1027	1112	?	
+1028	1113	was	
+1029	1114	man	
+1030	1115	mir	(mention_id=150|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+1031	1116	antwortete	
+1032	1117	?	
+1033	1118	in	
+1034	1119	der	
+1035	1120	That	
+1036	1121	,	
+1037	1122	ich	(mention_id=151|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+1038	1123	weiß	
+1039	1124	es	
+1040	1125	nicht	
+1041	1126	mehr	
+1042	1127	.	
+1043	1128	Ich	(mention_id=152|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+1044	1129	fand	
+1045	1130	mich	(mention_id=153|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+1046	1131	mit	
+1047	1132	einem	
+1048	1133	Mahle	
+1049	1134	unter	
+1050	1135	der	
+1051	1136	Linde	
+1052	1137	,	
+1053	1138	Marien	(mention_id=154|references=(entity=(entity_id=figur_009|fullname=Marie|gender=f)))
+1054	1139	gegenüber	
+1055	1140	.	
+1056	1141	Freilich	
+1057	1142	ward	
+1058	1143	mein	(mention_id=155|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+1059	1144	Antrag	
+1060	1145	verworfen	
+1061	1146	,	
+1062	1147	freilich	
+1063	1148	ahnete	
+1064	1149	ich	(mention_id=156|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+1065	1150	den	
+1066	1151	Schmerz	
+1067	1152	,	
+1068	1153	der	
+1069	1154	meiner	(mention_id=157|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+1070	1155	wartete	
+1071	1156	:	
+1072	1157	aber	
+1073	1158	voll	
+1074	1159	seeliger	
+1075	1160	Trunkenheit	
+1076	1161	in	
+1077	1162	Mariens	(mention_id=158|references=(entity=(entity_id=figur_009|fullname=Marie|gender=f)))
+1078	1163	Nähe	
+1079	1164	,	
+1080	1165	wie	
+1081	1166	hätte	
+1082	1167	eine	
+1083	1168	unangenehme	
+1084	1169	Empfindung	
+1085	1170	die	
+1086	1171	herrschende	
+1087	1172	bey	
+1088	1173	mir	(mention_id=159|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+1089	1174	werden	
+1090	1175	können	
+1091	1176	!	
+1092	1177	–	
+1093	1178	Aber	
+1094	1179	jetzt	
+1095	1180	stand	
+1096	1181	Marie	(mention_id=160|references=(entity=(entity_id=figur_009|fullname=Marie|gender=f)))
+1097	1182	auf	
+1098	1183	.	
+1099	1184	»	
+1100	1185	Du	(mention_id=161|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+1101	1186	siehst	
+1102	1187	sie	(mention_id=162|references=(entity=(entity_id=figur_009|fullname=Marie|gender=f)))
+1103	1188	nicht	
+1104	1189	wieder	
+1105	1190	«	
+1106	1191	–	
+1107	1192	dachte	
+1108	1193	ich	
+1109	1194	,	
+1110	1195	und	
+1111	1196	mein	(mention_id=163|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+1112	1197	Rausch	
+1113	1198	war	
+1114	1199	verschwunden	
+1115	1200	.	
+1116	1201	–	
+1117	1202	Mit	
+1118	1203	dem	
+1119	1204	äußersten	
+1120	1205	Ungestüm	
+1121	1206	,	
+1122	1207	die	
+1123	1208	Augen	
+1124	1209	unverwandt	
+1125	1210	auf	
+1126	1211	Marien	(mention_id=164|references=(entity=(entity_id=figur_009|fullname=Marie|gender=f)))
+1127	1212	–	
+1128	1213	als	
+1129	1214	wollte	
+1130	1215	ich	(mention_id=165|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+1131	1216	sie	(mention_id=166|references=(entity=(entity_id=figur_009|fullname=Marie|gender=f)))
+1132	1217	damit	
+1133	1218	festhalten	
+1134	1219	–	
+1135	1220	gerichtet	
+1136	1221	,	
+1137	1222	ergriff	
+1138	1223	ich	(mention_id=167|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+1139	1224	die	
+1140	1225	Hand	
+1141	1226	ihrer	(mention_id=168|references=(entity=(entity_id=figur_009|fullname=Marie|gender=f)))
+1142	1227	Begleiterinn	(mention_id=169|references=(entity=(entity_id=figur_010|fullname=Maries Begleiterin|gender=f)))
+1143	1228	.	
+1144	1229	»	
+1145	1230	Wäre	
+1146	1231	es	
+1147	1232	möglich	
+1148	1233	Madam	(mention_id=170|references=(entity=(entity_id=figur_010|fullname=Maries Begleiterin|gender=f)))
+1149	1234	«	
+1150	1235	–	
+1151	1236	sagte	
+1152	1237	ich	(mention_id=171|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+1153	1238	mit	
+1154	1239	einem	
+1155	1240	Tone	
+1156	1241	der	
+1157	1242	das	
+1158	1243	Mittel	
+1159	1244	zwischen	
+1160	1245	Befehl	
+1161	1246	und	
+1162	1247	Bitte	
+1163	1248	war	
+1164	1249	–	
+1165	1250	»	
+1166	1251	wäre	
+1167	1252	es	
+1168	1253	möglich	
+1169	1254	daß	
+1170	1255	Sie	(mention_id=172|references=(entity=(entity_id=figur_010|fullname=Maries Begleiterin|gender=f)))
+1171	1256	mir	(mention_id=173|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+1172	1257	Ihren	(mention_id=174|references=(entity=(entity_id=figur_010|fullname=Maries Begleiterin|gender=f)),(entity=(entity_id=figur_009|fullname=Marie|gender=f)))
+1173	1258	künftigen	
+1174	1259	Aufenthalt	
+1175	1260	verbergen	
+1176	1261	,	
+1177	1262	daß	
+1178	1263	sie	(mention_id=175|references=(entity=(entity_id=figur_010|fullname=Maries Begleiterin|gender=f)))
+1179	1264	mir	(mention_id=176|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+1180	1265	die	
+1181	1266	Erlaubniß	
+1182	1267	,	
+1183	1268	Sie	(mention_id=177|references=(entity=(entity_id=figur_010|fullname=Maries Begleiterin|gender=f)),(entity=(entity_id=figur_009|fullname=Marie|gender=f)))
+1184	1269	wieder	
+1185	1270	zu	
+1186	1271	sehen	
+1187	1272	,	
+1188	1273	versagen	
+1189	1274	könnten	
+1190	1275	?	
+1191	1276	«	
+1192	1277	»	
+1193	1278	Sie	(mention_id=178|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+1194	1279	vergessen	
+1195	1280	mein	(mention_id=179|references=(entity=(entity_id=figur_010|fullname=Maries Begleiterin|gender=f)))
+1196	1281	Herr	(mention_id=180|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+1197	1282	«	
+1198	1283	–	
+1199	1284	erwiederte	
+1200	1285	sie	(mention_id=181|references=(entity=(entity_id=figur_010|fullname=Maries Begleiterin|gender=f)))
+1201	1286	mit	
+1202	1287	Kälte	
+1203	1288	,	
+1204	1289	–	
+1205	1290	»	
+1206	1291	daß	
+1207	1292	man	(mention_id=182|references=(entity=(entity_id=figur_010|fullname=Maries Begleiterin|gender=f)),(entity=(entity_id=generic_0004|fullname=generic_0004|gender=u|specialcase_entity=generic)))
+1208	1293	Gründe	
+1209	1294	haben	
+1210	1295	kann	
+1211	1296	,	
+1212	1297	gewisse	
+1213	1298	Dinge	
+1214	1299	zu	
+1215	1300	verschweigen	
+1216	1301	.	
+1217	1302	«	
+1218	1303	–	
+1219	1304	Jetzt	
+1220	1305	hatte	
+1221	1306	ich	(mention_id=183|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+1222	1307	alle	
+1223	1308	Fassung	
+1224	1309	verloren	
+1225	1310	.	
+1226	1311	»	
+1227	1312	Madam	(mention_id=184|references=(entity=(entity_id=figur_010|fullname=Maries Begleiterin|gender=f)))
+1228	1313	«	
+1229	1314	–	
+1230	1315	sagte	
+1231	1316	ich	(mention_id=185|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+1232	1317	;	
+1233	1318	und	
+1234	1319	trat	
+1235	1320	ihr	(mention_id=186|references=(entity=(entity_id=figur_010|fullname=Maries Begleiterin|gender=f)))
+1236	1321	gerade	
+1237	1322	in	
+1238	1323	den	
+1239	1324	Weg	
+1240	1325	–	
+1241	1326	»	
+1242	1327	wenn	
+1243	1328	sie	(mention_id=187|references=(entity=(entity_id=figur_010|fullname=Maries Begleiterin|gender=f)))
+1244	1329	einen	
+1245	1330	Augenblick	
+1246	1331	bedenken	
+1247	1332	wollten	
+1248	1333	.	
+1249	1334	«	
+1250	1335	–	
+1251	1336	»	
+1252	1337	Was	
+1253	1338	wäre	
+1254	1339	hierbey	
+1255	1340	weiter	
+1256	1341	zu	
+1257	1342	bedenken	
+1258	1343	?	
+1259	1344	«	
+1260	1345	–	
+1261	1346	antwortete	
+1262	1347	sie	(mention_id=188|references=(entity=(entity_id=figur_010|fullname=Maries Begleiterin|gender=f)))
+1263	1348	empfindlich	
+1264	1349	.	
+1265	1350	»	
+1266	1351	Ach	
+1267	1352	Madam	(mention_id=189|references=(entity=(entity_id=figur_010|fullname=Maries Begleiterin|gender=f)))
+1268	1353	!	
+1269	1354	«	
+1270	1355	–	
+1271	1356	fuhr	
+1272	1357	ich	(mention_id=190|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+1273	1358	fort	
+1274	1359	–	
+1275	1360	»	
+1276	1361	wenn	
+1277	1362	Sie	(mention_id=191|references=(entity=(entity_id=figur_010|fullname=Maries Begleiterin|gender=f)))
+1278	1363	wüßten	
+1279	1364	wie	
+1280	1365	sehr	
+1281	1366	.	
+1282	1367	«	
+1283	1368	–	
+1284	1369	»	
+1285	1370	Ich	(mention_id=192|references=(entity=(entity_id=figur_010|fullname=Maries Begleiterin|gender=f)))
+1286	1371	weiß	
+1287	1372	!	
+1288	1373	ich	(mention_id=193|references=(entity=(entity_id=figur_010|fullname=Maries Begleiterin|gender=f)))
+1289	1374	weiß	
+1290	1375	mein	(mention_id=194|references=(entity=(entity_id=figur_010|fullname=Maries Begleiterin|gender=f)))
+1291	1376	Herr	
+1292	1377	!	
+1293	1378	«	
+1294	1379	–	
+1295	1380	unterbrach	
+1296	1381	sie	(mention_id=195|references=(entity=(entity_id=figur_010|fullname=Maries Begleiterin|gender=f)))
+1297	1382	mich	(mention_id=196|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+1298	1383	mit	
+1299	1384	einem	
+1300	1385	Lächeln	
+1301	1386	,	
+1302	1387	das	
+1303	1388	mir	(mention_id=197|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+1304	1389	durch	
+1305	1390	die	
+1306	1391	Seele	
+1307	1392	ging	
+1308	1393	.	
+1309	1394	»	
+1310	1395	Mein	(mention_id=198|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+1311	1396	ganzes	
+1312	1397	Schicksal	
+1313	1398	!	
+1314	1399	«	
+1315	1400	–	
+1316	1401	rief	
+1317	1402	ich	(mention_id=199|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+1318	1403	aus	
+1319	1404	.	
+1320	1405	»	
+1321	1406	Es	
+1322	1407	wird	
+1323	1408	spät	
+1324	1409	mein	(mention_id=200|references=(entity=(entity_id=figur_010|fullname=Maries Begleiterin|gender=f)))
+1325	1410	Herr	(mention_id=201|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+1326	1411	.	
+1327	1412	«	
+1328	1413	–	
+1329	1414	sagte	
+1330	1415	sie	(mention_id=202|references=(entity=(entity_id=figur_010|fullname=Maries Begleiterin|gender=f)))
+1331	1416	mit	
+1332	1417	einer	
+1333	1418	Verbeugung	
+1334	1419	,	
+1335	1420	nahm	
+1336	1421	Marien	(mention_id=203|references=(entity=(entity_id=figur_009|fullname=Marie|gender=f)))
+1337	1422	bey	
+1338	1423	der	
+1339	1424	Hand	
+1340	1425	,	
+1341	1426	und	
+1342	1427	da	
+1343	1428	stand	
+1344	1429	ich	(mention_id=204|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+1345	1430	.	
+1346	1431	–	
+1347	1432	–	
+1348	1433	Fünftes	
+1349	1434	Kapitel	
+1350	1435	»	
+1351	1436	Mein	(mention_id=205|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+1352	1437	Pferd	
+1353	1438	!	
+1354	1439	«	
+1355	1440	–	
+1356	1441	rief	
+1357	1442	ich	
+1358	1443	,	
+1359	1444	aus	
+1360	1445	meiner	(mention_id=206|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+1361	1446	Betäubung	
+1362	1447	erwachend	
+1363	1448	der	
+1364	1449	Wirthinn	(mention_id=207|references=(entity=(entity_id=figur_012|fullname=Wirtin|gender=f)))
+1365	1450	entgegen	
+1366	1451	–	
+1367	1452	und	
+1368	1453	stürmte	
+1369	1454	–	
+1370	1455	ohne	
+1371	1456	mich	(mention_id=208|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+1372	1457	weiter	
+1373	1458	durch	
+1374	1459	ihre	(mention_id=209|references=(entity=(entity_id=figur_012|fullname=Wirtin|gender=f)))
+1375	1460	Fragen	
+1376	1461	aufhalten	
+1377	1462	zu	
+1378	1463	lassen	
+1379	1464	–	
+1380	1465	aus	
+1381	1466	dem	
+1382	1467	Städtchen	
+1383	1468	hinaus	
+1384	1469	.	
+1385	1470	Wie	
+1386	1471	heftig	
+1387	1472	erschrack	
+1388	1473	meine	(mention_id=210|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+1389	1474	gute	
+1390	1475	,	
+1391	1476	schwache	
+1392	1477	Tante	(mention_id=211|references=(entity=(entity_id=figur_011|fullname=Tante|gender=f)))
+1393	1478	,	
+1394	1479	als	
+1395	1480	sie	(mention_id=212|references=(entity=(entity_id=figur_011|fullname=Tante|gender=f)))
+1396	1481	mich	(mention_id=213|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+1397	1482	blas	
+1398	1483	und	
+1399	1484	entstellt	
+1400	1485	in	
+1401	1486	ihr	(mention_id=214|references=(entity=(entity_id=figur_011|fullname=Tante|gender=f)))
+1402	1487	Zimmer	
+1403	1488	treten	
+1404	1489	sah	
+1405	1490	.	
+1406	1491	Das	
+1407	1492	ganze	
+1408	1493	Haus	
+1409	1494	gerieth	
+1410	1495	in	
+1411	1496	Bewegung	
+1412	1497	.	
+1413	1498	Es	
+1414	1499	wurden	
+1415	1500	Expresse	
+1416	1501	zu	
+1417	1502	dem	
+1418	1503	Arzte	(mention_id=215|references=(entity=(entity_id=figur_001|fullname=Arzt|gender=m)))
+1419	1504	und	
+1420	1505	zu	
+1421	1506	dem	
+1422	1507	Chirurgus	(mention_id=216|references=(entity=(entity_id=figur_003|fullname=Chirurg|gender=m)))
+1423	1508	gesandt	
+1424	1509	,	
+1425	1510	und	
+1426	1511	mir	(mention_id=217|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+1427	1512	selbst	
+1428	1513	schien	
+1429	1514	es	
+1430	1515	von	
+1431	1516	Augenblicke	
+1432	1517	zu	
+1433	1518	Augenblicke	
+1434	1519	gewisser	
+1435	1520	:	
+1436	1521	daß	
+1437	1522	meine	(mention_id=218|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+1438	1523	Gesundheit	
+1439	1524	dieser	
+1440	1525	heftigen	
+1441	1526	Erschütterung	
+1442	1527	nicht	
+1443	1528	widerstehen	
+1444	1529	würde	
+1445	1530	.	
+1446	1531	Welch	
+1447	1532	ein	
+1448	1533	unerhörter	
+1449	1534	Zufall	
+1450	1535	–	
+1451	1536	es	
+1452	1537	war	
+1453	1538	der	
+1454	1539	erste	
+1455	1540	Wunsch	
+1456	1541	in	
+1457	1542	meinem	(mention_id=219|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+1458	1543	Leben	
+1459	1544	,	
+1460	1545	der	
+1461	1546	nicht	
+1462	1547	augenblicklich	
+1463	1548	erfüllt	
+1464	1549	wurde	
+1465	1550	.	
+1466	1551	–	
+1467	1552	»	
+1468	1553	Nein	
+1469	1554	ich	(mention_id=220|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+1470	1555	dulde	
+1471	1556	es	
+1472	1557	nicht	
+1473	1558	«	
+1474	1559	–	
+1475	1560	rief	
+1476	1561	ich	(mention_id=221|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+1477	1562	aus	
+1478	1563	–	
+1479	1564	ich	(mention_id=222|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+1480	1565	lasse	
+1481	1566	sie	(mention_id=223|references=(entity=(entity_id=figur_009|fullname=Marie|gender=f)))
+1482	1567	mir	(mention_id=224|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+1483	1568	nicht	
+1484	1569	entreißen	
+1485	1570	!	
+1486	1571	ich	(mention_id=225|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+1487	1572	will	
+1488	1573	wissen	
+1489	1574	,	
+1490	1575	wer	
+1491	1576	sie	(mention_id=226|references=(entity=(entity_id=figur_009|fullname=Marie|gender=f)))
+1492	1577	ist	
+1493	1578	,	
+1494	1579	wo	
+1495	1580	sie	(mention_id=227|references=(entity=(entity_id=figur_009|fullname=Marie|gender=f)))
+1496	1581	bleibt	
+1497	1582	,	
+1498	1583	und	
+1499	1584	wenn	
+1500	1585	die	
+1501	1586	ganze	
+1502	1587	Welt	
+1503	1588	sich	
+1504	1589	dawider	
+1505	1590	setzte	
+1506	1591	!	
+1507	1592	«	
+1508	1593	»	
+1509	1594	Wer	
+1510	1595	denn	
+1511	1596	?	
+1512	1597	–	
+1513	1598	sagte	
+1514	1599	meine	(mention_id=228|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+1515	1600	Tante	(mention_id=229|references=(entity=(entity_id=figur_011|fullname=Tante|gender=f)))
+1516	1601	–	
+1517	1602	zitternd	
+1518	1603	vor	
+1519	1604	Angst	
+1520	1605	.	
+1521	1606	»	
+1522	1607	Wer	
+1523	1608	denn	
+1524	1609	?	
+1525	1610	«	
+1526	1611	–	
+1527	1612	liebstes	
+1528	1613	Kind	(mention_id=230|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+1529	1614	!	
+1530	1615	–	
+1531	1616	ich	(mention_id=231|references=(entity=(entity_id=figur_011|fullname=Tante|gender=f)))
+1532	1617	will	
+1533	1618	ja	
+1534	1619	den	
+1535	1620	Augenblick	
+1536	1621	Anstalt	
+1537	1622	machen	
+1538	1623	.	
+1539	1624	Ach	
+1540	1625	hätte	
+1541	1626	ich	(mention_id=232|references=(entity=(entity_id=figur_011|fullname=Tante|gender=f)))
+1542	1627	doch	
+1543	1628	nur	
+1544	1629	Ludwig	(mention_id=233|references=(entity=(entity_id=figur_008|fullname=Ludwig|gender=m)))
+1545	1630	nicht	
+1546	1631	weggeschickt	
+1547	1632	!	
+1548	1633	«	
+1549	1634	»	
+1550	1635	Nicht	
+1551	1636	Ludwig	(mention_id=234|references=(entity=(entity_id=figur_008|fullname=Ludwig|gender=m)))
+1552	1637	,	
+1553	1638	nicht	
+1554	1639	Sie	(mention_id=235|references=(entity=(entity_id=figur_011|fullname=Tante|gender=f)))
+1555	1640	,	
+1556	1641	kein	
+1557	1642	Mensch	(mention_id=236|references=(entity=(entity_id=generic_0005|fullname=generic_0005|gender=u|specialcase_entity=generic)))
+1558	1643	kann	
+1559	1644	mir	(mention_id=237|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+1560	1645	helfen	
+1561	1646	!	
+1562	1647	«	
+1563	1648	–	
+1564	1649	rief	
+1565	1650	ich	(mention_id=238|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+1566	1651	,	
+1567	1652	indem	
+1568	1653	ich	(mention_id=239|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+1569	1654	mich	(mention_id=240|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+1570	1655	verzweiflungsvoll	
+1571	1656	auf	
+1572	1657	das	
+1573	1658	Sopha	
+1574	1659	warf	
+1575	1660	und	
+1576	1661	,	
+1577	1662	taub	
+1578	1663	gegen	
+1579	1664	ihre	(mention_id=241|references=(entity=(entity_id=figur_011|fullname=Tante|gender=f)))
+1580	1665	Bitten	
+1581	1666	,	
+1582	1667	in	
+1583	1668	ein	
+1584	1669	langes	
+1585	1670	,	
+1586	1671	mürrisches	
+1587	1672	Stillschweigen	
+1588	1673	mich	(mention_id=242|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+1589	1674	vertiefte	
+1590	1675	.	
+1591	1676	Endlich	
+1592	1677	sprang	
+1593	1678	ich	(mention_id=243|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+1594	1679	auf	
+1595	1680	,	
+1596	1681	lief	
+1597	1682	zur	
+1598	1683	Klingel	
+1599	1684	,	
+1600	1685	und	
+1601	1686	schellte	
+1602	1687	so	
+1603	1688	heftig	
+1604	1689	,	
+1605	1690	daß	
+1606	1691	die	
+1607	1692	Fenster	
+1608	1693	klirrten	
+1609	1694	.	
+1610	1695	»	
+1611	1696	Was	
+1612	1697	befehlen	
+1613	1698	Ihro	(mention_id=244|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+1614	1699	Gnaden	(mention_id=244|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+1615	1700	?	
+1616	1701	–	
+1617	1702	rief	
+1618	1703	ein	
+1619	1704	allerliebstes	
+1620	1705	kleines	
+1621	1706	Figürchen	(mention_id=245|references=(entity=(entity_id=figur_007|fullname=Kammerjungfer|gender=f)|specialcase_reference=part))
+1622	1707	in	
+1623	1708	einem	
+1624	1709	grünen	
+1625	1710	Corsette	
+1626	1711	zur	
+1627	1712	Thüre	
+1628	1713	hinein	
+1629	1714	.	
+1630	1715	–	
+1631	1716	»	
+1632	1717	Ist	
+1633	1718	mein	(mention_id=246|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+1634	1719	Pferd	
+1635	1720	«	
+1636	1721	–	
+1637	1722	hub	
+1638	1723	ich	(mention_id=247|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+1639	1724	an	
+1640	1725	–	
+1641	1726	und	
+1642	1727	mein	(mention_id=248|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+1643	1728	Ton	
+1644	1729	wurde	
+1645	1730	plötzlich	
+1646	1731	sanfter	
+1647	1732	.	
+1648	1733	–	
+1649	1734	»	
+1650	1735	O	
+1651	1736	ja	
+1652	1737	!	
+1653	1738	–	
+1654	1739	unterbrach	
+1655	1740	sie	(mention_id=249|references=(entity=(entity_id=figur_007|fullname=Kammerjungfer|gender=f)))
+1656	1741	mich	(mention_id=250|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+1657	1742	–	
+1658	1743	indem	
+1659	1744	sie	(mention_id=251|references=(entity=(entity_id=figur_007|fullname=Kammerjungfer|gender=f)))
+1660	1745	herzhaft	
+1661	1746	vortrat	
+1662	1747	und	
+1663	1748	mir	(mention_id=252|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+1664	1749	ein	
+1665	1750	paar	
+1666	1751	große	
+1667	1752	schwarze	
+1668	1753	Augen	
+1669	1754	entgegenleuchten	
+1670	1755	ließ	
+1671	1756	;	
+1672	1757	die	
+1673	1758	keinen	
+1674	1759	Augenblick	
+1675	1760	an	
+1676	1761	ihrer	(mention_id=253|references=(entity=(entity_id=figur_007|fullname=Kammerjungfer|gender=f)))
+1677	1762	Allmacht	
+1678	1763	zu	
+1679	1764	zweifeln	
+1680	1765	scheinen	
+1681	1766	–	
+1682	1767	»	
+1683	1768	Das	
+1684	1769	Pferd	
+1685	1770	ist	
+1686	1771	so	
+1687	1772	eben	
+1688	1773	in	
+1689	1774	den	
+1690	1775	Stall	
+1691	1776	gebracht	
+1692	1777	.	
+1693	1778	«	
+1694	1779	»	
+1695	1780	Der	
+1696	1781	gnädige	
+1697	1782	Herr	(mention_id=254|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+1698	1783	werden	
+1699	1784	doch	
+1700	1785	wohl	
+1701	1786	nicht	
+1702	1787	wieder	
+1703	1788	ausreiten	
+1704	1789	wollen	
+1705	1790	?	
+1706	1791	–	
+1707	1792	das	
+1708	1793	arme	
+1709	1794	Thier	
+1710	1795	schien	
+1711	1796	äußerst	
+1712	1797	ermüdet	
+1713	1798	.	
+1714	1799	«	
+1715	1800	Die	
+1716	1801	Figur	(mention_id=255|references=(entity=(entity_id=figur_007|fullname=Kammerjungfer|gender=f)))
+1717	1802	war	
+1718	1803	mir	(mention_id=256|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+1719	1804	fremd	
+1720	1805	,	
+1721	1806	dieser	
+1722	1807	zurechtweisende	
+1723	1808	Ton	
+1724	1809	war	
+1725	1810	es	
+1726	1811	noch	
+1727	1812	mehr	
+1728	1813	.	
+1729	1814	Mit	
+1730	1815	einem	
+1731	1816	fragenden	
+1732	1817	Blick	
+1733	1818	wandte	
+1734	1819	ich	(mention_id=257|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+1735	1820	mich	(mention_id=258|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+1736	1821	an	
+1737	1822	meine	(mention_id=259|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+1738	1823	Tante	(mention_id=260|references=(entity=(entity_id=figur_011|fullname=Tante|gender=f)))
+1739	1824	.	
+1740	1825	»	
+1741	1826	Die	
+1742	1827	neue	
+1743	1828	Kammerjungfer	(mention_id=261|references=(entity=(entity_id=figur_007|fullname=Kammerjungfer|gender=f)))
+1744	1829	«	
+1745	1830	–	
+1746	1831	sagte	
+1747	1832	sie	(mention_id=262|references=(entity=(entity_id=figur_011|fullname=Tante|gender=f)))
+1748	1833	entschuldigend	
+1749	1834	.	
+1750	1835	–	
+1751	1836	»	
+1752	1837	Aber	
+1753	1838	«	
+1754	1839	–	
+1755	1840	fuhr	
+1756	1841	sie	(mention_id=263|references=(entity=(entity_id=figur_011|fullname=Tante|gender=f)))
+1757	1842	mit	
+1758	1843	einer	
+1759	1844	bittenden	
+1760	1845	Miene	
+1761	1846	fort	
+1762	1847	–	
+1763	1848	»	
+1764	1849	liebster	
+1765	1850	Gustav	(mention_id=264|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+1766	1851	!	
+1767	1852	wäre	
+1768	1853	es	
+1769	1854	denn	
+1770	1855	nicht	
+1771	1856	möglich	
+1772	1857	?	
+1773	1858	daß	
+1774	1859	Du	(mention_id=265|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+1775	1860	vorher	
+1776	1861	etwas	
+1777	1862	ausruhen	
+1778	1863	könntest	
+1779	1864	?	
+1780	1865	«	
+1781	1866	–	
+1782	1867	»	
+1783	1868	Das	
+1784	1869	dächte	
+1785	1870	ich	(mention_id=266|references=(entity=(entity_id=figur_007|fullname=Kammerjungfer|gender=f)))
+1786	1871	auch	
+1787	1872	«	
+1788	1873	–	
+1789	1874	fiel	
+1790	1875	das	
+1791	1876	grüne	
+1792	1877	Corsettchen	(mention_id=267|references=(entity=(entity_id=figur_007|fullname=Kammerjungfer|gender=f)|specialcase_reference=figurative))
+1793	1878	ein	
+1794	1879	,	
+1795	1880	und	
+1796	1881	würde	
+1797	1882	seine	
+1798	1883	Beredtsamkeit	
+1799	1884	aufs	
+1800	1885	neue	
+1801	1886	geübt	
+1802	1887	haben	
+1803	1888	;	
+1804	1889	wenn	
+1805	1890	nicht	
+1806	1891	meine	(mention_id=268|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+1807	1892	Tante	(mention_id=269|references=(entity=(entity_id=figur_011|fullname=Tante|gender=f)))
+1808	1893	mit	
+1809	1894	der	
+1810	1895	Hand	
+1811	1896	auf	
+1812	1897	die	
+1813	1898	Thüre	
+1814	1899	gedeutet	
+1815	1900	hätte	
+1816	1901	.	
+1817	1902	Jetzt	
+1818	1903	da	
+1819	1904	wir	(mention_id=270|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)),(entity=(entity_id=figur_011|fullname=Tante|gender=f)))
+1820	1905	allein	
+1821	1906	waren	
+1822	1907	,	
+1823	1908	und	
+1824	1909	da	
+1825	1910	sie	(mention_id=271|references=(entity=(entity_id=figur_011|fullname=Tante|gender=f)))
+1826	1911	mich	(mention_id=272|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+1827	1912	in	
+1828	1913	einer	
+1829	1914	mildern	
+1830	1915	Stimmung	
+1831	1916	fand	
+1832	1917	;	
+1833	1918	gelang	
+1834	1919	es	
+1835	1920	ihr	(mention_id=273|references=(entity=(entity_id=figur_011|fullname=Tante|gender=f)))
+1836	1921	,	
+1837	1922	mich	(mention_id=274|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+1838	1923	zu	
+1839	1924	einer	
+1840	1925	ordentlichen	
+1841	1926	Erzählung	
+1842	1927	zu	
+1843	1928	bewegen	
+1844	1929	.	
+1845	1930	Wir	(mention_id=275|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)),(entity=(entity_id=figur_011|fullname=Tante|gender=f)))
+1846	1931	berathschlagten	
+1847	1932	bis	
+1848	1933	tief	
+1849	1934	in	
+1850	1935	die	
+1851	1936	Nacht	
+1852	1937	und	
+1853	1938	meine	(mention_id=276|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+1854	1939	Tante	(mention_id=277|references=(entity=(entity_id=figur_011|fullname=Tante|gender=f)))
+1855	1940	entschloß	
+1856	1941	sich	
+1857	1942	,	
+1858	1943	an	
+1859	1944	Mariens	(mention_id=278|references=(entity=(entity_id=figur_009|fullname=Marie|gender=f)))
+1860	1945	Begleiterinn	(mention_id=279|references=(entity=(entity_id=figur_010|fullname=Maries Begleiterin|gender=f)))
+1861	1946	zu	
+1862	1947	schreiben	
+1863	1948	.	
+1864	1949	Sie	(mention_id=280|references=(entity=(entity_id=figur_011|fullname=Tante|gender=f)))
+1865	1950	trug	
+1866	1951	ihr	(mention_id=281|references=(entity=(entity_id=figur_010|fullname=Maries Begleiterin|gender=f)))
+1867	1952	in	
+1868	1953	den	
+1869	1954	schmeichelhaftesten	
+1870	1955	Ausdrücken	
+1871	1956	unser	(mention_id=282|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)),(entity=(entity_id=figur_011|fullname=Tante|gender=f)))
+1872	1957	Landguth	
+1873	1958	,	
+1874	1959	und	
+1875	1960	wenn	
+1876	1961	sie	(mention_id=283|references=(entity=(entity_id=figur_010|fullname=Maries Begleiterin|gender=f)))
+1877	1962	dies	
+1878	1963	nicht	
+1879	1964	annehmen	
+1880	1965	wollte	
+1881	1966	,	
+1882	1967	einen	
+1883	1968	sehr	
+1884	1969	angenehmen	
+1885	1970	Meyerhof	
+1886	1971	an	
+1887	1972	,	
+1888	1973	der	
+1889	1974	eine	
+1890	1975	Viertelstunde	
+1891	1976	davon	
+1892	1977	entfernt	
+1893	1978	lag	
+1894	1979	.	
+1895	1980	Noch	
+1896	1981	vor	
+1897	1982	Tagesanbruch	
+1898	1983	ward	
+1899	1984	ein	
+1900	1985	Bothe	(mention_id=284|references=(entity=(entity_id=figur_002|fullname=Bote|gender=m)))
+1901	1986	mit	
+1902	1987	diesem	
+1903	1988	Schreiben	
+1904	1989	abgeschickt	
+1905	1990	,	
+1906	1991	und	
+1907	1992	mit	
+1908	1993	einem	
+1909	1994	Herzklopfen	
+1910	1995	,	
+1911	1996	das	
+1912	1997	mir	(mention_id=285|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+1913	1998	fast	
+1914	1999	den	
+1915	2000	Athem	
+1916	2001	benahm	
+1917	2002	,	
+1918	2003	hörte	
+1919	2004	ich	(mention_id=286|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+1920	2005	ihn	(mention_id=287|references=(entity=(entity_id=figur_002|fullname=Bote|gender=m)))
+1921	2006	vom	
+1922	2007	Hofe	
+1923	2008	reiten	
+1924	2009	.	
+1925	2010	»	
+1926	2011	Ach	
+1927	2012	!	
+1928	2013	«	
+1929	2014	–	
+1930	2015	dachte	
+1931	2016	ich	(mention_id=288|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+1932	2017	–	
+1933	2018	»	
+1934	2019	welch	
+1935	2020	eine	
+1936	2021	Antwort	
+1937	2022	wird	
+1938	2023	er	(mention_id=289|references=(entity=(entity_id=figur_002|fullname=Bote|gender=m)))
+1939	2024	dir	(mention_id=290|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+1940	2025	bringen	
+1941	2026	?	
+1942	2027	«	
+1943	2028	Sechstes	
+1944	2029	Kapitel	
+1945	2030	»	
+1946	2031	Wird	
+1947	2032	es	
+1948	2033	denn	
+1949	2034	nimmermehr	
+1950	2035	Tag	
+1951	2036	werden	
+1952	2037	!	
+1953	2038	«	
+1954	2039	–	
+1955	2040	rief	
+1956	2041	ich	(mention_id=291|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+1957	2042	aus	
+1958	2043	–	
+1959	2044	indem	
+1960	2045	ich	(mention_id=292|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+1961	2046	die	
+1962	2047	Thüre	
+1963	2048	des	
+1964	2049	Balkons	
+1965	2050	auseinander	
+1966	2051	schlug	
+1967	2052	und	
+1968	2053	mich	(mention_id=293|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+1969	2054	trotzig	
+1970	2055	–	
+1971	2056	als	
+1972	2057	müsse	
+1973	2058	die	
+1974	2059	Sonne	
+1975	2060	meinen	(mention_id=294|references=(entity=(entity_id=figur_004|fullname=Gustav|gender=m)))
+1976	2061	Befehlen	
+1977	2062	gehorchen	
+1978	2063	–	
+1979	2064	auf	
+1980	2065	das	
+1981	2066	eiserne	
+1982	2067	Gitter	
+1983	2068	lehnte	
+1984	2069	.	
+1985	2070	Aber	
+1986	2071	ach	
+1987	2072	!	
+1988	2073	noch	
+1989	2074	verweilte	
+1990	2075	die	
+1991	2076	Sonne	
+1992	2077	!	
+1993	2078	–	
+1994	2079	noch	
+1995	2080	war	
+1996	2081	kein	
+1997	2082	Bothe	(mention_id=295|references=(entity=(entity_id=figur_002|fullname=Bote|gender=m)))
+1998	2083	zu	
+1999	2084	hören	
