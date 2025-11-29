@@ -77,7 +77,7 @@ Du erhältst eine Liste von JSON-Objekten, wobei jedes Objekt eine in einem best
 {incomplete_response}
 """
 
-PRON = set("wer denen diese unsrer solche welche unsres unsern ich du er sie es wir ihr sie mich dich ihn sie es uns euch sie mir dir ihm ihr ihm uns euch ihnen mein dein sein ihr sein unser euer ihr meiner deiner seiner ihrer seiner unserer eurer ihrer meins deins seins ihres seins unseres eures ihres meinem deinem seinem ihrem seinem unserem eurem ihrem meinen deinen seinen ihren seinen unseren euren ihren meine deine seine ihre seine unsere eure ihre meinen deinen seinen ihren seinen unseren euren ihren sich man der die das die dem den dessen deren dessen deren welcher welche welches welchen welchem welcher welches welchen deren dessen dem den jener jene jenes jene jenem jener jenes jenen niemand jemand etwas nichts alle einige manche mehrere viele wenige andere beide jeder jedes jeden jedem jedes ein eine ein einer einem einer eins welcher welche welches worin worauf womit wofür wogegen worüber woran woraus wozu womit wer wem wen wessen was dessen das den".split())
+# PRON = set("wer denen diese unsrer solche welche unsres unsern ich du er sie es wir ihr sie mich dich ihn sie es uns euch sie mir dir ihm ihr ihm uns euch ihnen mein dein sein ihr sein unser euer ihr meiner deiner seiner ihrer seiner unserer eurer ihrer meins deins seins ihres seins unseres eures ihres meinem deinem seinem ihrem seinem unserem eurem ihrem meinen deinen seinen ihren seinen unseren euren ihren meine deine seine ihre seine unsere eure ihre meinen deinen seinen ihren seinen unseren euren ihren sich man der die das die dem den dessen deren dessen deren welcher welche welches welchen welchem welcher welches welchen deren dessen dem den jener jene jenes jene jenem jener jenes jenen niemand jemand etwas nichts alle einige manche mehrere viele wenige andere beide jeder jedes jeden jedem jedes ein eine ein einer einem einer eins welcher welche welches worin worauf womit wofür wogegen worüber woran woraus wozu womit wer wem wen wessen was dessen das den".split())
 
 class MergePrompt(Prompt[List[Mention]], ABC):
     def __init__(self, tokens: pandas.Series, is_section_start: pandas.Series, mentions: List[Mention]):
@@ -125,7 +125,8 @@ class BasicMergePrompt(MergePrompt):
             entity_name = references[0][1].entity.fullname
             entity_id = references[0][1].entity.id
 
-            refs_with_count = Counter(s for s in str_references if s.lower() not in PRON).most_common()
+            # refs_with_count = Counter(s for s in str_references if s.lower() not in PRON).most_common()
+            refs_with_count = Counter(s for s in str_references).most_common()
             json_input_lines.append(json.dumps({
                 "Nummer": i,
                 "Kapitel": section_id,
