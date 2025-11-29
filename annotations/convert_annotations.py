@@ -9,6 +9,7 @@ import re
 from xml.etree.ElementTree import Element
 
 import more_itertools
+import intervaltree
 import pandas
 
 from llm_literary_coref.mention import Entity, Mention, Reference
@@ -241,6 +242,74 @@ def make_generic_entity_factory():
 
     return generic_entity_factory
 
+def split_generics_into_singletons(all_references, generic_entity_factory):
+    references_per_entity = collections.defaultdict(list)
+    for _, ref in all_references:
+        references_per_entity[ref.entity.id].append(ref)
+    for entity_id, refs in references_per_entity.items():
+        entity = refs[0].entity
+        is_generic = 'generic' in entity.specialcase_entity
+
+        if not is_generic:
+            continue
+
+        if len(refs) == 1:
+            continue
+
+        print(f'warn: generic entity {entity_id} has {len(refs)} references; will split into singletons')
+        for ref in refs:
+            ref.entity = generic_entity_factory(entity.fullname, 'generic' in entity.borderline_entity)
+
+
+def group_references_to_mentions(all_references) -> Dict[int, Mention]:
+    mention_counter = 0
+    all_mentions: Dict[int, Mention] = {}
+    # group references to mentions
+    keyfn = lambda x: tuple(x[0])
+    for token_idx, group in itertools.groupby(sorted(all_references, key=keyfn), key=keyfn):
+        references = [x[1] for x in group]
+        mention_counter += 1
+        all_mentions[mention_counter] = Mention(
+            id=mention_counter,
+            token_idx=list(token_idx),
+            references=references,
+        )
+    return all_mentions
+
+def check_for_overlapping_mehtions(mentions: Dict[int, Mention], token_ser: Optional[pandas.Series] = None):
+    interval_tree = intervaltree.IntervalTree()
+    for mention in mentions.values():
+        interval_tree.add(intervaltree.Interval(mention.token_idx[0], mention.token_idx[-1] + 1, mention.id))
+
+    handled = set()
+    for mention_id, mention in mentions.items():
+        if mention_id in handled: continue
+
+        overlap = interval_tree.overlap(mention.token_idx[0], mention.token_idx[-1] + 1)
+        if len(overlap) <= 1: continue
+
+        overlapping_mention_ids = [interval.data for interval in overlap]
+        handled.update(overlapping_mention_ids)
+
+        # verify no interleaving
+        for a, b in itertools.combinations(overlapping_mention_ids, 2):
+            b1 = mentions[a].token_idx[0]
+            e1 = mentions[a].token_idx[-1]
+            b2 = mentions[b].token_idx[0]
+            e2 = mentions[b].token_idx[-1]
+            if b1 < b2 < e1 < e2:
+                print(f"overlapping mention {a} ({b1} to {e1}) and {b} ({b2} to {e2})")
+
+        if all(mentions[i].token_idx == mentions[overlapping_mention_ids[0]].token_idx for i in overlapping_mention_ids):
+            # all spans identical, pass
+            continue
+        else:
+            print(f"mentions {overlapping_mention_ids} overlap but consists of different spans")
+            for i in overlapping_mention_ids:
+                tokens = ' '.join(token_ser.loc[mentions[i].token_idx])
+                entities = ', '.join(f"{r.entity.fullname!r}" for r in mentions[i].references)
+                print(f"  tokens {tokens!r}, idx {mentions[i].token_idx!r} annotated as {entities}")
+
 
 def convert_xmi_annotations(xmi_path: Path, tokens: pandas.Series) -> List[Mention]:
     print(f"processing {xmi_path}")
@@ -259,6 +328,7 @@ def convert_xmi_annotations(xmi_path: Path, tokens: pandas.Series) -> List[Menti
     split_generics_into_singletons(all_references, generic_entity_factory)
 
     all_mentions = group_references_to_mentions(all_references)
+    check_for_overlapping_mehtions(all_mentions, tokens)
     return list(all_mentions.values())
 
 
@@ -288,42 +358,9 @@ def convert_booklevel_annotations(annotations_dir: Path, source_df: pandas.DataF
     split_generics_into_singletons(all_references, generic_entity_factory)
 
     all_mentions = group_references_to_mentions(all_references)
+    check_for_overlapping_mehtions(all_mentions, source_df['text'])
     return list(all_mentions.values())
 
-
-def split_generics_into_singletons(all_references, generic_entity_factory):
-    references_per_entity = collections.defaultdict(list)
-    for _, ref in all_references:
-        references_per_entity[ref.entity.id].append(ref)
-    for entity_id, refs in references_per_entity.items():
-        entity = refs[0].entity
-        is_generic = 'generic' in entity.specialcase_entity
-
-        if not is_generic:
-            continue
-
-        if len(refs) == 1:
-            continue
-
-        print(f'warn: generic entity {entity_id} has {len(refs)} references; will split into singletons')
-        for ref in refs:
-            ref.entity = generic_entity_factory(entity.fullname, 'generic' in entity.borderline_entity)
-
-
-def group_references_to_mentions(all_references):
-    mention_counter = 0
-    all_mentions: Dict[int, Mention] = {}
-    # group references to mentions
-    keyfn = lambda x: tuple(x[0])
-    for token_idx, group in itertools.groupby(sorted(all_references, key=keyfn), key=keyfn):
-        references = [x[1] for x in group]
-        mention_counter += 1
-        all_mentions[mention_counter] = Mention(
-            id=mention_counter,
-            token_idx=list(token_idx),
-            references=references,
-        )
-    return all_mentions
 
 
 def main():

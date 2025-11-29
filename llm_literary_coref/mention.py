@@ -64,8 +64,7 @@ class Entity:
         if self.possible_identity_with:
             fields.append(f'possible_identity_with={self.possible_identity_with}')
         if self.members:
-            fields.append(f'members={",".join(self.members)}')
-        if self.all_members_given:
+            fields.append(f'members={",".join(sorted(self.members))}')
             fields.append(f'all_members_given={self.all_members_given}')
         if self.borderline_entity:
             fields.append(f'borderline_entity={",".join(self.borderline_entity)}')
