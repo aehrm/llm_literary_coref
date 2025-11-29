@@ -1,4 +1,5 @@
 import itertools
+import json
 import logging
 from abc import abstractmethod
 from typing import Literal, Optional, List, Tuple, Dict, Generic, TypeVar
@@ -166,10 +167,12 @@ class MentionPrompt(Generic[T], Prompt[List[Mention]]):
          self.mention_span_map,
          span_annotations) = self.prepare_input(self.tokens, self.mention_spans)
 
-        return self.prompt_template(formatted_input, span_annotations)
+        annotations_in_json = '\n'.join(json.dumps(s, ensure_ascii=True) for s in span_annotations)
+
+        return self.prompt_template(formatted_input, annotations_in_json)
 
     @abstractmethod
-    def prompt_template(self, formatted_input: str, span_annotations: list) -> str:
+    def prompt_template(self, formatted_input: str, span_annotations: str) -> str:
         raise NotImplementedError
 
     def decode(self, json_lines: list) -> List[Mention]:
@@ -213,7 +216,7 @@ class MentionPromptBasic(MentionPrompt[List[BasicAnnotationReference]]):
         super().__init__(tokens, mention_spans)
         self.entities = None
 
-    def prompt_template(self, formatted_input: str, span_annotations: list) -> str:
+    def prompt_template(self, formatted_input: str, span_annotations: str) -> str:
         return BASIC_MENTION_PROMPT.format(doc_formatted=formatted_input, incomplete_response=span_annotations)
 
     def decode_annotations(self, parsed_output: List[Tuple[Mention, List[Tuple[Mention, BasicAnnotationObject]]]]) -> List[Mention]:

@@ -110,7 +110,6 @@ class Reference:
 
     @staticmethod
     def parse(text: str) -> 'Reference':
-        print(text)
         data = _parse_key_value(text)
 
         def parse_list(key):

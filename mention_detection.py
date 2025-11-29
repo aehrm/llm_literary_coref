@@ -35,7 +35,7 @@ def read_input_tsv(file_path):
     df['section_group'] = df['is_section_start'].cumsum()
     df['mention'] = None
 
-    sections = [group.copy().reset_index(drop=True) for _, group in df.groupby('section_group')]
+    sections = [group.copy().reset_index() for _, group in df.groupby('section_group')]
 
     return sections
 
@@ -145,14 +145,16 @@ def process_sections(sections, basename, model_id, output_dir, device='cuda'):
 
 
     for sec_id, section_df in enumerate(sections):
-        output_df = section_df[['token', 'mention']].copy()
+        output_df = section_df[['i', 'token', 'mention']].copy()
         if 'gold' in section_df.columns:
             output_df['gold'] = section_df['gold'].copy()
 
+        output_df.set_index('i', inplace=True)
+
         # Write to TSV
-        out_filename = f"{basename}_section_{sec_id:04d}.tsv"
-        print(f"Writing {out_filename}...")
-        output_df.to_csv(os.path.join(output_dir, out_filename), sep='\t')
+        out_path = output_dir / f"{basename}_section_{sec_id:04d}.tsv"
+        print(f"Writing {out_path}...")
+        output_df.to_csv(out_path, sep='\t')
 
     print(f"Done.")
 

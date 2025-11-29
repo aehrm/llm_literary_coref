@@ -123,19 +123,20 @@ class BasicMergePrompt(MergePrompt):
             ]
 
             entity_name = references[0][1].entity.fullname
+            entity_id = references[0][1].entity.id
 
-            refs_with_count = Counter(s for s in str_references if s not in PRON).most_common()
+            refs_with_count = Counter(s for s in str_references if s.lower() not in PRON).most_common()
             json_input_lines.append(json.dumps({
                 "Nummer": i,
                 "Kapitel": section_id,
                 "Figurenname_Kapitel": entity_name,
                 "Erwähnungen": [list(x) for x in refs_with_count],
                 "Figurenname_Vollständig": ""
-            }))
+            }, ensure_ascii=False))
 
             i = i + 1
 
-            annotation_rows.append((section_id, entity_name))
+            annotation_rows.append((section_id, entity_id))
 
 
         self.annotation_rows = annotation_rows
@@ -147,18 +148,28 @@ class BasicMergePrompt(MergePrompt):
     def decode(self, json_lines: list) -> List[Mention]:
         entity_translation_map: Dict[(int, str), str] = self._decode(json_lines)
 
-        def sorter(entry: Tuple[Tuple[int, str], List[Tuple[Mention, Reference]]]):
-            _, references_ = entry
-            return min( min(mention.token_idx) for mention, _ in references_ )
+        new_entities = collections.defaultdict(list)
+        merged_entities = set()
+        for (section_id, old_entity_id), entity_global_name in entity_translation_map.items():
+            new_entities[entity_global_name].append((section_id, old_entity_id))
+            merged_entities.add((section_id, old_entity_id))
 
-        entries = list(self.entities.items())
 
-        for i, ((section_id, old_entity_id), references) in enumerate(sorted(entries, key=sorter)):
-            new_entity_name = entity_translation_map.get((section_id, old_entity_id), None)
-            for _, reference in references:
-                reference.entity.id = f'entity_{i:04d}'
-                if new_entity_name:
-                    reference.entity.fullname = new_entity_name
+        entity_counter = 0
+        for entity_global_name, chapter_entities in new_entities.items():
+            entity_counter += 1
+            for (section_id, old_entity_id) in chapter_entities:
+                entries = self.entities[(section_id, old_entity_id)]
+                for _, reference in entries:
+                    reference.entity.fullname = entity_global_name
+                    reference.entity.id = f'figur_{entity_counter:04d}'
+
+        for (section_id, old_entity_id) in self.entities.keys() - merged_entities:
+            entity_counter += 1
+            entries = self.entities[(section_id, old_entity_id)]
+            for _, reference in entries:
+                reference.entity.id = f'figur_{entity_counter:04d}'
+
 
         return self.mentions
 

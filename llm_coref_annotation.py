@@ -83,16 +83,17 @@ def main():
 
     args.output_dir.mkdir(parents=True, exist_ok=True)
 
-    if args.generation_args:
-        gen_args = OmegaConf.from_dotlist(args.generation_args or [])
+    if args.generation_args and len(args.generation_args) > 0:
+        gen_args = OmegaConf.from_dotlist(args.generation_args)
     else:
         gen_args = OmegaConf.create(dict(
             seed=123,
             temperature=0,
             reasoning=dict(enabled=False)
         ))
-        print('Picked up the following generation arguments:')
-        print(OmegaConf.to_yaml(gen_args))
+
+    print('Picked up the following generation arguments:')
+    print(OmegaConf.to_yaml(gen_args))
 
     prompt_class = PROMPT_REGISTRY.get(args.prompt_type, None)
     if prompt_class is None:

@@ -24,6 +24,7 @@ def load_document(input_files: List[Path]) -> pd.DataFrame:
     """Load and concatenate TSV files into a single DataFrame."""
     dfs = []
     for f in input_files:
+        print(f"loading {f}")
         df = pd.read_csv(f, sep="\t", index_col='i')
         df['is_section_start'] = 0
         df.loc[df.index[0], 'is_section_start'] = 1
@@ -93,16 +94,17 @@ def main():
 
     # args.output_file.parent.mkdir(parents=True, exist_ok=True)
 
-    if args.generation_args:
-        gen_args = OmegaConf.from_dotlist(args.generation_args or [])
+    if args.generation_args and len(args.generation_args) > 0:
+        gen_args = OmegaConf.from_dotlist(args.generation_args)
     else:
         gen_args = OmegaConf.create(dict(
             seed=123,
             temperature=0,
             reasoning=dict(enabled=False)
         ))
-        print('Picked up the following generation arguments:')
-        print(OmegaConf.to_yaml(gen_args))
+
+    print('Picked up the following generation arguments:')
+    print(OmegaConf.to_yaml(gen_args))
 
     prompt_class = PROMPT_REGISTRY.get(args.prompt_type, None)
     if prompt_class is None:
