@@ -1,6 +1,7 @@
 import itertools
 import json
 import logging
+import re
 from abc import abstractmethod
 from typing import Literal, Optional, List, Tuple, Dict, Generic, TypeVar
 
@@ -94,25 +95,27 @@ Beachte, dass sich diese Entscheidung auf die gesamte Entität bezieht. Überpr�
 ## Beispiele
 
 **Beispiel-Text:**
-In der Frühe fragte [Madlen][1] [ihre][2] [Tochter][3] . Vor dem Schloss warteten die [Wachen][4] . Danach kamen die zwei [Jungen][5] . Gemeinsam gingen [sie][6] ins Haus . Charlotte sagte : " [Männer][7] sind so . "
+[Hans][1] und [Anna][2] saßen im Garten. [Er][3] nannte [sie][4] liebevoll seine [Sonne][5]. Anna wünschte sich eine [Tochter][6]. Hans meinte, ein [König][7] müsse stets gerecht sein. Später gingen [sie][8] gemeinsam ins Haus.
 
 **Input B:**
-{{"ID": 1, "Position": 4, "Text": "Madlen", "Annotation": []}}
-{{"ID": 2, "Position": 5, "Text": "ihre", "Annotation": []}}
-{{"ID": 3, "Position": 6, "Text": "Tochter", "Annotation": []}}
-{{"ID": 4, "Position": 13, "Text": "Wachen", "Annotation": []}}
-{{"ID": 5, "Position": 19, "Text": "Jungen", "Annotation": []}}
-{{"ID": 6, "Position": 23, "Text": "sie", "Annotation": []}}
-{{"ID": 7, "Position": 31, "Text": "Männer", "Annotation": []}}
+{{"ID": 1, "Position": 0, "Text": "Hans", "Annotation": []}}
+{{"ID": 2, "Position": 2, "Text": "Anna", "Annotation": []}}
+{{"ID": 3, "Position": 7, "Text": "Er", "Annotation": []}}
+{{"ID": 4, "Position": 9, "Text": "sie", "Annotation": []}}
+{{"ID": 5, "Position": 12, "Text": "Sonne", "Annotation": []}}
+{{"ID": 6, "Position": 18, "Text": "Tochter", "Annotation": []}}
+{{"ID": 7, "Position": 23, "Text": "König", "Annotation": []}}
+{{"ID": 8, "Position": 31, "Text": "sie", "Annotation": []}}
 
 **Erwartete Ausgabe:**
-{{"ID": 1, "Position": 4, "Text": "Madlen", "Annotation": [{{"entity_id": "Madlen", "gender": "f"}}]}}
-{{"ID": 2, "Position": 5, "Text": "ihre", "Annotation": [{{"entity_id": "Madlen"}}]}}
-{{"ID": 3, "Position": 6, "Text": "Tochter", "Annotation": [{{"entity_id": "Tochter_Madlens", "gender": "f"}}]}}
-{{"ID": 4, "Position": 13, "Text": "Wachen", "Annotation": [{{"entity_id": "die Wachen", "gender": "u", "specialcase_entity": ["group"]}}]}}
-{{"ID": 5, "Position": 19, "Text": "Jungen", "Annotation": [{{"entity_id": "Junge1", "gender": "m"}}, {{"entity_id": "Junge2", "gender": "m"}}]}}
-{{"ID": 6, "Position": 23, "Text": "sie", "Annotation": [{{"entity_id": "Junge1"}}, {{"entity_id": "Junge2"}}]}}
-{{"ID": 7, "Position": 31, "Text": "Männer", "Annotation": [{{"entity_id": "Männer im Allgemeinen", "gender": "m", "specialcase_entity": ["group", "generic"]}}]}}
+{{"ID": 1, "Position": 0, "Text": "Hans", "Annotation": [{{"entity_id": "Hans", "gender": "m"}}]}}
+{{"ID": 2, "Position": 2, "Text": "Anna", "Annotation": [{{"entity_id": "Anna", "gender": "f"}}]}}
+{{"ID": 3, "Position": 7, "Text": "Er", "Annotation": [{{"entity_id": "Hans"}}]}}
+{{"ID": 4, "Position": 9, "Text": "sie", "Annotation": [{{"entity_id": "Anna"}}]}}
+{{"ID": 5, "Position": 12, "Text": "Sonne", "Annotation": [{{"entity_id": "Anna", "specialcase_mention": ["figurative"]}}]}}
+{{"ID": 6, "Position": 18, "Text": "Tochter", "Annotation": [{{"entity_id": "gewünschte Tochter", "gender": "f", "specialcase_entity": ["nonfact"]}}]}}
+{{"ID": 7, "Position": 23, "Text": "König", "Annotation": [{{"entity_id": "ein König im Allgemeinen", "gender": "m", "specialcase_entity": ["nonfact", "generic"]}}]}}
+{{"ID": 8, "Position": 31, "Text": "sie", "Annotation": [{{"entity_id": "Hans"}}, {{"entity_id": "Anna"}}]}}
 
 ---
 
@@ -236,7 +239,7 @@ class MentionPromptBasic(MentionPrompt[List[BasicAnnotationReference]]):
                 all_entity_annotations.append((mention, annotation))
 
         entity_id_counter = 0
-        for entity_id, entity_annotations in itertools.groupby(sorted(all_entity_annotations, key=lambda x: x[1].entity_id),
+        for entity_name, entity_annotations in itertools.groupby(sorted(all_entity_annotations, key=lambda x: x[1].entity_id),
                                                               key=lambda x: x[1].entity_id):
             entity_annotations = list(sorted(entity_annotations, key=lambda x: x[0].token_idx[0]))
 
@@ -248,23 +251,23 @@ class MentionPromptBasic(MentionPrompt[List[BasicAnnotationReference]]):
 
                 if value is None:
                     if entity_field == 'gender':
-                        logger.warning(f'for response entity {entity_id!r} no gender was specified! Defaulting to u')
+                        logger.warning(f'for response entity {entity_name!r} no gender was specified! Defaulting to u')
                         fields[entity_field] = 'u'
                     elif entity_field == 'specialcase_entity':
-                        logger.warning(f'for response entity {entity_id!r} no specialcase_entity was specified! Defaulting to empty list')
+                        logger.warning(f'for response entity {entity_name!r} no specialcase_entity was specified! Defaulting to empty list')
                         fields[entity_field] = []
                 else:
                     fields[entity_field] = value
 
             entity = Entity(
                 id=(entity_id_counter := entity_id_counter + 1),
-                fullname=entity_id,
+                fullname=re.sub(r'[^\w\s]', '', entity_name),
                 gender=fields['gender'],
                 specialcase_entity=fields.get('specialcase_entity', []),
                 borderline_entity=[]
             )
 
-            entities[entity_id] = entity
+            entities[entity_name] = entity
 
         return entities
 
