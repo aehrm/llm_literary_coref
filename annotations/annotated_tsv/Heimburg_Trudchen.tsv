@@ -5710,7 +5710,7 @@ i	text	is_section_start	gold
 5708	Mann	0	(mention_id=714|references=(entity=(entity_id=entity_0119|fullname=Ehemann von Johanne|gender=m)))
 5709	ist	0	
 5710	in	0	
-5711	unserer	0	(mention_id=715|references=(entity=(entity_id=entity_0010|fullname=Familie Baumhagen|gender=mf|members=entity_0009,entity_0015,entity_0005,entity_0008,entity_0004,entity_0007,entity_0006|all_members_given=True|specialcase_entity=group)))
+5711	unserer	0	(mention_id=715|references=(entity=(entity_id=entity_0010|fullname=Familie Baumhagen|gender=mf|members=entity_0004,entity_0005,entity_0006,entity_0007,entity_0008,entity_0009,entity_0015|all_members_given=True|specialcase_entity=group)))
 5712	Fabrik	0	
 5713	verunglückt	0	
 5714	.	0	
@@ -8782,7 +8782,7 @@ i	text	is_section_start	gold
 8780	herzoglichen	0	
 8781	Hause	0	
 8782	von	0	
-8783	A.	0	(mention_id=1105|references=(entity=(entity_id=entity_0084|fullname=herzogliche Familie A.|gender=u|members=entity_0069|specialcase_entity=group)))
+8783	A.	0	(mention_id=1105|references=(entity=(entity_id=entity_0084|fullname=herzogliche Familie A.|gender=u|members=entity_0069|all_members_given=False|specialcase_entity=group)))
 8784	?	0	
 8785	Die	0	
 8786	Frau	0	(mention_id=1106|references=(entity=(entity_id=entity_0089|fullname=Frau von S.|gender=f)))
@@ -8795,13 +8795,13 @@ i	text	is_section_start	gold
 8793	kennt	0	
 8794	die	0	
 8795	ganze	0	
-8796	Familie	0	(mention_id=1107|references=(entity=(entity_id=entity_0084|fullname=herzogliche Familie A.|gender=u|members=entity_0069|specialcase_entity=group)))
+8796	Familie	0	(mention_id=1107|references=(entity=(entity_id=entity_0084|fullname=herzogliche Familie A.|gender=u|members=entity_0069|all_members_given=False|specialcase_entity=group)))
 8797	,	0	
 8798	es	0	
 8799	sollen	0	
 8800	alle	0	
 8801	scharmante	0	
-8802	Menschen	0	(mention_id=1108|references=(entity=(entity_id=entity_0084|fullname=herzogliche Familie A.|gender=u|members=entity_0069|specialcase_entity=group)))
+8802	Menschen	0	(mention_id=1108|references=(entity=(entity_id=entity_0084|fullname=herzogliche Familie A.|gender=u|members=entity_0069|all_members_given=False|specialcase_entity=group)))
 8803	sein	0	
 8804	.	0	
 8805	Aber	0	
@@ -9439,8 +9439,8 @@ i	text	is_section_start	gold
 9437	40	0	
 9438	sei	0	
 9439	von	0	
-9440	Familie	0	(mention_id=1200|references=(entity=(entity_id=entity_0010|fullname=Familie Baumhagen|gender=mf|members=entity_0009,entity_0015,entity_0005,entity_0008,entity_0004,entity_0007,entity_0006|all_members_given=True|specialcase_entity=group)))
-9441	Baumhagen	0	(mention_id=1200|references=(entity=(entity_id=entity_0010|fullname=Familie Baumhagen|gender=mf|members=entity_0009,entity_0015,entity_0005,entity_0008,entity_0004,entity_0007,entity_0006|all_members_given=True|specialcase_entity=group)))
+9440	Familie	0	(mention_id=1200|references=(entity=(entity_id=entity_0010|fullname=Familie Baumhagen|gender=mf|members=entity_0004,entity_0005,entity_0006,entity_0007,entity_0008,entity_0009,entity_0015|all_members_given=True|specialcase_entity=group)))
+9441	Baumhagen	0	(mention_id=1200|references=(entity=(entity_id=entity_0010|fullname=Familie Baumhagen|gender=mf|members=entity_0004,entity_0005,entity_0006,entity_0007,entity_0008,entity_0009,entity_0015|all_members_given=True|specialcase_entity=group)))
 9442	vorbestellt	0	
 9443	–	0	
 9444	›	0	
@@ -9457,21 +9457,21 @@ i	text	is_section_start	gold
 9455	,	0	
 9456	daß	0	
 9457	die	0	
-9458	Baumhagens	0	(mention_id=1203|references=(entity=(entity_id=entity_0010|fullname=Familie Baumhagen|gender=mf|members=entity_0009,entity_0015,entity_0005,entity_0008,entity_0004,entity_0007,entity_0006|all_members_given=True|specialcase_entity=group)))
+9458	Baumhagens	0	(mention_id=1203|references=(entity=(entity_id=entity_0010|fullname=Familie Baumhagen|gender=mf|members=entity_0004,entity_0005,entity_0006,entity_0007,entity_0008,entity_0009,entity_0015|all_members_given=True|specialcase_entity=group)))
 9459	die	0	
 9460	angesehensten	0	
 9461	und	0	
 9462	wohlhabendsten	0	
-9463	Patrizier	0	(mention_id=1204|references=(entity=(entity_id=entity_0010|fullname=Familie Baumhagen|gender=mf|members=entity_0009,entity_0015,entity_0005,entity_0008,entity_0004,entity_0007,entity_0006|all_members_given=True|specialcase_entity=group)))
+9463	Patrizier	0	(mention_id=1204|references=(entity=(entity_id=entity_0010|fullname=Familie Baumhagen|gender=mf|members=entity_0004,entity_0005,entity_0006,entity_0007,entity_0008,entity_0009,entity_0015|all_members_given=True|specialcase_entity=group)))
 9464	der	0	
 9465	Stadt	0	
 9466	seien	0	
 9467	–	0	
 9468	also	0	
 9469	offenbar	0	
-9470	diejenigen	0	(mention_id=1205|references=(entity=(entity_id=entity_0010|fullname=Familie Baumhagen|gender=mf|members=entity_0009,entity_0015,entity_0005,entity_0008,entity_0004,entity_0007,entity_0006|all_members_given=True|specialcase_entity=group)))
+9470	diejenigen	0	(mention_id=1205|references=(entity=(entity_id=entity_0010|fullname=Familie Baumhagen|gender=mf|members=entity_0004,entity_0005,entity_0006,entity_0007,entity_0008,entity_0009,entity_0015|all_members_given=True|specialcase_entity=group)))
 9471	,	0	
-9472	welche	0	(mention_id=1206|references=(entity=(entity_id=entity_0010|fullname=Familie Baumhagen|gender=mf|members=entity_0009,entity_0015,entity_0005,entity_0008,entity_0004,entity_0007,entity_0006|all_members_given=True|specialcase_entity=group)))
+9472	welche	0	(mention_id=1206|references=(entity=(entity_id=entity_0010|fullname=Familie Baumhagen|gender=mf|members=entity_0004,entity_0005,entity_0006,entity_0007,entity_0008,entity_0009,entity_0015|all_members_given=True|specialcase_entity=group)))
 9473	die	0	
 9474	erste	0	
 9475	Violine	0	
@@ -9965,7 +9965,7 @@ i	text	is_section_start	gold
 9963	regnete	0	
 9964	.	0	
 9965	Zu	0	
-9966	Baumhagens	0	(mention_id=1281|references=(entity=(entity_id=entity_0010|fullname=Familie Baumhagen|gender=mf|members=entity_0009,entity_0015,entity_0005,entity_0008,entity_0004,entity_0007,entity_0006|all_members_given=True|specialcase_entity=group)))
+9966	Baumhagens	0	(mention_id=1281|references=(entity=(entity_id=entity_0010|fullname=Familie Baumhagen|gender=mf|members=entity_0004,entity_0005,entity_0006,entity_0007,entity_0008,entity_0009,entity_0015|all_members_given=True|specialcase_entity=group)))
 9967	wollte	0	
 9968	er	0	(mention_id=1282|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
 9969	aus	0	
@@ -9978,9 +9978,9 @@ i	text	is_section_start	gold
 9976	gehörte	0	
 9977	zu	0	
 9978	den	0	
-9979	Menschen	0	(mention_id=1284|references=(entity=(entity_id=entity_0091|fullname=misstrauische Menschen zu denen Franz gehört|gender=u|members=entity_0001|specialcase_entity=group)))
+9979	Menschen	0	(mention_id=1284|references=(entity=(entity_id=entity_0091|fullname=misstrauische Menschen zu denen Franz gehört|gender=u|members=entity_0001|all_members_given=False|specialcase_entity=group)))
 9980	,	0	
-9981	denen	0	(mention_id=1285|references=(entity=(entity_id=entity_0091|fullname=misstrauische Menschen zu denen Franz gehört|gender=u|members=entity_0001|specialcase_entity=group)))
+9981	denen	0	(mention_id=1285|references=(entity=(entity_id=entity_0091|fullname=misstrauische Menschen zu denen Franz gehört|gender=u|members=entity_0001|all_members_given=False|specialcase_entity=group)))
 9982	nur	0	
 9983	jemand	0	
 9984	etwas	0	
@@ -10018,7 +10018,7 @@ i	text	is_section_start	gold
 10016	.	0	
 10017	»	0	
 10018	Zu	0	
-10019	Baumhagens	0	(mention_id=1289|references=(entity=(entity_id=entity_0010|fullname=Familie Baumhagen|gender=mf|members=entity_0009,entity_0015,entity_0005,entity_0008,entity_0004,entity_0007,entity_0006|all_members_given=True|specialcase_entity=group)))
+10019	Baumhagens	0	(mention_id=1289|references=(entity=(entity_id=entity_0010|fullname=Familie Baumhagen|gender=mf|members=entity_0004,entity_0005,entity_0006,entity_0007,entity_0008,entity_0009,entity_0015|all_members_given=True|specialcase_entity=group)))
 10020	?	0	
 10021	«	0	
 10022	fragte	0	
@@ -11128,7 +11128,7 @@ i	text	is_section_start	gold
 11126	,	0	
 11127	daß	0	
 11128	Sie	0	(mention_id=1452|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
-11129	uns	0	(mention_id=1453|references=(entity=(entity_id=entity_0010|fullname=Familie Baumhagen|gender=mf|members=entity_0009,entity_0015,entity_0005,entity_0008,entity_0004,entity_0007,entity_0006|all_members_given=True|specialcase_entity=group)))
+11129	uns	0	(mention_id=1453|references=(entity=(entity_id=entity_0010|fullname=Familie Baumhagen|gender=mf|members=entity_0004,entity_0005,entity_0006,entity_0007,entity_0008,entity_0009,entity_0015|all_members_given=True|specialcase_entity=group)))
 11130	so	0	
 11131	nahe	0	
 11132	wohnen	0	
@@ -11178,7 +11178,7 @@ i	text	is_section_start	gold
 11176	Sie	0	(mention_id=1461|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
 11177	sich	0	(mention_id=1462|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
 11178	nach	0	
-11179	unserer	0	(mention_id=1463|references=(entity=(entity_id=entity_0010|fullname=Familie Baumhagen|gender=mf|members=entity_0009,entity_0015,entity_0005,entity_0008,entity_0004,entity_0007,entity_0006|all_members_given=True|specialcase_entity=group)))
+11179	unserer	0	(mention_id=1463|references=(entity=(entity_id=entity_0010|fullname=Familie Baumhagen|gender=mf|members=entity_0004,entity_0005,entity_0006,entity_0007,entity_0008,entity_0009,entity_0015|all_members_given=True|specialcase_entity=group)))
 11180	Wohnung	0	
 11181	erkundigten	0	
 11182	.	0	
@@ -12691,11 +12691,11 @@ i	text	is_section_start	gold
 12689	hörte	0	
 12690	er	0	(mention_id=1670|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
 12691	im	0	
-12692	Publikum	0	(mention_id=1671|references=(entity=(entity_id=entity_0080|fullname=Publikum|gender=u|members=entity_0134,entity_0118,entity_0145|all_members_given=True|specialcase_entity=group)))
+12692	Publikum	0	(mention_id=1671|references=(entity=(entity_id=entity_0080|fullname=Publikum|gender=u|members=entity_0118,entity_0134,entity_0145|all_members_given=True|specialcase_entity=group)))
 12693	murmeln	0	
 12694	,	0	
-12695	das	0	(mention_id=1672|references=(entity=(entity_id=entity_0080|fullname=Publikum|gender=u|members=entity_0134,entity_0118,entity_0145|all_members_given=True|specialcase_entity=group)))
-12696	sich	0	(mention_id=1673|references=(entity=(entity_id=entity_0080|fullname=Publikum|gender=u|members=entity_0134,entity_0118,entity_0145|all_members_given=True|specialcase_entity=group)))
+12695	das	0	(mention_id=1672|references=(entity=(entity_id=entity_0080|fullname=Publikum|gender=u|members=entity_0118,entity_0134,entity_0145|all_members_given=True|specialcase_entity=group)))
+12696	sich	0	(mention_id=1673|references=(entity=(entity_id=entity_0080|fullname=Publikum|gender=u|members=entity_0118,entity_0134,entity_0145|all_members_given=True|specialcase_entity=group)))
 12697	schaulustig	0	
 12698	hinter	0	
 12699	ihm	0	(mention_id=1674|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
@@ -13423,7 +13423,7 @@ i	text	is_section_start	gold
 13421	von	0	
 13422	einer	0	
 13423	Schar	0	
-13424	Kinder	0	(mention_id=1748|references=(entity=(entity_id=entity_0161|fullname=Kinderschar|gender=mf|members=entity_0162|specialcase_entity=group)))
+13424	Kinder	0	(mention_id=1748|references=(entity=(entity_id=entity_0161|fullname=Kinderschar|gender=mf|members=entity_0162|all_members_given=False|specialcase_entity=group)))
 13425	,	0	
 13426	besonders	0	
 13427	Mädchen	0	(mention_id=1749|references=(entity=(entity_id=entity_0162|fullname=Mädchenschar|gender=f|specialcase_entity=group)))
@@ -15948,7 +15948,7 @@ i	text	is_section_start	gold
 15946	in	0	
 15947	der	0	
 15948	ganzen	0	
-15949	Verwandtschaft	0	(mention_id=2073|references=(entity=(entity_id=entity_0174|fullname=Verwandtschaft Baumhagen|gender=mf|members=entity_0009,entity_0008,entity_0010|specialcase_entity=group)))
+15949	Verwandtschaft	0	(mention_id=2073|references=(entity=(entity_id=entity_0174|fullname=Verwandtschaft Baumhagen|gender=mf|members=entity_0008,entity_0009,entity_0010|all_members_given=False|specialcase_entity=group)))
 15950	herumfragen	0	
 15951	«	0	
 15952	,	0	
@@ -16220,7 +16220,7 @@ i	text	is_section_start	gold
 16218	Sie	0	(mention_id=2117|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))
 16219	hat	0	
 16220	den	0	
-16221	Baumhagenschen	0	(mention_id=2118|references=(entity=(entity_id=entity_0010|fullname=Familie Baumhagen|gender=mf|members=entity_0009,entity_0015,entity_0005,entity_0008,entity_0004,entity_0007,entity_0006|all_members_given=True|specialcase_entity=group)))
+16221	Baumhagenschen	0	(mention_id=2118|references=(entity=(entity_id=entity_0010|fullname=Familie Baumhagen|gender=mf|members=entity_0004,entity_0005,entity_0006,entity_0007,entity_0008,entity_0009,entity_0015|all_members_given=True|specialcase_entity=group)))
 16222	Trotzkopf	0	
 16223	in	0	
 16224	vollstem	0	
@@ -17698,7 +17698,7 @@ i	text	is_section_start	gold
 17696	ein	0	
 17697	Laufen	0	
 17698	der	0	
-17699	Dienerschaft	0	(mention_id=2327|references=(entity=(entity_id=entity_0171|fullname=Dienerschaft|gender=u|members=entity_0071,entity_0129|specialcase_entity=group)))
+17699	Dienerschaft	0	(mention_id=2327|references=(entity=(entity_id=entity_0171|fullname=Dienerschaft|gender=u|members=entity_0071,entity_0129|all_members_given=False|specialcase_entity=group)))
 17700	,	0	
 17701	Trudchen	0	(mention_id=2328|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))
 17702	meinte	0	
@@ -20758,7 +20758,7 @@ i	text	is_section_start	gold
 20756	?	0	
 20757	Und	0	
 20758	die	0	
-20759	Familie	0	(mention_id=2812|references=(entity=(entity_id=entity_0010|fullname=Familie Baumhagen|gender=mf|members=entity_0009,entity_0015,entity_0005,entity_0008,entity_0004,entity_0007,entity_0006|all_members_given=True|specialcase_entity=group)))
+20759	Familie	0	(mention_id=2812|references=(entity=(entity_id=entity_0010|fullname=Familie Baumhagen|gender=mf|members=entity_0004,entity_0005,entity_0006,entity_0007,entity_0008,entity_0009,entity_0015|all_members_given=True|specialcase_entity=group)))
 20760	hat's	0	
 20761	zugegeben	0	
 20762	?	0	
@@ -20778,7 +20778,7 @@ i	text	is_section_start	gold
 20776	heiraten	0	
 20777	und	0	
 20778	die	0	
-20779	Familie	0	(mention_id=2815|references=(entity=(entity_id=entity_0010|fullname=Familie Baumhagen|gender=mf|members=entity_0009,entity_0015,entity_0005,entity_0008,entity_0004,entity_0007,entity_0006|all_members_given=True|specialcase_entity=group)))
+20779	Familie	0	(mention_id=2815|references=(entity=(entity_id=entity_0010|fullname=Familie Baumhagen|gender=mf|members=entity_0004,entity_0005,entity_0006,entity_0007,entity_0008,entity_0009,entity_0015|all_members_given=True|specialcase_entity=group)))
 20780	hat's	0	
 20781	zugegeben	0	
 20782	,	0	
@@ -22636,7 +22636,7 @@ i	text	is_section_start	gold
 22634	eine	0	
 22635	ganze	0	
 22636	arme	0	
-22637	Lehrerfamilie	0	(mention_id=3133|references=(entity=(entity_id=entity_0183|fullname=Lehrerfamilie|gender=mf|members=entity_0181,entity_0190,entity_0177,entity_0176|all_members_given=True|specialcase_entity=group)))
+22637	Lehrerfamilie	0	(mention_id=3133|references=(entity=(entity_id=entity_0183|fullname=Lehrerfamilie|gender=mf|members=entity_0176,entity_0177,entity_0181,entity_0190|all_members_given=True|specialcase_entity=group)))
 22638	in	0	
 22639	Wohnung	0	
 22640	,	0	
@@ -22762,7 +22762,7 @@ i	text	is_section_start	gold
 22760	Stube	0	
 22761	,	0	
 22762	die	0	
-22763	Leute	0	(mention_id=3149|references=(entity=(entity_id=entity_0183|fullname=Lehrerfamilie|gender=mf|members=entity_0181,entity_0190,entity_0177,entity_0176|all_members_given=True|specialcase_entity=group)))
+22763	Leute	0	(mention_id=3149|references=(entity=(entity_id=entity_0183|fullname=Lehrerfamilie|gender=mf|members=entity_0176,entity_0177,entity_0181,entity_0190|all_members_given=True|specialcase_entity=group)))
 22764	waren	0	
 22765	beim	0	
 22766	Mittagsbrot	0	
@@ -23458,7 +23458,7 @@ i	text	is_section_start	gold
 23456	gerade	0	
 23457	hier	0	
 23458	bei	0	
-23459	euch	0	(mention_id=3254|references=(entity=(entity_id=entity_0010|fullname=Familie Baumhagen|gender=mf|members=entity_0009,entity_0015,entity_0005,entity_0008,entity_0004,entity_0007,entity_0006|all_members_given=True|specialcase_entity=group)))
+23459	euch	0	(mention_id=3254|references=(entity=(entity_id=entity_0010|fullname=Familie Baumhagen|gender=mf|members=entity_0004,entity_0005,entity_0006,entity_0007,entity_0008,entity_0009,entity_0015|all_members_given=True|specialcase_entity=group)))
 23460	Gäste	0	(mention_id=3255|references=(entity=(entity_id=entity_0187|fullname=Gäste|gender=u)))
 23461	sind	0	
 23462	?	0	
@@ -24477,7 +24477,7 @@ i	text	is_section_start	gold
 24475	eisenumgitterten	0	
 24476	Familiengruft	0	
 24477	der	0	
-24478	Baumhagens	0	(mention_id=3394|references=(entity=(entity_id=entity_0010|fullname=Familie Baumhagen|gender=mf|members=entity_0009,entity_0015,entity_0005,entity_0008,entity_0004,entity_0007,entity_0006|all_members_given=True|specialcase_entity=group)))
+24478	Baumhagens	0	(mention_id=3394|references=(entity=(entity_id=entity_0010|fullname=Familie Baumhagen|gender=mf|members=entity_0004,entity_0005,entity_0006,entity_0007,entity_0008,entity_0009,entity_0015|all_members_given=True|specialcase_entity=group)))
 24479	.	0	
 24480	Jennys	0	(mention_id=3395|references=(entity=(entity_id=entity_0006|fullname=Jenny Fredrich, geb. Baumhagen|gender=f)))
 24481	blonder	0	
@@ -28335,7 +28335,7 @@ i	text	is_section_start	gold
 28333	Jetzt	0	
 28334	waren	0	
 28335	die	0	
-28336	Damen	0	(mention_id=4025|references=(entity=(entity_id=entity_0205|fullname=Damen auf der Hochzeit|gender=f|members=entity_0009,entity_0006,entity_0005|specialcase_entity=group)))
+28336	Damen	0	(mention_id=4025|references=(entity=(entity_id=entity_0205|fullname=Damen auf der Hochzeit|gender=f|members=entity_0005,entity_0006,entity_0009|all_members_given=False|specialcase_entity=group)))
 28337	alle	0	
 28338	bei	0	
 28339	der	0	
@@ -28846,7 +28846,7 @@ i	text	is_section_start	gold
 28844	zum	0	
 28845	Empfang	0	
 28846	der	0	
-28847	Gäste	0	(mention_id=4103|references=(entity=(entity_id=entity_0204|fullname=Hochzeitsgäste|gender=u|members=entity_0009,entity_0005,entity_0008,entity_0007,entity_0006,entity_0206|specialcase_entity=group)))
+28847	Gäste	0	(mention_id=4103|references=(entity=(entity_id=entity_0204|fullname=Hochzeitsgäste|gender=u|members=entity_0005,entity_0006,entity_0007,entity_0008,entity_0009,entity_0206|all_members_given=False|specialcase_entity=group)))
 28848	heraufkomme	0	
 28849	.	0	
 28850	«	0	
@@ -29751,12 +29751,12 @@ i	text	is_section_start	gold
 29749	im	0	
 29750	Saale	0	
 29751	versammelte	0	
-29752	sich	0	(mention_id=4233|references=(entity=(entity_id=entity_0204|fullname=Hochzeitsgäste|gender=u|members=entity_0009,entity_0005,entity_0008,entity_0007,entity_0006,entity_0206|specialcase_entity=group)))
+29752	sich	0	(mention_id=4233|references=(entity=(entity_id=entity_0204|fullname=Hochzeitsgäste|gender=u|members=entity_0005,entity_0006,entity_0007,entity_0008,entity_0009,entity_0206|all_members_given=False|specialcase_entity=group)))
 29753	indes	0	
 29754	still	0	
 29755	die	0	
 29756	kleine	0	
-29757	Hochzeitsgesellschaft	0	(mention_id=4234|references=(entity=(entity_id=entity_0204|fullname=Hochzeitsgäste|gender=u|members=entity_0009,entity_0005,entity_0008,entity_0007,entity_0006,entity_0206|specialcase_entity=group)))
+29757	Hochzeitsgesellschaft	0	(mention_id=4234|references=(entity=(entity_id=entity_0204|fullname=Hochzeitsgäste|gender=u|members=entity_0005,entity_0006,entity_0007,entity_0008,entity_0009,entity_0206|all_members_given=False|specialcase_entity=group)))
 29758	,	0	
 29759	die	0	
 29760	Mutter	0	(mention_id=4235|references=(entity=(entity_id=entity_0005|fullname=Ottilie Baumhagen|gender=f)))
@@ -30244,7 +30244,7 @@ i	text	is_section_start	gold
 30242	.	0	
 30243	Als	0	
 30244	man	0	
-30245	sich	0	(mention_id=4303|references=(entity=(entity_id=entity_0204|fullname=Hochzeitsgäste|gender=u|members=entity_0009,entity_0005,entity_0008,entity_0007,entity_0006,entity_0206|specialcase_entity=group)))
+30245	sich	0	(mention_id=4303|references=(entity=(entity_id=entity_0204|fullname=Hochzeitsgäste|gender=u|members=entity_0005,entity_0006,entity_0007,entity_0008,entity_0009,entity_0206|all_members_given=False|specialcase_entity=group)))
 30246	zum	0	
 30247	Kaffee	0	
 30248	erhob	0	
@@ -30282,7 +30282,7 @@ i	text	is_section_start	gold
 30280	gedämpfte	0	
 30281	Sprechen	0	
 30282	der	0	
-30283	Tischgesellschaft	0	(mention_id=4309|references=(entity=(entity_id=entity_0204|fullname=Hochzeitsgäste|gender=u|members=entity_0009,entity_0005,entity_0008,entity_0007,entity_0006,entity_0206|specialcase_entity=group)))
+30283	Tischgesellschaft	0	(mention_id=4309|references=(entity=(entity_id=entity_0204|fullname=Hochzeitsgäste|gender=u|members=entity_0005,entity_0006,entity_0007,entity_0008,entity_0009,entity_0206|all_members_given=False|specialcase_entity=group)))
 30284	heraus	0	
 30285	,	0	
 30286	hier	0	
@@ -30335,7 +30335,7 @@ i	text	is_section_start	gold
 30333	,	0	
 30334	»	0	
 30335	grüß	0	
-30336	sie	0	(mention_id=4318|references=(entity=(entity_id=entity_0204|fullname=Hochzeitsgäste|gender=u|members=entity_0009,entity_0005,entity_0008,entity_0007,entity_0006,entity_0206|specialcase_entity=group)))
+30336	sie	0	(mention_id=4318|references=(entity=(entity_id=entity_0204|fullname=Hochzeitsgäste|gender=u|members=entity_0005,entity_0006,entity_0007,entity_0008,entity_0009,entity_0206|all_members_given=False|specialcase_entity=group)))
 30337	alle	0	
 30338	noch	0	
 30339	tausendmal	0	
@@ -32151,7 +32151,7 @@ i	text	is_section_start	gold
 32149	und	0	
 32150	wer	0	
 32151	die	0	
-32152	Deinen	0	(mention_id=4508|references=(entity=(entity_id=entity_0010|fullname=Familie Baumhagen|gender=mf|members=entity_0009,entity_0015,entity_0005,entity_0008,entity_0004,entity_0007,entity_0006|all_members_given=True|specialcase_entity=group)))
+32152	Deinen	0	(mention_id=4508|references=(entity=(entity_id=entity_0010|fullname=Familie Baumhagen|gender=mf|members=entity_0004,entity_0005,entity_0006,entity_0007,entity_0008,entity_0009,entity_0015|all_members_given=True|specialcase_entity=group)))
 32153	,	0	
 32154	Und	0	
 32155	wer	0	
@@ -37363,7 +37363,7 @@ i	text	is_section_start	gold
 37361	uns	0	(mention_id=5339|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)),(entity=(entity_id=entity_0252|fullname=Familie|gender=u)))
 37362	,	0	
 37363	der	0	
-37364	Familie	0	(mention_id=5340|references=(entity=(entity_id=entity_0010|fullname=Familie Baumhagen|gender=mf|members=entity_0009,entity_0015,entity_0005,entity_0008,entity_0004,entity_0007,entity_0006|all_members_given=True|specialcase_entity=group)))
+37364	Familie	0	(mention_id=5340|references=(entity=(entity_id=entity_0010|fullname=Familie Baumhagen|gender=mf|members=entity_0004,entity_0005,entity_0006,entity_0007,entity_0008,entity_0009,entity_0015|all_members_given=True|specialcase_entity=group)))
 37365	!	0	
 37366	«	0	
 37367	Und	0	
@@ -45275,7 +45275,7 @@ i	text	is_section_start	gold
 45273	Tochter	0	(mention_id=6437|references=(entity=(entity_id=entity_0232|fullname=ältliches Beamtenmädchen|gender=f)))
 45274	einer	0	
 45275	armen	0	
-45276	Beamtenfamilie	0	(mention_id=6438|references=(entity=(entity_id=entity_0251|fullname=Beamtenfamilie|gender=u|members=entity_0232|specialcase_entity=group)))
+45276	Beamtenfamilie	0	(mention_id=6438|references=(entity=(entity_id=entity_0251|fullname=Beamtenfamilie|gender=u|members=entity_0232|all_members_given=False|specialcase_entity=group)))
 45277	,	0	
 45278	verbittert	0	
 45279	und	0	
@@ -46697,7 +46697,7 @@ i	text	is_section_start	gold
 46695	,	0	
 46696	von	0	
 46697	den	0	
-46698	anderen	0	(mention_id=6613|references=(entity=(entity_id=entity_0285|fullname=andere Personen des Baumhagschen Anwesens|gender=mf|members=entity_0071,entity_0010,entity_0070|all_members_given=True|specialcase_entity=group)))
+46698	anderen	0	(mention_id=6613|references=(entity=(entity_id=entity_0285|fullname=andere Personen des Baumhagschen Anwesens|gender=mf|members=entity_0010,entity_0070,entity_0071|all_members_given=True|specialcase_entity=group)))
 46699	aber	0	
 46700	niemand	0	
 46701	.	0	
@@ -46916,7 +46916,7 @@ i	text	is_section_start	gold
 46914	kommt	0	
 46915	doch	0	
 46916	einmal	0	
-46917	jemand	0	(mention_id=6638|references=(entity=(entity_id=entity_0010|fullname=Familie Baumhagen|gender=mf|members=entity_0009,entity_0015,entity_0005,entity_0008,entity_0004,entity_0007,entity_0006|all_members_given=True|specialcase_entity=group)))
+46917	jemand	0	(mention_id=6638|references=(entity=(entity_id=entity_0010|fullname=Familie Baumhagen|gender=mf|members=entity_0004,entity_0005,entity_0006,entity_0007,entity_0008,entity_0009,entity_0015|all_members_given=True|specialcase_entity=group)))
 46918	von	0	
 46919	den	0	
 46920	Herrschaften	0	(mention_id=6639|references=(entity=(entity_id=entity_0005|fullname=Ottilie Baumhagen|gender=f)))
@@ -47261,7 +47261,7 @@ i	text	is_section_start	gold
 47259	und	0	
 47260	die	0	
 47261	alten	0	
-47262	Herren	0	(mention_id=6661|references=(entity=(entity_id=entity_0277|fullname=alte Herren in Waldruhe|gender=m|members=entity_0015,entity_0008|all_members_given=True|specialcase_entity=group)))
+47262	Herren	0	(mention_id=6661|references=(entity=(entity_id=entity_0277|fullname=alte Herren in Waldruhe|gender=m|members=entity_0008,entity_0015|all_members_given=True|specialcase_entity=group)))
 47263	ließen	0	
 47264	sie	0	(mention_id=6662|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))
 47265	dann	0	
@@ -47278,7 +47278,7 @@ i	text	is_section_start	gold
 47276	alten	0	
 47277	,	0	
 47278	lieben	0	
-47279	Freunde	0	(mention_id=6663|references=(entity=(entity_id=entity_0277|fullname=alte Herren in Waldruhe|gender=m|members=entity_0015,entity_0008|all_members_given=True|specialcase_entity=group)))
+47279	Freunde	0	(mention_id=6663|references=(entity=(entity_id=entity_0277|fullname=alte Herren in Waldruhe|gender=m|members=entity_0008,entity_0015|all_members_given=True|specialcase_entity=group)))
 47280	–	0	
 47281	da	0	
 47282	war	0	
@@ -49532,7 +49532,7 @@ i	text	is_section_start	gold
 49530	Rücksichten	0	
 49531	auf	0	
 49532	die	0	
-49533	Familie	0	(mention_id=6999|references=(entity=(entity_id=entity_0010|fullname=Familie Baumhagen|gender=mf|members=entity_0009,entity_0015,entity_0005,entity_0008,entity_0004,entity_0007,entity_0006|all_members_given=True|specialcase_entity=group)))
+49533	Familie	0	(mention_id=6999|references=(entity=(entity_id=entity_0010|fullname=Familie Baumhagen|gender=mf|members=entity_0004,entity_0005,entity_0006,entity_0007,entity_0008,entity_0009,entity_0015|all_members_given=True|specialcase_entity=group)))
 49534	!	0	
 49535	«	0	
 49536	Dann	0	
@@ -49637,8 +49637,8 @@ i	text	is_section_start	gold
 49635	Rücksichten	0	
 49636	auf	0	
 49637	die	0	
-49638	Familie	0	(mention_id=7010|references=(entity=(entity_id=entity_0010|fullname=Familie Baumhagen|gender=mf|members=entity_0009,entity_0015,entity_0005,entity_0008,entity_0004,entity_0007,entity_0006|all_members_given=True|specialcase_entity=group)))
-49639	Baumhagen	0	(mention_id=7010|references=(entity=(entity_id=entity_0010|fullname=Familie Baumhagen|gender=mf|members=entity_0009,entity_0015,entity_0005,entity_0008,entity_0004,entity_0007,entity_0006|all_members_given=True|specialcase_entity=group)))
+49638	Familie	0	(mention_id=7010|references=(entity=(entity_id=entity_0010|fullname=Familie Baumhagen|gender=mf|members=entity_0004,entity_0005,entity_0006,entity_0007,entity_0008,entity_0009,entity_0015|all_members_given=True|specialcase_entity=group)))
+49639	Baumhagen	0	(mention_id=7010|references=(entity=(entity_id=entity_0010|fullname=Familie Baumhagen|gender=mf|members=entity_0004,entity_0005,entity_0006,entity_0007,entity_0008,entity_0009,entity_0015|all_members_given=True|specialcase_entity=group)))
 49640	,	0	
 49641	auf	0	
 49642	sie	0	(mention_id=7011|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))
@@ -56118,7 +56118,7 @@ i	text	is_section_start	gold
 56116	und	0	
 56117	daß	0	
 56118	die	0	
-56119	Mädchen	0	(mention_id=7914|references=(entity=(entity_id=entity_0307|fullname=Hausmädchen Niendorf|gender=f|members=entity_0305|specialcase_entity=group)))
+56119	Mädchen	0	(mention_id=7914|references=(entity=(entity_id=entity_0307|fullname=Hausmädchen Niendorf|gender=f|members=entity_0305|all_members_given=False|specialcase_entity=group)))
 56120	keinen	0	
 56121	Respekt	0	
 56122	vor	0	
@@ -56422,7 +56422,7 @@ i	text	is_section_start	gold
 56420	hatte	0	
 56421	ihn	0	(mention_id=7950|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
 56422	das	0	
-56423	Gesinde	0	(mention_id=7951|references=(entity=(entity_id=entity_0302|fullname=Gesinde Niendorfs|gender=mf|members=entity_0288,entity_0223,entity_0307|all_members_given=True|specialcase_entity=group)))
+56423	Gesinde	0	(mention_id=7951|references=(entity=(entity_id=entity_0302|fullname=Gesinde Niendorfs|gender=mf|members=entity_0223,entity_0288,entity_0307|all_members_given=True|specialcase_entity=group)))
 56424	mit	0	
 56425	seltsam	0	
 56426	geröteten	0	
@@ -56500,7 +56500,7 @@ i	text	is_section_start	gold
 56498	das	0	
 56499	ganze	0	
 56500	weibliche	0	
-56501	Personal	0	(mention_id=7962|references=(entity=(entity_id=entity_0312|fullname=weibliches Personal Niendorfs|gender=f|members=entity_0307|specialcase_entity=group)))
+56501	Personal	0	(mention_id=7962|references=(entity=(entity_id=entity_0312|fullname=weibliches Personal Niendorfs|gender=f|members=entity_0307|all_members_given=False|specialcase_entity=group)))
 56502	wandte	0	
 56503	ihm	0	(mention_id=7963|references=(entity=(entity_id=entity_0288|fullname=Kutscher Borrmann|gender=m)))
 56504	den	0	
@@ -57426,7 +57426,7 @@ i	text	is_section_start	gold
 57424	daß	0	
 57425	wir	0	
 57426	deutschen	0	
-57427	Frauen	0	(mention_id=8079|references=(entity=(entity_id=entity_0310|fullname=deutsche Frauen|gender=f|members=entity_0004,entity_0006|specialcase_entity=generic,group)))
+57427	Frauen	0	(mention_id=8079|references=(entity=(entity_id=entity_0310|fullname=deutsche Frauen|gender=f|members=entity_0004,entity_0006|all_members_given=False|specialcase_entity=generic,group)))
 57428	mit	0	
 57429	unserer	0	(mention_id=8080|references=(entity=(entity_id=entity_0006|fullname=Jenny Fredrich, geb. Baumhagen|gender=f)),(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))
 57430	dickfelligen	0	
@@ -60341,9 +60341,9 @@ i	text	is_section_start	gold
 60339	einsam	0	
 60340	.	0	
 60341	Die	0	
-60342	Männer	0	(mention_id=8414|references=(entity=(entity_id=entity_0294|fullname=helfende Männer|gender=m|members=entity_0265|specialcase_entity=group)))
+60342	Männer	0	(mention_id=8414|references=(entity=(entity_id=entity_0294|fullname=helfende Männer|gender=m|members=entity_0265|all_members_given=False|specialcase_entity=group)))
 60343	,	0	
-60344	die	0	(mention_id=8415|references=(entity=(entity_id=entity_0294|fullname=helfende Männer|gender=m|members=entity_0265|specialcase_entity=group)))
+60344	die	0	(mention_id=8415|references=(entity=(entity_id=entity_0294|fullname=helfende Männer|gender=m|members=entity_0265|all_members_given=False|specialcase_entity=group)))
 60345	zu	0	
 60346	Hilfe	0	
 60347	geeilt	0	
@@ -60538,7 +60538,7 @@ i	text	is_section_start	gold
 60536	doch	0	
 60537	schon	0	
 60538	kamen	0	
-60539	Zurückkehrende	0	(mention_id=8431|references=(entity=(entity_id=entity_0294|fullname=helfende Männer|gender=m|members=entity_0265|specialcase_entity=group)))
+60539	Zurückkehrende	0	(mention_id=8431|references=(entity=(entity_id=entity_0294|fullname=helfende Männer|gender=m|members=entity_0265|all_members_given=False|specialcase_entity=group)))
 60540	des	0	
 60541	Weges	0	
 60542	daher	0	
@@ -62069,7 +62069,7 @@ i	text	is_section_start	gold
 62067	unvernünftige	0	
 62068	Kreatur	0	
 62069	die	0	
-62070	Menschen	0	(mention_id=8569|references=(entity=(entity_id=entity_0314|fullname=Menschen beim Brand|gender=u|members=entity_0265,entity_0021,entity_0011,entity_0001|specialcase_entity=group)))
+62070	Menschen	0	(mention_id=8569|references=(entity=(entity_id=entity_0314|fullname=Menschen beim Brand|gender=u|members=entity_0001,entity_0011,entity_0021,entity_0265|all_members_given=False|specialcase_entity=group)))
 62071	um	0	
 62072	Erbarmen	0	
 62073	anflehte	0	
@@ -62092,8 +62092,8 @@ i	text	is_section_start	gold
 62090	!	0	
 62091	‹	0	
 62092	sagten	0	
-62093	sie	0	(mention_id=8571|references=(entity=(entity_id=entity_0314|fullname=Menschen beim Brand|gender=u|members=entity_0265,entity_0021,entity_0011,entity_0001|specialcase_entity=group)))
-62094	alle	0	(mention_id=8572|references=(entity=(entity_id=entity_0314|fullname=Menschen beim Brand|gender=u|members=entity_0265,entity_0021,entity_0011,entity_0001|specialcase_entity=group)))
+62093	sie	0	(mention_id=8571|references=(entity=(entity_id=entity_0314|fullname=Menschen beim Brand|gender=u|members=entity_0001,entity_0011,entity_0021,entity_0265|all_members_given=False|specialcase_entity=group)))
+62094	alle	0	(mention_id=8572|references=(entity=(entity_id=entity_0314|fullname=Menschen beim Brand|gender=u|members=entity_0001,entity_0011,entity_0021,entity_0265|all_members_given=False|specialcase_entity=group)))
 62095	.	0	
 62096	Und	0	
 62097	da	0	
@@ -63234,7 +63234,7 @@ i	text	is_section_start	gold
 63232	Linden	0	(mention_id=8705|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
 63233	war	0	
 63234	bei	0	
-63235	Baumhagens	0	(mention_id=8706|references=(entity=(entity_id=entity_0010|fullname=Familie Baumhagen|gender=mf|members=entity_0009,entity_0015,entity_0005,entity_0008,entity_0004,entity_0007,entity_0006|all_members_given=True|specialcase_entity=group)))
+63235	Baumhagens	0	(mention_id=8706|references=(entity=(entity_id=entity_0010|fullname=Familie Baumhagen|gender=mf|members=entity_0004,entity_0005,entity_0006,entity_0007,entity_0008,entity_0009,entity_0015|all_members_given=True|specialcase_entity=group)))
 63236	in	0	
 63237	Gesellschaft	0	
 63238	–	0	

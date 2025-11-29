@@ -1263,7 +1263,7 @@ i	text	is_section_start	gold
 1261	Jahre	0	
 1262	der	0	
 1263	gegenwärtigen	0	
-1264	Pächter	0	(mention_id=183|references=(entity=(entity_id=entity_0020|fullname=gegenwärtige Pächter|gender=m|members=entity_0079|borderline_entity=members,gender|specialcase_entity=group)))
+1264	Pächter	0	(mention_id=183|references=(entity=(entity_id=entity_0020|fullname=gegenwärtige Pächter|gender=m|members=entity_0079|all_members_given=False|borderline_entity=members,gender|specialcase_entity=group)))
 1265	verflossen	0	
 1266	sind	0	
 1267	.	0	
@@ -4550,16 +4550,16 @@ i	text	is_section_start	gold
 4548	.	0	
 4549	Er	0	(mention_id=704|references=(entity=(entity_id=entity_0021|fullname=Mittler|gender=m)))
 4550	hat	0	
-4551	uns	0	(mention_id=705|references=(entity=(entity_id=entity_0024|fullname=Bedienstete|gender=u|members=entity_0026|borderline_entity=gender|specialcase_entity=group)))
+4551	uns	0	(mention_id=705|references=(entity=(entity_id=entity_0024|fullname=Bedienstete|gender=u|members=entity_0026|all_members_given=False|borderline_entity=gender|specialcase_entity=group)))
 4552	alle	0	
 4553	zusammengeschrieen	0	
 4554	,	0	
-4555	wir	0	(mention_id=706|references=(entity=(entity_id=entity_0024|fullname=Bedienstete|gender=u|members=entity_0026|borderline_entity=gender|specialcase_entity=group)))
+4555	wir	0	(mention_id=706|references=(entity=(entity_id=entity_0024|fullname=Bedienstete|gender=u|members=entity_0026|all_members_given=False|borderline_entity=gender|specialcase_entity=group)))
 4556	sollen	0	
 4557	sie	0	(mention_id=707|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)),(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))
 4558	aufsuchen	0	
 4559	,	0	
-4560	wir	0	(mention_id=708|references=(entity=(entity_id=entity_0024|fullname=Bedienstete|gender=u|members=entity_0026|borderline_entity=gender|specialcase_entity=group)))
+4560	wir	0	(mention_id=708|references=(entity=(entity_id=entity_0024|fullname=Bedienstete|gender=u|members=entity_0026|all_members_given=False|borderline_entity=gender|specialcase_entity=group)))
 4561	sollen	0	
 4562	Sie	0	(mention_id=709|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)),(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))
 4563	fragen	0	
@@ -4578,12 +4578,12 @@ i	text	is_section_start	gold
 4576	,	0	
 4577	rief	0	
 4578	er	0	(mention_id=710|references=(entity=(entity_id=entity_0021|fullname=Mittler|gender=m)))
-4579	uns	0	(mention_id=711|references=(entity=(entity_id=entity_0024|fullname=Bedienstete|gender=u|members=entity_0026|borderline_entity=gender|specialcase_entity=group)))
+4579	uns	0	(mention_id=711|references=(entity=(entity_id=entity_0024|fullname=Bedienstete|gender=u|members=entity_0026|all_members_given=False|borderline_entity=gender|specialcase_entity=group)))
 4580	nach	0	
 4581	,	0	
 4582	›	0	
 4583	hört	0	
-4584	ihr	0	(mention_id=712|references=(entity=(entity_id=entity_0024|fullname=Bedienstete|gender=u|members=entity_0026|borderline_entity=gender|specialcase_entity=group)))
+4584	ihr	0	(mention_id=712|references=(entity=(entity_id=entity_0024|fullname=Bedienstete|gender=u|members=entity_0026|all_members_given=False|borderline_entity=gender|specialcase_entity=group)))
 4585	?	0	
 4586	aber	0	
 4587	geschwind	0	
@@ -8445,8 +8445,8 @@ i	text	is_section_start	gold
 8443	als	0	
 8444	wenn	0	
 8445	die	0	
-8446	Kinder	0	(mention_id=1184|references=(entity=(entity_id=entity_0039|fullname=alle Schülerinnen der Pension außer Ottilie zur Zeit als Luciane und Ottilie dort sind|gender=f|members=entity_0005|specialcase_entity=group)))
-8447	sich	0	(mention_id=1185|references=(entity=(entity_id=entity_0039|fullname=alle Schülerinnen der Pension außer Ottilie zur Zeit als Luciane und Ottilie dort sind|gender=f|members=entity_0005|specialcase_entity=group)))
+8446	Kinder	0	(mention_id=1184|references=(entity=(entity_id=entity_0039|fullname=alle Schülerinnen der Pension außer Ottilie zur Zeit als Luciane und Ottilie dort sind|gender=f|members=entity_0005|all_members_given=False|specialcase_entity=group)))
+8447	sich	0	(mention_id=1185|references=(entity=(entity_id=entity_0039|fullname=alle Schülerinnen der Pension außer Ottilie zur Zeit als Luciane und Ottilie dort sind|gender=f|members=entity_0005|all_members_given=False|specialcase_entity=group)))
 8448	an	0	
 8449	schmackhaften	0	
 8450	und	0	
@@ -8573,11 +8573,11 @@ i	text	is_section_start	gold
 8571	Beobachtungen	0	
 8572	über	0	
 8573	ihre	0	(mention_id=1199|references=(entity=(entity_id=entity_0023|fullname=Vorsteherin der Pension|gender=f)))
-8574	Zöglinge	0	(mention_id=1200|references=(entity=(entity_id=entity_0038|fullname=alle Schülerinnen der Pension zur Zeit als Ottilie und Luciane dort sind|gender=f|members=entity_0005,entity_0006|specialcase_entity=group)))
+8574	Zöglinge	0	(mention_id=1200|references=(entity=(entity_id=entity_0038|fullname=alle Schülerinnen der Pension zur Zeit als Ottilie und Luciane dort sind|gender=f|members=entity_0005,entity_0006|all_members_given=False|specialcase_entity=group)))
 8575	den	0	
-8576	Eltern	0	(mention_id=1201|references=(entity=(entity_id=entity_0042|fullname=Eltern aller Schülerinnen der Pension|gender=mf|members=entity_0002|specialcase_entity=group)))
+8576	Eltern	0	(mention_id=1201|references=(entity=(entity_id=entity_0042|fullname=Eltern aller Schülerinnen der Pension|gender=mf|members=entity_0002|all_members_given=False|specialcase_entity=group)))
 8577	und	0	
-8578	Vorgesetzten	0	(mention_id=1202|references=(entity=(entity_id=entity_0045|fullname=Vorgesetzte aller Schülerinnen der Anstalt|gender=u|members=entity_0002|specialcase_entity=group)))
+8578	Vorgesetzten	0	(mention_id=1202|references=(entity=(entity_id=entity_0045|fullname=Vorgesetzte aller Schülerinnen der Anstalt|gender=u|members=entity_0002|all_members_given=False|specialcase_entity=group)))
 8579	mitteilt	0	
 8580	.	0	
 8581	Diejenigen	0	
@@ -8833,10 +8833,10 @@ i	text	is_section_start	gold
 8831	sie	0	(mention_id=1242|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))
 8832	gegen	0	
 8833	ihre	0	(mention_id=1243|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))
-8834	Mitschülerinnen	0	(mention_id=1244|references=(entity=(entity_id=entity_0039|fullname=alle Schülerinnen der Pension außer Ottilie zur Zeit als Luciane und Ottilie dort sind|gender=f|members=entity_0005|specialcase_entity=group)))
+8834	Mitschülerinnen	0	(mention_id=1244|references=(entity=(entity_id=entity_0039|fullname=alle Schülerinnen der Pension außer Ottilie zur Zeit als Luciane und Ottilie dort sind|gender=f|members=entity_0005|all_members_given=False|specialcase_entity=group)))
 8835	zurück	0	
 8836	,	0	
-8837	die	0	(mention_id=1245|references=(entity=(entity_id=entity_0039|fullname=alle Schülerinnen der Pension außer Ottilie zur Zeit als Luciane und Ottilie dort sind|gender=f|members=entity_0005|specialcase_entity=group)))
+8837	die	0	(mention_id=1245|references=(entity=(entity_id=entity_0039|fullname=alle Schülerinnen der Pension außer Ottilie zur Zeit als Luciane und Ottilie dort sind|gender=f|members=entity_0005|all_members_given=False|specialcase_entity=group)))
 8838	mit	0	
 8839	ganz	0	
 8840	andern	0	
@@ -13433,22 +13433,22 @@ i	text	is_section_start	gold
 13431	dessen	0	
 13432	,	0	
 13433	was	0	
-13434	wir	0	(mention_id=1740|references=(entity=(entity_id=entity_0053|fullname=alle Erziehenden der Pension|gender=mfu|members=entity_0037,entity_0023|specialcase_entity=group)))
+13434	wir	0	(mention_id=1740|references=(entity=(entity_id=entity_0053|fullname=alle Erziehenden der Pension|gender=mfu|members=entity_0023,entity_0037|all_members_given=False|specialcase_entity=group)))
 13435	im	0	
 13436	vergangenen	0	
 13437	Jahr	0	
 13438	an	0	
-13439	unsern	0	(mention_id=1741|references=(entity=(entity_id=entity_0053|fullname=alle Erziehenden der Pension|gender=mfu|members=entity_0037,entity_0023|specialcase_entity=group)))
-13440	Zöglingen	0	(mention_id=1742|references=(entity=(entity_id=entity_0038|fullname=alle Schülerinnen der Pension zur Zeit als Ottilie und Luciane dort sind|gender=f|members=entity_0005,entity_0006|specialcase_entity=group)))
+13439	unsern	0	(mention_id=1741|references=(entity=(entity_id=entity_0053|fullname=alle Erziehenden der Pension|gender=mfu|members=entity_0023,entity_0037|all_members_given=False|specialcase_entity=group)))
+13440	Zöglingen	0	(mention_id=1742|references=(entity=(entity_id=entity_0038|fullname=alle Schülerinnen der Pension zur Zeit als Ottilie und Luciane dort sind|gender=f|members=entity_0005,entity_0006|all_members_given=False|specialcase_entity=group)))
 13441	geleistet	0	
 13442	haben	0	
 13443	,	0	
 13444	an	0	
 13445	die	0	
 13446	sämtlichen	0	
-13447	Eltern	0	(mention_id=1743|references=(entity=(entity_id=entity_0042|fullname=Eltern aller Schülerinnen der Pension|gender=mf|members=entity_0002|specialcase_entity=group)))
+13447	Eltern	0	(mention_id=1743|references=(entity=(entity_id=entity_0042|fullname=Eltern aller Schülerinnen der Pension|gender=mf|members=entity_0002|all_members_given=False|specialcase_entity=group)))
 13448	und	0	
-13449	Vorgesetzten	0	(mention_id=1744|references=(entity=(entity_id=entity_0045|fullname=Vorgesetzte aller Schülerinnen der Anstalt|gender=u|members=entity_0002|specialcase_entity=group)))
+13449	Vorgesetzten	0	(mention_id=1744|references=(entity=(entity_id=entity_0045|fullname=Vorgesetzte aller Schülerinnen der Anstalt|gender=u|members=entity_0002|all_members_given=False|specialcase_entity=group)))
 13450	den	0	
 13451	Verlauf	0	
 13452	zu	0	
@@ -13538,7 +13538,7 @@ i	text	is_section_start	gold
 13536	ich	0	(mention_id=1756|references=(entity=(entity_id=entity_0023|fullname=Vorsteherin der Pension|gender=f)))
 13537	voraussehe	0	
 13538	,	0	
-13539	wir	0	(mention_id=1757|references=(entity=(entity_id=entity_0053|fullname=alle Erziehenden der Pension|gender=mfu|members=entity_0037,entity_0023|specialcase_entity=group)))
+13539	wir	0	(mention_id=1757|references=(entity=(entity_id=entity_0053|fullname=alle Erziehenden der Pension|gender=mfu|members=entity_0023,entity_0037|all_members_given=False|specialcase_entity=group)))
 13540	werden	0	
 13541	nicht	0	
 13542	lange	0	
@@ -13552,7 +13552,7 @@ i	text	is_section_start	gold
 13550	vorgeschrittenes	0	
 13551	Frauenzimmer	0	(mention_id=1758|references=(entity=(entity_id=entity_0005|fullname=Luciane|gender=f)))
 13552	bei	0	
-13553	uns	0	(mention_id=1759|references=(entity=(entity_id=entity_0053|fullname=alle Erziehenden der Pension|gender=mfu|members=entity_0037,entity_0023|specialcase_entity=group)))
+13553	uns	0	(mention_id=1759|references=(entity=(entity_id=entity_0053|fullname=alle Erziehenden der Pension|gender=mfu|members=entity_0023,entity_0037|all_members_given=False|specialcase_entity=group)))
 13554	zurückzuhalten	0	
 13555	.	0	
 13556	Ich	0	(mention_id=1760|references=(entity=(entity_id=entity_0023|fullname=Vorsteherin der Pension|gender=f)))
@@ -13734,9 +13734,9 @@ i	text	is_section_start	gold
 13732	ist	0	
 13733	auch	0	
 13734	unter	0	
-13735	denen	0	(mention_id=1788|references=(entity=(entity_id=entity_0055|fullname=Schülerinnen die kein Zeugnis empfangen haben|gender=f|members=entity_0006|specialcase_entity=group)))
+13735	denen	0	(mention_id=1788|references=(entity=(entity_id=entity_0055|fullname=Schülerinnen die kein Zeugnis empfangen haben|gender=f|members=entity_0006|all_members_given=False|specialcase_entity=group)))
 13736	,	0	
-13737	die	0	(mention_id=1789|references=(entity=(entity_id=entity_0055|fullname=Schülerinnen die kein Zeugnis empfangen haben|gender=f|members=entity_0006|specialcase_entity=group)))
+13737	die	0	(mention_id=1789|references=(entity=(entity_id=entity_0055|fullname=Schülerinnen die kein Zeugnis empfangen haben|gender=f|members=entity_0006|all_members_given=False|specialcase_entity=group)))
 13738	kein	0	
 13739	Zeugnis	0	
 13740	empfangen	0	
@@ -13765,7 +13765,7 @@ i	text	is_section_start	gold
 13763	im	0	
 13764	Rechnen	0	
 13765	waren	0	
-13766	alle	0	(mention_id=1792|references=(entity=(entity_id=entity_0039|fullname=alle Schülerinnen der Pension außer Ottilie zur Zeit als Luciane und Ottilie dort sind|gender=f|members=entity_0005|specialcase_entity=group)))
+13766	alle	0	(mention_id=1792|references=(entity=(entity_id=entity_0039|fullname=alle Schülerinnen der Pension außer Ottilie zur Zeit als Luciane und Ottilie dort sind|gender=f|members=entity_0005|all_members_given=False|specialcase_entity=group)))
 13767	schneller	0	
 13768	,	0	
 13769	und	0	
@@ -13868,18 +13868,18 @@ i	text	is_section_start	gold
 13866	.	0	
 13867	Als	0	
 13868	die	0	
-13869	Schülerinnen	0	(mention_id=1801|references=(entity=(entity_id=entity_0038|fullname=alle Schülerinnen der Pension zur Zeit als Ottilie und Luciane dort sind|gender=f|members=entity_0005,entity_0006|specialcase_entity=group)))
+13869	Schülerinnen	0	(mention_id=1801|references=(entity=(entity_id=entity_0038|fullname=alle Schülerinnen der Pension zur Zeit als Ottilie und Luciane dort sind|gender=f|members=entity_0005,entity_0006|all_members_given=False|specialcase_entity=group)))
 13870	abgetreten	0	
 13871	waren	0	
 13872	,	0	
 13873	die	0	
-13874	Prüfenden	0	(mention_id=1802|references=(entity=(entity_id=entity_0052|fullname=Externe Prüfende der Pension|gender=m|members=entity_0061|specialcase_entity=group)))
+13874	Prüfenden	0	(mention_id=1802|references=(entity=(entity_id=entity_0052|fullname=Externe Prüfende der Pension|gender=m|members=entity_0061|all_members_given=False|specialcase_entity=group)))
 13875	zusammen	0	
 13876	Rat	0	
 13877	hielten	0	
 13878	und	0	
-13879	uns	0	(mention_id=1803|references=(entity=(entity_id=entity_0056|fullname=alle Lehrer der Pension|gender=u|members=entity_0037|specialcase_entity=group)))
-13880	Lehrern	0	(mention_id=1804|references=(entity=(entity_id=entity_0056|fullname=alle Lehrer der Pension|gender=u|members=entity_0037|specialcase_entity=group)))
+13879	uns	0	(mention_id=1803|references=(entity=(entity_id=entity_0056|fullname=alle Lehrer der Pension|gender=u|members=entity_0037|all_members_given=False|specialcase_entity=group)))
+13880	Lehrern	0	(mention_id=1804|references=(entity=(entity_id=entity_0056|fullname=alle Lehrer der Pension|gender=u|members=entity_0037|all_members_given=False|specialcase_entity=group)))
 13881	wenigstens	0	
 13882	einiges	0	
 13883	Wort	0	
@@ -14048,13 +14048,13 @@ i	text	is_section_start	gold
 14046	dem	0	
 14047	,	0	
 14048	was	0	
-14049	wir	0	(mention_id=1823|references=(entity=(entity_id=entity_0052|fullname=Externe Prüfende der Pension|gender=m|members=entity_0061|specialcase_entity=group)))
+14049	wir	0	(mention_id=1823|references=(entity=(entity_id=entity_0052|fullname=Externe Prüfende der Pension|gender=m|members=entity_0061|all_members_given=False|specialcase_entity=group)))
 14050	von	0	
 14051	Ihnen	0	(mention_id=1824|references=(entity=(entity_id=entity_0037|fullname=Gehülfe|gender=m)))
 14052	vernehmen	0	
 14053	,	0	
 14054	schöpfen	0	
-14055	wir	0	(mention_id=1825|references=(entity=(entity_id=entity_0052|fullname=Externe Prüfende der Pension|gender=m|members=entity_0061|specialcase_entity=group)))
+14055	wir	0	(mention_id=1825|references=(entity=(entity_id=entity_0052|fullname=Externe Prüfende der Pension|gender=m|members=entity_0061|all_members_given=False|specialcase_entity=group)))
 14056	gute	0	
 14057	Hoffnung	0	
 14058	von	0	
@@ -14073,7 +14073,7 @@ i	text	is_section_start	gold
 14071	die	0	
 14072	Fähigkeiten	0	
 14073	der	0	
-14074	Schülerinnen	0	(mention_id=1829|references=(entity=(entity_id=entity_0038|fullname=alle Schülerinnen der Pension zur Zeit als Ottilie und Luciane dort sind|gender=f|members=entity_0005,entity_0006|specialcase_entity=group)))
+14074	Schülerinnen	0	(mention_id=1829|references=(entity=(entity_id=entity_0038|fullname=alle Schülerinnen der Pension zur Zeit als Ottilie und Luciane dort sind|gender=f|members=entity_0005,entity_0006|all_members_given=False|specialcase_entity=group)))
 14075	genau	0	
 14076	achtgeben	0	
 14077	.	0	
@@ -14139,7 +14139,7 @@ i	text	is_section_start	gold
 14137	eins	0	
 14138	von	0	
 14139	ihren	0	(mention_id=1840|references=(entity=(entity_id=entity_0023|fullname=Vorsteherin der Pension|gender=f)))
-14140	Schäfchen	0	(mention_id=1841|references=(entity=(entity_id=entity_0038|fullname=alle Schülerinnen der Pension zur Zeit als Ottilie und Luciane dort sind|gender=f|members=entity_0005,entity_0006|specialcase_entity=group)|specialcase_reference=figurative))
+14140	Schäfchen	0	(mention_id=1841|references=(entity=(entity_id=entity_0038|fullname=alle Schülerinnen der Pension zur Zeit als Ottilie und Luciane dort sind|gender=f|members=entity_0005,entity_0006|all_members_given=False|specialcase_entity=group)|specialcase_reference=figurative))
 14141	verloren	0	
 14142	oder	0	
 14143	,	0	
@@ -14158,8 +14158,8 @@ i	text	is_section_start	gold
 14156	,	0	
 14157	nachdem	0	
 14158	die	0	
-14159	Herren	0	(mention_id=1842|references=(entity=(entity_id=entity_0052|fullname=Externe Prüfende der Pension|gender=m|members=entity_0061|specialcase_entity=group)))
-14160	sich	0	(mention_id=1843|references=(entity=(entity_id=entity_0052|fullname=Externe Prüfende der Pension|gender=m|members=entity_0061|specialcase_entity=group)))
+14159	Herren	0	(mention_id=1842|references=(entity=(entity_id=entity_0052|fullname=Externe Prüfende der Pension|gender=m|members=entity_0061|all_members_given=False|specialcase_entity=group)))
+14160	sich	0	(mention_id=1843|references=(entity=(entity_id=entity_0052|fullname=Externe Prüfende der Pension|gender=m|members=entity_0061|all_members_given=False|specialcase_entity=group)))
 14161	entfernt	0	
 14162	hatten	0	
 14163	,	0	
@@ -14178,10 +14178,10 @@ i	text	is_section_start	gold
 14176	,	0	
 14177	indem	0	
 14178	die	0	
-14179	andern	0	(mention_id=1847|references=(entity=(entity_id=entity_0054|fullname=Schülerinnen die Preise erhalten haben|gender=f|members=entity_0005|borderline_entity=members|specialcase_entity=group)))
-14180	sich	0	(mention_id=1848|references=(entity=(entity_id=entity_0054|fullname=Schülerinnen die Preise erhalten haben|gender=f|members=entity_0005|borderline_entity=members|specialcase_entity=group)))
+14179	andern	0	(mention_id=1847|references=(entity=(entity_id=entity_0054|fullname=Schülerinnen die Preise erhalten haben|gender=f|members=entity_0005|all_members_given=False|borderline_entity=members|specialcase_entity=group)))
+14180	sich	0	(mention_id=1848|references=(entity=(entity_id=entity_0054|fullname=Schülerinnen die Preise erhalten haben|gender=f|members=entity_0005|all_members_given=False|borderline_entity=members|specialcase_entity=group)))
 14181	über	0	
-14182	ihre	0	(mention_id=1849|references=(entity=(entity_id=entity_0054|fullname=Schülerinnen die Preise erhalten haben|gender=f|members=entity_0005|borderline_entity=members|specialcase_entity=group)))
+14182	ihre	0	(mention_id=1849|references=(entity=(entity_id=entity_0054|fullname=Schülerinnen die Preise erhalten haben|gender=f|members=entity_0005|all_members_given=False|borderline_entity=members|specialcase_entity=group)))
 14183	Preise	0	
 14184	freuten	0	
 14185	,	0	
@@ -14393,7 +14393,7 @@ i	text	is_section_start	gold
 14391	gelassen	0	
 14392	für	0	
 14393	jeden	0	
-14394	andern	0	(mention_id=1876|references=(entity=(entity_id=entity_0057|fullname=alle Erziehenden außer Gehülfe|gender=u|members=entity_0023|borderline_entity=members|specialcase_entity=group)))
+14394	andern	0	(mention_id=1876|references=(entity=(entity_id=entity_0057|fullname=alle Erziehenden außer Gehülfe|gender=u|members=entity_0023|all_members_given=False|borderline_entity=members|specialcase_entity=group)))
 14395	,	0	
 14396	nur	0	
 14397	nicht	0	
@@ -14718,7 +14718,7 @@ i	text	is_section_start	gold
 14716	Bemerkungen	0	
 14717	über	0	
 14718	die	0	
-14719	Personen	0	(mention_id=1928|references=(entity=(entity_id=entity_0058|fullname=Personen in der Pension|gender=u|members=entity_0005,entity_0006,entity_0037,entity_0023|borderline_entity=members|specialcase_entity=group)))
+14719	Personen	0	(mention_id=1928|references=(entity=(entity_id=entity_0058|fullname=Personen in der Pension|gender=u|members=entity_0005,entity_0006,entity_0023,entity_0037|all_members_given=False|borderline_entity=members|specialcase_entity=group)))
 14720	und	0	
 14721	über	0	
 14722	die	0	
@@ -15237,11 +15237,11 @@ i	text	is_section_start	gold
 15235	Was	0	
 15236	sie	0	(mention_id=2012|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))
 15237	für	0	
-15238	alle	0	(mention_id=2013|references=(entity=(entity_id=entity_0066|fullname=Hausbewohner|gender=u|members=entity_0001,entity_0002,entity_0003|specialcase_entity=group)))
+15238	alle	0	(mention_id=2013|references=(entity=(entity_id=entity_0066|fullname=Hausbewohner|gender=u|members=entity_0001,entity_0002,entity_0003|all_members_given=False|specialcase_entity=group)))
 15239	,	0	
 15240	für	0	
 15241	einen	0	
-15242	jeden	0	(mention_id=2014|references=(entity=(entity_id=entity_0066|fullname=Hausbewohner|gender=u|members=entity_0001,entity_0002,entity_0003|specialcase_entity=group)))
+15242	jeden	0	(mention_id=2014|references=(entity=(entity_id=entity_0066|fullname=Hausbewohner|gender=u|members=entity_0001,entity_0002,entity_0003|all_members_given=False|specialcase_entity=group)))
 15243	insbesondre	0	
 15244	zu	0	
 15245	besorgen	0	
@@ -16210,7 +16210,7 @@ i	text	is_section_start	gold
 16208	.	0	
 16209	Man	0	
 16210	hat	0	
-16211	uns	0	(mention_id=2149|references=(entity=(entity_id=entity_0038|fullname=alle Schülerinnen der Pension zur Zeit als Ottilie und Luciane dort sind|gender=f|members=entity_0005,entity_0006|specialcase_entity=group)))
+16211	uns	0	(mention_id=2149|references=(entity=(entity_id=entity_0038|fullname=alle Schülerinnen der Pension zur Zeit als Ottilie und Luciane dort sind|gender=f|members=entity_0005,entity_0006|all_members_given=False|specialcase_entity=group)))
 16212	die	0	
 16213	Geschichte	0	
 16214	gelehrt	0	
@@ -21613,22 +21613,22 @@ i	text	is_section_start	gold
 21611	.	0	
 21612	Es	0	
 21613	hatte	0	
-21614	sich	0	(mention_id=2736|references=(entity=(entity_id=entity_0087|fullname=Gesellschaft|gender=u|members=entity_0002,entity_0003,entity_0006,entity_0001,entity_0107,entity_0092,entity_0091|borderline_entity=members|specialcase_entity=group)))
+21614	sich	0	(mention_id=2736|references=(entity=(entity_id=entity_0087|fullname=Gesellschaft|gender=u|members=entity_0001,entity_0002,entity_0003,entity_0006,entity_0091,entity_0092,entity_0107|all_members_given=False|borderline_entity=members|specialcase_entity=group)))
 21615	diesen	0	
 21616	Tag	0	
 21617	viel	0	
-21618	Gesellschaft	0	(mention_id=2737|references=(entity=(entity_id=entity_0087|fullname=Gesellschaft|gender=u|members=entity_0002,entity_0003,entity_0006,entity_0001,entity_0107,entity_0092,entity_0091|borderline_entity=members|specialcase_entity=group)))
+21618	Gesellschaft	0	(mention_id=2737|references=(entity=(entity_id=entity_0087|fullname=Gesellschaft|gender=u|members=entity_0001,entity_0002,entity_0003,entity_0006,entity_0091,entity_0092,entity_0107|all_members_given=False|borderline_entity=members|specialcase_entity=group)))
 21619	eingefunden	0	
 21620	.	0	
-21621	Man	0	(mention_id=2738|references=(entity=(entity_id=entity_0087|fullname=Gesellschaft|gender=u|members=entity_0002,entity_0003,entity_0006,entity_0001,entity_0107,entity_0092,entity_0091|borderline_entity=members|specialcase_entity=group)))
+21621	Man	0	(mention_id=2738|references=(entity=(entity_id=entity_0087|fullname=Gesellschaft|gender=u|members=entity_0001,entity_0002,entity_0003,entity_0006,entity_0091,entity_0092,entity_0107|all_members_given=False|borderline_entity=members|specialcase_entity=group)))
 21622	ging	0	
 21623	zur	0	
 21624	Kirche	0	
 21625	,	0	
 21626	wo	0	
-21627	man	0	(mention_id=2739|references=(entity=(entity_id=entity_0087|fullname=Gesellschaft|gender=u|members=entity_0002,entity_0003,entity_0006,entity_0001,entity_0107,entity_0092,entity_0091|borderline_entity=members|specialcase_entity=group)))
+21627	man	0	(mention_id=2739|references=(entity=(entity_id=entity_0087|fullname=Gesellschaft|gender=u|members=entity_0001,entity_0002,entity_0003,entity_0006,entity_0091,entity_0092,entity_0107|all_members_given=False|borderline_entity=members|specialcase_entity=group)))
 21628	die	0	
-21629	Gemeinde	0	(mention_id=2740|references=(entity=(entity_id=entity_0102|fullname=Gemeinde|gender=u|members=entity_0110,todo,entity_0090,entity_0111,entity_0112,entity_0109,entity_0101|specialcase_entity=group)))
+21629	Gemeinde	0	(mention_id=2740|references=(entity=(entity_id=entity_0102|fullname=Gemeinde|gender=u|members=entity_0090,entity_0101,entity_0109,entity_0110,entity_0111,entity_0112,todo|all_members_given=False|specialcase_entity=group)))
 21630	im	0	
 21631	festlichen	0	
 21632	Schmuck	0	
@@ -21690,12 +21690,12 @@ i	text	is_section_start	gold
 21688	Charlotten	0	(mention_id=2752|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)))
 21689	und	0	
 21690	die	0	
-21691	Gäste	0	(mention_id=2753|references=(entity=(entity_id=entity_0092|fullname=Gäste|gender=u|members=entity_0119|specialcase_entity=group)))
+21691	Gäste	0	(mention_id=2753|references=(entity=(entity_id=entity_0092|fullname=Gäste|gender=u|members=entity_0119|all_members_given=False|specialcase_entity=group)))
 21692	ausruhen	0	
 21693	.	0	
 21694	Hier	0	
 21695	übersahen	0	
-21696	sie	0	(mention_id=2754|references=(entity=(entity_id=entity_0003|fullname=Hauptmann|gender=m)),(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)),(entity=(entity_id=entity_0092|fullname=Gäste|gender=u|members=entity_0119|specialcase_entity=group)))
+21696	sie	0	(mention_id=2754|references=(entity=(entity_id=entity_0003|fullname=Hauptmann|gender=m)),(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)),(entity=(entity_id=entity_0092|fullname=Gäste|gender=u|members=entity_0119|all_members_given=False|specialcase_entity=group)))
 21697	den	0	
 21698	ganzen	0	
 21699	Weg	0	
@@ -21706,9 +21706,9 @@ i	text	is_section_start	gold
 21704	,	0	
 21705	die	0	
 21706	nachwandelnden	0	
-21707	Frauen	0	(mention_id=2756|references=(entity=(entity_id=entity_0094|fullname=Frauenschar|gender=f|members=entity_0109,entity_0101,entity_0111|all_members_given=True|specialcase_entity=group)))
+21707	Frauen	0	(mention_id=2756|references=(entity=(entity_id=entity_0094|fullname=Frauenschar|gender=f|members=entity_0101,entity_0109,entity_0111|all_members_given=True|specialcase_entity=group)))
 21708	,	0	
-21709	welche	0	(mention_id=2757|references=(entity=(entity_id=entity_0094|fullname=Frauenschar|gender=f|members=entity_0109,entity_0101,entity_0111|all_members_given=True|specialcase_entity=group)))
+21709	welche	0	(mention_id=2757|references=(entity=(entity_id=entity_0094|fullname=Frauenschar|gender=f|members=entity_0101,entity_0109,entity_0111|all_members_given=True|specialcase_entity=group)))
 21710	nun	0	
 21711	vorbeizogen	0	
 21712	.	0	
@@ -22008,13 +22008,13 @@ i	text	is_section_start	gold
 22006	ausgegrabenen	0	
 22007	Raums	0	
 22008	erweisen	0	
-22009	Sie	0	(mention_id=2786|references=(entity=(entity_id=entity_0087|fullname=Gesellschaft|gender=u|members=entity_0002,entity_0003,entity_0006,entity_0001,entity_0107,entity_0092,entity_0091|borderline_entity=members|specialcase_entity=group)))
+22009	Sie	0	(mention_id=2786|references=(entity=(entity_id=entity_0087|fullname=Gesellschaft|gender=u|members=entity_0001,entity_0002,entity_0003,entity_0006,entity_0091,entity_0092,entity_0107|all_members_given=False|borderline_entity=members|specialcase_entity=group)))
 22010	uns	0	(mention_id=2787|references=(entity=(entity_id=entity_0084|fullname=Maurer|gender=m)))
 22011	die	0	
 22012	Ehre	0	
 22013	,	0	
 22014	als	0	
-22015	Zeugen	0	(mention_id=2788|references=(entity=(entity_id=entity_0087|fullname=Gesellschaft|gender=u|members=entity_0002,entity_0003,entity_0006,entity_0001,entity_0107,entity_0092,entity_0091|borderline_entity=members|specialcase_entity=group)))
+22015	Zeugen	0	(mention_id=2788|references=(entity=(entity_id=entity_0087|fullname=Gesellschaft|gender=u|members=entity_0001,entity_0002,entity_0003,entity_0006,entity_0091,entity_0092,entity_0107|all_members_given=False|borderline_entity=members|specialcase_entity=group)))
 22016	unseres	0	(mention_id=2789|references=(entity=(entity_id=entity_0084|fullname=Maurer|gender=m)))
 22017	geheimnisvollen	0	
 22018	Geschäftes	0	
@@ -22169,13 +22169,13 @@ i	text	is_section_start	gold
 22167	,	0	
 22168	so	0	
 22169	werden	0	
-22170	Sie	0	(mention_id=2796|references=(entity=(entity_id=entity_0087|fullname=Gesellschaft|gender=u|members=entity_0002,entity_0003,entity_0006,entity_0001,entity_0107,entity_0092,entity_0091|borderline_entity=members|specialcase_entity=group)))
+22170	Sie	0	(mention_id=2796|references=(entity=(entity_id=entity_0087|fullname=Gesellschaft|gender=u|members=entity_0001,entity_0002,entity_0003,entity_0006,entity_0091,entity_0092,entity_0107|all_members_given=False|borderline_entity=members|specialcase_entity=group)))
 22171	nicht	0	
 22172	verschmähen	0	
 22173	,	0	
 22174	auch	0	
 22175	hier	0	
-22176	Mitarbeiter	0	(mention_id=2797|references=(entity=(entity_id=entity_0087|fullname=Gesellschaft|gender=u|members=entity_0002,entity_0003,entity_0006,entity_0001,entity_0107,entity_0092,entity_0091|borderline_entity=members|specialcase_entity=group)))
+22176	Mitarbeiter	0	(mention_id=2797|references=(entity=(entity_id=entity_0087|fullname=Gesellschaft|gender=u|members=entity_0001,entity_0002,entity_0003,entity_0006,entity_0091,entity_0092,entity_0107|all_members_given=False|borderline_entity=members|specialcase_entity=group)))
 22177	zu	0	
 22178	werden	0	
 22179	.	0	
@@ -22600,7 +22600,7 @@ i	text	is_section_start	gold
 22598	war	0	
 22599	vorbereitet	0	
 22600	,	0	
-22601	jedermann	0	(mention_id=2834|references=(entity=(entity_id=entity_0087|fullname=Gesellschaft|gender=u|members=entity_0002,entity_0003,entity_0006,entity_0001,entity_0107,entity_0092,entity_0091|borderline_entity=members|specialcase_entity=group)))
+22601	jedermann	0	(mention_id=2834|references=(entity=(entity_id=entity_0087|fullname=Gesellschaft|gender=u|members=entity_0001,entity_0002,entity_0003,entity_0006,entity_0091,entity_0092,entity_0107|all_members_given=False|borderline_entity=members|specialcase_entity=group)))
 22602	überrascht	0	
 22603	,	0	
 22604	bis	0	
@@ -22791,7 +22791,7 @@ i	text	is_section_start	gold
 22789	gegenwärtigen	0	
 22790	und	0	
 22791	künftigen	0	
-22792	Besitzer	0	(mention_id=2853|references=(entity=(entity_id=entity_0117|fullname=gegenwärtige und künftige Besitzer des Hauses|gender=u|members=entity_0001,entity_0002|specialcase_entity=group,nonfact)))
+22792	Besitzer	0	(mention_id=2853|references=(entity=(entity_id=entity_0117|fullname=gegenwärtige und künftige Besitzer des Hauses|gender=u|members=entity_0001,entity_0002|all_members_given=False|specialcase_entity=group,nonfact)))
 22793	dieses	0	
 22794	Hauses	0	
 22795	.	0	
@@ -22898,7 +22898,7 @@ i	text	is_section_start	gold
 22896	,	0	
 22897	die	0	(mention_id=2862|references=(entity=(entity_id=entity_0088|fullname=Handwerker|gender=m|specialcase_entity=group)))
 22898	auf	0	
-22899	unserm	0	(mention_id=2863|references=(entity=(entity_id=entity_0084|fullname=Maurer|gender=m)),(entity=(entity_id=entity_0087|fullname=Gesellschaft|gender=u|members=entity_0002,entity_0003,entity_0006,entity_0001,entity_0107,entity_0092,entity_0091|borderline_entity=members|specialcase_entity=group)))
+22899	unserm	0	(mention_id=2863|references=(entity=(entity_id=entity_0084|fullname=Maurer|gender=m)),(entity=(entity_id=entity_0087|fullname=Gesellschaft|gender=u|members=entity_0001,entity_0002,entity_0003,entity_0006,entity_0091,entity_0092,entity_0107|all_members_given=False|borderline_entity=members|specialcase_entity=group)))
 22900	Grunde	0	
 22901	fortarbeiten	0	
 22902	,	0	
@@ -22946,7 +22946,7 @@ i	text	is_section_start	gold
 22944	aller	0	(mention_id=2870|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)),(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)),(entity=(entity_id=entity_0003|fullname=Hauptmann|gender=m)),(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))
 22945	sowie	0	
 22946	sämtlicher	0	
-22947	Anwesenden	0	(mention_id=2871|references=(entity=(entity_id=entity_0087|fullname=Gesellschaft|gender=u|members=entity_0002,entity_0003,entity_0006,entity_0001,entity_0107,entity_0092,entity_0091|borderline_entity=members|specialcase_entity=group)))
+22947	Anwesenden	0	(mention_id=2871|references=(entity=(entity_id=entity_0087|fullname=Gesellschaft|gender=u|members=entity_0001,entity_0002,entity_0003,entity_0006,entity_0091,entity_0092,entity_0107|all_members_given=False|borderline_entity=members|specialcase_entity=group)))
 22948	Gesundheit	0	
 22949	hiermit	0	
 22950	getrunken	0	
@@ -23159,7 +23159,7 @@ i	text	is_section_start	gold
 23157	leichtesten	0	(mention_id=2883|references=(entity=(entity_id=entity_0099|fullname=Leichteste Gäste|gender=u|specialcase_entity=group)))
 23158	unter	0	
 23159	den	0	
-23160	Gästen	0	(mention_id=2884|references=(entity=(entity_id=entity_0092|fullname=Gäste|gender=u|members=entity_0119|specialcase_entity=group)))
+23160	Gästen	0	(mention_id=2884|references=(entity=(entity_id=entity_0092|fullname=Gäste|gender=u|members=entity_0119|all_members_given=False|specialcase_entity=group)))
 23161	stiegen	0	
 23162	hinauf	0	
 23163	,	0	
@@ -23415,9 +23415,9 @@ i	text	is_section_start	gold
 23413	.	0	
 23414	«	0	
 23415	Die	0	
-23416	Gesellschaft	0	(mention_id=2906|references=(entity=(entity_id=entity_0087|fullname=Gesellschaft|gender=u|members=entity_0002,entity_0003,entity_0006,entity_0001,entity_0107,entity_0092,entity_0091|borderline_entity=members|specialcase_entity=group)))
+23416	Gesellschaft	0	(mention_id=2906|references=(entity=(entity_id=entity_0087|fullname=Gesellschaft|gender=u|members=entity_0001,entity_0002,entity_0003,entity_0006,entity_0091,entity_0092,entity_0107|all_members_given=False|borderline_entity=members|specialcase_entity=group)))
 23417	begab	0	
-23418	sich	0	(mention_id=2907|references=(entity=(entity_id=entity_0087|fullname=Gesellschaft|gender=u|members=entity_0002,entity_0003,entity_0006,entity_0001,entity_0107,entity_0092,entity_0091|borderline_entity=members|specialcase_entity=group)))
+23418	sich	0	(mention_id=2907|references=(entity=(entity_id=entity_0087|fullname=Gesellschaft|gender=u|members=entity_0001,entity_0002,entity_0003,entity_0006,entity_0091,entity_0092,entity_0107|all_members_given=False|borderline_entity=members|specialcase_entity=group)))
 23419	wieder	0	
 23420	in	0	
 23421	das	0	
@@ -23428,7 +23428,7 @@ i	text	is_section_start	gold
 23426	aufgehobener	0	
 23427	Tafel	0	
 23428	wurde	0	
-23429	sie	0	(mention_id=2908|references=(entity=(entity_id=entity_0087|fullname=Gesellschaft|gender=u|members=entity_0002,entity_0003,entity_0006,entity_0001,entity_0107,entity_0092,entity_0091|borderline_entity=members|specialcase_entity=group)))
+23429	sie	0	(mention_id=2908|references=(entity=(entity_id=entity_0087|fullname=Gesellschaft|gender=u|members=entity_0001,entity_0002,entity_0003,entity_0006,entity_0091,entity_0092,entity_0107|all_members_given=False|borderline_entity=members|specialcase_entity=group)))
 23430	zu	0	
 23431	einem	0	
 23432	Spaziergang	0	
@@ -24285,7 +24285,7 @@ i	text	is_section_start	gold
 24283	hätten	0	
 24284	Sie	0	(mention_id=3040|references=(entity=(entity_id=entity_0021|fullname=Mittler|gender=m)))
 24285	große	0	
-24286	Gesellschaft	0	(mention_id=3041|references=(entity=(entity_id=entity_0087|fullname=Gesellschaft|gender=u|members=entity_0002,entity_0003,entity_0006,entity_0001,entity_0107,entity_0092,entity_0091|borderline_entity=members|specialcase_entity=group)))
+24286	Gesellschaft	0	(mention_id=3041|references=(entity=(entity_id=entity_0087|fullname=Gesellschaft|gender=u|members=entity_0001,entity_0002,entity_0003,entity_0006,entity_0091,entity_0092,entity_0107|all_members_given=False|borderline_entity=members|specialcase_entity=group)))
 24287	gefunden	0	
 24288	,	0	
 24289	heute	0	
@@ -28655,7 +28655,7 @@ i	text	is_section_start	gold
 28653	dem	0	
 28654	Quartier	0	
 28655	der	0	
-28656	Hofdamen	0	(mention_id=3597|references=(entity=(entity_id=entity_0138|fullname=Hofdamen|gender=f|members=entity_0001|specialcase_entity=group)))
+28656	Hofdamen	0	(mention_id=3597|references=(entity=(entity_id=entity_0138|fullname=Hofdamen|gender=f|members=entity_0001|all_members_given=False|specialcase_entity=group)))
 28657	hatten	0	
 28658	Sie	0	(mention_id=3598|references=(entity=(entity_id=entity_0086|fullname=Graf|gender=m)))
 28659	sich	0	(mention_id=3599|references=(entity=(entity_id=entity_0086|fullname=Graf|gender=m)))
@@ -37732,7 +37732,7 @@ i	text	is_section_start	gold
 37730	gegenwärtig	0	
 37731	unter	0	
 37732	fremde	0	
-37733	Menschen	0	(mention_id=4878|references=(entity=(entity_id=entity_0179|fullname=für Ottilie fremde Menschen|gender=u|members=entity_0181|specialcase_entity=group,nonfact)))
+37733	Menschen	0	(mention_id=4878|references=(entity=(entity_id=entity_0179|fullname=für Ottilie fremde Menschen|gender=u|members=entity_0181|all_members_given=False|specialcase_entity=group,nonfact)))
 37734	hinunterstieße	0	
 37735	.	0	
 37736	Den	0	
@@ -38079,7 +38079,7 @@ i	text	is_section_start	gold
 38077	gerissen	0	
 38078	und	0	
 38079	fremden	0	
-38080	Menschen	0	(mention_id=4932|references=(entity=(entity_id=entity_0179|fullname=für Ottilie fremde Menschen|gender=u|members=entity_0181|specialcase_entity=group,nonfact)))
+38080	Menschen	0	(mention_id=4932|references=(entity=(entity_id=entity_0179|fullname=für Ottilie fremde Menschen|gender=u|members=entity_0181|all_members_given=False|specialcase_entity=group,nonfact)))
 38081	untergeben	0	
 38082	–	0	
 38083	ich	0	(mention_id=4933|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))
@@ -38836,7 +38836,7 @@ i	text	is_section_start	gold
 38834	nicht	0	
 38835	unter	0	
 38836	fremden	0	
-38837	Menschen	0	(mention_id=5066|references=(entity=(entity_id=entity_0179|fullname=für Ottilie fremde Menschen|gender=u|members=entity_0181|specialcase_entity=group,nonfact)))
+38837	Menschen	0	(mention_id=5066|references=(entity=(entity_id=entity_0179|fullname=für Ottilie fremde Menschen|gender=u|members=entity_0181|all_members_given=False|specialcase_entity=group,nonfact)))
 38838	.	0	
 38839	Sorge	0	
 38840	für	0	
@@ -38935,7 +38935,7 @@ i	text	is_section_start	gold
 38933	Parks	0	
 38934	,	0	
 38935	fremden	0	
-38936	Menschen	0	(mention_id=5081|references=(entity=(entity_id=entity_0179|fullname=für Ottilie fremde Menschen|gender=u|members=entity_0181|specialcase_entity=group,nonfact)))
+38936	Menschen	0	(mention_id=5081|references=(entity=(entity_id=entity_0179|fullname=für Ottilie fremde Menschen|gender=u|members=entity_0181|all_members_given=False|specialcase_entity=group,nonfact)))
 38937	anvertraut	0	
 38938	,	0	
 38939	gehört	0	
@@ -40534,7 +40534,7 @@ i	text	is_section_start	gold
 40532	der	0	
 40533	man	0	
 40534	die	0	
-40535	Bauerknaben	0	(mention_id=5326|references=(entity=(entity_id=entity_0184|fullname=Bauernknaben|gender=m|members=entity_0191|specialcase_entity=group)))
+40535	Bauerknaben	0	(mention_id=5326|references=(entity=(entity_id=entity_0184|fullname=Bauernknaben|gender=m|members=entity_0191|all_members_given=False|specialcase_entity=group)))
 40536	versammelte	0	
 40537	und	0	
 40538	die	0	
@@ -40560,7 +40560,7 @@ i	text	is_section_start	gold
 40558	Man	0	
 40559	ließ	0	
 40560	den	0	
-40561	Knaben	0	(mention_id=5328|references=(entity=(entity_id=entity_0184|fullname=Bauernknaben|gender=m|members=entity_0191|specialcase_entity=group)))
+40561	Knaben	0	(mention_id=5328|references=(entity=(entity_id=entity_0184|fullname=Bauernknaben|gender=m|members=entity_0191|all_members_given=False|specialcase_entity=group)))
 40562	eine	0	
 40563	Art	0	
 40564	von	0	
@@ -40569,15 +40569,15 @@ i	text	is_section_start	gold
 40567	machen	0	
 40568	,	0	
 40569	die	0	
-40570	sie	0	(mention_id=5329|references=(entity=(entity_id=entity_0184|fullname=Bauernknaben|gender=m|members=entity_0191|specialcase_entity=group)))
+40570	sie	0	(mention_id=5329|references=(entity=(entity_id=entity_0184|fullname=Bauernknaben|gender=m|members=entity_0191|all_members_given=False|specialcase_entity=group)))
 40571	in	0	
 40572	den	0	
 40573	Abendstunden	0	
 40574	anzogen	0	
 40575	,	0	
 40576	nachdem	0	
-40577	sie	0	(mention_id=5330|references=(entity=(entity_id=entity_0184|fullname=Bauernknaben|gender=m|members=entity_0191|specialcase_entity=group)))
-40578	sich	0	(mention_id=5331|references=(entity=(entity_id=entity_0184|fullname=Bauernknaben|gender=m|members=entity_0191|specialcase_entity=group)))
+40577	sie	0	(mention_id=5330|references=(entity=(entity_id=entity_0184|fullname=Bauernknaben|gender=m|members=entity_0191|all_members_given=False|specialcase_entity=group)))
+40578	sich	0	(mention_id=5331|references=(entity=(entity_id=entity_0184|fullname=Bauernknaben|gender=m|members=entity_0191|all_members_given=False|specialcase_entity=group)))
 40579	durchaus	0	
 40580	gereinigt	0	
 40581	und	0	
@@ -40616,8 +40616,8 @@ i	text	is_section_start	gold
 40614	so	0	
 40615	hatten	0	
 40616	die	0	
-40617	Knaben	0	(mention_id=5334|references=(entity=(entity_id=entity_0184|fullname=Bauernknaben|gender=m|members=entity_0191|specialcase_entity=group)))
-40618	alle	0	(mention_id=5335|references=(entity=(entity_id=entity_0184|fullname=Bauernknaben|gender=m|members=entity_0191|specialcase_entity=group)))
+40617	Knaben	0	(mention_id=5334|references=(entity=(entity_id=entity_0184|fullname=Bauernknaben|gender=m|members=entity_0191|all_members_given=False|specialcase_entity=group)))
+40618	alle	0	(mention_id=5335|references=(entity=(entity_id=entity_0184|fullname=Bauernknaben|gender=m|members=entity_0191|all_members_given=False|specialcase_entity=group)))
 40619	ein	0	
 40620	gewisses	0	
 40621	Geschick	0	
@@ -40625,15 +40625,15 @@ i	text	is_section_start	gold
 40623	Man	0	
 40624	fand	0	
 40625	an	0	
-40626	ihnen	0	(mention_id=5336|references=(entity=(entity_id=entity_0184|fullname=Bauernknaben|gender=m|members=entity_0191|specialcase_entity=group)))
+40626	ihnen	0	(mention_id=5336|references=(entity=(entity_id=entity_0184|fullname=Bauernknaben|gender=m|members=entity_0191|all_members_given=False|specialcase_entity=group)))
 40627	eine	0	
 40628	bequeme	0	
 40629	Dressur	0	
 40630	,	0	
 40631	und	0	
-40632	sie	0	(mention_id=5337|references=(entity=(entity_id=entity_0184|fullname=Bauernknaben|gender=m|members=entity_0191|specialcase_entity=group)))
+40632	sie	0	(mention_id=5337|references=(entity=(entity_id=entity_0184|fullname=Bauernknaben|gender=m|members=entity_0191|all_members_given=False|specialcase_entity=group)))
 40633	verrichteten	0	
-40634	ihr	0	(mention_id=5338|references=(entity=(entity_id=entity_0184|fullname=Bauernknaben|gender=m|members=entity_0191|specialcase_entity=group)))
+40634	ihr	0	(mention_id=5338|references=(entity=(entity_id=entity_0184|fullname=Bauernknaben|gender=m|members=entity_0191|all_members_given=False|specialcase_entity=group)))
 40635	Geschäft	0	
 40636	nicht	0	
 40637	ohne	0	
@@ -40645,9 +40645,9 @@ i	text	is_section_start	gold
 40643	Gewiß	0	
 40644	,	0	
 40645	wenn	0	
-40646	sie	0	(mention_id=5339|references=(entity=(entity_id=entity_0184|fullname=Bauernknaben|gender=m|members=entity_0191|specialcase_entity=group)))
+40646	sie	0	(mention_id=5339|references=(entity=(entity_id=entity_0184|fullname=Bauernknaben|gender=m|members=entity_0191|all_members_given=False|specialcase_entity=group)))
 40647	mit	0	
-40648	ihren	0	(mention_id=5340|references=(entity=(entity_id=entity_0184|fullname=Bauernknaben|gender=m|members=entity_0191|specialcase_entity=group)))
+40648	ihren	0	(mention_id=5340|references=(entity=(entity_id=entity_0184|fullname=Bauernknaben|gender=m|members=entity_0191|all_members_given=False|specialcase_entity=group)))
 40649	Scharreisen	0	
 40650	,	0	
 40651	gestielten	0	
@@ -40665,7 +40665,7 @@ i	text	is_section_start	gold
 40663	einherzogen	0	
 40664	,	0	
 40665	wenn	0	
-40666	andre	0	(mention_id=5341|references=(entity=(entity_id=entity_0184|fullname=Bauernknaben|gender=m|members=entity_0191|specialcase_entity=group)))
+40666	andre	0	(mention_id=5341|references=(entity=(entity_id=entity_0184|fullname=Bauernknaben|gender=m|members=entity_0191|all_members_given=False|specialcase_entity=group)))
 40667	mit	0	
 40668	Körben	0	
 40669	hinterdrein	0	
@@ -40677,7 +40677,7 @@ i	text	is_section_start	gold
 40675	Steine	0	
 40676	beiseitezuschaffen	0	
 40677	,	0	
-40678	andre	0	(mention_id=5342|references=(entity=(entity_id=entity_0184|fullname=Bauernknaben|gender=m|members=entity_0191|specialcase_entity=group)))
+40678	andre	0	(mention_id=5342|references=(entity=(entity_id=entity_0184|fullname=Bauernknaben|gender=m|members=entity_0191|all_members_given=False|specialcase_entity=group)))
 40679	das	0	
 40680	hohe	0	
 40681	,	0	
@@ -40686,7 +40686,7 @@ i	text	is_section_start	gold
 40684	eiserne	0	
 40685	Walzenrad	0	
 40686	hinter	0	
-40687	sich	0	(mention_id=5343|references=(entity=(entity_id=entity_0184|fullname=Bauernknaben|gender=m|members=entity_0191|specialcase_entity=group)))
+40687	sich	0	(mention_id=5343|references=(entity=(entity_id=entity_0184|fullname=Bauernknaben|gender=m|members=entity_0191|all_members_given=False|specialcase_entity=group)))
 40688	herzogen	0	
 40689	,	0	
 40690	so	0	
@@ -40753,7 +40753,7 @@ i	text	is_section_start	gold
 40751	hatte	0	
 40752	zeither	0	
 40753	die	0	
-40754	Mädchen	0	(mention_id=5350|references=(entity=(entity_id=entity_0185|fullname=Mädchen des Dorfes|gender=f|members=entity_0183|specialcase_entity=group)))
+40754	Mädchen	0	(mention_id=5350|references=(entity=(entity_id=entity_0185|fullname=Mädchen des Dorfes|gender=f|members=entity_0183|all_members_given=False|specialcase_entity=group)))
 40755	des	0	
 40756	Dorfes	0	
 40757	im	0	
@@ -40814,7 +40814,7 @@ i	text	is_section_start	gold
 40812	aus	0	
 40813	einer	0	
 40814	Anzahl	0	
-40815	Mädchen	0	(mention_id=5353|references=(entity=(entity_id=entity_0185|fullname=Mädchen des Dorfes|gender=f|members=entity_0183|specialcase_entity=group)))
+40815	Mädchen	0	(mention_id=5353|references=(entity=(entity_id=entity_0185|fullname=Mädchen des Dorfes|gender=f|members=entity_0183|all_members_given=False|specialcase_entity=group)))
 40816	läßt	0	
 40817	sich	0	
 40818	kein	0	
@@ -40824,7 +40824,7 @@ i	text	is_section_start	gold
 40822	aus	0	
 40823	einer	0	
 40824	Anzahl	0	
-40825	Knaben	0	(mention_id=5354|references=(entity=(entity_id=entity_0184|fullname=Bauernknaben|gender=m|members=entity_0191|specialcase_entity=group)))
+40825	Knaben	0	(mention_id=5354|references=(entity=(entity_id=entity_0184|fullname=Bauernknaben|gender=m|members=entity_0191|all_members_given=False|specialcase_entity=group)))
 40826	.	0	
 40827	Sie	0	(mention_id=5355|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))
 40828	folgte	0	
@@ -40847,16 +40847,16 @@ i	text	is_section_start	gold
 40845	als	0	
 40846	einem	0	
 40847	jeden	0	
-40848	Mädchen	0	(mention_id=5359|references=(entity=(entity_id=entity_0185|fullname=Mädchen des Dorfes|gender=f|members=entity_0183|specialcase_entity=group)))
+40848	Mädchen	0	(mention_id=5359|references=(entity=(entity_id=entity_0185|fullname=Mädchen des Dorfes|gender=f|members=entity_0183|all_members_given=False|specialcase_entity=group)))
 40849	Anhänglichkeit	0	
 40850	an	0	
-40851	sein	0	(mention_id=5360|references=(entity=(entity_id=entity_0185|fullname=Mädchen des Dorfes|gender=f|members=entity_0183|specialcase_entity=group)))
+40851	sein	0	(mention_id=5360|references=(entity=(entity_id=entity_0185|fullname=Mädchen des Dorfes|gender=f|members=entity_0183|all_members_given=False|specialcase_entity=group)))
 40852	Haus	0	
 40853	,	0	
-40854	seine	0	(mention_id=5361|references=(entity=(entity_id=entity_0185|fullname=Mädchen des Dorfes|gender=f|members=entity_0183|specialcase_entity=group)))
+40854	seine	0	(mention_id=5361|references=(entity=(entity_id=entity_0185|fullname=Mädchen des Dorfes|gender=f|members=entity_0183|all_members_given=False|specialcase_entity=group)))
 40855	Eltern	0	(mention_id=5362|references=(entity=(entity_id=entity_0187|fullname=Eltern der Mädchen|gender=u|specialcase_entity=group)))
 40856	und	0	
-40857	seine	0	(mention_id=5363|references=(entity=(entity_id=entity_0185|fullname=Mädchen des Dorfes|gender=f|members=entity_0183|specialcase_entity=group)))
+40857	seine	0	(mention_id=5363|references=(entity=(entity_id=entity_0185|fullname=Mädchen des Dorfes|gender=f|members=entity_0183|all_members_given=False|specialcase_entity=group)))
 40858	Geschwister	0	(mention_id=5364|references=(entity=(entity_id=entity_0188|fullname=Geschwister der Mädchen|gender=u|specialcase_entity=group)))
 40859	einzuflößen	0	
 40860	.	0	
@@ -40864,7 +40864,7 @@ i	text	is_section_start	gold
 40862	gelang	0	
 40863	ihr	0	(mention_id=5365|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))
 40864	mit	0	
-40865	vielen	0	(mention_id=5366|references=(entity=(entity_id=entity_0185|fullname=Mädchen des Dorfes|gender=f|members=entity_0183|specialcase_entity=group)))
+40865	vielen	0	(mention_id=5366|references=(entity=(entity_id=entity_0185|fullname=Mädchen des Dorfes|gender=f|members=entity_0183|all_members_given=False|specialcase_entity=group)))
 40866	.	0	
 40867	Nur	0	
 40868	über	0	
@@ -45397,13 +45397,13 @@ i	text	is_section_start	gold
 45395	war	0	
 45396	eine	0	
 45397	benachbarte	0	
-45398	Familie	0	(mention_id=6015|references=(entity=(entity_id=entity_0204|fullname=benachbarte Familie|gender=u|members=entity_0208|specialcase_entity=group)))
+45398	Familie	0	(mention_id=6015|references=(entity=(entity_id=entity_0204|fullname=benachbarte Familie|gender=u|members=entity_0208|all_members_given=False|specialcase_entity=group)))
 45399	,	0	
-45400	die	0	(mention_id=6016|references=(entity=(entity_id=entity_0204|fullname=benachbarte Familie|gender=u|members=entity_0208|specialcase_entity=group)))
-45401	sich	0	(mention_id=6017|references=(entity=(entity_id=entity_0204|fullname=benachbarte Familie|gender=u|members=entity_0208|specialcase_entity=group)))
+45400	die	0	(mention_id=6016|references=(entity=(entity_id=entity_0204|fullname=benachbarte Familie|gender=u|members=entity_0208|all_members_given=False|specialcase_entity=group)))
+45401	sich	0	(mention_id=6017|references=(entity=(entity_id=entity_0204|fullname=benachbarte Familie|gender=u|members=entity_0208|all_members_given=False|specialcase_entity=group)))
 45402	und	0	
 45403	den	0	
-45404	Ihrigen	0	(mention_id=6018|references=(entity=(entity_id=entity_0204|fullname=benachbarte Familie|gender=u|members=entity_0208|specialcase_entity=group)))
+45404	Ihrigen	0	(mention_id=6018|references=(entity=(entity_id=entity_0204|fullname=benachbarte Familie|gender=u|members=entity_0208|all_members_given=False|specialcase_entity=group)))
 45405	einen	0	
 45406	Raum	0	
 45407	auf	0	
@@ -45814,7 +45814,7 @@ i	text	is_section_start	gold
 45812	,	0	
 45813	denn	0	
 45814	die	0	
-45815	Glieder	0	(mention_id=6059|references=(entity=(entity_id=entity_0204|fullname=benachbarte Familie|gender=u|members=entity_0208|specialcase_entity=group)))
+45815	Glieder	0	(mention_id=6059|references=(entity=(entity_id=entity_0204|fullname=benachbarte Familie|gender=u|members=entity_0208|all_members_given=False|specialcase_entity=group)))
 45816	der	0	
 45817	Familie	0	
 45818	sind	0	
@@ -45831,7 +45831,7 @@ i	text	is_section_start	gold
 45829	denken	0	
 45830	ist	0	
 45831	.	0	
-45832	Sie	0	(mention_id=6060|references=(entity=(entity_id=entity_0204|fullname=benachbarte Familie|gender=u|members=entity_0208|specialcase_entity=group)))
+45832	Sie	0	(mention_id=6060|references=(entity=(entity_id=entity_0204|fullname=benachbarte Familie|gender=u|members=entity_0208|all_members_given=False|specialcase_entity=group)))
 45833	sollen	0	
 45834	das	0	
 45835	schmerzlich	0	
@@ -45839,7 +45839,7 @@ i	text	is_section_start	gold
 45837	Gefühl	0	
 45838	entbehren	0	
 45839	,	0	
-45840	ihren	0	(mention_id=6061|references=(entity=(entity_id=entity_0204|fullname=benachbarte Familie|gender=u|members=entity_0208|specialcase_entity=group)))
+45840	ihren	0	(mention_id=6061|references=(entity=(entity_id=entity_0204|fullname=benachbarte Familie|gender=u|members=entity_0208|all_members_given=False|specialcase_entity=group)))
 45841	Geliebten	0	(mention_id=6062|references=(entity=(entity_id=entity_0207|fullname=Verstorbene der benachbarten Familie|gender=u|specialcase_entity=group)))
 45842	ein	0	
 45843	Totenopfer	0	
@@ -45853,7 +45853,7 @@ i	text	is_section_start	gold
 45851	dereinst	0	
 45852	unmittelbar	0	
 45853	neben	0	
-45854	ihnen	0	(mention_id=6063|references=(entity=(entity_id=entity_0204|fullname=benachbarte Familie|gender=u|members=entity_0208|specialcase_entity=group)))
+45854	ihnen	0	(mention_id=6063|references=(entity=(entity_id=entity_0204|fullname=benachbarte Familie|gender=u|members=entity_0208|all_members_given=False|specialcase_entity=group)))
 45855	zu	0	
 45856	ruhen	0	
 45857	.	0	
@@ -47491,9 +47491,9 @@ i	text	is_section_start	gold
 47489	meist	0	
 47490	nur	0	
 47491	umrissene	0	
-47492	Figuren	0	(mention_id=6220|references=(entity=(entity_id=entity_0210|fullname=Figuren auf Malerei|gender=u|members=entity_0217,entity_0218,entity_0214,entity_0213,entity_0216,entity_0215|all_members_given=True|borderline_entity=Gemälde|specialcase_entity=group)))
+47492	Figuren	0	(mention_id=6220|references=(entity=(entity_id=entity_0210|fullname=Figuren auf Malerei|gender=u|members=entity_0213,entity_0214,entity_0215,entity_0216,entity_0217,entity_0218|all_members_given=True|borderline_entity=Gemälde|specialcase_entity=group)))
 47493	,	0	
-47494	die	0	(mention_id=6221|references=(entity=(entity_id=entity_0210|fullname=Figuren auf Malerei|gender=u|members=entity_0217,entity_0218,entity_0214,entity_0213,entity_0216,entity_0215|all_members_given=True|borderline_entity=Gemälde|specialcase_entity=group)))
+47494	die	0	(mention_id=6221|references=(entity=(entity_id=entity_0210|fullname=Figuren auf Malerei|gender=u|members=entity_0213,entity_0214,entity_0215,entity_0216,entity_0217,entity_0218|all_members_given=True|borderline_entity=Gemälde|specialcase_entity=group)))
 47495	aber	0	
 47496	,	0	
 47497	weil	0	
@@ -47505,7 +47505,7 @@ i	text	is_section_start	gold
 47503	durchgezeichnet	0	
 47504	waren	0	
 47505	,	0	
-47506	ihren	0	(mention_id=6222|references=(entity=(entity_id=entity_0210|fullname=Figuren auf Malerei|gender=u|members=entity_0217,entity_0218,entity_0214,entity_0213,entity_0216,entity_0215|all_members_given=True|borderline_entity=Gemälde|specialcase_entity=group)))
+47506	ihren	0	(mention_id=6222|references=(entity=(entity_id=entity_0210|fullname=Figuren auf Malerei|gender=u|members=entity_0213,entity_0214,entity_0215,entity_0216,entity_0217,entity_0218|all_members_given=True|borderline_entity=Gemälde|specialcase_entity=group)))
 47507	altertümlichen	0	
 47508	Charakter	0	
 47509	vollkommen	0	
@@ -47524,7 +47524,7 @@ i	text	is_section_start	gold
 47522	!	0	
 47523	Aus	0	
 47524	allen	0	
-47525	Gestalten	0	(mention_id=6224|references=(entity=(entity_id=entity_0210|fullname=Figuren auf Malerei|gender=u|members=entity_0217,entity_0218,entity_0214,entity_0213,entity_0216,entity_0215|all_members_given=True|borderline_entity=Gemälde|specialcase_entity=group)))
+47525	Gestalten	0	(mention_id=6224|references=(entity=(entity_id=entity_0210|fullname=Figuren auf Malerei|gender=u|members=entity_0213,entity_0214,entity_0215,entity_0216,entity_0217,entity_0218|all_members_given=True|borderline_entity=Gemälde|specialcase_entity=group)))
 47526	blickte	0	
 47527	nur	0	
 47528	das	0	
@@ -47532,7 +47532,7 @@ i	text	is_section_start	gold
 47530	Dasein	0	
 47531	hervor	0	
 47532	;	0	
-47533	alle	0	(mention_id=6225|references=(entity=(entity_id=entity_0210|fullname=Figuren auf Malerei|gender=u|members=entity_0217,entity_0218,entity_0214,entity_0213,entity_0216,entity_0215|all_members_given=True|borderline_entity=Gemälde|specialcase_entity=group)))
+47533	alle	0	(mention_id=6225|references=(entity=(entity_id=entity_0210|fullname=Figuren auf Malerei|gender=u|members=entity_0213,entity_0214,entity_0215,entity_0216,entity_0217,entity_0218|all_members_given=True|borderline_entity=Gemälde|specialcase_entity=group)))
 47534	mußte	0	
 47535	man	0	
 47536	,	0	
@@ -47565,11 +47565,11 @@ i	text	is_section_start	gold
 47563	war	0	
 47564	auf	0	
 47565	allen	0	
-47566	Gesichtern	0	(mention_id=6228|references=(entity=(entity_id=entity_0210|fullname=Figuren auf Malerei|gender=u|members=entity_0217,entity_0218,entity_0214,entity_0213,entity_0216,entity_0215|all_members_given=True|borderline_entity=Gemälde|specialcase_entity=group)|specialcase_reference=part))
+47566	Gesichtern	0	(mention_id=6228|references=(entity=(entity_id=entity_0210|fullname=Figuren auf Malerei|gender=u|members=entity_0213,entity_0214,entity_0215,entity_0216,entity_0217,entity_0218|all_members_given=True|borderline_entity=Gemälde|specialcase_entity=group)|specialcase_reference=part))
 47567	,	0	
 47568	in	0	
 47569	allen	0	
-47570	Gebärden	0	(mention_id=6229|references=(entity=(entity_id=entity_0210|fullname=Figuren auf Malerei|gender=u|members=entity_0217,entity_0218,entity_0214,entity_0213,entity_0216,entity_0215|all_members_given=True|borderline_entity=Gemälde|specialcase_entity=group)|specialcase_reference=part))
+47570	Gebärden	0	(mention_id=6229|references=(entity=(entity_id=entity_0210|fullname=Figuren auf Malerei|gender=u|members=entity_0213,entity_0214,entity_0215,entity_0216,entity_0217,entity_0218|all_members_given=True|borderline_entity=Gemälde|specialcase_entity=group)|specialcase_reference=part))
 47571	ausgedrückt	0	
 47572	.	0	
 47573	Der	0	
@@ -47599,7 +47599,7 @@ i	text	is_section_start	gold
 47597	schwebende	0	
 47598	Engel	0	(mention_id=6235|references=(entity=(entity_id=entity_0213|fullname=Engel auf Malerei|gender=u|borderline_entity=Gemälde)))
 47599	,	0	
-47600	alle	0	(mention_id=6236|references=(entity=(entity_id=entity_0210|fullname=Figuren auf Malerei|gender=u|members=entity_0217,entity_0218,entity_0214,entity_0213,entity_0216,entity_0215|all_members_given=True|borderline_entity=Gemälde|specialcase_entity=group)))
+47600	alle	0	(mention_id=6236|references=(entity=(entity_id=entity_0210|fullname=Figuren auf Malerei|gender=u|members=entity_0213,entity_0214,entity_0215,entity_0216,entity_0217,entity_0218|all_members_given=True|borderline_entity=Gemälde|specialcase_entity=group)))
 47601	schienen	0	
 47602	selig	0	
 47603	in	0	
@@ -48919,10 +48919,10 @@ i	text	is_section_start	gold
 48917	wo	0	
 48918	er	0	(mention_id=6376|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))
 48919	unter	0	
-48920	denen	0	(mention_id=6377|references=(entity=(entity_id=entity_0222|fullname=Kriegsteilnehmer|gender=m|members=entity_0001|specialcase_entity=group)))
+48920	denen	0	(mention_id=6377|references=(entity=(entity_id=entity_0222|fullname=Kriegsteilnehmer|gender=m|members=entity_0001|all_members_given=False|specialcase_entity=group)))
 48921	,	0	
-48922	die	0	(mention_id=6378|references=(entity=(entity_id=entity_0222|fullname=Kriegsteilnehmer|gender=m|members=entity_0001|specialcase_entity=group)))
-48923	sich	0	(mention_id=6379|references=(entity=(entity_id=entity_0222|fullname=Kriegsteilnehmer|gender=m|members=entity_0001|specialcase_entity=group)))
+48922	die	0	(mention_id=6378|references=(entity=(entity_id=entity_0222|fullname=Kriegsteilnehmer|gender=m|members=entity_0001|all_members_given=False|specialcase_entity=group)))
+48923	sich	0	(mention_id=6379|references=(entity=(entity_id=entity_0222|fullname=Kriegsteilnehmer|gender=m|members=entity_0001|all_members_given=False|specialcase_entity=group)))
 48924	bei	0	
 48925	einer	0	
 48926	bedeutenden	0	
@@ -50905,7 +50905,7 @@ i	text	is_section_start	gold
 50903	erschienen	0	
 50904	erst	0	
 50905	die	0	
-50906	Gäste	0	(mention_id=6599|references=(entity=(entity_id=entity_0226|fullname=Gäste|gender=u|members=entity_0224,entity_0143|specialcase_entity=group)))
+50906	Gäste	0	(mention_id=6599|references=(entity=(entity_id=entity_0226|fullname=Gäste|gender=u|members=entity_0143,entity_0224|all_members_given=False|specialcase_entity=group)))
 50907	selbst	0	
 50908	:	0	
 50909	die	0	
@@ -50994,13 +50994,13 @@ i	text	is_section_start	gold
 50992	und	0	
 50993	angeordnet	0	
 50994	.	0	
-50995	Jedermann	0	(mention_id=6607|references=(entity=(entity_id=entity_0226|fullname=Gäste|gender=u|members=entity_0224,entity_0143|specialcase_entity=group)))
+50995	Jedermann	0	(mention_id=6607|references=(entity=(entity_id=entity_0226|fullname=Gäste|gender=u|members=entity_0143,entity_0224|all_members_given=False|specialcase_entity=group)))
 50996	war	0	
 50997	logiert	0	
 50998	,	0	
-50999	jedermann	0	(mention_id=6608|references=(entity=(entity_id=entity_0226|fullname=Gäste|gender=u|members=entity_0224,entity_0143|specialcase_entity=group)))
+50999	jedermann	0	(mention_id=6608|references=(entity=(entity_id=entity_0226|fullname=Gäste|gender=u|members=entity_0143,entity_0224|all_members_given=False|specialcase_entity=group)))
 51000	nach	0	
-51001	seiner	0	(mention_id=6609|references=(entity=(entity_id=entity_0226|fullname=Gäste|gender=u|members=entity_0224,entity_0143|specialcase_entity=group)))
+51001	seiner	0	(mention_id=6609|references=(entity=(entity_id=entity_0226|fullname=Gäste|gender=u|members=entity_0143,entity_0224|all_members_given=False|specialcase_entity=group)))
 51002	Art	0	
 51003	bequem	0	
 51004	,	0	
@@ -51012,19 +51012,19 @@ i	text	is_section_start	gold
 51010	sein	0	
 51011	,	0	
 51012	weil	0	
-51013	er	0	(mention_id=6610|references=(entity=(entity_id=entity_0226|fullname=Gäste|gender=u|members=entity_0224,entity_0143|specialcase_entity=group)))
+51013	er	0	(mention_id=6610|references=(entity=(entity_id=entity_0226|fullname=Gäste|gender=u|members=entity_0143,entity_0224|all_members_given=False|specialcase_entity=group)))
 51014	nicht	0	
 51015	gehindert	0	
 51016	war	0	
 51017	,	0	
-51018	sich	0	(mention_id=6611|references=(entity=(entity_id=entity_0226|fullname=Gäste|gender=u|members=entity_0224,entity_0143|specialcase_entity=group)))
+51018	sich	0	(mention_id=6611|references=(entity=(entity_id=entity_0226|fullname=Gäste|gender=u|members=entity_0143,entity_0224|all_members_given=False|specialcase_entity=group)))
 51019	selbst	0	
 51020	zu	0	
 51021	bedienen	0	
 51022	.	0	
 51023	Nun	0	
 51024	hätten	0	
-51025	alle	0	(mention_id=6612|references=(entity=(entity_id=entity_0226|fullname=Gäste|gender=u|members=entity_0224,entity_0143|specialcase_entity=group)))
+51025	alle	0	(mention_id=6612|references=(entity=(entity_id=entity_0226|fullname=Gäste|gender=u|members=entity_0143,entity_0224|all_members_given=False|specialcase_entity=group)))
 51026	gern	0	
 51027	,	0	
 51028	nach	0	
@@ -51495,13 +51495,13 @@ i	text	is_section_start	gold
 51493	daß	0	
 51494	,	0	
 51495	indem	0	
-51496	alle	0	(mention_id=6674|references=(entity=(entity_id=entity_0230|fullname=Lucianes Gäste|gender=u|members=entity_0224,entity_0143|specialcase_entity=group)))
-51497	sich	0	(mention_id=6675|references=(entity=(entity_id=entity_0230|fullname=Lucianes Gäste|gender=u|members=entity_0224,entity_0143|specialcase_entity=group)))
+51496	alle	0	(mention_id=6674|references=(entity=(entity_id=entity_0230|fullname=Lucianes Gäste|gender=u|members=entity_0143,entity_0224|all_members_given=False|specialcase_entity=group)))
+51497	sich	0	(mention_id=6675|references=(entity=(entity_id=entity_0230|fullname=Lucianes Gäste|gender=u|members=entity_0143,entity_0224|all_members_given=False|specialcase_entity=group)))
 51498	begünstigt	0	
 51499	sahen	0	
 51500	,	0	
-51501	jeder	0	(mention_id=6676|references=(entity=(entity_id=entity_0230|fullname=Lucianes Gäste|gender=u|members=entity_0224,entity_0143|specialcase_entity=group)))
-51502	sich	0	(mention_id=6677|references=(entity=(entity_id=entity_0230|fullname=Lucianes Gäste|gender=u|members=entity_0224,entity_0143|specialcase_entity=group)))
+51501	jeder	0	(mention_id=6676|references=(entity=(entity_id=entity_0230|fullname=Lucianes Gäste|gender=u|members=entity_0143,entity_0224|all_members_given=False|specialcase_entity=group)))
+51502	sich	0	(mention_id=6677|references=(entity=(entity_id=entity_0230|fullname=Lucianes Gäste|gender=u|members=entity_0143,entity_0224|all_members_given=False|specialcase_entity=group)))
 51503	für	0	
 51504	den	0	
 51505	am	0	
@@ -52032,9 +52032,9 @@ i	text	is_section_start	gold
 52030	.	0	
 52031	Einer	0	(mention_id=6746|references=(entity=(entity_id=entity_0236|fullname=Einer von Lucianes Verehrern|gender=m)))
 52032	ihrer	0	(mention_id=6747|references=(entity=(entity_id=entity_0005|fullname=Luciane|gender=f)))
-52033	Verehrer	0	(mention_id=6748|references=(entity=(entity_id=entity_0237|fullname=Gruppe Lucianes Verehrer und Adjutanten|gender=m|members=entity_0236|specialcase_entity=group)))
+52033	Verehrer	0	(mention_id=6748|references=(entity=(entity_id=entity_0237|fullname=Gruppe Lucianes Verehrer und Adjutanten|gender=m|members=entity_0236|all_members_given=False|specialcase_entity=group)))
 52034	und	0	
-52035	Adjutanten	0	(mention_id=6749|references=(entity=(entity_id=entity_0237|fullname=Gruppe Lucianes Verehrer und Adjutanten|gender=m|members=entity_0236|specialcase_entity=group)))
+52035	Adjutanten	0	(mention_id=6749|references=(entity=(entity_id=entity_0237|fullname=Gruppe Lucianes Verehrer und Adjutanten|gender=m|members=entity_0236|all_members_given=False|specialcase_entity=group)))
 52036	,	0	
 52037	dem	0	(mention_id=6750|references=(entity=(entity_id=entity_0236|fullname=Einer von Lucianes Verehrern|gender=m)))
 52038	sie	0	(mention_id=6751|references=(entity=(entity_id=entity_0005|fullname=Luciane|gender=f)))
@@ -52531,14 +52531,14 @@ i	text	is_section_start	gold
 52529	verlor	0	
 52530	,	0	
 52531	die	0	
-52532	Gesellschaft	0	(mention_id=6813|references=(entity=(entity_id=entity_0228|fullname=Lucianes Gesellschaft|gender=u|members=entity_0224,entity_0143|specialcase_entity=group)))
+52532	Gesellschaft	0	(mention_id=6813|references=(entity=(entity_id=entity_0228|fullname=Lucianes Gesellschaft|gender=u|members=entity_0143,entity_0224|all_members_given=False|specialcase_entity=group)))
 52533	jedoch	0	
 52534	völlig	0	
 52535	aufgeheitert	0	
 52536	wurde	0	
 52537	,	0	
-52538	die	0	(mention_id=6814|references=(entity=(entity_id=entity_0228|fullname=Lucianes Gesellschaft|gender=u|members=entity_0224,entity_0143|specialcase_entity=group)))
-52539	sich	0	(mention_id=6815|references=(entity=(entity_id=entity_0228|fullname=Lucianes Gesellschaft|gender=u|members=entity_0224,entity_0143|specialcase_entity=group)))
+52538	die	0	(mention_id=6814|references=(entity=(entity_id=entity_0228|fullname=Lucianes Gesellschaft|gender=u|members=entity_0143,entity_0224|all_members_given=False|specialcase_entity=group)))
+52539	sich	0	(mention_id=6815|references=(entity=(entity_id=entity_0228|fullname=Lucianes Gesellschaft|gender=u|members=entity_0143,entity_0224|all_members_given=False|specialcase_entity=group)))
 52540	denn	0	
 52541	sogleich	0	
 52542	teilte	0	
@@ -53111,7 +53111,7 @@ i	text	is_section_start	gold
 53109	in	0	
 53110	der	0	
 53111	besten	0	
-53112	Gesellschaft	0	(mention_id=6907|references=(entity=(entity_id=entity_0228|fullname=Lucianes Gesellschaft|gender=u|members=entity_0224,entity_0143|specialcase_entity=group)))
+53112	Gesellschaft	0	(mention_id=6907|references=(entity=(entity_id=entity_0228|fullname=Lucianes Gesellschaft|gender=u|members=entity_0143,entity_0224|all_members_given=False|specialcase_entity=group)))
 53113	,	0	
 53114	doch	0	
 53115	niemand	0	
@@ -53161,7 +53161,7 @@ i	text	is_section_start	gold
 53159	geschmackvollere	0	
 53160	Sammlungen	0	
 53161	die	0	
-53162	Gesellschaft	0	(mention_id=6917|references=(entity=(entity_id=entity_0228|fullname=Lucianes Gesellschaft|gender=u|members=entity_0224,entity_0143|specialcase_entity=group)))
+53162	Gesellschaft	0	(mention_id=6917|references=(entity=(entity_id=entity_0228|fullname=Lucianes Gesellschaft|gender=u|members=entity_0143,entity_0224|all_members_given=False|specialcase_entity=group)))
 53163	von	0	
 53164	diesem	0	
 53165	Affenwesen	0	
@@ -53202,7 +53202,7 @@ i	text	is_section_start	gold
 53200	sich	0	(mention_id=6925|references=(entity=(entity_id=entity_0147|fullname=Architekt|gender=m)))
 53201	unter	0	
 53202	der	0	
-53203	Gesellschaft	0	(mention_id=6926|references=(entity=(entity_id=entity_0228|fullname=Lucianes Gesellschaft|gender=u|members=entity_0224,entity_0143|specialcase_entity=group)))
+53203	Gesellschaft	0	(mention_id=6926|references=(entity=(entity_id=entity_0228|fullname=Lucianes Gesellschaft|gender=u|members=entity_0143,entity_0224|all_members_given=False|specialcase_entity=group)))
 53204	,	0	
 53205	ohne	0	
 53206	etwas	0	
@@ -53935,9 +53935,9 @@ i	text	is_section_start	gold
 53933	her	0	
 53934	.	0	
 53935	Ihr	0	(mention_id=7013|references=(entity=(entity_id=entity_0005|fullname=Luciane|gender=f)))
-53936	Hofstaat	0	(mention_id=7014|references=(entity=(entity_id=entity_0228|fullname=Lucianes Gesellschaft|gender=u|members=entity_0224,entity_0143|specialcase_entity=group)))
+53936	Hofstaat	0	(mention_id=7014|references=(entity=(entity_id=entity_0228|fullname=Lucianes Gesellschaft|gender=u|members=entity_0143,entity_0224|all_members_given=False|specialcase_entity=group)))
 53937	vermehrte	0	
-53938	sich	0	(mention_id=7015|references=(entity=(entity_id=entity_0228|fullname=Lucianes Gesellschaft|gender=u|members=entity_0224,entity_0143|specialcase_entity=group)))
+53938	sich	0	(mention_id=7015|references=(entity=(entity_id=entity_0228|fullname=Lucianes Gesellschaft|gender=u|members=entity_0143,entity_0224|all_members_given=False|specialcase_entity=group)))
 53939	täglich	0	
 53940	,	0	
 53941	teils	0	
@@ -53945,7 +53945,7 @@ i	text	is_section_start	gold
 53943	ihr	0	(mention_id=7016|references=(entity=(entity_id=entity_0005|fullname=Luciane|gender=f)))
 53944	Treiben	0	
 53945	so	0	
-53946	manchen	0	(mention_id=7017|references=(entity=(entity_id=entity_0228|fullname=Lucianes Gesellschaft|gender=u|members=entity_0224,entity_0143|specialcase_entity=group)))
+53946	manchen	0	(mention_id=7017|references=(entity=(entity_id=entity_0228|fullname=Lucianes Gesellschaft|gender=u|members=entity_0143,entity_0224|all_members_given=False|specialcase_entity=group)))
 53947	erregte	0	
 53948	und	0	
 53949	anzog	0	
@@ -54063,7 +54063,7 @@ i	text	is_section_start	gold
 54061	Einer	0	(mention_id=7032|references=(entity=(entity_id=entity_0282|fullname=Einer aus Lucianes Gefolge|gender=m)))
 54062	von	0	
 54063	ihrem	0	(mention_id=7033|references=(entity=(entity_id=entity_0005|fullname=Luciane|gender=f)))
-54064	Hofstaat	0	(mention_id=7034|references=(entity=(entity_id=entity_0228|fullname=Lucianes Gesellschaft|gender=u|members=entity_0224,entity_0143|specialcase_entity=group)))
+54064	Hofstaat	0	(mention_id=7034|references=(entity=(entity_id=entity_0228|fullname=Lucianes Gesellschaft|gender=u|members=entity_0143,entity_0224|all_members_given=False|specialcase_entity=group)))
 54065	hatte	0	
 54066	stets	0	
 54067	eine	0	
@@ -55475,7 +55475,7 @@ i	text	is_section_start	gold
 55473	denn	0	
 55474	wäre	0	
 55475	die	0	
-55476	Gesellschaft	0	(mention_id=7226|references=(entity=(entity_id=entity_0228|fullname=Lucianes Gesellschaft|gender=u|members=entity_0224,entity_0143|specialcase_entity=group)))
+55476	Gesellschaft	0	(mention_id=7226|references=(entity=(entity_id=entity_0228|fullname=Lucianes Gesellschaft|gender=u|members=entity_0143,entity_0224|all_members_given=False|specialcase_entity=group)))
 55477	nicht	0	
 55478	gekommen	0	
 55479	,	0	
@@ -55648,7 +55648,7 @@ i	text	is_section_start	gold
 55646	das	0	
 55647	Haus	0	
 55648	.	0	
-55649	Offiziere	0	(mention_id=7243|references=(entity=(entity_id=entity_0283|fullname=Offiziere von entfernten Garnisonen|gender=m|members=entity_0314,entity_0300|all_members_given=True|specialcase_entity=group)))
+55649	Offiziere	0	(mention_id=7243|references=(entity=(entity_id=entity_0283|fullname=Offiziere von entfernten Garnisonen|gender=m|members=entity_0300,entity_0314|all_members_given=True|specialcase_entity=group)))
 55650	von	0	
 55651	entfernteren	0	
 55652	Garnisonen	0	
@@ -55656,7 +55656,7 @@ i	text	is_section_start	gold
 55654	die	0	
 55655	gebildeten	0	(mention_id=7244|references=(entity=(entity_id=entity_0300|fullname=gebildete Offiziere|gender=m|specialcase_entity=group)))
 55656	zu	0	
-55657	ihrem	0	(mention_id=7245|references=(entity=(entity_id=entity_0228|fullname=Lucianes Gesellschaft|gender=u|members=entity_0224,entity_0143|specialcase_entity=group)))
+55657	ihrem	0	(mention_id=7245|references=(entity=(entity_id=entity_0228|fullname=Lucianes Gesellschaft|gender=u|members=entity_0143,entity_0224|all_members_given=False|specialcase_entity=group)))
 55658	großen	0	
 55659	Vorteil	0	
 55660	,	0	
@@ -55665,10 +55665,10 @@ i	text	is_section_start	gold
 55663	zur	0	
 55664	Unbequemlichkeit	0	
 55665	der	0	
-55666	Gesellschaft	0	(mention_id=7247|references=(entity=(entity_id=entity_0228|fullname=Lucianes Gesellschaft|gender=u|members=entity_0224,entity_0143|specialcase_entity=group)))
+55666	Gesellschaft	0	(mention_id=7247|references=(entity=(entity_id=entity_0228|fullname=Lucianes Gesellschaft|gender=u|members=entity_0143,entity_0224|all_members_given=False|specialcase_entity=group)))
 55667	,	0	
 55668	zogen	0	
-55669	sich	0	(mention_id=7248|references=(entity=(entity_id=entity_0283|fullname=Offiziere von entfernten Garnisonen|gender=m|members=entity_0314,entity_0300|all_members_given=True|specialcase_entity=group)))
+55669	sich	0	(mention_id=7248|references=(entity=(entity_id=entity_0283|fullname=Offiziere von entfernten Garnisonen|gender=m|members=entity_0300,entity_0314|all_members_given=True|specialcase_entity=group)))
 55670	herbei	0	
 55671	;	0	
 55672	am	0	
@@ -55722,7 +55722,7 @@ i	text	is_section_start	gold
 55720	wider	0	
 55721	fahren	0	
 55722	.	0	
-55723	Man	0	(mention_id=7257|references=(entity=(entity_id=entity_0228|fullname=Lucianes Gesellschaft|gender=u|members=entity_0224,entity_0143|specialcase_entity=group)))
+55723	Man	0	(mention_id=7257|references=(entity=(entity_id=entity_0228|fullname=Lucianes Gesellschaft|gender=u|members=entity_0143,entity_0224|all_members_given=False|specialcase_entity=group)))
 55724	verwunderte	0	
 55725	sich	0	
 55726	nicht	0	
@@ -55738,7 +55738,7 @@ i	text	is_section_start	gold
 55736	sehen	0	
 55737	;	0	
 55738	denn	0	
-55739	man	0	(mention_id=7260|references=(entity=(entity_id=entity_0228|fullname=Lucianes Gesellschaft|gender=u|members=entity_0224,entity_0143|specialcase_entity=group)))
+55739	man	0	(mention_id=7260|references=(entity=(entity_id=entity_0228|fullname=Lucianes Gesellschaft|gender=u|members=entity_0143,entity_0224|all_members_given=False|specialcase_entity=group)))
 55740	vernahm	0	
 55741	,	0	
 55742	des	0	
@@ -55895,7 +55895,7 @@ i	text	is_section_start	gold
 55893	.	0	
 55894	Indes	0	
 55895	versicherte	0	
-55896	jedermann	0	(mention_id=7278|references=(entity=(entity_id=entity_0228|fullname=Lucianes Gesellschaft|gender=u|members=entity_0224,entity_0143|specialcase_entity=group)))
+55896	jedermann	0	(mention_id=7278|references=(entity=(entity_id=entity_0228|fullname=Lucianes Gesellschaft|gender=u|members=entity_0143,entity_0224|all_members_given=False|specialcase_entity=group)))
 55897	,	0	
 55898	sie	0	(mention_id=7279|references=(entity=(entity_id=entity_0005|fullname=Luciane|gender=f)))
 55899	habe	0	
@@ -55925,7 +55925,7 @@ i	text	is_section_start	gold
 55923	.	0	
 55924	In	0	
 55925	der	0	
-55926	Gesellschaft	0	(mention_id=7281|references=(entity=(entity_id=entity_0228|fullname=Lucianes Gesellschaft|gender=u|members=entity_0224,entity_0143|specialcase_entity=group)))
+55926	Gesellschaft	0	(mention_id=7281|references=(entity=(entity_id=entity_0228|fullname=Lucianes Gesellschaft|gender=u|members=entity_0143,entity_0224|all_members_given=False|specialcase_entity=group)))
 55927	befand	0	
 55928	sich	0	(mention_id=7282|references=(entity=(entity_id=entity_0260|fullname=Dichter aus Lucianes Gesellschaft|gender=m)))
 55929	ein	0	
@@ -55966,7 +55966,7 @@ i	text	is_section_start	gold
 55964	überhaupt	0	
 55965	,	0	
 55966	wie	0	
-55967	alle	0	(mention_id=7291|references=(entity=(entity_id=entity_0228|fullname=Lucianes Gesellschaft|gender=u|members=entity_0224,entity_0143|specialcase_entity=group)))
+55967	alle	0	(mention_id=7291|references=(entity=(entity_id=entity_0228|fullname=Lucianes Gesellschaft|gender=u|members=entity_0143,entity_0224|all_members_given=False|specialcase_entity=group)))
 55968	,	0	
 55969	höflich	0	
 55970	gegen	0	
@@ -56000,7 +56000,7 @@ i	text	is_section_start	gold
 55998	Ungeduld	0	
 55999	einen	0	(mention_id=7298|references=(entity=(entity_id=entity_0268|fullname=Hofmann|gender=m)))
 56000	ihrer	0	(mention_id=7299|references=(entity=(entity_id=entity_0005|fullname=Luciane|gender=f)))
-56001	Hofleute	0	(mention_id=7300|references=(entity=(entity_id=entity_0290|fullname=Hofleute Lucianes|gender=u|members=entity_0268|specialcase_entity=group)))
+56001	Hofleute	0	(mention_id=7300|references=(entity=(entity_id=entity_0290|fullname=Hofleute Lucianes|gender=u|members=entity_0268|all_members_given=False|specialcase_entity=group)))
 56002	an	0	
 56003	ihn	0	(mention_id=7301|references=(entity=(entity_id=entity_0260|fullname=Dichter aus Lucianes Gesellschaft|gender=m)))
 56004	schickte	0	
@@ -56302,9 +56302,9 @@ i	text	is_section_start	gold
 56300	gar	0	
 56301	bald	0	
 56302	die	0	
-56303	Gesellschaft	0	(mention_id=7341|references=(entity=(entity_id=entity_0228|fullname=Lucianes Gesellschaft|gender=u|members=entity_0224,entity_0143|specialcase_entity=group)))
+56303	Gesellschaft	0	(mention_id=7341|references=(entity=(entity_id=entity_0228|fullname=Lucianes Gesellschaft|gender=u|members=entity_0143,entity_0224|all_members_given=False|specialcase_entity=group)))
 56304	,	0	
-56305	ihre	0	(mention_id=7342|references=(entity=(entity_id=entity_0228|fullname=Lucianes Gesellschaft|gender=u|members=entity_0224,entity_0143|specialcase_entity=group)))
+56305	ihre	0	(mention_id=7342|references=(entity=(entity_id=entity_0228|fullname=Lucianes Gesellschaft|gender=u|members=entity_0143,entity_0224|all_members_given=False|specialcase_entity=group)))
 56306	Neigungen	0	
 56307	,	0	
 56308	Leidenschaften	0	
@@ -56596,8 +56596,8 @@ i	text	is_section_start	gold
 56594	andern	0	
 56595	Bildern	0	
 56596	beschäftigte	0	
-56597	man	0	(mention_id=7384|references=(entity=(entity_id=entity_0228|fullname=Lucianes Gesellschaft|gender=u|members=entity_0224,entity_0143|specialcase_entity=group)))
-56598	sich	0	(mention_id=7385|references=(entity=(entity_id=entity_0228|fullname=Lucianes Gesellschaft|gender=u|members=entity_0224,entity_0143|specialcase_entity=group)))
+56597	man	0	(mention_id=7384|references=(entity=(entity_id=entity_0228|fullname=Lucianes Gesellschaft|gender=u|members=entity_0143,entity_0224|all_members_given=False|specialcase_entity=group)))
+56598	sich	0	(mention_id=7385|references=(entity=(entity_id=entity_0228|fullname=Lucianes Gesellschaft|gender=u|members=entity_0143,entity_0224|all_members_given=False|specialcase_entity=group)))
 56599	sehr	0	
 56600	ernstlich	0	
 56601	.	0	
@@ -58881,7 +58881,7 @@ i	text	is_section_start	gold
 58879	.	0	
 58880	In	0	
 58881	allen	0	
-58882	Familien	0	(mention_id=7641|references=(entity=(entity_id=entity_0345|fullname=Von Luciane besuchte Familien|gender=u|members=entity_0331|specialcase_entity=group)))
+58882	Familien	0	(mention_id=7641|references=(entity=(entity_id=entity_0345|fullname=Von Luciane besuchte Familien|gender=u|members=entity_0331|all_members_given=False|specialcase_entity=group)))
 58883	,	0	
 58884	wo	0	
 58885	sie	0	(mention_id=7642|references=(entity=(entity_id=entity_0005|fullname=Luciane|gender=f)))
@@ -59044,7 +59044,7 @@ i	text	is_section_start	gold
 59042	Töchter	0	(mention_id=7669|references=(entity=(entity_id=entity_0322|fullname=Tochter des angesehenen Hauses|gender=f)))
 59043	eines	0	
 59044	angesehenen	0	
-59045	Hauses	0	(mention_id=7670|references=(entity=(entity_id=entity_0331|fullname=angesehene Familie|gender=u|members=entity_0330,entity_0326,entity_0322|all_members_given=True|specialcase_entity=group)))
+59045	Hauses	0	(mention_id=7670|references=(entity=(entity_id=entity_0331|fullname=angesehene Familie|gender=u|members=entity_0322,entity_0326,entity_0330|all_members_given=True|specialcase_entity=group)))
 59046	hatte	0	
 59047	das	0	
 59048	Unglück	0	
@@ -59084,7 +59084,7 @@ i	text	is_section_start	gold
 59082	den	0	
 59083	Anblick	0	
 59084	der	0	
-59085	Ihrigen	0	(mention_id=7677|references=(entity=(entity_id=entity_0326|fullname=Familienmitglieder der Tochter des angesehenen Hauses|gender=u|members=entity_0337|specialcase_entity=group)))
+59085	Ihrigen	0	(mention_id=7677|references=(entity=(entity_id=entity_0326|fullname=Familienmitglieder der Tochter des angesehenen Hauses|gender=u|members=entity_0337|all_members_given=False|specialcase_entity=group)))
 59086	nur	0	
 59087	,	0	
 59088	wenn	0	
@@ -59113,7 +59113,7 @@ i	text	is_section_start	gold
 59111	reflektiere	0	
 59112	.	0	
 59113	Gegen	0	
-59114	jedes	0	(mention_id=7683|references=(entity=(entity_id=entity_0326|fullname=Familienmitglieder der Tochter des angesehenen Hauses|gender=u|members=entity_0337|specialcase_entity=group)))
+59114	jedes	0	(mention_id=7683|references=(entity=(entity_id=entity_0326|fullname=Familienmitglieder der Tochter des angesehenen Hauses|gender=u|members=entity_0337|all_members_given=False|specialcase_entity=group)))
 59115	allein	0	
 59116	äußerte	0	
 59117	sie	0	(mention_id=7684|references=(entity=(entity_id=entity_0322|fullname=Tochter des angesehenen Hauses|gender=f)))
@@ -59124,7 +59124,7 @@ i	text	is_section_start	gold
 59122	sich	0	(mention_id=7686|references=(entity=(entity_id=entity_0322|fullname=Tochter des angesehenen Hauses|gender=f)))
 59123	stundenlang	0	
 59124	mit	0	
-59125	ihm	0	(mention_id=7687|references=(entity=(entity_id=entity_0326|fullname=Familienmitglieder der Tochter des angesehenen Hauses|gender=u|members=entity_0337|specialcase_entity=group)))
+59125	ihm	0	(mention_id=7687|references=(entity=(entity_id=entity_0326|fullname=Familienmitglieder der Tochter des angesehenen Hauses|gender=u|members=entity_0337|all_members_given=False|specialcase_entity=group)))
 59126	.	0	
 59127	Luciane	0	(mention_id=7688|references=(entity=(entity_id=entity_0005|fullname=Luciane|gender=f)))
 59128	hatte	0	
@@ -59302,9 +59302,9 @@ i	text	is_section_start	gold
 59300	Ottilie	0	(mention_id=7714|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))
 59301	war	0	
 59302	unter	0	
-59303	denen	0	(mention_id=7715|references=(entity=(entity_id=entity_0332|fullname=die die Ohnmächtige Begleitenden|gender=u|members=entity_0006|specialcase_entity=group)))
+59303	denen	0	(mention_id=7715|references=(entity=(entity_id=entity_0332|fullname=die die Ohnmächtige Begleitenden|gender=u|members=entity_0006|all_members_given=False|specialcase_entity=group)))
 59304	,	0	
-59305	welche	0	(mention_id=7716|references=(entity=(entity_id=entity_0332|fullname=die die Ohnmächtige Begleitenden|gender=u|members=entity_0006|specialcase_entity=group)))
+59305	welche	0	(mention_id=7716|references=(entity=(entity_id=entity_0332|fullname=die die Ohnmächtige Begleitenden|gender=u|members=entity_0006|all_members_given=False|specialcase_entity=group)))
 59306	die	0	
 59307	völlig	0	
 59308	Ohnmächtige	0	(mention_id=7717|references=(entity=(entity_id=entity_0322|fullname=Tochter des angesehenen Hauses|gender=f)))
@@ -59410,7 +59410,7 @@ i	text	is_section_start	gold
 59408	Benehmen	0	
 59409	gegen	0	
 59410	jene	0	
-59411	Familie	0	(mention_id=7729|references=(entity=(entity_id=entity_0331|fullname=angesehene Familie|gender=u|members=entity_0330,entity_0326,entity_0322|all_members_given=True|specialcase_entity=group)))
+59411	Familie	0	(mention_id=7729|references=(entity=(entity_id=entity_0331|fullname=angesehene Familie|gender=u|members=entity_0322,entity_0326,entity_0330|all_members_given=True|specialcase_entity=group)))
 59412	den	0	
 59413	von	0	
 59414	ihrer	0	(mention_id=7730|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)))
@@ -60484,7 +60484,7 @@ i	text	is_section_start	gold
 60482	von	0	
 60483	Streiflichtern	0	
 60484	erleuchteten	0	
-60485	Figuren	0	(mention_id=7868|references=(entity=(entity_id=entity_0338|fullname=Figuren im Bild|gender=u|members=entity_0343,entity_0329,entity_0339,entity_0328,entity_0334,entity_0324,entity_0325,entity_0340|all_members_given=True|borderline_entity=lebendes,Gemälde|specialcase_entity=group)))
+60485	Figuren	0	(mention_id=7868|references=(entity=(entity_id=entity_0338|fullname=Figuren im Bild|gender=u|members=entity_0324,entity_0325,entity_0328,entity_0329,entity_0334,entity_0339,entity_0340,entity_0343|all_members_given=True|borderline_entity=lebendes,Gemälde|specialcase_entity=group)))
 60486	im	0	
 60487	Vordergrunde	0	
 60488	zugedeckt	0	
@@ -60856,7 +60856,7 @@ i	text	is_section_start	gold
 60854	teils	0	
 60855	um	0	
 60856	den	0	
-60857	Vorstellenden	0	(mention_id=7904|references=(entity=(entity_id=entity_0346|fullname=Vorstellende|gender=u|members=entity_0347,entity_0006|specialcase_entity=group)))
+60857	Vorstellenden	0	(mention_id=7904|references=(entity=(entity_id=entity_0346|fullname=Vorstellende|gender=u|members=entity_0006,entity_0347|all_members_given=False|specialcase_entity=group)))
 60858	einige	0	
 60859	Erleichterung	0	
 60860	zu	0	
@@ -62883,7 +62883,7 @@ i	text	is_section_start	gold
 62881	Ottilie	0	(mention_id=8159|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))
 62882	ihre	0	(mention_id=8160|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))
 62883	kleinen	0	
-62884	Zöglinge	0	(mention_id=8161|references=(entity=(entity_id=entity_0349|fullname=Ottilies Zöglinge|gender=u|members=entity_0183|specialcase_entity=group)))
+62884	Zöglinge	0	(mention_id=8161|references=(entity=(entity_id=entity_0349|fullname=Ottilies Zöglinge|gender=u|members=entity_0183|all_members_given=False|specialcase_entity=group)))
 62885	behandelte	0	
 62886	,	0	
 62887	und	0	
@@ -62905,7 +62905,7 @@ i	text	is_section_start	gold
 62903	,	0	
 62904	»	0	
 62905	Ihre	0	(mention_id=8165|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))
-62906	Untergebenen	0	(mention_id=8166|references=(entity=(entity_id=entity_0349|fullname=Ottilies Zöglinge|gender=u|members=entity_0183|specialcase_entity=group)))
+62906	Untergebenen	0	(mention_id=8166|references=(entity=(entity_id=entity_0349|fullname=Ottilies Zöglinge|gender=u|members=entity_0183|all_members_given=False|specialcase_entity=group)))
 62907	nur	0	
 62908	zur	0	
 62909	nächsten	0	
@@ -62915,13 +62915,13 @@ i	text	is_section_start	gold
 62913	Reinlichkeit	0	
 62914	veranlaßt	0	
 62915	die	0	
-62916	Kinder	0	(mention_id=8167|references=(entity=(entity_id=entity_0349|fullname=Ottilies Zöglinge|gender=u|members=entity_0183|specialcase_entity=group)))
+62916	Kinder	0	(mention_id=8167|references=(entity=(entity_id=entity_0349|fullname=Ottilies Zöglinge|gender=u|members=entity_0183|all_members_given=False|specialcase_entity=group)))
 62917	,	0	
 62918	mit	0	
 62919	Freuden	0	
 62920	etwas	0	
 62921	auf	0	
-62922	sich	0	(mention_id=8168|references=(entity=(entity_id=entity_0349|fullname=Ottilies Zöglinge|gender=u|members=entity_0183|specialcase_entity=group)))
+62922	sich	0	(mention_id=8168|references=(entity=(entity_id=entity_0349|fullname=Ottilies Zöglinge|gender=u|members=entity_0183|all_members_given=False|specialcase_entity=group)))
 62923	selbst	0	
 62924	zu	0	
 62925	halten	0	
@@ -62932,11 +62932,11 @@ i	text	is_section_start	gold
 62930	gewonnen	0	
 62931	,	0	
 62932	wenn	0	
-62933	sie	0	(mention_id=8169|references=(entity=(entity_id=entity_0349|fullname=Ottilies Zöglinge|gender=u|members=entity_0183|specialcase_entity=group)))
+62933	sie	0	(mention_id=8169|references=(entity=(entity_id=entity_0349|fullname=Ottilies Zöglinge|gender=u|members=entity_0183|all_members_given=False|specialcase_entity=group)))
 62934	das	0	
 62935	,	0	
 62936	was	0	
-62937	sie	0	(mention_id=8170|references=(entity=(entity_id=entity_0349|fullname=Ottilies Zöglinge|gender=u|members=entity_0183|specialcase_entity=group)))
+62937	sie	0	(mention_id=8170|references=(entity=(entity_id=entity_0349|fullname=Ottilies Zöglinge|gender=u|members=entity_0183|all_members_given=False|specialcase_entity=group)))
 62938	tun	0	
 62939	,	0	
 62940	mit	0	
@@ -63180,7 +63180,7 @@ i	text	is_section_start	gold
 63178	Sie	0	(mention_id=8206|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))
 63179	bei	0	
 63180	Ihren	0	(mention_id=8207|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))
-63181	Zöglingen	0	(mention_id=8208|references=(entity=(entity_id=entity_0349|fullname=Ottilies Zöglinge|gender=u|members=entity_0183|specialcase_entity=group)))
+63181	Zöglingen	0	(mention_id=8208|references=(entity=(entity_id=entity_0349|fullname=Ottilies Zöglinge|gender=u|members=entity_0183|all_members_given=False|specialcase_entity=group)))
 63182	ein	0	
 63183	richtiges	0	
 63184	Verfahren	0	
@@ -63190,8 +63190,8 @@ i	text	is_section_start	gold
 63188	Wenn	0	
 63189	Ihre	0	(mention_id=8209|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))
 63190	kleinsten	0	
-63191	Mädchen	0	(mention_id=8210|references=(entity=(entity_id=entity_0349|fullname=Ottilies Zöglinge|gender=u|members=entity_0183|specialcase_entity=group)))
-63192	sich	0	(mention_id=8211|references=(entity=(entity_id=entity_0349|fullname=Ottilies Zöglinge|gender=u|members=entity_0183|specialcase_entity=group)))
+63191	Mädchen	0	(mention_id=8210|references=(entity=(entity_id=entity_0349|fullname=Ottilies Zöglinge|gender=u|members=entity_0183|all_members_given=False|specialcase_entity=group)))
+63192	sich	0	(mention_id=8211|references=(entity=(entity_id=entity_0349|fullname=Ottilies Zöglinge|gender=u|members=entity_0183|all_members_given=False|specialcase_entity=group)))
 63193	mit	0	
 63194	Puppen	0	
 63195	herumtragen	0	
@@ -66509,10 +66509,10 @@ i	text	is_section_start	gold
 66507	Zimmern	0	
 66508	.	0	
 66509	Die	0	
-66510	Frauen	0	(mention_id=8604|references=(entity=(entity_id=entity_0363|fullname=Frauen um Charlotte|gender=f|members=entity_0006|specialcase_entity=group)))
+66510	Frauen	0	(mention_id=8604|references=(entity=(entity_id=entity_0363|fullname=Frauen um Charlotte|gender=f|members=entity_0006|all_members_given=False|specialcase_entity=group)))
 66511	,	0	
-66512	die	0	(mention_id=8605|references=(entity=(entity_id=entity_0363|fullname=Frauen um Charlotte|gender=f|members=entity_0006|specialcase_entity=group)))
-66513	sich	0	(mention_id=8606|references=(entity=(entity_id=entity_0363|fullname=Frauen um Charlotte|gender=f|members=entity_0006|specialcase_entity=group)))
+66512	die	0	(mention_id=8605|references=(entity=(entity_id=entity_0363|fullname=Frauen um Charlotte|gender=f|members=entity_0006|all_members_given=False|specialcase_entity=group)))
+66513	sich	0	(mention_id=8606|references=(entity=(entity_id=entity_0363|fullname=Frauen um Charlotte|gender=f|members=entity_0006|all_members_given=False|specialcase_entity=group)))
 66514	um	0	
 66515	sie	0	(mention_id=8607|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)))
 66516	versammelt	0	
@@ -66521,7 +66521,7 @@ i	text	is_section_start	gold
 66519	waren	0	
 66520	ihre	0	(mention_id=8608|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)))
 66521	geschlossenere	0	
-66522	Gesellschaft	0	(mention_id=8609|references=(entity=(entity_id=entity_0363|fullname=Frauen um Charlotte|gender=f|members=entity_0006|specialcase_entity=group)))
+66522	Gesellschaft	0	(mention_id=8609|references=(entity=(entity_id=entity_0363|fullname=Frauen um Charlotte|gender=f|members=entity_0006|all_members_given=False|specialcase_entity=group)))
 66523	.	0	
 66524	Ottilie	0	(mention_id=8610|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))
 66525	besorgte	0	
@@ -66606,7 +66606,7 @@ i	text	is_section_start	gold
 66604	,	0	
 66605	und	0	
 66606	die	0	
-66607	Frauen	0	(mention_id=8625|references=(entity=(entity_id=entity_0363|fullname=Frauen um Charlotte|gender=f|members=entity_0006|specialcase_entity=group)))
+66607	Frauen	0	(mention_id=8625|references=(entity=(entity_id=entity_0363|fullname=Frauen um Charlotte|gender=f|members=entity_0006|all_members_given=False|specialcase_entity=group)))
 66608	versicherten	0	
 66609	sämtlich	0	
 66610	,	0	
@@ -66691,10 +66691,10 @@ i	text	is_section_start	gold
 66689	erste	0	(mention_id=8640|references=(entity=(entity_id=entity_0021|fullname=Mittler|gender=m)))
 66690	von	0	
 66691	allen	0	
-66692	Freunden	0	(mention_id=8641|references=(entity=(entity_id=entity_0365|fullname=Freunde von Charlotte|gender=u|members=entity_0021|specialcase_entity=group)))
+66692	Freunden	0	(mention_id=8641|references=(entity=(entity_id=entity_0365|fullname=Freunde von Charlotte|gender=u|members=entity_0021|all_members_given=False|specialcase_entity=group)))
 66693	,	0	
-66694	die	0	(mention_id=8642|references=(entity=(entity_id=entity_0365|fullname=Freunde von Charlotte|gender=u|members=entity_0021|specialcase_entity=group)))
-66695	sich	0	(mention_id=8643|references=(entity=(entity_id=entity_0365|fullname=Freunde von Charlotte|gender=u|members=entity_0021|specialcase_entity=group)))
+66694	die	0	(mention_id=8642|references=(entity=(entity_id=entity_0365|fullname=Freunde von Charlotte|gender=u|members=entity_0021|all_members_given=False|specialcase_entity=group)))
+66695	sich	0	(mention_id=8643|references=(entity=(entity_id=entity_0365|fullname=Freunde von Charlotte|gender=u|members=entity_0021|all_members_given=False|specialcase_entity=group)))
 66696	beglückwünschend	0	
 66697	sehen	0	
 66698	ließen	0	
@@ -70770,7 +70770,7 @@ i	text	is_section_start	gold
 70768	nicht	0	
 70769	einmal	0	
 70770	die	0	
-70771	Meinigen	0	(mention_id=9104|references=(entity=(entity_id=entity_0400|fullname=Familie des Lords|gender=u|members=entity_0380|specialcase_entity=group)))
+70771	Meinigen	0	(mention_id=9104|references=(entity=(entity_id=entity_0400|fullname=Familie des Lords|gender=u|members=entity_0380|all_members_given=False|specialcase_entity=group)))
 70772	:	0	
 70773	fremde	0	
 70774	Gäste	0	(mention_id=9105|references=(entity=(entity_id=entity_0827|fullname=Gäste|gender=u|specialcase_entity=generic,group)))
@@ -71860,7 +71860,7 @@ i	text	is_section_start	gold
 71858	werden	0	
 71859	,	0	
 71860	ließ	0	
-71861	man	0	(mention_id=9228|references=(entity=(entity_id=entity_0403|fullname=Familien des Knaben und des Mädchens|gender=u|members=entity_0402,entity_0401|all_members_given=True|specialcase_entity=group)))
+71861	man	0	(mention_id=9228|references=(entity=(entity_id=entity_0403|fullname=Familien des Knaben und des Mädchens|gender=u|members=entity_0401,entity_0402|all_members_given=True|specialcase_entity=group)))
 71862	in	0	
 71863	dieser	0	
 71864	angenehmen	0	
@@ -72597,7 +72597,7 @@ i	text	is_section_start	gold
 72595	Urlaub	0	
 72596	,	0	
 72597	die	0	
-72598	Seinigen	0	(mention_id=9336|references=(entity=(entity_id=entity_0401|fullname=Familie des Knaben|gender=u|members=entity_0389,entity_0391|specialcase_entity=group)))
+72598	Seinigen	0	(mention_id=9336|references=(entity=(entity_id=entity_0401|fullname=Familie des Knaben|gender=u|members=entity_0389,entity_0391|all_members_given=False|specialcase_entity=group)))
 72599	zu	0	
 72600	besuchen	0	
 72601	.	0	
@@ -73245,7 +73245,7 @@ i	text	is_section_start	gold
 73243	durch	0	
 73244	Welt	0	
 73245	und	0	
-73246	Familie	0	(mention_id=9413|references=(entity=(entity_id=entity_0402|fullname=Familie des Mädchens|gender=u|members=entity_0392,entity_0390|specialcase_entity=group)))
+73246	Familie	0	(mention_id=9413|references=(entity=(entity_id=entity_0402|fullname=Familie des Mädchens|gender=u|members=entity_0390,entity_0392|all_members_given=False|specialcase_entity=group)))
 73247	,	0	
 73248	Bräutigam	0	(mention_id=9414|references=(entity=(entity_id=entity_0376|fullname=Bräutigam des Mädchens in der Novelle|gender=m)))
 73249	und	0	
@@ -73564,7 +73564,7 @@ i	text	is_section_start	gold
 73562	dahin	0	
 73563	;	0	
 73564	die	0	
-73565	Gesellschaft	0	(mention_id=9453|references=(entity=(entity_id=entity_0409|fullname=Schiffs-Gesellschaft|gender=u|members=entity_0376,entity_0374,entity_0403,entity_0373|specialcase_entity=group)))
+73565	Gesellschaft	0	(mention_id=9453|references=(entity=(entity_id=entity_0409|fullname=Schiffs-Gesellschaft|gender=u|members=entity_0373,entity_0374,entity_0376,entity_0403|all_members_given=False|specialcase_entity=group)))
 73566	hatte	0	
 73567	sich	0	(mention_id=9454|references=(entity=(entity_id=entity_0384|fullname=Menschen in der Umgebung des Mädchens|gender=u|specialcase_entity=group)))
 73568	bei	0	
@@ -74598,7 +74598,7 @@ i	text	is_section_start	gold
 74596	losgebracht	0	
 74597	worden	0	
 74598	.	0	
-74599	Man	0	(mention_id=9593|references=(entity=(entity_id=entity_0399|fullname=Fahrende im Wagen|gender=u|members=entity_0386|specialcase_entity=group)))
+74599	Man	0	(mention_id=9593|references=(entity=(entity_id=entity_0399|fullname=Fahrende im Wagen|gender=u|members=entity_0386|all_members_given=False|specialcase_entity=group)))
 74600	fuhr	0	
 74601	aufs	0	
 74602	ungewisse	0	
@@ -77965,7 +77965,7 @@ i	text	is_section_start	gold
 77963	sondern	0	
 77964	auch	0	
 77965	von	0	
-77966	Freunden	0	(mention_id=10067|references=(entity=(entity_id=entity_0416|fullname=Freunde Eduards|gender=u|members=entity_0003|specialcase_entity=group)))
+77966	Freunden	0	(mention_id=10067|references=(entity=(entity_id=entity_0416|fullname=Freunde Eduards|gender=u|members=entity_0003|all_members_given=False|specialcase_entity=group)))
 77967	muß	0	
 77968	,	0	
 77969	was	0	
@@ -83869,7 +83869,7 @@ i	text	is_section_start	gold
 83867	große	0	
 83868	,	0	
 83869	reiche	0	
-83870	Haus	0	(mention_id=10996|references=(entity=(entity_id=entity_0331|fullname=angesehene Familie|gender=u|members=entity_0330,entity_0326,entity_0322|all_members_given=True|specialcase_entity=group)))
+83870	Haus	0	(mention_id=10996|references=(entity=(entity_id=entity_0331|fullname=angesehene Familie|gender=u|members=entity_0322,entity_0326,entity_0330|all_members_given=True|specialcase_entity=group)))
 83871	hatte	0	
 83872	vergebliche	0	
 83873	Versuche	0	
@@ -85766,7 +85766,7 @@ i	text	is_section_start	gold
 85764	ihren	0	(mention_id=11278|references=(entity=(entity_id=entity_0183|fullname=Nanny|gender=f)))
 85765	Eltern	0	(mention_id=11279|references=(entity=(entity_id=entity_0412|fullname=Nannys Eltern|gender=mf|specialcase_entity=group)))
 85766	,	0	
-85767	Verwandten	0	(mention_id=11280|references=(entity=(entity_id=entity_0436|fullname=Nannys Verwandte|gender=u|members=entity_0412|specialcase_entity=group)))
+85767	Verwandten	0	(mention_id=11280|references=(entity=(entity_id=entity_0436|fullname=Nannys Verwandte|gender=u|members=entity_0412|all_members_given=False|specialcase_entity=group)))
 85768	,	0	
 85769	um	0	
 85770	ihr	0	(mention_id=11281|references=(entity=(entity_id=entity_0183|fullname=Nanny|gender=f)))

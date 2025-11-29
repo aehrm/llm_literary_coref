@@ -11351,7 +11351,7 @@ i	text	is_section_start	gold
 11349	schwarzer	0	
 11350	und	0	
 11351	weißer	0	
-11352	Bedienten	0	(mention_id=1787|references=(entity=(entity_id=entity_0051|fullname=Bedienstete der Gräfin B.|gender=u|members=entity_0050,entity_0052,entity_0042,entity_0045,entity_0041|specialcase_entity=group)))
+11352	Bedienten	0	(mention_id=1787|references=(entity=(entity_id=entity_0051|fullname=Bedienstete der Gräfin B.|gender=u|members=entity_0041,entity_0042,entity_0045,entity_0050,entity_0052|all_members_given=False|specialcase_entity=group)))
 11353	strömten	0	
 11354	mir	0	(mention_id=1788|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
 11355	entgegen	0	
@@ -12552,7 +12552,7 @@ i	text	is_section_start	gold
 12550	wohl	0	
 12551	gar	0	
 12552	ihre	0	(mention_id=1948|references=(entity=(entity_id=entity_0040|fullname=Gräfin B.|gender=f)))
-12553	Leute	0	(mention_id=1949|references=(entity=(entity_id=entity_0051|fullname=Bedienstete der Gräfin B.|gender=u|members=entity_0050,entity_0052,entity_0042,entity_0045,entity_0041|specialcase_entity=group)))
+12553	Leute	0	(mention_id=1949|references=(entity=(entity_id=entity_0051|fullname=Bedienstete der Gräfin B.|gender=u|members=entity_0041,entity_0042,entity_0045,entity_0050,entity_0052|all_members_given=False|specialcase_entity=group)))
 12554	auf	0	
 12555	westindisch	0	
 12556	behandeln	0	
@@ -12846,7 +12846,7 @@ i	text	is_section_start	gold
 12844	er	0	(mention_id=2001|references=(entity=(entity_id=entity_0043|fullname=Verstorbener Ehemann der Gräfin B.|gender=m)))
 12845	liebte	0	
 12846	seine	0	(mention_id=2002|references=(entity=(entity_id=entity_0043|fullname=Verstorbener Ehemann der Gräfin B.|gender=m)))
-12847	Leute	0	(mention_id=2003|references=(entity=(entity_id=entity_0055|fullname=Bedienstete des Ehemanns der Gräfin B.|gender=u|members=entity_0041,entity_0042|specialcase_entity=group)))
+12847	Leute	0	(mention_id=2003|references=(entity=(entity_id=entity_0055|fullname=Bedienstete des Ehemanns der Gräfin B.|gender=u|members=entity_0041,entity_0042|all_members_given=False|specialcase_entity=group)))
 12848	wie	0	
 12849	ein	0	
 12850	Vater	0	(mention_id=2004|references=(entity=(entity_id=entity_0043|fullname=Verstorbener Ehemann der Gräfin B.|gender=m)))
@@ -15243,12 +15243,12 @@ i	text	is_section_start	gold
 15241	die	0	
 15242	Aeußerungen	0	
 15243	der	0	
-15244	Bedienten	0	(mention_id=2385|references=(entity=(entity_id=entity_0063|fullname=Bedienstete|gender=u|members=entity_0059|specialcase_entity=group)))
+15244	Bedienten	0	(mention_id=2385|references=(entity=(entity_id=entity_0063|fullname=Bedienstete|gender=u|members=entity_0059|all_members_given=False|specialcase_entity=group)))
 15245	vollkommen	0	
 15246	bestätigt	0	
 15247	.	0	
 15248	Nach	0	
-15249	ihrer	0	(mention_id=2386|references=(entity=(entity_id=entity_0063|fullname=Bedienstete|gender=u|members=entity_0059|specialcase_entity=group)))
+15249	ihrer	0	(mention_id=2386|references=(entity=(entity_id=entity_0063|fullname=Bedienstete|gender=u|members=entity_0059|all_members_given=False|specialcase_entity=group)))
 15250	Aussage	0	
 15251	,	0	
 15252	war	0	
@@ -15267,7 +15267,7 @@ i	text	is_section_start	gold
 15265	würde	0	
 15266	–	0	
 15267	meynten	0	
-15268	sie	0	(mention_id=2390|references=(entity=(entity_id=entity_0063|fullname=Bedienstete|gender=u|members=entity_0059|specialcase_entity=group)))
+15268	sie	0	(mention_id=2390|references=(entity=(entity_id=entity_0063|fullname=Bedienstete|gender=u|members=entity_0059|all_members_given=False|specialcase_entity=group)))
 15269	–	0	
 15270	eher	0	
 15271	einen	0	
@@ -15287,9 +15287,9 @@ i	text	is_section_start	gold
 15285	werfen	0	
 15286	.	0	
 15287	»	0	
-15288	Kinder	0	(mention_id=2394|references=(entity=(entity_id=entity_0063|fullname=Bedienstete|gender=u|members=entity_0059|specialcase_entity=group)))
+15288	Kinder	0	(mention_id=2394|references=(entity=(entity_id=entity_0063|fullname=Bedienstete|gender=u|members=entity_0059|all_members_given=False|specialcase_entity=group)))
 15289	!	0	
-15290	Kinder	0	(mention_id=2395|references=(entity=(entity_id=entity_0063|fullname=Bedienstete|gender=u|members=entity_0059|specialcase_entity=group)))
+15290	Kinder	0	(mention_id=2395|references=(entity=(entity_id=entity_0063|fullname=Bedienstete|gender=u|members=entity_0059|all_members_given=False|specialcase_entity=group)))
 15291	!	0	
 15292	«	0	
 15293	–	0	
@@ -15297,7 +15297,7 @@ i	text	is_section_start	gold
 15295	ich	0	(mention_id=2396|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
 15296	–	0	
 15297	»	0	
-15298	ihr	0	(mention_id=2397|references=(entity=(entity_id=entity_0063|fullname=Bedienstete|gender=u|members=entity_0059|specialcase_entity=group)))
+15298	ihr	0	(mention_id=2397|references=(entity=(entity_id=entity_0063|fullname=Bedienstete|gender=u|members=entity_0059|all_members_given=False|specialcase_entity=group)))
 15299	macht	0	
 15300	es	0	
 15301	auch	0	
@@ -15505,7 +15505,7 @@ i	text	is_section_start	gold
 15503	Garten	0	
 15504	begegnete	0	
 15505	–	0	
-15506	man	0	(mention_id=2429|references=(entity=(entity_id=entity_0063|fullname=Bedienstete|gender=u|members=entity_0059|specialcase_entity=group)))
+15506	man	0	(mention_id=2429|references=(entity=(entity_id=entity_0063|fullname=Bedienstete|gender=u|members=entity_0059|all_members_given=False|specialcase_entity=group)))
 15507	hat	0	
 15508	dich	0	(mention_id=2430|references=(entity=(entity_id=entity_0008|fullname=Kammerjungfer|gender=f)))
 15509	erschrecklich	0	
@@ -15549,7 +15549,7 @@ i	text	is_section_start	gold
 15547	!	0	
 15548	bringst	0	
 15549	alle	0	
-15550	Männer	0	(mention_id=2438|references=(entity=(entity_id=entity_0063|fullname=Bedienstete|gender=u|members=entity_0059|specialcase_entity=group)),(entity=(entity_id=generic_0065|fullname=generic_0065|gender=u|specialcase_entity=generic)))
+15550	Männer	0	(mention_id=2438|references=(entity=(entity_id=entity_0063|fullname=Bedienstete|gender=u|members=entity_0059|all_members_given=False|specialcase_entity=group)),(entity=(entity_id=generic_0065|fullname=generic_0065|gender=u|specialcase_entity=generic)))
 15551	zur	0	
 15552	Verzweiflung	0	
 15553	.	0	
@@ -16998,7 +16998,7 @@ i	text	is_section_start	gold
 16996	den	0	
 16997	Beobachtungen	0	
 16998	der	0	
-16999	Bedienten	0	(mention_id=2668|references=(entity=(entity_id=entity_0063|fullname=Bedienstete|gender=u|members=entity_0059|specialcase_entity=group)))
+16999	Bedienten	0	(mention_id=2668|references=(entity=(entity_id=entity_0063|fullname=Bedienstete|gender=u|members=entity_0059|all_members_given=False|specialcase_entity=group)))
 17000	zu	0	
 17001	schützen	0	
 17002	.	0	
@@ -19098,7 +19098,7 @@ i	text	is_section_start	gold
 19096	Niemand	0	
 19097	von	0	
 19098	ihren	0	(mention_id=3011|references=(entity=(entity_id=entity_0058|fullname=Marquise P.|gender=f)))
-19099	Leuten	0	(mention_id=3012|references=(entity=(entity_id=entity_0071|fullname=Bedienstete der Marquise|gender=u|members=entity_0075,entity_0060|specialcase_entity=group)))
+19099	Leuten	0	(mention_id=3012|references=(entity=(entity_id=entity_0071|fullname=Bedienstete der Marquise|gender=u|members=entity_0060,entity_0075|all_members_given=False|specialcase_entity=group)))
 19100	bemerkt	0	
 19101	,	0	
 19102	und	0	
@@ -19366,7 +19366,7 @@ i	text	is_section_start	gold
 19364	und	0	
 19365	alle	0	
 19366	ihre	0	(mention_id=3059|references=(entity=(entity_id=entity_0058|fullname=Marquise P.|gender=f)))
-19367	Aerzte	0	(mention_id=3060|references=(entity=(entity_id=entity_0080|fullname=Ärzte der Marquise P.|gender=m|members=entity_0078|specialcase_entity=group)))
+19367	Aerzte	0	(mention_id=3060|references=(entity=(entity_id=entity_0080|fullname=Ärzte der Marquise P.|gender=m|members=entity_0078|all_members_given=False|specialcase_entity=group)))
 19368	!	0	
 19369	«	0	
 19370	–	0	
@@ -19417,7 +19417,7 @@ i	text	is_section_start	gold
 19415	Marquise	0	(mention_id=3069|references=(entity=(entity_id=entity_0058|fullname=Marquise P.|gender=f)))
 19416	rief	0	
 19417	ihre	0	(mention_id=3070|references=(entity=(entity_id=entity_0058|fullname=Marquise P.|gender=f)))
-19418	Leute	0	(mention_id=3071|references=(entity=(entity_id=entity_0071|fullname=Bedienstete der Marquise|gender=u|members=entity_0075,entity_0060|specialcase_entity=group)))
+19418	Leute	0	(mention_id=3071|references=(entity=(entity_id=entity_0071|fullname=Bedienstete der Marquise|gender=u|members=entity_0060,entity_0075|all_members_given=False|specialcase_entity=group)))
 19419	,	0	
 19420	der	0	
 19421	Unglückliche	0	(mention_id=3072|references=(entity=(entity_id=entity_0060|fullname=Anton|gender=m)))
@@ -23344,7 +23344,7 @@ i	text	is_section_start	gold
 23342	wahrscheinlich	0	
 23343	würden	0	
 23344	die	0	
-23345	Gäste	0	(mention_id=3777|references=(entity=(entity_id=entity_0097|fullname=Hochzeitsgäste|gender=u|members=entity_0093,entity_0006,entity_0005,entity_0004,entity_0018|borderline_entity=members|specialcase_entity=group)))
+23345	Gäste	0	(mention_id=3777|references=(entity=(entity_id=entity_0097|fullname=Hochzeitsgäste|gender=u|members=entity_0004,entity_0005,entity_0006,entity_0018,entity_0093|all_members_given=False|borderline_entity=members|specialcase_entity=group)))
 23346	wieder	0	
 23347	davon	0	
 23348	gegangen	0	
@@ -24876,7 +24876,7 @@ i	text	is_section_start	gold
 24874	.	0	
 24875	–	0	
 24876	Sechs	0	
-24877	Söhne	0	(mention_id=4030|references=(entity=(entity_id=entity_0090|fullname=Heinrichs und Maries Söhne|gender=m|members=entity_0096,entity_0089|all_members_given=True|specialcase_entity=group)))
+24877	Söhne	0	(mention_id=4030|references=(entity=(entity_id=entity_0090|fullname=Heinrichs und Maries Söhne|gender=m|members=entity_0089,entity_0096|all_members_given=True|specialcase_entity=group)))
 24878	und	0	
 24879	vier	0	
 24880	Töchter	0	(mention_id=4031|references=(entity=(entity_id=entity_0092|fullname=Heinrichs und Maries Töchter|gender=f|specialcase_entity=group)))
@@ -24904,9 +24904,9 @@ i	text	is_section_start	gold
 24902	theuren	0	
 24903	,	0	
 24904	geliebten	0	
-24905	Kinder	0	(mention_id=4035|references=(entity=(entity_id=entity_0090|fullname=Heinrichs und Maries Söhne|gender=m|members=entity_0096,entity_0089|all_members_given=True|specialcase_entity=group)),(entity=(entity_id=entity_0092|fullname=Heinrichs und Maries Töchter|gender=f|specialcase_entity=group)))
+24905	Kinder	0	(mention_id=4035|references=(entity=(entity_id=entity_0090|fullname=Heinrichs und Maries Söhne|gender=m|members=entity_0089,entity_0096|all_members_given=True|specialcase_entity=group)),(entity=(entity_id=entity_0092|fullname=Heinrichs und Maries Töchter|gender=f|specialcase_entity=group)))
 24906	!	0	
-24907	sie	0	(mention_id=4036|references=(entity=(entity_id=entity_0090|fullname=Heinrichs und Maries Söhne|gender=m|members=entity_0096,entity_0089|all_members_given=True|specialcase_entity=group)),(entity=(entity_id=entity_0092|fullname=Heinrichs und Maries Töchter|gender=f|specialcase_entity=group)))
+24907	sie	0	(mention_id=4036|references=(entity=(entity_id=entity_0090|fullname=Heinrichs und Maries Söhne|gender=m|members=entity_0089,entity_0096|all_members_given=True|specialcase_entity=group)),(entity=(entity_id=entity_0092|fullname=Heinrichs und Maries Töchter|gender=f|specialcase_entity=group)))
 24908	haben	0	
 24909	sein	0	(mention_id=4037|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
 24910	Grab	0	
