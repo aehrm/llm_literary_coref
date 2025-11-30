@@ -21,6 +21,8 @@ def read_entity_table(entity_table: pandas.DataFrame) -> Dict[int, Dict[str, Ent
             return []
         return re.findall(r'\w+', s)
 
+    assert all(~entity_table['ID_general'].str.contains('|', regex=False)), "Character '|' is disallowed in ID column"
+
     # verify integrity of ID
     assert entity_table['ID_general'].nunique() == len(entity_table), "ID column is not unique"
 
@@ -68,6 +70,12 @@ def read_entity_table(entity_table: pandas.DataFrame) -> Dict[int, Dict[str, Ent
             if len(matches) == 0:
                 print(f'warn: entity {row["fullname"]}, {row["ID_general"]} has unknown possible_identity_with {possible_identity!r}')
                 possible_identity = None
+
+        fullname = row['fullname']
+        if '|' in fullname:
+            print(f'warn: entity with name {fullname!r} contains pipe character; replacing with whitespace in fullname')
+            fullname = fullname.replace('|', ' ')
+
 
         e = Entity(
             id=row['ID_general'],
@@ -127,7 +135,7 @@ def gather_entities(xmi: Element) -> Dict[str, Entity]:
     entities = {}
     i = 0
 
-    # handle entities with ID
+    # handle entities with ID; entities without ID are converted to singletons in the method `extract_references`
     keyfn = lambda x: x.get('ID', '')
     for entity_id, annotations in itertools.groupby(sorted(mention_annotations, key=keyfn), keyfn):
         if entity_id == '':
@@ -150,13 +158,19 @@ def gather_entities(xmi: Element) -> Dict[str, Entity]:
             attribs['specialcase_entity'].append('generic')
             attribs['specialcase_mention'].remove('generic')
 
+        if len(attribs['gender']) == 0 and 'generic' not in attribs['specialcase_entity']:
+            print(f'warn: no gender specified for entity with fullname {entity_id}')
+
+        if '|' in entity_id:
+            print(f'warn: entity with ID {entity_id!r} contains pipe character; replacing with whitespace in fullname')
+
         i = i + 1
         entities[entity_id] = Entity(id=f'figur_{i:04d}',
              gender=attribs['gender'][0] if len(attribs['gender']) > 0 else 'u',
              possible_identity_with=attribs['possible_identity_with'][0] if len(attribs['possible_identity_with']) > 0 else None,
              members=members if 'group' in attribs['specialcase_entity'] else None,
              all_members_given=all_members_given if 'group' in attribs['specialcase_entity'] else None,
-             fullname=entity_id,
+             fullname=entity_id.replace('|', ' '),
              specialcase_entity=attribs['specialcase_entity'],
              borderline_entity=attribs['borderline_entity'],
         )
