@@ -11,6 +11,7 @@ from omegaconf import OmegaConf
 
 from llm_literary_coref.llm_annotator import LLMRunner
 from llm_literary_coref.mention import Mention, parse_mentions
+from llm_literary_coref.openrouter import OPENROUTER_PROVIDER
 from llm_literary_coref.prompts.merge_prompts import MergePrompt, BasicMergePrompt
 from llm_literary_coref.util import JSONEncoder
 
@@ -93,6 +94,12 @@ def main():
             temperature=0,
             reasoning=dict(enabled=False)
         ))
+
+        model_provider = OPENROUTER_PROVIDER.get(args.model)
+        if model_provider:
+            gen_args.provider = dict(only=[model_provider])
+        else:
+            print(f'warn: no default provider is known for model {args.model}; results may not be deterministic!')
 
     print('Picked up the following generation arguments:')
     print(OmegaConf.to_yaml(gen_args))

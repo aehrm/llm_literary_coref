@@ -8,6 +8,15 @@ import requests
 
 logger = logging.getLogger(__name__)
 
+# this dict provides sensible default providers for some specified models, in order
+# to ensure full determinism and reproducibility.
+OPENROUTER_PROVIDER = {
+    "google/gemini-2.5-flash-lite": "google-vertex",
+    "google/gemini-2.5-flash": "google-vertex",
+    "qwen/qwen3-30b-a3b-instruct-2507": "chutes/bf16",
+    "deepseek/deepseek-v3.2-exp": "novita",
+}
+
 class StreamingOutputHandler:
     def __init__(self, height: int = 8, prefix: str = 'LLM'):
         self.full_response = []

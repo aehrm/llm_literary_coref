@@ -10,6 +10,7 @@ from omegaconf import OmegaConf
 
 from llm_literary_coref.llm_annotator import LLMRunner
 from llm_literary_coref.mention import Mention
+from llm_literary_coref.openrouter import OPENROUTER_PROVIDER
 from llm_literary_coref.prompts.mention_prompts import MentionPromptBasic, MentionPrompt
 from llm_literary_coref.util import JSONEncoder, split_generics_into_singletons, make_generic_entity_factory
 
@@ -17,8 +18,6 @@ PROMPT_REGISTRY: Dict[str, Type[MentionPrompt]] = {
     "default": MentionPromptBasic,
     # TODO droc
 }
-
-
 
 def get_mention_spans(mentions: pd.Series) -> Iterator[Mention]:
     id_: str
@@ -94,8 +93,14 @@ def main():
         gen_args = OmegaConf.create(dict(
             seed=123,
             temperature=0,
-            reasoning=dict(enabled=False)
+            reasoning=dict(enabled=False),
         ))
+
+        model_provider = OPENROUTER_PROVIDER.get(args.model)
+        if model_provider:
+            gen_args.provider = dict(only=[model_provider])
+        else:
+            print(f'warn: no default provider is known for model {args.model}; results may not be deterministic!')
 
     print('Picked up the following generation arguments:')
     print(OmegaConf.to_yaml(gen_args))
