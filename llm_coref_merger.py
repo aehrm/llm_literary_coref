@@ -10,7 +10,7 @@ import pandas as pd
 from omegaconf import OmegaConf
 
 from llm_literary_coref.llm_annotator import LLMRunner
-from llm_literary_coref.mention import Mention
+from llm_literary_coref.mention import Mention, parse_mentions
 from llm_literary_coref.prompts.merge_prompts import MergePrompt, BasicMergePrompt
 from llm_literary_coref.util import JSONEncoder
 
@@ -34,15 +34,6 @@ def load_document(input_files: List[Path]) -> pd.DataFrame:
     return all_df.sort_index()
 
 
-def get_mentions(document_df: pd.DataFrame):
-    mention_id = document_df['pred'].fillna('').apply(lambda x: re.findall(r'mention_id=([^|]*)\|', x)).apply(
-        lambda x: x[0] if x else None)
-    for _, mention_rows in document_df['pred'].groupby(mention_id):
-        mention = Mention.parse(mention_rows.iloc[0], list(mention_rows.index))
-        if len(mention.references) > 0:
-            yield mention
-
-
 def merge_section(input_files: List[Path], annotator: LLMRunner, prompt_class: Type[MergePrompt], output_file: Path):
     document_df = load_document(input_files)
 
@@ -50,7 +41,7 @@ def merge_section(input_files: List[Path], annotator: LLMRunner, prompt_class: T
         raise ValueError("Input file must contain columns 'token' and 'pred'.")
 
     tokens = document_df['token']
-    mentions: List[Mention] = list(get_mentions(document_df))
+    mentions: List[Mention] = list(parse_mentions(document_df['pred']))
 
     prompt = prompt_class(tokens, document_df['is_section_start'], mentions)
     res = annotator.run(prompt)

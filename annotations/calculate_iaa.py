@@ -1,21 +1,17 @@
 import itertools
+import json
 import re
 from pathlib import Path
 
 import pandas
 
 from llm_literary_coref.eval.evaluator import Evaluator
-from llm_literary_coref.mention import Mention
+from llm_literary_coref.mention import Mention, parse_mentions
 
 
 def load_annotations(path):
     df = pandas.read_csv(path, sep='\t', index_col='i')
-    row = df['gold']
-    mention_id = row.fillna('').apply(lambda x: re.findall(r'mention_id=([^|]*)\|', x)).apply(lambda x: x[0] if x else None)
-    for _, mention_rows in row.groupby(mention_id):
-        mention = Mention.parse(mention_rows.iloc[0], list(mention_rows.index))
-        if len(mention.references) > 0:
-            yield mention
+    yield from parse_mentions(df['gold'])
 
 def main():
     iaa_dir = Path(__file__).parent / "annotated_tsv" / "iaa"

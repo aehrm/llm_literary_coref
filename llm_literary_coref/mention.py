@@ -1,6 +1,8 @@
 from dataclasses import dataclass
-from typing import Optional, List
+from typing import Optional, List, Iterator
 import re
+
+import pandas
 
 
 def _split_at_delimiter(text, delimiter):
@@ -144,3 +146,12 @@ class Mention:
         )
 
 
+
+
+def parse_mentions(series: pandas.Series) -> Iterator[Mention]:
+    mention_id = series.fillna('').apply(lambda x: re.findall(r'mention_id=([^|]*)\|', x)).apply(
+        lambda x: x[0] if x else None)
+    for _, mention_rows in series.groupby(mention_id):
+        mention = Mention.parse(mention_rows.iloc[0], list(mention_rows.index))
+        if len(mention.references) > 0:
+            yield mention
