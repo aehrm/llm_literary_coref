@@ -144,7 +144,7 @@ CLUSTER_METRICS = {
 ENTITY_ATTRIBUTES = {
     'gender:m': lambda e: e.gender == 'm',
     'gender:f': lambda e: e.gender == 'f',
-    'gender:nb': lambda e: e.gender == 'nb',
+    #'gender:nb': lambda e: e.gender == 'nb',
     'gender:u': lambda e: e.gender == 'u',
     'generic': lambda e: 'generic' in e.specialcase_entity,
     'group': lambda e: 'group' in e.specialcase_entity,
@@ -161,7 +161,8 @@ MENTION_ATTRIBUTES = {
 
 class Evaluator:
 
-    def __init__(self):
+    def __init__(self, filter_condition: Literal["key", "response", "any", "both"] = "key"):
+        self.filter_condition = filter_condition
         self.scorers = {
             "clusters_all": {
                 k: Scorer() for k in CLUSTER_METRICS.keys()
@@ -173,13 +174,13 @@ class Evaluator:
                 k: Scorer() for k in CLUSTER_METRICS.keys()
             },
             "entity_attributes_all": {
-                k: Scorer() for k in ["gender:m", "gender:f", "gender:nb", "gender:u", "generic", "group", "nonfact"]
+                k: Scorer() for k in ENTITY_ATTRIBUTES.keys()
             },
-            "entity_attributes_nogeneric": {
-                k: Scorer() for k in ["gender:m", "gender:f", "gender:nb", "gender:u", "group", "nonfact"]
+            "entity_attributes_nogroup": {
+                k: Scorer() for k in ENTITY_ATTRIBUTES.keys()
             },
-            "entity_attributes_nosingletons": {
-                k: Scorer() for k in ["gender:m", "gender:f", "gender:nb", "gender:u", "group", "nonfact"]
+            "entity_attributes_nogroupnosingletons": {
+                k: Scorer() for k in ENTITY_ATTRIBUTES.keys()
             },
             "mention_attributes": {
                 k: Scorer() for k in ["part", "figurative"]
@@ -236,11 +237,11 @@ class Evaluator:
             print('=== ENTITY ATTRIBUTES (all) ===')
             _print_scorer_results(self.scorers['entity_attributes_all'])
             print()
-            print('=== ENTITY ATTRIBUTES (no generic) ===')
-            _print_scorer_results(self.scorers['entity_attributes_nogeneric'])
+            print('=== ENTITY ATTRIBUTES (no group) ===')
+            _print_scorer_results(self.scorers['entity_attributes_nogroup'])
             print()
-            print('=== ENTITY ATTRIBUTES (no singletons) ===')
-            _print_scorer_results(self.scorers['entity_attributes_nosingletons'])
+            print('=== ENTITY ATTRIBUTES (no singletons/groups) ===')
+            _print_scorer_results(self.scorers['entity_attributes_nogroupnosingletons'])
             print()
             print('=== MENTION ATTRIBUTES ===')
             _print_scorer_results(self.scorers['mention_attributes'])
@@ -253,6 +254,7 @@ class Evaluator:
                      doc_id: str = "doc"):
         for subset in ["all", "nogeneric", "nosingletons"]:
             self._update_cluster_metrics(key_mentions, sys_mentions, subset, doc_id)
+        for subset in ["all", "nogroup", "nogroupnosingletons"]:
             self._update_entity_attribute_metrics(key_mentions, sys_mentions, subset, doc_id)
 
         self._update_mention_attribute_metrics(key_mentions, sys_mentions, doc_id)
@@ -260,11 +262,24 @@ class Evaluator:
 
     def _update_cluster_metrics(self, key_mentions: List[Mention], sys_mentions: List[Mention],
                      mention_filter: Literal["all", "nogeneric", "nosingletons"], doc_id: str = "doc"):
-        mentions_to_filter = None
         if mention_filter == "nogeneric":
-            mentions_to_filter = get_generic_spans(key_mentions) | get_generic_spans(sys_mentions)
+            filter_key = get_generic_spans(key_mentions)
+            filter_response = get_generic_spans(sys_mentions)
         elif mention_filter == "nosingletons":
-            mentions_to_filter = get_singleton_spans(key_mentions) | get_singleton_spans(sys_mentions)
+            filter_key = get_singleton_spans(key_mentions)
+            filter_response = get_singleton_spans(sys_mentions)
+        else:
+            filter_key = set()
+            filter_response = set()
+
+        if self.filter_condition == "key":
+            mentions_to_filter = filter_key
+        elif self.filter_condition == "response":
+            mentions_to_filter = filter_response
+        elif self.filter_condition == "both":
+            mentions_to_filter = filter_key & filter_response
+        else:
+            mentions_to_filter = filter_key | filter_response
 
         key_clusters = mentions_to_clusters(key_mentions, doc_id, ignore_spans=mentions_to_filter)
         sys_clusters = mentions_to_clusters(sys_mentions, doc_id, ignore_spans=mentions_to_filter)
@@ -282,7 +297,7 @@ class Evaluator:
             self.scorers[f"clusters_{mention_filter}"][name].update(res, doc_id)
 
     def _update_entity_attribute_metrics(self, key_mentions: List[Mention], sys_mentions: List[Mention],
-                                         entity_filter: Literal["all", "nogeneric", "nosingletons"], doc_id: str = "doc"):
+                                         entity_filter: Literal["all", "nogroup", "nogroupnosingletons"], doc_id: str = "doc"):
         key_clusters = mentions_to_clusters(key_mentions, doc_id)
         sys_clusters = mentions_to_clusters(sys_mentions, doc_id)
 
@@ -293,19 +308,31 @@ class Evaluator:
         entity_mapping = compute_entity_mapping(key_clusters, sys_clusters)
         inverse_entity_mapping = {v: k for k, v in entity_mapping.items()}
 
-        if entity_filter == "nogeneric":
-            key_entities_to_remove = {k for k, e in key_entities.items() if 'generic' in e.specialcase_entity}
-            sys_entities_to_remove = {k for k, e in sys_entities.items() if 'generic' in e.specialcase_entity}
-        elif entity_filter == "nosingletons":
-            key_entities_to_remove = {k for k, e in key_entities.items() if len(key_clusters[k]) <= 1}
-            sys_entities_to_remove = {k for k, e in sys_entities.items() if len(sys_clusters[k]) <= 1}
+        if entity_filter == "nogroup":
+            key_entities_to_remove = {k for k, e in key_entities.items() if 'group' in e.specialcase_entity}
+            sys_entities_to_remove = {k for k, e in sys_entities.items() if 'group' in e.specialcase_entity}
+        elif entity_filter == "nogroupnosingletons":
+            key_entities_to_remove = {k for k, e in key_entities.items() if len(key_clusters[k]) <= 1 or 'group' in e.specialcase_entity}
+            sys_entities_to_remove = {k for k, e in sys_entities.items() if len(sys_clusters[k]) <= 1 or 'group' in e.specialcase_entity}
         else:
             key_entities_to_remove = set()
             sys_entities_to_remove = set()
 
+        if self.filter_condition == "key":
+            key_filter = lambda k: k in key_entities_to_remove
+            sys_filter = lambda k: inverse_entity_mapping.get(k) in key_entities_to_remove
+        elif self.filter_condition == "response":
+            key_filter = lambda k: entity_mapping.get(k) in sys_entities_to_remove
+            sys_filter = lambda k: k in sys_entities_to_remove
+        elif self.filter_condition == "both":
+            key_filter = lambda k: k in key_entities_to_remove and entity_mapping.get(k) in sys_entities_to_remove
+            sys_filter = lambda k: k in sys_entities_to_remove and inverse_entity_mapping.get(k) in key_entities_to_remove
+        else:
+            key_filter = lambda k: k in key_entities_to_remove or entity_mapping.get(k) in sys_entities_to_remove
+            sys_filter = lambda k: k in sys_entities_to_remove or inverse_entity_mapping.get(k) in key_entities_to_remove
 
-        key_entities = {k: e for k, e in key_entities.items() if k not in key_entities_to_remove and entity_mapping.get(k) not in sys_entities_to_remove}
-        sys_entities = {k: e for k, e in sys_entities.items() if k not in sys_entities_to_remove and inverse_entity_mapping.get(k) not in key_entities_to_remove}
+        key_entities = {k: e for k, e in key_entities.items() if not key_filter(k)}
+        sys_entities = {k: e for k, e in sys_entities.items() if not sys_filter(k)}
 
         for name in self.scorers[f'entity_attributes_{entity_filter}'].keys():
             attribute_fn = ENTITY_ATTRIBUTES[name]

@@ -309,7 +309,7 @@ def convert_xmi_annotations(xmi_path: Path, tokens: pandas.Series) -> List[Menti
     all_mentions = group_references_to_mentions(all_references)
 
     # ensure that generics are singletons
-    split_generics_into_singletons(all_mentions, generic_entity_factory)
+    split_generics_into_singletons(all_mentions.values(), generic_entity_factory)
 
     check_for_overlapping_mehtions(all_mentions, tokens)
     return list(all_mentions.values())
@@ -340,7 +340,7 @@ def convert_booklevel_annotations(annotations_dir: Path, source_df: pandas.DataF
     all_mentions = group_references_to_mentions(all_references)
 
     # ensure that generics are singletons
-    split_generics_into_singletons(all_mentions, generic_entity_factory)
+    split_generics_into_singletons(all_mentions.values(), generic_entity_factory)
 
     check_for_overlapping_mehtions(all_mentions, source_df['text'])
     return list(all_mentions.values())

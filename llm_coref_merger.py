@@ -49,7 +49,7 @@ def merge_section(input_files: List[Path], annotator: LLMRunner, prompt_class: T
 
     # output res as debug output
     if res:
-        debug_filename = output_file.parent / f"{output_file.stem}_debug.json"
+        debug_filename = output_file.parent / f"{output_file.stem}.json"
         with open(debug_filename, 'w', encoding='utf-8') as f:
             json.dump(res, f, indent=2, cls=JSONEncoder)
         print(f"Saved debug output to {debug_filename}")
@@ -78,13 +78,13 @@ def merge_section(input_files: List[Path], annotator: LLMRunner, prompt_class: T
 def main():
     parser = argparse.ArgumentParser(description="Run LLM-based annotation on TSV text sections.")
     parser.add_argument('--input_files', type=Path, nargs='+', required=True, help='List of input TSV files to process.' )
-    parser.add_argument('--output_file', type=Path, required=True, help='Directory to save output TSV and debug JSON files.' )
+    parser.add_argument('--output_file', type=Path, required=True, help='Output TSV file.' )
     parser.add_argument('--model', type=str, required=True, help='LLM Model string (e.g., "openai/gpt-4-turbo", "anthropic/claude-3-opus").')
     parser.add_argument('--prompt_type', type=str, default="default", help=f'Key for the prompt class to use. Options: {list(PROMPT_REGISTRY.keys())}' )
     parser.add_argument('-X', '--generation_args', type=str, required=False, action='append', help='Generation arguments.')
     args = parser.parse_args()
 
-    # args.output_file.parent.mkdir(parents=True, exist_ok=True)
+    args.output_file.parent.mkdir(parents=True, exist_ok=True)
 
     if args.generation_args and len(args.generation_args) > 0:
         gen_args = OmegaConf.from_dotlist(args.generation_args)

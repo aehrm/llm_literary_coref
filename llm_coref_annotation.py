@@ -48,7 +48,7 @@ def annotate_section(section_path: Path, annotator: LLMRunner, prompt_class: Typ
 
     # output res as debug output
     if res:
-        debug_filename = output_dir / f"{section_path.stem}_debug.json"
+        debug_filename = output_dir / f"{section_path.stem}.json"
         with open(debug_filename, 'w', encoding='utf-8') as f:
             json.dump(res, f, indent=2, cls=JSONEncoder)
         print(f"Saved debug output to {debug_filename}")
@@ -71,7 +71,7 @@ def annotate_section(section_path: Path, annotator: LLMRunner, prompt_class: Typ
         for k in mention.token_idx:
             output_df.loc[k, 'pred'] = output_df.loc[k, 'pred'] + str(mention)
 
-    output_filename = output_dir / f"{section_path.stem}_processed.tsv"
+    output_filename = output_dir / f"{section_path.stem}.tsv"
     output_df.to_csv(output_filename, sep='\t')
     print(f"Saved annotations to {output_filename}")
 

@@ -14,6 +14,7 @@ T = TypeVar('T')
 @dataclass
 class LLMOutput(Generic[T]):
     model: str
+    request_args: dict
     raw_input: str
     raw_output: str
     generation_details: any
@@ -57,9 +58,9 @@ class LLMRunner(Generic[T]):
             json_output = parse_json(output_str)
             output = prompt.decode(json_output)
 
-            return LLMOutput(output=output, model=self.model, raw_input=prompt_str, raw_output=output_str, json_output=json_output,
-                             generation_details=generation_details)
+            return LLMOutput(output=output, model=self.model, request_args=self.request_args, raw_input=prompt_str,
+                             raw_output=output_str, json_output=json_output, generation_details=generation_details)
         except Exception as e:
             logger.exception(f"Error during model inference")
-            return LLMOutput(model=self.model, raw_input=prompt_str, raw_output=output_str, generation_details=generation_details,
-                             exception=e)
+            return LLMOutput(model=self.model, request_args=self.request_args, raw_input=prompt_str,
+                             raw_output=output_str, generation_details=generation_details, exception=e)

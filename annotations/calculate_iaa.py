@@ -16,7 +16,7 @@ def load_annotations(path):
 def main():
     iaa_dir = Path(__file__).parent / "annotated_tsv" / "iaa"
 
-    evaluator = Evaluator()
+    evaluator = Evaluator(filter_condition="any")
 
     iaa_files = list(iaa_dir.glob("*_*.tsv"))
 
@@ -33,11 +33,9 @@ def main():
     report = evaluator.report(print_support="all", print_individual_doc_scores=False)
     print(report)
 
-    with open(Path(__file__).parent / "evaluation_reports"/ "iaa_report.txt", "w") as f:
-        print(report, file=f)
-
     with open(Path(__file__).parent / "evaluation_reports"/ "iaa_report.json", "w") as f:
         json.dump(evaluator.report(as_dict=True), f, indent=2)
+        print(f"written to {f.name}")
 
 
 
