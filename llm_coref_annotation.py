@@ -11,7 +11,7 @@ from omegaconf import OmegaConf
 from llm_literary_coref.llm_annotator import LLMRunner
 from llm_literary_coref.mention import Mention
 from llm_literary_coref.prompts.mention_prompts import MentionPromptBasic, MentionPrompt
-from llm_literary_coref.util import JSONEncoder
+from llm_literary_coref.util import JSONEncoder, split_generics_into_singletons, make_generic_entity_factory
 
 PROMPT_REGISTRY: Dict[str, Type[MentionPrompt]] = {
     "default": MentionPromptBasic,
@@ -60,6 +60,11 @@ def annotate_section(section_path: Path, annotator: LLMRunner, prompt_class: Typ
 
 
     decoded_mentions = res.output
+
+    # split generic entities
+    generic_entity_factory = make_generic_entity_factory()
+    split_generics_into_singletons(decoded_mentions, generic_entity_factory)
+
     output_df = section_df.copy().drop('mention', axis='columns')
     output_df['pred'] = ''
 

@@ -13,6 +13,7 @@ import intervaltree
 import pandas
 
 from llm_literary_coref.mention import Entity, Mention, Reference
+from llm_literary_coref.util import make_generic_entity_factory, split_generics_into_singletons
 
 
 def read_entity_table(entity_table: pandas.DataFrame) -> Dict[int, Dict[str, Entity]]:
@@ -241,39 +242,6 @@ def extract_and_align_references(xmi: Element, tokens: pandas.Series, entity_lab
         token_idx = list(sorted(set(character_alignment[i] for i in range(begin_char, end_char)) - {None}))
         yield token_idx, ref
 
-def make_generic_entity_factory():
-    generic_counter = itertools.count(start=1)
-    def generic_entity_factory(label, borderline):
-        num = next(generic_counter)
-        return Entity(id=f"generic_{num:04d}",
-                      fullname=label if label is not None and label != '' else f"generic_{num:04d}",
-                      gender='u',
-                      possible_identity_with=None,
-                      members=None,
-                      all_members_given=None,
-                      specialcase_entity=['generic'],
-                      borderline_entity=['generic'] if borderline else [])
-
-    return generic_entity_factory
-
-def split_generics_into_singletons(all_references, generic_entity_factory):
-    references_per_entity = collections.defaultdict(list)
-    for _, ref in all_references:
-        references_per_entity[ref.entity.id].append(ref)
-    for entity_id, refs in references_per_entity.items():
-        entity = refs[0].entity
-        is_generic = 'generic' in entity.specialcase_entity
-
-        if not is_generic:
-            continue
-
-        if len(refs) == 1:
-            continue
-
-        print(f'warn: generic entity {entity_id} has {len(refs)} references; will split into singletons')
-        for ref in refs:
-            ref.entity = generic_entity_factory(entity.fullname, 'generic' in entity.borderline_entity)
-
 
 def group_references_to_mentions(all_references) -> Dict[int, Mention]:
     mention_counter = 0
@@ -338,10 +306,11 @@ def convert_xmi_annotations(xmi_path: Path, tokens: pandas.Series) -> List[Menti
                                          generic_entity_factory=generic_entity_factory,
                                          entity_label_map=entities))
 
-    # ensure that generics are singletons
-    split_generics_into_singletons(all_references, generic_entity_factory)
-
     all_mentions = group_references_to_mentions(all_references)
+
+    # ensure that generics are singletons
+    split_generics_into_singletons(all_mentions, generic_entity_factory)
+
     check_for_overlapping_mehtions(all_mentions, tokens)
     return list(all_mentions.values())
 
@@ -368,10 +337,11 @@ def convert_booklevel_annotations(annotations_dir: Path, source_df: pandas.DataF
                                          generic_entity_factory=generic_entity_factory,
                                          entity_label_map=entity_table[chapter_id])))
 
-    # ensure that generics are singletons
-    split_generics_into_singletons(all_references, generic_entity_factory)
-
     all_mentions = group_references_to_mentions(all_references)
+
+    # ensure that generics are singletons
+    split_generics_into_singletons(all_mentions, generic_entity_factory)
+
     check_for_overlapping_mehtions(all_mentions, source_df['text'])
     return list(all_mentions.values())
 
