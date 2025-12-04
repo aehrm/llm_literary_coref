@@ -10,6 +10,7 @@ from pydantic import BaseModel, TypeAdapter
 
 from llm_literary_coref.mention import Mention, Entity, Reference
 from llm_literary_coref.prompts.prompt import Prompt
+from llm_literary_coref.util import make_generic_entity_factory, split_generics_into_singletons
 
 logger = logging.getLogger(__name__)
 
@@ -225,6 +226,11 @@ class MentionPromptBasic(MentionPrompt[List[BasicAnnotationReference]]):
     def decode_annotations(self, parsed_output: List[Tuple[Mention, List[Tuple[Mention, BasicAnnotationObject]]]]) -> List[Mention]:
         entities = self.get_entities(parsed_output)
         mentions = list(self.get_mentions(parsed_output, entities))
+
+        # split generic entities
+        generic_entity_factory = make_generic_entity_factory()
+        split_generics_into_singletons(mentions, generic_entity_factory)
+
         return mentions
 
     def decode_annotation(self, annotation_raw: any) -> BasicAnnotationObject:

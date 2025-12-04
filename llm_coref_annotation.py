@@ -60,10 +60,6 @@ def annotate_section(section_path: Path, annotator: LLMRunner, prompt_class: Typ
 
     decoded_mentions = res.output
 
-    # split generic entities
-    generic_entity_factory = make_generic_entity_factory()
-    split_generics_into_singletons(decoded_mentions, generic_entity_factory)
-
     output_df = section_df.copy().drop('mention', axis='columns')
     output_df['pred'] = ''
 

@@ -8,7 +8,7 @@ from typing import List, Tuple, Counter, Dict
 
 import pandas
 
-from llm_literary_coref.mention import Mention, Reference
+from llm_literary_coref.mention import Mention, Reference, Entity
 from llm_literary_coref.prompts.prompt import Prompt
 
 logger = logging.getLogger(__name__)
@@ -78,6 +78,24 @@ Du erhältst eine Liste von JSON-Objekten, wobei jedes Objekt eine in einem best
 """
 
 # PRON = set("wer denen diese unsrer solche welche unsres unsern ich du er sie es wir ihr sie mich dich ihn sie es uns euch sie mir dir ihm ihr ihm uns euch ihnen mein dein sein ihr sein unser euer ihr meiner deiner seiner ihrer seiner unserer eurer ihrer meins deins seins ihres seins unseres eures ihres meinem deinem seinem ihrem seinem unserem eurem ihrem meinen deinen seinen ihren seinen unseren euren ihren meine deine seine ihre seine unsere eure ihre meinen deinen seinen ihren seinen unseren euren ihren sich man der die das die dem den dessen deren dessen deren welcher welche welches welchen welchem welcher welches welchen deren dessen dem den jener jene jenes jene jenem jener jenes jenen niemand jemand etwas nichts alle einige manche mehrere viele wenige andere beide jeder jedes jeden jedem jedes ein eine ein einer einem einer eins welcher welche welches worin worauf womit wofür wogegen worüber woran woraus wozu womit wer wem wen wessen was dessen das den".split())
+
+def merge_entities(new_id, new_fullname, entities: List[Entity]) -> Entity:
+    attribute_counter = collections.defaultdict(collections.Counter)
+    for e in entities:
+        attribute_counter['gender'].update(e.gender)
+        attribute_counter['specialcase_entity'].update([tuple(sorted(e.specialcase_entity))])
+        attribute_counter['borderline_entity'].update([tuple(sorted(e.borderline_entity))])
+
+    merged_entity = Entity(
+        id=new_id,
+        fullname=new_fullname,
+        gender=attribute_counter['gender'].most_common()[0][0],
+        specialcase_entity=attribute_counter['specialcase_entity'].most_common()[0][0],
+        borderline_entity=attribute_counter['borderline_entity'].most_common()[0][0]
+    )
+
+    return merged_entity
+
 
 class MergePrompt(Prompt[List[Mention]], ABC):
     def __init__(self, tokens: pandas.Series, is_section_start: pandas.Series, mentions: List[Mention]):
@@ -161,9 +179,10 @@ class BasicMergePrompt(MergePrompt):
             entity_counter += 1
             for (section_id, old_entity_id) in chapter_entities:
                 entries = self.entities[(section_id, old_entity_id)]
+
+                merged_entity = merge_entities(f'figur_{entity_counter:04d}', entity_global_name, [reference.entity for _, reference in entries])
                 for _, reference in entries:
-                    reference.entity.fullname = entity_global_name
-                    reference.entity.id = f'figur_{entity_counter:04d}'
+                    reference.entity = merged_entity
 
         for (section_id, old_entity_id) in self.entities.keys() - merged_entities:
             entity_counter += 1

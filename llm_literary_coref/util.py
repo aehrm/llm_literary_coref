@@ -47,9 +47,8 @@ def split_generics_into_singletons(mentions: List[Mention], generic_entity_facto
         if not is_generic:
             continue
 
-        if len(refs) == 1:
-            continue
+        if len(refs) > 1:
+            print(f'warn: generic entity {entity_id} has {len(refs)} references; will split into singletons')
 
-        print(f'warn: generic entity {entity_id} has {len(refs)} references; will split into singletons')
         for ref in refs:
             ref.entity = generic_entity_factory(entity.fullname, 'generic' in entity.borderline_entity)
