@@ -92,10 +92,11 @@ Du erhältst:
 -   **Umsetzung:** Das `Annotation`-Array enthält **mehrere Objekte**, eines für jede referenzierte Entität.
     -   Jedes Objekt enthält die `entity_id` des jeweiligen Mitglieds.
     -   Erfinde keine neuen Einzelfiguren. Wenn die Mitglieder nicht klar aus dem Kontext hervorgehen, ist es Fall 1.
+    - Beachte, dass in diesem Fall das Feld "Annotation" aus mehreren Objekten besteht. Auf keinen Fall darf das Feld "entity_id" aus einer Liste von Namen bestehen.
 
 ## Ausgabeformat
 -   Gib EXAKT so viele Zeilen aus, wie Du im Input (B) erhalten hast. KEINE Zeilen überspringen.
--   Das Format ist JSON Lines (ein komplettes JSON-Objekt pro Zeile).
+-   Das Format ist JSON Lines (ein komplettes und valides JSON-Objekt pro Zeile).
 -   Gib NUR die aktualisierte Liste B zurück.
 -   Keine Code-Fences, Kommentare oder Erklärungen in der Ausgabe.
 
