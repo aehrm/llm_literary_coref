@@ -131,7 +131,7 @@ class BasicMergePrompt(MergePrompt):
                 "Nummer": i,
                 "Kapitel": section_id,
                 "Figurenname_Kapitel": entity_name,
-                "Erwähnungen": [list(x) for x in refs_with_count],
+                "Erwähnungen": [x[0] for x in refs_with_count],
                 "Figurenname_Vollständig": ""
             }, ensure_ascii=False))
 
