@@ -1,8 +1,6 @@
 import collections
 import io
-from abc import ABC, abstractmethod
 from contextlib import redirect_stdout
-from dataclasses import dataclass
 from typing import Optional, Literal, List
 
 from scipy.optimize import linear_sum_assignment
@@ -144,7 +142,8 @@ CLUSTER_METRICS = {
 ENTITY_ATTRIBUTES = {
     'gender:m': lambda e: e.gender == 'm',
     'gender:f': lambda e: e.gender == 'f',
-    #'gender:nb': lambda e: e.gender == 'nb',
+    'gender:nb': lambda e: e.gender == 'nb',
+    'gender:mf': lambda e: e.gender == 'mf',
     'gender:u': lambda e: e.gender == 'u',
     'generic': lambda e: 'generic' in e.specialcase_entity,
     'group': lambda e: 'group' in e.specialcase_entity,
@@ -161,27 +160,17 @@ MENTION_ATTRIBUTES = {
 
 class Evaluator:
 
-    def __init__(self, filter_condition: Literal["key", "response", "any", "both"] = "key"):
-        self.filter_condition = filter_condition
+    def __init__(self):
         self.scorers = {
-            "clusters_all": {
+            f"clusters_{subset}": {
                 k: Scorer() for k in CLUSTER_METRICS.keys()
-            },
-            "clusters_nogeneric": {
-                k: Scorer() for k in CLUSTER_METRICS.keys()
-            },
-            "clusters_nosingletons": {
-                k: Scorer() for k in CLUSTER_METRICS.keys()
-            },
-            "entity_attributes_all": {
+            } for subset in ["all", "nogeneric", "nosingletons"]
+        } | {
+            f"entity_attributes_{subset}_{restrict_on_matches}": {
                 k: Scorer() for k in ENTITY_ATTRIBUTES.keys()
-            },
-            "entity_attributes_nogroup": {
-                k: Scorer() for k in ENTITY_ATTRIBUTES.keys()
-            },
-            "entity_attributes_nogroupnosingletons": {
-                k: Scorer() for k in ENTITY_ATTRIBUTES.keys()
-            },
+            } for subset in ["all", "nogroup", "nogroupnosingletons"]
+            for restrict_on_matches in ["unrestricted", "restrictonmatch"]
+        } | {
             "mention_attributes": {
                 k: Scorer() for k in ["part", "figurative"]
             }
@@ -195,9 +184,9 @@ class Evaluator:
         with redirect_stdout(f):
             def _print_scorer_results(scorer_dict):
                 support_str = {
-                    "all": "Support (sys/pred)",
-                    "key": "Support (sys)",
-                    "response": "Support (pred)",
+                    "all": "Support (key/sys)",
+                    "key": "Support (key)",
+                    "response": "Support (sys)",
                 }[print_support] if print_support else None
 
                 if support_str:
@@ -235,13 +224,22 @@ class Evaluator:
             _print_scorer_results(self.scorers['clusters_nosingletons'])
             print()
             print('=== ENTITY ATTRIBUTES (all) ===')
-            _print_scorer_results(self.scorers['entity_attributes_all'])
+            _print_scorer_results(self.scorers['entity_attributes_all_unrestricted'])
+            print()
+            print('=== ENTITY ATTRIBUTES (all, restrict on matches) ===')
+            _print_scorer_results(self.scorers['entity_attributes_all_restrictonmatch'])
             print()
             print('=== ENTITY ATTRIBUTES (no group) ===')
-            _print_scorer_results(self.scorers['entity_attributes_nogroup'])
+            _print_scorer_results(self.scorers['entity_attributes_nogroup_unrestricted'])
+            print()
+            print('=== ENTITY ATTRIBUTES (no group, restrict on matches) ===')
+            _print_scorer_results(self.scorers['entity_attributes_nogroup_restrictonmatch'])
             print()
             print('=== ENTITY ATTRIBUTES (no singletons/groups) ===')
-            _print_scorer_results(self.scorers['entity_attributes_nogroupnosingletons'])
+            _print_scorer_results(self.scorers['entity_attributes_nogroupnosingletons_unrestricted'])
+            print()
+            print('=== ENTITY ATTRIBUTES (no singletons/groups, restrict on matches) ===')
+            _print_scorer_results(self.scorers['entity_attributes_nogroupnosingletons_restrictonmatch'])
             print()
             print('=== MENTION ATTRIBUTES ===')
             _print_scorer_results(self.scorers['mention_attributes'])
@@ -255,7 +253,8 @@ class Evaluator:
         for subset in ["all", "nogeneric", "nosingletons"]:
             self._update_cluster_metrics(key_mentions, sys_mentions, subset, doc_id)
         for subset in ["all", "nogroup", "nogroupnosingletons"]:
-            self._update_entity_attribute_metrics(key_mentions, sys_mentions, subset, doc_id)
+            for restrict_matches in [False, True]:
+                self._update_entity_attribute_metrics(key_mentions, sys_mentions, subset, restrict_to_matches=restrict_matches, doc_id=doc_id)
 
         self._update_mention_attribute_metrics(key_mentions, sys_mentions, doc_id)
 
@@ -272,14 +271,7 @@ class Evaluator:
             filter_key = set()
             filter_response = set()
 
-        if self.filter_condition == "key":
-            mentions_to_filter = filter_key
-        elif self.filter_condition == "response":
-            mentions_to_filter = filter_response
-        elif self.filter_condition == "both":
-            mentions_to_filter = filter_key & filter_response
-        else:
-            mentions_to_filter = filter_key | filter_response
+        mentions_to_filter = filter_key | filter_response
 
         key_clusters = mentions_to_clusters(key_mentions, doc_id, ignore_spans=mentions_to_filter)
         sys_clusters = mentions_to_clusters(sys_mentions, doc_id, ignore_spans=mentions_to_filter)
@@ -297,7 +289,8 @@ class Evaluator:
             self.scorers[f"clusters_{mention_filter}"][name].update(res, doc_id)
 
     def _update_entity_attribute_metrics(self, key_mentions: List[Mention], sys_mentions: List[Mention],
-                                         entity_filter: Literal["all", "nogroup", "nogroupnosingletons"], doc_id: str = "doc"):
+                                         entity_filter: Literal["all", "nogroup", "nogroupnosingletons"],
+                                         restrict_to_matches=False, doc_id: str = "doc"):
         key_clusters = mentions_to_clusters(key_mentions, doc_id)
         sys_clusters = mentions_to_clusters(sys_mentions, doc_id)
 
@@ -318,26 +311,26 @@ class Evaluator:
             key_entities_to_remove = set()
             sys_entities_to_remove = set()
 
-        if self.filter_condition == "key":
-            key_filter = lambda k: k in key_entities_to_remove
-            sys_filter = lambda k: inverse_entity_mapping.get(k) in key_entities_to_remove
-        elif self.filter_condition == "response":
-            key_filter = lambda k: entity_mapping.get(k) in sys_entities_to_remove
-            sys_filter = lambda k: k in sys_entities_to_remove
-        elif self.filter_condition == "both":
-            key_filter = lambda k: k in key_entities_to_remove and entity_mapping.get(k) in sys_entities_to_remove
-            sys_filter = lambda k: k in sys_entities_to_remove and inverse_entity_mapping.get(k) in key_entities_to_remove
-        else:
-            key_filter = lambda k: k in key_entities_to_remove or entity_mapping.get(k) in sys_entities_to_remove
-            sys_filter = lambda k: k in sys_entities_to_remove or inverse_entity_mapping.get(k) in key_entities_to_remove
+        key_filter = lambda k: k in key_entities_to_remove or entity_mapping.get(k) in sys_entities_to_remove
+        sys_filter = lambda k: k in sys_entities_to_remove or inverse_entity_mapping.get(k) in key_entities_to_remove
 
-        key_entities = {k: e for k, e in key_entities.items() if not key_filter(k)}
-        sys_entities = {k: e for k, e in sys_entities.items() if not sys_filter(k)}
+        key_entities = {k: e for k, e in key_entities.items() if not key_filter(k) and (not restrict_to_matches or k in entity_mapping.keys())}
+        sys_entities = {k: e for k, e in sys_entities.items() if not sys_filter(k) and (not restrict_to_matches or k in inverse_entity_mapping.keys())}
 
-        for name in self.scorers[f'entity_attributes_{entity_filter}'].keys():
+        print(f"---- {entity_filter}, {restrict_to_matches=} ----")
+        for k in key_entities.keys() & entity_mapping.keys():
+            print(f"{key_entities[k].fullname:<30} {key_entities[k].gender}  ->  {sys_entities[entity_mapping[k]].gender} {sys_entities[entity_mapping[k]].fullname}")
+        for k in key_entities.keys() - entity_mapping.keys():
+            print(f"{key_entities[k].fullname:<30} {key_entities[k].gender}  ->  None")
+        for r in sys_entities.keys() - inverse_entity_mapping.keys():
+            print(f"{"None":<30}    ->  {sys_entities[r].gender} {sys_entities[r].fullname}")
+
+        restrictkey = "restrictonmatch" if restrict_to_matches else "unrestricted"
+        scorer_key = f'entity_attributes_{entity_filter}_{restrictkey}'
+        for name in self.scorers[scorer_key].keys():
             attribute_fn = ENTITY_ATTRIBUTES[name]
             res = attribute_metric(key_entities, sys_entities, entity_mapping, attribute_fn)
-            self.scorers[f'entity_attributes_{entity_filter}'][name].update(res, doc_id)
+            self.scorers[scorer_key][name].update(res, doc_id)
 
     def _update_mention_attribute_metrics(self, key_mentions: List[Mention], sys_mentions: List[Mention], doc_id: str = "doc"):
         key_spans = {(m.token_idx[0], m.token_idx[-1]): m.references for m in key_mentions}

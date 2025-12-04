@@ -15,7 +15,7 @@ def main():
     args = parser.parse_args()
 
 
-    evaluator = Evaluator(filter_condition="any")
+    evaluator = Evaluator()
 
     merged_doc_df = pandas.read_csv(args.pred_file, sep='\t', index_col='i')
     sys_mentions = list(parse_mentions(merged_doc_df['pred']))

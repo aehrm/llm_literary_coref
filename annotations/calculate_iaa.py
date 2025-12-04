@@ -16,7 +16,7 @@ def load_annotations(path):
 def main():
     iaa_dir = Path(__file__).parent / "annotated_tsv" / "iaa"
 
-    evaluator = Evaluator(filter_condition="any")
+    evaluator = Evaluator()
 
     iaa_files = list(iaa_dir.glob("*_*.tsv"))
 
