@@ -37,7 +37,7 @@
 35	120	Aussichten	
 36	121	.	
 37	122	Meine	(mention_id=8|references=(entity=(entity_id=figur_0004|fullname=Gustav|gender=m)))
-38	123	Aeltern	(mention_id=9|references=(entity=(entity_id=figur_0005|fullname=Gustavs Eltern|gender=f)))
+38	123	Aeltern	(mention_id=9|references=(entity=(entity_id=figur_0005|fullname=Gustavs Eltern|gender=f|specialcase_entity=group)))
 39	124	waren	
 40	125	sehr	
 41	126	frühzeitig	
@@ -48,31 +48,31 @@
 46	131	wurde	
 47	132	bey	
 48	133	einer	
-49	134	Tante	(mention_id=11|references=(entity=(entity_id=figur_0011|fullname=Tante|gender=u)))
+49	134	Tante	(mention_id=11|references=(entity=(entity_id=figur_0011|fullname=Tante|gender=f)))
 50	135	erzogen	
 51	136	.	
-52	137	Sie	(mention_id=12|references=(entity=(entity_id=figur_0011|fullname=Tante|gender=u)))
+52	137	Sie	(mention_id=12|references=(entity=(entity_id=figur_0011|fullname=Tante|gender=f)))
 53	138	war	
 54	139	seit	
 55	140	vielen	
 56	141	Jahren	
-57	142	Wittwe	(mention_id=13|references=(entity=(entity_id=figur_0011|fullname=Tante|gender=u)))
+57	142	Wittwe	(mention_id=13|references=(entity=(entity_id=figur_0011|fullname=Tante|gender=f)))
 58	143	und	
 59	144	außerordentlich	
 60	145	reich	
 61	146	.	
 62	147	Meine	(mention_id=14|references=(entity=(entity_id=figur_0004|fullname=Gustav|gender=m)))
-63	148	Vormünder	(mention_id=15|references=(entity=(entity_id=figur_0012|fullname=Vormünder|gender=u)))
+63	148	Vormünder	(mention_id=15|references=(entity=(entity_id=figur_0012|fullname=Vormünder|gender=m|specialcase_entity=group)))
 64	149	hatten	
 65	150	mich	(mention_id=16|references=(entity=(entity_id=figur_0004|fullname=Gustav|gender=m)))
-66	151	ihr	(mention_id=17|references=(entity=(entity_id=figur_0011|fullname=Tante|gender=u)))
+66	151	ihr	(mention_id=17|references=(entity=(entity_id=figur_0011|fullname=Tante|gender=f)))
 67	152	gänzlich	
 68	153	überlassen	
 69	154	,	
 70	155	und	
-71	156	sie	(mention_id=18|references=(entity=(entity_id=figur_0011|fullname=Tante|gender=u)))
+71	156	sie	(mention_id=18|references=(entity=(entity_id=figur_0011|fullname=Tante|gender=f)))
 72	157	machte	
-73	158	ihren	(mention_id=19|references=(entity=(entity_id=figur_0011|fullname=Tante|gender=u)))
+73	158	ihren	(mention_id=19|references=(entity=(entity_id=figur_0011|fullname=Tante|gender=f)))
 74	159	Abgott	(mention_id=20|references=(entity=(entity_id=figur_0004|fullname=Gustav|gender=m)))
 75	160	aus	
 76	161	mir	(mention_id=21|references=(entity=(entity_id=figur_0004|fullname=Gustav|gender=m)))
@@ -287,7 +287,7 @@
 285	370	halbe	
 286	371	Stunde	
 287	372	von	
-288	373	unserm	(mention_id=45|references=(entity=(entity_id=figur_0004|fullname=Gustav|gender=m)),(entity=(entity_id=figur_0011|fullname=Tante|gender=u)))
+288	373	unserm	(mention_id=45|references=(entity=(entity_id=figur_0004|fullname=Gustav|gender=m)),(entity=(entity_id=figur_0011|fullname=Tante|gender=f)))
 289	374	Guthe	
 290	375	lag	
 291	376	ein	
@@ -346,14 +346,14 @@
 344	429	bezahlte	
 345	430	der	
 346	431	dicken	
-347	432	Wirthin	(mention_id=52|references=(entity=(entity_id=figur_0013|fullname=Wirtin|gender=u)))
+347	432	Wirthin	(mention_id=52|references=(entity=(entity_id=figur_0013|fullname=Wirtin|gender=f)))
 348	433	gern	
 349	434	die	
 350	435	doppelte	
 351	436	Zeche	
 352	437	;	
 353	438	wenn	
-354	439	sie	(mention_id=53|references=(entity=(entity_id=figur_0013|fullname=Wirtin|gender=u)))
+354	439	sie	(mention_id=53|references=(entity=(entity_id=figur_0013|fullname=Wirtin|gender=f)))
 355	440	mir	(mention_id=54|references=(entity=(entity_id=figur_0004|fullname=Gustav|gender=m)))
 356	441	nur	
 357	442	erlaubte	
@@ -363,7 +363,7 @@
 361	446	als	
 362	447	möglich	
 363	448	auf	
-364	449	ihr	(mention_id=55|references=(entity=(entity_id=figur_0013|fullname=Wirtin|gender=u)))
+364	449	ihr	(mention_id=55|references=(entity=(entity_id=figur_0013|fullname=Wirtin|gender=f)))
 365	450	Geschwätz	
 366	451	zu	
 367	452	antworten	
@@ -708,7 +708,7 @@
 706	791	.	
 707	792	Die	
 708	793	dicke	
-709	794	Wirthin	(mention_id=95|references=(entity=(entity_id=figur_0013|fullname=Wirtin|gender=u)))
+709	794	Wirthin	(mention_id=95|references=(entity=(entity_id=figur_0013|fullname=Wirtin|gender=f)))
 710	795	hatte	
 711	796	mich	(mention_id=96|references=(entity=(entity_id=figur_0004|fullname=Gustav|gender=m)))
 712	797	schon	
@@ -732,7 +732,7 @@
 730	815	gleich	
 731	816	dem	
 732	817	Streicheln	
-733	818	ihrer	(mention_id=101|references=(entity=(entity_id=figur_0013|fullname=Wirtin|gender=u)))
+733	818	ihrer	(mention_id=101|references=(entity=(entity_id=figur_0013|fullname=Wirtin|gender=f)))
 734	819	unsaubern	
 735	820	Hände	
 736	821	Preis	
@@ -749,17 +749,17 @@
 747	832	der	
 748	833	Frauenzimmer	(mention_id=103|references=(entity=(entity_id=figur_0009|fullname=Marie|gender=f)),(entity=(entity_id=figur_0010|fullname=Mariens Begleiterin|gender=f)))
 749	834	von	
-750	835	ihr	(mention_id=104|references=(entity=(entity_id=figur_0013|fullname=Wirtin|gender=u)))
+750	835	ihr	(mention_id=104|references=(entity=(entity_id=figur_0013|fullname=Wirtin|gender=f)))
 751	836	erhalten	
 752	837	.	
 753	838	Im	
 754	839	Gegentheil	
 755	840	klagte	
-756	841	sie	(mention_id=105|references=(entity=(entity_id=figur_0013|fullname=Wirtin|gender=u)))
+756	841	sie	(mention_id=105|references=(entity=(entity_id=figur_0013|fullname=Wirtin|gender=f)))
 757	842	sehr	
 758	843	bitter	
 759	844	über	
-760	845	ihr	(mention_id=106|references=(entity=(entity_id=figur_0013|fullname=Wirtin|gender=u)))
+760	845	ihr	(mention_id=106|references=(entity=(entity_id=figur_0013|fullname=Wirtin|gender=f)))
 761	846	geheimnißvolles	
 762	847	Wesen	
 763	848	,	
@@ -824,14 +824,14 @@
 822	907	das	
 823	908	Geschwätz	
 824	909	der	
-825	910	Wirthin	(mention_id=113|references=(entity=(entity_id=figur_0013|fullname=Wirtin|gender=u)))
+825	910	Wirthin	(mention_id=113|references=(entity=(entity_id=figur_0013|fullname=Wirtin|gender=f)))
 826	911	.	
-827	912	Sie	(mention_id=114|references=(entity=(entity_id=figur_0013|fullname=Wirtin|gender=u)))
+827	912	Sie	(mention_id=114|references=(entity=(entity_id=figur_0013|fullname=Wirtin|gender=f)))
 828	913	begriff	
 829	914	endlich	
 830	915	,	
 831	916	daß	
-832	917	sie	(mention_id=115|references=(entity=(entity_id=figur_0013|fullname=Wirtin|gender=u)))
+832	917	sie	(mention_id=115|references=(entity=(entity_id=figur_0013|fullname=Wirtin|gender=f)))
 833	918	keine	
 834	919	Antwort	
 835	920	mehr	
@@ -862,7 +862,7 @@
 860	945	die	
 861	946	Wohnung	
 862	947	meiner	(mention_id=120|references=(entity=(entity_id=figur_0004|fullname=Gustav|gender=m)))
-863	948	Tante	(mention_id=121|references=(entity=(entity_id=figur_0011|fullname=Tante|gender=u)))
+863	948	Tante	(mention_id=121|references=(entity=(entity_id=figur_0011|fullname=Tante|gender=f)))
 864	949	anzubieten	
 865	950	.	
 866	951	Aber	
@@ -893,7 +893,7 @@
 891	976	sagte	
 892	977	mir	(mention_id=124|references=(entity=(entity_id=figur_0004|fullname=Gustav|gender=m)))
 893	978	meine	(mention_id=125|references=(entity=(entity_id=figur_0004|fullname=Gustav|gender=m)))
-894	979	Tante	(mention_id=126|references=(entity=(entity_id=figur_0011|fullname=Tante|gender=u)))
+894	979	Tante	(mention_id=126|references=(entity=(entity_id=figur_0011|fullname=Tante|gender=f)))
 895	980	das	
 896	981	nicht	
 897	982	täglich	
@@ -1363,7 +1363,7 @@
 1361	1446	Betäubung	
 1362	1447	erwachend	
 1363	1448	der	
-1364	1449	Wirthinn	(mention_id=206|references=(entity=(entity_id=figur_0013|fullname=Wirtin|gender=u)))
+1364	1449	Wirthinn	(mention_id=206|references=(entity=(entity_id=figur_0013|fullname=Wirtin|gender=f)))
 1365	1450	entgegen	
 1366	1451	–	
 1367	1452	und	
@@ -1373,7 +1373,7 @@
 1371	1456	mich	(mention_id=207|references=(entity=(entity_id=figur_0004|fullname=Gustav|gender=m)))
 1372	1457	weiter	
 1373	1458	durch	
-1374	1459	ihre	(mention_id=208|references=(entity=(entity_id=figur_0013|fullname=Wirtin|gender=u)))
+1374	1459	ihre	(mention_id=208|references=(entity=(entity_id=figur_0013|fullname=Wirtin|gender=f)))
 1375	1460	Fragen	
 1376	1461	aufhalten	
 1377	1462	zu	
@@ -1391,16 +1391,16 @@
 1389	1474	gute	
 1390	1475	,	
 1391	1476	schwache	
-1392	1477	Tante	(mention_id=210|references=(entity=(entity_id=figur_0011|fullname=Tante|gender=u)))
+1392	1477	Tante	(mention_id=210|references=(entity=(entity_id=figur_0011|fullname=Tante|gender=f)))
 1393	1478	,	
 1394	1479	als	
-1395	1480	sie	(mention_id=211|references=(entity=(entity_id=figur_0011|fullname=Tante|gender=u)))
+1395	1480	sie	(mention_id=211|references=(entity=(entity_id=figur_0011|fullname=Tante|gender=f)))
 1396	1481	mich	(mention_id=212|references=(entity=(entity_id=figur_0004|fullname=Gustav|gender=m)))
 1397	1482	blas	
 1398	1483	und	
 1399	1484	entstellt	
 1400	1485	in	
-1401	1486	ihr	(mention_id=213|references=(entity=(entity_id=figur_0011|fullname=Tante|gender=u)))
+1401	1486	ihr	(mention_id=213|references=(entity=(entity_id=figur_0011|fullname=Tante|gender=f)))
 1402	1487	Zimmer	
 1403	1488	treten	
 1404	1489	sah	
@@ -1514,7 +1514,7 @@
 1512	1597	–	
 1513	1598	sagte	
 1514	1599	meine	(mention_id=226|references=(entity=(entity_id=figur_0004|fullname=Gustav|gender=m)))
-1515	1600	Tante	(mention_id=227|references=(entity=(entity_id=figur_0011|fullname=Tante|gender=u)))
+1515	1600	Tante	(mention_id=227|references=(entity=(entity_id=figur_0011|fullname=Tante|gender=f)))
 1516	1601	–	
 1517	1602	zitternd	
 1518	1603	vor	
@@ -1530,7 +1530,7 @@
 1528	1613	Kind	(mention_id=228|references=(entity=(entity_id=figur_0004|fullname=Gustav|gender=m)))
 1529	1614	!	
 1530	1615	–	
-1531	1616	ich	(mention_id=229|references=(entity=(entity_id=figur_0011|fullname=Tante|gender=u)))
+1531	1616	ich	(mention_id=229|references=(entity=(entity_id=figur_0011|fullname=Tante|gender=f)))
 1532	1617	will	
 1533	1618	ja	
 1534	1619	den	
@@ -1540,7 +1540,7 @@
 1538	1623	.	
 1539	1624	Ach	
 1540	1625	hätte	
-1541	1626	ich	(mention_id=230|references=(entity=(entity_id=figur_0011|fullname=Tante|gender=u)))
+1541	1626	ich	(mention_id=230|references=(entity=(entity_id=figur_0011|fullname=Tante|gender=f)))
 1542	1627	doch	
 1543	1628	nur	
 1544	1629	Ludwig	(mention_id=231|references=(entity=(entity_id=figur_0008|fullname=Ludwig|gender=m)))
@@ -1553,7 +1553,7 @@
 1551	1636	Ludwig	(mention_id=232|references=(entity=(entity_id=figur_0008|fullname=Ludwig|gender=m)))
 1552	1637	,	
 1553	1638	nicht	
-1554	1639	Sie	(mention_id=233|references=(entity=(entity_id=figur_0011|fullname=Tante|gender=u)))
+1554	1639	Sie	(mention_id=233|references=(entity=(entity_id=figur_0011|fullname=Tante|gender=f)))
 1555	1640	,	
 1556	1641	kein	
 1557	1642	Mensch	
@@ -1578,7 +1578,7 @@
 1576	1661	,	
 1577	1662	taub	
 1578	1663	gegen	
-1579	1664	ihre	(mention_id=238|references=(entity=(entity_id=figur_0011|fullname=Tante|gender=u)))
+1579	1664	ihre	(mention_id=238|references=(entity=(entity_id=figur_0011|fullname=Tante|gender=f)))
 1580	1665	Bitten	
 1581	1666	,	
 1582	1667	in	
@@ -1737,7 +1737,7 @@
 1735	1820	mich	(mention_id=254|references=(entity=(entity_id=figur_0004|fullname=Gustav|gender=m)))
 1736	1821	an	
 1737	1822	meine	(mention_id=255|references=(entity=(entity_id=figur_0004|fullname=Gustav|gender=m)))
-1738	1823	Tante	(mention_id=256|references=(entity=(entity_id=figur_0011|fullname=Tante|gender=u)))
+1738	1823	Tante	(mention_id=256|references=(entity=(entity_id=figur_0011|fullname=Tante|gender=f)))
 1739	1824	.	
 1740	1825	»	
 1741	1826	Die	
@@ -1746,7 +1746,7 @@
 1744	1829	«	
 1745	1830	–	
 1746	1831	sagte	
-1747	1832	sie	(mention_id=258|references=(entity=(entity_id=figur_0011|fullname=Tante|gender=u)))
+1747	1832	sie	(mention_id=258|references=(entity=(entity_id=figur_0011|fullname=Tante|gender=f)))
 1748	1833	entschuldigend	
 1749	1834	.	
 1750	1835	–	
@@ -1755,7 +1755,7 @@
 1753	1838	«	
 1754	1839	–	
 1755	1840	fuhr	
-1756	1841	sie	(mention_id=259|references=(entity=(entity_id=figur_0011|fullname=Tante|gender=u)))
+1756	1841	sie	(mention_id=259|references=(entity=(entity_id=figur_0011|fullname=Tante|gender=f)))
 1757	1842	mit	
 1758	1843	einer	
 1759	1844	bittenden	
@@ -1806,7 +1806,7 @@
 1804	1889	wenn	
 1805	1890	nicht	
 1806	1891	meine	(mention_id=265|references=(entity=(entity_id=figur_0004|fullname=Gustav|gender=m)))
-1807	1892	Tante	(mention_id=266|references=(entity=(entity_id=figur_0011|fullname=Tante|gender=u)))
+1807	1892	Tante	(mention_id=266|references=(entity=(entity_id=figur_0011|fullname=Tante|gender=f)))
 1808	1893	mit	
 1809	1894	der	
 1810	1895	Hand	
@@ -1818,13 +1818,13 @@
 1816	1901	.	
 1817	1902	Jetzt	
 1818	1903	da	
-1819	1904	wir	(mention_id=267|references=(entity=(entity_id=figur_0004|fullname=Gustav|gender=m)),(entity=(entity_id=figur_0011|fullname=Tante|gender=u)))
+1819	1904	wir	(mention_id=267|references=(entity=(entity_id=figur_0004|fullname=Gustav|gender=m)),(entity=(entity_id=figur_0011|fullname=Tante|gender=f)))
 1820	1905	allein	
 1821	1906	waren	
 1822	1907	,	
 1823	1908	und	
 1824	1909	da	
-1825	1910	sie	(mention_id=268|references=(entity=(entity_id=figur_0011|fullname=Tante|gender=u)))
+1825	1910	sie	(mention_id=268|references=(entity=(entity_id=figur_0011|fullname=Tante|gender=f)))
 1826	1911	mich	(mention_id=269|references=(entity=(entity_id=figur_0004|fullname=Gustav|gender=m)))
 1827	1912	in	
 1828	1913	einer	
@@ -1834,7 +1834,7 @@
 1832	1917	;	
 1833	1918	gelang	
 1834	1919	es	
-1835	1920	ihr	(mention_id=270|references=(entity=(entity_id=figur_0011|fullname=Tante|gender=u)))
+1835	1920	ihr	(mention_id=270|references=(entity=(entity_id=figur_0011|fullname=Tante|gender=f)))
 1836	1921	,	
 1837	1922	mich	(mention_id=271|references=(entity=(entity_id=figur_0004|fullname=Gustav|gender=m)))
 1838	1923	zu	
@@ -1844,7 +1844,7 @@
 1842	1927	zu	
 1843	1928	bewegen	
 1844	1929	.	
-1845	1930	Wir	(mention_id=272|references=(entity=(entity_id=figur_0004|fullname=Gustav|gender=m)),(entity=(entity_id=figur_0011|fullname=Tante|gender=u)))
+1845	1930	Wir	(mention_id=272|references=(entity=(entity_id=figur_0004|fullname=Gustav|gender=m)),(entity=(entity_id=figur_0011|fullname=Tante|gender=f)))
 1846	1931	berathschlagten	
 1847	1932	bis	
 1848	1933	tief	
@@ -1853,9 +1853,9 @@
 1851	1936	Nacht	
 1852	1937	und	
 1853	1938	meine	(mention_id=273|references=(entity=(entity_id=figur_0004|fullname=Gustav|gender=m)))
-1854	1939	Tante	(mention_id=274|references=(entity=(entity_id=figur_0011|fullname=Tante|gender=u)))
+1854	1939	Tante	(mention_id=274|references=(entity=(entity_id=figur_0011|fullname=Tante|gender=f)))
 1855	1940	entschloß	
-1856	1941	sich	(mention_id=275|references=(entity=(entity_id=figur_0011|fullname=Tante|gender=u)))
+1856	1941	sich	(mention_id=275|references=(entity=(entity_id=figur_0011|fullname=Tante|gender=f)))
 1857	1942	,	
 1858	1943	an	
 1859	1944	Mariens	(mention_id=276|references=(entity=(entity_id=figur_0009|fullname=Marie|gender=f)))
@@ -1863,14 +1863,14 @@
 1861	1946	zu	
 1862	1947	schreiben	
 1863	1948	.	
-1864	1949	Sie	(mention_id=278|references=(entity=(entity_id=figur_0011|fullname=Tante|gender=u)))
+1864	1949	Sie	(mention_id=278|references=(entity=(entity_id=figur_0011|fullname=Tante|gender=f)))
 1865	1950	trug	
 1866	1951	ihr	(mention_id=279|references=(entity=(entity_id=figur_0010|fullname=Mariens Begleiterin|gender=f)))
 1867	1952	in	
 1868	1953	den	
 1869	1954	schmeichelhaftesten	
 1870	1955	Ausdrücken	
-1871	1956	unser	(mention_id=280|references=(entity=(entity_id=figur_0004|fullname=Gustav|gender=m)),(entity=(entity_id=figur_0011|fullname=Tante|gender=u)))
+1871	1956	unser	(mention_id=280|references=(entity=(entity_id=figur_0004|fullname=Gustav|gender=m)),(entity=(entity_id=figur_0011|fullname=Tante|gender=f)))
 1872	1957	Landguth	
 1873	1958	,	
 1874	1959	und	

@@ -923,19 +923,19 @@
 921	928	Dort	
 922	929	hauste	
 923	930	der	
-924	931	Reichsfreiherr	(mention_id=52|references=(entity=(entity_id=figur_0007|fullname=Dietrich von Remchingen|gender=u)))
-925	932	Dietrich	(mention_id=52|references=(entity=(entity_id=figur_0007|fullname=Dietrich von Remchingen|gender=u)))
-926	933	von	(mention_id=52|references=(entity=(entity_id=figur_0007|fullname=Dietrich von Remchingen|gender=u)))
-927	934	Remchingen	(mention_id=52|references=(entity=(entity_id=figur_0007|fullname=Dietrich von Remchingen|gender=u)))
+924	931	Reichsfreiherr	(mention_id=52|references=(entity=(entity_id=figur_0007|fullname=Dietrich von Remchingen|gender=m)))
+925	932	Dietrich	(mention_id=52|references=(entity=(entity_id=figur_0007|fullname=Dietrich von Remchingen|gender=m)))
+926	933	von	(mention_id=52|references=(entity=(entity_id=figur_0007|fullname=Dietrich von Remchingen|gender=m)))
+927	934	Remchingen	(mention_id=52|references=(entity=(entity_id=figur_0007|fullname=Dietrich von Remchingen|gender=m)))
 928	935	,	
 929	936	kurfürstlicher	
-930	937	Obervogt	(mention_id=53|references=(entity=(entity_id=figur_0007|fullname=Dietrich von Remchingen|gender=u)))
+930	937	Obervogt	(mention_id=53|references=(entity=(entity_id=figur_0007|fullname=Dietrich von Remchingen|gender=m)))
 931	938	der	
 932	939	Vorderpfalz	
 933	940	,	
-934	941	der	(mention_id=54|references=(entity=(entity_id=figur_0007|fullname=Dietrich von Remchingen|gender=u)))
+934	941	der	(mention_id=54|references=(entity=(entity_id=figur_0007|fullname=Dietrich von Remchingen|gender=m)))
 935	942	die	
-936	943	ihm	(mention_id=55|references=(entity=(entity_id=figur_0007|fullname=Dietrich von Remchingen|gender=u)))
+936	943	ihm	(mention_id=55|references=(entity=(entity_id=figur_0007|fullname=Dietrich von Remchingen|gender=m)))
 937	944	verliehene	
 938	945	Machtbefugnis	
 939	946	gerecht	
@@ -943,14 +943,14 @@
 941	948	mild	
 942	949	ausübte	
 943	950	.	
-944	951	Er	(mention_id=56|references=(entity=(entity_id=figur_0007|fullname=Dietrich von Remchingen|gender=u)))
+944	951	Er	(mention_id=56|references=(entity=(entity_id=figur_0007|fullname=Dietrich von Remchingen|gender=m)))
 945	952	und	
 946	953	Christoph	(mention_id=57|references=(entity=(entity_id=figur_0006|fullname=Christoph Armbruster|gender=m)))
 947	954	waren	
 948	955	Jugendgenossen	
 949	956	.	
 950	957	Der	
-951	958	Abkömmling	(mention_id=58|references=(entity=(entity_id=figur_0007|fullname=Dietrich von Remchingen|gender=u)))
+951	958	Abkömmling	(mention_id=58|references=(entity=(entity_id=figur_0007|fullname=Dietrich von Remchingen|gender=m)))
 952	959	eines	
 953	960	alten	
 954	961	,	
@@ -965,9 +965,9 @@
 963	970	freien	
 964	971	Bauernfamilie	(mention_id=60|references=(entity=(entity_id=figur_0010|fullname=Familie Armbruster|gender=f|specialcase_entity=group)))
 965	972	hatten	
-966	973	sich	(mention_id=61|references=(entity=(entity_id=figur_0007|fullname=Dietrich von Remchingen|gender=u)),(entity=(entity_id=figur_0006|fullname=Christoph Armbruster|gender=m)))
+966	973	sich	(mention_id=61|references=(entity=(entity_id=figur_0007|fullname=Dietrich von Remchingen|gender=m)),(entity=(entity_id=figur_0006|fullname=Christoph Armbruster|gender=m)))
 967	974	als	
-968	975	Knaben	(mention_id=62|references=(entity=(entity_id=figur_0007|fullname=Dietrich von Remchingen|gender=u)),(entity=(entity_id=figur_0006|fullname=Christoph Armbruster|gender=m)))
+968	975	Knaben	(mention_id=62|references=(entity=(entity_id=figur_0007|fullname=Dietrich von Remchingen|gender=m)),(entity=(entity_id=figur_0006|fullname=Christoph Armbruster|gender=m)))
 969	976	bald	
 970	977	auf	
 971	978	den	
@@ -992,7 +992,7 @@
 990	997	,	
 991	998	hatten	
 992	999	als	
-993	1000	Jünglinge	(mention_id=63|references=(entity=(entity_id=figur_0007|fullname=Dietrich von Remchingen|gender=u)),(entity=(entity_id=figur_0006|fullname=Christoph Armbruster|gender=m)))
+993	1000	Jünglinge	(mention_id=63|references=(entity=(entity_id=figur_0007|fullname=Dietrich von Remchingen|gender=m)),(entity=(entity_id=figur_0006|fullname=Christoph Armbruster|gender=m)))
 994	1001	die	
 995	1002	Berge	
 996	1003	und	
@@ -1002,7 +1002,7 @@
 1000	1007	durchstreift	
 1001	1008	,	
 1002	1009	als	
-1003	1010	Männer	(mention_id=64|references=(entity=(entity_id=figur_0007|fullname=Dietrich von Remchingen|gender=u)),(entity=(entity_id=figur_0006|fullname=Christoph Armbruster|gender=m)))
+1003	1010	Männer	(mention_id=64|references=(entity=(entity_id=figur_0007|fullname=Dietrich von Remchingen|gender=m)),(entity=(entity_id=figur_0006|fullname=Christoph Armbruster|gender=m)))
 1004	1011	dem	
 1005	1012	edlen	
 1006	1013	Weidwerk	
@@ -1018,7 +1018,7 @@
 1016	1023	getragen	
 1017	1024	,	
 1018	1025	und	
-1019	1026	ihre	(mention_id=65|references=(entity=(entity_id=figur_0007|fullname=Dietrich von Remchingen|gender=u)),(entity=(entity_id=figur_0006|fullname=Christoph Armbruster|gender=m)))
+1019	1026	ihre	(mention_id=65|references=(entity=(entity_id=figur_0007|fullname=Dietrich von Remchingen|gender=m)),(entity=(entity_id=figur_0006|fullname=Christoph Armbruster|gender=m)))
 1020	1027	Freundschaft	
 1021	1028	hatte	
 1022	1029	durch	
@@ -1034,20 +1034,20 @@
 1032	1039	noch	
 1033	1040	,	
 1034	1041	wo	
-1035	1042	sie	(mention_id=66|references=(entity=(entity_id=figur_0007|fullname=Dietrich von Remchingen|gender=u)),(entity=(entity_id=figur_0006|fullname=Christoph Armbruster|gender=m)))
-1036	1043	beide	(mention_id=67|references=(entity=(entity_id=figur_0007|fullname=Dietrich von Remchingen|gender=u)),(entity=(entity_id=figur_0006|fullname=Christoph Armbruster|gender=m)))
+1035	1042	sie	(mention_id=66|references=(entity=(entity_id=figur_0007|fullname=Dietrich von Remchingen|gender=m)),(entity=(entity_id=figur_0006|fullname=Christoph Armbruster|gender=m)))
+1036	1043	beide	(mention_id=67|references=(entity=(entity_id=figur_0007|fullname=Dietrich von Remchingen|gender=m)),(entity=(entity_id=figur_0006|fullname=Christoph Armbruster|gender=m)))
 1037	1044	rüstige	
 1038	1045	,	
 1039	1046	welterfahrene	
-1040	1047	Sechziger	(mention_id=68|references=(entity=(entity_id=figur_0007|fullname=Dietrich von Remchingen|gender=u)),(entity=(entity_id=figur_0006|fullname=Christoph Armbruster|gender=m)))
+1040	1047	Sechziger	(mention_id=68|references=(entity=(entity_id=figur_0007|fullname=Dietrich von Remchingen|gender=m)),(entity=(entity_id=figur_0006|fullname=Christoph Armbruster|gender=m)))
 1041	1048	waren	
 1042	1049	.	
 1043	1050	Im	
 1044	1051	traulichen	
 1045	1052	Gespräch	
 1046	1053	nannten	
-1047	1054	sie	(mention_id=69|references=(entity=(entity_id=figur_0007|fullname=Dietrich von Remchingen|gender=u)),(entity=(entity_id=figur_0006|fullname=Christoph Armbruster|gender=m)))
-1048	1055	sich	(mention_id=70|references=(entity=(entity_id=figur_0007|fullname=Dietrich von Remchingen|gender=u)),(entity=(entity_id=figur_0006|fullname=Christoph Armbruster|gender=m)))
+1047	1054	sie	(mention_id=69|references=(entity=(entity_id=figur_0007|fullname=Dietrich von Remchingen|gender=m)),(entity=(entity_id=figur_0006|fullname=Christoph Armbruster|gender=m)))
+1048	1055	sich	(mention_id=70|references=(entity=(entity_id=figur_0007|fullname=Dietrich von Remchingen|gender=m)),(entity=(entity_id=figur_0006|fullname=Christoph Armbruster|gender=m)))
 1049	1056	du	
 1050	1057	und	
 1051	1058	bei	
@@ -1061,7 +1061,7 @@
 1059	1066	,	
 1060	1067	den	
 1061	1068	ja	
-1062	1069	ihre	(mention_id=71|references=(entity=(entity_id=figur_0007|fullname=Dietrich von Remchingen|gender=u)),(entity=(entity_id=figur_0006|fullname=Christoph Armbruster|gender=m)))
+1062	1069	ihre	(mention_id=71|references=(entity=(entity_id=figur_0007|fullname=Dietrich von Remchingen|gender=m)),(entity=(entity_id=figur_0006|fullname=Christoph Armbruster|gender=m)))
 1063	1070	Stellungen	
 1064	1071	mit	
 1065	1072	sich	
@@ -1086,13 +1086,13 @@
 1084	1091	kam	
 1085	1092	,	
 1086	1093	schnoben	
-1087	1094	sie	(mention_id=72|references=(entity=(entity_id=figur_0007|fullname=Dietrich von Remchingen|gender=u)),(entity=(entity_id=figur_0006|fullname=Christoph Armbruster|gender=m)))
-1088	1095	sich	(mention_id=73|references=(entity=(entity_id=figur_0007|fullname=Dietrich von Remchingen|gender=u)),(entity=(entity_id=figur_0006|fullname=Christoph Armbruster|gender=m)))
+1087	1094	sie	(mention_id=72|references=(entity=(entity_id=figur_0007|fullname=Dietrich von Remchingen|gender=m)),(entity=(entity_id=figur_0006|fullname=Christoph Armbruster|gender=m)))
+1088	1095	sich	(mention_id=73|references=(entity=(entity_id=figur_0007|fullname=Dietrich von Remchingen|gender=m)),(entity=(entity_id=figur_0006|fullname=Christoph Armbruster|gender=m)))
 1089	1096	auch	
 1090	1097	wohl	
 1091	1098	mit	
-1092	1099	Herr	(mention_id=74|references=(entity=(entity_id=figur_0007|fullname=Dietrich von Remchingen|gender=u)))
-1093	1100	Reichsfreiherr	(mention_id=74|references=(entity=(entity_id=figur_0007|fullname=Dietrich von Remchingen|gender=u)))
+1092	1099	Herr	(mention_id=74|references=(entity=(entity_id=figur_0007|fullname=Dietrich von Remchingen|gender=m)))
+1093	1100	Reichsfreiherr	(mention_id=74|references=(entity=(entity_id=figur_0007|fullname=Dietrich von Remchingen|gender=m)))
 1094	1101	!	
 1095	1102	und	
 1096	1103	Herr	(mention_id=75|references=(entity=(entity_id=figur_0006|fullname=Christoph Armbruster|gender=m)))
@@ -1102,7 +1102,7 @@
 1100	1107	an	
 1101	1108	,	
 1102	1109	um	
-1103	1110	sich	(mention_id=76|references=(entity=(entity_id=figur_0007|fullname=Dietrich von Remchingen|gender=u)),(entity=(entity_id=figur_0006|fullname=Christoph Armbruster|gender=m)))
+1103	1110	sich	(mention_id=76|references=(entity=(entity_id=figur_0007|fullname=Dietrich von Remchingen|gender=m)),(entity=(entity_id=figur_0006|fullname=Christoph Armbruster|gender=m)))
 1104	1111	beim	
 1105	1112	nächsten	
 1106	1113	Wiedersehen	
@@ -1402,7 +1402,7 @@
 1400	1407	Jahren	
 1401	1408	,	
 1402	1409	Christophs	(mention_id=125|references=(entity=(entity_id=figur_0006|fullname=Christoph Armbruster|gender=m)))
-1403	1410	Enkel	(mention_id=126|references=(entity=(entity_id=figur_0028|fullname=Älterer  Enkel von Christoph Armbruster|gender=u)),(entity=(entity_id=figur_0015|fullname=Jüngerer Enkel von Christoph Armbruster|gender=m)))
+1403	1410	Enkel	(mention_id=126|references=(entity=(entity_id=figur_0027|fullname=Älterer Enkel von Christoph Armbruster|gender=m)),(entity=(entity_id=figur_0015|fullname=Jüngerer Enkel von Christoph Armbruster|gender=m)))
 1404	1411	,	
 1405	1412	kamen	
 1406	1413	um	

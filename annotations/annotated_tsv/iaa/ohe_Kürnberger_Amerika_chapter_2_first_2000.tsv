@@ -79,7 +79,7 @@
 77	80	ist	
 78	81	unmöglich	
 79	82	!	
-80	83	Ich	(mention_id=4|references=(entity=(entity_id=figur_0042|fullname=Sprecher|gender=m)))
+80	83	Ich	(mention_id=4|references=(entity=(entity_id=figur_0039|fullname=Sprecher|gender=m)))
 81	84	sehe	
 82	85	hier	
 83	86	die	
@@ -105,9 +105,9 @@
 103	106	heilige	
 104	107	Erstarrung	
 105	108	ergreift	
-106	109	mich	(mention_id=5|references=(entity=(entity_id=figur_0042|fullname=Sprecher|gender=m)))
+106	109	mich	(mention_id=5|references=(entity=(entity_id=figur_0039|fullname=Sprecher|gender=m)))
 107	110	bei	
-108	111	deinem	(mention_id=6|references=(entity=(entity_id=figur_0003|fullname=Amerika|gender=u)))
+108	111	deinem	
 109	112	Anblicke	
 110	113	.	
 111	114	Die	
@@ -123,27 +123,27 @@
 121	124	,	
 122	125	wer	
 123	126	kennt	
-124	127	dein	(mention_id=7|references=(entity=(entity_id=figur_0032|fullname=Menschengröße|gender=u)))
+124	127	dein	
 125	128	Gefühl	
 126	129	in	
 127	130	Europa	
 128	131	?	
-129	132	Karl	(mention_id=8|references=(entity=(entity_id=figur_0018|fullname=Karl der Große|gender=m)))
-130	133	der	(mention_id=8|references=(entity=(entity_id=figur_0018|fullname=Karl der Große|gender=m)))
-131	134	Große	(mention_id=8|references=(entity=(entity_id=figur_0018|fullname=Karl der Große|gender=m)))
+129	132	Karl	(mention_id=6|references=(entity=(entity_id=figur_0017|fullname=Karl der Große|gender=m)))
+130	133	der	(mention_id=6|references=(entity=(entity_id=figur_0017|fullname=Karl der Große|gender=m)))
+131	134	Große	(mention_id=6|references=(entity=(entity_id=figur_0017|fullname=Karl der Große|gender=m)))
 132	135	,	
-133	136	Ludwig	(mention_id=9|references=(entity=(entity_id=figur_0025|fullname=Ludwig der Große|gender=m)))
-134	137	der	(mention_id=9|references=(entity=(entity_id=figur_0025|fullname=Ludwig der Große|gender=m)))
-135	138	Große	(mention_id=9|references=(entity=(entity_id=figur_0025|fullname=Ludwig der Große|gender=m)))
+133	136	Ludwig	(mention_id=7|references=(entity=(entity_id=figur_0024|fullname=Ludwig der Große|gender=m)))
+134	137	der	(mention_id=7|references=(entity=(entity_id=figur_0024|fullname=Ludwig der Große|gender=m)))
+135	138	Große	(mention_id=7|references=(entity=(entity_id=figur_0024|fullname=Ludwig der Große|gender=m)))
 136	139	,	
-137	140	Friedrich	(mention_id=10|references=(entity=(entity_id=figur_0011|fullname=Friedrich der Große|gender=m)))
-138	141	der	(mention_id=10|references=(entity=(entity_id=figur_0011|fullname=Friedrich der Große|gender=m)))
-139	142	Große	(mention_id=10|references=(entity=(entity_id=figur_0011|fullname=Friedrich der Große|gender=m)))
+137	140	Friedrich	(mention_id=8|references=(entity=(entity_id=figur_0010|fullname=Friedrich der Große|gender=m)))
+138	141	der	(mention_id=8|references=(entity=(entity_id=figur_0010|fullname=Friedrich der Große|gender=m)))
+139	142	Große	(mention_id=8|references=(entity=(entity_id=figur_0010|fullname=Friedrich der Große|gender=m)))
 140	143	—	
 141	144	das	
 142	145	sind	
 143	146	die	
-144	147	Menschengrößen	(mention_id=11|references=(entity=(entity_id=figur_0018|fullname=Karl der Große|gender=m)),(entity=(entity_id=figur_0011|fullname=Friedrich der Große|gender=m)),(entity=(entity_id=figur_0025|fullname=Ludwig der Große|gender=m)))
+144	147	Menschengrößen	(mention_id=9|references=(entity=(entity_id=figur_0017|fullname=Karl der Große|gender=m)),(entity=(entity_id=figur_0010|fullname=Friedrich der Große|gender=m)),(entity=(entity_id=figur_0024|fullname=Ludwig der Große|gender=m)))
 145	148	der	
 146	149	alten	
 147	150	Welt	
@@ -154,7 +154,7 @@
 152	155	groß	
 153	156	ist	
 154	157	neben	
-155	158	ihnen	(mention_id=12|references=(entity=(entity_id=figur_0025|fullname=Ludwig der Große|gender=m)),(entity=(entity_id=figur_0011|fullname=Friedrich der Große|gender=m)),(entity=(entity_id=figur_0018|fullname=Karl der Große|gender=m)))
+155	158	ihnen	(mention_id=10|references=(entity=(entity_id=figur_0024|fullname=Ludwig der Große|gender=m)),(entity=(entity_id=figur_0010|fullname=Friedrich der Große|gender=m)),(entity=(entity_id=figur_0017|fullname=Karl der Große|gender=m)))
 156	159	,	
 157	160	wird	
 158	161	decorirt	
@@ -178,7 +178,7 @@
 176	179	Erde	
 177	180	!	
 178	181	Sei	
-179	182	mir	(mention_id=13|references=(entity=(entity_id=figur_0042|fullname=Sprecher|gender=m)))
+179	182	mir	(mention_id=11|references=(entity=(entity_id=figur_0039|fullname=Sprecher|gender=m)))
 180	183	gegrüßt	
 181	184	,	
 182	185	Morgenstirn	
@@ -194,12 +194,12 @@
 192	195	!	
 193	196	Ein	
 194	197	jugendlicher	
-195	198	Mensch	(mention_id=14|references=(entity=(entity_id=figur_0053|fullname=jugendlicher Mensch|gender=u|specialcase_entity=generic)))
+195	198	Mensch	(mention_id=12|references=(entity=(entity_id=figur_0050|fullname=jugendlicher Mensch|gender=u|specialcase_entity=generic)))
 196	199	ist	
 197	200	die	
 198	201	Freude	
 199	202	des	
-200	203	älteren	(mention_id=15|references=(entity=(entity_id=figur_0057|fullname=älterer Mensch|gender=u|specialcase_entity=generic)))
+200	203	älteren	(mention_id=13|references=(entity=(entity_id=figur_0054|fullname=älterer Mensch|gender=u|specialcase_entity=generic)))
 201	204	,	
 202	205	aber	
 203	206	eine	
@@ -225,14 +225,14 @@
 223	226	mit	
 224	227	allen	
 225	228	Säften	
-226	229	unsrer	(mention_id=16|references=(entity=(entity_id=figur_0042|fullname=Sprecher|gender=m)),(entity=(entity_id=generic_0004|fullname=Menschheit|gender=u|specialcase_entity=generic)))
+226	229	unsrer	(mention_id=14|references=(entity=(entity_id=figur_0039|fullname=Sprecher|gender=m)),(entity=(entity_id=generic_0004|fullname=Menschheit|gender=u|specialcase_entity=generic)))
 227	230	Geschichte	
 228	231	bist	
 229	232	du	
 230	233	genährt	
 231	234	,	
 232	235	aber	
-233	236	wir	(mention_id=17|references=(entity=(entity_id=figur_0042|fullname=Sprecher|gender=m)),(entity=(entity_id=generic_0005|fullname=Menschheit|gender=u|specialcase_entity=generic)))
+233	236	wir	(mention_id=15|references=(entity=(entity_id=figur_0039|fullname=Sprecher|gender=m)),(entity=(entity_id=generic_0005|fullname=Menschheit|gender=u|specialcase_entity=generic)))
 234	237	sind	
 235	238	die	
 236	239	gröbsten	
@@ -263,7 +263,7 @@
 261	264	das	
 262	265	Wachsthum	
 263	266	der	
-264	267	Menschheit	(mention_id=18|references=(entity=(entity_id=generic_0006|fullname=Menschheit|gender=u|specialcase_entity=generic)))
+264	267	Menschheit	(mention_id=16|references=(entity=(entity_id=generic_0006|fullname=Menschheit|gender=u|specialcase_entity=generic)))
 265	268	.	
 266	269	Und	
 267	270	die	
@@ -288,7 +288,7 @@
 286	289	Vogel	
 287	290	!	
 288	291	In	
-289	292	unsern	(mention_id=19|references=(entity=(entity_id=figur_0042|fullname=Sprecher|gender=m)),(entity=(entity_id=generic_0007|fullname=Menschheit|gender=u|specialcase_entity=generic)))
+289	292	unsern	(mention_id=17|references=(entity=(entity_id=figur_0039|fullname=Sprecher|gender=m)),(entity=(entity_id=generic_0007|fullname=Menschheit|gender=u|specialcase_entity=generic)))
 290	293	geschichtlichen	
 291	294	Schlupfwinkeln	
 292	295	verpuppt	
@@ -311,7 +311,7 @@
 309	312	“	
 310	313	„	
 311	314	Ein	
-312	315	Mann	(mention_id=20|references=(entity=(entity_id=figur_0029|fullname=Mann von riesigem Leibe|gender=m|specialcase_entity=nonfact)))
+312	315	Mann	(mention_id=18|references=(entity=(entity_id=figur_0028|fullname=Mann von riesigem Leibe|gender=m|specialcase_entity=nonfact)))
 313	316	von	
 314	317	riesigem	
 315	318	Leibe	
@@ -322,37 +322,37 @@
 320	323	,	
 321	324	daran	
 322	325	fand	
-323	326	er	(mention_id=21|references=(entity=(entity_id=figur_0029|fullname=Mann von riesigem Leibe|gender=m|specialcase_entity=nonfact)))
+323	326	er	(mention_id=19|references=(entity=(entity_id=figur_0028|fullname=Mann von riesigem Leibe|gender=m|specialcase_entity=nonfact)))
 324	327	ein	
-325	328	Knäblein	(mention_id=22|references=(entity=(entity_id=figur_0019|fullname=Knäblein|gender=m|specialcase_entity=nonfact)|specialcase_reference=part))
+325	328	Knäblein	(mention_id=20|references=(entity=(entity_id=figur_0018|fullname=Knäblein|gender=m|specialcase_entity=nonfact)|specialcase_reference=part))
 326	329	spielen	
 327	330	.	
 328	331	Das	
 329	332	Knäblein	
 330	333	sagte	
 331	334	:	
-332	335	Mann	(mention_id=23|references=(entity=(entity_id=figur_0029|fullname=Mann von riesigem Leibe|gender=m|specialcase_entity=nonfact)))
+332	335	Mann	(mention_id=21|references=(entity=(entity_id=figur_0028|fullname=Mann von riesigem Leibe|gender=m|specialcase_entity=nonfact)))
 333	336	trag'	
-334	337	mich	(mention_id=24|references=(entity=(entity_id=figur_0019|fullname=Knäblein|gender=m|specialcase_entity=nonfact)))
+334	337	mich	(mention_id=22|references=(entity=(entity_id=figur_0018|fullname=Knäblein|gender=m|specialcase_entity=nonfact)))
 335	338	über	
 336	339	das	
 337	340	Wasser	
 338	341	,	
 339	342	denn	
-340	343	deine	(mention_id=25|references=(entity=(entity_id=figur_0029|fullname=Mann von riesigem Leibe|gender=m|specialcase_entity=nonfact)))
+340	343	deine	(mention_id=23|references=(entity=(entity_id=figur_0028|fullname=Mann von riesigem Leibe|gender=m|specialcase_entity=nonfact)))
 341	344	Schultern	
 342	345	sind	
 343	346	stark	
 344	347	.	
 345	348	Und	
 346	349	der	
-347	350	Mann	(mention_id=26|references=(entity=(entity_id=figur_0029|fullname=Mann von riesigem Leibe|gender=m|specialcase_entity=nonfact)))
+347	350	Mann	(mention_id=24|references=(entity=(entity_id=figur_0028|fullname=Mann von riesigem Leibe|gender=m|specialcase_entity=nonfact)))
 348	351	hob	
 349	352	das	
 350	353	kleine	
 351	354	,	
 352	355	federleichte	
-353	356	Körperchen	(mention_id=27|references=(entity=(entity_id=figur_0019|fullname=Knäblein|gender=m|specialcase_entity=nonfact)))
+353	356	Körperchen	(mention_id=25|references=(entity=(entity_id=figur_0018|fullname=Knäblein|gender=m|specialcase_entity=nonfact)))
 354	357	auf	
 355	358	,	
 356	359	und	
@@ -367,7 +367,7 @@
 365	368	verwandelte	
 366	369	sich	
 367	370	das	
-368	371	Kind	(mention_id=28|references=(entity=(entity_id=figur_0019|fullname=Knäblein|gender=m|specialcase_entity=nonfact)))
+368	371	Kind	(mention_id=26|references=(entity=(entity_id=figur_0018|fullname=Knäblein|gender=m|specialcase_entity=nonfact)))
 369	372	in	
 370	373	eine	
 371	374	schwere	
@@ -381,38 +381,38 @@
 379	382	zu	
 380	383	?	
 381	384	wunderte	
-382	385	sich	(mention_id=29|references=(entity=(entity_id=figur_0029|fullname=Mann von riesigem Leibe|gender=m|specialcase_entity=nonfact)))
+382	385	sich	(mention_id=27|references=(entity=(entity_id=figur_0028|fullname=Mann von riesigem Leibe|gender=m|specialcase_entity=nonfact)))
 383	386	der	
-384	387	Mann	(mention_id=30|references=(entity=(entity_id=figur_0029|fullname=Mann von riesigem Leibe|gender=m|specialcase_entity=nonfact)))
+384	387	Mann	(mention_id=28|references=(entity=(entity_id=figur_0028|fullname=Mann von riesigem Leibe|gender=m|specialcase_entity=nonfact)))
 385	388	,	
 386	389	trag'	
-387	390	ich	(mention_id=31|references=(entity=(entity_id=figur_0029|fullname=Mann von riesigem Leibe|gender=m|specialcase_entity=nonfact)))
+387	390	ich	(mention_id=29|references=(entity=(entity_id=figur_0028|fullname=Mann von riesigem Leibe|gender=m|specialcase_entity=nonfact)))
 388	391	doch	
 389	392	ein	
 390	393	schmales	
 391	394	,	
 392	395	schmächtiges	
-393	396	Knäblein	(mention_id=32|references=(entity=(entity_id=figur_0019|fullname=Knäblein|gender=m|specialcase_entity=nonfact)))
+393	396	Knäblein	(mention_id=30|references=(entity=(entity_id=figur_0018|fullname=Knäblein|gender=m|specialcase_entity=nonfact)))
 394	397	!	
-395	398	Du	(mention_id=33|references=(entity=(entity_id=figur_0019|fullname=Knäblein|gender=m|specialcase_entity=nonfact)))
+395	398	Du	(mention_id=31|references=(entity=(entity_id=figur_0018|fullname=Knäblein|gender=m|specialcase_entity=nonfact)))
 396	399	irrst	
-397	400	dich	(mention_id=34|references=(entity=(entity_id=figur_0029|fullname=Mann von riesigem Leibe|gender=m|specialcase_entity=nonfact)))
+397	400	dich	(mention_id=32|references=(entity=(entity_id=figur_0028|fullname=Mann von riesigem Leibe|gender=m|specialcase_entity=nonfact)))
 398	401	,	
 399	402	antwortete	
-400	403	dieses	(mention_id=35|references=(entity=(entity_id=figur_0019|fullname=Knäblein|gender=m|specialcase_entity=nonfact)))
+400	403	dieses	(mention_id=33|references=(entity=(entity_id=figur_0018|fullname=Knäblein|gender=m|specialcase_entity=nonfact)))
 401	404	,	
 402	405	Himmel	
 403	406	und	
 404	407	Erde	
 405	408	trägst	
-406	409	du	(mention_id=36|references=(entity=(entity_id=figur_0019|fullname=Knäblein|gender=m|specialcase_entity=nonfact)))
+406	409	du	(mention_id=34|references=(entity=(entity_id=figur_0018|fullname=Knäblein|gender=m|specialcase_entity=nonfact)))
 407	410	auf	
-408	411	deinen	(mention_id=37|references=(entity=(entity_id=figur_0029|fullname=Mann von riesigem Leibe|gender=m|specialcase_entity=nonfact)))
+408	411	deinen	(mention_id=35|references=(entity=(entity_id=figur_0028|fullname=Mann von riesigem Leibe|gender=m|specialcase_entity=nonfact)))
 409	412	Schultern	
 410	413	.	
 411	414	—	
 412	415	Darf	
-413	416	ich	(mention_id=38|references=(entity=(entity_id=figur_0042|fullname=Sprecher|gender=m)))
+413	416	ich	(mention_id=36|references=(entity=(entity_id=figur_0039|fullname=Sprecher|gender=m)))
 414	417	dieser	
 415	418	Legende	
 416	419	nicht	
@@ -420,21 +420,21 @@
 418	421	gedenken	
 419	422	am	
 420	423	Bord	
-421	424	meines	(mention_id=39|references=(entity=(entity_id=figur_0042|fullname=Sprecher|gender=m)))
+421	424	meines	(mention_id=37|references=(entity=(entity_id=figur_0039|fullname=Sprecher|gender=m)))
 422	425	Auswandererschiffes	
 423	426	?	
 424	427	Der	
 425	428	große	
-426	429	Christoph	(mention_id=40|references=(entity=(entity_id=figur_0006|fullname=Christoph|gender=m)))
+426	429	Christoph	(mention_id=38|references=(entity=(entity_id=figur_0005|fullname=Christoph|gender=m)))
 427	430	sind	
-428	431	wir	(mention_id=41|references=(entity=(entity_id=figur_0042|fullname=Sprecher|gender=m)),(entity=(entity_id=generic_0008|fullname=Menschheit|gender=u|specialcase_entity=generic)))
+428	431	wir	(mention_id=39|references=(entity=(entity_id=figur_0039|fullname=Sprecher|gender=m)),(entity=(entity_id=generic_0008|fullname=Menschheit|gender=u|specialcase_entity=generic)))
 429	432	,	
 430	433	die	
 431	434	alte	
 432	435	Weltgeschichte	
 433	436	;	
 434	437	auf	
-435	438	unsern	(mention_id=42|references=(entity=(entity_id=figur_0042|fullname=Sprecher|gender=m)),(entity=(entity_id=generic_0009|fullname=Menschheit|gender=u|specialcase_entity=generic)))
+435	438	unsern	(mention_id=40|references=(entity=(entity_id=figur_0039|fullname=Sprecher|gender=m)),(entity=(entity_id=generic_0009|fullname=Menschheit|gender=u|specialcase_entity=generic)))
 436	439	Schultern	
 437	440	stehst	
 438	441	du	
@@ -442,7 +442,7 @@
 440	443	Amerika	
 441	444	,	
 442	445	das	
-443	446	wir	(mention_id=43|references=(entity=(entity_id=figur_0042|fullname=Sprecher|gender=m)),(entity=(entity_id=generic_0010|fullname=Menschheit|gender=u|specialcase_entity=generic)))
+443	446	wir	(mention_id=41|references=(entity=(entity_id=figur_0039|fullname=Sprecher|gender=m)),(entity=(entity_id=generic_0010|fullname=Menschheit|gender=u|specialcase_entity=generic)))
 444	447	in	
 445	448	kleinsten	
 446	449	Anfängen	
@@ -455,7 +455,7 @@
 453	456	aber	
 454	457	wundergleich	
 455	458	überflügelt	
-456	459	uns	(mention_id=44|references=(entity=(entity_id=figur_0042|fullname=Sprecher|gender=m)),(entity=(entity_id=generic_0011|fullname=Menschheit|gender=u|specialcase_entity=generic)))
+456	459	uns	(mention_id=42|references=(entity=(entity_id=figur_0039|fullname=Sprecher|gender=m)),(entity=(entity_id=generic_0011|fullname=Menschheit|gender=u|specialcase_entity=generic)))
 457	460	dein	
 458	461	Gewicht	
 459	462	,	
@@ -468,7 +468,7 @@
 466	469	Heiland	
 467	470	,	
 468	471	der	
-469	472	uns	(mention_id=45|references=(entity=(entity_id=figur_0042|fullname=Sprecher|gender=m)),(entity=(entity_id=generic_0012|fullname=Menschheit|gender=u|specialcase_entity=generic)))
+469	472	uns	(mention_id=43|references=(entity=(entity_id=figur_0039|fullname=Sprecher|gender=m)),(entity=(entity_id=generic_0012|fullname=Menschheit|gender=u|specialcase_entity=generic)))
 470	473	einst	
 471	474	Alle	
 472	475	erlösen	
@@ -483,7 +483,7 @@
 481	484	sterben	
 482	485	brauchst	
 483	486	für	
-484	487	uns	(mention_id=46|references=(entity=(entity_id=figur_0042|fullname=Sprecher|gender=m)),(entity=(entity_id=generic_0013|fullname=Menschheit|gender=u|specialcase_entity=generic)))
+484	487	uns	(mention_id=44|references=(entity=(entity_id=figur_0039|fullname=Sprecher|gender=m)),(entity=(entity_id=generic_0013|fullname=Menschheit|gender=u|specialcase_entity=generic)))
 485	488	,	
 486	489	daß	
 487	490	du	
@@ -498,11 +498,11 @@
 496	499	leben	
 497	500	!	
 498	501	Zurück	
-499	502	ihr	(mention_id=47|references=(entity=(entity_id=generic_0016|fullname=Tragiker|gender=u|specialcase_entity=generic)))
-500	503	Tragiker	(mention_id=48|references=(entity=(entity_id=generic_0017|fullname=Tragiker|gender=u|specialcase_entity=generic)))
+499	502	ihr	(mention_id=45|references=(entity=(entity_id=generic_0016|fullname=Tragiker|gender=u|specialcase_entity=generic)))
+500	503	Tragiker	(mention_id=46|references=(entity=(entity_id=generic_0017|fullname=Tragiker|gender=u|specialcase_entity=generic)))
 501	504	,	
-502	505	die	(mention_id=49|references=(entity=(entity_id=generic_0018|fullname=Tragiker|gender=u|specialcase_entity=generic)))
-503	506	ihr	(mention_id=50|references=(entity=(entity_id=generic_0019|fullname=Tragiker|gender=u|specialcase_entity=generic)))
+502	505	die	(mention_id=47|references=(entity=(entity_id=generic_0018|fullname=Tragiker|gender=u|specialcase_entity=generic)))
+503	506	ihr	(mention_id=48|references=(entity=(entity_id=generic_0019|fullname=Tragiker|gender=u|specialcase_entity=generic)))
 504	507	den	
 505	508	Angstschweiß	
 506	509	,	
@@ -518,7 +518,7 @@
 516	519	den	
 517	520	goldnen	
 518	521	Schalen	
-519	522	eurer	(mention_id=51|references=(entity=(entity_id=generic_0020|fullname=Tragiker|gender=u|specialcase_entity=generic)))
+519	522	eurer	(mention_id=49|references=(entity=(entity_id=generic_0020|fullname=Tragiker|gender=u|specialcase_entity=generic)))
 520	523	Verse	
 521	524	sammelt	
 522	525	;	
@@ -526,7 +526,7 @@
 524	527	füllen	
 525	528	sich	
 526	529	nicht	
-527	530	eure	(mention_id=52|references=(entity=(entity_id=generic_0021|fullname=Tragiker|gender=u|specialcase_entity=generic)))
+527	530	eure	(mention_id=50|references=(entity=(entity_id=generic_0021|fullname=Tragiker|gender=u|specialcase_entity=generic)))
 528	531	Schalen	
 529	532	.	
 530	533	Nach	
@@ -540,9 +540,9 @@
 538	541	spricht	
 539	542	man	
 540	543	den	
-541	544	Besten	(mention_id=53|references=(entity=(entity_id=generic_0022|fullname=die Besten|gender=u|specialcase_entity=generic)))
+541	544	Besten	(mention_id=51|references=(entity=(entity_id=generic_0022|fullname=die Besten|gender=u|specialcase_entity=generic)))
 542	545	und	
-543	546	Tugendhaftesten	(mention_id=54|references=(entity=(entity_id=generic_0024|fullname=die Tugendhaftesten|gender=u|specialcase_entity=generic)))
+543	546	Tugendhaftesten	(mention_id=52|references=(entity=(entity_id=generic_0024|fullname=die Tugendhaftesten|gender=u|specialcase_entity=generic)))
 544	547	die	
 545	548	Todesstrafe	
 546	549	zu	
@@ -550,9 +550,9 @@
 548	551	—	
 549	552	hier	
 550	553	werden	
-551	554	sie	(mention_id=55|references=(entity=(entity_id=generic_0023|fullname=die Besten|gender=u|specialcase_entity=generic)),(entity=(entity_id=generic_0025|fullname=die Tugendhaftesten|gender=u|specialcase_entity=generic)))
+551	554	sie	(mention_id=53|references=(entity=(entity_id=generic_0023|fullname=die Besten|gender=u|specialcase_entity=generic)),(entity=(entity_id=generic_0025|fullname=die Tugendhaftesten|gender=u|specialcase_entity=generic)))
 552	555	zu	
-553	556	Präsidenten	(mention_id=56|references=(entity=(entity_id=figur_0035|fullname=Präsidenten|gender=u|specialcase_entity=generic)))
+553	556	Präsidenten	(mention_id=54|references=(entity=(entity_id=figur_0033|fullname=Präsidenten|gender=m|specialcase_entity=generic)))
 554	557	erwählt	
 555	558	!	
 556	559	“	
@@ -588,10 +588,10 @@
 586	589	an	
 587	590	.	
 588	591	Der	
-589	592	König	(mention_id=57|references=(entity=(entity_id=figur_0021|fullname=König|gender=m|specialcase_entity=generic)))
+589	592	König	(mention_id=55|references=(entity=(entity_id=figur_0020|fullname=König|gender=m|specialcase_entity=generic)))
 590	593	und	
 591	594	der	
-592	595	Hohepriester	(mention_id=58|references=(entity=(entity_id=figur_0015|fullname=Hohepriester|gender=m|specialcase_entity=generic)))
+592	595	Hohepriester	(mention_id=56|references=(entity=(entity_id=figur_0014|fullname=Hohepriester|gender=m|specialcase_entity=generic)))
 593	596	wölbten	
 594	597	vor	
 595	598	Allem	
@@ -602,15 +602,15 @@
 600	603	Dann	
 601	604	kamen	
 602	605	die	
-603	606	Vasallen	(mention_id=59|references=(entity=(entity_id=generic_0026|fullname=Vasallen|gender=u|specialcase_entity=generic)))
+603	606	Vasallen	(mention_id=57|references=(entity=(entity_id=generic_0026|fullname=Vasallen|gender=u|specialcase_entity=generic)))
 604	607	,	
 605	608	die	
-606	609	Ritter	(mention_id=60|references=(entity=(entity_id=generic_0028|fullname=Ritter|gender=u|specialcase_entity=generic)))
+606	609	Ritter	(mention_id=58|references=(entity=(entity_id=generic_0028|fullname=Ritter|gender=u|specialcase_entity=generic)))
 607	610	und	
-608	611	Krieger	(mention_id=61|references=(entity=(entity_id=generic_0030|fullname=Krieger|gender=u|specialcase_entity=generic)))
+608	611	Krieger	(mention_id=59|references=(entity=(entity_id=generic_0030|fullname=Krieger|gender=u|specialcase_entity=generic)))
 609	612	und	
 610	613	stellten	
-611	614	ihre	(mention_id=62|references=(entity=(entity_id=generic_0027|fullname=Vasallen|gender=u|specialcase_entity=generic)),(entity=(entity_id=generic_0029|fullname=Ritter|gender=u|specialcase_entity=generic)),(entity=(entity_id=generic_0031|fullname=Krieger|gender=u|specialcase_entity=generic)))
+611	614	ihre	(mention_id=60|references=(entity=(entity_id=generic_0027|fullname=Vasallen|gender=u|specialcase_entity=generic)),(entity=(entity_id=generic_0029|fullname=Ritter|gender=u|specialcase_entity=generic)),(entity=(entity_id=generic_0031|fullname=Krieger|gender=u|specialcase_entity=generic)))
 612	615	Säulen	
 613	616	darunter	
 614	617	.	
@@ -619,8 +619,8 @@
 617	620	Säulen	
 618	621	setzte	
 619	622	das	
-620	623	Bürgerthum	(mention_id=63|references=(entity=(entity_id=generic_0032|fullname=Bürgerthum|gender=u|specialcase_entity=generic)))
-621	624	seine	(mention_id=64|references=(entity=(entity_id=generic_0033|fullname=Bürgerthum|gender=u|specialcase_entity=generic)))
+620	623	Bürgerthum	(mention_id=61|references=(entity=(entity_id=generic_0032|fullname=Bürgerthum|gender=u|specialcase_entity=generic)))
+621	624	seine	(mention_id=62|references=(entity=(entity_id=generic_0033|fullname=Bürgerthum|gender=u|specialcase_entity=generic)))
 622	625	Sockel	
 623	626	.	
 624	627	Vom	
@@ -631,17 +631,17 @@
 629	632	Gebäude	
 630	633	.	
 631	634	Die	
-632	635	Sudras	(mention_id=65|references=(entity=(entity_id=figur_0043|fullname=Sudras|gender=u|specialcase_entity=generic,group)))
+632	635	Sudras	(mention_id=63|references=(entity=(entity_id=figur_0040|fullname=Sudras|gender=u|specialcase_entity=generic,group)))
 633	636	,	
 634	637	die	
-635	638	Pariahs	(mention_id=66|references=(entity=(entity_id=figur_0034|fullname=Pariahs|gender=u|specialcase_entity=generic,group)))
+635	638	Pariahs	(mention_id=64|references=(entity=(entity_id=figur_0032|fullname=Pariahs|gender=u|specialcase_entity=generic,group)))
 636	639	,	
 637	640	die	
-638	641	Fellahs	(mention_id=67|references=(entity=(entity_id=figur_0009|fullname=Fellahs|gender=u)))
+638	641	Fellahs	(mention_id=65|references=(entity=(entity_id=figur_0008|fullname=Fellahs|gender=u)))
 639	642	,	
 640	643	die	
 641	644	leibeigenen	
-642	645	Bauern	(mention_id=68|references=(entity=(entity_id=figur_0054|fullname=leibeigene Bauern|gender=u)))
+642	645	Bauern	(mention_id=66|references=(entity=(entity_id=figur_0051|fullname=leibeigene Bauern|gender=u)))
 643	646	,	
 644	647	—	
 645	648	sie	
@@ -728,7 +728,7 @@
 726	729	„	
 727	730	So	
 728	731	werd'	
-729	732	ich	(mention_id=69|references=(entity=(entity_id=figur_0042|fullname=Sprecher|gender=m)))
+729	732	ich	(mention_id=67|references=(entity=(entity_id=figur_0039|fullname=Sprecher|gender=m)))
 730	733	bewohnen	
 731	734	ein	
 732	735	festes	
@@ -751,16 +751,16 @@
 749	752	vom	
 750	753	Volke	
 751	754	.	
-752	755	Marquis	(mention_id=70|references=(entity=(entity_id=figur_0030|fullname=Marquis Posa|gender=m)))
-753	756	Posa	(mention_id=70|references=(entity=(entity_id=figur_0030|fullname=Marquis Posa|gender=m)))
+752	755	Marquis	(mention_id=68|references=(entity=(entity_id=figur_0029|fullname=Marquis Posa|gender=m)))
+753	756	Posa	(mention_id=68|references=(entity=(entity_id=figur_0029|fullname=Marquis Posa|gender=m)))
 754	757	sans	
 755	758	phrase	
 756	759	ist	
 757	760	der	
-758	761	Hausherr	(mention_id=71|references=(entity=(entity_id=figur_0030|fullname=Marquis Posa|gender=m)))
+758	761	Hausherr	(mention_id=69|references=(entity=(entity_id=figur_0029|fullname=Marquis Posa|gender=m)))
 759	762	darin	
 760	763	.	
-761	764	Ich	(mention_id=72|references=(entity=(entity_id=figur_0042|fullname=Sprecher|gender=m)))
+761	764	Ich	(mention_id=70|references=(entity=(entity_id=figur_0039|fullname=Sprecher|gender=m)))
 762	765	trete	
 763	766	ein	
 764	767	,	
@@ -771,18 +771,18 @@
 769	772	schauernd	
 770	773	den	
 771	774	erschossenen	
-772	775	Freund	(mention_id=73|references=(entity=(entity_id=figur_0030|fullname=Marquis Posa|gender=m)))
+772	775	Freund	(mention_id=71|references=(entity=(entity_id=figur_0029|fullname=Marquis Posa|gender=m)))
 773	776	.	
-774	777	Er	(mention_id=74|references=(entity=(entity_id=figur_0030|fullname=Marquis Posa|gender=m)))
+774	777	Er	(mention_id=72|references=(entity=(entity_id=figur_0029|fullname=Marquis Posa|gender=m)))
 775	778	lächelt	
 776	779	.	
 777	780	Verwundere	
-778	781	dich	(mention_id=75|references=(entity=(entity_id=figur_0042|fullname=Sprecher|gender=m)))
+778	781	dich	(mention_id=73|references=(entity=(entity_id=figur_0039|fullname=Sprecher|gender=m)))
 779	782	nicht	
 780	783	,	
-781	784	Bruder	(mention_id=76|references=(entity=(entity_id=figur_0042|fullname=Sprecher|gender=m)))
+781	784	Bruder	(mention_id=74|references=(entity=(entity_id=figur_0039|fullname=Sprecher|gender=m)))
 782	785	,	
-783	786	mich	(mention_id=77|references=(entity=(entity_id=figur_0030|fullname=Marquis Posa|gender=m)))
+783	786	mich	(mention_id=75|references=(entity=(entity_id=figur_0029|fullname=Marquis Posa|gender=m)))
 784	787	hier	
 785	788	im	
 786	789	Gedeihen	
@@ -793,7 +793,7 @@
 791	794	wußtest	
 792	795	ja	
 793	796	,	
-794	797	ich	(mention_id=78|references=(entity=(entity_id=figur_0030|fullname=Marquis Posa|gender=m)))
+794	797	ich	(mention_id=76|references=(entity=(entity_id=figur_0029|fullname=Marquis Posa|gender=m)))
 795	798	bin	
 796	799	unsterblich	
 797	800	.	
@@ -803,7 +803,7 @@
 801	804	—	
 802	805	traumhaft	
 803	806	fährt	
-804	807	er	(mention_id=79|references=(entity=(entity_id=figur_0030|fullname=Marquis Posa|gender=m)))
+804	807	er	(mention_id=77|references=(entity=(entity_id=figur_0029|fullname=Marquis Posa|gender=m)))
 805	808	sich	
 806	809	an	
 807	810	die	
@@ -825,9 +825,9 @@
 823	826	Jahrhundert	
 824	827	!	
 825	828	Lächeln	
-826	829	wir	(mention_id=80|references=(entity=(entity_id=figur_0042|fullname=Sprecher|gender=m)),(entity=(entity_id=figur_0030|fullname=Marquis Posa|gender=m)))
+826	829	wir	(mention_id=78|references=(entity=(entity_id=figur_0039|fullname=Sprecher|gender=m)),(entity=(entity_id=figur_0029|fullname=Marquis Posa|gender=m)))
 827	830	,	
-828	831	Freund	(mention_id=81|references=(entity=(entity_id=figur_0030|fullname=Marquis Posa|gender=m)))
+828	831	Freund	(mention_id=79|references=(entity=(entity_id=figur_0029|fullname=Marquis Posa|gender=m)))
 829	832	,	
 830	833	über	
 831	834	seine	
@@ -872,7 +872,7 @@
 870	873	für	
 871	874	den	
 872	875	Madrider	
-873	876	Staatsrath	(mention_id=82|references=(entity=(entity_id=figur_0026|fullname=Madrider Staatsrath|gender=m)))
+873	876	Staatsrath	(mention_id=80|references=(entity=(entity_id=figur_0025|fullname=Madrider Staatsrath|gender=m)))
 874	877	.	
 875	878	Nicht	
 876	879	wahr	
@@ -885,22 +885,22 @@
 883	886	,	
 884	887	und	
 885	888	die	
-886	889	Könige	(mention_id=83|references=(entity=(entity_id=generic_0034|fullname=Könige|gender=u|specialcase_entity=generic)))
+886	889	Könige	(mention_id=81|references=(entity=(entity_id=generic_0034|fullname=Könige|gender=u|specialcase_entity=generic)))
 887	890	sind	
 888	891	—	
 889	892	das	
-890	893	Menschenthum	(mention_id=84|references=(entity=(entity_id=generic_0014|fullname=Menschheit|gender=u|specialcase_entity=generic)))
+890	893	Menschenthum	(mention_id=82|references=(entity=(entity_id=generic_0014|fullname=Menschheit|gender=u|specialcase_entity=generic)))
 891	894	schreitet	
 892	895	doch	
 893	896	vorwärts	
 894	897	,	
 895	898	und	
 896	899	die	
-897	900	Könige	(mention_id=85|references=(entity=(entity_id=generic_0035|fullname=Könige|gender=u|specialcase_entity=generic)))
+897	900	Könige	(mention_id=83|references=(entity=(entity_id=generic_0035|fullname=Könige|gender=u|specialcase_entity=generic)))
 898	901	sind	
 899	902	—	
 900	903	sonderbare	
-901	904	Schwärmer	(mention_id=86|references=(entity=(entity_id=generic_0036|fullname=Könige|gender=u|specialcase_entity=generic)))
+901	904	Schwärmer	(mention_id=84|references=(entity=(entity_id=generic_0036|fullname=Könige|gender=u|specialcase_entity=generic)))
 902	905	!	
 903	906	Hier	
 904	907	zuckt	
@@ -910,7 +910,7 @@
 908	911	über	
 909	912	die	
 910	913	Ausführbarkeit	
-911	914	ihrer	(mention_id=87|references=(entity=(entity_id=generic_0037|fullname=Könige|gender=u|specialcase_entity=generic)))
+911	914	ihrer	(mention_id=85|references=(entity=(entity_id=generic_0037|fullname=Könige|gender=u|specialcase_entity=generic)))
 912	915	Träume	
 913	916	und	
 914	917	auf	
@@ -924,18 +924,18 @@
 922	925	praktisch	
 923	926	,	
 924	927	als	
-925	928	unsre	(mention_id=88|references=(entity=(entity_id=figur_0042|fullname=Sprecher|gender=m)),(entity=(entity_id=generic_0015|fullname=Menschheit|gender=u|specialcase_entity=generic)))
+925	928	unsre	(mention_id=86|references=(entity=(entity_id=figur_0039|fullname=Sprecher|gender=m)),(entity=(entity_id=generic_0015|fullname=Menschheit|gender=u|specialcase_entity=generic)))
 926	929	Ideale	
 927	930	.	
 928	931	—	
 929	932	Sei	
-930	933	mir	(mention_id=89|references=(entity=(entity_id=figur_0042|fullname=Sprecher|gender=m)))
+930	933	mir	(mention_id=87|references=(entity=(entity_id=figur_0039|fullname=Sprecher|gender=m)))
 931	934	willkommen	
 932	935	,	
 933	936	Freund	
 934	937	,	
 935	938	sei	
-936	939	mir	(mention_id=90|references=(entity=(entity_id=figur_0042|fullname=Sprecher|gender=m)))
+936	939	mir	(mention_id=88|references=(entity=(entity_id=figur_0039|fullname=Sprecher|gender=m)))
 937	940	willkommen	
 938	941	!	
 939	942	“	
@@ -949,7 +949,7 @@
 947	950	begrüßt	
 948	951	.	
 949	952	Ein	
-950	953	Mann	(mention_id=91|references=(entity=(entity_id=figur_0028|fullname=Mann von jugendlichem Alter|gender=u)))
+950	953	Mann	(mention_id=89|references=(entity=(entity_id=figur_0027|fullname=Mann von jugendlichem Alter|gender=m)))
 951	954	von	
 952	955	jugendlichem	
 953	956	Alter	
@@ -957,7 +957,7 @@
 955	958	auf	
 956	959	dem	
 957	960	Vordertheil	
-958	961	seines	(mention_id=92|references=(entity=(entity_id=figur_0028|fullname=Mann von jugendlichem Alter|gender=u)))
+958	961	seines	(mention_id=90|references=(entity=(entity_id=figur_0027|fullname=Mann von jugendlichem Alter|gender=m)))
 959	962	Schiffes	
 960	963	und	
 961	964	schaut	
@@ -967,7 +967,7 @@
 965	968	und	
 966	969	begeistertem	
 967	970	Blicke	
-968	971	sein	(mention_id=93|references=(entity=(entity_id=figur_0028|fullname=Mann von jugendlichem Alter|gender=u)))
+968	971	sein	(mention_id=91|references=(entity=(entity_id=figur_0027|fullname=Mann von jugendlichem Alter|gender=m)))
 969	972	großes	
 970	973	Gegenüber	
 971	974	:	
@@ -976,17 +976,17 @@
 974	977	Welt	
 975	978	.	
 976	979	In	
-977	980	seinem	(mention_id=94|references=(entity=(entity_id=figur_0028|fullname=Mann von jugendlichem Alter|gender=u)))
+977	980	seinem	(mention_id=92|references=(entity=(entity_id=figur_0027|fullname=Mann von jugendlichem Alter|gender=m)))
 978	981	Hymnus	
 979	982	steht	
-980	983	seine	(mention_id=95|references=(entity=(entity_id=figur_0028|fullname=Mann von jugendlichem Alter|gender=u)))
+980	983	seine	(mention_id=93|references=(entity=(entity_id=figur_0027|fullname=Mann von jugendlichem Alter|gender=m)))
 981	984	Gestalt	
 982	985	vor	
-983	986	uns	(mention_id=96|references=(entity=(entity_id=figur_0042|fullname=Sprecher|gender=m)),(entity=(entity_id=figur_0023|fullname=Lesende|gender=u|specialcase_entity=group)))
+983	986	uns	(mention_id=94|references=(entity=(entity_id=figur_0039|fullname=Sprecher|gender=m)),(entity=(entity_id=figur_0022|fullname=Lesende|gender=u|specialcase_entity=group)))
 984	987	,	
 985	988	kaum	
 986	989	brauchten	
-987	990	wir	(mention_id=97|references=(entity=(entity_id=figur_0042|fullname=Sprecher|gender=m)),(entity=(entity_id=figur_0023|fullname=Lesende|gender=u|specialcase_entity=group)))
+987	990	wir	(mention_id=95|references=(entity=(entity_id=figur_0039|fullname=Sprecher|gender=m)),(entity=(entity_id=figur_0022|fullname=Lesende|gender=u|specialcase_entity=group)))
 988	991	die	
 989	992	leibliche	
 990	993	zu	
@@ -1004,7 +1004,7 @@
 1002	1005	aus	
 1003	1006	.	
 1004	1007	Auf	
-1005	1008	seine	(mention_id=98|references=(entity=(entity_id=figur_0028|fullname=Mann von jugendlichem Alter|gender=u)))
+1005	1008	seine	(mention_id=96|references=(entity=(entity_id=figur_0027|fullname=Mann von jugendlichem Alter|gender=m)))
 1006	1009	Stirn	
 1007	1010	haben	
 1008	1011	die	
@@ -1015,7 +1015,7 @@
 1013	1016	Gedankens	
 1014	1017	gedrückt	
 1015	1018	,	
-1016	1019	sein	(mention_id=99|references=(entity=(entity_id=figur_0028|fullname=Mann von jugendlichem Alter|gender=u)))
+1016	1019	sein	(mention_id=97|references=(entity=(entity_id=figur_0027|fullname=Mann von jugendlichem Alter|gender=m)))
 1017	1020	Mienenspiel	
 1018	1021	ist	
 1019	1022	eine	
@@ -1028,20 +1028,20 @@
 1026	1029	Empfindungen	
 1027	1030	besaitet	
 1028	1031	.	
-1029	1032	Sein	(mention_id=100|references=(entity=(entity_id=figur_0028|fullname=Mann von jugendlichem Alter|gender=u)))
+1029	1032	Sein	(mention_id=98|references=(entity=(entity_id=figur_0027|fullname=Mann von jugendlichem Alter|gender=m)))
 1030	1033	Wuchs	
 1031	1034	,	
 1032	1035	mit	
-1033	1036	Winkelmann	(mention_id=101|references=(entity=(entity_id=figur_0047|fullname=Winkelmann|gender=m)))
+1033	1036	Winkelmann	(mention_id=99|references=(entity=(entity_id=figur_0044|fullname=Winkelmann|gender=m)))
 1034	1037	zu	
 1035	1038	reden	
 1036	1039	,	
-1037	1040	sein	(mention_id=102|references=(entity=(entity_id=figur_0028|fullname=Mann von jugendlichem Alter|gender=u)))
+1037	1040	sein	(mention_id=100|references=(entity=(entity_id=figur_0027|fullname=Mann von jugendlichem Alter|gender=m)))
 1038	1041	Stamm	
 1039	1042	ist	
 1040	1043	fein	
 1041	1044	,	
-1042	1045	wir	(mention_id=103|references=(entity=(entity_id=figur_0042|fullname=Sprecher|gender=m)),(entity=(entity_id=figur_0023|fullname=Lesende|gender=u|specialcase_entity=group)))
+1042	1045	wir	(mention_id=101|references=(entity=(entity_id=figur_0039|fullname=Sprecher|gender=m)),(entity=(entity_id=figur_0022|fullname=Lesende|gender=u|specialcase_entity=group)))
 1043	1046	möchten	
 1044	1047	sagen	
 1045	1048	artistisch	
@@ -1053,7 +1053,7 @@
 1051	1054	geht	
 1052	1055	auch	
 1053	1056	durch	
-1054	1057	seine	(mention_id=104|references=(entity=(entity_id=figur_0028|fullname=Mann von jugendlichem Alter|gender=u)))
+1054	1057	seine	(mention_id=102|references=(entity=(entity_id=figur_0027|fullname=Mann von jugendlichem Alter|gender=m)))
 1055	1058	Bekleidung	
 1056	1059	.	
 1057	1060	Sie	
@@ -1067,7 +1067,7 @@
 1065	1068	Negligé	
 1066	1069	des	
 1067	1070	abstract	
-1068	1071	Gebildeten	(mention_id=105|references=(entity=(entity_id=figur_0048|fullname=abstract Gebildeter|gender=m|specialcase_entity=generic)))
+1068	1071	Gebildeten	(mention_id=103|references=(entity=(entity_id=figur_0045|fullname=abstract Gebildeter|gender=m|specialcase_entity=generic)))
 1069	1072	.	
 1070	1073	Sie	
 1071	1074	verräth	
@@ -1076,10 +1076,10 @@
 1074	1077	Sie	
 1075	1078	stellt	
 1076	1079	eine	
-1077	1080	Persönlichkeit	(mention_id=106|references=(entity=(entity_id=figur_0028|fullname=Mann von jugendlichem Alter|gender=u)))
+1077	1080	Persönlichkeit	(mention_id=104|references=(entity=(entity_id=figur_0027|fullname=Mann von jugendlichem Alter|gender=m)))
 1078	1081	dar	
 1079	1082	,	
-1080	1083	welche	(mention_id=107|references=(entity=(entity_id=figur_0028|fullname=Mann von jugendlichem Alter|gender=u)))
+1080	1083	welche	(mention_id=105|references=(entity=(entity_id=figur_0027|fullname=Mann von jugendlichem Alter|gender=m)))
 1081	1084	über	
 1082	1085	die	
 1083	1086	Identität	
@@ -1100,7 +1100,7 @@
 1098	1101	ist	
 1099	1102	.	
 1100	1103	Der	
-1101	1104	Segler	(mention_id=108|references=(entity=(entity_id=figur_0028|fullname=Mann von jugendlichem Alter|gender=u)))
+1101	1104	Segler	(mention_id=106|references=(entity=(entity_id=figur_0027|fullname=Mann von jugendlichem Alter|gender=m)))
 1102	1105	passirt	
 1103	1106	die	
 1104	1107	Narrows	
@@ -1213,7 +1213,7 @@
 1211	1214	.	
 1212	1215	Der	
 1213	1216	hohläugige	
-1214	1217	Seekranke	(mention_id=109|references=(entity=(entity_id=figur_0041|fullname=Seekranker|gender=m)))
+1214	1217	Seekranke	(mention_id=107|references=(entity=(entity_id=figur_0038|fullname=Seekranker|gender=m)))
 1215	1218	behauptet's	
 1216	1219	mit	
 1217	1220	freuderothem	
@@ -1221,7 +1221,7 @@
 1219	1222	,	
 1220	1223	der	
 1221	1224	vielgereiste	
-1222	1225	Tourist	(mention_id=110|references=(entity=(entity_id=figur_0056|fullname=vielgereister Tourist|gender=m)))
+1222	1225	Tourist	(mention_id=108|references=(entity=(entity_id=figur_0053|fullname=vielgereister Tourist|gender=m)))
 1223	1226	zuckt	
 1224	1227	die	
 1225	1228	abgehärtete	
@@ -1229,7 +1229,7 @@
 1227	1230	Achsel	
 1228	1231	.	
 1229	1232	Dem	
-1230	1233	Dritten	(mention_id=111|references=(entity=(entity_id=figur_0008|fullname=Dritter auf dem Schiff|gender=m)))
+1230	1233	Dritten	(mention_id=109|references=(entity=(entity_id=figur_0007|fullname=Dritter auf dem Schiff|gender=m)))
 1231	1234	liegt	
 1232	1235	die	
 1233	1236	Stadt	
@@ -1242,7 +1242,7 @@
 1240	1243	Relief	
 1241	1244	.	
 1242	1245	Der	
-1243	1246	Vierte	(mention_id=112|references=(entity=(entity_id=figur_0046|fullname=Vierter auf dem Schiff|gender=nb)))
+1243	1246	Vierte	(mention_id=110|references=(entity=(entity_id=figur_0043|fullname=Vierter auf dem Schiff|gender=nb)))
 1244	1247	stellt	
 1245	1248	auch	
 1246	1249	Hoboken	
@@ -1271,7 +1271,7 @@
 1269	1272	Bild	
 1270	1273	.	
 1271	1274	Ein	
-1272	1275	Anderer	(mention_id=113|references=(entity=(entity_id=figur_0004|fullname=Anderer auf dem Schiff|gender=m)))
+1272	1275	Anderer	(mention_id=111|references=(entity=(entity_id=figur_0003|fullname=Anderer auf dem Schiff|gender=m)))
 1273	1276	verschiebt	
 1274	1277	Berg	
 1275	1278	und	
@@ -1290,12 +1290,12 @@
 1288	1291	Vesuv	
 1289	1292	ab	
 1290	1293	.	
-1291	1294	Unser	(mention_id=114|references=(entity=(entity_id=figur_0042|fullname=Sprecher|gender=m)),(entity=(entity_id=figur_0023|fullname=Lesende|gender=u|specialcase_entity=group)))
-1292	1295	Hochwächter	(mention_id=115|references=(entity=(entity_id=figur_0014|fullname=Hochwächter|gender=m)))
+1291	1294	Unser	(mention_id=112|references=(entity=(entity_id=figur_0039|fullname=Sprecher|gender=m)),(entity=(entity_id=figur_0022|fullname=Lesende|gender=u|specialcase_entity=group)))
+1292	1295	Hochwächter	(mention_id=113|references=(entity=(entity_id=figur_0013|fullname=Hochwächter|gender=m)))
 1293	1296	im	
 1294	1297	Vorder-Castell	
 1295	1298	wendet	
-1296	1299	sich	(mention_id=116|references=(entity=(entity_id=figur_0014|fullname=Hochwächter|gender=m)))
+1296	1299	sich	(mention_id=114|references=(entity=(entity_id=figur_0013|fullname=Hochwächter|gender=m)))
 1297	1300	um	
 1298	1301	und	
 1299	1302	spricht	
@@ -1304,8 +1304,8 @@
 1302	1305	Verdeck	
 1303	1306	hin	
 1304	1307	:	
-1305	1308	Meine	(mention_id=117|references=(entity=(entity_id=figur_0014|fullname=Hochwächter|gender=m)))
-1306	1309	Herren	(mention_id=118|references=(entity=(entity_id=figur_0013|fullname=Herren auf dem Schiff|gender=m|specialcase_entity=group)))
+1305	1308	Meine	(mention_id=115|references=(entity=(entity_id=figur_0013|fullname=Hochwächter|gender=m)))
+1306	1309	Herren	(mention_id=116|references=(entity=(entity_id=figur_0012|fullname=Herren auf dem Schiff|gender=m|specialcase_entity=group)))
 1307	1310	,	
 1308	1311	wenn	
 1309	1312	es	
@@ -1318,7 +1318,7 @@
 1316	1319	,	
 1317	1320	so	
 1318	1321	wollen	
-1319	1322	wir	(mention_id=119|references=(entity=(entity_id=figur_0014|fullname=Hochwächter|gender=m)),(entity=(entity_id=figur_0013|fullname=Herren auf dem Schiff|gender=m|specialcase_entity=group)))
+1319	1322	wir	(mention_id=117|references=(entity=(entity_id=figur_0013|fullname=Hochwächter|gender=m)),(entity=(entity_id=figur_0012|fullname=Herren auf dem Schiff|gender=m|specialcase_entity=group)))
 1320	1323	sagen	
 1321	1324	:	
 1322	1325	Newyork	
@@ -1337,15 +1337,15 @@
 1335	1338	dem	
 1336	1339	Wortspiele	
 1337	1340	des	
-1338	1341	Mittlers	(mention_id=120|references=(entity=(entity_id=figur_0014|fullname=Hochwächter|gender=m)))
+1338	1341	Mittlers	(mention_id=118|references=(entity=(entity_id=figur_0013|fullname=Hochwächter|gender=m)))
 1339	1342	;	
-1340	1343	dieser	(mention_id=121|references=(entity=(entity_id=figur_0014|fullname=Hochwächter|gender=m)))
+1340	1343	dieser	(mention_id=119|references=(entity=(entity_id=figur_0013|fullname=Hochwächter|gender=m)))
 1341	1344	vereinsamt	
-1342	1345	sich	(mention_id=122|references=(entity=(entity_id=figur_0014|fullname=Hochwächter|gender=m)))
+1342	1345	sich	(mention_id=120|references=(entity=(entity_id=figur_0013|fullname=Hochwächter|gender=m)))
 1343	1346	wieder	
 1344	1347	und	
 1345	1348	legt	
-1346	1349	sein	(mention_id=123|references=(entity=(entity_id=figur_0014|fullname=Hochwächter|gender=m)))
+1346	1349	sein	(mention_id=121|references=(entity=(entity_id=figur_0013|fullname=Hochwächter|gender=m)))
 1347	1350	Auge	
 1348	1351	betrachtungsvoll	
 1349	1352	auf	
@@ -1453,9 +1453,9 @@
 1451	1454	das	
 1452	1455	Gros	
 1453	1456	der	
-1454	1457	Menschenaugen	(mention_id=124|references=(entity=(entity_id=generic_0038|fullname=die meisten Menschenaugen|gender=u|specialcase_entity=generic)|specialcase_reference=part))
+1454	1457	Menschenaugen	(mention_id=122|references=(entity=(entity_id=generic_0038|fullname=die meisten Menschenaugen|gender=u|specialcase_entity=generic)|specialcase_reference=part))
 1455	1458	.	
-1456	1459	Sie	(mention_id=125|references=(entity=(entity_id=generic_0039|fullname=die meisten Menschenaugen|gender=u|specialcase_entity=generic)))
+1456	1459	Sie	(mention_id=123|references=(entity=(entity_id=generic_0039|fullname=die meisten Menschenaugen|gender=u|specialcase_entity=generic)))
 1457	1460	sehen	
 1458	1461	die	
 1459	1462	Landschaft	
@@ -1471,13 +1471,13 @@
 1469	1472	ihnen	
 1470	1473	allzuoft	
 1471	1474	.	
-1472	1475	Unser	(mention_id=126|references=(entity=(entity_id=figur_0042|fullname=Sprecher|gender=m)),(entity=(entity_id=figur_0023|fullname=Lesende|gender=u|specialcase_entity=group)))
-1473	1476	Ankömmling	(mention_id=127|references=(entity=(entity_id=figur_0028|fullname=Mann von jugendlichem Alter|gender=u)))
+1472	1475	Unser	(mention_id=124|references=(entity=(entity_id=figur_0039|fullname=Sprecher|gender=m)),(entity=(entity_id=figur_0022|fullname=Lesende|gender=u|specialcase_entity=group)))
+1473	1476	Ankömmling	(mention_id=125|references=(entity=(entity_id=figur_0027|fullname=Mann von jugendlichem Alter|gender=m)))
 1474	1477	enpfindet	
 1475	1478	ihn	
 1476	1479	voll	
 1477	1480	.	
-1478	1481	Sein	(mention_id=128|references=(entity=(entity_id=figur_0028|fullname=Mann von jugendlichem Alter|gender=u)))
+1478	1481	Sein	(mention_id=126|references=(entity=(entity_id=figur_0027|fullname=Mann von jugendlichem Alter|gender=m)))
 1479	1482	Auge	
 1480	1483	ist	
 1481	1484	wie	
@@ -1491,11 +1491,11 @@
 1489	1492	.	
 1490	1493	Es	
 1491	1494	ist	
-1492	1495	ihm	(mention_id=129|references=(entity=(entity_id=figur_0028|fullname=Mann von jugendlichem Alter|gender=u)))
+1492	1495	ihm	(mention_id=127|references=(entity=(entity_id=figur_0027|fullname=Mann von jugendlichem Alter|gender=m)))
 1493	1496	,	
 1494	1497	als	
 1495	1498	sähe	
-1496	1499	er	(mention_id=130|references=(entity=(entity_id=figur_0028|fullname=Mann von jugendlichem Alter|gender=u)))
+1496	1499	er	(mention_id=128|references=(entity=(entity_id=figur_0027|fullname=Mann von jugendlichem Alter|gender=m)))
 1497	1500	in	
 1498	1501	der	
 1499	1502	neuen	
@@ -1518,7 +1518,7 @@
 1516	1519	deutend	
 1517	1520	,	
 1518	1521	ruft	
-1519	1522	er	(mention_id=131|references=(entity=(entity_id=figur_0028|fullname=Mann von jugendlichem Alter|gender=u)))
+1519	1522	er	(mention_id=129|references=(entity=(entity_id=figur_0027|fullname=Mann von jugendlichem Alter|gender=m)))
 1520	1523	aus	
 1521	1524	:	
 1522	1525	Ja	
@@ -1644,22 +1644,22 @@
 1642	1645	ausschwärmt	
 1643	1646	.	
 1644	1647	Die	
-1645	1648	Repporters	(mention_id=132|references=(entity=(entity_id=figur_0037|fullname=Repporters|gender=m|specialcase_entity=group)))
+1645	1648	Repporters	(mention_id=130|references=(entity=(entity_id=figur_0035|fullname=Repporters|gender=m|specialcase_entity=group)))
 1646	1649	der	
 1647	1650	Zeitungen	
 1648	1651	sind's	
 1649	1652	,	
-1650	1653	welche	(mention_id=133|references=(entity=(entity_id=figur_0037|fullname=Repporters|gender=m|specialcase_entity=group)))
+1650	1653	welche	(mention_id=131|references=(entity=(entity_id=figur_0035|fullname=Repporters|gender=m|specialcase_entity=group)))
 1651	1654	meilenweit	
 1652	1655	den	
 1653	1656	einlaufenden	
-1654	1657	Schiffen	(mention_id=134|references=(entity=(entity_id=figur_0040|fullname=Schiffe|gender=u)))
+1654	1657	Schiffen	
 1655	1658	entgegenkommen	
 1656	1659	.	
-1657	1660	Sie	(mention_id=135|references=(entity=(entity_id=figur_0037|fullname=Repporters|gender=m|specialcase_entity=group)))
+1657	1660	Sie	(mention_id=132|references=(entity=(entity_id=figur_0035|fullname=Repporters|gender=m|specialcase_entity=group)))
 1658	1661	scheinen	
 1659	1662	die	
-1660	1663	Honneurs	(mention_id=136|references=(entity=(entity_id=figur_0016|fullname=Honneurs|gender=u)),(entity=(entity_id=figur_0037|fullname=Repporters|gender=m|specialcase_entity=group)))
+1660	1663	Honneurs	(mention_id=133|references=(entity=(entity_id=figur_0015|fullname=Honneurs|gender=m|specialcase_entity=generic,group)),(entity=(entity_id=figur_0035|fullname=Repporters|gender=m|specialcase_entity=group)))
 1661	1664	der	
 1662	1665	neuen	
 1663	1666	Welt	
@@ -1667,8 +1667,8 @@
 1665	1668	machen	
 1666	1669	,	
 1667	1670	den	
-1668	1671	Fremden	(mention_id=137|references=(entity=(entity_id=generic_0040|fullname=Fremde|gender=u|specialcase_entity=generic)))
-1669	1672	ihre	(mention_id=138|references=(entity=(entity_id=figur_0037|fullname=Repporters|gender=m|specialcase_entity=group)))
+1668	1671	Fremden	(mention_id=134|references=(entity=(entity_id=generic_0040|fullname=Fremde|gender=u|specialcase_entity=generic)))
+1669	1672	ihre	(mention_id=135|references=(entity=(entity_id=figur_0035|fullname=Repporters|gender=m|specialcase_entity=group)))
 1670	1673	Dienste	
 1671	1674	anzubieten	
 1672	1675	,	
@@ -1678,45 +1678,45 @@
 1676	1679	den	
 1677	1680	Zweck	
 1678	1681	,	
-1679	1682	sich	(mention_id=139|references=(entity=(entity_id=figur_0037|fullname=Repporters|gender=m|specialcase_entity=group)))
+1679	1682	sich	(mention_id=136|references=(entity=(entity_id=figur_0035|fullname=Repporters|gender=m|specialcase_entity=group)))
 1680	1683	selbst	
 1681	1684	allerlei	
 1682	1685	Seeberichte	
 1683	1686	und	
 1684	1687	Reisenotizen	
 1685	1688	von	
-1686	1689	ihnen	(mention_id=140|references=(entity=(entity_id=generic_0041|fullname=Fremde|gender=u|specialcase_entity=generic)))
+1686	1689	ihnen	(mention_id=137|references=(entity=(entity_id=generic_0041|fullname=Fremde|gender=u|specialcase_entity=generic)))
 1687	1690	einzusammeln	
 1688	1691	.	
 1689	1692	Weniger	
 1690	1693	artig	
 1691	1694	verhüllen	
-1692	1695	ihre	(mention_id=141|references=(entity=(entity_id=figur_0039|fullname=Runners|gender=m|specialcase_entity=group)),(entity=(entity_id=figur_0007|fullname=Clerks|gender=m|specialcase_entity=group)),(entity=(entity_id=figur_0027|fullname=Makler|gender=m|specialcase_entity=group)),(entity=(entity_id=figur_0001|fullname=Agenten|gender=m|specialcase_entity=group)),(entity=(entity_id=figur_0012|fullname=Gastwirthe|gender=m|specialcase_entity=group)))
+1692	1695	ihre	(mention_id=138|references=(entity=(entity_id=figur_0037|fullname=Runners|gender=m|specialcase_entity=group)),(entity=(entity_id=figur_0006|fullname=Clerks|gender=m|specialcase_entity=group)),(entity=(entity_id=figur_0026|fullname=Makler|gender=m|specialcase_entity=group)),(entity=(entity_id=figur_0001|fullname=Agenten|gender=m|specialcase_entity=group)),(entity=(entity_id=figur_0011|fullname=Gastwirthe|gender=m|specialcase_entity=group)))
 1693	1696	Honiggier	
 1694	1697	die	
-1695	1698	Runners	(mention_id=142|references=(entity=(entity_id=figur_0039|fullname=Runners|gender=m|specialcase_entity=group)))
+1695	1698	Runners	(mention_id=139|references=(entity=(entity_id=figur_0037|fullname=Runners|gender=m|specialcase_entity=group)))
 1696	1699	,	
 1697	1700	die	
-1698	1701	Clerks	(mention_id=143|references=(entity=(entity_id=figur_0007|fullname=Clerks|gender=m|specialcase_entity=group)))
+1698	1701	Clerks	(mention_id=140|references=(entity=(entity_id=figur_0006|fullname=Clerks|gender=m|specialcase_entity=group)))
 1699	1702	der	
-1700	1703	Makler	(mention_id=144|references=(entity=(entity_id=figur_0027|fullname=Makler|gender=m|specialcase_entity=group)))
+1700	1703	Makler	(mention_id=141|references=(entity=(entity_id=figur_0026|fullname=Makler|gender=m|specialcase_entity=group)))
 1701	1704	,	
 1702	1705	der	
-1703	1706	Agenten	(mention_id=145|references=(entity=(entity_id=figur_0001|fullname=Agenten|gender=m|specialcase_entity=group)))
+1703	1706	Agenten	(mention_id=142|references=(entity=(entity_id=figur_0001|fullname=Agenten|gender=m|specialcase_entity=group)))
 1704	1707	,	
 1705	1708	der	
-1706	1709	Gastwirthe	(mention_id=146|references=(entity=(entity_id=figur_0012|fullname=Gastwirthe|gender=m|specialcase_entity=group)))
+1706	1709	Gastwirthe	(mention_id=143|references=(entity=(entity_id=figur_0011|fullname=Gastwirthe|gender=m|specialcase_entity=group)))
 1707	1710	.	
 1708	1711	Zu	
 1709	1712	Ballen	
 1710	1713	und	
 1711	1714	Rießen	
 1712	1715	bombardiren	
-1713	1716	sie	(mention_id=147|references=(entity=(entity_id=figur_0039|fullname=Runners|gender=m|specialcase_entity=group)),(entity=(entity_id=figur_0007|fullname=Clerks|gender=m|specialcase_entity=group)),(entity=(entity_id=figur_0027|fullname=Makler|gender=m|specialcase_entity=group)),(entity=(entity_id=figur_0001|fullname=Agenten|gender=m|specialcase_entity=group)),(entity=(entity_id=figur_0012|fullname=Gastwirthe|gender=m|specialcase_entity=group)))
+1713	1716	sie	(mention_id=144|references=(entity=(entity_id=figur_0037|fullname=Runners|gender=m|specialcase_entity=group)),(entity=(entity_id=figur_0006|fullname=Clerks|gender=m|specialcase_entity=group)),(entity=(entity_id=figur_0026|fullname=Makler|gender=m|specialcase_entity=group)),(entity=(entity_id=figur_0001|fullname=Agenten|gender=m|specialcase_entity=group)),(entity=(entity_id=figur_0011|fullname=Gastwirthe|gender=m|specialcase_entity=group)))
 1714	1717	das	
 1715	1718	Schiff	
 1716	1719	mit	
-1717	1720	ihren	(mention_id=148|references=(entity=(entity_id=figur_0039|fullname=Runners|gender=m|specialcase_entity=group)),(entity=(entity_id=figur_0007|fullname=Clerks|gender=m|specialcase_entity=group)),(entity=(entity_id=figur_0027|fullname=Makler|gender=m|specialcase_entity=group)),(entity=(entity_id=figur_0001|fullname=Agenten|gender=m|specialcase_entity=group)),(entity=(entity_id=figur_0012|fullname=Gastwirthe|gender=m|specialcase_entity=group)))
+1717	1720	ihren	(mention_id=145|references=(entity=(entity_id=figur_0037|fullname=Runners|gender=m|specialcase_entity=group)),(entity=(entity_id=figur_0006|fullname=Clerks|gender=m|specialcase_entity=group)),(entity=(entity_id=figur_0026|fullname=Makler|gender=m|specialcase_entity=group)),(entity=(entity_id=figur_0001|fullname=Agenten|gender=m|specialcase_entity=group)),(entity=(entity_id=figur_0011|fullname=Gastwirthe|gender=m|specialcase_entity=group)))
 1718	1721	Annoncen	
 1719	1722	,	
 1720	1723	entern	
@@ -1729,7 +1729,7 @@
 1727	1730	in	
 1728	1731	die	
 1729	1732	Sclaverei	
-1730	1733	ihrer	(mention_id=149|references=(entity=(entity_id=figur_0039|fullname=Runners|gender=m|specialcase_entity=group)),(entity=(entity_id=figur_0007|fullname=Clerks|gender=m|specialcase_entity=group)),(entity=(entity_id=figur_0027|fullname=Makler|gender=m|specialcase_entity=group)),(entity=(entity_id=figur_0001|fullname=Agenten|gender=m|specialcase_entity=group)),(entity=(entity_id=figur_0012|fullname=Gastwirthe|gender=m|specialcase_entity=group)))
+1730	1733	ihrer	(mention_id=146|references=(entity=(entity_id=figur_0037|fullname=Runners|gender=m|specialcase_entity=group)),(entity=(entity_id=figur_0006|fullname=Clerks|gender=m|specialcase_entity=group)),(entity=(entity_id=figur_0026|fullname=Makler|gender=m|specialcase_entity=group)),(entity=(entity_id=figur_0001|fullname=Agenten|gender=m|specialcase_entity=group)),(entity=(entity_id=figur_0011|fullname=Gastwirthe|gender=m|specialcase_entity=group)))
 1731	1734	Firma	
 1732	1735	gerne	
 1733	1736	mit	
@@ -1781,21 +1781,21 @@
 1779	1782	Gasthaus	
 1780	1783	.	
 1781	1784	Auch	
-1782	1785	unserm	(mention_id=150|references=(entity=(entity_id=figur_0042|fullname=Sprecher|gender=m)),(entity=(entity_id=figur_0023|fullname=Lesende|gender=u|specialcase_entity=group)))
-1783	1786	Helden	(mention_id=151|references=(entity=(entity_id=figur_0028|fullname=Mann von jugendlichem Alter|gender=u)))
+1782	1785	unserm	(mention_id=147|references=(entity=(entity_id=figur_0039|fullname=Sprecher|gender=m)),(entity=(entity_id=figur_0022|fullname=Lesende|gender=u|specialcase_entity=group)))
+1783	1786	Helden	(mention_id=148|references=(entity=(entity_id=figur_0027|fullname=Mann von jugendlichem Alter|gender=m)))
 1784	1787	präsentirt	
 1785	1788	ein	
 1786	1789	geschäftssüchtiger	
-1787	1790	Runner	(mention_id=152|references=(entity=(entity_id=figur_0052|fullname=geschäftssüchtiger Runner|gender=m)))
+1787	1790	Runner	(mention_id=149|references=(entity=(entity_id=figur_0049|fullname=geschäftssüchtiger Runner|gender=m)))
 1788	1791	die	
 1789	1792	Karte	
-1790	1793	seines	(mention_id=153|references=(entity=(entity_id=figur_0052|fullname=geschäftssüchtiger Runner|gender=m)))
+1790	1793	seines	(mention_id=150|references=(entity=(entity_id=figur_0049|fullname=geschäftssüchtiger Runner|gender=m)))
 1791	1794	Hotels	
 1792	1795	.	
 1793	1796	Aber	
-1794	1797	er	(mention_id=154|references=(entity=(entity_id=figur_0028|fullname=Mann von jugendlichem Alter|gender=u)))
+1794	1797	er	(mention_id=151|references=(entity=(entity_id=figur_0027|fullname=Mann von jugendlichem Alter|gender=m)))
 1795	1798	bringt	
-1796	1799	seine	(mention_id=155|references=(entity=(entity_id=figur_0028|fullname=Mann von jugendlichem Alter|gender=u)))
+1796	1799	seine	(mention_id=152|references=(entity=(entity_id=figur_0027|fullname=Mann von jugendlichem Alter|gender=m)))
 1797	1800	eigene	
 1798	1801	Adresse	
 1799	1802	mit	
@@ -1806,8 +1806,8 @@
 1804	1807	enthoben	
 1805	1808	,	
 1806	1809	wendet	
-1807	1810	er	(mention_id=156|references=(entity=(entity_id=figur_0028|fullname=Mann von jugendlichem Alter|gender=u)))
-1808	1811	sich	(mention_id=157|references=(entity=(entity_id=figur_0028|fullname=Mann von jugendlichem Alter|gender=u)))
+1807	1810	er	(mention_id=153|references=(entity=(entity_id=figur_0027|fullname=Mann von jugendlichem Alter|gender=m)))
+1808	1811	sich	(mention_id=154|references=(entity=(entity_id=figur_0027|fullname=Mann von jugendlichem Alter|gender=m)))
 1809	1812	von	
 1810	1813	dem	
 1811	1814	Beschwerlichen	
@@ -1820,25 +1820,25 @@
 1818	1821	Schiffes	
 1819	1822	unterhält	
 1820	1823	jetzt	
-1821	1824	seine	(mention_id=158|references=(entity=(entity_id=figur_0028|fullname=Mann von jugendlichem Alter|gender=u)))
+1821	1824	seine	(mention_id=155|references=(entity=(entity_id=figur_0027|fullname=Mann von jugendlichem Alter|gender=m)))
 1822	1825	Aufmerksamkeit	
 1823	1826	.	
-1824	1827	Er	(mention_id=159|references=(entity=(entity_id=figur_0028|fullname=Mann von jugendlichem Alter|gender=u)))
+1824	1827	Er	(mention_id=156|references=(entity=(entity_id=figur_0027|fullname=Mann von jugendlichem Alter|gender=m)))
 1825	1828	vernimmt	
 1826	1829	die	
 1827	1830	letzten	
 1828	1831	Commando's	
 1829	1832	des	
-1830	1833	Lootsen	(mention_id=160|references=(entity=(entity_id=figur_0024|fullname=Lootsen|gender=m)))
+1830	1833	Lootsen	(mention_id=157|references=(entity=(entity_id=figur_0023|fullname=Lootsen|gender=m)))
 1831	1834	,	
 1832	1835	das	
 1833	1836	letzte	
 1834	1837	Segel	
 1835	1838	sieht	
-1836	1839	er	(mention_id=161|references=(entity=(entity_id=figur_0028|fullname=Mann von jugendlichem Alter|gender=u)))
+1836	1839	er	(mention_id=158|references=(entity=(entity_id=figur_0027|fullname=Mann von jugendlichem Alter|gender=m)))
 1837	1840	von	
 1838	1841	den	
-1839	1842	Matrosen	(mention_id=162|references=(entity=(entity_id=figur_0031|fullname=Matrosen|gender=m|specialcase_entity=group)))
+1839	1842	Matrosen	(mention_id=159|references=(entity=(entity_id=figur_0030|fullname=Matrosen|gender=m|specialcase_entity=group)))
 1840	1843	beilegen	
 1841	1844	,	
 1842	1845	das	
@@ -1853,7 +1853,7 @@
 1851	1854	leiser	
 1852	1855	Schauer	
 1853	1856	durchrieselt	
-1854	1857	ihn	(mention_id=163|references=(entity=(entity_id=figur_0028|fullname=Mann von jugendlichem Alter|gender=u)))
+1854	1857	ihn	(mention_id=160|references=(entity=(entity_id=figur_0027|fullname=Mann von jugendlichem Alter|gender=m)))
 1855	1858	,	
 1856	1859	indem	
 1857	1860	die	
@@ -1868,7 +1868,7 @@
 1866	1869	,	
 1867	1870	nur	
 1868	1871	der	
-1869	1872	Reiche	(mention_id=164|references=(entity=(entity_id=figur_0036|fullname=Reiche|gender=m|specialcase_entity=generic)))
+1869	1872	Reiche	(mention_id=161|references=(entity=(entity_id=figur_0034|fullname=Reiche|gender=m|specialcase_entity=generic)))
 1870	1873	reist	
 1871	1874	,	
 1872	1875	gleich	
@@ -1885,7 +1885,7 @@
 1883	1886	—	
 1884	1887	aber	
 1885	1888	wie	
-1886	1889	Viele	(mention_id=165|references=(entity=(entity_id=generic_0042|fullname=versagende Ankömmlinge|gender=u|specialcase_entity=generic)))
+1886	1889	Viele	(mention_id=162|references=(entity=(entity_id=generic_0042|fullname=versagende Ankömmlinge|gender=u|specialcase_entity=generic)))
 1887	1890	heftet	
 1888	1891	diese	
 1889	1892	Kette	
@@ -1896,7 +1896,7 @@
 1894	1897	,	
 1895	1898	für	
 1896	1899	den	
-1897	1900	sie	(mention_id=166|references=(entity=(entity_id=generic_0043|fullname=versagende Ankömmlinge|gender=u|specialcase_entity=generic)))
+1897	1900	sie	(mention_id=163|references=(entity=(entity_id=generic_0043|fullname=versagende Ankömmlinge|gender=u|specialcase_entity=generic)))
 1898	1901	vielleicht	
 1899	1902	ihr	
 1900	1903	Letztes	
@@ -1906,15 +1906,15 @@
 1904	1907	flattern	
 1905	1908	sie	
 1906	1909	hin	
-1907	1910	Alle	(mention_id=167|references=(entity=(entity_id=generic_0044|fullname=Alle Ankömmlinge|gender=u|specialcase_entity=generic)),(entity=(entity_id=figur_0013|fullname=Herren auf dem Schiff|gender=m|specialcase_entity=group)))
+1907	1910	Alle	(mention_id=164|references=(entity=(entity_id=generic_0044|fullname=Alle Ankömmlinge|gender=u|specialcase_entity=generic)),(entity=(entity_id=figur_0012|fullname=Herren auf dem Schiff|gender=m|specialcase_entity=group)))
 1908	1911	mit	
 1909	1912	der	
 1910	1913	gleichen	
 1911	1914	Hoffnung	
 1912	1915	,	
-1913	1916	Jeder	(mention_id=168|references=(entity=(entity_id=generic_0045|fullname=Alle Ankömmlinge|gender=u|specialcase_entity=generic)),(entity=(entity_id=figur_0013|fullname=Herren auf dem Schiff|gender=m|specialcase_entity=group)))
+1913	1916	Jeder	(mention_id=165|references=(entity=(entity_id=generic_0045|fullname=Alle Ankömmlinge|gender=u|specialcase_entity=generic)),(entity=(entity_id=figur_0012|fullname=Herren auf dem Schiff|gender=m|specialcase_entity=group)))
 1914	1917	mit	
-1915	1918	seinem	(mention_id=169|references=(entity=(entity_id=generic_0046|fullname=Alle Ankömmlinge|gender=u|specialcase_entity=generic)),(entity=(entity_id=figur_0013|fullname=Herren auf dem Schiff|gender=m|specialcase_entity=group)))
+1915	1918	seinem	(mention_id=166|references=(entity=(entity_id=generic_0046|fullname=Alle Ankömmlinge|gender=u|specialcase_entity=generic)),(entity=(entity_id=figur_0012|fullname=Herren auf dem Schiff|gender=m|specialcase_entity=group)))
 1916	1919	besonderen	
 1917	1920	Schicksale	
 1918	1921	!	
