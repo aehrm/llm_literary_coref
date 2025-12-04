@@ -33,6 +33,10 @@ def main():
     report = evaluator.report(print_support="all", print_individual_doc_scores=False)
     print(report)
 
+    with open(Path(__file__).parent / "evaluation_reports"/ "iaa_report.txt", "w") as f:
+        print(report, file=f)
+        print(f"written to {f.name}")
+
     with open(Path(__file__).parent / "evaluation_reports"/ "iaa_report.json", "w") as f:
         json.dump(evaluator.report(as_dict=True), f, indent=2)
         print(f"written to {f.name}")

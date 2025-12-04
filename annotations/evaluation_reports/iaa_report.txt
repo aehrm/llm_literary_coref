@@ -1,0 +1,56 @@
+=== CLUSTER METRICS (all) ===
+metric             P       R      F1    Support (sys/pred)
+  mentions     95.98   96.18   96.08               968/970
+  lea          87.52   86.54   87.03             1075/1089
+  bcub         89.65   88.10   88.87               968/970
+  ceafe        78.76   83.75   81.18               158/168
+  ceafm        90.36   91.53   90.94             1075/1089
+
+=== CLUSTER METRICS (no generic) ===
+metric             P       R      F1    Support (sys/pred)
+  mentions     96.97   96.32   96.64               897/891
+  lea          89.57   87.64   88.60               984/988
+  bcub         90.99   88.93   89.94               897/891
+  ceafe        83.91   81.14   82.50                 91/88
+  ceafm        92.00   92.38   92.19               984/988
+
+=== CLUSTER METRICS (no singletons) ===
+metric             P       R      F1    Support (sys/pred)
+  mentions     97.17   97.17   97.17               849/849
+  lea          90.28   88.91   89.59               935/945
+  bcub         91.29   89.80   90.54               849/849
+  ceafe        82.45   85.96   84.17                 47/49
+  ceafm        92.49   93.48   92.98               935/945
+
+=== ENTITY ATTRIBUTES (all) ===
+metric             P       R      F1    Support (sys/pred)
+  gender:m     88.14   83.87   85.95                 62/59
+  gender:f     56.25   60.00   58.06                 15/16
+  gender:u     66.30   79.22   72.19                 77/92
+  generic      70.13   85.71   77.14                 63/77
+  group        59.38   59.38   59.38                 32/32
+  nonfact      16.67   20.00   18.18                   5/6
+
+=== ENTITY ATTRIBUTES (no group) ===
+metric             P       R      F1    Support (sys/pred)
+  gender:m     87.50   87.50   87.50                 48/48
+  gender:f     75.00   69.23   72.00                 13/12
+  gender:u     66.18   80.36   72.58                 56/68
+  generic      74.60   85.45   79.66                 55/63
+  group         0.00    0.00    0.00                   0/0
+  nonfact       0.00    0.00    0.00                   3/5
+
+=== ENTITY ATTRIBUTES (no singletons/groups) ===
+metric             P       R      F1    Support (sys/pred)
+  gender:m     91.67   91.67   91.67                 24/24
+  gender:f    100.00   70.00   82.35                  10/7
+  gender:u      0.00    0.00    0.00                   1/7
+  generic       0.00    0.00    0.00                   0/0
+  group         0.00    0.00    0.00                   0/0
+  nonfact       0.00    0.00    0.00                   2/1
+
+=== MENTION ATTRIBUTES ===
+metric             P       R      F1    Support (sys/pred)
+  part         33.33   25.00   28.57                   8/6
+  figurative   25.00   25.00   25.00                   8/8
+

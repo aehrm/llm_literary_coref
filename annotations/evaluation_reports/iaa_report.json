@@ -1,0 +1,1311 @@
+{
+  "clusters_all": {
+    "mentions": {
+      "aggregated": {
+        "precision": 0.9597938144329897,
+        "recall": 0.9617768595041323,
+        "f1": 0.9607843137254902,
+        "support_key": 968,
+        "support_response": 970
+      },
+      "Fischer_Gustav_chapter_2_first_2000": {
+        "precision": 0.9761092150170648,
+        "recall": 0.9694915254237289,
+        "f1": 0.9727891156462584,
+        "support_key": 295,
+        "support_response": 293
+      },
+      "Heimburg_Trudchen_chapter_1_first_2000": {
+        "precision": 0.9809160305343512,
+        "recall": 0.9922779922779923,
+        "f1": 0.9865642994241842,
+        "support_key": 259,
+        "support_response": 262
+      },
+      "K\u00fcrnberger_Amerika_chapter_2_first_2000": {
+        "precision": 0.8797814207650273,
+        "recall": 0.9526627218934911,
+        "f1": 0.9147727272727272,
+        "support_key": 169,
+        "support_response": 183
+      },
+      "Wolff_Wildfangrecht_chapter_2_first_2000": {
+        "precision": 0.978448275862069,
+        "recall": 0.926530612244898,
+        "f1": 0.9517819706498952,
+        "support_key": 245,
+        "support_response": 232
+      }
+    },
+    "lea": {
+      "aggregated": {
+        "precision": 0.8751603996559133,
+        "recall": 0.8654322664236093,
+        "f1": 0.8702691478809274,
+        "support_key": 1075,
+        "support_response": 1089
+      },
+      "Fischer_Gustav_chapter_2_first_2000": {
+        "precision": 0.9123948760790865,
+        "recall": 0.8968943229456217,
+        "f1": 0.9045782012970845,
+        "support_key": 307,
+        "support_response": 304
+      },
+      "Heimburg_Trudchen_chapter_1_first_2000": {
+        "precision": 0.9330803289057558,
+        "recall": 0.928284334491231,
+        "f1": 0.9306761530160256,
+        "support_key": 275,
+        "support_response": 279
+      },
+      "K\u00fcrnberger_Amerika_chapter_2_first_2000": {
+        "precision": 0.8030380970622304,
+        "recall": 0.8425493250259605,
+        "f1": 0.8223193706613702,
+        "support_key": 214,
+        "support_response": 227
+      },
+      "Wolff_Wildfangrecht_chapter_2_first_2000": {
+        "precision": 0.8353497243706638,
+        "recall": 0.786413554553513,
+        "f1": 0.8101433231037475,
+        "support_key": 279,
+        "support_response": 279
+      }
+    },
+    "bcub": {
+      "aggregated": {
+        "precision": 0.8965023303544504,
+        "recall": 0.8809744484121695,
+        "f1": 0.8886705642728798,
+        "support_key": 968,
+        "support_response": 970
+      },
+      "Fischer_Gustav_chapter_2_first_2000": {
+        "precision": 0.9179370058112132,
+        "recall": 0.9061447347212138,
+        "f1": 0.9120027530989918,
+        "support_key": 295,
+        "support_response": 293
+      },
+      "Heimburg_Trudchen_chapter_1_first_2000": {
+        "precision": 0.9637518737783174,
+        "recall": 0.9360707481008222,
+        "f1": 0.9497096487659676,
+        "support_key": 259,
+        "support_response": 262
+      },
+      "K\u00fcrnberger_Amerika_chapter_2_first_2000": {
+        "precision": 0.7847876936203676,
+        "recall": 0.8376968473122317,
+        "f1": 0.810379587810852,
+        "support_key": 169,
+        "support_response": 183
+      },
+      "Wolff_Wildfangrecht_chapter_2_first_2000": {
+        "precision": 0.8816059434426077,
+        "recall": 0.8222754219034364,
+        "f1": 0.8509077143990262,
+        "support_key": 245,
+        "support_response": 232
+      }
+    },
+    "ceafe": {
+      "aggregated": {
+        "precision": 0.7876490076329132,
+        "recall": 0.8375002106476546,
+        "f1": 0.8118100201369903,
+        "support_key": 158,
+        "support_response": 168
+      },
+      "Fischer_Gustav_chapter_2_first_2000": {
+        "precision": 0.8561918386951184,
+        "recall": 0.8561918386951184,
+        "f1": 0.8561918386951183,
+        "support_key": 17,
+        "support_response": 17
+      },
+      "Heimburg_Trudchen_chapter_1_first_2000": {
+        "precision": 0.6055653670947788,
+        "recall": 0.9083480506421683,
+        "f1": 0.7266784405137345,
+        "support_key": 20,
+        "support_response": 30
+      },
+      "K\u00fcrnberger_Amerika_chapter_2_first_2000": {
+        "precision": 0.8451756725950275,
+        "recall": 0.8831610960824444,
+        "f1": 0.8637509621026105,
+        "support_key": 89,
+        "support_response": 93
+      },
+      "Wolff_Wildfangrecht_chapter_2_first_2000": {
+        "precision": 0.750052623583268,
+        "recall": 0.6562960456353595,
+        "f1": 0.7000491153443834,
+        "support_key": 32,
+        "support_response": 28
+      }
+    },
+    "ceafm": {
+      "aggregated": {
+        "precision": 0.9035812672176309,
+        "recall": 0.9153488372093024,
+        "f1": 0.9094269870609982,
+        "support_key": 1075,
+        "support_response": 1089
+      },
+      "Fischer_Gustav_chapter_2_first_2000": {
+        "precision": 0.9506578947368421,
+        "recall": 0.9413680781758957,
+        "f1": 0.9459901800327333,
+        "support_key": 307,
+        "support_response": 304
+      },
+      "Heimburg_Trudchen_chapter_1_first_2000": {
+        "precision": 0.9390681003584229,
+        "recall": 0.9527272727272728,
+        "f1": 0.9458483754512635,
+        "support_key": 275,
+        "support_response": 279
+      },
+      "K\u00fcrnberger_Amerika_chapter_2_first_2000": {
+        "precision": 0.8414096916299559,
+        "recall": 0.8925233644859814,
+        "f1": 0.8662131519274378,
+        "support_key": 214,
+        "support_response": 227
+      },
+      "Wolff_Wildfangrecht_chapter_2_first_2000": {
+        "precision": 0.8673835125448028,
+        "recall": 0.8673835125448028,
+        "f1": 0.8673835125448028,
+        "support_key": 279,
+        "support_response": 279
+      }
+    }
+  },
+  "clusters_nogeneric": {
+    "mentions": {
+      "aggregated": {
+        "precision": 0.9696969696969697,
+        "recall": 0.9632107023411371,
+        "f1": 0.9664429530201342,
+        "support_key": 897,
+        "support_response": 891
+      },
+      "Fischer_Gustav_chapter_2_first_2000": {
+        "precision": 0.9757785467128027,
+        "recall": 0.9757785467128027,
+        "f1": 0.9757785467128027,
+        "support_key": 289,
+        "support_response": 289
+      },
+      "Heimburg_Trudchen_chapter_1_first_2000": {
+        "precision": 0.988,
+        "recall": 0.9919678714859438,
+        "f1": 0.9899799599198397,
+        "support_key": 249,
+        "support_response": 250
+      },
+      "K\u00fcrnberger_Amerika_chapter_2_first_2000": {
+        "precision": 0.9,
+        "recall": 0.9473684210526315,
+        "f1": 0.9230769230769231,
+        "support_key": 114,
+        "support_response": 120
+      },
+      "Wolff_Wildfangrecht_chapter_2_first_2000": {
+        "precision": 0.978448275862069,
+        "recall": 0.926530612244898,
+        "f1": 0.9517819706498952,
+        "support_key": 245,
+        "support_response": 232
+      }
+    },
+    "lea": {
+      "aggregated": {
+        "precision": 0.8957320853416046,
+        "recall": 0.8764168733976085,
+        "f1": 0.8859692180678967,
+        "support_key": 984,
+        "support_response": 988
+      },
+      "Fischer_Gustav_chapter_2_first_2000": {
+        "precision": 0.9142779037831512,
+        "recall": 0.906796381491017,
+        "f1": 0.910521774462304,
+        "support_key": 300,
+        "support_response": 299
+      },
+      "Heimburg_Trudchen_chapter_1_first_2000": {
+        "precision": 0.9671568627450979,
+        "recall": 0.955282986830646,
+        "f1": 0.9611832555185414,
+        "support_key": 262,
+        "support_response": 264
+      },
+      "K\u00fcrnberger_Amerika_chapter_2_first_2000": {
+        "precision": 0.8439878234398782,
+        "recall": 0.8437885643767996,
+        "f1": 0.8438881821460656,
+        "support_key": 143,
+        "support_response": 146
+      },
+      "Wolff_Wildfangrecht_chapter_2_first_2000": {
+        "precision": 0.8353497243706638,
+        "recall": 0.786413554553513,
+        "f1": 0.8101433231037475,
+        "support_key": 279,
+        "support_response": 279
+      }
+    },
+    "bcub": {
+      "aggregated": {
+        "precision": 0.9098579013433709,
+        "recall": 0.8892761276285166,
+        "f1": 0.8994492885682444,
+        "support_key": 897,
+        "support_response": 891
+      },
+      "Fischer_Gustav_chapter_2_first_2000": {
+        "precision": 0.9168059657693772,
+        "recall": 0.9131448938125972,
+        "f1": 0.9149717675484186,
+        "support_key": 289,
+        "support_response": 289
+      },
+      "Heimburg_Trudchen_chapter_1_first_2000": {
+        "precision": 0.9700166776847634,
+        "recall": 0.9576249861601792,
+        "f1": 0.9637810024194781,
+        "support_key": 249,
+        "support_response": 250
+      },
+      "K\u00fcrnberger_Amerika_chapter_2_first_2000": {
+        "precision": 0.8224143140809803,
+        "recall": 0.823471160093967,
+        "f1": 0.8229423977796929,
+        "support_key": 114,
+        "support_response": 120
+      },
+      "Wolff_Wildfangrecht_chapter_2_first_2000": {
+        "precision": 0.8816059434426077,
+        "recall": 0.8222754219034364,
+        "f1": 0.8509077143990262,
+        "support_key": 245,
+        "support_response": 232
+      }
+    },
+    "ceafe": {
+      "aggregated": {
+        "precision": 0.8391100319827186,
+        "recall": 0.8114470638953762,
+        "f1": 0.82504673535731,
+        "support_key": 91,
+        "support_response": 88
+      },
+      "Fischer_Gustav_chapter_2_first_2000": {
+        "precision": 0.8899775686617791,
+        "recall": 0.9641423660502607,
+        "f1": 0.9255766714082503,
+        "support_key": 12,
+        "support_response": 13
+      },
+      "Heimburg_Trudchen_chapter_1_first_2000": {
+        "precision": 0.8518557087906933,
+        "recall": 0.9583376723895299,
+        "f1": 0.9019648681313222,
+        "support_key": 16,
+        "support_response": 18
+      },
+      "K\u00fcrnberger_Amerika_chapter_2_first_2000": {
+        "precision": 0.8943826966659352,
+        "recall": 0.8366805872036168,
+        "f1": 0.864569940110404,
+        "support_key": 31,
+        "support_response": 29
+      },
+      "Wolff_Wildfangrecht_chapter_2_first_2000": {
+        "precision": 0.750052623583268,
+        "recall": 0.6562960456353595,
+        "f1": 0.7000491153443834,
+        "support_key": 32,
+        "support_response": 28
+      }
+    },
+    "ceafm": {
+      "aggregated": {
+        "precision": 0.9200404858299596,
+        "recall": 0.9237804878048781,
+        "f1": 0.9219066937119675,
+        "support_key": 984,
+        "support_response": 988
+      },
+      "Fischer_Gustav_chapter_2_first_2000": {
+        "precision": 0.9531772575250836,
+        "recall": 0.95,
+        "f1": 0.9515859766277128,
+        "support_key": 300,
+        "support_response": 299
+      },
+      "Heimburg_Trudchen_chapter_1_first_2000": {
+        "precision": 0.9659090909090909,
+        "recall": 0.9732824427480916,
+        "f1": 0.9695817490494296,
+        "support_key": 262,
+        "support_response": 264
+      },
+      "K\u00fcrnberger_Amerika_chapter_2_first_2000": {
+        "precision": 0.8698630136986302,
+        "recall": 0.8881118881118881,
+        "f1": 0.878892733564014,
+        "support_key": 143,
+        "support_response": 146
+      },
+      "Wolff_Wildfangrecht_chapter_2_first_2000": {
+        "precision": 0.8673835125448028,
+        "recall": 0.8673835125448028,
+        "f1": 0.8673835125448028,
+        "support_key": 279,
+        "support_response": 279
+      }
+    }
+  },
+  "clusters_nosingletons": {
+    "mentions": {
+      "aggregated": {
+        "precision": 0.9717314487632509,
+        "recall": 0.9717314487632509,
+        "f1": 0.9717314487632509,
+        "support_key": 849,
+        "support_response": 849
+      },
+      "Fischer_Gustav_chapter_2_first_2000": {
+        "precision": 0.9788732394366197,
+        "recall": 0.9754385964912281,
+        "f1": 0.977152899824253,
+        "support_key": 285,
+        "support_response": 284
+      },
+      "Heimburg_Trudchen_chapter_1_first_2000": {
+        "precision": 0.9875,
+        "recall": 0.9916317991631799,
+        "f1": 0.989561586638831,
+        "support_key": 239,
+        "support_response": 240
+      },
+      "K\u00fcrnberger_Amerika_chapter_2_first_2000": {
+        "precision": 0.8918918918918919,
+        "recall": 0.9801980198019802,
+        "f1": 0.9339622641509434,
+        "support_key": 101,
+        "support_response": 111
+      },
+      "Wolff_Wildfangrecht_chapter_2_first_2000": {
+        "precision": 0.985981308411215,
+        "recall": 0.9419642857142857,
+        "f1": 0.9634703196347033,
+        "support_key": 224,
+        "support_response": 214
+      }
+    },
+    "lea": {
+      "aggregated": {
+        "precision": 0.9028209947090424,
+        "recall": 0.8890835368256885,
+        "f1": 0.8958996073400397,
+        "support_key": 935,
+        "support_response": 945
+      },
+      "Fischer_Gustav_chapter_2_first_2000": {
+        "precision": 0.9162214055481708,
+        "recall": 0.9055368731327875,
+        "f1": 0.910847807183444,
+        "support_key": 296,
+        "support_response": 294
+      },
+      "Heimburg_Trudchen_chapter_1_first_2000": {
+        "precision": 0.9698008337193145,
+        "recall": 0.9574767561493226,
+        "f1": 0.963599391454314,
+        "support_key": 252,
+        "support_response": 254
+      },
+      "K\u00fcrnberger_Amerika_chapter_2_first_2000": {
+        "precision": 0.8337388483373884,
+        "recall": 0.8733470132238942,
+        "f1": 0.8530834322981684,
+        "support_key": 129,
+        "support_response": 137
+      },
+      "Wolff_Wildfangrecht_chapter_2_first_2000": {
+        "precision": 0.858635049161365,
+        "recall": 0.8112724233690002,
+        "f1": 0.8342820767993595,
+        "support_key": 258,
+        "support_response": 260
+      }
+    },
+    "bcub": {
+      "aggregated": {
+        "precision": 0.9128993701162035,
+        "recall": 0.8979816619651786,
+        "f1": 0.905379071359197,
+        "support_key": 849,
+        "support_response": 849
+      },
+      "Fischer_Gustav_chapter_2_first_2000": {
+        "precision": 0.9188624088286972,
+        "recall": 0.911925874778388,
+        "f1": 0.9153810011512176,
+        "support_key": 285,
+        "support_response": 284
+      },
+      "Heimburg_Trudchen_chapter_1_first_2000": {
+        "precision": 0.9687673725882953,
+        "recall": 0.957944023238011,
+        "f1": 0.9633252976956084,
+        "support_key": 239,
+        "support_response": 240
+      },
+      "K\u00fcrnberger_Amerika_chapter_2_first_2000": {
+        "precision": 0.8080154746821409,
+        "recall": 0.8486044117232233,
+        "f1": 0.8278127072876588,
+        "support_key": 101,
+        "support_response": 111
+      },
+      "Wolff_Wildfangrecht_chapter_2_first_2000": {
+        "precision": 0.8967324953756929,
+        "recall": 0.8385262926726157,
+        "f1": 0.8666531816988093,
+        "support_key": 224,
+        "support_response": 214
+      }
+    },
+    "ceafe": {
+      "aggregated": {
+        "precision": 0.8244875519022883,
+        "recall": 0.8595721285789814,
+        "f1": 0.8416643759002526,
+        "support_key": 47,
+        "support_response": 49
+      },
+      "Fischer_Gustav_chapter_2_first_2000": {
+        "precision": 0.9462135490753911,
+        "recall": 0.9462135490753911,
+        "f1": 0.9462135490753911,
+        "support_key": 8,
+        "support_response": 8
+      },
+      "Heimburg_Trudchen_chapter_1_first_2000": {
+        "precision": 0.7083420114457266,
+        "recall": 0.8095337273665447,
+        "f1": 0.755564812208775,
+        "support_key": 7,
+        "support_response": 8
+      },
+      "K\u00fcrnberger_Amerika_chapter_2_first_2000": {
+        "precision": 0.8514003647110607,
+        "recall": 0.9460004052345119,
+        "f1": 0.896210910222169,
+        "support_key": 18,
+        "support_response": 20
+      },
+      "Wolff_Wildfangrecht_chapter_2_first_2000": {
+        "precision": 0.7796490972939972,
+        "recall": 0.7239598760587117,
+        "f1": 0.750773204801627,
+        "support_key": 14,
+        "support_response": 13
+      }
+    },
+    "ceafm": {
+      "aggregated": {
+        "precision": 0.9248677248677248,
+        "recall": 0.9347593582887701,
+        "f1": 0.9297872340425533,
+        "support_key": 935,
+        "support_response": 945
+      },
+      "Fischer_Gustav_chapter_2_first_2000": {
+        "precision": 0.95578231292517,
+        "recall": 0.9493243243243243,
+        "f1": 0.9525423728813558,
+        "support_key": 296,
+        "support_response": 294
+      },
+      "Heimburg_Trudchen_chapter_1_first_2000": {
+        "precision": 0.9645669291338582,
+        "recall": 0.9722222222222222,
+        "f1": 0.9683794466403162,
+        "support_key": 252,
+        "support_response": 254
+      },
+      "K\u00fcrnberger_Amerika_chapter_2_first_2000": {
+        "precision": 0.8613138686131386,
+        "recall": 0.9147286821705426,
+        "f1": 0.8872180451127819,
+        "support_key": 129,
+        "support_response": 137
+      },
+      "Wolff_Wildfangrecht_chapter_2_first_2000": {
+        "precision": 0.8846153846153846,
+        "recall": 0.8914728682170543,
+        "f1": 0.888030888030888,
+        "support_key": 258,
+        "support_response": 260
+      }
+    }
+  },
+  "entity_attributes_all": {
+    "gender:m": {
+      "aggregated": {
+        "precision": 0.8813559322033898,
+        "recall": 0.8387096774193549,
+        "f1": 0.859504132231405,
+        "support_key": 62,
+        "support_response": 59
+      },
+      "Fischer_Gustav_chapter_2_first_2000": {
+        "precision": 1.0,
+        "recall": 0.8333333333333334,
+        "f1": 0.9090909090909091,
+        "support_key": 6,
+        "support_response": 5
+      },
+      "Heimburg_Trudchen_chapter_1_first_2000": {
+        "precision": 0.8,
+        "recall": 0.5714285714285714,
+        "f1": 0.6666666666666666,
+        "support_key": 7,
+        "support_response": 5
+      },
+      "K\u00fcrnberger_Amerika_chapter_2_first_2000": {
+        "precision": 0.896551724137931,
+        "recall": 0.896551724137931,
+        "f1": 0.896551724137931,
+        "support_key": 29,
+        "support_response": 29
+      },
+      "Wolff_Wildfangrecht_chapter_2_first_2000": {
+        "precision": 0.85,
+        "recall": 0.85,
+        "f1": 0.85,
+        "support_key": 20,
+        "support_response": 20
+      }
+    },
+    "gender:f": {
+      "aggregated": {
+        "precision": 0.5625,
+        "recall": 0.6,
+        "f1": 0.5806451612903225,
+        "support_key": 15,
+        "support_response": 16
+      },
+      "Fischer_Gustav_chapter_2_first_2000": {
+        "precision": 0.6,
+        "recall": 0.6,
+        "f1": 0.6,
+        "support_key": 5,
+        "support_response": 5
+      },
+      "Heimburg_Trudchen_chapter_1_first_2000": {
+        "precision": 0.3333333333333333,
+        "recall": 0.3333333333333333,
+        "f1": 0.3333333333333333,
+        "support_key": 6,
+        "support_response": 6
+      },
+      "K\u00fcrnberger_Amerika_chapter_2_first_2000": {
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "support_key": 0,
+        "support_response": 0
+      },
+      "Wolff_Wildfangrecht_chapter_2_first_2000": {
+        "precision": 0.8,
+        "recall": 1.0,
+        "f1": 0.888888888888889,
+        "support_key": 4,
+        "support_response": 5
+      }
+    },
+    "gender:u": {
+      "aggregated": {
+        "precision": 0.6630434782608695,
+        "recall": 0.7922077922077922,
+        "f1": 0.7218934911242603,
+        "support_key": 77,
+        "support_response": 92
+      },
+      "Fischer_Gustav_chapter_2_first_2000": {
+        "precision": 0.42857142857142855,
+        "recall": 0.6,
+        "f1": 0.5,
+        "support_key": 5,
+        "support_response": 7
+      },
+      "Heimburg_Trudchen_chapter_1_first_2000": {
+        "precision": 0.3684210526315789,
+        "recall": 1.0,
+        "f1": 0.5384615384615384,
+        "support_key": 7,
+        "support_response": 19
+      },
+      "K\u00fcrnberger_Amerika_chapter_2_first_2000": {
+        "precision": 0.7936507936507936,
+        "recall": 0.847457627118644,
+        "f1": 0.819672131147541,
+        "support_key": 59,
+        "support_response": 63
+      },
+      "Wolff_Wildfangrecht_chapter_2_first_2000": {
+        "precision": 0.3333333333333333,
+        "recall": 0.16666666666666666,
+        "f1": 0.2222222222222222,
+        "support_key": 6,
+        "support_response": 3
+      }
+    },
+    "generic": {
+      "aggregated": {
+        "precision": 0.7012987012987013,
+        "recall": 0.8571428571428571,
+        "f1": 0.7714285714285714,
+        "support_key": 63,
+        "support_response": 77
+      },
+      "Fischer_Gustav_chapter_2_first_2000": {
+        "precision": 0.75,
+        "recall": 0.6,
+        "f1": 0.6666666666666665,
+        "support_key": 5,
+        "support_response": 4
+      },
+      "Heimburg_Trudchen_chapter_1_first_2000": {
+        "precision": 0.25,
+        "recall": 1.0,
+        "f1": 0.4,
+        "support_key": 3,
+        "support_response": 12
+      },
+      "K\u00fcrnberger_Amerika_chapter_2_first_2000": {
+        "precision": 0.7868852459016393,
+        "recall": 0.8727272727272727,
+        "f1": 0.8275862068965518,
+        "support_key": 55,
+        "support_response": 61
+      },
+      "Wolff_Wildfangrecht_chapter_2_first_2000": {
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "support_key": 0,
+        "support_response": 0
+      }
+    },
+    "group": {
+      "aggregated": {
+        "precision": 0.59375,
+        "recall": 0.59375,
+        "f1": 0.59375,
+        "support_key": 32,
+        "support_response": 32
+      },
+      "Fischer_Gustav_chapter_2_first_2000": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0,
+        "support_key": 2,
+        "support_response": 1
+      },
+      "Heimburg_Trudchen_chapter_1_first_2000": {
+        "precision": 0.8333333333333334,
+        "recall": 0.5555555555555556,
+        "f1": 0.6666666666666667,
+        "support_key": 9,
+        "support_response": 6
+      },
+      "K\u00fcrnberger_Amerika_chapter_2_first_2000": {
+        "precision": 0.47619047619047616,
+        "recall": 0.9090909090909091,
+        "f1": 0.6249999999999999,
+        "support_key": 11,
+        "support_response": 21
+      },
+      "Wolff_Wildfangrecht_chapter_2_first_2000": {
+        "precision": 1.0,
+        "recall": 0.4,
+        "f1": 0.5714285714285715,
+        "support_key": 10,
+        "support_response": 4
+      }
+    },
+    "nonfact": {
+      "aggregated": {
+        "precision": 0.16666666666666666,
+        "recall": 0.2,
+        "f1": 0.1818181818181818,
+        "support_key": 5,
+        "support_response": 6
+      },
+      "Fischer_Gustav_chapter_2_first_2000": {
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "support_key": 0,
+        "support_response": 0
+      },
+      "Heimburg_Trudchen_chapter_1_first_2000": {
+        "precision": 0.25,
+        "recall": 0.3333333333333333,
+        "f1": 0.28571428571428575,
+        "support_key": 3,
+        "support_response": 4
+      },
+      "K\u00fcrnberger_Amerika_chapter_2_first_2000": {
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0,
+        "support_key": 2,
+        "support_response": 0
+      },
+      "Wolff_Wildfangrecht_chapter_2_first_2000": {
+        "precision": 0.0,
+        "recall": 0,
+        "f1": 0,
+        "support_key": 0,
+        "support_response": 2
+      }
+    }
+  },
+  "entity_attributes_nogroup": {
+    "gender:m": {
+      "aggregated": {
+        "precision": 0.875,
+        "recall": 0.875,
+        "f1": 0.875,
+        "support_key": 48,
+        "support_response": 48
+      },
+      "Fischer_Gustav_chapter_2_first_2000": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support_key": 5,
+        "support_response": 5
+      },
+      "Heimburg_Trudchen_chapter_1_first_2000": {
+        "precision": 0.8,
+        "recall": 0.8,
+        "f1": 0.8000000000000002,
+        "support_key": 5,
+        "support_response": 5
+      },
+      "K\u00fcrnberger_Amerika_chapter_2_first_2000": {
+        "precision": 0.9,
+        "recall": 0.9,
+        "f1": 0.9,
+        "support_key": 20,
+        "support_response": 20
+      },
+      "Wolff_Wildfangrecht_chapter_2_first_2000": {
+        "precision": 0.8333333333333334,
+        "recall": 0.8333333333333334,
+        "f1": 0.8333333333333334,
+        "support_key": 18,
+        "support_response": 18
+      }
+    },
+    "gender:f": {
+      "aggregated": {
+        "precision": 0.75,
+        "recall": 0.6923076923076923,
+        "f1": 0.7199999999999999,
+        "support_key": 13,
+        "support_response": 12
+      },
+      "Fischer_Gustav_chapter_2_first_2000": {
+        "precision": 1.0,
+        "recall": 0.6,
+        "f1": 0.7499999999999999,
+        "support_key": 5,
+        "support_response": 3
+      },
+      "Heimburg_Trudchen_chapter_1_first_2000": {
+        "precision": 0.4,
+        "recall": 0.5,
+        "f1": 0.4444444444444445,
+        "support_key": 4,
+        "support_response": 5
+      },
+      "K\u00fcrnberger_Amerika_chapter_2_first_2000": {
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "support_key": 0,
+        "support_response": 0
+      },
+      "Wolff_Wildfangrecht_chapter_2_first_2000": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support_key": 4,
+        "support_response": 4
+      }
+    },
+    "gender:u": {
+      "aggregated": {
+        "precision": 0.6617647058823529,
+        "recall": 0.8035714285714286,
+        "f1": 0.7258064516129031,
+        "support_key": 56,
+        "support_response": 68
+      },
+      "Fischer_Gustav_chapter_2_first_2000": {
+        "precision": 0.5,
+        "recall": 0.6,
+        "f1": 0.5454545454545454,
+        "support_key": 5,
+        "support_response": 6
+      },
+      "Heimburg_Trudchen_chapter_1_first_2000": {
+        "precision": 0.2,
+        "recall": 1.0,
+        "f1": 0.33333333333333337,
+        "support_key": 2,
+        "support_response": 10
+      },
+      "K\u00fcrnberger_Amerika_chapter_2_first_2000": {
+        "precision": 0.8,
+        "recall": 0.8163265306122449,
+        "f1": 0.8080808080808082,
+        "support_key": 49,
+        "support_response": 50
+      },
+      "Wolff_Wildfangrecht_chapter_2_first_2000": {
+        "precision": 0.0,
+        "recall": 0,
+        "f1": 0,
+        "support_key": 0,
+        "support_response": 2
+      }
+    },
+    "generic": {
+      "aggregated": {
+        "precision": 0.746031746031746,
+        "recall": 0.8545454545454545,
+        "f1": 0.7966101694915254,
+        "support_key": 55,
+        "support_response": 63
+      },
+      "Fischer_Gustav_chapter_2_first_2000": {
+        "precision": 0.75,
+        "recall": 0.6,
+        "f1": 0.6666666666666665,
+        "support_key": 5,
+        "support_response": 4
+      },
+      "Heimburg_Trudchen_chapter_1_first_2000": {
+        "precision": 0.2222222222222222,
+        "recall": 1.0,
+        "f1": 0.3636363636363636,
+        "support_key": 2,
+        "support_response": 9
+      },
+      "K\u00fcrnberger_Amerika_chapter_2_first_2000": {
+        "precision": 0.84,
+        "recall": 0.875,
+        "f1": 0.8571428571428572,
+        "support_key": 48,
+        "support_response": 50
+      },
+      "Wolff_Wildfangrecht_chapter_2_first_2000": {
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "support_key": 0,
+        "support_response": 0
+      }
+    },
+    "group": {
+      "aggregated": {
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "support_key": 0,
+        "support_response": 0
+      },
+      "Fischer_Gustav_chapter_2_first_2000": {
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "support_key": 0,
+        "support_response": 0
+      },
+      "Heimburg_Trudchen_chapter_1_first_2000": {
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "support_key": 0,
+        "support_response": 0
+      },
+      "K\u00fcrnberger_Amerika_chapter_2_first_2000": {
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "support_key": 0,
+        "support_response": 0
+      },
+      "Wolff_Wildfangrecht_chapter_2_first_2000": {
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "support_key": 0,
+        "support_response": 0
+      }
+    },
+    "nonfact": {
+      "aggregated": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0,
+        "support_key": 3,
+        "support_response": 5
+      },
+      "Fischer_Gustav_chapter_2_first_2000": {
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "support_key": 0,
+        "support_response": 0
+      },
+      "Heimburg_Trudchen_chapter_1_first_2000": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0,
+        "support_key": 1,
+        "support_response": 3
+      },
+      "K\u00fcrnberger_Amerika_chapter_2_first_2000": {
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0,
+        "support_key": 2,
+        "support_response": 0
+      },
+      "Wolff_Wildfangrecht_chapter_2_first_2000": {
+        "precision": 0.0,
+        "recall": 0,
+        "f1": 0,
+        "support_key": 0,
+        "support_response": 2
+      }
+    }
+  },
+  "entity_attributes_nogroupnosingletons": {
+    "gender:m": {
+      "aggregated": {
+        "precision": 0.9166666666666666,
+        "recall": 0.9166666666666666,
+        "f1": 0.9166666666666666,
+        "support_key": 24,
+        "support_response": 24
+      },
+      "Fischer_Gustav_chapter_2_first_2000": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support_key": 3,
+        "support_response": 3
+      },
+      "Heimburg_Trudchen_chapter_1_first_2000": {
+        "precision": 0.75,
+        "recall": 0.75,
+        "f1": 0.75,
+        "support_key": 4,
+        "support_response": 4
+      },
+      "K\u00fcrnberger_Amerika_chapter_2_first_2000": {
+        "precision": 0.9,
+        "recall": 1.0,
+        "f1": 0.9473684210526316,
+        "support_key": 9,
+        "support_response": 10
+      },
+      "Wolff_Wildfangrecht_chapter_2_first_2000": {
+        "precision": 1.0,
+        "recall": 0.875,
+        "f1": 0.9333333333333333,
+        "support_key": 8,
+        "support_response": 7
+      }
+    },
+    "gender:f": {
+      "aggregated": {
+        "precision": 1.0,
+        "recall": 0.7,
+        "f1": 0.8235294117647058,
+        "support_key": 10,
+        "support_response": 7
+      },
+      "Fischer_Gustav_chapter_2_first_2000": {
+        "precision": 1.0,
+        "recall": 0.6,
+        "f1": 0.7499999999999999,
+        "support_key": 5,
+        "support_response": 3
+      },
+      "Heimburg_Trudchen_chapter_1_first_2000": {
+        "precision": 1.0,
+        "recall": 0.5,
+        "f1": 0.6666666666666666,
+        "support_key": 2,
+        "support_response": 1
+      },
+      "K\u00fcrnberger_Amerika_chapter_2_first_2000": {
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "support_key": 0,
+        "support_response": 0
+      },
+      "Wolff_Wildfangrecht_chapter_2_first_2000": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support_key": 3,
+        "support_response": 3
+      }
+    },
+    "gender:u": {
+      "aggregated": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0,
+        "support_key": 1,
+        "support_response": 7
+      },
+      "Fischer_Gustav_chapter_2_first_2000": {
+        "precision": 0.0,
+        "recall": 0,
+        "f1": 0,
+        "support_key": 0,
+        "support_response": 2
+      },
+      "Heimburg_Trudchen_chapter_1_first_2000": {
+        "precision": 0.0,
+        "recall": 0,
+        "f1": 0,
+        "support_key": 0,
+        "support_response": 3
+      },
+      "K\u00fcrnberger_Amerika_chapter_2_first_2000": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0,
+        "support_key": 1,
+        "support_response": 1
+      },
+      "Wolff_Wildfangrecht_chapter_2_first_2000": {
+        "precision": 0.0,
+        "recall": 0,
+        "f1": 0,
+        "support_key": 0,
+        "support_response": 1
+      }
+    },
+    "generic": {
+      "aggregated": {
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "support_key": 0,
+        "support_response": 0
+      },
+      "Fischer_Gustav_chapter_2_first_2000": {
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "support_key": 0,
+        "support_response": 0
+      },
+      "Heimburg_Trudchen_chapter_1_first_2000": {
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "support_key": 0,
+        "support_response": 0
+      },
+      "K\u00fcrnberger_Amerika_chapter_2_first_2000": {
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "support_key": 0,
+        "support_response": 0
+      },
+      "Wolff_Wildfangrecht_chapter_2_first_2000": {
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "support_key": 0,
+        "support_response": 0
+      }
+    },
+    "group": {
+      "aggregated": {
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "support_key": 0,
+        "support_response": 0
+      },
+      "Fischer_Gustav_chapter_2_first_2000": {
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "support_key": 0,
+        "support_response": 0
+      },
+      "Heimburg_Trudchen_chapter_1_first_2000": {
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "support_key": 0,
+        "support_response": 0
+      },
+      "K\u00fcrnberger_Amerika_chapter_2_first_2000": {
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "support_key": 0,
+        "support_response": 0
+      },
+      "Wolff_Wildfangrecht_chapter_2_first_2000": {
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "support_key": 0,
+        "support_response": 0
+      }
+    },
+    "nonfact": {
+      "aggregated": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0,
+        "support_key": 2,
+        "support_response": 1
+      },
+      "Fischer_Gustav_chapter_2_first_2000": {
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "support_key": 0,
+        "support_response": 0
+      },
+      "Heimburg_Trudchen_chapter_1_first_2000": {
+        "precision": 0.0,
+        "recall": 0,
+        "f1": 0,
+        "support_key": 0,
+        "support_response": 1
+      },
+      "K\u00fcrnberger_Amerika_chapter_2_first_2000": {
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0,
+        "support_key": 2,
+        "support_response": 0
+      },
+      "Wolff_Wildfangrecht_chapter_2_first_2000": {
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "support_key": 0,
+        "support_response": 0
+      }
+    }
+  },
+  "mention_attributes": {
+    "part": {
+      "aggregated": {
+        "precision": 0.3333333333333333,
+        "recall": 0.25,
+        "f1": 0.28571428571428575,
+        "support_key": 8,
+        "support_response": 6
+      },
+      "Fischer_Gustav_chapter_2_first_2000": {
+        "precision": 1.0,
+        "recall": 0.25,
+        "f1": 0.4,
+        "support_key": 4,
+        "support_response": 1
+      },
+      "Heimburg_Trudchen_chapter_1_first_2000": {
+        "precision": 0.0,
+        "recall": 0,
+        "f1": 0,
+        "support_key": 0,
+        "support_response": 1
+      },
+      "K\u00fcrnberger_Amerika_chapter_2_first_2000": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0,
+        "support_key": 2,
+        "support_response": 3
+      },
+      "Wolff_Wildfangrecht_chapter_2_first_2000": {
+        "precision": 1.0,
+        "recall": 0.5,
+        "f1": 0.6666666666666666,
+        "support_key": 2,
+        "support_response": 1
+      }
+    },
+    "figurative": {
+      "aggregated": {
+        "precision": 0.25,
+        "recall": 0.25,
+        "f1": 0.25,
+        "support_key": 8,
+        "support_response": 8
+      },
+      "Fischer_Gustav_chapter_2_first_2000": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support_key": 1,
+        "support_response": 1
+      },
+      "Heimburg_Trudchen_chapter_1_first_2000": {
+        "precision": 0.5,
+        "recall": 0.3333333333333333,
+        "f1": 0.4,
+        "support_key": 3,
+        "support_response": 2
+      },
+      "K\u00fcrnberger_Amerika_chapter_2_first_2000": {
+        "precision": 0.0,
+        "recall": 0,
+        "f1": 0,
+        "support_key": 0,
+        "support_response": 5
+      },
+      "Wolff_Wildfangrecht_chapter_2_first_2000": {
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0,
+        "support_key": 4,
+        "support_response": 0
+      }
+    }
+  }
+}
