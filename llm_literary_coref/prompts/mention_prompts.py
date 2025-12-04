@@ -39,7 +39,7 @@ Du erhältst:
 3.  **Referenz-Logik:** Jede Erwähnung referenziert eine oder mehrere Entitäten. Deine Aufgabe ist es, diese im "Annotation"-Array vollständig und korrekt abzubilden.
 
 ## Attribute im Annotationsobjekt
--   `gender`: (String, nur bei erster Nennung) `m`, `f`, `nb` (nicht-binär), `u` (unbekannt).
+-   `gender`: (String, nur bei erster Nennung) `m`, `f`, `nb` (nicht-binär), `u` (unbekannt), `mf` (nur bei Gruppen, falls diese aus männlichen und weiblichen Mitgliedern besteht).
 -   `specialcase_entity`: (**Array von Strings**, nur bei erster Nennung) Sonderfälle, die die Natur der Entität beschreiben. Alle diese Attribute sind unabhängig voneinander und können parallel auftreten.
     -   `nonfact`: nicht-faktische Entität, siehe unten.
     -   `group`: Gruppe, siehe unten.
@@ -47,45 +47,51 @@ Du erhältst:
     -   Falls keine dieser Attribute zutrifft, dann setze bei der ersten Nennung `"specialcase_entity": []`. Beachte, dass diese in der ersten Nennung angegebenen Attribute auch für alle folgenden Nennungen gelten müssen, da diese Attribute sich auf die Entität beziehen.
 -   `specialcase_mention`: (**Array von Strings**, opt.) Sonderfälle, die die **Referenz auf die Entität** beschreiben.
     -   `figurative`: Uneigentliche Rede (Metapher, Vergleich).
-    -   `part`: Es wird über ein Körperteil auf die Figur referenziert.
+    -   `part`: Es wird über ein Teil des Körpers auf die Figur referenziert (inklusive "Stimme", Umschreibung wie "Figur", "Gestalt", "Seele").
     
-### Nicht-faktische Entitäten
+## Logik der Sonderfälle: Eine Entscheidungshierarchie
 
-- Frage dich: Existiert diese Entität zum Zeitpunkt der Erwähnung *real* in der erzählten Welt? Oder ist sie nur **hypothetisch, möglich, gewünscht** oder wird sie **negiert**?
-    -   *Beispiele:* "für einen **Dritten** wäre Platz", "Er wünschte sich eine **Tochter**", "keinen besseren **Schüler**".
-    -   **Falls JA (nicht real):** Füge `"nonfact"` zum `specialcase_entity`-Array hinzu.
+**WICHTIG:** Gehe bei jeder Erwähnung diese Schritte in der angegebenen Reihenfolge durch. Annotiere gemäß der **ersten zutreffenden Regel** und ignoriere die folgenden für diese eine Erwähnung, außer es wird explizit anders angegeben (wie bei dualen Referenzen). Die korrekte Unterscheidung von spezifischen, nicht-faktischen und generischen Entitäten ist entscheidend.
 
-### Generische Entitäten
+### Schritt 1: Prüfung auf spezifische Referenz (Höchste Priorität)
+*Frage dich:* Kann diese Erwähnung auf eine **konkrete, bereits bekannte Figur** im Text zurückgeführt werden, selbst wenn ein allgemeiner Begriff (wie "der Mann", "der Schuldige") oder das Pronomen "man" verwendet wird?
+-   **Typischer Fall:** Eine Figur spricht über sich selbst oder eine andere Figur in verallgemeinernder Weise.
+-   **Beispiel 1:** Hans reflektiert über seine eigene Schuld und sagt: "...zeigt sich **dem Schuldigen** wie eine strenge Richterin". Hier ist "dem Schuldigen" **keine** generische Entität, sondern eine Referenz auf `Hans`.
+-   **Beispiel 2:** Eine Figur sagt "wenn **man** glaubte...". Prüfe scharf, ob `man` hier nicht für "ich" (also die sprechende Figur) steht. 
+-   **Anweisung:** Wenn ja, löse die Koreferenz zur spezifischen Figur auf. Diese Entität ist **NICHT `generic` und NICHT `nonfact`**.
 
-- Frage dich: Bezieht sich die Erwähnung auf eine konkrete Person, welche in der erzählten Welt existiert?
-  - Falls JA: Dann ist die Entität *kein* `generic`.
-- Frage dich: Bezieht sich die Erwähnung auf eine *abstrakte Kategorie* oder eine *allgemeine, gesetzmäßige Aussage* über eine Art von Mensch anstatt auf ein spezifisches, individuelles Wesen der erzählten Welt?
-  Lässt sich die Entität in der Form "XXX im Allgemeinen" beschreiben?
-  - Beispiel: "Männer [im Allgemeinen] denken mehr auf das Einzelne...", "Ein Ritter sagt [im Allgemeinen] immer die Wahrheit"
-  - Falls JA: Dann ist die Entität *eine* `generic`. Füge `generic` zum Array hinzu und benenne die Figur als "XXX im Allgemeinen". Diese ist oft durch ein Plural verbalisiert, wie im Fall "die Männer", in diesem Fall also `specialcase_entity: ["generic", "group"]`.
-    Beachte, dass auch diese generischen Entitäten ein Gender zugewiesen werden muss.
-- Frage dich: Bezieht sich die Erwähnung auf eine *konkrete, aber anonyme oder nicht weiter aufgeschlüsselte Menge von Personen* in der Welt der Erzählung?
-  - Beispiel: "meine Freunde", "die Pächter", "die Wachen am Tor"
-  - falls JA:  Dann ist die Entität *kein* `generic`. Sie ist einfach eine `group`. `specialcase_entity: ["group"]`. Sie repräsentiert eine reale, aber unbestimmte Ansammlung von Leuten im Text.
-  
-Beachte, dass generische Entitäten nicht koreferent sein können. Markiere eine Entität nur als `generic` wenn du dir ganz sicher bist.
-Beachte, dass sich diese Entscheidung auf die gesamte Entität bezieht. Überprüfe daher vor deiner Entscheidung alle Erwähnungen der Entität.
+### Schritt 2: Prüfung auf nicht-faktische Entität (Mittlere Priorität)
+*Frage dich:* Wenn die Erwähnung sich nicht auf eine bekannte Figur bezieht, handelt es sich dann um eine **hypothetische, gewünschte, negierte oder als Beispiel genannte Einzelfigur oder eine kleine, definierte Gruppe?** Existiert diese Entität zum Zeitpunkt der Erwähnung nicht *real* in der erzählten Welt, wird aber als individuelles Konzept behandelt?
+-   **Typischer Fall:** Gedankenexperimente, Wünsche, Pläne, Warnungen.
+-   **Beispiel 1:** "Anna wünschte sich eine **Tochter**". Diese Tochter existiert nicht, ist aber eine hypothetische Einzelperson. -> `specialcase_entity: ["nonfact"]`.
+-   **Beispiel 2:** In einem philosophischen Dialog wird gesagt: "was würde ein **Grieche**... einem **Chineser** antworten?". Diese Personen sind keine allgemeinen Kategorien, sondern **hypothetische Beispiele** in einer Argumentation. -> `specialcase_entity: ["nonfact"]`.
+-   **Anweisung:** Wenn ja, erstelle eine neue Entität und füge `"nonfact"` zum `specialcase_entity`-Array hinzu. Diese Entität ist **NICHT `generic`**.
 
-  
+### Schritt 3: Prüfung auf generische Entität (Niedrigste Priorität)
+*Frage dich:* Nur wenn Schritt 1 und 2 NICHT zutreffen: Bezieht sich die Erwähnung auf eine **abstrakte Kategorie von Menschen** oder wird eine allgemeingültige, gesetzmäßige Aussage über eine Art von Mensch gemacht? Lässt sich die Entität als "XXX im Allgemeinen" beschreiben, ohne dass sie ein spezifisches oder hypothetisches Individuum im Kontext meint?
+-   **Typischer Fall:** Sentenzen, allgemeine Aussagen, die sich nicht auf den unmittelbaren Kontext zurückführen lassen.
+-   **Beispiel:** "Ein **König** muss stets gerecht sein." (Wenn dies als allgemeine Regel und nicht bezogen auf einen bestimmten König gesagt wird).
+-   **Anweisung:** Nur in diesem Fall, füge `"generic"` zum `specialcase_entity`-Array hinzu. Der Name der Entität muss von der Form "XXX im Allgemeinen" sein.
 
-### Umgang mit Gruppen-Erwähnungen
-**Fall 1: Nicht-Auflösbare Gruppe (z.B. "Freunde", "Landleute", "Familie")**
--   **Logik:** Dies ist der Standardfall für Plurale, die sich **nicht** auf direkt im Kontext genannte Individuen zurückführen lassen. Es ist eine spezifische, aber anonyme Menge von Personen.
+### Sonderfall: Duale Referenz (Generisch + Spezifisch)
+*Frage dich:* Spricht eine Figur eine allgemeine Gruppe an ("ihr Frauen", "ihr Elenden"), meint damit aber **gleichzeitig** und erkennbar auch eine **spezifische Figur** im Raum?
+-   **Typischer Fall:** Eine Apostrophe (Anrede), die eine allgemeine Aussage mit einer direkten, persönlichen Ansprache verbindet.
+-   **Beispiel:** Gustav sagt zu Sophie: "**Ihr** unglücklichen **Weiber**! wie könnt **ihr** so thöricht seyn...".
+-   **Anweisung:** In diesem seltenen Fall soll die Erwähnung **mehrere Annotationsobjekte** im Array erhalten, da es sich um eine Gruppe von Fall 2 handelt: Eines für die generische Entität ("Weiber im Allgemeinen") und eines für jede spezifische Figur, die mitgemeint ist (hier: "Sophie").
+
+### Handhabung von Gruppen (leicht überarbeitet für Klarheit)
+
+**Fall 1: Gruppe als Einheit (Eine Annotation)**
+-   **Logik:** Erwähnungen im Plural, die sich auf eine **konkrete, aber anonyme oder nicht weiter aufgeschlüsselte Menge von Personen** in der Welt der Erzählung beziehen. Auch wenn die Mitglieder unbekannt sind, ist es eine spezifische Gruppe im Text. *Beispiele: "meine Freunde", "die Pächter", "die Wachen am Tor".*
 -   **Umsetzung:** Das `Annotation`-Array enthält **ein einziges Objekt**.
     -   Dieses Objekt bekommt eine eigene Gruppen-`entity_id` (z.B. "manche tätige Freunde").
     -   Bei ihrer ersten Nennung, setze `specialcase_entity: ["group"]`.
-    -   Wenn diese Gruppe zusätzlich eine allgemeine Kategorie darstellt (siehe Test oben), dann setze `specialcase_entity: ["generic", "group"]`.
 
-**Fall 2: Auflösbare Gruppe (z.B. plurale Pronomen wie "sie", "ihnen" oder "beide")**
--   **Logik:** Die Erwähnung verweist klar auf mehrere, **individuelle Entitäten, die im unmittelbaren Kontext bekannt sind**.
+**Fall 2: Auflösbare Gruppe (Mehrere Annotationen)**
+-   **Logik:** Die Erwähnung (oft ein Pronomen wie "sie", "ihnen" oder "beide") verweist klar auf **mehrere, individuelle Entitäten, die im unmittelbaren Kontext bekannt sind**.
 -   **Umsetzung:** Das `Annotation`-Array enthält **mehrere Objekte**, eines für jede referenzierte Entität.
     -   Jedes Objekt enthält die `entity_id` des jeweiligen Mitglieds.
-    -   Erfinde keine neuen Einzelfiguren, wenn die Mitglieder nicht aus dem Text hervorgehen. Wenn du die Mitglieder nicht kennst, ist es Fall 1.
+    -   Erfinde keine neuen Einzelfiguren. Wenn die Mitglieder nicht klar aus dem Kontext hervorgehen, ist es Fall 1.
 
 ## Ausgabeformat
 -   Gib EXAKT so viele Zeilen aus, wie Du im Input (B) erhalten hast. KEINE Zeilen überspringen.
@@ -205,7 +211,7 @@ class MentionPrompt(Generic[T], Prompt[List[Mention]]):
 
 class BasicAnnotationReference(BaseModel):
     entity_id: str
-    gender: Optional[Literal["m", "f", "nb", "o", "u"]] = None
+    gender: Optional[Literal["m", "f", "nb", "o", "u", "mf"]] = None
     specialcase_entity: Optional[List[Literal["group", "generic", "nonfact", "possible_identity"]]] = None
     specialcase_mention: Optional[List[Literal["figurative", "part"]]] = None
 
