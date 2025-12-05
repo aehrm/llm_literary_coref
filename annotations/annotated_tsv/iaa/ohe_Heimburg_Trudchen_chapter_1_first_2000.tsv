@@ -235,7 +235,7 @@
 233	233	wie	
 234	234	sie	
 235	235	zu	
-236	236	Großmutterzeiten	(mention_id=26|references=(entity=(entity_id=figur_0011|fullname=Großmutter|gender=f|specialcase_entity=generic)))
+236	236	Großmutterzeiten	(mention_id=26|references=(entity=(entity_id=generic_0001|fullname=Großmutter|gender=u|specialcase_entity=generic)))
 237	237	die	
 238	238	jetzigen	
 239	239	vornehmen	
@@ -1018,15 +1018,15 @@
 1016	1016	mir	(mention_id=101|references=(entity=(entity_id=figur_0001|fullname=Amtsrichter Weishaupt|gender=m)))
 1017	1017	kein	
 1018	1018	armes	
-1019	1019	Mädchen	(mention_id=102|references=(entity=(entity_id=generic_0001|fullname=arme Zukünftige|gender=u|specialcase_entity=generic)))
+1019	1019	Mädchen	(mention_id=102|references=(entity=(entity_id=generic_0002|fullname=arme Zukünftige|gender=u|specialcase_entity=generic)))
 1020	1020	,	
 1021	1021	Franz	(mention_id=103|references=(entity=(entity_id=figur_0007|fullname=Franz Linden|gender=m)))
 1022	1022	,	
 1023	1023	und	
 1024	1024	wäre	
-1025	1025	sie	(mention_id=104|references=(entity=(entity_id=generic_0002|fullname=arme Zukünftige|gender=u|specialcase_entity=generic)))
+1025	1025	sie	(mention_id=104|references=(entity=(entity_id=generic_0003|fullname=arme Zukünftige|gender=u|specialcase_entity=generic)))
 1026	1026	die	
-1027	1027	Perle	(mention_id=105|references=(entity=(entity_id=generic_0003|fullname=arme Zukünftige|gender=u|specialcase_entity=generic)))
+1027	1027	Perle	(mention_id=105|references=(entity=(entity_id=generic_0004|fullname=arme Zukünftige|gender=u|specialcase_entity=generic)))
 1028	1028	aller	
 1029	1029	Weltteile	
 1030	1030	.	
@@ -1068,7 +1068,7 @@
 1066	1066	wirst	
 1067	1067	auch	
 1068	1068	die	
-1069	1069	Schönste	(mention_id=113|references=(entity=(entity_id=figur_0022|fullname=die Schönste Zukünftige|gender=f|specialcase_entity=generic,nonfact)))
+1069	1069	Schönste	(mention_id=113|references=(entity=(entity_id=generic_0005|fullname=die Schönste Zukünftige|gender=u|specialcase_entity=generic)))
 1070	1070	nicht	
 1071	1071	ewig	
 1072	1072	andichten	
@@ -1125,7 +1125,7 @@
 1123	1123	–	
 1124	1124	Wenn	
 1125	1125	der	
-1126	1126	Mensch	(mention_id=122|references=(entity=(entity_id=generic_0004|fullname=Mensch über 25|gender=u|specialcase_entity=generic)),(entity=(entity_id=figur_0007|fullname=Franz Linden|gender=m)))
+1126	1126	Mensch	(mention_id=122|references=(entity=(entity_id=generic_0006|fullname=Mensch über 25|gender=u|specialcase_entity=generic)),(entity=(entity_id=figur_0007|fullname=Franz Linden|gender=m)))
 1127	1127	über	
 1128	1128	die	
 1129	1129	Fünfundzwanzig	
@@ -1133,7 +1133,7 @@
 1131	1131	ist	
 1132	1132	,	
 1133	1133	sollte	
-1134	1134	er	(mention_id=123|references=(entity=(entity_id=generic_0005|fullname=Mensch über 25|gender=u|specialcase_entity=generic)),(entity=(entity_id=figur_0007|fullname=Franz Linden|gender=m)))
+1134	1134	er	(mention_id=123|references=(entity=(entity_id=generic_0007|fullname=Mensch über 25|gender=u|specialcase_entity=generic)),(entity=(entity_id=figur_0007|fullname=Franz Linden|gender=m)))
 1135	1135	wahrhaftig	
 1136	1136	vernünftiger	
 1137	1137	werden	
@@ -1184,7 +1184,7 @@
 1182	1182	vielleicht	
 1183	1183	auch	
 1184	1184	reiche	
-1185	1185	Mädchen	(mention_id=131|references=(entity=(entity_id=generic_0006|fullname=reiche Mädchen|gender=u|specialcase_entity=generic)))
+1185	1185	Mädchen	(mention_id=131|references=(entity=(entity_id=generic_0008|fullname=reiche Mädchen|gender=u|specialcase_entity=generic)))
 1186	1186	.	
 1187	1187	«	
 1188	1188	»	
@@ -1205,10 +1205,10 @@
 1203	1203	,	
 1204	1204	»	
 1205	1205	reiche	
-1206	1206	Mädchen	(mention_id=135|references=(entity=(entity_id=generic_0007|fullname=reiche Mädchen|gender=u|specialcase_entity=generic)))
+1206	1206	Mädchen	(mention_id=135|references=(entity=(entity_id=generic_0009|fullname=reiche Mädchen|gender=u|specialcase_entity=generic)))
 1207	1207	und	
 1208	1208	hübsche	
-1209	1209	Mädchen	(mention_id=136|references=(entity=(entity_id=figur_0023|fullname=hübsche Mädchen|gender=f|specialcase_entity=generic,group)))
+1209	1209	Mädchen	(mention_id=136|references=(entity=(entity_id=generic_0010|fullname=hübsche Mädchen|gender=u|specialcase_entity=generic)))
 1210	1210	.	
 1211	1211	Unsere	(mention_id=137|references=(entity=(entity_id=figur_0012|fullname=Herr Wolff|gender=m)))
 1212	1212	alte	
@@ -1427,17 +1427,17 @@
 1425	1425	Mangel	
 1426	1426	an	
 1427	1427	liebenswürdigen	
-1428	1428	Kavalieren	(mention_id=167|references=(entity=(entity_id=generic_0008|fullname=Kavaliere|gender=u|specialcase_entity=generic)),(entity=(entity_id=figur_0007|fullname=Franz Linden|gender=m)))
+1428	1428	Kavalieren	(mention_id=167|references=(entity=(entity_id=generic_0011|fullname=Kavaliere|gender=u|specialcase_entity=generic)),(entity=(entity_id=figur_0007|fullname=Franz Linden|gender=m)))
 1429	1429	in	
 1430	1430	der	
 1431	1431	kleinen	
 1432	1432	Stadt	
 1433	1433	.	
 1434	1434	Die	
-1435	1435	Herren	(mention_id=168|references=(entity=(entity_id=generic_0009|fullname=Kavaliere|gender=u|specialcase_entity=generic)))
-1436	1436	von	(mention_id=168|references=(entity=(entity_id=generic_0009|fullname=Kavaliere|gender=u|specialcase_entity=generic)))
-1437	1437	der	(mention_id=168|references=(entity=(entity_id=generic_0009|fullname=Kavaliere|gender=u|specialcase_entity=generic)))
-1438	1438	Kavallerie	(mention_id=168|references=(entity=(entity_id=generic_0009|fullname=Kavaliere|gender=u|specialcase_entity=generic)))
+1435	1435	Herren	(mention_id=168|references=(entity=(entity_id=generic_0012|fullname=Kavaliere|gender=u|specialcase_entity=generic)))
+1436	1436	von	(mention_id=168|references=(entity=(entity_id=generic_0012|fullname=Kavaliere|gender=u|specialcase_entity=generic)))
+1437	1437	der	(mention_id=168|references=(entity=(entity_id=generic_0012|fullname=Kavaliere|gender=u|specialcase_entity=generic)))
+1438	1438	Kavallerie	(mention_id=168|references=(entity=(entity_id=generic_0012|fullname=Kavaliere|gender=u|specialcase_entity=generic)))
 1439	1439	–	
 1440	1440	Sie	(mention_id=169|references=(entity=(entity_id=figur_0007|fullname=Franz Linden|gender=m)))
 1441	1441	wissen	
@@ -1449,7 +1449,7 @@
 1447	1447	hinaus	
 1448	1448	,	
 1449	1449	wollen	
-1450	1450	sich	(mention_id=170|references=(entity=(entity_id=generic_0010|fullname=Kavaliere|gender=u|specialcase_entity=generic)))
+1450	1450	sich	(mention_id=170|references=(entity=(entity_id=generic_0013|fullname=Kavaliere|gender=u|specialcase_entity=generic)))
 1451	1451	lediglich	
 1452	1452	amüsieren	
 1453	1453	;	

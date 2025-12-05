@@ -24,45 +24,45 @@ metric             P       R      F1     Support (key/sys)
 
 === ENTITY ATTRIBUTES (all) ===
 metric             P       R      F1     Support (key/sys)
-  gender:m     90.32   86.15   88.19                 65/62
-  gender:f     63.16   80.00   70.59                 15/19
+  gender:m     91.38   91.38   91.38                 58/58
+  gender:f     75.00   80.00   77.42                 15/16
   gender:nb     0.00    0.00    0.00                   1/0
   gender:mf     0.00    0.00    0.00                   3/0
-  gender:u     70.59   84.51   76.92                 71/85
+  gender:u     71.74   84.62   77.65                 78/92
   generic      69.23   84.38   76.06                 64/78
-  group        61.76   63.64   62.69                 33/34
-  nonfact      16.67   20.00   18.18                   5/6
+  group        86.36   65.52   74.51                 29/22
+  nonfact      20.00   20.00   20.00                   5/5
 
 === ENTITY ATTRIBUTES (all, restrict on matches) ===
 metric             P       R      F1     Support (key/sys)
-  gender:m     98.25   90.32   94.12                 62/57
+  gender:m     98.15   94.64   96.36                 56/54
   gender:f     85.71   80.00   82.76                 15/14
   gender:nb     0.00    0.00    0.00                   1/0
   gender:mf     0.00    0.00    0.00                   2/0
-  gender:u     86.96  100.00   93.02                 60/69
+  gender:u     91.67  100.00   95.65                 66/72
   generic      90.00   94.74   92.31                 57/60
-  group        72.41   80.77   76.36                 26/29
+  group        90.48   82.61   86.36                 23/21
   nonfact     100.00   20.00   33.33                   5/1
 
 === ENTITY ATTRIBUTES (no group) ===
 metric             P       R      F1     Support (key/sys)
-  gender:m     90.00   90.00   90.00                 50/50
-  gender:f     80.00   92.31   85.71                 13/15
+  gender:m     89.36   93.33   91.30                 45/47
+  gender:f     92.31   92.31   92.31                 13/13
   gender:nb     0.00    0.00    0.00                   1/0
   gender:mf     0.00    0.00    0.00                   0/0
-  gender:u     70.97   88.00   78.57                 50/62
-  generic      74.60   85.45   79.66                 55/63
+  gender:u     72.50   89.23   80.00                 65/80
+  generic      71.05   85.71   77.70                 63/76
   group         0.00    0.00    0.00                   0/0
-  nonfact       0.00    0.00    0.00                   3/5
+  nonfact       0.00    0.00    0.00                   3/4
 
 === ENTITY ATTRIBUTES (no group, restrict on matches) ===
 metric             P       R      F1     Support (key/sys)
-  gender:m     97.83   93.75   95.74                 48/46
+  gender:m     97.67   97.67   97.67                 43/43
   gender:f    100.00   92.31   96.00                 13/12
   gender:nb     0.00    0.00    0.00                   1/0
   gender:mf     0.00    0.00    0.00                   0/0
-  gender:u     91.67  100.00   95.65                 44/48
-  generic      95.92   95.92   95.92                 49/49
+  gender:u     96.67  100.00   98.31                 58/60
+  generic      93.10   96.43   94.74                 56/58
   group         0.00    0.00    0.00                   0/0
   nonfact       0.00    0.00    0.00                   3/0
 
@@ -92,4 +92,5 @@ metric             P       R      F1     Support (key/sys)
 metric             P       R      F1     Support (key/sys)
   part         33.33   25.00   28.57                   8/6
   figurative   25.00   25.00   25.00                   8/8
+  generic      68.42   85.25   75.91                 61/76
 

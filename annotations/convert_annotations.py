@@ -5,6 +5,7 @@ from pathlib import Path
 from typing import Dict, List, Tuple, Iterator, Optional, Iterable
 from xml.etree import ElementTree
 import re
+from natsort import natsorted
 
 from xml.etree.ElementTree import Element
 
@@ -90,10 +91,11 @@ def read_entity_table(entity_table: pandas.DataFrame) -> Dict[int, Dict[str, Ent
         )
         all_entities[e.id] = e
 
-        for chap_row in [x for x in row.index if '_chapter_' in x]:
-            chap_num = int(chap_row.split('_')[-1])
+        chapter_rows = natsorted([x for x in row.index if '_chapter_' in x])
+        for chap_row in chapter_rows:
             if not pandas.isna(row[chap_row]):
-                entity_label_map[chap_num][row[chap_row]] = e
+                chap_id = re.search(r'_chapter_(.*)$', chap_row).group(1)
+                entity_label_map[chap_id][row[chap_row]] = e
 
     return entity_label_map
 
@@ -180,9 +182,11 @@ def gather_entities(xmi: Element) -> Dict[str, Entity]:
 
 
 
-def extract_references(xmi: Element, entities: Dict[str, Entity], generic_entity_factory) -> Iterator[Tuple[Tuple[int, int], Reference]]:
+def extract_references(xmi: Element, entity_label_map: Dict[str, Entity], generic_entity_factory) -> Iterator[Tuple[Tuple[int, int], Reference]]:
     mention_annotations = list(xmi.findall('.//{http:///webanno/custom.ecore}Mention'))
     xmi_text = xmi.find('.//{http:///uima/cas.ecore}Sofa').get('sofaString')
+
+    missing_entities = collections.defaultdict(list)
 
     for annotation_obj in mention_annotations:
         mention_start = int(annotation_obj.get('begin'))
@@ -215,20 +219,24 @@ def extract_references(xmi: Element, entities: Dict[str, Entity], generic_entity
         else:
             if not mention_label:
                 print(
-                    f'warn: mention has no ID (start: {mention_start}, mention: {xmi_text[mention_start:mention_end]!r})')
+                    f'warn: non-generic mention has no ID (start: {mention_start}, mention: {xmi_text[mention_start:mention_end]!r})')
                 continue
 
-            if mention_label not in entities.keys():
-                print(f'warn: mention with label {mention_label!r} (start: {mention_start}, mention: {xmi_text[mention_start:mention_end]!r}) not found in entity table')
+            if mention_label not in entity_label_map.keys():
+                # print(f'warn: non-generic mention with label {mention_label!r} (start: {mention_start}, mention: {xmi_text[mention_start:mention_end]!r}) not found in entity table')
+                missing_entities[mention_label].append((mention_start, xmi_text[mention_start:mention_end]))
                 continue
 
-            entity = entities[mention_label]
+            entity = entity_label_map[mention_label]
             ref = Reference(
                 entity=entity,
                 borderline_reference=borderline_reference,
                 specialcase_reference=specialcase_reference,
             )
             yield (mention_start, mention_end), ref
+
+    for mention_label, mentions in missing_entities.items():
+        print(f'warn: non-generic mention with label {mention_label!r} not found in entity table! Mentions: {mentions}')
 
 
 
@@ -294,7 +302,6 @@ def check_for_overlapping_mehtions(mentions: Dict[int, Mention], token_ser: Opti
 
 
 def convert_xmi_annotations(xmi_path: Path, tokens: pandas.Series) -> List[Mention]:
-    print(f"processing {xmi_path}")
     xmi = ElementTree.parse(xmi_path).getroot()
 
     entities = gather_entities(xmi)
@@ -322,14 +329,14 @@ def convert_booklevel_annotations(annotations_dir: Path, source_df: pandas.DataF
 
     chapter_id_row = source_df['is_section_start'].cumsum()
 
+    xmi_files = list(natsorted(annotations_dir.glob("*.xmi")))
+
     generic_entity_factory = make_generic_entity_factory()
-
-
     all_references: List[Tuple[List[int], Reference]] = []
-    for chapter_id, chapter in source_df.groupby(chapter_id_row):
-        xmi_path = list(annotations_dir.glob(f"*chapter_{chapter_id}.xmi"))[0]
-        print(f"processing chapter {xmi_path}")
-        xmi = ElementTree.parse(xmi_path).getroot()
+    for (i, chapter), xmi_file in zip(source_df.groupby(chapter_id_row), xmi_files):
+        chapter_id = re.search(r'.*_chapter_(.*)$', xmi_file.stem).group(1)
+        print(f"processing chapter #{i}: {xmi_file.name} and Figurenverzeichnis.csv row {chapter_id!r}")
+        xmi = ElementTree.parse(xmi_file).getroot()
 
         all_references.extend(list(
             extract_and_align_references(xmi,

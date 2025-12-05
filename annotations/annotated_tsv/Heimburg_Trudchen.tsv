@@ -235,7 +235,7 @@ i	text	is_section_start	gold
 233	wie	0	
 234	sie	0	
 235	zu	0	
-236	Großmutterzeiten	0	(mention_id=26|references=(entity=(entity_id=entity_0046|fullname=Großmutter|gender=f|specialcase_entity=generic)))
+236	Großmutterzeiten	0	(mention_id=26|references=(entity=(entity_id=generic_0001|fullname=Großmutter|gender=u|specialcase_entity=generic)))
 237	die	0	
 238	jetzigen	0	
 239	vornehmen	0	
@@ -1018,15 +1018,15 @@ i	text	is_section_start	gold
 1016	mir	0	(mention_id=101|references=(entity=(entity_id=entity_0002|fullname=Richard Weishaupt|gender=m)))
 1017	kein	0	
 1018	armes	0	
-1019	Mädchen	0	(mention_id=102|references=(entity=(entity_id=generic_0001|fullname=arme Zukünftige|gender=u|specialcase_entity=generic)))
+1019	Mädchen	0	(mention_id=102|references=(entity=(entity_id=generic_0002|fullname=arme Zukünftige|gender=u|specialcase_entity=generic)))
 1020	,	0	
 1021	Franz	0	(mention_id=103|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
 1022	,	0	
 1023	und	0	
 1024	wäre	0	
-1025	sie	0	(mention_id=104|references=(entity=(entity_id=generic_0002|fullname=arme Zukünftige|gender=u|specialcase_entity=generic)))
+1025	sie	0	(mention_id=104|references=(entity=(entity_id=generic_0003|fullname=arme Zukünftige|gender=u|specialcase_entity=generic)))
 1026	die	0	
-1027	Perle	0	(mention_id=105|references=(entity=(entity_id=generic_0003|fullname=arme Zukünftige|gender=u|specialcase_entity=generic)))
+1027	Perle	0	(mention_id=105|references=(entity=(entity_id=generic_0004|fullname=arme Zukünftige|gender=u|specialcase_entity=generic)))
 1028	aller	0	
 1029	Weltteile	0	
 1030	.	0	
@@ -1068,7 +1068,7 @@ i	text	is_section_start	gold
 1066	wirst	0	
 1067	auch	0	
 1068	die	0	
-1069	Schönste	0	(mention_id=113|references=(entity=(entity_id=entity_0062|fullname=die Schönste Zukünftige|gender=f|specialcase_entity=generic,nonfact)))
+1069	Schönste	0	(mention_id=113|references=(entity=(entity_id=generic_0005|fullname=die Schönste Zukünftige|gender=u|specialcase_entity=generic)))
 1070	nicht	0	
 1071	ewig	0	
 1072	andichten	0	
@@ -1125,7 +1125,7 @@ i	text	is_section_start	gold
 1123	–	0	
 1124	Wenn	0	
 1125	der	0	
-1126	Mensch	0	(mention_id=122|references=(entity=(entity_id=generic_0004|fullname=Mensch über 25|gender=u|specialcase_entity=generic)),(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+1126	Mensch	0	(mention_id=122|references=(entity=(entity_id=generic_0006|fullname=Mensch über 25|gender=u|specialcase_entity=generic)),(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
 1127	über	0	
 1128	die	0	
 1129	Fünfundzwanzig	0	
@@ -1133,7 +1133,7 @@ i	text	is_section_start	gold
 1131	ist	0	
 1132	,	0	
 1133	sollte	0	
-1134	er	0	(mention_id=123|references=(entity=(entity_id=generic_0005|fullname=Mensch über 25|gender=u|specialcase_entity=generic)),(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+1134	er	0	(mention_id=123|references=(entity=(entity_id=generic_0007|fullname=Mensch über 25|gender=u|specialcase_entity=generic)),(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
 1135	wahrhaftig	0	
 1136	vernünftiger	0	
 1137	werden	0	
@@ -1184,7 +1184,7 @@ i	text	is_section_start	gold
 1182	vielleicht	0	
 1183	auch	0	
 1184	reiche	0	
-1185	Mädchen	0	(mention_id=131|references=(entity=(entity_id=generic_0006|fullname=reiche Mädchen|gender=u|specialcase_entity=generic)))
+1185	Mädchen	0	(mention_id=131|references=(entity=(entity_id=generic_0008|fullname=reiche Mädchen|gender=u|specialcase_entity=generic)))
 1186	.	0	
 1187	«	0	
 1188	»	0	
@@ -1205,10 +1205,10 @@ i	text	is_section_start	gold
 1203	,	0	
 1204	»	0	
 1205	reiche	0	
-1206	Mädchen	0	(mention_id=135|references=(entity=(entity_id=generic_0007|fullname=reiche Mädchen|gender=u|specialcase_entity=generic)))
+1206	Mädchen	0	(mention_id=135|references=(entity=(entity_id=generic_0009|fullname=reiche Mädchen|gender=u|specialcase_entity=generic)))
 1207	und	0	
 1208	hübsche	0	
-1209	Mädchen	0	(mention_id=136|references=(entity=(entity_id=entity_0061|fullname=hübsche Mädchen|gender=f|specialcase_entity=generic,group)))
+1209	Mädchen	0	(mention_id=136|references=(entity=(entity_id=generic_0010|fullname=hübsche Mädchen|gender=u|specialcase_entity=generic)))
 1210	.	0	
 1211	Unsere	0	(mention_id=137|references=(entity=(entity_id=entity_0003|fullname=Herr Wolff|gender=m)))
 1212	alte	0	
@@ -1427,17 +1427,17 @@ i	text	is_section_start	gold
 1425	Mangel	0	
 1426	an	0	
 1427	liebenswürdigen	0	
-1428	Kavalieren	0	(mention_id=167|references=(entity=(entity_id=generic_0008|fullname=Kavaliere|gender=u|specialcase_entity=generic)),(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+1428	Kavalieren	0	(mention_id=167|references=(entity=(entity_id=generic_0011|fullname=Kavaliere|gender=u|specialcase_entity=generic)),(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
 1429	in	0	
 1430	der	0	
 1431	kleinen	0	
 1432	Stadt	0	
 1433	.	0	
 1434	Die	0	
-1435	Herren	0	(mention_id=168|references=(entity=(entity_id=generic_0009|fullname=Kavaliere|gender=u|specialcase_entity=generic)))
-1436	von	0	(mention_id=168|references=(entity=(entity_id=generic_0009|fullname=Kavaliere|gender=u|specialcase_entity=generic)))
-1437	der	0	(mention_id=168|references=(entity=(entity_id=generic_0009|fullname=Kavaliere|gender=u|specialcase_entity=generic)))
-1438	Kavallerie	0	(mention_id=168|references=(entity=(entity_id=generic_0009|fullname=Kavaliere|gender=u|specialcase_entity=generic)))
+1435	Herren	0	(mention_id=168|references=(entity=(entity_id=generic_0012|fullname=Kavaliere|gender=u|specialcase_entity=generic)))
+1436	von	0	(mention_id=168|references=(entity=(entity_id=generic_0012|fullname=Kavaliere|gender=u|specialcase_entity=generic)))
+1437	der	0	(mention_id=168|references=(entity=(entity_id=generic_0012|fullname=Kavaliere|gender=u|specialcase_entity=generic)))
+1438	Kavallerie	0	(mention_id=168|references=(entity=(entity_id=generic_0012|fullname=Kavaliere|gender=u|specialcase_entity=generic)))
 1439	–	0	
 1440	Sie	0	(mention_id=169|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
 1441	wissen	0	
@@ -2244,14 +2244,14 @@ i	text	is_section_start	gold
 2242	Oh	0	
 2243	,	0	
 2244	alte	0	
-2245	Tanten	0	(mention_id=303|references=(entity=(entity_id=generic_0010|fullname=alte Tanten|gender=u|specialcase_entity=generic)))
+2245	Tanten	0	(mention_id=303|references=(entity=(entity_id=generic_0013|fullname=alte Tanten|gender=u|specialcase_entity=generic)))
 2246	sind	0	
 2247	eigens	0	
 2248	dazu	0	
 2249	erfunden	0	
 2250	,	0	
-2251	ihre	0	(mention_id=304|references=(entity=(entity_id=generic_0011|fullname=alte Tanten|gender=u|specialcase_entity=generic)))
-2252	Mitmenschen	0	(mention_id=305|references=(entity=(entity_id=entity_0055|fullname=Mitmenschen der alten Tanten|gender=u|specialcase_entity=generic,group)))
+2251	ihre	0	(mention_id=304|references=(entity=(entity_id=generic_0014|fullname=alte Tanten|gender=u|specialcase_entity=generic)))
+2252	Mitmenschen	0	(mention_id=305|references=(entity=(entity_id=generic_0015|fullname=Mitmenschen der alten Tanten|gender=u|specialcase_entity=generic)))
 2253	zu	0	
 2254	quälen	0	
 2255	.	0	
@@ -2372,7 +2372,7 @@ i	text	is_section_start	gold
 2370	unter	0	
 2371	den	0	
 2372	reichen	0	
-2373	Grundbesitzern	0	(mention_id=317|references=(entity=(entity_id=entity_0066|fullname=reiche Grundbesitzer|gender=m|specialcase_entity=generic,group)))
+2373	Grundbesitzern	0	(mention_id=317|references=(entity=(entity_id=generic_0016|fullname=reiche Grundbesitzer|gender=u|specialcase_entity=generic)))
 2374	dieses	0	
 2375	gesegneten	0	
 2376	Landstriches	0	
@@ -2792,7 +2792,7 @@ i	text	is_section_start	gold
 2790	Trennung	0	
 2791	von	0	
 2792	liebgewordenen	0	
-2793	Menschen	0	(mention_id=375|references=(entity=(entity_id=entity_0065|fullname=liebgewordene Menschen|gender=u|specialcase_entity=generic,group)),(entity=(entity_id=entity_0002|fullname=Richard Weishaupt|gender=m)))
+2793	Menschen	0	(mention_id=375|references=(entity=(entity_id=generic_0017|fullname=liebgewordene Menschen|gender=u|specialcase_entity=generic)),(entity=(entity_id=entity_0002|fullname=Richard Weishaupt|gender=m)))
 2794	das	0	
 2795	Herz	0	
 2796	erfüllt	0	
@@ -2850,7 +2850,7 @@ i	text	is_section_start	gold
 2848	er	0	(mention_id=381|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
 2849	kannte	0	
 2850	keinen	0	
-2851	Menschen	0	(mention_id=382|references=(entity=(entity_id=generic_0012|fullname=Menschen|gender=u|specialcase_entity=generic)))
+2851	Menschen	0	(mention_id=382|references=(entity=(entity_id=generic_0018|fullname=Menschen|gender=u|specialcase_entity=generic)))
 2852	,	0	
 2853	aber	0	
 2854	er	0	(mention_id=383|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
@@ -3130,7 +3130,7 @@ i	text	is_section_start	gold
 3128	dem	0	
 3129	Einkommen	0	
 3130	eines	0	
-3131	Assessors	0	(mention_id=409|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)),(entity=(entity_id=entity_0053|fullname=Assessor|gender=m|specialcase_entity=generic)))
+3131	Assessors	0	(mention_id=409|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)),(entity=(entity_id=generic_0026|fullname=Assessor|gender=u|specialcase_entity=generic)))
 3132	.	0	
 3133	Und	0	
 3134	dann	0	
@@ -3179,7 +3179,7 @@ i	text	is_section_start	gold
 3177	mattgrauen	0	
 3178	Fond	0	
 3179	eine	0	
-3180	Frauengestalt	0	(mention_id=412|references=(entity=(entity_id=generic_0020|fullname=Frauengestalt|gender=u|specialcase_entity=generic)))
+3180	Frauengestalt	0	(mention_id=412|references=(entity=(entity_id=generic_0027|fullname=Frauengestalt|gender=u|specialcase_entity=generic)))
 3181	,	0	
 3182	dunkle	0	
 3183	Straußfedern	0	
@@ -3222,16 +3222,16 @@ i	text	is_section_start	gold
 3220	.	0	
 3221	»	0	
 3222	Eine	0	
-3223	Modepuppe	0	(mention_id=415|references=(entity=(entity_id=generic_0021|fullname=Frauengestalt|gender=u|specialcase_entity=generic)))
+3223	Modepuppe	0	(mention_id=415|references=(entity=(entity_id=generic_0028|fullname=Frauengestalt|gender=u|specialcase_entity=generic)))
 3224	,	0	
 3225	ein	0	
 3226	herzloses	0	
-3227	Weib	0	(mention_id=416|references=(entity=(entity_id=generic_0022|fullname=Frauengestalt|gender=u|specialcase_entity=generic)))
+3227	Weib	0	(mention_id=416|references=(entity=(entity_id=generic_0029|fullname=Frauengestalt|gender=u|specialcase_entity=generic)))
 3228	«	0	
 3229	,	0	
 3230	nannte	0	
 3231	er	0	(mention_id=417|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
-3232	sie	0	(mention_id=418|references=(entity=(entity_id=generic_0023|fullname=Frauengestalt|gender=u|specialcase_entity=generic)))
+3232	sie	0	(mention_id=418|references=(entity=(entity_id=generic_0030|fullname=Frauengestalt|gender=u|specialcase_entity=generic)))
 3233	bitter	0	
 3234	;	0	
 3235	aber	0	
@@ -3609,7 +3609,7 @@ i	text	is_section_start	gold
 3607	noch	0	
 3608	ein	0	
 3609	holdes	0	
-3610	Mädchenantlitz	0	(mention_id=455|references=(entity=(entity_id=entity_0064|fullname=imaginiertes Mädchenanlitz|gender=f|specialcase_entity=generic,nonfact)))
+3610	Mädchenantlitz	0	(mention_id=455|references=(entity=(entity_id=generic_0031|fullname=imaginiertes Mädchenanlitz|gender=u|specialcase_entity=generic)))
 3611	darüber	0	
 3612	,	0	
 3613	und	0	
@@ -4123,7 +4123,7 @@ i	text	is_section_start	gold
 4121	wie	0	
 4122	die	0	
 4123	eines	0	
-4124	Kindes	0	(mention_id=510|references=(entity=(entity_id=entity_0042|fullname=Kind|gender=u|specialcase_entity=generic)))
+4124	Kindes	0	(mention_id=510|references=(entity=(entity_id=generic_0032|fullname=Kind|gender=u|specialcase_entity=generic)))
 4125	,	0	
 4126	bittend	0	
 4127	und	0	
@@ -4144,7 +4144,7 @@ i	text	is_section_start	gold
 4142	vorkommen	0	
 4143	,	0	
 4144	daß	0	
-4145	Fremde	0	(mention_id=511|references=(entity=(entity_id=entity_0045|fullname=Fremde Besuchende der Kirche|gender=u|specialcase_entity=generic)))
+4145	Fremde	0	(mention_id=511|references=(entity=(entity_id=generic_0033|fullname=Fremde Besuchende der Kirche|gender=u|specialcase_entity=generic)))
 4146	in	0	
 4147	die	0	
 4148	schöne	0	
@@ -5203,10 +5203,10 @@ i	text	is_section_start	gold
 5201	Bodenstedt	0	
 5202	–	0	
 5203	sehe	0	
-5204	jeder	0	(mention_id=650|references=(entity=(entity_id=entity_0006|fullname=Jenny Fredrich, geb. Baumhagen|gender=f)),(entity=(entity_id=entity_0007|fullname=Artur Fredrich|gender=m)),(entity=(entity_id=generic_0024|fullname=Jeder|gender=u|specialcase_entity=generic)))
+5204	jeder	0	(mention_id=650|references=(entity=(entity_id=entity_0006|fullname=Jenny Fredrich, geb. Baumhagen|gender=f)),(entity=(entity_id=entity_0007|fullname=Artur Fredrich|gender=m)),(entity=(entity_id=generic_0034|fullname=Jeder|gender=u|specialcase_entity=generic)))
 5205	,	0	
 5206	wo	0	
-5207	er	0	(mention_id=651|references=(entity=(entity_id=entity_0006|fullname=Jenny Fredrich, geb. Baumhagen|gender=f)),(entity=(entity_id=entity_0007|fullname=Artur Fredrich|gender=m)),(entity=(entity_id=generic_0025|fullname=Jeder|gender=u|specialcase_entity=generic)))
+5207	er	0	(mention_id=651|references=(entity=(entity_id=entity_0006|fullname=Jenny Fredrich, geb. Baumhagen|gender=f)),(entity=(entity_id=entity_0007|fullname=Artur Fredrich|gender=m)),(entity=(entity_id=generic_0035|fullname=Jeder|gender=u|specialcase_entity=generic)))
 5208	bleibe	0	
 5209	.	0	
 5210	«	0	
@@ -5752,7 +5752,7 @@ i	text	is_section_start	gold
 5750	stehen	0	
 5751	.	0	
 5752	Arme	0	
-5753	Leute	0	(mention_id=722|references=(entity=(entity_id=entity_0112|fullname=Arme Leute|gender=u|specialcase_entity=generic)))
+5753	Leute	0	(mention_id=722|references=(entity=(entity_id=generic_0036|fullname=Arme Leute|gender=u|specialcase_entity=generic)))
 5754	werden	0	
 5755	nicht	0	
 5756	dazu	0	
@@ -6337,9 +6337,9 @@ i	text	is_section_start	gold
 6335	»	0	
 6336	Nein	0	
 6337	,	0	
-6338	alle	0	(mention_id=779|references=(entity=(entity_id=generic_0026|fullname=alle Menschen|gender=u|specialcase_entity=generic)))
+6338	alle	0	(mention_id=779|references=(entity=(entity_id=generic_0037|fullname=alle Menschen|gender=u|specialcase_entity=generic)))
 6339	sind	0	
-6340	sie	0	(mention_id=780|references=(entity=(entity_id=generic_0027|fullname=alle Menschen|gender=u|specialcase_entity=generic)))
+6340	sie	0	(mention_id=780|references=(entity=(entity_id=generic_0038|fullname=alle Menschen|gender=u|specialcase_entity=generic)))
 6341	nicht	0	
 6342	so	0	
 6343	wie	0	
@@ -6351,7 +6351,7 @@ i	text	is_section_start	gold
 6349	gibt	0	
 6350	noch	0	
 6351	warme	0	
-6352	Menschenherzen	0	(mention_id=783|references=(entity=(entity_id=entity_0126|fullname=Menschen mit Herz|gender=u|specialcase_entity=generic,group)))
+6352	Menschenherzen	0	(mention_id=783|references=(entity=(entity_id=generic_0041|fullname=Menschen mit Herz|gender=u|specialcase_entity=generic)))
 6353	,	0	
 6354	es	0	
 6355	gibt	0	
@@ -7080,7 +7080,7 @@ i	text	is_section_start	gold
 7078	,	0	
 7079	wo	0	
 7080	der	0	
-7081	Ritter	0	(mention_id=874|references=(entity=(entity_id=entity_0141|fullname=Ritter|gender=m|specialcase_entity=generic,nonfact)))
+7081	Ritter	0	(mention_id=874|references=(entity=(entity_id=generic_0042|fullname=Ritter|gender=u|specialcase_entity=generic)))
 7082	erst	0	
 7083	soundso	0	
 7084	viele	0	
@@ -7897,7 +7897,7 @@ i	text	is_section_start	gold
 7895	man	0	
 7896	auch	0	
 7897	unter	0	
-7898	Menschen	0	(mention_id=996|references=(entity=(entity_id=generic_0013|fullname=Menschen|gender=u|specialcase_entity=generic)))
+7898	Menschen	0	(mention_id=996|references=(entity=(entity_id=generic_0019|fullname=Menschen|gender=u|specialcase_entity=generic)))
 7899	einsam	0	
 7900	sein	0	
 7901	kann	0	
@@ -8337,7 +8337,7 @@ i	text	is_section_start	gold
 8335	Rücksichtslosigkeit	0	
 8336	.	0	
 8337	Die	0	
-8338	Menschen	0	(mention_id=1047|references=(entity=(entity_id=entity_0127|fullname=Menschen um Trudchen|gender=u|specialcase_entity=generic,group)))
+8338	Menschen	0	(mention_id=1047|references=(entity=(entity_id=generic_0043|fullname=Menschen um Trudchen|gender=u|specialcase_entity=generic)))
 8339	sollten	0	
 8340	nicht	0	
 8341	wissen	0	
@@ -8389,7 +8389,7 @@ i	text	is_section_start	gold
 8387	–	0	
 8388	jeder	0	
 8389	tüchtige	0	
-8390	Mensch	0	(mention_id=1056|references=(entity=(entity_id=entity_0147|fullname=tüchtiger Mensch|gender=u|specialcase_entity=generic)))
+8390	Mensch	0	(mention_id=1056|references=(entity=(entity_id=generic_0044|fullname=tüchtiger Mensch|gender=u|specialcase_entity=generic)))
 8391	will	0	
 8392	schaffen	0	
 8393	,	0	
@@ -9344,7 +9344,7 @@ i	text	is_section_start	gold
 9342	Du	0	(mention_id=1182|references=(entity=(entity_id=entity_0002|fullname=Richard Weishaupt|gender=m)))
 9343	prosaischster	0	
 9344	aller	0	
-9345	Menschen	0	(mention_id=1183|references=(entity=(entity_id=entity_0002|fullname=Richard Weishaupt|gender=m)),(entity=(entity_id=generic_0028|fullname=alle Menschen|gender=u|specialcase_entity=generic)))
+9345	Menschen	0	(mention_id=1183|references=(entity=(entity_id=entity_0002|fullname=Richard Weishaupt|gender=m)),(entity=(entity_id=generic_0039|fullname=alle Menschen|gender=u|specialcase_entity=generic)))
 9346	denkst	0	
 9347	hierbei	0	
 9348	wahrscheinlich	0	
@@ -9361,7 +9361,7 @@ i	text	is_section_start	gold
 9359	à	0	
 9360	la	0	
 9361	wilder	0	
-9362	Jäger	0	(mention_id=1184|references=(entity=(entity_id=entity_0131|fullname=Jäger|gender=m|specialcase_entity=generic,nonfact)))
+9362	Jäger	0	(mention_id=1184|references=(entity=(entity_id=generic_0045|fullname=Jäger|gender=u|specialcase_entity=generic)))
 9363	kennst	0	
 9364	Du	0	(mention_id=1185|references=(entity=(entity_id=entity_0002|fullname=Richard Weishaupt|gender=m)))
 9365	nur	0	
@@ -10127,16 +10127,16 @@ i	text	is_section_start	gold
 10125	Toilettenvorbereitungen	0	
 10126	bei	0	
 10127	der	0	
-10128	Damenwelt	0	(mention_id=1299|references=(entity=(entity_id=entity_0113|fullname=Damenwelt|gender=f|specialcase_entity=generic,group)))
+10128	Damenwelt	0	(mention_id=1299|references=(entity=(entity_id=generic_0046|fullname=Damenwelt|gender=u|specialcase_entity=generic)))
 10129	.	0	
 10130	An	0	
 10131	solchem	0	
 10132	Tage	0	
 10133	sei	0	
 10134	weder	0	
-10135	Frau	0	(mention_id=1300|references=(entity=(entity_id=generic_0030|fullname=Frau|gender=u|specialcase_entity=generic)),(entity=(entity_id=entity_0005|fullname=Ottilie Baumhagen|gender=f)))
+10135	Frau	0	(mention_id=1300|references=(entity=(entity_id=generic_0047|fullname=Frau|gender=u|specialcase_entity=generic)),(entity=(entity_id=entity_0005|fullname=Ottilie Baumhagen|gender=f)))
 10136	noch	0	
-10137	Fräulein	0	(mention_id=1301|references=(entity=(entity_id=entity_0111|fullname=Fräulein|gender=f|specialcase_entity=generic)),(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))
+10137	Fräulein	0	(mention_id=1301|references=(entity=(entity_id=generic_0049|fullname=Fräulein|gender=u|specialcase_entity=generic)),(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))
 10138	zu	0	
 10139	sprechen	0	
 10140	.	0	
@@ -10252,7 +10252,7 @@ i	text	is_section_start	gold
 10250	Soll	0	
 10251	wahrscheinlich	0	
 10252	ein	0	
-10253	Prinz	0	(mention_id=1319|references=(entity=(entity_id=entity_0136|fullname=Prinz|gender=m|specialcase_entity=generic,nonfact)))
+10253	Prinz	0	(mention_id=1319|references=(entity=(entity_id=generic_0050|fullname=Prinz|gender=u|specialcase_entity=generic)))
 10254	kommen	0	
 10255	«	0	
 10256	,	0	
@@ -12966,7 +12966,7 @@ i	text	is_section_start	gold
 12964	Arme	0	
 12965	gerade	0	
 12966	vor	0	
-12967	ihm	0	(mention_id=1706|references=(entity=(entity_id=generic_0031|fullname=Frau|gender=u|specialcase_entity=generic)))
+12967	ihm	0	(mention_id=1706|references=(entity=(entity_id=generic_0048|fullname=Frau|gender=u|specialcase_entity=generic)))
 12968	stand	0	
 12969	,	0	
 12970	schenkte	0	
@@ -13383,7 +13383,7 @@ i	text	is_section_start	gold
 13381	Stubentür	0	
 13382	des	0	
 13383	jungen	0	
-13384	Paares	0	(mention_id=1739|references=(entity=(entity_id=entity_0166|fullname=junges Paar|gender=mf|specialcase_entity=generic,group)))
+13384	Paares	0	(mention_id=1739|references=(entity=(entity_id=generic_0051|fullname=junges Paar|gender=u|specialcase_entity=generic)))
 13385	Tante	0	(mention_id=1740|references=(entity=(entity_id=entity_0011|fullname=Rosalie Kruse|gender=f)))
 13386	Rosaliens	0	(mention_id=1740|references=(entity=(entity_id=entity_0011|fullname=Rosalie Kruse|gender=f)))
 13387	Blumengruß	0	
@@ -13731,10 +13731,10 @@ i	text	is_section_start	gold
 13729	»	0	
 13730	es	0	
 13731	gibt	0	
-13732	Menschen	0	(mention_id=1782|references=(entity=(entity_id=generic_0014|fullname=Menschen|gender=u|specialcase_entity=generic)))
+13732	Menschen	0	(mention_id=1782|references=(entity=(entity_id=generic_0020|fullname=Menschen|gender=u|specialcase_entity=generic)))
 13733	,	0	
-13734	die	0	(mention_id=1783|references=(entity=(entity_id=generic_0015|fullname=Menschen|gender=u|specialcase_entity=generic)))
-13735	hündischer	0	(mention_id=1784|references=(entity=(entity_id=generic_0016|fullname=Menschen|gender=u|specialcase_entity=generic)))
+13734	die	0	(mention_id=1783|references=(entity=(entity_id=generic_0021|fullname=Menschen|gender=u|specialcase_entity=generic)))
+13735	hündischer	0	(mention_id=1784|references=(entity=(entity_id=generic_0022|fullname=Menschen|gender=u|specialcase_entity=generic)))
 13736	sind	0	
 13737	wie	0	
 13738	die	0	
@@ -14765,11 +14765,11 @@ i	text	is_section_start	gold
 14763	,	0	
 14764	das	0	
 14765	ein	0	
-14766	jeder	0	(mention_id=1896|references=(entity=(entity_id=generic_0032|fullname=Liebender|gender=u|specialcase_entity=generic)),(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+14766	jeder	0	(mention_id=1896|references=(entity=(entity_id=generic_0052|fullname=Liebender|gender=u|specialcase_entity=generic)),(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
 14767	durchzumachen	0	
 14768	hat	0	
 14769	,	0	
-14770	der	0	(mention_id=1897|references=(entity=(entity_id=generic_0033|fullname=Liebender|gender=u|specialcase_entity=generic)),(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+14770	der	0	(mention_id=1897|references=(entity=(entity_id=generic_0053|fullname=Liebender|gender=u|specialcase_entity=generic)),(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
 14771	liebt	0	
 14772	.	0	
 14773	Und	0	
@@ -14818,11 +14818,11 @@ i	text	is_section_start	gold
 14816	wie	0	
 14817	sie	0	
 14818	liebenswürdige	0	
-14819	Leute	0	(mention_id=1905|references=(entity=(entity_id=generic_0034|fullname=liebenswürdige Leute|gender=u|specialcase_entity=generic)))
+14819	Leute	0	(mention_id=1905|references=(entity=(entity_id=generic_0054|fullname=liebenswürdige Leute|gender=u|specialcase_entity=generic)))
 14820	,	0	
-14821	denen	0	(mention_id=1906|references=(entity=(entity_id=generic_0035|fullname=liebenswürdige Leute|gender=u|specialcase_entity=generic)))
+14821	denen	0	(mention_id=1906|references=(entity=(entity_id=generic_0055|fullname=liebenswürdige Leute|gender=u|specialcase_entity=generic)))
 14822	die	0	
-14823	Gesellschaft	0	(mention_id=1907|references=(entity=(entity_id=entity_0155|fullname=Gesellschaft|gender=u|specialcase_entity=generic,group)))
+14823	Gesellschaft	0	(mention_id=1907|references=(entity=(entity_id=generic_0056|fullname=Gesellschaft|gender=u|specialcase_entity=generic)))
 14824	lächelnd	0	
 14825	allerlei	0	
 14826	nachsieht	0	
@@ -18847,7 +18847,7 @@ i	text	is_section_start	gold
 18845	zum	0	
 18846	Wohle	0	
 18847	der	0	
-18848	Menschheit	0	(mention_id=2509|references=(entity=(entity_id=generic_0029|fullname=alle Menschen|gender=u|specialcase_entity=generic)))
+18848	Menschheit	0	(mention_id=2509|references=(entity=(entity_id=generic_0040|fullname=alle Menschen|gender=u|specialcase_entity=generic)))
 18849	,	0	
 18850	nie	0	
 18851	,	0	
@@ -22585,7 +22585,7 @@ i	text	is_section_start	gold
 22583	ich	0	(mention_id=3125|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))
 22584	kenne	0	
 22585	keinen	0	
-22586	Menschen	0	(mention_id=3126|references=(entity=(entity_id=generic_0017|fullname=Menschen|gender=u|specialcase_entity=generic)))
+22586	Menschen	0	(mention_id=3126|references=(entity=(entity_id=generic_0023|fullname=Menschen|gender=u|specialcase_entity=generic)))
 22587	,	0	
 22588	der	0	(mention_id=3127|references=(entity=(entity_id=entity_0008|fullname=Onkel Heinrich|gender=m)))
 22589	weniger	0	
@@ -25749,7 +25749,7 @@ i	text	is_section_start	gold
 25747	nicht	0	
 25748	die	0	
 25749	schlechtesten	0	
-25750	Männer	0	(mention_id=3628|references=(entity=(entity_id=entity_0203|fullname=nicht die schlechtesten Männer|gender=m|specialcase_entity=generic,group)))
+25750	Männer	0	(mention_id=3628|references=(entity=(entity_id=generic_0057|fullname=nicht die schlechtesten Männer|gender=u|specialcase_entity=generic)))
 25751	«	0	
 25752	,	0	
 25753	meinte	0	
@@ -26479,10 +26479,10 @@ i	text	is_section_start	gold
 26477	.	0	
 26478	Wie	0	
 26479	manches	0	
-26480	Paar	0	(mention_id=3751|references=(entity=(entity_id=generic_0036|fullname=liebendes Paar|gender=u|specialcase_entity=generic)))
+26480	Paar	0	(mention_id=3751|references=(entity=(entity_id=generic_0058|fullname=liebendes Paar|gender=u|specialcase_entity=generic)))
 26481	,	0	
-26482	das	0	(mention_id=3752|references=(entity=(entity_id=generic_0037|fullname=liebendes Paar|gender=u|specialcase_entity=generic)))
-26483	sich	0	(mention_id=3753|references=(entity=(entity_id=generic_0038|fullname=liebendes Paar|gender=u|specialcase_entity=generic)))
+26482	das	0	(mention_id=3752|references=(entity=(entity_id=generic_0059|fullname=liebendes Paar|gender=u|specialcase_entity=generic)))
+26483	sich	0	(mention_id=3753|references=(entity=(entity_id=generic_0060|fullname=liebendes Paar|gender=u|specialcase_entity=generic)))
 26484	von	0	
 26485	Herzen	0	
 26486	liebte	0	
@@ -26611,9 +26611,9 @@ i	text	is_section_start	gold
 26609	bin	0	
 26610	keiner	0	(mention_id=3772|references=(entity=(entity_id=entity_0008|fullname=Onkel Heinrich|gender=m)))
 26611	von	0	
-26612	denen	0	(mention_id=3773|references=(entity=(entity_id=generic_0039|fullname=Appetit verlierende Personen|gender=u|specialcase_entity=generic)))
+26612	denen	0	(mention_id=3773|references=(entity=(entity_id=generic_0061|fullname=Appetit verlierende Personen|gender=u|specialcase_entity=generic)))
 26613	,	0	
-26614	die	0	(mention_id=3774|references=(entity=(entity_id=generic_0040|fullname=Appetit verlierende Personen|gender=u|specialcase_entity=generic)))
+26614	die	0	(mention_id=3774|references=(entity=(entity_id=generic_0062|fullname=Appetit verlierende Personen|gender=u|specialcase_entity=generic)))
 26615	aus	0	
 26616	Betrübnis	0	
 26617	den	0	
@@ -26657,15 +26657,15 @@ i	text	is_section_start	gold
 26655	Man	0	
 26656	gebe	0	
 26657	den	0	
-26658	Toten	0	(mention_id=3785|references=(entity=(entity_id=entity_0201|fullname=Tote|gender=u|specialcase_entity=generic,group)))
+26658	Toten	0	(mention_id=3785|references=(entity=(entity_id=generic_0063|fullname=Tote|gender=u|specialcase_entity=generic)))
 26659	alle	0	
 26660	Ehre	0	
 26661	,	0	
 26662	der	0	
-26663	Lebende	0	(mention_id=3786|references=(entity=(entity_id=generic_0041|fullname=Lebende|gender=u|specialcase_entity=generic)))
+26663	Lebende	0	(mention_id=3786|references=(entity=(entity_id=generic_0064|fullname=Lebende|gender=u|specialcase_entity=generic)))
 26664	will	0	
 26665	aber	0	
-26666	sein	0	(mention_id=3787|references=(entity=(entity_id=generic_0042|fullname=Lebende|gender=u|specialcase_entity=generic)))
+26666	sein	0	(mention_id=3787|references=(entity=(entity_id=generic_0065|fullname=Lebende|gender=u|specialcase_entity=generic)))
 26667	Recht	0	
 26668	,	0	
 26669	und	0	
@@ -26722,7 +26722,7 @@ i	text	is_section_start	gold
 26720	noch	0	
 26721	nüchtern	0	
 26722	?	0	
-26723	Frauenzimmer	0	(mention_id=3795|references=(entity=(entity_id=entity_0198|fullname=Frauen bei Beerdigungen|gender=f|specialcase_entity=generic,group)))
+26723	Frauenzimmer	0	(mention_id=3795|references=(entity=(entity_id=generic_0066|fullname=Frauen bei Beerdigungen|gender=u|specialcase_entity=generic)))
 26724	essen	0	
 26725	ja	0	
 26726	bekanntlich	0	
@@ -26884,7 +26884,7 @@ i	text	is_section_start	gold
 26882	Gegenden	0	
 26883	,	0	
 26884	andere	0	
-26885	Menschen	0	(mention_id=3820|references=(entity=(entity_id=entity_0202|fullname=andere Menschen|gender=u|specialcase_entity=generic,group)))
+26885	Menschen	0	(mention_id=3820|references=(entity=(entity_id=generic_0067|fullname=andere Menschen|gender=u|specialcase_entity=generic)))
 26886	–	0	
 26887	aus	0	
 26888	den	0	
@@ -29942,7 +29942,7 @@ i	text	is_section_start	gold
 29940	das	0	
 29941	solle	0	
 29942	der	0	
-29943	Mensch	0	(mention_id=4257|references=(entity=(entity_id=entity_0207|fullname=Mensch|gender=u|specialcase_entity=generic)))
+29943	Mensch	0	(mention_id=4257|references=(entity=(entity_id=generic_0068|fullname=Mensch|gender=u|specialcase_entity=generic)))
 29944	nicht	0	
 29945	scheiden	0	
 29946	.	0	
@@ -32711,7 +32711,7 @@ i	text	is_section_start	gold
 32709	auch	0	
 32710	gegen	0	
 32711	die	0	
-32712	Alten	0	(mention_id=4603|references=(entity=(entity_id=entity_0217|fullname=Alte|gender=u|specialcase_entity=generic,group)))
+32712	Alten	0	(mention_id=4603|references=(entity=(entity_id=generic_0069|fullname=Alte|gender=u|specialcase_entity=generic)))
 32713	.	0	
 32714	«	0	
 32715	Und	0	
@@ -34093,16 +34093,16 @@ i	text	is_section_start	gold
 34091	der	0	
 34092	Untertan	0	(mention_id=4818|references=(entity=(entity_id=entity_0230|fullname=Untertan|gender=m|borderline_entity=generic)))
 34093	dem	0	
-34094	Fürsten	0	(mention_id=4819|references=(entity=(entity_id=entity_0221|fullname=Fürst|gender=m|specialcase_entity=generic)))
+34094	Fürsten	0	(mention_id=4819|references=(entity=(entity_id=generic_0070|fullname=Fürst|gender=u|specialcase_entity=generic)))
 34095	zollt	0	
 34096	,	0	
 34097	die	0	
 34098	schuldet	0	
 34099	auch	0	
 34100	das	0	
-34101	Weib	0	(mention_id=4820|references=(entity=(entity_id=generic_0043|fullname=Weib|gender=u|specialcase_entity=generic)))
+34101	Weib	0	(mention_id=4820|references=(entity=(entity_id=generic_0071|fullname=Weib|gender=u|specialcase_entity=generic)))
 34102	dem	0	
-34103	Eheherrn	0	(mention_id=4821|references=(entity=(entity_id=generic_0046|fullname=Eheherr|gender=u|specialcase_entity=generic)))
+34103	Eheherrn	0	(mention_id=4821|references=(entity=(entity_id=generic_0074|fullname=Eheherr|gender=u|specialcase_entity=generic)))
 34104	!	0	
 34105	‹	0	
 34106	Ist's	0	
@@ -34146,37 +34146,37 @@ i	text	is_section_start	gold
 34144	»	0	
 34145	›	0	
 34146	Der	0	
-34147	Gatte	0	(mention_id=4824|references=(entity=(entity_id=generic_0047|fullname=Eheherr|gender=u|specialcase_entity=generic)))
+34147	Gatte	0	(mention_id=4824|references=(entity=(entity_id=generic_0075|fullname=Eheherr|gender=u|specialcase_entity=generic)))
 34148	ist	0	
 34149	der	0	
-34150	Herr	0	(mention_id=4825|references=(entity=(entity_id=generic_0048|fullname=Eheherr|gender=u|specialcase_entity=generic)))
+34150	Herr	0	(mention_id=4825|references=(entity=(entity_id=generic_0076|fullname=Eheherr|gender=u|specialcase_entity=generic)))
 34151	und	0	
 34152	der	0	
-34153	Erhalter	0	(mention_id=4826|references=(entity=(entity_id=generic_0049|fullname=Eheherr|gender=u|specialcase_entity=generic)))
+34153	Erhalter	0	(mention_id=4826|references=(entity=(entity_id=generic_0077|fullname=Eheherr|gender=u|specialcase_entity=generic)))
 34154	,	0	
 34155	das	0	
-34156	Licht	0	(mention_id=4827|references=(entity=(entity_id=generic_0050|fullname=Eheherr|gender=u|specialcase_entity=generic)|specialcase_reference=figurative))
+34156	Licht	0	(mention_id=4827|references=(entity=(entity_id=generic_0078|fullname=Eheherr|gender=u|specialcase_entity=generic)|specialcase_reference=figurative))
 34157	,	0	
 34158	das	0	
-34159	Haupt	0	(mention_id=4828|references=(entity=(entity_id=generic_0051|fullname=Eheherr|gender=u|specialcase_entity=generic)|specialcase_reference=part))
+34159	Haupt	0	(mention_id=4828|references=(entity=(entity_id=generic_0079|fullname=Eheherr|gender=u|specialcase_entity=generic)|specialcase_reference=part))
 34160	,	0	
 34161	der	0	
-34162	Fürst	0	(mention_id=4829|references=(entity=(entity_id=generic_0052|fullname=Eheherr|gender=u|specialcase_entity=generic)|specialcase_reference=figurative))
+34162	Fürst	0	(mention_id=4829|references=(entity=(entity_id=generic_0080|fullname=Eheherr|gender=u|specialcase_entity=generic)|specialcase_reference=figurative))
 34163	;	0	
-34164	er	0	(mention_id=4830|references=(entity=(entity_id=generic_0053|fullname=Eheherr|gender=u|specialcase_entity=generic)))
+34164	er	0	(mention_id=4830|references=(entity=(entity_id=generic_0081|fullname=Eheherr|gender=u|specialcase_entity=generic)))
 34165	sorgt	0	
 34166	für	0	
-34167	dich	0	(mention_id=4831|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)),(entity=(entity_id=generic_0044|fullname=Weib|gender=u|specialcase_entity=generic)))
+34167	dich	0	(mention_id=4831|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)),(entity=(entity_id=generic_0072|fullname=Weib|gender=u|specialcase_entity=generic)))
 34168	,	0	
 34169	gibt	0	
-34170	seinen	0	(mention_id=4832|references=(entity=(entity_id=generic_0054|fullname=Eheherr|gender=u|specialcase_entity=generic)))
+34170	seinen	0	(mention_id=4832|references=(entity=(entity_id=generic_0082|fullname=Eheherr|gender=u|specialcase_entity=generic)))
 34171	Leib	0	
 34172	mühseliger	0	
 34173	Arbeit	0	
 34174	preis	0	
 34175	,	0	
 34176	wenn	0	
-34177	du	0	(mention_id=4833|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)),(entity=(entity_id=generic_0045|fullname=Weib|gender=u|specialcase_entity=generic)))
+34177	du	0	(mention_id=4833|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)),(entity=(entity_id=generic_0073|fullname=Weib|gender=u|specialcase_entity=generic)))
 34178	im	0	
 34179	Hause	0	
 34180	warm	0	
@@ -35715,31 +35715,31 @@ i	text	is_section_start	gold
 35713	–	0	
 35714	überall	0	
 35715	sind	0	
-35716	sie	0	(mention_id=5088|references=(entity=(entity_id=generic_0055|fullname=Mädchen|gender=u|specialcase_entity=generic)),(entity=(entity_id=entity_0021|fullname=Adelheid Strom|gender=f)))
+35716	sie	0	(mention_id=5088|references=(entity=(entity_id=generic_0083|fullname=Mädchen|gender=u|specialcase_entity=generic)),(entity=(entity_id=entity_0021|fullname=Adelheid Strom|gender=f)))
 35717	,	0	
 35718	immer	0	
 35719	wissen	0	
-35720	sie	0	(mention_id=5089|references=(entity=(entity_id=generic_0056|fullname=Mädchen|gender=u|specialcase_entity=generic)),(entity=(entity_id=entity_0021|fullname=Adelheid Strom|gender=f)))
-35721	sich	0	(mention_id=5090|references=(entity=(entity_id=generic_0057|fullname=Mädchen|gender=u|specialcase_entity=generic)),(entity=(entity_id=entity_0021|fullname=Adelheid Strom|gender=f)))
+35720	sie	0	(mention_id=5089|references=(entity=(entity_id=generic_0084|fullname=Mädchen|gender=u|specialcase_entity=generic)),(entity=(entity_id=entity_0021|fullname=Adelheid Strom|gender=f)))
+35721	sich	0	(mention_id=5090|references=(entity=(entity_id=generic_0085|fullname=Mädchen|gender=u|specialcase_entity=generic)),(entity=(entity_id=entity_0021|fullname=Adelheid Strom|gender=f)))
 35722	bemerkbar	0	
 35723	zu	0	
 35724	machen	0	
 35725	,	0	
 35726	überall	0	
 35727	wollen	0	
-35728	sie	0	(mention_id=5091|references=(entity=(entity_id=generic_0058|fullname=Mädchen|gender=u|specialcase_entity=generic)),(entity=(entity_id=entity_0021|fullname=Adelheid Strom|gender=f)))
+35728	sie	0	(mention_id=5091|references=(entity=(entity_id=generic_0086|fullname=Mädchen|gender=u|specialcase_entity=generic)),(entity=(entity_id=entity_0021|fullname=Adelheid Strom|gender=f)))
 35729	helfen	0	
 35730	und	0	
 35731	stets	0	
 35732	sind	0	
-35733	sie	0	(mention_id=5092|references=(entity=(entity_id=generic_0059|fullname=Mädchen|gender=u|specialcase_entity=generic)),(entity=(entity_id=entity_0021|fullname=Adelheid Strom|gender=f)))
+35733	sie	0	(mention_id=5092|references=(entity=(entity_id=generic_0087|fullname=Mädchen|gender=u|specialcase_entity=generic)),(entity=(entity_id=entity_0021|fullname=Adelheid Strom|gender=f)))
 35734	von	0	
 35735	einer	0	
 35736	rührenden	0	
 35737	Aufmerksamkeit	0	
 35738	gegen	0	
 35739	den	0	
-35740	Hausherrn	0	(mention_id=5093|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)),(entity=(entity_id=entity_0225|fullname=Hausherr|gender=m|specialcase_entity=generic)))
+35740	Hausherrn	0	(mention_id=5093|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)),(entity=(entity_id=generic_0088|fullname=Hausherr|gender=u|specialcase_entity=generic)))
 35741	.	0	
 35742	Es	0	
 35743	ist	0	
@@ -39652,13 +39652,13 @@ i	text	is_section_start	gold
 39650	,	0	
 39651	und	0	
 39652	was	0	
-39653	einer	0	(mention_id=5657|references=(entity=(entity_id=generic_0060|fullname=jemand|gender=u|specialcase_entity=generic)))
+39653	einer	0	(mention_id=5657|references=(entity=(entity_id=generic_0089|fullname=jemand|gender=u|specialcase_entity=generic)))
 39654	wissen	0	
 39655	will	0	
 39656	,	0	
 39657	das	0	
 39658	erfährt	0	
-39659	er	0	(mention_id=5658|references=(entity=(entity_id=generic_0061|fullname=jemand|gender=u|specialcase_entity=generic)))
+39659	er	0	(mention_id=5658|references=(entity=(entity_id=generic_0090|fullname=jemand|gender=u|specialcase_entity=generic)))
 39660	sicher	0	
 39661	bei	0	
 39662	ihm	0	(mention_id=5659|references=(entity=(entity_id=entity_0003|fullname=Herr Wolff|gender=m)))
@@ -40009,10 +40009,10 @@ i	text	is_section_start	gold
 40007	,	0	
 40008	Kind	0	(mention_id=5718|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))
 40009	,	0	
-40010	sie	0	(mention_id=5719|references=(entity=(entity_id=generic_0065|fullname=sich erkundigende Menschen|gender=u|specialcase_entity=generic)))
+40010	sie	0	(mention_id=5719|references=(entity=(entity_id=generic_0094|fullname=sich erkundigende Menschen|gender=u|specialcase_entity=generic)))
 40011	erkundigen	0	
-40012	sich	0	(mention_id=5720|references=(entity=(entity_id=generic_0066|fullname=sich erkundigende Menschen|gender=u|specialcase_entity=generic)))
-40013	alle	0	(mention_id=5721|references=(entity=(entity_id=generic_0067|fullname=sich erkundigende Menschen|gender=u|specialcase_entity=generic)))
+40012	sich	0	(mention_id=5720|references=(entity=(entity_id=generic_0095|fullname=sich erkundigende Menschen|gender=u|specialcase_entity=generic)))
+40013	alle	0	(mention_id=5721|references=(entity=(entity_id=generic_0096|fullname=sich erkundigende Menschen|gender=u|specialcase_entity=generic)))
 40014	heutzutage	0	
 40015	.	0	
 40016	«	0	
@@ -41153,8 +41153,8 @@ i	text	is_section_start	gold
 41151	Freude	0	
 41152	erlebt	0	
 41153	an	0	
-41154	seinen	0	(mention_id=5889|references=(entity=(entity_id=entity_0262|fullname=Eltern|gender=mf|specialcase_entity=generic)))
-41155	Kindern	0	(mention_id=5890|references=(entity=(entity_id=entity_0257|fullname=Kinder|gender=u|specialcase_entity=generic,group)))
+41154	seinen	0	(mention_id=5889|references=(entity=(entity_id=generic_0097|fullname=Eltern|gender=u|specialcase_entity=generic)))
+41155	Kindern	0	(mention_id=5890|references=(entity=(entity_id=generic_0098|fullname=Kinder|gender=u|specialcase_entity=generic)))
 41156	.	0	
 41157	«	0	
 41158	Sie	0	(mention_id=5891|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))
@@ -42683,11 +42683,11 @@ i	text	is_section_start	gold
 42681	doch	0	
 42682	auch	0	
 42683	einen	0	
-42684	Verbrecher	0	(mention_id=6060|references=(entity=(entity_id=generic_0068|fullname=Verbrecher|gender=u|specialcase_entity=generic)))
+42684	Verbrecher	0	(mention_id=6060|references=(entity=(entity_id=generic_0099|fullname=Verbrecher|gender=u|specialcase_entity=generic)))
 42685	,	0	
 42686	ehe	0	
 42687	man	0	
-42688	ihn	0	(mention_id=6061|references=(entity=(entity_id=generic_0069|fullname=Verbrecher|gender=u|specialcase_entity=generic)))
+42688	ihn	0	(mention_id=6061|references=(entity=(entity_id=generic_0100|fullname=Verbrecher|gender=u|specialcase_entity=generic)))
 42689	verurteilt	0	
 42690	!	0	
 42691	«	0	
@@ -43309,9 +43309,9 @@ i	text	is_section_start	gold
 43307	könnte	0	
 43308	!	0	
 43309	Die	0	
-43310	Frauen	0	(mention_id=6147|references=(entity=(entity_id=generic_0070|fullname=Frauen|gender=u|specialcase_entity=generic)))
+43310	Frauen	0	(mention_id=6147|references=(entity=(entity_id=generic_0101|fullname=Frauen|gender=u|specialcase_entity=generic)))
 43311	,	0	
-43312	denen	0	(mention_id=6148|references=(entity=(entity_id=generic_0071|fullname=Frauen|gender=u|specialcase_entity=generic)))
+43312	denen	0	(mention_id=6148|references=(entity=(entity_id=generic_0102|fullname=Frauen|gender=u|specialcase_entity=generic)))
 43313	Gott	0	(mention_id=6149|references=(entity=(entity_id=entity_0019|fullname=Gott|gender=u|specialcase_entity=nonfact)))
 43314	die	0	
 43315	Fähigkeit	0	
@@ -44001,7 +44001,7 @@ i	text	is_section_start	gold
 43999	ist	0	
 44000	!	0	
 44001	Alle	0	
-44002	Frauen	0	(mention_id=6249|references=(entity=(entity_id=generic_0072|fullname=Frauen|gender=u|specialcase_entity=generic)))
+44002	Frauen	0	(mention_id=6249|references=(entity=(entity_id=generic_0103|fullname=Frauen|gender=u|specialcase_entity=generic)))
 44003	müssen	0	
 44004	ein	0	
 44005	Auge	0	
@@ -44040,7 +44040,7 @@ i	text	is_section_start	gold
 44038	,	0	
 44039	man	0	
 44040	kann	0	
-44041	sein	0	(mention_id=6253|references=(entity=(entity_id=generic_0062|fullname=jemand|gender=u|specialcase_entity=generic)))
+44041	sein	0	(mention_id=6253|references=(entity=(entity_id=generic_0091|fullname=jemand|gender=u|specialcase_entity=generic)))
 44042	Bündel	0	
 44043	unter	0	
 44044	den	0	
@@ -44058,7 +44058,7 @@ i	text	is_section_start	gold
 44056	mehr	0	
 44057	bei	0	
 44058	ihrem	0	(mention_id=6255|references=(entity=(entity_id=entity_0246|fullname=Frau|gender=f)))
-44059	Teuren	0	(mention_id=6256|references=(entity=(entity_id=entity_0263|fullname=Ehemann|gender=m|specialcase_entity=generic)))
+44059	Teuren	0	(mention_id=6256|references=(entity=(entity_id=generic_0105|fullname=Ehemann|gender=u|specialcase_entity=generic)))
 44060	.	0	
 44061	Nein	0	
 44062	,	0	
@@ -44174,13 +44174,13 @@ i	text	is_section_start	gold
 44172	gähnend	0	
 44173	,	0	
 44174	»	0	
-44175	einer	0	(mention_id=6269|references=(entity=(entity_id=generic_0063|fullname=jemand|gender=u|specialcase_entity=generic)))
+44175	einer	0	(mention_id=6269|references=(entity=(entity_id=generic_0092|fullname=jemand|gender=u|specialcase_entity=generic)))
 44176	ist	0	
 44177	nicht	0	
 44178	besser	0	
 44179	als	0	
 44180	der	0	
-44181	andere	0	(mention_id=6270|references=(entity=(entity_id=generic_0064|fullname=jemand|gender=u|specialcase_entity=generic)))
+44181	andere	0	(mention_id=6270|references=(entity=(entity_id=generic_0093|fullname=jemand|gender=u|specialcase_entity=generic)))
 44182	!	0	
 44183	Wenn	0	
 44184	ich	0	(mention_id=6271|references=(entity=(entity_id=entity_0006|fullname=Jenny Fredrich, geb. Baumhagen|gender=f)))
@@ -44522,12 +44522,12 @@ i	text	is_section_start	gold
 44520	moralisch	0	
 44521	von	0	
 44522	ehrbaren	0	
-44523	Frauen	0	(mention_id=6325|references=(entity=(entity_id=generic_0074|fullname=ehrbare deutsche Frauen|gender=u|specialcase_entity=generic)))
+44523	Frauen	0	(mention_id=6325|references=(entity=(entity_id=generic_0106|fullname=ehrbare deutsche Frauen|gender=u|specialcase_entity=generic)))
 44524	und	0	
 44525	deutschen	0	
-44526	Frauen	0	(mention_id=6326|references=(entity=(entity_id=generic_0075|fullname=ehrbare deutsche Frauen|gender=u|specialcase_entity=generic)))
+44526	Frauen	0	(mention_id=6326|references=(entity=(entity_id=generic_0107|fullname=ehrbare deutsche Frauen|gender=u|specialcase_entity=generic)))
 44527	,	0	
-44528	die	0	(mention_id=6327|references=(entity=(entity_id=generic_0076|fullname=ehrbare deutsche Frauen|gender=u|specialcase_entity=generic)))
+44528	die	0	(mention_id=6327|references=(entity=(entity_id=generic_0108|fullname=ehrbare deutsche Frauen|gender=u|specialcase_entity=generic)))
 44529	des	0	
 44530	Hauses	0	
 44531	Wohlstand	0	
@@ -44558,7 +44558,7 @@ i	text	is_section_start	gold
 44556	trage	0	
 44557	allemal	0	
 44558	›	0	
-44559	Madame	0	(mention_id=6329|references=(entity=(entity_id=entity_0254|fullname=Madame|gender=f|specialcase_entity=generic)))
+44559	Madame	0	(mention_id=6329|references=(entity=(entity_id=generic_0109|fullname=Madame|gender=u|specialcase_entity=generic)))
 44560	‹	0	
 44561	die	0	
 44562	Schuld	0	
@@ -45313,10 +45313,10 @@ i	text	is_section_start	gold
 45311	einsam	0	
 45312	,	0	
 45313	von	0	
-45314	allen	0	(mention_id=6444|references=(entity=(entity_id=generic_0077|fullname=Menschen, die das Beamtenmädchen kennen|gender=u|specialcase_entity=generic)))
+45314	allen	0	(mention_id=6444|references=(entity=(entity_id=generic_0110|fullname=Menschen, die das Beamtenmädchen kennen|gender=u|specialcase_entity=generic)))
 45315	bedauert	0	
 45316	,	0	
-45317	die	0	(mention_id=6445|references=(entity=(entity_id=generic_0078|fullname=Menschen, die das Beamtenmädchen kennen|gender=u|specialcase_entity=generic)))
+45317	die	0	(mention_id=6445|references=(entity=(entity_id=generic_0111|fullname=Menschen, die das Beamtenmädchen kennen|gender=u|specialcase_entity=generic)))
 45318	ihr	0	(mention_id=6446|references=(entity=(entity_id=entity_0232|fullname=ältliches Beamtenmädchen|gender=f)))
 45319	trauriges	0	
 45320	Geschick	0	
@@ -45948,10 +45948,10 @@ i	text	is_section_start	gold
 45946	.	0	
 45947	Über	0	
 45948	eine	0	
-45949	Frau	0	(mention_id=6543|references=(entity=(entity_id=generic_0079|fullname=Frau, die sich scheiden lassen will|gender=u|specialcase_entity=generic)),(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))
+45949	Frau	0	(mention_id=6543|references=(entity=(entity_id=generic_0112|fullname=Frau, die sich scheiden lassen will|gender=u|specialcase_entity=generic)),(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))
 45950	,	0	
-45951	die	0	(mention_id=6544|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)),(entity=(entity_id=generic_0080|fullname=Frau, die sich scheiden lassen will|gender=u|specialcase_entity=generic)))
-45952	ihre	0	(mention_id=6545|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)),(entity=(entity_id=generic_0081|fullname=Frau, die sich scheiden lassen will|gender=u|specialcase_entity=generic)))
+45951	die	0	(mention_id=6544|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)),(entity=(entity_id=generic_0113|fullname=Frau, die sich scheiden lassen will|gender=u|specialcase_entity=generic)))
+45952	ihre	0	(mention_id=6545|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)),(entity=(entity_id=generic_0114|fullname=Frau, die sich scheiden lassen will|gender=u|specialcase_entity=generic)))
 45953	Freiheit	0	
 45954	wieder	0	
 45955	verlangt	0	
@@ -45963,7 +45963,7 @@ i	text	is_section_start	gold
 45961	,	0	
 45962	als	0	
 45963	daß	0	
-45964	sie	0	(mention_id=6546|references=(entity=(entity_id=generic_0082|fullname=Frau, die sich scheiden lassen will|gender=u|specialcase_entity=generic)),(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))
+45964	sie	0	(mention_id=6546|references=(entity=(entity_id=generic_0115|fullname=Frau, die sich scheiden lassen will|gender=u|specialcase_entity=generic)),(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))
 45965	einmal	0	
 45966	belogen	0	
 45967	wurde	0	
@@ -48339,7 +48339,7 @@ i	text	is_section_start	gold
 48337	Punkte	0	
 48338	sind	0	
 48339	die	0	
-48340	Frauen	0	(mention_id=6820|references=(entity=(entity_id=generic_0073|fullname=Frauen|gender=u|specialcase_entity=generic)))
+48340	Frauen	0	(mention_id=6820|references=(entity=(entity_id=generic_0104|fullname=Frauen|gender=u|specialcase_entity=generic)))
 48341	empfindlicher	0	
 48342	,	0	
 48343	und	0	
@@ -50199,7 +50199,7 @@ i	text	is_section_start	gold
 50197	Oh	0	
 50198	,	0	
 50199	diese	0	
-50200	Weiber	0	(mention_id=7082|references=(entity=(entity_id=generic_0083|fullname=Weiber|gender=u|specialcase_entity=generic)))
+50200	Weiber	0	(mention_id=7082|references=(entity=(entity_id=generic_0116|fullname=Weiber|gender=u|specialcase_entity=generic)))
 50201	!	0	
 50202	«	0	
 50203	»	0	
@@ -50542,7 +50542,7 @@ i	text	is_section_start	gold
 50540	Richtige	0	
 50541	bei	0	
 50542	den	0	
-50543	Weibern	0	(mention_id=7145|references=(entity=(entity_id=generic_0084|fullname=Weiber|gender=u|specialcase_entity=generic)))
+50543	Weibern	0	(mention_id=7145|references=(entity=(entity_id=generic_0117|fullname=Weiber|gender=u|specialcase_entity=generic)))
 50544	zu	0	
 50545	treffen	0	
 50546	.	0	
@@ -55149,10 +55149,10 @@ i	text	is_section_start	gold
 55147	Ihnen	0	(mention_id=7779|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
 55148	.	0	
 55149	Die	0	
-55150	Weiber	0	(mention_id=7780|references=(entity=(entity_id=generic_0085|fullname=Weiber|gender=u|specialcase_entity=generic)),(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))
+55150	Weiber	0	(mention_id=7780|references=(entity=(entity_id=generic_0118|fullname=Weiber|gender=u|specialcase_entity=generic)),(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))
 55151	besitzen	0	
 55152	so	0	
-55153	ihre	0	(mention_id=7781|references=(entity=(entity_id=generic_0086|fullname=Weiber|gender=u|specialcase_entity=generic)),(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))
+55153	ihre	0	(mention_id=7781|references=(entity=(entity_id=generic_0119|fullname=Weiber|gender=u|specialcase_entity=generic)),(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))
 55154	Marotten	0	
 55155	.	0	
 55156	Ich	0	(mention_id=7782|references=(entity=(entity_id=entity_0008|fullname=Onkel Heinrich|gender=m)))
@@ -55169,17 +55169,17 @@ i	text	is_section_start	gold
 55167	aber	0	
 55168	ich	0	(mention_id=7783|references=(entity=(entity_id=entity_0008|fullname=Onkel Heinrich|gender=m)))
 55169	kenne	0	
-55170	sie	0	(mention_id=7784|references=(entity=(entity_id=generic_0087|fullname=Weiber|gender=u|specialcase_entity=generic)),(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))
+55170	sie	0	(mention_id=7784|references=(entity=(entity_id=generic_0120|fullname=Weiber|gender=u|specialcase_entity=generic)),(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))
 55171	doch	0	
 55172	.	0	
-55173	Sie	0	(mention_id=7785|references=(entity=(entity_id=generic_0088|fullname=Weiber|gender=u|specialcase_entity=generic)),(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))
+55173	Sie	0	(mention_id=7785|references=(entity=(entity_id=generic_0121|fullname=Weiber|gender=u|specialcase_entity=generic)),(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))
 55174	haben	0	
 55175	so	0	
 55176	einen	0	
 55177	gewissen	0	
 55178	Korpsgeist	0	
 55179	,	0	
-55180	sie	0	(mention_id=7786|references=(entity=(entity_id=generic_0089|fullname=Weiber|gender=u|specialcase_entity=generic)),(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))
+55180	sie	0	(mention_id=7786|references=(entity=(entity_id=generic_0122|fullname=Weiber|gender=u|specialcase_entity=generic)),(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))
 55181	wollen	0	
 55182	alle	0	
 55183	aus	0	
@@ -55540,7 +55540,7 @@ i	text	is_section_start	gold
 55538	gut	0	
 55539	–	0	
 55540	die	0	
-55541	Weiber	0	(mention_id=7843|references=(entity=(entity_id=generic_0090|fullname=Weiber|gender=u|specialcase_entity=generic)),(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))
+55541	Weiber	0	(mention_id=7843|references=(entity=(entity_id=generic_0123|fullname=Weiber|gender=u|specialcase_entity=generic)),(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))
 55542	sind	0	
 55543	mal	0	
 55544	so	0	
@@ -57232,7 +57232,7 @@ i	text	is_section_start	gold
 57230	sich	0	
 57231	von	0	
 57232	seinem	0	
-57233	Gebieter	0	(mention_id=8045|references=(entity=(entity_id=generic_0091|fullname=Ehemann|gender=u|specialcase_entity=generic)),(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+57233	Gebieter	0	(mention_id=8045|references=(entity=(entity_id=generic_0124|fullname=Ehemann|gender=u|specialcase_entity=generic)),(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
 57234	trennen	0	
 57235	könne	0	
 57236	,	0	
@@ -57241,7 +57241,7 @@ i	text	is_section_start	gold
 57239	erführe	0	
 57240	,	0	
 57241	daß	0	
-57242	dieser	0	(mention_id=8046|references=(entity=(entity_id=generic_0092|fullname=Ehemann|gender=u|specialcase_entity=generic)),(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+57242	dieser	0	(mention_id=8046|references=(entity=(entity_id=generic_0125|fullname=Ehemann|gender=u|specialcase_entity=generic)),(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
 57243	bei	0	
 57244	der	0	
 57245	Werbung	0	
@@ -57426,7 +57426,7 @@ i	text	is_section_start	gold
 57424	daß	0	
 57425	wir	0	
 57426	deutschen	0	
-57427	Frauen	0	(mention_id=8079|references=(entity=(entity_id=entity_0310|fullname=deutsche Frauen|gender=f|members=entity_0004,entity_0006|all_members_given=False|specialcase_entity=generic,group)))
+57427	Frauen	0	(mention_id=8079|references=(entity=(entity_id=generic_0126|fullname=deutsche Frauen|gender=u|specialcase_entity=generic)))
 57428	mit	0	
 57429	unserer	0	(mention_id=8080|references=(entity=(entity_id=entity_0006|fullname=Jenny Fredrich, geb. Baumhagen|gender=f)),(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))
 57430	dickfelligen	0	
@@ -57450,16 +57450,16 @@ i	text	is_section_start	gold
 57448	überzeugt	0	
 57449	,	0	
 57450	eine	0	
-57451	Französin	0	(mention_id=8084|references=(entity=(entity_id=generic_0093|fullname=Französin|gender=u|specialcase_entity=generic)))
+57451	Französin	0	(mention_id=8084|references=(entity=(entity_id=generic_0127|fullname=Französin|gender=u|specialcase_entity=generic)))
 57452	hielte	0	
-57453	sich	0	(mention_id=8085|references=(entity=(entity_id=generic_0094|fullname=Französin|gender=u|specialcase_entity=generic)))
+57453	sich	0	(mention_id=8085|references=(entity=(entity_id=generic_0128|fullname=Französin|gender=u|specialcase_entity=generic)))
 57454	die	0	
 57455	Seiten	0	
 57456	vor	0	
 57457	Lachen	0	
 57458	,	0	
 57459	erführe	0	
-57460	sie	0	(mention_id=8086|references=(entity=(entity_id=generic_0095|fullname=Französin|gender=u|specialcase_entity=generic)))
+57460	sie	0	(mention_id=8086|references=(entity=(entity_id=generic_0129|fullname=Französin|gender=u|specialcase_entity=generic)))
 57461	die	0	
 57462	Ursache	0	
 57463	Deines	0	(mention_id=8087|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))
@@ -58167,13 +58167,13 @@ i	text	is_section_start	gold
 58165	das	0	
 58166	hatten	0	
 58167	schon	0	
-58168	Tausende	0	(mention_id=8181|references=(entity=(entity_id=generic_0096|fullname=Tausende von suizidalen Menschen|gender=u|specialcase_entity=generic)))
+58168	Tausende	0	(mention_id=8181|references=(entity=(entity_id=generic_0130|fullname=Tausende von suizidalen Menschen|gender=u|specialcase_entity=generic)))
 58169	vor	0	
 58170	ihm	0	(mention_id=8182|references=(entity=(entity_id=entity_0015|fullname=Leberecht Baumhagen|gender=m)))
 58171	getan	0	
 58172	,	0	
 58173	und	0	
-58174	Tausende	0	(mention_id=8183|references=(entity=(entity_id=generic_0097|fullname=Tausende von suizidalen Menschen|gender=u|specialcase_entity=generic)))
+58174	Tausende	0	(mention_id=8183|references=(entity=(entity_id=generic_0131|fullname=Tausende von suizidalen Menschen|gender=u|specialcase_entity=generic)))
 58175	werden	0	
 58176	es	0	
 58177	noch	0	
@@ -61273,9 +61273,9 @@ i	text	is_section_start	gold
 61271	hatte	0	
 61272	.	0	
 61273	Darinnen	0	
-61274	Menschen	0	(mention_id=8493|references=(entity=(entity_id=generic_0018|fullname=Menschen|gender=u|specialcase_entity=generic)))
+61274	Menschen	0	(mention_id=8493|references=(entity=(entity_id=generic_0024|fullname=Menschen|gender=u|specialcase_entity=generic)))
 61275	,	0	
-61276	die	0	(mention_id=8494|references=(entity=(entity_id=generic_0019|fullname=Menschen|gender=u|specialcase_entity=generic)))
+61276	die	0	(mention_id=8494|references=(entity=(entity_id=generic_0025|fullname=Menschen|gender=u|specialcase_entity=generic)))
 61277	geschäftig	0	
 61278	hin	0	
 61279	und	0	
@@ -62333,7 +62333,7 @@ i	text	is_section_start	gold
 62331	je	0	
 62332	eine	0	
 62333	alte	0	
-62334	Dame	0	(mention_id=8600|references=(entity=(entity_id=entity_0011|fullname=Rosalie Kruse|gender=f)),(entity=(entity_id=entity_0316|fullname=alte Dame|gender=f|specialcase_entity=generic)))
+62334	Dame	0	(mention_id=8600|references=(entity=(entity_id=entity_0011|fullname=Rosalie Kruse|gender=f)),(entity=(entity_id=generic_0132|fullname=alte Dame|gender=u|specialcase_entity=generic)))
 62335	getragen	0	
 62336	hatte	0	
 62337	.	0	

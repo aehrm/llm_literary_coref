@@ -2,7 +2,7 @@ import collections
 import dataclasses
 import itertools
 import json
-from typing import List
+from typing import List, Iterable
 
 from omegaconf import OmegaConf, DictConfig
 
@@ -35,7 +35,7 @@ def make_generic_entity_factory():
 
     return generic_entity_factory
 
-def split_generics_into_singletons(mentions: List[Mention], generic_entity_factory):
+def split_generics_into_singletons(mentions: Iterable[Mention], generic_entity_factory):
     references_per_entity = collections.defaultdict(list)
     for mention in mentions:
         for ref in mention.references:
@@ -48,7 +48,8 @@ def split_generics_into_singletons(mentions: List[Mention], generic_entity_facto
             continue
 
         if len(refs) > 1:
-            print(f'warn: generic entity {entity_id} has {len(refs)} references; will split into singletons')
+            # print(f'warn: generic entity {entity_id} has {len(refs)} references; will split into singletons')
+            pass
 
         for ref in refs:
             ref.entity = generic_entity_factory(entity.fullname, 'generic' in entity.borderline_entity)

@@ -13,3 +13,4 @@ uv run python convert_annotations.py --source_tsv sources/Wolff_Wildfangrecht_ch
 uv run python convert_annotations.py --source_tsv sources/Fischer_Gustav.tsv --annotation_dir annotated_xmi/Fischer_Gustav --output_tsv annotated_tsv/Fischer_Gustav.tsv
 uv run python convert_annotations.py --source_tsv sources/Goethe_Wahlverwandtschaften.tsv --annotation_dir annotated_xmi/Goethe_Wahlverwandtschaften --output_tsv annotated_tsv/Goethe_Wahlverwandtschaften.tsv
 uv run python convert_annotations.py --source_tsv sources/Heimburg_Trudchen.tsv --annotation_dir annotated_xmi/Heimburg_Trudchen --output_tsv annotated_tsv/Heimburg_Trudchen.tsv
+uv run python convert_annotations.py --source_tsv sources/Kürnberger_Amerika.tsv --annotation_dir annotated_xmi/Kürnberger_Amerika --output_tsv annotated_tsv/Kürnberger_Amerika.tsv
