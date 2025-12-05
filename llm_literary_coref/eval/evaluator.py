@@ -154,6 +154,7 @@ ENTITY_ATTRIBUTES = {
 MENTION_ATTRIBUTES = {
     'part': lambda refs: any('part' in r.specialcase_reference for r in refs),
     'figurative': lambda refs: any('figurative' in r.specialcase_reference for r in refs),
+    'generic': lambda refs: any('generic' in r.entity.specialcase_entity for r in refs),
 }
 
 
@@ -172,7 +173,7 @@ class Evaluator:
             for restrict_on_matches in ["unrestricted", "restrictonmatch"]
         } | {
             "mention_attributes": {
-                k: Scorer() for k in ["part", "figurative"]
+                k: Scorer() for k in MENTION_ATTRIBUTES.keys()
             }
         }
 
