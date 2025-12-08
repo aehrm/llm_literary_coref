@@ -21,10 +21,10 @@ class EvalMention:
 
 
 Clusters = dict[str, List[EvalMention]]
-
+MentionAssignment = dict[EvalMention, List[str]]
 
 def mention_metric(key_clusters: Clusters, sys_clusters: Clusters,
-                   key_mention_sys: dict, sys_mention_key: dict, **_) -> tuple:
+                   key_mention_sys: MentionAssignment, sys_mention_key: MentionAssignment, **_) -> tuple:
     sys_mentions = {m for mentions in sys_clusters.values() for m in mentions}
     key_mentions = {m for mentions in key_clusters.values() for m in mentions}
     p_num = len(sys_mentions & set(sys_mention_key.keys()))
@@ -34,13 +34,45 @@ def mention_metric(key_clusters: Clusters, sys_clusters: Clusters,
     return p_num, p_den, r_num, r_den
 
 
+def muc_metric(key_clusters: Clusters, sys_clusters: Clusters,
+               key_mention_sys: MentionAssignment, sys_mention_key: MentionAssignment, **_) -> tuple:
+    def _muc_score(input_clusters: Clusters,
+                   mention_to_gold: MentionAssignment):
+        num, den = 0, 0
+        for c in input_clusters.values():
+            if len(c) == 1:
+                continue
+
+            den += len(c) - 1
+            tp = len(c)
+            linked = set()
+
+            # for the partition of the response entity w.r.t. the key entities, we ignore plural mentions in the key
+            for m in c:
+                if m in mention_to_gold:
+                    if len(mention_to_gold[m]) > 1:
+                        continue
+                    else:
+                        linked.add(mention_to_gold[m][0])
+                else:
+                    tp = tp - 1
+            tp -= len(linked)
+            num += tp
+
+        return num, den
+
+    p_num, p_den = _muc_score(sys_clusters, sys_mention_key)
+    r_num, r_den = _muc_score(key_clusters, key_mention_sys)
+    return p_num, p_den, r_num, r_den
+
+
 
 
 def lea_metric(key_clusters: Clusters, sys_clusters: Clusters,
-               key_mention_sys: dict, sys_mention_key: dict, **_) -> tuple:
+               key_mention_sys: MentionAssignment, sys_mention_key: MentionAssignment, **_) -> tuple:
 
     def _lea_score(input_clusters: Clusters, output_clusters: Clusters,
-                   mention_to_gold: dict) -> tuple[float, float]:
+                   mention_to_gold: MentionAssignment) -> tuple[float, float]:
         num, den = 0, 0
         for c in input_clusters.values():
             if len(c) == 1:
@@ -71,10 +103,10 @@ def lea_metric(key_clusters: Clusters, sys_clusters: Clusters,
 
 
 def bcubed_metric(key_clusters: Clusters, sys_clusters: Clusters,
-                  key_mention_sys: dict, sys_mention_key: dict,
-                  key_mention_key: dict, sys_mention_sys: dict) -> tuple:
+                  key_mention_sys: MentionAssignment, sys_mention_key: MentionAssignment,
+                  key_mention_key: MentionAssignment, sys_mention_sys: MentionAssignment) -> tuple:
     def _bcubed_score(input_clusters: Clusters, output_clusters: Clusters,
-                      mention_to_output: dict, mention_to_input: dict) -> tuple[float, float]:
+                      mention_to_output: MentionAssignment, mention_to_input: MentionAssignment) -> tuple[float, float]:
         num, den = 0, 0
         for m in mention_to_input:
             den += 1

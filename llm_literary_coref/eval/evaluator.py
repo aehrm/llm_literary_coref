@@ -1,4 +1,5 @@
 import collections
+import copy
 import io
 from contextlib import redirect_stdout
 from typing import Optional, Literal, List
@@ -7,9 +8,8 @@ from scipy.optimize import linear_sum_assignment
 import numpy as np
 
 from llm_literary_coref.eval.metrics import mention_metric, lea_metric, bcubed_metric, ceafe_metric, ceafm_metric, \
-    attribute_metric, Clusters, EvalMention
-from llm_literary_coref.mention import Mention
-
+    attribute_metric, Clusters, EvalMention, MentionAssignment, muc_metric
+from llm_literary_coref.mention import Mention, Reference, Entity
 
 
 def mentions_to_clusters(mentions: List[Mention], doc_id: str,
@@ -27,7 +27,7 @@ def mentions_to_clusters(mentions: List[Mention], doc_id: str,
 
 
 
-def get_mention_assignments(inp_clusters: Clusters, out_clusters: Clusters) -> dict[EvalMention, List[str]]:
+def get_mention_assignments(inp_clusters: Clusters, out_clusters: Clusters) -> MentionAssignment:
     """Map mentions to their entity IDs in out_clusters."""
     out_dic = collections.defaultdict(list)
     for eid, mentions in out_clusters.items():
@@ -38,7 +38,7 @@ def get_mention_assignments(inp_clusters: Clusters, out_clusters: Clusters) -> d
             for m in mentions if m in out_dic}
 
 
-def get_self_assignments(clusters: Clusters) -> dict[EvalMention, List[str]]:
+def get_self_assignments(clusters: Clusters) -> MentionAssignment:
     """Map each mention to its own entity IDs."""
     result = collections.defaultdict(list)
     for eid, mentions in clusters.items():
@@ -76,6 +76,14 @@ def get_singleton_spans(mentions: List[Mention]) -> set:
             for ref in m.references if entity_size[ref.entity.id] == 1}
 
 
+def _replace_plurals(mentions: List[Mention]) -> List[Mention]:
+    new_mentions = copy.deepcopy(mentions)
+    for mention in new_mentions:
+        if len(mention.references) > 1:
+            new_plural_id = "plural_" + "_".join(sorted([ref.entity.id for ref in mention.references]))
+            new_plural_entity = Entity(id=new_plural_id, fullname=new_plural_id, gender='u', specialcase_entity=[], borderline_entity=[])
+            mention.references = [Reference(entity=new_plural_entity, specialcase_reference=[], borderline_reference=[])]
+    return new_mentions
 
 class Scorer:
 
@@ -133,9 +141,10 @@ class Scorer:
 
 CLUSTER_METRICS = {
     'mentions': mention_metric,
-    'lea': lea_metric,
+    'muc': muc_metric,
     'bcub': bcubed_metric,
     'ceafe': ceafe_metric,
+    'lea': lea_metric,
     'ceafm': ceafm_metric,
 }
 
@@ -163,13 +172,13 @@ class Evaluator:
 
     def __init__(self):
         self.scorers = {
-            f"clusters_{subset}": {
+            f"clusters_{variant}": {
                 k: Scorer() for k in CLUSTER_METRICS.keys()
-            } for subset in ["all", "nogeneric", "nosingletons"]
+            } for variant in ["all", "replaceplural", "nogeneric", "nosingletons"]
         } | {
-            f"entity_attributes_{subset}_{restrict_on_matches}": {
+            f"entity_attributes_{variant}_{restrict_on_matches}": {
                 k: Scorer() for k in ENTITY_ATTRIBUTES.keys()
-            } for subset in ["all", "nogroup", "nogroupnosingletons"]
+            } for variant in ["all", "nogroup", "nogroupnosingletons"]
             for restrict_on_matches in ["unrestricted", "restrictonmatch"]
         } | {
             "mention_attributes": {
@@ -218,6 +227,9 @@ class Evaluator:
             print('=== CLUSTER METRICS (all) ===')
             _print_scorer_results(self.scorers['clusters_all'])
             print()
+            print('=== CLUSTER METRICS (plurals to atomic entity) ===')
+            _print_scorer_results(self.scorers['clusters_replaceplural'])
+            print()
             print('=== CLUSTER METRICS (no generic) ===')
             _print_scorer_results(self.scorers['clusters_nogeneric'])
             print()
@@ -251,21 +263,28 @@ class Evaluator:
 
     def add_document(self, key_mentions: List[Mention], sys_mentions: List[Mention],
                      doc_id: str = "doc"):
-        for subset in ["all", "nogeneric", "nosingletons"]:
-            self._update_cluster_metrics(key_mentions, sys_mentions, subset, doc_id)
-        for subset in ["all", "nogroup", "nogroupnosingletons"]:
+        for variant in ["all", "nogeneric", "nosingletons", "replaceplural"]:
+            self._update_cluster_metrics(key_mentions, sys_mentions, variant, doc_id)
+        for variant in ["all", "nogroup", "nogroupnosingletons"]:
             for restrict_matches in [False, True]:
-                self._update_entity_attribute_metrics(key_mentions, sys_mentions, subset, restrict_to_matches=restrict_matches, doc_id=doc_id)
+                self._update_entity_attribute_metrics(key_mentions, sys_mentions, variant, restrict_to_matches=restrict_matches, doc_id=doc_id)
 
         self._update_mention_attribute_metrics(key_mentions, sys_mentions, doc_id)
 
 
     def _update_cluster_metrics(self, key_mentions: List[Mention], sys_mentions: List[Mention],
-                     mention_filter: Literal["all", "nogeneric", "nosingletons"], doc_id: str = "doc"):
-        if mention_filter == "nogeneric":
+                                variant: Literal["all", "replaceplural", "nogeneric", "nosingletons"], doc_id: str = "doc"):
+        if variant == "replaceplural":
+            filter_key = set()
+            filter_response = set()
+
+            key_mentions = _replace_plurals(key_mentions)
+            sys_mentions = _replace_plurals(sys_mentions)
+
+        elif variant == "nogeneric":
             filter_key = get_generic_spans(key_mentions)
             filter_response = get_generic_spans(sys_mentions)
-        elif mention_filter == "nosingletons":
+        elif variant == "nosingletons":
             filter_key = get_singleton_spans(key_mentions)
             filter_response = get_singleton_spans(sys_mentions)
         else:
@@ -287,7 +306,7 @@ class Evaluator:
                       key_mention_key=key_mention_key, sys_mention_sys=sys_mention_sys)
         for name, metric_fn in CLUSTER_METRICS.items():
             res = metric_fn(**kwargs)
-            self.scorers[f"clusters_{mention_filter}"][name].update(res, doc_id)
+            self.scorers[f"clusters_{variant}"][name].update(res, doc_id)
 
     def _update_entity_attribute_metrics(self, key_mentions: List[Mention], sys_mentions: List[Mention],
                                          entity_filter: Literal["all", "nogroup", "nogroupnosingletons"],
