@@ -266,7 +266,8 @@ def group_references_to_mentions(all_references) -> Dict[int, Mention]:
         )
     return all_mentions
 
-def check_for_overlapping_mehtions(mentions: Dict[int, Mention], token_ser: Optional[pandas.Series] = None):
+def check_for_overlapping_mehtions(mentions: Dict[int, Mention], token_ser: Optional[pandas.Series] = None,
+                                   section_name_ser: Optional[pandas.Series] = None):
     interval_tree = intervaltree.IntervalTree()
     for mention in mentions.values():
         interval_tree.add(intervaltree.Interval(mention.token_idx[0], mention.token_idx[-1] + 1, mention.id))
@@ -287,14 +288,16 @@ def check_for_overlapping_mehtions(mentions: Dict[int, Mention], token_ser: Opti
             e1 = mentions[a].token_idx[-1]
             b2 = mentions[b].token_idx[0]
             e2 = mentions[b].token_idx[-1]
+            section_name = section_name_ser.loc[b1]
             if b1 < b2 < e1 < e2:
-                print(f"overlapping mention {a} ({b1} to {e1}) and {b} ({b2} to {e2})")
+                print(f"overlapping mention {a} ({b1} to {e1}) and {b} ({b2} to {e2}) in section {section_name!r}")
 
         if all(mentions[i].token_idx == mentions[overlapping_mention_ids[0]].token_idx for i in overlapping_mention_ids):
             # all spans identical, pass
             continue
         else:
-            print(f"mentions {overlapping_mention_ids} overlap but consists of different spans")
+            section_name = section_name_ser.loc[mentions[overlapping_mention_ids[0]].token_idx[0]]
+            print(f"mentions {overlapping_mention_ids} overlap in {section_name} but consists of different spans")
             for i in overlapping_mention_ids:
                 tokens = ' '.join(token_ser.loc[mentions[i].token_idx])
                 entities = ', '.join(f"{r.entity.fullname!r}" for r in mentions[i].references)
@@ -328,6 +331,7 @@ def convert_booklevel_annotations(annotations_dir: Path, source_df: pandas.DataF
     entity_table = read_entity_table(entity_table_df)
 
     chapter_id_row = source_df['is_section_start'].cumsum()
+    token_to_source_filename = pandas.Series(index=source_df.index, dtype=str)
 
     xmi_files = list(natsorted(annotations_dir.glob("*.xmi")))
 
@@ -336,6 +340,7 @@ def convert_booklevel_annotations(annotations_dir: Path, source_df: pandas.DataF
     for (i, chapter), xmi_file in zip(source_df.groupby(chapter_id_row), xmi_files):
         chapter_id = re.search(r'.*_chapter_(.*)$', xmi_file.stem).group(1)
         print(f"processing chapter #{i}: {xmi_file.name} and Figurenverzeichnis.csv row {chapter_id!r}")
+        token_to_source_filename.loc[chapter.index] = xmi_file.name
         xmi = ElementTree.parse(xmi_file).getroot()
 
         all_references.extend(list(
@@ -349,7 +354,7 @@ def convert_booklevel_annotations(annotations_dir: Path, source_df: pandas.DataF
     # ensure that generics are singletons
     split_generics_into_singletons(all_mentions.values(), generic_entity_factory)
 
-    check_for_overlapping_mehtions(all_mentions, source_df['text'])
+    check_for_overlapping_mehtions(all_mentions, source_df['text'], token_to_source_filename)
     return list(all_mentions.values())
 
 
