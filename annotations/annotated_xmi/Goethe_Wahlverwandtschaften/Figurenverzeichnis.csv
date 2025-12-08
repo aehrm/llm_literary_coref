@@ -1,16 +1,16 @@
 ﻿ID_general;ID_general_old;fullname;gender;possible_identity_with;members;members_names;specialcase;borderline;comment_entity;ID_chapter_1;ID_chapter_2;ID_chapter_3;ID_chapter_4;ID_chapter_5;ID_chapter_6;ID_chapter_7;ID_chapter_8;ID_chapter_9;ID_chapter_10;ID_chapter_11;ID_chapter_12;ID_chapter_13;ID_chapter_14;ID_chapter_15;ID_chapter_16;ID_chapter_17;ID_chapter_18;ID_chapter_19;ID_chapter_20;ID_chapter_21;ID_chapter_22;ID_chapter_23;ID_chapter_24;ID_chapter_25;ID_chapter_26;ID_chapter_27;ID_chapter_28;ID_chapter_29;ID_chapter_30;ID_chapter_31;ID_chapter_32;ID_chapter_33;ID_chapter_34;ID_chapter_35;ID_chapter_36;ID_chapter_37
 entity_0001;figur_0001;Eduard;m;;;;;;;;Eduard;Eduard;Eduard;Eduard;Eduard;Eduard;Eduard;Eduard;Eduard;Eduard;Eduard;Eduard;Eduard;Eduard;Eduard;Eduard;Eduard;Eduard;Eduard;;Eduard;Eduard;Eduard;;Eduard;Eduard;Eduard;Eduard;;Eduard;Eduard;Eduard;Eduard;Eduard;Eduard;Eduard
 entity_0002;figur_0002;Charlotte;f;;;;;;;;Charlotte;Charlotte;Charlotte;Charlotte;Charlotte;Charlotte;Charlotte;Charlotte;Charlotte;Charlotte;Charlotte;Charlotte;Charlotte;Charlotte;Charlotte;Charlotte;Charlotte;Charlotte;Charlotte;Charlotte;Charlotte;Charlotte;Charlotte;Charlotte;Charlotte;Charlotte;Charlotte;Charlotte;Charlotte;Charlotte;Charlotte;Charlotte;Charlotte;Charlotte;Charlotte;Charlotte
-entity_0003;figur_0003;Hauptmann;m;;;;;;;;Hauptmann;Hauptmann;Hauptmann;Hauptmann;Hauptmann;Hauptmann;Hauptmann;Hauptmann;Hauptmann;Hauptmann;Hauptmann;Hauptmann;Hauptmann;Hauptmann;Hauptmann;Hauptmann;Hauptmann;Hauptmann;Hauptmann;;;;;;;Hauptmann;;Hauptmann;Hauptmann;Major;Major;Major;Major;;Major;Major
+entity_0003;figur_0003;Hauptmann;m;entity_0374;;;;;;;Hauptmann;Hauptmann;Hauptmann;Hauptmann;Hauptmann;Hauptmann;Hauptmann;Hauptmann;Hauptmann;Hauptmann;Hauptmann;Hauptmann;Hauptmann;Hauptmann;Hauptmann;Hauptmann;Hauptmann;Hauptmann;Hauptmann;;;;;;;Hauptmann;;Hauptmann;Hauptmann;Major;Major;Major;Major;;Major;Major
 entity_0004;figur_0004;Gärtner;m;;;;;;;;Gärtner;;;;;;;;;;;;;;;;Gärtner;;;;;;Gärtner;;;;Gärtner;Gärtner;;;;;;;;
-entity_0005;figur_0007;Luciane;f;;;;;;;;Luciane;Luciane;Luciane;;Luciane;;;;;;;;Luciane;;;Luciane;;;;;;Luciane;Luciane;Luciane;Luciane;Luciane;Luciane;Luciane;;;;;Luciane;;;
+entity_0005;figur_0007;Luciane;f;;;;;;;;Luciane;Luciane;Luciane;;Luciane;;;;;;;;Luciane;Luciane;;Luciane;;;;;;Luciane;Luciane;Luciane;Luciane;Luciane;Luciane;Luciane;;;;;Luciane;;;
 entity_0006;figur_0008;Ottilie;f;;;;;;;;Ottilie;Ottilie;Ottilie;Ottilie;Ottilie;Ottilie;Ottilie;Ottilie;Ottilie;Ottilie;Ottilie;Ottilie;Ottilie;Ottilie;Ottilie;Ottilie;Ottilie;Ottilie;Ottilie;Ottilie;Ottilie;Ottilie;Ottilie;Ottilie;Ottilie;Ottilie;Ottilie;Ottilie;Ottilie;Ottilie;Ottilie;Ottilie;Ottilie;Ottilie;Ottilie;Ottilie
 entity_0007;figur_0010;Geschwisterpaare die Charlotte kennt;u;;x;x;group;;;;Geschwister;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 entity_0008;figur_0011;Liebende die Charlotte kennt;u;;x;x;group;;;;Liebende;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 entity_0009;figur_0012;Freunde die Charlotte kennt;u;;x;x;group;;;;Freunde die Charlotte gesehen hat;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 entity_0010;figur_0013;Ehepaare die Charlotte kennt;u;;x;x;group;;;;Ehepaare;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 entity_0011;figur_0014;Arbeiter in Charlottes Anlage;u;;x;x;group;;;;Arbeiter;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-entity_0012;figur_0019;Eduards erste Frau;f;;;;;;;;Eduards erste Frau;;;;;;;;;Eduards erste Frau;;;;;;;;;;;;;;;;;;;;;;;;;;
+entity_0012;figur_0019;Eduards erste Frau;f;;;;;;;;Eduards erste Frau;Eduards erste Frau;;;;;;;;Eduards erste Frau;;;;;;;;;;;;;;;;;;;;;;;;;;
 entity_0013;figur_0020;Eduards Vater;m;;;;;;;;Eduards Vater;;Eduards Vater;;;;;;;;;;;Eduards Vater;;;Eduards Vater;;;;;;;;;Eduards Vater;;;;;;;;;;
 entity_0014;figur_0021;Eduards Mutter;f;;;;;;;;Eduards Mutter;Eduards Mutter;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 entity_0015;figur_0022;Charlottes erster Mann;m;;;;;;;;Charlottes erster Mann;;;;;;;;;Charlottes erster Mann;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -23,7 +23,6 @@ entity_0021;figur_0032;Mittler;m;;;;;;;;;Mittler;;;;;;;Mittler;;;;;;;;;Mittler;;
 entity_0022;figur_0033;Ottilies Mutter;f;;;;;;;;;Ottilies Mutter;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;Ottilies Mutter;;;;
 entity_0023;figur_0035;Vorsteherin der Pension;f;;;;;;;;;Vorsteherin der Pension;Vorsteherin;;Vorsteherin;Vorsteherin;;;;;;;;;;;;;;;;;;;Vorsteherin der Pension;Vorsteherin;;;;;;;;;;
 entity_0024;figur_0036;Bedienstete;u;;entity_0026, x;Bedienter, x;group;gender;gender evtl. m;;;Bedienstete;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-entity_0025;figur_0038;Eduards erste Frau;f;;;;;;;;;Eduards erste Frau;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 entity_0026;figur_0039;Bedienter;m;;;;;;;;;Bedienter;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 entity_0027;figur_0040;Wer ein Übel los sein will;u;;;;;;;;;Wer ein Übel los sein will;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 entity_0028;figur_0041;Eduards Eltern;mf;;entity_0014, entity_0013;Eduards Mutter, Eduards Vater;group;;;;;Eduards Eltern;;;;;;;;Eduards Eltern;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -83,8 +82,8 @@ entity_0081;figur_0167;Müllerin;f;;;;;;;;;;;;;;Müllerin;;;;;;;;;;;;;;;;;;;;;;;
 entity_0082;figur_0169;Waldbauern;u;;x;x;group;;;;;;;;;;Waldbauern;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 entity_0083;figur_0170;Komponist der Sonaten;u;;;;;;;;;;;;;;;Komponist;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 entity_0084;figur_0171;Maurer;m;;;;;;;;;;;;;;;;Maurer;;;;;;;;;;;;;;;;;;;;;;;;;;;
-entity_0085;figur_0172;Baronesse;f;;;;;;;;;;;;;;;;Baronesse;Baronesse;Baronesse;Baronesse;;;;;;;;;;;Baronesse;Baronesse;;;;;;;;;Baronesse;;;
-entity_0086;figur_0173;Graf;m;;;;;;;;;;;;;;;;Graf;Graf;Graf;Graf;;Graf;;Graf;;;;;;;Graf;Graf;;;;Graf;;;;;;;;
+entity_0085;figur_0172;Baronesse;f;;;;;;;;;;;;;;;;Baronesse;Baronesse;Baronesse;Baronesse;;;;;;;;;;;Baronesse;Baronesse;Baronesse;;;;;;;;Baronesse;;;
+entity_0086;figur_0173;Graf;m;;;;;;;;;;;;;;;;Graf;Graf;Graf;Graf;;Graf;;Graf;;;;;;;Graf;Graf;Graf;;;Graf;;;;;;;;
 entity_0087;figur_0174;Gesellschaft;u;;entity_0002, entity_0001, entity_0003, entity_0006, entity_0092, entity_0091, entity_0107, x;Charlotte, Eduard, Hauptmann, Ottilie, Gäste, Offizier, Mancher Anwesender, Frauenschar, x;group;members;;;;;;;;;;;Gesellschaft;;;;;;;;;;;;;;;;;;;;;;;;;;;
 entity_0088;figur_0176;Handwerker;m;;x;x;group;;;;;;;;;;;;Handwerker;;;;;;;;;;;;;;;;;;;;;;;;;;;
 entity_0089;figur_0177;Bewohner des Dorfes;u;;x;x;group;;evtl. identisch mit obigen Bewohnern des Dorfes, aber overlap nicht sicher klar;;;;;;;;;;Bewohner;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -100,7 +99,7 @@ entity_0098;figur_0193;Bauarbeiter;m;;x;x;group;;;;;;;;;;;;Bauarbeiter;;;;;;;;;;
 entity_0099;figur_0194;Leichteste Gäste;u;;x;x;group;;;;;;;;;;;;Leichteste Gäste;;;;;;;;;;;;;;;;;;;;;;;;;;;
 entity_0100;figur_0195;Mehrere aus der Gesellschaft;u;;x;x;group;;;;;;;;;;;;Mehrere aus der Gesellschaft;;;;;;;;;;;;;;;;;;;;;;;;;;;
 entity_0101;figur_0197;Frauen;f;;x;x;group;;;;;;;;;;;;Frauen;;;;;;;;;;;;;;;;;;;;;;;;;;;
-entity_0102;figur_0198;Gemeinde;u;;todo, entity_0090, entity_0110, entity_0112, entity_0101, entity_0109, entity_0111, x;Knaben, Jünglinge, Männer, Mädchen, Jungfrauen, Frauen, x;group;;;;;;;;;;;;Gemeinde;;;;;;;;;;;;;;;;;;;;;;;;;;;
+entity_0102;figur_0198;Gemeinde;u;;entity_0090, entity_0110, entity_0112, entity_0101, entity_0109, entity_0111, x;Knaben, Jünglinge, Männer, Mädchen, Jungfrauen, Frauen, x;group;;;;;;;;;;;;Gemeinde;;;;;;;;;;;;;;;;;;;;;;;;;;;
 entity_0103;figur_0200;Ein Arbeitsmann;m;;;;;;;;;;;;;;;;Ein Arbeitsleute;;;;;;;;;;;;;;;;;;;;;;;;;;;
 entity_0104;figur_0201;Eduards Familie;u;;x;x;group;members, ID;"nicht ganz klar, worauf sich ""Seinigen"" bezieht. Da es heißt, diese würden eingeladen scheint es nicht nur Charlotte zu meinen. Also vllt. Verwandtschaft von Eduard? Diese aber sonst nie erwähnt";;;;;;;;;;Eduards Familie;;;;;;;;;;;;;;;;;;;;;;;;;;;
 entity_0105;figur_0203;Arbeitsleute;m;;x;x;group;;;;;;;;;;;;Arbeitsleute;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -353,7 +352,7 @@ entity_0351;figur_0708;Gehülfin;f;;;;nonfact;;;;;;;;;;;;;;;;;;;;;;;;;;;;Gehülf
 entity_0352;figur_0709;von Ottilie erzogenes Mädchen;f;;;;nonfact;;;;;;;;;;;;;;;;;;;;;;;;;;;;von Ottilie erzogenes Mädchen;;;;;;;;;;;
 entity_0353;figur_0719;Person die Vorstand der Pension übernehmen könnte;u;;;;nonfact;;;;;;;;;;;;;;;;;;;;;;;;;;;;Person die Vorstand der Pension übernehmen könnte;;;;;;;;;;;
 entity_0354;figur_0728;Ottilies Mädchen;f;;x;x;group;;;;;;;;;;;;;;;;;;;;;;;;;;;;Ottilies Mädchen;;;;;;;;;;;
-entity_0355;figur_0729;Eltern eines von Ottilie erzogenen Mädchens;mf;;x;x;nonfact;;;;;;;;;;;;;;;;;;;;;;;;;;;;Eltern eines von Ottilie erzogenen Mädchens;;;;;;;;;;;
+entity_0355;figur_0729;Eltern eines von Ottilie erzogenen Mädchens;mf;;x;x;group, nonfact;;;;;;;;;;;;;;;;;;;;;;;;;;;;Eltern eines von Ottilie erzogenen Mädchens;;;;;;;;;;;
 entity_0356;figur_0733;Humboldt;m;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;Humboldt;;;;;;;;;;;
 entity_0357;figur_0735;hypothetischer Gatte eines von Ottilie erzogenen Mädchens;m;;;;nonfact;;;;;;;;;;;;;;;;;;;;;;;;;;;;Gatte eines von Ottilie erzogenen Mädchens;;;;;;;;;;;
 entity_0358;figur_0743;Mitarbeiter der Pension;m;;x;x;group;;unklarer Overlap zu Gruppen in chapter 6;;;;;;;;;;;;;;;;;;;;;;;;;;Mitarbeiter der Pension;;;;;;;;;;;
@@ -371,8 +370,8 @@ entity_0369;figur_0771;Menschen in Ottilies Traum;u;;x;x;group, nonfact;;;;;;;;;
 entity_0370;figur_0775;Kirchdiener;m;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;Kirchdiener;;;;;;;;;;
 entity_0371;figur_0776;Simeon;m;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;Simeon;;;;;;;;;;
 entity_0372;figur_0788;Handelsgärtner;m;;x;x;group;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;Handelsgärtner;;;;;;;;;
-entity_0373;figur_0795;Mädchen in der Nachbarskinder-Novelle;f;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;Mädchen;;;;;;;;
-entity_0374;figur_0796;Knabe in der Nachbarskinder-Novelle;m;Hauptmann;;;;;possible_identitiy_with, eigentlich handelt es sich bei dem Hauptmann tatsächlich um den Knaben aus der Geschichte, aber Geschichte als übertrieben usw. markiert;;;;;;;;;;;;;;;;;;;;;;;;;;;;;Knabe;;;;;;;;
+entity_0373;figur_0795;Mädchen in der Nachbarskinder-Novelle;f;entity_0411;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;Mädchen;;;;;;;;
+entity_0374;figur_0796;Knabe in der Nachbarskinder-Novelle;m;entity_0003;;;;;possible_identitiy_with, eigentlich handelt es sich bei dem Hauptmann tatsächlich um den Knaben aus der Geschichte, aber Geschichte als übertrieben usw. markiert;;;;;;;;;;;;;;;;;;;;;;;;;;;;;Knabe;;;;;;;;
 entity_0375;figur_0797;Lord;m;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;Lord;Lord;;;;;;;
 entity_0376;figur_0798;Bräutigam des Mädchens in der Novelle;m;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;Bräutigam des Mädchens;;;;;;;;
 entity_0377;figur_0799;Begleiter des Lords;m;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;Begleiter des Lords;Begleiter;;;;;;;
@@ -409,7 +408,7 @@ entity_0408;figur_0848;Stimmen;u;;x;x;group;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;Stimme
 entity_0409;figur_0849;Schiffs-Gesellschaft;u;;"entity_0403, entity_0376, entity_0373
 entity_0374, x";Familien des Knaben und des Mädchens, Mädchen, Knabe, Bräutigam des Mädchens;group;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;Schiffs-Gesellschaft;;;;;;;;
 entity_0410;figur_0853;Nachbarschaft;u;;x;x;group;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;Nachbarschaft;;;;;;;
-entity_0411;figur_0858;Nachbarin des Hauptmanns;f;Mädchen in der Novelle;;;;;possible_identitiy_with, eigentlich handelt es sich bei dem Hauptmann tatsächlich um den Knaben aus der Geschichte, aber Geschichte als übertrieben usw. markiert;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;Nachbarin des Hauptmanns;;;;;;;
+entity_0411;figur_0858;Nachbarin des Hauptmanns;f;entity_0373;;;;;possible_identitiy_with, eigentlich handelt es sich bei dem Hauptmann tatsächlich um den Knaben aus der Geschichte, aber Geschichte als übertrieben usw. markiert;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;Nachbarin des Hauptmanns;;;;;;;
 entity_0412;figur_0859;Nannys Eltern;mf;;x;x;group;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;Nannys Eltern;;;;Nannys Eltern;;;Nannys Eltern
 entity_0413;figur_0860;Wärterin;f;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;Wärterin;;;;;;;
 entity_0414;figur_0861;andere aus der Nachbarschaft;u;;x;x;group;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;andere aus der Nachbarschaft;;;;;;;
@@ -909,7 +908,7 @@ entity_0907;figur_0126;Menschen mit denen man zu leben hat;u;;;;generic, group;;
 entity_0908;figur_0140;Bauern allgemein;u;;;;generic, group;;;;;;;;;Bauern allgemein;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 entity_0909;figur_0129;Bürger allgemein;u;;;;generic, group;;;;;;;;;Bürger allgemein;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 entity_0910;figur_0178;Jemand der auf hohem Punkt steht;u;;;;generic;;;;;;;;;;;;Jemand der auf hohem Punkt steht;;;;;;;;;;;;;;;;;;;;;;;;;;;
-entity_0911;figur_0225;Ehepartner der zum dritten Mal heiratet;u;;;;generic;;;;;;;;;;;;Ehepartner der zum dritten Mal heiratet;;;;;;;;;;;;;;;;;;;;;;;;;;;
+entity_0911;figur_0225;Ehepartner der zum dritten Mal heiratet;u;;;;generic;;;;;;;;;;;;;Ehepartner der zum dritten Mal heiratet;;;;;;;;;;;;;;;;;;;;;;;;;;
 entity_0912;figur_0261;von Sarmaten geliebte und verehrte Person;u;;;;generic;;;;;;;;;;;;;;von Sarmaten geliebte und verehrte Person;;;;;;;;;;;;;;;;;;;;;;;;;
 entity_0913;figur_0268;Diejenigen die über den See fahren;u;;;;generic, group;;;;;;;;;;;;;;;Reisende;;;;;;;;;;;;;;;;;;;;;;;;
 entity_0914;figur_0303;Menschen allgemein;u;;;;generic, group;;;;;;;;;;;;;;;;;;Menschen allgemein;;;;;;;;;;;;;;;;;;;;;
@@ -953,3 +952,4 @@ entity_0951;figur_0935;Menschen allgemein 3;u;;;;generic, group;;;;;;;;;;;;;;;;;
 entity_0952;figur_0943;Mensch allgemein;u;;;;generic;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;Mensch allgemein
 entity_0953;figur_0972;Geliebte von Jemand;u;;;;generic, nonfact;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;Geliebte von Jemand
 entity_0954;figur_0984;gebildete vernünftige Völker;u;;;;generic, group;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;gebildete vernünftige Völker
+entity_0955;;Menschen allgemein;u;;;;generic, group;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;Menschen allgemein
