@@ -209,7 +209,7 @@
     <custom2:Mention xmi:id="2408" sofa="1" begin="9382" end="9385" ID="deutsche Newyorker Bürger"/>
     <custom2:Mention xmi:id="2423" sofa="1" begin="9502" end="9506" ID="deutsche Newyorker Bürger"/>
     <custom2:Mention xmi:id="2438" sofa="1" begin="9557" end="9560" ID="kriegerische Gestalten"/>
-    <custom2:Mention xmi:id="2453" sofa="1" begin="9569" end="9572" ID="kriegerische Gesetalten"/>
+    <custom2:Mention xmi:id="2453" sofa="1" begin="9569" end="9572" ID="kriegerische Gestalten"/>
     <custom2:Mention xmi:id="2468" sofa="1" begin="9676" end="9693" ID="Philadelphia Schützencompagnie">
         <specialcase_entity>group</specialcase_entity>
     </custom2:Mention>
@@ -378,7 +378,7 @@
     <custom2:Mention xmi:id="4223" sofa="1" begin="14530" end="14534" ID="junge Frau"/>
     <custom2:Mention xmi:id="4238" sofa="1" begin="14551" end="14555" ID="Vronele"/>
     <custom2:Mention xmi:id="4253" sofa="1" begin="14557" end="14560" ID="junge Frau"/>
-    <custom2:Mention xmi:id="4268" sofa="1" begin="14568" end="14571" ID="Haderlump"/>
+    <custom2:Mention xmi:id="4268" sofa="1" begin="14568" end="14571" ID="Hutzelmännchen"/>
     <custom2:Mention xmi:id="4283" sofa="1" begin="14611" end="14625" ID="Hutzelmännchen"/>
     <custom2:Mention xmi:id="4298" sofa="1" begin="14643" end="14646" ID="Vronele"/>
     <custom2:Mention xmi:id="4313" sofa="1" begin="14665" end="14669" ID="Hutzelmännchen"/>
@@ -485,7 +485,7 @@
     <custom2:Speech_ind xmi:id="5429" sofa="1" begin="3630" end="3689" speaker="Moorfeld" level="0"/>
     <custom2:Speech_ind xmi:id="5393" sofa="1" begin="4234" end="4275" speaker="Moorfeld" level="0"/>
     <custom2:Speech_ind xmi:id="5690" sofa="1" begin="6619" end="6644" speaker="Rowdie-Banden" level="0"/>
-    <custom2:Speech_ind xmi:id="5402" sofa="1" begin="9569" end="9742" speaker="kriegerische Gesetalten" level="0"/>
+    <custom2:Speech_ind xmi:id="5402" sofa="1" begin="9569" end="9742" speaker="kriegerische Gestalten" level="0"/>
     <custom2:Speech_ind xmi:id="5447" sofa="1" begin="12512" end="12552" speaker="Herrenbuben" level="1"/>
     <custom2:Speech_ind xmi:id="5789" sofa="1" begin="12692" end="12723" speaker="generic" level="1"/>
     <custom2:Speech_ind xmi:id="5483" sofa="1" begin="12736" end="12804" speaker="generic" level="1"/>
