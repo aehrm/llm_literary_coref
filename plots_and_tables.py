@@ -84,7 +84,7 @@ def get_mentions_by_tag(document_id, tag):
     df = documents[document_id]
     out = []
     for mention in document_mentions[document_id]:
-        if all(df.loc[mention.token_idx, 'tag'] == tag):
+        if any(df.loc[mention.token_idx, 'tag'] == tag):
             out.append(mention)
     return out
 
@@ -92,14 +92,17 @@ def get_mentions_by_tag(document_id, tag):
 statistics = []
 statistics.append([0, 'Num. documents', len(documents)])
 statistics.append([1, 'Num. tokens', sum(len(df) for df in documents.values())])
+statistics.append([1, 'Num. sentences', sum(df['is_sent_start'].sum() for df in documents.values())])
+statistics.append([1, 'Num. entities', sum(len(entities) for entities in document_entities.values())])
+
 statistics.append([1, 'Num. mentions', sum(len(mentions) for mentions in document_mentions.values())])
 statistics.append([1, 'Num. plural mentions', sum(1 for mentions in document_mentions.values() for mention in mentions if len(mention.references) > 1)])
 statistics.append([1, 'Num. proper noun mentions', sum(1 for doc in documents.keys() for mention in get_mentions_by_tag(doc, 'NE'))])
 statistics.append([1, 'Num. nominal noun mentions', sum(1 for doc in documents.keys() for mention in get_mentions_by_tag(doc, 'NN'))])
 statistics.append([1, 'Num. mentions with figurative reference', sum(1 for mentions in document_mentions.values() for mention in mentions if any('figurative' in ref.specialcase_reference for ref in mention.references))])
 statistics.append([1, 'Num. mentions with part reference', sum(1 for mentions in document_mentions.values() for mention in mentions if any('part' in ref.specialcase_reference for ref in mention.references))])
-statistics.append([0, 'Mentions per Token', sum(len(mentions) for mentions in document_mentions.values()) / sum(len(df) for df in documents.values())])
-statistics.append([1, 'Num. entities', sum(len(entities) for entities in document_entities.values())])
+# statistics.append([0, 'Mentions per Token', sum(len(mentions) for mentions in document_mentions.values()) / sum(len(df) for df in documents.values())])
+
 statistics.append([1, 'Num. non-singleton entities', sum(1 for entities in document_entities.values() for references in entities.values() if len(references) > 1)])
 statistics.append([1, 'Num. singleton entities', sum(1 for entities in document_entities.values() for references in entities.values() if len(references) == 1)])
 statistics.append([1, 'Num. generic entities', sum(1 for entities in document_entities.values() for references in entities.values() if 'generic' in references[0][1].entity.specialcase_entity)])
@@ -289,54 +292,29 @@ total_mentions = sum(len(mentions) for entities in document_entities.values() fo
 with tqdm(total=total_mentions) as pbar:
     for doc, entities in document_entities.items():
         for entity_id, mentions in entities.items():
+            pbar.update(len(distances))
             doc_df = documents[doc]
-            chapter_id = doc_df['is_section_start'].cumsum()
+            # chapter_id = doc_df['is_section_start'].cumsum()
             mention_positions = list(sorted(mention.token_idx[0] for mention, _ in mentions))
-            mention_chapter = [chapter_id.loc[x] for x in mention_positions]
+            # mention_chapter = [chapter_id.loc[x] for x in mention_positions]
             mention_type = [doc_df.loc[x]['tag'] for x in mention_positions]
 
-            distances = pandas.DataFrame({'position': mention_positions, 'chapter': mention_chapter, 'type': mention_type})
+            distances = pandas.DataFrame({'position': mention_positions, 'type': mention_type})
             # distances['token'] = doc_df.loc[distances.position, 'text'].reset_index(drop=True)
-            distances['forward'] = np.nan
-            distances['backward'] = np.nan
 
-            if not any(distances['type'] == 'NE') or len(distances) == 1:
-                pbar.update(len(distances))
+            if len(distances) == 1:
                 continue
 
-            for i in range(len(distances)):
-                pbar.update(1)
-                forward_mentions = distances.loc[i:,]
-                forward_mentions = forward_mentions[forward_mentions['chapter'] == distances.loc[i, 'chapter']]
-                forward_mentions = forward_mentions[forward_mentions['type'] == 'NE']
-                if len(forward_mentions) > 0:
-                    distances.loc[i, 'forward'] = forward_mentions.iloc[0]['position'] - distances.loc[i, 'position']
-
-                backward_mentions = distances.loc[:i,]
-                backward_mentions = backward_mentions[backward_mentions['chapter'] == distances.loc[i, 'chapter']]
-                backward_mentions = backward_mentions[backward_mentions['type'] == 'NE']
-                if len(backward_mentions) > 0:
-                    distances.loc[i, 'backward'] =  distances.loc[i, 'position'] - backward_mentions.iloc[-1]['position']
-
-            distances['min'] = distances[['forward', 'backward']].min(axis=1)
+            distances['distance'] = distances['position'].diff()
             distances['entity'] = entity_id
             distances['doc'] = doc
 
-            mention_distances.append(distances)
+            mention_distances.append(distances.iloc[1:])
 
 mention_distances = pandas.concat(mention_distances)
 
 #%%
+d = mention_distances[~mention_distances['type'].str.match('NN|NE')]['distance']
+d = d[d > 0]  # ignore overlapping mentions
 
-cycler = iter(plt.rcParams['axes.prop_cycle'])
-fig, ax = plt.subplots(figsize=(6, 3))
-for doc, group in sorted(mention_distances.groupby('doc'), key=lambda x: ordering.index(x[0])):
-    group = group[group['type'] != 'NE']
-    # logbins = [1, 2, 3, 4, 5, 6, 7, 8, 9] + list(np.logspace(np.log10(10), np.log10(20000), 50))
-    color = next(cycler)['color']
-    ax.hist(group['min'], bins=100, label=doc_title[doc], alpha=1, fill=False, histtype='step', edgecolor=color)
-
-# ax.set_xscale('log')
-ax.set_ylim((0, 40))
-ax.set_xlim((1, 20000))
-plt.show()
+print(d.describe(percentiles=[0.5, 0.9, .95, .99, .999]).to_string())
