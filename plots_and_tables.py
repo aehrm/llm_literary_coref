@@ -22,18 +22,28 @@ matplotlib.rcParams['axes.prop_cycle'] = cycler(color=[
 
 ])
 
-SMALL_SIZE = 6
+SMALL_SIZE = 7
 MEDIUM_SIZE = 8
 BIGGER_SIZE = 10
 
-plt.rc('font', size=SMALL_SIZE)          # controls default text sizes
-plt.rc('axes', titlesize=MEDIUM_SIZE)     # fontsize of the axes title
-plt.rc('axes', labelsize=MEDIUM_SIZE)    # fontsize of the x and y labels
-plt.rc('xtick', labelsize=SMALL_SIZE)    # fontsize of the tick labels
-plt.rc('ytick', labelsize=SMALL_SIZE)    # fontsize of the tick labels
-plt.rc('legend', fontsize=MEDIUM_SIZE)    # legend fontsize
-plt.rc('figure', titlesize=BIGGER_SIZE)  # fontsize of the figure title
-plt.rc('lines', markersize=4)
+plt.rcParams.update({
+    'font.size': SMALL_SIZE,            # Default font size
+    'axes.labelsize': SMALL_SIZE,       # Font size for x and y labels
+    'axes.titlesize': SMALL_SIZE,      # Font size for main title
+    'xtick.labelsize': SMALL_SIZE,      # Font size for x-axis tick labels
+    'ytick.labelsize': SMALL_SIZE,      # Font size for y-axis tick labels
+    'legend.fontsize': SMALL_SIZE,      # Font size for legend
+    'lines.linewidth': 0.8,    # Default line width
+    'lines.markersize': 3,     # Default marker size
+    'grid.linewidth': 0.3,     # Line width for grid
+    'figure.titlesize': MEDIUM_SIZE,    # Font size for `plt.suptitle`
+    'axes.linewidth': 0.5,     # Set spine width globally
+    'xtick.major.width': 0.5,  # Set x-axis major tick width
+    'ytick.major.width': 0.5,  # Set y-axis major tick width
+    'xtick.minor.width': 0.3,  # Set x-axis minor tick width
+    'ytick.minor.width': 0.3,  # Set y-axis minor tick width
+})
+
 
 #%%
 
@@ -78,7 +88,6 @@ doc_title = {
 
 #%%
 
-# make some statistics
 
 def get_mentions_by_tag(document_id, tag):
     df = documents[document_id]
@@ -88,46 +97,63 @@ def get_mentions_by_tag(document_id, tag):
             out.append(mention)
     return out
 
+#%%
+
+# basic statistics
 
 statistics = []
-statistics.append([0, 'Num. documents', len(documents)])
-statistics.append([1, 'Num. tokens', sum(len(df) for df in documents.values())])
-statistics.append([1, 'Num. sentences', sum(df['is_sent_start'].sum() for df in documents.values())])
-statistics.append([1, 'Num. entities', sum(len(entities) for entities in document_entities.values())])
+for doc, df in sorted(documents.items(), key=lambda x: len(x[1])):
+    statistics.append([doc, 'Num. tokens', len(df)])
+    statistics.append([doc, 'Num. sentences', df['is_sent_start'].sum()])
+    statistics.append([doc, 'Num. mentions', len(document_mentions[doc])])
+    statistics.append([doc, 'Num. references', sum(1 for mention in document_mentions[doc] for ref in mention.references)])
+    statistics.append([doc, 'Num. entities', len(document_entities[doc])])
 
-statistics.append([1, 'Num. mentions', sum(len(mentions) for mentions in document_mentions.values())])
-statistics.append([1, 'Num. plural mentions', sum(1 for mentions in document_mentions.values() for mention in mentions if len(mention.references) > 1)])
-statistics.append([1, 'Num. proper noun mentions', sum(1 for doc in documents.keys() for mention in get_mentions_by_tag(doc, 'NE'))])
-statistics.append([1, 'Num. nominal noun mentions', sum(1 for doc in documents.keys() for mention in get_mentions_by_tag(doc, 'NN'))])
-statistics.append([1, 'Num. mentions with figurative reference', sum(1 for mentions in document_mentions.values() for mention in mentions if any('figurative' in ref.specialcase_reference for ref in mention.references))])
-statistics.append([1, 'Num. mentions with part reference', sum(1 for mentions in document_mentions.values() for mention in mentions if any('part' in ref.specialcase_reference for ref in mention.references))])
-# statistics.append([0, 'Mentions per Token', sum(len(mentions) for mentions in document_mentions.values()) / sum(len(df) for df in documents.values())])
-
-statistics.append([1, 'Num. non-singleton entities', sum(1 for entities in document_entities.values() for references in entities.values() if len(references) > 1)])
-statistics.append([1, 'Num. singleton entities', sum(1 for entities in document_entities.values() for references in entities.values() if len(references) == 1)])
-statistics.append([1, 'Num. generic entities', sum(1 for entities in document_entities.values() for references in entities.values() if 'generic' in references[0][1].entity.specialcase_entity)])
-statistics.append([1, 'Num. group entities', sum(1 for entities in document_entities.values() for references in entities.values() if 'group' in references[0][1].entity.specialcase_entity)])
-statistics.append([1, 'Num. nonfact entities', sum(1 for entities in document_entities.values() for references in entities.values() if 'nonfact' in references[0][1].entity.specialcase_entity)])
-
-props = {
-    'Num. mentions': ['Num. plural mentions', 'Num. mentions with figurative reference', 'Num. mentions with part reference',
-                      'Num. proper noun mentions', 'Num. nominal noun mentions'],
-    'Num. entities': ['Num. non-singleton entities', 'Num. singleton entities', 'Num. generic entities',
-                      'Num. group entities', 'Num. nonfact entities']
-}
-
-df = pandas.DataFrame(statistics, columns=['to_average', 'label', 'value'])
-df['average'] = np.nan
-df.loc[df.to_average == 1, 'average'] = df.loc[df.to_average == 1, 'value'] / len(documents)
-
-df['proportion'] = np.nan
-for normalization_row, rows in props.items():
-    sel = df.label.isin([normalization_row] + rows)
-    df.loc[sel, 'proportion'] = df.loc[sel, 'value'] / df.loc[df.label == normalization_row, 'value'].item()
-
-print(df[['label', 'value', 'average', 'proportion']].to_string(index=False, na_rep=''))
+df = pandas.DataFrame(statistics, columns=['doc', 'label', 'count']).pivot(index='doc', columns='label').droplevel(0, axis=1)
+df = df.rename(doc_title)
+df.loc['total'] = df.sum()
+df.loc['average'] = df.sum() / len(df)
+print(df[['Num. tokens', 'Num. sentences', 'Num. mentions', 'Num. references', 'Num. entities']].to_string(na_rep=''))
 
 #%%
+
+mention_statistics = []
+mention_statistics.append(['Num. mentions', sum(len(mentions) for mentions in document_mentions.values())])
+mention_statistics.append(['Num. plural mentions', sum(1 for mentions in document_mentions.values() for mention in mentions if len(mention.references) > 1)])
+mention_statistics.append(['Num. proper noun mentions', sum(1 for doc in documents.keys() for mention in get_mentions_by_tag(doc, 'NE'))])
+mention_statistics.append(['Num. nominal noun mentions', sum(1 for doc in documents.keys() for mention in get_mentions_by_tag(doc, 'NN'))])
+mention_statistics.append(['Num. mentions with figurative reference', sum(1 for mentions in document_mentions.values() for mention in mentions if any('figurative' in ref.specialcase_reference for ref in mention.references))])
+mention_statistics.append(['Num. mentions with part reference', sum(1 for mentions in document_mentions.values() for mention in mentions if any('part' in ref.specialcase_reference for ref in mention.references))])
+
+df = pandas.DataFrame(mention_statistics, columns=['label', 'count']).set_index('label')
+df['average'] = df['count'] / len(documents)
+
+df['proportion'] = df['count'] / df['count'].iloc[0]
+
+print(df[['count', 'average', 'proportion']].to_string(na_rep=''))
+
+#%%
+
+
+entity_statistics = []
+entity_statistics.append(['Num. entities', sum(len(entities) for entities in document_entities.values())])
+entity_statistics.append(['Num. non-singleton entities', sum(1 for entities in document_entities.values() for references in entities.values() if len(references) > 1)])
+entity_statistics.append(['Num. non-singleton non-specialcase entities', sum(1 for entities in document_entities.values() for references in entities.values() if len(references) > 1 and references[0][1].entity.specialcase_entity == [])])
+entity_statistics.append(['Num. singleton entities', sum(1 for entities in document_entities.values() for references in entities.values() if len(references) == 1)])
+entity_statistics.append(['Num. non-generic singleton entities', sum(1 for entities in document_entities.values() for references in entities.values() if len(references) == 1 and 'generic' not in references[0][1].entity.specialcase_entity)])
+entity_statistics.append(['Num. generic entities', sum(1 for entities in document_entities.values() for references in entities.values() if 'generic' in references[0][1].entity.specialcase_entity)])
+entity_statistics.append(['Num. group entities', sum(1 for entities in document_entities.values() for references in entities.values() if 'group' in references[0][1].entity.specialcase_entity)])
+entity_statistics.append(['Num. nonfact entities', sum(1 for entities in document_entities.values() for references in entities.values() if 'nonfact' in references[0][1].entity.specialcase_entity)])
+
+df = pandas.DataFrame(entity_statistics, columns=['label', 'count']).set_index('label')
+df['average'] = df['count'] / len(documents)
+df['proportion'] = df['count'] / df['count'].iloc[0]
+
+print(df[['count', 'average', 'proportion']].to_string(na_rep=''))
+
+#%%
+
+# calculate entity sizes
 
 entity_sizes = []
 for doc, entities in document_entities.items():
@@ -160,7 +186,8 @@ print(df.to_string())
 
 # Zipf Plot
 
-fig, (ax1, ax2) = plt.subplots(ncols=2, figsize=(6, 3.5))
+
+fig, (ax1, ax2) = plt.subplots(ncols=2, figsize=(5.4, 3.0), dpi=300)
 
 ax = ax1
 cycler = iter(plt.rcParams['axes.prop_cycle'])
@@ -176,7 +203,7 @@ for doc, g in sorted(entity_sizes.groupby('doc'), key=lambda x: ordering.index(x
     y = g['num_references']
 
     color = next(cycler)['color']
-    ax.scatter(x, y, marker='o', facecolors='none', edgecolors=color)
+    ax.scatter(x, y, marker='o', facecolors='none', edgecolors=color, linewidth=plt.rcParams["lines.linewidth"])
 
     # Calculate trend line using log-transformed values
     log_x = np.log(x)
@@ -214,7 +241,7 @@ for doc, doc_df in entity_sizes.groupby('doc'):
     y = g['num_references'].cumsum()/sum(doc_df['num_references'])
 
     color = next(cycler)['color']
-    ax.scatter(x, y, marker='o', facecolors='none', edgecolors=color, label=doc_title[doc])
+    ax.scatter(x, y, marker='o', facecolors='none', edgecolors=color, label=doc_title[doc], linewidth=plt.rcParams["lines.linewidth"])
 
 ax.set_xscale('log')
 ax.set_yscale('log')
@@ -255,22 +282,24 @@ for doc, entities in document_entities.items():
 
 spreads = pandas.DataFrame(spreads, columns=['doc', 'entity', 'num_references', 'spread', 'generic', 'group'])
 
+print(spreads[spreads['num_references'] > 1]['spread'].describe(percentiles=[0.5, 0.90]))
+
 #%%
 
-fig, ax = plt.subplots(ncols=2, nrows=len(ordering)//2, sharex=True, sharey=True, figsize=(6, 3*len(ordering)//2))
+fig, ax = plt.subplots(ncols=2, nrows=len(ordering)//2, sharex=True, sharey=True, figsize=(5.3, 2.4*len(ordering)//2))
 
 axs = ax.flatten()
 
 cycler = iter(plt.rcParams['axes.prop_cycle'])
 for ax, (doc, doc_df) in zip(axs, sorted(spreads.groupby('doc'), key=lambda x: ordering.index(x[0]))):
-    sel = ~spreads['group'] & (spreads['num_references'] > 10)
+    sel = (doc_df['num_references'] > 1)
     g = doc_df.loc[sel]
 
     x = g['num_references']#/sum(doc_df['num_references'])
     y = g['spread']#/len(documents[doc])
     color = next(cycler)['color']
     ax.scatter(x, y, marker='o', facecolors='none', edgecolors=color)
-    ax.axhline(len(documents[doc]), ls='--', color=color, alpha=0.3)
+    ax.axhline(len(documents[doc]), ls='--', color=color, alpha=0.5, linewidth=1.3)
     ax.set_xscale('log')
     ax.set_yscale('log')
     ax.set_title(doc_title[doc])
@@ -292,29 +321,88 @@ total_mentions = sum(len(mentions) for entities in document_entities.values() fo
 with tqdm(total=total_mentions) as pbar:
     for doc, entities in document_entities.items():
         for entity_id, mentions in entities.items():
-            pbar.update(len(distances))
             doc_df = documents[doc]
             # chapter_id = doc_df['is_section_start'].cumsum()
-            mention_positions = list(sorted(mention.token_idx[0] for mention, _ in mentions))
+            mentions = list(sorted((mention for mention, _ in mentions), key=lambda x: x.token_idx[0]))
+            mention_positions = [mention.token_idx[0] for mention in mentions]
             # mention_chapter = [chapter_id.loc[x] for x in mention_positions]
-            mention_type = [doc_df.loc[x]['tag'] for x in mention_positions]
+            mention_type = ['NE' if 'NE' in list(doc_df.loc[mention.token_idx, 'tag']) else
+                            'NN' if 'NN' in list(doc_df.loc[mention.token_idx, 'tag']) else
+                            doc_df.loc[mention.token_idx[0], 'tag']
+                            for mention in mentions]
 
             distances = pandas.DataFrame({'position': mention_positions, 'type': mention_type})
-            # distances['token'] = doc_df.loc[distances.position, 'text'].reset_index(drop=True)
-
+            distances['doc'] = doc
+            distances['entity'] = entity_id
+            pbar.update(len(distances))
             if len(distances) == 1:
                 continue
+            if not (distances['type'] == 'NE').any():
+                continue
 
-            distances['distance'] = distances['position'].diff()
-            distances['entity'] = entity_id
-            distances['doc'] = doc
 
-            mention_distances.append(distances.iloc[1:])
+            distances['distance_to_previous_mention'] = distances['position'].diff()
+            distances['distance_to_previous_ne'] = distances['position'] - distances[distances['type'] == 'NE'].reindex(distances.index)['position'].ffill()
+            distances['distance_to_next_mention'] = -distances['position'].diff(-1)
+            distances['distance_to_next_ne'] =  distances[distances['type'] == 'NE'].reindex(distances.index)['position'].bfill() - distances['position']
+
+            distances['dist_to_mention'] = distances[['distance_to_previous_mention', 'distance_to_next_mention']].min(axis=1)
+            distances['dist_to_ne'] = distances[['distance_to_previous_ne', 'distance_to_next_ne']].min(axis=1)
+
+            mention_distances.append(distances)
 
 mention_distances = pandas.concat(mention_distances)
 
 #%%
-d = mention_distances[~mention_distances['type'].str.match('NN|NE')]['distance']
-d = d[d > 0]  # ignore overlapping mentions
 
-print(d.describe(percentiles=[0.5, 0.9, .95, .99, .999]).to_string())
+df = mention_distances[mention_distances['type'] != 'NE'].dropna()
+
+print(df.describe(percentiles=[0.5, 0.9, .95, .99, .999]).to_string())
+
+#%%
+
+x = [1,2,5] + list(np.logspace(np.log10(10), np.log10(30000), 20))
+
+cycler = iter(plt.rcParams['axes.prop_cycle'])
+fig, ax = plt.subplots(figsize=(4, 2))
+for doc, g in sorted(df.groupby('doc'), key=lambda x: ordering.index(x[0])):
+    surv = pandas.DataFrame(index=x)
+    surv['dist_to_mention'] = np.nan
+    surv['dist_to_ne'] = np.nan
+    for x_ in x:
+        surv.loc[x_] = (g[['dist_to_mention', 'dist_to_ne']] >= x_).mean()
+
+    surv = surv.replace(0, np.nan)
+
+    color = next(cycler)['color']
+    ax.plot(x, surv['dist_to_mention'], '-', label=doc_title[doc], alpha=0.8, lw=1.4, color=color)
+    ax.plot(x, surv['dist_to_ne'], '--', alpha=0.8, lw=1.4, color=color)
+
+ax.set_xscale('log')
+ax.set_yscale('log')
+ax.set_xlabel('Distance in Tokens')
+ax.set_ylabel('Survival probability')
+# ax.legend(frameon=False)
+def percent_format(x, pos=None):
+    if x > 0.01:
+        return f'{x * 100:.0f}%'
+    else:
+        return f'{x * 100:.3g}%'
+
+def tokencount_format(x, pos=None):
+    if x < 1000:
+        return f'{x:.0f}'
+    else:
+        return f'{x//1000:.0f}k'
+
+ax.xaxis.set_major_formatter(FuncFormatter(tokencount_format))
+ax.yaxis.set_major_formatter(FuncFormatter(percent_format))
+
+ax.legend(frameon=False)
+plt.tight_layout()
+plt.savefig('/tmp/jcls_figures/mention_distance.pdf')
+plt.show()
+
+
+#%%
+
