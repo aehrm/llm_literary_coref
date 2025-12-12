@@ -406,3 +406,73 @@ plt.show()
 
 #%%
 
+# IAA
+with open(Path(__file__).parent / 'annotations' / 'evaluation_reports' / 'iaa_report.json') as f:
+    iaa_report = json.load(f)
+
+#%%
+
+cluster_metrics = list(iaa_report['clusters_all'].keys())
+
+cluster_variants = {
+    "all": "full",
+    "replaceplural": "plurals replaced",
+    "nogeneric": "w/o generics",
+    "nosingletons": "w/o singletons",
+}
+
+
+cluster_table = pandas.DataFrame(index=['all', 'replaceplural', 'nogeneric', 'nosingletons'],
+                                 columns=['mentions', 'muc', 'bcub', 'ceafe', 'conll', 'ceafm', 'lea'])
+
+for variant in cluster_table.index:
+    report = iaa_report[f'clusters_{variant}']
+
+    for metric, scores in report.items():
+        cluster_table.loc[variant, metric] = scores['aggregated']['f1']
+
+cluster_table['conll'] = cluster_table[['muc', 'bcub', 'ceafe']].mean(axis=1)
+
+print(cluster_table.rename(cluster_variants).to_string(float_format=lambda x: f"{x*100:.2f}"))
+
+#%%
+
+entity_variants = {
+    "all": "full",
+    "nogroup": "w/o groups",
+    "nogroupnosingletons": "w/o groups, singletons",
+}
+
+entity_metrics = ['gender:m', 'gender:f', 'gender:u', 'gender:nb', 'gender:mf', 'generic', 'group', 'nonfact']
+
+entity_table = pandas.DataFrame(index=pandas.MultiIndex.from_product([['all', 'nogroup', 'nogroupnosingletons'], ['f1', 'count']]),
+                                 columns=entity_metrics)
+
+for variant in entity_table.index.levels[0]:
+    report = iaa_report[f'entity_attributes_{variant}_restrictonmatch']
+
+    for metric, scores in report.items():
+        counts = list(sorted([scores['aggregated']['support_key'], scores['aggregated']['support_response']]))
+        count_str = '+'.join(map(str, counts))
+
+        if sum(counts) > 0:
+            entity_table.loc[(variant, 'f1'), metric] = scores['aggregated']['f1']
+            entity_table.loc[(variant, 'count'), metric] = count_str
+
+print(entity_table.rename(cluster_variants).to_string(na_rep='--', float_format=lambda x: f"{x*100:.2f}"))
+
+#%%
+
+mention_metrics = ['part', 'figurative']
+mention_table = pandas.DataFrame(index=mention_metrics, columns=['f1', 'count'])
+for metric in mention_table.index:
+    scores = iaa_report['mention_attributes'][metric]['aggregated']
+    counts = list(sorted([scores['support_key'], scores['support_response']]))
+    count_str = '+'.join(map(str, counts))
+
+    if sum(counts) > 0:
+        mention_table.loc[metric, 'count'] = count_str
+        mention_table.loc[metric, 'f1'] = scores['f1']
+
+print(mention_table.to_string(na_rep='--', float_format=lambda x: f"{x*100:.2f}"))
+
