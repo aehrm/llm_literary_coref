@@ -14,7 +14,7 @@ from llm_literary_coref.util import make_generic_entity_factory, split_generics_
 
 logger = logging.getLogger(__name__)
 
-BASIC_MENTION_PROMPT = """
+EXTENDED_MENTION_PROMPT = """
 # Entitätsannotation in literarischen Texten
 
 ## Aufgabe
@@ -22,7 +22,7 @@ Annotiere JEDE markierte Entitäts-Erwähnung im Text. Für jede Erwähnung (jed
 
 ## Zentrales Konzept: Die Entität
 Eine **Entität** ist das konzeptionelle Ding, auf das im Text verwiesen wird. Für diese Aufgabe gibt es zwei Arten von Entitäten:
-1.  **Einzelfigur:** Ein einzelner menschlicher oder menschenähnlicher Charakter.
+1.  **Einzelfigur:** Ein einzelner menschlicher oder menschenähnlicher Charakter (dies schließt auch hypothetische Figuren mit ein).
 2.  **Gruppe als Einheit:** Eine Gruppe, die im Text als ein zusammenhängender Akteur handelt ODER als eine spezifische, aber nicht in ihre Mitglieder aufgelöste Menge von Personen erscheint (siehe "Fall 1" bei den Gruppenregeln).
 
 ## Input
@@ -45,16 +45,13 @@ Du erhältst:
     -   `group`: Gruppe, siehe unten.
     -   `generic`: Generische Entität, siehe unten.
     -   Falls keine dieser Attribute zutrifft, dann setze bei der ersten Nennung `"specialcase_entity": []`. Beachte, dass diese in der ersten Nennung angegebenen Attribute auch für alle folgenden Nennungen gelten müssen, da diese Attribute sich auf die Entität beziehen.
--   `specialcase_mention`: (**Array von Strings**, opt.) Sonderfälle, die die **Referenz auf die Entität** beschreiben.
-    -   `figurative`: Uneigentliche Rede (Metapher, Vergleich).
-    -   `part`: Es wird über ein Teil des Körpers auf die Figur referenziert (inklusive "Stimme", Umschreibung wie "Figur", "Gestalt", "Seele").
     
 ## Logik der Sonderfälle: Eine Entscheidungshierarchie
 
 **WICHTIG:** Gehe bei jeder Erwähnung diese Schritte in der angegebenen Reihenfolge durch. Annotiere gemäß der **ersten zutreffenden Regel** und ignoriere die folgenden für diese eine Erwähnung, außer es wird explizit anders angegeben (wie bei dualen Referenzen). Die korrekte Unterscheidung von spezifischen, nicht-faktischen und generischen Entitäten ist entscheidend.
 
 ### Schritt 1: Prüfung auf spezifische Referenz (Höchste Priorität)
-*Frage dich:* Kann diese Erwähnung auf eine **konkrete, bereits bekannte Figur** im Text zurückgeführt werden, selbst wenn ein allgemeiner Begriff (wie "der Mann", "der Schuldige") oder das Pronomen "man" verwendet wird?
+*Frage dich:* Kann diese Erwähnung auf eine **konkrete, bereits bekannte Figur** im Text zurückgeführt werden, selbst wenn ein allgemeiner Begriff (wie "der Mann", "der Schuldige"), ein Reflexivpronomen ("sich") oder das unpersönliche Pronomen "man" verwendet wird?
 -   **Typischer Fall:** Eine Figur spricht über sich selbst oder eine andere Figur in verallgemeinernder Weise.
 -   **Beispiel 1:** Hans reflektiert über seine eigene Schuld und sagt: "...zeigt sich **dem Schuldigen** wie eine strenge Richterin". Hier ist "dem Schuldigen" **keine** generische Entität, sondern eine Referenz auf `Hans`.
 -   **Beispiel 2:** Eine Figur sagt "wenn **man** glaubte...". Prüfe scharf, ob `man` hier nicht für "ich" (also die sprechende Figur) steht. 
@@ -79,7 +76,7 @@ Du erhältst:
 -   **Beispiel:** Gustav sagt zu Sophie: "**Ihr** unglücklichen **Weiber**! wie könnt **ihr** so thöricht seyn...".
 -   **Anweisung:** In diesem seltenen Fall soll die Erwähnung **mehrere Annotationsobjekte** im Array erhalten, da es sich um eine Gruppe von Fall 2 handelt: Eines für die generische Entität ("Weiber im Allgemeinen") und eines für jede spezifische Figur, die mitgemeint ist (hier: "Sophie").
 
-### Handhabung von Gruppen (leicht überarbeitet für Klarheit)
+### Handhabung von Gruppen
 
 **Fall 1: Gruppe als Einheit (Eine Annotation)**
 -   **Logik:** Erwähnungen im Plural, die sich auf eine **konkrete, aber anonyme oder nicht weiter aufgeschlüsselte Menge von Personen** in der Welt der Erzählung beziehen. Auch wenn die Mitglieder unbekannt sind, ist es eine spezifische Gruppe im Text. *Beispiele: "meine Freunde", "die Pächter", "die Wachen am Tor".*
@@ -103,31 +100,90 @@ Du erhältst:
 ## Beispiele
 
 **Beispiel-Text:**
-[Hans][1] und [Anna][2] saßen im Garten. [Er][3] nannte [sie][4] liebevoll seine [Sonne][5]. Anna wünschte sich eine [Tochter][6]. Hans meinte, ein [König][7] müsse stets gerecht sein. Später gingen [sie][8] gemeinsam ins Haus.
+[Hans][1] und [Anna][2] saßen im Garten. [Sie][3] wünschte [sich][4] eine [Tochter][5]. [Hans][6] stellte [sich][7] vor, dass ein [König][8] stets gerecht sein muss. Später gingen [sie][9] gemeinsam ins Haus.
 
 **Input B:**
 {{"ID": 1, "Position": 0, "Text": "Hans", "Annotation": []}}
 {{"ID": 2, "Position": 2, "Text": "Anna", "Annotation": []}}
-{{"ID": 3, "Position": 7, "Text": "Er", "Annotation": []}}
-{{"ID": 4, "Position": 9, "Text": "sie", "Annotation": []}}
-{{"ID": 5, "Position": 12, "Text": "Sonne", "Annotation": []}}
-{{"ID": 6, "Position": 18, "Text": "Tochter", "Annotation": []}}
-{{"ID": 7, "Position": 23, "Text": "König", "Annotation": []}}
-{{"ID": 8, "Position": 31, "Text": "sie", "Annotation": []}}
+{{"ID": 3, "Position": 7, "Text": "Sie", "Annotation": []}}
+{{"ID": 4, "Position": 9, "Text": "sich", "Annotation": []}}
+{{"ID": 5, "Position": 11, "Text": "Tochter", "Annotation": []}}
+{{"ID": 6, "Position": 14, "Text": "Hans", "Annotation": []}}
+{{"ID": 7, "Position": 16, "Text": "sich", "Annotation": []}}
+{{"ID": 8, "Position": 21, "Text": "König", "Annotation": []}}
+{{"ID": 9, "Position": 30, "Text": "sie", "Annotation": []}}
 
 **Erwartete Ausgabe:**
 {{"ID": 1, "Position": 0, "Text": "Hans", "Annotation": [{{"entity_id": "Hans", "gender": "m"}}]}}
 {{"ID": 2, "Position": 2, "Text": "Anna", "Annotation": [{{"entity_id": "Anna", "gender": "f"}}]}}
-{{"ID": 3, "Position": 7, "Text": "Er", "Annotation": [{{"entity_id": "Hans"}}]}}
-{{"ID": 4, "Position": 9, "Text": "sie", "Annotation": [{{"entity_id": "Anna"}}]}}
-{{"ID": 5, "Position": 12, "Text": "Sonne", "Annotation": [{{"entity_id": "Anna", "specialcase_mention": ["figurative"]}}]}}
-{{"ID": 6, "Position": 18, "Text": "Tochter", "Annotation": [{{"entity_id": "gewünschte Tochter", "gender": "f", "specialcase_entity": ["nonfact"]}}]}}
-{{"ID": 7, "Position": 23, "Text": "König", "Annotation": [{{"entity_id": "ein König im Allgemeinen", "gender": "m", "specialcase_entity": ["nonfact", "generic"]}}]}}
-{{"ID": 8, "Position": 31, "Text": "sie", "Annotation": [{{"entity_id": "Hans"}}, {{"entity_id": "Anna"}}]}}
+{{"ID": 3, "Position": 7, "Text": "Sie", "Annotation": [{{"entity_id": "Anna"}}]}}
+{{"ID": 4, "Position": 9, "Text": "sich", "Annotation": [{{"entity_id": "Anna"}}]}}
+{{"ID": 5, "Position": 11, "Text": "Tochter", "Annotation": [{{"entity_id": "gewünschte Tochter", "gender": "f", "specialcase_entity": ["nonfact"]}}]}}
+{{"ID": 6, "Position": 14, "Text": "Hans", "Annotation": [{{"entity_id": "Hans"}}]}}
+{{"ID": 7, "Position": 16, "Text": "sich", "Annotation": [{{"entity_id": "Hans"}}]}}
+{{"ID": 8, "Position": 21, "Text": "König", "Annotation": [{{"entity_id": "ein König im Allgemeinen", "gender": "m", "specialcase_entity": ["generic"]}}]}}
+{{"ID": 9, "Position": 30, "Text": "sie", "Annotation": [{{"entity_id": "Hans"}}, {{"entity_id": "Anna"}}]}}
 
 ---
 
 **Hier ist der zu annotierende Text:**
+Input A:
+{doc_formatted}
+
+Input B:
+{incomplete_response}
+"""
+
+DROC_MENTION_PROMPT = """
+# Figurenannotation in literarischen Texten
+
+## Aufgabe
+Annotiere alle markierten Figuren-Erwähnungen im Text mit einer eindeutigen, konsistenten Bezeichnung.
+
+## Input
+Du erhältst:
+1. Den vollständigen Text (A), in dem Figuren-Erwähnungen mit [eckigen Klammern][ID] markiert sind
+2. Eine Liste der zu annotierenden Erwähnungen (B) mit folgenden Feldern:
+   - "ID": Numerische ID der Erwähnung
+   - "Position": Position im Text (Token-Index)
+   - "Text": Wortlaut der Erwähnung
+   - "Annotation": Zu befüllendes Feld (aktuell leer)
+
+## Annotationsregeln
+1. Weise jeder Erwähnung GENAU EINE Figurenbezeichnung zu
+2. Verwende den Eigennamen (vorzugsweise Vornamen) der Figur, wenn im Text genannt
+3. Bei fehlenden Namen: Erstelle eine präzise, textnahe Umschreibung
+4. Bei mehreren Figuren: Trenne Bezeichnungen durch Komma (nicht "und")
+5. Bei unspezifischen Gruppen: Verwende eine passende Gruppenbezeichnung
+6. WICHTIG: Verwende für dieselbe Figur IMMER die gleiche Bezeichnung
+
+## Ausgabeformat
+- Gib NUR die aktualisierte Liste B zurück
+- Stelle sicher, dass wirklich jeder Eintrag der Liste B auch in der Ausgabe vorkommt
+- Ein JSON-Objekt pro Zeile (keine Liste, keine code fences)
+- Keine zusätzlichen Erklärungen oder Kommentare
+
+## Beispiel
+**Input A:**
+In der Frühe fragte [Madlen][1] [ihre][2] [Tochter][3], wie [Trudi][4] geschlafen hätte. [Sie][5] schlief noch.
+
+**Input B:**
+{{"ID": 1, "Position": 5, "Text": "Madlen", "Annotation": ""}}
+{{"ID": 2, "Position": 6, "Text": "ihre", "Annotation": ""}}
+{{"ID": 3, "Position": 7, "Text": "Tochter", "Annotation": ""}}
+{{"ID": 4, "Position": 10, "Text": "Trudi", "Annotation": ""}}
+{{"ID": 5, "Position": 15, "Text": "Sie", "Annotation": ""}}
+
+**Erwartete Ausgabe:**
+{{"ID": 1, "Position": 5, "Text": "Madlen", "Annotation": "Madlen"}}
+{{"ID": 2, "Position": 6, "Text": "ihre", "Annotation": "Madlen"}}
+{{"ID": 3, "Position": 7, "Text": "Tochter", "Annotation": "Trudi"}}
+{{"ID": 4, "Position": 10, "Text": "Trudi", "Annotation": "Trudi"}}
+{{"ID": 5, "Position": 15, "Text": "Sie", "Annotation": "Trudi"}}
+
+---
+
+**Hier ist der zu annotierende Text:**  
 Input A:
 {doc_formatted}
 
@@ -210,16 +266,15 @@ class MentionPrompt(Generic[T], Prompt[List[Mention]]):
         pass
 
 
-class BasicAnnotationReference(BaseModel):
+class ExtendedAnnotationReference(BaseModel):
     entity_id: str
     gender: Optional[Literal["m", "f", "nb", "o", "u", "mf"]] = None
     specialcase_entity: Optional[List[Literal["group", "generic", "nonfact", "possible_identity"]]] = None
-    specialcase_mention: Optional[List[Literal["figurative", "part"]]] = None
 
-BasicAnnotationObject = TypeAdapter(list[BasicAnnotationReference])
+ExtendedAnnotationObject = TypeAdapter(list[ExtendedAnnotationReference])
 
 
-class MentionPromptBasic(MentionPrompt[List[BasicAnnotationReference]]):
+class MentionPromptExtended(MentionPrompt[List[ExtendedAnnotationReference]]):
 
     entity_fields = ['gender', 'specialcase_entity']
 
@@ -228,9 +283,9 @@ class MentionPromptBasic(MentionPrompt[List[BasicAnnotationReference]]):
         self.entities = None
 
     def prompt_template(self, formatted_input: str, span_annotations: str) -> str:
-        return BASIC_MENTION_PROMPT.format(doc_formatted=formatted_input, incomplete_response=span_annotations)
+        return EXTENDED_MENTION_PROMPT.format(doc_formatted=formatted_input, incomplete_response=span_annotations)
 
-    def decode_annotations(self, parsed_output: List[Tuple[Mention, List[Tuple[Mention, BasicAnnotationObject]]]]) -> List[Mention]:
+    def decode_annotations(self, parsed_output: List[Tuple[Mention, List[Tuple[Mention, ExtendedAnnotationObject]]]]) -> List[Mention]:
         entities = self.get_entities(parsed_output)
         mentions = list(self.get_mentions(parsed_output, entities))
 
@@ -240,10 +295,10 @@ class MentionPromptBasic(MentionPrompt[List[BasicAnnotationReference]]):
 
         return mentions
 
-    def decode_annotation(self, annotation_raw: any) -> BasicAnnotationObject:
-        return BasicAnnotationObject.validate_python(annotation_raw)
+    def decode_annotation(self, annotation_raw: any) -> ExtendedAnnotationObject:
+        return ExtendedAnnotationObject.validate_python(annotation_raw)
 
-    def get_entities(self, llm_output: List[Tuple[Mention, BasicAnnotationObject]]) -> Dict[str, Entity]:
+    def get_entities(self, llm_output: List[Tuple[Mention, ExtendedAnnotationObject]]) -> Dict[str, Entity]:
         entities = {}
 
         all_entity_annotations = []
@@ -284,7 +339,7 @@ class MentionPromptBasic(MentionPrompt[List[BasicAnnotationReference]]):
 
         return entities
 
-    def get_mentions(self, llm_output: List[Tuple[Mention, BasicAnnotationObject]], entities: Dict[str, Entity]):
+    def get_mentions(self, llm_output: List[Tuple[Mention, ExtendedAnnotationObject]], entities: Dict[str, Entity]):
         for line in llm_output:
             mention, annotations = line
             references = []
@@ -293,7 +348,7 @@ class MentionPromptBasic(MentionPrompt[List[BasicAnnotationReference]]):
                 entity = entities[entity_id]
                 ref = Reference(
                     entity=entity,
-                    specialcase_reference=annotation.specialcase_mention or [],
+                    specialcase_reference=[],
                     borderline_reference=[],
                 )
                 references.append(ref)
@@ -302,3 +357,55 @@ class MentionPromptBasic(MentionPrompt[List[BasicAnnotationReference]]):
                 continue
 
             yield mention.with_references(references)
+
+
+class MentionPromptDROC(MentionPrompt[str]):
+
+    def __init__(self, tokens: pandas.Series, mention_spans: List[Mention]):
+        super().__init__(tokens, mention_spans)
+        self.entities = None
+
+    def prompt_template(self, formatted_input: str, span_annotations: str) -> str:
+        return DROC_MENTION_PROMPT.format(doc_formatted=formatted_input, incomplete_response=span_annotations)
+
+    def decode_annotations(self, parsed_output: List[Tuple[Mention, List[Tuple[Mention, str]]]]) -> List[Mention]:
+        entities = self.get_entities(parsed_output)
+        mentions = list(self.get_mentions(parsed_output, entities))
+
+        return mentions
+
+    def decode_annotation(self, annotation_raw: any) -> str:
+        return annotation_raw
+
+    def get_entities(self, llm_output: List[Tuple[Mention, str]]) -> Dict[str, Entity]:
+        entities = {}
+
+        entity_id_counter = 0
+        for mention, entity_name in llm_output:
+            if entity_name in entities.keys():
+                continue
+
+            new_entity = Entity(
+                id=(entity_id_counter := entity_id_counter + 1),
+                fullname=re.sub(r'[^\w\s]', '', entity_name),
+                gender='u',
+                specialcase_entity=[],
+                borderline_entity=[]
+            )
+
+            entities[entity_name] = new_entity
+
+
+        return entities
+
+    def get_mentions(self, llm_output: List[Tuple[Mention, str]], entities: Dict[str, Entity]):
+        for line in llm_output:
+            mention, entity_id = line
+            entity = entities[entity_id]
+            ref = Reference(
+                entity=entity,
+                specialcase_reference=[],
+                borderline_reference=[],
+            )
+
+            yield mention.with_references([ref])

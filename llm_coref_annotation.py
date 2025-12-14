@@ -11,12 +11,12 @@ from omegaconf import OmegaConf
 from llm_literary_coref.llm_annotator import LLMRunner
 from llm_literary_coref.mention import Mention
 from llm_literary_coref.openrouter import OPENROUTER_PROVIDER
-from llm_literary_coref.prompts.mention_prompts import MentionPromptBasic, MentionPrompt
+from llm_literary_coref.prompts.mention_prompts import MentionPromptExtended, MentionPrompt, MentionPromptDROC
 from llm_literary_coref.util import JSONEncoder, split_generics_into_singletons, make_generic_entity_factory
 
 PROMPT_REGISTRY: Dict[str, Type[MentionPrompt]] = {
-    "default": MentionPromptBasic,
-    # TODO droc
+    "default": MentionPromptExtended,
+    "droc": MentionPromptDROC,
 }
 
 def get_mention_spans(mentions: pd.Series) -> Iterator[Mention]:
