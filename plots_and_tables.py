@@ -12,6 +12,7 @@ import matplotlib
 from scipy.stats import linregress
 from tqdm import tqdm
 
+from llm_literary_coref.eval.evaluator import Evaluator
 from llm_literary_coref.mention import parse_mentions
 
 #%%
@@ -54,18 +55,20 @@ Path('/tmp/jcls_figures').mkdir(exist_ok=True)
 # load files
 
 try:
-    document_files = (Path(__file__).parent / "annotations" / "annotated_tsv").glob('*.tsv')
+    annotations_dir = Path(__file__).parent / "annotations"
 except NameError:
-    document_files = (Path('.') / "annotations" / "annotated_tsv").glob('*.tsv')
+    annotations_dir = Path('.') / "annotations"
+
+document_files = (annotations_dir / "annotated_tsv").glob('*.tsv')
 
 documents = {}
 document_mentions = {}
 document_entities = {}
 for doc in document_files:
-    gold = pandas.read_csv(doc, sep='\t', index_col='i', quoting=csv.QUOTE_NONE)['gold'].sort_index()
+    gold = pandas.read_csv(doc, sep='\t', index_col='i')['gold'].sort_index()
     mentions = list(parse_mentions(gold))
 
-    df = pandas.read_csv(doc.parent.parent / "sources" / doc.name, sep='\t', index_col='i', quoting=csv.QUOTE_NONE).sort_index()
+    df = pandas.read_csv(doc.parent.parent / "sources" / doc.name, sep='\t', index_col='i').sort_index()
     df['gold'] = gold
     documents[doc.stem] = df
     document_mentions[doc.stem] = mentions
@@ -459,7 +462,7 @@ for variant in entity_table.index.levels[0]:
             entity_table.loc[(variant, 'f1'), metric] = scores['aggregated']['f1']
             entity_table.loc[(variant, 'count'), metric] = count_str
 
-print(entity_table.rename(cluster_variants).to_string(na_rep='--', float_format=lambda x: f"{x*100:.2f}"))
+print(entity_table.rename(entity_variants).to_string(na_rep='--', float_format=lambda x: f"{x*100:.2f}"))
 
 #%%
 
@@ -476,3 +479,50 @@ for metric in mention_table.index:
 
 print(mention_table.to_string(na_rep='--', float_format=lambda x: f"{x*100:.2f}"))
 
+#%%
+
+# Difference to silver pre-annotation
+
+num_chapters = sum(doc_df['is_section_start'].sum() for doc_df in documents.values())
+
+scores = []
+with tqdm(total=num_chapters) as pbar:
+    for doc, doc_df in documents.items():
+        source_df = pandas.read_csv(annotations_dir / "sources" / (doc + '.tsv'), sep='\t')
+        pre_annotations = source_df['llm_pre_annotation']
+        chap_ids = source_df['is_section_start'].cumsum()
+        for chap_id, chap in doc_df.groupby(chap_ids):
+            gold_mentions = list(parse_mentions(chap['gold']))
+            pre_annotated_mentions = list(parse_mentions(pre_annotations.loc[chap.index]))
+
+            evaluator = Evaluator()
+            evaluator.add_document(key_mentions=gold_mentions, sys_mentions=pre_annotated_mentions)
+            report = evaluator.report(as_dict=True)
+            scores.append((doc, chap_id, report['clusters_replaceplural']))
+            pbar.update(1)
+
+
+#%%
+
+scores_df = pandas.DataFrame(
+    index=pandas.MultiIndex.from_tuples(x[:2] for x in scores),
+    columns=pandas.MultiIndex.from_product([['mentions', 'muc', 'bcub', 'ceafe', 'conll', 'ceafm', 'lea'], ['precision', 'recall', 'f1']]))
+for doc, chap_id, report in scores:
+    for (metric, t) in scores_df.columns:
+        if metric == 'conll': continue
+        scores_df.loc[(doc, chap_id), (metric, t)] = report[metric]['doc'][t]
+
+    scores_df.loc[(doc, chap_id), ('conll', 'f1')] = np.mean([report[m]['doc']['f1'] for m in ['muc', 'bcub', 'ceafe']])
+
+#%%
+
+aggregated_scores_df = scores_df.aggregate(['median', lambda x: x.quantile(0.25), lambda x: x.quantile(0.75)],
+                                           axis=0)
+aggregated_scores_df.index = ['median', '25%', '75%']
+aggregated_scores_df.loc['25%'] = aggregated_scores_df.loc['25%'] - aggregated_scores_df.loc['median']
+aggregated_scores_df.loc['75%'] = aggregated_scores_df.loc['75%'] - aggregated_scores_df.loc['median']
+aggregated_scores_df = aggregated_scores_df.T.unstack().reorder_levels([1, 0], axis=1)
+print(aggregated_scores_df)
+
+aggregated_scores_df = aggregated_scores_df.loc[['mentions', 'muc', 'bcub', 'ceafe', 'conll', 'ceafm', 'lea'], (['precision', 'recall', 'f1'])]
+print(aggregated_scores_df.to_string(na_rep='--', float_format=lambda x: f"{x*100:.2f}"))
