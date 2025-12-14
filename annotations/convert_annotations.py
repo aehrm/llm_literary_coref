@@ -387,6 +387,8 @@ def main():
 
     output_df = source_df.copy()
     output_df['gold'] = ''
+    if 'llm_pre_annotation' in output_df.columns:
+        output_df.drop('llm_pre_annotation', axis=1, inplace=True)
 
     for mention in mentions:
         for k in mention.token_idx:
@@ -395,7 +397,7 @@ def main():
                 output_df.loc[k, 'gold'] = output_df.loc[k, 'gold'] + str(mention)
 
     print(f"Saving output to {args.output_tsv}")
-    output_df.to_csv(args.output_tsv, sep='\t', quoting=3)
+    output_df.to_csv(args.output_tsv, sep='\t')
 
 
 if __name__ == "__main__":
