@@ -80375,7 +80375,7 @@ i	text	is_sent_start	is_para_start	is_section_start	tag	lemma	morph	gold
 80373	idealisirten	0	0	0	ADJA	idealisirt	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	
 80374	„	0	0	0	$(	-	Foreign=Yes|PunctType=Brck	
 80375	shams	0	0	0	NE	-	Foreign=Yes	
-80376	"	0	0	0	$(	"	PunctType=Brck	
+80376	""""	0	0	0	$(	""""	PunctType=Brck	
 80377	sein	0	0	0	VAINF	sein	VerbForm=Inf	
 80378	konnte	0	0	0	VMFIN	können	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|VerbType=Mod	
 80379	,	0	0	0	$,	,	PunctType=Comm	

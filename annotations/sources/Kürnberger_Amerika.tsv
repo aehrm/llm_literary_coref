@@ -46835,7 +46835,7 @@ i	text	is_sent_start	is_para_start	is_section_start	tag	lemma	morph	llm_pre_anno
 46833	Profession	0	0	0	NN	Profession	Case=Nom|Gender=Fem|Number=Sing	
 46834	ist	0	0	0	VAFIN	sein	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	
 46835	gleich	0	0	0	ADJD	gleich	Variant=Short	
-46836	Null	0	0	0	CARD		NumType=Card	
+46836	Null	0	0	0	CARD	"null"	NumType=Card	
 46837	hier	0	0	0	ADV	hier	_	
 46838	:	0	0	0	$.	:	PunctType=Peri	
 46839	das	0	0	0	ART	der	Case=Nom|Gender=Neut|Number=Sing|PronType=Art	
@@ -48876,7 +48876,7 @@ i	text	is_sent_start	is_para_start	is_section_start	tag	lemma	morph	llm_pre_anno
 48874	ich	0	0	0	PPER	ich	Case=Nom|Gender=*|Number=Sing|Person=1|PronType=Prs	(mention_id=5753|references=(entity=(entity_id=ch007 Westphale|fullname=ch007 Westphale|gender=u)))
 48875	aber	0	0	0	ADV	aber	_	
 48876	wurde	0	0	0	VAFIN	werden	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	
-48877	Null	0	0	0	CARD		NumType=Card	
+48877	Null	0	0	0	CARD	"null"	NumType=Card	
 48878	.	0	0	0	$.	.	PunctType=Peri	
 48879	Daß	1	0	0	KOUS	daß	_	
 48880	dich	0	0	0	PPER	dich	Case=Acc|Gender=*|Number=Sing|Person=1|PronType=Prs	(mention_id=5754|references=(entity=(entity_id=ch007 Westphale|fullname=ch007 Westphale|gender=u)))
@@ -78328,7 +78328,7 @@ i	text	is_sent_start	is_para_start	is_section_start	tag	lemma	morph	llm_pre_anno
 78326	sagen	0	0	0	VVFIN	sagen	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	
 78327	selbst	0	0	0	ADV	selbst	_	
 78328	der	0	0	0	ART	der	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	
-78329	Null	0	0	0	NN		NumType=Card	
+78329	Null	0	0	0	NN	"null"	NumType=Card	
 78330	,	0	0	0	$,	,	PunctType=Comm	
 78331	daß	0	0	0	KOUS	daß	_	
 78332	sie	0	0	0	PPER	sie	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	
@@ -80375,7 +80375,7 @@ i	text	is_sent_start	is_para_start	is_section_start	tag	lemma	morph	llm_pre_anno
 80373	idealisirten	0	0	0	ADJA	idealisirt	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	
 80374	„	0	0	0	$(	-	Foreign=Yes|PunctType=Brck	
 80375	shams	0	0	0	NE	-	Foreign=Yes	
-80376	"	0	0	0	$(	"	PunctType=Brck	
+80376	""""	0	0	0	$(	""""	PunctType=Brck	
 80377	sein	0	0	0	VAINF	sein	VerbForm=Inf	
 80378	konnte	0	0	0	VMFIN	können	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|VerbType=Mod	
 80379	,	0	0	0	$,	,	PunctType=Comm	
@@ -89845,7 +89845,7 @@ i	text	is_sent_start	is_para_start	is_section_start	tag	lemma	morph	llm_pre_anno
 89843	Saratoga	1	0	0	NE	Saratoga	Case=Nom|Gender=*|Number=Sing	
 89844	ist	0	0	0	VAFIN	sein	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	
 89845	eine	0	0	0	ART	ein	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	
-89846	Null	0	0	0	NN		NumType=Card	
+89846	Null	0	0	0	NN	"null"	NumType=Card	
 89847	,	0	0	0	$,	,	PunctType=Comm	
 89848	die	0	0	0	ART	der	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	
 89849	Umgränzung	0	0	0	NN	Umgränzung	Case=Nom|Gender=Fem|Number=Sing	

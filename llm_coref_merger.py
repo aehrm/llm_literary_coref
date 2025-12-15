@@ -17,16 +17,14 @@ from llm_literary_coref.util import JSONEncoder
 
 PROMPT_REGISTRY: Dict[str, Type[MergePrompt]] = {
     "default": BasicMergePrompt,
-    # TODO droc
 }
 
 
 def load_document(input_files: List[Path]) -> pd.DataFrame:
-    """Load and concatenate TSV files into a single DataFrame."""
     dfs = []
     for f in input_files:
         print(f"loading {f}")
-        df = pd.read_csv(f, sep="\t", index_col='i')
+        df = pd.read_csv(f, sep="\t", index_col='i', keep_default_na=False)
         df['is_section_start'] = 0
         df.loc[df.index[0], 'is_section_start'] = 1
         dfs.append(df)

@@ -17,7 +17,7 @@ def main():
 
     evaluator = Evaluator()
 
-    merged_doc_df = pandas.read_csv(args.pred_file, sep='\t', index_col='i')
+    merged_doc_df = pandas.read_csv(args.pred_file, sep='\t', index_col='i', keep_default_na=False)
     sys_mentions = list(parse_mentions(merged_doc_df['pred']))
     key_mentions = list(parse_mentions(merged_doc_df['gold']))
     evaluator.add_document(key_mentions=key_mentions, sys_mentions=sys_mentions)

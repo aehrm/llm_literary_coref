@@ -9753,7 +9753,7 @@ i	text	is_sent_start	is_para_start	is_section_start	tag	lemma	morph	llm_pre_anno
 9751	gerade	0	0	0	ADV	gerade	_	
 9752	nach	0	0	0	APPR	nach	AdpType=Prep	
 9753	dem	0	0	0	ART	der	Case=Dat|Gender=Masc|Number=Sing|PronType=Art	
-9754	Null	0	0	0	NN		NumType=Card	
+9754	Null	0	0	0	NN	"null"	NumType=Card	
 9755	gesagt	0	0	0	VVPP	sagen	Aspect=Perf|VerbForm=Part	
 9756	:	0	0	0	$.	:	PunctType=Peri	
 9757	›	0	0	0	$(	-	Foreign=Yes|PunctType=Brck	

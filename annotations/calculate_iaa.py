@@ -10,7 +10,7 @@ from llm_literary_coref.mention import Mention, parse_mentions
 
 
 def load_annotations(path):
-    df = pandas.read_csv(path, sep='\t', index_col='i')
+    df = pandas.read_csv(path, sep='\t', index_col='i', keep_default_na=False)
     yield from parse_mentions(df['gold'])
 
 def main():

@@ -382,7 +382,7 @@ def main():
     elif args.annotation_xmi:
         print(f"Mode: Single file processing\nSource: {args.source_tsv}\nXMI: {args.annotation_xmi}")
 
-        source_df = pandas.read_csv(args.source_tsv, sep='\t')
+        source_df = pandas.read_csv(args.source_tsv, sep='\t', keep_default_na=False)
         mentions = convert_xmi_annotations(args.annotation_xmi, tokens=source_df['text'])
 
     output_df = source_df.copy()
