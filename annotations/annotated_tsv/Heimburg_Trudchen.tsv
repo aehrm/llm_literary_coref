@@ -1392,21 +1392,21 @@ i	text	is_sent_start	is_para_start	is_section_start	tag	lemma	morph	gold
 1390	da	0	0	0	ADV	da	_	
 1391	sind	0	0	0	VAFIN	sein	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	
 1392	die	0	0	0	ART	der	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	
-1393	Tubmanns	0	0	0	NN	Tubmann	Case=Nom|Gender=Masc|Number=Plur	(mention_id=161|references=(entity=(entity_id=entity_0051|fullname=Familie Tubmann|gender=fm|specialcase_entity=group)))
+1393	Tubmanns	0	0	0	NN	Tubmann	Case=Nom|Gender=Masc|Number=Plur	(mention_id=161|references=(entity=(entity_id=entity_0051|fullname=Familie Tubmann|gender=mf|specialcase_entity=group)))
 1394	,	0	0	0	$,	,	PunctType=Comm	
 1395	die	0	0	0	PRELS	der	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	
-1396	Schenks	0	0	0	NE	Schenk	Case=Nom|Gender=Masc|Number=Plur	(mention_id=162|references=(entity=(entity_id=entity_0049|fullname=Familie Schenk|gender=fm|specialcase_entity=group)))
+1396	Schenks	0	0	0	NE	Schenk	Case=Nom|Gender=Masc|Number=Plur	(mention_id=162|references=(entity=(entity_id=entity_0049|fullname=Familie Schenk|gender=mf|specialcase_entity=group)))
 1397	,	0	0	0	$,	,	PunctType=Comm	
 1398	die	0	0	0	PRELS	der	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	
-1399	Meiers	0	0	0	NE	Meier	Case=Gen|Gender=*|Number=Sing	(mention_id=163|references=(entity=(entity_id=entity_0050|fullname=Familie Meier|gender=fm|specialcase_entity=group)))
+1399	Meiers	0	0	0	NE	Meier	Case=Gen|Gender=*|Number=Sing	(mention_id=163|references=(entity=(entity_id=entity_0050|fullname=Familie Meier|gender=mf|specialcase_entity=group)))
 1400	und	0	0	0	KON	und	_	
-1401	Hellborns	0	0	0	NE	Hellborn	Case=Gen|Gender=Neut|Number=Sing	(mention_id=164|references=(entity=(entity_id=entity_0048|fullname=Familie Hellborn|gender=fm|specialcase_entity=group)))
+1401	Hellborns	0	0	0	NE	Hellborn	Case=Gen|Gender=Neut|Number=Sing	(mention_id=164|references=(entity=(entity_id=entity_0048|fullname=Familie Hellborn|gender=mf|specialcase_entity=group)))
 1402	,	0	0	0	$,	,	PunctType=Comm	
 1403	und	0	0	0	KON	und	_	
 1404	vor	0	0	0	APPR	vor	AdpType=Prep	
 1405	allem	0	0	0	PIS	alle	Case=Dat|Gender=Neut|Number=Sing|PronType=Ind,Neg,Tot	
 1406	die	0	0	0	ART	der	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	
-1407	Baumhagens	0	0	0	NN	Baumhagen	Case=Nom|Gender=Masc|Number=Plur	(mention_id=165|references=(entity=(entity_id=entity_0047|fullname=Familie Baumhagen|gender=fm)))
+1407	Baumhagens	0	0	0	NN	Baumhagen	Case=Nom|Gender=Masc|Number=Plur	(mention_id=165|references=(entity=(entity_id=entity_0047|fullname=Familie Baumhagen|gender=u)))
 1408	.	0	0	0	$.	.	PunctType=Peri	
 1409	Reiche	1	0	0	ADJA	reich	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur	
 1410	und	0	0	0	KON	und	_	
@@ -11656,11 +11656,11 @@ i	text	is_sent_start	is_para_start	is_section_start	tag	lemma	morph	gold
 11654	Es	1	0	0	PPER	es	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	
 11655	sind	0	0	0	VAFIN	sein	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	
 11656	einfache	0	0	0	ADJA	einfach	Case=Nom|Degree=Pos|Gender=*|Number=Plur	
-11657	Leute	0	0	0	NN	Leute	Case=Nom|Gender=*|Number=Plur	(mention_id=1535|references=(entity=(entity_id=entity_0099|fullname=Johanne und ihre Familie|gender=mf)))
+11657	Leute	0	0	0	NN	Leute	Case=Nom|Gender=*|Number=Plur	(mention_id=1535|references=(entity=(entity_id=entity_0099|fullname=Johanne und ihre Familie|gender=u)))
 11658	,	0	0	0	$,	,	PunctType=Comm	
 11659	man	0	0	0	PIS	man	Case=Nom|Gender=*|Number=Sing|PronType=Ind,Neg,Tot	
 11660	kann	0	0	0	VMFIN	können	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Mod	
-11661	sie	0	0	0	PPER	sie	Case=Acc|Gender=*|Number=Plur|Person=3|PronType=Prs	(mention_id=1536|references=(entity=(entity_id=entity_0099|fullname=Johanne und ihre Familie|gender=mf)))
+11661	sie	0	0	0	PPER	sie	Case=Acc|Gender=*|Number=Plur|Person=3|PronType=Prs	(mention_id=1536|references=(entity=(entity_id=entity_0099|fullname=Johanne und ihre Familie|gender=u)))
 11662	zu	0	0	0	APPR	zu	AdpType=Prep	
 11663	leicht	0	0	0	ADJD	leicht	Degree=Pos|Variant=Short	
 11664	verwöhnen	0	0	0	VVINF	verwöhnen	VerbForm=Inf	
@@ -26624,10 +26624,10 @@ i	text	is_sent_start	is_para_start	is_section_start	tag	lemma	morph	gold
 26622	lobe	0	0	0	VVFIN	loben	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	
 26623	mir	0	0	0	PRF	sich	Case=Dat|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	(mention_id=3776|references=(entity=(entity_id=entity_0008|fullname=Onkel Heinrich|gender=m)))
 26624	unsere	0	0	0	PPOSAT	unser	Case=Acc|Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	(mention_id=3777|references=(entity=(entity_id=entity_0008|fullname=Onkel Heinrich|gender=m)),(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
-26625	Voreltern	0	0	0	NN	Vorelter	Case=Acc|Gender=Masc|Number=Plur	(mention_id=3778|references=(entity=(entity_id=entity_0194|fullname=Voreltern|gender=mf)))
+26625	Voreltern	0	0	0	NN	Vorelter	Case=Acc|Gender=Masc|Number=Plur	(mention_id=3778|references=(entity=(entity_id=entity_0194|fullname=Voreltern|gender=u)))
 26626	,	0	0	0	$,	,	PunctType=Comm	
-26627	die	0	0	0	PRELS	der	Case=Nom|Gender=Masc|Number=Plur|PronType=Rel	(mention_id=3779|references=(entity=(entity_id=entity_0194|fullname=Voreltern|gender=mf)))
-26628	ihren	0	0	0	PPOSAT	ihr	Case=Acc|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	(mention_id=3780|references=(entity=(entity_id=entity_0194|fullname=Voreltern|gender=mf)))
+26627	die	0	0	0	PRELS	der	Case=Nom|Gender=Masc|Number=Plur|PronType=Rel	(mention_id=3779|references=(entity=(entity_id=entity_0194|fullname=Voreltern|gender=u)))
+26628	ihren	0	0	0	PPOSAT	ihr	Case=Acc|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	(mention_id=3780|references=(entity=(entity_id=entity_0194|fullname=Voreltern|gender=u)))
 26629	Leichenschmaus	0	0	0	NN	Leichenschmaus	Case=Acc|Gender=Masc|Number=Sing	
 26630	hielten	0	0	0	VVFIN	halten	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	
 26631	.	0	0	0	$.	.	PunctType=Peri	
@@ -41147,7 +41147,7 @@ i	text	is_sent_start	is_para_start	is_section_start	tag	lemma	morph	gold
 41145	:	0	0	0	$.	:	PunctType=Peri	
 41146	»	0	0	0	$(	»	AdpType=Prep|PunctType=Brck	
 41147	Wohl	0	0	0	ADV	wohl	_	
-41148	dem	0	0	0	PDS	der	Case=Dat|Gender=Neut|Number=Sing|PronType=Dem	(mention_id=5888|references=(entity=(entity_id=entity_0253|fullname=Elternteil|gender=mf)))
+41148	dem	0	0	0	PDS	der	Case=Dat|Gender=Neut|Number=Sing|PronType=Dem	(mention_id=5888|references=(entity=(entity_id=entity_0253|fullname=Elternteil|gender=u)))
 41149	,	0	0	0	$,	,	PunctType=Comm	
 41150	der	0	0	0	PRELS	der	Case=Dat|Gender=Fem|Number=Sing|PronType=Art	
 41151	Freude	0	0	0	NN	Freude	Case=Dat|Gender=Fem|Number=Sing	

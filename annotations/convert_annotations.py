@@ -78,11 +78,19 @@ def read_entity_table(entity_table: pandas.DataFrame) -> Dict[int, Dict[str, Ent
             print(f'warn: entity with name {fullname!r} contains pipe character; replacing with whitespace in fullname')
             fullname = fullname.replace('|', ' ')
 
+        gender = row['gender']
+        if gender == 'fm':
+            gender = 'mf'
+
+        if gender == 'mf' and not is_group:
+            print(f"warn: entity with name {fullname!r} is not a group but has gender 'mf'; replacing with 'u'")
+            gender = 'u'
+
 
         e = Entity(
             id=row['ID_general'],
             fullname=row['fullname'],
-            gender=row['gender'],
+            gender=gender,
             possible_identity_with=None if pandas.isna(possible_identity) else possible_identity,
             members=members if is_group else None,
             all_members_given=all_members_given if is_group else None,
@@ -161,7 +169,9 @@ def gather_entities(xmi: Element) -> Dict[str, Entity]:
             attribs['specialcase_entity'].append('generic')
             attribs['specialcase_mention'].remove('generic')
 
-        if len(attribs['gender']) == 0 and 'generic' not in attribs['specialcase_entity']:
+        is_generic = 'generic' in attribs['specialcase_entity']
+
+        if len(attribs['gender']) == 0 and is_generic:
             print(f'warn: no gender specified for entity with fullname {entity_id}')
 
         if '|' in entity_id:
@@ -169,7 +179,7 @@ def gather_entities(xmi: Element) -> Dict[str, Entity]:
 
         i = i + 1
         entities[entity_id] = Entity(id=f'figur_{i:04d}',
-             gender=attribs['gender'][0] if len(attribs['gender']) > 0 else 'u',
+             gender=attribs['gender'][0] if len(attribs['gender']) > 0 and not is_generic else 'u',
              possible_identity_with=attribs['possible_identity_with'][0] if len(attribs['possible_identity_with']) > 0 else None,
              members=members if 'group' in attribs['specialcase_entity'] else None,
              all_members_given=all_members_given if 'group' in attribs['specialcase_entity'] else None,

@@ -54767,14 +54767,14 @@ i	text	is_sent_start	is_para_start	is_section_start	tag	lemma	morph	gold
 54765	waren	0	0	0	VAFIN	sein	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	
 54766	.	0	0	0	$.	.	PunctType=Peri	
 54767	Junge	1	0	0	ADJA	jung	Case=Nom|Degree=Pos|Gender=*|Number=Plur	
-54768	Eheleute	0	0	0	NN	Eheleute	Case=Nom|Gender=*|Number=Plur	(mention_id=7144|references=(entity=(entity_id=entity_0287|fullname=junge Eheleute|gender=fm|specialcase_entity=group)))
+54768	Eheleute	0	0	0	NN	Eheleute	Case=Nom|Gender=*|Number=Plur	(mention_id=7144|references=(entity=(entity_id=entity_0287|fullname=junge Eheleute|gender=mf|specialcase_entity=group)))
 54769	sollten	0	0	0	VMFIN	sollen	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|VerbType=Mod	
 54770	reisen	0	0	0	VVINF	reisen	VerbForm=Inf	
 54771	,	0	0	0	$,	,	PunctType=Comm	
 54772	weil	0	0	0	KOUS	weil	_	
 54773	das	0	0	0	PDS	der	Case=Nom|Gender=Neut|Number=Sing|PronType=Art	
 54774	Haushalten	0	0	0	NN	haushalten	Case=Nom|Gender=Neut|Number=Sing	
-54775	sie	0	0	0	PPER	sie	Case=Acc|Gender=*|Number=*|Person=3|PronType=Prs	(mention_id=7145|references=(entity=(entity_id=entity_0287|fullname=junge Eheleute|gender=fm|specialcase_entity=group)))
+54775	sie	0	0	0	PPER	sie	Case=Acc|Gender=*|Number=*|Person=3|PronType=Prs	(mention_id=7145|references=(entity=(entity_id=entity_0287|fullname=junge Eheleute|gender=mf|specialcase_entity=group)))
 54776	gar	0	0	0	ADV	gar	_	
 54777	nicht	0	0	0	PTKNEG	nicht	Polarity=Neg	
 54778	kleide	0	0	0	VVFIN	kleiden	Mood=Subj|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	
