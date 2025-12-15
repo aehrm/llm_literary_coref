@@ -86,7 +86,7 @@ class Entity:
         return Entity(
             id=data['entity_id'],
             fullname=data['fullname'],
-            gender=data['gender'],
+            gender=data.get('gender', 'u'),
             specialcase_entity=parse_list('specialcase_entity') or [],
             borderline_entity=parse_list('borderline_entity') or [],
             possible_identity_with=data.get('possible_identity_with', None),
