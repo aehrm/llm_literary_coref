@@ -1,0 +1,1336 @@
+i	token	gold	pred
+0	Gott	(mention_id=174|references=(entity=(entity_id=Gott|fullname=Gott)))	(mention_id=174|references=(entity=(entity_id=1|fullname=Gott|gender=u)))
+1	sei		
+2	gedankt		
+3	!		
+4	Gott	(mention_id=175|references=(entity=(entity_id=Gott|fullname=Gott)))	(mention_id=175|references=(entity=(entity_id=1|fullname=Gott|gender=u)))
+5	sei		
+6	gedankt		
+7	!		
+8	Unten		
+9	in		
+10	der		
+11	Scheune		
+12	gab's		
+13	ein		
+14	frisches		
+15	Rumoren		
+16	.		
+17	Das		
+18	Rüstzeug		
+19	für		
+20	die		
+21	Frühlingsarbeiten		
+22	wurde		
+23	hervorgesucht		
+24	,		
+25	geprüft		
+26	,		
+27	ausgebessert		
+28	.		
+29	Dann		
+30	standen		
+31	die		
+32	Fenster		
+33	des		
+34	Hauses		
+35	weit		
+36	geöffnet		
+37	,		
+38	und		
+39	die		
+40	Frühlingssonne		
+41	schien		
+42	hinein		
+43	.		
+44	Die		
+45	Wintersaat		
+46	war		
+47	in		
+48	kürzester		
+49	Zeit		
+50	hoch		
+51	im		
+52	Halm		
+53	.		
+54	Die		
+55	Ochsen		
+56	wurden		
+57	eingeschirrt		
+58	und		
+59	zogen		
+60	hinaus		
+61	aufs		
+62	Feld		
+63	.		
+64	Jauchzende		
+65	Lerchen		
+66	stiegen		
+67	von		
+68	der		
+69	braunen		
+70	Erde		
+71	auf		
+72	.		
+73	Hendrik	(mention_id=128|references=(entity=(entity_id=Hendrik_Ösz|fullname=Hendrik_Ösz)))	(mention_id=128|references=(entity=(entity_id=2|fullname=Hendrik|gender=u)))
+74	sattelte		
+75	Kincs		
+76	und		
+77	ritt		
+78	in		
+79	die		
+80	Weinberge		
+81	hinaus		
+82	.		
+83	Manchmal		
+84	folgte		
+85	ihm	(mention_id=0|references=(entity=(entity_id=Hendrik_Ösz|fullname=Hendrik_Ösz)))	(mention_id=0|references=(entity=(entity_id=2|fullname=Hendrik|gender=u)))
+86	Tralgoth	(mention_id=129|references=(entity=(entity_id=Tralgoth_Emmerich_Vater von Bela|fullname=Tralgoth_Emmerich_Vater von Bela)))	(mention_id=129|references=(entity=(entity_id=3|fullname=Tralgoth|gender=u)))
+87	,		
+88	manchmal		
+89	hielten		
+90	ihn	(mention_id=1|references=(entity=(entity_id=Hendrik_Ösz|fullname=Hendrik_Ösz)))	(mention_id=1|references=(entity=(entity_id=3|fullname=Tralgoth|gender=u)))
+91	Geschäfte		
+92	im		
+93	Hause		
+94	fest		
+95	.		
+96	Dann		
+97	war		
+98	er	(mention_id=2|references=(entity=(entity_id=Hendrik_Ösz|fullname=Hendrik_Ösz)))	(mention_id=2|references=(entity=(entity_id=3|fullname=Tralgoth|gender=u)))
+99	fast		
+100	der		
+101	einzige		
+102	daheim		
+103	.		
+104	Bela	(mention_id=130|references=(entity=(entity_id=Bela_Sohn von Kyrilla|fullname=Bela_Sohn von Kyrilla)))	(mention_id=130|references=(entity=(entity_id=4|fullname=Bela|gender=u)))
+105	war		
+106	in		
+107	der		
+108	Schule		
+109	,		
+110	Kyrilla	(mention_id=131|references=(entity=(entity_id=Kyrilla|fullname=Kyrilla)))	(mention_id=131|references=(entity=(entity_id=5|fullname=Kyrilla|gender=u)))
+111	hatte		
+112	Besorgungen		
+113	in		
+114	der		
+115	Stadt		
+116	und		
+117	richtete		
+118	sich	(mention_id=113|references=(entity=(entity_id=Kyrilla|fullname=Kyrilla)))	(mention_id=113|references=(entity=(entity_id=5|fullname=Kyrilla|gender=u)))
+119	so		
+120	ein		
+121	,		
+122	daß		
+123	sie	(mention_id=3|references=(entity=(entity_id=Kyrilla|fullname=Kyrilla)))	(mention_id=3|references=(entity=(entity_id=5|fullname=Kyrilla|gender=u)))
+124	ihren	(mention_id=90|references=(entity=(entity_id=Kyrilla|fullname=Kyrilla)))	(mention_id=90|references=(entity=(entity_id=5|fullname=Kyrilla|gender=u)))
+125	Jungen	(mention_id=132|references=(entity=(entity_id=Bela_Sohn von Kyrilla|fullname=Bela_Sohn von Kyrilla)))	(mention_id=132|references=(entity=(entity_id=4|fullname=Bela|gender=u)))
+126	erwarten		
+127	und		
+128	mit		
+129	ihm	(mention_id=4|references=(entity=(entity_id=Bela_Sohn von Kyrilla|fullname=Bela_Sohn von Kyrilla)))	(mention_id=4|references=(entity=(entity_id=4|fullname=Bela|gender=u)))
+130	nach		
+131	Hause		
+132	gehen		
+133	konnte		
+134	.		
+135	Dann		
+136	machten		
+137	sie	(mention_id=5|references=(entity=(entity_id=Kyrilla_Bela|fullname=Kyrilla_Bela)))	(mention_id=5|references=(entity=(entity_id=6|fullname=Kyrilla Bela|gender=u)))
+138	wohl		
+139	einen		
+140	Umweg		
+141	und		
+142	ließen		
+143	sich	(mention_id=114|references=(entity=(entity_id=Kyrilla_Bela|fullname=Kyrilla_Bela)))	(mention_id=114|references=(entity=(entity_id=6|fullname=Kyrilla Bela|gender=u)))
+144	am		
+145	Steinbruch		
+146	nieder		
+147	.		
+148	Unten		
+149	im		
+150	Kessel		
+151	hatten		
+152	die		
+153	Arbeiten		
+154	wieder		
+155	begonnen		
+156	,		
+157	und		
+158	Bela	(mention_id=133|references=(entity=(entity_id=Bela_Sohn von Kyrilla|fullname=Bela_Sohn von Kyrilla)))	(mention_id=133|references=(entity=(entity_id=4|fullname=Bela|gender=u)))
+159	interessierte		
+160	es		
+161	,		
+162	den		
+163	auf		
+164	Leitern		
+165	stehenden		
+166	Steinklopfern	(mention_id=176|references=(entity=(entity_id=Steinklopfern|fullname=Steinklopfern)))	(mention_id=176|references=(entity=(entity_id=7|fullname=Steinklopfer|gender=u)))
+167	zuzusehen		
+168	.		
+169	Ertönte		
+170	dann		
+171	Hufschlag		
+172	,		
+173	so		
+174	wurden		
+175	Mutter	(mention_id=134|references=(entity=(entity_id=Kyrilla|fullname=Kyrilla)))	(mention_id=134|references=(entity=(entity_id=5|fullname=Kyrilla|gender=u)))
+176	und		
+177	Sohn	(mention_id=135|references=(entity=(entity_id=Bela_Sohn von Kyrilla|fullname=Bela_Sohn von Kyrilla)))	(mention_id=135|references=(entity=(entity_id=4|fullname=Bela|gender=u)))
+178	rot		
+179	.		
+180	Der		
+181	letztere	(mention_id=177|references=(entity=(entity_id=Bela_Sohn von Kyrilla|fullname=Bela_Sohn von Kyrilla)))	(mention_id=177|references=(entity=(entity_id=4|fullname=Bela|gender=u)))
+182	wollte		
+183	auf		
+184	die		
+185	Straße		
+186	hinausstürzen		
+187	;		
+188	Kyrilla	(mention_id=136|references=(entity=(entity_id=Kyrilla|fullname=Kyrilla)))	(mention_id=136|references=(entity=(entity_id=5|fullname=Kyrilla|gender=u)))
+189	erfaßte		
+190	ihn	(mention_id=6|references=(entity=(entity_id=Bela_Sohn von Kyrilla|fullname=Bela_Sohn von Kyrilla)))	(mention_id=6|references=(entity=(entity_id=4|fullname=Bela|gender=u)))
+191	immer		
+192	noch		
+193	rechtzeitig		
+194	und		
+195	hielt		
+196	ihn	(mention_id=7|references=(entity=(entity_id=Bela_Sohn von Kyrilla|fullname=Bela_Sohn von Kyrilla)))	(mention_id=7|references=(entity=(entity_id=4|fullname=Bela|gender=u)))
+197	fest		
+198	.		
+199	–		
+200	Die		
+201	Leute	(mention_id=178|references=(entity=(entity_id=Die _Leute_|fullname=Die _Leute_)))	(mention_id=178|references=(entity=(entity_id=8|fullname=Leute|gender=u)))
+202	prophezeiten		
+203	einen		
+204	heißen		
+205	Sommer		
+206	.		
+207	Schon		
+208	jetzt		
+209	im		
+210	April		
+211	brannte		
+212	die		
+213	Sonne		
+214	mit		
+215	ungewöhnlicher		
+216	Kraft		
+217	nieder		
+218	.		
+219	Die		
+220	Bäume		
+221	im		
+222	Garten		
+223	hatten		
+224	ihr		
+225	reichstes		
+226	Blütenkleid		
+227	angelegt		
+228	.		
+229	Auf		
+230	den		
+231	Feldern		
+232	und		
+233	Wiesen		
+234	schimmerte		
+235	es		
+236	buntfarbig		
+237	.		
+238	Die		
+239	Arbeiten		
+240	,		
+241	die		
+242	infolge		
+243	der		
+244	heißen		
+245	Witterung		
+246	beschleunigt		
+247	werden		
+248	mußten		
+249	,		
+250	führten		
+251	zeitweilige		
+252	längere		
+253	Trennungen		
+254	zwischen		
+255	den		
+256	Bewohnern	(mention_id=181|references=(entity=(entity_id=Bewohner des Tralgothhofes|fullname=Bewohner des Tralgothhofes)))	(mention_id=181|references=(entity=(entity_id=9|fullname=Bewohner des Tralgothhofes|gender=u)))
+257	des		
+258	Tralgothhofes		
+259	herbei		
+260	.		
+261	Ösz	(mention_id=137|references=(entity=(entity_id=Hendrik_Ösz|fullname=Hendrik_Ösz)))	(mention_id=137|references=(entity=(entity_id=10|fullname=Ösz|gender=u)))
+262	blieb		
+263	tagelang		
+264	in		
+265	den		
+266	Weingärten		
+267	draußen		
+268	,		
+269	Emmerich	(mention_id=138|references=(entity=(entity_id=Tralgoth_Emmerich_Vater von Bela|fullname=Tralgoth_Emmerich_Vater von Bela)))	(mention_id=138|references=(entity=(entity_id=11|fullname=Emmerich|gender=u)))
+270	kehrte		
+271	spät		
+272	abends		
+273	von		
+274	seinen	(mention_id=91|references=(entity=(entity_id=Tralgoth_Emmerich_Vater von Bela|fullname=Tralgoth_Emmerich_Vater von Bela)))	(mention_id=91|references=(entity=(entity_id=11|fullname=Emmerich|gender=u)))
+275	Feldern		
+276	heim		
+277	.		
+278	Fanden		
+279	sie	(mention_id=8|references=(entity=(entity_id=Ösz_Emmerich|fullname=Ösz_Emmerich)))	(mention_id=8|references=(entity=(entity_id=12|fullname=Ösz Emmerich|gender=u)))
+280	sich	(mention_id=115|references=(entity=(entity_id=Ösz_Emmerich|fullname=Ösz_Emmerich)))	(mention_id=115|references=(entity=(entity_id=12|fullname=Ösz Emmerich|gender=u)))
+281	wieder		
+282	zu		
+283	Hause		
+284	zusammen		
+285	,		
+286	so		
+287	fielen		
+288	nur		
+289	kurze		
+290	geschäftliche		
+291	Bemerkungen		
+292	zwischen		
+293	ihnen	(mention_id=9|references=(entity=(entity_id=Ösz_Emmerich|fullname=Ösz_Emmerich)))	(mention_id=9|references=(entity=(entity_id=12|fullname=Ösz Emmerich|gender=u)))
+294	.		
+295	Jeder	(mention_id=182|references=(entity=(entity_id=Ösz_Emmerich|fullname=Ösz_Emmerich)))	(mention_id=182|references=(entity=(entity_id=12|fullname=Ösz Emmerich|gender=u)))
+296	schien		
+297	froh		
+298	zu		
+299	sein		
+300	,		
+301	so		
+302	wenig		
+303	als		
+304	möglich		
+305	mit		
+306	dem		
+307	andern	(mention_id=183|references=(entity=(entity_id=Ösz_Emmerich|fullname=Ösz_Emmerich)))	(mention_id=183|references=(entity=(entity_id=12|fullname=Ösz Emmerich|gender=u)))
+308	zu		
+309	thun		
+310	zu		
+311	haben		
+312	.		
+313	Eines		
+314	Spätnachmittags		
+315	verließ		
+316	Bela	(mention_id=139|references=(entity=(entity_id=Bela_Sohn von Kyrilla|fullname=Bela_Sohn von Kyrilla)))	(mention_id=139|references=(entity=(entity_id=4|fullname=Bela|gender=u)))
+317	die		
+318	Schule		
+319	.		
+320	Die		
+321	Mutter	(mention_id=140|references=(entity=(entity_id=Kyrilla|fullname=Kyrilla)))	(mention_id=140|references=(entity=(entity_id=5|fullname=Kyrilla|gender=u)))
+322	erwartete		
+323	ihn	(mention_id=10|references=(entity=(entity_id=Bela_Sohn von Kyrilla|fullname=Bela_Sohn von Kyrilla)))	(mention_id=10|references=(entity=(entity_id=4|fullname=Bela|gender=u)))
+324	vor		
+325	dem		
+326	Ausgang		
+327	.		
+328	Der		
+329	Himmel		
+330	war		
+331	voll		
+332	rosig		
+333	angehauchter		
+334	Wolken		
+335	,		
+336	die		
+337	wie		
+338	ein		
+339	brennendes		
+340	Gebirge		
+341	die		
+342	Ebene		
+343	einfaßten		
+344	.		
+345	»		
+346	Noch		
+347	nicht		
+348	nach		
+349	Hause		
+350	gehen		
+351	,		
+352	«		
+353	bat		
+354	Bela	(mention_id=141|references=(entity=(entity_id=Bela_Sohn von Kyrilla|fullname=Bela_Sohn von Kyrilla)))	(mention_id=141|references=(entity=(entity_id=4|fullname=Bela|gender=u)))
+355	.		
+356	»		
+357	Spiel'		
+358	doch		
+359	im		
+360	Garten		
+361	,		
+362	«		
+363	meinte		
+364	Kyrilla	(mention_id=142|references=(entity=(entity_id=Kyrilla|fullname=Kyrilla)))	(mention_id=142|references=(entity=(entity_id=5|fullname=Kyrilla|gender=u)))
+365	.		
+366	»		
+367	Da		
+368	kann		
+369	ich	(mention_id=11|references=(entity=(entity_id=Bela_Sohn von Kyrilla|fullname=Bela_Sohn von Kyrilla)))	(mention_id=11|references=(entity=(entity_id=4|fullname=Bela|gender=u)))
+370	mich	(mention_id=116|references=(entity=(entity_id=Bela_Sohn von Kyrilla|fullname=Bela_Sohn von Kyrilla)))	(mention_id=116|references=(entity=(entity_id=4|fullname=Bela|gender=u)))
+371	nicht		
+372	rühren		
+373	.		
+374	Sie	(mention_id=12|references=(entity=(entity_id=Steinklopfern|fullname=Steinklopfern)))	(mention_id=12|references=(entity=(entity_id=13|fullname=Gärtner|gender=u)))
+375	bestreuen		
+376	die		
+377	Wege		
+378	mit		
+379	Kies		
+380	und		
+381	haben		
+382	den		
+383	Zaun		
+384	gestrichen		
+385	.		
+386	Gehen		
+387	wir	(mention_id=13|references=(entity=(entity_id=Kyrilla_Bela|fullname=Kyrilla_Bela)))	(mention_id=13|references=(entity=(entity_id=14|fullname=Bela Kyrilla|gender=u)))
+388	doch		
+389	nach		
+390	dem		
+391	Steinbruch		
+392	.		
+393	«		
+394	Sie	(mention_id=14|references=(entity=(entity_id=Kyrilla|fullname=Kyrilla)))	(mention_id=14|references=(entity=(entity_id=5|fullname=Kyrilla|gender=u)))
+395	sah		
+396	seine	(mention_id=92|references=(entity=(entity_id=Bela_Sohn von Kyrilla|fullname=Bela_Sohn von Kyrilla)))	(mention_id=92|references=(entity=(entity_id=4|fullname=Bela|gender=u)))
+397	bittenden		
+398	Augen		
+399	auf		
+400	sich	(mention_id=117|references=(entity=(entity_id=Kyrilla|fullname=Kyrilla)))	(mention_id=117|references=(entity=(entity_id=5|fullname=Kyrilla|gender=u)))
+401	gerichtet		
+402	und		
+403	willfahrte		
+404	seinem	(mention_id=93|references=(entity=(entity_id=Bela_Sohn von Kyrilla|fullname=Bela_Sohn von Kyrilla)))	(mention_id=93|references=(entity=(entity_id=4|fullname=Bela|gender=u)))
+405	Wunsch		
+406	.		
+407	Sie	(mention_id=15|references=(entity=(entity_id=Kyrilla_Bela|fullname=Kyrilla_Bela)))	(mention_id=15|references=(entity=(entity_id=14|fullname=Bela Kyrilla|gender=u)))
+408	schritten		
+409	über		
+410	die		
+411	jungen		
+412	Blumen		
+413	dahin		
+414	,		
+415	die		
+416	unter		
+417	ihren	(mention_id=94|references=(entity=(entity_id=Kyrilla_Bela|fullname=Kyrilla_Bela)))	(mention_id=94|references=(entity=(entity_id=14|fullname=Bela Kyrilla|gender=u)))
+418	leichten		
+419	Tritten		
+420	die		
+421	Köpfe		
+422	kaum		
+423	bogen		
+424	.		
+425	Bela	(mention_id=143|references=(entity=(entity_id=Bela_Sohn von Kyrilla|fullname=Bela_Sohn von Kyrilla)))	(mention_id=143|references=(entity=(entity_id=4|fullname=Bela|gender=u)))
+426	riß		
+427	seine	(mention_id=95|references=(entity=(entity_id=Bela_Sohn von Kyrilla|fullname=Bela_Sohn von Kyrilla)))	(mention_id=95|references=(entity=(entity_id=4|fullname=Bela|gender=u)))
+428	Mütze		
+429	vom		
+430	Kopf		
+431	.		
+432	»		
+433	Du	(mention_id=184|references=(entity=(entity_id=Kyrilla|fullname=Kyrilla)))	(mention_id=184|references=(entity=(entity_id=4|fullname=Bela|gender=u)))
+434	,		
+435	Mutter	(mention_id=144|references=(entity=(entity_id=Kyrilla|fullname=Kyrilla)))	(mention_id=144|references=(entity=(entity_id=5|fullname=Kyrilla|gender=u)))
+436	,		
+437	es		
+438	ist		
+439	doch		
+440	schön		
+441	.		
+442	«		
+443	Seine	(mention_id=96|references=(entity=(entity_id=Bela_Sohn von Kyrilla|fullname=Bela_Sohn von Kyrilla)))	(mention_id=96|references=(entity=(entity_id=4|fullname=Bela|gender=u)))
+444	geblähten		
+445	Nüstern		
+446	sogen		
+447	begierig		
+448	die		
+449	würzige		
+450	Luft		
+451	ein		
+452	.		
+453	»		
+454	Und		
+455	alles		
+456	,		
+457	was		
+458	noch		
+459	kommen		
+460	kann		
+461	.		
+462	«		
+463	Er	(mention_id=16|references=(entity=(entity_id=Bela_Sohn von Kyrilla|fullname=Bela_Sohn von Kyrilla)))	(mention_id=16|references=(entity=(entity_id=4|fullname=Bela|gender=u)))
+464	sah		
+465	mit		
+466	glänzenden		
+467	Augen		
+468	umher		
+469	.		
+470	Sie	(mention_id=17|references=(entity=(entity_id=Kyrilla|fullname=Kyrilla)))	(mention_id=17|references=(entity=(entity_id=5|fullname=Kyrilla|gender=u)))
+471	verstand		
+472	ihn	(mention_id=18|references=(entity=(entity_id=Bela_Sohn von Kyrilla|fullname=Bela_Sohn von Kyrilla)))	(mention_id=18|references=(entity=(entity_id=4|fullname=Bela|gender=u)))
+473	nicht		
+474	und		
+475	fragte		
+476	,		
+477	was		
+478	er	(mention_id=19|references=(entity=(entity_id=Bela_Sohn von Kyrilla|fullname=Bela_Sohn von Kyrilla)))	(mention_id=19|references=(entity=(entity_id=4|fullname=Bela|gender=u)))
+479	meine		
+480	.		
+481	Da		
+482	war		
+483	er	(mention_id=20|references=(entity=(entity_id=Bela_Sohn von Kyrilla|fullname=Bela_Sohn von Kyrilla)))	(mention_id=20|references=(entity=(entity_id=4|fullname=Bela|gender=u)))
+484	ihr	(mention_id=97|references=(entity=(entity_id=Kyrilla|fullname=Kyrilla)))	(mention_id=97|references=(entity=(entity_id=5|fullname=Kyrilla|gender=u)))
+485	aber		
+486	auch		
+487	schon		
+488	vorausgeeilt		
+489	und		
+490	im		
+491	Wäldchen		
+492	verschwunden		
+493	.		
+494	»		
+495	Du	(mention_id=21|references=(entity=(entity_id=Kyrilla|fullname=Kyrilla)))	(mention_id=21|references=(entity=(entity_id=4|fullname=Bela|gender=u)))
+496	seliger		
+497	Schatz	(mention_id=185|references=(entity=(entity_id=Kyrilla|fullname=Kyrilla)))	(mention_id=185|references=(entity=(entity_id=4|fullname=Bela|gender=u)))
+498	,		
+499	schau		
+500	einmal		
+501	dort		
+502	hinab		
+503	,		
+504	wie		
+505	das		
+506	gelbe		
+507	Gestein		
+508	aus		
+509	der		
+510	dunklen		
+511	Erde		
+512	herausquillt		
+513	.		
+514	Die		
+515	arme		
+516	Erde		
+517	!		
+518	Ob		
+519	sie		
+520	es		
+521	denn		
+522	wirklich		
+523	nicht		
+524	spürt		
+525	,		
+526	wenn		
+527	sie		
+528	so		
+529	mit		
+530	Hämmern		
+531	und		
+532	Schlägeln		
+533	an		
+534	ihrem		
+535	Leibe		
+536	herumhauen		
+537	!		
+538	Hast		
+539	du	(mention_id=22|references=(entity=(entity_id=Kyrilla|fullname=Kyrilla)))	(mention_id=22|references=(entity=(entity_id=5|fullname=Kyrilla|gender=u)))
+540	nicht		
+541	ein		
+542	paar		
+543	Brotkrumen		
+544	in		
+545	der		
+546	Tasche		
+547	?		
+548	Ich	(mention_id=23|references=(entity=(entity_id=Bela_Sohn von Kyrilla|fullname=Bela_Sohn von Kyrilla)))	(mention_id=23|references=(entity=(entity_id=4|fullname=Bela|gender=u)))
+549	bin		
+550	so		
+551	hungrig		
+552	.		
+553	«		
+554	Er	(mention_id=24|references=(entity=(entity_id=Bela_Sohn von Kyrilla|fullname=Bela_Sohn von Kyrilla)))	(mention_id=24|references=(entity=(entity_id=4|fullname=Bela|gender=u)))
+555	vergaß		
+556	das		
+557	,		
+558	was		
+559	ihn	(mention_id=25|references=(entity=(entity_id=Bela_Sohn von Kyrilla|fullname=Bela_Sohn von Kyrilla)))	(mention_id=25|references=(entity=(entity_id=4|fullname=Bela|gender=u)))
+560	eben		
+561	noch		
+562	so		
+563	sehr		
+564	interessiert		
+565	hatte		
+566	,		
+567	um		
+568	seinen	(mention_id=98|references=(entity=(entity_id=Bela_Sohn von Kyrilla|fullname=Bela_Sohn von Kyrilla)))	(mention_id=98|references=(entity=(entity_id=4|fullname=Bela|gender=u)))
+569	kleinen		
+570	knurrenden		
+571	Magen		
+572	zu		
+573	befriedigen		
+574	.		
+575	»		
+576	Hast		
+577	du	(mention_id=26|references=(entity=(entity_id=Bela_Sohn von Kyrilla|fullname=Bela_Sohn von Kyrilla)))	(mention_id=26|references=(entity=(entity_id=4|fullname=Bela|gender=u)))
+578	denn		
+579	nicht		
+580	dein	(mention_id=99|references=(entity=(entity_id=Bela_Sohn von Kyrilla|fullname=Bela_Sohn von Kyrilla)))	(mention_id=99|references=(entity=(entity_id=4|fullname=Bela|gender=u)))
+581	Vesperbrot		
+582	verzehrt		
+583	?		
+584	«		
+585	»		
+586	Ei		
+587	freilich		
+588	!		
+589	«		
+590	»		
+591	Und		
+592	doch		
+593	noch		
+594	Hunger		
+595	?		
+596	«		
+597	»		
+598	Und		
+599	was		
+600	für		
+601	einen		
+602	!		
+603	«		
+604	»		
+605	Nun		
+606	Geduld		
+607	!		
+608	Es		
+609	giebt		
+610	bald		
+611	Abendessen		
+612	.		
+613	«		
+614	Er	(mention_id=27|references=(entity=(entity_id=Bela_Sohn von Kyrilla|fullname=Bela_Sohn von Kyrilla)))	(mention_id=27|references=(entity=(entity_id=4|fullname=Bela|gender=u)))
+615	schnitt		
+616	ihrer	(mention_id=100|references=(entity=(entity_id=Kyrilla|fullname=Kyrilla)))	(mention_id=100|references=(entity=(entity_id=5|fullname=Kyrilla|gender=u)))
+617	ihm	(mention_id=28|references=(entity=(entity_id=Bela_Sohn von Kyrilla|fullname=Bela_Sohn von Kyrilla)))	(mention_id=28|references=(entity=(entity_id=4|fullname=Bela|gender=u)))
+618	hingehaltenen		
+619	leeren		
+620	Tasche		
+621	eine		
+622	kleine		
+623	Grimasse		
+624	.		
+625	In		
+626	diesem		
+627	Augenblick		
+628	erklangen		
+629	Hufschläge		
+630	.		
+631	Bela	(mention_id=145|references=(entity=(entity_id=Bela_Sohn von Kyrilla|fullname=Bela_Sohn von Kyrilla)))	(mention_id=145|references=(entity=(entity_id=4|fullname=Bela|gender=u)))
+632	hob		
+633	den		
+634	Kopf		
+635	.		
+636	Und		
+637	plötzlich		
+638	hat		
+639	er	(mention_id=29|references=(entity=(entity_id=Bela_Sohn von Kyrilla|fullname=Bela_Sohn von Kyrilla)))	(mention_id=29|references=(entity=(entity_id=4|fullname=Bela|gender=u)))
+640	alles		
+641	um		
+642	sich	(mention_id=118|references=(entity=(entity_id=Bela_Sohn von Kyrilla|fullname=Bela_Sohn von Kyrilla)))	(mention_id=118|references=(entity=(entity_id=4|fullname=Bela|gender=u)))
+643	her		
+644	vergessen		
+645	.		
+646	Der		
+647	rote		
+648	Himmel		
+649	,		
+650	die		
+651	berauschende		
+652	Luft		
+653	haben		
+654	ihn	(mention_id=30|references=(entity=(entity_id=Bela_Sohn von Kyrilla|fullname=Bela_Sohn von Kyrilla)))	(mention_id=30|references=(entity=(entity_id=4|fullname=Bela|gender=u)))
+655	trunken		
+656	gemacht		
+657	.		
+658	Er	(mention_id=31|references=(entity=(entity_id=Bela_Sohn von Kyrilla|fullname=Bela_Sohn von Kyrilla)))	(mention_id=31|references=(entity=(entity_id=4|fullname=Bela|gender=u)))
+659	entreißt		
+660	sich	(mention_id=119|references=(entity=(entity_id=Bela_Sohn von Kyrilla|fullname=Bela_Sohn von Kyrilla)))	(mention_id=119|references=(entity=(entity_id=4|fullname=Bela|gender=u)))
+661	den		
+662	Händen		
+663	der		
+664	Mutter	(mention_id=146|references=(entity=(entity_id=Kyrilla|fullname=Kyrilla)))	(mention_id=146|references=(entity=(entity_id=5|fullname=Kyrilla|gender=u)))
+665	und		
+666	stürzt		
+667	durch		
+668	das		
+669	Baumdickicht		
+670	auf		
+671	die		
+672	Landstraße		
+673	hinaus		
+674	.		
+675	Seine	(mention_id=101|references=(entity=(entity_id=Bela_Sohn von Kyrilla|fullname=Bela_Sohn von Kyrilla)))	(mention_id=101|references=(entity=(entity_id=4|fullname=Bela|gender=u)))
+676	aufgehobenen		
+677	Arme		
+678	sinken		
+679	wie		
+680	gelähmt		
+681	nieder		
+682	,		
+683	sein	(mention_id=102|references=(entity=(entity_id=Bela_Sohn von Kyrilla|fullname=Bela_Sohn von Kyrilla)))	(mention_id=102|references=(entity=(entity_id=4|fullname=Bela|gender=u)))
+684	eben		
+685	noch		
+686	strahlendes		
+687	Gesicht		
+688	erblaßt		
+689	.		
+690	Sein	(mention_id=103|references=(entity=(entity_id=Bela_Sohn von Kyrilla|fullname=Bela_Sohn von Kyrilla)))	(mention_id=103|references=(entity=(entity_id=4|fullname=Bela|gender=u)))
+691	Vater	(mention_id=147|references=(entity=(entity_id=Tralgoth_Emmerich_Vater von Bela|fullname=Tralgoth_Emmerich_Vater von Bela)))	(mention_id=147|references=(entity=(entity_id=3|fullname=Tralgoth|gender=u)))
+692	steht		
+693	ihm	(mention_id=32|references=(entity=(entity_id=Bela_Sohn von Kyrilla|fullname=Bela_Sohn von Kyrilla)))	(mention_id=32|references=(entity=(entity_id=4|fullname=Bela|gender=u)))
+694	gegenüber		
+695	.		
+696	Beide	(mention_id=186|references=(entity=(entity_id=Bela_Tralgoth|fullname=Bela_Tralgoth)))	(mention_id=186|references=(entity=(entity_id=15|fullname=Bela Tralgoth|gender=u)))
+697	starren		
+698	einander	(mention_id=120|references=(entity=(entity_id=Bela_Tralgoth|fullname=Bela_Tralgoth)))	(mention_id=120|references=(entity=(entity_id=15|fullname=Bela Tralgoth|gender=u)))
+699	an		
+700	.		
+701	»		
+702	So		
+703	,		
+704	da		
+705	bist		
+706	du	(mention_id=33|references=(entity=(entity_id=Bela_Sohn von Kyrilla|fullname=Bela_Sohn von Kyrilla)))	(mention_id=33|references=(entity=(entity_id=4|fullname=Bela|gender=u)))
+707	.		
+708	Was		
+709	machst		
+710	du	(mention_id=34|references=(entity=(entity_id=Bela_Sohn von Kyrilla|fullname=Bela_Sohn von Kyrilla)))	(mention_id=34|references=(entity=(entity_id=4|fullname=Bela|gender=u)))
+711	hier		
+712	?		
+713	«		
+714	Tralgoth	(mention_id=148|references=(entity=(entity_id=Tralgoth_Emmerich_Vater von Bela|fullname=Tralgoth_Emmerich_Vater von Bela)))	(mention_id=148|references=(entity=(entity_id=3|fullname=Tralgoth|gender=u)))
+715	steigt		
+716	von		
+717	seinem	(mention_id=104|references=(entity=(entity_id=Tralgoth_Emmerich_Vater von Bela|fullname=Tralgoth_Emmerich_Vater von Bela)))	(mention_id=104|references=(entity=(entity_id=3|fullname=Tralgoth|gender=u)))
+718	Pferd		
+719	ab		
+720	.		
+721	»		
+722	Wie		
+723	kannst		
+724	du	(mention_id=35|references=(entity=(entity_id=Bela_Sohn von Kyrilla|fullname=Bela_Sohn von Kyrilla)))	(mention_id=35|references=(entity=(entity_id=4|fullname=Bela|gender=u)))
+725	dich	(mention_id=36|references=(entity=(entity_id=Bela_Sohn von Kyrilla|fullname=Bela_Sohn von Kyrilla)))	(mention_id=36|references=(entity=(entity_id=4|fullname=Bela|gender=u)))
+726	hier		
+727	allein		
+728	herumtreiben		
+729	?		
+730	«		
+731	»		
+732	Ich	(mention_id=37|references=(entity=(entity_id=Bela_Sohn von Kyrilla|fullname=Bela_Sohn von Kyrilla)))	(mention_id=37|references=(entity=(entity_id=4|fullname=Bela|gender=u)))
+733	bin		
+734	nicht		
+735	allein		
+736	.		
+737	«		
+738	»		
+739	So		
+740	?		
+741	Wer		
+742	ist		
+743	denn		
+744	bei		
+745	dir	(mention_id=38|references=(entity=(entity_id=Bela_Sohn von Kyrilla|fullname=Bela_Sohn von Kyrilla)))	(mention_id=38|references=(entity=(entity_id=4|fullname=Bela|gender=u)))
+746	?		
+747	«		
+748	»		
+749	Die		
+750	Mutter	(mention_id=149|references=(entity=(entity_id=Kyrilla|fullname=Kyrilla)))	(mention_id=149|references=(entity=(entity_id=5|fullname=Kyrilla|gender=u)))
+751	.		
+752	«		
+753	»		
+754	Ah		
+755	–		
+756	ah		
+757	so		
+758	.		
+759	«		
+760	Kyrilla	(mention_id=150|references=(entity=(entity_id=Kyrilla|fullname=Kyrilla)))	(mention_id=150|references=(entity=(entity_id=5|fullname=Kyrilla|gender=u)))
+761	tritt		
+762	zwischen		
+763	den		
+764	Bäumen		
+765	hervor		
+766	.		
+767	»		
+768	Es		
+769	ist		
+770	ein		
+771	alter		
+772	Lieblingsplatz		
+773	von		
+774	uns	(mention_id=39|references=(entity=(entity_id=Kyrilla_Bela|fullname=Kyrilla_Bela)))	(mention_id=39|references=(entity=(entity_id=6|fullname=Kyrilla Bela|gender=u)))
+775	.		
+776	Geht		
+777	alles		
+778	gut		
+779	draußen		
+780	?		
+781	«		
+782	Sie	(mention_id=40|references=(entity=(entity_id=Kyrilla|fullname=Kyrilla)))	(mention_id=40|references=(entity=(entity_id=5|fullname=Kyrilla|gender=u)))
+783	meinte		
+784	im		
+785	Weingarten		
+786	.		
+787	Er	(mention_id=41|references=(entity=(entity_id=Tralgoth_Emmerich_Vater von Bela|fullname=Tralgoth_Emmerich_Vater von Bela)))	(mention_id=41|references=(entity=(entity_id=3|fullname=Tralgoth|gender=u)))
+788	gab		
+789	keine		
+790	Antwort		
+791	.		
+792	Sein	(mention_id=105|references=(entity=(entity_id=Tralgoth_Emmerich_Vater von Bela|fullname=Tralgoth_Emmerich_Vater von Bela)))	(mention_id=105|references=(entity=(entity_id=3|fullname=Tralgoth|gender=u)))
+793	fahles		
+794	,		
+795	fleischloses		
+796	Gesicht		
+797	verzerrte		
+798	sich		
+799	zu		
+800	einem		
+801	unheimlichen		
+802	Lächeln		
+803	.		
+804	»		
+805	Wem		
+806	hat		
+807	man		
+808	denn		
+809	so		
+810	gar		
+811	sehnsüchtig		
+812	hier		
+813	aufgepaßt		
+814	?		
+815	«		
+816	Kyrilla	(mention_id=151|references=(entity=(entity_id=Kyrilla|fullname=Kyrilla)))	(mention_id=151|references=(entity=(entity_id=5|fullname=Kyrilla|gender=u)))
+817	fühlte		
+818	sich	(mention_id=121|references=(entity=(entity_id=Kyrilla|fullname=Kyrilla)))	(mention_id=121|references=(entity=(entity_id=5|fullname=Kyrilla|gender=u)))
+819	einer		
+820	Ohnmacht		
+821	nahe		
+822	.		
+823	Sie	(mention_id=42|references=(entity=(entity_id=Kyrilla|fullname=Kyrilla)))	(mention_id=42|references=(entity=(entity_id=5|fullname=Kyrilla|gender=u)))
+824	sah		
+825	ratlos		
+826	auf		
+827	das		
+828	Kind	(mention_id=152|references=(entity=(entity_id=Bela_Sohn von Kyrilla|fullname=Bela_Sohn von Kyrilla)))	(mention_id=152|references=(entity=(entity_id=4|fullname=Bela|gender=u)))
+829	,		
+830	zu		
+831	dessen	(mention_id=187|references=(entity=(entity_id=Bela_Sohn von Kyrilla|fullname=Bela_Sohn von Kyrilla)))	(mention_id=187|references=(entity=(entity_id=4|fullname=Bela|gender=u)))
+832	Verteidigung		
+833	sie	(mention_id=43|references=(entity=(entity_id=Kyrilla|fullname=Kyrilla)))	(mention_id=43|references=(entity=(entity_id=5|fullname=Kyrilla|gender=u)))
+834	kein		
+835	Wort		
+836	zu		
+837	sagen		
+838	wußte		
+839	.		
+840	»		
+841	Ich	(mention_id=44|references=(entity=(entity_id=Bela_Sohn von Kyrilla|fullname=Bela_Sohn von Kyrilla)))	(mention_id=44|references=(entity=(entity_id=4|fullname=Bela|gender=u)))
+842	dachte		
+843	,		
+844	es		
+845	wäre		
+846	Onkel	(mention_id=153|references=(entity=(entity_id=Hendrik_Ösz|fullname=Hendrik_Ösz)))	(mention_id=153|references=(entity=(entity_id=2|fullname=Hendrik|gender=u)))
+847	Hendrik	(mention_id=153|references=(entity=(entity_id=Hendrik_Ösz|fullname=Hendrik_Ösz)))	(mention_id=153|references=(entity=(entity_id=2|fullname=Hendrik|gender=u)))
+848	,		
+849	«		
+850	antwortete		
+851	der		
+852	Junge	(mention_id=154|references=(entity=(entity_id=Bela_Sohn von Kyrilla|fullname=Bela_Sohn von Kyrilla)))	(mention_id=154|references=(entity=(entity_id=4|fullname=Bela|gender=u)))
+853	trotzig		
+854	.		
+855	»		
+856	So		
+857	.		
+858	«		
+859	–		
+860	Emmerich	(mention_id=155|references=(entity=(entity_id=Tralgoth_Emmerich_Vater von Bela|fullname=Tralgoth_Emmerich_Vater von Bela)))	(mention_id=155|references=(entity=(entity_id=3|fullname=Tralgoth|gender=u)))
+861	bestieg		
+862	wieder		
+863	sein	(mention_id=106|references=(entity=(entity_id=Tralgoth_Emmerich_Vater von Bela|fullname=Tralgoth_Emmerich_Vater von Bela)))	(mention_id=106|references=(entity=(entity_id=3|fullname=Tralgoth|gender=u)))
+864	Roß		
+865	und		
+866	ritt		
+867	heimwärts		
+868	.		
+869	Sie	(mention_id=45|references=(entity=(entity_id=Kyrilla_Bela|fullname=Kyrilla_Bela)))	(mention_id=45|references=(entity=(entity_id=6|fullname=Kyrilla Bela|gender=u)))
+870	folgten		
+871	ihm	(mention_id=46|references=(entity=(entity_id=Tralgoth_Emmerich_Vater von Bela|fullname=Tralgoth_Emmerich_Vater von Bela)))	(mention_id=46|references=(entity=(entity_id=3|fullname=Tralgoth|gender=u)))
+872	in		
+873	einiger		
+874	Entfernung		
+875	.		
+876	Sie	(mention_id=47|references=(entity=(entity_id=Kyrilla_Bela|fullname=Kyrilla_Bela)))	(mention_id=47|references=(entity=(entity_id=6|fullname=Kyrilla Bela|gender=u)))
+877	redeten		
+878	kein		
+879	Wort		
+880	miteinander		
+881	.		
+882	Am		
+883	nächsten		
+884	Tage		
+885	,		
+886	als		
+887	Tralgoth	(mention_id=156|references=(entity=(entity_id=Tralgoth_Emmerich_Vater von Bela|fullname=Tralgoth_Emmerich_Vater von Bela)))	(mention_id=156|references=(entity=(entity_id=3|fullname=Tralgoth|gender=u)))
+888	vorüber		
+889	ritt		
+890	,		
+891	hielt		
+892	er	(mention_id=48|references=(entity=(entity_id=Tralgoth_Emmerich_Vater von Bela|fullname=Tralgoth_Emmerich_Vater von Bela)))	(mention_id=48|references=(entity=(entity_id=3|fullname=Tralgoth|gender=u)))
+893	an		
+894	und		
+895	horchte		
+896	.		
+897	Er	(mention_id=49|references=(entity=(entity_id=Tralgoth_Emmerich_Vater von Bela|fullname=Tralgoth_Emmerich_Vater von Bela)))	(mention_id=49|references=(entity=(entity_id=3|fullname=Tralgoth|gender=u)))
+898	vernahm		
+899	nichts		
+900	.		
+901	Vielleicht		
+902	flüstern		
+903	sie	(mention_id=50|references=(entity=(entity_id=Kyrilla_Bela|fullname=Kyrilla_Bela)))	(mention_id=50|references=(entity=(entity_id=6|fullname=Kyrilla Bela|gender=u)))
+904	zusammen		
+905	,		
+906	dachte		
+907	er	(mention_id=51|references=(entity=(entity_id=Tralgoth_Emmerich_Vater von Bela|fullname=Tralgoth_Emmerich_Vater von Bela)))	(mention_id=51|references=(entity=(entity_id=3|fullname=Tralgoth|gender=u)))
+908	.		
+909	Er	(mention_id=52|references=(entity=(entity_id=Tralgoth_Emmerich_Vater von Bela|fullname=Tralgoth_Emmerich_Vater von Bela)))	(mention_id=52|references=(entity=(entity_id=3|fullname=Tralgoth|gender=u)))
+910	stieg		
+911	ab		
+912	und		
+913	durchspähte		
+914	das		
+915	nächste		
+916	Gebüsch		
+917	.		
+918	Er	(mention_id=53|references=(entity=(entity_id=Tralgoth_Emmerich_Vater von Bela|fullname=Tralgoth_Emmerich_Vater von Bela)))	(mention_id=53|references=(entity=(entity_id=3|fullname=Tralgoth|gender=u)))
+919	sah		
+920	niemand		
+921	.		
+922	Er	(mention_id=54|references=(entity=(entity_id=Tralgoth_Emmerich_Vater von Bela|fullname=Tralgoth_Emmerich_Vater von Bela)))	(mention_id=54|references=(entity=(entity_id=3|fullname=Tralgoth|gender=u)))
+923	nahm		
+924	seinen	(mention_id=107|references=(entity=(entity_id=Tralgoth_Emmerich_Vater von Bela|fullname=Tralgoth_Emmerich_Vater von Bela)))	(mention_id=107|references=(entity=(entity_id=3|fullname=Tralgoth|gender=u)))
+925	Weg		
+926	weiter		
+927	nach		
+928	dem		
+929	Weingarten		
+930	hinaus		
+931	.		
+932	Er	(mention_id=55|references=(entity=(entity_id=Tralgoth_Emmerich_Vater von Bela|fullname=Tralgoth_Emmerich_Vater von Bela)))	(mention_id=55|references=(entity=(entity_id=3|fullname=Tralgoth|gender=u)))
+933	fand		
+934	Hendrik	(mention_id=157|references=(entity=(entity_id=Hendrik_Ösz|fullname=Hendrik_Ösz)))	(mention_id=157|references=(entity=(entity_id=2|fullname=Hendrik|gender=u)))
+935	vollauf		
+936	beschäftigt		
+937	.		
+938	»		
+939	Na		
+940	,		
+941	da		
+942	geht's		
+943	ja		
+944	rüstig		
+945	vorwärts		
+946	,		
+947	«		
+948	sagte		
+949	er	(mention_id=56|references=(entity=(entity_id=Tralgoth_Emmerich_Vater von Bela|fullname=Tralgoth_Emmerich_Vater von Bela)))	(mention_id=56|references=(entity=(entity_id=3|fullname=Tralgoth|gender=u)))
+950	zu		
+951	den		
+952	arbeitenden		
+953	Tagelöhnern	(mention_id=188|references=(entity=(entity_id=Tagelöhnern|fullname=Tagelöhnern)))	(mention_id=188|references=(entity=(entity_id=16|fullname=Tagelöhner|gender=u)))
+954	.		
+955	Dann		
+956	wandte		
+957	er	(mention_id=57|references=(entity=(entity_id=Tralgoth_Emmerich_Vater von Bela|fullname=Tralgoth_Emmerich_Vater von Bela)))	(mention_id=57|references=(entity=(entity_id=3|fullname=Tralgoth|gender=u)))
+958	sich	(mention_id=122|references=(entity=(entity_id=Tralgoth_Emmerich_Vater von Bela|fullname=Tralgoth_Emmerich_Vater von Bela)))	(mention_id=122|references=(entity=(entity_id=3|fullname=Tralgoth|gender=u)))
+959	zu		
+960	Ösz	(mention_id=158|references=(entity=(entity_id=Hendrik_Ösz|fullname=Hendrik_Ösz)))	(mention_id=158|references=(entity=(entity_id=2|fullname=Hendrik|gender=u)))
+961	.		
+962	»		
+963	Gestern		
+964	ließest		
+965	du	(mention_id=58|references=(entity=(entity_id=Hendrik_Ösz|fullname=Hendrik_Ösz)))	(mention_id=58|references=(entity=(entity_id=2|fullname=Hendrik|gender=u)))
+966	sie	(mention_id=59|references=(entity=(entity_id=Kyrilla_Bela|fullname=Kyrilla_Bela)))	(mention_id=59|references=(entity=(entity_id=6|fullname=Kyrilla Bela|gender=u)))
+967	vergeblich		
+968	warten		
+969	.		
+970	Wie		
+971	kann		
+972	man		
+973	nur		
+974	so		
+975	grausam		
+976	sein		
+977	?		
+978	«		
+979	Hendrik	(mention_id=159|references=(entity=(entity_id=Hendrik_Ösz|fullname=Hendrik_Ösz)))	(mention_id=159|references=(entity=(entity_id=2|fullname=Hendrik|gender=u)))
+980	sah		
+981	ihn	(mention_id=60|references=(entity=(entity_id=Tralgoth_Emmerich_Vater von Bela|fullname=Tralgoth_Emmerich_Vater von Bela)))	(mention_id=60|references=(entity=(entity_id=3|fullname=Tralgoth|gender=u)))
+982	verständnislos		
+983	an		
+984	.		
+985	»		
+986	Ich	(mention_id=61|references=(entity=(entity_id=Hendrik_Ösz|fullname=Hendrik_Ösz)))	(mention_id=61|references=(entity=(entity_id=2|fullname=Hendrik|gender=u)))
+987	ließ		
+988	sie	(mention_id=62|references=(entity=(entity_id=Kyrilla_Bela|fullname=Kyrilla_Bela)))	(mention_id=62|references=(entity=(entity_id=6|fullname=Kyrilla Bela|gender=u)))
+989	warten		
+990	?		
+991	Wen	(mention_id=160|references=(entity=(entity_id=Kyrilla_Bela|fullname=Kyrilla_Bela)))	(mention_id=160|references=(entity=(entity_id=2|fullname=Hendrik|gender=u)))
+992	ließ		
+993	ich	(mention_id=63|references=(entity=(entity_id=Hendrik_Ösz|fullname=Hendrik_Ösz)))	(mention_id=63|references=(entity=(entity_id=2|fullname=Hendrik|gender=u)))
+994	warten		
+995	?		
+996	«		
+997	»		
+998	Nun		
+999	,		
+1000	das		
+1001	wirst		
+1002	du	(mention_id=64|references=(entity=(entity_id=Hendrik_Ösz|fullname=Hendrik_Ösz)))	(mention_id=64|references=(entity=(entity_id=2|fullname=Hendrik|gender=u)))
+1003	doch		
+1004	besser		
+1005	wissen		
+1006	als		
+1007	ich	(mention_id=65|references=(entity=(entity_id=Tralgoth_Emmerich_Vater von Bela|fullname=Tralgoth_Emmerich_Vater von Bela)))	(mention_id=65|references=(entity=(entity_id=3|fullname=Tralgoth|gender=u)))
+1008	.		
+1009	«		
+1010	»		
+1011	Ich	(mention_id=66|references=(entity=(entity_id=Hendrik_Ösz|fullname=Hendrik_Ösz)))	(mention_id=66|references=(entity=(entity_id=2|fullname=Hendrik|gender=u)))
+1012	verstehe		
+1013	kein		
+1014	Wort		
+1015	.		
+1016	Was		
+1017	meinst		
+1018	du	(mention_id=67|references=(entity=(entity_id=Tralgoth_Emmerich_Vater von Bela|fullname=Tralgoth_Emmerich_Vater von Bela)))	(mention_id=67|references=(entity=(entity_id=3|fullname=Tralgoth|gender=u)))
+1019	?		
+1020	Rede		
+1021	gefälligst		
+1022	.		
+1023	«		
+1024	»		
+1025	Nun		
+1026	,		
+1027	nun		
+1028	,		
+1029	das		
+1030	ist		
+1031	wirklich		
+1032	spaßig		
+1033	!		
+1034	Im		
+1035	Steinbruch		
+1036	,		
+1037	auf		
+1038	ihrem	(mention_id=108|references=(entity=(entity_id=Kyrilla_Bela|fullname=Kyrilla_Bela)))	(mention_id=108|references=(entity=(entity_id=6|fullname=Kyrilla Bela|gender=u)))
+1039	Lieblingsplatz		
+1040	.		
+1041	«		
+1042	»		
+1043	Wen	(mention_id=161|references=(entity=(entity_id=Kyrilla_Bela|fullname=Kyrilla_Bela)))	(mention_id=161|references=(entity=(entity_id=2|fullname=Hendrik|gender=u)))
+1044	ließ		
+1045	ich	(mention_id=68|references=(entity=(entity_id=Hendrik_Ösz|fullname=Hendrik_Ösz)))	(mention_id=68|references=(entity=(entity_id=2|fullname=Hendrik|gender=u)))
+1046	warten		
+1047	?		
+1048	«		
+1049	donnerte		
+1050	Hendrik	(mention_id=162|references=(entity=(entity_id=Hendrik_Ösz|fullname=Hendrik_Ösz)))	(mention_id=162|references=(entity=(entity_id=2|fullname=Hendrik|gender=u)))
+1051	mit		
+1052	flammenden		
+1053	Augen		
+1054	.		
+1055	Emmerich	(mention_id=163|references=(entity=(entity_id=Tralgoth_Emmerich_Vater von Bela|fullname=Tralgoth_Emmerich_Vater von Bela)))	(mention_id=163|references=(entity=(entity_id=3|fullname=Tralgoth|gender=u)))
+1056	trat		
+1057	einen		
+1058	Schritt		
+1059	zurück		
+1060	.		
+1061	»		
+1062	Nun		
+1063	,		
+1064	nun		
+1065	,		
+1066	die		
+1067	Leute	(mention_id=179|references=(entity=(entity_id=Tagelöhnern|fullname=Tagelöhnern)))	(mention_id=179|references=(entity=(entity_id=8|fullname=Leute|gender=u)))
+1068	brauchen		
+1069	es		
+1070	nicht		
+1071	zu		
+1072	wissen		
+1073	.		
+1074	Der		
+1075	Junge	(mention_id=164|references=(entity=(entity_id=Bela_Sohn von Kyrilla|fullname=Bela_Sohn von Kyrilla)))	(mention_id=164|references=(entity=(entity_id=4|fullname=Bela|gender=u)))
+1076	machte		
+1077	ein		
+1078	ganz		
+1079	unglückliches		
+1080	Gesicht		
+1081	,		
+1082	als		
+1083	er	(mention_id=69|references=(entity=(entity_id=Bela_Sohn von Kyrilla|fullname=Bela_Sohn von Kyrilla)))	(mention_id=69|references=(entity=(entity_id=4|fullname=Bela|gender=u)))
+1084	nur		
+1085	den		
+1086	Vater	(mention_id=165|references=(entity=(entity_id=Tralgoth_Emmerich_Vater von Bela|fullname=Tralgoth_Emmerich_Vater von Bela)))	(mention_id=165|references=(entity=(entity_id=3|fullname=Tralgoth|gender=u)))
+1087	statt		
+1088	des		
+1089	geliebten		
+1090	Onkels	(mention_id=166|references=(entity=(entity_id=Hendrik_Ösz|fullname=Hendrik_Ösz)))	(mention_id=166|references=(entity=(entity_id=2|fullname=Hendrik|gender=u)))
+1091	erblickte		
+1092	.		
+1093	«		
+1094	Hendrik	(mention_id=167|references=(entity=(entity_id=Hendrik_Ösz|fullname=Hendrik_Ösz)))	(mention_id=167|references=(entity=(entity_id=2|fullname=Hendrik|gender=u)))
+1095	riß		
+1096	rasch		
+1097	seine	(mention_id=109|references=(entity=(entity_id=Hendrik_Ösz|fullname=Hendrik_Ösz)))	(mention_id=109|references=(entity=(entity_id=2|fullname=Hendrik|gender=u)))
+1098	Pfeife		
+1099	heraus		
+1100	,		
+1101	steckte		
+1102	sie		
+1103	zwischen		
+1104	die		
+1105	Zähne		
+1106	und		
+1107	wandte		
+1108	sich	(mention_id=123|references=(entity=(entity_id=Hendrik_Ösz|fullname=Hendrik_Ösz)))	(mention_id=123|references=(entity=(entity_id=2|fullname=Hendrik|gender=u)))
+1109	scheinbar		
+1110	gleichgiltig		
+1111	mit		
+1112	ein		
+1113	paar		
+1114	Worten		
+1115	an		
+1116	die		
+1117	Leute	(mention_id=180|references=(entity=(entity_id=Tagelöhnern|fullname=Tagelöhnern)))	(mention_id=180|references=(entity=(entity_id=16|fullname=Tagelöhner|gender=u)))
+1118	.		
+1119	Emmerich	(mention_id=168|references=(entity=(entity_id=Tralgoth_Emmerich_Vater von Bela|fullname=Tralgoth_Emmerich_Vater von Bela)))	(mention_id=168|references=(entity=(entity_id=3|fullname=Tralgoth|gender=u)))
+1120	rieb		
+1121	sich	(mention_id=124|references=(entity=(entity_id=Tralgoth_Emmerich_Vater von Bela|fullname=Tralgoth_Emmerich_Vater von Bela)))	(mention_id=124|references=(entity=(entity_id=3|fullname=Tralgoth|gender=u)))
+1122	die		
+1123	Hände		
+1124	.		
+1125	Er	(mention_id=70|references=(entity=(entity_id=Tralgoth_Emmerich_Vater von Bela|fullname=Tralgoth_Emmerich_Vater von Bela)))	(mention_id=70|references=(entity=(entity_id=3|fullname=Tralgoth|gender=u)))
+1126	unterhielt		
+1127	sich	(mention_id=125|references=(entity=(entity_id=Tralgoth_Emmerich_Vater von Bela|fullname=Tralgoth_Emmerich_Vater von Bela)))	(mention_id=125|references=(entity=(entity_id=3|fullname=Tralgoth|gender=u)))
+1128	einige		
+1129	Minuten		
+1130	lang		
+1131	mit		
+1132	dem		
+1133	Aufseher	(mention_id=189|references=(entity=(entity_id=Aufseher|fullname=Aufseher)))	(mention_id=189|references=(entity=(entity_id=17|fullname=Aufseher|gender=u)))
+1134	;		
+1135	dann		
+1136	ritt		
+1137	er	(mention_id=71|references=(entity=(entity_id=Tralgoth_Emmerich_Vater von Bela|fullname=Tralgoth_Emmerich_Vater von Bela)))	(mention_id=71|references=(entity=(entity_id=3|fullname=Tralgoth|gender=u)))
+1138	im		
+1139	raschesten		
+1140	Galopp		
+1141	heimwärts		
+1142	.		
+1143	Als		
+1144	er	(mention_id=72|references=(entity=(entity_id=Tralgoth_Emmerich_Vater von Bela|fullname=Tralgoth_Emmerich_Vater von Bela)))	(mention_id=72|references=(entity=(entity_id=3|fullname=Tralgoth|gender=u)))
+1145	an		
+1146	dem		
+1147	Kastanienwäldchen		
+1148	vorüberkam		
+1149	,		
+1150	sah		
+1151	er	(mention_id=73|references=(entity=(entity_id=Tralgoth_Emmerich_Vater von Bela|fullname=Tralgoth_Emmerich_Vater von Bela)))	(mention_id=73|references=(entity=(entity_id=3|fullname=Tralgoth|gender=u)))
+1152	eine		
+1153	Flasche		
+1154	am		
+1155	Boden		
+1156	liegen		
+1157	.		
+1158	Er	(mention_id=74|references=(entity=(entity_id=Tralgoth_Emmerich_Vater von Bela|fullname=Tralgoth_Emmerich_Vater von Bela)))	(mention_id=74|references=(entity=(entity_id=3|fullname=Tralgoth|gender=u)))
+1159	vergaß		
+1160	,		
+1161	daß		
+1162	sie		
+1163	von		
+1164	den		
+1165	Arbeitern	(mention_id=190|references=(entity=(entity_id=Steinklopfern|fullname=Steinklopfern)))	(mention_id=190|references=(entity=(entity_id=18|fullname=Arbeiter|gender=u)))
+1166	unten		
+1167	im		
+1168	Bruch		
+1169	herrühren		
+1170	konnte		
+1171	.		
+1172	Sie	(mention_id=75|references=(entity=(entity_id=Steinklopfern|fullname=Steinklopfern)))	(mention_id=75|references=(entity=(entity_id=18|fullname=Arbeiter|gender=u)))
+1173	scheinen		
+1174	sich's	(mention_id=191|references=(entity=(entity_id=Steinklopfern|fullname=Steinklopfern)))	(mention_id=191|references=(entity=(entity_id=18|fullname=Arbeiter|gender=u)))
+1175	hier		
+1176	gut		
+1177	sein		
+1178	zu		
+1179	lassen		
+1180	,		
+1181	dachte		
+1182	er	(mention_id=76|references=(entity=(entity_id=Tralgoth_Emmerich_Vater von Bela|fullname=Tralgoth_Emmerich_Vater von Bela)))	(mention_id=76|references=(entity=(entity_id=3|fullname=Tralgoth|gender=u)))
+1183	mit		
+1184	heimlichem		
+1185	Hohn		
+1186	.		
+1187	Nun		
+1188	,		
+1189	ich	(mention_id=77|references=(entity=(entity_id=Tralgoth_Emmerich_Vater von Bela|fullname=Tralgoth_Emmerich_Vater von Bela)))	(mention_id=77|references=(entity=(entity_id=3|fullname=Tralgoth|gender=u)))
+1190	werde		
+1191	ihnen	(mention_id=78|references=(entity=(entity_id=Steinklopfern|fullname=Steinklopfern)))	(mention_id=78|references=(entity=(entity_id=18|fullname=Arbeiter|gender=u)))
+1192	schon		
+1193	auf		
+1194	ihre	(mention_id=110|references=(entity=(entity_id=Steinklopfern|fullname=Steinklopfern)))	(mention_id=110|references=(entity=(entity_id=18|fullname=Arbeiter|gender=u)))
+1195	Schliche		
+1196	kommen		
+1197	.		
+1198	Er	(mention_id=79|references=(entity=(entity_id=Ösz_Emmerich|fullname=Ösz_Emmerich)))	(mention_id=79|references=(entity=(entity_id=2|fullname=Hendrik|gender=u)))
+1199	thut		
+1200	,		
+1201	als		
+1202	wüßte		
+1203	er	(mention_id=80|references=(entity=(entity_id=Ösz_Emmerich|fullname=Ösz_Emmerich)))	(mention_id=80|references=(entity=(entity_id=2|fullname=Hendrik|gender=u)))
+1204	von		
+1205	nichts		
+1206	.		
+1207	Der		
+1208	Junge	(mention_id=169|references=(entity=(entity_id=Bela_Sohn von Kyrilla|fullname=Bela_Sohn von Kyrilla)))	(mention_id=169|references=(entity=(entity_id=4|fullname=Bela|gender=u)))
+1209	bestätigte		
+1210	doch		
+1211	,		
+1212	daß		
+1213	er	(mention_id=81|references=(entity=(entity_id=Bela_Sohn von Kyrilla|fullname=Bela_Sohn von Kyrilla)))	(mention_id=81|references=(entity=(entity_id=4|fullname=Bela|gender=u)))
+1214	ihn	(mention_id=82|references=(entity=(entity_id=Hendrik_Ösz|fullname=Hendrik_Ösz)))	(mention_id=82|references=(entity=(entity_id=2|fullname=Hendrik|gender=u)))
+1215	erwartete		
+1216	.		
+1217	Na		
+1218	,		
+1219	paßt		
+1220	auf		
+1221	.		
+1222	Ich	(mention_id=83|references=(entity=(entity_id=Tralgoth_Emmerich_Vater von Bela|fullname=Tralgoth_Emmerich_Vater von Bela)))	(mention_id=83|references=(entity=(entity_id=3|fullname=Tralgoth|gender=u)))
+1223	will		
+1224	einmal		
+1225	ohne		
+1226	Pferd		
+1227	hierherkommen		
+1228	,		
+1229	daß		
+1230	mich	(mention_id=84|references=(entity=(entity_id=Tralgoth_Emmerich_Vater von Bela|fullname=Tralgoth_Emmerich_Vater von Bela)))	(mention_id=84|references=(entity=(entity_id=3|fullname=Tralgoth|gender=u)))
+1231	der		
+1232	Hufschlag		
+1233	nicht		
+1234	verrät		
+1235	.		
+1236	Wer		
+1237	weiß		
+1238	,		
+1239	was		
+1240	ich	(mention_id=85|references=(entity=(entity_id=Tralgoth_Emmerich_Vater von Bela|fullname=Tralgoth_Emmerich_Vater von Bela)))	(mention_id=85|references=(entity=(entity_id=3|fullname=Tralgoth|gender=u)))
+1241	da		
+1242	zu		
+1243	sehen		
+1244	bekomme		
+1245	...		
+1246	XV		
+1247	Hendrik	(mention_id=170|references=(entity=(entity_id=Hendrik_Ösz|fullname=Hendrik_Ösz)))	(mention_id=170|references=(entity=(entity_id=2|fullname=Hendrik|gender=u)))
+1248	hatte		
+1249	sich	(mention_id=126|references=(entity=(entity_id=Hendrik_Ösz|fullname=Hendrik_Ösz)))	(mention_id=126|references=(entity=(entity_id=2|fullname=Hendrik|gender=u)))
+1250	mit		
+1251	äußerster		
+1252	Willensanstrengung		
+1253	ruhig		
+1254	gehalten		
+1255	.		
+1256	Er	(mention_id=86|references=(entity=(entity_id=Hendrik_Ösz|fullname=Hendrik_Ösz)))	(mention_id=86|references=(entity=(entity_id=2|fullname=Hendrik|gender=u)))
+1257	hatte		
+1258	einige		
+1259	friedliche		
+1260	Tage		
+1261	hinter		
+1262	sich	(mention_id=127|references=(entity=(entity_id=Hendrik_Ösz|fullname=Hendrik_Ösz)))	(mention_id=127|references=(entity=(entity_id=2|fullname=Hendrik|gender=u)))
+1263	,		
+1264	in		
+1265	denen		
+1266	er	(mention_id=87|references=(entity=(entity_id=Hendrik_Ösz|fullname=Hendrik_Ösz)))	(mention_id=87|references=(entity=(entity_id=2|fullname=Hendrik|gender=u)))
+1267	ganz		
+1268	in		
+1269	seinen	(mention_id=111|references=(entity=(entity_id=Hendrik_Ösz|fullname=Hendrik_Ösz)))	(mention_id=111|references=(entity=(entity_id=2|fullname=Hendrik|gender=u)))
+1270	Arbeiten		
+1271	aufgegangen		
+1272	war		
+1273	.		
+1274	Er	(mention_id=88|references=(entity=(entity_id=Hendrik_Ösz|fullname=Hendrik_Ösz)))	(mention_id=88|references=(entity=(entity_id=2|fullname=Hendrik|gender=u)))
+1275	stand		
+1276	eben		
+1277	im		
+1278	Begriff		
+1279	,		
+1280	etwas		
+1281	freier		
+1282	aufzuatmen		
+1283	.		
+1284	Da		
+1285	erschien		
+1286	Tralgoth	(mention_id=171|references=(entity=(entity_id=Tralgoth_Emmerich_Vater von Bela|fullname=Tralgoth_Emmerich_Vater von Bela)))	(mention_id=171|references=(entity=(entity_id=3|fullname=Tralgoth|gender=u)))
+1287	mit		
+1288	seiner	(mention_id=112|references=(entity=(entity_id=Tralgoth_Emmerich_Vater von Bela|fullname=Tralgoth_Emmerich_Vater von Bela)))	(mention_id=112|references=(entity=(entity_id=3|fullname=Tralgoth|gender=u)))
+1289	neuen		
+1290	,		
+1291	mit		
+1292	der		
+1293	schwersten		
+1294	Anklage		
+1295	.		
+1296	Der		
+1297	Frieden		
+1298	wurde		
+1299	durch		
+1300	einen		
+1301	schrillen		
+1302	Mißklang		
+1303	zerstört		
+1304	.		
+1305	In		
+1306	Hendriks	(mention_id=172|references=(entity=(entity_id=Hendrik_Ösz|fullname=Hendrik_Ösz)))	(mention_id=172|references=(entity=(entity_id=2|fullname=Hendrik|gender=u)))
+1307	Schläfen		
+1308	begann		
+1309	es		
+1310	zu		
+1311	hämmern		
+1312	.		
+1313	Was		
+1314	sollte		
+1315	dies		
+1316	Neue		
+1317	wieder		
+1318	bedeuten		
+1319	?		
+1320	Hatte		
+1321	das		
+1322	Kind	(mention_id=173|references=(entity=(entity_id=Bela_Sohn von Kyrilla|fullname=Bela_Sohn von Kyrilla)))	(mention_id=173|references=(entity=(entity_id=4|fullname=Bela|gender=u)))
+1323	nicht		
+1324	in		
+1325	wahrhaft		
+1326	rührender		
+1327	Weise		
+1328	gehorcht		
+1329	und		
+1330	war		
+1331	ihm	(mention_id=89|references=(entity=(entity_id=Hendrik_Ösz|fullname=Hendrik_Ösz)))	
+1332	fast		
+1333	ausgewichen		
+1334	?		

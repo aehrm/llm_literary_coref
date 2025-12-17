@@ -1,0 +1,2272 @@
+i	token	gold	pred
+0	Denn		
+1	ich	(mention_id=0|references=(entity=(entity_id=ich|fullname=ich)))	(mention_id=0|references=(entity=(entity_id=1|fullname=ich|gender=u)))
+2	hab		
+3	auch		
+4	Botanisches		
+5	verlegt		
+6	.		
+7	Von		
+8	dem		
+9	Vorhandensein		
+10	frischer		
+11	Apfelsinen		
+12	haben		
+13	wir	(mention_id=1|references=(entity=(entity_id=wir _Herren_|fullname=wir _Herren_)))	(mention_id=1|references=(entity=(entity_id=1|fullname=ich|gender=u)))
+14	uns	(mention_id=134|references=(entity=(entity_id=wir _Herren_|fullname=wir _Herren_)))	(mention_id=134|references=(entity=(entity_id=1|fullname=ich|gender=u)))
+15	draußen		
+16	mit		
+17	Gefahr		
+18	unseres	(mention_id=101|references=(entity=(entity_id=wir _Herren_|fullname=wir _Herren_)))	(mention_id=101|references=(entity=(entity_id=1|fullname=ich|gender=u)))
+19	Lebens		
+20	überzeugt		
+21	,		
+22	und		
+23	für		
+24	den		
+25	Mosel		
+26	bürgt		
+27	uns	(mention_id=135|references=(entity=(entity_id=wir _Herren_|fullname=wir _Herren_)))	(mention_id=135|references=(entity=(entity_id=1|fullname=ich|gender=u)))
+28	die		
+29	Firma		
+30	.		
+31	«		
+32	Der		
+33	Herr	(mention_id=158|references=(entity=(entity_id=Herr|fullname=Herr)))	(mention_id=158|references=(entity=(entity_id=2|fullname=Sander|gender=u)))
+34	am		
+35	Pult		
+36	rührte		
+37	sich	(mention_id=136|references=(entity=(entity_id=Herr|fullname=Herr)))	(mention_id=136|references=(entity=(entity_id=2|fullname=Sander|gender=u)))
+38	nicht		
+39	,		
+40	aber		
+41	man		
+42	sah		
+43	deutlich		
+44	,		
+45	daß		
+46	er	(mention_id=2|references=(entity=(entity_id=Herr|fullname=Herr)))	(mention_id=2|references=(entity=(entity_id=2|fullname=Sander|gender=u)))
+47	mit		
+48	seinem	(mention_id=102|references=(entity=(entity_id=Herr|fullname=Herr)))	(mention_id=102|references=(entity=(entity_id=2|fullname=Sander|gender=u)))
+49	Rücken		
+50	zustimmte		
+51	,		
+52	Bülow	(mention_id=159|references=(entity=(entity_id=Bülow|fullname=Bülow)))	(mention_id=159|references=(entity=(entity_id=3|fullname=Bülow|gender=u)))
+53	und		
+54	Alvensleben	(mention_id=160|references=(entity=(entity_id=Alvensleben|fullname=Alvensleben)))	(mention_id=160|references=(entity=(entity_id=4|fullname=Alvensleben|gender=u)))
+55	taten		
+56	desgleichen		
+57	,		
+58	und		
+59	Sander	(mention_id=161|references=(entity=(entity_id=Sander|fullname=Sander)))	(mention_id=161|references=(entity=(entity_id=2|fullname=Sander|gender=u)))
+60	resolvierte		
+61	kurz		
+62	:		
+63	»		
+64	Also		
+65	Maibowle		
+66	.		
+67	«		
+68	Das		
+69	Wort		
+70	war		
+71	absichtlich		
+72	laut		
+73	und		
+74	mit		
+75	der		
+76	Betonung		
+77	einer		
+78	Ordre		
+79	gesprochen		
+80	worden		
+81	,		
+82	und		
+83	im		
+84	selben		
+85	Augenblicke		
+86	scholl		
+87	es		
+88	auch		
+89	schon		
+90	vom		
+91	Drehstuhl		
+92	her		
+93	in		
+94	das		
+95	Kellerloch		
+96	hinunter		
+97	:		
+98	»		
+99	Fritz	(mention_id=162|references=(entity=(entity_id=Fritz|fullname=Fritz)))	(mention_id=162|references=(entity=(entity_id=5|fullname=Fritz|gender=u)))
+100	!		
+101	«		
+102	Ein		
+103	zunächst		
+104	nur		
+105	mit		
+106	halber		
+107	Figur		
+108	aus		
+109	der		
+110	Versenkung		
+111	auftauchender		
+112	dicker		
+113	und		
+114	kurzhalsiger		
+115	Junge	(mention_id=163|references=(entity=(entity_id=Junge|fullname=Junge)))	(mention_id=163|references=(entity=(entity_id=5|fullname=Fritz|gender=u)))
+116	wurde		
+117	,		
+118	wie		
+119	wenn		
+120	auf		
+121	eine		
+122	Feder		
+123	gedrückt		
+124	worden		
+125	wäre		
+126	,		
+127	sofort		
+128	sichtbar		
+129	,		
+130	übersprang		
+131	diensteifrig		
+132	,		
+133	indem		
+134	er	(mention_id=3|references=(entity=(entity_id=Junge|fullname=Junge)))	(mention_id=3|references=(entity=(entity_id=5|fullname=Fritz|gender=u)))
+135	die		
+136	Hand		
+137	aufsetzte		
+138	,		
+139	die		
+140	letzten		
+141	zwei		
+142	,		
+143	drei		
+144	Stufen		
+145	und		
+146	stand		
+147	im		
+148	Nu		
+149	vor		
+150	Sander	(mention_id=164|references=(entity=(entity_id=Sander|fullname=Sander)))	(mention_id=164|references=(entity=(entity_id=2|fullname=Sander|gender=u)))
+151	,		
+152	den	(mention_id=151|references=(entity=(entity_id=Sander|fullname=Sander)))	(mention_id=151|references=(entity=(entity_id=5|fullname=Fritz|gender=u)))
+153	er	(mention_id=4|references=(entity=(entity_id=Junge|fullname=Junge)))	(mention_id=4|references=(entity=(entity_id=5|fullname=Fritz|gender=u)))
+154	,		
+155	allem		
+156	Anscheine		
+157	nach		
+158	,		
+159	am		
+160	besten		
+161	kannte		
+162	.		
+163	»		
+164	Sagen		
+165	Sie	(mention_id=224|references=(entity=(entity_id=Fritz|fullname=Fritz)))	(mention_id=224|references=(entity=(entity_id=2|fullname=Sander|gender=u)))
+166	,		
+167	Fritz	(mention_id=165|references=(entity=(entity_id=Fritz|fullname=Fritz)))	(mention_id=165|references=(entity=(entity_id=5|fullname=Fritz|gender=u)))
+168	,		
+169	wie		
+170	verhält		
+171	sich		
+172	die		
+173	Firma		
+174	Sala		
+175	Tarone		
+176	zur		
+177	Maibowle		
+178	?		
+179	«		
+180	»		
+181	Gut		
+182	.		
+183	Sehr		
+184	gut		
+185	.		
+186	«		
+187	»		
+188	Aber		
+189	wir	(mention_id=5|references=(entity=(entity_id=wir|fullname=wir)))	(mention_id=5|references=(entity=(entity_id=1|fullname=ich|gender=u)))
+190	haben		
+191	erst		
+192	April		
+193	,		
+194	und		
+195	sosehr		
+196	ich	(mention_id=6|references=(entity=(entity_id=Sander|fullname=Sander)))	(mention_id=6|references=(entity=(entity_id=1|fullname=ich|gender=u)))
+197	im		
+198	allgemeinen		
+199	der		
+200	Mann	(mention_id=166|references=(entity=(entity_id=Sander|fullname=Sander)))	(mention_id=166|references=(entity=(entity_id=1|fullname=ich|gender=u)))
+201	der		
+202	Surrogate		
+203	bin		
+204	,		
+205	so		
+206	haß		
+207	ich	(mention_id=7|references=(entity=(entity_id=Sander|fullname=Sander)))	(mention_id=7|references=(entity=(entity_id=1|fullname=ich|gender=u)))
+208	doch		
+209	eins		
+210	:		
+211	die		
+212	Tonkabohne		
+213	.		
+214	Die		
+215	Tonkabohne		
+216	gehört		
+217	in		
+218	die		
+219	Schnupftabaksdose		
+220	,		
+221	nicht		
+222	in		
+223	die		
+224	Maibowle		
+225	.		
+226	Verstanden		
+227	?		
+228	«		
+229	»		
+230	Zu		
+231	dienen		
+232	,		
+233	Herr	(mention_id=167|references=(entity=(entity_id=Sander|fullname=Sander)))	(mention_id=167|references=(entity=(entity_id=2|fullname=Sander|gender=u)))
+234	Sander	(mention_id=167|references=(entity=(entity_id=Sander|fullname=Sander)))	(mention_id=167|references=(entity=(entity_id=2|fullname=Sander|gender=u)))
+235	.		
+236	«		
+237	»		
+238	Gut		
+239	denn		
+240	.		
+241	Also		
+242	Maikräuter		
+243	.		
+244	Und		
+245	nicht		
+246	lange		
+247	ziehen		
+248	lassen		
+249	.		
+250	Waldmeister		
+251	ist		
+252	nicht		
+253	Kamillentee		
+254	.		
+255	Der		
+256	Mosel		
+257	,		
+258	sagen		
+259	wir	(mention_id=8|references=(entity=(entity_id=wir _Herren_|fullname=wir _Herren_)))	(mention_id=8|references=(entity=(entity_id=1|fullname=ich|gender=u)))
+260	ein		
+261	Zeltinger		
+262	oder		
+263	ein		
+264	Brauneberger		
+265	,		
+266	wird		
+267	langsam		
+268	über		
+269	die		
+270	Büschel		
+271	gegossen		
+272	;		
+273	das		
+274	genügt		
+275	.		
+276	Apfelsinenschnitten		
+277	als		
+278	bloßes		
+279	Ornament		
+280	.		
+281	Eine		
+282	Scheibe		
+283	zuviel		
+284	macht		
+285	Kopfweh		
+286	.		
+287	Und		
+288	nicht		
+289	zu		
+290	süß		
+291	,		
+292	und		
+293	eine		
+294	Cliquot		
+295	extra		
+296	.		
+297	Extra		
+298	,		
+299	sag		
+300	ich	(mention_id=9|references=(entity=(entity_id=Sander|fullname=Sander)))	(mention_id=9|references=(entity=(entity_id=1|fullname=ich|gender=u)))
+301	.		
+302	Besser		
+303	ist		
+304	besser		
+305	.		
+306	«		
+307	Damit		
+308	war		
+309	die		
+310	Bestellung		
+311	beendet		
+312	,		
+313	und		
+314	ehe		
+315	zehn		
+316	Minuten		
+317	um		
+318	waren		
+319	,		
+320	erschien		
+321	die		
+322	Bowle		
+323	,		
+324	darauf		
+325	nicht		
+326	mehr		
+327	als		
+328	drei		
+329	oder		
+330	vier		
+331	Waldmeisterblättchen		
+332	schwammen		
+333	,		
+334	nur		
+335	gerade		
+336	genug		
+337	,		
+338	den		
+339	Beweis		
+340	der		
+341	Echtheit		
+342	zu		
+343	führen		
+344	.		
+345	»		
+346	Sehen		
+347	Sie	(mention_id=168|references=(entity=(entity_id=Fritz|fullname=Fritz)))	(mention_id=168|references=(entity=(entity_id=2|fullname=Sander|gender=u)))
+348	,		
+349	Fritz	(mention_id=169|references=(entity=(entity_id=Fritz|fullname=Fritz)))	(mention_id=169|references=(entity=(entity_id=5|fullname=Fritz|gender=u)))
+350	,		
+351	das		
+352	gefällt		
+353	mir	(mention_id=10|references=(entity=(entity_id=Sander|fullname=Sander)))	(mention_id=10|references=(entity=(entity_id=1|fullname=ich|gender=u)))
+354	.		
+355	Auf		
+356	mancher		
+357	Maibowle		
+358	schwimmt		
+359	es		
+360	wie		
+361	Entengrütze		
+362	.		
+363	Und		
+364	das		
+365	ist		
+366	schrecklich		
+367	.		
+368	Ich	(mention_id=11|references=(entity=(entity_id=Sander|fullname=Sander)))	(mention_id=11|references=(entity=(entity_id=1|fullname=ich|gender=u)))
+369	denke		
+370	,		
+371	wir	(mention_id=12|references=(entity=(entity_id=Sander_Fritz|fullname=Sander_Fritz)))	(mention_id=12|references=(entity=(entity_id=1|fullname=ich|gender=u)))
+372	werden		
+373	Freunde	(mention_id=170|references=(entity=(entity_id=Sander_Fritz|fullname=Sander_Fritz)))	(mention_id=170|references=(entity=(entity_id=1|fullname=ich|gender=u)))
+374	bleiben		
+375	.		
+376	Und		
+377	nun		
+378	grüne		
+379	Gläser		
+380	.		
+381	«		
+382	Alvensleben	(mention_id=171|references=(entity=(entity_id=Alvensleben|fullname=Alvensleben)))	(mention_id=171|references=(entity=(entity_id=4|fullname=Alvensleben|gender=u)))
+383	lachte		
+384	.		
+385	»		
+386	Grüne		
+387	?		
+388	«		
+389	»		
+390	Ja		
+391	.		
+392	Was		
+393	sich		
+394	dagegen		
+395	sagen		
+396	läßt		
+397	,		
+398	lieber		
+399	Alvensleben	(mention_id=172|references=(entity=(entity_id=Alvensleben|fullname=Alvensleben)))	(mention_id=172|references=(entity=(entity_id=4|fullname=Alvensleben|gender=u)))
+400	,		
+401	weiß		
+402	ich	(mention_id=13|references=(entity=(entity_id=Sander|fullname=Sander)))	(mention_id=13|references=(entity=(entity_id=1|fullname=ich|gender=u)))
+403	und		
+404	laß		
+405	es		
+406	gelten		
+407	.		
+408	Es		
+409	ist		
+410	in		
+411	der		
+412	Tat		
+413	eine		
+414	Frage		
+415	,		
+416	die		
+417	mich	(mention_id=137|references=(entity=(entity_id=Sander|fullname=Sander)))	(mention_id=137|references=(entity=(entity_id=1|fullname=ich|gender=u)))
+418	seit		
+419	länger		
+420	beschäftigt		
+421	und		
+422	die		
+423	,		
+424	neben		
+425	anderen		
+426	,		
+427	in		
+428	die		
+429	Reihe		
+430	jener		
+431	Zwiespalte		
+432	gehört		
+433	,		
+434	die		
+435	sich		
+436	,		
+437	wir	(mention_id=14|references=(entity=(entity_id=wir _Herren_|fullname=wir _Herren_)))	(mention_id=14|references=(entity=(entity_id=1|fullname=ich|gender=u)))
+438	mögen		
+439	es		
+440	anfangen		
+441	,		
+442	wie		
+443	wir	(mention_id=15|references=(entity=(entity_id=wir _Herren_|fullname=wir _Herren_)))	(mention_id=15|references=(entity=(entity_id=1|fullname=ich|gender=u)))
+444	wollen		
+445	,		
+446	durch		
+447	unser	(mention_id=103|references=(entity=(entity_id=wir _Herren_|fullname=wir _Herren_)))	(mention_id=103|references=(entity=(entity_id=1|fullname=ich|gender=u)))
+448	Leben		
+449	hinziehen		
+450	.		
+451	Die		
+452	Farbe		
+453	des		
+454	Weins		
+455	geht		
+456	verloren		
+457	,		
+458	aber		
+459	die		
+460	Farbe		
+461	des		
+462	Frühlings		
+463	wird		
+464	gewonnen		
+465	,		
+466	und		
+467	mit		
+468	ihr		
+469	das		
+470	festliche		
+471	Gesamtkolorit		
+472	.		
+473	Und		
+474	dies		
+475	erscheint		
+476	mir	(mention_id=16|references=(entity=(entity_id=Sander|fullname=Sander)))	(mention_id=16|references=(entity=(entity_id=1|fullname=ich|gender=u)))
+477	als		
+478	der		
+479	wichtigere		
+480	Punkt		
+481	.		
+482	Unser	(mention_id=104|references=(entity=(entity_id=wir _Herren_|fullname=wir _Herren_)))	(mention_id=104|references=(entity=(entity_id=1|fullname=ich|gender=u)))
+483	Essen		
+484	und		
+485	Trinken		
+486	,		
+487	soweit		
+488	es		
+489	nicht		
+490	der		
+491	gemeinen		
+492	Lebensnotdurft		
+493	dient		
+494	,		
+495	muß		
+496	mehr		
+497	und		
+498	mehr		
+499	zur		
+500	symbolischen		
+501	Handlung		
+502	werden		
+503	,		
+504	und		
+505	ich	(mention_id=17|references=(entity=(entity_id=Sander|fullname=Sander)))	(mention_id=17|references=(entity=(entity_id=1|fullname=ich|gender=u)))
+506	begreife		
+507	Zeiten		
+508	des		
+509	späteren		
+510	Mittelalters		
+511	,		
+512	in		
+513	denen		
+514	der		
+515	Tafelaufsatz		
+516	und		
+517	die		
+518	Fruchtschalen		
+519	mehr		
+520	bedeuteten		
+521	als		
+522	das		
+523	Mahl		
+524	selbst		
+525	.		
+526	«		
+527	»		
+528	Wie		
+529	gut		
+530	Ihnen	(mention_id=18|references=(entity=(entity_id=Sander|fullname=Sander)))	(mention_id=18|references=(entity=(entity_id=2|fullname=Sander|gender=u)))
+531	das		
+532	kleidet		
+533	,		
+534	Sander	(mention_id=173|references=(entity=(entity_id=Sander|fullname=Sander)))	(mention_id=173|references=(entity=(entity_id=2|fullname=Sander|gender=u)))
+535	«		
+536	,		
+537	lachte		
+538	Bülow	(mention_id=174|references=(entity=(entity_id=Bülow|fullname=Bülow)))	(mention_id=174|references=(entity=(entity_id=3|fullname=Bülow|gender=u)))
+539	.		
+540	»		
+541	Und		
+542	doch		
+543	dank		
+544	ich	(mention_id=19|references=(entity=(entity_id=Bülow|fullname=Bülow)))	(mention_id=19|references=(entity=(entity_id=1|fullname=ich|gender=u)))
+545	Gott		
+546	,		
+547	Ihre	(mention_id=105|references=(entity=(entity_id=Sander|fullname=Sander)))	(mention_id=105|references=(entity=(entity_id=6|fullname=Schach|gender=u)))
+548	Kapaunenrechnung		
+549	nicht		
+550	bezahlen		
+551	zu		
+552	müssen		
+553	.		
+554	«		
+555	»		
+556	Die		
+557	Sie	(mention_id=20|references=(entity=(entity_id=Bülow|fullname=Bülow)))	(mention_id=20|references=(entity=(entity_id=3|fullname=Bülow|gender=u)))
+558	schließlich		
+559	doch		
+560	bezahlen		
+561	.		
+562	«		
+563	»		
+564	Ah		
+565	,		
+566	das		
+567	erste		
+568	Mal		
+569	,		
+570	daß		
+571	ich	(mention_id=21|references=(entity=(entity_id=Bülow|fullname=Bülow)))	(mention_id=21|references=(entity=(entity_id=1|fullname=ich|gender=u)))
+572	einen		
+573	dankbaren		
+574	Verleger	(mention_id=175|references=(entity=(entity_id=Sander|fullname=Sander)))	(mention_id=175|references=(entity=(entity_id=1|fullname=ich|gender=u)))
+575	in		
+576	Ihnen	(mention_id=22|references=(entity=(entity_id=Sander|fullname=Sander)))	(mention_id=22|references=(entity=(entity_id=3|fullname=Bülow|gender=u)))
+577	entdecke		
+578	.		
+579	Stoßen		
+580	wir	(mention_id=23|references=(entity=(entity_id=wir _Herren_|fullname=wir _Herren_)))	(mention_id=23|references=(entity=(entity_id=1|fullname=ich|gender=u)))
+581	an		
+582	...		
+583	Aber		
+584	alle		
+585	Welt		
+586	,		
+587	da		
+588	steigt		
+589	ja		
+590	der		
+591	lange		
+592	Nostitz	(mention_id=225|references=(entity=(entity_id=Nostitz|fullname=Nostitz)))	(mention_id=225|references=(entity=(entity_id=7|fullname=Nostitz|gender=u)))
+593	aus		
+594	der		
+595	Versenkung		
+596	.		
+597	Sehen		
+598	Sie	(mention_id=176|references=(entity=(entity_id=Sander|fullname=Sander)))	(mention_id=176|references=(entity=(entity_id=2|fullname=Sander|gender=u)))
+599	,		
+600	Sander	(mention_id=177|references=(entity=(entity_id=Sander|fullname=Sander)))	(mention_id=177|references=(entity=(entity_id=2|fullname=Sander|gender=u)))
+601	,		
+602	er	(mention_id=226|references=(entity=(entity_id=Nostitz|fullname=Nostitz)))	(mention_id=226|references=(entity=(entity_id=7|fullname=Nostitz|gender=u)))
+603	nimmt		
+604	gar		
+605	kein		
+606	Ende		
+607	...		
+608	«		
+609	Wirklich		
+610	,		
+611	es		
+612	war		
+613	Nostitz	(mention_id=178|references=(entity=(entity_id=Nostitz|fullname=Nostitz)))	(mention_id=178|references=(entity=(entity_id=7|fullname=Nostitz|gender=u)))
+614	,		
+615	der	(mention_id=152|references=(entity=(entity_id=Nostitz|fullname=Nostitz)))	(mention_id=152|references=(entity=(entity_id=7|fullname=Nostitz|gender=u)))
+616	,		
+617	unter		
+618	Benutzung		
+619	eines		
+620	geheimen		
+621	Eingangs		
+622	,		
+623	eben		
+624	die		
+625	Kellertreppe		
+626	hinaufstolperte		
+627	,		
+628	Nostitz	(mention_id=179|references=(entity=(entity_id=Nostitz|fullname=Nostitz)))	(mention_id=179|references=(entity=(entity_id=7|fullname=Nostitz|gender=u)))
+629	von		
+630	den		
+631	Gensdarmes	(mention_id=227|references=(entity=(entity_id=Gensdarmes|fullname=Gensdarmes)))	(mention_id=227|references=(entity=(entity_id=8|fullname=Gensdarmes|gender=u)))
+632	,		
+633	der		
+634	längste		
+635	Lieutenant	(mention_id=180|references=(entity=(entity_id=Nostitz|fullname=Nostitz)))	(mention_id=180|references=(entity=(entity_id=7|fullname=Nostitz|gender=u)))
+636	der		
+637	Armee		
+638	,		
+639	der	(mention_id=153|references=(entity=(entity_id=Nostitz|fullname=Nostitz)))	(mention_id=153|references=(entity=(entity_id=7|fullname=Nostitz|gender=u)))
+640	,		
+641	trotzdem		
+642	er	(mention_id=24|references=(entity=(entity_id=Nostitz|fullname=Nostitz)))	(mention_id=24|references=(entity=(entity_id=7|fullname=Nostitz|gender=u)))
+643	aus		
+644	dem		
+645	Sächsischen		
+646	stammte		
+647	,		
+648	seiner	(mention_id=106|references=(entity=(entity_id=Nostitz|fullname=Nostitz)))	(mention_id=106|references=(entity=(entity_id=7|fullname=Nostitz|gender=u)))
+649	sechs		
+650	Fuß		
+651	drei		
+652	Zoll		
+653	halber		
+654	so		
+655	ziemlich		
+656	ohne		
+657	Widerrede		
+658	beim		
+659	Eliteregiment		
+660	Gensdarmes	(mention_id=228|references=(entity=(entity_id=Gensdarmes|fullname=Gensdarmes)))	(mention_id=228|references=(entity=(entity_id=8|fullname=Gensdarmes|gender=u)))
+661	eingestellt		
+662	und		
+663	mit		
+664	einem		
+665	verbliebenen		
+666	kleinen		
+667	Reste		
+668	von		
+669	Antagonismus		
+670	mittlerweile		
+671	längst		
+672	fertig		
+673	geworden		
+674	war		
+675	.		
+676	Ein		
+677	tollkühner		
+678	Reiter	(mention_id=230|references=(entity=(entity_id=Nostitz|fullname=Nostitz)))	(mention_id=230|references=(entity=(entity_id=7|fullname=Nostitz|gender=u)))
+679	und		
+680	ein		
+681	noch		
+682	tollkühnerer		
+683	Cour-	(mention_id=231|references=(entity=(entity_id=Nostitz|fullname=Nostitz)))	(mention_id=231|references=(entity=(entity_id=7|fullname=Nostitz|gender=u)))
+684	und	(mention_id=231|references=(entity=(entity_id=Nostitz|fullname=Nostitz)))	(mention_id=231|references=(entity=(entity_id=7|fullname=Nostitz|gender=u)))
+685	Schuldenmacher	(mention_id=231|references=(entity=(entity_id=Nostitz|fullname=Nostitz)))	(mention_id=231|references=(entity=(entity_id=7|fullname=Nostitz|gender=u)))
+686	,		
+687	war		
+688	er	(mention_id=25|references=(entity=(entity_id=Nostitz|fullname=Nostitz)))	(mention_id=25|references=(entity=(entity_id=7|fullname=Nostitz|gender=u)))
+689	seit		
+690	lang		
+691	ein		
+692	Allerbeliebtester	(mention_id=232|references=(entity=(entity_id=Nostitz|fullname=Nostitz)))	(mention_id=232|references=(entity=(entity_id=7|fullname=Nostitz|gender=u)))
+693	im		
+694	Regiment		
+695	,		
+696	so		
+697	beliebt		
+698	,		
+699	daß		
+700	ihn	(mention_id=26|references=(entity=(entity_id=Nostitz|fullname=Nostitz)))	(mention_id=26|references=(entity=(entity_id=7|fullname=Nostitz|gender=u)))
+701	sich	(mention_id=138|references=(entity=(entity_id=Prinz Louis|fullname=Prinz Louis)))	(mention_id=138|references=(entity=(entity_id=7|fullname=Nostitz|gender=u)))
+702	der		
+703	»		
+704	Prinz	(mention_id=181|references=(entity=(entity_id=Prinz Louis|fullname=Prinz Louis)))	(mention_id=181|references=(entity=(entity_id=9|fullname=Prinz Louis|gender=u)))
+705	«		
+706	,		
+707	der	(mention_id=154|references=(entity=(entity_id=Prinz Louis|fullname=Prinz Louis)))	(mention_id=154|references=(entity=(entity_id=9|fullname=Prinz Louis|gender=u)))
+708	kein		
+709	andrer		
+710	war		
+711	als		
+712	Prinz	(mention_id=182|references=(entity=(entity_id=Prinz Louis|fullname=Prinz Louis)))	(mention_id=182|references=(entity=(entity_id=9|fullname=Prinz Louis|gender=u)))
+713	Louis	(mention_id=182|references=(entity=(entity_id=Prinz Louis|fullname=Prinz Louis)))	(mention_id=182|references=(entity=(entity_id=9|fullname=Prinz Louis|gender=u)))
+714	,		
+715	bei		
+716	Gelegenheit		
+717	der		
+718	vorjährigen		
+719	Mobilisierung		
+720	,		
+721	zum		
+722	Adjutanten		
+723	erbeten		
+724	hatte		
+725	.		
+726	Neugierig		
+727	,		
+728	woher		
+729	er	(mention_id=27|references=(entity=(entity_id=Nostitz|fullname=Nostitz)))	(mention_id=27|references=(entity=(entity_id=7|fullname=Nostitz|gender=u)))
+730	komme		
+731	,		
+732	stürmte		
+733	man		
+734	mit		
+735	Fragen		
+736	auf		
+737	ihn	(mention_id=28|references=(entity=(entity_id=Nostitz|fullname=Nostitz)))	(mention_id=28|references=(entity=(entity_id=7|fullname=Nostitz|gender=u)))
+738	ein		
+739	,		
+740	aber		
+741	erst		
+742	als		
+743	er	(mention_id=29|references=(entity=(entity_id=Nostitz|fullname=Nostitz)))	(mention_id=29|references=(entity=(entity_id=7|fullname=Nostitz|gender=u)))
+744	sich	(mention_id=139|references=(entity=(entity_id=Nostitz|fullname=Nostitz)))	(mention_id=139|references=(entity=(entity_id=7|fullname=Nostitz|gender=u)))
+745	in		
+746	dem		
+747	Ledersofa		
+748	zurechtgerückt		
+749	hatte		
+750	,		
+751	gab		
+752	er	(mention_id=30|references=(entity=(entity_id=Nostitz|fullname=Nostitz)))	(mention_id=30|references=(entity=(entity_id=7|fullname=Nostitz|gender=u)))
+753	Antwort		
+754	auf		
+755	all		
+756	das		
+757	,		
+758	was		
+759	man		
+760	ihn	(mention_id=31|references=(entity=(entity_id=Nostitz|fullname=Nostitz)))	(mention_id=31|references=(entity=(entity_id=7|fullname=Nostitz|gender=u)))
+761	fragte		
+762	.		
+763	»		
+764	Woher		
+765	ich	(mention_id=32|references=(entity=(entity_id=Nostitz|fullname=Nostitz)))	(mention_id=32|references=(entity=(entity_id=7|fullname=Nostitz|gender=u)))
+766	komme		
+767	?		
+768	Warum		
+769	ich	(mention_id=33|references=(entity=(entity_id=Nostitz|fullname=Nostitz)))	(mention_id=33|references=(entity=(entity_id=7|fullname=Nostitz|gender=u)))
+770	bei		
+771	den		
+772	Carayons	(mention_id=268|references=(entity=(entity_id=Carayons|fullname=Carayons)))	(mention_id=268|references=(entity=(entity_id=10|fullname=Carayons|gender=u)))
+773	geschwänzt		
+774	habe		
+775	?		
+776	Nun		
+777	,		
+778	weil		
+779	ich	(mention_id=34|references=(entity=(entity_id=Nostitz|fullname=Nostitz)))	(mention_id=34|references=(entity=(entity_id=7|fullname=Nostitz|gender=u)))
+780	in		
+781	Französisch-Buchholz		
+782	nachsehen		
+783	wollte		
+784	,		
+785	ob		
+786	die		
+787	Störche		
+788	schon		
+789	wieder		
+790	da		
+791	sind		
+792	,		
+793	ob		
+794	der		
+795	Kuckuck		
+796	schon		
+797	wie		
+798	der		
+799	schreit		
+800	und		
+801	ob		
+802	die		
+803	Schulmeisterstochter	(mention_id=233|references=(entity=(entity_id=Schulmeisterstochter|fullname=Schulmeisterstochter)))	(mention_id=233|references=(entity=(entity_id=11|fullname=Schulmeisterstochter|gender=u)))
+804	noch		
+805	so		
+806	lange		
+807	flachsblonde		
+808	Flechten		
+809	hat		
+810	wie		
+811	voriges		
+812	Jahr		
+813	.		
+814	Ein		
+815	reizendes		
+816	Kind	(mention_id=183|references=(entity=(entity_id=Schulmeisterstochter|fullname=Schulmeisterstochter)))	(mention_id=183|references=(entity=(entity_id=11|fullname=Schulmeisterstochter|gender=u)))
+817	.		
+818	Ich	(mention_id=35|references=(entity=(entity_id=Nostitz|fullname=Nostitz)))	(mention_id=35|references=(entity=(entity_id=7|fullname=Nostitz|gender=u)))
+819	lasse		
+820	mir	(mention_id=36|references=(entity=(entity_id=Nostitz|fullname=Nostitz)))	(mention_id=36|references=(entity=(entity_id=7|fullname=Nostitz|gender=u)))
+821	immer		
+822	die		
+823	Kirche		
+824	von		
+825	ihr	(mention_id=37|references=(entity=(entity_id=Schulmeisterstochter|fullname=Schulmeisterstochter)))	(mention_id=37|references=(entity=(entity_id=11|fullname=Schulmeisterstochter|gender=u)))
+826	zeigen		
+827	,		
+828	und		
+829	wir	(mention_id=38|references=(entity=(entity_id=Nostitz_Schulmeisterstochter|fullname=Nostitz_Schulmeisterstochter)))	(mention_id=38|references=(entity=(entity_id=7|fullname=Nostitz|gender=u)))
+830	steigen		
+831	dann		
+832	in		
+833	den		
+834	Turm		
+835	hinauf		
+836	,		
+837	weil		
+838	ich	(mention_id=39|references=(entity=(entity_id=Nostitz|fullname=Nostitz)))	(mention_id=39|references=(entity=(entity_id=7|fullname=Nostitz|gender=u)))
+839	eine		
+840	Passion		
+841	für		
+842	alte		
+843	Glockeninschriften		
+844	habe		
+845	.		
+846	Sie	(mention_id=40|references=(entity=(entity_id=wir _Herren_|fullname=wir _Herren_)))	(mention_id=40|references=(entity=(entity_id=11|fullname=Schulmeisterstochter|gender=u)))
+847	glauben		
+848	gar		
+849	nicht		
+850	,		
+851	was		
+852	sich		
+853	in		
+854	solchem		
+855	Turme		
+856	alles		
+857	entziffern		
+858	läßt		
+859	.		
+860	Ich	(mention_id=41|references=(entity=(entity_id=Nostitz|fullname=Nostitz)))	(mention_id=41|references=(entity=(entity_id=7|fullname=Nostitz|gender=u)))
+861	zähle		
+862	das		
+863	zu		
+864	meinen	(mention_id=107|references=(entity=(entity_id=Nostitz|fullname=Nostitz)))	(mention_id=107|references=(entity=(entity_id=7|fullname=Nostitz|gender=u)))
+865	glücklichsten		
+866	und		
+867	lehrreichsten		
+868	Stunden		
+869	.		
+870	«		
+871	»		
+872	Und		
+873	eine		
+874	Blondine	(mention_id=234|references=(entity=(entity_id=Schulmeisterstochter|fullname=Schulmeisterstochter)))	(mention_id=234|references=(entity=(entity_id=12|fullname=Blondine|gender=u)))
+875	,		
+876	sagten		
+877	Sie	(mention_id=42|references=(entity=(entity_id=Nostitz|fullname=Nostitz)))	(mention_id=42|references=(entity=(entity_id=7|fullname=Nostitz|gender=u)))
+878	.		
+879	Dann		
+880	freilich		
+881	erklärt		
+882	sich		
+883	alles		
+884	.		
+885	Denn		
+886	neben		
+887	einer		
+888	Prinzessin	(mention_id=184|references=(entity=(entity_id=Schulmeisterstochter|fullname=Schulmeisterstochter)))	(mention_id=184|references=(entity=(entity_id=13|fullname=Prinzessin Flachshaar|gender=u)))
+889	Flachshaar	(mention_id=184|references=(entity=(entity_id=Schulmeisterstochter|fullname=Schulmeisterstochter)))	(mention_id=184|references=(entity=(entity_id=13|fullname=Prinzessin Flachshaar|gender=u)))
+890	kann		
+891	unser	(mention_id=108|references=(entity=(entity_id=wir _Herren_|fullname=wir _Herren_)))	(mention_id=108|references=(entity=(entity_id=7|fullname=Nostitz|gender=u)))
+892	Fräulein	(mention_id=185|references=(entity=(entity_id=Fräulein Victoire|fullname=Fräulein Victoire)))	(mention_id=185|references=(entity=(entity_id=14|fullname=Victoire|gender=u)))
+893	Victoire	(mention_id=185|references=(entity=(entity_id=Fräulein Victoire|fullname=Fräulein Victoire)))	(mention_id=185|references=(entity=(entity_id=14|fullname=Victoire|gender=u)))
+894	nicht		
+895	bestehn		
+896	.		
+897	Und		
+898	nicht		
+899	einmal		
+900	die		
+901	schöne		
+902	Mama	(mention_id=186|references=(entity=(entity_id=Mama|fullname=Mama)))	(mention_id=186|references=(entity=(entity_id=15|fullname=Mama|gender=u)))
+903	,		
+904	die	(mention_id=155|references=(entity=(entity_id=Mama|fullname=Mama)))	(mention_id=155|references=(entity=(entity_id=15|fullname=Mama|gender=u)))
+905	schön		
+906	ist		
+907	,		
+908	aber		
+909	doch		
+910	am		
+911	Ende		
+912	brünett		
+913	.		
+914	Und		
+915	blond		
+916	geht		
+917	immer		
+918	vor		
+919	schwarz		
+920	.		
+921	«		
+922	»		
+923	Ich	(mention_id=43|references=(entity=(entity_id=Nostitz|fullname=Nostitz)))	(mention_id=43|references=(entity=(entity_id=7|fullname=Nostitz|gender=u)))
+924	möchte		
+925	das		
+926	nicht		
+927	geradezu		
+928	zum		
+929	Axiom		
+930	erheben		
+931	«		
+932	,		
+933	fuhr		
+934	Nostitz	(mention_id=187|references=(entity=(entity_id=Nostitz|fullname=Nostitz)))	(mention_id=187|references=(entity=(entity_id=7|fullname=Nostitz|gender=u)))
+935	fort		
+936	.		
+937	»		
+938	Es		
+939	hängt		
+940	doch		
+941	alles		
+942	noch		
+943	von		
+944	Nebenumständen		
+945	ab		
+946	,		
+947	die		
+948	hier		
+949	freilich		
+950	ebenfalls		
+951	zugunsten		
+952	meiner	(mention_id=109|references=(entity=(entity_id=Nostitz|fullname=Nostitz)))	(mention_id=109|references=(entity=(entity_id=7|fullname=Nostitz|gender=u)))
+953	Freundin	(mention_id=188|references=(entity=(entity_id=Schulmeisterstochter|fullname=Schulmeisterstochter)))	(mention_id=188|references=(entity=(entity_id=14|fullname=Victoire|gender=u)))
+954	sprechen		
+955	.		
+956	Die		
+957	schöne		
+958	Mama	(mention_id=189|references=(entity=(entity_id=Mama|fullname=Mama)))	(mention_id=189|references=(entity=(entity_id=15|fullname=Mama|gender=u)))
+959	,		
+960	wie		
+961	Sie	(mention_id=44|references=(entity=(entity_id=Bülow|fullname=Bülow)))	(mention_id=44|references=(entity=(entity_id=7|fullname=Nostitz|gender=u)))
+962	sie	(mention_id=45|references=(entity=(entity_id=Mama|fullname=Mama)))	(mention_id=45|references=(entity=(entity_id=15|fullname=Mama|gender=u)))
+963	nennen		
+964	,		
+965	wird		
+966	siebenunddreißig		
+967	,		
+968	bei		
+969	welcher		
+970	Addition		
+971	ich	(mention_id=46|references=(entity=(entity_id=Nostitz|fullname=Nostitz)))	(mention_id=46|references=(entity=(entity_id=7|fullname=Nostitz|gender=u)))
+972	wahrscheinlich		
+973	galant		
+974	genug		
+975	bin		
+976	,		
+977	ihr	(mention_id=47|references=(entity=(entity_id=Mama|fullname=Mama)))	(mention_id=47|references=(entity=(entity_id=15|fullname=Mama|gender=u)))
+978	ihre	(mention_id=110|references=(entity=(entity_id=Mama|fullname=Mama)))	(mention_id=110|references=(entity=(entity_id=15|fullname=Mama|gender=u)))
+979	vier		
+980	Ehejahre		
+981	halb		
+982	statt		
+983	doppelt		
+984	zu		
+985	rechnen		
+986	.		
+987	Aber		
+988	das		
+989	ist		
+990	Schachs	(mention_id=235|references=(entity=(entity_id=Schachs|fullname=Schachs)))	(mention_id=235|references=(entity=(entity_id=6|fullname=Schach|gender=u)))
+991	Sache		
+992	,		
+993	der	(mention_id=156|references=(entity=(entity_id=Schachs|fullname=Schachs)))	(mention_id=156|references=(entity=(entity_id=6|fullname=Schach|gender=u)))
+994	über		
+995	kurz		
+996	oder		
+997	lang		
+998	in		
+999	der		
+1000	Lage		
+1001	sein		
+1002	wird		
+1003	,		
+1004	ihren	(mention_id=111|references=(entity=(entity_id=Mama|fullname=Mama)))	(mention_id=111|references=(entity=(entity_id=6|fullname=Schach|gender=u)))
+1005	Taufschein		
+1006	um		
+1007	seine	(mention_id=112|references=(entity=(entity_id=Schachs|fullname=Schachs)))	(mention_id=112|references=(entity=(entity_id=6|fullname=Schach|gender=u)))
+1008	Geheimnisse		
+1009	zu		
+1010	befragen		
+1011	.		
+1012	«		
+1013	»		
+1014	Wie		
+1015	das		
+1016	?		
+1017	«		
+1018	fragte		
+1019	Bülow	(mention_id=190|references=(entity=(entity_id=Bülow|fullname=Bülow)))	(mention_id=190|references=(entity=(entity_id=3|fullname=Bülow|gender=u)))
+1020	.		
+1021	»		
+1022	Wie		
+1023	das		
+1024	?		
+1025	«		
+1026	wiederholte		
+1027	Nostitz	(mention_id=191|references=(entity=(entity_id=Nostitz|fullname=Nostitz)))	(mention_id=191|references=(entity=(entity_id=7|fullname=Nostitz|gender=u)))
+1028	.		
+1029	»		
+1030	Was		
+1031	doch		
+1032	die		
+1033	Gelehrten	(mention_id=236|references=(entity=(entity_id=Gelehrten|fullname=Gelehrten)))	(mention_id=236|references=(entity=(entity_id=16|fullname=Gelehrte|gender=u)))
+1034	,		
+1035	und		
+1036	wenn		
+1037	es		
+1038	gelehrte		
+1039	Militärs	(mention_id=237|references=(entity=(entity_id=Gelehrten|fullname=Gelehrten)))	(mention_id=237|references=(entity=(entity_id=17|fullname=Militärs|gender=u)))
+1040	wären		
+1041	,		
+1042	für		
+1043	schlechte		
+1044	Beobachter	(mention_id=238|references=(entity=(entity_id=Gelehrten|fullname=Gelehrten)))	(mention_id=238|references=(entity=(entity_id=18|fullname=Beobachter|gender=u)))
+1045	sind		
+1046	.		
+1047	Ist		
+1048	Ihnen	(mention_id=48|references=(entity=(entity_id=Bülow|fullname=Bülow)))	(mention_id=48|references=(entity=(entity_id=3|fullname=Bülow|gender=u)))
+1049	denn		
+1050	das		
+1051	Verhältnis		
+1052	zwischen		
+1053	beiden		
+1054	entgangen		
+1055	?		
+1056	Ein		
+1057	ziemlich		
+1058	vorgeschrittenes		
+1059	,		
+1060	glaub		
+1061	ich	(mention_id=49|references=(entity=(entity_id=Nostitz|fullname=Nostitz)))	(mention_id=49|references=(entity=(entity_id=7|fullname=Nostitz|gender=u)))
+1062	.		
+1063	C'est		
+1064	le		
+1065	premier		
+1066	pas		
+1067	,		
+1068	qui		
+1069	coûte		
+1070	...		
+1071	«		
+1072	»		
+1073	Sie	(mention_id=50|references=(entity=(entity_id=Nostitz|fullname=Nostitz)))	(mention_id=50|references=(entity=(entity_id=7|fullname=Nostitz|gender=u)))
+1074	drücken		
+1075	sich	(mention_id=140|references=(entity=(entity_id=Nostitz|fullname=Nostitz)))	(mention_id=140|references=(entity=(entity_id=7|fullname=Nostitz|gender=u)))
+1076	etwas		
+1077	dunkel		
+1078	aus		
+1079	,		
+1080	Nostitz	(mention_id=192|references=(entity=(entity_id=Nostitz|fullname=Nostitz)))	(mention_id=192|references=(entity=(entity_id=7|fullname=Nostitz|gender=u)))
+1081	.		
+1082	«		
+1083	»		
+1084	Sonst		
+1085	nicht		
+1086	gerade		
+1087	mein	(mention_id=113|references=(entity=(entity_id=Nostitz|fullname=Nostitz)))	(mention_id=113|references=(entity=(entity_id=7|fullname=Nostitz|gender=u)))
+1088	Fehler		
+1089	.		
+1090	«		
+1091	»		
+1092	Ich	(mention_id=51|references=(entity=(entity_id=Alvensleben|fullname=Alvensleben)))	(mention_id=51|references=(entity=(entity_id=4|fullname=Alvensleben|gender=u)))
+1093	meinerseits		
+1094	glaube		
+1095	Sie	(mention_id=52|references=(entity=(entity_id=Nostitz|fullname=Nostitz)))	(mention_id=52|references=(entity=(entity_id=7|fullname=Nostitz|gender=u)))
+1096	zu		
+1097	verstehn		
+1098	,		
+1099	«		
+1100	unterbrach		
+1101	Alvensleben	(mention_id=193|references=(entity=(entity_id=Alvensleben|fullname=Alvensleben)))	(mention_id=193|references=(entity=(entity_id=4|fullname=Alvensleben|gender=u)))
+1102	.		
+1103	»		
+1104	Aber		
+1105	Sie	(mention_id=53|references=(entity=(entity_id=Nostitz|fullname=Nostitz)))	(mention_id=53|references=(entity=(entity_id=7|fullname=Nostitz|gender=u)))
+1106	täuschen		
+1107	sich	(mention_id=141|references=(entity=(entity_id=Nostitz|fullname=Nostitz)))	(mention_id=141|references=(entity=(entity_id=7|fullname=Nostitz|gender=u)))
+1108	,		
+1109	Nostitz	(mention_id=194|references=(entity=(entity_id=Nostitz|fullname=Nostitz)))	(mention_id=194|references=(entity=(entity_id=7|fullname=Nostitz|gender=u)))
+1110	,		
+1111	wenn		
+1112	Sie	(mention_id=239|references=(entity=(entity_id=Nostitz|fullname=Nostitz)))	(mention_id=239|references=(entity=(entity_id=7|fullname=Nostitz|gender=u)))
+1113	daraus		
+1114	auf		
+1115	eine		
+1116	Partie		
+1117	schließen		
+1118	.		
+1119	Schach	(mention_id=240|references=(entity=(entity_id=Schachs|fullname=Schachs)))	(mention_id=240|references=(entity=(entity_id=6|fullname=Schach|gender=u)))
+1120	ist		
+1121	eine		
+1122	sehr		
+1123	eigenartige		
+1124	Natur		
+1125	,		
+1126	die		
+1127	,		
+1128	was		
+1129	man		
+1130	auch		
+1131	an		
+1132	ihr		
+1133	aussetzen		
+1134	mag		
+1135	,		
+1136	wenigstens		
+1137	manche		
+1138	psychologische		
+1139	Probleme		
+1140	stellt		
+1141	.		
+1142	Ich	(mention_id=54|references=(entity=(entity_id=Alvensleben|fullname=Alvensleben)))	(mention_id=54|references=(entity=(entity_id=4|fullname=Alvensleben|gender=u)))
+1143	habe		
+1144	beispielsweise		
+1145	keinen		
+1146	Menschen		
+1147	kennengelernt		
+1148	,		
+1149	bei		
+1150	dem		
+1151	alles		
+1152	so		
+1153	ganz		
+1154	und		
+1155	gar		
+1156	auf		
+1157	das		
+1158	Ästhetische		
+1159	zurückzuführen		
+1160	wäre		
+1161	,		
+1162	womit		
+1163	es		
+1164	vielleicht		
+1165	in		
+1166	einem		
+1167	gewissen		
+1168	Zusammenhange		
+1169	steht		
+1170	,		
+1171	daß		
+1172	er	(mention_id=55|references=(entity=(entity_id=Schachs|fullname=Schachs)))	(mention_id=55|references=(entity=(entity_id=6|fullname=Schach|gender=u)))
+1173	überspannte		
+1174	Vorstellungen		
+1175	von		
+1176	Intaktheit		
+1177	und		
+1178	Ehe		
+1179	hat		
+1180	.		
+1181	Wenigstens		
+1182	von		
+1183	einer		
+1184	Ehe		
+1185	,		
+1186	wie		
+1187	er	(mention_id=56|references=(entity=(entity_id=Schachs|fullname=Schachs)))	(mention_id=56|references=(entity=(entity_id=6|fullname=Schach|gender=u)))
+1188	sie		
+1189	zu		
+1190	schließen		
+1191	wünscht		
+1192	.		
+1193	Und		
+1194	so		
+1195	bin		
+1196	ich	(mention_id=57|references=(entity=(entity_id=Alvensleben|fullname=Alvensleben)))	(mention_id=57|references=(entity=(entity_id=4|fullname=Alvensleben|gender=u)))
+1197	denn		
+1198	wie		
+1199	von		
+1200	meinem	(mention_id=114|references=(entity=(entity_id=Alvensleben|fullname=Alvensleben)))	(mention_id=114|references=(entity=(entity_id=4|fullname=Alvensleben|gender=u)))
+1201	Leben		
+1202	überzeugt		
+1203	,		
+1204	er	(mention_id=58|references=(entity=(entity_id=Schachs|fullname=Schachs)))	(mention_id=58|references=(entity=(entity_id=6|fullname=Schach|gender=u)))
+1205	wird		
+1206	niemals		
+1207	eine		
+1208	Witwe	(mention_id=245|references=(entity=(entity_id=Witwe|fullname=Witwe)))	(mention_id=245|references=(entity=(entity_id=19|fullname=Witwe|gender=u)))
+1209	heiraten		
+1210	,		
+1211	auch		
+1212	die		
+1213	schönste		
+1214	nicht		
+1215	.		
+1216	Könnt		
+1217	aber		
+1218	hierüber		
+1219	noch		
+1220	irgendein		
+1221	Zweifel		
+1222	sein		
+1223	,		
+1224	so		
+1225	würd		
+1226	ihn		
+1227	ein		
+1228	Umstand		
+1229	beseitigen		
+1230	,		
+1231	und		
+1232	dieser		
+1233	eine		
+1234	Umstand		
+1235	heißt		
+1236	:		
+1237	›		
+1238	Victoire		
+1239	‹		
+1240	.		
+1241	«		
+1242	»		
+1243	Wie		
+1244	das		
+1245	?		
+1246	«		
+1247	»		
+1248	Wie		
+1249	schon		
+1250	so		
+1251	mancher		
+1252	Heiratsplan		
+1253	an		
+1254	einer		
+1255	unrepräsentablen		
+1256	Mutter	(mention_id=195|references=(entity=(entity_id=Mutter|fullname=Mutter)))	(mention_id=195|references=(entity=(entity_id=20|fullname=Frau von Carayon|gender=u)))
+1257	gescheitert		
+1258	ist		
+1259	,		
+1260	so		
+1261	würd		
+1262	er		
+1263	hier		
+1264	an		
+1265	einer		
+1266	unrepräsentablen		
+1267	Tochter	(mention_id=196|references=(entity=(entity_id=Tochter|fullname=Tochter)))	(mention_id=196|references=(entity=(entity_id=14|fullname=Victoire|gender=u)))
+1268	scheitern		
+1269	.		
+1270	Er	(mention_id=59|references=(entity=(entity_id=Schachs|fullname=Schachs)))	(mention_id=59|references=(entity=(entity_id=6|fullname=Schach|gender=u)))
+1271	fühlt		
+1272	sich	(mention_id=142|references=(entity=(entity_id=Schachs|fullname=Schachs)))	(mention_id=142|references=(entity=(entity_id=6|fullname=Schach|gender=u)))
+1273	durch		
+1274	ihre	(mention_id=115|references=(entity=(entity_id=Fräulein Victoire|fullname=Fräulein Victoire)))	(mention_id=115|references=(entity=(entity_id=14|fullname=Victoire|gender=u)))
+1275	mangelnde		
+1276	Schönheit		
+1277	geradezu		
+1278	geniert		
+1279	und		
+1280	erschrickt		
+1281	vor		
+1282	dem		
+1283	Gedanken		
+1284	,		
+1285	seine	(mention_id=116|references=(entity=(entity_id=Schachs|fullname=Schachs)))	(mention_id=116|references=(entity=(entity_id=6|fullname=Schach|gender=u)))
+1286	Normalität		
+1287	,		
+1288	wenn		
+1289	ich	(mention_id=60|references=(entity=(entity_id=Alvensleben|fullname=Alvensleben)))	(mention_id=60|references=(entity=(entity_id=4|fullname=Alvensleben|gender=u)))
+1290	mich	(mention_id=143|references=(entity=(entity_id=Alvensleben|fullname=Alvensleben)))	(mention_id=143|references=(entity=(entity_id=4|fullname=Alvensleben|gender=u)))
+1291	so		
+1292	ausdrücken		
+1293	darf		
+1294	,		
+1295	mit		
+1296	ihrer	(mention_id=117|references=(entity=(entity_id=Fräulein Victoire|fullname=Fräulein Victoire)))	(mention_id=117|references=(entity=(entity_id=14|fullname=Victoire|gender=u)))
+1297	Unnormalität		
+1298	in		
+1299	irgendwelche		
+1300	Verbindung		
+1301	gebracht		
+1302	zu		
+1303	sehen		
+1304	.		
+1305	Er	(mention_id=61|references=(entity=(entity_id=Schachs|fullname=Schachs)))	(mention_id=61|references=(entity=(entity_id=6|fullname=Schach|gender=u)))
+1306	ist		
+1307	krankhaft		
+1308	abhängig		
+1309	,		
+1310	abhängig		
+1311	bis		
+1312	zur		
+1313	Schwäche		
+1314	,		
+1315	von		
+1316	dem		
+1317	Urteile		
+1318	der		
+1319	Menschen	(mention_id=197|references=(entity=(entity_id=Menschen|fullname=Menschen)))	(mention_id=197|references=(entity=(entity_id=21|fullname=Menschen|gender=u)))
+1320	,		
+1321	speziell		
+1322	seiner	(mention_id=118|references=(entity=(entity_id=Schachs|fullname=Schachs)))	(mention_id=118|references=(entity=(entity_id=6|fullname=Schach|gender=u)))
+1323	Standesgenossen	(mention_id=246|references=(entity=(entity_id=Standesgenossen|fullname=Standesgenossen)))	(mention_id=246|references=(entity=(entity_id=22|fullname=Standesgenossen|gender=u)))
+1324	,		
+1325	und		
+1326	würde		
+1327	sich	(mention_id=144|references=(entity=(entity_id=Schachs|fullname=Schachs)))	(mention_id=144|references=(entity=(entity_id=6|fullname=Schach|gender=u)))
+1328	jederzeit		
+1329	außerstande		
+1330	fühlen		
+1331	,		
+1332	irgendeiner		
+1333	Prinzessin	(mention_id=198|references=(entity=(entity_id=Prinzessin|fullname=Prinzessin)))	(mention_id=198|references=(entity=(entity_id=23|fullname=Prinzessin|gender=u)))
+1334	oder		
+1335	auch		
+1336	nur		
+1337	einer		
+1338	hochgestellten		
+1339	Dame	(mention_id=247|references=(entity=(entity_id=Dame|fullname=Dame)))	(mention_id=247|references=(entity=(entity_id=24|fullname=Dame|gender=u)))
+1340	Victoiren	(mention_id=248|references=(entity=(entity_id=Fräulein Victoire|fullname=Fräulein Victoire)))	(mention_id=248|references=(entity=(entity_id=14|fullname=Victoire|gender=u)))
+1341	als		
+1342	seine	(mention_id=119|references=(entity=(entity_id=Schachs|fullname=Schachs)))	(mention_id=119|references=(entity=(entity_id=6|fullname=Schach|gender=u)))
+1343	Tochter	(mention_id=199|references=(entity=(entity_id=Fräulein Victoire|fullname=Fräulein Victoire)))	(mention_id=199|references=(entity=(entity_id=14|fullname=Victoire|gender=u)))
+1344	vorzustellen		
+1345	.		
+1346	«		
+1347	»		
+1348	Möglich		
+1349	.		
+1350	Aber		
+1351	dergleichen		
+1352	läßt		
+1353	sich		
+1354	vermeiden		
+1355	.		
+1356	«		
+1357	»		
+1358	Doch		
+1359	schwer		
+1360	.		
+1361	Sie	(mention_id=62|references=(entity=(entity_id=Fräulein Victoire|fullname=Fräulein Victoire)))	(mention_id=62|references=(entity=(entity_id=4|fullname=Alvensleben|gender=u)))
+1362	zurückzusetzen		
+1363	oder		
+1364	ganz		
+1365	einfach		
+1366	als		
+1367	Aschenbrödel	(mention_id=249|references=(entity=(entity_id=Aschenbrödel|fullname=Aschenbrödel)))	(mention_id=249|references=(entity=(entity_id=25|fullname=Aschenbrödel|gender=u)))
+1368	zu		
+1369	behandeln		
+1370	,		
+1371	das		
+1372	widerstreitet		
+1373	seinem	(mention_id=120|references=(entity=(entity_id=Schachs|fullname=Schachs)))	(mention_id=120|references=(entity=(entity_id=6|fullname=Schach|gender=u)))
+1374	feinen		
+1375	Sinn		
+1376	,		
+1377	dazu		
+1378	hat		
+1379	er	(mention_id=63|references=(entity=(entity_id=Schachs|fullname=Schachs)))	(mention_id=63|references=(entity=(entity_id=6|fullname=Schach|gender=u)))
+1380	das		
+1381	Herz		
+1382	zu		
+1383	sehr		
+1384	auf		
+1385	dem		
+1386	rechten		
+1387	Fleck		
+1388	.		
+1389	Auch		
+1390	würde		
+1391	Frau	(mention_id=200|references=(entity=(entity_id=Frau von Carayon|fullname=Frau von Carayon)))	(mention_id=200|references=(entity=(entity_id=20|fullname=Frau von Carayon|gender=u)))
+1392	von	(mention_id=200|references=(entity=(entity_id=Frau von Carayon|fullname=Frau von Carayon)))	(mention_id=200|references=(entity=(entity_id=20|fullname=Frau von Carayon|gender=u)))
+1393	Carayon	(mention_id=200|references=(entity=(entity_id=Frau von Carayon|fullname=Frau von Carayon)))	(mention_id=200|references=(entity=(entity_id=20|fullname=Frau von Carayon|gender=u)))
+1394	das		
+1395	einfach		
+1396	nicht		
+1397	dulden		
+1398	.		
+1399	Denn		
+1400	so		
+1401	gewiß		
+1402	sie	(mention_id=64|references=(entity=(entity_id=Frau von Carayon|fullname=Frau von Carayon)))	(mention_id=64|references=(entity=(entity_id=20|fullname=Frau von Carayon|gender=u)))
+1403	Schach	(mention_id=241|references=(entity=(entity_id=Schachs|fullname=Schachs)))	(mention_id=241|references=(entity=(entity_id=6|fullname=Schach|gender=u)))
+1404	liebt		
+1405	,		
+1406	so		
+1407	gewiß		
+1408	liebt		
+1409	sie	(mention_id=65|references=(entity=(entity_id=Frau von Carayon|fullname=Frau von Carayon)))	(mention_id=65|references=(entity=(entity_id=20|fullname=Frau von Carayon|gender=u)))
+1410	Victoire	(mention_id=201|references=(entity=(entity_id=Fräulein Victoire|fullname=Fräulein Victoire)))	(mention_id=201|references=(entity=(entity_id=14|fullname=Victoire|gender=u)))
+1411	,		
+1412	ja		
+1413	,		
+1414	sie	(mention_id=66|references=(entity=(entity_id=Frau von Carayon|fullname=Frau von Carayon)))	(mention_id=66|references=(entity=(entity_id=20|fullname=Frau von Carayon|gender=u)))
+1415	liebt		
+1416	diese	(mention_id=250|references=(entity=(entity_id=Fräulein Victoire|fullname=Fräulein Victoire)))	(mention_id=250|references=(entity=(entity_id=14|fullname=Victoire|gender=u)))
+1417	noch		
+1418	um		
+1419	ein		
+1420	gut		
+1421	Teil		
+1422	mehr		
+1423	.		
+1424	Es		
+1425	ist		
+1426	ein		
+1427	absolut		
+1428	ideales		
+1429	Verhältnis		
+1430	zwischen		
+1431	Mutter	(mention_id=202|references=(entity=(entity_id=Frau von Carayon|fullname=Frau von Carayon)))	(mention_id=202|references=(entity=(entity_id=20|fullname=Frau von Carayon|gender=u)))
+1432	und		
+1433	Tochter	(mention_id=203|references=(entity=(entity_id=Fräulein Victoire|fullname=Fräulein Victoire)))	(mention_id=203|references=(entity=(entity_id=14|fullname=Victoire|gender=u)))
+1434	,		
+1435	und		
+1436	gerade		
+1437	dies		
+1438	Verhältnis		
+1439	ist		
+1440	es		
+1441	,		
+1442	was		
+1443	mir	(mention_id=67|references=(entity=(entity_id=Alvensleben|fullname=Alvensleben)))	(mention_id=67|references=(entity=(entity_id=4|fullname=Alvensleben|gender=u)))
+1444	das		
+1445	Haus		
+1446	so		
+1447	wert		
+1448	gemacht		
+1449	hat		
+1450	und		
+1451	noch		
+1452	macht		
+1453	.		
+1454	«		
+1455	»		
+1456	Also		
+1457	begraben		
+1458	wir	(mention_id=68|references=(entity=(entity_id=wir _Herren_|fullname=wir _Herren_)))	(mention_id=68|references=(entity=(entity_id=1|fullname=ich|gender=u)))
+1459	die		
+1460	Partie		
+1461	«		
+1462	,		
+1463	sagte		
+1464	Bülow	(mention_id=204|references=(entity=(entity_id=Bülow|fullname=Bülow)))	(mention_id=204|references=(entity=(entity_id=3|fullname=Bülow|gender=u)))
+1465	.		
+1466	»		
+1467	Mir	(mention_id=69|references=(entity=(entity_id=Nostitz|fullname=Nostitz)))	(mention_id=69|references=(entity=(entity_id=3|fullname=Bülow|gender=u)))
+1468	persönlich		
+1469	zu		
+1470	besondrer		
+1471	Genugtuung		
+1472	und		
+1473	Freude		
+1474	,		
+1475	denn		
+1476	ich	(mention_id=70|references=(entity=(entity_id=Nostitz|fullname=Nostitz)))	(mention_id=70|references=(entity=(entity_id=3|fullname=Bülow|gender=u)))
+1477	schwärme		
+1478	für		
+1479	diese		
+1480	Frau	(mention_id=205|references=(entity=(entity_id=Frau von Carayon|fullname=Frau von Carayon)))	(mention_id=205|references=(entity=(entity_id=20|fullname=Frau von Carayon|gender=u)))
+1481	.		
+1482	Sie	(mention_id=71|references=(entity=(entity_id=Frau von Carayon|fullname=Frau von Carayon)))	(mention_id=71|references=(entity=(entity_id=20|fullname=Frau von Carayon|gender=u)))
+1483	hat		
+1484	den		
+1485	ganzen		
+1486	Zauber		
+1487	des		
+1488	Wahren		
+1489	und		
+1490	Natürlichen		
+1491	,		
+1492	und		
+1493	selbst		
+1494	ihre	(mention_id=121|references=(entity=(entity_id=Frau von Carayon|fullname=Frau von Carayon)))	(mention_id=121|references=(entity=(entity_id=20|fullname=Frau von Carayon|gender=u)))
+1495	Schwächen		
+1496	sind		
+1497	reizend		
+1498	und		
+1499	liebenswürdig		
+1500	.		
+1501	Und		
+1502	daneben		
+1503	dieser		
+1504	Schach	(mention_id=242|references=(entity=(entity_id=Schachs|fullname=Schachs)))	(mention_id=242|references=(entity=(entity_id=6|fullname=Schach|gender=u)))
+1505	!		
+1506	Er	(mention_id=72|references=(entity=(entity_id=Schachs|fullname=Schachs)))	(mention_id=72|references=(entity=(entity_id=6|fullname=Schach|gender=u)))
+1507	mag		
+1508	seine	(mention_id=122|references=(entity=(entity_id=Schachs|fullname=Schachs)))	(mention_id=122|references=(entity=(entity_id=6|fullname=Schach|gender=u)))
+1509	Meriten		
+1510	haben		
+1511	,		
+1512	meinetwegen		
+1513	,		
+1514	aber		
+1515	mir	(mention_id=73|references=(entity=(entity_id=Nostitz|fullname=Nostitz)))	(mention_id=73|references=(entity=(entity_id=3|fullname=Bülow|gender=u)))
+1516	ist		
+1517	er	(mention_id=74|references=(entity=(entity_id=Schachs|fullname=Schachs)))	(mention_id=74|references=(entity=(entity_id=6|fullname=Schach|gender=u)))
+1518	nichts		
+1519	als		
+1520	ein		
+1521	Pedant	(mention_id=251|references=(entity=(entity_id=Schachs|fullname=Schachs)))	(mention_id=251|references=(entity=(entity_id=6|fullname=Schach|gender=u)))
+1522	und		
+1523	Wichtigtuer	(mention_id=252|references=(entity=(entity_id=Schachs|fullname=Schachs)))	(mention_id=252|references=(entity=(entity_id=6|fullname=Schach|gender=u)))
+1524	und		
+1525	zugleich		
+1526	die		
+1527	Verkörperung		
+1528	jener		
+1529	preußischen		
+1530	Beschränktheit		
+1531	,		
+1532	die		
+1533	nur		
+1534	drei		
+1535	Glaubensartikel		
+1536	hat		
+1537	–		
+1538	erstes		
+1539	Hauptstück		
+1540	:		
+1541	›		
+1542	Die		
+1543	Welt		
+1544	ruht		
+1545	nicht		
+1546	sichrer		
+1547	auf		
+1548	den		
+1549	Schultern		
+1550	des		
+1551	Atlas		
+1552	als		
+1553	der		
+1554	preußische		
+1555	Staat		
+1556	auf		
+1557	den		
+1558	Schultern		
+1559	der		
+1560	preußischen		
+1561	Armee		
+1562	‹		
+1563	,		
+1564	zweites		
+1565	Hauptstück		
+1566	:		
+1567	›		
+1568	Der		
+1569	preußische		
+1570	Infanterieangriff		
+1571	ist		
+1572	unwiderstehlich		
+1573	‹		
+1574	,		
+1575	und		
+1576	drittens		
+1577	und		
+1578	letztens		
+1579	:		
+1580	›		
+1581	Eine		
+1582	Schlacht		
+1583	ist		
+1584	nie		
+1585	verloren		
+1586	,		
+1587	solange		
+1588	das		
+1589	Regiment	(mention_id=254|references=(entity=(entity_id=Regiment Garde du Corps|fullname=Regiment Garde du Corps)))	(mention_id=254|references=(entity=(entity_id=26|fullname=Regiment Garde du Corps|gender=u)))
+1590	Garde	(mention_id=254|references=(entity=(entity_id=Regiment Garde du Corps|fullname=Regiment Garde du Corps)))	(mention_id=254|references=(entity=(entity_id=26|fullname=Regiment Garde du Corps|gender=u)))
+1591	du	(mention_id=254|references=(entity=(entity_id=Regiment Garde du Corps|fullname=Regiment Garde du Corps)))	(mention_id=254|references=(entity=(entity_id=26|fullname=Regiment Garde du Corps|gender=u)))
+1592	Corps	(mention_id=254|references=(entity=(entity_id=Regiment Garde du Corps|fullname=Regiment Garde du Corps)))	(mention_id=254|references=(entity=(entity_id=26|fullname=Regiment Garde du Corps|gender=u)))
+1593	nicht		
+1594	angegriffen		
+1595	hat		
+1596	.		
+1597	‹		
+1598	Oder		
+1599	natürlich		
+1600	auch		
+1601	das		
+1602	Regiment	(mention_id=253|references=(entity=(entity_id=Gensdarmes|fullname=Gensdarmes)))	(mention_id=253|references=(entity=(entity_id=27|fullname=Regiment Gensdarmes|gender=u)))
+1603	Gensdarmes	(mention_id=253|references=(entity=(entity_id=Gensdarmes|fullname=Gensdarmes)))	(mention_id=253|references=(entity=(entity_id=27|fullname=Regiment Gensdarmes|gender=u)))
+1604	.		
+1605	Denn		
+1606	sie		
+1607	sind		
+1608	Geschwister		
+1609	,		
+1610	Zwillingsbrüder		
+1611	.		
+1612	Ich	(mention_id=75|references=(entity=(entity_id=Nostitz|fullname=Nostitz)))	(mention_id=75|references=(entity=(entity_id=3|fullname=Bülow|gender=u)))
+1613	verabscheue		
+1614	solche		
+1615	Redensarten		
+1616	,		
+1617	und		
+1618	der		
+1619	Tag		
+1620	ist		
+1621	nahe		
+1622	,		
+1623	wo		
+1624	die		
+1625	Welt		
+1626	die		
+1627	Hohlheit		
+1628	solcher		
+1629	Rodomontaden		
+1630	erkennen		
+1631	wird		
+1632	.		
+1633	«		
+1634	»		
+1635	Und		
+1636	doch		
+1637	unterschätzen		
+1638	Sie	(mention_id=76|references=(entity=(entity_id=Alvensleben|fullname=Alvensleben)))	(mention_id=76|references=(entity=(entity_id=4|fullname=Alvensleben|gender=u)))
+1639	Schach	(mention_id=243|references=(entity=(entity_id=Schachs|fullname=Schachs)))	(mention_id=243|references=(entity=(entity_id=6|fullname=Schach|gender=u)))
+1640	.		
+1641	Er	(mention_id=77|references=(entity=(entity_id=Schachs|fullname=Schachs)))	(mention_id=77|references=(entity=(entity_id=6|fullname=Schach|gender=u)))
+1642	ist		
+1643	immerhin		
+1644	einer		
+1645	unserer	(mention_id=123|references=(entity=(entity_id=wir _Herren_|fullname=wir _Herren_)))	(mention_id=123|references=(entity=(entity_id=6|fullname=Schach|gender=u)))
+1646	Besten	(mention_id=255|references=(entity=(entity_id=Besten|fullname=Besten)))	(mention_id=255|references=(entity=(entity_id=6|fullname=Schach|gender=u)))
+1647	.		
+1648	«		
+1649	»		
+1650	Um		
+1651	so		
+1652	schlimmer		
+1653	.		
+1654	«		
+1655	»		
+1656	Einer	(mention_id=257|references=(entity=(entity_id=Schachs|fullname=Schachs)))	(mention_id=257|references=(entity=(entity_id=6|fullname=Schach|gender=u)))
+1657	unsrer	(mention_id=124|references=(entity=(entity_id=wir _Herren_|fullname=wir _Herren_)))	(mention_id=124|references=(entity=(entity_id=6|fullname=Schach|gender=u)))
+1658	Besten	(mention_id=256|references=(entity=(entity_id=Besten|fullname=Besten)))	(mention_id=256|references=(entity=(entity_id=6|fullname=Schach|gender=u)))
+1659	,		
+1660	sag		
+1661	ich	(mention_id=78|references=(entity=(entity_id=Alvensleben|fullname=Alvensleben)))	(mention_id=78|references=(entity=(entity_id=4|fullname=Alvensleben|gender=u)))
+1662	,		
+1663	und		
+1664	wirklich		
+1665	ein		
+1666	Guter		
+1667	.		
+1668	Er	(mention_id=79|references=(entity=(entity_id=Schachs|fullname=Schachs)))	(mention_id=79|references=(entity=(entity_id=6|fullname=Schach|gender=u)))
+1669	spielt		
+1670	nicht		
+1671	bloß		
+1672	den		
+1673	Ritterlichen	(mention_id=258|references=(entity=(entity_id=Schachs|fullname=Schachs)))	(mention_id=258|references=(entity=(entity_id=6|fullname=Schach|gender=u)))
+1674	,		
+1675	er	(mention_id=80|references=(entity=(entity_id=Schachs|fullname=Schachs)))	(mention_id=80|references=(entity=(entity_id=6|fullname=Schach|gender=u)))
+1676	ist		
+1677	es		
+1678	auch		
+1679	.		
+1680	Natürlich		
+1681	auf		
+1682	seine	(mention_id=125|references=(entity=(entity_id=Schachs|fullname=Schachs)))	(mention_id=125|references=(entity=(entity_id=6|fullname=Schach|gender=u)))
+1683	Weise		
+1684	.		
+1685	Jedenfalls		
+1686	trägt		
+1687	er	(mention_id=81|references=(entity=(entity_id=Schachs|fullname=Schachs)))	(mention_id=81|references=(entity=(entity_id=6|fullname=Schach|gender=u)))
+1688	ein		
+1689	ehrliches		
+1690	Gesicht		
+1691	und		
+1692	keine		
+1693	Maske		
+1694	.		
+1695	«		
+1696	»		
+1697	Alvensleben	(mention_id=206|references=(entity=(entity_id=Alvensleben|fullname=Alvensleben)))	(mention_id=206|references=(entity=(entity_id=4|fullname=Alvensleben|gender=u)))
+1698	hat		
+1699	recht		
+1700	«		
+1701	,		
+1702	bestätigte		
+1703	Nostitz	(mention_id=207|references=(entity=(entity_id=Nostitz|fullname=Nostitz)))	(mention_id=207|references=(entity=(entity_id=7|fullname=Nostitz|gender=u)))
+1704	.		
+1705	»		
+1706	Ich	(mention_id=82|references=(entity=(entity_id=Nostitz|fullname=Nostitz)))	(mention_id=82|references=(entity=(entity_id=7|fullname=Nostitz|gender=u)))
+1707	habe		
+1708	nicht		
+1709	viel		
+1710	für		
+1711	ihn	(mention_id=83|references=(entity=(entity_id=Schachs|fullname=Schachs)))	(mention_id=83|references=(entity=(entity_id=6|fullname=Schach|gender=u)))
+1712	übrig		
+1713	,		
+1714	aber		
+1715	das		
+1716	ist		
+1717	wahr		
+1718	,		
+1719	alles		
+1720	an		
+1721	ihm	(mention_id=84|references=(entity=(entity_id=Schachs|fullname=Schachs)))	(mention_id=84|references=(entity=(entity_id=6|fullname=Schach|gender=u)))
+1722	ist		
+1723	echt		
+1724	,		
+1725	auch		
+1726	seine	(mention_id=126|references=(entity=(entity_id=Schachs|fullname=Schachs)))	(mention_id=126|references=(entity=(entity_id=6|fullname=Schach|gender=u)))
+1727	steife		
+1728	Vornehmheit		
+1729	,		
+1730	so		
+1731	langweilig		
+1732	und		
+1733	so		
+1734	beleidigend		
+1735	ich	(mention_id=85|references=(entity=(entity_id=Nostitz|fullname=Nostitz)))	(mention_id=85|references=(entity=(entity_id=7|fullname=Nostitz|gender=u)))
+1736	sie		
+1737	finde		
+1738	.		
+1739	Und		
+1740	darin		
+1741	unterscheidet		
+1742	er	(mention_id=86|references=(entity=(entity_id=Schachs|fullname=Schachs)))	(mention_id=86|references=(entity=(entity_id=6|fullname=Schach|gender=u)))
+1743	sich	(mention_id=145|references=(entity=(entity_id=Schachs|fullname=Schachs)))	(mention_id=145|references=(entity=(entity_id=6|fullname=Schach|gender=u)))
+1744	von		
+1745	uns	(mention_id=87|references=(entity=(entity_id=wir _Herren_|fullname=wir _Herren_)))	(mention_id=87|references=(entity=(entity_id=28|fullname=Nostitz Alvensleben Bülow|gender=u)))
+1746	.		
+1747	Er	(mention_id=88|references=(entity=(entity_id=Schachs|fullname=Schachs)))	(mention_id=88|references=(entity=(entity_id=6|fullname=Schach|gender=u)))
+1748	ist		
+1749	immer		
+1750	er	(mention_id=89|references=(entity=(entity_id=Schachs|fullname=Schachs)))	(mention_id=89|references=(entity=(entity_id=6|fullname=Schach|gender=u)))
+1751	selbst		
+1752	,		
+1753	gleichviel		
+1754	,		
+1755	ob		
+1756	er	(mention_id=90|references=(entity=(entity_id=Schachs|fullname=Schachs)))	(mention_id=90|references=(entity=(entity_id=6|fullname=Schach|gender=u)))
+1757	in		
+1758	den		
+1759	Salon		
+1760	tritt		
+1761	oder		
+1762	vorm		
+1763	Spiegel		
+1764	steht		
+1765	oder		
+1766	beim		
+1767	Zubettegehn		
+1768	sich	(mention_id=146|references=(entity=(entity_id=Schachs|fullname=Schachs)))	(mention_id=146|references=(entity=(entity_id=6|fullname=Schach|gender=u)))
+1769	seine	(mention_id=127|references=(entity=(entity_id=Schachs|fullname=Schachs)))	(mention_id=127|references=(entity=(entity_id=6|fullname=Schach|gender=u)))
+1770	safranfarbenen		
+1771	Nachthandschuh		
+1772	anzieht		
+1773	.		
+1774	Sander	(mention_id=208|references=(entity=(entity_id=Sander|fullname=Sander)))	(mention_id=208|references=(entity=(entity_id=2|fullname=Sander|gender=u)))
+1775	,		
+1776	der	(mention_id=157|references=(entity=(entity_id=Sander|fullname=Sander)))	(mention_id=157|references=(entity=(entity_id=2|fullname=Sander|gender=u)))
+1777	ihn	(mention_id=91|references=(entity=(entity_id=Schachs|fullname=Schachs)))	(mention_id=91|references=(entity=(entity_id=6|fullname=Schach|gender=u)))
+1778	nicht		
+1779	liebt		
+1780	,		
+1781	soll		
+1782	entscheiden		
+1783	und		
+1784	das		
+1785	letzte		
+1786	Wort		
+1787	über		
+1788	ihn	(mention_id=92|references=(entity=(entity_id=Schachs|fullname=Schachs)))	(mention_id=92|references=(entity=(entity_id=6|fullname=Schach|gender=u)))
+1789	haben		
+1790	.		
+1791	«		
+1792	»		
+1793	Es		
+1794	ist		
+1795	keine		
+1796	drei		
+1797	Tage		
+1798	«		
+1799	,		
+1800	hob		
+1801	dieser	(mention_id=259|references=(entity=(entity_id=Sander|fullname=Sander)))	(mention_id=259|references=(entity=(entity_id=2|fullname=Sander|gender=u)))
+1802	an		
+1803	,		
+1804	»		
+1805	daß		
+1806	ich	(mention_id=93|references=(entity=(entity_id=Sander|fullname=Sander)))	(mention_id=93|references=(entity=(entity_id=2|fullname=Sander|gender=u)))
+1807	in		
+1808	der		
+1809	Haude		
+1810	und		
+1811	Spenerschen		
+1812	gelesen		
+1813	,		
+1814	der		
+1815	Kaiser	(mention_id=209|references=(entity=(entity_id=Kaiser von Brasilien|fullname=Kaiser von Brasilien)))	(mention_id=209|references=(entity=(entity_id=29|fullname=Kaiser von Brasilien|gender=u)))
+1816	von	(mention_id=209|references=(entity=(entity_id=Kaiser von Brasilien|fullname=Kaiser von Brasilien)))	(mention_id=209|references=(entity=(entity_id=29|fullname=Kaiser von Brasilien|gender=u)))
+1817	Brasilien	(mention_id=209|references=(entity=(entity_id=Kaiser von Brasilien|fullname=Kaiser von Brasilien)))	(mention_id=209|references=(entity=(entity_id=29|fullname=Kaiser von Brasilien|gender=u)))
+1818	habe		
+1819	den		
+1820	heiligen		
+1821	Antonius	(mention_id=210|references=(entity=(entity_id=Antonius|fullname=Antonius)))	(mention_id=210|references=(entity=(entity_id=30|fullname=Antonius|gender=u)))
+1822	zum		
+1823	Obristlieutenant	(mention_id=260|references=(entity=(entity_id=Antonius|fullname=Antonius)))	(mention_id=260|references=(entity=(entity_id=30|fullname=Antonius|gender=u)))
+1824	befördert		
+1825	und		
+1826	seinen	(mention_id=128|references=(entity=(entity_id=Kaiser von Brasilien|fullname=Kaiser von Brasilien)))	(mention_id=128|references=(entity=(entity_id=29|fullname=Kaiser von Brasilien|gender=u)))
+1827	Kriegsminister	(mention_id=261|references=(entity=(entity_id=Kriegsminister|fullname=Kriegsminister)))	(mention_id=261|references=(entity=(entity_id=31|fullname=Kriegsminister|gender=u)))
+1828	angewiesen		
+1829	,		
+1830	besagtem		
+1831	Heiligen	(mention_id=262|references=(entity=(entity_id=Antonius|fullname=Antonius)))	(mention_id=262|references=(entity=(entity_id=30|fullname=Antonius|gender=u)))
+1832	die		
+1833	Löhnung		
+1834	bis		
+1835	auf		
+1836	weiteres		
+1837	gutzuschreiben		
+1838	.		
+1839	Welche		
+1840	Gutschreibung		
+1841	mir	(mention_id=147|references=(entity=(entity_id=Sander|fullname=Sander)))	(mention_id=147|references=(entity=(entity_id=2|fullname=Sander|gender=u)))
+1842	einen		
+1843	noch		
+1844	größeren		
+1845	Eindruck		
+1846	gemacht		
+1847	hat		
+1848	als		
+1849	die		
+1850	Beförderung		
+1851	.		
+1852	Aber		
+1853	gleichviel		
+1854	.		
+1855	In		
+1856	Tagen		
+1857	derartiger		
+1858	Ernennungen		
+1859	und		
+1860	Beförderungen		
+1861	wird		
+1862	es		
+1863	nicht		
+1864	auffallen		
+1865	,		
+1866	wenn		
+1867	ich	(mention_id=94|references=(entity=(entity_id=Sander|fullname=Sander)))	(mention_id=94|references=(entity=(entity_id=2|fullname=Sander|gender=u)))
+1868	die		
+1869	Gefühle		
+1870	dieser		
+1871	Stunde		
+1872	,		
+1873	zugleich		
+1874	aber		
+1875	den		
+1876	von		
+1877	mir	(mention_id=95|references=(entity=(entity_id=Sander|fullname=Sander)))	(mention_id=95|references=(entity=(entity_id=2|fullname=Sander|gender=u)))
+1878	geforderten		
+1879	Entscheid		
+1880	und		
+1881	Richterspruch		
+1882	,		
+1883	in		
+1884	die		
+1885	Worte		
+1886	zusammenfasse		
+1887	:		
+1888	Seine	(mention_id=129|references=(entity=(entity_id=Schachs|fullname=Schachs)))	(mention_id=129|references=(entity=(entity_id=6|fullname=Schach|gender=u)))
+1889	Majestät	(mention_id=211|references=(entity=(entity_id=Schachs|fullname=Schachs)))	(mention_id=211|references=(entity=(entity_id=6|fullname=Schach|gender=u)))
+1890	der		
+1891	Rittmeister	(mention_id=263|references=(entity=(entity_id=Schachs|fullname=Schachs)))	(mention_id=263|references=(entity=(entity_id=6|fullname=Schach|gender=u)))
+1892	von		
+1893	Schach	(mention_id=244|references=(entity=(entity_id=Schachs|fullname=Schachs)))	(mention_id=244|references=(entity=(entity_id=6|fullname=Schach|gender=u)))
+1894	,		
+1895	er	(mention_id=96|references=(entity=(entity_id=Schachs|fullname=Schachs)))	(mention_id=96|references=(entity=(entity_id=6|fullname=Schach|gender=u)))
+1896	lebe		
+1897	hoch		
+1898	.		
+1899	«		
+1900	»		
+1901	Oh		
+1902	,		
+1903	vorzüglich		
+1904	,		
+1905	Sander	(mention_id=212|references=(entity=(entity_id=Sander|fullname=Sander)))	(mention_id=212|references=(entity=(entity_id=2|fullname=Sander|gender=u)))
+1906	,		
+1907	«		
+1908	sagte		
+1909	Bülow	(mention_id=213|references=(entity=(entity_id=Bülow|fullname=Bülow)))	(mention_id=213|references=(entity=(entity_id=3|fullname=Bülow|gender=u)))
+1910	,		
+1911	»		
+1912	damit		
+1913	haben		
+1914	Sie's	(mention_id=214|references=(entity=(entity_id=Sander|fullname=Sander)))	(mention_id=214|references=(entity=(entity_id=3|fullname=Bülow|gender=u)))
+1915	getroffen		
+1916	.		
+1917	Die		
+1918	ganze		
+1919	Lächerlichkeit		
+1920	auf		
+1921	einen		
+1922	Schlag		
+1923	.		
+1924	Der		
+1925	kleine		
+1926	Mann	(mention_id=215|references=(entity=(entity_id=Schachs|fullname=Schachs)))	(mention_id=215|references=(entity=(entity_id=6|fullname=Schach|gender=u)))
+1927	in		
+1928	den		
+1929	großen		
+1930	Stiefeln		
+1931	!		
+1932	Aber		
+1933	meinetwegen		
+1934	,		
+1935	er	(mention_id=97|references=(entity=(entity_id=Schachs|fullname=Schachs)))	(mention_id=97|references=(entity=(entity_id=6|fullname=Schach|gender=u)))
+1936	lebe		
+1937	!		
+1938	«		
+1939	»		
+1940	Da		
+1941	haben		
+1942	wir	(mention_id=98|references=(entity=(entity_id=wir _Herren_|fullname=wir _Herren_)))	(mention_id=98|references=(entity=(entity_id=1|fullname=ich|gender=u)))
+1943	denn		
+1944	zum		
+1945	Überfluß		
+1946	auch		
+1947	noch		
+1948	die		
+1949	Sprache		
+1950	von		
+1951	›		
+1952	Seiner	(mention_id=130|references=(entity=(entity_id=Schachs|fullname=Schachs)))	(mention_id=130|references=(entity=(entity_id=6|fullname=Schach|gender=u)))
+1953	Majestät	(mention_id=216|references=(entity=(entity_id=Schachs|fullname=Schachs)))	(mention_id=216|references=(entity=(entity_id=6|fullname=Schach|gender=u)))
+1954	getreuster		
+1955	Opposition		
+1956	‹		
+1957	«		
+1958	,		
+1959	antwortete		
+1960	Sander	(mention_id=217|references=(entity=(entity_id=Sander|fullname=Sander)))	(mention_id=217|references=(entity=(entity_id=2|fullname=Sander|gender=u)))
+1961	und		
+1962	erhob		
+1963	sich	(mention_id=148|references=(entity=(entity_id=Sander|fullname=Sander)))	(mention_id=148|references=(entity=(entity_id=2|fullname=Sander|gender=u)))
+1964	.		
+1965	»		
+1966	Und		
+1967	nun		
+1968	,		
+1969	Fritz	(mention_id=218|references=(entity=(entity_id=Fritz|fullname=Fritz)))	(mention_id=218|references=(entity=(entity_id=5|fullname=Fritz|gender=u)))
+1970	,		
+1971	die		
+1972	Rechnung		
+1973	.		
+1974	Erlauben		
+1975	die		
+1976	Herren	(mention_id=219|references=(entity=(entity_id=wir _Herren_|fullname=wir _Herren_)))	(mention_id=219|references=(entity=(entity_id=32|fullname=Herren|gender=u)))
+1977	,		
+1978	daß		
+1979	ich	(mention_id=99|references=(entity=(entity_id=Sander|fullname=Sander)))	(mention_id=99|references=(entity=(entity_id=2|fullname=Sander|gender=u)))
+1980	das		
+1981	Geschäftliche		
+1982	arrangiere		
+1983	.		
+1984	«		
+1985	»		
+1986	In		
+1987	besten		
+1988	Händen		
+1989	«		
+1990	,		
+1991	sagte		
+1992	Nostitz	(mention_id=220|references=(entity=(entity_id=Nostitz|fullname=Nostitz)))	(mention_id=220|references=(entity=(entity_id=7|fullname=Nostitz|gender=u)))
+1993	.		
+1994	Und		
+1995	fünf		
+1996	Minuten		
+1997	später		
+1998	traten		
+1999	alle		
+2000	wieder		
+2001	ins		
+2002	Freie		
+2003	.		
+2004	Der		
+2005	Staub		
+2006	wirbelte		
+2007	vom		
+2008	Tor		
+2009	her		
+2010	die		
+2011	Linden		
+2012	herauf		
+2013	,		
+2014	augenscheinlich		
+2015	war		
+2016	ein		
+2017	starkes		
+2018	Gewitter		
+2019	im		
+2020	Anzug		
+2021	,		
+2022	und		
+2023	die		
+2024	ersten		
+2025	großen		
+2026	Tropfen		
+2027	fielen		
+2028	bereits		
+2029	.		
+2030	»		
+2031	Hâtez-vous		
+2032	.		
+2033	«		
+2034	Und		
+2035	jeder	(mention_id=264|references=(entity=(entity_id=jeder|fullname=jeder)))	(mention_id=264|references=(entity=(entity_id=33|fullname=jeder|gender=u)))
+2036	folgte		
+2037	der		
+2038	Weisung		
+2039	und		
+2040	mühte		
+2041	sich	(mention_id=149|references=(entity=(entity_id=jeder|fullname=jeder)))	(mention_id=149|references=(entity=(entity_id=33|fullname=jeder|gender=u)))
+2042	,		
+2043	so		
+2044	rasch		
+2045	wie		
+2046	möglich		
+2047	und		
+2048	auf		
+2049	nächstem		
+2050	Wege		
+2051	seine	(mention_id=131|references=(entity=(entity_id=jeder|fullname=jeder)))	(mention_id=131|references=(entity=(entity_id=33|fullname=jeder|gender=u)))
+2052	Wohnung		
+2053	zu		
+2054	erreichen		
+2055	.		
+2056	Viertes		
+2057	Kapitel		
+2058	In		
+2059	Tempelhof		
+2060	Der		
+2061	nächste		
+2062	Morgen		
+2063	sah		
+2064	Frau	(mention_id=221|references=(entity=(entity_id=Frau von Carayon|fullname=Frau von Carayon)))	(mention_id=221|references=(entity=(entity_id=20|fullname=Frau von Carayon|gender=u)))
+2065	von	(mention_id=221|references=(entity=(entity_id=Frau von Carayon|fullname=Frau von Carayon)))	(mention_id=221|references=(entity=(entity_id=20|fullname=Frau von Carayon|gender=u)))
+2066	Carayon	(mention_id=221|references=(entity=(entity_id=Frau von Carayon|fullname=Frau von Carayon)))	(mention_id=221|references=(entity=(entity_id=20|fullname=Frau von Carayon|gender=u)))
+2067	und		
+2068	Tochter	(mention_id=222|references=(entity=(entity_id=Fräulein Victoire|fullname=Fräulein Victoire)))	(mention_id=222|references=(entity=(entity_id=14|fullname=Victoire|gender=u)))
+2069	in		
+2070	demselben		
+2071	Eckzimmer		
+2072	,		
+2073	in		
+2074	dem		
+2075	sie	(mention_id=100|references=(entity=(entity_id=Mutter_Tochter|fullname=Mutter_Tochter)))	(mention_id=100|references=(entity=(entity_id=20|fullname=Frau von Carayon|gender=u)))
+2076	den		
+2077	Abend		
+2078	vorher		
+2079	ihre	(mention_id=132|references=(entity=(entity_id=Mutter_Tochter|fullname=Mutter_Tochter)))	(mention_id=132|references=(entity=(entity_id=20|fullname=Frau von Carayon|gender=u)))
+2080	Freunde	(mention_id=265|references=(entity=(entity_id=Freunde|fullname=Freunde)))	(mention_id=265|references=(entity=(entity_id=34|fullname=Frau von Carayon und Victoire|gender=u)))
+2081	bei		
+2082	sich	(mention_id=150|references=(entity=(entity_id=Mutter_Tochter|fullname=Mutter_Tochter)))	(mention_id=150|references=(entity=(entity_id=34|fullname=Frau von Carayon und Victoire|gender=u)))
+2083	empfangen		
+2084	hatten		
+2085	.		
+2086	Beide	(mention_id=266|references=(entity=(entity_id=Mutter_Tochter|fullname=Mutter_Tochter)))	(mention_id=266|references=(entity=(entity_id=34|fullname=Frau von Carayon und Victoire|gender=u)))
+2087	liebten		
+2088	das		
+2089	Zimmer		
+2090	und		
+2091	gaben		
+2092	ihm		
+2093	auf		
+2094	Kosten		
+2095	aller		
+2096	andern		
+2097	den		
+2098	Vorzug		
+2099	.		
+2100	Es		
+2101	hatte		
+2102	drei		
+2103	hohe		
+2104	Fenster		
+2105	,		
+2106	von		
+2107	denen		
+2108	die		
+2109	beiden		
+2110	untereinander		
+2111	im		
+2112	rechten		
+2113	Winkel		
+2114	stehenden		
+2115	auf		
+2116	die		
+2117	Behren-		
+2118	und		
+2119	Charlottenstraße		
+2120	sahen		
+2121	,		
+2122	während		
+2123	das		
+2124	dritte		
+2125	,		
+2126	türartige		
+2127	,		
+2128	das		
+2129	ganze		
+2130	,		
+2131	breit		
+2132	abgestumpfte		
+2133	Eck		
+2134	einnahm		
+2135	und		
+2136	auf		
+2137	einen		
+2138	mit		
+2139	einem		
+2140	vergoldeten		
+2141	Rokokogitter		
+2142	eingefaßten		
+2143	Balkon		
+2144	hinausführte		
+2145	.		
+2146	Sobald		
+2147	es		
+2148	die		
+2149	Jahreszeit		
+2150	erlaubte		
+2151	,		
+2152	stand		
+2153	diese		
+2154	Balkontür		
+2155	offen		
+2156	und		
+2157	gestattete		
+2158	,		
+2159	von		
+2160	beinah		
+2161	jeder		
+2162	Stelle		
+2163	des		
+2164	Zimmers		
+2165	aus		
+2166	,		
+2167	einen		
+2168	Blick		
+2169	auf		
+2170	das		
+2171	benachbarte		
+2172	Straßentreiben		
+2173	,		
+2174	das		
+2175	,		
+2176	der		
+2177	aristokratischen		
+2178	Gegend		
+2179	unerachtet		
+2180	,		
+2181	zu		
+2182	mancher		
+2183	Zeit		
+2184	ein		
+2185	besonders		
+2186	belebtes		
+2187	war		
+2188	,		
+2189	am		
+2190	meisten		
+2191	um		
+2192	die		
+2193	Zeit		
+2194	der		
+2195	Frühjahrsparaden		
+2196	,		
+2197	wo		
+2198	nicht		
+2199	bloß		
+2200	die		
+2201	berühmten		
+2202	alten		
+2203	Infanterieregimenter		
+2204	der		
+2205	Berliner		
+2206	Garnison		
+2207	,		
+2208	sondern		
+2209	,		
+2210	was		
+2211	für		
+2212	die		
+2213	Carayons	(mention_id=267|references=(entity=(entity_id=Mutter_Tochter|fullname=Mutter_Tochter)))	(mention_id=267|references=(entity=(entity_id=10|fullname=Carayons|gender=u)))
+2214	wichtiger		
+2215	war		
+2216	,		
+2217	auch		
+2218	die		
+2219	Regimenter	(mention_id=269|references=(entity=(entity_id=Regimenter|fullname=Regimenter)))	(mention_id=269|references=(entity=(entity_id=35|fullname=Regimenter|gender=u)))
+2220	der		
+2221	Garde	(mention_id=270|references=(entity=(entity_id=Regiment Garde du Corps|fullname=Regiment Garde du Corps)))	(mention_id=270|references=(entity=(entity_id=26|fullname=Regiment Garde du Corps|gender=u)))
+2222	du	(mention_id=270|references=(entity=(entity_id=Regiment Garde du Corps|fullname=Regiment Garde du Corps)))	(mention_id=270|references=(entity=(entity_id=26|fullname=Regiment Garde du Corps|gender=u)))
+2223	Corps	(mention_id=270|references=(entity=(entity_id=Regiment Garde du Corps|fullname=Regiment Garde du Corps)))	(mention_id=270|references=(entity=(entity_id=26|fullname=Regiment Garde du Corps|gender=u)))
+2224	und		
+2225	Gensdarmes	(mention_id=229|references=(entity=(entity_id=Gensdarmes|fullname=Gensdarmes)))	(mention_id=229|references=(entity=(entity_id=27|fullname=Regiment Gensdarmes|gender=u)))
+2226	unter		
+2227	dem		
+2228	Klang		
+2229	ihrer	(mention_id=133|references=(entity=(entity_id=Regimenter|fullname=Regimenter)))	(mention_id=133|references=(entity=(entity_id=35|fullname=Regimenter|gender=u)))
+2230	silbernen		
+2231	Trompeten		
+2232	an		
+2233	dem		
+2234	Hause		
+2235	vorüberzogen		
+2236	.		
+2237	Bei		
+2238	solcher		
+2239	Gelegenheit		
+2240	(		
+2241	wo		
+2242	sich		
+2243	dann		
+2244	selbstverständlich		
+2245	die		
+2246	Augen		
+2247	der		
+2248	Herrn	(mention_id=223|references=(entity=(entity_id=Herrn Offiziers|fullname=Herrn Offiziers)))	
+2249	Offiziers	(mention_id=223|references=(entity=(entity_id=Herrn Offiziers|fullname=Herrn Offiziers)))	
+2250	zu		
+2251	dem		
+2252	Balkon		
+2253	hinaufrichteten		
+2254	)		
+2255	hatte		
+2256	das		
+2257	Eckzimmer		
+2258	erst		
+2259	seinen		
+2260	eigentlichen		
+2261	Wert		
+2262	und		
+2263	hätte		
+2264	gegen		
+2265	kein		
+2266	anderes		
+2267	vertauscht		
+2268	werden		
+2269	können		
+2270	.		

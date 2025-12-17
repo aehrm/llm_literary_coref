@@ -1,0 +1,5118 @@
+{
+  "model": "google/gemini-2.5-flash-lite",
+  "request_args": {
+    "seed": 123,
+    "temperature": 0,
+    "reasoning": {
+      "enabled": false
+    },
+    "provider": {
+      "only": [
+        "google-vertex"
+      ]
+    }
+  },
+  "raw_input": "\n# Figurenannotation in literarischen Texten\n\n## Aufgabe\nAnnotiere alle markierten Figuren-Erw\u00e4hnungen im Text mit einer eindeutigen, konsistenten Bezeichnung.\n\n## Input\nDu erh\u00e4ltst:\n1. Den vollst\u00e4ndigen Text (A), in dem Figuren-Erw\u00e4hnungen mit [eckigen Klammern][ID] markiert sind\n2. Eine Liste der zu annotierenden Erw\u00e4hnungen (B) mit folgenden Feldern:\n   - \"ID\": Numerische ID der Erw\u00e4hnung\n   - \"Position\": Position im Text (Token-Index)\n   - \"Text\": Wortlaut der Erw\u00e4hnung\n   - \"Annotation\": Zu bef\u00fcllendes Feld (aktuell leer)\n\n## Annotationsregeln\n1. Weise jeder Erw\u00e4hnung GENAU EINE Figurenbezeichnung zu\n2. Verwende den Eigennamen (vorzugsweise Vornamen) der Figur, wenn im Text genannt\n3. Bei fehlenden Namen: Erstelle eine pr\u00e4zise, textnahe Umschreibung\n4. Bei mehreren Figuren: Trenne Bezeichnungen durch Komma (nicht \"und\")\n5. Bei unspezifischen Gruppen: Verwende eine passende Gruppenbezeichnung\n6. WICHTIG: Verwende f\u00fcr dieselbe Figur IMMER die gleiche Bezeichnung\n\n## Ausgabeformat\n- Gib NUR die aktualisierte Liste B zur\u00fcck\n- Stelle sicher, dass wirklich jeder Eintrag der Liste B auch in der Ausgabe vorkommt\n- Ein JSON-Objekt pro Zeile (keine Liste, keine code fences)\n- Keine zus\u00e4tzlichen Erkl\u00e4rungen oder Kommentare\n\n## Beispiel\n**Input A:**\nIn der Fr\u00fche fragte [Madlen][1] [ihre][2] [Tochter][3], wie [Trudi][4] geschlafen h\u00e4tte. [Sie][5] schlief noch.\n\n**Input B:**\n{\"ID\": 1, \"Position\": 5, \"Text\": \"Madlen\", \"Annotation\": \"\"}\n{\"ID\": 2, \"Position\": 6, \"Text\": \"ihre\", \"Annotation\": \"\"}\n{\"ID\": 3, \"Position\": 7, \"Text\": \"Tochter\", \"Annotation\": \"\"}\n{\"ID\": 4, \"Position\": 10, \"Text\": \"Trudi\", \"Annotation\": \"\"}\n{\"ID\": 5, \"Position\": 15, \"Text\": \"Sie\", \"Annotation\": \"\"}\n\n**Erwartete Ausgabe:**\n{\"ID\": 1, \"Position\": 5, \"Text\": \"Madlen\", \"Annotation\": \"Madlen\"}\n{\"ID\": 2, \"Position\": 6, \"Text\": \"ihre\", \"Annotation\": \"Madlen\"}\n{\"ID\": 3, \"Position\": 7, \"Text\": \"Tochter\", \"Annotation\": \"Trudi\"}\n{\"ID\": 4, \"Position\": 10, \"Text\": \"Trudi\", \"Annotation\": \"Trudi\"}\n{\"ID\": 5, \"Position\": 15, \"Text\": \"Sie\", \"Annotation\": \"Trudi\"}\n\n---\n\n**Hier ist der zu annotierende Text:**  \nInput A:\nGott sei gedankt ! Gott sei gedankt ! Unten in der Scheune gab's ein frisches Rumoren . Das R\u00fcstzeug f\u00fcr die Fr\u00fchlingsarbeiten wurde hervorgesucht , gepr\u00fcft , ausgebessert . Dann standen die Fenster des Hauses weit ge\u00f6ffnet , und die Fr\u00fchlingssonne schien hinein . Die Wintersaat war in k\u00fcrzester Zeit hoch im Halm . Die Ochsen wurden eingeschirrt und zogen hinaus aufs Feld . Jauchzende Lerchen stiegen von der braunen Erde auf . [Hendrik][1] sattelte Kincs und ritt in die Weinberge hinaus . Manchmal folgte [ihm][2] [Tralgoth][3] , manchmal hielten [ihn][4] Gesch\u00e4fte im Hause fest . Dann war [er][5] fast der einzige daheim . [Bela][6] war in der Schule , [Kyrilla][7] hatte Besorgungen in der Stadt und richtete [sich][8] so ein , da\u00df [sie][9] [ihren][10] [Jungen][11] erwarten und mit [ihm][12] nach Hause gehen konnte . Dann machten [sie][13] wohl einen Umweg und lie\u00dfen [sich][14] am Steinbruch nieder . Unten im Kessel hatten die Arbeiten wieder begonnen , und [Bela][15] interessierte es , den auf Leitern stehenden [Steinklopfern][16] zuzusehen . Ert\u00f6nte dann Hufschlag , so wurden [Mutter][17] und [Sohn][18] rot . Der [letztere][19] wollte auf die Stra\u00dfe hinausst\u00fcrzen ; [Kyrilla][20] erfa\u00dfte [ihn][21] immer noch rechtzeitig und hielt [ihn][22] fest . \u2013 Die [Leute][23] prophezeiten einen hei\u00dfen Sommer . Schon jetzt im April brannte die Sonne mit ungew\u00f6hnlicher Kraft nieder . Die B\u00e4ume im Garten hatten ihr reichstes Bl\u00fctenkleid angelegt . Auf den Feldern und Wiesen schimmerte es buntfarbig . Die Arbeiten , die infolge der hei\u00dfen Witterung beschleunigt werden mu\u00dften , f\u00fchrten zeitweilige l\u00e4ngere Trennungen zwischen den Bewohnern des Tralgothhofes herbei . [\u00d6sz][24] blieb tagelang in den Weing\u00e4rten drau\u00dfen , [Emmerich][25] kehrte sp\u00e4t abends von [seinen][26] Feldern heim . Fanden [sie][27] [sich][28] wieder zu Hause zusammen , so fielen nur kurze gesch\u00e4ftliche Bemerkungen zwischen [ihnen][29] . Jeder schien froh zu sein , so wenig als m\u00f6glich mit dem andern zu thun zu haben . Eines Sp\u00e4tnachmittags verlie\u00df [Bela][30] die Schule . Die [Mutter][31] erwartete [ihn][32] vor dem Ausgang . Der Himmel war voll rosig angehauchter Wolken , die wie ein brennendes Gebirge die Ebene einfa\u00dften . \u00bb Noch nicht nach Hause gehen , \u00ab bat [Bela][33] . \u00bb Spiel' doch im Garten , \u00ab meinte [Kyrilla][34] . \u00bb Da kann [ich][35] [mich][36] nicht r\u00fchren . [Sie][37] bestreuen die Wege mit Kies und haben den Zaun gestrichen . Gehen [wir][38] doch nach dem Steinbruch . \u00ab [Sie][39] sah [seine][40] bittenden Augen auf [sich][41] gerichtet und willfahrte [seinem][42] Wunsch . [Sie][43] schritten \u00fcber die jungen Blumen dahin , die unter [ihren][44] leichten Tritten die K\u00f6pfe kaum bogen . [Bela][45] ri\u00df [seine][46] M\u00fctze vom Kopf . \u00bb [Du][47] , [Mutter][48] , es ist doch sch\u00f6n . \u00ab [Seine][49] gebl\u00e4hten N\u00fcstern sogen begierig die w\u00fcrzige Luft ein . \u00bb Und alles , was noch kommen kann . \u00ab [Er][50] sah mit gl\u00e4nzenden Augen umher . [Sie][51] verstand [ihn][52] nicht und fragte , was [er][53] meine . Da war [er][54] [ihr][55] aber auch schon vorausgeeilt und im W\u00e4ldchen verschwunden . \u00bb [Du][56] seliger Schatz , schau einmal dort hinab , wie das gelbe Gestein aus der dunklen Erde herausquillt . Die arme Erde ! Ob sie es denn wirklich nicht sp\u00fcrt , wenn [sie][57] so mit H\u00e4mmern und Schl\u00e4geln an ihrem Leibe herumhauen ! Hast [du][58] nicht ein paar Brotkrumen in der Tasche ? [Ich][59] bin so hungrig . \u00ab [Er][60] verga\u00df das , was [ihn][61] eben noch so sehr interessiert hatte , um [seinen][62] kleinen knurrenden Magen zu befriedigen . \u00bb Hast [du][63] denn nicht [dein][64] Vesperbrot verzehrt ? \u00ab \u00bb Ei freilich ! \u00ab \u00bb Und doch noch Hunger ? \u00ab \u00bb Und was f\u00fcr einen ! \u00ab \u00bb Nun Geduld ! Es giebt bald Abendessen . \u00ab [Er][65] schnitt [ihrer][66] [ihm][67] hingehaltenen leeren Tasche eine kleine Grimasse . In diesem Augenblick erklangen Hufschl\u00e4ge . [Bela][68] hob den Kopf . Und pl\u00f6tzlich hat [er][69] alles um [sich][70] her vergessen . Der rote Himmel , die berauschende Luft haben [ihn][71] trunken gemacht . [Er][72] entrei\u00dft [sich][73] den H\u00e4nden der [Mutter][74] und st\u00fcrzt durch das Baumdickicht auf die Landstra\u00dfe hinaus . [Seine][75] aufgehobenen Arme sinken wie gel\u00e4hmt nieder , [sein][76] eben noch strahlendes Gesicht erbla\u00dft . [Sein][77] [Vater][78] steht [ihm][79] gegen\u00fcber . [Beide][80] starren [einander][81] an . \u00bb So , da bist [du][82] . Was machst [du][83] hier ? \u00ab [Tralgoth][84] steigt von [seinem][85] Pferd ab . \u00bb Wie kannst [du][86] [dich][87] hier allein herumtreiben ? \u00ab \u00bb [Ich][88] bin nicht allein . \u00ab \u00bb So ? Wer ist denn bei [dir][89] ? \u00ab \u00bb Die [Mutter][90] . \u00ab \u00bb Ah \u2013 ah so . \u00ab [Kyrilla][91] tritt zwischen den B\u00e4umen hervor . \u00bb Es ist ein alter Lieblingsplatz von [uns][92] . Geht alles gut drau\u00dfen ? \u00ab [Sie][93] meinte im Weingarten . [Er][94] gab keine Antwort . [Sein][95] fahles , fleischloses Gesicht verzerrte sich zu einem unheimlichen L\u00e4cheln . \u00bb Wem hat man denn so gar sehns\u00fcchtig hier aufgepa\u00dft ? \u00ab [Kyrilla][96] f\u00fchlte [sich][97] einer Ohnmacht nahe . [Sie][98] sah ratlos auf das [Kind][99] , zu dessen Verteidigung [sie][100] kein Wort zu sagen wu\u00dfte . \u00bb [Ich][101] dachte , es w\u00e4re [Onkel Hendrik][102] , \u00ab antwortete der [Junge][103] trotzig . \u00bb So . \u00ab \u2013 [Emmerich][104] bestieg wieder [sein][105] Ro\u00df und ritt heimw\u00e4rts . [Sie][106] folgten [ihm][107] in einiger Entfernung . [Sie][108] redeten kein Wort miteinander . Am n\u00e4chsten Tage , als [Tralgoth][109] vor\u00fcber ritt , hielt [er][110] an und horchte . [Er][111] vernahm nichts . Vielleicht fl\u00fcstern [sie][112] zusammen , dachte [er][113] . [Er][114] stieg ab und durchsp\u00e4hte das n\u00e4chste Geb\u00fcsch . [Er][115] sah niemand . [Er][116] nahm [seinen][117] Weg weiter nach dem Weingarten hinaus . [Er][118] fand [Hendrik][119] vollauf besch\u00e4ftigt . \u00bb Na , da geht's ja r\u00fcstig vorw\u00e4rts , \u00ab sagte [er][120] zu den arbeitenden Tagel\u00f6hnern . Dann wandte [er][121] [sich][122] zu [\u00d6sz][123] . \u00bb Gestern lie\u00dfest [du][124] [sie][125] vergeblich warten . Wie kann man nur so grausam sein ? \u00ab [Hendrik][126] sah [ihn][127] verst\u00e4ndnislos an . \u00bb [Ich][128] lie\u00df [sie][129] warten ? Wen lie\u00df [ich][130] warten ? \u00ab \u00bb Nun , das wirst [du][131] doch besser wissen als [ich][132] . \u00ab \u00bb [Ich][133] verstehe kein Wort . Was meinst [du][134] ? Rede gef\u00e4lligst . \u00ab \u00bb Nun , nun , das ist wirklich spa\u00dfig ! Im Steinbruch , auf [ihrem][135] Lieblingsplatz . \u00ab \u00bb Wen lie\u00df [ich][136] warten ? \u00ab donnerte [Hendrik][137] mit flammenden Augen . [Emmerich][138] trat einen Schritt zur\u00fcck . \u00bb Nun , nun , die [Leute][139] brauchen es nicht zu wissen . Der [Junge][140] machte ein ganz ungl\u00fcckliches Gesicht , als [er][141] nur den [Vater][142] statt des geliebten [Onkels][143] erblickte . \u00ab [Hendrik][144] ri\u00df rasch [seine][145] Pfeife heraus , steckte sie zwischen die Z\u00e4hne und wandte [sich][146] scheinbar gleichgiltig mit ein paar Worten an die [Leute][147] . [Emmerich][148] rieb [sich][149] die H\u00e4nde . [Er][150] unterhielt [sich][151] einige Minuten lang mit dem [Aufseher][152] ; dann ritt [er][153] im raschesten Galopp heimw\u00e4rts . Als [er][154] an dem Kastanienw\u00e4ldchen vor\u00fcberkam , sah [er][155] eine Flasche am Boden liegen . [Er][156] verga\u00df , da\u00df sie von den [Arbeitern][157] unten im Bruch herr\u00fchren konnte . [Sie][158] scheinen sich's hier gut sein zu lassen , dachte [er][159] mit heimlichem Hohn . Nun , [ich][160] werde [ihnen][161] schon auf [ihre][162] Schliche kommen . [Er][163] thut , als w\u00fc\u00dfte [er][164] von nichts . Der [Junge][165] best\u00e4tigte doch , da\u00df [er][166] [ihn][167] erwartete . Na , pa\u00dft auf . [Ich][168] will einmal ohne Pferd hierherkommen , da\u00df [mich][169] der Hufschlag nicht verr\u00e4t . Wer wei\u00df , was [ich][170] da zu sehen bekomme ... XV [Hendrik][171] hatte [sich][172] mit \u00e4u\u00dferster Willensanstrengung ruhig gehalten . [Er][173] hatte einige friedliche Tage hinter [sich][174] , in denen [er][175] ganz in [seinen][176] Arbeiten aufgegangen war . [Er][177] stand eben im Begriff , etwas freier aufzuatmen . Da erschien [Tralgoth][178] mit [seiner][179] neuen , mit der schwersten Anklage . Der Frieden wurde durch einen schrillen Mi\u00dfklang zerst\u00f6rt . In [Hendriks][180] Schl\u00e4fen begann es zu h\u00e4mmern . Was sollte dies Neue wieder bedeuten ? Hatte das [Kind][181] nicht in wahrhaft r\u00fchrender Weise gehorcht und war [ihm][182] fast ausgewichen ?\n\nInput B:\n{\"ID\": 1, \"Position\": 73, \"Text\": \"Hendrik\", \"Annotation\": []}\n{\"ID\": 2, \"Position\": 85, \"Text\": \"ihm\", \"Annotation\": []}\n{\"ID\": 3, \"Position\": 86, \"Text\": \"Tralgoth\", \"Annotation\": []}\n{\"ID\": 4, \"Position\": 90, \"Text\": \"ihn\", \"Annotation\": []}\n{\"ID\": 5, \"Position\": 98, \"Text\": \"er\", \"Annotation\": []}\n{\"ID\": 6, \"Position\": 104, \"Text\": \"Bela\", \"Annotation\": []}\n{\"ID\": 7, \"Position\": 110, \"Text\": \"Kyrilla\", \"Annotation\": []}\n{\"ID\": 8, \"Position\": 118, \"Text\": \"sich\", \"Annotation\": []}\n{\"ID\": 9, \"Position\": 123, \"Text\": \"sie\", \"Annotation\": []}\n{\"ID\": 10, \"Position\": 124, \"Text\": \"ihren\", \"Annotation\": []}\n{\"ID\": 11, \"Position\": 125, \"Text\": \"Jungen\", \"Annotation\": []}\n{\"ID\": 12, \"Position\": 129, \"Text\": \"ihm\", \"Annotation\": []}\n{\"ID\": 13, \"Position\": 137, \"Text\": \"sie\", \"Annotation\": []}\n{\"ID\": 14, \"Position\": 143, \"Text\": \"sich\", \"Annotation\": []}\n{\"ID\": 15, \"Position\": 158, \"Text\": \"Bela\", \"Annotation\": []}\n{\"ID\": 16, \"Position\": 166, \"Text\": \"Steinklopfern\", \"Annotation\": []}\n{\"ID\": 17, \"Position\": 175, \"Text\": \"Mutter\", \"Annotation\": []}\n{\"ID\": 18, \"Position\": 177, \"Text\": \"Sohn\", \"Annotation\": []}\n{\"ID\": 19, \"Position\": 181, \"Text\": \"letztere\", \"Annotation\": []}\n{\"ID\": 20, \"Position\": 188, \"Text\": \"Kyrilla\", \"Annotation\": []}\n{\"ID\": 21, \"Position\": 190, \"Text\": \"ihn\", \"Annotation\": []}\n{\"ID\": 22, \"Position\": 196, \"Text\": \"ihn\", \"Annotation\": []}\n{\"ID\": 23, \"Position\": 201, \"Text\": \"Leute\", \"Annotation\": []}\n{\"ID\": 24, \"Position\": 261, \"Text\": \"\\u00d6sz\", \"Annotation\": []}\n{\"ID\": 25, \"Position\": 269, \"Text\": \"Emmerich\", \"Annotation\": []}\n{\"ID\": 26, \"Position\": 274, \"Text\": \"seinen\", \"Annotation\": []}\n{\"ID\": 27, \"Position\": 279, \"Text\": \"sie\", \"Annotation\": []}\n{\"ID\": 28, \"Position\": 280, \"Text\": \"sich\", \"Annotation\": []}\n{\"ID\": 29, \"Position\": 293, \"Text\": \"ihnen\", \"Annotation\": []}\n{\"ID\": 30, \"Position\": 316, \"Text\": \"Bela\", \"Annotation\": []}\n{\"ID\": 31, \"Position\": 321, \"Text\": \"Mutter\", \"Annotation\": []}\n{\"ID\": 32, \"Position\": 323, \"Text\": \"ihn\", \"Annotation\": []}\n{\"ID\": 33, \"Position\": 354, \"Text\": \"Bela\", \"Annotation\": []}\n{\"ID\": 34, \"Position\": 364, \"Text\": \"Kyrilla\", \"Annotation\": []}\n{\"ID\": 35, \"Position\": 369, \"Text\": \"ich\", \"Annotation\": []}\n{\"ID\": 36, \"Position\": 370, \"Text\": \"mich\", \"Annotation\": []}\n{\"ID\": 37, \"Position\": 374, \"Text\": \"Sie\", \"Annotation\": []}\n{\"ID\": 38, \"Position\": 387, \"Text\": \"wir\", \"Annotation\": []}\n{\"ID\": 39, \"Position\": 394, \"Text\": \"Sie\", \"Annotation\": []}\n{\"ID\": 40, \"Position\": 396, \"Text\": \"seine\", \"Annotation\": []}\n{\"ID\": 41, \"Position\": 400, \"Text\": \"sich\", \"Annotation\": []}\n{\"ID\": 42, \"Position\": 404, \"Text\": \"seinem\", \"Annotation\": []}\n{\"ID\": 43, \"Position\": 407, \"Text\": \"Sie\", \"Annotation\": []}\n{\"ID\": 44, \"Position\": 417, \"Text\": \"ihren\", \"Annotation\": []}\n{\"ID\": 45, \"Position\": 425, \"Text\": \"Bela\", \"Annotation\": []}\n{\"ID\": 46, \"Position\": 427, \"Text\": \"seine\", \"Annotation\": []}\n{\"ID\": 47, \"Position\": 433, \"Text\": \"Du\", \"Annotation\": []}\n{\"ID\": 48, \"Position\": 435, \"Text\": \"Mutter\", \"Annotation\": []}\n{\"ID\": 49, \"Position\": 443, \"Text\": \"Seine\", \"Annotation\": []}\n{\"ID\": 50, \"Position\": 463, \"Text\": \"Er\", \"Annotation\": []}\n{\"ID\": 51, \"Position\": 470, \"Text\": \"Sie\", \"Annotation\": []}\n{\"ID\": 52, \"Position\": 472, \"Text\": \"ihn\", \"Annotation\": []}\n{\"ID\": 53, \"Position\": 478, \"Text\": \"er\", \"Annotation\": []}\n{\"ID\": 54, \"Position\": 483, \"Text\": \"er\", \"Annotation\": []}\n{\"ID\": 55, \"Position\": 484, \"Text\": \"ihr\", \"Annotation\": []}\n{\"ID\": 56, \"Position\": 495, \"Text\": \"Du\", \"Annotation\": []}\n{\"ID\": 57, \"Position\": 527, \"Text\": \"sie\", \"Annotation\": []}\n{\"ID\": 58, \"Position\": 539, \"Text\": \"du\", \"Annotation\": []}\n{\"ID\": 59, \"Position\": 548, \"Text\": \"Ich\", \"Annotation\": []}\n{\"ID\": 60, \"Position\": 554, \"Text\": \"Er\", \"Annotation\": []}\n{\"ID\": 61, \"Position\": 559, \"Text\": \"ihn\", \"Annotation\": []}\n{\"ID\": 62, \"Position\": 568, \"Text\": \"seinen\", \"Annotation\": []}\n{\"ID\": 63, \"Position\": 577, \"Text\": \"du\", \"Annotation\": []}\n{\"ID\": 64, \"Position\": 580, \"Text\": \"dein\", \"Annotation\": []}\n{\"ID\": 65, \"Position\": 614, \"Text\": \"Er\", \"Annotation\": []}\n{\"ID\": 66, \"Position\": 616, \"Text\": \"ihrer\", \"Annotation\": []}\n{\"ID\": 67, \"Position\": 617, \"Text\": \"ihm\", \"Annotation\": []}\n{\"ID\": 68, \"Position\": 631, \"Text\": \"Bela\", \"Annotation\": []}\n{\"ID\": 69, \"Position\": 639, \"Text\": \"er\", \"Annotation\": []}\n{\"ID\": 70, \"Position\": 642, \"Text\": \"sich\", \"Annotation\": []}\n{\"ID\": 71, \"Position\": 654, \"Text\": \"ihn\", \"Annotation\": []}\n{\"ID\": 72, \"Position\": 658, \"Text\": \"Er\", \"Annotation\": []}\n{\"ID\": 73, \"Position\": 660, \"Text\": \"sich\", \"Annotation\": []}\n{\"ID\": 74, \"Position\": 664, \"Text\": \"Mutter\", \"Annotation\": []}\n{\"ID\": 75, \"Position\": 675, \"Text\": \"Seine\", \"Annotation\": []}\n{\"ID\": 76, \"Position\": 683, \"Text\": \"sein\", \"Annotation\": []}\n{\"ID\": 77, \"Position\": 690, \"Text\": \"Sein\", \"Annotation\": []}\n{\"ID\": 78, \"Position\": 691, \"Text\": \"Vater\", \"Annotation\": []}\n{\"ID\": 79, \"Position\": 693, \"Text\": \"ihm\", \"Annotation\": []}\n{\"ID\": 80, \"Position\": 696, \"Text\": \"Beide\", \"Annotation\": []}\n{\"ID\": 81, \"Position\": 698, \"Text\": \"einander\", \"Annotation\": []}\n{\"ID\": 82, \"Position\": 706, \"Text\": \"du\", \"Annotation\": []}\n{\"ID\": 83, \"Position\": 710, \"Text\": \"du\", \"Annotation\": []}\n{\"ID\": 84, \"Position\": 714, \"Text\": \"Tralgoth\", \"Annotation\": []}\n{\"ID\": 85, \"Position\": 717, \"Text\": \"seinem\", \"Annotation\": []}\n{\"ID\": 86, \"Position\": 724, \"Text\": \"du\", \"Annotation\": []}\n{\"ID\": 87, \"Position\": 725, \"Text\": \"dich\", \"Annotation\": []}\n{\"ID\": 88, \"Position\": 732, \"Text\": \"Ich\", \"Annotation\": []}\n{\"ID\": 89, \"Position\": 745, \"Text\": \"dir\", \"Annotation\": []}\n{\"ID\": 90, \"Position\": 750, \"Text\": \"Mutter\", \"Annotation\": []}\n{\"ID\": 91, \"Position\": 760, \"Text\": \"Kyrilla\", \"Annotation\": []}\n{\"ID\": 92, \"Position\": 774, \"Text\": \"uns\", \"Annotation\": []}\n{\"ID\": 93, \"Position\": 782, \"Text\": \"Sie\", \"Annotation\": []}\n{\"ID\": 94, \"Position\": 787, \"Text\": \"Er\", \"Annotation\": []}\n{\"ID\": 95, \"Position\": 792, \"Text\": \"Sein\", \"Annotation\": []}\n{\"ID\": 96, \"Position\": 816, \"Text\": \"Kyrilla\", \"Annotation\": []}\n{\"ID\": 97, \"Position\": 818, \"Text\": \"sich\", \"Annotation\": []}\n{\"ID\": 98, \"Position\": 823, \"Text\": \"Sie\", \"Annotation\": []}\n{\"ID\": 99, \"Position\": 828, \"Text\": \"Kind\", \"Annotation\": []}\n{\"ID\": 100, \"Position\": 833, \"Text\": \"sie\", \"Annotation\": []}\n{\"ID\": 101, \"Position\": 841, \"Text\": \"Ich\", \"Annotation\": []}\n{\"ID\": 102, \"Position\": 846, \"Text\": \"Onkel Hendrik\", \"Annotation\": []}\n{\"ID\": 103, \"Position\": 852, \"Text\": \"Junge\", \"Annotation\": []}\n{\"ID\": 104, \"Position\": 860, \"Text\": \"Emmerich\", \"Annotation\": []}\n{\"ID\": 105, \"Position\": 863, \"Text\": \"sein\", \"Annotation\": []}\n{\"ID\": 106, \"Position\": 869, \"Text\": \"Sie\", \"Annotation\": []}\n{\"ID\": 107, \"Position\": 871, \"Text\": \"ihm\", \"Annotation\": []}\n{\"ID\": 108, \"Position\": 876, \"Text\": \"Sie\", \"Annotation\": []}\n{\"ID\": 109, \"Position\": 887, \"Text\": \"Tralgoth\", \"Annotation\": []}\n{\"ID\": 110, \"Position\": 892, \"Text\": \"er\", \"Annotation\": []}\n{\"ID\": 111, \"Position\": 897, \"Text\": \"Er\", \"Annotation\": []}\n{\"ID\": 112, \"Position\": 903, \"Text\": \"sie\", \"Annotation\": []}\n{\"ID\": 113, \"Position\": 907, \"Text\": \"er\", \"Annotation\": []}\n{\"ID\": 114, \"Position\": 909, \"Text\": \"Er\", \"Annotation\": []}\n{\"ID\": 115, \"Position\": 918, \"Text\": \"Er\", \"Annotation\": []}\n{\"ID\": 116, \"Position\": 922, \"Text\": \"Er\", \"Annotation\": []}\n{\"ID\": 117, \"Position\": 924, \"Text\": \"seinen\", \"Annotation\": []}\n{\"ID\": 118, \"Position\": 932, \"Text\": \"Er\", \"Annotation\": []}\n{\"ID\": 119, \"Position\": 934, \"Text\": \"Hendrik\", \"Annotation\": []}\n{\"ID\": 120, \"Position\": 949, \"Text\": \"er\", \"Annotation\": []}\n{\"ID\": 121, \"Position\": 957, \"Text\": \"er\", \"Annotation\": []}\n{\"ID\": 122, \"Position\": 958, \"Text\": \"sich\", \"Annotation\": []}\n{\"ID\": 123, \"Position\": 960, \"Text\": \"\\u00d6sz\", \"Annotation\": []}\n{\"ID\": 124, \"Position\": 965, \"Text\": \"du\", \"Annotation\": []}\n{\"ID\": 125, \"Position\": 966, \"Text\": \"sie\", \"Annotation\": []}\n{\"ID\": 126, \"Position\": 979, \"Text\": \"Hendrik\", \"Annotation\": []}\n{\"ID\": 127, \"Position\": 981, \"Text\": \"ihn\", \"Annotation\": []}\n{\"ID\": 128, \"Position\": 986, \"Text\": \"Ich\", \"Annotation\": []}\n{\"ID\": 129, \"Position\": 988, \"Text\": \"sie\", \"Annotation\": []}\n{\"ID\": 130, \"Position\": 993, \"Text\": \"ich\", \"Annotation\": []}\n{\"ID\": 131, \"Position\": 1002, \"Text\": \"du\", \"Annotation\": []}\n{\"ID\": 132, \"Position\": 1007, \"Text\": \"ich\", \"Annotation\": []}\n{\"ID\": 133, \"Position\": 1011, \"Text\": \"Ich\", \"Annotation\": []}\n{\"ID\": 134, \"Position\": 1018, \"Text\": \"du\", \"Annotation\": []}\n{\"ID\": 135, \"Position\": 1038, \"Text\": \"ihrem\", \"Annotation\": []}\n{\"ID\": 136, \"Position\": 1045, \"Text\": \"ich\", \"Annotation\": []}\n{\"ID\": 137, \"Position\": 1050, \"Text\": \"Hendrik\", \"Annotation\": []}\n{\"ID\": 138, \"Position\": 1055, \"Text\": \"Emmerich\", \"Annotation\": []}\n{\"ID\": 139, \"Position\": 1067, \"Text\": \"Leute\", \"Annotation\": []}\n{\"ID\": 140, \"Position\": 1075, \"Text\": \"Junge\", \"Annotation\": []}\n{\"ID\": 141, \"Position\": 1083, \"Text\": \"er\", \"Annotation\": []}\n{\"ID\": 142, \"Position\": 1086, \"Text\": \"Vater\", \"Annotation\": []}\n{\"ID\": 143, \"Position\": 1090, \"Text\": \"Onkels\", \"Annotation\": []}\n{\"ID\": 144, \"Position\": 1094, \"Text\": \"Hendrik\", \"Annotation\": []}\n{\"ID\": 145, \"Position\": 1097, \"Text\": \"seine\", \"Annotation\": []}\n{\"ID\": 146, \"Position\": 1108, \"Text\": \"sich\", \"Annotation\": []}\n{\"ID\": 147, \"Position\": 1117, \"Text\": \"Leute\", \"Annotation\": []}\n{\"ID\": 148, \"Position\": 1119, \"Text\": \"Emmerich\", \"Annotation\": []}\n{\"ID\": 149, \"Position\": 1121, \"Text\": \"sich\", \"Annotation\": []}\n{\"ID\": 150, \"Position\": 1125, \"Text\": \"Er\", \"Annotation\": []}\n{\"ID\": 151, \"Position\": 1127, \"Text\": \"sich\", \"Annotation\": []}\n{\"ID\": 152, \"Position\": 1133, \"Text\": \"Aufseher\", \"Annotation\": []}\n{\"ID\": 153, \"Position\": 1137, \"Text\": \"er\", \"Annotation\": []}\n{\"ID\": 154, \"Position\": 1144, \"Text\": \"er\", \"Annotation\": []}\n{\"ID\": 155, \"Position\": 1151, \"Text\": \"er\", \"Annotation\": []}\n{\"ID\": 156, \"Position\": 1158, \"Text\": \"Er\", \"Annotation\": []}\n{\"ID\": 157, \"Position\": 1165, \"Text\": \"Arbeitern\", \"Annotation\": []}\n{\"ID\": 158, \"Position\": 1172, \"Text\": \"Sie\", \"Annotation\": []}\n{\"ID\": 159, \"Position\": 1182, \"Text\": \"er\", \"Annotation\": []}\n{\"ID\": 160, \"Position\": 1189, \"Text\": \"ich\", \"Annotation\": []}\n{\"ID\": 161, \"Position\": 1191, \"Text\": \"ihnen\", \"Annotation\": []}\n{\"ID\": 162, \"Position\": 1194, \"Text\": \"ihre\", \"Annotation\": []}\n{\"ID\": 163, \"Position\": 1198, \"Text\": \"Er\", \"Annotation\": []}\n{\"ID\": 164, \"Position\": 1203, \"Text\": \"er\", \"Annotation\": []}\n{\"ID\": 165, \"Position\": 1208, \"Text\": \"Junge\", \"Annotation\": []}\n{\"ID\": 166, \"Position\": 1213, \"Text\": \"er\", \"Annotation\": []}\n{\"ID\": 167, \"Position\": 1214, \"Text\": \"ihn\", \"Annotation\": []}\n{\"ID\": 168, \"Position\": 1222, \"Text\": \"Ich\", \"Annotation\": []}\n{\"ID\": 169, \"Position\": 1230, \"Text\": \"mich\", \"Annotation\": []}\n{\"ID\": 170, \"Position\": 1240, \"Text\": \"ich\", \"Annotation\": []}\n{\"ID\": 171, \"Position\": 1247, \"Text\": \"Hendrik\", \"Annotation\": []}\n{\"ID\": 172, \"Position\": 1249, \"Text\": \"sich\", \"Annotation\": []}\n{\"ID\": 173, \"Position\": 1256, \"Text\": \"Er\", \"Annotation\": []}\n{\"ID\": 174, \"Position\": 1262, \"Text\": \"sich\", \"Annotation\": []}\n{\"ID\": 175, \"Position\": 1266, \"Text\": \"er\", \"Annotation\": []}\n{\"ID\": 176, \"Position\": 1269, \"Text\": \"seinen\", \"Annotation\": []}\n{\"ID\": 177, \"Position\": 1274, \"Text\": \"Er\", \"Annotation\": []}\n{\"ID\": 178, \"Position\": 1286, \"Text\": \"Tralgoth\", \"Annotation\": []}\n{\"ID\": 179, \"Position\": 1288, \"Text\": \"seiner\", \"Annotation\": []}\n{\"ID\": 180, \"Position\": 1306, \"Text\": \"Hendriks\", \"Annotation\": []}\n{\"ID\": 181, \"Position\": 1322, \"Text\": \"Kind\", \"Annotation\": []}\n{\"ID\": 182, \"Position\": 1331, \"Text\": \"ihm\", \"Annotation\": []}\n",
+  "raw_output": "{\"ID\": 1, \"Position\": 73, \"Text\": \"Hendrik\", \"Annotation\": \"Hendrik\"}\n{\"ID\": 2, \"Position\": 85, \"Text\": \"ihm\", \"Annotation\": \"Hendrik\"}\n{\"ID\": 3, \"Position\": 86, \"Text\": \"Tralgoth\", \"Annotation\": \"Tralgoth\"}\n{\"ID\": 4, \"Position\": 90, \"Text\": \"ihn\", \"Annotation\": \"Hendrik\"}\n{\"ID\": 5, \"Position\": 98, \"Text\": \"er\", \"Annotation\": \"Hendrik\"}\n{\"ID\": 6, \"Position\": 104, \"Text\": \"Bela\", \"Annotation\": \"Bela\"}\n{\"ID\": 7, \"Position\": 110, \"Text\": \"Kyrilla\", \"Annotation\": \"Kyrilla\"}\n{\"ID\": 8, \"Position\": 118, \"Text\": \"sich\", \"Annotation\": \"Kyrilla\"}\n{\"ID\": 9, \"Position\": 123, \"Text\": \"sie\", \"Annotation\": \"Kyrilla\"}\n{\"ID\": 10, \"Position\": 124, \"Text\": \"ihren\", \"Annotation\": \"Bela\"}\n{\"ID\": 11, \"Position\": 125, \"Text\": \"Jungen\", \"Annotation\": \"Bela\"}\n{\"ID\": 12, \"Position\": 129, \"Text\": \"ihm\", \"Annotation\": \"Bela\"}\n{\"ID\": 13, \"Position\": 137, \"Text\": \"sie\", \"Annotation\": \"Kyrilla\"}\n{\"ID\": 14, \"Position\": 143, \"Text\": \"sich\", \"Annotation\": \"Kyrilla\"}\n{\"ID\": 15, \"Position\": 158, \"Text\": \"Bela\", \"Annotation\": \"Bela\"}\n{\"ID\": 16, \"Position\": 166, \"Text\": \"Steinklopfern\", \"Annotation\": \"Steinklopfer\"}\n{\"ID\": 17, \"Position\": 175, \"Text\": \"Mutter\", \"Annotation\": \"Kyrilla\"}\n{\"ID\": 18, \"Position\": 177, \"Text\": \"Sohn\", \"Annotation\": \"Bela\"}\n{\"ID\": 19, \"Position\": 181, \"Text\": \"letztere\", \"Annotation\": \"Bela\"}\n{\"ID\": 20, \"Position\": 188, \"Text\": \"Kyrilla\", \"Annotation\": \"Kyrilla\"}\n{\"ID\": 21, \"Position\": 190, \"Text\": \"ihn\", \"Annotation\": \"Bela\"}\n{\"ID\": 22, \"Position\": 196, \"Text\": \"ihn\", \"Annotation\": \"Bela\"}\n{\"ID\": 23, \"Position\": 201, \"Text\": \"Leute\", \"Annotation\": \"Leute\"}\n{\"ID\": 24, \"Position\": 261, \"Text\": \"\u00d6sz\", \"Annotation\": \"\u00d6sz\"}\n{\"ID\": 25, \"Position\": 269, \"Text\": \"Emmerich\", \"Annotation\": \"Emmerich\"}\n{\"ID\": 26, \"Position\": 274, \"Text\": \"seinen\", \"Annotation\": \"Emmerich\"}\n{\"ID\": 27, \"Position\": 279, \"Text\": \"sie\", \"Annotation\": \"\u00d6sz, Emmerich\"}\n{\"ID\": 28, \"Position\": 280, \"Text\": \"sich\", \"Annotation\": \"\u00d6sz, Emmerich\"}\n{\"ID\": 29, \"Position\": 293, \"Text\": \"ihnen\", \"Annotation\": \"\u00d6sz, Emmerich\"}\n{\"ID\": 30, \"Position\": 316, \"Text\": \"Bela\", \"Annotation\": \"Bela\"}\n{\"ID\": 31, \"Position\": 321, \"Text\": \"Mutter\", \"Annotation\": \"Kyrilla\"}\n{\"ID\": 32, \"Position\": 323, \"Text\": \"ihn\", \"Annotation\": \"Bela\"}\n{\"ID\": 33, \"Position\": 354, \"Text\": \"Bela\", \"Annotation\": \"Bela\"}\n{\"ID\": 34, \"Position\": 364, \"Text\": \"Kyrilla\", \"Annotation\": \"Kyrilla\"}\n{\"ID\": 35, \"Position\": 369, \"Text\": \"ich\", \"Annotation\": \"Bela\"}\n{\"ID\": 36, \"Position\": 370, \"Text\": \"mich\", \"Annotation\": \"Bela\"}\n{\"ID\": 37, \"Position\": 374, \"Text\": \"Sie\", \"Annotation\": \"Kyrilla\"}\n{\"ID\": 38, \"Position\": 387, \"Text\": \"wir\", \"Annotation\": \"Bela, Kyrilla\"}\n{\"ID\": 39, \"Position\": 394, \"Text\": \"Sie\", \"Annotation\": \"Kyrilla\"}\n{\"ID\": 40, \"Position\": 396, \"Text\": \"seine\", \"Annotation\": \"Bela\"}\n{\"ID\": 41, \"Position\": 400, \"Text\": \"sich\", \"Annotation\": \"Kyrilla\"}\n{\"ID\": 42, \"Position\": 404, \"Text\": \"seinem\", \"Annotation\": \"Bela\"}\n{\"ID\": 43, \"Position\": 407, \"Text\": \"Sie\", \"Annotation\": \"Kyrilla\"}\n{\"ID\": 44, \"Position\": 417, \"Text\": \"ihren\", \"Annotation\": \"Bela, Kyrilla\"}\n{\"ID\": 45, \"Position\": 425, \"Text\": \"Bela\", \"Annotation\": \"Bela\"}\n{\"ID\": 46, \"Position\": 427, \"Text\": \"seine\", \"Annotation\": \"Bela\"}\n{\"ID\": 47, \"Position\": 433, \"Text\": \"Du\", \"Annotation\": \"Kyrilla\"}\n{\"ID\": 48, \"Position\": 435, \"Text\": \"Mutter\", \"Annotation\": \"Kyrilla\"}\n{\"ID\": 49, \"Position\": 443, \"Text\": \"Seine\", \"Annotation\": \"Bela\"}\n{\"ID\": 50, \"Position\": 463, \"Text\": \"Er\", \"Annotation\": \"Bela\"}\n{\"ID\": 51, \"Position\": 470, \"Text\": \"Sie\", \"Annotation\": \"Kyrilla\"}\n{\"ID\": 52, \"Position\": 472, \"Text\": \"ihn\", \"Annotation\": \"Bela\"}\n{\"ID\": 53, \"Position\": 478, \"Text\": \"er\", \"Annotation\": \"Bela\"}\n{\"ID\": 54, \"Position\": 483, \"Text\": \"er\", \"Annotation\": \"Bela\"}\n{\"ID\": 55, \"Position\": 484, \"Text\": \"ihr\", \"Annotation\": \"Kyrilla\"}\n{\"ID\": 56, \"Position\": 495, \"Text\": \"Du\", \"Annotation\": \"Kyrilla\"}\n{\"ID\": 57, \"Position\": 527, \"Text\": \"sie\", \"Annotation\": \"Erde\"}\n{\"ID\": 58, \"Position\": 539, \"Text\": \"du\", \"Annotation\": \"Kyrilla\"}\n{\"ID\": 59, \"Position\": 548, \"Text\": \"Ich\", \"Annotation\": \"Bela\"}\n{\"ID\": 60, \"Position\": 554, \"Text\": \"Er\", \"Annotation\": \"Bela\"}\n{\"ID\": 61, \"Position\": 559, \"Text\": \"ihn\", \"Annotation\": \"Bela\"}\n{\"ID\": 62, \"Position\": 568, \"Text\": \"seinen\", \"Annotation\": \"Bela\"}\n{\"ID\": 63, \"Position\": 577, \"Text\": \"du\", \"Annotation\": \"Kyrilla\"}\n{\"ID\": 64, \"Position\": 580, \"Text\": \"dein\", \"Annotation\": \"Bela\"}\n{\"ID\": 65, \"Position\": 614, \"Text\": \"Er\", \"Annotation\": \"Bela\"}\n{\"ID\": 66, \"Position\": 616, \"Text\": \"ihrer\", \"Annotation\": \"Kyrilla\"}\n{\"ID\": 67, \"Position\": 617, \"Text\": \"ihm\", \"Annotation\": \"Bela\"}\n{\"ID\": 68, \"Position\": 631, \"Text\": \"Bela\", \"Annotation\": \"Bela\"}\n{\"ID\": 69, \"Position\": 639, \"Text\": \"er\", \"Annotation\": \"Bela\"}\n{\"ID\": 70, \"Position\": 642, \"Text\": \"sich\", \"Annotation\": \"Bela\"}\n{\"ID\": 71, \"Position\": 654, \"Text\": \"ihn\", \"Annotation\": \"Bela\"}\n{\"ID\": 72, \"Position\": 658, \"Text\": \"Er\", \"Annotation\": \"Bela\"}\n{\"ID\": 73, \"Position\": 660, \"Text\": \"sich\", \"Annotation\": \"Bela\"}\n{\"ID\": 74, \"Position\": 664, \"Text\": \"Mutter\", \"Annotation\": \"Kyrilla\"}\n{\"ID\": 75, \"Position\": 675, \"Text\": \"Seine\", \"Annotation\": \"Bela\"}\n{\"ID\": 76, \"Position\": 683, \"Text\": \"sein\", \"Annotation\": \"Bela\"}\n{\"ID\": 77, \"Position\": 690, \"Text\": \"Sein\", \"Annotation\": \"Bela\"}\n{\"ID\": 78, \"Position\": 691, \"Text\": \"Vater\", \"Annotation\": \"Tralgoth\"}\n{\"ID\": 79, \"Position\": 693, \"Text\": \"ihm\", \"Annotation\": \"Bela\"}\n{\"ID\": 80, \"Position\": 696, \"Text\": \"Beide\", \"Annotation\": \"Bela, Tralgoth\"}\n{\"ID\": 81, \"Position\": 698, \"Text\": \"einander\", \"Annotation\": \"Bela, Tralgoth\"}\n{\"ID\": 82, \"Position\": 706, \"Text\": \"du\", \"Annotation\": \"Bela\"}\n{\"ID\": 83, \"Position\": 710, \"Text\": \"du\", \"Annotation\": \"Bela\"}\n{\"ID\": 84, \"Position\": 714, \"Text\": \"Tralgoth\", \"Annotation\": \"Tralgoth\"}\n{\"ID\": 85, \"Position\": 717, \"Text\": \"seinem\", \"Annotation\": \"Tralgoth\"}\n{\"ID\": 86, \"Position\": 724, \"Text\": \"du\", \"Annotation\": \"Bela\"}\n{\"ID\": 87, \"Position\": 725, \"Text\": \"dich\", \"Annotation\": \"Bela\"}\n{\"ID\": 88, \"Position\": 732, \"Text\": \"Ich\", \"Annotation\": \"Bela\"}\n{\"ID\": 89, \"Position\": 745, \"Text\": \"dir\", \"Annotation\": \"Bela\"}\n{\"ID\": 90, \"Position\": 750, \"Text\": \"Mutter\", \"Annotation\": \"Kyrilla\"}\n{\"ID\": 91, \"Position\": 760, \"Text\": \"Kyrilla\", \"Annotation\": \"Kyrilla\"}\n{\"ID\": 92, \"Position\": 774, \"Text\": \"uns\", \"Annotation\": \"Bela, Kyrilla\"}\n{\"ID\": 93, \"Position\": 782, \"Text\": \"Sie\", \"Annotation\": \"Kyrilla\"}\n{\"ID\": 94, \"Position\": 787, \"Text\": \"Er\", \"Annotation\": \"Tralgoth\"}\n{\"ID\": 95, \"Position\": 792, \"Text\": \"Sein\", \"Annotation\": \"Tralgoth\"}\n{\"ID\": 96, \"Position\": 816, \"Text\": \"Kyrilla\", \"Annotation\": \"Kyrilla\"}\n{\"ID\": 97, \"Position\": 818, \"Text\": \"sich\", \"Annotation\": \"Kyrilla\"}\n{\"ID\": 98, \"Position\": 823, \"Text\": \"Sie\", \"Annotation\": \"Kyrilla\"}\n{\"ID\": 99, \"Position\": 828, \"Text\": \"Kind\", \"Annotation\": \"Bela\"}\n{\"ID\": 100, \"Position\": 833, \"Text\": \"sie\", \"Annotation\": \"Kyrilla\"}\n{\"ID\": 101, \"Position\": 841, \"Text\": \"Ich\", \"Annotation\": \"Bela\"}\n{\"ID\": 102, \"Position\": 846, \"Text\": \"Onkel Hendrik\", \"Annotation\": \"Hendrik\"}\n{\"ID\": 103, \"Position\": 852, \"Text\": \"Junge\", \"Annotation\": \"Bela\"}\n{\"ID\": 104, \"Position\": 860, \"Text\": \"Emmerich\", \"Annotation\": \"Emmerich\"}\n{\"ID\": 105, \"Position\": 863, \"Text\": \"sein\", \"Annotation\": \"Emmerich\"}\n{\"ID\": 106, \"Position\": 869, \"Text\": \"Sie\", \"Annotation\": \"Kyrilla\"}\n{\"ID\": 107, \"Position\": 871, \"Text\": \"ihm\", \"Annotation\": \"Emmerich\"}\n{\"ID\": 108, \"Position\": 876, \"Text\": \"Sie\", \"Annotation\": \"Kyrilla, Bela\"}\n{\"ID\": 109, \"Position\": 887, \"Text\": \"Tralgoth\", \"Annotation\": \"Tralgoth\"}\n{\"ID\": 110, \"Position\": 892, \"Text\": \"er\", \"Annotation\": \"Tralgoth\"}\n{\"ID\": 111, \"Position\": 897, \"Text\": \"Er\", \"Annotation\": \"Tralgoth\"}\n{\"ID\": 112, \"Position\": 903, \"Text\": \"sie\", \"Annotation\": \"Kyrilla, Bela\"}\n{\"ID\": 113, \"Position\": 907, \"Text\": \"er\", \"Annotation\": \"Tralgoth\"}\n{\"ID\": 114, \"Position\": 909, \"Text\": \"Er\", \"Annotation\": \"Tralgoth\"}\n{\"ID\": 115, \"Position\": 918, \"Text\": \"Er\", \"Annotation\": \"Tralgoth\"}\n{\"ID\": 116, \"Position\": 922, \"Text\": \"Er\", \"Annotation\": \"Tralgoth\"}\n{\"ID\": 117, \"Position\": 924, \"Text\": \"seinen\", \"Annotation\": \"Tralgoth\"}\n{\"ID\": 118, \"Position\": 932, \"Text\": \"Er\", \"Annotation\": \"Tralgoth\"}\n{\"ID\": 119, \"Position\": 934, \"Text\": \"Hendrik\", \"Annotation\": \"Hendrik\"}\n{\"ID\": 120, \"Position\": 949, \"Text\": \"er\", \"Annotation\": \"Tralgoth\"}\n{\"ID\": 121, \"Position\": 957, \"Text\": \"er\", \"Annotation\": \"Tralgoth\"}\n{\"ID\": 122, \"Position\": 958, \"Text\": \"sich\", \"Annotation\": \"Tralgoth\"}\n{\"ID\": 123, \"Position\": 960, \"Text\": \"\u00d6sz\", \"Annotation\": \"\u00d6sz\"}\n{\"ID\": 124, \"Position\": 965, \"Text\": \"du\", \"Annotation\": \"Hendrik\"}\n{\"ID\": 125, \"Position\": 966, \"Text\": \"sie\", \"Annotation\": \"Kyrilla, Bela\"}\n{\"ID\": 126, \"Position\": 979, \"Text\": \"Hendrik\", \"Annotation\": \"Hendrik\"}\n{\"ID\": 127, \"Position\": 981, \"Text\": \"ihn\", \"Annotation\": \"Hendrik\"}\n{\"ID\": 128, \"Position\": 986, \"Text\": \"Ich\", \"Annotation\": \"Hendrik\"}\n{\"ID\": 129, \"Position\": 988, \"Text\": \"sie\", \"Annotation\": \"Kyrilla, Bela\"}\n{\"ID\": 130, \"Position\": 993, \"Text\": \"ich\", \"Annotation\": \"Hendrik\"}\n{\"ID\": 131, \"Position\": 1002, \"Text\": \"du\", \"Annotation\": \"Hendrik\"}\n{\"ID\": 132, \"Position\": 1007, \"Text\": \"ich\", \"Annotation\": \"Tralgoth\"}\n{\"ID\": 133, \"Position\": 1011, \"Text\": \"Ich\", \"Annotation\": \"Hendrik\"}\n{\"ID\": 134, \"Position\": 1018, \"Text\": \"du\", \"Annotation\": \"Hendrik\"}\n{\"ID\": 135, \"Position\": 1038, \"Text\": \"ihrem\", \"Annotation\": \"Kyrilla, Bela\"}\n{\"ID\": 136, \"Position\": 1045, \"Text\": \"ich\", \"Annotation\": \"Hendrik\"}\n{\"ID\": 137, \"Position\": 1050, \"Text\": \"Hendrik\", \"Annotation\": \"Hendrik\"}\n{\"ID\": 138, \"Position\": 1055, \"Text\": \"Emmerich\", \"Annotation\": \"Emmerich\"}\n{\"ID\": 139, \"Position\": 1067, \"Text\": \"Leute\", \"Annotation\": \"Leute\"}\n{\"ID\": 140, \"Position\": 1075, \"Text\": \"Junge\", \"Annotation\": \"Bela\"}\n{\"ID\": 141, \"Position\": 1083, \"Text\": \"er\", \"Annotation\": \"Bela\"}\n{\"ID\": 142, \"Position\": 1086, \"Text\": \"Vater\", \"Annotation\": \"Tralgoth\"}\n{\"ID\": 143, \"Position\": 1090, \"Text\": \"Onkels\", \"Annotation\": \"Hendrik\"}\n{\"ID\": 144, \"Position\": 1094, \"Text\": \"Hendrik\", \"Annotation\": \"Hendrik\"}\n{\"ID\": 145, \"Position\": 1097, \"Text\": \"seine\", \"Annotation\": \"Hendrik\"}\n{\"ID\": 146, \"Position\": 1108, \"Text\": \"sich\", \"Annotation\": \"Emmerich\"}\n{\"ID\": 147, \"Position\": 1117, \"Text\": \"Leute\", \"Annotation\": \"Leute\"}\n{\"ID\": 148, \"Position\": 1119, \"Text\": \"Emmerich\", \"Annotation\": \"Emmerich\"}\n{\"ID\": 149, \"Position\": 1121, \"Text\": \"sich\", \"Annotation\": \"Emmerich\"}\n{\"ID\": 150, \"Position\": 1125, \"Text\": \"Er\", \"Annotation\": \"Emmerich\"}\n{\"ID\": 151, \"Position\": 1127, \"Text\": \"sich\", \"Annotation\": \"Emmerich\"}\n{\"ID\": 152, \"Position\": 1133, \"Text\": \"Aufseher\", \"Annotation\": \"Aufseher\"}\n{\"ID\": 153, \"Position\": 1137, \"Text\": \"er\", \"Annotation\": \"Emmerich\"}\n{\"ID\": 154, \"Position\": 1144, \"Text\": \"er\", \"Annotation\": \"Emmerich\"}\n{\"ID\": 155, \"Position\": 1151, \"Text\": \"er\", \"Annotation\": \"Emmerich\"}\n{\"ID\": 156, \"Position\": 1158, \"Text\": \"Er\", \"Annotation\": \"Emmerich\"}\n{\"ID\": 157, \"Position\": 1165, \"Text\": \"Arbeitern\", \"Annotation\": \"Arbeiter\"}\n{\"ID\": 158, \"Position\": 1172, \"Text\": \"Sie\", \"Annotation\": \"Arbeiter\"}\n{\"ID\": 159, \"Position\": 1182, \"Text\": \"er\", \"Annotation\": \"Emmerich\"}\n{\"ID\": 160, \"Position\": 1189, \"Text\": \"ich\", \"Annotation\": \"Emmerich\"}\n{\"ID\": 161, \"Position\": 1191, \"Text\": \"ihnen\", \"Annotation\": \"Arbeiter\"}\n{\"ID\": 162, \"Position\": 1194, \"Text\": \"ihre\", \"Annotation\": \"Arbeiter\"}\n{\"ID\": 163, \"Position\": 1198, \"Text\": \"Er\", \"Annotation\": \"Emmerich\"}\n{\"ID\": 164, \"Position\": 1203, \"Text\": \"er\", \"Annotation\": \"Emmerich\"}\n{\"ID\": 165, \"Position\": 1208, \"Text\": \"Junge\", \"Annotation\": \"Bela\"}\n{\"ID\": 166, \"Position\": 1213, \"Text\": \"er\", \"Annotation\": \"Bela\"}\n{\"ID\": 167, \"Position\": 1214, \"Text\": \"ihn\", \"Annotation\": \"Emmerich\"}\n{\"ID\": 168, \"Position\": 1222, \"Text\": \"Ich\", \"Annotation\": \"Emmerich\"}\n{\"ID\": 169, \"Position\": 1230, \"Text\": \"mich\", \"Annotation\": \"Emmerich\"}\n{\"ID\": 170, \"Position\": 1240, \"Text\": \"ich\", \"Annotation\": \"Emmerich\"}\n{\"ID\": 171, \"Position\": 1247, \"Text\": \"Hendrik\", \"Annotation\": \"Hendrik\"}\n{\"ID\": 172, \"Position\": 1249, \"Text\": \"sich\", \"Annotation\": \"Hendrik\"}\n{\"ID\": 173, \"Position\": 1256, \"Text\": \"Er\", \"Annotation\": \"Hendrik\"}\n{\"ID\": 174, \"Position\": 1262, \"Text\": \"sich\", \"Annotation\": \"Hendrik\"}\n{\"ID\": 175, \"Position\": 1266, \"Text\": \"er\", \"Annotation\": \"Hendrik\"}\n{\"ID\": 176, \"Position\": 1269, \"Text\": \"seinen\", \"Annotation\": \"Hendrik\"}\n{\"ID\": 177, \"Position\": 1274, \"Text\": \"Er\", \"Annotation\": \"Hendrik\"}\n{\"ID\": 178, \"Position\": 1286, \"Text\": \"Tralgoth\", \"Annotation\": \"Tralgoth\"}\n{\"ID\": 179, \"Position\": 1288, \"Text\": \"seiner\", \"Annotation\": \"Tralgoth\"}\n{\"ID\": 180, \"Position\": 1306, \"Text\": \"Hendriks\", \"Annotation\": \"Hendrik\"}\n{\"ID\": 181, \"Position\": 1322, \"Text\": \"Kind\", \"Annotation\": \"Bela\"}\n",
+  "generation_details": [
+    {
+      "usage": {
+        "prompt_tokens": 8691,
+        "completion_tokens": 5585,
+        "total_tokens": 14276,
+        "cost": 0.0031031,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.0008691,
+          "upstream_inference_completions_cost": 0.002234
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      },
+      "finish_reason": "stop",
+      "request_id": "gen-1765758972-EvrmRnlIqAZBr6lGidP1"
+    }
+  ],
+  "json_output": [
+    {
+      "ID": 1,
+      "Position": 73,
+      "Text": "Hendrik",
+      "Annotation": "Hendrik"
+    },
+    {
+      "ID": 2,
+      "Position": 85,
+      "Text": "ihm",
+      "Annotation": "Hendrik"
+    },
+    {
+      "ID": 3,
+      "Position": 86,
+      "Text": "Tralgoth",
+      "Annotation": "Tralgoth"
+    },
+    {
+      "ID": 4,
+      "Position": 90,
+      "Text": "ihn",
+      "Annotation": "Hendrik"
+    },
+    {
+      "ID": 5,
+      "Position": 98,
+      "Text": "er",
+      "Annotation": "Hendrik"
+    },
+    {
+      "ID": 6,
+      "Position": 104,
+      "Text": "Bela",
+      "Annotation": "Bela"
+    },
+    {
+      "ID": 7,
+      "Position": 110,
+      "Text": "Kyrilla",
+      "Annotation": "Kyrilla"
+    },
+    {
+      "ID": 8,
+      "Position": 118,
+      "Text": "sich",
+      "Annotation": "Kyrilla"
+    },
+    {
+      "ID": 9,
+      "Position": 123,
+      "Text": "sie",
+      "Annotation": "Kyrilla"
+    },
+    {
+      "ID": 10,
+      "Position": 124,
+      "Text": "ihren",
+      "Annotation": "Bela"
+    },
+    {
+      "ID": 11,
+      "Position": 125,
+      "Text": "Jungen",
+      "Annotation": "Bela"
+    },
+    {
+      "ID": 12,
+      "Position": 129,
+      "Text": "ihm",
+      "Annotation": "Bela"
+    },
+    {
+      "ID": 13,
+      "Position": 137,
+      "Text": "sie",
+      "Annotation": "Kyrilla"
+    },
+    {
+      "ID": 14,
+      "Position": 143,
+      "Text": "sich",
+      "Annotation": "Kyrilla"
+    },
+    {
+      "ID": 15,
+      "Position": 158,
+      "Text": "Bela",
+      "Annotation": "Bela"
+    },
+    {
+      "ID": 16,
+      "Position": 166,
+      "Text": "Steinklopfern",
+      "Annotation": "Steinklopfer"
+    },
+    {
+      "ID": 17,
+      "Position": 175,
+      "Text": "Mutter",
+      "Annotation": "Kyrilla"
+    },
+    {
+      "ID": 18,
+      "Position": 177,
+      "Text": "Sohn",
+      "Annotation": "Bela"
+    },
+    {
+      "ID": 19,
+      "Position": 181,
+      "Text": "letztere",
+      "Annotation": "Bela"
+    },
+    {
+      "ID": 20,
+      "Position": 188,
+      "Text": "Kyrilla",
+      "Annotation": "Kyrilla"
+    },
+    {
+      "ID": 21,
+      "Position": 190,
+      "Text": "ihn",
+      "Annotation": "Bela"
+    },
+    {
+      "ID": 22,
+      "Position": 196,
+      "Text": "ihn",
+      "Annotation": "Bela"
+    },
+    {
+      "ID": 23,
+      "Position": 201,
+      "Text": "Leute",
+      "Annotation": "Leute"
+    },
+    {
+      "ID": 24,
+      "Position": 261,
+      "Text": "\u00d6sz",
+      "Annotation": "\u00d6sz"
+    },
+    {
+      "ID": 25,
+      "Position": 269,
+      "Text": "Emmerich",
+      "Annotation": "Emmerich"
+    },
+    {
+      "ID": 26,
+      "Position": 274,
+      "Text": "seinen",
+      "Annotation": "Emmerich"
+    },
+    {
+      "ID": 27,
+      "Position": 279,
+      "Text": "sie",
+      "Annotation": "\u00d6sz, Emmerich"
+    },
+    {
+      "ID": 28,
+      "Position": 280,
+      "Text": "sich",
+      "Annotation": "\u00d6sz, Emmerich"
+    },
+    {
+      "ID": 29,
+      "Position": 293,
+      "Text": "ihnen",
+      "Annotation": "\u00d6sz, Emmerich"
+    },
+    {
+      "ID": 30,
+      "Position": 316,
+      "Text": "Bela",
+      "Annotation": "Bela"
+    },
+    {
+      "ID": 31,
+      "Position": 321,
+      "Text": "Mutter",
+      "Annotation": "Kyrilla"
+    },
+    {
+      "ID": 32,
+      "Position": 323,
+      "Text": "ihn",
+      "Annotation": "Bela"
+    },
+    {
+      "ID": 33,
+      "Position": 354,
+      "Text": "Bela",
+      "Annotation": "Bela"
+    },
+    {
+      "ID": 34,
+      "Position": 364,
+      "Text": "Kyrilla",
+      "Annotation": "Kyrilla"
+    },
+    {
+      "ID": 35,
+      "Position": 369,
+      "Text": "ich",
+      "Annotation": "Bela"
+    },
+    {
+      "ID": 36,
+      "Position": 370,
+      "Text": "mich",
+      "Annotation": "Bela"
+    },
+    {
+      "ID": 37,
+      "Position": 374,
+      "Text": "Sie",
+      "Annotation": "Kyrilla"
+    },
+    {
+      "ID": 38,
+      "Position": 387,
+      "Text": "wir",
+      "Annotation": "Bela, Kyrilla"
+    },
+    {
+      "ID": 39,
+      "Position": 394,
+      "Text": "Sie",
+      "Annotation": "Kyrilla"
+    },
+    {
+      "ID": 40,
+      "Position": 396,
+      "Text": "seine",
+      "Annotation": "Bela"
+    },
+    {
+      "ID": 41,
+      "Position": 400,
+      "Text": "sich",
+      "Annotation": "Kyrilla"
+    },
+    {
+      "ID": 42,
+      "Position": 404,
+      "Text": "seinem",
+      "Annotation": "Bela"
+    },
+    {
+      "ID": 43,
+      "Position": 407,
+      "Text": "Sie",
+      "Annotation": "Kyrilla"
+    },
+    {
+      "ID": 44,
+      "Position": 417,
+      "Text": "ihren",
+      "Annotation": "Bela, Kyrilla"
+    },
+    {
+      "ID": 45,
+      "Position": 425,
+      "Text": "Bela",
+      "Annotation": "Bela"
+    },
+    {
+      "ID": 46,
+      "Position": 427,
+      "Text": "seine",
+      "Annotation": "Bela"
+    },
+    {
+      "ID": 47,
+      "Position": 433,
+      "Text": "Du",
+      "Annotation": "Kyrilla"
+    },
+    {
+      "ID": 48,
+      "Position": 435,
+      "Text": "Mutter",
+      "Annotation": "Kyrilla"
+    },
+    {
+      "ID": 49,
+      "Position": 443,
+      "Text": "Seine",
+      "Annotation": "Bela"
+    },
+    {
+      "ID": 50,
+      "Position": 463,
+      "Text": "Er",
+      "Annotation": "Bela"
+    },
+    {
+      "ID": 51,
+      "Position": 470,
+      "Text": "Sie",
+      "Annotation": "Kyrilla"
+    },
+    {
+      "ID": 52,
+      "Position": 472,
+      "Text": "ihn",
+      "Annotation": "Bela"
+    },
+    {
+      "ID": 53,
+      "Position": 478,
+      "Text": "er",
+      "Annotation": "Bela"
+    },
+    {
+      "ID": 54,
+      "Position": 483,
+      "Text": "er",
+      "Annotation": "Bela"
+    },
+    {
+      "ID": 55,
+      "Position": 484,
+      "Text": "ihr",
+      "Annotation": "Kyrilla"
+    },
+    {
+      "ID": 56,
+      "Position": 495,
+      "Text": "Du",
+      "Annotation": "Kyrilla"
+    },
+    {
+      "ID": 57,
+      "Position": 527,
+      "Text": "sie",
+      "Annotation": "Erde"
+    },
+    {
+      "ID": 58,
+      "Position": 539,
+      "Text": "du",
+      "Annotation": "Kyrilla"
+    },
+    {
+      "ID": 59,
+      "Position": 548,
+      "Text": "Ich",
+      "Annotation": "Bela"
+    },
+    {
+      "ID": 60,
+      "Position": 554,
+      "Text": "Er",
+      "Annotation": "Bela"
+    },
+    {
+      "ID": 61,
+      "Position": 559,
+      "Text": "ihn",
+      "Annotation": "Bela"
+    },
+    {
+      "ID": 62,
+      "Position": 568,
+      "Text": "seinen",
+      "Annotation": "Bela"
+    },
+    {
+      "ID": 63,
+      "Position": 577,
+      "Text": "du",
+      "Annotation": "Kyrilla"
+    },
+    {
+      "ID": 64,
+      "Position": 580,
+      "Text": "dein",
+      "Annotation": "Bela"
+    },
+    {
+      "ID": 65,
+      "Position": 614,
+      "Text": "Er",
+      "Annotation": "Bela"
+    },
+    {
+      "ID": 66,
+      "Position": 616,
+      "Text": "ihrer",
+      "Annotation": "Kyrilla"
+    },
+    {
+      "ID": 67,
+      "Position": 617,
+      "Text": "ihm",
+      "Annotation": "Bela"
+    },
+    {
+      "ID": 68,
+      "Position": 631,
+      "Text": "Bela",
+      "Annotation": "Bela"
+    },
+    {
+      "ID": 69,
+      "Position": 639,
+      "Text": "er",
+      "Annotation": "Bela"
+    },
+    {
+      "ID": 70,
+      "Position": 642,
+      "Text": "sich",
+      "Annotation": "Bela"
+    },
+    {
+      "ID": 71,
+      "Position": 654,
+      "Text": "ihn",
+      "Annotation": "Bela"
+    },
+    {
+      "ID": 72,
+      "Position": 658,
+      "Text": "Er",
+      "Annotation": "Bela"
+    },
+    {
+      "ID": 73,
+      "Position": 660,
+      "Text": "sich",
+      "Annotation": "Bela"
+    },
+    {
+      "ID": 74,
+      "Position": 664,
+      "Text": "Mutter",
+      "Annotation": "Kyrilla"
+    },
+    {
+      "ID": 75,
+      "Position": 675,
+      "Text": "Seine",
+      "Annotation": "Bela"
+    },
+    {
+      "ID": 76,
+      "Position": 683,
+      "Text": "sein",
+      "Annotation": "Bela"
+    },
+    {
+      "ID": 77,
+      "Position": 690,
+      "Text": "Sein",
+      "Annotation": "Bela"
+    },
+    {
+      "ID": 78,
+      "Position": 691,
+      "Text": "Vater",
+      "Annotation": "Tralgoth"
+    },
+    {
+      "ID": 79,
+      "Position": 693,
+      "Text": "ihm",
+      "Annotation": "Bela"
+    },
+    {
+      "ID": 80,
+      "Position": 696,
+      "Text": "Beide",
+      "Annotation": "Bela, Tralgoth"
+    },
+    {
+      "ID": 81,
+      "Position": 698,
+      "Text": "einander",
+      "Annotation": "Bela, Tralgoth"
+    },
+    {
+      "ID": 82,
+      "Position": 706,
+      "Text": "du",
+      "Annotation": "Bela"
+    },
+    {
+      "ID": 83,
+      "Position": 710,
+      "Text": "du",
+      "Annotation": "Bela"
+    },
+    {
+      "ID": 84,
+      "Position": 714,
+      "Text": "Tralgoth",
+      "Annotation": "Tralgoth"
+    },
+    {
+      "ID": 85,
+      "Position": 717,
+      "Text": "seinem",
+      "Annotation": "Tralgoth"
+    },
+    {
+      "ID": 86,
+      "Position": 724,
+      "Text": "du",
+      "Annotation": "Bela"
+    },
+    {
+      "ID": 87,
+      "Position": 725,
+      "Text": "dich",
+      "Annotation": "Bela"
+    },
+    {
+      "ID": 88,
+      "Position": 732,
+      "Text": "Ich",
+      "Annotation": "Bela"
+    },
+    {
+      "ID": 89,
+      "Position": 745,
+      "Text": "dir",
+      "Annotation": "Bela"
+    },
+    {
+      "ID": 90,
+      "Position": 750,
+      "Text": "Mutter",
+      "Annotation": "Kyrilla"
+    },
+    {
+      "ID": 91,
+      "Position": 760,
+      "Text": "Kyrilla",
+      "Annotation": "Kyrilla"
+    },
+    {
+      "ID": 92,
+      "Position": 774,
+      "Text": "uns",
+      "Annotation": "Bela, Kyrilla"
+    },
+    {
+      "ID": 93,
+      "Position": 782,
+      "Text": "Sie",
+      "Annotation": "Kyrilla"
+    },
+    {
+      "ID": 94,
+      "Position": 787,
+      "Text": "Er",
+      "Annotation": "Tralgoth"
+    },
+    {
+      "ID": 95,
+      "Position": 792,
+      "Text": "Sein",
+      "Annotation": "Tralgoth"
+    },
+    {
+      "ID": 96,
+      "Position": 816,
+      "Text": "Kyrilla",
+      "Annotation": "Kyrilla"
+    },
+    {
+      "ID": 97,
+      "Position": 818,
+      "Text": "sich",
+      "Annotation": "Kyrilla"
+    },
+    {
+      "ID": 98,
+      "Position": 823,
+      "Text": "Sie",
+      "Annotation": "Kyrilla"
+    },
+    {
+      "ID": 99,
+      "Position": 828,
+      "Text": "Kind",
+      "Annotation": "Bela"
+    },
+    {
+      "ID": 100,
+      "Position": 833,
+      "Text": "sie",
+      "Annotation": "Kyrilla"
+    },
+    {
+      "ID": 101,
+      "Position": 841,
+      "Text": "Ich",
+      "Annotation": "Bela"
+    },
+    {
+      "ID": 102,
+      "Position": 846,
+      "Text": "Onkel Hendrik",
+      "Annotation": "Hendrik"
+    },
+    {
+      "ID": 103,
+      "Position": 852,
+      "Text": "Junge",
+      "Annotation": "Bela"
+    },
+    {
+      "ID": 104,
+      "Position": 860,
+      "Text": "Emmerich",
+      "Annotation": "Emmerich"
+    },
+    {
+      "ID": 105,
+      "Position": 863,
+      "Text": "sein",
+      "Annotation": "Emmerich"
+    },
+    {
+      "ID": 106,
+      "Position": 869,
+      "Text": "Sie",
+      "Annotation": "Kyrilla"
+    },
+    {
+      "ID": 107,
+      "Position": 871,
+      "Text": "ihm",
+      "Annotation": "Emmerich"
+    },
+    {
+      "ID": 108,
+      "Position": 876,
+      "Text": "Sie",
+      "Annotation": "Kyrilla, Bela"
+    },
+    {
+      "ID": 109,
+      "Position": 887,
+      "Text": "Tralgoth",
+      "Annotation": "Tralgoth"
+    },
+    {
+      "ID": 110,
+      "Position": 892,
+      "Text": "er",
+      "Annotation": "Tralgoth"
+    },
+    {
+      "ID": 111,
+      "Position": 897,
+      "Text": "Er",
+      "Annotation": "Tralgoth"
+    },
+    {
+      "ID": 112,
+      "Position": 903,
+      "Text": "sie",
+      "Annotation": "Kyrilla, Bela"
+    },
+    {
+      "ID": 113,
+      "Position": 907,
+      "Text": "er",
+      "Annotation": "Tralgoth"
+    },
+    {
+      "ID": 114,
+      "Position": 909,
+      "Text": "Er",
+      "Annotation": "Tralgoth"
+    },
+    {
+      "ID": 115,
+      "Position": 918,
+      "Text": "Er",
+      "Annotation": "Tralgoth"
+    },
+    {
+      "ID": 116,
+      "Position": 922,
+      "Text": "Er",
+      "Annotation": "Tralgoth"
+    },
+    {
+      "ID": 117,
+      "Position": 924,
+      "Text": "seinen",
+      "Annotation": "Tralgoth"
+    },
+    {
+      "ID": 118,
+      "Position": 932,
+      "Text": "Er",
+      "Annotation": "Tralgoth"
+    },
+    {
+      "ID": 119,
+      "Position": 934,
+      "Text": "Hendrik",
+      "Annotation": "Hendrik"
+    },
+    {
+      "ID": 120,
+      "Position": 949,
+      "Text": "er",
+      "Annotation": "Tralgoth"
+    },
+    {
+      "ID": 121,
+      "Position": 957,
+      "Text": "er",
+      "Annotation": "Tralgoth"
+    },
+    {
+      "ID": 122,
+      "Position": 958,
+      "Text": "sich",
+      "Annotation": "Tralgoth"
+    },
+    {
+      "ID": 123,
+      "Position": 960,
+      "Text": "\u00d6sz",
+      "Annotation": "\u00d6sz"
+    },
+    {
+      "ID": 124,
+      "Position": 965,
+      "Text": "du",
+      "Annotation": "Hendrik"
+    },
+    {
+      "ID": 125,
+      "Position": 966,
+      "Text": "sie",
+      "Annotation": "Kyrilla, Bela"
+    },
+    {
+      "ID": 126,
+      "Position": 979,
+      "Text": "Hendrik",
+      "Annotation": "Hendrik"
+    },
+    {
+      "ID": 127,
+      "Position": 981,
+      "Text": "ihn",
+      "Annotation": "Hendrik"
+    },
+    {
+      "ID": 128,
+      "Position": 986,
+      "Text": "Ich",
+      "Annotation": "Hendrik"
+    },
+    {
+      "ID": 129,
+      "Position": 988,
+      "Text": "sie",
+      "Annotation": "Kyrilla, Bela"
+    },
+    {
+      "ID": 130,
+      "Position": 993,
+      "Text": "ich",
+      "Annotation": "Hendrik"
+    },
+    {
+      "ID": 131,
+      "Position": 1002,
+      "Text": "du",
+      "Annotation": "Hendrik"
+    },
+    {
+      "ID": 132,
+      "Position": 1007,
+      "Text": "ich",
+      "Annotation": "Tralgoth"
+    },
+    {
+      "ID": 133,
+      "Position": 1011,
+      "Text": "Ich",
+      "Annotation": "Hendrik"
+    },
+    {
+      "ID": 134,
+      "Position": 1018,
+      "Text": "du",
+      "Annotation": "Hendrik"
+    },
+    {
+      "ID": 135,
+      "Position": 1038,
+      "Text": "ihrem",
+      "Annotation": "Kyrilla, Bela"
+    },
+    {
+      "ID": 136,
+      "Position": 1045,
+      "Text": "ich",
+      "Annotation": "Hendrik"
+    },
+    {
+      "ID": 137,
+      "Position": 1050,
+      "Text": "Hendrik",
+      "Annotation": "Hendrik"
+    },
+    {
+      "ID": 138,
+      "Position": 1055,
+      "Text": "Emmerich",
+      "Annotation": "Emmerich"
+    },
+    {
+      "ID": 139,
+      "Position": 1067,
+      "Text": "Leute",
+      "Annotation": "Leute"
+    },
+    {
+      "ID": 140,
+      "Position": 1075,
+      "Text": "Junge",
+      "Annotation": "Bela"
+    },
+    {
+      "ID": 141,
+      "Position": 1083,
+      "Text": "er",
+      "Annotation": "Bela"
+    },
+    {
+      "ID": 142,
+      "Position": 1086,
+      "Text": "Vater",
+      "Annotation": "Tralgoth"
+    },
+    {
+      "ID": 143,
+      "Position": 1090,
+      "Text": "Onkels",
+      "Annotation": "Hendrik"
+    },
+    {
+      "ID": 144,
+      "Position": 1094,
+      "Text": "Hendrik",
+      "Annotation": "Hendrik"
+    },
+    {
+      "ID": 145,
+      "Position": 1097,
+      "Text": "seine",
+      "Annotation": "Hendrik"
+    },
+    {
+      "ID": 146,
+      "Position": 1108,
+      "Text": "sich",
+      "Annotation": "Emmerich"
+    },
+    {
+      "ID": 147,
+      "Position": 1117,
+      "Text": "Leute",
+      "Annotation": "Leute"
+    },
+    {
+      "ID": 148,
+      "Position": 1119,
+      "Text": "Emmerich",
+      "Annotation": "Emmerich"
+    },
+    {
+      "ID": 149,
+      "Position": 1121,
+      "Text": "sich",
+      "Annotation": "Emmerich"
+    },
+    {
+      "ID": 150,
+      "Position": 1125,
+      "Text": "Er",
+      "Annotation": "Emmerich"
+    },
+    {
+      "ID": 151,
+      "Position": 1127,
+      "Text": "sich",
+      "Annotation": "Emmerich"
+    },
+    {
+      "ID": 152,
+      "Position": 1133,
+      "Text": "Aufseher",
+      "Annotation": "Aufseher"
+    },
+    {
+      "ID": 153,
+      "Position": 1137,
+      "Text": "er",
+      "Annotation": "Emmerich"
+    },
+    {
+      "ID": 154,
+      "Position": 1144,
+      "Text": "er",
+      "Annotation": "Emmerich"
+    },
+    {
+      "ID": 155,
+      "Position": 1151,
+      "Text": "er",
+      "Annotation": "Emmerich"
+    },
+    {
+      "ID": 156,
+      "Position": 1158,
+      "Text": "Er",
+      "Annotation": "Emmerich"
+    },
+    {
+      "ID": 157,
+      "Position": 1165,
+      "Text": "Arbeitern",
+      "Annotation": "Arbeiter"
+    },
+    {
+      "ID": 158,
+      "Position": 1172,
+      "Text": "Sie",
+      "Annotation": "Arbeiter"
+    },
+    {
+      "ID": 159,
+      "Position": 1182,
+      "Text": "er",
+      "Annotation": "Emmerich"
+    },
+    {
+      "ID": 160,
+      "Position": 1189,
+      "Text": "ich",
+      "Annotation": "Emmerich"
+    },
+    {
+      "ID": 161,
+      "Position": 1191,
+      "Text": "ihnen",
+      "Annotation": "Arbeiter"
+    },
+    {
+      "ID": 162,
+      "Position": 1194,
+      "Text": "ihre",
+      "Annotation": "Arbeiter"
+    },
+    {
+      "ID": 163,
+      "Position": 1198,
+      "Text": "Er",
+      "Annotation": "Emmerich"
+    },
+    {
+      "ID": 164,
+      "Position": 1203,
+      "Text": "er",
+      "Annotation": "Emmerich"
+    },
+    {
+      "ID": 165,
+      "Position": 1208,
+      "Text": "Junge",
+      "Annotation": "Bela"
+    },
+    {
+      "ID": 166,
+      "Position": 1213,
+      "Text": "er",
+      "Annotation": "Bela"
+    },
+    {
+      "ID": 167,
+      "Position": 1214,
+      "Text": "ihn",
+      "Annotation": "Emmerich"
+    },
+    {
+      "ID": 168,
+      "Position": 1222,
+      "Text": "Ich",
+      "Annotation": "Emmerich"
+    },
+    {
+      "ID": 169,
+      "Position": 1230,
+      "Text": "mich",
+      "Annotation": "Emmerich"
+    },
+    {
+      "ID": 170,
+      "Position": 1240,
+      "Text": "ich",
+      "Annotation": "Emmerich"
+    },
+    {
+      "ID": 171,
+      "Position": 1247,
+      "Text": "Hendrik",
+      "Annotation": "Hendrik"
+    },
+    {
+      "ID": 172,
+      "Position": 1249,
+      "Text": "sich",
+      "Annotation": "Hendrik"
+    },
+    {
+      "ID": 173,
+      "Position": 1256,
+      "Text": "Er",
+      "Annotation": "Hendrik"
+    },
+    {
+      "ID": 174,
+      "Position": 1262,
+      "Text": "sich",
+      "Annotation": "Hendrik"
+    },
+    {
+      "ID": 175,
+      "Position": 1266,
+      "Text": "er",
+      "Annotation": "Hendrik"
+    },
+    {
+      "ID": 176,
+      "Position": 1269,
+      "Text": "seinen",
+      "Annotation": "Hendrik"
+    },
+    {
+      "ID": 177,
+      "Position": 1274,
+      "Text": "Er",
+      "Annotation": "Hendrik"
+    },
+    {
+      "ID": 178,
+      "Position": 1286,
+      "Text": "Tralgoth",
+      "Annotation": "Tralgoth"
+    },
+    {
+      "ID": 179,
+      "Position": 1288,
+      "Text": "seiner",
+      "Annotation": "Tralgoth"
+    },
+    {
+      "ID": 180,
+      "Position": 1306,
+      "Text": "Hendriks",
+      "Annotation": "Hendrik"
+    },
+    {
+      "ID": 181,
+      "Position": 1322,
+      "Text": "Kind",
+      "Annotation": "Bela"
+    }
+  ],
+  "output": [
+    {
+      "id": "129",
+      "token_idx": [
+        73
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 1,
+            "fullname": "Hendrik",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "0",
+      "token_idx": [
+        85
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 1,
+            "fullname": "Hendrik",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "130",
+      "token_idx": [
+        86
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 2,
+            "fullname": "Tralgoth",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "1",
+      "token_idx": [
+        90
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 1,
+            "fullname": "Hendrik",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "token_idx": [
+        98
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 1,
+            "fullname": "Hendrik",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "131",
+      "token_idx": [
+        104
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 3,
+            "fullname": "Bela",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "132",
+      "token_idx": [
+        110
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 4,
+            "fullname": "Kyrilla",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "114",
+      "token_idx": [
+        118
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 4,
+            "fullname": "Kyrilla",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "token_idx": [
+        123
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 4,
+            "fullname": "Kyrilla",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "91",
+      "token_idx": [
+        124
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 3,
+            "fullname": "Bela",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "133",
+      "token_idx": [
+        125
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 3,
+            "fullname": "Bela",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "token_idx": [
+        129
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 3,
+            "fullname": "Bela",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "token_idx": [
+        137
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 4,
+            "fullname": "Kyrilla",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "115",
+      "token_idx": [
+        143
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 4,
+            "fullname": "Kyrilla",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "134",
+      "token_idx": [
+        158
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 3,
+            "fullname": "Bela",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "173",
+      "token_idx": [
+        166
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 5,
+            "fullname": "Steinklopfer",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "135",
+      "token_idx": [
+        175
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 4,
+            "fullname": "Kyrilla",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "136",
+      "token_idx": [
+        177
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 3,
+            "fullname": "Bela",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "183",
+      "token_idx": [
+        181
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 3,
+            "fullname": "Bela",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "137",
+      "token_idx": [
+        188
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 4,
+            "fullname": "Kyrilla",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "token_idx": [
+        190
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 3,
+            "fullname": "Bela",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "token_idx": [
+        196
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 3,
+            "fullname": "Bela",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "174",
+      "token_idx": [
+        201
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 6,
+            "fullname": "Leute",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "138",
+      "token_idx": [
+        261
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 7,
+            "fullname": "\u00d6sz",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "139",
+      "token_idx": [
+        269
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 8,
+            "fullname": "Emmerich",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "92",
+      "token_idx": [
+        274
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 8,
+            "fullname": "Emmerich",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "token_idx": [
+        279
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 9,
+            "fullname": "\u00d6sz Emmerich",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "116",
+      "token_idx": [
+        280
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 9,
+            "fullname": "\u00d6sz Emmerich",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "token_idx": [
+        293
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 9,
+            "fullname": "\u00d6sz Emmerich",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "140",
+      "token_idx": [
+        316
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 3,
+            "fullname": "Bela",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "141",
+      "token_idx": [
+        321
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 4,
+            "fullname": "Kyrilla",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "token_idx": [
+        323
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 3,
+            "fullname": "Bela",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "177",
+      "token_idx": [
+        354
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 3,
+            "fullname": "Bela",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "143",
+      "token_idx": [
+        364
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 4,
+            "fullname": "Kyrilla",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "token_idx": [
+        369
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 3,
+            "fullname": "Bela",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "117",
+      "token_idx": [
+        370
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 3,
+            "fullname": "Bela",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "token_idx": [
+        374
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 4,
+            "fullname": "Kyrilla",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "token_idx": [
+        387
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 10,
+            "fullname": "Bela Kyrilla",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "token_idx": [
+        394
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 4,
+            "fullname": "Kyrilla",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "93",
+      "token_idx": [
+        396
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 3,
+            "fullname": "Bela",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "118",
+      "token_idx": [
+        400
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 4,
+            "fullname": "Kyrilla",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "94",
+      "token_idx": [
+        404
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 3,
+            "fullname": "Bela",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "token_idx": [
+        407
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 4,
+            "fullname": "Kyrilla",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "95",
+      "token_idx": [
+        417
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 10,
+            "fullname": "Bela Kyrilla",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "179",
+      "token_idx": [
+        425
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 3,
+            "fullname": "Bela",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "178",
+      "token_idx": [
+        427
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 3,
+            "fullname": "Bela",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "144",
+      "token_idx": [
+        433
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 4,
+            "fullname": "Kyrilla",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "145",
+      "token_idx": [
+        435
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 4,
+            "fullname": "Kyrilla",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "97",
+      "token_idx": [
+        443
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 3,
+            "fullname": "Bela",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "token_idx": [
+        463
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 3,
+            "fullname": "Bela",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "token_idx": [
+        470
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 4,
+            "fullname": "Kyrilla",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "token_idx": [
+        472
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 3,
+            "fullname": "Bela",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "token_idx": [
+        478
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 3,
+            "fullname": "Bela",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "token_idx": [
+        483
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 3,
+            "fullname": "Bela",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "98",
+      "token_idx": [
+        484
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 4,
+            "fullname": "Kyrilla",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "token_idx": [
+        495
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 4,
+            "fullname": "Kyrilla",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "token_idx": [
+        527
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 11,
+            "fullname": "Erde",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "token_idx": [
+        539
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 4,
+            "fullname": "Kyrilla",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "token_idx": [
+        548
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 3,
+            "fullname": "Bela",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "token_idx": [
+        554
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 3,
+            "fullname": "Bela",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "token_idx": [
+        559
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 3,
+            "fullname": "Bela",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "token_idx": [
+        568
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 3,
+            "fullname": "Bela",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "token_idx": [
+        577
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 4,
+            "fullname": "Kyrilla",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "100",
+      "token_idx": [
+        580
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 3,
+            "fullname": "Bela",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "token_idx": [
+        614
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 3,
+            "fullname": "Bela",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "101",
+      "token_idx": [
+        616
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 4,
+            "fullname": "Kyrilla",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "token_idx": [
+        617
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 3,
+            "fullname": "Bela",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "146",
+      "token_idx": [
+        631
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 3,
+            "fullname": "Bela",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "token_idx": [
+        639
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 3,
+            "fullname": "Bela",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "119",
+      "token_idx": [
+        642
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 3,
+            "fullname": "Bela",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "token_idx": [
+        654
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 3,
+            "fullname": "Bela",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "token_idx": [
+        658
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 3,
+            "fullname": "Bela",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "120",
+      "token_idx": [
+        660
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 3,
+            "fullname": "Bela",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "147",
+      "token_idx": [
+        664
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 4,
+            "fullname": "Kyrilla",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "102",
+      "token_idx": [
+        675
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 3,
+            "fullname": "Bela",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "103",
+      "token_idx": [
+        683
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 3,
+            "fullname": "Bela",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "104",
+      "token_idx": [
+        690
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 3,
+            "fullname": "Bela",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "148",
+      "token_idx": [
+        691
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 2,
+            "fullname": "Tralgoth",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "token_idx": [
+        693
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 3,
+            "fullname": "Bela",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "180",
+      "token_idx": [
+        696
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 12,
+            "fullname": "Bela Tralgoth",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "121",
+      "token_idx": [
+        698
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 12,
+            "fullname": "Bela Tralgoth",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "token_idx": [
+        706
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 3,
+            "fullname": "Bela",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "token_idx": [
+        710
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 3,
+            "fullname": "Bela",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "149",
+      "token_idx": [
+        714
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 2,
+            "fullname": "Tralgoth",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "105",
+      "token_idx": [
+        717
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 2,
+            "fullname": "Tralgoth",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "token_idx": [
+        724
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 3,
+            "fullname": "Bela",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "token_idx": [
+        725
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 3,
+            "fullname": "Bela",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "token_idx": [
+        732
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 3,
+            "fullname": "Bela",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "39",
+      "token_idx": [
+        745
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 3,
+            "fullname": "Bela",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "150",
+      "token_idx": [
+        750
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 4,
+            "fullname": "Kyrilla",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "151",
+      "token_idx": [
+        760
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 4,
+            "fullname": "Kyrilla",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "token_idx": [
+        774
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 10,
+            "fullname": "Bela Kyrilla",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "41",
+      "token_idx": [
+        782
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 4,
+            "fullname": "Kyrilla",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "42",
+      "token_idx": [
+        787
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 2,
+            "fullname": "Tralgoth",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "106",
+      "token_idx": [
+        792
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 2,
+            "fullname": "Tralgoth",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "152",
+      "token_idx": [
+        816
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 4,
+            "fullname": "Kyrilla",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "122",
+      "token_idx": [
+        818
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 4,
+            "fullname": "Kyrilla",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "43",
+      "token_idx": [
+        823
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 4,
+            "fullname": "Kyrilla",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "153",
+      "token_idx": [
+        828
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 3,
+            "fullname": "Bela",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "44",
+      "token_idx": [
+        833
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 4,
+            "fullname": "Kyrilla",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "45",
+      "token_idx": [
+        841
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 3,
+            "fullname": "Bela",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "154",
+      "token_idx": [
+        846,
+        847
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 1,
+            "fullname": "Hendrik",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "155",
+      "token_idx": [
+        852
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 3,
+            "fullname": "Bela",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "156",
+      "token_idx": [
+        860
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 8,
+            "fullname": "Emmerich",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "107",
+      "token_idx": [
+        863
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 8,
+            "fullname": "Emmerich",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "46",
+      "token_idx": [
+        869
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 4,
+            "fullname": "Kyrilla",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "47",
+      "token_idx": [
+        871
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 8,
+            "fullname": "Emmerich",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "48",
+      "token_idx": [
+        876
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 13,
+            "fullname": "Kyrilla Bela",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "157",
+      "token_idx": [
+        887
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 2,
+            "fullname": "Tralgoth",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "49",
+      "token_idx": [
+        892
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 2,
+            "fullname": "Tralgoth",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "50",
+      "token_idx": [
+        897
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 2,
+            "fullname": "Tralgoth",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "51",
+      "token_idx": [
+        903
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 13,
+            "fullname": "Kyrilla Bela",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "52",
+      "token_idx": [
+        907
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 2,
+            "fullname": "Tralgoth",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "53",
+      "token_idx": [
+        909
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 2,
+            "fullname": "Tralgoth",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "54",
+      "token_idx": [
+        918
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 2,
+            "fullname": "Tralgoth",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "55",
+      "token_idx": [
+        922
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 2,
+            "fullname": "Tralgoth",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "108",
+      "token_idx": [
+        924
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 2,
+            "fullname": "Tralgoth",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "56",
+      "token_idx": [
+        932
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 2,
+            "fullname": "Tralgoth",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "158",
+      "token_idx": [
+        934
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 1,
+            "fullname": "Hendrik",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "57",
+      "token_idx": [
+        949
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 2,
+            "fullname": "Tralgoth",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "58",
+      "token_idx": [
+        957
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 2,
+            "fullname": "Tralgoth",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "123",
+      "token_idx": [
+        958
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 2,
+            "fullname": "Tralgoth",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "159",
+      "token_idx": [
+        960
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 7,
+            "fullname": "\u00d6sz",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "59",
+      "token_idx": [
+        965
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 1,
+            "fullname": "Hendrik",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "60",
+      "token_idx": [
+        966
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 13,
+            "fullname": "Kyrilla Bela",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "160",
+      "token_idx": [
+        979
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 1,
+            "fullname": "Hendrik",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "61",
+      "token_idx": [
+        981
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 1,
+            "fullname": "Hendrik",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "62",
+      "token_idx": [
+        986
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 1,
+            "fullname": "Hendrik",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "63",
+      "token_idx": [
+        988
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 13,
+            "fullname": "Kyrilla Bela",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "64",
+      "token_idx": [
+        993
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 1,
+            "fullname": "Hendrik",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "65",
+      "token_idx": [
+        1002
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 1,
+            "fullname": "Hendrik",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "66",
+      "token_idx": [
+        1007
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 2,
+            "fullname": "Tralgoth",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "67",
+      "token_idx": [
+        1011
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 1,
+            "fullname": "Hendrik",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "68",
+      "token_idx": [
+        1018
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 1,
+            "fullname": "Hendrik",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "109",
+      "token_idx": [
+        1038
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 13,
+            "fullname": "Kyrilla Bela",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "69",
+      "token_idx": [
+        1045
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 1,
+            "fullname": "Hendrik",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "161",
+      "token_idx": [
+        1050
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 1,
+            "fullname": "Hendrik",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "162",
+      "token_idx": [
+        1055
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 8,
+            "fullname": "Emmerich",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "175",
+      "token_idx": [
+        1067
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 6,
+            "fullname": "Leute",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "163",
+      "token_idx": [
+        1075
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 3,
+            "fullname": "Bela",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "70",
+      "token_idx": [
+        1083
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 3,
+            "fullname": "Bela",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "164",
+      "token_idx": [
+        1086
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 2,
+            "fullname": "Tralgoth",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "165",
+      "token_idx": [
+        1090
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 1,
+            "fullname": "Hendrik",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "166",
+      "token_idx": [
+        1094
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 1,
+            "fullname": "Hendrik",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "110",
+      "token_idx": [
+        1097
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 1,
+            "fullname": "Hendrik",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "124",
+      "token_idx": [
+        1108
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 8,
+            "fullname": "Emmerich",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "176",
+      "token_idx": [
+        1117
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 6,
+            "fullname": "Leute",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "167",
+      "token_idx": [
+        1119
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 8,
+            "fullname": "Emmerich",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "125",
+      "token_idx": [
+        1121
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 8,
+            "fullname": "Emmerich",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "71",
+      "token_idx": [
+        1125
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 8,
+            "fullname": "Emmerich",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "126",
+      "token_idx": [
+        1127
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 8,
+            "fullname": "Emmerich",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "182",
+      "token_idx": [
+        1133
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 14,
+            "fullname": "Aufseher",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "72",
+      "token_idx": [
+        1137
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 8,
+            "fullname": "Emmerich",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "73",
+      "token_idx": [
+        1144
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 8,
+            "fullname": "Emmerich",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "74",
+      "token_idx": [
+        1151
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 8,
+            "fullname": "Emmerich",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "75",
+      "token_idx": [
+        1158
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 8,
+            "fullname": "Emmerich",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "181",
+      "token_idx": [
+        1165
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 15,
+            "fullname": "Arbeiter",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "76",
+      "token_idx": [
+        1172
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 15,
+            "fullname": "Arbeiter",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "77",
+      "token_idx": [
+        1182
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 8,
+            "fullname": "Emmerich",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "78",
+      "token_idx": [
+        1189
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 8,
+            "fullname": "Emmerich",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "79",
+      "token_idx": [
+        1191
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 15,
+            "fullname": "Arbeiter",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "111",
+      "token_idx": [
+        1194
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 15,
+            "fullname": "Arbeiter",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "80",
+      "token_idx": [
+        1198
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 8,
+            "fullname": "Emmerich",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "81",
+      "token_idx": [
+        1203
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 8,
+            "fullname": "Emmerich",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "168",
+      "token_idx": [
+        1208
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 3,
+            "fullname": "Bela",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "82",
+      "token_idx": [
+        1213
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 3,
+            "fullname": "Bela",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "83",
+      "token_idx": [
+        1214
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 8,
+            "fullname": "Emmerich",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "84",
+      "token_idx": [
+        1222
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 8,
+            "fullname": "Emmerich",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "85",
+      "token_idx": [
+        1230
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 8,
+            "fullname": "Emmerich",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "86",
+      "token_idx": [
+        1240
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 8,
+            "fullname": "Emmerich",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "169",
+      "token_idx": [
+        1247
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 1,
+            "fullname": "Hendrik",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "127",
+      "token_idx": [
+        1249
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 1,
+            "fullname": "Hendrik",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "87",
+      "token_idx": [
+        1256
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 1,
+            "fullname": "Hendrik",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "128",
+      "token_idx": [
+        1262
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 1,
+            "fullname": "Hendrik",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "88",
+      "token_idx": [
+        1266
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 1,
+            "fullname": "Hendrik",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "112",
+      "token_idx": [
+        1269
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 1,
+            "fullname": "Hendrik",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "89",
+      "token_idx": [
+        1274
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 1,
+            "fullname": "Hendrik",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "170",
+      "token_idx": [
+        1286
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 2,
+            "fullname": "Tralgoth",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "113",
+      "token_idx": [
+        1288
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 2,
+            "fullname": "Tralgoth",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "171",
+      "token_idx": [
+        1306
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 1,
+            "fullname": "Hendrik",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "172",
+      "token_idx": [
+        1322
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 3,
+            "fullname": "Bela",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    }
+  ],
+  "exception": null
+}

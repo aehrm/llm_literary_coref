@@ -1,0 +1,2418 @@
+i	token	gold	mention
+0	So		
+1	sprechen		
+2	,		
+3	gehen		
+4	,		
+5	laufen		
+6	,		
+7	essen		
+8	,		
+9	trinken		
+10	,		
+11	schlafen		
+12	,		
+13	handeln		
+14	–		
+15	wie		
+16	es		
+17	einem	(mention_id=225|references=(entity=(entity_id=einem|fullname=einem)))	225
+18	gerad'		
+19	einfällt		
+20	?		
+21	Ich	(mention_id=0|references=(entity=(entity_id=Ich|fullname=Ich)))	0
+22	konnt'		
+23	es		
+24	einmal		
+25	;		
+26	jetzt		
+27	nicht		
+28	mehr		
+29	.		
+30	Bettina	(mention_id=183|references=(entity=(entity_id=Bettina|fullname=Bettina)))	183
+31	hatte		
+32	so		
+33	lange		
+34	freien		
+35	Willen		
+36	,		
+37	sich	(mention_id=160|references=(entity=(entity_id=Bettina|fullname=Bettina)))	160
+38	ein		
+39	Gesetz		
+40	zu		
+41	schaffen		
+42	;		
+43	und		
+44	nun		
+45	so		
+46	alt		
+47	und		
+48	noch		
+49	immer		
+50	kein		
+51	Gesetz		
+52	!		
+53	Ihr	(mention_id=124|references=(entity=(entity_id=Bettina|fullname=Bettina)))	124
+54	Buch		
+55	ist		
+56	ungereimte		
+57	Poesie		
+58	.		
+59	Ein		
+60	freies		
+61	Weib	(mention_id=184|references=(entity=(entity_id=ein freies Weib|fullname=ein freies Weib)))	184
+62	ist		
+63	nur		
+64	erträglich		
+65	mit		
+66	Spekulation		
+67	.		
+68	Wieder		
+69	wie		
+70	Jakob	(mention_id=185|references=(entity=(entity_id=Jakob|fullname=Jakob)))	185
+71	einen		
+72	Zug		
+73	aus		
+74	dem		
+75	Rahelbrunnen		
+76	getan		
+77	.		
+78	Aber		
+79	es		
+80	ist		
+81	immer		
+82	nur		
+83	Lea	(mention_id=186|references=(entity=(entity_id=Lea|fullname=Lea)))	186
+84	,		
+85	die	(mention_id=180|references=(entity=(entity_id=Lea|fullname=Lea)))	180
+86	man		
+87	erhält		
+88	,		
+89	niemals		
+90	Rahel	(mention_id=187|references=(entity=(entity_id=Rahel|fullname=Rahel)))	187
+91	.		
+92	Rahel	(mention_id=188|references=(entity=(entity_id=Rahel|fullname=Rahel)))	188
+93	sitzt		
+94	hinter		
+95	den		
+96	zweimal		
+97	sieben		
+98	Jahren		
+99	und		
+100	flicht		
+101	ihren	(mention_id=125|references=(entity=(entity_id=Rahel|fullname=Rahel)))	125
+102	Freiern	(mention_id=226|references=(entity=(entity_id=Freier von Rahel|fullname=Freier von Rahel)))	226
+103	Körbe		
+104	.		
+105	Man		
+106	glaubt		
+107	eine		
+108	Priesterin	(mention_id=227|references=(entity=(entity_id=Rahel|fullname=Rahel)))	227
+109	mit		
+110	Weissagung		
+111	in		
+112	ihr	(mention_id=1|references=(entity=(entity_id=Rahel|fullname=Rahel)))	1
+113	zu		
+114	finden		
+115	und		
+116	wird		
+117	doch		
+118	von		
+119	ihr	(mention_id=126|references=(entity=(entity_id=Rahel|fullname=Rahel)))	126
+120	nur		
+121	angeregt		
+122	oder		
+123	vielmehr		
+124	nur		
+125	herausgerissen		
+126	aus		
+127	dem		
+128	alten		
+129	Kreise		
+130	seiner		
+131	Vorstellungen		
+132	.		
+133	Es		
+134	ist		
+135	furchterregend		
+136	,		
+137	eine		
+138	Frau	(mention_id=189|references=(entity=(entity_id=Rahel|fullname=Rahel)))	189
+139	die		
+140	Gegenstände		
+141	so		
+142	dämonisch-linkisch		
+143	anfassen		
+144	zu		
+145	sehen		
+146	.		
+147	Will		
+148	sie	(mention_id=2|references=(entity=(entity_id=Rahel|fullname=Rahel)))	2
+149	es		
+150	nur		
+151	anders		
+152	machen		
+153	als		
+154	die		
+155	andern	(mention_id=228|references=(entity=(entity_id=andere Frauen|fullname=andere Frauen)))	228
+156	?		
+157	Oder		
+158	wurde		
+159	ihr	(mention_id=3|references=(entity=(entity_id=Rahel|fullname=Rahel)))	3
+160	diese		
+161	Originalität		
+162	angeboren		
+163	?		
+164	Sie	(mention_id=4|references=(entity=(entity_id=Rahel|fullname=Rahel)))	4
+165	gibt		
+166	nirgends		
+167	nach		
+168	,		
+169	sie	(mention_id=5|references=(entity=(entity_id=Rahel|fullname=Rahel)))	5
+170	ist		
+171	rastlos		
+172	in		
+173	ihren	(mention_id=127|references=(entity=(entity_id=Rahel|fullname=Rahel)))	127
+174	Bestrebungen		
+175	,		
+176	die		
+177	verschiedenen		
+178	Seiten		
+179	der		
+180	Wahrheit		
+181	zu		
+182	entdecken		
+183	,		
+184	und		
+185	konnte		
+186	nicht		
+187	anders		
+188	enden		
+189	als		
+190	entweder		
+191	in		
+192	einem		
+193	Wahnsinn		
+194	,		
+195	der		
+196	sich		
+197	mit		
+198	der		
+199	Bewegung		
+200	im		
+201	Tretrade		
+202	vergleichen		
+203	läßt		
+204	,		
+205	oder		
+206	als		
+207	Anhängerin	(mention_id=229|references=(entity=(entity_id=Rahel|fullname=Rahel)))	229
+208	des		
+209	Pietismus		
+210	.		
+211	Man		
+212	ist		
+213	in		
+214	keiner		
+215	Situation		
+216	übertäubter		
+217	als		
+218	beim		
+219	Untertauchen		
+220	.		
+221	Pietismus		
+222	aber		
+223	ist		
+224	die		
+225	Fähigkeit		
+226	,		
+227	leben		
+228	zu		
+229	können		
+230	,		
+231	selbst		
+232	wenn		
+233	man		
+234	Wasser		
+235	im		
+236	Ohre		
+237	hat		
+238	.		
+239	Dieser		
+240	ruhige		
+241	,		
+242	verständige		
+243	Ton		
+244	,		
+245	in		
+246	welchem		
+247	ich	(mention_id=6|references=(entity=(entity_id=Ich|fullname=Ich)))	6
+248	mich	(mention_id=161|references=(entity=(entity_id=Ich|fullname=Ich)))	161
+249	oft		
+250	tagelang		
+251	erhalten		
+252	kann		
+253	,		
+254	wird		
+255	mir	(mention_id=7|references=(entity=(entity_id=Ich|fullname=Ich)))	7
+256	oft		
+257	so		
+258	unheimlich		
+259	,		
+260	daß		
+261	ich	(mention_id=8|references=(entity=(entity_id=Ich|fullname=Ich)))	8
+262	vor		
+263	mir	(mention_id=9|references=(entity=(entity_id=Ich|fullname=Ich)))	9
+264	selbst		
+265	erschrecke		
+266	.		
+267	Sollte		
+268	es		
+269	Menschen	(mention_id=190|references=(entity=(entity_id=Menschen_ die wahnsinnig sind|fullname=Menschen_ die wahnsinnig sind)))	190
+270	geben		
+271	können		
+272	,		
+273	die	(mention_id=181|references=(entity=(entity_id=Menschen_ die wahnsinnig sind|fullname=Menschen_ die wahnsinnig sind)))	181
+274	wie		
+275	Vernünftige		
+276	sprechen		
+277	und		
+278	doch		
+279	wahnsinnig		
+280	sind		
+281	?		
+282	Cäsar	(mention_id=191|references=(entity=(entity_id=Cäsar|fullname=Cäsar)))	191
+283	erzählte		
+284	mir	(mention_id=10|references=(entity=(entity_id=Ich|fullname=Ich)))	10
+285	einst		
+286	eine		
+287	Geschichte		
+288	,		
+289	die		
+290	er	(mention_id=11|references=(entity=(entity_id=Cäsar|fullname=Cäsar)))	11
+291	wahrscheinlich		
+292	wie		
+293	vieles		
+294	dergleichen		
+295	nur		
+296	seiner	(mention_id=128|references=(entity=(entity_id=Cäsar|fullname=Cäsar)))	128
+297	Einbildungskraft		
+298	verdankt		
+299	.		
+300	Sie		
+301	paßt		
+302	auf		
+303	meinen	(mention_id=129|references=(entity=(entity_id=Ich|fullname=Ich)))	129
+304	Zustand		
+305	.		
+306	Kann		
+307	ich	(mention_id=12|references=(entity=(entity_id=Ich|fullname=Ich)))	12
+308	sie		
+309	noch		
+310	?		
+311	Es		
+312	war		
+313	um		
+314	die		
+315	zwölfte		
+316	Stunde		
+317	,		
+318	als		
+319	Alfred	(mention_id=192|references=(entity=(entity_id=Alfred|fullname=Alfred)))	192
+320	von		
+321	seinem	(mention_id=130|references=(entity=(entity_id=Alfred|fullname=Alfred)))	130
+322	Lager		
+323	auffuhr		
+324	und		
+325	über		
+326	das		
+327	matte		
+328	Flackern		
+329	der		
+330	Lampe		
+331	erschrak		
+332	,		
+333	die		
+334	er	(mention_id=13|references=(entity=(entity_id=Alfred|fullname=Alfred)))	13
+335	zu		
+336	löschen		
+337	vergessen		
+338	hatte		
+339	.		
+340	Eine		
+341	Zeitlang		
+342	saß		
+343	er	(mention_id=14|references=(entity=(entity_id=Alfred|fullname=Alfred)))	14
+344	mit		
+345	halbaufgerichtetem		
+346	Körper		
+347	–		
+348	–		
+349	Wörtlich		
+350	seine	(mention_id=131|references=(entity=(entity_id=Alfred|fullname=Alfred)))	131
+351	Worte		
+352	wiederzugeben		
+353	ist		
+354	schwer		
+355	.		
+356	Ich	(mention_id=15|references=(entity=(entity_id=Ich|fullname=Ich)))	15
+357	suche		
+358	in		
+359	meinen	(mention_id=132|references=(entity=(entity_id=Ich|fullname=Ich)))	132
+360	Papieren		
+361	,		
+362	vielleicht		
+363	find'		
+364	ich	(mention_id=16|references=(entity=(entity_id=Ich|fullname=Ich)))	16
+365	die		
+366	Geschichte		
+367	,		
+368	die		
+369	er	(mention_id=17|references=(entity=(entity_id=Alfred|fullname=Alfred)))	17
+370	mir	(mention_id=162|references=(entity=(entity_id=Ich|fullname=Ich)))	162
+371	einst		
+372	,		
+373	von		
+374	seiner	(mention_id=133|references=(entity=(entity_id=Alfred|fullname=Alfred)))	133
+375	eigenen		
+376	Hand		
+377	geschrieben		
+378	,		
+379	schenkte		
+380	.		
+381	Hier		
+382	ist		
+383	sie		
+384	:		
+385	Es		
+386	war		
+387	um		
+388	die		
+389	zwölfte		
+390	Stunde		
+391	,		
+392	als		
+393	Alfred	(mention_id=193|references=(entity=(entity_id=Alfred|fullname=Alfred)))	193
+394	von		
+395	seinem	(mention_id=134|references=(entity=(entity_id=Alfred|fullname=Alfred)))	134
+396	Lager		
+397	auffuhr		
+398	.		
+399	Noch		
+400	flackerte		
+401	die		
+402	Lampe		
+403	,		
+404	welche		
+405	er	(mention_id=18|references=(entity=(entity_id=Alfred|fullname=Alfred)))	18
+406	zu		
+407	löschen		
+408	vergessen		
+409	hatte		
+410	,		
+411	und		
+412	zog		
+413	,		
+414	wie		
+415	sie		
+416	größer		
+417	oder		
+418	schwächer		
+419	wurde		
+420	,		
+421	wolkige		
+422	Kreise		
+423	an		
+424	den		
+425	Wänden		
+426	seines	(mention_id=135|references=(entity=(entity_id=Alfred|fullname=Alfred)))	135
+427	Zimmers		
+428	.		
+429	Eine		
+430	Zeitlang		
+431	saß		
+432	er	(mention_id=19|references=(entity=(entity_id=Alfred|fullname=Alfred)))	19
+433	mit		
+434	halbaufgerichtetem		
+435	Körper		
+436	im		
+437	Bette		
+438	und		
+439	verfolgte		
+440	dies		
+441	gespenstische		
+442	Spiel		
+443	an		
+444	den		
+445	stummen		
+446	Wänden		
+447	.		
+448	Er	(mention_id=20|references=(entity=(entity_id=Alfred|fullname=Alfred)))	20
+449	suchte		
+450	nach		
+451	einem		
+452	Gegenstand		
+453	für		
+454	dies		
+455	Bild		
+456	:		
+457	er	(mention_id=21|references=(entity=(entity_id=Alfred|fullname=Alfred)))	21
+458	mußte		
+459	an		
+460	die		
+461	Welt		
+462	denken		
+463	,		
+464	welche		
+465	draußen		
+466	schlummerte		
+467	,		
+468	und		
+469	dachte		
+470	zuerst		
+471	an		
+472	Julien	(mention_id=194|references=(entity=(entity_id=Julien|fullname=Julien)))	194
+473	.		
+474	»		
+475	Meine	(mention_id=136|references=(entity=(entity_id=Alfred|fullname=Alfred)))	136
+476	Julie	(mention_id=195|references=(entity=(entity_id=Julien|fullname=Julien)))	195
+477	!		
+478	«		
+479	sprach		
+480	er	(mention_id=22|references=(entity=(entity_id=Alfred|fullname=Alfred)))	22
+481	still		
+482	vor		
+483	sich	(mention_id=163|references=(entity=(entity_id=Alfred|fullname=Alfred)))	163
+484	hin		
+485	und		
+486	erhob		
+487	sich	(mention_id=164|references=(entity=(entity_id=Alfred|fullname=Alfred)))	164
+488	dann		
+489	etwas		
+490	feierlich		
+491	und		
+492	mechanisch		
+493	von		
+494	seinem	(mention_id=137|references=(entity=(entity_id=Alfred|fullname=Alfred)))	137
+495	Bette		
+496	.		
+497	Er	(mention_id=23|references=(entity=(entity_id=Alfred|fullname=Alfred)))	23
+498	hörte		
+499	die		
+500	Uhr		
+501	picken		
+502	,		
+503	die		
+504	auf		
+505	dem		
+506	Tische		
+507	vor		
+508	dem		
+509	Spiegel		
+510	stand		
+511	.		
+512	Er	(mention_id=24|references=(entity=(entity_id=Alfred|fullname=Alfred)))	24
+513	sahe		
+514	sich	(mention_id=165|references=(entity=(entity_id=Alfred|fullname=Alfred)))	165
+515	selbst		
+516	im		
+517	Spiegel		
+518	mit		
+519	bleichen		
+520	,		
+521	geisterhaften		
+522	Zügen		
+523	und		
+524	mit		
+525	Augen		
+526	,		
+527	welche		
+528	wie		
+529	geschlossen		
+530	schienen		
+531	.		
+532	Dann		
+533	saß		
+534	er	(mention_id=25|references=(entity=(entity_id=Alfred|fullname=Alfred)))	25
+535	auf		
+536	dem		
+537	Sessel		
+538	vorm		
+539	Bett		
+540	und		
+541	hatte		
+542	sich	(mention_id=166|references=(entity=(entity_id=Alfred|fullname=Alfred)))	166
+543	,		
+544	ohne		
+545	es		
+546	zu		
+547	wollen		
+548	,		
+549	angekleidet		
+550	.		
+551	»		
+552	Ich	(mention_id=26|references=(entity=(entity_id=Alfred|fullname=Alfred)))	26
+553	werde		
+554	vor		
+555	Juliens	(mention_id=196|references=(entity=(entity_id=Julien|fullname=Julien)))	196
+556	Fenster		
+557	gehen		
+558	und		
+559	den		
+560	Vorhang		
+561	wegheben		
+562	!		
+563	«		
+564	flüsterte		
+565	er	(mention_id=27|references=(entity=(entity_id=Alfred|fullname=Alfred)))	27
+566	vor		
+567	sich	(mention_id=167|references=(entity=(entity_id=Alfred|fullname=Alfred)))	167
+568	hin		
+569	,		
+570	aber		
+571	nur		
+572	wie		
+573	zum		
+574	Scherz		
+575	,		
+576	denn		
+577	Julie	(mention_id=197|references=(entity=(entity_id=Julien|fullname=Julien)))	197
+578	wohnte		
+579	im		
+580	dritten		
+581	Stock		
+582	.		
+583	Doch		
+584	ging		
+585	er	(mention_id=28|references=(entity=(entity_id=Alfred|fullname=Alfred)))	28
+586	.		
+587	Die		
+588	Straßen		
+589	waren		
+590	still		
+591	und		
+592	öde		
+593	.		
+594	Man		
+595	sieht		
+596	auf		
+597	ihnen		
+598	niemand		
+599	,		
+600	auch		
+601	Alfreden	(mention_id=230|references=(entity=(entity_id=Alfred|fullname=Alfred)))	230
+602	nicht		
+603	.		
+604	Wo		
+605	geht		
+606	er	(mention_id=29|references=(entity=(entity_id=Alfred|fullname=Alfred)))	29
+607	nur		
+608	?		
+609	Aber		
+610	es		
+611	ist		
+612	dunkel		
+613	,		
+614	der		
+615	Mond		
+616	liegt		
+617	hinter		
+618	Wolken		
+619	,		
+620	man		
+621	kann		
+622	Alfred	(mention_id=198|references=(entity=(entity_id=Alfred|fullname=Alfred)))	198
+623	nicht		
+624	sehen		
+625	.		
+626	Alfred	(mention_id=199|references=(entity=(entity_id=Alfred|fullname=Alfred)))	199
+627	stand		
+628	vor		
+629	dem		
+630	Hause		
+631	Juliens	(mention_id=231|references=(entity=(entity_id=Julien|fullname=Julien)))	231
+632	,		
+633	ja		
+634	,		
+635	er	(mention_id=30|references=(entity=(entity_id=Alfred|fullname=Alfred)))	30
+636	hätte		
+637	schwören		
+638	mögen		
+639	,		
+640	daß		
+641	er	(mention_id=31|references=(entity=(entity_id=Alfred|fullname=Alfred)))	31
+642	vor		
+643	ihrem	(mention_id=138|references=(entity=(entity_id=Julien|fullname=Julien)))	138
+644	Fenster		
+645	stand		
+646	,		
+647	das		
+648	im		
+649	dritten		
+650	Stocke		
+651	lag		
+652	.		
+653	»		
+654	Es		
+655	ist		
+656	nicht		
+657	möglich		
+658	«		
+659	,		
+660	flüsterten		
+661	seine	(mention_id=139|references=(entity=(entity_id=Alfred|fullname=Alfred)))	139
+662	Gedanken		
+663	;		
+664	»		
+665	sie	(mention_id=32|references=(entity=(entity_id=Julien|fullname=Julien)))	32
+666	wohnt		
+667	im		
+668	dritten		
+669	Stock		
+670	;		
+671	obschon		
+672	ein		
+673	kleines		
+674	Vordach		
+675	vor		
+676	dem		
+677	Fenster		
+678	liegt		
+679	,		
+680	das		
+681	Moos		
+682	und		
+683	Hauslauf		
+684	anzusetzen		
+685	pflegt		
+686	.		
+687	Die		
+688	arme		
+689	Julie	(mention_id=200|references=(entity=(entity_id=Julien|fullname=Julien)))	200
+690	!		
+691	Ich	(mention_id=33|references=(entity=(entity_id=Alfred|fullname=Alfred)))	33
+692	werde		
+693	fleißiger		
+694	sein		
+695	,		
+696	sie	(mention_id=34|references=(entity=(entity_id=Julien|fullname=Julien)))	34
+697	muß		
+698	künftig		
+699	im		
+700	zweiten		
+701	Stock		
+702	wohnen		
+703	!		
+704	«		
+705	Jetzt		
+706	war		
+707	es		
+708	Alfred	(mention_id=201|references=(entity=(entity_id=Alfred|fullname=Alfred)))	201
+709	,		
+710	als		
+711	drückte		
+712	er	(mention_id=35|references=(entity=(entity_id=Alfred|fullname=Alfred)))	35
+713	an		
+714	dem		
+715	Fenster		
+716	;		
+717	aber		
+718	es		
+719	widerstand		
+720	.		
+721	Es		
+722	war		
+723	ihm	(mention_id=36|references=(entity=(entity_id=Alfred|fullname=Alfred)))	36
+724	,		
+725	als		
+726	klopfte		
+727	er	(mention_id=37|references=(entity=(entity_id=Alfred|fullname=Alfred)))	37
+728	;		
+729	aber		
+730	hinter		
+731	dem		
+732	weißen		
+733	Rouleau		
+734	brach		
+735	sich		
+736	der		
+737	Schall		
+738	.		
+739	Er	(mention_id=38|references=(entity=(entity_id=Alfred|fullname=Alfred)))	38
+740	mußte		
+741	lächeln		
+742	über		
+743	seine	(mention_id=140|references=(entity=(entity_id=Alfred|fullname=Alfred)))	140
+744	lebhafte		
+745	Einbildungskraft		
+746	.		
+747	»		
+748	Wie		
+749	!		
+750	«		
+751	dachte		
+752	er	(mention_id=39|references=(entity=(entity_id=Alfred|fullname=Alfred)))	39
+753	,		
+754	»		
+755	wenn		
+756	du	(mention_id=40|references=(entity=(entity_id=Alfred|fullname=Alfred)))	40
+757	ins		
+758	Haus		
+759	trittst		
+760	,		
+761	die		
+762	zwei		
+763	Stiegen		
+764	hinaufschleichst		
+765	und		
+766	an		
+767	ihre	(mention_id=141|references=(entity=(entity_id=Julien|fullname=Julien)))	141
+768	Kammertür		
+769	pochtest		
+770	.		
+771	«		
+772	Aber		
+773	dann		
+774	mußte		
+775	er	(mention_id=41|references=(entity=(entity_id=Alfred|fullname=Alfred)))	41
+776	durch		
+777	des		
+778	Nachbars	(mention_id=232|references=(entity=(entity_id=Nachbar von Julie|fullname=Nachbar von Julie)))	232
+779	Haus		
+780	,		
+781	das		
+782	ihm	(mention_id=42|references=(entity=(entity_id=Alfred|fullname=Alfred)))	42
+783	offenzustehen		
+784	schien		
+785	,		
+786	mußte		
+787	über		
+788	den		
+789	Garten-und		
+790	Hofzaun		
+791	klettern		
+792	und		
+793	von		
+794	dort		
+795	einzudringen		
+796	suchen		
+797	.		
+798	Und		
+799	das		
+800	alles		
+801	gelang		
+802	vortrefflich		
+803	.		
+804	Er	(mention_id=43|references=(entity=(entity_id=Alfred|fullname=Alfred)))	43
+805	stand		
+806	jetzt		
+807	gleichsam		
+808	höher		
+809	als		
+810	Juliens	(mention_id=202|references=(entity=(entity_id=Julien|fullname=Julien)))	202
+811	Wohnung		
+812	war		
+813	,		
+814	was		
+815	er	(mention_id=44|references=(entity=(entity_id=Alfred|fullname=Alfred)))	44
+816	sich	(mention_id=168|references=(entity=(entity_id=Alfred|fullname=Alfred)))	168
+817	nicht		
+818	erklären		
+819	konnte		
+820	.		
+821	Da		
+822	blendete		
+823	ihn	(mention_id=45|references=(entity=(entity_id=Alfred|fullname=Alfred)))	45
+824	ein		
+825	Lichtstrahl		
+826	;		
+827	ein		
+828	schnurrender		
+829	Laut		
+830	ließ		
+831	sich		
+832	hören		
+833	.		
+834	Julie	(mention_id=203|references=(entity=(entity_id=Julien|fullname=Julien)))	203
+835	hatte		
+836	das		
+837	Rouleau		
+838	aufgezogen		
+839	,		
+840	sie	(mention_id=46|references=(entity=(entity_id=Julien|fullname=Julien)))	46
+841	stand		
+842	im		
+843	Nachthäubchen		
+844	und		
+845	mit		
+846	bloßen		
+847	Schultern		
+848	am		
+849	Fenster		
+850	,		
+851	das		
+852	sie	(mention_id=47|references=(entity=(entity_id=Julien|fullname=Julien)))	47
+853	öffnete		
+854	.		
+855	Alfred	(mention_id=204|references=(entity=(entity_id=Alfred|fullname=Alfred)))	204
+856	war		
+857	nun		
+858	dicht		
+859	vor		
+860	ihr	(mention_id=48|references=(entity=(entity_id=Julien|fullname=Julien)))	48
+861	.		
+862	»		
+863	Was		
+864	ist		
+865	ihr	(mention_id=49|references=(entity=(entity_id=Julien|fullname=Julien)))	49
+866	nur		
+867	?		
+868	«		
+869	dachte		
+870	er	(mention_id=50|references=(entity=(entity_id=Alfred|fullname=Alfred)))	50
+871	;		
+872	»		
+873	sie	(mention_id=51|references=(entity=(entity_id=Julien|fullname=Julien)))	51
+874	erschrickt		
+875	,		
+876	sie	(mention_id=52|references=(entity=(entity_id=Julien|fullname=Julien)))	52
+877	öffnet		
+878	den		
+879	Mund		
+880	,		
+881	als		
+882	wollte		
+883	sie	(mention_id=53|references=(entity=(entity_id=Julien|fullname=Julien)))	53
+884	um		
+885	Hülfe		
+886	rufen		
+887	;		
+888	was		
+889	zitterst		
+890	du	(mention_id=54|references=(entity=(entity_id=Julien|fullname=Julien)))	54
+891	,		
+892	mich	(mention_id=55|references=(entity=(entity_id=Alfred|fullname=Alfred)))	55
+893	zu		
+894	erkennen		
+895	,		
+896	Julie	(mention_id=205|references=(entity=(entity_id=Julien|fullname=Julien)))	205
+897	?		
+898	«		
+899	»		
+900	Alfred	(mention_id=206|references=(entity=(entity_id=Alfred|fullname=Alfred)))	206
+901	!		
+902	«		
+903	schrie		
+904	es		
+905	durch		
+906	die		
+907	stille		
+908	Nachtluft		
+909	.		
+910	Alfred	(mention_id=207|references=(entity=(entity_id=Alfred|fullname=Alfred)))	207
+911	aber		
+912	lag		
+913	unten		
+914	mit		
+915	zerschmettertem		
+916	Körper		
+917	auf		
+918	dem		
+919	Pflaster		
+920	der		
+921	Straße		
+922	.		
+923	Alfred	(mention_id=208|references=(entity=(entity_id=Alfred|fullname=Alfred)))	208
+924	war		
+925	ein		
+926	Nachtwandler		
+927	.		
+928	Julie	(mention_id=209|references=(entity=(entity_id=Julien|fullname=Julien)))	209
+929	glaubte		
+930	nichts		
+931	gesehen		
+932	zu		
+933	haben		
+934	,		
+935	als		
+936	Alfred	(mention_id=210|references=(entity=(entity_id=Alfred|fullname=Alfred)))	210
+937	tot		
+938	war		
+939	.		
+940	Sie	(mention_id=56|references=(entity=(entity_id=Julien|fullname=Julien)))	56
+941	legte		
+942	sich	(mention_id=169|references=(entity=(entity_id=Julien|fullname=Julien)))	169
+943	wieder		
+944	in		
+945	ihr	(mention_id=142|references=(entity=(entity_id=Julien|fullname=Julien)))	142
+946	weißes		
+947	,		
+948	weiches		
+949	Bett		
+950	und		
+951	träumte		
+952	von		
+953	ihm	(mention_id=57|references=(entity=(entity_id=Alfred|fullname=Alfred)))	57
+954	.		
+955	Am		
+956	Morgen		
+957	erfuhr		
+958	sie	(mention_id=58|references=(entity=(entity_id=Julien|fullname=Julien)))	58
+959	alles		
+960	.		
+961	Sie	(mention_id=59|references=(entity=(entity_id=Julien|fullname=Julien)))	59
+962	lebt		
+963	noch		
+964	,		
+965	aber		
+966	kümmerlich		
+967	;		
+968	die		
+969	Tränen		
+970	zehren		
+971	sie	(mention_id=60|references=(entity=(entity_id=Julien|fullname=Julien)))	60
+972	auf		
+973	.		
+974	Cäsar	(mention_id=211|references=(entity=(entity_id=Cäsar|fullname=Cäsar)))	211
+975	hat		
+976	noch		
+977	immer		
+978	nicht		
+979	geschrieben		
+980	;		
+981	doch		
+982	wird		
+983	sein	(mention_id=143|references=(entity=(entity_id=Cäsar|fullname=Cäsar)))	143
+984	Brief		
+985	desto		
+986	ausführlicher		
+987	sein		
+988	.		
+989	Einstweilen		
+990	hab'		
+991	ich	(mention_id=61|references=(entity=(entity_id=Ich|fullname=Ich)))	61
+992	etwas		
+993	Beruhigung		
+994	erhalten		
+995	durch		
+996	eine		
+997	Maxime		
+998	,		
+999	die		
+1000	empfehlenswert		
+1001	ist		
+1002	.		
+1003	Das		
+1004	luftige		
+1005	Traumbild		
+1006	des		
+1007	Somnambulismus		
+1008	hat		
+1009	mich	(mention_id=170|references=(entity=(entity_id=Ich|fullname=Ich)))	170
+1010	gestern		
+1011	darauf		
+1012	gebracht		
+1013	.		
+1014	Nämlich		
+1015	,		
+1016	man		
+1017	nehme		
+1018	einen		
+1019	recht		
+1020	hohen		
+1021	Standpunkt		
+1022	,		
+1023	einen		
+1024	kosmischen		
+1025	oder		
+1026	planetarischen		
+1027	,		
+1028	wie		
+1029	ich	(mention_id=62|references=(entity=(entity_id=Ich|fullname=Ich)))	62
+1030	ihn		
+1031	nennen		
+1032	möchte		
+1033	.		
+1034	Man		
+1035	tue		
+1036	und		
+1037	lasse		
+1038	nichts		
+1039	,		
+1040	ohne		
+1041	sich		
+1042	im		
+1043	Zusammenhang		
+1044	der		
+1045	Weltordnung		
+1046	zu		
+1047	fühlen		
+1048	.		
+1049	Ich	(mention_id=63|references=(entity=(entity_id=Ich|fullname=Ich)))	63
+1050	denke		
+1051	,		
+1052	wo		
+1053	ich	(mention_id=64|references=(entity=(entity_id=Ich|fullname=Ich)))	64
+1054	gehe		
+1055	und		
+1056	stehe		
+1057	,		
+1058	an		
+1059	die		
+1060	Beziehungen		
+1061	der		
+1062	übrigen		
+1063	Himmelskörper		
+1064	zur		
+1065	Erde		
+1066	und		
+1067	abstrahiere		
+1068	von		
+1069	allem		
+1070	,		
+1071	was		
+1072	über		
+1073	diesem		
+1074	kleinen		
+1075	Erdball		
+1076	geschieht		
+1077	,		
+1078	auf		
+1079	das		
+1080	Universum		
+1081	,		
+1082	das		
+1083	niemand		
+1084	leugnen		
+1085	kann		
+1086	.		
+1087	Und		
+1088	nicht		
+1089	bloß		
+1090	im		
+1091	allgemeinen		
+1092	,		
+1093	sondern		
+1094	ganz		
+1095	im		
+1096	Detail		
+1097	,		
+1098	wie		
+1099	man		
+1100	ißt		
+1101	und		
+1102	schläft		
+1103	.		
+1104	Bei		
+1105	jedem		
+1106	Spaziergange		
+1107	richt'		
+1108	ich	(mention_id=65|references=(entity=(entity_id=Ich|fullname=Ich)))	65
+1109	den		
+1110	Blick		
+1111	gen		
+1112	Himmel		
+1113	und		
+1114	forsche		
+1115	in		
+1116	dem		
+1117	blauen		
+1118	Meere		
+1119	nach		
+1120	den		
+1121	versunkenen		
+1122	Sternen		
+1123	,		
+1124	die		
+1125	die		
+1126	Nacht		
+1127	erst		
+1128	sichtbar		
+1129	macht		
+1130	.		
+1131	Ich	(mention_id=66|references=(entity=(entity_id=Ich|fullname=Ich)))	66
+1132	fühle		
+1133	,		
+1134	wie		
+1135	die		
+1136	Erde		
+1137	unter		
+1138	meinen	(mention_id=144|references=(entity=(entity_id=Ich|fullname=Ich)))	144
+1139	Füßen		
+1140	kreist		
+1141	und		
+1142	ich	(mention_id=67|references=(entity=(entity_id=Ich|fullname=Ich)))	67
+1143	gleichsam		
+1144	nur		
+1145	auf		
+1146	ihr		
+1147	stationiert		
+1148	bin		
+1149	,		
+1150	sonst		
+1151	aber		
+1152	dem		
+1153	Allgemeinen		
+1154	angehöre		
+1155	.		
+1156	Wie		
+1157	vielen		
+1158	Stolz		
+1159	das		
+1160	gibt		
+1161	!		
+1162	Ich	(mention_id=68|references=(entity=(entity_id=Ich|fullname=Ich)))	68
+1163	habe		
+1164	jetzt		
+1165	einen		
+1166	Begriff		
+1167	von		
+1168	der		
+1169	Ruhe		
+1170	des		
+1171	Weisen	(mention_id=233|references=(entity=(entity_id=Weisen|fullname=Weisen)))	233
+1172	.		
+1173	Ihn	(mention_id=69|references=(entity=(entity_id=Weisen|fullname=Weisen)))	69
+1174	kann		
+1175	nichts		
+1176	erschüttern		
+1177	,		
+1178	denn		
+1179	er	(mention_id=70|references=(entity=(entity_id=Weisen|fullname=Weisen)))	70
+1180	hört		
+1181	die		
+1182	Planeten		
+1183	rauschen		
+1184	und		
+1185	fühlt		
+1186	sich	(mention_id=171|references=(entity=(entity_id=Weisen|fullname=Weisen)))	171
+1187	als		
+1188	Glied		
+1189	einer		
+1190	großen		
+1191	Wesenkette		
+1192	.		
+1193	Oh		
+1194	,		
+1195	vielleicht		
+1196	ist		
+1197	noch		
+1198	Hülfe		
+1199	für		
+1200	mich	(mention_id=71|references=(entity=(entity_id=Ich|fullname=Ich)))	71
+1201	!		
+1202	Ich	(mention_id=72|references=(entity=(entity_id=Ich|fullname=Ich)))	72
+1203	fange		
+1204	an		
+1205	,		
+1206	mir	(mention_id=73|references=(entity=(entity_id=Ich|fullname=Ich)))	73
+1207	die		
+1208	Möglichkeit		
+1209	einer		
+1210	zufriedenen		
+1211	Stimmung		
+1212	zu		
+1213	denken		
+1214	.		
+1215	Jetzt		
+1216	weiß		
+1217	ich	(mention_id=74|references=(entity=(entity_id=Ich|fullname=Ich)))	74
+1218	,		
+1219	wie		
+1220	in		
+1221	Indien		
+1222	die		
+1223	Bonzen	(mention_id=234|references=(entity=(entity_id=Bonzen|fullname=Bonzen)))	234
+1224	ihre	(mention_id=145|references=(entity=(entity_id=Bonzen|fullname=Bonzen)))	145
+1225	Büßungen		
+1226	möglich		
+1227	machen		
+1228	.		
+1229	Die		
+1230	Abstraktion		
+1231	hebt		
+1232	ihren	(mention_id=146|references=(entity=(entity_id=Bonzen|fullname=Bonzen)))	146
+1233	Stolz		
+1234	;		
+1235	aber		
+1236	sie	(mention_id=75|references=(entity=(entity_id=Bonzen|fullname=Bonzen)))	75
+1237	würden		
+1238	es		
+1239	nicht		
+1240	aushalten		
+1241	können		
+1242	,		
+1243	wenn		
+1244	nicht		
+1245	die		
+1246	Erde		
+1247	für		
+1248	sie	(mention_id=76|references=(entity=(entity_id=Bonzen|fullname=Bonzen)))	76
+1249	gleichsam		
+1250	verschwände		
+1251	und		
+1252	sie	(mention_id=77|references=(entity=(entity_id=Bonzen|fullname=Bonzen)))	77
+1253	nichts		
+1254	übrigbehielten		
+1255	als		
+1256	den		
+1257	gestirnten		
+1258	Himmel		
+1259	und		
+1260	das		
+1261	Gefühl		
+1262	der		
+1263	großen		
+1264	Wesenkette		
+1265	.		
+1266	Ich	(mention_id=78|references=(entity=(entity_id=Ich|fullname=Ich)))	78
+1267	müßte		
+1268	in		
+1269	die		
+1270	Einsamkeit		
+1271	ziehen		
+1272	.		
+1273	Wenn		
+1274	mich	(mention_id=172|references=(entity=(entity_id=Ich|fullname=Ich)))	172
+1275	nur		
+1276	eines		
+1277	nicht		
+1278	verfolgte		
+1279	!		
+1280	Nämlich		
+1281	die		
+1282	Natur		
+1283	und		
+1284	das		
+1285	Grün		
+1286	.		
+1287	Das		
+1288	Siderische		
+1289	und		
+1290	Tellurische		
+1291	im		
+1292	Menschen	(mention_id=212|references=(entity=(entity_id=Menschen generell|fullname=Menschen generell)))	212
+1293	bekämpfen		
+1294	sich		
+1295	,		
+1296	und		
+1297	wer	(mention_id=235|references=(entity=(entity_id=wer poetische Stimmungen hat|fullname=wer poetische Stimmungen hat)))	235
+1298	poetische		
+1299	Stimmungen		
+1300	hat		
+1301	,		
+1302	wird		
+1303	immer		
+1304	der		
+1305	Erde		
+1306	unterliegen		
+1307	.		
+1308	Das		
+1309	Meer		
+1310	,		
+1311	Gebirge		
+1312	und		
+1313	Ströme		
+1314	wirken		
+1315	noch		
+1316	immer		
+1317	siderisch		
+1318	auf		
+1319	uns	(mention_id=79|references=(entity=(entity_id=Menschen generell|fullname=Menschen generell)))	79
+1320	;		
+1321	denn		
+1322	sie		
+1323	sind		
+1324	das		
+1325	Rückgrat		
+1326	und		
+1327	die		
+1328	großen		
+1329	Zellgewebe		
+1330	der		
+1331	Erde		
+1332	und		
+1333	veranschaulichen		
+1334	die		
+1335	Kugel		
+1336	.		
+1337	Aber		
+1338	das		
+1339	Peinigende		
+1340	ist		
+1341	die		
+1342	stille		
+1343	Nachbarschaft		
+1344	der		
+1345	Blume		
+1346	,		
+1347	die		
+1348	Bescheidenheit		
+1349	der		
+1350	Idylle		
+1351	,		
+1352	die		
+1353	kleine		
+1354	Existenz		
+1355	mit		
+1356	ihren		
+1357	Kornährenkränzen		
+1358	und		
+1359	Abendglocken		
+1360	und		
+1361	alles		
+1362	,		
+1363	was		
+1364	so		
+1365	nahe		
+1366	zu		
+1367	unserm	(mention_id=147|references=(entity=(entity_id=Menschen generell|fullname=Menschen generell)))	147
+1368	Herzen		
+1369	spricht		
+1370	,		
+1371	die		
+1372	Offenbarung		
+1373	Gottes	(mention_id=236|references=(entity=(entity_id=Gottes|fullname=Gottes)))	236
+1374	,		
+1375	die		
+1376	wir	(mention_id=80|references=(entity=(entity_id=Menschen generell|fullname=Menschen generell)))	80
+1377	flüstern		
+1378	zu		
+1379	hören		
+1380	glauben		
+1381	,		
+1382	diese		
+1383	große		
+1384	Tatsache		
+1385	,		
+1386	die		
+1387	entweder		
+1388	Täuschung		
+1389	oder		
+1390	Wahrheit		
+1391	und		
+1392	in		
+1393	beiden		
+1394	Fällen		
+1395	unenthüllbar		
+1396	ist		
+1397	.		
+1398	Das		
+1399	Irdische		
+1400	faßt		
+1401	uns	(mention_id=81|references=(entity=(entity_id=Menschen generell|fullname=Menschen generell)))	81
+1402	wie		
+1403	im		
+1404	Strudel		
+1405	und		
+1406	reißt		
+1407	uns	(mention_id=173|references=(entity=(entity_id=Menschen generell|fullname=Menschen generell)))	173
+1408	hinunter		
+1409	in		
+1410	den		
+1411	bodenlosen		
+1412	Abgrund		
+1413	,		
+1414	von		
+1415	wo		
+1416	keine		
+1417	Wiederkunft		
+1418	.		
+1419	Ich	(mention_id=82|references=(entity=(entity_id=Ich|fullname=Ich)))	82
+1420	las		
+1421	nun		
+1422	alles		
+1423	,		
+1424	was		
+1425	ich	(mention_id=83|references=(entity=(entity_id=Ich|fullname=Ich)))	83
+1426	schrieb		
+1427	,		
+1428	und		
+1429	zittre		
+1430	,		
+1431	daß		
+1432	ich	(mention_id=84|references=(entity=(entity_id=Ich|fullname=Ich)))	84
+1433	kaum		
+1434	geschrieben		
+1435	habe		
+1436	,		
+1437	was		
+1438	ich	(mention_id=85|references=(entity=(entity_id=Ich|fullname=Ich)))	85
+1439	wollte		
+1440	.		
+1441	Eines		
+1442	ist		
+1443	auch		
+1444	ganz		
+1445	unmöglich		
+1446	,		
+1447	geschrieben		
+1448	zu		
+1449	werden		
+1450	:		
+1451	die		
+1452	Verzweiflung		
+1453	und		
+1454	das		
+1455	Gräßliche		
+1456	.		
+1457	Nämlich		
+1458	jene		
+1459	grausamen		
+1460	,		
+1461	blutsaugenden		
+1462	Träume		
+1463	,		
+1464	die		
+1465	mich	(mention_id=174|references=(entity=(entity_id=Ich|fullname=Ich)))	174
+1466	wachendes		
+1467	Auges		
+1468	überfallen		
+1469	und		
+1470	mich	(mention_id=86|references=(entity=(entity_id=Ich|fullname=Ich)))	86
+1471	hinausstoßen		
+1472	in		
+1473	eine		
+1474	hohnlachende		
+1475	,		
+1476	von		
+1477	gräßlichen		
+1478	,		
+1479	unnennbaren		
+1480	Dingen		
+1481	drapierte		
+1482	Welt		
+1483	.		
+1484	Wie		
+1485	combinier'		
+1486	ich	(mention_id=87|references=(entity=(entity_id=Ich|fullname=Ich)))	87
+1487	!		
+1488	Was		
+1489	für		
+1490	Dinge		
+1491	kommen		
+1492	mir	(mention_id=175|references=(entity=(entity_id=Ich|fullname=Ich)))	175
+1493	vor		
+1494	die		
+1495	Augen		
+1496	!		
+1497	Ich	(mention_id=88|references=(entity=(entity_id=Ich|fullname=Ich)))	88
+1498	zittre		
+1499	,		
+1500	während		
+1501	mein	(mention_id=148|references=(entity=(entity_id=Ich|fullname=Ich)))	148
+1502	Puls		
+1503	ganz		
+1504	richtig		
+1505	und		
+1506	medizinisch		
+1507	schlägt		
+1508	.		
+1509	Muß		
+1510	ich	(mention_id=89|references=(entity=(entity_id=Ich|fullname=Ich)))	89
+1511	sterben		
+1512	,		
+1513	was		
+1514	verbrach		
+1515	ich	(mention_id=90|references=(entity=(entity_id=Ich|fullname=Ich)))	90
+1516	,		
+1517	daß		
+1518	mir	(mention_id=91|references=(entity=(entity_id=Ich|fullname=Ich)))	91
+1519	Raben		
+1520	erscheinen		
+1521	müssen		
+1522	?		
+1523	Ich	(mention_id=92|references=(entity=(entity_id=Ich|fullname=Ich)))	92
+1524	sehe		
+1525	eine		
+1526	schwarze		
+1527	Halle		
+1528	und		
+1529	einen		
+1530	weiten		
+1531	Sarg		
+1532	.		
+1533	Ein		
+1534	Rumpf		
+1535	fällt		
+1536	von		
+1537	der		
+1538	Decke		
+1539	,		
+1540	wo		
+1541	eine		
+1542	Öffnung		
+1543	,		
+1544	hinunter		
+1545	in		
+1546	den		
+1547	Sarg		
+1548	,		
+1549	und		
+1550	den		
+1551	nachstürzenden		
+1552	Kopf		
+1553	greift		
+1554	unser	(mention_id=149|references=(entity=(entity_id=unser|fullname=unser)))	149
+1555	Arzt	(mention_id=213|references=(entity=(entity_id=Arzt|fullname=Arzt)))	213
+1556	auf		
+1557	.		
+1558	Oben		
+1559	muß		
+1560	das		
+1561	Schafott		
+1562	sein		
+1563	.		
+1564	Der		
+1565	Mann	(mention_id=214|references=(entity=(entity_id=Arzt|fullname=Arzt)))	214
+1566	drückt		
+1567	das		
+1568	blutige		
+1569	Haupt		
+1570	stürmisch		
+1571	auf		
+1572	den		
+1573	rauchenden		
+1574	Körper		
+1575	,		
+1576	paßt		
+1577	Fuge		
+1578	auf		
+1579	Fuge		
+1580	,		
+1581	Ader		
+1582	auf		
+1583	Ader		
+1584	und		
+1585	legt		
+1586	einen		
+1587	Silberreifen		
+1588	um		
+1589	die		
+1590	gierig		
+1591	zusammenklaffenden		
+1592	Fleischränder		
+1593	beider		
+1594	Teile		
+1595	.		
+1596	Er	(mention_id=93|references=(entity=(entity_id=Arzt|fullname=Arzt)))	93
+1597	dreht		
+1598	sich	(mention_id=176|references=(entity=(entity_id=Arzt|fullname=Arzt)))	176
+1599	um		
+1600	,		
+1601	und		
+1602	Leben		
+1603	,		
+1604	galvanisches		
+1605	Leben		
+1606	regt		
+1607	sich		
+1608	in		
+1609	dem		
+1610	Körper		
+1611	,		
+1612	und		
+1613	der		
+1614	Leichnam	(mention_id=237|references=(entity=(entity_id=Leichnam|fullname=Leichnam)))	237
+1615	erhebt		
+1616	sich	(mention_id=177|references=(entity=(entity_id=Leichnam|fullname=Leichnam)))	177
+1617	,		
+1618	ein		
+1619	blasser		
+1620	,		
+1621	schöner		
+1622	Jüngling	(mention_id=238|references=(entity=(entity_id=Leichnam|fullname=Leichnam)))	238
+1623	,		
+1624	und		
+1625	schleicht		
+1626	zur		
+1627	Pforte		
+1628	hinaus		
+1629	.		
+1630	Dort		
+1631	,		
+1632	dort		
+1633	–		
+1634	eine		
+1635	grüne		
+1636	Flur		
+1637	–		
+1638	ein		
+1639	Mädchen	(mention_id=215|references=(entity=(entity_id=Mädchen|fullname=Mädchen)))	215
+1640	,		
+1641	das		
+1642	Rosen		
+1643	bricht		
+1644	und		
+1645	im		
+1646	Schatten		
+1647	der		
+1648	Allee		
+1649	ausruht		
+1650	.		
+1651	Ein		
+1652	bleiches		
+1653	,		
+1654	gespenstisches		
+1655	Bild		
+1656	schleicht		
+1657	zu		
+1658	ihr	(mention_id=94|references=(entity=(entity_id=Mädchen|fullname=Mädchen)))	94
+1659	heran		
+1660	,		
+1661	spricht		
+1662	nicht		
+1663	,		
+1664	sondern		
+1665	lächelt		
+1666	.		
+1667	Sie	(mention_id=95|references=(entity=(entity_id=Mädchen|fullname=Mädchen)))	95
+1668	umarmt		
+1669	ihn	(mention_id=96|references=(entity=(entity_id=Leichnam|fullname=Leichnam)))	96
+1670	,		
+1671	sie	(mention_id=97|references=(entity=(entity_id=Mädchen|fullname=Mädchen)))	97
+1672	scherzt		
+1673	,		
+1674	sie	(mention_id=98|references=(entity=(entity_id=Mädchen|fullname=Mädchen)))	98
+1675	lacht		
+1676	;		
+1677	er	(mention_id=99|references=(entity=(entity_id=Leichnam|fullname=Leichnam)))	99
+1678	hat		
+1679	auf		
+1680	sich	(mention_id=178|references=(entity=(entity_id=Leichnam|fullname=Leichnam)))	178
+1681	warten		
+1682	lassen		
+1683	,		
+1684	er	(mention_id=100|references=(entity=(entity_id=Leichnam|fullname=Leichnam)))	100
+1685	sei		
+1686	untreu		
+1687	,		
+1688	er	(mention_id=101|references=(entity=(entity_id=Leichnam|fullname=Leichnam)))	101
+1689	gehe		
+1690	zu		
+1691	Doris	(mention_id=216|references=(entity=(entity_id=Doris|fullname=Doris)))	216
+1692	,		
+1693	er	(mention_id=102|references=(entity=(entity_id=Leichnam|fullname=Leichnam)))	102
+1694	gehe		
+1695	zu		
+1696	Galathee	(mention_id=217|references=(entity=(entity_id=Galathee|fullname=Galathee)))	217
+1697	,		
+1698	du		
+1699	Lieber		
+1700	!		
+1701	Und		
+1702	sie	(mention_id=103|references=(entity=(entity_id=Mädchen|fullname=Mädchen)))	103
+1703	küßt		
+1704	seinen	(mention_id=150|references=(entity=(entity_id=Leichnam|fullname=Leichnam)))	150
+1705	blassen		
+1706	Mund		
+1707	.		
+1708	–		
+1709	»		
+1710	Oh		
+1711	«		
+1712	,		
+1713	röchelt		
+1714	er	(mention_id=104|references=(entity=(entity_id=Leichnam|fullname=Leichnam)))	104
+1715	,		
+1716	»		
+1717	drücke		
+1718	nicht		
+1719	!		
+1720	«		
+1721	Doch		
+1722	sie	(mention_id=105|references=(entity=(entity_id=Mädchen|fullname=Mädchen)))	105
+1723	hört		
+1724	nicht		
+1725	,		
+1726	sie	(mention_id=106|references=(entity=(entity_id=Mädchen|fullname=Mädchen)))	106
+1727	drückt		
+1728	,		
+1729	der		
+1730	Reifen		
+1731	springt		
+1732	–		
+1733	Herr	(mention_id=218|references=(entity=(entity_id=Herr Jesus|fullname=Herr Jesus)))	218
+1734	Jesus	(mention_id=218|references=(entity=(entity_id=Herr Jesus|fullname=Herr Jesus)))	218
+1735	,		
+1736	was		
+1737	geht		
+1738	mit		
+1739	mir	(mention_id=107|references=(entity=(entity_id=Ich|fullname=Ich)))	107
+1740	vor		
+1741	!		
+1742	–		
+1743	Hier		
+1744	brach		
+1745	Wallys	(mention_id=219|references=(entity=(entity_id=Ich|fullname=Ich)))	219
+1746	Tagebuch		
+1747	auf		
+1748	längre		
+1749	Zeit		
+1750	ab		
+1751	.		
+1752	Sie	(mention_id=108|references=(entity=(entity_id=Ich|fullname=Ich)))	108
+1753	bekam		
+1754	inzwischen		
+1755	das		
+1756	ihr	(mention_id=151|references=(entity=(entity_id=Ich|fullname=Ich)))	151
+1757	von		
+1758	Cäsar	(mention_id=220|references=(entity=(entity_id=Cäsar|fullname=Cäsar)))	220
+1759	versprochene		
+1760	Glaubensbekenntnis		
+1761	.		
+1762	Es		
+1763	war		
+1764	in		
+1765	das		
+1766	Tagebuch		
+1767	eingeheftet		
+1768	und		
+1769	lautete		
+1770	folgendermaßen		
+1771	.		
+1772	Geständnisse		
+1773	über		
+1774	Religion		
+1775	und		
+1776	Christentum		
+1777	Ich	(mention_id=109|references=(entity=(entity_id=Ich_ nicht Wally|fullname=Ich_ nicht Wally)))	109
+1778	will		
+1779	über		
+1780	den		
+1781	Glauben		
+1782	der		
+1783	Völker	(mention_id=239|references=(entity=(entity_id=Völker|fullname=Völker)))	239
+1784	sprechen		
+1785	.		
+1786	Aus		
+1787	dem		
+1788	melancholischen		
+1789	Schweigen		
+1790	des		
+1791	Heidelberger		
+1792	Schlosses		
+1793	hol'		
+1794	ich	(mention_id=110|references=(entity=(entity_id=Ich_ nicht Wally|fullname=Ich_ nicht Wally)))	110
+1795	mir	(mention_id=179|references=(entity=(entity_id=Ich_ nicht Wally|fullname=Ich_ nicht Wally)))	179
+1796	abendlich		
+1797	die		
+1798	Geheimnisse		
+1799	jener		
+1800	frommen		
+1801	Naturreligion		
+1802	,		
+1803	für		
+1804	die		
+1805	ich	(mention_id=111|references=(entity=(entity_id=Ich_ nicht Wally|fullname=Ich_ nicht Wally)))	111
+1806	glühe		
+1807	.		
+1808	Alles		
+1809	Historische		
+1810	aber		
+1811	,		
+1812	was		
+1813	ich	(mention_id=112|references=(entity=(entity_id=Ich_ nicht Wally|fullname=Ich_ nicht Wally)))	112
+1814	zu		
+1815	fixieren		
+1816	habe		
+1817	,		
+1818	knüpf'		
+1819	ich	(mention_id=113|references=(entity=(entity_id=Ich_ nicht Wally|fullname=Ich_ nicht Wally)))	113
+1820	an		
+1821	jene		
+1822	kleine		
+1823	Herberge		
+1824	jenseits		
+1825	des		
+1826	Neckar		
+1827	an		
+1828	,		
+1829	wo		
+1830	Luther	(mention_id=221|references=(entity=(entity_id=Luther|fullname=Luther)))	221
+1831	auf		
+1832	der		
+1833	Reise		
+1834	nach		
+1835	Worms		
+1836	sein	(mention_id=152|references=(entity=(entity_id=Luther|fullname=Luther)))	152
+1837	Frühstück		
+1838	zu		
+1839	berichtigen		
+1840	vergessen		
+1841	haben		
+1842	soll		
+1843	,		
+1844	ein		
+1845	Frühstück		
+1846	,		
+1847	das		
+1848	der		
+1849	Protestantismus		
+1850	dem		
+1851	Katholizismus		
+1852	so		
+1853	teuer		
+1854	hat		
+1855	bezahlen		
+1856	müssen		
+1857	.		
+1858	Religion		
+1859	ist		
+1860	Verzweiflung		
+1861	am		
+1862	Weltzweck		
+1863	.		
+1864	Wüßte		
+1865	die		
+1866	Menschheit	(mention_id=241|references=(entity=(entity_id=Menschen generell|fullname=Menschen generell)))	241
+1867	,		
+1868	wohin		
+1869	ihre	(mention_id=153|references=(entity=(entity_id=Menschen generell|fullname=Menschen generell)))	153
+1870	Leiden		
+1871	und		
+1872	Freuden		
+1873	tendieren		
+1874	,		
+1875	wüßte		
+1876	sie	(mention_id=114|references=(entity=(entity_id=Menschen generell|fullname=Menschen generell)))	114
+1877	ein		
+1878	sichtbares		
+1879	Ziel		
+1880	ihrer	(mention_id=154|references=(entity=(entity_id=Menschen generell|fullname=Menschen generell)))	154
+1881	Anstrengungen		
+1882	,		
+1883	einen		
+1884	Erklärungsgrund		
+1885	für		
+1886	dies		
+1887	wirre		
+1888	Durcheinander		
+1889	der		
+1890	Interessen		
+1891	,		
+1892	für		
+1893	die		
+1894	Tapezierung		
+1895	des		
+1896	Firmaments		
+1897	,		
+1898	für		
+1899	die		
+1900	wechselnde		
+1901	Natur		
+1902	,		
+1903	für		
+1904	Frost		
+1905	,		
+1906	Hitze		
+1907	,		
+1908	Regen		
+1909	,		
+1910	Hagel		
+1911	,		
+1912	Blitz		
+1913	und		
+1914	Donner		
+1915	,		
+1916	sie	(mention_id=115|references=(entity=(entity_id=Menschen generell|fullname=Menschen generell)))	115
+1917	würde		
+1918	an		
+1919	keinen		
+1920	Gott		
+1921	glauben		
+1922	.		
+1923	In		
+1924	progressiver		
+1925	Entwicklung		
+1926	folgt		
+1927	hieraus		
+1928	dreierlei		
+1929	:		
+1930	der		
+1931	natürliche		
+1932	Ursprung		
+1933	der		
+1934	Religion		
+1935	,		
+1936	die		
+1937	Accomodation		
+1938	der		
+1939	göttlichen		
+1940	Begriffe		
+1941	an		
+1942	den		
+1943	jedesmaligen		
+1944	Bildungsgrad		
+1945	und		
+1946	zuletzt		
+1947	die		
+1948	Unmöglichkeit		
+1949	historischer		
+1950	Religionen		
+1951	bei		
+1952	steigender		
+1953	Aufklärung		
+1954	.		
+1955	Dem		
+1956	Begriffe		
+1957	Offenbarung		
+1958	läßt		
+1959	sich		
+1960	vielleicht		
+1961	eine		
+1962	philosophische		
+1963	Unterlage		
+1964	geben		
+1965	,		
+1966	pantheistischer		
+1967	Art		
+1968	;		
+1969	aber		
+1970	im		
+1971	herkömmlichen		
+1972	theologischen		
+1973	Sinne		
+1974	ist		
+1975	die		
+1976	Offenbarung		
+1977	eine		
+1978	Verfälschung		
+1979	der		
+1980	Natur		
+1981	und		
+1982	der		
+1983	Geschichte		
+1984	.		
+1985	Eine		
+1986	saubre		
+1987	Insinuation		
+1988	,		
+1989	sich		
+1990	Gott	(mention_id=246|references=(entity=(entity_id=Gottes|fullname=Gottes)))	246
+1991	als		
+1992	Priester	(mention_id=247|references=(entity=(entity_id=Gottes|fullname=Gottes)))	247
+1993	zu		
+1994	denken		
+1995	,		
+1996	der	(mention_id=182|references=(entity=(entity_id=Gottes|fullname=Gottes)))	182
+1997	im		
+1998	schwarzen		
+1999	Talare		
+2000	zu		
+2001	dem		
+2002	ersten		
+2003	Menschenpaar	(mention_id=248|references=(entity=(entity_id=Menschenpaar|fullname=Menschenpaar)))	248
+2004	hinzugetreten		
+2005	wäre		
+2006	und		
+2007	ihm	(mention_id=116|references=(entity=(entity_id=Menschenpaar|fullname=Menschenpaar)))	116
+2008	Unterricht		
+2009	gegeben		
+2010	hätte		
+2011	in		
+2012	glaublichen		
+2013	und		
+2014	unglaublichen		
+2015	Dingen		
+2016	!		
+2017	Sie	(mention_id=117|references=(entity=(entity_id=Sie|fullname=Sie)))	117
+2018	machen		
+2019	aus		
+2020	Gott	(mention_id=242|references=(entity=(entity_id=Gottes|fullname=Gottes)))	242
+2021	einen		
+2022	Souverän	(mention_id=249|references=(entity=(entity_id=Gottes|fullname=Gottes)))	249
+2023	,		
+2024	einen		
+2025	Patriarchen	(mention_id=250|references=(entity=(entity_id=Gottes|fullname=Gottes)))	250
+2026	,		
+2027	einen		
+2028	Geistlichen	(mention_id=251|references=(entity=(entity_id=Gottes|fullname=Gottes)))	251
+2029	.		
+2030	Sie	(mention_id=118|references=(entity=(entity_id=Sie|fullname=Sie)))	118
+2031	lassen		
+2032	Gott	(mention_id=243|references=(entity=(entity_id=Gottes|fullname=Gottes)))	243
+2033	in		
+2034	sehr		
+2035	unvollkommnen		
+2036	Sprachen		
+2037	reden		
+2038	,		
+2039	zu		
+2040	Zeiten		
+2041	,		
+2042	wo		
+2043	es		
+2044	an		
+2045	stilistischer		
+2046	Vollkommenheit		
+2047	noch		
+2048	überall		
+2049	fehlte		
+2050	.		
+2051	Niemand		
+2052	war		
+2053	in		
+2054	diesen		
+2055	anthropomorphistischen		
+2056	Konsequenzen		
+2057	einer		
+2058	supernaturellen		
+2059	Offenbarung		
+2060	kecker		
+2061	als		
+2062	die		
+2063	Apostel	(mention_id=252|references=(entity=(entity_id=Apostel|fullname=Apostel)))	252
+2064	Jesu	(mention_id=253|references=(entity=(entity_id=Herr Jesus|fullname=Herr Jesus)))	253
+2065	;		
+2066	denn		
+2067	:		
+2068	alle		
+2069	Schrift		
+2070	von		
+2071	Gott	(mention_id=244|references=(entity=(entity_id=Gottes|fullname=Gottes)))	244
+2072	eingegeben		
+2073	heißt		
+2074	:		
+2075	in		
+2076	der		
+2077	Lehre		
+2078	von		
+2079	der		
+2080	Inspiration		
+2081	Gott	(mention_id=245|references=(entity=(entity_id=Gottes|fullname=Gottes)))	245
+2082	zum		
+2083	Mitschuldigen	(mention_id=254|references=(entity=(entity_id=Gottes|fullname=Gottes)))	254
+2084	aller		
+2085	der		
+2086	Solöcismen		
+2087	und		
+2088	inkorrekten		
+2089	Konstruktionen		
+2090	machen		
+2091	,		
+2092	welche		
+2093	sich		
+2094	im		
+2095	griechischen		
+2096	Texte		
+2097	des		
+2098	Neuen		
+2099	Testamentes		
+2100	finden		
+2101	.		
+2102	Gewisse		
+2103	Kapitel		
+2104	gibt		
+2105	es		
+2106	in		
+2107	den		
+2108	dogmatischen		
+2109	Systemen		
+2110	unsrer	(mention_id=155|references=(entity=(entity_id=Katholiken_Protestanten_|fullname=Katholiken_Protestanten_)))	155
+2111	Theologen	(mention_id=222|references=(entity=(entity_id=Theologen des Kath_Prot|fullname=Theologen des Kath_Prot)))	222
+2112	,		
+2113	die		
+2114	sich		
+2115	besser		
+2116	für		
+2117	Grimms	(mention_id=223|references=(entity=(entity_id=Grimms|fullname=Grimms)))	223
+2118	»		
+2119	Kindermärchen		
+2120	«		
+2121	oder		
+2122	»		
+2123	Tausend		
+2124	und		
+2125	eine		
+2126	Nacht		
+2127	«		
+2128	schicken		
+2129	würden		
+2130	.		
+2131	Dazu		
+2132	gehören		
+2133	die		
+2134	kriminalisch		
+2135	strafbaren		
+2136	Dogmen		
+2137	von		
+2138	der		
+2139	Offenbarung		
+2140	und		
+2141	Inspiration		
+2142	.		
+2143	Je		
+2144	naiver		
+2145	die		
+2146	Völker	(mention_id=240|references=(entity=(entity_id=Völker|fullname=Völker)))	240
+2147	sind		
+2148	,		
+2149	desto		
+2150	sinnlicher		
+2151	und		
+2152	äußerlicher		
+2153	ihre	(mention_id=156|references=(entity=(entity_id=Völker|fullname=Völker)))	156
+2154	Begriffe		
+2155	vom		
+2156	Weltzwecke		
+2157	:		
+2158	je		
+2159	gebildeter		
+2160	jene	(mention_id=255|references=(entity=(entity_id=Völker|fullname=Völker)))	255
+2161	,		
+2162	desto		
+2163	geheimnisreicher		
+2164	diese		
+2165	.		
+2166	Die		
+2167	Verwechselung		
+2168	endlicher		
+2169	und		
+2170	unendlicher		
+2171	Ursachen		
+2172	der		
+2173	Weltregierung		
+2174	lag		
+2175	nahe		
+2176	,		
+2177	und		
+2178	so		
+2179	kam		
+2180	es		
+2181	,		
+2182	daß		
+2183	das		
+2184	Altertum		
+2185	so		
+2186	viel		
+2187	Historisches		
+2188	in		
+2189	Mystisches		
+2190	,		
+2191	Mystisches		
+2192	wieder		
+2193	in		
+2194	Himmlisches		
+2195	verwandelte		
+2196	.		
+2197	Der		
+2198	Naturmensch	(mention_id=256|references=(entity=(entity_id=Naturmensch|fullname=Naturmensch)))	256
+2199	versteht		
+2200	die		
+2201	Welt		
+2202	nur		
+2203	so		
+2204	weit		
+2205	,		
+2206	wie		
+2207	sein	(mention_id=157|references=(entity=(entity_id=Naturmensch|fullname=Naturmensch)))	157
+2208	Auge		
+2209	reicht		
+2210	.		
+2211	Alles		
+2212	,		
+2213	was		
+2214	über		
+2215	den		
+2216	Sehkreis		
+2217	seiner	(mention_id=158|references=(entity=(entity_id=Naturmensch|fullname=Naturmensch)))	158
+2218	sinnlichen		
+2219	Vorstellungen		
+2220	hinausliegt		
+2221	,		
+2222	scheint		
+2223	ihm	(mention_id=119|references=(entity=(entity_id=Naturmensch|fullname=Naturmensch)))	119
+2224	die		
+2225	erklärende		
+2226	Veranlassung		
+2227	der		
+2228	Unerklärlichkeiten		
+2229	zu		
+2230	sein		
+2231	,		
+2232	die		
+2233	ihn	(mention_id=120|references=(entity=(entity_id=Naturmensch|fullname=Naturmensch)))	120
+2234	in		
+2235	nächster		
+2236	Nähe		
+2237	umgeben		
+2238	.		
+2239	Daher		
+2240	die		
+2241	zahllosen		
+2242	Details		
+2243	im		
+2244	Glauben		
+2245	der		
+2246	alten		
+2247	Völker	(mention_id=257|references=(entity=(entity_id=alte Völker|fullname=alte Völker)))	257
+2248	:		
+2249	daher		
+2250	die		
+2251	Übertreibungen		
+2252	der		
+2253	Phantasie		
+2254	,		
+2255	das		
+2256	Ungeheure		
+2257	in		
+2258	Zahlen		
+2259	und		
+2260	Formbildungen		
+2261	.		
+2262	Die		
+2263	alten		
+2264	Religionen		
+2265	sind		
+2266	so		
+2267	ausschweifend		
+2268	wie		
+2269	alles		
+2270	,		
+2271	was		
+2272	man		
+2273	,		
+2274	ich	(mention_id=121|references=(entity=(entity_id=Ich_ nicht Wally|fullname=Ich_ nicht Wally)))	121
+2275	sage		
+2276	nicht		
+2277	,		
+2278	nicht		
+2279	kennt		
+2280	,		
+2281	sondern		
+2282	wie		
+2283	alles		
+2284	,		
+2285	das		
+2286	man		
+2287	noch		
+2288	nicht		
+2289	gesehen		
+2290	hat		
+2291	.		
+2292	In		
+2293	diesen		
+2294	Unförmlichkeiten		
+2295	Entstellungen		
+2296	alter		
+2297	Überlieferungen		
+2298	zu		
+2299	finden		
+2300	,		
+2301	einfache		
+2302	,		
+2303	aber		
+2304	tiefsinnige		
+2305	Keime		
+2306	einer		
+2307	urweltlichen		
+2308	Offenbarung		
+2309	oder		
+2310	auch		
+2311	nur		
+2312	eines		
+2313	heiligen		
+2314	,		
+2315	frommen		
+2316	und		
+2317	simpeln		
+2318	Zeitalters		
+2319	:		
+2320	das		
+2321	heißt		
+2322	,		
+2323	von		
+2324	einer		
+2325	kindischen		
+2326	Ansicht		
+2327	,		
+2328	die		
+2329	wir	(mention_id=122|references=(entity=(entity_id=wir|fullname=wir)))	122
+2330	schon		
+2331	erwähnten		
+2332	,		
+2333	nur		
+2334	eine		
+2335	ernsthafte		
+2336	Anwendung		
+2337	machen		
+2338	.		
+2339	Das		
+2340	klassische		
+2341	Altertum		
+2342	hatte		
+2343	den		
+2344	schönsten		
+2345	Ausdruck		
+2346	für		
+2347	das		
+2348	religiöse		
+2349	Prinzip		
+2350	der		
+2351	alten		
+2352	Welt		
+2353	:		
+2354	Religion		
+2355	ist		
+2356	alles		
+2357	,		
+2358	was		
+2359	man		
+2360	entweder		
+2361	selbst		
+2362	nicht		
+2363	ist		
+2364	oder		
+2365	nicht		
+2366	kennt		
+2367	.		
+2368	Die		
+2369	Griechen	(mention_id=258|references=(entity=(entity_id=Griechen|fullname=Griechen)))	258
+2370	,		
+2371	mit		
+2372	ihren	(mention_id=159|references=(entity=(entity_id=Griechen|fullname=Griechen)))	159
+2373	östlichen		
+2374	Ahnen		
+2375	und		
+2376	deren		
+2377	architektonischen		
+2378	Vorstudien		
+2379	der		
+2380	vollendeten		
+2381	heidnischen		
+2382	Idee		
+2383	,		
+2384	die		
+2385	Griechen	(mention_id=259|references=(entity=(entity_id=Griechen|fullname=Griechen)))	259
+2386	setzten		
+2387	die		
+2388	Religion		
+2389	in		
+2390	die		
+2391	Kunst		
+2392	,		
+2393	sie	(mention_id=123|references=(entity=(entity_id=Griechen|fullname=Griechen)))	123
+2394	setzten		
+2395	sie		
+2396	in		
+2397	das		
+2398	,		
+2399	was		
+2400	im		
+2401	Ungewissen		
+2402	immer		
+2403	das		
+2404	Gewisse		
+2405	ist		
+2406	,		
+2407	in		
+2408	das		
+2409	Maß		
+2410	aller		
+2411	Dinge		
+2412	,		
+2413	in		
+2414	den		
+2415	Menschen	(mention_id=224|references=(entity=(entity_id=Menschen generell|fullname=Menschen generell)))	224
+2416	.		

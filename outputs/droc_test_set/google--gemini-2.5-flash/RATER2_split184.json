@@ -1,0 +1,4961 @@
+{
+  "model": "google/gemini-2.5-flash",
+  "request_args": {
+    "seed": 123,
+    "temperature": 0,
+    "reasoning": {
+      "enabled": false
+    },
+    "provider": {
+      "only": [
+        "google-vertex"
+      ]
+    }
+  },
+  "raw_input": "\n# Figurenannotation in literarischen Texten\n\n## Aufgabe\nAnnotiere alle markierten Figuren-Erw\u00e4hnungen im Text mit einer eindeutigen, konsistenten Bezeichnung.\n\n## Input\nDu erh\u00e4ltst:\n1. Den vollst\u00e4ndigen Text (A), in dem Figuren-Erw\u00e4hnungen mit [eckigen Klammern][ID] markiert sind\n2. Eine Liste der zu annotierenden Erw\u00e4hnungen (B) mit folgenden Feldern:\n   - \"ID\": Numerische ID der Erw\u00e4hnung\n   - \"Position\": Position im Text (Token-Index)\n   - \"Text\": Wortlaut der Erw\u00e4hnung\n   - \"Annotation\": Zu bef\u00fcllendes Feld (aktuell leer)\n\n## Annotationsregeln\n1. Weise jeder Erw\u00e4hnung GENAU EINE Figurenbezeichnung zu\n2. Verwende den Eigennamen (vorzugsweise Vornamen) der Figur, wenn im Text genannt\n3. Bei fehlenden Namen: Erstelle eine pr\u00e4zise, textnahe Umschreibung\n4. Bei mehreren Figuren: Trenne Bezeichnungen durch Komma (nicht \"und\")\n5. Bei unspezifischen Gruppen: Verwende eine passende Gruppenbezeichnung\n6. WICHTIG: Verwende f\u00fcr dieselbe Figur IMMER die gleiche Bezeichnung\n\n## Ausgabeformat\n- Gib NUR die aktualisierte Liste B zur\u00fcck\n- Stelle sicher, dass wirklich jeder Eintrag der Liste B auch in der Ausgabe vorkommt\n- Ein JSON-Objekt pro Zeile (keine Liste, keine code fences)\n- Keine zus\u00e4tzlichen Erkl\u00e4rungen oder Kommentare\n\n## Beispiel\n**Input A:**\nIn der Fr\u00fche fragte [Madlen][1] [ihre][2] [Tochter][3], wie [Trudi][4] geschlafen h\u00e4tte. [Sie][5] schlief noch.\n\n**Input B:**\n{\"ID\": 1, \"Position\": 5, \"Text\": \"Madlen\", \"Annotation\": \"\"}\n{\"ID\": 2, \"Position\": 6, \"Text\": \"ihre\", \"Annotation\": \"\"}\n{\"ID\": 3, \"Position\": 7, \"Text\": \"Tochter\", \"Annotation\": \"\"}\n{\"ID\": 4, \"Position\": 10, \"Text\": \"Trudi\", \"Annotation\": \"\"}\n{\"ID\": 5, \"Position\": 15, \"Text\": \"Sie\", \"Annotation\": \"\"}\n\n**Erwartete Ausgabe:**\n{\"ID\": 1, \"Position\": 5, \"Text\": \"Madlen\", \"Annotation\": \"Madlen\"}\n{\"ID\": 2, \"Position\": 6, \"Text\": \"ihre\", \"Annotation\": \"Madlen\"}\n{\"ID\": 3, \"Position\": 7, \"Text\": \"Tochter\", \"Annotation\": \"Trudi\"}\n{\"ID\": 4, \"Position\": 10, \"Text\": \"Trudi\", \"Annotation\": \"Trudi\"}\n{\"ID\": 5, \"Position\": 15, \"Text\": \"Sie\", \"Annotation\": \"Trudi\"}\n\n---\n\n**Hier ist der zu annotierende Text:**  \nInput A:\nEen besonderer Name is det nich . Un nich 'mal [Frau][1] steht druf . Nu , man wee\u00df ja ooch nich . \u2013 \u2039 [Sie][2] heftete das K\u00e4rtchen mit vier kleinen N\u00e4geln an die Korridorth\u00fcre . W\u00e4hrend dessen tauchte [Frau Hildegard][3] [ihr][4] Gesicht in die Waschsch\u00fcssel und wunderte [sich][5] , da\u00df man [ihr][6] warmes Wasser gebracht hatte . Nach einer Weile steckte [sie][7] den Kopf durch die Th\u00fcr. \u00bb [Fr\u00e4ulein][8] . \u00ab \u00bb Jawoll . \u00ab \u00bb K\u00f6nnt [ich][9] nicht etwas kaltes Wasser haben ? \u00ab \u00bb Habn [Se][10] ja schon . \u00ab \u00bb Wie ? [Ich][11] meine ganz kaltes , von der Leitung . \u00ab \u00bb Haben [Se][12] ja schon , [Frau Wallnerchen][13] , haben [Se][14] ja schon . Bei [uns][15] is det det k\u00e4ltste Wasser . Sonst m\u00fcssen [Se][16] [sich][17] von'n Konditer Eis holen lassen . \u00ab [Frau Hildegards][18] Lippen verzogen [sich][19] leicht . \u00bb Danke . \u00ab [Sie][20] zog den Kopf wieder herein , trocknete [sich][21] das Gesicht , k\u00e4mmte [ihr][22] sch\u00f6nes dunkelbraunes Haar , und schl\u00fcpfte in [ihr][23] Kleid . Dann lie\u00df [sie][24] [sich][25] auf das Sofa nieder und st\u00fctzte den Kopf in die Hand . Nun , so arg war es ja wohl nicht , wie es im ersten Augenblick erschien . Nat\u00fcrlich , [sie][26] war [ihre][27] Kleinstadt gew\u00f6hnt mit der schneewei\u00dfen Sauberkeit und dem kalten Quellwasser . Daf\u00fcr hatte [sie][28] ja jetzt ein anderes Gut eingetauscht , ein Gut , nach dem [sie][29] lange geschmachtet : die Freiheit . Was lag an all den Nebenumst\u00e4nden , die vielleicht jetzt ung\u00fcnstiger als fr\u00fcher wurden ? [Sie][30] w\u00fcrde nun sicher zufrieden werden , besonders wenn [sie][31] erst eine Besch\u00e4ftigung gefunden hatte . Wer , der jahrelang in einer ungl\u00fccklichen Ehe geseufzt , wird nicht den ersten Tag , da er sich frei wei\u00df , einen gl\u00fccklichen nennen ? Wenn man blo\u00df denken , Einiges noch \u00fcberlegen k\u00f6nnte ; aber der L\u00e4rm , der von der Stra\u00dfe heraufdrang , war zu toll . [Sie][32] schlo\u00df das Fenster . Ob das immer und ewig so forttollte ? oder ob heute ein besonderer Tag war , Markttag , oder so etwas ? [Sie][33] mu\u00dfte \u00fcber [sich][34] selbst lachen . Hatte [sie][35] [sich][36] doch wieder in [ihre][37] kleinst\u00e4dtischen Verh\u00e4ltnisse zur\u00fcckversetzt . Hier in der Millionenstadt war vermutlich jeder Tag ein Markttag . [Sie][38] versank in Gedanken ; dann trat [sie][39] zum Fenster , um es zu \u00f6ffnen . Die Luft hier war gar zu erstickend . Wonach roch es nur eigentlich ? [Sie][40] gr\u00fcbelte eine zeitlang ; dann entschlo\u00df [sie][41] [sich][42] auszugehen \u2013 irgendwohin zum Mittagessen . Es war ein Uhr , die Stunde in der [sie][43] auch zu Hause gespeist hatten . [Sie][44] zog das Jaquet an , setzte das H\u00fctchen auf , das [sie][45] sorgf\u00e4ltig einer Pappschachtel entnommen hatte , und ging hinaus . Drau\u00dfen im Vorzimmer am Fenster sa\u00df das [M\u00e4dchen][46] und las . Es war ein Leihbibliotheksband , \u00fcber und \u00fcber von Fettflecken bedeckt . Die [Lesende][47] lie\u00df ihn langsam in [ihren][48] Schoo\u00df gleiten . \u00bb Juten Apptit , [Se][49] jehn woll fr\u00fchst\u00fccken ? \u00ab \u00bb Nein , [ich][50] gehe zum Mittagsbrod ; wo kann man hier essen ? \u00ab \u00bb Wo ? In'n Franziskaner , jleich um de Ecke links . Eene Mark det Kuvert . \u00ab \u00bb So , das w\u00e4re nicht zu teuer ; kann eine [Dame][51] auch allein hingehen ? \u00ab \u00bb Det will [ick][52] meenen . [Ick][53] zum Beispiel dhus ooch . [Freilein Schulze][54] jiebt [mich][55] Speisejeld , da jeh [ick][56] jedn Mittag los . \u00ab \u00bb Essen auch [Sie][57] beim Franziskaner ? \u00ab \u00bb Nee , [ick][58] jeh zur Lachmuskel . Hintn im Hof is eene famose Stube ; in de vorn jelegene jeh [ick][59] nich , weils da dheurer is . \u00ab \u00bb Weshalb kochen [Sie][60] nicht zu Hause ? \u00ab \u00bb I wo denken [Se][61] hin ? Bei den weiten Weg , den [Freilein Schulze][62] int Jesch\u00e4ft hat . Un f\u00fcr [mir][63] alleene kochen , nee , det w\u00e4r nischt . \u00ab [Hildegard][64] sch\u00fcttelte den Kopf . \u00bb Die Th\u00fcre da dr\u00fcben f\u00fchrt wohl zu [Fr\u00e4ulein Schulzes][65] Zimmer ? \u00ab \u00bb Ja det thut se . \u00ab \u00bb Und wo schlafen [Sie][66] ? \u00ab \u00bb Hier uf 'm Sofa . \u00ab Das Vorzimmer war eng , aber anst\u00e4ndig m\u00f6bliert ; Sofa , Tisch , und einige St\u00fchle bildeten seine Einrichtung . Am Fenster befand sich ein N\u00e4htisch . In einer Ecke stand ein Kleiderrechen , daneben ein Reisekorb . \u00bb Viel Licht haben [Sie][67] hier nicht . \u00ab [Hildegard][68] sah in den engen Schacht hinab , der den Hof vorstellte . \u00bb Brauch [ick][69] ooch nich ; dafor jiebts Lampen . \u00ab Ob die [Dienstm\u00e4dchen][70] hier alle so impertinent waren ? [Frau Wallner][71] ma\u00df mit leichtem Stirnrunzeln die [Magd][72] . Es schien [ihr][73] , als habe [sie][74] noch nie ein so h\u00e4\u00dfliches Gesicht gesehen . Um den breiten Mund gegen das Kinn hin befand sich eine Menge kleiner Warzen und erinnerte an die Haut der Kr\u00f6ten . Die Nase glich einem birnf\u00f6rmigen Fleischklumpen ; die Augen stachen zwischen wei\u00dflich blonden Wimpern klein und t\u00fcckisch hervor . Unendlich sp\u00e4rliches semmelfarbenes Haar umgab die niedere Stirn . Armes [Gesch\u00f6pf][75] , dachte die sch\u00f6ne junge [Frau][76] ; dann sagte [sie][77] mit freundlicherer Stimme als vorher : \u00bb Wie soll [ich][78] [Sie][79] rufen ? \u203a [Fr\u00e4ulein][80] \u2039 , ist auf die Dauer doch zu langweilig . \u00ab \u00bb Find [ick][81] nich . Ick hee\u00dfe [Anna Niehm][82] . Aber [ick][83] h\u00f6ret lieber , wenn [Se][84] [mir][85] blo\u00df [Freilein][86] rufen . \u00ab [Hildegards][87] Wangen r\u00f6teten sich leicht ; dann wandte [sie][88] [sich][89] zum Ausgang . \u00bb Richtig , der Schl\u00fcssel . [Ich][90] habe noch keinen Korridorschl\u00fcssel . \u00ab Die [Magd][91] erhob [sich][92] tr\u00e4g und langte von dem Bordbrett neben dem Sofa einen Schl\u00fcssel herab . [Hildegard][93] ging vorsichtig die steile enge Wendeltreppe hinab . Unten blieb [sie][94] einen Augenblick stehn , um [sich][95] das Haus n\u00e4her zu betrachten . Es war ein ganz schmaler , alter , spitz zulaufender Bau , vielleicht eines der \u00e4ltesten H\u00e4user Berlins . Das h\u00f6chst gelegene Fenster , dort bald unterm Giebel , war das [ihre][96] . Als [sie][97] , noch von Konstanz aus , hier in einer Tageszeitung [ihr][98] Wohnungsgesuch einr\u00fccken lie\u00df , hatte [sie][99] ein besseres Resultat [ihres][100] Suchens erwartet . [Sie][101] hatte aus einem Wust angebotener m\u00f6blierter Zimmer gerade dieses hier gew\u00e4hlt , weil die Stra\u00dfe , in der es sich befand , Unter den Linden hie\u00df , und [sie][102] [sich][103] unter dieser Stra\u00dfe Herrliches vorstellte . Nun , vielleicht w\u00fcrde [sie][104] [sich][105] auch hier einleben . [Fr\u00e4ulein Schulze][106] , die [Wohnungsinhaberin][107] kam immer erst abends nach Hause . [Sie][108] war von neun Uhr morgens an in einem Gesch\u00e4fte . [Hildegard][109] w\u00fcrde heute Abend mit [ihr][110] sprechen . Hoffentlich war [sie][111] anmutiger als [ihre][112] [Dienerin][113] . Das Mittagessen beim \u00bb Franziskaner \u00ab verlief \u00fcberaus peinlich f\u00fcr [Frau Wallner][114] . Man starrte [sie][115] an ; [sie][116] err\u00f6tete , geriet in Verlegenheit und gab so Veranlassung , da\u00df man sich \u00fcber [sie][117] lustig machte und [sie][118] noch mehr anstarrte . Nach dem Essen unternahm [sie][119] einen Spaziergang , verirrte [sich][120] nat\u00fcrlich , mu\u00dfte in eine Droschke steigen , und kam schlie\u00dflich gegen Abend heim . [Sie][121] war todm\u00fcde geworden , warf [sich][122] auf das Sofa und schlief ein . Ein starkes Klopfen an der Th\u00fcr erweckte [sie][123] . Eine [Dame][124] trat herein . \u00bb Verzeihen [Sie][125] , da\u00df [ich][126] den Schl\u00fcssel als Klopfer benutzt habe . Aber wenn man nicht mit etwas Derberem als dem Finger anpocht , h\u00f6rt mans hier innen nicht . \u00ab [Hildegard][127] , noch ganz verschlafen , l\u00e4chelte . \u00bb [Fr\u00e4ulein Schulze][128] , nichtwahr ? O bitte setzen [Sie][129] [sich][130] . \u00ab [Sie][131] zog die [Andere][132] neben [sich][133] auf das Sofa . \u00bb Na , [ich][134] w\u00fcnschte blo\u00df , da\u00df es [Ihnen][135] bei [mir][136] gef\u00e4llt . [Ich][137] habe immer vornehme Mieter gehabt . Es ist sehr ruhig hier ; [ich][138] bin den ganzen Tag nicht zu Hause . \u00ab \u00bb Das thut [mir][139] leid , \u00ab meinte [Hildegard][140] , [ihre][141] [Hausfrau][142] von der Seite betrachtend , \u00bb [ich][143] h\u00e4tte [Sie][144] gerne um allerlei gefragt , [mir][145] [Ihren][146] Rat erbeten . \u00ab \u00bb Das k\u00f6nnen [Sie][147] ja , liebes [Frauchen][148] . \u00ab Das gutm\u00fctige , volle , stark gepuderte Gesicht der [Vermieterin][149] verzog sich zu einem freundlichen L\u00e4cheln . \u00bb [Ich][150] komme jeden Abend gegen elf Uhr nach Hause . Da k\u00f6nnen [wir][151] nachher immer noch ein Weilchen plaudern . \u00ab \u00bb So sp\u00e4t erst \u00ab meinte [Hildegard][152] . Das [Fr\u00e4ulein][153] zupfte [sich][154] die leicht angegrauten blonden L\u00f6ckchen in die Stirn . \u00bb Das nennen [Sie][155] sp\u00e4t ? Aber [ich][156] bitte [Sie][157] , das ist ja ganz zeitig . Um acht Uhr schlie\u00dfen [wir][158] das Gesch\u00e4ft , dann gehe [ich][159] mit Bekannten soupieren . Dann \u2013 \u00fcbrigens wie ists denn , haben [Sie][160] gar Niemand hier in Berlin ? \u00ab [Frau Wallner][161] sch\u00fcttelte den Kopf . \u00bb Keinen [Menschen][162] . \u00ab \u00bb Das ist traurig , aber \u2013 [Sie][163] werden mehr Bekanntschaften machen , als [Ihnen][164] angenehm ist . \u00ab \u00bb Wieso ? \u00ab fragte [Hildegard][165] etwas br\u00fcsk . \u00bb [Ich][166] bin hierhergekommen , um [mir][167] eine Stellung zu suchen , nicht um [mich][168] zu unterhalten . \u00ab \u00bb [Sie][169] sind von [Ihrem][170] [Mann][171] geschieden , wie [mir][172] [Ihr][173] Brief andeutete . \u00ab \u00bb Getrennt . \u00ab [Hildegards][174] Wangen f\u00e4rbten [sich][175] purpurn . \u00bb Und [ich][176] w\u00fcnschte schnell irgend eine Besch\u00e4ftigung zu finden ? \u00ab \u00bb Hm . \u00ab\n\nInput B:\n{\"ID\": 1, \"Position\": 10, \"Text\": \"Frau\", \"Annotation\": []}\n{\"ID\": 2, \"Position\": 24, \"Text\": \"Sie\", \"Annotation\": []}\n{\"ID\": 3, \"Position\": 39, \"Text\": \"Frau Hildegard\", \"Annotation\": []}\n{\"ID\": 4, \"Position\": 41, \"Text\": \"ihr\", \"Annotation\": []}\n{\"ID\": 5, \"Position\": 48, \"Text\": \"sich\", \"Annotation\": []}\n{\"ID\": 6, \"Position\": 52, \"Text\": \"ihr\", \"Annotation\": []}\n{\"ID\": 7, \"Position\": 62, \"Text\": \"sie\", \"Annotation\": []}\n{\"ID\": 8, \"Position\": 69, \"Text\": \"Fr\\u00e4ulein\", \"Annotation\": []}\n{\"ID\": 9, \"Position\": 78, \"Text\": \"ich\", \"Annotation\": []}\n{\"ID\": 10, \"Position\": 88, \"Text\": \"Se\", \"Annotation\": []}\n{\"ID\": 11, \"Position\": 96, \"Text\": \"Ich\", \"Annotation\": []}\n{\"ID\": 12, \"Position\": 108, \"Text\": \"Se\", \"Annotation\": []}\n{\"ID\": 13, \"Position\": 112, \"Text\": \"Frau Wallnerchen\", \"Annotation\": []}\n{\"ID\": 14, \"Position\": 116, \"Text\": \"Se\", \"Annotation\": []}\n{\"ID\": 15, \"Position\": 121, \"Text\": \"uns\", \"Annotation\": []}\n{\"ID\": 16, \"Position\": 130, \"Text\": \"Se\", \"Annotation\": []}\n{\"ID\": 17, \"Position\": 131, \"Text\": \"sich\", \"Annotation\": []}\n{\"ID\": 18, \"Position\": 139, \"Text\": \"Frau Hildegards\", \"Annotation\": []}\n{\"ID\": 19, \"Position\": 143, \"Text\": \"sich\", \"Annotation\": []}\n{\"ID\": 20, \"Position\": 150, \"Text\": \"Sie\", \"Annotation\": []}\n{\"ID\": 21, \"Position\": 158, \"Text\": \"sich\", \"Annotation\": []}\n{\"ID\": 22, \"Position\": 163, \"Text\": \"ihr\", \"Annotation\": []}\n{\"ID\": 23, \"Position\": 171, \"Text\": \"ihr\", \"Annotation\": []}\n{\"ID\": 24, \"Position\": 176, \"Text\": \"sie\", \"Annotation\": []}\n{\"ID\": 25, \"Position\": 177, \"Text\": \"sich\", \"Annotation\": []}\n{\"ID\": 26, \"Position\": 209, \"Text\": \"sie\", \"Annotation\": []}\n{\"ID\": 27, \"Position\": 211, \"Text\": \"ihre\", \"Annotation\": []}\n{\"ID\": 28, \"Position\": 225, \"Text\": \"sie\", \"Annotation\": []}\n{\"ID\": 29, \"Position\": 238, \"Text\": \"sie\", \"Annotation\": []}\n{\"ID\": 30, \"Position\": 260, \"Text\": \"Sie\", \"Annotation\": []}\n{\"ID\": 31, \"Position\": 269, \"Text\": \"sie\", \"Annotation\": []}\n{\"ID\": 32, \"Position\": 326, \"Text\": \"Sie\", \"Annotation\": []}\n{\"ID\": 33, \"Position\": 353, \"Text\": \"Sie\", \"Annotation\": []}\n{\"ID\": 34, \"Position\": 356, \"Text\": \"sich\", \"Annotation\": []}\n{\"ID\": 35, \"Position\": 361, \"Text\": \"sie\", \"Annotation\": []}\n{\"ID\": 36, \"Position\": 362, \"Text\": \"sich\", \"Annotation\": []}\n{\"ID\": 37, \"Position\": 366, \"Text\": \"ihre\", \"Annotation\": []}\n{\"ID\": 38, \"Position\": 382, \"Text\": \"Sie\", \"Annotation\": []}\n{\"ID\": 39, \"Position\": 389, \"Text\": \"sie\", \"Annotation\": []}\n{\"ID\": 40, \"Position\": 412, \"Text\": \"Sie\", \"Annotation\": []}\n{\"ID\": 41, \"Position\": 419, \"Text\": \"sie\", \"Annotation\": []}\n{\"ID\": 42, \"Position\": 420, \"Text\": \"sich\", \"Annotation\": []}\n{\"ID\": 43, \"Position\": 436, \"Text\": \"sie\", \"Annotation\": []}\n{\"ID\": 44, \"Position\": 443, \"Text\": \"Sie\", \"Annotation\": []}\n{\"ID\": 45, \"Position\": 455, \"Text\": \"sie\", \"Annotation\": []}\n{\"ID\": 46, \"Position\": 473, \"Text\": \"M\\u00e4dchen\", \"Annotation\": []}\n{\"ID\": 47, \"Position\": 490, \"Text\": \"Lesende\", \"Annotation\": []}\n{\"ID\": 48, \"Position\": 495, \"Text\": \"ihren\", \"Annotation\": []}\n{\"ID\": 49, \"Position\": 503, \"Text\": \"Se\", \"Annotation\": []}\n{\"ID\": 50, \"Position\": 512, \"Text\": \"ich\", \"Annotation\": []}\n{\"ID\": 51, \"Position\": 553, \"Text\": \"Dame\", \"Annotation\": []}\n{\"ID\": 52, \"Position\": 562, \"Text\": \"ick\", \"Annotation\": []}\n{\"ID\": 53, \"Position\": 565, \"Text\": \"Ick\", \"Annotation\": []}\n{\"ID\": 54, \"Position\": 571, \"Text\": \"Freilein Schulze\", \"Annotation\": []}\n{\"ID\": 55, \"Position\": 574, \"Text\": \"mich\", \"Annotation\": []}\n{\"ID\": 56, \"Position\": 579, \"Text\": \"ick\", \"Annotation\": []}\n{\"ID\": 57, \"Position\": 588, \"Text\": \"Sie\", \"Annotation\": []}\n{\"ID\": 58, \"Position\": 596, \"Text\": \"ick\", \"Annotation\": []}\n{\"ID\": 59, \"Position\": 614, \"Text\": \"ick\", \"Annotation\": []}\n{\"ID\": 60, \"Position\": 626, \"Text\": \"Sie\", \"Annotation\": []}\n{\"ID\": 61, \"Position\": 636, \"Text\": \"Se\", \"Annotation\": []}\n{\"ID\": 62, \"Position\": 645, \"Text\": \"Freilein Schulze\", \"Annotation\": []}\n{\"ID\": 63, \"Position\": 653, \"Text\": \"mir\", \"Annotation\": []}\n{\"ID\": 64, \"Position\": 664, \"Text\": \"Hildegard\", \"Annotation\": []}\n{\"ID\": 65, \"Position\": 677, \"Text\": \"Fr\\u00e4ulein Schulzes\", \"Annotation\": []}\n{\"ID\": 66, \"Position\": 693, \"Text\": \"Sie\", \"Annotation\": []}\n{\"ID\": 67, \"Position\": 745, \"Text\": \"Sie\", \"Annotation\": []}\n{\"ID\": 68, \"Position\": 750, \"Text\": \"Hildegard\", \"Annotation\": []}\n{\"ID\": 69, \"Position\": 765, \"Text\": \"ick\", \"Annotation\": []}\n{\"ID\": 70, \"Position\": 776, \"Text\": \"Dienstm\\u00e4dchen\", \"Annotation\": []}\n{\"ID\": 71, \"Position\": 783, \"Text\": \"Frau Wallner\", \"Annotation\": []}\n{\"ID\": 72, \"Position\": 790, \"Text\": \"Magd\", \"Annotation\": []}\n{\"ID\": 73, \"Position\": 794, \"Text\": \"ihr\", \"Annotation\": []}\n{\"ID\": 74, \"Position\": 798, \"Text\": \"sie\", \"Annotation\": []}\n{\"ID\": 75, \"Position\": 858, \"Text\": \"Gesch\\u00f6pf\", \"Annotation\": []}\n{\"ID\": 76, \"Position\": 864, \"Text\": \"Frau\", \"Annotation\": []}\n{\"ID\": 77, \"Position\": 868, \"Text\": \"sie\", \"Annotation\": []}\n{\"ID\": 78, \"Position\": 878, \"Text\": \"ich\", \"Annotation\": []}\n{\"ID\": 79, \"Position\": 879, \"Text\": \"Sie\", \"Annotation\": []}\n{\"ID\": 80, \"Position\": 883, \"Text\": \"Fr\\u00e4ulein\", \"Annotation\": []}\n{\"ID\": 81, \"Position\": 897, \"Text\": \"ick\", \"Annotation\": []}\n{\"ID\": 82, \"Position\": 902, \"Text\": \"Anna Niehm\", \"Annotation\": []}\n{\"ID\": 83, \"Position\": 906, \"Text\": \"ick\", \"Annotation\": []}\n{\"ID\": 84, \"Position\": 911, \"Text\": \"Se\", \"Annotation\": []}\n{\"ID\": 85, \"Position\": 912, \"Text\": \"mir\", \"Annotation\": []}\n{\"ID\": 86, \"Position\": 914, \"Text\": \"Freilein\", \"Annotation\": []}\n{\"ID\": 87, \"Position\": 918, \"Text\": \"Hildegards\", \"Annotation\": []}\n{\"ID\": 88, \"Position\": 926, \"Text\": \"sie\", \"Annotation\": []}\n{\"ID\": 89, \"Position\": 927, \"Text\": \"sich\", \"Annotation\": []}\n{\"ID\": 90, \"Position\": 937, \"Text\": \"Ich\", \"Annotation\": []}\n{\"ID\": 91, \"Position\": 945, \"Text\": \"Magd\", \"Annotation\": []}\n{\"ID\": 92, \"Position\": 947, \"Text\": \"sich\", \"Annotation\": []}\n{\"ID\": 93, \"Position\": 961, \"Text\": \"Hildegard\", \"Annotation\": []}\n{\"ID\": 94, \"Position\": 972, \"Text\": \"sie\", \"Annotation\": []}\n{\"ID\": 95, \"Position\": 978, \"Text\": \"sich\", \"Annotation\": []}\n{\"ID\": 96, \"Position\": 1016, \"Text\": \"ihre\", \"Annotation\": []}\n{\"ID\": 97, \"Position\": 1019, \"Text\": \"sie\", \"Annotation\": []}\n{\"ID\": 98, \"Position\": 1030, \"Text\": \"ihr\", \"Annotation\": []}\n{\"ID\": 99, \"Position\": 1036, \"Text\": \"sie\", \"Annotation\": []}\n{\"ID\": 100, \"Position\": 1040, \"Text\": \"ihres\", \"Annotation\": []}\n{\"ID\": 101, \"Position\": 1044, \"Text\": \"Sie\", \"Annotation\": []}\n{\"ID\": 102, \"Position\": 1073, \"Text\": \"sie\", \"Annotation\": []}\n{\"ID\": 103, \"Position\": 1074, \"Text\": \"sich\", \"Annotation\": []}\n{\"ID\": 104, \"Position\": 1085, \"Text\": \"sie\", \"Annotation\": []}\n{\"ID\": 105, \"Position\": 1086, \"Text\": \"sich\", \"Annotation\": []}\n{\"ID\": 106, \"Position\": 1091, \"Text\": \"Fr\\u00e4ulein Schulze\", \"Annotation\": []}\n{\"ID\": 107, \"Position\": 1095, \"Text\": \"Wohnungsinhaberin\", \"Annotation\": []}\n{\"ID\": 108, \"Position\": 1103, \"Text\": \"Sie\", \"Annotation\": []}\n{\"ID\": 109, \"Position\": 1114, \"Text\": \"Hildegard\", \"Annotation\": []}\n{\"ID\": 110, \"Position\": 1119, \"Text\": \"ihr\", \"Annotation\": []}\n{\"ID\": 111, \"Position\": 1124, \"Text\": \"sie\", \"Annotation\": []}\n{\"ID\": 112, \"Position\": 1127, \"Text\": \"ihre\", \"Annotation\": []}\n{\"ID\": 113, \"Position\": 1128, \"Text\": \"Dienerin\", \"Annotation\": []}\n{\"ID\": 114, \"Position\": 1140, \"Text\": \"Frau Wallner\", \"Annotation\": []}\n{\"ID\": 115, \"Position\": 1145, \"Text\": \"sie\", \"Annotation\": []}\n{\"ID\": 116, \"Position\": 1148, \"Text\": \"sie\", \"Annotation\": []}\n{\"ID\": 117, \"Position\": 1163, \"Text\": \"sie\", \"Annotation\": []}\n{\"ID\": 118, \"Position\": 1167, \"Text\": \"sie\", \"Annotation\": []}\n{\"ID\": 119, \"Position\": 1176, \"Text\": \"sie\", \"Annotation\": []}\n{\"ID\": 120, \"Position\": 1181, \"Text\": \"sich\", \"Annotation\": []}\n{\"ID\": 121, \"Position\": 1197, \"Text\": \"Sie\", \"Annotation\": []}\n{\"ID\": 122, \"Position\": 1203, \"Text\": \"sich\", \"Annotation\": []}\n{\"ID\": 123, \"Position\": 1218, \"Text\": \"sie\", \"Annotation\": []}\n{\"ID\": 124, \"Position\": 1221, \"Text\": \"Dame\", \"Annotation\": []}\n{\"ID\": 125, \"Position\": 1227, \"Text\": \"Sie\", \"Annotation\": []}\n{\"ID\": 126, \"Position\": 1230, \"Text\": \"ich\", \"Annotation\": []}\n{\"ID\": 127, \"Position\": 1257, \"Text\": \"Hildegard\", \"Annotation\": []}\n{\"ID\": 128, \"Position\": 1266, \"Text\": \"Fr\\u00e4ulein Schulze\", \"Annotation\": []}\n{\"ID\": 129, \"Position\": 1274, \"Text\": \"Sie\", \"Annotation\": []}\n{\"ID\": 130, \"Position\": 1275, \"Text\": \"sich\", \"Annotation\": []}\n{\"ID\": 131, \"Position\": 1278, \"Text\": \"Sie\", \"Annotation\": []}\n{\"ID\": 132, \"Position\": 1281, \"Text\": \"Andere\", \"Annotation\": []}\n{\"ID\": 133, \"Position\": 1283, \"Text\": \"sich\", \"Annotation\": []}\n{\"ID\": 134, \"Position\": 1291, \"Text\": \"ich\", \"Annotation\": []}\n{\"ID\": 135, \"Position\": 1297, \"Text\": \"Ihnen\", \"Annotation\": []}\n{\"ID\": 136, \"Position\": 1299, \"Text\": \"mir\", \"Annotation\": []}\n{\"ID\": 137, \"Position\": 1302, \"Text\": \"Ich\", \"Annotation\": []}\n{\"ID\": 138, \"Position\": 1315, \"Text\": \"ich\", \"Annotation\": []}\n{\"ID\": 139, \"Position\": 1328, \"Text\": \"mir\", \"Annotation\": []}\n{\"ID\": 140, \"Position\": 1333, \"Text\": \"Hildegard\", \"Annotation\": []}\n{\"ID\": 141, \"Position\": 1335, \"Text\": \"ihre\", \"Annotation\": []}\n{\"ID\": 142, \"Position\": 1336, \"Text\": \"Hausfrau\", \"Annotation\": []}\n{\"ID\": 143, \"Position\": 1343, \"Text\": \"ich\", \"Annotation\": []}\n{\"ID\": 144, \"Position\": 1345, \"Text\": \"Sie\", \"Annotation\": []}\n{\"ID\": 145, \"Position\": 1351, \"Text\": \"mir\", \"Annotation\": []}\n{\"ID\": 146, \"Position\": 1352, \"Text\": \"Ihren\", \"Annotation\": []}\n{\"ID\": 147, \"Position\": 1360, \"Text\": \"Sie\", \"Annotation\": []}\n{\"ID\": 148, \"Position\": 1364, \"Text\": \"Frauchen\", \"Annotation\": []}\n{\"ID\": 149, \"Position\": 1376, \"Text\": \"Vermieterin\", \"Annotation\": []}\n{\"ID\": 150, \"Position\": 1385, \"Text\": \"Ich\", \"Annotation\": []}\n{\"ID\": 151, \"Position\": 1397, \"Text\": \"wir\", \"Annotation\": []}\n{\"ID\": 152, \"Position\": 1412, \"Text\": \"Hildegard\", \"Annotation\": []}\n{\"ID\": 153, \"Position\": 1415, \"Text\": \"Fr\\u00e4ulein\", \"Annotation\": []}\n{\"ID\": 154, \"Position\": 1417, \"Text\": \"sich\", \"Annotation\": []}\n{\"ID\": 155, \"Position\": 1430, \"Text\": \"Sie\", \"Annotation\": []}\n{\"ID\": 156, \"Position\": 1434, \"Text\": \"ich\", \"Annotation\": []}\n{\"ID\": 157, \"Position\": 1436, \"Text\": \"Sie\", \"Annotation\": []}\n{\"ID\": 158, \"Position\": 1448, \"Text\": \"wir\", \"Annotation\": []}\n{\"ID\": 159, \"Position\": 1454, \"Text\": \"ich\", \"Annotation\": []}\n{\"ID\": 160, \"Position\": 1467, \"Text\": \"Sie\", \"Annotation\": []}\n{\"ID\": 161, \"Position\": 1475, \"Text\": \"Frau Wallner\", \"Annotation\": []}\n{\"ID\": 162, \"Position\": 1483, \"Text\": \"Menschen\", \"Annotation\": []}\n{\"ID\": 163, \"Position\": 1493, \"Text\": \"Sie\", \"Annotation\": []}\n{\"ID\": 164, \"Position\": 1500, \"Text\": \"Ihnen\", \"Annotation\": []}\n{\"ID\": 165, \"Position\": 1510, \"Text\": \"Hildegard\", \"Annotation\": []}\n{\"ID\": 166, \"Position\": 1515, \"Text\": \"Ich\", \"Annotation\": []}\n{\"ID\": 167, \"Position\": 1520, \"Text\": \"mir\", \"Annotation\": []}\n{\"ID\": 168, \"Position\": 1528, \"Text\": \"mich\", \"Annotation\": []}\n{\"ID\": 169, \"Position\": 1534, \"Text\": \"Sie\", \"Annotation\": []}\n{\"ID\": 170, \"Position\": 1537, \"Text\": \"Ihrem\", \"Annotation\": []}\n{\"ID\": 171, \"Position\": 1538, \"Text\": \"Mann\", \"Annotation\": []}\n{\"ID\": 172, \"Position\": 1542, \"Text\": \"mir\", \"Annotation\": []}\n{\"ID\": 173, \"Position\": 1543, \"Text\": \"Ihr\", \"Annotation\": []}\n{\"ID\": 174, \"Position\": 1552, \"Text\": \"Hildegards\", \"Annotation\": []}\n{\"ID\": 175, \"Position\": 1555, \"Text\": \"sich\", \"Annotation\": []}\n{\"ID\": 176, \"Position\": 1560, \"Text\": \"ich\", \"Annotation\": []}\n",
+  "raw_output": "{\"ID\": 1, \"Position\": 10, \"Text\": \"Frau\", \"Annotation\": \"Anna Niehm\"}\n{\"ID\": 2, \"Position\": 24, \"Text\": \"Sie\", \"Annotation\": \"Anna Niehm\"}\n{\"ID\": 3, \"Position\": 39, \"Text\": \"Frau Hildegard\", \"Annotation\": \"Hildegard\"}\n{\"ID\": 4, \"Position\": 41, \"Text\": \"ihr\", \"Annotation\": \"Hildegard\"}\n{\"ID\": 5, \"Position\": 48, \"Text\": \"sich\", \"Annotation\": \"Hildegard\"}\n{\"ID\": 6, \"Position\": 52, \"Text\": \"ihr\", \"Annotation\": \"Hildegard\"}\n{\"ID\": 7, \"Position\": 62, \"Text\": \"sie\", \"Annotation\": \"Hildegard\"}\n{\"ID\": 8, \"Position\": 69, \"Text\": \"Fr\u00e4ulein\", \"Annotation\": \"Anna Niehm\"}\n{\"ID\": 9, \"Position\": 78, \"Text\": \"ich\", \"Annotation\": \"Hildegard\"}\n{\"ID\": 10, \"Position\": 88, \"Text\": \"Se\", \"Annotation\": \"Anna Niehm\"}\n{\"ID\": 11, \"Position\": 96, \"Text\": \"Ich\", \"Annotation\": \"Hildegard\"}\n{\"ID\": 12, \"Position\": 108, \"Text\": \"Se\", \"Annotation\": \"Anna Niehm\"}\n{\"ID\": 13, \"Position\": 112, \"Text\": \"Frau Wallnerchen\", \"Annotation\": \"Hildegard\"}\n{\"ID\": 14, \"Position\": 116, \"Text\": \"Se\", \"Annotation\": \"Anna Niehm\"}\n{\"ID\": 15, \"Position\": 121, \"Text\": \"uns\", \"Annotation\": \"Anna Niehm, Hildegard\"}\n{\"ID\": 16, \"Position\": 130, \"Text\": \"Se\", \"Annotation\": \"Hildegard\"}\n{\"ID\": 17, \"Position\": 131, \"Text\": \"sich\", \"Annotation\": \"Hildegard\"}\n{\"ID\": 18, \"Position\": 139, \"Text\": \"Frau Hildegards\", \"Annotation\": \"Hildegard\"}\n{\"ID\": 19, \"Position\": 143, \"Text\": \"sich\", \"Annotation\": \"Hildegard\"}\n{\"ID\": 20, \"Position\": 150, \"Text\": \"Sie\", \"Annotation\": \"Hildegard\"}\n{\"ID\": 21, \"Position\": 158, \"Text\": \"sich\", \"Annotation\": \"Hildegard\"}\n{\"ID\": 22, \"Position\": 163, \"Text\": \"ihr\", \"Annotation\": \"Hildegard\"}\n{\"ID\": 23, \"Position\": 171, \"Text\": \"ihr\", \"Annotation\": \"Hildegard\"}\n{\"ID\": 24, \"Position\": 176, \"Text\": \"sie\", \"Annotation\": \"Hildegard\"}\n{\"ID\": 25, \"Position\": 177, \"Text\": \"sich\", \"Annotation\": \"Hildegard\"}\n{\"ID\": 26, \"Position\": 209, \"Text\": \"sie\", \"Annotation\": \"Hildegard\"}\n{\"ID\": 27, \"Position\": 211, \"Text\": \"ihre\", \"Annotation\": \"Hildegard\"}\n{\"ID\": 28, \"Position\": 225, \"Text\": \"sie\", \"Annotation\": \"Hildegard\"}\n{\"ID\": 29, \"Position\": 238, \"Text\": \"sie\", \"Annotation\": \"Hildegard\"}\n{\"ID\": 30, \"Position\": 260, \"Text\": \"Sie\", \"Annotation\": \"Hildegard\"}\n{\"ID\": 31, \"Position\": 269, \"Text\": \"sie\", \"Annotation\": \"Hildegard\"}\n{\"ID\": 32, \"Position\": 326, \"Text\": \"Sie\", \"Annotation\": \"Hildegard\"}\n{\"ID\": 33, \"Position\": 353, \"Text\": \"Sie\", \"Annotation\": \"Hildegard\"}\n{\"ID\": 34, \"Position\": 356, \"Text\": \"sich\", \"Annotation\": \"Hildegard\"}\n{\"ID\": 35, \"Position\": 361, \"Text\": \"sie\", \"Annotation\": \"Hildegard\"}\n{\"ID\": 36, \"Position\": 362, \"Text\": \"sich\", \"Annotation\": \"Hildegard\"}\n{\"ID\": 37, \"Position\": 366, \"Text\": \"ihre\", \"Annotation\": \"Hildegard\"}\n{\"ID\": 38, \"Position\": 382, \"Text\": \"Sie\", \"Annotation\": \"Hildegard\"}\n{\"ID\": 39, \"Position\": 389, \"Text\": \"sie\", \"Annotation\": \"Hildegard\"}\n{\"ID\": 40, \"Position\": 412, \"Text\": \"Sie\", \"Annotation\": \"Hildegard\"}\n{\"ID\": 41, \"Position\": 419, \"Text\": \"sie\", \"Annotation\": \"Hildegard\"}\n{\"ID\": 42, \"Position\": 420, \"Text\": \"sich\", \"Annotation\": \"Hildegard\"}\n{\"ID\": 43, \"Position\": 436, \"Text\": \"sie\", \"Annotation\": \"Hildegard\"}\n{\"ID\": 44, \"Position\": 443, \"Text\": \"Sie\", \"Annotation\": \"Hildegard\"}\n{\"ID\": 45, \"Position\": 455, \"Text\": \"sie\", \"Annotation\": \"Hildegard\"}\n{\"ID\": 46, \"Position\": 473, \"Text\": \"M\u00e4dchen\", \"Annotation\": \"Anna Niehm\"}\n{\"ID\": 47, \"Position\": 490, \"Text\": \"Lesende\", \"Annotation\": \"Anna Niehm\"}\n{\"ID\": 48, \"Position\": 495, \"Text\": \"ihren\", \"Annotation\": \"Anna Niehm\"}\n{\"ID\": 49, \"Position\": 503, \"Text\": \"Se\", \"Annotation\": \"Hildegard\"}\n{\"ID\": 50, \"Position\": 512, \"Text\": \"ich\", \"Annotation\": \"Hildegard\"}\n{\"ID\": 51, \"Position\": 553, \"Text\": \"Dame\", \"Annotation\": \"Hildegard\"}\n{\"ID\": 52, \"Position\": 562, \"Text\": \"ick\", \"Annotation\": \"Anna Niehm\"}\n{\"ID\": 53, \"Position\": 565, \"Text\": \"Ick\", \"Annotation\": \"Anna Niehm\"}\n{\"ID\": 54, \"Position\": 571, \"Text\": \"Freilein Schulze\", \"Annotation\": \"Fr\u00e4ulein Schulze\"}\n{\"ID\": 55, \"Position\": 574, \"Text\": \"mich\", \"Annotation\": \"Anna Niehm\"}\n{\"ID\": 56, \"Position\": 579, \"Text\": \"ick\", \"Annotation\": \"Anna Niehm\"}\n{\"ID\": 57, \"Position\": 588, \"Text\": \"Sie\", \"Annotation\": \"Hildegard\"}\n{\"ID\": 58, \"Position\": 596, \"Text\": \"ick\", \"Annotation\": \"Anna Niehm\"}\n{\"ID\": 59, \"Position\": 614, \"Text\": \"ick\", \"Annotation\": \"Anna Niehm\"}\n{\"ID\": 60, \"Position\": 626, \"Text\": \"Sie\", \"Annotation\": \"Anna Niehm\"}\n{\"ID\": 61, \"Position\": 636, \"Text\": \"Se\", \"Annotation\": \"Anna Niehm\"}\n{\"ID\": 62, \"Position\": 645, \"Text\": \"Freilein Schulze\", \"Annotation\": \"Fr\u00e4ulein Schulze\"}\n{\"ID\": 63, \"Position\": 653, \"Text\": \"mir\", \"Annotation\": \"Anna Niehm\"}\n{\"ID\": 64, \"Position\": 664, \"Text\": \"Hildegard\", \"Annotation\": \"Hildegard\"}\n{\"ID\": 65, \"Position\": 677, \"Text\": \"Fr\u00e4ulein Schulzes\", \"Annotation\": \"Fr\u00e4ulein Schulze\"}\n{\"ID\": 66, \"Position\": 693, \"Text\": \"Sie\", \"Annotation\": \"Anna Niehm\"}\n{\"ID\": 67, \"Position\": 745, \"Text\": \"Sie\", \"Annotation\": \"Anna Niehm\"}\n{\"ID\": 68, \"Position\": 750, \"Text\": \"Hildegard\", \"Annotation\": \"Hildegard\"}\n{\"ID\": 69, \"Position\": 765, \"Text\": \"ick\", \"Annotation\": \"Anna Niehm\"}\n{\"ID\": 70, \"Position\": 776, \"Text\": \"Dienstm\u00e4dchen\", \"Annotation\": \"Anna Niehm\"}\n{\"ID\": 71, \"Position\": 783, \"Text\": \"Frau Wallner\", \"Annotation\": \"Hildegard\"}\n{\"ID\": 72, \"Position\": 790, \"Text\": \"Magd\", \"Annotation\": \"Anna Niehm\"}\n{\"ID\": 73, \"Position\": 794, \"Text\": \"ihr\", \"Annotation\": \"Anna Niehm\"}\n{\"ID\": 74, \"Position\": 798, \"Text\": \"sie\", \"Annotation\": \"Anna Niehm\"}\n{\"ID\": 75, \"Position\": 858, \"Text\": \"Gesch\u00f6pf\", \"Annotation\": \"Anna Niehm\"}\n{\"ID\": 76, \"Position\": 864, \"Text\": \"Frau\", \"Annotation\": \"Hildegard\"}\n{\"ID\": 77, \"Position\": 868, \"Text\": \"sie\", \"Annotation\": \"Hildegard\"}\n{\"ID\": 78, \"Position\": 878, \"Text\": \"ich\", \"Annotation\": \"Hildegard\"}\n{\"ID\": 79, \"Position\": 879, \"Text\": \"Sie\", \"Annotation\": \"Anna Niehm\"}\n{\"ID\": 80, \"Position\": 883, \"Text\": \"Fr\u00e4ulein\", \"Annotation\": \"Anna Niehm\"}\n{\"ID\": 81, \"Position\": 897, \"Text\": \"ick\", \"Annotation\": \"Anna Niehm\"}\n{\"ID\": 82, \"Position\": 902, \"Text\": \"Anna Niehm\", \"Annotation\": \"Anna Niehm\"}\n{\"ID\": 83, \"Position\": 906, \"Text\": \"ick\", \"Annotation\": \"Anna Niehm\"}\n{\"ID\": 84, \"Position\": 911, \"Text\": \"Se\", \"Annotation\": \"Hildegard\"}\n{\"ID\": 85, \"Position\": 912, \"Text\": \"mir\", \"Annotation\": \"Anna Niehm\"}\n{\"ID\": 86, \"Position\": 914, \"Text\": \"Freilein\", \"Annotation\": \"Anna Niehm\"}\n{\"ID\": 87, \"Position\": 918, \"Text\": \"Hildegards\", \"Annotation\": \"Hildegard\"}\n{\"ID\": 88, \"Position\": 926, \"Text\": \"sie\", \"Annotation\": \"Hildegard\"}\n{\"ID\": 89, \"Position\": 927, \"Text\": \"sich\", \"Annotation\": \"Hildegard\"}\n{\"ID\": 90, \"Position\": 937, \"Text\": \"Ich\", \"Annotation\": \"Hildegard\"}\n{\"ID\": 91, \"Position\": 945, \"Text\": \"Magd\", \"Annotation\": \"Anna Niehm\"}\n{\"ID\": 92, \"Position\": 947, \"Text\": \"sich\", \"Annotation\": \"Anna Niehm\"}\n{\"ID\": 93, \"Position\": 961, \"Text\": \"Hildegard\", \"Annotation\": \"Hildegard\"}\n{\"ID\": 94, \"Position\": 972, \"Text\": \"sie\", \"Annotation\": \"Hildegard\"}\n{\"ID\": 95, \"Position\": 978, \"Text\": \"sich\", \"Annotation\": \"Hildegard\"}\n{\"ID\": 96, \"Position\": 1016, \"Text\": \"ihre\", \"Annotation\": \"Hildegard\"}\n{\"ID\": 97, \"Position\": 1019, \"Text\": \"sie\", \"Annotation\": \"Hildegard\"}\n{\"ID\": 98, \"Position\": 1030, \"Text\": \"ihr\", \"Annotation\": \"Hildegard\"}\n{\"ID\": 99, \"Position\": 1036, \"Text\": \"sie\", \"Annotation\": \"Hildegard\"}\n{\"ID\": 100, \"Position\": 1040, \"Text\": \"ihres\", \"Annotation\": \"Hildegard\"}\n{\"ID\": 101, \"Position\": 1044, \"Text\": \"Sie\", \"Annotation\": \"Hildegard\"}\n{\"ID\": 102, \"Position\": 1073, \"Text\": \"sie\", \"Annotation\": \"Hildegard\"}\n{\"ID\": 103, \"Position\": 1074, \"Text\": \"sich\", \"Annotation\": \"Hildegard\"}\n{\"ID\": 104, \"Position\": 1085, \"Text\": \"sie\", \"Annotation\": \"Hildegard\"}\n{\"ID\": 105, \"Position\": 1086, \"Text\": \"sich\", \"Annotation\": \"Hildegard\"}\n{\"ID\": 106, \"Position\": 1091, \"Text\": \"Fr\u00e4ulein Schulze\", \"Annotation\": \"Fr\u00e4ulein Schulze\"}\n{\"ID\": 107, \"Position\": 1095, \"Text\": \"Wohnungsinhaberin\", \"Annotation\": \"Fr\u00e4ulein Schulze\"}\n{\"ID\": 108, \"Position\": 1103, \"Text\": \"Sie\", \"Annotation\": \"Fr\u00e4ulein Schulze\"}\n{\"ID\": 109, \"Position\": 1114, \"Text\": \"Hildegard\", \"Annotation\": \"Hildegard\"}\n{\"ID\": 110, \"Position\": 1119, \"Text\": \"ihr\", \"Annotation\": \"Fr\u00e4ulein Schulze\"}\n{\"ID\": 111, \"Position\": 1124, \"Text\": \"sie\", \"Annotation\": \"Fr\u00e4ulein Schulze\"}\n{\"ID\": 112, \"Position\": 1127, \"Text\": \"ihre\", \"Annotation\": \"Fr\u00e4ulein Schulze\"}\n{\"ID\": 113, \"Position\": 1128, \"Text\": \"Dienerin\", \"Annotation\": \"Anna Niehm\"}\n{\"ID\": 114, \"Position\": 1140, \"Text\": \"Frau Wallner\", \"Annotation\": \"Hildegard\"}\n{\"ID\": 115, \"Position\": 1145, \"Text\": \"sie\", \"Annotation\": \"Hildegard\"}\n{\"ID\": 116, \"Position\": 1148, \"Text\": \"sie\", \"Annotation\": \"Hildegard\"}\n{\"ID\": 117, \"Position\": 1163, \"Text\": \"sie\", \"Annotation\": \"Hildegard\"}\n{\"ID\": 118, \"Position\": 1167, \"Text\": \"sie\", \"Annotation\": \"Hildegard\"}\n{\"ID\": 119, \"Position\": 1176, \"Text\": \"sie\", \"Annotation\": \"Hildegard\"}\n{\"ID\": 120, \"Position\": 1181, \"Text\": \"sich\", \"Annotation\": \"Hildegard\"}\n{\"ID\": 121, \"Position\": 1197, \"Text\": \"Sie\", \"Annotation\": \"Hildegard\"}\n{\"ID\": 122, \"Position\": 1203, \"Text\": \"sich\", \"Annotation\": \"Hildegard\"}\n{\"ID\": 123, \"Position\": 1218, \"Text\": \"sie\", \"Annotation\": \"Hildegard\"}\n{\"ID\": 124, \"Position\": 1221, \"Text\": \"Dame\", \"Annotation\": \"Fr\u00e4ulein Schulze\"}\n{\"ID\": 125, \"Position\": 1227, \"Text\": \"Sie\", \"Annotation\": \"Fr\u00e4ulein Schulze\"}\n{\"ID\": 126, \"Position\": 1230, \"Text\": \"ich\", \"Annotation\": \"Fr\u00e4ulein Schulze\"}\n{\"ID\": 127, \"Position\": 1257, \"Text\": \"Hildegard\", \"Annotation\": \"Hildegard\"}\n{\"ID\": 128, \"Position\": 1266, \"Text\": \"Fr\u00e4ulein Schulze\", \"Annotation\": \"Fr\u00e4ulein Schulze\"}\n{\"ID\": 129, \"Position\": 1274, \"Text\": \"Sie\", \"Annotation\": \"Fr\u00e4ulein Schulze\"}\n{\"ID\": 130, \"Position\": 1275, \"Text\": \"sich\", \"Annotation\": \"Fr\u00e4ulein Schulze\"}\n{\"ID\": 131, \"Position\": 1278, \"Text\": \"Sie\", \"Annotation\": \"Hildegard\"}\n{\"ID\": 132, \"Position\": 1281, \"Text\": \"Andere\", \"Annotation\": \"Fr\u00e4ulein Schulze\"}\n{\"ID\": 133, \"Position\": 1283, \"Text\": \"sich\", \"Annotation\": \"Fr\u00e4ulein Schulze\"}\n{\"ID\": 134, \"Position\": 1291, \"Text\": \"ich\", \"Annotation\": \"Fr\u00e4ulein Schulze\"}\n{\"ID\": 135, \"Position\": 1297, \"Text\": \"Ihnen\", \"Annotation\": \"Hildegard\"}\n{\"ID\": 136, \"Position\": 1299, \"Text\": \"mir\", \"Annotation\": \"Fr\u00e4ulein Schulze\"}\n{\"ID\": 137, \"Position\": 1302, \"Text\": \"Ich\", \"Annotation\": \"Fr\u00e4ulein Schulze\"}\n{\"ID\": 138, \"Position\": 1315, \"Text\": \"ich\", \"Annotation\": \"Fr\u00e4ulein Schulze\"}\n{\"ID\": 139, \"Position\": 1328, \"Text\": \"mir\", \"Annotation\": \"Fr\u00e4ulein Schulze\"}\n{\"ID\": 140, \"Position\": 1333, \"Text\": \"Hildegard\", \"Annotation\": \"Hildegard\"}\n{\"ID\": 141, \"Position\": 1335, \"Text\": \"ihre\", \"Annotation\": \"Hildegard\"}\n{\"ID\": 142, \"Position\": 1336, \"Text\": \"Hausfrau\", \"Annotation\": \"Fr\u00e4ulein Schulze\"}\n{\"ID\": 143, \"Position\": 1343, \"Text\": \"ich\", \"Annotation\": \"Hildegard\"}\n{\"ID\": 144, \"Position\": 1345, \"Text\": \"Sie\", \"Annotation\": \"Fr\u00e4ulein Schulze\"}\n{\"ID\": 145, \"Position\": 1351, \"Text\": \"mir\", \"Annotation\": \"Hildegard\"}\n{\"ID\": 146, \"Position\": 1352, \"Text\": \"Ihren\", \"Annotation\": \"Fr\u00e4ulein Schulze\"}\n{\"ID\": 147, \"Position\": 1360, \"Text\": \"Sie\", \"Annotation\": \"Hildegard\"}\n{\"ID\": 148, \"Position\": 1364, \"Text\": \"Frauchen\", \"Annotation\": \"Hildegard\"}\n{\"ID\": 149, \"Position\": 1376, \"Text\": \"Vermieterin\", \"Annotation\": \"Fr\u00e4ulein Schulze\"}\n{\"ID\": 150, \"Position\": 1385, \"Text\": \"Ich\", \"Annotation\": \"Fr\u00e4ulein Schulze\"}\n{\"ID\": 151, \"Position\": 1397, \"Text\": \"wir\", \"Annotation\": \"Hildegard, Fr\u00e4ulein Schulze\"}\n{\"ID\": 152, \"Position\": 1412, \"Text\": \"Hildegard\", \"Annotation\": \"Hildegard\"}\n{\"ID\": 153, \"Position\": 1415, \"Text\": \"Fr\u00e4ulein\", \"Annotation\": \"Fr\u00e4ulein Schulze\"}\n{\"ID\": 154, \"Position\": 1417, \"Text\": \"sich\", \"Annotation\": \"Fr\u00e4ulein Schulze\"}\n{\"ID\": 155, \"Position\": 1430, \"Text\": \"Sie\", \"Annotation\": \"Hildegard\"}\n{\"ID\": 156, \"Position\": 1434, \"Text\": \"ich\", \"Annotation\": \"Fr\u00e4ulein Schulze\"}\n{\"ID\": 157, \"Position\": 1436, \"Text\": \"Sie\", \"Annotation\": \"Hildegard\"}\n{\"ID\": 158, \"Position\": 1448, \"Text\": \"wir\", \"Annotation\": \"Fr\u00e4ulein Schulze, Bekannte von Fr\u00e4ulein Schulze\"}\n{\"ID\": 159, \"Position\": 1454, \"Text\": \"ich\", \"Annotation\": \"Fr\u00e4ulein Schulze\"}\n{\"ID\": 160, \"Position\": 1467, \"Text\": \"Sie\", \"Annotation\": \"Hildegard\"}\n{\"ID\": 161, \"Position\": 1475, \"Text\": \"Frau Wallner\", \"Annotation\": \"Hildegard\"}\n{\"ID\": 162, \"Position\": 1483, \"Text\": \"Menschen\", \"Annotation\": \"Hildegard\"}\n{\"ID\": 163, \"Position\": 1493, \"Text\": \"Sie\", \"Annotation\": \"Hildegard\"}\n{\"ID\": 164, \"Position\": 1500, \"Text\": \"Ihnen\", \"Annotation\": \"Hildegard\"}\n{\"ID\": 165, \"Position\": 1510, \"Text\": \"Hildegard\", \"Annotation\": \"Hildegard\"}\n{\"ID\": 166, \"Position\": 1515, \"Text\": \"Ich\", \"Annotation\": \"Hildegard\"}\n{\"ID\": 167, \"Position\": 1520, \"Text\": \"mir\", \"Annotation\": \"Hildegard\"}\n{\"ID\": 168, \"Position\": 1528, \"Text\": \"mich\", \"Annotation\": \"Hildegard\"}\n{\"ID\": 169, \"Position\": 1534, \"Text\": \"Sie\", \"Annotation\": \"Hildegard\"}\n{\"ID\": 170, \"Position\": 1537, \"Text\": \"Ihrem\", \"Annotation\": \"Hildegard\"}\n{\"ID\": 171, \"Position\": 1538, \"Text\": \"Mann\", \"Annotation\": \"Hildegards Mann\"}\n{\"ID\": 172, \"Position\": 1542, \"Text\": \"mir\", \"Annotation\": \"Fr\u00e4ulein Schulze\"}\n{\"ID\": 173, \"Position\": 1543, \"Text\": \"Ihr\", \"Annotation\": \"Hildegard\"}\n{\"ID\": 174, \"Position\": 1552, \"Text\": \"Hildegards\", \"Annotation\": \"Hildegard\"}\n{\"ID\": 175, \"Position\": 1555, \"Text\": \"sich\", \"Annotation\": \"Hildegard\"}\n",
+  "generation_details": [
+    {
+      "usage": {
+        "prompt_tokens": 8889,
+        "completion_tokens": 5679,
+        "total_tokens": 14568,
+        "cost": 0.0168642,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.0026667,
+          "upstream_inference_completions_cost": 0.0141975
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      },
+      "finish_reason": "stop",
+      "request_id": "gen-1765760524-B0LtG00UpCKHe71Qo3xO"
+    }
+  ],
+  "json_output": [
+    {
+      "ID": 1,
+      "Position": 10,
+      "Text": "Frau",
+      "Annotation": "Anna Niehm"
+    },
+    {
+      "ID": 2,
+      "Position": 24,
+      "Text": "Sie",
+      "Annotation": "Anna Niehm"
+    },
+    {
+      "ID": 3,
+      "Position": 39,
+      "Text": "Frau Hildegard",
+      "Annotation": "Hildegard"
+    },
+    {
+      "ID": 4,
+      "Position": 41,
+      "Text": "ihr",
+      "Annotation": "Hildegard"
+    },
+    {
+      "ID": 5,
+      "Position": 48,
+      "Text": "sich",
+      "Annotation": "Hildegard"
+    },
+    {
+      "ID": 6,
+      "Position": 52,
+      "Text": "ihr",
+      "Annotation": "Hildegard"
+    },
+    {
+      "ID": 7,
+      "Position": 62,
+      "Text": "sie",
+      "Annotation": "Hildegard"
+    },
+    {
+      "ID": 8,
+      "Position": 69,
+      "Text": "Fr\u00e4ulein",
+      "Annotation": "Anna Niehm"
+    },
+    {
+      "ID": 9,
+      "Position": 78,
+      "Text": "ich",
+      "Annotation": "Hildegard"
+    },
+    {
+      "ID": 10,
+      "Position": 88,
+      "Text": "Se",
+      "Annotation": "Anna Niehm"
+    },
+    {
+      "ID": 11,
+      "Position": 96,
+      "Text": "Ich",
+      "Annotation": "Hildegard"
+    },
+    {
+      "ID": 12,
+      "Position": 108,
+      "Text": "Se",
+      "Annotation": "Anna Niehm"
+    },
+    {
+      "ID": 13,
+      "Position": 112,
+      "Text": "Frau Wallnerchen",
+      "Annotation": "Hildegard"
+    },
+    {
+      "ID": 14,
+      "Position": 116,
+      "Text": "Se",
+      "Annotation": "Anna Niehm"
+    },
+    {
+      "ID": 15,
+      "Position": 121,
+      "Text": "uns",
+      "Annotation": "Anna Niehm, Hildegard"
+    },
+    {
+      "ID": 16,
+      "Position": 130,
+      "Text": "Se",
+      "Annotation": "Hildegard"
+    },
+    {
+      "ID": 17,
+      "Position": 131,
+      "Text": "sich",
+      "Annotation": "Hildegard"
+    },
+    {
+      "ID": 18,
+      "Position": 139,
+      "Text": "Frau Hildegards",
+      "Annotation": "Hildegard"
+    },
+    {
+      "ID": 19,
+      "Position": 143,
+      "Text": "sich",
+      "Annotation": "Hildegard"
+    },
+    {
+      "ID": 20,
+      "Position": 150,
+      "Text": "Sie",
+      "Annotation": "Hildegard"
+    },
+    {
+      "ID": 21,
+      "Position": 158,
+      "Text": "sich",
+      "Annotation": "Hildegard"
+    },
+    {
+      "ID": 22,
+      "Position": 163,
+      "Text": "ihr",
+      "Annotation": "Hildegard"
+    },
+    {
+      "ID": 23,
+      "Position": 171,
+      "Text": "ihr",
+      "Annotation": "Hildegard"
+    },
+    {
+      "ID": 24,
+      "Position": 176,
+      "Text": "sie",
+      "Annotation": "Hildegard"
+    },
+    {
+      "ID": 25,
+      "Position": 177,
+      "Text": "sich",
+      "Annotation": "Hildegard"
+    },
+    {
+      "ID": 26,
+      "Position": 209,
+      "Text": "sie",
+      "Annotation": "Hildegard"
+    },
+    {
+      "ID": 27,
+      "Position": 211,
+      "Text": "ihre",
+      "Annotation": "Hildegard"
+    },
+    {
+      "ID": 28,
+      "Position": 225,
+      "Text": "sie",
+      "Annotation": "Hildegard"
+    },
+    {
+      "ID": 29,
+      "Position": 238,
+      "Text": "sie",
+      "Annotation": "Hildegard"
+    },
+    {
+      "ID": 30,
+      "Position": 260,
+      "Text": "Sie",
+      "Annotation": "Hildegard"
+    },
+    {
+      "ID": 31,
+      "Position": 269,
+      "Text": "sie",
+      "Annotation": "Hildegard"
+    },
+    {
+      "ID": 32,
+      "Position": 326,
+      "Text": "Sie",
+      "Annotation": "Hildegard"
+    },
+    {
+      "ID": 33,
+      "Position": 353,
+      "Text": "Sie",
+      "Annotation": "Hildegard"
+    },
+    {
+      "ID": 34,
+      "Position": 356,
+      "Text": "sich",
+      "Annotation": "Hildegard"
+    },
+    {
+      "ID": 35,
+      "Position": 361,
+      "Text": "sie",
+      "Annotation": "Hildegard"
+    },
+    {
+      "ID": 36,
+      "Position": 362,
+      "Text": "sich",
+      "Annotation": "Hildegard"
+    },
+    {
+      "ID": 37,
+      "Position": 366,
+      "Text": "ihre",
+      "Annotation": "Hildegard"
+    },
+    {
+      "ID": 38,
+      "Position": 382,
+      "Text": "Sie",
+      "Annotation": "Hildegard"
+    },
+    {
+      "ID": 39,
+      "Position": 389,
+      "Text": "sie",
+      "Annotation": "Hildegard"
+    },
+    {
+      "ID": 40,
+      "Position": 412,
+      "Text": "Sie",
+      "Annotation": "Hildegard"
+    },
+    {
+      "ID": 41,
+      "Position": 419,
+      "Text": "sie",
+      "Annotation": "Hildegard"
+    },
+    {
+      "ID": 42,
+      "Position": 420,
+      "Text": "sich",
+      "Annotation": "Hildegard"
+    },
+    {
+      "ID": 43,
+      "Position": 436,
+      "Text": "sie",
+      "Annotation": "Hildegard"
+    },
+    {
+      "ID": 44,
+      "Position": 443,
+      "Text": "Sie",
+      "Annotation": "Hildegard"
+    },
+    {
+      "ID": 45,
+      "Position": 455,
+      "Text": "sie",
+      "Annotation": "Hildegard"
+    },
+    {
+      "ID": 46,
+      "Position": 473,
+      "Text": "M\u00e4dchen",
+      "Annotation": "Anna Niehm"
+    },
+    {
+      "ID": 47,
+      "Position": 490,
+      "Text": "Lesende",
+      "Annotation": "Anna Niehm"
+    },
+    {
+      "ID": 48,
+      "Position": 495,
+      "Text": "ihren",
+      "Annotation": "Anna Niehm"
+    },
+    {
+      "ID": 49,
+      "Position": 503,
+      "Text": "Se",
+      "Annotation": "Hildegard"
+    },
+    {
+      "ID": 50,
+      "Position": 512,
+      "Text": "ich",
+      "Annotation": "Hildegard"
+    },
+    {
+      "ID": 51,
+      "Position": 553,
+      "Text": "Dame",
+      "Annotation": "Hildegard"
+    },
+    {
+      "ID": 52,
+      "Position": 562,
+      "Text": "ick",
+      "Annotation": "Anna Niehm"
+    },
+    {
+      "ID": 53,
+      "Position": 565,
+      "Text": "Ick",
+      "Annotation": "Anna Niehm"
+    },
+    {
+      "ID": 54,
+      "Position": 571,
+      "Text": "Freilein Schulze",
+      "Annotation": "Fr\u00e4ulein Schulze"
+    },
+    {
+      "ID": 55,
+      "Position": 574,
+      "Text": "mich",
+      "Annotation": "Anna Niehm"
+    },
+    {
+      "ID": 56,
+      "Position": 579,
+      "Text": "ick",
+      "Annotation": "Anna Niehm"
+    },
+    {
+      "ID": 57,
+      "Position": 588,
+      "Text": "Sie",
+      "Annotation": "Hildegard"
+    },
+    {
+      "ID": 58,
+      "Position": 596,
+      "Text": "ick",
+      "Annotation": "Anna Niehm"
+    },
+    {
+      "ID": 59,
+      "Position": 614,
+      "Text": "ick",
+      "Annotation": "Anna Niehm"
+    },
+    {
+      "ID": 60,
+      "Position": 626,
+      "Text": "Sie",
+      "Annotation": "Anna Niehm"
+    },
+    {
+      "ID": 61,
+      "Position": 636,
+      "Text": "Se",
+      "Annotation": "Anna Niehm"
+    },
+    {
+      "ID": 62,
+      "Position": 645,
+      "Text": "Freilein Schulze",
+      "Annotation": "Fr\u00e4ulein Schulze"
+    },
+    {
+      "ID": 63,
+      "Position": 653,
+      "Text": "mir",
+      "Annotation": "Anna Niehm"
+    },
+    {
+      "ID": 64,
+      "Position": 664,
+      "Text": "Hildegard",
+      "Annotation": "Hildegard"
+    },
+    {
+      "ID": 65,
+      "Position": 677,
+      "Text": "Fr\u00e4ulein Schulzes",
+      "Annotation": "Fr\u00e4ulein Schulze"
+    },
+    {
+      "ID": 66,
+      "Position": 693,
+      "Text": "Sie",
+      "Annotation": "Anna Niehm"
+    },
+    {
+      "ID": 67,
+      "Position": 745,
+      "Text": "Sie",
+      "Annotation": "Anna Niehm"
+    },
+    {
+      "ID": 68,
+      "Position": 750,
+      "Text": "Hildegard",
+      "Annotation": "Hildegard"
+    },
+    {
+      "ID": 69,
+      "Position": 765,
+      "Text": "ick",
+      "Annotation": "Anna Niehm"
+    },
+    {
+      "ID": 70,
+      "Position": 776,
+      "Text": "Dienstm\u00e4dchen",
+      "Annotation": "Anna Niehm"
+    },
+    {
+      "ID": 71,
+      "Position": 783,
+      "Text": "Frau Wallner",
+      "Annotation": "Hildegard"
+    },
+    {
+      "ID": 72,
+      "Position": 790,
+      "Text": "Magd",
+      "Annotation": "Anna Niehm"
+    },
+    {
+      "ID": 73,
+      "Position": 794,
+      "Text": "ihr",
+      "Annotation": "Anna Niehm"
+    },
+    {
+      "ID": 74,
+      "Position": 798,
+      "Text": "sie",
+      "Annotation": "Anna Niehm"
+    },
+    {
+      "ID": 75,
+      "Position": 858,
+      "Text": "Gesch\u00f6pf",
+      "Annotation": "Anna Niehm"
+    },
+    {
+      "ID": 76,
+      "Position": 864,
+      "Text": "Frau",
+      "Annotation": "Hildegard"
+    },
+    {
+      "ID": 77,
+      "Position": 868,
+      "Text": "sie",
+      "Annotation": "Hildegard"
+    },
+    {
+      "ID": 78,
+      "Position": 878,
+      "Text": "ich",
+      "Annotation": "Hildegard"
+    },
+    {
+      "ID": 79,
+      "Position": 879,
+      "Text": "Sie",
+      "Annotation": "Anna Niehm"
+    },
+    {
+      "ID": 80,
+      "Position": 883,
+      "Text": "Fr\u00e4ulein",
+      "Annotation": "Anna Niehm"
+    },
+    {
+      "ID": 81,
+      "Position": 897,
+      "Text": "ick",
+      "Annotation": "Anna Niehm"
+    },
+    {
+      "ID": 82,
+      "Position": 902,
+      "Text": "Anna Niehm",
+      "Annotation": "Anna Niehm"
+    },
+    {
+      "ID": 83,
+      "Position": 906,
+      "Text": "ick",
+      "Annotation": "Anna Niehm"
+    },
+    {
+      "ID": 84,
+      "Position": 911,
+      "Text": "Se",
+      "Annotation": "Hildegard"
+    },
+    {
+      "ID": 85,
+      "Position": 912,
+      "Text": "mir",
+      "Annotation": "Anna Niehm"
+    },
+    {
+      "ID": 86,
+      "Position": 914,
+      "Text": "Freilein",
+      "Annotation": "Anna Niehm"
+    },
+    {
+      "ID": 87,
+      "Position": 918,
+      "Text": "Hildegards",
+      "Annotation": "Hildegard"
+    },
+    {
+      "ID": 88,
+      "Position": 926,
+      "Text": "sie",
+      "Annotation": "Hildegard"
+    },
+    {
+      "ID": 89,
+      "Position": 927,
+      "Text": "sich",
+      "Annotation": "Hildegard"
+    },
+    {
+      "ID": 90,
+      "Position": 937,
+      "Text": "Ich",
+      "Annotation": "Hildegard"
+    },
+    {
+      "ID": 91,
+      "Position": 945,
+      "Text": "Magd",
+      "Annotation": "Anna Niehm"
+    },
+    {
+      "ID": 92,
+      "Position": 947,
+      "Text": "sich",
+      "Annotation": "Anna Niehm"
+    },
+    {
+      "ID": 93,
+      "Position": 961,
+      "Text": "Hildegard",
+      "Annotation": "Hildegard"
+    },
+    {
+      "ID": 94,
+      "Position": 972,
+      "Text": "sie",
+      "Annotation": "Hildegard"
+    },
+    {
+      "ID": 95,
+      "Position": 978,
+      "Text": "sich",
+      "Annotation": "Hildegard"
+    },
+    {
+      "ID": 96,
+      "Position": 1016,
+      "Text": "ihre",
+      "Annotation": "Hildegard"
+    },
+    {
+      "ID": 97,
+      "Position": 1019,
+      "Text": "sie",
+      "Annotation": "Hildegard"
+    },
+    {
+      "ID": 98,
+      "Position": 1030,
+      "Text": "ihr",
+      "Annotation": "Hildegard"
+    },
+    {
+      "ID": 99,
+      "Position": 1036,
+      "Text": "sie",
+      "Annotation": "Hildegard"
+    },
+    {
+      "ID": 100,
+      "Position": 1040,
+      "Text": "ihres",
+      "Annotation": "Hildegard"
+    },
+    {
+      "ID": 101,
+      "Position": 1044,
+      "Text": "Sie",
+      "Annotation": "Hildegard"
+    },
+    {
+      "ID": 102,
+      "Position": 1073,
+      "Text": "sie",
+      "Annotation": "Hildegard"
+    },
+    {
+      "ID": 103,
+      "Position": 1074,
+      "Text": "sich",
+      "Annotation": "Hildegard"
+    },
+    {
+      "ID": 104,
+      "Position": 1085,
+      "Text": "sie",
+      "Annotation": "Hildegard"
+    },
+    {
+      "ID": 105,
+      "Position": 1086,
+      "Text": "sich",
+      "Annotation": "Hildegard"
+    },
+    {
+      "ID": 106,
+      "Position": 1091,
+      "Text": "Fr\u00e4ulein Schulze",
+      "Annotation": "Fr\u00e4ulein Schulze"
+    },
+    {
+      "ID": 107,
+      "Position": 1095,
+      "Text": "Wohnungsinhaberin",
+      "Annotation": "Fr\u00e4ulein Schulze"
+    },
+    {
+      "ID": 108,
+      "Position": 1103,
+      "Text": "Sie",
+      "Annotation": "Fr\u00e4ulein Schulze"
+    },
+    {
+      "ID": 109,
+      "Position": 1114,
+      "Text": "Hildegard",
+      "Annotation": "Hildegard"
+    },
+    {
+      "ID": 110,
+      "Position": 1119,
+      "Text": "ihr",
+      "Annotation": "Fr\u00e4ulein Schulze"
+    },
+    {
+      "ID": 111,
+      "Position": 1124,
+      "Text": "sie",
+      "Annotation": "Fr\u00e4ulein Schulze"
+    },
+    {
+      "ID": 112,
+      "Position": 1127,
+      "Text": "ihre",
+      "Annotation": "Fr\u00e4ulein Schulze"
+    },
+    {
+      "ID": 113,
+      "Position": 1128,
+      "Text": "Dienerin",
+      "Annotation": "Anna Niehm"
+    },
+    {
+      "ID": 114,
+      "Position": 1140,
+      "Text": "Frau Wallner",
+      "Annotation": "Hildegard"
+    },
+    {
+      "ID": 115,
+      "Position": 1145,
+      "Text": "sie",
+      "Annotation": "Hildegard"
+    },
+    {
+      "ID": 116,
+      "Position": 1148,
+      "Text": "sie",
+      "Annotation": "Hildegard"
+    },
+    {
+      "ID": 117,
+      "Position": 1163,
+      "Text": "sie",
+      "Annotation": "Hildegard"
+    },
+    {
+      "ID": 118,
+      "Position": 1167,
+      "Text": "sie",
+      "Annotation": "Hildegard"
+    },
+    {
+      "ID": 119,
+      "Position": 1176,
+      "Text": "sie",
+      "Annotation": "Hildegard"
+    },
+    {
+      "ID": 120,
+      "Position": 1181,
+      "Text": "sich",
+      "Annotation": "Hildegard"
+    },
+    {
+      "ID": 121,
+      "Position": 1197,
+      "Text": "Sie",
+      "Annotation": "Hildegard"
+    },
+    {
+      "ID": 122,
+      "Position": 1203,
+      "Text": "sich",
+      "Annotation": "Hildegard"
+    },
+    {
+      "ID": 123,
+      "Position": 1218,
+      "Text": "sie",
+      "Annotation": "Hildegard"
+    },
+    {
+      "ID": 124,
+      "Position": 1221,
+      "Text": "Dame",
+      "Annotation": "Fr\u00e4ulein Schulze"
+    },
+    {
+      "ID": 125,
+      "Position": 1227,
+      "Text": "Sie",
+      "Annotation": "Fr\u00e4ulein Schulze"
+    },
+    {
+      "ID": 126,
+      "Position": 1230,
+      "Text": "ich",
+      "Annotation": "Fr\u00e4ulein Schulze"
+    },
+    {
+      "ID": 127,
+      "Position": 1257,
+      "Text": "Hildegard",
+      "Annotation": "Hildegard"
+    },
+    {
+      "ID": 128,
+      "Position": 1266,
+      "Text": "Fr\u00e4ulein Schulze",
+      "Annotation": "Fr\u00e4ulein Schulze"
+    },
+    {
+      "ID": 129,
+      "Position": 1274,
+      "Text": "Sie",
+      "Annotation": "Fr\u00e4ulein Schulze"
+    },
+    {
+      "ID": 130,
+      "Position": 1275,
+      "Text": "sich",
+      "Annotation": "Fr\u00e4ulein Schulze"
+    },
+    {
+      "ID": 131,
+      "Position": 1278,
+      "Text": "Sie",
+      "Annotation": "Hildegard"
+    },
+    {
+      "ID": 132,
+      "Position": 1281,
+      "Text": "Andere",
+      "Annotation": "Fr\u00e4ulein Schulze"
+    },
+    {
+      "ID": 133,
+      "Position": 1283,
+      "Text": "sich",
+      "Annotation": "Fr\u00e4ulein Schulze"
+    },
+    {
+      "ID": 134,
+      "Position": 1291,
+      "Text": "ich",
+      "Annotation": "Fr\u00e4ulein Schulze"
+    },
+    {
+      "ID": 135,
+      "Position": 1297,
+      "Text": "Ihnen",
+      "Annotation": "Hildegard"
+    },
+    {
+      "ID": 136,
+      "Position": 1299,
+      "Text": "mir",
+      "Annotation": "Fr\u00e4ulein Schulze"
+    },
+    {
+      "ID": 137,
+      "Position": 1302,
+      "Text": "Ich",
+      "Annotation": "Fr\u00e4ulein Schulze"
+    },
+    {
+      "ID": 138,
+      "Position": 1315,
+      "Text": "ich",
+      "Annotation": "Fr\u00e4ulein Schulze"
+    },
+    {
+      "ID": 139,
+      "Position": 1328,
+      "Text": "mir",
+      "Annotation": "Fr\u00e4ulein Schulze"
+    },
+    {
+      "ID": 140,
+      "Position": 1333,
+      "Text": "Hildegard",
+      "Annotation": "Hildegard"
+    },
+    {
+      "ID": 141,
+      "Position": 1335,
+      "Text": "ihre",
+      "Annotation": "Hildegard"
+    },
+    {
+      "ID": 142,
+      "Position": 1336,
+      "Text": "Hausfrau",
+      "Annotation": "Fr\u00e4ulein Schulze"
+    },
+    {
+      "ID": 143,
+      "Position": 1343,
+      "Text": "ich",
+      "Annotation": "Hildegard"
+    },
+    {
+      "ID": 144,
+      "Position": 1345,
+      "Text": "Sie",
+      "Annotation": "Fr\u00e4ulein Schulze"
+    },
+    {
+      "ID": 145,
+      "Position": 1351,
+      "Text": "mir",
+      "Annotation": "Hildegard"
+    },
+    {
+      "ID": 146,
+      "Position": 1352,
+      "Text": "Ihren",
+      "Annotation": "Fr\u00e4ulein Schulze"
+    },
+    {
+      "ID": 147,
+      "Position": 1360,
+      "Text": "Sie",
+      "Annotation": "Hildegard"
+    },
+    {
+      "ID": 148,
+      "Position": 1364,
+      "Text": "Frauchen",
+      "Annotation": "Hildegard"
+    },
+    {
+      "ID": 149,
+      "Position": 1376,
+      "Text": "Vermieterin",
+      "Annotation": "Fr\u00e4ulein Schulze"
+    },
+    {
+      "ID": 150,
+      "Position": 1385,
+      "Text": "Ich",
+      "Annotation": "Fr\u00e4ulein Schulze"
+    },
+    {
+      "ID": 151,
+      "Position": 1397,
+      "Text": "wir",
+      "Annotation": "Hildegard, Fr\u00e4ulein Schulze"
+    },
+    {
+      "ID": 152,
+      "Position": 1412,
+      "Text": "Hildegard",
+      "Annotation": "Hildegard"
+    },
+    {
+      "ID": 153,
+      "Position": 1415,
+      "Text": "Fr\u00e4ulein",
+      "Annotation": "Fr\u00e4ulein Schulze"
+    },
+    {
+      "ID": 154,
+      "Position": 1417,
+      "Text": "sich",
+      "Annotation": "Fr\u00e4ulein Schulze"
+    },
+    {
+      "ID": 155,
+      "Position": 1430,
+      "Text": "Sie",
+      "Annotation": "Hildegard"
+    },
+    {
+      "ID": 156,
+      "Position": 1434,
+      "Text": "ich",
+      "Annotation": "Fr\u00e4ulein Schulze"
+    },
+    {
+      "ID": 157,
+      "Position": 1436,
+      "Text": "Sie",
+      "Annotation": "Hildegard"
+    },
+    {
+      "ID": 158,
+      "Position": 1448,
+      "Text": "wir",
+      "Annotation": "Fr\u00e4ulein Schulze, Bekannte von Fr\u00e4ulein Schulze"
+    },
+    {
+      "ID": 159,
+      "Position": 1454,
+      "Text": "ich",
+      "Annotation": "Fr\u00e4ulein Schulze"
+    },
+    {
+      "ID": 160,
+      "Position": 1467,
+      "Text": "Sie",
+      "Annotation": "Hildegard"
+    },
+    {
+      "ID": 161,
+      "Position": 1475,
+      "Text": "Frau Wallner",
+      "Annotation": "Hildegard"
+    },
+    {
+      "ID": 162,
+      "Position": 1483,
+      "Text": "Menschen",
+      "Annotation": "Hildegard"
+    },
+    {
+      "ID": 163,
+      "Position": 1493,
+      "Text": "Sie",
+      "Annotation": "Hildegard"
+    },
+    {
+      "ID": 164,
+      "Position": 1500,
+      "Text": "Ihnen",
+      "Annotation": "Hildegard"
+    },
+    {
+      "ID": 165,
+      "Position": 1510,
+      "Text": "Hildegard",
+      "Annotation": "Hildegard"
+    },
+    {
+      "ID": 166,
+      "Position": 1515,
+      "Text": "Ich",
+      "Annotation": "Hildegard"
+    },
+    {
+      "ID": 167,
+      "Position": 1520,
+      "Text": "mir",
+      "Annotation": "Hildegard"
+    },
+    {
+      "ID": 168,
+      "Position": 1528,
+      "Text": "mich",
+      "Annotation": "Hildegard"
+    },
+    {
+      "ID": 169,
+      "Position": 1534,
+      "Text": "Sie",
+      "Annotation": "Hildegard"
+    },
+    {
+      "ID": 170,
+      "Position": 1537,
+      "Text": "Ihrem",
+      "Annotation": "Hildegard"
+    },
+    {
+      "ID": 171,
+      "Position": 1538,
+      "Text": "Mann",
+      "Annotation": "Hildegards Mann"
+    },
+    {
+      "ID": 172,
+      "Position": 1542,
+      "Text": "mir",
+      "Annotation": "Fr\u00e4ulein Schulze"
+    },
+    {
+      "ID": 173,
+      "Position": 1543,
+      "Text": "Ihr",
+      "Annotation": "Hildegard"
+    },
+    {
+      "ID": 174,
+      "Position": 1552,
+      "Text": "Hildegards",
+      "Annotation": "Hildegard"
+    },
+    {
+      "ID": 175,
+      "Position": 1555,
+      "Text": "sich",
+      "Annotation": "Hildegard"
+    }
+  ],
+  "output": [
+    {
+      "id": "148",
+      "token_idx": [
+        10
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 1,
+            "fullname": "Anna Niehm",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "140",
+      "token_idx": [
+        24
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 1,
+            "fullname": "Anna Niehm",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "165",
+      "token_idx": [
+        39,
+        40
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 2,
+            "fullname": "Hildegard",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "137",
+      "token_idx": [
+        41
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 2,
+            "fullname": "Hildegard",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "138",
+      "token_idx": [
+        48
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 2,
+            "fullname": "Hildegard",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "139",
+      "token_idx": [
+        52
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 2,
+            "fullname": "Hildegard",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "0",
+      "token_idx": [
+        62
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 2,
+            "fullname": "Hildegard",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "149",
+      "token_idx": [
+        69
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 1,
+            "fullname": "Anna Niehm",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "1",
+      "token_idx": [
+        78
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 2,
+            "fullname": "Hildegard",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "141",
+      "token_idx": [
+        88
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 1,
+            "fullname": "Anna Niehm",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "token_idx": [
+        96
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 2,
+            "fullname": "Hildegard",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "142",
+      "token_idx": [
+        108
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 1,
+            "fullname": "Anna Niehm",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "166",
+      "token_idx": [
+        112,
+        113
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 2,
+            "fullname": "Hildegard",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "143",
+      "token_idx": [
+        116
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 1,
+            "fullname": "Anna Niehm",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "token_idx": [
+        121
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 3,
+            "fullname": "Anna Niehm Hildegard",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "144",
+      "token_idx": [
+        130
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 2,
+            "fullname": "Hildegard",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "96",
+      "token_idx": [
+        131
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 2,
+            "fullname": "Hildegard",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "167",
+      "token_idx": [
+        139,
+        140
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 2,
+            "fullname": "Hildegard",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "97",
+      "token_idx": [
+        143
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 2,
+            "fullname": "Hildegard",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "token_idx": [
+        150
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 2,
+            "fullname": "Hildegard",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "98",
+      "token_idx": [
+        158
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 2,
+            "fullname": "Hildegard",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "82",
+      "token_idx": [
+        163
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 2,
+            "fullname": "Hildegard",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "83",
+      "token_idx": [
+        171
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 2,
+            "fullname": "Hildegard",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "token_idx": [
+        176
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 2,
+            "fullname": "Hildegard",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "token_idx": [
+        177
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 2,
+            "fullname": "Hildegard",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "token_idx": [
+        209
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 2,
+            "fullname": "Hildegard",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "84",
+      "token_idx": [
+        211
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 2,
+            "fullname": "Hildegard",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "token_idx": [
+        225
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 2,
+            "fullname": "Hildegard",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "token_idx": [
+        238
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 2,
+            "fullname": "Hildegard",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "token_idx": [
+        260
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 2,
+            "fullname": "Hildegard",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "token_idx": [
+        269
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 2,
+            "fullname": "Hildegard",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "token_idx": [
+        326
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 2,
+            "fullname": "Hildegard",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "token_idx": [
+        353
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 2,
+            "fullname": "Hildegard",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "100",
+      "token_idx": [
+        356
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 2,
+            "fullname": "Hildegard",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "token_idx": [
+        361
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 2,
+            "fullname": "Hildegard",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "101",
+      "token_idx": [
+        362
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 2,
+            "fullname": "Hildegard",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "85",
+      "token_idx": [
+        366
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 2,
+            "fullname": "Hildegard",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "token_idx": [
+        382
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 2,
+            "fullname": "Hildegard",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "token_idx": [
+        389
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 2,
+            "fullname": "Hildegard",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "token_idx": [
+        412
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 2,
+            "fullname": "Hildegard",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "token_idx": [
+        419
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 2,
+            "fullname": "Hildegard",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "102",
+      "token_idx": [
+        420
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 2,
+            "fullname": "Hildegard",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "token_idx": [
+        436
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 2,
+            "fullname": "Hildegard",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "token_idx": [
+        443
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 2,
+            "fullname": "Hildegard",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "token_idx": [
+        455
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 2,
+            "fullname": "Hildegard",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "116",
+      "token_idx": [
+        473
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 1,
+            "fullname": "Anna Niehm",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "145",
+      "token_idx": [
+        490
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 1,
+            "fullname": "Anna Niehm",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "86",
+      "token_idx": [
+        495
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 1,
+            "fullname": "Anna Niehm",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "150",
+      "token_idx": [
+        503
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 2,
+            "fullname": "Hildegard",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "token_idx": [
+        512
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 2,
+            "fullname": "Hildegard",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "117",
+      "token_idx": [
+        553
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 2,
+            "fullname": "Hildegard",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "151",
+      "token_idx": [
+        562
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 1,
+            "fullname": "Anna Niehm",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "168",
+      "token_idx": [
+        565
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 1,
+            "fullname": "Anna Niehm",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "170",
+      "token_idx": [
+        571,
+        572
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 4,
+            "fullname": "Fr\u00e4ulein Schulze",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "103",
+      "token_idx": [
+        574
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 1,
+            "fullname": "Anna Niehm",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "169",
+      "token_idx": [
+        579
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 1,
+            "fullname": "Anna Niehm",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "token_idx": [
+        588
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 2,
+            "fullname": "Hildegard",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "152",
+      "token_idx": [
+        596
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 1,
+            "fullname": "Anna Niehm",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "153",
+      "token_idx": [
+        614
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 1,
+            "fullname": "Anna Niehm",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "token_idx": [
+        626
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 1,
+            "fullname": "Anna Niehm",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "154",
+      "token_idx": [
+        636
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 1,
+            "fullname": "Anna Niehm",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "171",
+      "token_idx": [
+        645,
+        646
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 4,
+            "fullname": "Fr\u00e4ulein Schulze",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "token_idx": [
+        653
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 1,
+            "fullname": "Anna Niehm",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "118",
+      "token_idx": [
+        664
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 2,
+            "fullname": "Hildegard",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "172",
+      "token_idx": [
+        677,
+        678
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 4,
+            "fullname": "Fr\u00e4ulein Schulze",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "token_idx": [
+        693
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 1,
+            "fullname": "Anna Niehm",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "token_idx": [
+        745
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 1,
+            "fullname": "Anna Niehm",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "119",
+      "token_idx": [
+        750
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 2,
+            "fullname": "Hildegard",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "155",
+      "token_idx": [
+        765
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 1,
+            "fullname": "Anna Niehm",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "173",
+      "token_idx": [
+        776
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 1,
+            "fullname": "Anna Niehm",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "174",
+      "token_idx": [
+        783,
+        784
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 2,
+            "fullname": "Hildegard",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "120",
+      "token_idx": [
+        790
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 1,
+            "fullname": "Anna Niehm",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "token_idx": [
+        794
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 1,
+            "fullname": "Anna Niehm",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "token_idx": [
+        798
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 1,
+            "fullname": "Anna Niehm",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "162",
+      "token_idx": [
+        858
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 1,
+            "fullname": "Anna Niehm",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "121",
+      "token_idx": [
+        864
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 2,
+            "fullname": "Hildegard",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "token_idx": [
+        868
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 2,
+            "fullname": "Hildegard",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "token_idx": [
+        878
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 2,
+            "fullname": "Hildegard",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "token_idx": [
+        879
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 1,
+            "fullname": "Anna Niehm",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "122",
+      "token_idx": [
+        883
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 1,
+            "fullname": "Anna Niehm",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "156",
+      "token_idx": [
+        897
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 1,
+            "fullname": "Anna Niehm",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "123",
+      "token_idx": [
+        902,
+        903
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 1,
+            "fullname": "Anna Niehm",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "158",
+      "token_idx": [
+        906
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 1,
+            "fullname": "Anna Niehm",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "159",
+      "token_idx": [
+        911
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 2,
+            "fullname": "Hildegard",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "token_idx": [
+        912
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 1,
+            "fullname": "Anna Niehm",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "157",
+      "token_idx": [
+        914
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 1,
+            "fullname": "Anna Niehm",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "124",
+      "token_idx": [
+        918
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 2,
+            "fullname": "Hildegard",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "token_idx": [
+        926
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 2,
+            "fullname": "Hildegard",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "104",
+      "token_idx": [
+        927
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 2,
+            "fullname": "Hildegard",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "token_idx": [
+        937
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 2,
+            "fullname": "Hildegard",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "125",
+      "token_idx": [
+        945
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 1,
+            "fullname": "Anna Niehm",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "105",
+      "token_idx": [
+        947
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 1,
+            "fullname": "Anna Niehm",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "126",
+      "token_idx": [
+        961
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 2,
+            "fullname": "Hildegard",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "token_idx": [
+        972
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 2,
+            "fullname": "Hildegard",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "106",
+      "token_idx": [
+        978
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 2,
+            "fullname": "Hildegard",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "87",
+      "token_idx": [
+        1016
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 2,
+            "fullname": "Hildegard",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "token_idx": [
+        1019
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 2,
+            "fullname": "Hildegard",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "88",
+      "token_idx": [
+        1030
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 2,
+            "fullname": "Hildegard",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "token_idx": [
+        1036
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 2,
+            "fullname": "Hildegard",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "89",
+      "token_idx": [
+        1040
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 2,
+            "fullname": "Hildegard",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "token_idx": [
+        1044
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 2,
+            "fullname": "Hildegard",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "39",
+      "token_idx": [
+        1073
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 2,
+            "fullname": "Hildegard",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "107",
+      "token_idx": [
+        1074
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 2,
+            "fullname": "Hildegard",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "token_idx": [
+        1085
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 2,
+            "fullname": "Hildegard",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "108",
+      "token_idx": [
+        1086
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 2,
+            "fullname": "Hildegard",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "175",
+      "token_idx": [
+        1091,
+        1092
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 4,
+            "fullname": "Fr\u00e4ulein Schulze",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "163",
+      "token_idx": [
+        1095
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 4,
+            "fullname": "Fr\u00e4ulein Schulze",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "41",
+      "token_idx": [
+        1103
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 4,
+            "fullname": "Fr\u00e4ulein Schulze",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "127",
+      "token_idx": [
+        1114
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 2,
+            "fullname": "Hildegard",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "42",
+      "token_idx": [
+        1119
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 4,
+            "fullname": "Fr\u00e4ulein Schulze",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "43",
+      "token_idx": [
+        1124
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 4,
+            "fullname": "Fr\u00e4ulein Schulze",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "90",
+      "token_idx": [
+        1127
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 4,
+            "fullname": "Fr\u00e4ulein Schulze",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "146",
+      "token_idx": [
+        1128
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 1,
+            "fullname": "Anna Niehm",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "176",
+      "token_idx": [
+        1140,
+        1141
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 2,
+            "fullname": "Hildegard",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "44",
+      "token_idx": [
+        1145
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 2,
+            "fullname": "Hildegard",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "45",
+      "token_idx": [
+        1148
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 2,
+            "fullname": "Hildegard",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "46",
+      "token_idx": [
+        1163
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 2,
+            "fullname": "Hildegard",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "47",
+      "token_idx": [
+        1167
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 2,
+            "fullname": "Hildegard",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "48",
+      "token_idx": [
+        1176
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 2,
+            "fullname": "Hildegard",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "109",
+      "token_idx": [
+        1181
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 2,
+            "fullname": "Hildegard",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "49",
+      "token_idx": [
+        1197
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 2,
+            "fullname": "Hildegard",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "110",
+      "token_idx": [
+        1203
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 2,
+            "fullname": "Hildegard",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "50",
+      "token_idx": [
+        1218
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 2,
+            "fullname": "Hildegard",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "128",
+      "token_idx": [
+        1221
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 4,
+            "fullname": "Fr\u00e4ulein Schulze",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "51",
+      "token_idx": [
+        1227
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 4,
+            "fullname": "Fr\u00e4ulein Schulze",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "52",
+      "token_idx": [
+        1230
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 4,
+            "fullname": "Fr\u00e4ulein Schulze",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "129",
+      "token_idx": [
+        1257
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 2,
+            "fullname": "Hildegard",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "177",
+      "token_idx": [
+        1266,
+        1267
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 4,
+            "fullname": "Fr\u00e4ulein Schulze",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "53",
+      "token_idx": [
+        1274
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 4,
+            "fullname": "Fr\u00e4ulein Schulze",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "111",
+      "token_idx": [
+        1275
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 4,
+            "fullname": "Fr\u00e4ulein Schulze",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "54",
+      "token_idx": [
+        1278
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 2,
+            "fullname": "Hildegard",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "164",
+      "token_idx": [
+        1281
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 4,
+            "fullname": "Fr\u00e4ulein Schulze",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "112",
+      "token_idx": [
+        1283
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 4,
+            "fullname": "Fr\u00e4ulein Schulze",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "55",
+      "token_idx": [
+        1291
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 4,
+            "fullname": "Fr\u00e4ulein Schulze",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "56",
+      "token_idx": [
+        1297
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 2,
+            "fullname": "Hildegard",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "57",
+      "token_idx": [
+        1299
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 4,
+            "fullname": "Fr\u00e4ulein Schulze",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "58",
+      "token_idx": [
+        1302
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 4,
+            "fullname": "Fr\u00e4ulein Schulze",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "59",
+      "token_idx": [
+        1315
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 4,
+            "fullname": "Fr\u00e4ulein Schulze",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "60",
+      "token_idx": [
+        1328
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 4,
+            "fullname": "Fr\u00e4ulein Schulze",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "130",
+      "token_idx": [
+        1333
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 2,
+            "fullname": "Hildegard",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "91",
+      "token_idx": [
+        1335
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 2,
+            "fullname": "Hildegard",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "160",
+      "token_idx": [
+        1336
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 4,
+            "fullname": "Fr\u00e4ulein Schulze",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "61",
+      "token_idx": [
+        1343
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 2,
+            "fullname": "Hildegard",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "62",
+      "token_idx": [
+        1345
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 4,
+            "fullname": "Fr\u00e4ulein Schulze",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "63",
+      "token_idx": [
+        1351
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 2,
+            "fullname": "Hildegard",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "92",
+      "token_idx": [
+        1352
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 4,
+            "fullname": "Fr\u00e4ulein Schulze",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "64",
+      "token_idx": [
+        1360
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 2,
+            "fullname": "Hildegard",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "147",
+      "token_idx": [
+        1364
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 2,
+            "fullname": "Hildegard",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "161",
+      "token_idx": [
+        1376
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 4,
+            "fullname": "Fr\u00e4ulein Schulze",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "65",
+      "token_idx": [
+        1385
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 4,
+            "fullname": "Fr\u00e4ulein Schulze",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "66",
+      "token_idx": [
+        1397
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 5,
+            "fullname": "Hildegard Fr\u00e4ulein Schulze",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "179",
+      "token_idx": [
+        1412
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 2,
+            "fullname": "Hildegard",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "131",
+      "token_idx": [
+        1415
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 4,
+            "fullname": "Fr\u00e4ulein Schulze",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "113",
+      "token_idx": [
+        1417
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 4,
+            "fullname": "Fr\u00e4ulein Schulze",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "67",
+      "token_idx": [
+        1430
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 2,
+            "fullname": "Hildegard",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "68",
+      "token_idx": [
+        1434
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 4,
+            "fullname": "Fr\u00e4ulein Schulze",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "69",
+      "token_idx": [
+        1436
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 2,
+            "fullname": "Hildegard",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "70",
+      "token_idx": [
+        1448
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 6,
+            "fullname": "Fr\u00e4ulein Schulze Bekannte von Fr\u00e4ulein Schulze",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "71",
+      "token_idx": [
+        1454
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 4,
+            "fullname": "Fr\u00e4ulein Schulze",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "72",
+      "token_idx": [
+        1467
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 2,
+            "fullname": "Hildegard",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "178",
+      "token_idx": [
+        1475,
+        1476
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 2,
+            "fullname": "Hildegard",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "132",
+      "token_idx": [
+        1483
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 2,
+            "fullname": "Hildegard",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "73",
+      "token_idx": [
+        1493
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 2,
+            "fullname": "Hildegard",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "74",
+      "token_idx": [
+        1500
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 2,
+            "fullname": "Hildegard",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "133",
+      "token_idx": [
+        1510
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 2,
+            "fullname": "Hildegard",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "75",
+      "token_idx": [
+        1515
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 2,
+            "fullname": "Hildegard",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "114",
+      "token_idx": [
+        1520
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 2,
+            "fullname": "Hildegard",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "76",
+      "token_idx": [
+        1528
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 2,
+            "fullname": "Hildegard",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "77",
+      "token_idx": [
+        1534
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 2,
+            "fullname": "Hildegard",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "93",
+      "token_idx": [
+        1537
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 2,
+            "fullname": "Hildegard",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "134",
+      "token_idx": [
+        1538
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 7,
+            "fullname": "Hildegards Mann",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "78",
+      "token_idx": [
+        1542
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 4,
+            "fullname": "Fr\u00e4ulein Schulze",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "94",
+      "token_idx": [
+        1543
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 2,
+            "fullname": "Hildegard",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "135",
+      "token_idx": [
+        1552
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 2,
+            "fullname": "Hildegard",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "115",
+      "token_idx": [
+        1555
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 2,
+            "fullname": "Hildegard",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    }
+  ],
+  "exception": null
+}
