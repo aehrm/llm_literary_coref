@@ -1,17 +1,17 @@
-﻿ID_general;ID_general_old;fullname;gender;possible_identity;members;members_names;specialcase;borderline;comment_entity;ID_chapter_1;ID_chapter_2;ID_chapter_3;ID_chapter_4;ID_chapter_5;ID_chapter_6;ID_chapter_7;ID_chapter_8;ID_chapter_9;ID_chapter_10;ID_chapter_11;ID_chapter_12;ID_chapter_13;ID_chapter_14
+ID_general;ID_general_old;fullname;gender;possible_identity;members;members_names;specialcase;borderline;comment_entity;ID_chapter_1;ID_chapter_2;ID_chapter_3;ID_chapter_4;ID_chapter_5;ID_chapter_6;ID_chapter_7;ID_chapter_8;ID_chapter_9;ID_chapter_10;ID_chapter_11;ID_chapter_12;ID_chapter_13;ID_chapter_14
 entity_0001;;Franz Linden;m;;;;;;;Franz Linden;Franz Linden;Franz Linden;Franz Linden;Franz Linden;Franz Linden;Franz Linden;Franz;Franz;Franz Linden;Linden;Franz Linden;Franz Linden;Franz Linden
 entity_0002;;Richard Weishaupt;m;;;;;;;Amtsrichter Weishaupt;Amtsrichter;Amtsrichter Weishaupt;Amtsrichter Weishaupt;;Amtsrichter Weishaupt;;Amtsrichter;Richard;Amtsrichter;Herr Amtsrichter;Amtsrichter;;Amtsrichter
-entity_0003;;Herr Wolff;m;;;;;;;Herr Wolff;Herr Wolff;Herr Wolf;Wolff;;Monsieur Wolff;E. Wolff;Herr Wolff;Wolff;Wolff;Wolff;Wolff;;Wolff
+entity_0003;;Herr Wolff;m;;;;;;;Herr Wolff;Herr Wolff;Herr Wolff;Wolff;;Monsieur Wolff;E. Wolff;Herr Wolff;Wolff;Wolff;Wolff;Wolff;;Wolff
 entity_0004;;Gertrud Baumhagen;f;;;;;;;junge Frau;Trudchen Baumhagen;Trudchen Baumhagen;Gertrud;Trudchen;Gertrud;Trudchen;Trudchen;Trudchen;Trudchen;Trudchen;Trudchen;Trudchen Baumhagen;Trudchen
 entity_0005;Frau Baumhagen;Ottilie Baumhagen;f;;;;;;;;Frau Baumhagen;;Ottilie Baumhagen;Frau Ottilie;Frau Baumhagen;Frau Baumhagen;Frau Baumhagen;Trudchens Mutter;Frau Baumhagen;Frau Baumhagen;;Ottilie Baumhagen;
 entity_0006;;Jenny Fredrich, geb. Baumhagen;f;;;;;;;Schwester der jungen Frau;Jenny Fredrich;Jenny Fredrich;Jenny;Jenny;Jenny;Jenny;Jenny;Jenny;Jenny;Jenny;;Jenny;
 entity_0007;Artur Fredrich;Artur Fredrich;m;;;;;;;;Artur Fredrich;Artur Fredrich;Artur;Artur;Artur Fredrich;Artur;Artur;Artur;;Artur;;Artur;
 entity_0008;Onkel Heinrich;Onkel Heinrich;m;;;;;;;;;;Onkel Heinrich;Onkel Heinrich;Onkel Heinrich;Onkel Heinrich;Onkel Heinrich;Onkel Heinrich;Onkel Heinrich;Onkel Heinrich;Onkel Heinrich;Onkel Heinrich;Onkel Heinrich
 entity_0009;Tante Stadträtin;Tante Pauline;f;;;;;;;;;;Tante Pauline;;Tante Stadträtin;Tante Stadträtin;Tante Stadträtin;;;;;Tante Stadträtin;
-entity_0010;Familie Baumhagen;Familie Baumhagen;mf;;entity_0015, entity_0005, entity_0009, entity_0008, entity_0004, entity_0006, entity_0007;Herr Baumhagen, Ottilie Baumhagen, Tante Stadträtin, Onkel Heinrich, Trudchen Baumhagen, Jenny Fredrich, Artur Fredrich;group;;; ;Familie Baumhagen;;Familie Baumhagen;Trudchens Familie;Familie Baumhagen;;Trudchens Familie;Trudchens Familie;Familie Baumhagen;;;;Familie Baumhagen
+entity_0010;Familie Baumhagen;Familie Baumhagen;mf;;entity_0015, entity_0005, entity_0009, entity_0008, entity_0004, entity_0006, entity_0007;Herr Baumhagen, Ottilie Baumhagen, Tante Stadträtin, Onkel Heinrich, Trudchen Baumhagen, Jenny Fredrich, Artur Fredrich;group;;;Familie Baumhagen;Familie Baumhagen;;Familie Baumhagen;Trudchens Familie;Familie Baumhagen;;Trudchens Familie;Trudchens Familie;Familie Baumhagen;;;;Familie Baumhagen
 entity_0011;;Rosalie Kruse;f;;;;;;;Tante des Franz Linden;Tante Rosa;Tante Rosalie;Tante Rosa;;;Tante Rosa;Tante Rosa;Tante Rosa;Tante Rosa;Fräulein Rosa;Tante Rosa;Tante Rosa;Tante Rosa
 entity_0012;;Johanne;f;;;;;;;Mutter des Täuflings;Johanne;;;;;;Johanne;Johanne;Johanne;Johanne;Johanne;Johanne;
-entity_0013;;Oberprediger;m;;;;;;;Oberprediger;;;;;Herr Oberprediger;Prediger;;;;;;;
+entity_0013;;Oberprediger;m;;;;;;;Oberprediger;Oberprediger;;;;Herr Oberprediger;Prediger;;;;;;;
 entity_0014;;Täufling;m;;;;;;;Täufling;Sohn von Johanne;Sohn von Johanne;;;;;Johannes Kind;;Kind von Johanne;; ;Kind von Johanne;
 entity_0015;Herr Baumhagen;Leberecht Baumhagen;m;;;;;;;;Herr Baumhagen;;Vater von Gertrud und Jenny;;Herr Baumhagen;Trudchens Vater;Trudchens Vater;Trudchens Vater;Papa von Trudchen;Herr Baumhagen;Leberecht;Vater von Trudchen Baumhagen;Herr Baumhagen
 entity_0016;Großmutter von Trudchen Baumhagen;Großmutter von Trudchen Baumhagen;f;;;;;;;;Großmutter von Trudchen Baumhagen;Großmutter von Trudchen Baumhagen;;;Gertruds Großmutter;;Trudchens Großmutter;;;;;;
@@ -28,7 +28,7 @@ entity_0026;;Thea;f;;;;;;;Thea;;;;;;;;;;;;;
 entity_0027;;Frauengestalt;f;;;;generic;;;Frauengestalt;;;;;;;;;;;;;
 entity_0028;;Fräulein Rosalie;f;;;;;;;Fräulein Rosalie;;;;;;;;;;;;;
 entity_0029;;Mutter des Franz Linden;f;;;;;;;Mutter des Franz Linden;;Mutter von Franz Linden;Mutter von Franz Linden;;Franz Lindens Mutter;Franz Lindens Mutter;Franz' Mutter;;;;;;
-entity_0030;;Verwalter;m;;;;;;;Verwalter;;Verwalter;;;;;;;;;;;
+entity_0030;;Verwalter;m;;;;;;;Verwalter;Verwalter;Verwalter;;;;;;;;;;;
 entity_0031;;arme Zukünftige;f;;;;generic, nonfact;;;arme Zukünftige;;;;;;;;;;;;;
 entity_0032;;alte Tanten;f;;entity_0011, x;Tante des Franz Linden, x;generic, group;;;alte Tanten;;;;;;;;;;;;;
 entity_0033;;imaginärer Erbe;m;;;;nonfact;;;imaginärer Erbe;;;;;;;;;;;;;
@@ -45,7 +45,6 @@ entity_0043;;Großvater von Franz Linden;m;;;;;;;Großvater von Franz Linden;;;;
 entity_0044;;Henker;m;;;;nonfact;;;Henker;;;;Henker;;;;Henker;;;;;
 entity_0045;;Fremde Besuchende der Kirche;u;;;;generic;;;Fremde Besuchende der Kirche;;;;;;;;;;;;;
 entity_0046;;Großmutter;f;;;;generic;;;Großmutter;;;;;;;;;;;;;
-entity_0047;;Familie Baumhagen;fm;;;;;;;Familie Baumhagen;;;;;;;;;;;;;
 entity_0048;;Familie Hellborn;fm;;x;x;group;;;Familie Hellborn;;;;;;;;;;;;;
 entity_0049;;Familie Schenk;fm;;x;x;group;;;Familie Schenk;;;;;;;;;;;;;
 entity_0050;;Familie Meier;fm;;x;x;group;;;Familie Meier;;;;;;;;;;;;;
@@ -58,7 +57,7 @@ entity_0056;;Nachkommen des Franz Linden;u;;x;x;group, nonfact;;;Nachkommen des 
 entity_0057;;Mephisto;m;;;;nonfact;;;Mephisto;;;;;;;;;;;;;
 entity_0058;;Menschen;u;;;;generic;;;Menschen;Menschen;Menschen;;Menschen;;;;;;;;Menschen;
 entity_0059;;alte Frau;f;;;;;;;alte Frau;;;;;;;;;;;;;
-entity_0060;;Fritze;m;;;;;;;Vater des Täuflings;;;;;;;Johannes Mann;;;Fritze;;;
+entity_0060;;Fritze;m;;;;;;;Vater des Täuflings;;;;;;;Johannes Mann;;;Fritze;;verstorbener Ehemann von Johanne;
 entity_0061;;hübsche Mädchen;f;;x;x;generic, group;;;hübsche Mädchen;;;;;;;;;;;;;
 entity_0062;;die Schönste Zukünftige;f;;;;generic, nonfact;;;die Schönste Zukünftige;;;;;;;;;;;;;
 entity_0063;;Zukünfige;f;;;;nonfact;;;Zukünfige;;;;;;;;;;;;;
@@ -69,12 +68,12 @@ entity_0067;;spielende Kinder;u;;;;;;;spielende Kinder;;;;;;;;;;;;;
 entity_0068;;Äbtissin Anna;f;;;;;;;Äbtissin Anna;;;;;;;;;;;;;
 entity_0069;Adjutant;Herr von Löwenberg;m;;;;;;;;Adjutant;;Leutnant von Löwenberg;;;;;;;;;;
 entity_0070;Karoline;Karoline;f;;;;;;;;Karoline;;;Karoline;;;;;;;;;
-entity_0071;Sophie;Sophie;f;;;;;;;;Sophie;;Sophie;;Sophie;Sophie;;Sophie;;;;Sophie;
+entity_0071;Sophie;Sophie;f;;;;;;;;Sophie;;Sophie;;Sophie;Sophie;;Sophie;Sophie;;;Sophie;
 entity_0072;Referendar;Referendar;m;;;;;;;;Referendar;;;;;;;;;;;;
 entity_0073;Sommerfeld;Sommerfeld;m;;;;;;;;Sommerfeld;;;;;;;;;;;;
 entity_0074;Alte Dienerin;Alte Dienerin;f;;;;;;;;Alte Dienerin;;;;;;;;;;;;
 entity_0075;herbeistürzende Herren 2;herbeistürzende Herren 2;m;;;;;;;;herbeistürzende Herren 2;;;;;;;;;;;;
-entity_0076;Hökerfrau;Hökerfrau;f;;;;;;;;Hökerfrau;;;;;;;;;;;;
+entity_0076;Hökerfrau;Hökerfrau;f;;;;;;;;Hökerfrau;;Hökerfrau;;;;;;;;;;
 entity_0077;Onkel der Tante des Amtsrichters;Onkel der Tante des Amtsrichters;m;;;;;;;;Onkel der Tante des Amtsrichters;;;;;;;;;;;;
 entity_0078;Karl Röben;Karl Röben;m;;;;;;;;Karl Röben;;;;;;;;;;;;
 entity_0079;Verkäuferin;Verkäuferin;f;;;;;;;;Verkäuferin;;;;;;;;;;;;
@@ -84,10 +83,9 @@ entity_0082;Großvater von Trudchen Baumhagen;Großvater von Trudchen Baumhagen;
 entity_0083;Blondine;Blondine;f;;;;nonfact;;;;Blondine;;;;;;;;;;;;
 entity_0084;herzogliche Familie A.;herzogliche Familie A.;u;;entity_0069, x;Adjutant, x;group;;;;herzogliche Familie A.;;;;;;;;;;;;
 entity_0085;Tante Luischen;Tante Luischen;f;;;;;;;;Tante Luischen;;;;;;;;;;;;
-entity_0086;Verwalter;Verwalter;m;;;;;;;;Verwalter;;;;;;;;;;;;
 entity_0087;alle Menschen;alle Menschen;mf;;x;x;generic, group;;;;alle Menschen;;Menschheit;;;;;;;;;;
 entity_0088;Frau;Frau;f;;;;generic;;;;Frau;;;;;;;;;;;;
-entity_0089;Frau von S.;Frau von S.;f;;;;;;;;Frau von S.;;;;;;;Frau von S,;;;;;
+entity_0089;Frau von S.;Frau von S.;f;;;;;;;;Frau von S.;;;;;;;Frau von S.;;;;;
 entity_0090;Vierter am Mittagstisch;Vierter am Mittagstisch;m;;;;;;;;Vierter am Mittagstisch;;;;;;;;;;;;
 entity_0091;misstrauische Menschen zu denen Franz gehört;misstrauische Menschen zu denen Franz gehört;u;;entity_0001, x;Franz Linden, x;group;;;;misstrauische Menschen zu denen Franz gehört;;;;;;;;;;;;
 entity_0092;Gäste des Damentees;Gäste des Damentees;f;;x;x;group;;;;Gäste des Damentees;;;;;;;;;;;;
@@ -126,7 +124,6 @@ entity_0124;Oberpredigerin;Oberpredigerin;f;;;;;;;;Oberpredigerin;;;;;;;;;;;;
 entity_0125;Menschen der guten Gesellschaft;Menschen der guten Gesellschaft;u;;;;;;;;Menschen der guten Gesellschaft;;;;;;;;;;;;
 entity_0126;Menschen mit Herz;Menschen mit Herz;u;;x;x;generic, group;;;;Menschen mit Herz;;;;;;;;;;;;
 entity_0127;Menschen um Trudchen;Menschen um Trudchen;u;;x;x;generic, group;;;;Menschen um Trudchen;;;;;;;;;;;;
-entity_0128;Oberprediger;Oberprediger;m;;;;;;;;Oberprediger;;;;;;;;;;;;
 entity_0129;Line;Line;f;;;;;;;;Line;;;;;;;;;;;;
 entity_0130;Leute;Leute;u;;x;x;group;;;;Leute;;;;;;;;;;;;
 entity_0131;Jäger;Jäger;m;;;;generic, nonfact;;;;Jäger;;;;;;;;;;;;
@@ -168,7 +165,6 @@ entity_0166;;junges Paar;mf;;x;x;generic, group ;;;;;junges Paar;;;;;;;;;;;
 entity_0167;;Sohn des Ehepaares;f;;;;;;;;;Sohn des Ehepaares;;;;;;;;;;;
 entity_0168;;Kutscher;m;;;;;;;;;;Kutscher;;;;;;;;;;
 entity_0169;;einen Menschen;u;;;;; ;;;;;einen Menschen;;;;;;;;;;
-entity_0170;;Hökerfrau;f;;;;;;;;;;Hökerfrau;;;;;;;;;;
 entity_0171;;Dienerschaft;u;;entity_0071, entity_0129, x;Sophie,Line,x;group; ;;;;;Dienerschaft;;;;;;;;;;
 entity_0172;;Konditor;m;;;;;;;;;;Konditor;;;;;;;;;;
 entity_0173;;Weihnachtsgesellschaft;u;;x;x;group; ;;;;;Weihnachtsgesellschaft;;;;;;;;;;
@@ -176,7 +172,7 @@ entity_0174;;Verwandtschaft Baumhagen;mf;;entity_0009, entity_0008, entity_0010,
 entity_0175;;Hammeln  ;f;;;;;;;;;;;Hammeln;;;;;;;;;
 entity_0176;;Sprachlehrer;m;;;;;;;;;;;Sprachlehrer;;;;;;;;;
 entity_0177;;Frau Lehrerin;f;;;;;;;;;;;Frau Lehrerin;;;;;;;;;
-entity_0178;;Männer;m;;;;;;;;;;;Männer;Männer;;;;;;;;
+entity_0178;;Männer;m;;;;;;;;;;;Männer;Männer;;Männer;;;;;;
 entity_0179;;Gustav Seyfried;m;;;;;;;;;;;Gustav Seyfried;;;;;;;;;
 entity_0180;;August Seemann;m;;;;;;;;;;;August Seemann;;;;;;;;;
 entity_0181;;Ältestes Kind der Lehrerfamilie;u;;;;;;;;;;;Ältestes Kind der Lehrerfamilie;;;;;;;;;
@@ -239,7 +235,7 @@ entity_0237;;Vater;m;;;;nonfact;;;;;;;;;;;Vater;;;;;
 entity_0238;;Baumhagenscher Kutscher;m;;;;;;;;;;;;;;;Baumhagenscher Kutscher;;Kutscher der Frau Baumhagen;;;
 entity_0239;;ehrbare deutsche Frauen;f; ;x;x;generic, group;;;;;;;;;;;ehrbare deutsche Frauen;;;;;
 entity_0240;;sich erkundigende Menschen;u;;x;x;generic, group;;;;;;;;;;;sich erkundigende Menschen;;;;;
-entity_0241;;Frauen;f;;x;x;generic, group;;;;;;;;;;;Frauen;Frauen;;;;
+entity_0241;;Frauen;f;;x;x;generic, group;;;;;;;;;;Frauen;Frauen;Frauen;;;;
 entity_0242;;Zigeunerin;f;;;;;;;;;;;;;;;Zigeunerin;;;;;
 entity_0243;;Dora;f;;;;;;;;;;;;;;;Dora;;;;;
 entity_0244;;mittelloser Referendar;m;;;;;;;;;;;;;;;mittelloser Referendar;;;;;
@@ -256,7 +252,7 @@ entity_0254;;Madame;f;;;;generic;;;;;;;;;;;Madame;;;;;
 entity_0255;;Landauer;m;;;;;;;;;;;;;;;Landauer;;;;;
 entity_0256;;Kutscher;m;;;;;;;;;;;;;;;Kutscher;;;;;
 entity_0257;;Kinder;u;;x;x;generic, group;;;;;;;;;;;Kinder;;;;;
-entity_0258;;Hausmädchen Niendorf;f;;x;x;group;;;;;;;;;;;Hausmädchen Niendorf;;;;;
+entity_0258;;Leute;u;;x;x;generic, group;;;;;;;;;;;;;Leute;;;
 entity_0259;;Herren;m;;;;;;;;;;;;;;;Herren;;;;;
 entity_0260;;Hausmann;m;;;;;;;;;;;;;;;Hausmann;;;;;
 entity_0261;;Fremde;u;;;;;;;;;;;;;;;Fremde;;;;;
@@ -284,7 +280,7 @@ entity_0282;;Dore;f;;;;;;;;;;;;;;;;Dore;Dore;;;Dore
 entity_0283;;Paul;m;;;;nonfact;;;;;;;;;;;;Paul;;;;
 entity_0284;;Virginie;f;;;;nonfact;;;;;;;;;;;;Virginie;;;;
 entity_0285;;andere Personen des Baumhagschen Anwesens;mf;;entity_0010, entity_0070, entity_0071;Familie Baumhagen, Karoline, Sophie;group;;;;;;;;;;;;andere Personen des Baumhagschen Anwesens;;;;
-entity_0286;;Herr Jesus;m;;;;nonfact;;;;;;;;;;;;Herr Jesus;;;;
+entity_0286;;Herr Jesus;m;;;;nonfact;;;;;;;;;;;;Herr Jesus;Herr Jesus;;;
 entity_0287;;Leute;u;;;;generic;;;;;;;;;;;;Leute;;;;
 entity_0288;;Kutscher Borrmann;m;;;;;;;;;;;;;;;;;;Kutscher Borrmann;Kutscher von Franz Linden;
 entity_0289;;Gärtnerkinder;u;;x;x;group;;;;;;;;;;;;;;Gärtnerkinder;Kinder der Gärtnerfrau;
@@ -305,7 +301,7 @@ entity_0303;;Ehemann der Tante Stadträtin;m;;;;;;;;;;;;;;;;;;;Ehemann der Tante
 entity_0304;;Kutscher;m;;;;;;;;;;;;;;;;;;;Kutscher;
 entity_0305;;Hausmädchen Lindens;f;;;;;;;;;;;;;;;;;;;Hausmädchen Lindens;
 entity_0306;;Herzog von P.;m;;;;;;;;;;;;;;;;;;;Herzog von P.;
-entity_0307;;Hausmädchen Niendorf;f;;entity_0305, x;Hausmädchen Lindens, x;group;;;;;;;;;;;;;;;Hausmädchen Niendorf;
+entity_0307;;Hausmädchen Niendorf;f;;entity_0305, x;Hausmädchen Lindens, x;group;;;;;;;;;;;Hausmädchen Niendorf;;;;Hausmädchen Niendorf;
 entity_0308;;Stadtrat Hanke;m;;;;;;;;;;;;;;;;;;;Stadtrat Hanke;
 entity_0309;;Stammtischler;m;;x;x;group;;;;;;;;;;;;;;;Stammtischler;
 entity_0310;;deutsche Frauen;f;;entity_0006, entity_0004, x;Jenny, Trudchen Baumhagen, x;generic, group;;;;;;;;;;;;;;;deutsche Frauen;

@@ -1876,8 +1876,8 @@ i	text	is_sent_start	is_para_start	is_section_start	tag	lemma	morph	gold
 1874	,	0	0	0	$,	,	PunctType=Comm	
 1875	gleich	0	0	0	ADV	gleich	_	
 1876	dem	0	0	0	ART	der	Case=Dat|Gender=Masc|Number=Sing|PronType=Art	
-1877	Elfen	0	0	0	NN	Elfen	Case=Dat|Gender=Masc|Number=Sing	(mention_id=177|references=(entity=(entity_id=entity_0925|fullname=Puck|gender=m)),(entity=(entity_id=generic_2330|fullname=Reicher|gender=u|specialcase_entity=generic)|specialcase_reference=figurative),(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)|specialcase_reference=figurative))
-1878	Puck	0	0	0	NE	Puck	Case=Nom|Gender=*|Number=Sing	(mention_id=177|references=(entity=(entity_id=entity_0925|fullname=Puck|gender=m)),(entity=(entity_id=generic_2330|fullname=Reicher|gender=u|specialcase_entity=generic)|specialcase_reference=figurative),(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)|specialcase_reference=figurative))
+1877	Elfen	0	0	0	NN	Elfen	Case=Dat|Gender=Masc|Number=Sing	(mention_id=177|references=(entity=(entity_id=entity_0925|fullname=Puck|gender=nb)),(entity=(entity_id=generic_2330|fullname=Reicher|gender=u|specialcase_entity=generic)|specialcase_reference=figurative),(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)|specialcase_reference=figurative))
+1878	Puck	0	0	0	NE	Puck	Case=Nom|Gender=*|Number=Sing	(mention_id=177|references=(entity=(entity_id=entity_0925|fullname=Puck|gender=nb)),(entity=(entity_id=generic_2330|fullname=Reicher|gender=u|specialcase_entity=generic)|specialcase_reference=figurative),(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)|specialcase_reference=figurative))
 1879	„	0	0	0	$(	„	PunctType=Brck	
 1880	schweifend	0	0	0	ADJD	schweifend	Degree=Pos|Variant=Short	
 1881	über	0	0	0	APPR	über	AdpType=Prep	
@@ -147066,7 +147066,7 @@ i	text	is_sent_start	is_para_start	is_section_start	tag	lemma	morph	gold
 147064	ereignen	0	0	0	VVINF	ereignen	VerbForm=Inf	
 147065	,	0	0	0	$,	,	PunctType=Comm	
 147066	Wie	0	0	0	PWAV	wie	ConjType=Comp|PronType=Int	
-147067	Puck	0	0	0	NE	Puck	Case=Nom|Gender=*|Number=Sing	(mention_id=17310|references=(entity=(entity_id=entity_0925|fullname=Puck|gender=m)))
+147067	Puck	0	0	0	NE	Puck	Case=Nom|Gender=*|Number=Sing	(mention_id=17310|references=(entity=(entity_id=entity_0925|fullname=Puck|gender=nb)))
 147068	und	0	0	0	KON	und	_	
 147069	Ariel	0	0	0	NE	Ariel	Case=Nom|Gender=*|Number=Sing	(mention_id=17311|references=(entity=(entity_id=entity_0911|fullname=Ariel|gender=f)))
 147070	gethan	0	0	0	NE	gethan	_	
@@ -147074,7 +147074,7 @@ i	text	is_sent_start	is_para_start	is_section_start	tag	lemma	morph	gold
 147072	Ich	1	0	0	PPER	ich	Case=Nom|Gender=*|Number=Sing|Person=1|PronType=Prs	(mention_id=17312|references=(entity=(entity_id=entity_0886|fullname=Sprechinstanz im Gedicht|gender=m)))
 147073	flog	0	0	0	VVFIN	fliegen	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	
 147074	wie	0	0	0	KOKOM	wie	ConjType=Comp	
-147075	sie	0	0	0	PPER	sie	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	(mention_id=17313|references=(entity=(entity_id=entity_0925|fullname=Puck|gender=m)),(entity=(entity_id=entity_0911|fullname=Ariel|gender=f)))
+147075	sie	0	0	0	PPER	sie	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	(mention_id=17313|references=(entity=(entity_id=entity_0925|fullname=Puck|gender=nb)),(entity=(entity_id=entity_0911|fullname=Ariel|gender=f)))
 147076	—	0	0	0	$.	-	PunctType=Peri	
 147077	doch	0	0	0	ADV	doch	_	
 147078	unter'm	0	0	0	APPRART	unter	AdpType=Prep|Case=Dat|Gender=Masc|Number=Sing|PronType=Art	
