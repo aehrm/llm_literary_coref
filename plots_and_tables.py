@@ -3,6 +3,7 @@ import collections
 import csv
 
 import numpy as np
+import warnings
 import pandas
 import json
 from pathlib import Path
@@ -48,27 +49,30 @@ plt.rcParams.update({
 
 #%%
 
+
 Path('/tmp/jcls_figures').mkdir(exist_ok=True)
+try:
+    ROOT_DIR = Path(__file__).parent
+except NameError:
+    ROOT_DIR = Path('.').parent
+
 
 #%%
 
 # load files
 
-try:
-    annotations_dir = Path(__file__).parent / "annotations"
-except NameError:
-    annotations_dir = Path('.') / "annotations"
 
+annotations_dir = ROOT_DIR / "annotations"
 document_files = (annotations_dir / "annotated_tsv").glob('*.tsv')
 
 documents = {}
 document_mentions = {}
 document_entities = {}
 for doc in document_files:
-    gold = pandas.read_csv(doc, sep='\t', index_col='i')['gold'].sort_index()
+    gold = pandas.read_csv(doc, sep='\t', index_col='i', keep_default_na=False)['gold'].sort_index()
     mentions = list(parse_mentions(gold))
 
-    df = pandas.read_csv(doc.parent.parent / "sources" / doc.name, sep='\t', index_col='i').sort_index()
+    df = pandas.read_csv(doc.parent.parent / "sources" / doc.name, sep='\t', index_col='i', keep_default_na=False, na_values="").sort_index()
     df['gold'] = gold
     documents[doc.stem] = df
     document_mentions[doc.stem] = mentions
@@ -77,7 +81,8 @@ for doc in document_files:
     for mention in mentions:
         for ref in mention.references:
             document_entities[doc.stem][ref.entity.id].append((mention, ref))
-            
+
+
 #%%
 
 ordering = list(documents.keys())
@@ -108,6 +113,7 @@ statistics = []
 for doc, df in sorted(documents.items(), key=lambda x: len(x[1])):
     statistics.append([doc, 'Num. tokens', len(df)])
     statistics.append([doc, 'Num. sentences', df['is_sent_start'].sum()])
+    statistics.append([doc, 'Num. sections', df['is_section_start'].sum()])
     statistics.append([doc, 'Num. mentions', len(document_mentions[doc])])
     statistics.append([doc, 'Num. references', sum(1 for mention in document_mentions[doc] for ref in mention.references)])
     statistics.append([doc, 'Num. entities', len(document_entities[doc])])
@@ -146,13 +152,35 @@ entity_statistics.append(['Num. singleton entities', sum(1 for entities in docum
 entity_statistics.append(['Num. non-generic singleton entities', sum(1 for entities in document_entities.values() for references in entities.values() if len(references) == 1 and 'generic' not in references[0][1].entity.specialcase_entity)])
 entity_statistics.append(['Num. generic entities', sum(1 for entities in document_entities.values() for references in entities.values() if 'generic' in references[0][1].entity.specialcase_entity)])
 entity_statistics.append(['Num. group entities', sum(1 for entities in document_entities.values() for references in entities.values() if 'group' in references[0][1].entity.specialcase_entity)])
+entity_statistics.append(['Num. group singleton entities', sum(1 for entities in document_entities.values() for references in entities.values() if len(references) == 1 and 'group' in references[0][1].entity.specialcase_entity)])
 entity_statistics.append(['Num. nonfact entities', sum(1 for entities in document_entities.values() for references in entities.values() if 'nonfact' in references[0][1].entity.specialcase_entity)])
+entity_statistics.append(['Num. nonfact singleton entities', sum(1 for entities in document_entities.values() for references in entities.values() if len(references) == 1 and 'nonfact' in references[0][1].entity.specialcase_entity)])
 
 df = pandas.DataFrame(entity_statistics, columns=['label', 'count']).set_index('label')
 df['average'] = df['count'] / len(documents)
 df['proportion'] = df['count'] / df['count'].iloc[0]
 
 print(df[['count', 'average', 'proportion']].to_string(na_rep=''))
+
+#%%
+
+gender_statistics = []
+for entities in document_entities.values():
+    for references in entities.values():
+        e = references[0][1].entity
+        gender_statistics.append((e.gender, 'generic' in e.specialcase_entity, 'group' in e.specialcase_entity, len(references)))
+
+gender_statistics = pandas.DataFrame(gender_statistics, columns=['gender', 'generic', 'group', 'num_references'])
+gender_statistics.loc[gender_statistics['gender'].apply(lambda x: 'o' in x or 'u' in x), 'gender'] = 'u'
+
+gender_by_entity = pandas.pivot_table(gender_statistics, index=['gender'], columns=['generic', 'group'], aggfunc=len)
+total_num = gender_by_entity.sum().sum()
+gender_by_entity.loc[:, 'Overall'] = gender_by_entity.sum(axis=1)
+
+gender_by_entity = pandas.concat({'count': gender_by_entity, 'percent': 100*gender_by_entity / total_num}, axis=1)
+gender_by_entity = gender_by_entity.reorder_levels([1,2,3,0], axis=1).sort_index(level=[1,2], axis=1)
+print(gender_by_entity.to_string())
+
 
 #%%
 
@@ -488,7 +516,7 @@ num_chapters = sum(doc_df['is_section_start'].sum() for doc_df in documents.valu
 scores = []
 with tqdm(total=num_chapters) as pbar:
     for doc, doc_df in documents.items():
-        source_df = pandas.read_csv(annotations_dir / "sources" / (doc + '.tsv'), sep='\t')
+        source_df = pandas.read_csv(annotations_dir / "sources" / (doc + '.tsv'), sep='\t', keep_default_na=False)
         pre_annotations = source_df['llm_pre_annotation']
         chap_ids = source_df['is_section_start'].cumsum()
         for chap_id, chap in doc_df.groupby(chap_ids):
@@ -526,3 +554,114 @@ print(aggregated_scores_df)
 
 aggregated_scores_df = aggregated_scores_df.loc[['mentions', 'muc', 'bcub', 'ceafe', 'conll', 'ceafm', 'lea'], (['precision', 'recall', 'f1'])]
 print(aggregated_scores_df.to_string(na_rep='--', float_format=lambda x: f"{x*100:.2f}"))
+
+
+#%%
+
+# DROC Performance + IAA
+model_output_dir = ROOT_DIR / "outputs"
+
+models = ['google--gemini-2.5-flash-lite', 'google--gemini-2.5-flash']
+
+droc_model_scores = {}
+
+scores = []
+for model in models:
+    all_docs = list((model_output_dir / "droc_test_set" / model).glob("*.tsv"))
+
+    for doc in all_docs:
+        if 'RATER1' in doc.name:
+            other_doc = doc.parent / doc.name.replace('RATER1', 'RATER2')
+        else:
+            other_doc = doc.parent / doc.name.replace('RATER2', 'RATER1')
+        doc_df = pandas.read_csv(doc, sep='\t', keep_default_na=False)
+        other_doc_df = pandas.read_csv(other_doc, sep='\t', keep_default_na=False)
+        gold_mentions = list(parse_mentions(other_doc_df['gold']))
+        pred_mentions = list(parse_mentions(doc_df['pred']))
+
+        evaluator = Evaluator()
+        evaluator.add_document(key_mentions=gold_mentions, sys_mentions=pred_mentions)
+        report = evaluator.report(as_dict=True)
+        scores.append((model, doc.name, report['clusters_all']))
+
+#%%
+
+# human vs human
+all_docs = list((ROOT_DIR / "droc_test_set").glob("*.tsv"))
+for doc in all_docs:
+    if 'RATER1' in doc.name:
+        other_doc = doc.parent / doc.name.replace('RATER1', 'RATER2')
+    else:
+        continue
+    doc_df = pandas.read_csv(doc, sep='\t', keep_default_na=False)
+    other_doc_df = pandas.read_csv(other_doc, sep='\t', keep_default_na=False)
+
+    gold_mentions = list(parse_mentions(doc_df['gold']))
+    pred_mentions = list(parse_mentions(other_doc_df['gold']))
+
+    evaluator = Evaluator()
+    evaluator.add_document(key_mentions=gold_mentions, sys_mentions=pred_mentions)
+    report = evaluator.report(as_dict=True)
+    scores.append(('iaa', doc.name, report['clusters_all']))
+
+#%%
+
+scores_df = pandas.DataFrame(
+    index=pandas.MultiIndex.from_tuples([x[:2] for x in scores], names=['model', 'doc']),
+    columns=pandas.MultiIndex.from_product([['mentions', 'muc', 'bcub', 'ceafe', 'conll', 'ceafm', 'lea'], ['precision', 'recall', 'f1']]))
+
+for model, doc, report in scores:
+    for (metric, t) in scores_df.columns:
+        if metric == 'conll': continue
+        if t != 'f1' and model == 'iaa': continue
+        scores_df.loc[(model, doc), (metric, t)] = report[metric]['doc'][t]
+
+    scores_df.loc[(model, doc), ('conll', 'f1')] = np.mean([report[m]['doc']['f1'] for m in ['muc', 'bcub', 'ceafe']])
+
+#%%
+
+def lower_quartile(x): return (x.quantile(0.25) - x.median()) if len(x) > 0 else np.nan
+def upper_quartile(x): return (x.quantile(0.75) - x.median()) if len(x) > 0 else np.nan
+
+with warnings.catch_warnings():
+    warnings.simplefilter("ignore", category=RuntimeWarning)
+    aggregated_scores_df = scores_df.reset_index().groupby('model').apply(lambda x: x.drop('doc', axis=1).agg(['median', lower_quartile, upper_quartile]))
+
+aggregated_scores_df = aggregated_scores_df.unstack().loc[:, (['muc', 'bcub', 'ceafe', 'conll', 'ceafm', 'lea'], 'f1')]
+print(aggregated_scores_df.to_string(na_rep='--', float_format=lambda x: f"{x*100:.2f}"))
+
+#%%
+
+boxplot_kwargs = dict(patch_artist=True, boxprops=dict(fc='black', edgecolor='black'), widths=.07,
+                      medianprops=dict(solid_capstyle='projecting', color='white'), showcaps=False,
+                      flierprops=dict(markersize=4, markeredgewidth=.6))
+
+metrics = ['conll', 'lea']
+metric_labels = {'conll': "CoNNL", 'lea': "LEA"}
+models = ['google--gemini-2.5-flash-lite', 'google--gemini-2.5-flash', 'iaa']
+model_labels = {'google--gemini-2.5-flash-lite': "gemini-2.5-flash-lite",
+                'google--gemini-2.5-flash': "gemini-2.5-flash",
+                'iaa': "Human vs. Human"}
+
+maverick_baseline_scores = pandas.Series({
+    'conll': .7375,
+    'lea': .6777,
+})
+
+
+fig, axs = plt.subplots(nrows=len(metrics), figsize=(4, 3.0), dpi=300)
+for ax, metric in zip(axs, metrics):
+    ticks = np.arange(len(models))
+    X = [100*scores_df.loc[m, (metric, 'f1')].values for m in models]
+    ax.boxplot(X, positions=ticks, **boxplot_kwargs, orientation='horizontal')
+
+    ax.axvline(np.median(X[-1]), ls='--', color='black')
+    ax.axvline(100*maverick_baseline_scores.loc[metric], ls='--', color=plt.rcParams['axes.prop_cycle'].by_key()['color'][3])
+    ax.yaxis.set_inverted(True)
+    ax.set_xlabel(metric_labels[metric])
+    ax.set_yticks(ticks, [model_labels[m] for m in models])
+
+plt.tight_layout(h_pad=3)
+plt.savefig('/tmp/jcls_figures/droc_performance.pdf')
+plt.show()
+
