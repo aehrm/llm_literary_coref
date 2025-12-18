@@ -276,6 +276,7 @@ class Evaluator:
 
     def _update_cluster_metrics(self, key_mentions: List[Mention], sys_mentions: List[Mention],
                                 variant: Literal["all", "replaceplural", "nogeneric", "nosingletons"], doc_id: str = "doc"):
+        print(f"running cluster metrics for {variant=}...")
         if variant == "replaceplural":
             filter_key = set()
             filter_response = set()
@@ -313,6 +314,7 @@ class Evaluator:
     def _update_entity_attribute_metrics(self, key_mentions: List[Mention], sys_mentions: List[Mention],
                                          entity_filter: Literal["all", "nogroup", "nogroupnosingletons"],
                                          restrict_to_matches=False, doc_id: str = "doc"):
+        print(f"running entity metrics for {entity_filter=}, {restrict_to_matches=}...")
         key_clusters = mentions_to_clusters(key_mentions, doc_id)
         sys_clusters = mentions_to_clusters(sys_mentions, doc_id)
 
@@ -355,6 +357,7 @@ class Evaluator:
             self.scorers[scorer_key][name].update(res, doc_id)
 
     def _update_mention_attribute_metrics(self, key_mentions: List[Mention], sys_mentions: List[Mention], doc_id: str = "doc"):
+        print(f"running mention metrics...")
         key_spans = {(m.token_idx[0], m.token_idx[-1]): m.references for m in key_mentions}
         sys_spans = {(m.token_idx[0], m.token_idx[-1]): m.references for m in sys_mentions}
 
