@@ -1,4 +1,5 @@
 import argparse
+import itertools
 import json
 import re
 import sys
@@ -74,15 +75,15 @@ def merge_section(input_files: List[Path], annotator: LLMRunner, prompt_class: T
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Run LLM-based annotation on TSV text sections.")
+    parser = argparse.ArgumentParser(description="Run LLM-based annotation on TSV text sections. Groups input files according to their name")
     parser.add_argument('--input_files', type=Path, nargs='+', required=True, help='List of input TSV files to process.' )
-    parser.add_argument('--output_file', type=Path, required=True, help='Output TSV file.' )
+    parser.add_argument('--output_dir', type=Path, required=True, help='Output directory for merged TSV files.' )
     parser.add_argument('--model', type=str, required=True, help='LLM Model string (e.g., "openai/gpt-4-turbo", "anthropic/claude-3-opus").')
     parser.add_argument('--prompt_type', type=str, default="default", help=f'Key for the prompt class to use. Options: {list(PROMPT_REGISTRY.keys())}' )
     parser.add_argument('-X', '--generation_args', type=str, required=False, action='append', help='Generation arguments.')
     args = parser.parse_args()
 
-    args.output_file.parent.mkdir(parents=True, exist_ok=True)
+    args.output_dir.mkdir(parents=True, exist_ok=True)
 
     if args.generation_args and len(args.generation_args) > 0:
         gen_args = OmegaConf.from_dotlist(args.generation_args)
@@ -112,7 +113,11 @@ def main():
         request_args=OmegaConf.to_container(gen_args, resolve=True)
     )
 
-    merge_section(args.input_files, annotator, prompt_class, args.output_file)
+    tsv_files: List[Path] = [f for f in args.input_files if f.name.endswith('.tsv')]
+    keyfn = lambda x: re.sub(r'_section_[0-9]+\.tsv', '', x.name)
+    for document_name, section_files in itertools.groupby(sorted(tsv_files, key=keyfn), key=keyfn):
+        output_file = args.output_dir / f"{document_name}.tsv"
+        merge_section(list(section_files), annotator, prompt_class, output_file)
 
 
 if __name__ == "__main__":

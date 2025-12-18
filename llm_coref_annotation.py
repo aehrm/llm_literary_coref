@@ -42,23 +42,22 @@ def annotate_section(section_path: Path, annotator: LLMRunner, prompt_class: Typ
 
     if not mention_spans:
         res = None
+        decoded_mentions = []
     else:
         prompt = prompt_class(tokens, mention_spans)
         res = annotator.run(prompt)
 
-    # output res as debug output
-    if res:
+        # output res as debug output
         debug_filename = output_dir / f"{section_path.stem}.json"
         with open(debug_filename, 'w', encoding='utf-8') as f:
             json.dump(res, f, indent=2, cls=JSONEncoder)
         print(f"Saved debug output to {debug_filename}")
 
-    if res.exception:
-        print(f"Annotator failed for {section_path.name}: {res.exception}")
-        sys.exit(1)
+        if res.exception:
+            print(f"Annotator failed for {section_path.name}: {res.exception}")
+            sys.exit(1)
 
-
-    decoded_mentions = res.output
+        decoded_mentions = res.output
 
     output_df = section_df.copy().drop('mention', axis='columns')
     output_df['pred'] = ''
