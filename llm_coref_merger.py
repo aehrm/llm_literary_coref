@@ -59,7 +59,7 @@ def merge_section(input_files: List[Path], annotator: LLMRunner, prompt_class: T
 
 
     decoded_mentions = res.output
-    output_df = document_df.copy().drop('is_section_start', axis='columns')
+    output_df = document_df.copy()
     output_df['pred'] = ''
 
     for mention in decoded_mentions:
