@@ -185,6 +185,7 @@ class Evaluator:
                 k: Scorer() for k in MENTION_ATTRIBUTES.keys()
             }
         }
+        self.seen_documents = []
 
     def report(self, as_dict=False, print_individual_doc_scores=False, print_support: Optional[Literal["all", "key", "response"]] = None) -> dict | str:
         if as_dict:
@@ -270,6 +271,7 @@ class Evaluator:
                 self._update_entity_attribute_metrics(key_mentions, sys_mentions, variant, restrict_to_matches=restrict_matches, doc_id=doc_id)
 
         self._update_mention_attribute_metrics(key_mentions, sys_mentions, doc_id)
+        self.seen_documents.append(doc_id)
 
 
     def _update_cluster_metrics(self, key_mentions: List[Mention], sys_mentions: List[Mention],
@@ -337,13 +339,13 @@ class Evaluator:
         key_entities = {k: e for k, e in key_entities.items() if not key_filter(k) and (not restrict_to_matches or k in entity_mapping.keys())}
         sys_entities = {k: e for k, e in sys_entities.items() if not sys_filter(k) and (not restrict_to_matches or k in inverse_entity_mapping.keys())}
 
-        print(f"---- {entity_filter}, {restrict_to_matches=} ----")
-        for k in key_entities.keys() & entity_mapping.keys():
-            print(f"{key_entities[k].fullname:<30} {key_entities[k].gender}  ->  {sys_entities[entity_mapping[k]].gender} {sys_entities[entity_mapping[k]].fullname}")
-        for k in key_entities.keys() - entity_mapping.keys():
-            print(f"{key_entities[k].fullname:<30} {key_entities[k].gender}  ->  None")
-        for r in sys_entities.keys() - inverse_entity_mapping.keys():
-            print(f"{"None":<30}    ->  {sys_entities[r].gender} {sys_entities[r].fullname}")
+        # print(f"---- {entity_filter}, {restrict_to_matches=} ----")
+        # for k in key_entities.keys() & entity_mapping.keys():
+        #     print(f"{key_entities[k].fullname:<30} {key_entities[k].gender}  ->  {sys_entities[entity_mapping[k]].gender} {sys_entities[entity_mapping[k]].fullname}")
+        # for k in key_entities.keys() - entity_mapping.keys():
+        #     print(f"{key_entities[k].fullname:<30} {key_entities[k].gender}  ->  None")
+        # for r in sys_entities.keys() - inverse_entity_mapping.keys():
+        #     print(f"{"None":<30}    ->  {sys_entities[r].gender} {sys_entities[r].fullname}")
 
         restrictkey = "restrictonmatch" if restrict_to_matches else "unrestricted"
         scorer_key = f'entity_attributes_{entity_filter}_{restrictkey}'
