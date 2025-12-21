@@ -103,8 +103,8 @@
     <custom2:Mention xmi:id="1403" sofa="1" begin="3389" end="3391" ID="Christoph Armbruster"/>
     <custom2:Mention xmi:id="1418" sofa="1" begin="3392" end="3395" ID="Madlen"/>
     <custom2:Mention xmi:id="1433" sofa="1" begin="3400" end="3406" ID="Christoph Armbruster"/>
-    <custom2:Mention xmi:id="1448" sofa="1" begin="3414" end="3418" ID="Madlen|Madlen"/>
-    <custom2:Mention xmi:id="1463" sofa="1" begin="3419" end="3422" ID="Madlen|Madlen"/>
+    <custom2:Mention xmi:id="1448" sofa="1" begin="3414" end="3418" ID="Madlen"/>
+    <custom2:Mention xmi:id="1463" sofa="1" begin="3419" end="3422" ID="Madlen"/>
     <custom2:Mention xmi:id="1478" sofa="1" begin="3455" end="3458" ID="Madlen"/>
     <custom2:Mention xmi:id="1493" sofa="1" begin="3463" end="3466" ID="Christoph Armbruster"/>
     <custom2:Mention xmi:id="1508" sofa="1" begin="3482" end="3484" ID="Christoph Armbruster"/>
@@ -294,8 +294,8 @@
         <specialcase_mention>generic</specialcase_mention>
     </custom2:Mention>
     <custom2:Mention xmi:id="3743" sofa="1" begin="7272" end="7278" ID="Madlen"/>
-    <custom2:Mention xmi:id="3758" sofa="1" begin="7279" end="7284" ID="Christoph Armbruster|Madlen"/>
-    <custom2:Mention xmi:id="3773" sofa="1" begin="7285" end="7294" ID="Christoph Armbruster|Christoph Armbruster"/>
+    <custom2:Mention xmi:id="3758" sofa="1" begin="7279" end="7284" ID="Madlen"/>
+    <custom2:Mention xmi:id="3773" sofa="1" begin="7285" end="7294" ID="Christoph Armbruster"/>
     <custom2:Mention xmi:id="3788" sofa="1" begin="7377" end="7379" ID="Christoph Armbruster"/>
     <custom2:Mention xmi:id="3803" sofa="1" begin="7385" end="7396" ID="Christoph Armbruster"/>
     <custom2:Mention xmi:id="3818" sofa="1" begin="7398" end="7401" ID="Christoph Armbruster"/>

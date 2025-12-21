@@ -102,8 +102,9 @@ def read_entity_table(entity_table: pandas.DataFrame) -> Dict[int, Dict[str, Ent
         chapter_rows = natsorted([x for x in row.index if '_chapter_' in x])
         for chap_row in chapter_rows:
             if not pandas.isna(row[chap_row]):
+                entity_label = row[chap_row].strip()
                 chap_id = re.search(r'_chapter_(.*)$', chap_row).group(1)
-                entity_label_map[chap_id][row[chap_row]] = e
+                entity_label_map[chap_id][entity_label] = e
 
     return entity_label_map
 
@@ -147,7 +148,7 @@ def gather_entities(xmi: Element) -> Dict[str, Entity]:
     i = 0
 
     # handle entities with ID; entities without ID are converted to singletons in the method `extract_references`
-    keyfn = lambda x: x.get('ID', '')
+    keyfn = lambda x: x.get('ID', '').strip()
     for entity_id, annotations in itertools.groupby(sorted(mention_annotations, key=keyfn), keyfn):
         if entity_id == '':
             continue
@@ -231,6 +232,8 @@ def extract_references(xmi: Element, entity_label_map: Dict[str, Entity], generi
                 print(
                     f'warn: non-generic mention has no ID (start: {mention_start}, mention: {xmi_text[mention_start:mention_end]!r})')
                 continue
+
+            mention_label = mention_label.strip()
 
             if mention_label not in entity_label_map.keys():
                 # print(f'warn: non-generic mention with label {mention_label!r} (start: {mention_start}, mention: {xmi_text[mention_start:mention_end]!r}) not found in entity table')

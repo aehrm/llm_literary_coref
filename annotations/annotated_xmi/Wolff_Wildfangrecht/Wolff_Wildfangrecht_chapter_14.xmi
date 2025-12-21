@@ -5,8 +5,8 @@
     <custom2:Mention xmi:id="38" sofa="1" begin="77" end="83" ID="Hammichel"/>
     <custom2:Mention xmi:id="53" sofa="1" begin="99" end="101" ID="Hammichel"/>
     <custom2:Mention xmi:id="68" sofa="1" begin="102" end="106" ID="Hammichel"/>
-    <custom2:Mention xmi:id="83" sofa="1" begin="129" end="135" ID="Freund von Hammichel"/>
-    <custom2:Mention xmi:id="98" sofa="1" begin="140" end="145" ID="Feind von Hammichel"/>
+    <custom2:Mention xmi:id="83" sofa="1" begin="129" end="135" ID="Freunde von Hammichel"/>
+    <custom2:Mention xmi:id="98" sofa="1" begin="140" end="145" ID="Feinde von Hammichel"/>
     <custom2:Mention xmi:id="113" sofa="1" begin="169" end="175" ID="Hammichel"/>
     <custom2:Mention xmi:id="45616" sofa="1" begin="208" end="213">
         <specialcase_mention>generic</specialcase_mention>
@@ -394,7 +394,7 @@
     <custom2:Mention xmi:id="5363" sofa="1" begin="11647" end="11655" ID="Jakobine Steinecker"/>
     <custom2:Mention xmi:id="5378" sofa="1" begin="11687" end="11696" ID="Hammichel"/>
     <custom2:Mention xmi:id="5393" sofa="1" begin="11709" end="11712" ID="Hammichel"/>
-    <custom2:Mention xmi:id="5408" sofa="1" begin="11720" end="11725" ID="Reichsfreiherr"/>
+    <custom2:Mention xmi:id="5408" sofa="1" begin="11720" end="11725" ID="Dieter von Remchingen"/>
     <custom2:Mention xmi:id="5423" sofa="1" begin="11720" end="11725" ID="Junker Ulrich"/>
     <custom2:Mention xmi:id="5438" sofa="1" begin="11744" end="11746" ID="Jakobine Steinecker"/>
     <custom2:Mention xmi:id="5453" sofa="1" begin="11759" end="11770" ID="Jakobine Steinecker"/>
@@ -528,7 +528,7 @@
     <custom:Speech_dir xmi:id="6902" sofa="1" begin="9335" end="9705" level="0" speaker="Hammichel"/>
     <custom:Speech_dir xmi:id="7292" sofa="1" begin="9777" end="10181" level="0" speaker="Hammichel"/>
     <custom:Speech_dir xmi:id="7316" sofa="1" begin="10182" end="10198" level="0" speaker="Jakobine Steinecker"/>
-    <custom:Speech_dir xmi:id="6926" sofa="1" begin="10259" end="10348" level="0" speaker="x"/>
+    <custom:Speech_dir xmi:id="6926" sofa="1" begin="10259" end="10348" level="0" speaker="Hammichel"/>
     <custom:Speech_dir xmi:id="7328" sofa="1" begin="10349" end="10461" level="0" speaker="Jakobine Steinecker"/>
     <custom:Speech_dir xmi:id="6860" sofa="1" begin="10508" end="10550" level="0" speaker="Hammichel"/>
     <custom:Speech_dir xmi:id="7352" sofa="1" begin="10568" end="10644" level="0" speaker="Hammichel"/>

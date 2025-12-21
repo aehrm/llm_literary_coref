@@ -37,13 +37,13 @@
     <custom2:Mention xmi:id="443" sofa="1" begin="1546" end="1552" ID="Frau Gersbacher"/>
     <custom2:Mention xmi:id="458" sofa="1" begin="1557" end="1566" ID="Jakobine Steinecker"/>
     <custom2:Mention xmi:id="473" sofa="1" begin="1594" end="1605" ID="Familie Armbruster"/>
-    <custom2:Mention xmi:id="76835" sofa="1" begin="1606" end="1611" ID="Trudi"/>
+    <custom2:Mention xmi:id="76835" sofa="1" begin="1606" end="1611" ID="Trudi Armbruster"/>
     <custom2:Mention xmi:id="488" sofa="1" begin="1710" end="1715" ID="Steinecker"/>
     <custom2:Mention xmi:id="503" sofa="1" begin="1710" end="1715" ID="Frau Steinecker"/>
     <custom2:Mention xmi:id="518" sofa="1" begin="1787" end="1798" ID="Florian Gersbacher"/>
     <custom2:Mention xmi:id="533" sofa="1" begin="1822" end="1824" ID="Florian Gersbacher"/>
-    <custom2:Mention xmi:id="548" sofa="1" begin="1829" end="1834" ID="Steinecker|Steinecker"/>
-    <custom2:Mention xmi:id="563" sofa="1" begin="1835" end="1845" ID="Jakobine Steinecker|Steinecker"/>
+    <custom2:Mention xmi:id="548" sofa="1" begin="1829" end="1834" ID="Steinecker"/>
+    <custom2:Mention xmi:id="563" sofa="1" begin="1835" end="1845" ID="Jakobine Steinecker"/>
     <custom2:Mention xmi:id="578" sofa="1" begin="1974" end="1979" ID="Gäste"/>
     <custom2:Mention xmi:id="593" sofa="1" begin="1980" end="1983" ID="Steinecker"/>
     <custom2:Mention xmi:id="608" sofa="1" begin="2015" end="2017" ID="Steinecker"/>
@@ -71,7 +71,7 @@
     <custom2:Mention xmi:id="938" sofa="1" begin="2668" end="2671" ID="Franz Gersbacher"/>
     <custom2:Mention xmi:id="953" sofa="1" begin="2693" end="2696" ID="Franz Gersbacher"/>
     <custom2:Mention xmi:id="76868" sofa="1" begin="2701" end="2712" ID="Familie Armbruster"/>
-    <custom2:Mention xmi:id="968" sofa="1" begin="2717" end="2721" ID="Armbrusters"/>
+    <custom2:Mention xmi:id="968" sofa="1" begin="2717" end="2721" ID="Familie Armbruster"/>
     <custom2:Mention xmi:id="76883" sofa="1" begin="2745" end="2751" ID="Trudi Armbruster"/>
     <custom2:Mention xmi:id="983" sofa="1" begin="2786" end="2797" ID="Jakobine Steinecker"/>
     <custom2:Mention xmi:id="998" sofa="1" begin="2804" end="2807" ID="Jakobine Steinecker"/>
@@ -754,7 +754,7 @@
     <custom2:Mention xmi:id="10583" sofa="1" begin="22010" end="22019" ID="Christoph Armbruster"/>
     <custom2:Mention xmi:id="10598" sofa="1" begin="22048" end="22051" ID="Christoph Armbruster"/>
     <custom2:Mention xmi:id="10613" sofa="1" begin="22052" end="22055" ID="Dietrich von Remchingen"/>
-    <custom2:Mention xmi:id="10628" sofa="1" begin="22078" end="22101" ID="Dietrich von Remchingen|Dietrich von Remchingen"/>
+    <custom2:Mention xmi:id="10628" sofa="1" begin="22078" end="22101" ID="Dietrich von Remchingen"/>
     <custom2:Mention xmi:id="10643" sofa="1" begin="22114" end="22120" ID="Christoph Armbruster"/>
     <custom2:Mention xmi:id="10658" sofa="1" begin="22141" end="22147" ID="Christoph Armbruster"/>
     <custom2:Mention xmi:id="10673" sofa="1" begin="22148" end="22153" ID="Trudi Armbruster"/>
@@ -946,7 +946,7 @@
     <custom:Speech_dir xmi:id="12377" sofa="1" begin="20550" end="20584" level="0" speaker="Christoph Armbruster"/>
     <custom:Speech_dir xmi:id="12653" sofa="1" begin="20585" end="20635" level="0" speaker="Dietrich von Remchingen"/>
     <custom:Speech_dir xmi:id="12383" sofa="1" begin="20663" end="20879" level="0" speaker="Dietrich von Remchingen"/>
-    <custom:Speech_dir xmi:id="12659" sofa="1" begin="20880" end="20991" level="0" speaker="x"/>
+    <custom:Speech_dir xmi:id="12659" sofa="1" begin="20880" end="20991" level="0" speaker="Christoph Armbruster"/>
     <custom:Speech_dir xmi:id="12803" sofa="1" begin="21042" end="21080" level="0" speaker="Dietrich von Remchingen"/>
     <custom:Speech_dir xmi:id="12083" sofa="1" begin="21101" end="21225" level="0" speaker="Dietrich von Remchingen"/>
     <custom:Speech_dir xmi:id="12527" sofa="1" begin="21226" end="21290" level="0" speaker="Christoph Armbruster"/>

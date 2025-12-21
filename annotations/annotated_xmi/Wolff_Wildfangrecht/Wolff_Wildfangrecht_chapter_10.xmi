@@ -14,7 +14,7 @@
     <custom2:Mention xmi:id="173" sofa="1" begin="450" end="453" ID="Jakobine"/>
     <custom2:Mention xmi:id="188" sofa="1" begin="458" end="461" ID="Hammichel"/>
     <custom2:Mention xmi:id="203" sofa="1" begin="477" end="481" ID="Hammichel"/>
-    <custom2:Mention xmi:id="218" sofa="1" begin="717" end="728" ID="Jakobine|Jakobine"/>
+    <custom2:Mention xmi:id="218" sofa="1" begin="717" end="728" ID="Jakobine"/>
     <custom2:Mention xmi:id="233" sofa="1" begin="768" end="772" ID="Franz"/>
     <custom2:Mention xmi:id="248" sofa="1" begin="783" end="794" ID="Franz"/>
     <custom2:Mention xmi:id="263" sofa="1" begin="851" end="854" ID="Jakobine"/>
@@ -290,7 +290,7 @@
     <custom2:Mention xmi:id="4178" sofa="1" begin="10002" end="10007" ID="Kaspar"/>
     <custom2:Mention xmi:id="4193" sofa="1" begin="10008" end="10011" ID="Jakobine"/>
     <custom2:Mention xmi:id="4208" sofa="1" begin="10028" end="10033" ID="Hammichel"/>
-    <custom2:Mention xmi:id="4223" sofa="1" begin="10063" end="10074" ID="Familie Armbruster"/>
+    <custom2:Mention xmi:id="4223" sofa="1" begin="10063" end="10074" ID="Christoph Armbrusters Familie"/>
     <custom2:Mention xmi:id="4238" sofa="1" begin="10080" end="10091" ID="Familie Gersbacher"/>
     <custom2:Mention xmi:id="4253" sofa="1" begin="10110" end="10113" ID="Jakobine"/>
     <custom2:Mention xmi:id="4268" sofa="1" begin="10130" end="10135" ID="Jakobine"/>
@@ -317,18 +317,18 @@
     <custom2:Mention xmi:id="4583" sofa="1" begin="10777" end="10781" ID="Franz"/>
     <custom2:Mention xmi:id="4598" sofa="1" begin="10789" end="10791" ID="Franz"/>
     <custom2:Mention xmi:id="4613" sofa="1" begin="10828" end="10834" ID="Franz"/>
-    <custom2:Mention xmi:id="4628" sofa="1" begin="10835" end="10841" ID="Franz' Vater"/>
+    <custom2:Mention xmi:id="4628" sofa="1" begin="10835" end="10841" ID="Florian Gersbacher"/>
     <custom2:Mention xmi:id="4643" sofa="1" begin="10999" end="11009" ID="Jakobine"/>
     <custom2:Mention xmi:id="4658" sofa="1" begin="11025" end="11030" ID="Franz"/>
-    <custom2:Mention xmi:id="4673" sofa="1" begin="11025" end="11030" ID="Franz' Vater"/>
+    <custom2:Mention xmi:id="4673" sofa="1" begin="11025" end="11030" ID="Florian Gersbacher"/>
     <custom2:Mention xmi:id="4688" sofa="1" begin="11061" end="11064" ID="Franz"/>
-    <custom2:Mention xmi:id="4703" sofa="1" begin="11061" end="11064" ID="Franz' Vater"/>
+    <custom2:Mention xmi:id="4703" sofa="1" begin="11061" end="11064" ID="Florian Gersbacher"/>
     <custom2:Mention xmi:id="4718" sofa="1" begin="11065" end="11070" ID="Franz"/>
-    <custom2:Mention xmi:id="4733" sofa="1" begin="11065" end="11070" ID="Franz' Vater"/>
+    <custom2:Mention xmi:id="4733" sofa="1" begin="11065" end="11070" ID="Florian Gersbacher"/>
     <custom2:Mention xmi:id="4748" sofa="1" begin="11119" end="11123" ID="Franz"/>
-    <custom2:Mention xmi:id="4763" sofa="1" begin="11119" end="11123" ID="Franz' Vater"/>
+    <custom2:Mention xmi:id="4763" sofa="1" begin="11119" end="11123" ID="Florian Gersbacher"/>
     <custom2:Mention xmi:id="4778" sofa="1" begin="11221" end="11226" ID="Franz"/>
-    <custom2:Mention xmi:id="4793" sofa="1" begin="11221" end="11226" ID="Franz' Vater"/>
+    <custom2:Mention xmi:id="4793" sofa="1" begin="11221" end="11226" ID="Florian Gersbacher"/>
     <custom2:Mention xmi:id="4808" sofa="1" begin="11244" end="11249" ID="Franz"/>
     <custom2:Mention xmi:id="4823" sofa="1" begin="11272" end="11274" ID="Franz"/>
     <custom2:Mention xmi:id="4838" sofa="1" begin="11278" end="11284" ID="Franz"/>
@@ -336,10 +336,10 @@
     <custom2:Mention xmi:id="4868" sofa="1" begin="11339" end="11341" ID="Franz"/>
     <custom2:Mention xmi:id="4883" sofa="1" begin="11355" end="11360" ID="Franz"/>
     <custom2:Mention xmi:id="4898" sofa="1" begin="11361" end="11367" ID="Franz' Mutter"/>
-    <custom2:Mention xmi:id="4913" sofa="1" begin="11400" end="11405" ID="Franz' Vater"/>
+    <custom2:Mention xmi:id="4913" sofa="1" begin="11400" end="11405" ID="Florian Gersbacher"/>
     <custom2:Mention xmi:id="4928" sofa="1" begin="11503" end="11505" ID="Franz"/>
-    <custom2:Mention xmi:id="4943" sofa="1" begin="11546" end="11552" ID="Franz' Vater"/>
-    <custom2:Mention xmi:id="4958" sofa="1" begin="11582" end="11597" ID="Franz' Vater"/>
+    <custom2:Mention xmi:id="4943" sofa="1" begin="11546" end="11552" ID="Florian Gersbacher"/>
+    <custom2:Mention xmi:id="4958" sofa="1" begin="11582" end="11597" ID="Florian Gersbacher"/>
     <custom2:Mention xmi:id="4973" sofa="1" begin="11608" end="11610" ID="Franz"/>
     <custom2:Mention xmi:id="4988" sofa="1" begin="11611" end="11615" ID="Franz"/>
     <custom2:Mention xmi:id="5003" sofa="1" begin="11652" end="11658" ID="Franz' Mutter"/>
@@ -400,8 +400,8 @@
     <custom2:Mention xmi:id="5798" sofa="1" begin="13354" end="13358" ID="Franz"/>
     <custom2:Mention xmi:id="5813" sofa="1" begin="13406" end="13409" ID="Franz"/>
     <custom2:Mention xmi:id="5828" sofa="1" begin="13431" end="13437" ID="Franz"/>
-    <custom2:Mention xmi:id="5843" sofa="1" begin="13438" end="13444" ID="Franz' Vater"/>
-    <custom2:Mention xmi:id="5858" sofa="1" begin="13483" end="13488" ID="Franz' Vater"/>
+    <custom2:Mention xmi:id="5843" sofa="1" begin="13438" end="13444" ID="Florian Gersbacher"/>
+    <custom2:Mention xmi:id="5858" sofa="1" begin="13483" end="13488" ID="Florian Gersbacher"/>
     <custom2:Mention xmi:id="5873" sofa="1" begin="13527" end="13529" ID="Franz"/>
     <custom2:Mention xmi:id="5888" sofa="1" begin="13630" end="13636" ID="Franz"/>
     <custom2:Mention xmi:id="5903" sofa="1" begin="13651" end="13658" ID="Junker Ulrich von Remchingen"/>
@@ -565,7 +565,7 @@
     <custom2:Speech_rep xmi:id="7793" sofa="1" begin="10395" end="10472" level="0" speaker="Jakobine,Hammichel"/>
     <custom2:Speech_rep xmi:id="49949" sofa="1" begin="10548" end="10586" level="1" speaker="Jakobine"/>
     <custom2:Speech_rep xmi:id="7649" sofa="1" begin="10857" end="10905" level="0" speaker="Franz"/>
-    <custom2:Speech_rep xmi:id="49955" sofa="1" begin="10950" end="10982" level="0" speaker="Franz,Franz' Vater"/>
+    <custom2:Speech_rep xmi:id="49955" sofa="1" begin="10950" end="10982" level="0" speaker="Franz,Florian Gersbacher"/>
     <custom2:Speech_rep xmi:id="50012" sofa="1" begin="13888" end="14040" level="0" speaker="Junker Ulrich von Remchingen,Trudi"/>
     <custom2:Speech_rep xmi:id="50018" sofa="1" begin="14259" end="14440" level="0" speaker="Trudi"/>
     <custom2:Speech_rep xmi:id="50024" sofa="1" begin="14583" end="14792" level="0" speaker="Ammerie"/>
