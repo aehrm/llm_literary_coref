@@ -199,9 +199,7 @@ class MentionPrompt(Generic[T], Prompt[List[Mention]]):
     def __init__(self, tokens: pandas.Series, mention_spans: List[Mention]):
         self.tokens = tokens
         self.mention_spans = mention_spans
-        self.formatted_input = None
-        self.mention_span_map = None
-        self.span_annotations = None
+        self.formatted_input, self.mention_span_map, self.span_annotations = self.prepare_input(self.tokens, self.mention_spans)
 
     def prepare_input(self, tokens: pandas.Series, mention_spans: List[Mention]) -> Tuple[str, dict[int, Mention], list]:
         input_text_df = tokens.copy()
@@ -230,13 +228,11 @@ class MentionPrompt(Generic[T], Prompt[List[Mention]]):
         return formatted_input, mention_span_map, span_annotations
 
     def format_prompt(self):
-        (formatted_input,
-         self.mention_span_map,
-         span_annotations) = self.prepare_input(self.tokens, self.mention_spans)
+        annotations_in_json = '\n'.join(json.dumps(s, ensure_ascii=True) for s in self.span_annotations)
+        return self.prompt_template(self.formatted_input, annotations_in_json)
 
-        annotations_in_json = '\n'.join(json.dumps(s, ensure_ascii=True) for s in span_annotations)
-
-        return self.prompt_template(formatted_input, annotations_in_json)
+    def max_output_lines(self) -> int:
+        return int(len(self.span_annotations) * 1.1)
 
     @abstractmethod
     def prompt_template(self, formatted_input: str, span_annotations: str) -> str:

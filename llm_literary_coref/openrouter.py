@@ -76,7 +76,7 @@ class StreamingOutputHandler:
         sys.stderr.write(f"\033[{self.height}A")
         sys.stderr.flush()
 
-def _streaming_openrouter(request_data, prefix='', API_KEY=None):
+def _streaming_openrouter(request_data, prefix='', max_output_lines=None, API_KEY=None):
     API_KEY = API_KEY if API_KEY is not None else os.getenv('OPENROUTER_API_KEY')
     handler = StreamingOutputHandler(prefix=prefix)
     request_id = None
@@ -113,6 +113,7 @@ def _streaming_openrouter(request_data, prefix='', API_KEY=None):
                     if content:
                         handler.handle_token(content)
 
+
                     if 'usage' in data_obj.keys():
                         usage = data_obj['usage']
 
@@ -121,16 +122,23 @@ def _streaming_openrouter(request_data, prefix='', API_KEY=None):
 
                     if data_obj['choices'][0]['finish_reason'] is not None:
                         reason = data_obj['choices'][0]['finish_reason']
+
+            if max_output_lines and len(handler.get_complete_response().split('\n')) > max_output_lines:
+                break
     handler.cleanup()
 
-    if reason is None or usage is None:
+    complete_response = handler.get_complete_response()
+    if max_output_lines and len(complete_response.split('\n')) > max_output_lines:
+        logger.warning('message exceeded max_output_lines')
+        reason = 'max_output_lines'
+    elif reason is None:
         logger.warning('message ended prematurely')
-    else:
+    if usage is not None:
         logger.info(f"{request_data['model']}: {usage['prompt_tokens']} in -> {usage['completion_tokens']} out")
 
-    return handler.get_complete_response(), {'usage': usage, 'finish_reason': reason, 'request_id': request_id}
+    return complete_response, {'usage': usage, 'finish_reason': reason, 'request_id': request_id}
 
-def make_openrouter_request(user_prompt: str, model: str, request_args: any, max_attempts=5, API_KEY=None):
+def make_openrouter_request(user_prompt: str, model: str, request_args: any, max_attempts=5, max_output_lines=None, API_KEY=None):
     data = {
         "model": model,
         "stream": True,
@@ -142,6 +150,7 @@ def make_openrouter_request(user_prompt: str, model: str, request_args: any, max
     n_attempts = 0
     while n_attempts < max_attempts:
         logger.info(f'Prompt attempt #{n_attempts + 1} to {model}')
+        request_max_output_lines = max_output_lines - len(full_response.split('\n')) if max_output_lines else None
         if full_response:
             continuation_prompt = (
                 "Your previous response was cut off due to token limits. "
@@ -153,11 +162,13 @@ def make_openrouter_request(user_prompt: str, model: str, request_args: any, max
         else:
             messages = [ { "role": "user", "content": user_prompt } ]
 
-        response, meta = _streaming_openrouter({'messages': messages, **data}, prefix=f'Attempt #{n_attempts+1}', API_KEY=API_KEY)
+        response, meta = _streaming_openrouter({'messages': messages, **data}, prefix=f'Attempt #{n_attempts+1}', API_KEY=API_KEY, max_output_lines=request_max_output_lines)
         metas.append(meta)
         full_response += response[:response.rfind('\n')+1] if '\n' in response else response
         finish_reason = meta['finish_reason']
         if finish_reason == "stop":
+            break
+        elif finish_reason == "max_output_lines":
             break
         elif finish_reason == "length":
             n_attempts += 1

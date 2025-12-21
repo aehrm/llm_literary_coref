@@ -112,7 +112,7 @@ class BasicMergePrompt(MergePrompt):
 
         self.entities: Dict[Tuple[int, str], List[Tuple[Mention, Reference]]] = self.setup_entities()
 
-        self.annotation_rows = None
+        self.annotation_rows, self.json_input_lines = self.prepare_input()
 
     def setup_entities(self) -> Dict[Tuple[int, str], List[Tuple[Mention, Reference]]]:
         entities = collections.defaultdict(list)
@@ -123,7 +123,7 @@ class BasicMergePrompt(MergePrompt):
 
         return dict(entities)
 
-    def format_prompt(self) -> str:
+    def prepare_input(self) -> Tuple[List[Tuple[int, str]], List[str]]:
         json_input_lines = []
         annotation_rows = []
 
@@ -158,10 +158,14 @@ class BasicMergePrompt(MergePrompt):
             annotation_rows.append((section_id, entity_id))
 
 
-        self.annotation_rows = annotation_rows
+        return annotation_rows, json_input_lines
 
-        incomplete_response = "\n".join(json_input_lines)
+    def format_prompt(self) -> str:
+        incomplete_response = "\n".join(self.json_input_lines)
         return BASIC_MERGE_PROMPT.format(incomplete_response=incomplete_response)
+
+    def max_output_lines(self) -> int:
+        return int(len(self.json_input_lines) * 1.1)
 
 
     def decode(self, json_lines: list) -> List[Mention]:

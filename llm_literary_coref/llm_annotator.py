@@ -48,12 +48,13 @@ class LLMRunner(Generic[T]):
 
     def run(self, prompt: Prompt[T]) -> LLMOutput[T]:
         prompt_str = prompt.format_prompt()
+        max_output_lines: Optional[int] = prompt.max_output_lines()
 
         output_str = None
         generation_details = None
         try:
             logger.info(f"Making API request to model: {self.model}")
-            output_str, generation_details = make_openrouter_request(prompt_str, self.model, self.request_args)
+            output_str, generation_details = make_openrouter_request(prompt_str, model=self.model, request_args=self.request_args, max_output_lines=max_output_lines)
             logger.info(f"Successfully received response from model: {self.model}")
             json_output = parse_json(output_str)
             output = prompt.decode(json_output)
