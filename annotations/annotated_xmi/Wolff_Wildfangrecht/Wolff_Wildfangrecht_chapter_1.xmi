@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?><xmi:XMI xmlns:pos="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos.ecore" xmlns:tcas="http:///uima/tcas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:cas="http:///uima/cas.ecore" xmlns:tweet="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos/tweet.ecore" xmlns:morph="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/morph.ecore" xmlns:type="http:///de/tudarmstadt/ukp/clarin/webanno/api/type.ecore" xmlns:dependency="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/dependency.ecore" xmlns:type6="http:///de/tudarmstadt/ukp/dkpro/core/api/semantics/type.ecore" xmlns:type9="http:///de/tudarmstadt/ukp/dkpro/core/api/transform/type.ecore" xmlns:type8="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type.ecore" xmlns:type3="http:///de/tudarmstadt/ukp/dkpro/core/api/metadata/type.ecore" xmlns:type11="http:///org/dkpro/core/api/xml/type.ecore" xmlns:type4="http:///de/tudarmstadt/ukp/dkpro/core/api/ner/type.ecore" xmlns:type10="http:///org/dkpro/core/api/pdf/type.ecore" xmlns:type5="http:///de/tudarmstadt/ukp/dkpro/core/api/segmentation/type.ecore" xmlns:type2="http:///de/tudarmstadt/ukp/dkpro/core/api/coref/type.ecore" xmlns:type7="http:///de/tudarmstadt/ukp/dkpro/core/api/structure/type.ecore" xmlns:constituent="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/constituent.ecore" xmlns:custom="http:///custom.ecore" xmlns:chunk="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/chunk.ecore" xmlns:custom2="http:///webanno/custom.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <type3:DocumentMetaData xmi:id="8" sofa="1" begin="0" end="57" language="x-unspecified" documentTitle="Wolff_Wildfangrecht_chapter_1.xmi" documentId="Wolff_Wildfangrecht_chapter_1.xmi" documentUri="admin-14/Wolff_Wildfangrecht_chapter_1.xmi" collectionId="admin-14/Wolff_Wildfangrecht_chapter_1.xmi" documentBaseUri="admin-14" isLastSegment="false"/>
+    <type5:Sentence xmi:id="19" sofa="1" begin="0" end="57"/>
+    <type5:Token xmi:id="24" sofa="1" begin="0" end="6" order="0"/>
+    <type5:Token xmi:id="37" sofa="1" begin="7" end="12" order="0"/>
+    <type5:Token xmi:id="50" sofa="1" begin="13" end="16" order="0"/>
+    <type5:Token xmi:id="63" sofa="1" begin="17" end="30" order="0"/>
+    <type5:Token xmi:id="76" sofa="1" begin="31" end="35" order="0"/>
+    <type5:Token xmi:id="89" sofa="1" begin="36" end="46" order="0"/>
+    <type5:Token xmi:id="102" sofa="1" begin="47" end="57" order="0"/>
+    <type:LayerDefinition xmi:id="230" name="webanno.custom.Speech_free" uiName="Speech_free"/>
+    <type:LayerDefinition xmi:id="489" name="webanno.custom.Writing_free" uiName="Writing_free"/>
+    <type:LayerDefinition xmi:id="558" name="webanno.custom.Writing_rep" uiName="Writing_rep"/>
+    <type:LayerDefinition xmi:id="149" name="webanno.custom.FB_auen" uiName="FB_außen"/>
+    <type:LayerDefinition xmi:id="436" name="webanno.custom.Thought_rep" uiName="Thought_rep"/>
+    <type:LayerDefinition xmi:id="512" name="webanno.custom.Writing_ind" uiName="Writing_ind"/>
+    <type:LayerDefinition xmi:id="413" name="webanno.custom.Thought_indfree" uiName="Thought_indfree"/>
+    <type:LayerDefinition xmi:id="183" name="webanno.custom.Mention" uiName="Mention"/>
+    <type:LayerDefinition xmi:id="115" name="custom.Speech_dir" uiName="Speech_dir"/>
+    <type:LayerDefinition xmi:id="390" name="webanno.custom.Thought_ind" uiName="Thought_ind"/>
+    <type:LayerDefinition xmi:id="138" name="webanno.custom.Component" uiName="Component"/>
+    <type:LayerDefinition xmi:id="459" name="webanno.custom.Trait" uiName="Trait"/>
+    <type:LayerDefinition xmi:id="466" name="webanno.custom.Writing_dir" uiName="Writing_dir"/>
+    <type:LayerDefinition xmi:id="344" name="webanno.custom.Thought_dir" uiName="Thought_dir"/>
+    <type:LayerDefinition xmi:id="367" name="webanno.custom.Thought_free" uiName="Thought_free"/>
+    <type:LayerDefinition xmi:id="253" name="webanno.custom.Speech_ind" uiName="Speech_ind"/>
+    <type:LayerDefinition xmi:id="299" name="webanno.custom.Speech_rep" uiName="Speech_rep"/>
+    <type:LayerDefinition xmi:id="535" name="webanno.custom.Writing_indfree" uiName="Writing_indfree"/>
+    <type:LayerDefinition xmi:id="322" name="webanno.custom.Subcomp" uiName="subcomp"/>
+    <type:LayerDefinition xmi:id="276" name="webanno.custom.Speech_indfree" uiName="Speech_indfree"/>
+    <type:LayerDefinition xmi:id="333" name="webanno.custom.Subtrait" uiName="subtrait"/>
+    <type:LayerDefinition xmi:id="168" name="webanno.custom.FB_innen" uiName="FB_innen"/>
+    <type:FeatureDefinition xmi:id="527" layer="512" name="specialcase" uiName="specialcase"/>
+    <type:FeatureDefinition xmi:id="569" layer="558" name="level" uiName="level"/>
+    <type:FeatureDefinition xmi:id="210" layer="183" name="gender" uiName="gender"/>
+    <type:FeatureDefinition xmi:id="126" layer="115" name="level" uiName="level"/>
+    <type:FeatureDefinition xmi:id="500" layer="489" name="level" uiName="level"/>
+    <type:FeatureDefinition xmi:id="577" layer="558" name="writer" uiName="writer"/>
+    <type:FeatureDefinition xmi:id="175" layer="168" name="comment" uiName="comment"/>
+    <type:FeatureDefinition xmi:id="432" layer="413" name="thinker" uiName="thinker"/>
+    <type:FeatureDefinition xmi:id="515" layer="512" name="borderline" uiName="borderline"/>
+    <type:FeatureDefinition xmi:id="160" layer="149" name="comment" uiName="comment"/>
+    <type:FeatureDefinition xmi:id="340" layer="333" name="Governor" uiName="Source"/>
+    <type:FeatureDefinition xmi:id="336" layer="333" name="Dependent" uiName="Target"/>
+    <type:FeatureDefinition xmi:id="469" layer="466" name="borderline" uiName="borderline"/>
+    <type:FeatureDefinition xmi:id="141" layer="138" name="beschriebene_Figur" uiName="beschriebene_Figur"/>
+    <type:FeatureDefinition xmi:id="279" layer="276" name="borderline" uiName="borderline"/>
+    <type:FeatureDefinition xmi:id="481" layer="466" name="specialcase" uiName="specialcase"/>
+    <type:FeatureDefinition xmi:id="462" layer="459" name="beschriebene_Figur" uiName="beschriebene_Figur"/>
+    <type:FeatureDefinition xmi:id="397" layer="390" name="comment" uiName="comment"/>
+    <type:FeatureDefinition xmi:id="573" layer="558" name="specialcase" uiName="specialcase"/>
+    <type:FeatureDefinition xmi:id="447" layer="436" name="level" uiName="level"/>
+    <type:FeatureDefinition xmi:id="264" layer="253" name="level" uiName="level"/>
+    <type:FeatureDefinition xmi:id="363" layer="344" name="thinker" uiName="thinker"/>
+    <type:FeatureDefinition xmi:id="302" layer="299" name="borderline" uiName="borderline"/>
+    <type:FeatureDefinition xmi:id="237" layer="230" name="comment" uiName="comment"/>
+    <type:FeatureDefinition xmi:id="329" layer="322" name="Governor" uiName="Source"/>
+    <type:FeatureDefinition xmi:id="370" layer="367" name="borderline" uiName="borderline"/>
+    <type:FeatureDefinition xmi:id="554" layer="535" name="writer" uiName="writer"/>
+    <type:FeatureDefinition xmi:id="306" layer="299" name="comment" uiName="comment"/>
+    <type:FeatureDefinition xmi:id="198" layer="183" name="comment_entity" uiName="comment_entity"/>
+    <type:FeatureDefinition xmi:id="347" layer="344" name="borderline" uiName="borderline"/>
+    <type:FeatureDefinition xmi:id="451" layer="436" name="specialcase" uiName="specialcase"/>
+    <type:FeatureDefinition xmi:id="492" layer="489" name="borderline" uiName="borderline"/>
+    <type:FeatureDefinition xmi:id="519" layer="512" name="comment" uiName="comment"/>
+    <type:FeatureDefinition xmi:id="531" layer="512" name="writer" uiName="writer"/>
+    <type:FeatureDefinition xmi:id="496" layer="489" name="comment" uiName="comment"/>
+    <type:FeatureDefinition xmi:id="122" layer="115" name="comment" uiName="comment"/>
+    <type:FeatureDefinition xmi:id="318" layer="299" name="specialcase" uiName="specialcase"/>
+    <type:FeatureDefinition xmi:id="504" layer="489" name="specialcase" uiName="specialcase"/>
+    <type:FeatureDefinition xmi:id="145" layer="138" name="category" uiName="category"/>
+    <type:FeatureDefinition xmi:id="179" layer="168" name="newly_added" uiName="newly_added"/>
+    <type:FeatureDefinition xmi:id="386" layer="367" name="thinker" uiName="thinker"/>
+    <type:FeatureDefinition xmi:id="171" layer="168" name="borderline" uiName="borderline"/>
+    <type:FeatureDefinition xmi:id="523" layer="512" name="level" uiName="level"/>
+    <type:FeatureDefinition xmi:id="443" layer="436" name="comment" uiName="comment"/>
+    <type:FeatureDefinition xmi:id="401" layer="390" name="level" uiName="level"/>
+    <type:FeatureDefinition xmi:id="206" layer="183" name="fullname" uiName="fullname"/>
+    <type:FeatureDefinition xmi:id="374" layer="367" name="comment" uiName="comment"/>
+    <type:FeatureDefinition xmi:id="565" layer="558" name="comment" uiName="comment"/>
+    <type:FeatureDefinition xmi:id="118" layer="115" name="borderline" uiName="borderline"/>
+    <type:FeatureDefinition xmi:id="186" layer="183" name="ID" uiName="ID"/>
+    <type:FeatureDefinition xmi:id="485" layer="466" name="writer" uiName="writer"/>
+    <type:FeatureDefinition xmi:id="214" layer="183" name="members" uiName="members"/>
+    <type:FeatureDefinition xmi:id="268" layer="253" name="speaker" uiName="speaker"/>
+    <type:FeatureDefinition xmi:id="455" layer="436" name="thinker" uiName="thinker"/>
+    <type:FeatureDefinition xmi:id="382" layer="367" name="specialcase" uiName="specialcase"/>
+    <type:FeatureDefinition xmi:id="222" layer="183" name="specialcase_entity" uiName="specialcase_entity"/>
+    <type:FeatureDefinition xmi:id="202" layer="183" name="comment_mention" uiName="comment_mention"/>
+    <type:FeatureDefinition xmi:id="538" layer="535" name="borderline" uiName="borderline"/>
+    <type:FeatureDefinition xmi:id="226" layer="183" name="specialcase_mention" uiName="specialcase_mention"/>
+    <type:FeatureDefinition xmi:id="310" layer="299" name="level" uiName="level"/>
+    <type:FeatureDefinition xmi:id="477" layer="466" name="level" uiName="level"/>
+    <type:FeatureDefinition xmi:id="260" layer="253" name="comment" uiName="comment"/>
+    <type:FeatureDefinition xmi:id="152" layer="149" name="beschriebene_Figur" uiName="beschriebene_Figur"/>
+    <type:FeatureDefinition xmi:id="249" layer="230" name="specialcase" uiName="specialcase"/>
+    <type:FeatureDefinition xmi:id="295" layer="276" name="specialcase" uiName="specialcase"/>
+    <type:FeatureDefinition xmi:id="409" layer="390" name="thinker" uiName="thinker"/>
+    <type:FeatureDefinition xmi:id="190" layer="183" name="borderline_entity" uiName="borderline_entity"/>
+    <type:FeatureDefinition xmi:id="130" layer="115" name="speaker" uiName="speaker"/>
+    <type:FeatureDefinition xmi:id="355" layer="344" name="level" uiName="level"/>
+    <type:FeatureDefinition xmi:id="314" layer="299" name="speaker" uiName="speaker"/>
+    <type:FeatureDefinition xmi:id="439" layer="436" name="borderline" uiName="borderline"/>
+    <type:FeatureDefinition xmi:id="164" layer="149" name="newly_added" uiName="newly_added"/>
+    <type:FeatureDefinition xmi:id="256" layer="253" name="borderline" uiName="borderline"/>
+    <type:FeatureDefinition xmi:id="428" layer="413" name="specialcase" uiName="specialcase"/>
+    <type:FeatureDefinition xmi:id="508" layer="489" name="writer" uiName="writer"/>
+    <type:FeatureDefinition xmi:id="393" layer="390" name="borderline" uiName="borderline"/>
+    <type:FeatureDefinition xmi:id="241" layer="230" name="level" uiName="level"/>
+    <type:FeatureDefinition xmi:id="351" layer="344" name="comment" uiName="comment"/>
+    <type:FeatureDefinition xmi:id="405" layer="390" name="specialcase" uiName="specialcase"/>
+    <type:FeatureDefinition xmi:id="245" layer="230" name="speaker" uiName="speaker"/>
+    <type:FeatureDefinition xmi:id="359" layer="344" name="specialcase" uiName="specialcase"/>
+    <type:FeatureDefinition xmi:id="272" layer="253" name="specialcase" uiName="specialcase"/>
+    <type:FeatureDefinition xmi:id="233" layer="230" name="borderline" uiName="borderline"/>
+    <type:FeatureDefinition xmi:id="420" layer="413" name="comment" uiName="comment"/>
+    <type:FeatureDefinition xmi:id="325" layer="322" name="Dependent" uiName="Target"/>
+    <type:FeatureDefinition xmi:id="283" layer="276" name="comment" uiName="comment"/>
+    <type:FeatureDefinition xmi:id="550" layer="535" name="specialcase" uiName="specialcase"/>
+    <type:FeatureDefinition xmi:id="561" layer="558" name="borderline" uiName="borderline"/>
+    <type:FeatureDefinition xmi:id="542" layer="535" name="comment" uiName="comment"/>
+    <type:FeatureDefinition xmi:id="134" layer="115" name="specialcase" uiName="specialcase"/>
+    <type:FeatureDefinition xmi:id="473" layer="466" name="comment" uiName="comment"/>
+    <type:FeatureDefinition xmi:id="291" layer="276" name="speaker" uiName="speaker"/>
+    <type:FeatureDefinition xmi:id="378" layer="367" name="level" uiName="level"/>
+    <type:FeatureDefinition xmi:id="218" layer="183" name="possible_identity_with" uiName="possible_identity_with"/>
+    <type:FeatureDefinition xmi:id="424" layer="413" name="level" uiName="level"/>
+    <type:FeatureDefinition xmi:id="546" layer="535" name="level" uiName="level"/>
+    <type:FeatureDefinition xmi:id="156" layer="149" name="borderline" uiName="borderline"/>
+    <type:FeatureDefinition xmi:id="287" layer="276" name="level" uiName="level"/>
+    <type:FeatureDefinition xmi:id="194" layer="183" name="borderline_mention" uiName="borderline_mention"/>
+    <type:FeatureDefinition xmi:id="416" layer="413" name="borderline" uiName="borderline"/>
+    <type3:TagsetDescription xmi:id="581" sofa="1" begin="0" end="0" layer="webanno.custom.Component" name="Categories" input="false"/>
+    <type3:TagsetDescription xmi:id="594" sofa="1" begin="0" end="0" layer="webanno.custom.FB_auen" name="newly_added" input="false"/>
+    <type3:TagsetDescription xmi:id="607" sofa="1" begin="0" end="0" layer="webanno.custom.FB_innen" name="newly_added" input="false"/>
+    <type3:TagsetDescription xmi:id="620" sofa="1" begin="0" end="0" layer="webanno.custom.Mention" name="Gender" input="false"/>
+    <type3:TagsetDescription xmi:id="633" sofa="1" begin="0" end="0" layer="custom.Speech_dir" name="Borderline_Speech" input="false"/>
+    <type3:TagsetDescription xmi:id="646" sofa="1" begin="0" end="0" layer="webanno.custom.Speech_free" name="Borderline_Speech" input="false"/>
+    <type3:TagsetDescription xmi:id="659" sofa="1" begin="0" end="0" layer="webanno.custom.Speech_ind" name="Borderline_Speech" input="false"/>
+    <type3:TagsetDescription xmi:id="672" sofa="1" begin="0" end="0" layer="webanno.custom.Speech_indfree" name="Borderline_Speech" input="false"/>
+    <type3:TagsetDescription xmi:id="685" sofa="1" begin="0" end="0" layer="webanno.custom.Speech_rep" name="Borderline_Speech" input="false"/>
+    <type3:TagsetDescription xmi:id="698" sofa="1" begin="0" end="0" layer="webanno.custom.Thought_dir" name="Borderline_Thought" input="false"/>
+    <type3:TagsetDescription xmi:id="711" sofa="1" begin="0" end="0" layer="webanno.custom.Thought_free" name="Borderline_Thought" input="false"/>
+    <type3:TagsetDescription xmi:id="724" sofa="1" begin="0" end="0" layer="webanno.custom.Thought_ind" name="Borderline_Thought" input="false"/>
+    <type3:TagsetDescription xmi:id="737" sofa="1" begin="0" end="0" layer="webanno.custom.Thought_indfree" name="Borderline_Thought" input="false"/>
+    <type3:TagsetDescription xmi:id="750" sofa="1" begin="0" end="0" layer="webanno.custom.Thought_rep" name="Borderline_Thought" input="false"/>
+    <type3:TagsetDescription xmi:id="763" sofa="1" begin="0" end="0" layer="webanno.custom.Writing_dir" name="Borderline_Writing" input="false"/>
+    <type3:TagsetDescription xmi:id="776" sofa="1" begin="0" end="0" layer="webanno.custom.Writing_free" name="Borderline_Writing" input="false"/>
+    <type3:TagsetDescription xmi:id="789" sofa="1" begin="0" end="0" layer="webanno.custom.Writing_ind" name="Borderline_Writing" input="false"/>
+    <type3:TagsetDescription xmi:id="802" sofa="1" begin="0" end="0" layer="webanno.custom.Writing_indfree" name="Borderline_Writing" input="false"/>
+    <type3:TagsetDescription xmi:id="815" sofa="1" begin="0" end="0" layer="webanno.custom.Writing_rep" name="Borderline_Writing" input="false"/>
+    <cas:Sofa xmi:id="1" sofaNum="1" sofaID="_InitialView" sofaString="Julius Wolff&#10;Das Wildfangrecht&#10;Eine pfälzische Geschichte"/>
+    <cas:View sofa="1" members="8 19 24 37 50 63 76 89 102 230 489 558 149 436 512 413 183 115 390 138 459 466 344 367 253 299 535 322 276 333 168 527 569 210 126 500 577 175 432 515 160 340 336 469 141 279 481 462 397 573 447 264 363 302 237 329 370 554 306 198 347 451 492 519 531 496 122 318 504 145 179 386 171 523 443 401 206 374 565 118 186 485 214 268 455 382 222 202 538 226 310 477 260 152 249 295 409 190 130 355 314 439 164 256 428 508 393 241 351 405 245 359 272 233 420 325 283 550 561 542 134 473 291 378 218 424 546 156 287 194 416 581 594 607 620 633 646 659 672 685 698 711 724 737 750 763 776 789 802 815"/>
+</xmi:XMI>
