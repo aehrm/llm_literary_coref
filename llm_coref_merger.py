@@ -127,7 +127,6 @@ def main():
     keyfn = lambda x: re.sub(r'_section_[0-9]+\.tsv', '', x.name)
     for document_name, section_files in itertools.groupby(sorted(tsv_files, key=keyfn), key=keyfn):
         section_files = list(section_files)
-        print(args.gold_files)
         gold_file = [f for f in args.gold_files if f.name == f"{document_name}.tsv"]
         if len(gold_file) != 1:
             print(f'for inference TSV files {section_files}, no gold file named "{document_name}.tsv" specified')

@@ -14,6 +14,7 @@ OPENROUTER_PROVIDER = {
     "google/gemini-2.5-flash-lite": "google-vertex",
     "google/gemini-2.5-flash": "google-vertex",
     "qwen/qwen3-30b-a3b-instruct-2507": "chutes/bf16",
+    "qwen/qwen3-vl-235b-a22b-instruct": "chutes/bf16",
     "deepseek/deepseek-v3.2-exp": "novita",
 }
 
