@@ -23,10 +23,7 @@ def read_input_tsv(file_path):
         df = pd.read_csv(file_path, sep='\t', header=None, names=['token', 'is_section_start'], keep_default_na=False)
 
     if 'token' not in df.columns:
-        if 'text' in df.columns:
-            df['token'] = df['text']
-        else:
-            raise ValueError("No 'token' column found in input file.")
+        raise ValueError("No 'token' column found in input file.")
 
     if 'is_section_start' not in df.columns:
         raise ValueError("No 'is_section_start' column found in input file.")

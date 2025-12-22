@@ -1,4 +1,4 @@
-i	text	is_sent_start	is_para_start	is_section_start	tag	lemma	morph	llm_pre_annotation
+i	token	is_sent_start	is_para_start	is_section_start	tag	lemma	morph	llm_pre_annotation
 0	Johann	1	1	1	NE	Johann	Case=Nom|Gender=Masc|Number=Sing	(mention_id=1|references=(entity=(entity_id=ch001 Johann Wolfgang Goethe|fullname=ch001 Johann Wolfgang Goethe|gender=u)))
 1	Wolfgang	0	0	0	NE	Wolfgang	Case=Nom|Gender=Masc|Number=Sing	(mention_id=1|references=(entity=(entity_id=ch001 Johann Wolfgang Goethe|fullname=ch001 Johann Wolfgang Goethe|gender=u)))
 2	Goethe	0	0	0	NE	Goethe	Case=Nom|Gender=Masc|Number=Sing	(mention_id=1|references=(entity=(entity_id=ch001 Johann Wolfgang Goethe|fullname=ch001 Johann Wolfgang Goethe|gender=u)))

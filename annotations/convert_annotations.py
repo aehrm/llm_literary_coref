@@ -358,7 +358,7 @@ def convert_booklevel_annotations(annotations_dir: Path, source_df: pandas.DataF
 
         all_references.extend(list(
             extract_and_align_references(xmi,
-                                         tokens=chapter['text'],
+                                         tokens=chapter['token'],
                                          generic_entity_factory=generic_entity_factory,
                                          entity_label_map=entity_table[chapter_id])))
 
@@ -367,7 +367,7 @@ def convert_booklevel_annotations(annotations_dir: Path, source_df: pandas.DataF
     # ensure that generics are singletons
     split_generics_into_singletons(all_mentions.values(), generic_entity_factory)
 
-    check_for_overlapping_mehtions(all_mentions, source_df['text'], token_to_source_filename)
+    check_for_overlapping_mehtions(all_mentions, source_df['token'], token_to_source_filename)
     return list(all_mentions.values())
 
 
@@ -396,7 +396,7 @@ def main():
         print(f"Mode: Single file processing\nSource: {args.source_tsv}\nXMI: {args.annotation_xmi}")
 
         source_df = pandas.read_csv(args.source_tsv, sep='\t', keep_default_na=False)
-        mentions = convert_xmi_annotations(args.annotation_xmi, tokens=source_df['text'])
+        mentions = convert_xmi_annotations(args.annotation_xmi, tokens=source_df['token'])
 
     output_df = source_df.copy()
     output_df['gold'] = ''

@@ -1,4 +1,4 @@
-i	text	is_sent_start	is_para_start	is_section_start	tag	lemma	morph	llm_pre_annotation
+i	token	is_sent_start	is_para_start	is_section_start	tag	lemma	morph	llm_pre_annotation
 0	1.	1	1	1	ADV	1.	_	
 1	»	1	1	0	$(	»	AdpType=Prep|PunctType=Brck	
 2	Wahrhaftig	0	0	0	ADJD	wahrhaftig	Degree=Pos|Variant=Short	(mention_id=27481|references=(entity=(entity_id=ch001 Amtsrichter Weishaupt|fullname=ch001 Amtsrichter Weishaupt|gender=u)))

@@ -1,4 +1,4 @@
-i	text	is_sent_start	is_para_start	is_section_start	tag	lemma	morph	gold
+i	token	is_sent_start	is_para_start	is_section_start	tag	lemma	morph	gold
 0	Johann	1	1	1	NE	Johann	Case=Nom|Gender=Masc|Number=Sing	
 1	Wolfgang	0	0	0	NE	Wolfgang	Case=Nom|Gender=Masc|Number=Sing	
 2	Goethe	0	0	0	NE	Goethe	Case=Nom|Gender=Masc|Number=Sing	

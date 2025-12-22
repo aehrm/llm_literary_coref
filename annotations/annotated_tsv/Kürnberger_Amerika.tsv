@@ -1,4 +1,4 @@
-i	text	is_sent_start	is_para_start	is_section_start	tag	lemma	morph	gold
+i	token	is_sent_start	is_para_start	is_section_start	tag	lemma	morph	gold
 0	Erstes	1	1	1	ADJA	erster	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	
 1	Buch	0	0	0	NN	Buch	Case=Nom|Gender=Neut|Number=Sing	
 2	.	0	0	0	$.	.	PunctType=Peri	

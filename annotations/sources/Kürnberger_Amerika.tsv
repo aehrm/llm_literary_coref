@@ -1,4 +1,4 @@
-i	text	is_sent_start	is_para_start	is_section_start	tag	lemma	morph	llm_pre_annotation
+i	token	is_sent_start	is_para_start	is_section_start	tag	lemma	morph	llm_pre_annotation
 0	Erstes	1	1	1	ADJA	erster	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	(mention_id=1|references=(entity=(entity_id=ch001 Buch|fullname=ch001 Buch|gender=u)))
 1	Buch	0	0	0	NN	Buch	Case=Nom|Gender=Neut|Number=Sing	(mention_id=1|references=(entity=(entity_id=ch001 Buch|fullname=ch001 Buch|gender=u)))
 2	.	0	0	0	$.	.	PunctType=Peri	

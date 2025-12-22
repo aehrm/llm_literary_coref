@@ -1,4 +1,4 @@
-i	text	is_sent_start	is_para_start	is_section_start	tag	lemma	morph	llm_pre_annotation
+i	token	is_sent_start	is_para_start	is_section_start	tag	lemma	morph	llm_pre_annotation
 0	Caroline	1	1	1	NE	Caroline	Case=Nom|Gender=Fem|Number=Sing	(mention_id=2|references=(entity=(entity_id=ch001 Caroline Auguste Fischer|fullname=ch001 Caroline Auguste Fischer|gender=u)))
 1	Auguste	0	0	0	NE	Auguste	Case=Nom|Gender=Fem|Number=Sing	(mention_id=2|references=(entity=(entity_id=ch001 Caroline Auguste Fischer|fullname=ch001 Caroline Auguste Fischer|gender=u)))
 2	Fischer	0	0	0	NE	Fischer	Case=Nom|Gender=Fem|Number=Sing	(mention_id=2|references=(entity=(entity_id=ch001 Caroline Auguste Fischer|fullname=ch001 Caroline Auguste Fischer|gender=u)))

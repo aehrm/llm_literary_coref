@@ -1,4 +1,4 @@
-i	text	is_sent_start	is_para_start	is_section_start	tag	lemma	morph	gold
+i	token	is_sent_start	is_para_start	is_section_start	tag	lemma	morph	gold
 0	Caroline	1	1	1	NE	Caroline	Case=Nom|Gender=Fem|Number=Sing	
 1	Auguste	0	0	0	NE	Auguste	Case=Nom|Gender=Fem|Number=Sing	
 2	Fischer	0	0	0	NE	Fischer	Case=Nom|Gender=Fem|Number=Sing	

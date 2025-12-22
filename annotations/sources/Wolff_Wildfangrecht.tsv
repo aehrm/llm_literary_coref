@@ -1,4 +1,4 @@
-i	text	is_sent_start	is_para_start	is_section_start	tag	lemma	morph	llm_pre_annotation
+i	token	is_sent_start	is_para_start	is_section_start	tag	lemma	morph	llm_pre_annotation
 0	Julius	1	1	1	NE	Julius	Case=Nom|Gender=Masc|Number=Sing	(mention_id=1|references=(entity=(entity_id=ch001 Julius Wolff|fullname=ch001 Julius Wolff|gender=u)))
 1	Wolff	0	0	0	NE	Wolff	Case=Nom|Gender=Masc|Number=Sing	(mention_id=1|references=(entity=(entity_id=ch001 Julius Wolff|fullname=ch001 Julius Wolff|gender=u)))
 2	Das	0	0	0	ART	der	Case=Nom|Gender=Neut|Number=Sing|PronType=Art	
