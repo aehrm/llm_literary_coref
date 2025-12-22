@@ -171,5 +171,5 @@ if __name__ == "__main__":
     sections = read_input_tsv(args.input_file)
 
     # Process
-    basename = args.input_file.stem.replace('_', '-')
+    basename = args.input_file.stem
     process_sections(sections, basename, args.model_id, args.output_dir, args.device)

@@ -21,21 +21,30 @@ PROMPT_REGISTRY: Dict[str, Type[MergePrompt]] = {
 }
 
 
-def load_document(input_files: List[Path]) -> pd.DataFrame:
-    dfs = []
+def load_document(gold_file: Path, input_files: List[Path]) -> pd.DataFrame:
+    print(f"loading gold file {gold_file}")
+    gold_df = pd.read_csv(gold_file, sep="\t", index_col='i', keep_default_na=False)
+
+    all_inference_dfs = []
     for f in input_files:
         print(f"loading {f}")
         df = pd.read_csv(f, sep="\t", index_col='i', keep_default_na=False)
-        df['is_section_start'] = 0
-        df.loc[df.index[0], 'is_section_start'] = 1
-        dfs.append(df)
+        #df['is_section_start'] = 0
+        #df.loc[df.index[0], 'is_section_start'] = 1
+        all_inference_dfs.append(df)
 
-    all_df = pd.concat(dfs)
-    return all_df.sort_index()
+    inference_df = pd.concat(all_inference_dfs).sort_index()
+    gold_df['pred'] = inference_df['pred']
+    if not all(~gold_df['pred'].isna()):
+        missing_indices = list(sorted(gold_df.index[gold_df['pred'].isna()]))
+        ranges = [(k, k + len(list(g)) - 1) for k, g in itertools.groupby(enumerate(missing_indices), lambda x: x[1] - x[0])]
+        print("WARN: for the following tokens, no prediction has been supplied: " + ', '.join([f"{a}-{b}" for a, b in ranges]))
+    
+    return gold_df.sort_index()
 
 
-def merge_section(input_files: List[Path], annotator: LLMRunner, prompt_class: Type[MergePrompt], output_file: Path):
-    document_df = load_document(input_files)
+def merge_section(gold_file: Path, input_files: List[Path], annotator: LLMRunner, prompt_class: Type[MergePrompt], output_file: Path):
+    document_df = load_document(gold_file, input_files)
 
     if not {'token', 'pred'} <= set(document_df.columns):
         raise ValueError("Input file must contain columns 'token' and 'pred'.")
@@ -76,6 +85,7 @@ def merge_section(input_files: List[Path], annotator: LLMRunner, prompt_class: T
 
 def main():
     parser = argparse.ArgumentParser(description="Run LLM-based annotation on TSV text sections. Groups input files according to their name")
+    parser.add_argument('--gold_files', type=Path, nargs='+', required=True, help='List of gold TSV files to process.' )
     parser.add_argument('--input_files', type=Path, nargs='+', required=True, help='List of input TSV files to process.' )
     parser.add_argument('--output_dir', type=Path, required=True, help='Output directory for merged TSV files.' )
     parser.add_argument('--model', type=str, required=True, help='LLM Model string (e.g., "openai/gpt-4-turbo", "anthropic/claude-3-opus").')
@@ -116,8 +126,16 @@ def main():
     tsv_files: List[Path] = [f for f in args.input_files if f.name.endswith('.tsv')]
     keyfn = lambda x: re.sub(r'_section_[0-9]+\.tsv', '', x.name)
     for document_name, section_files in itertools.groupby(sorted(tsv_files, key=keyfn), key=keyfn):
+        section_files = list(section_files)
+        print(args.gold_files)
+        gold_file = [f for f in args.gold_files if f.name == f"{document_name}.tsv"]
+        if len(gold_file) != 1:
+            print(f'for inference TSV files {section_files}, no gold file named "{document_name}.tsv" specified')
+            sys.exit(1)
+
+        gold_file = gold_file[0]
         output_file = args.output_dir / f"{document_name}.tsv"
-        merge_section(list(section_files), annotator, prompt_class, output_file)
+        merge_section(gold_file, list(section_files), annotator, prompt_class, output_file)
 
 
 if __name__ == "__main__":
