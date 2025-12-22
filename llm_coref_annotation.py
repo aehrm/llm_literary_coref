@@ -3,6 +3,7 @@ import json
 import sys
 from pathlib import Path
 from typing import Iterator, Dict, Type
+import traceback
 
 import pandas as pd
 
@@ -45,7 +46,14 @@ def annotate_section(section_path: Path, annotator: LLMRunner, prompt_class: Typ
         decoded_mentions = []
     else:
         prompt = prompt_class(tokens, mention_spans)
-        res = annotator.run(prompt)
+
+        try:
+            res = annotator.run(prompt)
+        except Exception as e:
+            trace = traceback.format_exc()
+            print(f"Annotator failed for {section_path.name}: {trace}")
+            return
+
 
         # output res as debug output
         debug_filename = output_dir / f"{section_path.stem}.json"
@@ -55,7 +63,7 @@ def annotate_section(section_path: Path, annotator: LLMRunner, prompt_class: Typ
 
         if res.exception:
             print(f"Annotator failed for {section_path.name}: {res.exception}")
-            sys.exit(1)
+            return
 
         decoded_mentions = res.output
 
