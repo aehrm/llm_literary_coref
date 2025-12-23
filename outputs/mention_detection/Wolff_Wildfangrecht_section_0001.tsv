@@ -1,0 +1,4993 @@
+i	token	mention	gold
+7	Erstes		
+8	Kapitel		
+9	.		
+10	An		
+11	einem		
+12	warmen		
+13	Septemberabend		
+14	saß		
+15	ein		
+16	hochgestalteter		
+17	,		
+18	stämmiger		
+19	Mann	2	(mention_id=1|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))
+20	mit		
+21	grauem		
+22	Langhaar		
+23	vor		
+24	dem		
+25	Wohnhause		
+26	seines	3	(mention_id=2|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))
+27	Gehöftes		
+28	in		
+29	dem		
+30	anmutig		
+31	gelegenen		
+32	Städtchen		
+33	Wachenheim		
+34	in		
+35	der		
+36	Rheinpfalz		
+37	und		
+38	blickte		
+39	sinnend		
+40	vor		
+41	sich	4	(mention_id=3|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))
+42	hin		
+43	.		
+44	Er	5	(mention_id=4|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))
+45	war		
+46	in		
+47	landesüblicher		
+48	Bauerntracht		
+49	,		
+50	aber		
+51	seine	6	(mention_id=5|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))
+52	Haltung		
+53	und		
+54	ganze		
+55	Erscheinung		
+56	hatten		
+57	etwas		
+58	Würdevolles		
+59	,		
+60	Achtunggebietendes		
+61	.		
+62	Seine	7	(mention_id=6|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))
+63	rechte		
+64	Hand		
+65	ruhte		
+66	auf		
+67	dem		
+68	derben		
+69	Kreuzbeintische		
+70	vor		
+71	ihm	8	(mention_id=7|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))
+72	,		
+73	und		
+74	ohne		
+75	sich	9	(mention_id=8|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))
+76	dessen		
+77	bewußt		
+78	zu		
+79	sein		
+80	,		
+81	trommelte		
+82	er	10	(mention_id=9|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))
+83	auf		
+84	der		
+85	Platte		
+86	einen		
+87	marschmäßigen		
+88	Takt		
+89	.		
+90	Er	11	(mention_id=10|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))
+91	hatte		
+92	in		
+93	den		
+94	überstandenen		
+95	,		
+96	langen		
+97	Kriegsjahren		
+98	viel		
+99	trommeln		
+100	gehört		
+101	,		
+102	und		
+103	so		
+104	war		
+105	ihm	12	(mention_id=11|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))
+106	dieses		
+107	Fingerspiel		
+108	zur		
+109	Gewohnheit		
+110	geworden		
+111	,		
+112	wenn		
+113	ihm	13	(mention_id=12|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))
+114	etwas		
+115	Besonderes		
+116	die		
+117	Gedanken		
+118	bewegte		
+119	.		
+120	Es		
+121	war		
+122	der		
+123	Bürgermeister	14	
+124	von		
+125	Wachenheim		
+126	Christoph	15	
+127	Armbruster	15	
+128	,		
+129	der	16	
+130	sich	17	(mention_id=13|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))
+131	als		
+132	Winzer	18	(mention_id=14|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))
+133	eines		
+134	behäbigen		
+135	Wohlstandes		
+136	erfreute		
+137	und		
+138	die		
+139	Bürgermeisterei		
+140	im		
+141	Ehrenamt		
+142	verwaltete		
+143	.		
+144	Es		
+145	schienen		
+146	auch		
+147	keineswegs		
+148	Sorgen		
+149	zu		
+150	sein		
+151	,		
+152	was		
+153	ihn	19	(mention_id=15|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))
+154	zu		
+155	dieser		
+156	Stunde		
+157	beschäftigte		
+158	,		
+159	denn		
+160	sein	20	(mention_id=16|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))
+161	Gesicht		
+162	mit		
+163	der		
+164	stark		
+165	hervortretenden		
+166	Nase		
+167	und		
+168	dem		
+169	kräftigen		
+170	Kinn		
+171	zeigte		
+172	einen		
+173	zufriedenen		
+174	Ausdruck		
+175	,		
+176	und		
+177	er	21	(mention_id=17|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))
+178	schaute		
+179	,		
+180	wie		
+181	sie		(mention_id=18|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))
+182	in		
+183	der		
+184	Pfalz		
+185	sagen		
+186	,		
+187	so		
+188	recht		
+189	stillbeducht		
+190	und		
+191	heimselig		
+192	drein		
+193	.		
+194	Das		
+195	Gehöft		
+196	,		
+197	auf		
+198	das		
+199	man		
+200	von		
+201	der		
+202	Straße		
+203	durch		
+204	ein		
+205	breites		
+206	,		
+207	bei		
+208	Tage		
+209	stets		
+210	offenes		
+211	Tor		
+212	gelangte		
+213	,		
+214	bildete		
+215	ein		
+216	umfangreiches		
+217	,		
+218	längliches		
+219	Viereck		
+220	,		
+221	in		
+222	welchem		
+223	sich		
+224	mehrere		
+225	,		
+226	den		
+227	Umfassungsmauern		
+228	angefügte		
+229	Gebäude		
+230	befanden		
+231	,		
+232	ein		
+233	größeres		
+234	,		
+235	zweistöckiges		
+236	Haus		
+237	,		
+238	das		
+239	der		
+240	Bürgermeister	22	(mention_id=19|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))
+241	mit		
+242	seiner	23	(mention_id=20|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))
+243	Frau	24	(mention_id=21|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)))
+244	und		
+245	seiner	25	(mention_id=22|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))
+246	jüngsten		
+247	Tochter	26	(mention_id=23|references=(entity=(entity_id=entity_0004|fullname=Ammerie Armbruster|gender=f)))
+248	,		
+249	und		
+250	ein		
+251	kleineres		
+252	,		
+253	das		
+254	sein	27	(mention_id=24|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))
+255	Sohn	28	(mention_id=25|references=(entity=(entity_id=entity_0005|fullname=Peter Armbruster|gender=m)))
+256	mit		
+257	Frau	29	(mention_id=26|references=(entity=(entity_id=entity_0008|fullname=Elsbeth Armbruster|gender=f)))
+258	und		
+259	Kindern	30	(mention_id=27|references=(entity=(entity_id=entity_0016|fullname=Älterer Enkel von Christoph Armbruster|gender=m)),(entity=(entity_id=entity_0017|fullname=Jüngerer Enkel von Christoph Armbruster|gender=m)),(entity=(entity_id=entity_0051|fullname=Bärbele Armbruster|gender=f)))
+260	bewohnte		
+261	,		
+262	ferner		
+263	das		
+264	Kelterhaus		
+265	,		
+266	Scheune		
+267	,		
+268	Schuppen		
+269	und		
+270	Ställe		
+271	.		
+272	Dem		
+273	größeren		
+274	Wohnhause		
+275	entlang		
+276	zog		
+277	sich		
+278	eine		
+279	schattige		
+280	Pergola		
+281	,		
+282	d.		
+283	h.		
+284	ein		
+285	laubenartiger		
+286	,		
+287	auch		
+288	oben		
+289	mit		
+290	Latten		
+291	versehener		
+292	Rebengang		
+293	,		
+294	worin		
+295	zwischen		
+296	den		
+297	Ranken		
+298	und		
+299	Blättern		
+300	dunkelblaue		
+301	Malvasiertrauben		
+302	hingen		
+303	.		
+304	Hinter		
+305	den		
+306	Häusern		
+307	streckte		
+308	sich		
+309	bis		
+310	an		
+311	die		
+312	mit		
+313	runden		
+314	Verteidigungstürmen		
+315	bewehrte		
+316	Stadtumwallung		
+317	ein		
+318	wohlgepflegter		
+319	Obst-		
+320	und		
+321	Gemüsegarten		
+322	.		
+323	Auf		
+324	dem		
+325	geräumigen		
+326	Hofe		
+327	stand		
+328	seitwärts		
+329	ein		
+330	alter		
+331	Nußbaum		
+332	,		
+333	dessen		
+334	mächtigen		
+335	Stamm		
+336	eine		
+337	hölzerne		
+338	Sitzbank		
+339	umgab		
+340	.		
+341	Dieses		
+342	stattliche		
+343	Anwesen		
+344	hieß		
+345	der		
+346	Abtshof		
+347	,		
+348	weil		
+349	es		
+350	vor		
+351	Jahrhunderten		
+352	das		
+353	Eigentum		
+354	des		
+355	nahen		
+356	,		
+357	von		
+358	Konrad	31	(mention_id=28|references=(entity=(entity_id=entity_0053|fullname=Konrad II. der Salier|gender=m)))
+359	II.	31	(mention_id=28|references=(entity=(entity_id=entity_0053|fullname=Konrad II. der Salier|gender=m)))
+360	,		(mention_id=28|references=(entity=(entity_id=entity_0053|fullname=Konrad II. der Salier|gender=m)))
+361	dem		(mention_id=28|references=(entity=(entity_id=entity_0053|fullname=Konrad II. der Salier|gender=m)))
+362	Salier	32	(mention_id=28|references=(entity=(entity_id=entity_0053|fullname=Konrad II. der Salier|gender=m)))
+363	,		
+364	gestifteten		
+365	und		
+366	reich		
+367	dotierten		
+368	Benediktinerklosters		
+369	Limburg		
+370	gewesen		
+371	war		
+372	,		
+373	zu		
+374	dem		
+375	der		
+376	Kaiser	33	(mention_id=29|references=(entity=(entity_id=entity_0053|fullname=Konrad II. der Salier|gender=m)))
+377	selber		
+378	,		
+379	und		
+380	zwar		
+381	an		
+382	dem		
+383	nämlichen		
+384	Tage		
+385	wie		
+386	zu		
+387	dem		
+388	herrlichen		
+389	Dom		
+390	in		
+391	Speyer		
+392	den		
+393	Grundstein		
+394	gelegt		
+395	hatte		
+396	.		
+397	Einer	34	(mention_id=30|references=(entity=(entity_id=entity_0056|fullname=Abt von Bronnbach|gender=m)))
+398	der		
+399	Äbte	35	(mention_id=31|references=(entity=(entity_id=entity_0069|fullname=Äbte|gender=m|members=entity_0056|all_members_given=False|specialcase_entity=group)))
+400	hatte		
+401	den		
+402	Hof		
+403	erbaut		
+404	,		
+405	um		
+406	hier		
+407	die		
+408	edlen		
+409	Gewächse		
+410	der		
+411	ihn	36	
+412	umgebenden		
+413	,		
+414	dem		
+415	Kloster		
+416	zugehörigen		
+417	Weinberge		
+418	keltern		
+419	und		
+420	lagern		
+421	zu		
+422	können		
+423	,		
+424	und		
+425	jetzt		
+426	noch		
+427	waren		
+428	die		
+429	starken		
+430	Mauern		
+431	und		
+432	Gewölbe		
+433	vorhanden		
+434	,		
+435	in		
+436	denen		
+437	dies		
+438	einst		
+439	geschehen		
+440	war		
+441	.		
+442	Außer		
+443	diesem		
+444	unterirdischen		
+445	Gemäuer		
+446	aber		
+447	war		
+448	von		
+449	dem		
+450	abteilichen		
+451	Bau		
+452	kaum		
+453	ein		
+454	Stein		
+455	auf		
+456	dem		
+457	andern		
+458	geblieben		
+459	.		
+460	Kriegsstürme		
+461	hatten		
+462	ihn		
+463	wie		
+464	so		
+465	manches		
+466	,		
+467	was		
+468	Menschenhand		
+469	hier		
+470	geschaffen		
+471	,		
+472	fast		
+473	bis		
+474	auf		
+475	den		
+476	Grund		
+477	hinweggefegt		
+478	.		
+479	Denn		
+480	die		
+481	Pfalz		
+482	,		
+483	namentlich		
+484	die		
+485	Vorderpfalz		
+486	mit		
+487	ihrem		
+488	Köstliches		
+489	hervorbringenden		
+490	Rebengelände		
+491	an		
+492	der		
+493	Haardt		
+494	hatte		
+495	unter		
+496	schweren		
+497	Drangsalen		
+498	zu		
+499	leiden		
+500	gehabt		
+501	.		
+502	Die		
+503	unaufhörlichen		
+504	Fehden		
+505	des		
+506	streitlustigen		
+507	Pfalzgrafen	37	(mention_id=32|references=(entity=(entity_id=entity_0059|fullname=Friedrich der Siegreiche|gender=m)))
+508	bei		(mention_id=32|references=(entity=(entity_id=entity_0059|fullname=Friedrich der Siegreiche|gender=m)))
+509	Rhein		(mention_id=32|references=(entity=(entity_id=entity_0059|fullname=Friedrich der Siegreiche|gender=m)))
+510	Friedrich	38	(mention_id=32|references=(entity=(entity_id=entity_0059|fullname=Friedrich der Siegreiche|gender=m)))
+511	des	38	(mention_id=32|references=(entity=(entity_id=entity_0059|fullname=Friedrich der Siegreiche|gender=m)))
+512	Siegreichen	38	(mention_id=32|references=(entity=(entity_id=entity_0059|fullname=Friedrich der Siegreiche|gender=m)))
+513	,		
+514	die		
+515	Untaten		
+516	des		
+517	Bauernkrieges		
+518	,		
+519	die		
+520	verzweifelten		
+521	Kämpfe		
+522	mit		
+523	den		
+524	beutegierigen		
+525	Landsknechten	39	(mention_id=33|references=(entity=(entity_id=entity_0064|fullname=Landsknechte des Markgrafen Albrecht Alcibiades von Brandenburg|gender=m|specialcase_entity=group)))
+526	des		
+527	Markgrafen	40	(mention_id=34|references=(entity=(entity_id=entity_0057|fullname=Markgraf Albrecht Alcibiades von Brandenburg|gender=m)))
+528	Albrecht	40	(mention_id=34|references=(entity=(entity_id=entity_0057|fullname=Markgraf Albrecht Alcibiades von Brandenburg|gender=m)))
+529	Alcibiades	40	(mention_id=34|references=(entity=(entity_id=entity_0057|fullname=Markgraf Albrecht Alcibiades von Brandenburg|gender=m)))
+530	von	40	(mention_id=34|references=(entity=(entity_id=entity_0057|fullname=Markgraf Albrecht Alcibiades von Brandenburg|gender=m)))
+531	Brandenburg	40	(mention_id=34|references=(entity=(entity_id=entity_0057|fullname=Markgraf Albrecht Alcibiades von Brandenburg|gender=m)))
+532	und		
+533	endlich		
+534	die		
+535	furchtbaren		
+536	Heimsuchungen		
+537	im		
+538	dreißigjährigen		
+539	Kriege		
+540	unter		
+541	Tilly	41	(mention_id=35|references=(entity=(entity_id=entity_0067|fullname=Johann T’Serclaes von Tilly|gender=m)))
+542	,		
+543	dem		
+544	Grafen	42	(mention_id=36|references=(entity=(entity_id=entity_0060|fullname=Graf Ernst von Mansfeld|gender=m)))
+545	Ernst	42	(mention_id=36|references=(entity=(entity_id=entity_0060|fullname=Graf Ernst von Mansfeld|gender=m)))
+546	von	42	(mention_id=36|references=(entity=(entity_id=entity_0060|fullname=Graf Ernst von Mansfeld|gender=m)))
+547	Mansfeld	42	(mention_id=36|references=(entity=(entity_id=entity_0060|fullname=Graf Ernst von Mansfeld|gender=m)))
+548	und		
+549	dem		
+550	Herzog	43	(mention_id=37|references=(entity=(entity_id=entity_0054|fullname=Herzog Christian von Braunschweig|gender=m)))
+551	Christian	43	(mention_id=37|references=(entity=(entity_id=entity_0054|fullname=Herzog Christian von Braunschweig|gender=m)))
+552	von	43	(mention_id=37|references=(entity=(entity_id=entity_0054|fullname=Herzog Christian von Braunschweig|gender=m)))
+553	Braunschweig	43	(mention_id=37|references=(entity=(entity_id=entity_0054|fullname=Herzog Christian von Braunschweig|gender=m)))
+554	hatten		
+555	die		
+556	Städte		
+557	und		
+558	Dörfer		
+559	der		
+560	Pfalz		
+561	eingeäschert		
+562	,		
+563	das		
+564	Land		
+565	verödet		
+566	,		
+567	die		
+568	Leute	44	(mention_id=38|references=(entity=(entity_id=generic_0114|fullname=generic_0001|gender=u|specialcase_entity=generic)))
+569	ins		
+570	Elend		
+571	versetzt		
+572	.		
+573	Aber		
+574	die		
+575	unerschöpfliche		
+576	Fruchtbarkeit		
+577	des		
+578	Bodens		
+579	brachte		
+580	nach		
+581	jeder		
+582	Verwüstung		
+583	die		
+584	jungen		
+585	Saaten		
+586	und		
+587	Pflanzungen		
+588	zu		
+589	schnellem		
+590	Wachstum		
+591	,		
+592	und		
+593	die		
+594	Betriebsamkeit		
+595	der		
+596	Bewohner	45	(mention_id=39|references=(entity=(entity_id=generic_0115|fullname=generic_0002|gender=u|specialcase_entity=generic)))
+597	besaß		
+598	die		
+599	zähe		
+600	Kraft		
+601	,		
+602	unverdrossen		
+603	wieder		
+604	aufzurichten		
+605	,		
+606	was		
+607	niedergestampft		
+608	,		
+609	verbrannt		
+610	und		
+611	verdorben		
+612	war		
+613	.		
+614	Trotz		
+615	aller		
+616	Verheerungen		
+617	,		
+618	denen		
+619	sie		
+620	im		
+621	Lauf		
+622	der		
+623	Zeiten		
+624	ausgesetzt		
+625	war		
+626	,		
+627	rühmte		
+628	sich		
+629	die		
+630	Pfalz		
+631	,		
+632	einer		
+633	der		
+634	höchstgesegneten		
+635	Gaue		
+636	des		
+637	deutschen		
+638	Reiches		
+639	zu		
+640	sein		
+641	,		
+642	so		
+643	daß		
+644	es		
+645	einst		
+646	von		
+647	ihr		
+648	hieß		
+649	,		
+650	sie		
+651	wäre		
+652	so		
+653	reich		
+654	,		
+655	daß		
+656	hier		
+657	selbst		
+658	die		
+659	Bettelleute	46	(mention_id=40|references=(entity=(entity_id=generic_0116|fullname=generic_0003|gender=u|specialcase_entity=generic)))
+660	Kapitalsteuer		
+661	zahlten		
+662	.		
+663	Und		
+664	jetzt		
+665	,		
+666	sechzehn		
+667	Jahre		
+668	nach		
+669	dem		
+670	Westfälischen		
+671	Frieden		
+672	,		
+673	unter		
+674	der		
+675	Regierung		
+676	des		
+677	für		
+678	die		
+679	Wohlfahrt		
+680	seines		(mention_id=41|references=(entity=(entity_id=entity_0047|fullname=Kurfürst Karl Ludwig|gender=m)))
+681	Landes		
+682	rastlos		
+683	bemühten		
+684	Kurfürsten	47	
+685	und		
+686	Pfalzgrafen	48	
+687	Karl	48	
+688	Ludwig	48	
+689	,		
+690	war		
+691	sie		
+692	in		
+693	fröhlichem		
+694	Aufschwung		
+695	begriffen		
+696	;		
+697	allerwegen		
+698	entfaltete		
+699	sich		
+700	ein		
+701	sichtliches		
+702	Gedeihen		
+703	von		
+704	Handel		
+705	und		
+706	Gewerbe		
+707	,		
+708	Acker-		
+709	und		
+710	Weinbau		
+711	.		
+712	Auch		
+713	der		
+714	Abtshof		
+715	,		
+716	die		
+717	einstige		
+718	Siedelung		
+719	jenes		
+720	längst		
+721	zerstörten		
+722	Benediktinerstiftes		
+723	,		
+724	hatte		
+725	sich		
+726	aus		
+727	den		
+728	Trümmern		
+729	,		
+730	in		
+731	die		
+732	er		
+733	mehr		
+734	als		
+735	einmal		
+736	gesunken		
+737	war		
+738	,		
+739	in		
+740	erneuter		
+741	Gestalt		
+742	erhoben		
+743	und		
+744	war		
+745	nun		
+746	schon		
+747	in		
+748	der		
+749	vierten		
+750	Generation		
+751	das		
+752	Erbe		
+753	der		
+754	Familie	49	(mention_id=42|references=(entity=(entity_id=entity_0007|fullname=Familie Armbruster|gender=mf|members=entity_0001,entity_0003,entity_0004,entity_0005,entity_0008,entity_0016,entity_0017|all_members_given=True|specialcase_entity=group)))
+755	Armbruster	49	(mention_id=42|references=(entity=(entity_id=entity_0007|fullname=Familie Armbruster|gender=mf|members=entity_0001,entity_0003,entity_0004,entity_0005,entity_0008,entity_0016,entity_0017|all_members_given=True|specialcase_entity=group)))
+756	.		
+757	Seine		
+758	letzte		
+759	Beschädigung		
+760	durch		
+761	die		
+762	Spanier		(mention_id=43|references=(entity=(entity_id=generic_0117|fullname=generic|gender=u|specialcase_entity=generic)))
+763	,		
+764	die		
+765	sein	50	
+766	gegenwärtiger		
+767	Besitzer	51	(mention_id=44|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))
+768	als		
+769	junger		
+770	Mensch	52	(mention_id=45|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))
+771	schon		
+772	erlebt		
+773	hatte		
+774	,		
+775	war		
+776	nicht		
+777	so		
+778	schlimm		
+779	gewesen		
+780	wie		
+781	die		
+782	früheren		
+783	.		
+784	Christophs	53	(mention_id=46|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))
+785	Großvater	54	(mention_id=47|references=(entity=(entity_id=entity_0058|fullname=Großvater Armbruster|gender=m)))
+786	hatte		
+787	ihn		
+788	wiederhergestellt		
+789	,		
+790	sein	55	(mention_id=48|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))
+791	Vater	56	(mention_id=49|references=(entity=(entity_id=entity_0037|fullname=Vater von C. Armbruster|gender=m)))
+792	noch		
+793	erweitert		
+794	und		
+795	ausgebaut		
+796	und		
+797	er	57	(mention_id=50|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))
+798	selber		
+799	ihn		
+800	endlich		
+801	zu		
+802	dem		
+803	gemacht		
+804	,		
+805	was		
+806	er		
+807	heute		
+808	war		
+809	,		
+810	ein		
+811	echt		
+812	pfälzischer		
+813	Bauern-		
+814	und		
+815	Winzerhof		
+816	,		
+817	der		
+818	sich		
+819	sehen		
+820	lassen		
+821	konnte		
+822	und		
+823	in		
+824	ganz		
+825	Wachenheim		
+826	nur		
+827	von		
+828	einem		
+829	einzigen		
+830	an		
+831	Größe		
+832	und		
+833	schmucker		
+834	Wohnlichkeit		
+835	noch		
+836	übertroffen		
+837	wurde		
+838	.		
+839	Hier		
+840	auf		
+841	seinem	58	(mention_id=51|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))
+842	freien		
+843	Eigen		
+844	saß		
+845	nun		
+846	Christoph	59	(mention_id=52|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))
+847	Armbruster	59	(mention_id=52|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))
+848	und		
+849	trommelte		
+850	mit		
+851	den		
+852	Fingern		
+853	auf		
+854	der		
+855	Tischplatte		
+856	.		
+857	Plötzlich		
+858	überflog		
+859	ein		
+860	gutmütig		
+861	schlaues		
+862	Lächeln		
+863	seine	60	(mention_id=53|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))
+864	markigen		
+865	Züge		
+866	,		
+867	und		
+868	er	61	(mention_id=54|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))
+869	hob		
+870	den		
+871	Blick		
+872	zu		
+873	der		
+874	trutzigen		
+875	Wachtenburg		
+876	empor		
+877	,		
+878	die		
+879	unweit		
+880	der		
+881	Stadt		
+882	den		
+883	Gipfel		
+884	eines		
+885	steilen		
+886	Vorberges		
+887	krönte		
+888	.		
+889	Die		
+890	Sonne		
+891	war		
+892	bereits		
+893	hinter		
+894	dem		
+895	hohen		
+896	,		
+897	in		
+898	schönen		
+899	Linien		
+900	auf-		
+901	und		
+902	absteigenden		
+903	Kamme		
+904	des		
+905	Gebirges		
+906	verschwunden		
+907	,		
+908	aber		
+909	ein		
+910	flammendes		
+911	Abendrot		
+912	stand		
+913	am		
+914	Himmel		
+915	und		
+916	überhauchte		
+917	die		
+918	Zinnen		
+919	und		
+920	Türme		
+921	der		
+922	Burg		
+923	mit		
+924	einem		
+925	goldigen		
+926	Schimmer		
+927	.		
+928	Dort		
+929	hauste		
+930	der		
+931	Reichsfreiherr	62	(mention_id=55|references=(entity=(entity_id=entity_0018|fullname=Reichsfreiherr Dietrich von Remchingen|gender=m)))
+932	Dietrich	62	(mention_id=55|references=(entity=(entity_id=entity_0018|fullname=Reichsfreiherr Dietrich von Remchingen|gender=m)))
+933	von	62	(mention_id=55|references=(entity=(entity_id=entity_0018|fullname=Reichsfreiherr Dietrich von Remchingen|gender=m)))
+934	Remchingen	62	(mention_id=55|references=(entity=(entity_id=entity_0018|fullname=Reichsfreiherr Dietrich von Remchingen|gender=m)))
+935	,		
+936	kurfürstlicher		
+937	Obervogt	63	(mention_id=56|references=(entity=(entity_id=entity_0018|fullname=Reichsfreiherr Dietrich von Remchingen|gender=m)))
+938	der		
+939	Vorderpfalz		
+940	,		
+941	der	64	(mention_id=57|references=(entity=(entity_id=entity_0018|fullname=Reichsfreiherr Dietrich von Remchingen|gender=m)))
+942	die		
+943	ihm	65	(mention_id=58|references=(entity=(entity_id=entity_0018|fullname=Reichsfreiherr Dietrich von Remchingen|gender=m)))
+944	verliehene		
+945	Machtbefugnis		
+946	gerecht		
+947	und		
+948	mild		
+949	ausübte		
+950	.		
+951	Er	66	(mention_id=59|references=(entity=(entity_id=entity_0018|fullname=Reichsfreiherr Dietrich von Remchingen|gender=m)))
+952	und		
+953	Christoph	67	(mention_id=60|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))
+954	waren		
+955	Jugendgenossen	68	
+956	.		
+957	Der		
+958	Abkömmling	69	(mention_id=61|references=(entity=(entity_id=entity_0018|fullname=Reichsfreiherr Dietrich von Remchingen|gender=m)))
+959	eines		
+960	alten		
+961	,		
+962	stolzen		
+963	Rittergeschlechtes	70	
+964	und		
+965	der		
+966	Sproß	71	(mention_id=62|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))
+967	einer		
+968	alten		
+969	,		
+970	freien		
+971	Bauernfamilie	72	(mention_id=63|references=(entity=(entity_id=entity_0007|fullname=Familie Armbruster|gender=mf|members=entity_0001,entity_0003,entity_0004,entity_0005,entity_0008,entity_0016,entity_0017|all_members_given=True|specialcase_entity=group)))
+972	hatten		
+973	sich	73	(mention_id=64|references=(entity=(entity_id=entity_0018|fullname=Reichsfreiherr Dietrich von Remchingen|gender=m)),(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))
+974	als		
+975	Knaben	74	(mention_id=65|references=(entity=(entity_id=entity_0018|fullname=Reichsfreiherr Dietrich von Remchingen|gender=m)),(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))
+976	bald		
+977	auf		
+978	den		
+979	Wällen		
+980	und		
+981	in		
+982	den		
+983	Gräben		
+984	der		
+985	Burg		
+986	,		
+987	bald		
+988	in		
+989	dem		
+990	Garten		
+991	und		
+992	den		
+993	Wirtschaftsräumen		
+994	des		
+995	Winzerhofes		
+996	getummelt		
+997	,		
+998	hatten		
+999	als		
+1000	Jünglinge	75	(mention_id=66|references=(entity=(entity_id=entity_0018|fullname=Reichsfreiherr Dietrich von Remchingen|gender=m)),(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))
+1001	die		
+1002	Berge		
+1003	und		
+1004	Täler		
+1005	der		
+1006	Haardt		
+1007	durchstreift		
+1008	,		
+1009	als		
+1010	Männer	76	(mention_id=67|references=(entity=(entity_id=entity_0018|fullname=Reichsfreiherr Dietrich von Remchingen|gender=m)),(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))
+1011	dem		
+1012	edlen		
+1013	Weidwerk		
+1014	obgelegen		
+1015	und		
+1016	endlich		
+1017	die		
+1018	Schrecken		
+1019	des		
+1020	großen		
+1021	Krieges		
+1022	miteinander		
+1023	getragen		
+1024	,		
+1025	und		
+1026	ihre	77	(mention_id=68|references=(entity=(entity_id=entity_0018|fullname=Reichsfreiherr Dietrich von Remchingen|gender=m)),(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))
+1027	Freundschaft		
+1028	hatte		
+1029	durch		
+1030	all		
+1031	die		
+1032	langen		
+1033	Jahre		
+1034	treulich		
+1035	standgehalten		
+1036	und		
+1037	blühte		
+1038	heute		
+1039	noch		
+1040	,		
+1041	wo		
+1042	sie	78	(mention_id=69|references=(entity=(entity_id=entity_0018|fullname=Reichsfreiherr Dietrich von Remchingen|gender=m)),(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))
+1043	beide	79	(mention_id=70|references=(entity=(entity_id=entity_0018|fullname=Reichsfreiherr Dietrich von Remchingen|gender=m)),(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))
+1044	rüstige		
+1045	,		
+1046	welterfahrene		
+1047	Sechziger	80	(mention_id=71|references=(entity=(entity_id=entity_0018|fullname=Reichsfreiherr Dietrich von Remchingen|gender=m)),(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))
+1048	waren		
+1049	.		
+1050	Im		
+1051	traulichen		
+1052	Gespräch		
+1053	nannten		
+1054	sie	81	(mention_id=72|references=(entity=(entity_id=entity_0018|fullname=Reichsfreiherr Dietrich von Remchingen|gender=m)),(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))
+1055	sich	82	(mention_id=73|references=(entity=(entity_id=entity_0018|fullname=Reichsfreiherr Dietrich von Remchingen|gender=m)),(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))
+1056	du		
+1057	und		
+1058	bei		
+1059	den		
+1060	Vornamen		
+1061	,		
+1062	im		
+1063	amtlichen		
+1064	Verkehr		
+1065	aber		
+1066	,		
+1067	den		
+1068	ja		
+1069	ihre	83	(mention_id=74|references=(entity=(entity_id=entity_0018|fullname=Reichsfreiherr Dietrich von Remchingen|gender=m)),(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))
+1070	Stellungen		
+1071	mit		
+1072	sich		
+1073	brachten		
+1074	und		
+1075	bei		
+1076	dem		
+1077	es		
+1078	hin		
+1079	und		
+1080	wieder		
+1081	zu		
+1082	kleinen		
+1083	Reibereien		
+1084	und		
+1085	manchmal		
+1086	auch		
+1087	zu		
+1088	einem		
+1089	scharfen		
+1090	Wortwechsel		
+1091	kam		
+1092	,		
+1093	schnoben		
+1094	sie	84	(mention_id=75|references=(entity=(entity_id=entity_0018|fullname=Reichsfreiherr Dietrich von Remchingen|gender=m)),(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))
+1095	sich	85	(mention_id=76|references=(entity=(entity_id=entity_0018|fullname=Reichsfreiherr Dietrich von Remchingen|gender=m)),(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))
+1096	auch		
+1097	wohl		
+1098	mit		
+1099	Herr	86	(mention_id=77|references=(entity=(entity_id=entity_0018|fullname=Reichsfreiherr Dietrich von Remchingen|gender=m)))
+1100	Reichsfreiherr	86	(mention_id=77|references=(entity=(entity_id=entity_0018|fullname=Reichsfreiherr Dietrich von Remchingen|gender=m)))
+1101	!	86	
+1102	und		
+1103	Herr	87	(mention_id=78|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))
+1104	Bürgermeister	87	(mention_id=78|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))
+1105	!	87	
+1106	unwirsch		
+1107	an		
+1108	,		
+1109	um		
+1110	sich	88	(mention_id=79|references=(entity=(entity_id=entity_0018|fullname=Reichsfreiherr Dietrich von Remchingen|gender=m)),(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))
+1111	beim		
+1112	nächsten		
+1113	Wiedersehen		
+1114	ohne		
+1115	Vorrede		
+1116	die		
+1117	Hände		
+1118	zu		
+1119	schütteln		
+1120	und		
+1121	herzlich		
+1122	ins		
+1123	Gesicht		
+1124	zu		
+1125	lachen		
+1126	.		
+1127	An		
+1128	einen		
+1129	solchen		
+1130	kürzlich		
+1131	gehabten		
+1132	Streit		
+1133	mochte		
+1134	der		
+1135	Bürgermeister	89	(mention_id=80|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))
+1136	wohl		
+1137	gedacht		
+1138	haben		
+1139	,		
+1140	als		
+1141	er	90	(mention_id=81|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))
+1142	zur		
+1143	Wachtenburg		
+1144	hinaufgeblickt		
+1145	hatte		
+1146	.		
+1147	Wie		
+1148	er	91	(mention_id=82|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))
+1149	da		
+1150	nun		
+1151	am		
+1152	Tisch		
+1153	unter		
+1154	den		
+1155	Reben		
+1156	saß		
+1157	und		
+1158	sinnierte		
+1159	,		
+1160	lugte		
+1161	plötzlich		
+1162	,		
+1163	unbemerkt		
+1164	von		
+1165	ihm	92	(mention_id=83|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))
+1166	,		
+1167	ein		
+1168	brauner		
+1169	Mädchenkopf		(mention_id=84|references=(entity=(entity_id=entity_0004|fullname=Ammerie Armbruster|gender=f)|specialcase_reference=part))
+1170	aus		
+1171	der		
+1172	Haustür		
+1173	um		
+1174	die		
+1175	Ecke		
+1176	,		
+1177	und		
+1178	husch		
+1179	!		
+1180	sprang		
+1181	eine		
+1182	hübsche		
+1183	junge		
+1184	Dirn	93	(mention_id=85|references=(entity=(entity_id=entity_0004|fullname=Ammerie Armbruster|gender=f)))
+1185	die		
+1186	paar		
+1187	Stufen		
+1188	hinab		
+1189	und		
+1190	zu		
+1191	dem		
+1192	Alten	94	(mention_id=86|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))
+1193	auf		
+1194	die		
+1195	Bank		
+1196	,		
+1197	wo		
+1198	sie	95	(mention_id=87|references=(entity=(entity_id=entity_0004|fullname=Ammerie Armbruster|gender=f)))
+1199	sich	96	(mention_id=88|references=(entity=(entity_id=entity_0004|fullname=Ammerie Armbruster|gender=f)))
+1200	kuschelig		
+1201	an		
+1202	seine	97	(mention_id=89|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))
+1203	breite		
+1204	Schulter		
+1205	schmiegte		
+1206	.		
+1207	»		
+1208	Grashupf		(mention_id=90|references=(entity=(entity_id=entity_0004|fullname=Ammerie Armbruster|gender=f)))
+1209	,		
+1210	bist		
+1211	du	98	(mention_id=91|references=(entity=(entity_id=entity_0004|fullname=Ammerie Armbruster|gender=f)))
+1212	da		
+1213	?		
+1214	«		
+1215	sprach		
+1216	er	99	(mention_id=92|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))
+1217	,		
+1218	indem		
+1219	er	100	(mention_id=93|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))
+1220	den		
+1221	Arm		
+1222	um		
+1223	seinen	101	(mention_id=94|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))
+1224	Liebling	102	(mention_id=95|references=(entity=(entity_id=entity_0004|fullname=Ammerie Armbruster|gender=f)))
+1225	,		
+1226	die		
+1227	jüngste		
+1228	Tochter	103	(mention_id=96|references=(entity=(entity_id=entity_0004|fullname=Ammerie Armbruster|gender=f)))
+1229	,		
+1230	schlang		
+1231	.		
+1232	»		
+1233	Wo		
+1234	ist		
+1235	die		
+1236	Mutter	104	(mention_id=97|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)))
+1237	?		
+1238	«		
+1239	»		
+1240	Sie	105	(mention_id=98|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)))
+1241	kommt		
+1242	auch		
+1243	gleich		
+1244	,		
+1245	«		
+1246	erwiderte		
+1247	das		
+1248	Mädchen	106	(mention_id=99|references=(entity=(entity_id=entity_0004|fullname=Ammerie Armbruster|gender=f)))
+1249	.		
+1250	»		
+1251	Hast		
+1252	wohl		
+1253	schon		
+1254	Hunger		
+1255	,		
+1256	Väterle	107	(mention_id=100|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))
+1257	?		
+1258	«		
+1259	»		
+1260	O		
+1261	ja		
+1262	,		
+1263	aber		
+1264	die		
+1265	andern	108	(mention_id=101|references=(entity=(entity_id=entity_0007|fullname=Familie Armbruster|gender=mf|members=entity_0001,entity_0003,entity_0004,entity_0005,entity_0008,entity_0016,entity_0017|all_members_given=True|specialcase_entity=group)))
+1266	fehlen		
+1267	auch		
+1268	noch		
+1269	,		
+1270	ihr	109	(mention_id=102|references=(entity=(entity_id=entity_0007|fullname=Familie Armbruster|gender=mf|members=entity_0001,entity_0003,entity_0004,entity_0005,entity_0008,entity_0016,entity_0017|all_members_given=True|specialcase_entity=group)))
+1271	laßt		
+1272	mich	110	(mention_id=103|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))
+1273	ja		
+1274	ganz		
+1275	allein		
+1276	hier		
+1277	.		
+1278	«		
+1279	»		
+1280	Ich	111	(mention_id=104|references=(entity=(entity_id=entity_0004|fullname=Ammerie Armbruster|gender=f)))
+1281	doch		
+1282	nicht		
+1283	,		
+1284	Väterle	112	(mention_id=105|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))
+1285	!		
+1286	ich	113	(mention_id=106|references=(entity=(entity_id=entity_0004|fullname=Ammerie Armbruster|gender=f)))
+1287	lauf		
+1288	dir	114	(mention_id=107|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))
+1289	immer		
+1290	nach		
+1291	wie		
+1292	ein		
+1293	spürendes		
+1294	Hundl	115	
+1295	seinem		
+1296	verlorenen		
+1297	Herrn	116	(mention_id=108|references=(entity=(entity_id=entity_0062|fullname=Hundebesitzer|gender=u|specialcase_entity=nonfact)))
+1298	.		
+1299	«		
+1300	»		
+1301	Ja		
+1302	du	117	(mention_id=109|references=(entity=(entity_id=entity_0004|fullname=Ammerie Armbruster|gender=f)))
+1303	,		
+1304	du	118	(mention_id=110|references=(entity=(entity_id=entity_0004|fullname=Ammerie Armbruster|gender=f)))
+1305	!		
+1306	«		
+1307	lächelte		
+1308	er	119	(mention_id=111|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))
+1309	und		
+1310	drückte		
+1311	sie	120	(mention_id=112|references=(entity=(entity_id=entity_0004|fullname=Ammerie Armbruster|gender=f)))
+1312	sanft		
+1313	an		
+1314	sich	121	(mention_id=113|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))
+1315	.		
+1316	Die		
+1317	Siebzehnjährige	122	(mention_id=114|references=(entity=(entity_id=entity_0004|fullname=Ammerie Armbruster|gender=f)))
+1318	mit		
+1319	runden		
+1320	Wangen		
+1321	und		
+1322	lustigen		
+1323	Augen		
+1324	war		
+1325	eine		
+1326	Herzensfreude		
+1327	für		
+1328	den		
+1329	ernsten		
+1330	,		
+1331	manchmal		
+1332	kurz		
+1333	angebundenen		
+1334	Mann	123	(mention_id=115|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))
+1335	,		
+1336	und		
+1337	wenn		
+1338	er	124	(mention_id=116|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))
+1339	sie	125	(mention_id=117|references=(entity=(entity_id=entity_0004|fullname=Ammerie Armbruster|gender=f)))
+1340	auch		
+1341	keineswegs		
+1342	verzogen		
+1343	hatte		
+1344	,		
+1345	so		
+1346	besaß		
+1347	sie	126	(mention_id=118|references=(entity=(entity_id=entity_0004|fullname=Ammerie Armbruster|gender=f)))
+1348	doch		
+1349	eine		
+1350	nicht		
+1351	geringe		
+1352	Gewalt		
+1353	über		
+1354	ihn	127	(mention_id=119|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))
+1355	und		
+1356	konnte		
+1357	ihm	128	(mention_id=120|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))
+1358	abbetteln		
+1359	und		
+1360	abschmeicheln		
+1361	,		
+1362	was		
+1363	sie	129	(mention_id=121|references=(entity=(entity_id=entity_0004|fullname=Ammerie Armbruster|gender=f)))
+1364	wollte		
+1365	.		
+1366	Er	130	(mention_id=122|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))
+1367	aber		
+1368	hatte		
+1369	seinen	131	(mention_id=123|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))
+1370	Spaß		
+1371	an		
+1372	den		
+1373	kleinen		
+1374	Listen		
+1375	,		
+1376	die		
+1377	sie	132	(mention_id=124|references=(entity=(entity_id=entity_0004|fullname=Ammerie Armbruster|gender=f)))
+1378	dabei		
+1379	anwandte		
+1380	und		
+1381	die		
+1382	er	133	(mention_id=125|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))
+1383	,		
+1384	ohne		
+1385	sich's	134	
+1386	merken		
+1387	zu		
+1388	lassen		
+1389	,		
+1390	wohl		
+1391	durchschaute		
+1392	.		
+1393	Die		
+1394	beiden	135	(mention_id=126|references=(entity=(entity_id=entity_0004|fullname=Ammerie Armbruster|gender=f)),(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))
+1395	blieben		
+1396	nicht		
+1397	lange		
+1398	allein		
+1399	.		
+1400	Zwei		
+1401	pausbäckige		
+1402	Jungen	136	(mention_id=127|references=(entity=(entity_id=entity_0017|fullname=Jüngerer Enkel von Christoph Armbruster|gender=m)),(entity=(entity_id=entity_0016|fullname=Älterer Enkel von Christoph Armbruster|gender=m)))
+1403	von		
+1404	zehn		
+1405	und		
+1406	acht		
+1407	Jahren		
+1408	,		
+1409	Christophs	137	(mention_id=128|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))
+1410	Enkel	138	(mention_id=129|references=(entity=(entity_id=entity_0016|fullname=Älterer Enkel von Christoph Armbruster|gender=m)),(entity=(entity_id=entity_0017|fullname=Jüngerer Enkel von Christoph Armbruster|gender=m)))
+1411	,		
+1412	kamen		
+1413	um		
+1414	das		
+1415	Haus		
+1416	herum		
+1417	angestürmt		
+1418	,		
+1419	und		
+1420	das		
+1421	erste		
+1422	Wort		
+1423	des		
+1424	älteren	139	(mention_id=130|references=(entity=(entity_id=entity_0016|fullname=Älterer Enkel von Christoph Armbruster|gender=m)))
+1425	war		
+1426	:		
+1427	»		
+1428	Gibt's		
+1429	noch		
+1430	nichts		
+1431	zu		
+1432	essen		
+1433	?		
+1434	«		
+1435	»		
+1436	So		
+1437	!		
+1438	«		
+1439	lachte		
+1440	Christoph	140	(mention_id=131|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))
+1441	,		
+1442	»		
+1443	wo		
+1444	habt		
+1445	ihr	141	(mention_id=132|references=(entity=(entity_id=entity_0016|fullname=Älterer Enkel von Christoph Armbruster|gender=m)),(entity=(entity_id=entity_0017|fullname=Jüngerer Enkel von Christoph Armbruster|gender=m)))
+1446	Schlingel		(mention_id=133|references=(entity=(entity_id=entity_0017|fullname=Jüngerer Enkel von Christoph Armbruster|gender=m)),(entity=(entity_id=entity_0016|fullname=Älterer Enkel von Christoph Armbruster|gender=m)))
+1447	denn		
+1448	gesteckt		
+1449	?		
+1450	«		
+1451	»		
+1452	Im		
+1453	Garten		
+1454	,		
+1455	Großvater	142	(mention_id=134|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))
+1456	,		
+1457	«		
+1458	erwiderte		
+1459	der		
+1460	jüngere	143	(mention_id=135|references=(entity=(entity_id=entity_0017|fullname=Jüngerer Enkel von Christoph Armbruster|gender=m)))
+1461	.		
+1462	»		
+1463	Und		
+1464	wo		
+1465	sind		
+1466	eure	144	(mention_id=136|references=(entity=(entity_id=entity_0016|fullname=Älterer Enkel von Christoph Armbruster|gender=m)),(entity=(entity_id=entity_0017|fullname=Jüngerer Enkel von Christoph Armbruster|gender=m)))
+1467	Eltern	145	(mention_id=137|references=(entity=(entity_id=entity_0005|fullname=Peter Armbruster|gender=m)),(entity=(entity_id=entity_0008|fullname=Elsbeth Armbruster|gender=f)))
+1468	?		
+1469	«		
+1470	»		
+1471	Vater	146	(mention_id=138|references=(entity=(entity_id=entity_0005|fullname=Peter Armbruster|gender=m)))
+1472	ist		
+1473	nicht		
+1474	daheim		
+1475	,		
+1476	und		
+1477	Mutter	147	(mention_id=139|references=(entity=(entity_id=entity_0008|fullname=Elsbeth Armbruster|gender=f)))
+1478	singt's		
+1479	Bärbele		(mention_id=140|references=(entity=(entity_id=entity_0051|fullname=Bärbele Armbruster|gender=f)))
+1480	in		
+1481	Schlaf		
+1482	.		
+1483	«		
+1484	»		
+1485	Dann		
+1486	seht		
+1487	mal		
+1488	nach		
+1489	,		
+1490	ob		
+1491	ihr	148	(mention_id=141|references=(entity=(entity_id=entity_0017|fullname=Jüngerer Enkel von Christoph Armbruster|gender=m)),(entity=(entity_id=entity_0016|fullname=Älterer Enkel von Christoph Armbruster|gender=m)))
+1492	Großmutter	149	(mention_id=142|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)))
+1493	findet		
+1494	,		
+1495	daß		
+1496	sie	150	(mention_id=143|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)))
+1497	euch	151	(mention_id=144|references=(entity=(entity_id=entity_0017|fullname=Jüngerer Enkel von Christoph Armbruster|gender=m)),(entity=(entity_id=entity_0016|fullname=Älterer Enkel von Christoph Armbruster|gender=m)))
+1498	die		
+1499	gefräßigen		
+1500	Mäuler		
+1501	stopft		
+1502	.		
+1503	«		
+1504	Da		
+1505	sprangen		
+1506	sie	152	(mention_id=145|references=(entity=(entity_id=entity_0016|fullname=Älterer Enkel von Christoph Armbruster|gender=m)),(entity=(entity_id=entity_0017|fullname=Jüngerer Enkel von Christoph Armbruster|gender=m)))
+1507	ins		
+1508	Haus		
+1509	hinein		
+1510	,		
+1511	und		
+1512	man		
+1513	hörte		
+1514	sie	153	(mention_id=146|references=(entity=(entity_id=entity_0017|fullname=Jüngerer Enkel von Christoph Armbruster|gender=m)),(entity=(entity_id=entity_0016|fullname=Älterer Enkel von Christoph Armbruster|gender=m)))
+1515	nach		
+1516	der		
+1517	Großmutter	154	(mention_id=147|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)))
+1518	rufen		
+1519	.		
+1520	Nun		
+1521	erscholl		
+1522	von		
+1523	innen		
+1524	eine		
+1525	weibliche		
+1526	Stimme		
+1527	:		
+1528	»		
+1529	Ammerie	155	(mention_id=148|references=(entity=(entity_id=entity_0004|fullname=Ammerie Armbruster|gender=f)))
+1530	!		
+1531	«		
+1532	»		
+1533	Ja		
+1534	,		
+1535	Mutter	156	(mention_id=149|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)))
+1536	!		
+1537	«		
+1538	gab		
+1539	das		
+1540	Mädchen	157	(mention_id=150|references=(entity=(entity_id=entity_0004|fullname=Ammerie Armbruster|gender=f)))
+1541	zurück		
+1542	und		
+1543	enteilte		
+1544	.		
+1545	Bald		
+1546	kamen		
+1547	die		
+1548	vier	158	(mention_id=151|references=(entity=(entity_id=entity_0017|fullname=Jüngerer Enkel von Christoph Armbruster|gender=m)),(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)),(entity=(entity_id=entity_0004|fullname=Ammerie Armbruster|gender=f)),(entity=(entity_id=entity_0016|fullname=Älterer Enkel von Christoph Armbruster|gender=m)))
+1549	wieder		
+1550	.		
+1551	Christophs	159	(mention_id=152|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))
+1552	Frau	160	(mention_id=153|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)))
+1553	Madlen	160	(mention_id=153|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)))
+1554	,		
+1555	in		
+1556	Abkürzung		
+1557	von		
+1558	Magdalene	161	(mention_id=154|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)))
+1559	so		
+1560	genannt		
+1561	,		
+1562	und		
+1563	Ammerie	162	(mention_id=155|references=(entity=(entity_id=entity_0004|fullname=Ammerie Armbruster|gender=f)))
+1564	,		
+1565	beide	163	(mention_id=156|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)),(entity=(entity_id=entity_0004|fullname=Ammerie Armbruster|gender=f)))
+1566	mit		
+1567	irdenen		
+1568	Tellern		
+1569	und		
+1570	Schüsseln		
+1571	beladen		
+1572	,		
+1573	auf		
+1574	denen		
+1575	das		
+1576	kalte		
+1577	Abendbrot		
+1578	appetitlich		
+1579	geschichtet		
+1580	war		
+1581	,		
+1582	und		
+1583	hinter		
+1584	ihnen	164	(mention_id=157|references=(entity=(entity_id=entity_0004|fullname=Ammerie Armbruster|gender=f)),(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)))
+1585	die		
+1586	zwei		
+1587	Jungen	165	(mention_id=158|references=(entity=(entity_id=entity_0016|fullname=Älterer Enkel von Christoph Armbruster|gender=m)),(entity=(entity_id=entity_0017|fullname=Jüngerer Enkel von Christoph Armbruster|gender=m)))
+1588	mit		
+1589	anderem		
+1590	Eßgerät		
+1591	,		
+1592	soviel		
+1593	ihre	166	(mention_id=159|references=(entity=(entity_id=entity_0017|fullname=Jüngerer Enkel von Christoph Armbruster|gender=m)),(entity=(entity_id=entity_0016|fullname=Älterer Enkel von Christoph Armbruster|gender=m)))
+1594	kleinen		
+1595	Hände		
+1596	fassen		
+1597	konnten		
+1598	.		
+1599	Alles		
+1600	wurde		
+1601	auf		
+1602	die		
+1603	sieben		
+1604	Plätze		
+1605	an		
+1606	dem		
+1607	zuvor		
+1608	mit		
+1609	einem		
+1610	blaugemusterten		
+1611	Linnen		
+1612	bedeckten		
+1613	Tisch		
+1614	verteilt		
+1615	,		
+1616	denn		
+1617	der		
+1618	Sohn	167	(mention_id=160|references=(entity=(entity_id=entity_0005|fullname=Peter Armbruster|gender=m)))
+1619	aß		
+1620	mit		
+1621	Frau	168	(mention_id=161|references=(entity=(entity_id=entity_0008|fullname=Elsbeth Armbruster|gender=f)))
+1622	und		
+1623	Kindern	169	(mention_id=162|references=(entity=(entity_id=entity_0016|fullname=Älterer Enkel von Christoph Armbruster|gender=m)),(entity=(entity_id=entity_0017|fullname=Jüngerer Enkel von Christoph Armbruster|gender=m)))
+1624	stets		
+1625	bei		
+1626	den		
+1627	Eltern	170	(mention_id=163|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)),(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)))
+1628	,		
+1629	weil		
+1630	es		
+1631	der		
+1632	alte		
+1633	Herr	171	(mention_id=164|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))
+1634	,		
+1635	der	172	(mention_id=165|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))
+1636	auf		
+1637	den		
+1638	festen		
+1639	Zusammenhalt		
+1640	der		
+1641	Familie	173	(mention_id=166|references=(entity=(entity_id=entity_0007|fullname=Familie Armbruster|gender=mf|members=entity_0001,entity_0003,entity_0004,entity_0005,entity_0008,entity_0016,entity_0017|all_members_given=True|specialcase_entity=group)))
+1642	hohen		
+1643	Wert		
+1644	legte		
+1645	,		
+1646	so		
+1647	verlangte		
+1648	.		
+1649	Als		
+1650	Ammerie	174	(mention_id=167|references=(entity=(entity_id=entity_0004|fullname=Ammerie Armbruster|gender=f)))
+1651	dann		
+1652	noch		
+1653	einen		
+1654	großen		
+1655	Steinkrug		
+1656	selbst		
+1657	geherbsteten		
+1658	Wein		
+1659	und		
+1660	fünf		
+1661	zinnerne		
+1662	Becher		
+1663	geholt		
+1664	hatte		
+1665	,		
+1666	erschien		
+1667	auch		
+1668	Elsbeth	175	(mention_id=168|references=(entity=(entity_id=entity_0008|fullname=Elsbeth Armbruster|gender=f)))
+1669	,		
+1670	Armbrusters	176	(mention_id=169|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))
+1671	schöngewachsene		
+1672	Schwiegertochter	177	(mention_id=170|references=(entity=(entity_id=entity_0008|fullname=Elsbeth Armbruster|gender=f)))
+1673	.		
+1674	»		
+1675	Wo		
+1676	hast		
+1677	du	178	(mention_id=171|references=(entity=(entity_id=entity_0008|fullname=Elsbeth Armbruster|gender=f)))
+1678	deinen	179	(mention_id=172|references=(entity=(entity_id=entity_0008|fullname=Elsbeth Armbruster|gender=f)))
+1679	Mann	180	(mention_id=173|references=(entity=(entity_id=entity_0005|fullname=Peter Armbruster|gender=m)))
+1680	?		
+1681	«		
+1682	fragte		
+1683	Christoph	181	(mention_id=174|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))
+1684	.		
+1685	»		
+1686	Ich	182	(mention_id=175|references=(entity=(entity_id=entity_0008|fullname=Elsbeth Armbruster|gender=f)))
+1687	weiß		
+1688	nicht		
+1689	,		
+1690	wo		
+1691	der		
+1692	Peter	183	(mention_id=176|references=(entity=(entity_id=entity_0005|fullname=Peter Armbruster|gender=m)))
+1693	bleibt		
+1694	,		
+1695	«		
+1696	erwiderte		
+1697	Elsbeth	184	(mention_id=177|references=(entity=(entity_id=entity_0008|fullname=Elsbeth Armbruster|gender=f)))
+1698	.		
+1699	»		
+1700	Er	185	(mention_id=178|references=(entity=(entity_id=entity_0005|fullname=Peter Armbruster|gender=m)))
+1701	wollte		
+1702	nur		
+1703	noch		
+1704	einmal		
+1705	zum		
+1706	Böttchermeister	186	(mention_id=179|references=(entity=(entity_id=entity_0014|fullname=Lutz Hebenstreit|gender=m)))
+1707	Lutz	187	(mention_id=179|references=(entity=(entity_id=entity_0014|fullname=Lutz Hebenstreit|gender=m)))
+1708	Hebenstreit	187	(mention_id=179|references=(entity=(entity_id=entity_0014|fullname=Lutz Hebenstreit|gender=m)))
+1709	gehen		
+1710	.		
+1711	«		
+1712	»		
+1713	Nun		
+1714	,		
+1715	warten		
+1716	wir	188	(mention_id=180|references=(entity=(entity_id=entity_0016|fullname=Älterer Enkel von Christoph Armbruster|gender=m)),(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)),(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)),(entity=(entity_id=entity_0004|fullname=Ammerie Armbruster|gender=f)),(entity=(entity_id=entity_0017|fullname=Jüngerer Enkel von Christoph Armbruster|gender=m)))
+1717	nicht		
+1718	auf		
+1719	ihn	189	(mention_id=181|references=(entity=(entity_id=entity_0005|fullname=Peter Armbruster|gender=m)))
+1720	,		
+1721	«		
+1722	bestimmte		
+1723	der		
+1724	Bürgermeister	190	(mention_id=182|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))
+1725	und		
+1726	ließ		
+1727	sich	191	(mention_id=183|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))
+1728	quervor		
+1729	am		
+1730	Tische		
+1731	in		
+1732	einem		
+1733	grobgezimmerten		
+1734	Lehnstuhl		
+1735	nieder		
+1736	,		
+1737	seiner	192	(mention_id=184|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))
+1738	Frau	193	(mention_id=185|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)))
+1739	gegenüber		
+1740	,		
+1741	so		
+1742	daß		
+1743	Kinder	194	(mention_id=186|references=(entity=(entity_id=entity_0004|fullname=Ammerie Armbruster|gender=f)))
+1744	und		
+1745	Enkel	195	(mention_id=187|references=(entity=(entity_id=entity_0017|fullname=Jüngerer Enkel von Christoph Armbruster|gender=m)),(entity=(entity_id=entity_0016|fullname=Älterer Enkel von Christoph Armbruster|gender=m)))
+1746	zwischen		
+1747	den		
+1748	beiden		
+1749	Alten	196	(mention_id=188|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)),(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)))
+1750	saßen		
+1751	,		
+1752	das		
+1753	jüngere		
+1754	Ehepaar	197	(mention_id=189|references=(entity=(entity_id=entity_0005|fullname=Peter Armbruster|gender=m)),(entity=(entity_id=entity_0008|fullname=Elsbeth Armbruster|gender=f)))
+1755	auf		
+1756	der		
+1757	Bank		
+1758	.		
+1759	Ehe		
+1760	sie	198	(mention_id=190|references=(entity=(entity_id=entity_0007|fullname=Familie Armbruster|gender=mf|members=entity_0001,entity_0003,entity_0004,entity_0005,entity_0008,entity_0016,entity_0017|all_members_given=True|specialcase_entity=group)))
+1761	aber		
+1762	alle		
+1763	Platz		
+1764	genommen		
+1765	hatten		
+1766	,		
+1767	rief		
+1768	der		
+1769	ältere	199	(mention_id=191|references=(entity=(entity_id=entity_0016|fullname=Älterer Enkel von Christoph Armbruster|gender=m)))
+1770	der		
+1771	beiden		
+1772	Jungen	200	(mention_id=192|references=(entity=(entity_id=entity_0017|fullname=Jüngerer Enkel von Christoph Armbruster|gender=m)),(entity=(entity_id=entity_0016|fullname=Älterer Enkel von Christoph Armbruster|gender=m)))
+1773	:		
+1774	»		
+1775	Da		
+1776	kommt		
+1777	der		
+1778	Vater	201	(mention_id=193|references=(entity=(entity_id=entity_0005|fullname=Peter Armbruster|gender=m)))
+1779	!		
+1780	«		
+1781	Peter	202	(mention_id=194|references=(entity=(entity_id=entity_0005|fullname=Peter Armbruster|gender=m)))
+1782	,		
+1783	an		
+1784	Gliederbau		
+1785	wie		
+1786	auch		
+1787	im		
+1788	Gesicht		
+1789	seines	203	(mention_id=195|references=(entity=(entity_id=entity_0005|fullname=Peter Armbruster|gender=m)))
+1790	Vaters	204	(mention_id=196|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))
+1791	Ebenbild		(mention_id=197|references=(entity=(entity_id=entity_0005|fullname=Peter Armbruster|gender=m)))
+1792	und		
+1793	dessen	205	(mention_id=198|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))
+1794	rechte		
+1795	Hand		
+1796	im		
+1797	Wirtschaftsbetriebe		
+1798	,		
+1799	kam		
+1800	schnell		
+1801	über		
+1802	den		
+1803	Hof		
+1804	heran		
+1805	und		
+1806	setzte		
+1807	sich	206	(mention_id=199|references=(entity=(entity_id=entity_0005|fullname=Peter Armbruster|gender=m)))
+1808	mit		
+1809	einem		
+1810	entschuldigenden		
+1811	»		
+1812	Verzeiht		
+1813	!		
+1814	«		
+1815	neben		
+1816	seine	207	(mention_id=200|references=(entity=(entity_id=entity_0005|fullname=Peter Armbruster|gender=m)))
+1817	Frau	208	(mention_id=201|references=(entity=(entity_id=entity_0008|fullname=Elsbeth Armbruster|gender=f)))
+1818	.		
+1819	Nach		
+1820	einem		
+1821	kurzen		
+1822	Tischgebete		
+1823	,		
+1824	das		
+1825	der		
+1826	älteste		
+1827	Enkel	209	(mention_id=202|references=(entity=(entity_id=entity_0016|fullname=Älterer Enkel von Christoph Armbruster|gender=m)))
+1828	geläufig		
+1829	,		
+1830	doch		
+1831	ohne		
+1832	große		
+1833	Andacht		
+1834	hersagte		
+1835	,		
+1836	begannen		
+1837	sie	210	(mention_id=203|references=(entity=(entity_id=entity_0007|fullname=Familie Armbruster|gender=mf|members=entity_0001,entity_0003,entity_0004,entity_0005,entity_0008,entity_0016,entity_0017|all_members_given=True|specialcase_entity=group)))
+1838	zu		
+1839	essen		
+1840	,		
+1841	und		
+1842	Elsbeth	211	(mention_id=204|references=(entity=(entity_id=entity_0008|fullname=Elsbeth Armbruster|gender=f)))
+1843	teilte		
+1844	ihren	212	(mention_id=205|references=(entity=(entity_id=entity_0008|fullname=Elsbeth Armbruster|gender=f)))
+1845	beiden		
+1846	Jungen	213	(mention_id=206|references=(entity=(entity_id=entity_0017|fullname=Jüngerer Enkel von Christoph Armbruster|gender=m)),(entity=(entity_id=entity_0016|fullname=Älterer Enkel von Christoph Armbruster|gender=m)))
+1847	ein		
+1848	Genügendes		
+1849	zu		
+1850	,		
+1851	während		
+1852	Ammerie	214	(mention_id=207|references=(entity=(entity_id=entity_0004|fullname=Ammerie Armbruster|gender=f)))
+1853	aus		
+1854	dem		
+1855	Kruge		
+1856	die		
+1857	Becher		
+1858	füllte		
+1859	.		
+1860	»		
+1861	Du	215	(mention_id=208|references=(entity=(entity_id=entity_0005|fullname=Peter Armbruster|gender=m)))
+1862	warst		
+1863	noch		
+1864	bei		
+1865	Lutz	216	(mention_id=209|references=(entity=(entity_id=entity_0014|fullname=Lutz Hebenstreit|gender=m)))
+1866	Hebenstreit	216	(mention_id=209|references=(entity=(entity_id=entity_0014|fullname=Lutz Hebenstreit|gender=m)))
+1867	?		
+1868	«		
+1869	fragte		
+1870	Christoph	217	(mention_id=210|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))
+1871	.		
+1872	»		
+1873	Ja		
+1874	,		
+1875	ich	218	(mention_id=211|references=(entity=(entity_id=entity_0005|fullname=Peter Armbruster|gender=m)))
+1876	wollte		
+1877	ihn	219	(mention_id=212|references=(entity=(entity_id=entity_0014|fullname=Lutz Hebenstreit|gender=m)))
+1878	noch		
+1879	einmal		
+1880	ernstlich		
+1881	an		
+1882	unsere	220	(mention_id=213|references=(entity=(entity_id=entity_0005|fullname=Peter Armbruster|gender=m)),(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))
+1883	Fässer		
+1884	mahnen		
+1885	,		
+1886	«		
+1887	gab		
+1888	Peter	221	(mention_id=214|references=(entity=(entity_id=entity_0005|fullname=Peter Armbruster|gender=m)))
+1889	zur		
+1890	Antwort		
+1891	,		
+1892	»		
+1893	aber		
+1894	da		
+1895	kam		
+1896	ich	222	(mention_id=215|references=(entity=(entity_id=entity_0005|fullname=Peter Armbruster|gender=m)))
+1897	bei		
+1898	dem		
+1899	bärbeißigen		
+1900	alten		
+1901	Junggesellen	223	(mention_id=216|references=(entity=(entity_id=entity_0014|fullname=Lutz Hebenstreit|gender=m)))
+1902	schön		
+1903	an		
+1904	.		
+1905	Erst		
+1906	müßte		
+1907	er	224	(mention_id=217|references=(entity=(entity_id=entity_0014|fullname=Lutz Hebenstreit|gender=m)))
+1908	die		
+1909	für		
+1910	meinen	225	(mention_id=218|references=(entity=(entity_id=entity_0005|fullname=Peter Armbruster|gender=m)))
+1911	Schwiegervater	226	(mention_id=219|references=(entity=(entity_id=entity_0012|fullname=Florian Gersbacher|gender=m)))
+1912	fertigschaffen		
+1913	,		
+1914	der	227	(mention_id=220|references=(entity=(entity_id=entity_0012|fullname=Florian Gersbacher|gender=m)))
+1915	ihm	228	(mention_id=221|references=(entity=(entity_id=entity_0014|fullname=Lutz Hebenstreit|gender=m)))
+1916	mit		
+1917	Entziehung		
+1918	seiner	229	(mention_id=222|references=(entity=(entity_id=entity_0012|fullname=Florian Gersbacher|gender=m)))
+1919	Kundschaft		
+1920	gedroht		
+1921	hätte		
+1922	,		
+1923	wenn		
+1924	er	230	(mention_id=223|references=(entity=(entity_id=entity_0012|fullname=Florian Gersbacher|gender=m)))
+1925	sie		
+1926	ihm	231	(mention_id=224|references=(entity=(entity_id=entity_0014|fullname=Lutz Hebenstreit|gender=m)))
+1927	nicht		
+1928	pünktlich		
+1929	lieferte		
+1930	;		
+1931	wir	232	(mention_id=225|references=(entity=(entity_id=entity_0005|fullname=Peter Armbruster|gender=m)),(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))
+1932	sollten		
+1933	ihn	233	(mention_id=226|references=(entity=(entity_id=entity_0014|fullname=Lutz Hebenstreit|gender=m)))
+1934	in		
+1935	des		
+1936	Deibels	234	(mention_id=227|references=(entity=(entity_id=entity_0041|fullname=Teufel|gender=m|specialcase_entity=nonfact)))
+1937	Namen		
+1938	in		
+1939	Ruhe		
+1940	lassen		
+1941	,		
+1942	fuhr		
+1943	er	235	(mention_id=228|references=(entity=(entity_id=entity_0014|fullname=Lutz Hebenstreit|gender=m)))
+1944	patzig		
+1945	auf		
+1946	mich	236	(mention_id=229|references=(entity=(entity_id=entity_0005|fullname=Peter Armbruster|gender=m)))
+1947	los		
+1948	,		
+1949	ehe		
+1950	ich	237	(mention_id=230|references=(entity=(entity_id=entity_0005|fullname=Peter Armbruster|gender=m)))
+1951	nur		
+1952	ausreden		
+1953	konnte		
+1954	.		
+1955	«		
+1956	»		
+1957	Nun		
+1958	,		
+1959	es		
+1960	ist		
+1961	ja		
+1962	noch		
+1963	ein		
+1964	paar		
+1965	Wochen		
+1966	Zeit		
+1967	bis		
+1968	zur		
+1969	Lese		
+1970	,		
+1971	«		
+1972	meinte		
+1973	Madlen	238	(mention_id=231|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)))
+1974	begütigend		
+1975	.		
+1976	»		
+1977	Die		
+1978	Wingerten		
+1979	sind		
+1980	geschlossen		
+1981	,		
+1982	und		
+1983	wir	239	(mention_id=232|references=(entity=(entity_id=entity_0007|fullname=Familie Armbruster|gender=mf|members=entity_0001,entity_0003,entity_0004,entity_0005,entity_0008,entity_0016,entity_0017|all_members_given=True|specialcase_entity=group)))
+1984	haben		
+1985	einen		
+1986	guten		
+1987	Herbst		
+1988	vor		
+1989	uns	240	(mention_id=233|references=(entity=(entity_id=entity_0007|fullname=Familie Armbruster|gender=mf|members=entity_0001,entity_0003,entity_0004,entity_0005,entity_0008,entity_0016,entity_0017|all_members_given=True|specialcase_entity=group)))
+1990	,		
+1991	«		
+1992	sagte		
+1993	Christoph	241	(mention_id=234|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))
+1994	.		
+1995	»		
+1996	Aber		
+1997	freilich		
+1998	,		
+1999	wo		
+2000	Florian	242	(mention_id=235|references=(entity=(entity_id=entity_0012|fullname=Florian Gersbacher|gender=m)))
+2001	Gersbacher	242	(mention_id=235|references=(entity=(entity_id=entity_0012|fullname=Florian Gersbacher|gender=m)))
+2002	den		
+2003	Vorsprung		
+2004	hat		
+2005	,		
+2006	da		
+2007	hat		
+2008	unsereins	243	(mention_id=236|references=(entity=(entity_id=entity_0007|fullname=Familie Armbruster|gender=mf|members=entity_0001,entity_0003,entity_0004,entity_0005,entity_0008,entity_0016,entity_0017|all_members_given=True|specialcase_entity=group)))
+2009	das		
+2010	Nachsehen		
+2011	.		
+2012	Und		
+2013	das		
+2014	will		
+2015	mein	244	(mention_id=237|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))
+2016	Freund	245	(mention_id=238|references=(entity=(entity_id=entity_0012|fullname=Florian Gersbacher|gender=m)))
+2017	sein		
+2018	!		
+2019	«		
+2020	fügte		
+2021	er	246	(mention_id=239|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))
+2022	launig		
+2023	hinzu		
+2024	.		
+2025	»		
+2026	Ist		
+2027	er	247	(mention_id=240|references=(entity=(entity_id=entity_0012|fullname=Florian Gersbacher|gender=m)))
+2028	auch		
+2029	,		
+2030	lieber		
+2031	Vater	248	(mention_id=241|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))
+2032	!		
+2033	«		
+2034	fiel		
+2035	Elsbeth	249	(mention_id=242|references=(entity=(entity_id=entity_0008|fullname=Elsbeth Armbruster|gender=f)))
+2036	,		
+2037	die		
+2038	Tochter	250	(mention_id=243|references=(entity=(entity_id=entity_0008|fullname=Elsbeth Armbruster|gender=f)))
+2039	des		
+2040	eben		
+2041	Beredeten	251	(mention_id=244|references=(entity=(entity_id=entity_0012|fullname=Florian Gersbacher|gender=m)))
+2042	,		
+2043	ein		
+2044	.		
+2045	»		
+2046	Aber		
+2047	warum		
+2048	kommst		
+2049	du	252	(mention_id=245|references=(entity=(entity_id=entity_0005|fullname=Peter Armbruster|gender=m)))
+2050	so		
+2051	spät		
+2052	?		
+2053	«		
+2054	wandte		
+2055	sie	253	(mention_id=246|references=(entity=(entity_id=entity_0008|fullname=Elsbeth Armbruster|gender=f)))
+2056	sich	254	(mention_id=247|references=(entity=(entity_id=entity_0008|fullname=Elsbeth Armbruster|gender=f)))
+2057	an		
+2058	ihren	255	(mention_id=248|references=(entity=(entity_id=entity_0008|fullname=Elsbeth Armbruster|gender=f)))
+2059	Mann	256	(mention_id=249|references=(entity=(entity_id=entity_0005|fullname=Peter Armbruster|gender=m)))
+2060	.		
+2061	»		
+2062	Ich	257	(mention_id=250|references=(entity=(entity_id=entity_0005|fullname=Peter Armbruster|gender=m)))
+2063	hatte		
+2064	auf		
+2065	dem		
+2066	Rückwege		
+2067	einen		
+2068	kleinen		
+2069	Aufenthalt		
+2070	,		
+2071	«		
+2072	erwiderte		
+2073	dieser	258	(mention_id=251|references=(entity=(entity_id=entity_0005|fullname=Peter Armbruster|gender=m)))
+2074	.		
+2075	»		
+2076	Warst		
+2077	wohl		
+2078	noch		
+2079	in		
+2080	einer		
+2081	Straußwirtschaft		
+2082	und		
+2083	hast		
+2084	dir	259	(mention_id=252|references=(entity=(entity_id=entity_0005|fullname=Peter Armbruster|gender=m)))
+2085	dort		
+2086	das		
+2087	Loch		
+2088	im		
+2089	Ärmel		
+2090	geholt		
+2091	?		
+2092	«		
+2093	zog		
+2094	Ammerie	260	(mention_id=253|references=(entity=(entity_id=entity_0004|fullname=Ammerie Armbruster|gender=f)))
+2095	ihren	261	(mention_id=254|references=(entity=(entity_id=entity_0004|fullname=Ammerie Armbruster|gender=f)))
+2096	Bruder	262	(mention_id=255|references=(entity=(entity_id=entity_0005|fullname=Peter Armbruster|gender=m)))
+2097	spottlustig		
+2098	auf		
+2099	.		
+2100	»		
+2101	Wahrhaftig		
+2102	,		
+2103	er	263	(mention_id=256|references=(entity=(entity_id=entity_0005|fullname=Peter Armbruster|gender=m)))
+2104	hat		
+2105	ein		
+2106	zerfetztes		
+2107	Kamisol		
+2108	!		
+2109	«		
+2110	rief		
+2111	Elsbeth	264	(mention_id=257|references=(entity=(entity_id=entity_0008|fullname=Elsbeth Armbruster|gender=f)))
+2112	erschrocken		
+2113	,		
+2114	jetzt		
+2115	erst		
+2116	den		
+2117	Riß		
+2118	in		
+2119	seinem	265	(mention_id=258|references=(entity=(entity_id=entity_0005|fullname=Peter Armbruster|gender=m)))
+2120	Wams		
+2121	entdeckend		
+2122	.		
+2123	»		
+2124	Mann		(mention_id=259|references=(entity=(entity_id=entity_0005|fullname=Peter Armbruster|gender=m)))
+2125	!		
+2126	was		
+2127	hast		
+2128	du	266	(mention_id=260|references=(entity=(entity_id=entity_0005|fullname=Peter Armbruster|gender=m)))
+2129	angestellt		
+2130	?		
+2131	«		
+2132	»		
+2133	Ja		
+2134	,		
+2135	da		
+2136	kriegst		
+2137	du	267	(mention_id=261|references=(entity=(entity_id=entity_0008|fullname=Elsbeth Armbruster|gender=f)))
+2138	was		
+2139	zu		
+2140	flicken		
+2141	,		
+2142	«		
+2143	lachte		
+2144	Peter	268	(mention_id=262|references=(entity=(entity_id=entity_0005|fullname=Peter Armbruster|gender=m)))
+2145	.		
+2146	»		
+2147	Ich	269	(mention_id=263|references=(entity=(entity_id=entity_0005|fullname=Peter Armbruster|gender=m)))
+2148	wurde		
+2149	ein		
+2150	wenig		
+2151	handgemein		
+2152	mit		
+2153	einem		
+2154	widerspenstigen		
+2155	Ochsen		
+2156	,		
+2157	der		
+2158	trotz		
+2159	Zuredens		
+2160	und		
+2161	Schläge		
+2162	nicht		
+2163	in		
+2164	den		
+2165	Stall		
+2166	hinein		
+2167	wollte		
+2168	.		
+2169	Da		
+2170	mußt		
+2171	ich	270	(mention_id=264|references=(entity=(entity_id=entity_0005|fullname=Peter Armbruster|gender=m)))
+2172	doch		
+2173	dem		
+2174	Hans	271	(mention_id=265|references=(entity=(entity_id=entity_0050|fullname=Hans Kaub|gender=m)))
+2175	Kaub	271	(mention_id=265|references=(entity=(entity_id=entity_0050|fullname=Hans Kaub|gender=m)))
+2176	und		
+2177	seinem	272	(mention_id=266|references=(entity=(entity_id=entity_0050|fullname=Hans Kaub|gender=m)))
+2178	Knechte	273	(mention_id=267|references=(entity=(entity_id=entity_0065|fullname=Knecht von Hans Kaub|gender=m)))
+2179	helfen		
+2180	und		
+2181	packte		
+2182	den		
+2183	störrischen		
+2184	Dickkopf		
+2185	bei		
+2186	den		
+2187	Hörnern		
+2188	,		
+2189	was		
+2190	ihm		
+2191	nicht		
+2192	zu		
+2193	gefallen		
+2194	schien		
+2195	,		
+2196	denn		
+2197	er		
+2198	stieß		
+2199	nach		
+2200	mir	274	(mention_id=268|references=(entity=(entity_id=entity_0005|fullname=Peter Armbruster|gender=m)))
+2201	,		
+2202	schlitzte		
+2203	mir	275	(mention_id=269|references=(entity=(entity_id=entity_0005|fullname=Peter Armbruster|gender=m)))
+2204	aber		
+2205	nur		
+2206	das		
+2207	Kamisol		
+2208	auf		
+2209	,		
+2210	nicht		
+2211	auch		
+2212	das		
+2213	Fell		
+2214	,		
+2215	und		
+2216	so		
+2217	ist		
+2218	es		
+2219	noch		
+2220	gut		
+2221	abgelaufen		
+2222	und		
+2223	nicht		
+2224	der		
+2225	Rede		
+2226	wert		
+2227	.		
+2228	Der		
+2229	Ochs		
+2230	mußte		
+2231	in		
+2232	den		
+2233	Stall		
+2234	,		
+2235	und		
+2236	nun		
+2237	ist		
+2238	er		
+2239	drin		
+2240	.		
+2241	«		
+2242	»		
+2243	Hast		
+2244	recht		
+2245	getan		
+2246	,		
+2247	«		
+2248	sprach		
+2249	der		
+2250	Bürgermeister	276	(mention_id=270|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))
+2251	mit		
+2252	seiner	277	(mention_id=271|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))
+2253	tiefen		
+2254	Stimme		
+2255	.		
+2256	»		
+2257	Wem	278	(mention_id=272|references=(entity=(entity_id=generic_0118|fullname=generic_0005|gender=u|specialcase_entity=generic)))
+2258	du	279	(mention_id=273|references=(entity=(entity_id=entity_0005|fullname=Peter Armbruster|gender=m)))
+2259	hilfst		
+2260	,		
+2261	der	280	(mention_id=274|references=(entity=(entity_id=generic_0119|fullname=generic_0006|gender=u|specialcase_entity=generic)))
+2262	hilft		
+2263	dir	281	(mention_id=275|references=(entity=(entity_id=entity_0005|fullname=Peter Armbruster|gender=m)))
+2264	wieder		
+2265	.		
+2266	«		
+2267	»		
+2268	Aber		
+2269	mit		
+2270	einem		
+2271	bösen		
+2272	Ochsen		
+2273	anzubinden		
+2274	ist		
+2275	eine		
+2276	Vermessenheit		
+2277	.		
+2278	Peter	282	(mention_id=276|references=(entity=(entity_id=entity_0005|fullname=Peter Armbruster|gender=m)))
+2279	,		
+2280	Peter	283	(mention_id=277|references=(entity=(entity_id=entity_0005|fullname=Peter Armbruster|gender=m)))
+2281	,		
+2282	immer		
+2283	noch		
+2284	die		
+2285	Tollkühnheit		
+2286	wie		
+2287	in		
+2288	deinen	284	(mention_id=278|references=(entity=(entity_id=entity_0005|fullname=Peter Armbruster|gender=m)))
+2289	jungen		
+2290	Jahren		
+2291	!		
+2292	«		
+2293	schalt		
+2294	ihn	285	(mention_id=279|references=(entity=(entity_id=entity_0005|fullname=Peter Armbruster|gender=m)))
+2295	Madlen	286	(mention_id=280|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)))
+2296	liebevoll		
+2297	.		
+2298	»		
+2299	Nein		
+2300	,		
+2301	Mütterle	287	(mention_id=281|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)))
+2302	,		
+2303	hab		
+2304	keine		
+2305	Bange		
+2306	,		
+2307	ich	288	(mention_id=282|references=(entity=(entity_id=entity_0005|fullname=Peter Armbruster|gender=m)))
+2308	nehm		
+2309	mich	289	(mention_id=283|references=(entity=(entity_id=entity_0005|fullname=Peter Armbruster|gender=m)))
+2310	schon		
+2311	in		
+2312	acht		
+2313	,		
+2314	wo's		
+2315	nötig		
+2316	ist		
+2317	,		
+2318	«		
+2319	beschwichtigte		
+2320	sie	290	(mention_id=284|references=(entity=(entity_id=entity_0005|fullname=Peter Armbruster|gender=m)))
+2321	der		
+2322	gute		
+2323	Sohn	291	(mention_id=285|references=(entity=(entity_id=entity_0005|fullname=Peter Armbruster|gender=m)))
+2324	.		
+2325	Frau	292	(mention_id=286|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)))
+2326	Madlen	292	(mention_id=286|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)))
+2327	machte		
+2328	den		
+2329	Eindruck		
+2330	einer		
+2331	behäbigen		
+2332	,		
+2333	sich	293	(mention_id=287|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)))
+2334	ihres	294	(mention_id=288|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)))
+2335	Standes		
+2336	und		
+2337	Wertes		
+2338	bewußten		
+2339	Bäuerin	295	(mention_id=289|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)))
+2340	,		
+2341	in		
+2342	deren	296	(mention_id=290|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)))
+2343	gescheiteltes		
+2344	Haar		
+2345	sich		
+2346	schon		
+2347	reichlich		
+2348	Silberfäden		
+2349	mischten		
+2350	.		
+2351	Sie	297	(mention_id=291|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)))
+2352	hatte		
+2353	ein		
+2354	ruhiges		
+2355	,		
+2356	wohlwollendes		
+2357	Gemüt		
+2358	,		
+2359	das		
+2360	sich		
+2361	in		
+2362	ihrem	298	(mention_id=292|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)))
+2363	vollen		
+2364	Antlitz		
+2365	mit		
+2366	den		
+2367	vielen		
+2368	Fältchen		
+2369	und		
+2370	in		
+2371	ihren	299	(mention_id=293|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)))
+2372	hell		
+2373	und		
+2374	freundlich		
+2375	blickenden		
+2376	Augen		
+2377	wie		
+2378	in		
+2379	der		
+2380	gemessenen		
+2381	Art		
+2382	ihres	300	(mention_id=294|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)))
+2383	Redens		
+2384	und		
+2385	Gebarens		
+2386	ausprägte		
+2387	.		
+2388	Ihrem	301	(mention_id=295|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)))
+2389	Manne	302	(mention_id=296|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))
+2390	war		
+2391	sie	303	(mention_id=297|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)))
+2392	eine		
+2393	treue		
+2394	,		
+2395	tapfere		
+2396	Lebensgefährtin	304	(mention_id=298|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)))
+2397	und		
+2398	hatte		
+2399	ihm	305	(mention_id=299|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))
+2400	vier		
+2401	Kinder	306	(mention_id=300|references=(entity=(entity_id=entity_0004|fullname=Ammerie Armbruster|gender=f)),(entity=(entity_id=entity_0005|fullname=Peter Armbruster|gender=m)),(entity=(entity_id=entity_0034|fullname=Bertel Armbruster|gender=f)),(entity=(entity_id=entity_0049|fullname=Sohn von Christoph und Madlen Armbruster|gender=m)))
+2402	geschenkt		
+2403	,		
+2404	deren	307	(mention_id=301|references=(entity=(entity_id=entity_0005|fullname=Peter Armbruster|gender=m)),(entity=(entity_id=entity_0049|fullname=Sohn von Christoph und Madlen Armbruster|gender=m)),(entity=(entity_id=entity_0004|fullname=Ammerie Armbruster|gender=f)),(entity=(entity_id=entity_0034|fullname=Bertel Armbruster|gender=f)))
+2405	ältestes	308	
+2406	Peter	309	(mention_id=302|references=(entity=(entity_id=entity_0005|fullname=Peter Armbruster|gender=m)))
+2407	war		
+2408	.		
+2409	Ein		
+2410	zweiter		
+2411	Sohn	310	(mention_id=303|references=(entity=(entity_id=entity_0049|fullname=Sohn von Christoph und Madlen Armbruster|gender=m)))
+2412	war		
+2413	jung		
+2414	gestorben		
+2415	,		
+2416	eine		
+2417	darauffolgende		
+2418	Tochter	311	(mention_id=304|references=(entity=(entity_id=entity_0034|fullname=Bertel Armbruster|gender=f)))
+2419	war		
+2420	an		
+2421	einen		
+2422	Zimmermeister		(mention_id=305|references=(entity=(entity_id=entity_0055|fullname=Bertels Zimmermeister|gender=m)))
+2423	in		
+2424	Neustadt		
+2425	verheiratet		
+2426	,		
+2427	und		
+2428	als		
+2429	nicht		
+2430	mehr		
+2431	erwarteter		
+2432	Spätling	312	(mention_id=306|references=(entity=(entity_id=entity_0004|fullname=Ammerie Armbruster|gender=f)))
+2433	hatte		
+2434	sich	313	(mention_id=307|references=(entity=(entity_id=entity_0004|fullname=Ammerie Armbruster|gender=f)))
+2435	Ammerie	314	(mention_id=308|references=(entity=(entity_id=entity_0004|fullname=Ammerie Armbruster|gender=f)))
+2436	noch		
+2437	eingestellt		
+2438	,		
+2439	die	315	(mention_id=309|references=(entity=(entity_id=entity_0004|fullname=Ammerie Armbruster|gender=f)))
+2440	schon		
+2441	in		
+2442	ihren	316	(mention_id=310|references=(entity=(entity_id=entity_0004|fullname=Ammerie Armbruster|gender=f)))
+2443	Kinderjahren		
+2444	etwas		
+2445	ungemein		
+2446	Drolliges		
+2447	gehabt		
+2448	hatte		
+2449	und		
+2450	nun		
+2451	,		
+2452	zur		
+2453	blühenden		
+2454	Jungfrau	317	(mention_id=311|references=(entity=(entity_id=entity_0004|fullname=Ammerie Armbruster|gender=f)))
+2455	gereift		
+2456	,		
+2457	Eltern	318	(mention_id=312|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)),(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)))
+2458	und		
+2459	Geschwister	319	(mention_id=313|references=(entity=(entity_id=entity_0005|fullname=Peter Armbruster|gender=m)),(entity=(entity_id=entity_0034|fullname=Bertel Armbruster|gender=f)))
+2460	mit		
+2461	ihrem	320	(mention_id=314|references=(entity=(entity_id=entity_0004|fullname=Ammerie Armbruster|gender=f)))
+2462	schalkhaften		
+2463	Frohsinn		
+2464	ergötzte		
+2465	.		
+2466	Sie	321	(mention_id=315|references=(entity=(entity_id=entity_0007|fullname=Familie Armbruster|gender=mf|members=entity_0001,entity_0003,entity_0004,entity_0005,entity_0008,entity_0016,entity_0017|all_members_given=True|specialcase_entity=group)))
+2467	hatten		
+2468	sie	322	(mention_id=316|references=(entity=(entity_id=entity_0004|fullname=Ammerie Armbruster|gender=f)))
+2469	alle		(mention_id=317|references=(entity=(entity_id=entity_0007|fullname=Familie Armbruster|gender=mf|members=entity_0001,entity_0003,entity_0004,entity_0005,entity_0008,entity_0016,entity_0017|all_members_given=True|specialcase_entity=group)))
+2470	lieb		
+2471	,		
+2472	auch		
+2473	Elsbeth	323	(mention_id=318|references=(entity=(entity_id=entity_0008|fullname=Elsbeth Armbruster|gender=f)))
+2474	stand		
+2475	mit		
+2476	der		
+2477	viel		
+2478	jüngeren		
+2479	Schwägerin	324	(mention_id=319|references=(entity=(entity_id=entity_0004|fullname=Ammerie Armbruster|gender=f)))
+2480	auf		
+2481	dem		
+2482	besten		
+2483	Fuße		
+2484	.		
+2485	So		
+2486	herrschte		
+2487	eine		
+2488	erfreuliche		
+2489	Eintracht		
+2490	in		
+2491	der		
+2492	Familie	325	(mention_id=320|references=(entity=(entity_id=entity_0007|fullname=Familie Armbruster|gender=mf|members=entity_0001,entity_0003,entity_0004,entity_0005,entity_0008,entity_0016,entity_0017|all_members_given=True|specialcase_entity=group)))
+2493	,		
+2494	und		
+2495	wenn		
+2496	man	326	(mention_id=321|references=(entity=(entity_id=entity_0007|fullname=Familie Armbruster|gender=mf|members=entity_0001,entity_0003,entity_0004,entity_0005,entity_0008,entity_0016,entity_0017|all_members_given=True|specialcase_entity=group)))
+2497	tagsüber		
+2498	seine	327	(mention_id=322|references=(entity=(entity_id=entity_0007|fullname=Familie Armbruster|gender=mf|members=entity_0001,entity_0003,entity_0004,entity_0005,entity_0008,entity_0016,entity_0017|all_members_given=True|specialcase_entity=group)))
+2499	Arbeit		
+2500	getan		
+2501	hatte		
+2502	,		
+2503	so		
+2504	ergab		
+2505	man	328	(mention_id=323|references=(entity=(entity_id=entity_0007|fullname=Familie Armbruster|gender=mf|members=entity_0001,entity_0003,entity_0004,entity_0005,entity_0008,entity_0016,entity_0017|all_members_given=True|specialcase_entity=group)))
+2506	sich	329	(mention_id=324|references=(entity=(entity_id=entity_0007|fullname=Familie Armbruster|gender=mf|members=entity_0001,entity_0003,entity_0004,entity_0005,entity_0008,entity_0016,entity_0017|all_members_given=True|specialcase_entity=group)))
+2507	am		
+2508	Feierabend		
+2509	und		
+2510	bei		
+2511	Tische		
+2512	einer		
+2513	harmlos		
+2514	heiteren		
+2515	Stimmung		
+2516	,		
+2517	die		
+2518	kein		
+2519	Mißton		
+2520	trübte		
+2521	.		
+2522	Christoph	330	(mention_id=325|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))
+2523	Armbruster	330	(mention_id=325|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))
+2524	selber		(mention_id=326|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))
+2525	,		
+2526	das		
+2527	von		
+2528	allen	331	(mention_id=327|references=(entity=(entity_id=entity_0007|fullname=Familie Armbruster|gender=mf|members=entity_0001,entity_0003,entity_0004,entity_0005,entity_0008,entity_0016,entity_0017|all_members_given=True|specialcase_entity=group)))
+2529	verehrte		
+2530	Oberhaupt	332	(mention_id=328|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))
+2531	,		
+2532	waltete		
+2533	auf		
+2534	dem		
+2535	Abtshofe		
+2536	als		
+2537	unbeschränkter		
+2538	Herr	333	(mention_id=329|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))
+2539	und		
+2540	Gebieter	334	(mention_id=330|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))
+2541	,		
+2542	dessen	335	(mention_id=331|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))
+2543	leisestem		
+2544	Wort		
+2545	und		
+2546	Wink		
+2547	sich	336	(mention_id=332|references=(entity=(entity_id=entity_0007|fullname=Familie Armbruster|gender=mf|members=entity_0001,entity_0003,entity_0004,entity_0005,entity_0008,entity_0016,entity_0017|all_members_given=True|specialcase_entity=group)))
+2548	jeder	337	(mention_id=333|references=(entity=(entity_id=entity_0007|fullname=Familie Armbruster|gender=mf|members=entity_0001,entity_0003,entity_0004,entity_0005,entity_0008,entity_0016,entity_0017|all_members_given=True|specialcase_entity=group)))
+2549	der		
+2550	Seinigen	338	(mention_id=334|references=(entity=(entity_id=entity_0007|fullname=Familie Armbruster|gender=mf|members=entity_0001,entity_0003,entity_0004,entity_0005,entity_0008,entity_0016,entity_0017|all_members_given=True|specialcase_entity=group)))
+2551	ohne		
+2552	Widerspruch		
+2553	fügte		
+2554	.		
+2555	In		
+2556	dem		
+2557	,		
+2558	trotz		
+2559	der		
+2560	festen		
+2561	Mauern		
+2562	und		
+2563	Türme		
+2564	,		
+2565	mehr		
+2566	bäuerlichen		
+2567	als		
+2568	städtischen		
+2569	Gemeinwesen		
+2570	genoß		
+2571	er	339	(mention_id=335|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))
+2572	wegen		
+2573	seiner	340	(mention_id=336|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))
+2574	Rechtschaffenheit		
+2575	und		
+2576	besonnenen		
+2577	Tatkraft		
+2578	eines		
+2579	hohen		
+2580	Ansehens		
+2581	,		
+2582	obwohl		
+2583	er	341	(mention_id=337|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))
+2584	aus		
+2585	einem		
+2586	besonderen		
+2587	Grunde		
+2588	auch		
+2589	einige		
+2590	seiner	342	(mention_id=338|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))
+2591	Mitbürger	343	(mention_id=339|references=(entity=(entity_id=entity_0021|fullname=Christophs Gegner|gender=mf|members=entity_0015,entity_0043|all_members_given=False|specialcase_entity=group)))
+2592	zu		
+2593	entschiedenen		
+2594	Gegnern	344	
+2595	hatte		
+2596	.		
+2597	Seit		
+2598	dreiundzwanzig		
+2599	Jahren		
+2600	war		
+2601	er	345	(mention_id=340|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))
+2602	hier		
+2603	Bürgermeister	346	(mention_id=341|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))
+2604	als		
+2605	unmittelbarer		
+2606	Nachfolger	347	(mention_id=342|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))
+2607	seines	348	(mention_id=343|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))
+2608	Vaters	349	(mention_id=344|references=(entity=(entity_id=entity_0037|fullname=Vater von C. Armbruster|gender=m)))
+2609	,		
+2610	der	350	(mention_id=345|references=(entity=(entity_id=entity_0037|fullname=Vater von C. Armbruster|gender=m)))
+2611	gleichfalls		
+2612	dieses		
+2613	Amt		
+2614	bis		
+2615	zu		
+2616	seinem	351	(mention_id=346|references=(entity=(entity_id=entity_0037|fullname=Vater von C. Armbruster|gender=m)))
+2617	in		
+2618	hohem		
+2619	Alter		
+2620	eintretenden		
+2621	Tode		
+2622	innegehabt		
+2623	hatte		
+2624	.		
+2625	Als		
+2626	nun		
+2627	an		
+2628	dem		
+2629	warmen		
+2630	,		
+2631	bei		
+2632	dem		
+2633	klaren		
+2634	Himmel		
+2635	lange		
+2636	hell		
+2637	bleibenden		
+2638	Abend		
+2639	alle	352	(mention_id=347|references=(entity=(entity_id=entity_0007|fullname=Familie Armbruster|gender=mf|members=entity_0001,entity_0003,entity_0004,entity_0005,entity_0008,entity_0016,entity_0017|all_members_given=True|specialcase_entity=group)))
+2640	,		
+2641	Alte	353	(mention_id=348|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)),(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)))
+2642	und		
+2643	Junge	354	(mention_id=349|references=(entity=(entity_id=entity_0004|fullname=Ammerie Armbruster|gender=f)),(entity=(entity_id=entity_0008|fullname=Elsbeth Armbruster|gender=f)),(entity=(entity_id=entity_0005|fullname=Peter Armbruster|gender=m)),(entity=(entity_id=entity_0016|fullname=Älterer Enkel von Christoph Armbruster|gender=m)),(entity=(entity_id=entity_0017|fullname=Jüngerer Enkel von Christoph Armbruster|gender=m)))
+2644	,		
+2645	unter		
+2646	dem		
+2647	hie		
+2648	und		
+2649	da		
+2650	durchsichtigen		
+2651	Rebendach		
+2652	fröhlich		
+2653	beisammensaßen		
+2654	und		
+2655	den		
+2656	aufgetragenen		
+2657	Imbiß		
+2658	verzehrten		
+2659	,		
+2660	wandte		
+2661	sich	355	(mention_id=350|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)))
+2662	Madlen	356	(mention_id=351|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)))
+2663	plötzlich		
+2664	zur		
+2665	Seite		
+2666	und		
+2667	sagte		
+2668	:		
+2669	»		
+2670	Wen		
+2671	bringt		
+2672	uns	357	(mention_id=352|references=(entity=(entity_id=entity_0007|fullname=Familie Armbruster|gender=mf|members=entity_0001,entity_0003,entity_0004,entity_0005,entity_0008,entity_0016,entity_0017|all_members_given=True|specialcase_entity=group)))
+2673	denn		
+2674	der		
+2675	Schneckenkaschper	358	(mention_id=353|references=(entity=(entity_id=entity_0006|fullname=Kaspar|gender=m)))
+2676	da		
+2677	?		
+2678	eine		
+2679	Fremde	359	(mention_id=354|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))
+2680	?		
+2681	Einen		
+2682	Besuch		
+2683	?		
+2684	«		
+2685	Alle	360	(mention_id=355|references=(entity=(entity_id=entity_0007|fullname=Familie Armbruster|gender=mf|members=entity_0001,entity_0003,entity_0004,entity_0005,entity_0008,entity_0016,entity_0017|all_members_given=True|specialcase_entity=group)))
+2686	blickten		
+2687	auf		
+2688	und		
+2689	sahen		
+2690	nach		
+2691	dem		
+2692	Eingange		
+2693	hin		
+2694	.		
+2695	Dort		
+2696	unter		
+2697	dem		
+2698	Torbogen		
+2699	stand		
+2700	ein		
+2701	etwa		
+2702	vierzehnjähriger		
+2703	Junge	361	(mention_id=356|references=(entity=(entity_id=entity_0006|fullname=Kaspar|gender=m)))
+2704	,		
+2705	barhäuptig		
+2706	und		
+2707	barfüßig		
+2708	und		
+2709	ärmlich		
+2710	gekleidet		
+2711	,		
+2712	aber		
+2713	kräftig		
+2714	und		
+2715	gebräunt		
+2716	,		
+2717	mit		
+2718	einem		
+2719	offenen		
+2720	,		
+2721	klugen		
+2722	Gesicht		
+2723	.		
+2724	Zu		
+2725	einer		
+2726	neben		
+2727	ihm	362	(mention_id=357|references=(entity=(entity_id=entity_0006|fullname=Kaspar|gender=m)))
+2728	stehenden		
+2729	weiblichen		
+2730	Gestalt	363	
+2731	redend		
+2732	zeigte		
+2733	er	364	(mention_id=358|references=(entity=(entity_id=entity_0006|fullname=Kaspar|gender=m)))
+2734	mit		
+2735	ausgestrecktem		
+2736	Finger		
+2737	nach		
+2738	der		
+2739	am		
+2740	Tische		
+2741	sitzenden		
+2742	Familie	365	(mention_id=359|references=(entity=(entity_id=entity_0007|fullname=Familie Armbruster|gender=mf|members=entity_0001,entity_0003,entity_0004,entity_0005,entity_0008,entity_0016,entity_0017|all_members_given=True|specialcase_entity=group)))
+2743	.		
+2744	Dann		
+2745	traten		
+2746	beide	366	(mention_id=360|references=(entity=(entity_id=entity_0006|fullname=Kaspar|gender=m)),(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))
+2747	näher		
+2748	,		
+2749	von		
+2750	einem		
+2751	Hunde		
+2752	,		
+2753	einem		
+2754	gelblich		
+2755	grauen		
+2756	,		
+2757	struppigen		
+2758	Schnauzerl		
+2759	begleitet		
+2760	,		
+2761	und		
+2762	das		
+2763	junge		
+2764	Weib	367	(mention_id=361|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))
+2765	oder		
+2766	Mädchen	368	(mention_id=362|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))
+2767	,		
+2768	das	369	(mention_id=363|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))
+2769	ein		
+2770	Bündel		
+2771	auf		
+2772	den		
+2773	Rücken		
+2774	trug		
+2775	,		
+2776	schritt		
+2777	stracks		
+2778	auf		
+2779	die		
+2780	Bürgermeisterin	370	(mention_id=364|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)))
+2781	zu		
+2782	.		
+2783	Die		
+2784	mehr		
+2785	als		
+2786	mittelgroße		
+2787	Fremde	371	(mention_id=365|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))
+2788	war		
+2789	sehr		
+2790	hübsch		
+2791	,		
+2792	fast		
+2793	schön		
+2794	zu		
+2795	nennen		
+2796	,		
+2797	aber		
+2798	sie	372	(mention_id=366|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))
+2799	sah		
+2800	bleich		
+2801	und		
+2802	verhärmt		
+2803	aus		
+2804	,		
+2805	und		
+2806	um		
+2807	ihren	373	(mention_id=367|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))
+2808	feingeschnittenen		
+2809	Mund		
+2810	wob		
+2811	sich		
+2812	ein		
+2813	Zug		
+2814	von		
+2815	Bitterkeit		
+2816	.		
+2817	»		
+2818	Seid		
+2819	Ihr	374	(mention_id=368|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)))
+2820	Frau	375	(mention_id=369|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)))
+2821	Madlen	375	(mention_id=369|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)))
+2822	Armbruster	375	(mention_id=369|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)))
+2823	?		
+2824	«		
+2825	begann		
+2826	sie	376	(mention_id=370|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))
+2827	schüchtern		
+2828	.		
+2829	»		
+2830	Ja		
+2831	,		
+2832	die	377	(mention_id=371|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)))
+2833	bin		
+2834	ich	378	(mention_id=372|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)))
+2835	,		
+2836	«		
+2837	antwortete		
+2838	Madlen	379	(mention_id=373|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)))
+2839	.		
+2840	»		
+2841	Ich	380	(mention_id=374|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))
+2842	bin		
+2843	Gontrud	381	(mention_id=375|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))
+2844	Hegewald	381	(mention_id=375|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))
+2845	aus		
+2846	Gamburg		
+2847	im		
+2848	Würzburgischen		
+2849	.		
+2850	«		
+2851	»		
+2852	Wie		
+2853	hieß		
+2854	deine	382	(mention_id=376|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)))
+2855	Mutter	383	(mention_id=377|references=(entity=(entity_id=entity_0032|fullname=Hilde Scheithauer|gender=f)))
+2856	mit		
+2857	ihrem	384	(mention_id=378|references=(entity=(entity_id=entity_0032|fullname=Hilde Scheithauer|gender=f)))
+2858	Mädchennamen		
+2859	?		
+2860	«		
+2861	fragte		
+2862	die		
+2863	Bürgermeisterin	385	(mention_id=379|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)))
+2864	.		
+2865	»		
+2866	Hilde	386	(mention_id=380|references=(entity=(entity_id=entity_0032|fullname=Hilde Scheithauer|gender=f)))
+2867	Scheithauer	386	(mention_id=380|references=(entity=(entity_id=entity_0032|fullname=Hilde Scheithauer|gender=f)))
+2868	.		
+2869	«		
+2870	»		
+2871	Das		
+2872	stimmt		
+2873	;		
+2874	dann		
+2875	bist		
+2876	du	387	(mention_id=381|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))
+2877	die		
+2878	Trudi	388	(mention_id=382|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))
+2879	,		
+2880	und		
+2881	ich	389	(mention_id=383|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)))
+2882	bin		
+2883	deine	390	(mention_id=384|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))
+2884	Bas'	391	(mention_id=385|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)))
+2885	,		
+2886	«		
+2887	sprach		
+2888	Madlen	392	(mention_id=386|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)))
+2889	,		
+2890	erhob		
+2891	sich	393	(mention_id=387|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)))
+2892	und		
+2893	reichte		
+2894	ihrer	394	(mention_id=388|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)))
+2895	Nichte	395	(mention_id=389|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))
+2896	die		
+2897	Hand		
+2898	.		
+2899	»		
+2900	Sei		
+2901	willkommen		
+2902	und		
+2903	sage		
+2904	:		
+2905	was		
+2906	schaffst		
+2907	du	396	(mention_id=390|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))
+2908	?		
+2909	«		
+2910	Die		
+2911	Zugereiste	397	(mention_id=391|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))
+2912	mußte		
+2913	sich	398	(mention_id=392|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))
+2914	in		
+2915	ihrer	399	(mention_id=393|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))
+2916	tiefen		
+2917	Befangenheit		
+2918	erst		
+2919	fassen		
+2920	,		
+2921	um		
+2922	das		
+2923	Anliegen		
+2924	,		
+2925	das		
+2926	sie	400	(mention_id=394|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))
+2927	hergeführt		
+2928	hatte		
+2929	,		
+2930	vorbringen		
+2931	zu		
+2932	können		
+2933	.		
+2934	Dann		
+2935	tat		
+2936	sie	401	(mention_id=395|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))
+2937	dies		
+2938	mit		
+2939	einem		
+2940	hörbaren		
+2941	Beben		
+2942	der		
+2943	Stimme		
+2944	:		
+2945	»		
+2946	Vater	402	(mention_id=396|references=(entity=(entity_id=entity_0035|fullname=Hegewald|gender=m)))
+2947	und		
+2948	Mutter	403	(mention_id=397|references=(entity=(entity_id=entity_0032|fullname=Hilde Scheithauer|gender=f)))
+2949	sind		
+2950	tot		
+2951	,		
+2952	ich	404	(mention_id=398|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))
+2953	bin		
+2954	eine		
+2955	Waise	405	(mention_id=399|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))
+2956	,		
+2957	–		
+2958	mittellos		
+2959	und		
+2960	heimatlos		
+2961	,		
+2962	–		
+2963	habe		
+2964	viel		
+2965	Trauriges		
+2966	und		
+2967	Schlimmes		
+2968	erlebt		
+2969	und		
+2970	–		
+2971	kann		
+2972	nicht		
+2973	wieder		
+2974	dahin		
+2975	zurück		
+2976	,		
+2977	wo		
+2978	ich	406	(mention_id=400|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))
+2979	herkomme		
+2980	.		
+2981	Darum		
+2982	wollt		
+2983	ich	407	(mention_id=401|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))
+2984	Euch	408	(mention_id=402|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)),(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))
+2985	herzlich		
+2986	bitten		
+2987	,		
+2988	mich	409	(mention_id=403|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))
+2989	als		
+2990	Magd	410	(mention_id=404|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))
+2991	,		
+2992	als		
+2993	dienende		
+2994	Magd	411	(mention_id=405|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))
+2995	bei		
+2996	Euch	412	(mention_id=406|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)),(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))
+2997	aufzunehmen		
+2998	;		
+2999	–		
+3000	ich	413	(mention_id=407|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))
+3001	kann		
+3002	arbeiten		
+3003	und		
+3004	weiß		
+3005	auch		
+3006	mit		
+3007	Wingert		
+3008	und		
+3009	Weinbau		
+3010	Bescheid		
+3011	.		
+3012	«		
+3013	Sie	414	(mention_id=408|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))
+3014	atmete		
+3015	tief		
+3016	auf		
+3017	,		
+3018	als		
+3019	sie	415	(mention_id=409|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))
+3020	das		
+3021	von		
+3022	der		
+3023	Seele		
+3024	herunter		
+3025	hatte		
+3026	,		
+3027	und		
+3028	blickte		
+3029	ihre	416	(mention_id=410|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))
+3030	Base	417	(mention_id=411|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)))
+3031	ängstlich		
+3032	und		
+3033	erwartungsvoll		
+3034	an		
+3035	.		
+3036	»		
+3037	Lege		
+3038	dein	418	(mention_id=412|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))
+3039	Bündel		
+3040	ab		
+3041	und		
+3042	nimm		
+3043	Platz		
+3044	an		
+3045	unserem	419	(mention_id=413|references=(entity=(entity_id=entity_0007|fullname=Familie Armbruster|gender=mf|members=entity_0001,entity_0003,entity_0004,entity_0005,entity_0008,entity_0016,entity_0017|all_members_given=True|specialcase_entity=group)))
+3046	Tische		
+3047	,		
+3048	«		
+3049	sagte		
+3050	Madlen	420	(mention_id=414|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)))
+3051	ohne		
+3052	auf		
+3053	die		
+3054	ihr	421	(mention_id=415|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)))
+3055	vorgetragene		
+3056	Bitte		
+3057	gleich		
+3058	einzugehen		
+3059	.		
+3060	»		
+3061	Dies		
+3062	sind		
+3063	die		
+3064	Meinigen	422	(mention_id=416|references=(entity=(entity_id=entity_0007|fullname=Familie Armbruster|gender=mf|members=entity_0001,entity_0003,entity_0004,entity_0005,entity_0008,entity_0016,entity_0017|all_members_given=True|specialcase_entity=group)))
+3065	,		
+3066	mein	423	(mention_id=417|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)))
+3067	Mann	424	(mention_id=418|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))
+3068	und		
+3069	unsere	425	(mention_id=419|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)),(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))
+3070	Kinder	426	(mention_id=420|references=(entity=(entity_id=entity_0004|fullname=Ammerie Armbruster|gender=f)),(entity=(entity_id=entity_0005|fullname=Peter Armbruster|gender=m)))
+3071	und		
+3072	Enkel	427	(mention_id=421|references=(entity=(entity_id=entity_0016|fullname=Älterer Enkel von Christoph Armbruster|gender=m)),(entity=(entity_id=entity_0017|fullname=Jüngerer Enkel von Christoph Armbruster|gender=m)))
+3073	.		
+3074	«		
+3075	Trudi	428	(mention_id=422|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))
+3076	überflog		
+3077	die		
+3078	kleine		
+3079	Gesellschaft	429	(mention_id=423|references=(entity=(entity_id=entity_0007|fullname=Familie Armbruster|gender=mf|members=entity_0001,entity_0003,entity_0004,entity_0005,entity_0008,entity_0016,entity_0017|all_members_given=True|specialcase_entity=group)))
+3080	mit		
+3081	den		
+3082	Augen		
+3083	,		
+3084	und		
+3085	die		
+3086	grüßende		
+3087	Neigung		
+3088	ihres	430	(mention_id=424|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))
+3089	blonden		
+3090	Hauptes		
+3091	war		
+3092	von		
+3093	einer		
+3094	gefälligen		
+3095	Anmut		
+3096	.		
+3097	»		
+3098	Du	431	(mention_id=425|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))
+3099	bleibst		
+3100	die		
+3101	Nacht		
+3102	hier		
+3103	,		
+3104	und		
+3105	wenn		
+3106	du	432	(mention_id=426|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))
+3107	morgen		
+3108	ausgeschlafen		
+3109	hast		
+3110	,		
+3111	reden		
+3112	wir	433	(mention_id=427|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)),(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))
+3113	weiter		
+3114	;		
+3115	ich	434	(mention_id=428|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)))
+3116	denke		
+3117	,		
+3118	es		
+3119	wird		
+3120	sich		
+3121	einrichten		
+3122	lassen		
+3123	,		
+3124	was		
+3125	du	435	(mention_id=429|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))
+3126	wünschest		
+3127	,		
+3128	«		
+3129	fuhr		
+3130	Madlen	436	(mention_id=430|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)))
+3131	fort		
+3132	,		
+3133	nachdem		
+3134	sie	437	(mention_id=431|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)))
+3135	sich	438	(mention_id=432|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)))
+3136	die		
+3137	Sache		
+3138	überlegt		
+3139	und		
+3140	das		
+3141	Mädchen	439	(mention_id=433|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))
+3142	mit		
+3143	einem		
+3144	prüfenden		
+3145	Blick		
+3146	angeschaut		
+3147	hatte		
+3148	.		
+3149	»		
+3150	Ich	440	(mention_id=434|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))
+3151	danke		
+3152	Euch	441	(mention_id=435|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)),(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))
+3153	!		
+3154	«		
+3155	kam		
+3156	es		
+3157	wie		
+3158	ein		
+3159	erlösender		
+3160	Hauch		
+3161	aus		
+3162	Trudis	442	(mention_id=436|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))
+3163	bewegter		
+3164	Brust		
+3165	.		
+3166	»		
+3167	Setze		
+3168	dich	443	(mention_id=437|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))
+3169	neben		
+3170	mich	444	(mention_id=438|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)))
+3171	;		
+3172	hier		
+3173	auf		
+3174	der		
+3175	Bank		
+3176	ist		
+3177	noch		
+3178	Platz		
+3179	,		
+3180	und		
+3181	nun		
+3182	vor		
+3183	allen		
+3184	Dingen		
+3185	,		
+3186	–		
+3187	du	445	(mention_id=439|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))
+3188	wirst		
+3189	hungrig		
+3190	sein		
+3191	vom		
+3192	Wege		
+3193	,		
+3194	–		
+3195	also		
+3196	flink		
+3197	,		
+3198	Ammerie	446	(mention_id=440|references=(entity=(entity_id=entity_0004|fullname=Ammerie Armbruster|gender=f)))
+3199	!		
+3200	«		
+3201	Diese	447	(mention_id=441|references=(entity=(entity_id=entity_0004|fullname=Ammerie Armbruster|gender=f)))
+3202	sprang		
+3203	auf		
+3204	und		
+3205	verschwand		
+3206	im		
+3207	Hause		
+3208	,		
+3209	während		
+3210	Trudi	448	(mention_id=442|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))
+3211	der		
+3212	Einladung		
+3213	ihrer	449	(mention_id=443|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))
+3214	Base	450	(mention_id=444|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)))
+3215	folgte		
+3216	.		
+3217	Der		
+3218	mit		
+3219	ihr	451	(mention_id=445|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))
+3220	gekommene		
+3221	Junge	452	(mention_id=446|references=(entity=(entity_id=entity_0006|fullname=Kaspar|gender=m)))
+3222	hatte		
+3223	,		
+3224	etwas		
+3225	zurückstehend		
+3226	,		
+3227	das		
+3228	Gespräch		
+3229	mit		
+3230	angehört		
+3231	und		
+3232	wollte		
+3233	sich	453	(mention_id=447|references=(entity=(entity_id=entity_0006|fullname=Kaspar|gender=m)))
+3234	nun		
+3235	entfernen		
+3236	,		
+3237	aber		
+3238	die		
+3239	Bürgermeisterin	454	(mention_id=448|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)))
+3240	rief		
+3241	ihm	455	(mention_id=449|references=(entity=(entity_id=entity_0006|fullname=Kaspar|gender=m)))
+3242	zu		
+3243	:		
+3244	»		
+3245	Nein		
+3246	,		
+3247	Kaschper	456	(mention_id=450|references=(entity=(entity_id=entity_0006|fullname=Kaspar|gender=m)))
+3248	,		
+3249	bleib		
+3250	da		
+3251	und		
+3252	wart		
+3253	e		
+3254	bissel		
+3255	.		
+3256	«		
+3257	Da		
+3258	setzte		
+3259	er	457	(mention_id=451|references=(entity=(entity_id=entity_0006|fullname=Kaspar|gender=m)))
+3260	sich	458	(mention_id=452|references=(entity=(entity_id=entity_0006|fullname=Kaspar|gender=m)))
+3261	auf		
+3262	die		
+3263	Bank		
+3264	unter		
+3265	dem		
+3266	großen		
+3267	Nußbaum		
+3268	,		
+3269	und		
+3270	sein	459	(mention_id=453|references=(entity=(entity_id=entity_0006|fullname=Kaspar|gender=m)))
+3271	rauhhaariger		
+3272	Köter	460	
+3273	legte		
+3274	sich	461	
+3275	zu		
+3276	seinen	462	(mention_id=454|references=(entity=(entity_id=entity_0006|fullname=Kaspar|gender=m)))
+3277	Füßen		
+3278	nieder		
+3279	,		
+3280	den		
+3281	Kopf		
+3282	zwischen		
+3283	den		
+3284	Vorderpfoten		
+3285	,		
+3286	und		
+3287	blinzelte		
+3288	witternd		
+3289	nach		
+3290	dem		
+3291	Speisetische		
+3292	hin		
+3293	.		
+3294	Auch		
+3295	Kaspar	463	(mention_id=455|references=(entity=(entity_id=entity_0006|fullname=Kaspar|gender=m)))
+3296	war		
+3297	eine		
+3298	elternlose		
+3299	Waise	464	(mention_id=456|references=(entity=(entity_id=entity_0006|fullname=Kaspar|gender=m)))
+3300	,		
+3301	hatte		
+3302	Vater	465	(mention_id=457|references=(entity=(entity_id=entity_0068|fullname=Vater von Kaspar|gender=m)))
+3303	und		
+3304	Mutter	466	(mention_id=458|references=(entity=(entity_id=entity_0066|fullname=Mutter von Kaspar|gender=f)))
+3305	nie		
+3306	gekannt		
+3307	und		
+3308	lebte		
+3309	hier		
+3310	bei		
+3311	seinem	467	(mention_id=459|references=(entity=(entity_id=entity_0006|fullname=Kaspar|gender=m)))
+3312	Großvater	468	(mention_id=460|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))
+3313	,		
+3314	der	469	(mention_id=461|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))
+3315	sich	470	(mention_id=462|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))
+3316	wenig		
+3317	um		
+3318	ihn	471	(mention_id=463|references=(entity=(entity_id=entity_0006|fullname=Kaspar|gender=m)))
+3319	kümmerte		
+3320	und		
+3321	nicht		
+3322	einmal		
+3323	für		
+3324	seine	472	(mention_id=464|references=(entity=(entity_id=entity_0006|fullname=Kaspar|gender=m)))
+3325	rechte		
+3326	Ernährung		
+3327	sorgte		
+3328	.		
+3329	Aber		
+3330	der		
+3331	Junge	473	(mention_id=465|references=(entity=(entity_id=entity_0006|fullname=Kaspar|gender=m)))
+3332	war		
+3333	in		
+3334	den		
+3335	Mitteln		
+3336	,		
+3337	seinen	474	(mention_id=466|references=(entity=(entity_id=entity_0006|fullname=Kaspar|gender=m)))
+3338	Hunger		
+3339	zu		
+3340	stillen		
+3341	ohne		
+3342	zu		
+3343	betteln		
+3344	,		
+3345	sehr		
+3346	erfinderisch		
+3347	,		
+3348	und		
+3349	weil		
+3350	er	475	(mention_id=467|references=(entity=(entity_id=entity_0006|fullname=Kaspar|gender=m)))
+3351	sich	476	(mention_id=468|references=(entity=(entity_id=entity_0006|fullname=Kaspar|gender=m)))
+3352	zu		
+3353	diesem		
+3354	Zwecke		
+3355	in		
+3356	den		
+3357	Weinbergen		
+3358	fleißig		
+3359	Schnecken		
+3360	suchte		
+3361	,		
+3362	die		
+3363	er	477	(mention_id=469|references=(entity=(entity_id=entity_0006|fullname=Kaspar|gender=m)))
+3364	sich	478	(mention_id=470|references=(entity=(entity_id=entity_0006|fullname=Kaspar|gender=m)))
+3365	in		
+3366	einer		
+3367	alten		
+3368	Blechpfanne		
+3369	mit		
+3370	allerlei		
+3371	Wurzel-		
+3372	und		
+3373	Kräuterwerk		
+3374	schmorte		
+3375	oder		
+3376	auch		
+3377	röstete		
+3378	,		
+3379	nannte		
+3380	man		
+3381	ihn	479	(mention_id=471|references=(entity=(entity_id=entity_0006|fullname=Kaspar|gender=m)))
+3382	den		
+3383	Schneckenkaschper		(mention_id=472|references=(entity=(entity_id=entity_0006|fullname=Kaspar|gender=m)))
+3384	.		
+3385	Die		
+3386	meisten	480	
+3387	der		
+3388	Wachenheimer	481	(mention_id=473|references=(entity=(entity_id=entity_0019|fullname=Wachenheimer|gender=mf|members=entity_0007,entity_0013,entity_0014,entity_0026|all_members_given=False|specialcase_entity=group)))
+3389	hatten		
+3390	den		
+3391	wild		
+3392	Aufwachsenden	482	
+3393	gern		
+3394	,		
+3395	und		
+3396	da		
+3397	er	483	(mention_id=474|references=(entity=(entity_id=entity_0006|fullname=Kaspar|gender=m)))
+3398	auch		
+3399	sonst		
+3400	anstellig		
+3401	und		
+3402	geschickt		
+3403	war		
+3404	,		
+3405	brauchten		
+3406	sie	484	(mention_id=475|references=(entity=(entity_id=entity_0019|fullname=Wachenheimer|gender=mf|members=entity_0007,entity_0013,entity_0014,entity_0026|all_members_given=False|specialcase_entity=group)))
+3407	ihn	485	(mention_id=476|references=(entity=(entity_id=entity_0006|fullname=Kaspar|gender=m)))
+3408	zu		
+3409	kleinen		
+3410	Diensten		
+3411	,		
+3412	zu		
+3413	Botengängen		
+3414	,		
+3415	zum		
+3416	Viehhüten		
+3417	,		
+3418	zum		
+3419	Verscheuchen		
+3420	der		
+3421	Vögel		
+3422	aus		
+3423	den		
+3424	Weinbergen		
+3425	,		
+3426	wozu		
+3427	er	486	(mention_id=477|references=(entity=(entity_id=entity_0006|fullname=Kaspar|gender=m)))
+3428	sich	487	(mention_id=478|references=(entity=(entity_id=entity_0006|fullname=Kaspar|gender=m)))
+3429	eine		
+3430	weittönende		
+3431	Klapper		
+3432	angefertigt		
+3433	hatte		
+3434	,		
+3435	und		
+3436	zu		
+3437	mehr		
+3438	dergleichen		
+3439	Verrichtungen		
+3440	.		
+3441	Dafür		
+3442	gaben		
+3443	sie	488	(mention_id=479|references=(entity=(entity_id=entity_0019|fullname=Wachenheimer|gender=mf|members=entity_0007,entity_0013,entity_0014,entity_0026|all_members_given=False|specialcase_entity=group)))
+3444	ihm	489	(mention_id=480|references=(entity=(entity_id=entity_0006|fullname=Kaspar|gender=m)))
+3445	dann		
+3446	zu		
+3447	essen		
+3448	,		
+3449	und		
+3450	manche	490	(mention_id=481|references=(entity=(entity_id=entity_0019|fullname=Wachenheimer|gender=mf|members=entity_0007,entity_0013,entity_0014,entity_0026|all_members_given=False|specialcase_entity=group)))
+3451	schenkten		
+3452	ihm	491	(mention_id=482|references=(entity=(entity_id=entity_0006|fullname=Kaspar|gender=m)))
+3453	abgelegte		
+3454	Kleider		
+3455	von		
+3456	ihren	492	(mention_id=483|references=(entity=(entity_id=entity_0019|fullname=Wachenheimer|gender=mf|members=entity_0007,entity_0013,entity_0014,entity_0026|all_members_given=False|specialcase_entity=group)))
+3457	Kindern	493	(mention_id=484|references=(entity=(entity_id=entity_0039|fullname=Kinder der Wachenheimer|gender=u|specialcase_entity=group)))
+3458	,		
+3459	seinen	494	(mention_id=485|references=(entity=(entity_id=entity_0006|fullname=Kaspar|gender=m)))
+3460	Altersgenossen	495	(mention_id=486|references=(entity=(entity_id=entity_0039|fullname=Kinder der Wachenheimer|gender=u|specialcase_entity=group)))
+3461	und		
+3462	Gespielen	496	(mention_id=487|references=(entity=(entity_id=entity_0039|fullname=Kinder der Wachenheimer|gender=u|specialcase_entity=group)))
+3463	,		
+3464	deren	497	
+3465	er	498	(mention_id=488|references=(entity=(entity_id=entity_0006|fullname=Kaspar|gender=m)))
+3466	sehr		
+3467	viele		
+3468	und		
+3469	sehr		
+3470	anhängliche		
+3471	hatte		
+3472	.		
+3473	Ammerie	499	(mention_id=489|references=(entity=(entity_id=entity_0004|fullname=Ammerie Armbruster|gender=f)))
+3474	brachte		
+3475	für		
+3476	Trudi	500	(mention_id=490|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))
+3477	einen		
+3478	Teller		
+3479	,		
+3480	Messer		
+3481	und		
+3482	Gabel		
+3483	und		
+3484	auch		
+3485	einen		
+3486	Becher		
+3487	,		
+3488	den		
+3489	ihr	501	(mention_id=491|references=(entity=(entity_id=entity_0004|fullname=Ammerie Armbruster|gender=f)))
+3490	Peter	502	(mention_id=492|references=(entity=(entity_id=entity_0005|fullname=Peter Armbruster|gender=m)))
+3491	randvoll		
+3492	goß		
+3493	,		
+3494	und		
+3495	nun		
+3496	langte		
+3497	die		
+3498	einer		
+3499	Atzung		
+3500	allerdings		
+3501	sehr		
+3502	Bedürftige	503	
+3503	ohne		
+3504	Scheu		
+3505	zu		
+3506	und		
+3507	ließ		
+3508	sich	504	(mention_id=493|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))
+3509	das		
+3510	freundlich		
+3511	Gebotene		
+3512	munden		
+3513	.		
+3514	Die		
+3515	anderen	505	(mention_id=494|references=(entity=(entity_id=entity_0007|fullname=Familie Armbruster|gender=mf|members=entity_0001,entity_0003,entity_0004,entity_0005,entity_0008,entity_0016,entity_0017|all_members_given=True|specialcase_entity=group)))
+3516	störten		
+3517	sie	506	(mention_id=495|references=(entity=(entity_id=entity_0007|fullname=Familie Armbruster|gender=mf|members=entity_0001,entity_0003,entity_0004,entity_0005,entity_0008,entity_0016,entity_0017|all_members_given=True|specialcase_entity=group)))
+3518	darin		
+3519	auch		
+3520	nicht		
+3521	mit		
+3522	Erkundigungen		
+3523	nach		
+3524	ihrem	507	(mention_id=496|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))
+3525	Schicksal		
+3526	.		
+3527	Sie	508	(mention_id=497|references=(entity=(entity_id=entity_0007|fullname=Familie Armbruster|gender=mf|members=entity_0001,entity_0003,entity_0004,entity_0005,entity_0008,entity_0016,entity_0017|all_members_given=True|specialcase_entity=group)))
+3528	beobachteten		
+3529	das		
+3530	wohlgesittete		
+3531	Mädchen	509	(mention_id=498|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))
+3532	mit		
+3533	teilnehmender		
+3534	Aufmerksamkeit		
+3535	,		
+3536	und		
+3537	keinem		
+3538	von		
+3539	ihnen	510	(mention_id=499|references=(entity=(entity_id=entity_0007|fullname=Familie Armbruster|gender=mf|members=entity_0001,entity_0003,entity_0004,entity_0005,entity_0008,entity_0016,entity_0017|all_members_given=True|specialcase_entity=group)))
+3540	stieg		
+3541	der		
+3542	Verdacht		
+3543	auf		
+3544	,		
+3545	daß		
+3546	es	511	
+3547	eine		
+3548	Schuldbeladene	512	(mention_id=500|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))
+3549	,		
+3550	vom		
+3551	Häscher	513	(mention_id=501|references=(entity=(entity_id=entity_0063|fullname=Hegewalds Häscher|gender=m)))
+3552	Verfolgte	514	(mention_id=502|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))
+3553	sein		
+3554	könnte		
+3555	.		
+3556	Unterdessen		
+3557	hatte		
+3558	Frau	515	(mention_id=503|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)))
+3559	Madlen	515	(mention_id=503|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)))
+3560	ein		
+3561	großes		
+3562	Stück		
+3563	hausbacken		
+3564	Schwarzbrot		
+3565	rundherum		
+3566	mit		
+3567	Schinken		
+3568	belegt		
+3569	und		
+3570	winkte		
+3571	nun		
+3572	den		
+3573	Schneckenkaschper	516	(mention_id=504|references=(entity=(entity_id=entity_0006|fullname=Kaspar|gender=m)))
+3574	herbei		
+3575	,		
+3576	der	517	(mention_id=505|references=(entity=(entity_id=entity_0006|fullname=Kaspar|gender=m)))
+3577	sich	518	(mention_id=506|references=(entity=(entity_id=entity_0006|fullname=Kaspar|gender=m)))
+3578	zur		
+3579	Entgegennahme		
+3580	eines		
+3581	solchen		
+3582	,		
+3583	ihm	519	(mention_id=507|references=(entity=(entity_id=entity_0006|fullname=Kaspar|gender=m)))
+3584	ungewohnten		
+3585	Schmauses		
+3586	wahrlich		
+3587	nicht		
+3588	nötigen		
+3589	ließ		
+3590	.		
+3591	Er	520	(mention_id=508|references=(entity=(entity_id=entity_0006|fullname=Kaspar|gender=m)))
+3592	ging		
+3593	damit		
+3594	zur		
+3595	Nußbaumbank		
+3596	zurück		
+3597	,		
+3598	hieb		
+3599	mit		
+3600	gesunden		
+3601	Zähnen		
+3602	wacker		
+3603	darauf		
+3604	ein		
+3605	und		
+3606	gab		
+3607	auch		
+3608	seinem	521	(mention_id=509|references=(entity=(entity_id=entity_0006|fullname=Kaspar|gender=m)))
+3609	Schnauzerl		
+3610	hin		
+3611	und		
+3612	wieder		
+3613	einen		
+3614	guten		
+3615	Bissen		
+3616	davon		
+3617	ab		
+3618	.		
+3619	Als		
+3620	er	522	(mention_id=510|references=(entity=(entity_id=entity_0006|fullname=Kaspar|gender=m)))
+3621	das		
+3622	Schinkenbrot		
+3623	verzehrt		
+3624	hatte		
+3625	,		
+3626	fragte		
+3627	Trudi	523	(mention_id=511|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))
+3628	:		
+3629	»		
+3630	Darf		
+3631	ich	524	(mention_id=512|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))
+3632	den		
+3633	lieben		
+3634	Buben	525	(mention_id=513|references=(entity=(entity_id=entity_0006|fullname=Kaspar|gender=m)))
+3635	,		
+3636	der	526	(mention_id=514|references=(entity=(entity_id=entity_0006|fullname=Kaspar|gender=m)))
+3637	mich	527	(mention_id=515|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))
+3638	zu		
+3639	euch	528	(mention_id=516|references=(entity=(entity_id=entity_0007|fullname=Familie Armbruster|gender=mf|members=entity_0001,entity_0003,entity_0004,entity_0005,entity_0008,entity_0016,entity_0017|all_members_given=True|specialcase_entity=group)))
+3640	geführt		
+3641	hat		
+3642	,		
+3643	einen		
+3644	Schluck		
+3645	aus		
+3646	meinem	529	(mention_id=517|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))
+3647	Becher		
+3648	tun		
+3649	lassen		
+3650	?		
+3651	«		
+3652	»		
+3653	Ja		
+3654	,		
+3655	das		
+3656	darfst		
+3657	du	530	(mention_id=518|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))
+3658	,		
+3659	«		
+3660	sprach		
+3661	der		
+3662	Bürgermeister	531	(mention_id=519|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))
+3663	schnell		
+3664	,		
+3665	und		
+3666	es		
+3667	klang		
+3668	warm		
+3669	und		
+3670	freudig		
+3671	,		
+3672	wie		
+3673	er	532	(mention_id=520|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))
+3674	es		
+3675	sagte		
+3676	.		
+3677	Da		
+3678	kam		
+3679	Kaspar	533	(mention_id=521|references=(entity=(entity_id=entity_0006|fullname=Kaspar|gender=m)))
+3680	wieder		
+3681	heran		
+3682	,		
+3683	leerte		
+3684	den		
+3685	ihm	534	(mention_id=522|references=(entity=(entity_id=entity_0006|fullname=Kaspar|gender=m)))
+3686	von		
+3687	Trudi	535	(mention_id=523|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))
+3688	gereichten		
+3689	,		
+3690	noch		
+3691	halb		
+3692	vollen		
+3693	Becher		
+3694	langsam		
+3695	in		
+3696	kleinen		
+3697	Absätzen		
+3698	,		
+3699	und		
+3700	seine	536	(mention_id=524|references=(entity=(entity_id=entity_0006|fullname=Kaspar|gender=m)))
+3701	Augen		
+3702	strahlten		
+3703	,		
+3704	als		
+3705	er	537	(mention_id=525|references=(entity=(entity_id=entity_0006|fullname=Kaspar|gender=m)))
+3706	ihn		
+3707	der		
+3708	Spenderin	538	(mention_id=526|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))
+3709	des		
+3710	erquickenden		
+3711	Trunkes		
+3712	mit		
+3713	einem		
+3714	leisen		
+3715	»		
+3716	Danke		
+3717	!		
+3718	«		
+3719	zurückgab		
+3720	.		
+3721	Peters	539	(mention_id=527|references=(entity=(entity_id=entity_0005|fullname=Peter Armbruster|gender=m)))
+3722	nicht		
+3723	gern		
+3724	stillsitzende		
+3725	Sprößlinge	540	(mention_id=528|references=(entity=(entity_id=entity_0017|fullname=Jüngerer Enkel von Christoph Armbruster|gender=m)),(entity=(entity_id=entity_0016|fullname=Älterer Enkel von Christoph Armbruster|gender=m)))
+3726	waren		
+3727	aufgestanden		
+3728	und		
+3729	jagten		
+3730	sich	541	(mention_id=529|references=(entity=(entity_id=entity_0017|fullname=Jüngerer Enkel von Christoph Armbruster|gender=m)),(entity=(entity_id=entity_0016|fullname=Älterer Enkel von Christoph Armbruster|gender=m)))
+3731	mit		
+3732	Patz	542	
+3733	,		
+3734	Kaspars	543	(mention_id=530|references=(entity=(entity_id=entity_0006|fullname=Kaspar|gender=m)))
+3735	vierbeinigem		
+3736	Begleiter	544	
+3737	,		
+3738	auf		
+3739	dem		
+3740	Hofe		
+3741	herum		
+3742	,		
+3743	was		
+3744	allen		
+3745	dreien	545	(mention_id=531|references=(entity=(entity_id=entity_0017|fullname=Jüngerer Enkel von Christoph Armbruster|gender=m)),(entity=(entity_id=entity_0016|fullname=Älterer Enkel von Christoph Armbruster|gender=m)))
+3746	viel		
+3747	Spaß		
+3748	zu		
+3749	machen		
+3750	schien		
+3751	.		
+3752	Die		
+3753	Jungen	546	(mention_id=532|references=(entity=(entity_id=entity_0017|fullname=Jüngerer Enkel von Christoph Armbruster|gender=m)),(entity=(entity_id=entity_0016|fullname=Älterer Enkel von Christoph Armbruster|gender=m)))
+3754	tobten		
+3755	,		
+3756	der		
+3757	Hund		
+3758	umsprang		
+3759	sie	547	(mention_id=533|references=(entity=(entity_id=entity_0017|fullname=Jüngerer Enkel von Christoph Armbruster|gender=m)),(entity=(entity_id=entity_0016|fullname=Älterer Enkel von Christoph Armbruster|gender=m)))
+3760	,		
+3761	bellte		
+3762	und		
+3763	wedelte		
+3764	vergnügt		
+3765	mit		
+3766	seinem		
+3767	kurzen		
+3768	Schwänzchen		
+3769	.		
+3770	Bald		
+3771	aber		
+3772	machte		
+3773	Elsbeth	548	(mention_id=534|references=(entity=(entity_id=entity_0008|fullname=Elsbeth Armbruster|gender=f)))
+3774	dem		
+3775	lärmenden		
+3776	Spiel		
+3777	ein		
+3778	Ende		
+3779	,		
+3780	indem		
+3781	sie	549	(mention_id=535|references=(entity=(entity_id=entity_0008|fullname=Elsbeth Armbruster|gender=f)))
+3782	ihren	550	(mention_id=536|references=(entity=(entity_id=entity_0008|fullname=Elsbeth Armbruster|gender=f)))
+3783	Rangen	551	(mention_id=537|references=(entity=(entity_id=entity_0017|fullname=Jüngerer Enkel von Christoph Armbruster|gender=m)),(entity=(entity_id=entity_0016|fullname=Älterer Enkel von Christoph Armbruster|gender=m)))
+3784	befahl		
+3785	,		
+3786	sich	552	(mention_id=538|references=(entity=(entity_id=entity_0016|fullname=Älterer Enkel von Christoph Armbruster|gender=m)),(entity=(entity_id=entity_0017|fullname=Jüngerer Enkel von Christoph Armbruster|gender=m)))
+3787	zu		
+3788	Bett		
+3789	zu		
+3790	scheren		
+3791	,		
+3792	was		
+3793	sie	553	(mention_id=539|references=(entity=(entity_id=entity_0008|fullname=Elsbeth Armbruster|gender=f)))
+3794	ihnen	554	(mention_id=540|references=(entity=(entity_id=entity_0017|fullname=Jüngerer Enkel von Christoph Armbruster|gender=m)),(entity=(entity_id=entity_0016|fullname=Älterer Enkel von Christoph Armbruster|gender=m)))
+3795	allerdings		
+3796	zweimal		
+3797	sagen		
+3798	mußte		
+3799	,		
+3800	ehe		
+3801	sie	555	(mention_id=541|references=(entity=(entity_id=entity_0017|fullname=Jüngerer Enkel von Christoph Armbruster|gender=m)),(entity=(entity_id=entity_0016|fullname=Älterer Enkel von Christoph Armbruster|gender=m)))
+3802	gehorchten		
+3803	und		
+3804	sich	556	(mention_id=542|references=(entity=(entity_id=entity_0017|fullname=Jüngerer Enkel von Christoph Armbruster|gender=m)),(entity=(entity_id=entity_0016|fullname=Älterer Enkel von Christoph Armbruster|gender=m)))
+3805	trollten		
+3806	.		
+3807	Da		
+3808	ging		
+3809	auch		
+3810	der		
+3811	Schneckenkaschper	557	
+3812	mit		
+3813	seinem	558	
+3814	Patz	559	
+3815	still		
+3816	von		
+3817	dannen		
+3818	.		
+3819	Durch		
+3820	die		
+3821	Ankunft		
+3822	einer		
+3823	bis		
+3824	jetzt		
+3825	völlig		
+3826	unbekannten		
+3827	Verwandten	560	(mention_id=543|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))
+3828	war		
+3829	das		
+3830	Gespräch		
+3831	am		
+3832	Tische		
+3833	etwas		
+3834	ins		
+3835	Stocken		
+3836	geraten		
+3837	,		
+3838	kam		
+3839	aber		
+3840	allmählich		
+3841	wieder		
+3842	in		
+3843	Gang		
+3844	.		
+3845	Besonders		
+3846	die		
+3847	beiden		
+3848	Frauen	561	(mention_id=544|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)),(entity=(entity_id=entity_0008|fullname=Elsbeth Armbruster|gender=f)))
+3849	bemühten		
+3850	sich	562	(mention_id=545|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)),(entity=(entity_id=entity_0008|fullname=Elsbeth Armbruster|gender=f)))
+3851	,		
+3852	in		
+3853	Trudi	563	(mention_id=546|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))
+3854	nicht		
+3855	das		
+3856	Gefühl		
+3857	aufkommen		
+3858	zu		
+3859	lassen		
+3860	,		
+3861	daß		
+3862	sie	564	(mention_id=547|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))
+3863	als		
+3864	eine		
+3865	Störende	565	(mention_id=548|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))
+3866	in		
+3867	den		
+3868	geschlossenen		
+3869	Kreis		
+3870	der		
+3871	Familie	566	(mention_id=549|references=(entity=(entity_id=entity_0007|fullname=Familie Armbruster|gender=mf|members=entity_0001,entity_0003,entity_0004,entity_0005,entity_0008,entity_0016,entity_0017|all_members_given=True|specialcase_entity=group)))
+3872	getreten		
+3873	wäre		
+3874	,		
+3875	und		
+3876	richteten		
+3877	öfter		
+3878	das		
+3879	Wort		
+3880	an		
+3881	sie	567	(mention_id=550|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))
+3882	.		
+3883	Auch		
+3884	Christoph	568	(mention_id=551|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))
+3885	und		
+3886	Peter	569	(mention_id=552|references=(entity=(entity_id=entity_0005|fullname=Peter Armbruster|gender=m)))
+3887	beteiligten		
+3888	sich	570	(mention_id=553|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)),(entity=(entity_id=entity_0005|fullname=Peter Armbruster|gender=m)))
+3889	,		
+3890	wenn		
+3891	auch		
+3892	nur		
+3893	spärlich		
+3894	,		
+3895	doch		
+3896	in		
+3897	entgegenkommender		
+3898	Weise		
+3899	an		
+3900	der		
+3901	Unterhaltung		
+3902	mit		
+3903	ihr	571	(mention_id=554|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))
+3904	.		
+3905	Nur		
+3906	Ammerie	572	(mention_id=555|references=(entity=(entity_id=entity_0004|fullname=Ammerie Armbruster|gender=f)))
+3907	verhielt		
+3908	sich	573	(mention_id=556|references=(entity=(entity_id=entity_0004|fullname=Ammerie Armbruster|gender=f)))
+3909	auffallend		
+3910	schweigsam		
+3911	,		
+3912	ließ		
+3913	aber		
+3914	ihre	574	(mention_id=557|references=(entity=(entity_id=entity_0004|fullname=Ammerie Armbruster|gender=f)))
+3915	neue		
+3916	Muhme		(mention_id=558|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))
+3917	nicht		
+3918	aus		
+3919	den		
+3920	Augen		
+3921	,		
+3922	und		
+3923	manchmal		
+3924	schien		
+3925	es		
+3926	,		
+3927	als		
+3928	schwebte		
+3929	ihr	575	(mention_id=559|references=(entity=(entity_id=entity_0004|fullname=Ammerie Armbruster|gender=f)))
+3930	ein		
+3931	Wort		
+3932	auf		
+3933	der		
+3934	Zunge		
+3935	,		
+3936	das		
+3937	sie	576	(mention_id=560|references=(entity=(entity_id=entity_0004|fullname=Ammerie Armbruster|gender=f)))
+3938	beinahe		
+3939	hervorgebracht		
+3940	hätte		
+3941	und		
+3942	dann		
+3943	doch		
+3944	ungesprochen		
+3945	herunterschluckte		
+3946	.		
+3947	Als		
+3948	aber		
+3949	Elsbeth	577	(mention_id=561|references=(entity=(entity_id=entity_0008|fullname=Elsbeth Armbruster|gender=f)))
+3950	nun		
+3951	doch		
+3952	ein		
+3953	paar		
+3954	Fragen		
+3955	an		
+3956	Trudi	578	(mention_id=562|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))
+3957	stellte		
+3958	,		
+3959	welche		
+3960	diese	579	(mention_id=563|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))
+3961	nur		
+3962	einsilbig		
+3963	und		
+3964	ausweichend		
+3965	beantwortete		
+3966	,		
+3967	schritt		
+3968	Christoph	580	(mention_id=564|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))
+3969	dagegen		
+3970	ein		
+3971	und		
+3972	gebot		
+3973	:		
+3974	»		
+3975	Verschont		
+3976	die		
+3977	Trudi	581	(mention_id=565|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))
+3978	heut		
+3979	abend		
+3980	mit		
+3981	Fragen		
+3982	;		
+3983	sie	582	(mention_id=566|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))
+3984	wird		
+3985	müde		
+3986	sein		
+3987	und		
+3988	der		
+3989	Ruhe		
+3990	bedürfen		
+3991	.		
+3992	«		
+3993	»		
+3994	Hast		
+3995	recht		
+3996	,		
+3997	Chrischtoph	583	(mention_id=567|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))
+3998	,		
+3999	«		
+4000	sprach		
+4001	Madlen	584	(mention_id=568|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)))
+4002	.		
+4003	»		
+4004	Morgen		
+4005	nach		
+4006	dem		
+4007	Kirchgang		
+4008	,		
+4009	Trudi	585	(mention_id=569|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))
+4010	,		
+4011	denn		
+4012	morgen		
+4013	ist		
+4014	das		
+4015	Fest		
+4016	der		
+4017	Kreuz-Erhöhung		
+4018	,		
+4019	wirst		
+4020	du	586	(mention_id=570|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))
+4021	mir	587	(mention_id=571|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)))
+4022	alles		
+4023	erzählen		
+4024	,		
+4025	nicht		
+4026	wahr		
+4027	?		
+4028	«		
+4029	»		
+4030	Ja		
+4031	,		
+4032	gern		
+4033	,		
+4034	Base	588	(mention_id=572|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)))
+4035	Madlen	588	(mention_id=572|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)))
+4036	!		
+4037	«		
+4038	erwiderte		
+4039	Trudi	589	(mention_id=573|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))
+4040	.		
+4041	»		
+4042	Und		
+4043	du	590	(mention_id=574|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))
+4044	schläfst		
+4045	mit		
+4046	mir	591	(mention_id=575|references=(entity=(entity_id=entity_0004|fullname=Ammerie Armbruster|gender=f)))
+4047	im		
+4048	Obenaufstübel		
+4049	,		
+4050	«		
+4051	erklärte		
+4052	Ammerie	592	(mention_id=576|references=(entity=(entity_id=entity_0004|fullname=Ammerie Armbruster|gender=f)))
+4053	bestimmt		
+4054	,		
+4055	»		
+4056	da		
+4057	steht		
+4058	noch		
+4059	ein		
+4060	Bett		
+4061	für		
+4062	meine	593	(mention_id=577|references=(entity=(entity_id=entity_0004|fullname=Ammerie Armbruster|gender=f)))
+4063	Schwester	594	(mention_id=578|references=(entity=(entity_id=entity_0034|fullname=Bertel Armbruster|gender=f)))
+4064	,		
+4065	wenn		
+4066	sie	595	(mention_id=579|references=(entity=(entity_id=entity_0034|fullname=Bertel Armbruster|gender=f)))
+4067	von		
+4068	Neustadt		
+4069	herüberkommt		
+4070	.		
+4071	«		
+4072	»		
+4073	Ich	596	(mention_id=580|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))
+4074	möchte		
+4075	aber		
+4076	niemand		
+4077	verdrängen		
+4078	,		
+4079	«		
+4080	sagte		
+4081	Trudi	597	(mention_id=581|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))
+4082	.		
+4083	»		
+4084	Tust		
+4085	du	598	(mention_id=582|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))
+4086	auch		
+4087	nicht		
+4088	,		
+4089	liebe		
+4090	Trudi	599	(mention_id=583|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))
+4091	,		
+4092	«		
+4093	beruhigte		
+4094	sie	600	(mention_id=584|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)))
+4095	Madlen	601	(mention_id=585|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)))
+4096	.		
+4097	»		
+4098	Die		
+4099	Bertel	602	(mention_id=586|references=(entity=(entity_id=entity_0034|fullname=Bertel Armbruster|gender=f)))
+4100	wird		
+4101	sobald		
+4102	nicht		
+4103	kommen		
+4104	,		
+4105	und		
+4106	wenn		
+4107	doch		
+4108	,		
+4109	so		
+4110	wird		
+4111	schon		
+4112	Rat		
+4113	werden		
+4114	für		
+4115	ihren	603	(mention_id=587|references=(entity=(entity_id=entity_0034|fullname=Bertel Armbruster|gender=f)))
+4116	Unterschlupf		
+4117	.		
+4118	«		
+4119	»		
+4120	Siehst		
+4121	du	604	(mention_id=588|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))
+4122	?		
+4123	du	605	(mention_id=589|references=(entity=(entity_id=entity_0004|fullname=Ammerie Armbruster|gender=f)))
+4124	schläfst		
+4125	bei		
+4126	mir	606	(mention_id=590|references=(entity=(entity_id=entity_0004|fullname=Ammerie Armbruster|gender=f)))
+4127	!		
+4128	«		
+4129	frohlockte		
+4130	Ammerie	607	(mention_id=591|references=(entity=(entity_id=entity_0004|fullname=Ammerie Armbruster|gender=f)))
+4131	und		
+4132	griff		
+4133	nach		
+4134	Trudis	608	(mention_id=592|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))
+4135	Bündel		
+4136	.		
+4137	»		
+4138	Komm		
+4139	!		
+4140	ich	609	(mention_id=593|references=(entity=(entity_id=entity_0004|fullname=Ammerie Armbruster|gender=f)))
+4141	bringe		
+4142	dich	610	(mention_id=594|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))
+4143	zu		
+4144	Bett		
+4145	.		
+4146	«		
+4147	»		
+4148	Daß		
+4149	du	611	(mention_id=595|references=(entity=(entity_id=entity_0004|fullname=Ammerie Armbruster|gender=f)))
+4150	sie	612	(mention_id=596|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))
+4151	mir	613	(mention_id=597|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)))
+4152	aber		
+4153	nicht		
+4154	durch		
+4155	dein	614	(mention_id=598|references=(entity=(entity_id=entity_0004|fullname=Ammerie Armbruster|gender=f)))
+4156	unnützes		
+4157	Geplapper		
+4158	noch		
+4159	lange		
+4160	wach		
+4161	hältst		
+4162	!		
+4163	«		
+4164	ermahnte		
+4165	Madlen	615	(mention_id=599|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)))
+4166	ihre	616	(mention_id=600|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)))
+4167	Tochter	617	(mention_id=601|references=(entity=(entity_id=entity_0004|fullname=Ammerie Armbruster|gender=f)))
+4168	.		
+4169	»		
+4170	Nein		
+4171	,		
+4172	Mütterle	618	(mention_id=602|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)))
+4173	,		
+4174	ich	619	(mention_id=603|references=(entity=(entity_id=entity_0004|fullname=Ammerie Armbruster|gender=f)))
+4175	schlaf		
+4176	auf		
+4177	beiden		
+4178	Ohren		
+4179	,		
+4180	ich	620	(mention_id=604|references=(entity=(entity_id=entity_0004|fullname=Ammerie Armbruster|gender=f)))
+4181	schlaf		
+4182	wie		
+4183	unsre	621	(mention_id=605|references=(entity=(entity_id=entity_0007|fullname=Familie Armbruster|gender=mf|members=entity_0001,entity_0003,entity_0004,entity_0005,entity_0008,entity_0016,entity_0017|all_members_given=True|specialcase_entity=group)))
+4184	Urschel	622	(mention_id=606|references=(entity=(entity_id=entity_0048|fullname=Urschel|gender=f)))
+4185	in		
+4186	der		
+4187	Kirch		
+4188	,		
+4189	wenn		
+4190	der		
+4191	Pater	623	(mention_id=607|references=(entity=(entity_id=entity_0052|fullname=Pater Bumpus|gender=m)))
+4192	Bumpus	623	(mention_id=607|references=(entity=(entity_id=entity_0052|fullname=Pater Bumpus|gender=m)))
+4193	auf		
+4194	der		
+4195	Kanzel		
+4196	steht		
+4197	.		
+4198	«		
+4199	Die		
+4200	andern	624	(mention_id=608|references=(entity=(entity_id=entity_0007|fullname=Familie Armbruster|gender=mf|members=entity_0001,entity_0003,entity_0004,entity_0005,entity_0008,entity_0016,entity_0017|all_members_given=True|specialcase_entity=group)))
+4201	lachten		
+4202	,		
+4203	denn		
+4204	sie	625	(mention_id=609|references=(entity=(entity_id=entity_0007|fullname=Familie Armbruster|gender=mf|members=entity_0001,entity_0003,entity_0004,entity_0005,entity_0008,entity_0016,entity_0017|all_members_given=True|specialcase_entity=group)))
+4205	kannten		
+4206	den		
+4207	festen		
+4208	Kirchenschlaf		
+4209	der		
+4210	guten		
+4211	Urschel	626	(mention_id=610|references=(entity=(entity_id=entity_0048|fullname=Urschel|gender=f)))
+4212	,		
+4213	ihrer	627	(mention_id=611|references=(entity=(entity_id=entity_0007|fullname=Familie Armbruster|gender=mf|members=entity_0001,entity_0003,entity_0004,entity_0005,entity_0008,entity_0016,entity_0017|all_members_given=True|specialcase_entity=group)))
+4214	ältesten		
+4215	Magd	628	(mention_id=612|references=(entity=(entity_id=entity_0048|fullname=Urschel|gender=f)))
+4216	,		
+4217	unter		
+4218	dem		
+4219	einlullenden		
+4220	Genäsel		
+4221	des		
+4222	dicken		
+4223	Mönches	629	(mention_id=613|references=(entity=(entity_id=entity_0052|fullname=Pater Bumpus|gender=m)))
+4224	,		
+4225	das		
+4226	bei		
+4227	mehreren		
+4228	der		
+4229	»		
+4230	andächtig		
+4231	Versammelten	630	(mention_id=614|references=(entity=(entity_id=entity_0061|fullname=Kirchenbesucher|gender=u|specialcase_entity=group)))
+4232	«		
+4233	diese		
+4234	unwiderstehliche		
+4235	Wirkung		
+4236	zu		
+4237	haben		
+4238	pflegte		
+4239	.		
+4240	Trudi	631	(mention_id=615|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))
+4241	reichte		
+4242	jedem		(mention_id=616|references=(entity=(entity_id=entity_0005|fullname=Peter Armbruster|gender=m)),(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)),(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)),(entity=(entity_id=entity_0008|fullname=Elsbeth Armbruster|gender=f)))
+4243	der		
+4244	Sitzenden	632	(mention_id=617|references=(entity=(entity_id=entity_0005|fullname=Peter Armbruster|gender=m)),(entity=(entity_id=entity_0008|fullname=Elsbeth Armbruster|gender=f)),(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)),(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)))
+4245	die		
+4246	Hand		
+4247	zur		
+4248	guten		
+4249	Nacht		
+4250	und		
+4251	folgte		
+4252	Ammerie	633	(mention_id=618|references=(entity=(entity_id=entity_0004|fullname=Ammerie Armbruster|gender=f)))
+4253	ins		
+4254	Haus		
+4255	.		
+4256	Diese	634	(mention_id=619|references=(entity=(entity_id=entity_0004|fullname=Ammerie Armbruster|gender=f)))
+4257	rief		
+4258	noch		
+4259	von		
+4260	der		
+4261	Tür		
+4262	zurück		
+4263	:		
+4264	»		
+4265	Ich	635	(mention_id=620|references=(entity=(entity_id=entity_0004|fullname=Ammerie Armbruster|gender=f)))
+4266	komme		
+4267	gleich		
+4268	wieder		
+4269	.		
+4270	«		
+4271	Als		
+4272	sich	636	(mention_id=621|references=(entity=(entity_id=entity_0004|fullname=Ammerie Armbruster|gender=f)),(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))
+4273	die		
+4274	beiden		
+4275	Mädchen	637	(mention_id=622|references=(entity=(entity_id=entity_0004|fullname=Ammerie Armbruster|gender=f)),(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))
+4276	entfernt		
+4277	hatten		
+4278	,		
+4279	schwiegen		
+4280	die		
+4281	vier		
+4282	am		
+4283	Tische		
+4284	Gebliebenen	638	
+4285	eine		
+4286	Zeitlang		
+4287	still		
+4288	.		
+4289	Jeder	639	(mention_id=623|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)),(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)),(entity=(entity_id=entity_0005|fullname=Peter Armbruster|gender=m)),(entity=(entity_id=entity_0008|fullname=Elsbeth Armbruster|gender=f)))
+4290	von		
+4291	ihnen	640	(mention_id=624|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)),(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)),(entity=(entity_id=entity_0005|fullname=Peter Armbruster|gender=m)),(entity=(entity_id=entity_0008|fullname=Elsbeth Armbruster|gender=f)))
+4292	mochte		
+4293	wohl		
+4294	seinen	641	(mention_id=625|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)),(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)),(entity=(entity_id=entity_0005|fullname=Peter Armbruster|gender=m)),(entity=(entity_id=entity_0008|fullname=Elsbeth Armbruster|gender=f)))
+4295	Gedanken		
+4296	nachhängen		
+4297	über		
+4298	die		
+4299	unter		
+4300	so		
+4301	seltsamen		
+4302	Umständen		
+4303	hier		
+4304	Eingekehrte	642	
+4305	,		
+4306	die	643	
+4307	sich	644	(mention_id=626|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))
+4308	bei		
+4309	ihren	645	(mention_id=627|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))
+4310	einzigen		
+4311	Verwandten	646	(mention_id=628|references=(entity=(entity_id=entity_0007|fullname=Familie Armbruster|gender=mf|members=entity_0001,entity_0003,entity_0004,entity_0005,entity_0008,entity_0016,entity_0017|all_members_given=True|specialcase_entity=group)))
+4312	als		
+4313	Magd	647	(mention_id=629|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))
+4314	verdingen		
+4315	wollte		
+4316	.		
+4317	Ihre	648	(mention_id=630|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))
+4318	kummervollen		
+4319	Andeutungen		
+4320	über		
+4321	das		
+4322	,		
+4323	was		
+4324	sie	649	(mention_id=631|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))
+4325	erlebt		
+4326	hatte		
+4327	,		
+4328	und		
+4329	der		
+4330	Ton		
+4331	,		
+4332	mit		
+4333	dem		
+4334	sie	650	
+4335	vorgebracht		
+4336	waren		
+4337	,		
+4338	hatten		
+4339	glaubwürdig		
+4340	und		
+4341	herzergreifend		
+4342	geklungen		
+4343	und		
+4344	das		
+4345	Mitleid		
+4346	der		
+4347	Hörenden	651	(mention_id=632|references=(entity=(entity_id=entity_0007|fullname=Familie Armbruster|gender=mf|members=entity_0001,entity_0003,entity_0004,entity_0005,entity_0008,entity_0016,entity_0017|all_members_given=True|specialcase_entity=group)))
+4348	erregt		
+4349	,		
+4350	schon		
+4351	ehe		
+4352	sie	652	(mention_id=633|references=(entity=(entity_id=entity_0007|fullname=Familie Armbruster|gender=mf|members=entity_0001,entity_0003,entity_0004,entity_0005,entity_0008,entity_0016,entity_0017|all_members_given=True|specialcase_entity=group)))
+4353	Näheres		
+4354	von		
+4355	ihr	653	(mention_id=634|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))
+4356	wußten		
+4357	.		
+4358	Madlen	654	(mention_id=635|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)))
+4359	war		
+4360	die		
+4361	erste	655	
+4362	,		
+4363	die	656	(mention_id=636|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)))
+4364	ihren	657	(mention_id=637|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)))
+4365	Betrachtungen		
+4366	Worte		
+4367	lieh		
+4368	.		
+4369	»		
+4370	Wie		
+4371	sie	658	(mention_id=638|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))
+4372	mich	659	(mention_id=639|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)))
+4373	jammert		
+4374	,		
+4375	die		
+4376	arme		
+4377	Dirn	660	(mention_id=640|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))
+4378	!		
+4379	«		
+4380	begann		
+4381	sie	661	(mention_id=641|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))
+4382	,		
+4383	»		
+4384	welche		
+4385	Kämpfe		
+4386	muß		
+4387	sie	662	(mention_id=642|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))
+4388	zu		
+4389	Hause		
+4390	durchgemacht		
+4391	haben		
+4392	!		
+4393	Der		
+4394	Gram		
+4395	stand		
+4396	ihr	663	(mention_id=643|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))
+4397	deutlich		
+4398	in		
+4399	dem		
+4400	blassen		
+4401	Gesicht		
+4402	geschrieben		
+4403	,		
+4404	und		
+4405	ihre	664	(mention_id=644|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))
+4406	Augen		
+4407	blickten		
+4408	so		
+4409	traurig		
+4410	und		
+4411	ängstlich		
+4412	.		
+4413	Wenn		
+4414	wir	665	(mention_id=645|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)),(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))
+4415	ihr	666	(mention_id=646|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))
+4416	doch		
+4417	halbwegs		
+4418	ersetzen		
+4419	könnten		
+4420	,		
+4421	was		
+4422	sie	667	(mention_id=647|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))
+4423	verloren		
+4424	hat		
+4425	!		
+4426	Ist		
+4427	es		
+4428	dir	668	(mention_id=648|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))
+4429	recht		
+4430	,		
+4431	Chrischtoph	669	(mention_id=649|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))
+4432	,		
+4433	daß		
+4434	ich	670	(mention_id=650|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)))
+4435	ihr	671	(mention_id=651|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))
+4436	Losier		
+4437	gegeben		
+4438	habe		
+4439	?		
+4440	«		
+4441	»		
+4442	Gewiß		
+4443	,		
+4444	liebe		
+4445	Alte	672	(mention_id=652|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)))
+4446	!		
+4447	«		
+4448	erwiderte		
+4449	der		
+4450	Bürgermeister	673	(mention_id=653|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))
+4451	,		
+4452	»		
+4453	wir	674	(mention_id=654|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)),(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))
+4454	können		
+4455	doch		
+4456	eine		
+4457	Zufluchtsuchende	675	(mention_id=655|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))
+4458	aus		
+4459	deiner	676	(mention_id=656|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)))
+4460	Freundschaft		
+4461	nicht		
+4462	von		
+4463	unserer	677	(mention_id=657|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)),(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))
+4464	Schwelle		
+4465	weisen		
+4466	.		
+4467	«		
+4468	»		
+4469	Und		
+4470	können		
+4471	auch		
+4472	zur		
+4473	Lese		
+4474	recht		
+4475	gut		
+4476	noch		
+4477	zwei		
+4478	Hände		
+4479	mehr		
+4480	gebrauchen		
+4481	,		
+4482	«		
+4483	fügte		
+4484	Peter	678	(mention_id=658|references=(entity=(entity_id=entity_0005|fullname=Peter Armbruster|gender=m)))
+4485	hinzu		
+4486	.		
+4487	»		
+4488	Sie	679	(mention_id=659|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))
+4489	sagte		
+4490	ja		
+4491	,		
+4492	daß		
+4493	sie	680	(mention_id=660|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))
+4494	mit		
+4495	dem		
+4496	Winzergeschäft		
+4497	Bescheid		
+4498	wüßte		
+4499	,		
+4500	und		
+4501	an		
+4502	Kraft		
+4503	zu		
+4504	tüchtiger		
+4505	Arbeit		
+4506	scheint		
+4507	es		
+4508	ihr	681	(mention_id=661|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))
+4509	wahrlich		
+4510	nicht		
+4511	zu		
+4512	fehlen		
+4513	.		
+4514	«		
+4515	»		
+4516	Du	682	(mention_id=662|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))
+4517	hast		
+4518	wohl		
+4519	ihre	683	(mention_id=663|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))
+4520	Eltern	684	(mention_id=664|references=(entity=(entity_id=entity_0032|fullname=Hilde Scheithauer|gender=f)),(entity=(entity_id=entity_0035|fullname=Hegewald|gender=m)))
+4521	nicht		
+4522	gekannt		
+4523	,		
+4524	Chrischtoph	685	(mention_id=665|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))
+4525	,		
+4526	«		
+4527	fuhr		
+4528	Madlen	686	(mention_id=666|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)))
+4529	fort		
+4530	.		
+4531	»		
+4532	Ihre	687	(mention_id=667|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))
+4533	Mutter	688	(mention_id=668|references=(entity=(entity_id=entity_0032|fullname=Hilde Scheithauer|gender=f)))
+4534	und		
+4535	ich	689	(mention_id=669|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)))
+4536	sind		
+4537	Geschwisterkinder	690	(mention_id=670|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)),(entity=(entity_id=entity_0032|fullname=Hilde Scheithauer|gender=f)))
+4538	;		
+4539	der		
+4540	Hilde	691	(mention_id=671|references=(entity=(entity_id=entity_0032|fullname=Hilde Scheithauer|gender=f)))
+4541	ihr	692	(mention_id=672|references=(entity=(entity_id=entity_0032|fullname=Hilde Scheithauer|gender=f)))
+4542	Vater	693	(mention_id=673|references=(entity=(entity_id=entity_0036|fullname=Joseph Scheithauer|gender=m)))
+4543	und		
+4544	meiner	694	(mention_id=674|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)))
+4545	waren		
+4546	Brüder	695	(mention_id=675|references=(entity=(entity_id=entity_0036|fullname=Joseph Scheithauer|gender=m)),(entity=(entity_id=entity_0038|fullname=Vater von Madlen Armbruster|gender=m)))
+4547	,		
+4548	wohnten		
+4549	aber		
+4550	nicht		
+4551	in		
+4552	derselben		
+4553	Stadt		
+4554	;		
+4555	mein	696	(mention_id=676|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)))
+4556	Onkel	697	(mention_id=677|references=(entity=(entity_id=entity_0036|fullname=Joseph Scheithauer|gender=m)))
+4557	Joseph	697	(mention_id=677|references=(entity=(entity_id=entity_0036|fullname=Joseph Scheithauer|gender=m)))
+4558	Scheithauer	697	(mention_id=677|references=(entity=(entity_id=entity_0036|fullname=Joseph Scheithauer|gender=m)))
+4559	wohnte		
+4560	in		
+4561	Landau		
+4562	.		
+4563	Aber		
+4564	wir	698	(mention_id=678|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)),(entity=(entity_id=entity_0038|fullname=Vater von Madlen Armbruster|gender=m)))
+4565	haben		
+4566	sie	699	(mention_id=679|references=(entity=(entity_id=entity_0032|fullname=Hilde Scheithauer|gender=f)),(entity=(entity_id=entity_0036|fullname=Joseph Scheithauer|gender=m)))
+4567	öfter		
+4568	dort		
+4569	und		
+4570	sie	700	(mention_id=680|references=(entity=(entity_id=entity_0032|fullname=Hilde Scheithauer|gender=f)),(entity=(entity_id=entity_0036|fullname=Joseph Scheithauer|gender=m)))
+4571	uns	701	(mention_id=681|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)),(entity=(entity_id=entity_0038|fullname=Vater von Madlen Armbruster|gender=m)))
+4572	wieder		
+4573	in		
+4574	Deidesheim		
+4575	besucht		
+4576	,		
+4577	und		
+4578	einmal		
+4579	ist		
+4580	die		
+4581	Hilde	702	(mention_id=682|references=(entity=(entity_id=entity_0032|fullname=Hilde Scheithauer|gender=f)))
+4582	wochenlang		
+4583	allein		
+4584	bei		
+4585	uns	703	(mention_id=683|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)),(entity=(entity_id=entity_0038|fullname=Vater von Madlen Armbruster|gender=m)))
+4586	geblieben		
+4587	,		
+4588	und		
+4589	da		
+4590	wurden		
+4591	wir	704	(mention_id=684|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)),(entity=(entity_id=entity_0032|fullname=Hilde Scheithauer|gender=f)))
+4592	Mädchen	705	(mention_id=685|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)),(entity=(entity_id=entity_0032|fullname=Hilde Scheithauer|gender=f)))
+4593	sehr		
+4594	befreundet		
+4595	miteinander		
+4596	.		
+4597	Wie		
+4598	es		
+4599	dann		
+4600	zugegangen		
+4601	ist		
+4602	,		
+4603	daß		
+4604	sie	706	(mention_id=686|references=(entity=(entity_id=entity_0032|fullname=Hilde Scheithauer|gender=f)))
+4605	den		
+4606	Hegewald	707	(mention_id=687|references=(entity=(entity_id=entity_0035|fullname=Hegewald|gender=m)))
+4607	geheiratet		
+4608	hat		
+4609	und		
+4610	mit		
+4611	ihm	708	(mention_id=688|references=(entity=(entity_id=entity_0035|fullname=Hegewald|gender=m)))
+4612	ins		
+4613	Würzburgische		
+4614	gezogen		
+4615	ist		
+4616	,		
+4617	weiß		
+4618	ich	709	(mention_id=689|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)))
+4619	mich	710	(mention_id=690|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)))
+4620	nicht		
+4621	mehr		
+4622	zu		
+4623	erinnern		
+4624	.		
+4625	Er	711	(mention_id=691|references=(entity=(entity_id=entity_0035|fullname=Hegewald|gender=m)))
+4626	hatte		
+4627	weder		
+4628	Bruder	712	
+4629	noch		
+4630	Schwester	713	
+4631	,		
+4632	soll		
+4633	aber		
+4634	ein		
+4635	ordentlicher		
+4636	,		
+4637	braver		
+4638	Mensch	714	(mention_id=692|references=(entity=(entity_id=entity_0035|fullname=Hegewald|gender=m)))
+4639	gewesen		
+4640	sein		
+4641	.		
+4642	«		
+4643	»		
+4644	Und		
+4645	nun		
+4646	sind		
+4647	Vater	715	(mention_id=693|references=(entity=(entity_id=entity_0035|fullname=Hegewald|gender=m)))
+4648	und		
+4649	Mutter	716	(mention_id=694|references=(entity=(entity_id=entity_0032|fullname=Hilde Scheithauer|gender=f)))
+4650	tot		
+4651	,		
+4652	«		
+4653	sprach		
+4654	der		
+4655	Bürgermeister	717	(mention_id=695|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))
+4656	.		
+4657	»		
+4658	Wie		
+4659	mag		
+4660	ihre	718	(mention_id=696|references=(entity=(entity_id=entity_0032|fullname=Hilde Scheithauer|gender=f)),(entity=(entity_id=entity_0035|fullname=Hegewald|gender=m)))
+4661	Tochter	719	(mention_id=697|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))
+4662	nur		
+4663	so		
+4664	ins		
+4665	Elend		
+4666	geraten		
+4667	sein		
+4668	,		
+4669	daß		
+4670	sie	720	(mention_id=698|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))
+4671	gänzlich		
+4672	habelos		
+4673	geworden		
+4674	und		
+4675	ausgewandert		
+4676	ist		
+4677	?		
+4678	«		
+4679	»		
+4680	Ja		
+4681	,		
+4682	darauf		
+4683	bin		
+4684	ich	721	(mention_id=699|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)))
+4685	selber		
+4686	neugierig		
+4687	,		
+4688	«		
+4689	erwiderte		
+4690	Madlen	722	(mention_id=700|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)))
+4691	.		
+4692	»		
+4693	Morgen		
+4694	werd		
+4695	ich's	723	
+4696	ja		
+4697	wohl		
+4698	von		
+4699	ihr	724	(mention_id=701|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))
+4700	erfahren		
+4701	.		
+4702	«		
+4703	Jetzt		
+4704	kam		
+4705	Ammerie	725	(mention_id=702|references=(entity=(entity_id=entity_0004|fullname=Ammerie Armbruster|gender=f)))
+4706	zurück		
+4707	mit		
+4708	einem		
+4709	sehr		
+4710	ernsten		
+4711	und		
+4712	wehmütigen		
+4713	Gesicht		
+4714	.		
+4715	»		
+4716	Nun		
+4717	?		
+4718	hast		
+4719	du	726	(mention_id=703|references=(entity=(entity_id=entity_0004|fullname=Ammerie Armbruster|gender=f)))
+4720	die		
+4721	Trudi	727	(mention_id=704|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))
+4722	gut		
+4723	versorgt		
+4724	?		
+4725	«		
+4726	fragte		
+4727	Madlen	728	(mention_id=705|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)))
+4728	.		
+4729	»		
+4730	Ja		
+4731	,		
+4732	Mutter	729	(mention_id=706|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)))
+4733	,		
+4734	ich	730	(mention_id=707|references=(entity=(entity_id=entity_0004|fullname=Ammerie Armbruster|gender=f)))
+4735	glaube		
+4736	,		
+4737	sie	731	(mention_id=708|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))
+4738	schläft		
+4739	schon		
+4740	,		
+4741	so		
+4742	müde		
+4743	war		
+4744	sie	732	(mention_id=709|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))
+4745	,		
+4746	«		
+4747	berichtete		
+4748	Ammerie	733	(mention_id=710|references=(entity=(entity_id=entity_0004|fullname=Ammerie Armbruster|gender=f)))
+4749	.		
+4750	»		
+4751	Oben		
+4752	in		
+4753	der		
+4754	Kammer		
+4755	ist		
+4756	sie	734	(mention_id=711|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))
+4757	mir	735	(mention_id=712|references=(entity=(entity_id=entity_0004|fullname=Ammerie Armbruster|gender=f)))
+4758	um		
+4759	den		
+4760	Hals		
+4761	gefallen		
+4762	und		
+4763	hat		
+4764	geschluchzt		
+4765	und		
+4766	geweint		
+4767	vor		
+4768	Glück		
+4769	und		
+4770	Freude		
+4771	,		
+4772	daß		
+4773	wir	736	(mention_id=713|references=(entity=(entity_id=entity_0007|fullname=Familie Armbruster|gender=mf|members=entity_0001,entity_0003,entity_0004,entity_0005,entity_0008,entity_0016,entity_0017|all_members_given=True|specialcase_entity=group)))
+4774	sie	737	(mention_id=714|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))
+4775	aufgenommen		
+4776	haben		
+4777	.		
+4778	Ach		
+4779	,		
+4780	wenn		
+4781	mich	738	(mention_id=715|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))
+4782	doch		
+4783	deine	739	(mention_id=716|references=(entity=(entity_id=entity_0004|fullname=Ammerie Armbruster|gender=f)))
+4784	Eltern	740	(mention_id=717|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)),(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))
+4785	bei		
+4786	sich	741	(mention_id=718|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)),(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)))
+4787	behielten		
+4788	!		
+4789	wie		
+4790	wollt		
+4791	ich's	742	(mention_id=719|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))
+4792	ihnen	743	(mention_id=720|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)),(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))
+4793	danken		
+4794	!		
+4795	sagte		
+4796	sie	744	(mention_id=721|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))
+4797	unter		
+4798	Tränen		
+4799	und		
+4800	sah		
+4801	mich	745	(mention_id=722|references=(entity=(entity_id=entity_0004|fullname=Ammerie Armbruster|gender=f)))
+4802	dabei		
+4803	mit		
+4804	Augen		
+4805	an		
+4806	,		
+4807	daß		
+4808	mir's	746	
+4809	durch		
+4810	und		
+4811	durch		
+4812	ging		
+4813	.		
+4814	Vater	747	(mention_id=723|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))
+4815	,		
+4816	laß		
+4817	sie	748	(mention_id=724|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))
+4818	doch		
+4819	hier		
+4820	bleiben		
+4821	!		
+4822	«		
+4823	»		
+4824	Wird		
+4825	ja		
+4826	wohl		
+4827	so		
+4828	kommen		
+4829	,		
+4830	mein	749	(mention_id=725|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))
+4831	Kind	750	(mention_id=726|references=(entity=(entity_id=entity_0004|fullname=Ammerie Armbruster|gender=f)))
+4832	,		
+4833	«		
+4834	erwiderte		
+4835	Christoph	751	(mention_id=727|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))
+4836	und		
+4837	nickte		
+4838	der		
+4839	für		
+4840	die		
+4841	Heimatlose	752	(mention_id=728|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))
+4842	Bittenden	753	(mention_id=729|references=(entity=(entity_id=entity_0004|fullname=Ammerie Armbruster|gender=f)))
+4843	freundlich		
+4844	zu		
+4845	.		
+4846	In		
+4847	diesem		
+4848	Augenblick		
+4849	blies		
+4850	der		
+4851	Türmer	754	(mention_id=730|references=(entity=(entity_id=entity_0033|fullname=Niklas|gender=m)))
+4852	auf		
+4853	seinem	755	(mention_id=731|references=(entity=(entity_id=entity_0033|fullname=Niklas|gender=m)))
+4854	Waldhorn		
+4855	den		
+4856	Abendsegen		
+4857	.		
+4858	Es		
+4859	klang		
+4860	aber		
+4861	nicht		
+4862	wie		
+4863	eine		
+4864	fromme		
+4865	Weise		
+4866	,		
+4867	sondern		
+4868	wie		
+4869	das		
+4870	weidmännische		
+4871	Halali		
+4872	,		
+4873	und		
+4874	sein	756	(mention_id=732|references=(entity=(entity_id=entity_0033|fullname=Niklas|gender=m)))
+4875	Weckruf		
+4876	morgens		
+4877	früh		
+4878	ähnelte		
+4879	auch		
+4880	stark		
+4881	einem		
+4882	»		
+4883	Frischauf		
+4884	zum		
+4885	fröhlichen		
+4886	Jagen		
+4887	!		
+4888	«		
+4889	,		
+4890	denn		
+4891	der		
+4892	Niklas	757	(mention_id=733|references=(entity=(entity_id=entity_0033|fullname=Niklas|gender=m)))
+4893	war		
+4894	früher		
+4895	Jäger		(mention_id=734|references=(entity=(entity_id=entity_0033|fullname=Niklas|gender=m)))
+4896	beim		
+4897	Reichsfreiherrn	758	(mention_id=735|references=(entity=(entity_id=entity_0018|fullname=Reichsfreiherr Dietrich von Remchingen|gender=m)))
+4898	auf		
+4899	der		
+4900	Wachtenburg		
+4901	gewesen		
+4902	,		
+4903	und		
+4904	dieser	759	(mention_id=736|references=(entity=(entity_id=entity_0018|fullname=Reichsfreiherr Dietrich von Remchingen|gender=m)))
+4905	hatte		
+4906	ihm	760	(mention_id=737|references=(entity=(entity_id=entity_0033|fullname=Niklas|gender=m)))
+4907	,		
+4908	als		
+4909	er	761	(mention_id=738|references=(entity=(entity_id=entity_0033|fullname=Niklas|gender=m)))
+4910	gebrechlich		
+4911	geworden		
+4912	war		
+4913	und		
+4914	zum		
+4915	Weidwerk		
+4916	nicht		
+4917	mehr		
+4918	taugte		
+4919	,		
+4920	den		
+4921	Ruheposten		
+4922	des		
+4923	Türmers	762	(mention_id=739|references=(entity=(entity_id=entity_0033|fullname=Niklas|gender=m)))
+4924	in		
+4925	Wachenheim		
+4926	verschafft		
+4927	.		
+4928	Sein	763	(mention_id=740|references=(entity=(entity_id=entity_0033|fullname=Niklas|gender=m)))
+4929	Waldhorn		
+4930	hatte		
+4931	der		
+4932	Alte	764	(mention_id=741|references=(entity=(entity_id=entity_0033|fullname=Niklas|gender=m)))
+4933	mitgebracht		
+4934	,		
+4935	und		
+4936	seine	765	(mention_id=742|references=(entity=(entity_id=entity_0033|fullname=Niklas|gender=m)))
+4937	geliebten		
+4938	Jagdfanfaren		
+4939	dünkten		
+4940	ihn	766	(mention_id=743|references=(entity=(entity_id=entity_0033|fullname=Niklas|gender=m)))
+4941	geradeso		
+4942	erbaulich		
+4943	wie		
+4944	das		
+4945	Glockengeläut		
+4946	,		
+4947	das		
+4948	er	767	(mention_id=744|references=(entity=(entity_id=entity_0033|fullname=Niklas|gender=m)))
+4949	ebenfalls		
+4950	besorgte		
+4951	.		
+4952	Die		
+4953	Armbrusters	768	(mention_id=745|references=(entity=(entity_id=entity_0007|fullname=Familie Armbruster|gender=mf|members=entity_0001,entity_0003,entity_0004,entity_0005,entity_0008,entity_0016,entity_0017|all_members_given=True|specialcase_entity=group)))
+4954	erhoben		
+4955	sich	769	(mention_id=746|references=(entity=(entity_id=entity_0007|fullname=Familie Armbruster|gender=mf|members=entity_0001,entity_0003,entity_0004,entity_0005,entity_0008,entity_0016,entity_0017|all_members_given=True|specialcase_entity=group)))
+4956	und		
+4957	sagten		
+4958	sich	770	(mention_id=747|references=(entity=(entity_id=entity_0007|fullname=Familie Armbruster|gender=mf|members=entity_0001,entity_0003,entity_0004,entity_0005,entity_0008,entity_0016,entity_0017|all_members_given=True|specialcase_entity=group)))
+4959	Gute		
+4960	Nacht		
+4961	,		
+4962	denn		
+4963	es		
+4964	war		
+4965	allmählich		
+4966	tiefe		
+4967	Dämmerung		
+4968	geworden		
+4969	.		
+4970	Aber		
+4971	der		
+4972	zunehmende		
+4973	Mond		
+4974	beleuchtete		
+4975	den		
+4976	stillen		
+4977	Abtshof		
+4978	,		
+4979	in		
+4980	dessen		
+4981	Schutz		
+4982	und		
+4983	Frieden		
+4984	ein		
+4985	vielgequältes		
+4986	Mädchenherz		(mention_id=748|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))
+4987	seit		
+4988	langer		
+4989	Zeit		
+4990	zum		
+4991	ersten		
+4992	Male		
+4993	wieder		
+4994	in		
+4995	sorglosem		
+4996	Schlummer		
+4997	ruhte		
+4998	.		

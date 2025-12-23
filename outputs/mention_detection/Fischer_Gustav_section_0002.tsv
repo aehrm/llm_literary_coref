@@ -1,0 +1,4513 @@
+i	token	mention	gold
+5860	Zweytes		
+5861	Buch		
+5862	Erstes		
+5863	Kapitel		
+5864	»		
+5865	Lassen		
+5866	Sie	911	(mention_id=910|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+5867	uns	912	(mention_id=911|references=(entity=(entity_id=entity_0004|fullname=Heinrich|gender=m)),(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+5868	reisen		
+5869	!		
+5870	–		
+5871	sagte		
+5872	Heinrich	913	(mention_id=912|references=(entity=(entity_id=entity_0004|fullname=Heinrich|gender=m)))
+5873	,		
+5874	als		
+5875	wir	914	(mention_id=913|references=(entity=(entity_id=entity_0004|fullname=Heinrich|gender=m)),(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+5876	eines		
+5877	Abends		
+5878	sterbens		
+5879	müde		
+5880	und		
+5881	abermahls		
+5882	vergeblich		
+5883	von		
+5884	unsern	915	(mention_id=914|references=(entity=(entity_id=entity_0004|fullname=Heinrich|gender=m)),(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+5885	Streifereyen		
+5886	zurückkehrten		
+5887	–		
+5888	»		
+5889	lassen		
+5890	Sie	916	(mention_id=915|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+5891	uns	917	(mention_id=916|references=(entity=(entity_id=entity_0004|fullname=Heinrich|gender=m)),(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+5892	reisen		
+5893	!		
+5894	hier		
+5895	finden		
+5896	wir	918	(mention_id=917|references=(entity=(entity_id=entity_0004|fullname=Heinrich|gender=m)),(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+5897	sie	919	(mention_id=918|references=(entity=(entity_id=entity_0003|fullname=Marie|gender=f)))
+5898	doch		
+5899	nicht		
+5900	!		
+5901	«		
+5902	»		
+5903	Du	920	(mention_id=919|references=(entity=(entity_id=entity_0004|fullname=Heinrich|gender=m)))
+5904	hast		
+5905	Recht		
+5906	!		
+5907	«		
+5908	–		
+5909	rief		
+5910	ich	921	(mention_id=920|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+5911	–		
+5912	reisen		
+5913	wollen		
+5914	wir	922	
+5915	!		
+5916	gleich		
+5917	über		
+5918	Hamburg		
+5919	nach		
+5920	England		
+5921	;		
+5922	da		
+5923	müssen		
+5924	wir	923	(mention_id=921|references=(entity=(entity_id=entity_0004|fullname=Heinrich|gender=m)),(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+5925	sie	924	(mention_id=922|references=(entity=(entity_id=entity_0003|fullname=Marie|gender=f)))
+5926	finden		
+5927	!		
+5928	Heinrich	925	(mention_id=923|references=(entity=(entity_id=entity_0004|fullname=Heinrich|gender=m)))
+5929	.		
+5930	Da		
+5931	gewiß		
+5932	am		
+5933	wenigsten		
+5934	.		
+5935	Ich	926	(mention_id=924|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+5936	.		
+5937	Warum		
+5938	?		
+5939	Er	927	(mention_id=925|references=(entity=(entity_id=entity_0004|fullname=Heinrich|gender=m)))
+5940	.		
+5941	Weil		
+5942	sie	928	(mention_id=926|references=(entity=(entity_id=entity_0003|fullname=Marie|gender=f)),(entity=(entity_id=entity_0005|fullname=Maries Mutter|gender=f)))
+5943	England		
+5944	mehr		
+5945	vermeiden		
+5946	als		
+5947	suchen		
+5948	werden		
+5949	.		
+5950	Mehrere		
+5951	Aeußerungen		
+5952	der		
+5953	Mutter	929	(mention_id=927|references=(entity=(entity_id=entity_0005|fullname=Maries Mutter|gender=f)))
+5954	verriethen		
+5955	das		
+5956	.		
+5957	Ich	930	(mention_id=928|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+5958	.		
+5959	Aber		
+5960	Engländerinnen	931	(mention_id=929|references=(entity=(entity_id=entity_0003|fullname=Marie|gender=f)),(entity=(entity_id=entity_0005|fullname=Maries Mutter|gender=f)))
+5961	waren		
+5962	sie	932	(mention_id=930|references=(entity=(entity_id=entity_0003|fullname=Marie|gender=f)),(entity=(entity_id=entity_0005|fullname=Maries Mutter|gender=f)))
+5963	;		
+5964	das		
+5965	ist		
+5966	gewiß		
+5967	.		
+5968	Er	933	(mention_id=931|references=(entity=(entity_id=entity_0004|fullname=Heinrich|gender=m)))
+5969	.		
+5970	Nach		
+5971	ihrer	934	(mention_id=932|references=(entity=(entity_id=entity_0003|fullname=Marie|gender=f)),(entity=(entity_id=entity_0005|fullname=Maries Mutter|gender=f)))
+5972	Aussprache		
+5973	kam		
+5974	es		
+5975	mir	935	(mention_id=933|references=(entity=(entity_id=entity_0004|fullname=Heinrich|gender=m)))
+5976	selbst		
+5977	so		
+5978	vor		
+5979	.		
+5980	Das		
+5981	widerspricht		
+5982	aber		
+5983	meiner	936	(mention_id=934|references=(entity=(entity_id=entity_0004|fullname=Heinrich|gender=m)))
+5984	Vermuthung		
+5985	ganz		
+5986	und		
+5987	gar		
+5988	nicht		
+5989	.		
+5990	Glauben		
+5991	Sie	937	(mention_id=935|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+5992	mir	938	(mention_id=936|references=(entity=(entity_id=entity_0004|fullname=Heinrich|gender=m)))
+5993	,		
+5994	lassen		
+5995	Sie	939	(mention_id=937|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+5996	uns	940	(mention_id=938|references=(entity=(entity_id=entity_0004|fullname=Heinrich|gender=m)),(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+5997	nach		
+5998	Berlin		
+5999	gehn		
+6000	.		
+6001	Ich	941	(mention_id=939|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+6002	.		
+6003	Sollten		
+6004	sie	942	(mention_id=940|references=(entity=(entity_id=entity_0005|fullname=Maries Mutter|gender=f)),(entity=(entity_id=entity_0003|fullname=Marie|gender=f)))
+6005	da		
+6006	seyn		
+6007	?		
+6008	–		
+6009	Er	943	(mention_id=941|references=(entity=(entity_id=entity_0004|fullname=Heinrich|gender=m)))
+6010	.		
+6011	Wer		
+6012	weiß		
+6013	!		
+6014	–		
+6015	überdem		
+6016	war		
+6017	es		
+6018	ja		
+6019	auch		
+6020	unser	944	(mention_id=942|references=(entity=(entity_id=entity_0004|fullname=Heinrich|gender=m)),(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+6021	Plan		
+6022	über		
+6023	Berlin		
+6024	und		
+6025	Wien		
+6026	nach		
+6027	Italien		
+6028	zu		
+6029	reisen		
+6030	.		
+6031	Ich	945	(mention_id=943|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+6032	.		
+6033	Ach		
+6034	Berlin		
+6035	,		
+6036	Wien		
+6037	,		
+6038	Italien		
+6039	,		
+6040	die		
+6041	ganze		
+6042	Welt		
+6043	ist		
+6044	mir	946	(mention_id=944|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+6045	zuwider		
+6046	,		
+6047	finde		
+6048	ich	947	(mention_id=945|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+6049	sie		(mention_id=946|references=(entity=(entity_id=entity_0003|fullname=Marie|gender=f)))
+6050	nicht		
+6051	;		
+6052	so		
+6053	ist		
+6054	mir	948	(mention_id=947|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+6055	das		
+6056	Leben		
+6057	eine		
+6058	Last		
+6059	.		
+6060	Er	949	(mention_id=948|references=(entity=(entity_id=entity_0004|fullname=Heinrich|gender=m)))
+6061	.		
+6062	Fassen		
+6063	Sie	950	(mention_id=949|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+6064	Muth		
+6065	!		
+6066	es		
+6067	müßte		
+6068	...		
+6069	Ich	951	(mention_id=950|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+6070	.		
+6071	Muth		
+6072	!		
+6073	zu		
+6074	einem		
+6075	Leben		
+6076	ohne		
+6077	Liebe		
+6078	?		
+6079	–		
+6080	Er	952	(mention_id=951|references=(entity=(entity_id=entity_0004|fullname=Heinrich|gender=m)))
+6081	.		
+6082	Wer		
+6083	sagt		
+6084	das		
+6085	?		
+6086	Ich	953	(mention_id=952|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+6087	.		
+6088	Ihr	954	(mention_id=953|references=(entity=(entity_id=entity_0004|fullname=Heinrich|gender=m)),(entity=(entity_id=generic_0141|fullname=generic_0020|gender=u|specialcase_entity=generic)))
+6089	,		
+6090	Ihr	955	(mention_id=954|references=(entity=(entity_id=entity_0004|fullname=Heinrich|gender=m)),(entity=(entity_id=generic_0142|fullname=generic_0021|gender=u|specialcase_entity=generic)))
+6091	Alle	956	(mention_id=955|references=(entity=(entity_id=entity_0004|fullname=Heinrich|gender=m)),(entity=(entity_id=generic_0143|fullname=generic_0022|gender=u|specialcase_entity=generic)))
+6092	!		
+6093	mein	957	(mention_id=956|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+6094	steifer		
+6095	Herr	958	(mention_id=957|references=(entity=(entity_id=entity_0021|fullname=Hofmeister|gender=m)))
+6096	Hofmeister	958	(mention_id=957|references=(entity=(entity_id=entity_0021|fullname=Hofmeister|gender=m)))
+6097	dazu		
+6098	.		
+6099	–		
+6100	Gottlob		
+6101	daß		
+6102	ich	959	(mention_id=958|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+6103	ihn	960	(mention_id=959|references=(entity=(entity_id=entity_0021|fullname=Hofmeister|gender=m)))
+6104	endlich		
+6105	einmal		
+6106	los		
+6107	bin		
+6108	!		
+6109	–		
+6110	ginge		
+6111	es		
+6112	nach		
+6113	Eurem	961	(mention_id=960|references=(entity=(entity_id=entity_0021|fullname=Hofmeister|gender=m)),(entity=(entity_id=entity_0004|fullname=Heinrich|gender=m)))
+6114	Willen		
+6115	,		
+6116	so		
+6117	säße		
+6118	ich	962	(mention_id=961|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+6119	den		
+6120	ganzen		
+6121	Tag		
+6122	und		
+6123	schwitzte		
+6124	über		
+6125	großen		
+6126	Quartanten		
+6127	.		
+6128	Ach		
+6129	das		
+6130	ekelhafte		
+6131	Gewäsch		
+6132	von		
+6133	Pflicht		
+6134	!		
+6135	wie		
+6136	ist		
+6137	es		
+6138	mir	963	(mention_id=962|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+6139	doch		
+6140	in		
+6141	den		
+6142	Tod		
+6143	zuwider		
+6144	!		
+6145	Pflicht		
+6146	!		
+6147	Pflicht		
+6148	und		
+6149	nichts		
+6150	als		
+6151	Pflicht		
+6152	!		
+6153	–		
+6154	der		
+6155	Henker	964	
+6156	hole		
+6157	Eure	965	(mention_id=963|references=(entity=(entity_id=entity_0021|fullname=Hofmeister|gender=m)),(entity=(entity_id=entity_0004|fullname=Heinrich|gender=m)))
+6158	Pflicht		
+6159	!		
+6160	–		
+6161	meine	966	(mention_id=964|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+6162	erste		
+6163	Pflicht		
+6164	ist		
+6165	mich	967	(mention_id=965|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+6166	glücklich		
+6167	zu		
+6168	machen		
+6169	!		
+6170	–		
+6171	Er	968	(mention_id=966|references=(entity=(entity_id=entity_0004|fullname=Heinrich|gender=m)))
+6172	.		
+6173	Mögten		
+6174	Sie	969	(mention_id=967|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+6175	nur		
+6176	den		
+6177	rechten		
+6178	Weg		
+6179	dazu		
+6180	nicht		
+6181	verfehlen		
+6182	;		
+6183	wenn		
+6184	Sie	970	(mention_id=968|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+6185	doch		
+6186	einmal		
+6187	nicht		
+6188	mehr		
+6189	als		
+6190	glücklich		
+6191	seyn		
+6192	wollen		
+6193	.		
+6194	»		
+6195	Nein		
+6196	bey		
+6197	Gott		
+6198	!		
+6199	«		
+6200	rief		
+6201	ich	971	(mention_id=969|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+6202	,		
+6203	mit		
+6204	einem		
+6205	bittern		
+6206	Lächeln		
+6207	–		
+6208	»		
+6209	mehr		
+6210	will		
+6211	ich	972	(mention_id=970|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+6212	nicht		
+6213	seyn		
+6214	!		
+6215	Und		
+6216	mein	973	(mention_id=971|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+6217	hochweiser		
+6218	Herr	974	(mention_id=972|references=(entity=(entity_id=entity_0004|fullname=Heinrich|gender=m)|specialcase_reference=figurative))
+6219	Professor	974	(mention_id=972|references=(entity=(entity_id=entity_0004|fullname=Heinrich|gender=m)|specialcase_reference=figurative))
+6220	,		
+6221	womit		
+6222	könnten		
+6223	Sie	975	(mention_id=973|references=(entity=(entity_id=entity_0004|fullname=Heinrich|gender=m)|specialcase_reference=figurative))
+6224	denn		
+6225	sonst		
+6226	noch		
+6227	dienen		
+6228	?		
+6229	–		
+6230	was		
+6231	kann		
+6232	man		(mention_id=974|references=(entity=(entity_id=generic_0144|fullname=generic_0023|gender=u|specialcase_entity=generic)))
+6233	denn		
+6234	mehr		
+6235	seyn		
+6236	als		
+6237	glücklich		
+6238	?		
+6239	«		
+6240	–		
+6241	Er	976	
+6242	.		
+6243	Gut		
+6244	.		
+6245	»		
+6246	Höre		
+6247	!		
+6248	«		
+6249	–		
+6250	sagte		
+6251	ich	977	(mention_id=975|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+6252	ärgerlich		
+6253	–		
+6254	»		
+6255	nur		
+6256	nicht		
+6257	wieder		
+6258	mit		
+6259	deinen	978	(mention_id=976|references=(entity=(entity_id=entity_0004|fullname=Heinrich|gender=m)))
+6260	Rasereyen		
+6261	!		
+6262	–		
+6263	mach		
+6264	Anstalt		
+6265	zur		
+6266	Reise		
+6267	!		
+6268	morgen		
+6269	will		
+6270	ich	979	(mention_id=977|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+6271	mit		
+6272	der		
+6273	Tante	980	(mention_id=978|references=(entity=(entity_id=entity_0006|fullname=Gustavs Tante|gender=f)))
+6274	sprechen		
+6275	.		
+6276	«		
+6277	Zweytes		
+6278	Kapitel		
+6279	Meine	981	(mention_id=979|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+6280	Tante	982	(mention_id=980|references=(entity=(entity_id=entity_0006|fullname=Gustavs Tante|gender=f)))
+6281	konnte		
+6282	und		
+6283	durfte		
+6284	nun		
+6285	freylich		
+6286	keinen		
+6287	andern		
+6288	Willen		
+6289	haben		
+6290	,		
+6291	als		
+6292	den		
+6293	Meinigen	983	
+6294	;		
+6295	gleichwohl		
+6296	that		
+6297	ich	984	(mention_id=981|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+6298	dieses		
+6299	Mahl		
+6300	was		
+6301	sie	985	(mention_id=982|references=(entity=(entity_id=entity_0006|fullname=Gustavs Tante|gender=f)))
+6302	wünschte		
+6303	,		
+6304	und		
+6305	nahm		
+6306	meinen	986	(mention_id=983|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+6307	Weg		
+6308	nach		
+6309	Berlin		
+6310	.		
+6311	Theils		
+6312	weil		
+6313	ich	987	(mention_id=984|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+6314	keine		
+6315	Hoffnung		
+6316	hatte		
+6317	,		
+6318	Marie	988	(mention_id=985|references=(entity=(entity_id=entity_0003|fullname=Marie|gender=f)))
+6319	in		
+6320	England		
+6321	zu		
+6322	finden		
+6323	,		
+6324	theils		
+6325	weil		
+6326	mich	989	(mention_id=986|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+6327	in		
+6328	Berlin		
+6329	ein		
+6330	angenehmer		
+6331	Zirkel		
+6332	von		
+6333	Freunden	990	(mention_id=987|references=(entity=(entity_id=entity_0035|fullname=Freunde von Gustav in Berlin|gender=u|specialcase_entity=group)))
+6334	und		
+6335	Bekannten	991	(mention_id=988|references=(entity=(entity_id=entity_0025|fullname=Bekannte von Gustav in Berlin|gender=u|specialcase_entity=group)))
+6336	erwartete		
+6337	.		
+6338	Ich	992	(mention_id=989|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+6339	bekam		
+6340	Empfehlungsbriefe		
+6341	die		
+6342	Menge		
+6343	und		
+6344	noch		
+6345	vor		
+6346	Ende		
+6347	des		
+6348	Junius		
+6349	waren		
+6350	wir	993	(mention_id=990|references=(entity=(entity_id=entity_0004|fullname=Heinrich|gender=m)),(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+6351	vollkommen		
+6352	einheimisch		
+6353	daselbst		
+6354	.		
+6355	Heinrich	994	(mention_id=991|references=(entity=(entity_id=entity_0004|fullname=Heinrich|gender=m)))
+6356	warf		
+6357	sich	995	(mention_id=992|references=(entity=(entity_id=entity_0004|fullname=Heinrich|gender=m)))
+6358	nun		
+6359	von		
+6360	Neuem		
+6361	auf		
+6362	seine	996	(mention_id=993|references=(entity=(entity_id=entity_0004|fullname=Heinrich|gender=m)))
+6363	Bücher		
+6364	,		
+6365	während		
+6366	ich	997	(mention_id=994|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+6367	auf		
+6368	den		
+6369	Spaziergängen		
+6370	herumstrich		
+6371	,		
+6372	und		
+6373	keinen		
+6374	Abend		
+6375	das		
+6376	Schauspiel		
+6377	verfehlte		
+6378	,		
+6379	um		
+6380	Marie	998	(mention_id=995|references=(entity=(entity_id=entity_0003|fullname=Marie|gender=f)))
+6381	wo		
+6382	möglich		
+6383	zu		
+6384	entdecken		
+6385	.		
+6386	Das		
+6387	Einzige		
+6388	,		
+6389	was		
+6390	mich	999	(mention_id=996|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+6391	noch		
+6392	etwa		
+6393	außerdem		
+6394	beschäftigte		
+6395	:		
+6396	war		
+6397	Musik		
+6398	und		
+6399	Geschichte		
+6400	.		
+6401	Musik		
+6402	,		
+6403	um		
+6404	für		
+6405	meinen	1000	(mention_id=997|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+6406	Schmerz		
+6407	einen		
+6408	Ausdruck		
+6409	zu		
+6410	finden		
+6411	,		
+6412	und		
+6413	Geschichte		
+6414	,		
+6415	um		
+6416	Heinrich	1001	(mention_id=998|references=(entity=(entity_id=entity_0004|fullname=Heinrich|gender=m)))
+6417	durch		
+6418	Thatsachen		
+6419	niederzuschlagen		
+6420	;		
+6421	wenn		
+6422	er	1002	(mention_id=999|references=(entity=(entity_id=entity_0004|fullname=Heinrich|gender=m)))
+6423	etwa		
+6424	für		
+6425	gut		
+6426	finden		
+6427	sollte		
+6428	,		
+6429	mir	1003	(mention_id=1000|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+6430	seine	1004	(mention_id=1001|references=(entity=(entity_id=entity_0004|fullname=Heinrich|gender=m)))
+6431	Puppe		
+6432	die		
+6433	Vervollkommung		
+6434	des		
+6435	Menschengeschlechts		
+6436	anzupreisen		
+6437	,		
+6438	Ach		
+6439	meine	1005	(mention_id=1002|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+6440	,		
+6441	durch		
+6442	die		
+6443	Liebe		
+6444	genährte		
+6445	und		
+6446	unterdrückte		
+6447	Sinnlichkeit		
+6448	,		
+6449	und		
+6450	die		
+6451	beständig		
+6452	getäuschte		
+6453	Hoffnung		
+6454	Marie	1006	(mention_id=1003|references=(entity=(entity_id=entity_0003|fullname=Marie|gender=f)))
+6455	zu		
+6456	finden		
+6457	–		
+6458	alles		
+6459	gab		
+6460	meinem	1007	(mention_id=1004|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+6461	Charakter		
+6462	jetzt		
+6463	eine		
+6464	Bitterkeit		
+6465	,		
+6466	welche		
+6467	bey		
+6468	dem		
+6469	gänzlichen		
+6470	Mangel		
+6471	an		
+6472	Selbstüberwindung		
+6473	oft		
+6474	in		
+6475	eine		
+6476	Art		
+6477	von		
+6478	Wuth		
+6479	überging		
+6480	.		
+6481	Mehrere		
+6482	meiner	1008	(mention_id=1005|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+6483	Empfehlungsschreiben		
+6484	waren		
+6485	schon		
+6486	abgegeben		
+6487	,		
+6488	aber		
+6489	noch		
+6490	hatte		
+6491	ich	1009	(mention_id=1006|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+6492	mich	1010	(mention_id=1007|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+6493	zu		
+6494	keinem		
+6495	Besuche		
+6496	entschließen		
+6497	können		
+6498	.		
+6499	Im		
+6500	Gegentheil		
+6501	war		
+6502	ein		
+6503	alter		
+6504	Freund	1011	(mention_id=1008|references=(entity=(entity_id=entity_0020|fullname=Freund der Tante|gender=m)))
+6505	meiner	1012	(mention_id=1009|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+6506	Tante	1013	(mention_id=1010|references=(entity=(entity_id=entity_0006|fullname=Gustavs Tante|gender=f)))
+6507	wirklich		
+6508	durch		
+6509	mich	1014	(mention_id=1011|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+6510	beleidigt		
+6511	.		
+6512	Er	1015	(mention_id=1012|references=(entity=(entity_id=entity_0020|fullname=Freund der Tante|gender=m)))
+6513	begegnete		
+6514	mir	1016	(mention_id=1013|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+6515	auf		
+6516	einem		
+6517	Spaziergange		
+6518	,		
+6519	und		
+6520	erkundigte		
+6521	sich	1017	(mention_id=1014|references=(entity=(entity_id=entity_0020|fullname=Freund der Tante|gender=m)))
+6522	mit		
+6523	vieler		
+6524	Theilnahme		
+6525	nach		
+6526	meinem	1018	(mention_id=1015|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+6527	Befinden		
+6528	.		
+6529	Meine	1019	(mention_id=1016|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+6530	Tante	1020	(mention_id=1017|references=(entity=(entity_id=entity_0006|fullname=Gustavs Tante|gender=f)))
+6531	hatte		
+6532	mich	1021	(mention_id=1018|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+6533	allenthalben		
+6534	als		
+6535	krank		
+6536	angekündigt		
+6537	;		
+6538	und		
+6539	leider		
+6540	war		
+6541	es		
+6542	dem		
+6543	Herzen		
+6544	nah		
+6545	nur		
+6546	gar		
+6547	zu		
+6548	wahr		
+6549	.		
+6550	Aber		
+6551	in		
+6552	dem		
+6553	Augenblicke		
+6554	,		
+6555	da		
+6556	ich	1022	(mention_id=1019|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+6557	ihm	1023	(mention_id=1020|references=(entity=(entity_id=entity_0020|fullname=Freund der Tante|gender=m)))
+6558	meine	1024	(mention_id=1021|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+6559	Dankbarkeit		
+6560	bezeigen		
+6561	wollte		
+6562	;		
+6563	ward		
+6564	ich	1025	(mention_id=1022|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+6565	ein		
+6566	Frauenzimmer	1026	(mention_id=1023|references=(entity=(entity_id=entity_0022|fullname=eine Frau in Berlin|gender=f)))
+6567	gewahr		
+6568	,		
+6569	das	1027	(mention_id=1024|references=(entity=(entity_id=entity_0022|fullname=eine Frau in Berlin|gender=f)))
+6570	mir	1028	(mention_id=1025|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+6571	eine		
+6572	auffallende		
+6573	Aehnlichkeit		
+6574	mit		
+6575	Marien	1029	(mention_id=1026|references=(entity=(entity_id=entity_0003|fullname=Marie|gender=f)))
+6576	zu		
+6577	haben		
+6578	schien		
+6579	.		
+6580	–		
+6581	Mehr		
+6582	bedurfte		
+6583	es		
+6584	nicht		
+6585	,		
+6586	um		
+6587	mich	1030	(mention_id=1027|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+6588	den		
+6589	guten		
+6590	alten		
+6591	Mann	1031	(mention_id=1028|references=(entity=(entity_id=entity_0020|fullname=Freund der Tante|gender=m)))
+6592	und		
+6593	alles		
+6594	was		
+6595	er	1032	(mention_id=1029|references=(entity=(entity_id=entity_0020|fullname=Freund der Tante|gender=m)))
+6596	mir	1033	(mention_id=1030|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+6597	sagte		
+6598	,		
+6599	vergessen		
+6600	zu		
+6601	machen		
+6602	.		
+6603	Ich	1034	(mention_id=1031|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+6604	eilte		
+6605	hinter		
+6606	dem		
+6607	Frauenzimmer	1035	(mention_id=1032|references=(entity=(entity_id=entity_0022|fullname=eine Frau in Berlin|gender=f)))
+6608	her		
+6609	,		
+6610	und		
+6611	wurde		
+6612	erst		
+6613	spät		
+6614	meine	1036	(mention_id=1033|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+6615	große		
+6616	Unhöflichkeit		
+6617	gewahr		
+6618	.		
+6619	Aehnliche		
+6620	Züge		
+6621	,		
+6622	besonders		
+6623	das		
+6624	anscheinend		
+6625	zwecklose		
+6626	Verfolgen		
+6627	der		
+6628	Frauenzimmer	1037	
+6629	,		
+6630	erwarben		
+6631	mir	1038	(mention_id=1034|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+6632	bald		
+6633	den		
+6634	Nahmen		
+6635	des		
+6636	schönen		
+6637	Verrückten	1039	
+6638	,		
+6639	und		
+6640	es		
+6641	wurde		
+6642	für		
+6643	die		
+6644	Damen	1040	(mention_id=1035|references=(entity=(entity_id=generic_0145|fullname=generic_0024|gender=u|specialcase_entity=generic)))
+6645	ein		
+6646	interessantes		
+6647	Geschäft		
+6648	,		
+6649	sich	1041	(mention_id=1036|references=(entity=(entity_id=generic_0146|fullname=generic_0025|gender=u|specialcase_entity=generic)))
+6650	einander	1042	(mention_id=1037|references=(entity=(entity_id=generic_0147|fullname=generic_0026|gender=u|specialcase_entity=generic)))
+6651	zu		
+6652	erzählen		
+6653	:		
+6654	wann		
+6655	,		
+6656	wo		
+6657	,		
+6658	und		
+6659	wie		
+6660	oft		
+6661	,		
+6662	sie	1043	(mention_id=1038|references=(entity=(entity_id=generic_0148|fullname=generic_0027|gender=u|specialcase_entity=generic)))
+6663	den		
+6664	schönen		
+6665	Verrückten	1044	(mention_id=1039|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+6666	gesehen		
+6667	hatten		
+6668	.		
+6669	Jetzt		
+6670	drang		
+6671	man		(mention_id=1040|references=(entity=(entity_id=entity_0038|fullname=Menschen die Gustav einladen|gender=u|specialcase_entity=group)))
+6672	mit		
+6673	einer		
+6674	Menge		
+6675	Einladungen		
+6676	auf		
+6677	mich	1045	(mention_id=1041|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+6678	ein		
+6679	,		
+6680	und		
+6681	ich	1046	(mention_id=1042|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+6682	mußte		
+6683	mich	1047	
+6684	,		
+6685	ohngeachtet		
+6686	meines	1048	(mention_id=1043|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+6687	großen		
+6688	Widerwillens		
+6689	,		
+6690	entschließen		
+6691	,		
+6692	wenigstens		
+6693	mit		
+6694	einem		
+6695	Hause		
+6696	den		
+6697	Anfang		
+6698	zu		
+6699	machen		
+6700	.		
+6701	Drittes		
+6702	Kapitel		
+6703	»		
+6704	Ein		
+6705	Ball		
+6706	?		
+6707	–		
+6708	ja		
+6709	das		
+6710	lasse		
+6711	ich	1049	(mention_id=1044|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+6712	mir	1050	(mention_id=1045|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+6713	gefallen		
+6714	!		
+6715	–		
+6716	Marie	1051	(mention_id=1046|references=(entity=(entity_id=entity_0003|fullname=Marie|gender=f)))
+6717	–		
+6718	wer		
+6719	weiß		
+6720	–		
+6721	o		
+6722	Gott		
+6723	wenn		
+6724	es		
+6725	möglich		
+6726	wäre		
+6727	!		
+6728	–		
+6729	ja		
+6730	!		
+6731	ja		
+6732	ich	1052	(mention_id=1047|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+6733	nehme		
+6734	es		
+6735	an		
+6736	!		
+6737	überdem		
+6738	finde		
+6739	ich	1053	(mention_id=1048|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+6740	dort		
+6741	eine		
+6742	Menge		
+6743	Bekannte	1054	(mention_id=1049|references=(entity=(entity_id=entity_0025|fullname=Bekannte von Gustav in Berlin|gender=u|specialcase_entity=group)))
+6744	,		
+6745	und		
+6746	kann		
+6747	bey		
+6748	der		
+6749	Gelegenheit		
+6750	am		
+6751	besten		
+6752	eine		
+6753	Auswahl		
+6754	treffen		
+6755	.		
+6756	«		
+6757	Da		
+6758	war		
+6759	ich	1055	(mention_id=1050|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+6760	denn		
+6761	mitten		
+6762	unter		
+6763	einem		
+6764	Haufen		(mention_id=1051|references=(entity=(entity_id=entity_0037|fullname=Frauen auf dem Ball|gender=f|specialcase_entity=group)))
+6765	geschminkter		
+6766	und		
+6767	ungeschminkter		
+6768	Schönen	1056	
+6769	.		
+6770	–		
+6771	Ach		
+6772	,		
+6773	ich	1057	(mention_id=1052|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+6774	suchte		
+6775	ein		
+6776	Mariengesicht	1058	
+6777	,		
+6778	aber		
+6779	es		
+6780	war		
+6781	nicht		
+6782	zu		
+6783	finden		
+6784	.		
+6785	Nackte		
+6786	Arme		
+6787	,		
+6788	zur		
+6789	Schau		
+6790	ausgestellte		
+6791	Busen		
+6792	,		
+6793	übermäßig		
+6794	zärtliche		
+6795	Augen		
+6796	.		
+6797	–		
+6798	Das		
+6799	alles		
+6800	wirkte		
+6801	freylich		
+6802	auf		
+6803	meine	1059	(mention_id=1053|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+6804	Sinne		
+6805	,		
+6806	aber		
+6807	mein	1060	(mention_id=1054|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+6808	Herz		
+6809	fühlte		
+6810	sich		
+6811	dennoch		
+6812	verwaist		
+6813	.		
+6814	Indem		
+6815	nun		
+6816	Sinnlichkeit		
+6817	und		
+6818	Schmerz		
+6819	sich		
+6820	meiner	1061	(mention_id=1055|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+6821	abwechselnd		
+6822	bemeisterten		
+6823	;		
+6824	fiel		
+6825	es		
+6826	mir	1062	(mention_id=1056|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+6827	auf		
+6828	,		
+6829	daß		
+6830	Alt	1063	(mention_id=1057|references=(entity=(entity_id=entity_0036|fullname=Alte Leute bei Ball in Berlin|gender=u|specialcase_entity=group)))
+6831	und		
+6832	Jung	1064	(mention_id=1058|references=(entity=(entity_id=entity_0032|fullname=Junge Leute bei Ball in Berlin|gender=u|specialcase_entity=group)))
+6833	,		
+6834	sobald		
+6835	der		
+6836	Tanz		
+6837	geendigt		
+6838	war		
+6839	,		
+6840	nur		
+6841	immer		
+6842	nach		
+6843	einer		
+6844	Seite		
+6845	des		
+6846	Zimmers		
+6847	hinströmte		
+6848	.		
+6849	Neugierig		
+6850	drängte		
+6851	ich	1065	(mention_id=1059|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+6852	mich	1066	(mention_id=1060|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+6853	vor		
+6854	,		
+6855	die		
+6856	Ursache		
+6857	davon		
+6858	zu		
+6859	entdecken		
+6860	,		
+6861	und		
+6862	wurde		
+6863	zu		
+6864	meinem	1067	(mention_id=1061|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+6865	größesten		
+6866	Erstaunen		
+6867	,		
+6868	mitten		
+6869	in		
+6870	einem		
+6871	Zirkel		
+6872	von		
+6873	jungen		
+6874	Männern	1068	(mention_id=1062|references=(entity=(entity_id=entity_0030|fullname=Junge Männer bei Ball in Berlin|gender=m|specialcase_entity=group)))
+6875	und		
+6876	blühenden		
+6877	Mädchen	1069	(mention_id=1063|references=(entity=(entity_id=entity_0024|fullname=Blühende Mädchen bei Ball in Berlin|gender=f|specialcase_entity=group)))
+6878	eine		
+6879	Person	1070	(mention_id=1064|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+6880	gewahr		
+6881	,		
+6882	welche	1071	(mention_id=1065|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+6883	weder		
+6884	schön		
+6885	noch		
+6886	jung		
+6887	und		
+6888	beynahe		
+6889	in		
+6890	ein		
+6891	sehr		
+6892	einfaches		
+6893	graues		
+6894	Kleid		
+6895	verhüllt		
+6896	war		
+6897	.		
+6898	»		
+6899	Unbegreiflich		
+6900	!		
+6901	«		
+6902	–		
+6903	sagte		
+6904	ich	1072	(mention_id=1066|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+6905	zu		
+6906	meinem	1073	(mention_id=1067|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+6907	Nachbar	1074	(mention_id=1068|references=(entity=(entity_id=entity_0019|fullname=Gustavs Nachbar bei Ball|gender=m)))
+6908	–		
+6909	wegen		
+6910	dieser		
+6911	Person	1075	(mention_id=1069|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+6912	drängt		
+6913	sich		
+6914	alles		
+6915	dahin		
+6916	!		
+6917	–		
+6918	Er	1076	(mention_id=1070|references=(entity=(entity_id=entity_0019|fullname=Gustavs Nachbar bei Ball|gender=m)))
+6919	.		
+6920	Sehr		
+6921	begreiflich		
+6922	;		
+6923	wenn		
+6924	man		
+6925	sie	1077	(mention_id=1071|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+6926	kennt		
+6927	.		
+6928	Ich	1078	(mention_id=1072|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+6929	.		
+6930	Aber		
+6931	wer		
+6932	ist		
+6933	sie	1079	(mention_id=1073|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+6934	denn		
+6935	?		
+6936	Er	1080	(mention_id=1074|references=(entity=(entity_id=entity_0019|fullname=Gustavs Nachbar bei Ball|gender=m)))
+6937	.		
+6938	Die		
+6939	Tochter	1081	(mention_id=1075|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+6940	des		
+6941	berühmten		
+6942	R.	1082	(mention_id=1076|references=(entity=(entity_id=entity_0027|fullname=R. (Sophies Vater)|gender=m)))
+6943	Ich	1083	(mention_id=1077|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+6944	.		
+6945	Mein		
+6946	Gott		
+6947	,		
+6948	die		
+6949	Freundinn	1084	(mention_id=1078|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+6950	meiner	1085	(mention_id=1079|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+6951	Tunte	1086	(mention_id=1080|references=(entity=(entity_id=entity_0006|fullname=Gustavs Tante|gender=f)))
+6952	!		
+6953	ich	1087	(mention_id=1081|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+6954	habe		
+6955	ein		
+6956	Empfehlungsschreiben		
+6957	an		
+6958	sie	1088	(mention_id=1082|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+6959	;		
+6960	aus		
+6961	Furche		
+6962	habe		
+6963	ich	1089	(mention_id=1083|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+6964	es		
+6965	noch		
+6966	nicht		
+6967	abgegeben		
+6968	.		
+6969	Er	1090	(mention_id=1084|references=(entity=(entity_id=entity_0019|fullname=Gustavs Nachbar bei Ball|gender=m)))
+6970	.		
+6971	Wovor		
+6972	fürchten		
+6973	Sie	1091	(mention_id=1085|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+6974	sich	1092	(mention_id=1086|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+6975	denn		
+6976	?		
+6977	Ich	1093	(mention_id=1087|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+6978	.		
+6979	Himmel		
+6980	,		
+6981	eine		
+6982	alte		
+6983	Jungfer	1094	
+6984	!		
+6985	–		
+6986	Er	1095	(mention_id=1088|references=(entity=(entity_id=entity_0019|fullname=Gustavs Nachbar bei Ball|gender=m)))
+6987	.		
+6988	Ja		
+6989	,		
+6990	aber		
+6991	was		
+6992	für		
+6993	Eine	1096	
+6994	!		
+6995	–		
+6996	Ich	1097	(mention_id=1089|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+6997	.		
+6998	Wahrhaftig		
+6999	,		
+7000	Sie	1098	(mention_id=1090|references=(entity=(entity_id=entity_0019|fullname=Gustavs Nachbar bei Ball|gender=m)))
+7001	könnten		
+7002	mich	1099	(mention_id=1091|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+7003	neugierig		
+7004	machen		
+7005	!		
+7006	–		
+7007	Er	1100	(mention_id=1092|references=(entity=(entity_id=entity_0019|fullname=Gustavs Nachbar bei Ball|gender=m)))
+7008	.		
+7009	Das		
+7010	wünsche		
+7011	ich	1101	(mention_id=1093|references=(entity=(entity_id=entity_0019|fullname=Gustavs Nachbar bei Ball|gender=m)))
+7012	um		
+7013	Ihrentwillen	1102	(mention_id=1094|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+7014	.		
+7015	Ich	1103	(mention_id=1095|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+7016	.		
+7017	Wohl		
+7018	gar		
+7019	eine		
+7020	Gelehrte	1104	(mention_id=1096|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+7021	?		
+7022	Er	1105	(mention_id=1097|references=(entity=(entity_id=entity_0019|fullname=Gustavs Nachbar bei Ball|gender=m)))
+7023	.		
+7024	Freylich		
+7025	,		
+7026	wenn		
+7027	Sie	1106	(mention_id=1098|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+7028	es		
+7029	so		
+7030	nennen		
+7031	wollen		
+7032	.		
+7033	Doch		
+7034	wenn		
+7035	Sie	1107	(mention_id=1099|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+7036	selbst		
+7037	kein		
+7038	Gelehrter	1108	(mention_id=1100|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+7039	sind		
+7040	;		
+7041	so		
+7042	können		
+7043	Sie	1109	(mention_id=1101|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+7044	Jahre		
+7045	lang		
+7046	mit		
+7047	ihr	1110	(mention_id=1102|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+7048	umgehen		
+7049	,		
+7050	ohne		
+7051	etwas		
+7052	davon		
+7053	gewahr		
+7054	zu		
+7055	werden		
+7056	.		
+7057	Ich	1111	(mention_id=1103|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+7058	.		
+7059	Nun		
+7060	,		
+7061	das		
+7062	nenne		
+7063	ich	1112	(mention_id=1104|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+7064	mir	1113	(mention_id=1105|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+7065	ein		
+7066	Wunder		
+7067	!		
+7068	Er	1114	(mention_id=1106|references=(entity=(entity_id=entity_0019|fullname=Gustavs Nachbar bei Ball|gender=m)))
+7069	.		
+7070	In		
+7071	der		
+7072	That		
+7073	,		
+7074	ein		
+7075	Wunder		(mention_id=1107|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+7076	von		
+7077	Sanftmuth		
+7078	,		
+7079	Bescheidenheit		
+7080	und		
+7081	überschwenglicher		
+7082	Herzensgüte		
+7083	.		
+7084	Ich	1115	(mention_id=1108|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+7085	.		
+7086	Sie	1116	(mention_id=1109|references=(entity=(entity_id=entity_0019|fullname=Gustavs Nachbar bei Ball|gender=m)))
+7087	werden		
+7088	ja		
+7089	recht		
+7090	warm		
+7091	.		
+7092	Er	1117	(mention_id=1110|references=(entity=(entity_id=entity_0019|fullname=Gustavs Nachbar bei Ball|gender=m)))
+7093	.		
+7094	So		
+7095	wie		
+7096	jeder		(mention_id=1111|references=(entity=(entity_id=generic_0149|fullname=generic_0028|gender=u|specialcase_entity=generic)))
+7097	,		
+7098	der	1118	(mention_id=1112|references=(entity=(entity_id=generic_0150|fullname=generic_0029|gender=u|specialcase_entity=generic)))
+7099	von		
+7100	ihr	1119	(mention_id=1113|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+7101	spricht		
+7102	.		
+7103	Ich	1120	(mention_id=1114|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+7104	.		
+7105	Aber		
+7106	wie		
+7107	konnte		
+7108	diese		
+7109	Person	1121	(mention_id=1115|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+7110	unverheurathet		
+7111	bleiben		
+7112	?		
+7113	Er	1122	(mention_id=1116|references=(entity=(entity_id=entity_0019|fullname=Gustavs Nachbar bei Ball|gender=m)))
+7114	.		
+7115	Ihr	1123	(mention_id=1117|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+7116	Bräutigam	1124	(mention_id=1118|references=(entity=(entity_id=entity_0033|fullname=Bräutigam von Sophie|gender=m)))
+7117	starb		
+7118	;		
+7119	und		
+7120	nachher		
+7121	hat		
+7122	sie	1125	(mention_id=1119|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+7123	sich	1126	(mention_id=1120|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+7124	zu		
+7125	keiner		
+7126	Verbindung		
+7127	wieder		
+7128	entschließen		
+7129	können		
+7130	.		
+7131	Aber		
+7132	was		
+7133	fehlt		
+7134	Ihnen	1127	(mention_id=1121|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+7135	?		
+7136	Sie	1128	(mention_id=1122|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+7137	werden		
+7138	blas		
+7139	.		
+7140	»		
+7141	Wahrscheinlich		
+7142	die		
+7143	eingeschlossene		
+7144	Luft		
+7145	«		
+7146	–		
+7147	sagte		
+7148	ich	1129	(mention_id=1123|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+7149	stotternd		
+7150	und		
+7151	eilte		
+7152	nach		
+7153	Hause		
+7154	.		
+7155	»		
+7156	Ach		
+7157	Unglückliche	1130	(mention_id=1124|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+7158	!		
+7159	«		
+7160	–		
+7161	rief		
+7162	ich	1131	(mention_id=1125|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+7163	–		
+7164	»		
+7165	so		
+7166	fandest		
+7167	du	1132	(mention_id=1126|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+7168	nie		
+7169	wieder		
+7170	,		
+7171	was		
+7172	du	1133	(mention_id=1127|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+7173	verlorst		
+7174	!		
+7175	und		
+7176	doch		
+7177	hast		
+7178	du	1134	(mention_id=1128|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+7179	das		
+7180	Leben		
+7181	ertragen		
+7182	.		
+7183	Dich	1135	(mention_id=1129|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+7184	muß		
+7185	ich	1136	(mention_id=1130|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+7186	kennen		
+7187	lernen		
+7188	!		
+7189	«		
+7190	Viertes		
+7191	Kapitel		
+7192	Den		
+7193	folgenden		
+7194	Tag		
+7195	ließ		
+7196	ich	1137	(mention_id=1131|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+7197	mich	1138	(mention_id=1132|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+7198	bey		
+7199	ihr	1139	(mention_id=1133|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+7200	melden		
+7201	und		
+7202	ward		
+7203	,		
+7204	zu		
+7205	meiner	1140	(mention_id=1134|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+7206	großen		
+7207	Freude		
+7208	,		
+7209	sogleich		
+7210	angenommen		
+7211	.		
+7212	Kaum		
+7213	hatten		
+7214	wir	1141	(mention_id=1135|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)),(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+7215	eine		
+7216	halbe		
+7217	Stunde		
+7218	mit		
+7219	einander	1142	(mention_id=1136|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)),(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+7220	gesprochen		
+7221	;		
+7222	so		
+7223	war		
+7224	mir	1143	(mention_id=1137|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+7225	,		
+7226	als		
+7227	hätten		
+7228	wir	1144	(mention_id=1138|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)),(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+7229	uns	1145	(mention_id=1139|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)),(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+7230	Jahre		
+7231	lang		
+7232	gekannt		
+7233	,		
+7234	und		
+7235	als		
+7236	könne		
+7237	ich	1146	(mention_id=1140|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+7238	ihr	1147	(mention_id=1141|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+7239	die		
+7240	geheimsten		
+7241	Empfindungen		
+7242	meines	1148	(mention_id=1142|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+7243	Herzens		
+7244	entdecken		
+7245	.		
+7246	Ihr	1149	(mention_id=1143|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+7247	schönes		
+7248	offnes		
+7249	Auge		
+7250	schien		
+7251	lange		
+7252	gewöhnt		
+7253	,		
+7254	über		
+7255	den		
+7256	Kummer		
+7257	dieser		
+7258	Erde		
+7259	hinwegzublicken		
+7260	,		
+7261	und		
+7262	in		
+7263	ihrem	1150	(mention_id=1144|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+7264	Gesichte		
+7265	herrschte		
+7266	eine		
+7267	Ruhe		
+7268	,		
+7269	welche		
+7270	unmerklich		
+7271	in		
+7272	die		
+7273	Seele		
+7274	des		
+7275	Andern	1151	
+7276	überging		
+7277	.		
+7278	In		
+7279	allem		
+7280	was		
+7281	sie	1152	(mention_id=1145|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+7282	sagte		
+7283	,		
+7284	lag		
+7285	ein		
+7286	so		
+7287	großer		
+7288	,		
+7289	schöner		
+7290	Sinn		
+7291	,		
+7292	den		
+7293	man		
+7294	aber		
+7295	erst		
+7296	lange		
+7297	nachher		
+7298	entdeckte		
+7299	,		
+7300	wenn		
+7301	sie	1153	(mention_id=1146|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+7302	wieder		
+7303	geschwiegen		
+7304	hatte		
+7305	.		
+7306	In		
+7307	dem		
+7308	Augenblicke		
+7309	wo		
+7310	sie	1154	(mention_id=1147|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+7311	sprach		
+7312	,		
+7313	schien		
+7314	sie	1155	(mention_id=1148|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+7315	bey		
+7316	ihrem	1156	(mention_id=1149|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+7317	äußerst		
+7318	einfachen		
+7319	Wesen		
+7320	,		
+7321	etwas		
+7322	ganz		
+7323	gewöhnliches		
+7324	zu		
+7325	sagen		
+7326	.		
+7327	Man		
+7328	kann		
+7329	denken		
+7330	,		
+7331	ob		
+7332	ich	1157	(mention_id=1150|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+7333	sie	1158	(mention_id=1151|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+7334	ungern		
+7335	verließ		
+7336	.		
+7337	–		
+7338	Ich	1159	(mention_id=1152|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+7339	hatte		
+7340	sie	1160	(mention_id=1153|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+7341	um		
+7342	die		
+7343	Erlaubniß		
+7344	gebeten		
+7345	,		
+7346	sie	1161	(mention_id=1154|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+7347	wieder		
+7348	zu		
+7349	sehen		
+7350	,		
+7351	und		
+7352	sie	1162	(mention_id=1155|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+7353	hatte		
+7354	sie		(mention_id=1156|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+7355	mir	1163	(mention_id=1157|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+7356	in		
+7357	einem		
+7358	Tone		
+7359	gegeben		
+7360	,		
+7361	der		
+7362	sehr		
+7363	deutlich		
+7364	verrieth		
+7365	,		
+7366	wie		
+7367	weit		
+7368	sie	1164	(mention_id=1158|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+7369	sich	1165	(mention_id=1159|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+7370	über		
+7371	die		
+7372	Jahre		
+7373	hinausglaubte		
+7374	,		
+7375	wo		
+7376	Mangel		
+7377	an		
+7378	Zurückhaltung		
+7379	gefährlich		
+7380	werden		
+7381	kann		
+7382	.		
+7383	In		
+7384	der		
+7385	That		
+7386	nutzte		
+7387	ich	1166	(mention_id=1160|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+7388	jetzt		
+7389	diese		
+7390	Erlaubniß		
+7391	auf		
+7392	das		
+7393	Aeußerste		
+7394	;		
+7395	es		
+7396	verging		
+7397	kein		
+7398	Tag		
+7399	,		
+7400	wo		
+7401	ich	1167	(mention_id=1161|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+7402	sie	1168	(mention_id=1162|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+7403	nicht		
+7404	wenigstens		
+7405	einmal		
+7406	sah		
+7407	,		
+7408	und		
+7409	bald		
+7410	ward		
+7411	es		
+7412	mir	1169	(mention_id=1163|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+7413	zum		
+7414	süßen		
+7415	Bedürfniß		
+7416	,		
+7417	ihr	1170	(mention_id=1164|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+7418	alle		
+7419	meine	1171	(mention_id=1165|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+7420	Gedanken		
+7421	und		
+7422	Empfindungen		
+7423	mitzutheilen		
+7424	.		
+7425	Stundenlang		
+7426	unterhielten		
+7427	wir	1172	(mention_id=1166|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)),(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+7428	uns	1173	(mention_id=1167|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)),(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+7429	von		
+7430	Marie	1174	(mention_id=1168|references=(entity=(entity_id=entity_0003|fullname=Marie|gender=f)))
+7431	,		
+7432	und		
+7433	von		
+7434	allem		
+7435	was		
+7436	ich	1175	(mention_id=1169|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+7437	gehoft		
+7438	und		
+7439	gelitten		
+7440	hatte		
+7441	.		
+7442	Ach		
+7443	,		
+7444	so		
+7445	wie		
+7446	sie	1176	(mention_id=1170|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+7447	mich	1177	(mention_id=1171|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+7448	verstand		
+7449	;		
+7450	konnte		
+7451	mich	1178	(mention_id=1172|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+7452	Heinrich	1179	(mention_id=1173|references=(entity=(entity_id=entity_0004|fullname=Heinrich|gender=m)))
+7453	nimmermehr		
+7454	verstehen		
+7455	.		
+7456	–		
+7457	Nein		
+7458	!		
+7459	dieses		
+7460	gänzliche		
+7461	Dahingeben		
+7462	in		
+7463	ein		
+7464	fremdes		
+7465	Interesse		
+7466	vermag		
+7467	kein		
+7468	Mann	1180	
+7469	von		
+7470	sich	1181	
+7471	zucrzwingen		
+7472	.		
+7473	Mein	1182	(mention_id=1174|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+7474	bitterer		
+7475	,		
+7476	verschlossener		
+7477	Gram		
+7478	sing		
+7479	endlich		
+7480	an		
+7481	,		
+7482	sich		
+7483	immermehr		
+7484	in		
+7485	zärtliche		
+7486	Wehmuth		
+7487	zu		
+7488	verwandeln		
+7489	;		
+7490	aber		
+7491	die		
+7492	Leidenschaft		
+7493	hatte		
+7494	meinen	1183	(mention_id=1175|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+7495	Körper		
+7496	schon		
+7497	zu		
+7498	sehr		
+7499	erschüttert		
+7500	:		
+7501	und		
+7502	ich	1184	(mention_id=1176|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+7503	fühlte		
+7504	bestimmt		
+7505	,		
+7506	daß		
+7507	ich	1185	(mention_id=1177|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+7508	einer		
+7509	ernstlichen		
+7510	Krankheit		
+7511	nicht		
+7512	entgehen		
+7513	würde		
+7514	.		
+7515	»		
+7516	Wenn		
+7517	ich	1186	(mention_id=1178|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+7518	krank		
+7519	werde		
+7520	«		
+7521	–		
+7522	sagte		
+7523	ich	1187	(mention_id=1179|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+7524	zu		
+7525	Sophien	1188	(mention_id=1180|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+7526	–		
+7527	»		
+7528	so		
+7529	bleibe		
+7530	ich	1189	(mention_id=1181|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+7531	bey		
+7532	Ihnen	1190	(mention_id=1182|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+7533	.		
+7534	Nicht		
+7535	wahr		
+7536	?		
+7537	Sie	1191	(mention_id=1183|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+7538	verstoßen		
+7539	mich	1192	(mention_id=1184|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+7540	nicht		
+7541	?		
+7542	«		
+7543	–		
+7544	Sie	1193	(mention_id=1185|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+7545	antwortete		
+7546	mir	1194	(mention_id=1186|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+7547	mit		
+7548	einem		
+7549	gutherzigen		
+7550	Lächeln		
+7551	;		
+7552	und		
+7553	dachte		
+7554	freylich		
+7555	nicht		
+7556	,		
+7557	daß		
+7558	dieser		
+7559	Fall		
+7560	jemals		
+7561	kommen		
+7562	würde		
+7563	.		
+7564	Aber		
+7565	als		
+7566	wir	1195	(mention_id=1187|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)),(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+7567	eines		
+7568	Abends		
+7569	im		
+7570	traulichen		
+7571	Gespräche		
+7572	neben		
+7573	einander		(mention_id=1188|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)),(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+7574	saßen		
+7575	,		
+7576	überfiel		
+7577	mich	1196	(mention_id=1189|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+7578	plötzlich		
+7579	ein		
+7580	Schwindel		
+7581	,		
+7582	und		
+7583	als		
+7584	ich	1197	(mention_id=1190|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+7585	das		
+7586	Bewußtseyn		
+7587	wieder		
+7588	erhielt		
+7589	,		
+7590	fand		
+7591	ich	1198	(mention_id=1191|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+7592	mich	1199	(mention_id=1192|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+7593	auf		
+7594	einem		
+7595	Bette		
+7596	,		
+7597	in		
+7598	einem		
+7599	unbekannten		
+7600	Zimmer		
+7601	,		
+7602	Sophie	1200	(mention_id=1193|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+7603	und		
+7604	den		
+7605	Arzt	1201	(mention_id=1194|references=(entity=(entity_id=entity_0012|fullname=Arzt|gender=m)))
+7606	an		
+7607	meiner	1202	(mention_id=1195|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+7608	Seite		
+7609	.		
+7610	Fünftes		
+7611	Kapitel		
+7612	»		
+7613	Wo		
+7614	bin		
+7615	ich	1203	
+7616	?		
+7617	«		
+7618	–		
+7619	rief		
+7620	ich	1204	(mention_id=1196|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+7621	aus		
+7622	–		
+7623	»		
+7624	was		
+7625	für		
+7626	ein		
+7627	Zimmer		
+7628	ist		
+7629	das		
+7630	?		
+7631	«		
+7632	»		
+7633	Das		
+7634	Schlafzimmer		
+7635	von		
+7636	Mlle	1205	(mention_id=1197|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+7637	.	1205	(mention_id=1197|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+7638	R.	1205	(mention_id=1197|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+7639	«		
+7640	–		
+7641	sagte		
+7642	der		
+7643	Arzt	1206	(mention_id=1198|references=(entity=(entity_id=entity_0012|fullname=Arzt|gender=m)))
+7644	–		
+7645	»		
+7646	was		
+7647	Sie	1207	(mention_id=1199|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+7648	auch		
+7649	sobald		
+7650	noch		
+7651	nicht		
+7652	verlassen		
+7653	werden		
+7654	.		
+7655	«		
+7656	»		
+7657	Glauben		
+7658	Sie	1208	(mention_id=1200|references=(entity=(entity_id=entity_0012|fullname=Arzt|gender=m)))
+7659	wirklich		
+7660	?		
+7661	«		
+7662	–		
+7663	fragte		
+7664	Sophie	1209	(mention_id=1201|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+7665	erröthend		
+7666	.		
+7667	–		
+7668	»		
+7669	Daß		
+7670	unter		
+7671	vierzehn		
+7672	Tagen		
+7673	an		
+7674	keine		
+7675	Veränderung		
+7676	zu		
+7677	denken		
+7678	ist		
+7679	«		
+7680	–		
+7681	antwortete		
+7682	der		
+7683	Arzt	1210	(mention_id=1202|references=(entity=(entity_id=entity_0012|fullname=Arzt|gender=m)))
+7684	.		
+7685	»		
+7686	Ich	1211	(mention_id=1203|references=(entity=(entity_id=entity_0012|fullname=Arzt|gender=m)))
+7687	müßte		
+7688	mich	1212	(mention_id=1204|references=(entity=(entity_id=entity_0012|fullname=Arzt|gender=m)))
+7689	sehr		
+7690	irren		
+7691	oder		
+7692	die		
+7693	Masern		
+7694	sind		
+7695	im		
+7696	Anzuge		
+7697	,		
+7698	und		
+7699	Ihre	1213	(mention_id=1205|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+7700	Frau	1214	(mention_id=1206|references=(entity=(entity_id=entity_0006|fullname=Gustavs Tante|gender=f)))
+7701	Tante	1214	(mention_id=1206|references=(entity=(entity_id=entity_0006|fullname=Gustavs Tante|gender=f)))
+7702	hat		
+7703	mir	1215	(mention_id=1207|references=(entity=(entity_id=entity_0012|fullname=Arzt|gender=m)))
+7704	Ihre	1216	(mention_id=1208|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+7705	Gesundheit		
+7706	zu		
+7707	dringend		
+7708	empfohlen		
+7709	,		
+7710	als		
+7711	daß		
+7712	ich	1217	(mention_id=1209|references=(entity=(entity_id=entity_0012|fullname=Arzt|gender=m)))
+7713	Sie	1218	(mention_id=1210|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+7714	einer		
+7715	so		
+7716	guten		
+7717	Pflege		
+7718	entziehen		
+7719	sollte		
+7720	.		
+7721	«		
+7722	»		
+7723	Verhalten		
+7724	Sie	1219	(mention_id=1211|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+7725	sich	1220	(mention_id=1212|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+7726	nach		
+7727	meiner	1221	(mention_id=1213|references=(entity=(entity_id=entity_0012|fullname=Arzt|gender=m)))
+7728	Vorschrift		
+7729	,		
+7730	«		
+7731	–		
+7732	fuhr		
+7733	er	1222	
+7734	,		
+7735	zu		
+7736	Sophien	1223	(mention_id=1214|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+7737	sich	1224	(mention_id=1215|references=(entity=(entity_id=entity_0012|fullname=Arzt|gender=m)))
+7738	wendend		
+7739	,		
+7740	fort		
+7741	–		
+7742	»		
+7743	morgen		
+7744	früh		
+7745	komme		
+7746	ich	1225	(mention_id=1216|references=(entity=(entity_id=entity_0012|fullname=Arzt|gender=m)))
+7747	wieder		
+7748	.		
+7749	«		
+7750	Jetzt		
+7751	waren		
+7752	wir	1226	(mention_id=1217|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)),(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+7753	allein		
+7754	.		
+7755	Sophie	1227	(mention_id=1218|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+7756	stand		
+7757	am		
+7758	Fenster		
+7759	.		
+7760	»		
+7761	Warum		
+7762	so		
+7763	fern		
+7764	?		
+7765	«		
+7766	–		
+7767	sagte		
+7768	ich	1228	(mention_id=1219|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+7769	,		
+7770	und		
+7771	streckte		
+7772	bittend		
+7773	meine	1229	(mention_id=1220|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+7774	Hand		
+7775	nach		
+7776	ihr	1230	(mention_id=1221|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+7777	aus		
+7778	–		
+7779	»		
+7780	Sie	1231	(mention_id=1222|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+7781	wünschen		
+7782	etwas		
+7783	,		
+7784	Herr	1232	(mention_id=1223|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+7785	von	1232	(mention_id=1223|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+7786	S.	1232	(mention_id=1223|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+7787	–		
+7788	vielleicht		
+7789	zu		
+7790	trinken		
+7791	?		
+7792	«		
+7793	–		
+7794	antwortete		
+7795	sie	1233	(mention_id=1224|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+7796	,		
+7797	und		
+7798	ihre	1234	(mention_id=1225|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+7799	Miene		
+7800	war		
+7801	ein		
+7802	Gemisch		
+7803	von		
+7804	zärtlicher		
+7805	Wehmuth		
+7806	und		
+7807	lieblicher		
+7808	Verschämtheit		
+7809	.		
+7810	–		
+7811	»		
+7812	Ja		
+7813	,		
+7814	ich	1235	(mention_id=1226|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+7815	wünsche		
+7816	etwas		
+7817	,		
+7818	«		
+7819	–		
+7820	wiederholte		
+7821	ich	1236	(mention_id=1227|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+7822	,		
+7823	und		
+7824	indem		
+7825	sie	1237	(mention_id=1228|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+7826	mit		
+7827	besorgter		
+7828	Neugier		
+7829	näher		
+7830	trat		
+7831	,		
+7832	schlang		
+7833	ich	1238	(mention_id=1229|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+7834	meine	1239	(mention_id=1230|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+7835	beyden		
+7836	Arme		
+7837	um		
+7838	sie	1240	(mention_id=1231|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+7839	und		
+7840	drückte		
+7841	mein	1241	(mention_id=1232|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+7842	Gesicht		
+7843	fest		
+7844	an		
+7845	ihre	1242	(mention_id=1233|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+7846	schöne		
+7847	Brust		
+7848	–		
+7849	»		
+7850	ja		
+7851	,		
+7852	ich	1243	(mention_id=1234|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+7853	wünsche		
+7854	ewig		
+7855	an		
+7856	diesem		
+7857	großen		
+7858	Herzen		
+7859	zu		
+7860	ruhen		
+7861	!		
+7862	dann		
+7863	sollte		
+7864	mich	1244	(mention_id=1235|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+7865	kein		
+7866	Unglück		
+7867	treffen		
+7868	,		
+7869	und		
+7870	alle		
+7871	kleinlichen		
+7872	Leidenschaften		
+7873	würden		
+7874	auf		
+7875	immer		
+7876	von		
+7877	mir	1245	(mention_id=1236|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+7878	entfernt		
+7879	bleiben		
+7880	.		
+7881	«		
+7882	»		
+7883	Mein	1246	(mention_id=1237|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+7884	lieber		
+7885	Sohn	1247	(mention_id=1238|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+7886	!		
+7887	«		
+7888	–		
+7889	sagte		
+7890	sie	1248	(mention_id=1239|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+7891	,		
+7892	und		
+7893	ich	1249	(mention_id=1240|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+7894	fühlte		
+7895	ihre	1250	(mention_id=1241|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+7896	Lippen		
+7897	auf		
+7898	meiner	1251	(mention_id=1242|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+7899	Stirne		
+7900	–		
+7901	»		
+7902	ich	1252	(mention_id=1243|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+7903	bitte		
+7904	Sie	1253	(mention_id=1244|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+7905	,		
+7906	seyn		
+7907	Sie	1254	(mention_id=1245|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+7908	ruhig		
+7909	!		
+7910	Sie	1255	(mention_id=1246|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+7911	haben		
+7912	jetzt		
+7913	etwas		
+7914	Fieber		
+7915	,		
+7916	und		
+7917	die		
+7918	Erschütterungen		
+7919	könnten		
+7920	Ihnen	1256	(mention_id=1247|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+7921	sehr		
+7922	nachtheilig		
+7923	werden		
+7924	.		
+7925	«		
+7926	»		
+7927	Sie	1257	(mention_id=1248|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+7928	haben		
+7929	jetzt		
+7930	etwas		
+7931	Fieber		
+7932	!		
+7933	«		
+7934	–		
+7935	wiederholte		
+7936	ich	1258	(mention_id=1249|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+7937	empfindlich		
+7938	,		
+7939	und		
+7940	verbarg		
+7941	mein	1259	(mention_id=1250|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+7942	Gesicht		
+7943	in		
+7944	die		
+7945	Kissen		
+7946	.		
+7947	Lange		
+7948	spielte		
+7949	ich	1260	(mention_id=1251|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+7950	so		
+7951	den		
+7952	Beleidigten	1261	(mention_id=1252|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+7953	,		
+7954	hoffend		
+7955	,		
+7956	sie	1262	(mention_id=1253|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+7957	würde		
+7958	mich	1263	(mention_id=1254|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+7959	durch		
+7960	irgend		
+7961	etwas		
+7962	zu		
+7963	versöhnen		
+7964	suchen		
+7965	;		
+7966	aber		
+7967	als		
+7968	ich	1264	(mention_id=1255|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+7969	endlich		
+7970	wieder		
+7971	aufblickte		
+7972	,		
+7973	sah		
+7974	ich	1265	(mention_id=1256|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+7975	das		
+7976	Zimmer		
+7977	leer		
+7978	,		
+7979	und		
+7980	bald		
+7981	darauf		
+7982	,		
+7983	statt		
+7984	ihrer	1266	
+7985	,		
+7986	Heinrich	1267	(mention_id=1257|references=(entity=(entity_id=entity_0004|fullname=Heinrich|gender=m)))
+7987	hereintreten		
+7988	.		
+7989	Sechstes		
+7990	Kapitel		
+7991	»		
+7992	Was		
+7993	willst		
+7994	du	1268	(mention_id=1258|references=(entity=(entity_id=entity_0004|fullname=Heinrich|gender=m)))
+7995	?		
+7996	«		
+7997	–		
+7998	rief		
+7999	ich	1269	(mention_id=1259|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+8000	ihm	1270	(mention_id=1260|references=(entity=(entity_id=entity_0004|fullname=Heinrich|gender=m)))
+8001	ärgerlich		
+8002	entgegen		
+8003	–		
+8004	»		
+8005	doch		
+8006	wohl		
+8007	nicht		
+8008	den		
+8009	Krankenwärter	1271	(mention_id=1261|references=(entity=(entity_id=entity_0004|fullname=Heinrich|gender=m)))
+8010	machen		
+8011	?		
+8012	«		
+8013	»		
+8014	In		
+8015	der		
+8016	That		
+8017	,		
+8018	das		
+8019	war		
+8020	meine	1272	(mention_id=1262|references=(entity=(entity_id=entity_0004|fullname=Heinrich|gender=m)))
+8021	Absicht		
+8022	!		
+8023	«		
+8024	–		
+8025	sagte		
+8026	er	1273	(mention_id=1263|references=(entity=(entity_id=entity_0004|fullname=Heinrich|gender=m)))
+8027	,		
+8028	indem		
+8029	er	1274	(mention_id=1264|references=(entity=(entity_id=entity_0004|fullname=Heinrich|gender=m)))
+8030	mich	1275	(mention_id=1265|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+8031	mit		
+8032	seinen	1276	(mention_id=1266|references=(entity=(entity_id=entity_0004|fullname=Heinrich|gender=m)))
+8033	großen		
+8034	redlichen		
+8035	Augen		
+8036	unbeschreiblich		
+8037	theilnehmend		
+8038	ansah		
+8039	.		
+8040	»		
+8041	Du	1277	(mention_id=1267|references=(entity=(entity_id=entity_0004|fullname=Heinrich|gender=m)))
+8042	begreifst		
+8043	aber		
+8044	,		
+8045	«		
+8046	–		
+8047	fuhr		
+8048	ich	1278	(mention_id=1268|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+8049	ungeduldig		
+8050	fort		
+8051	–		
+8052	»		
+8053	daß		
+8054	das		
+8055	nicht		
+8056	angeht		
+8057	.		
+8058	–		
+8059	Sollen		
+8060	wir	1279	(mention_id=1269|references=(entity=(entity_id=entity_0004|fullname=Heinrich|gender=m)),(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+8061	der		
+8062	guten		
+8063	Person		(mention_id=1270|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+8064	zwey		
+8065	Menschen		(mention_id=1271|references=(entity=(entity_id=entity_0004|fullname=Heinrich|gender=m)),(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+8066	statt		
+8067	Einem	1280	(mention_id=1272|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+8068	aufbürden		
+8069	?		
+8070	«		
+8071	Er	1281	(mention_id=1273|references=(entity=(entity_id=entity_0004|fullname=Heinrich|gender=m)))
+8072	.		
+8073	Sie	1282	(mention_id=1274|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+8074	hat		
+8075	mich	1283	(mention_id=1275|references=(entity=(entity_id=entity_0004|fullname=Heinrich|gender=m)))
+8076	aber		
+8077	selbst		
+8078	darum		
+8079	gebeten		
+8080	.		
+8081	Ich	1284	(mention_id=1276|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+8082	.		
+8083	Wer		
+8084	?		
+8085	Er	1285	(mention_id=1277|references=(entity=(entity_id=entity_0004|fullname=Heinrich|gender=m)))
+8086	.		
+8087	Mlle	1286	(mention_id=1278|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+8088	.	1286	(mention_id=1278|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+8089	R.	1286	(mention_id=1278|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+8090	»		
+8091	Ich	1287	(mention_id=1279|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+8092	will		
+8093	nach		
+8094	Hause		
+8095	!		
+8096	ich	1288	(mention_id=1280|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+8097	will		
+8098	nach		
+8099	Hause		
+8100	!		
+8101	«		
+8102	–		
+8103	rief		
+8104	ich	1289	(mention_id=1281|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+8105	,		
+8106	von		
+8107	Fieberhitze		
+8108	glühend		
+8109	–		
+8110	und		
+8111	in		
+8112	dem		
+8113	Augenblicke		
+8114	trat		
+8115	Sophie	1290	(mention_id=1282|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+8116	herein		
+8117	.		
+8118	»		
+8119	Mein		
+8120	Gott		
+8121	!		
+8122	was		
+8123	ist		
+8124	denn		
+8125	vorgefallen		
+8126	?		
+8127	«		
+8128	–		
+8129	fragte		
+8130	sie	1291	(mention_id=1283|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+8131	erschrocken		
+8132	.		
+8133	»		
+8134	Ich	1292	(mention_id=1284|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+8135	will		
+8136	nach		
+8137	Hause		
+8138	!		
+8139	«		
+8140	–		
+8141	rief		
+8142	ich	1293	(mention_id=1285|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+8143	abermals		
+8144	–		
+8145	»		
+8146	Sie	1294	(mention_id=1286|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+8147	haben		
+8148	keine		
+8149	Zeit		
+8150	,		
+8151	mich	1295	(mention_id=1287|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+8152	zu		
+8153	warten		
+8154	!		
+8155	jetzt		
+8156	ist		
+8157	es		
+8158	auch		
+8159	einerley		
+8160	,		
+8161	ob		
+8162	ich	1296	(mention_id=1288|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+8163	genese		
+8164	!		
+8165	«		
+8166	–		
+8167	Das		
+8168	Fieber		
+8169	nahm		
+8170	zu		
+8171	,		
+8172	und		
+8173	von		
+8174	nun		
+8175	an		
+8176	wußte		
+8177	ich	1297	(mention_id=1289|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+8178	nicht		
+8179	mehr		
+8180	,		
+8181	was		
+8182	mit		
+8183	mir	1298	(mention_id=1290|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+8184	vorgieng		
+8185	.		
+8186	Einst		
+8187	dünkte		
+8188	mich	1299	(mention_id=1291|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+8189	,		
+8190	ich	1300	(mention_id=1292|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+8191	erwache		
+8192	von		
+8193	einem		
+8194	langen		
+8195	schmerzhaften		
+8196	Traume		
+8197	.		
+8198	Da		
+8199	sah		
+8200	ich	1301	(mention_id=1293|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+8201	Sophien	1302	(mention_id=1294|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+8202	schlummernd		
+8203	an		
+8204	meiner	1303	(mention_id=1295|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+8205	Seite		
+8206	sitzen		
+8207	.		
+8208	Ihr	1304	(mention_id=1296|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+8209	Kopf		
+8210	hatte		
+8211	keinen		
+8212	Ruhepunkt		
+8213	und		
+8214	wollte		
+8215	so		
+8216	eben		
+8217	auf		
+8218	eine		
+8219	scharfe		
+8220	Ecke		
+8221	des		
+8222	Bettes		
+8223	sinken		
+8224	,		
+8225	als		
+8226	ich	1305	(mention_id=1297|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+8227	ihn		
+8228	leise		
+8229	mit		
+8230	meinem	1306	(mention_id=1298|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+8231	Arme		
+8232	auffing		
+8233	.		
+8234	Aber		
+8235	in		
+8236	dem		
+8237	Augenblicke		
+8238	fühlte		
+8239	ich	1307	(mention_id=1299|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+8240	einen		
+8241	so		
+8242	lebhaften		
+8243	Schmerz		
+8244	,		
+8245	daß		
+8246	ich	1308	(mention_id=1300|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+8247	nur		
+8248	mit		
+8249	der		
+8250	äußersten		
+8251	Anstrengung		
+8252	einen		
+8253	lauten		
+8254	Schrey		
+8255	zurückhalten		
+8256	konnte		
+8257	.		
+8258	Ich	1309	(mention_id=1301|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+8259	bemerkte		
+8260	Binden		
+8261	an		
+8262	meinen	1310	(mention_id=1302|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+8263	Armen		
+8264	,		
+8265	sah		
+8266	eine		
+8267	Menge		
+8268	Flaschen		
+8269	und		
+8270	Schachteln		
+8271	auf		
+8272	dem		
+8273	Tische		
+8274	,		
+8275	und		
+8276	fing		
+8277	an		
+8278	zu		
+8279	muthmaßen		
+8280	:		
+8281	daß		
+8282	das		
+8283	Alles		
+8284	wohl		
+8285	mehr		
+8286	als		
+8287	ein		
+8288	Traum		
+8289	seyn		
+8290	könnte		
+8291	.		
+8292	Die		
+8293	Uhr		
+8294	schlug		
+8295	zwey		
+8296	,		
+8297	das		
+8298	Nachtlicht		
+8299	brannte		
+8300	sehr		
+8301	dunkel		
+8302	;		
+8303	aber		
+8304	ich	1311	(mention_id=1303|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+8305	konnte		
+8306	demohngeachtet		
+8307	eine		
+8308	große		
+8309	Veränderung		
+8310	in		
+8311	Sophiens	1312	(mention_id=1304|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+8312	Gesichte		
+8313	wahrnehmen		
+8314	.		
+8315	Die		
+8316	schöne		
+8317	Ruhe		
+8318	war		
+8319	aus		
+8320	ihren	1313	(mention_id=1305|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+8321	Zügen		
+8322	verschwunden		
+8323	,		
+8324	und		
+8325	ein		
+8326	leidenschaftlicher		
+8327	Gram		
+8328	schien		
+8329	an		
+8330	die		
+8331	Stelle		
+8332	derselben		
+8333	getreten		
+8334	zu		
+8335	seyn		
+8336	.		
+8337	»		
+8338	Große		
+8339	,		
+8340	liebenswürdige		
+8341	Seele	1314	(mention_id=1306|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)|specialcase_reference=part))
+8342	!		
+8343	«		
+8344	–		
+8345	dachte		
+8346	ich	1315	(mention_id=1307|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+8347	–		
+8348	»		
+8349	bin		
+8350	ich	1316	(mention_id=1308|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+8351	es		
+8352	?		
+8353	–		
+8354	hast		
+8355	du	1317	(mention_id=1309|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+8356	um		
+8357	mich	1318	(mention_id=1310|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+8358	getrauert		
+8359	?		
+8360	–		
+8361	Ach		
+8362	so		
+8363	war		
+8364	deine	1319	(mention_id=1311|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+8365	Ruhe		
+8366	auch		
+8367	nur		
+8368	Täuschung		
+8369	,		
+8370	und		
+8371	so		
+8372	vermag		
+8373	der		
+8374	Gram		
+8375	über		
+8376	dich	1320	(mention_id=1312|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+8377	,		
+8378	was		
+8379	er		
+8380	über		
+8381	uns	1321	(mention_id=1313|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)),(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+8382	alle		
+8383	vermag		
+8384	!		
+8385	–		
+8386	Was		
+8387	werde		
+8388	ich	1322	(mention_id=1314|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+8389	hören		
+8390	müssen		
+8391	!		
+8392	–		
+8393	Wie		
+8394	viel		
+8395	magst		
+8396	du	1323	(mention_id=1315|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+8397	für		
+8398	mich	1324	(mention_id=1316|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+8399	gelitten		
+8400	haben		
+8401	!		
+8402	«		
+8403	–		
+8404	Siebentes		
+8405	Kapitel		
+8406	»		
+8407	Ah		
+8408	!		
+8409	bin		
+8410	ich	1325	(mention_id=1317|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+8411	doch		
+8412	eingeschlummert		
+8413	!		
+8414	«		
+8415	–		
+8416	sagte		
+8417	sie	1326	(mention_id=1318|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+8418	,		
+8419	als		
+8420	sie	1327	(mention_id=1319|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+8421	von		
+8422	einem		
+8423	Zucken		
+8424	meines	1328	(mention_id=1320|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+8425	Armes		
+8426	erwachte		
+8427	,		
+8428	und		
+8429	suchte		
+8430	ihre	1329	(mention_id=1321|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+8431	Verwirrung		
+8432	zu		
+8433	verbergen		
+8434	.		
+8435	»		
+8436	Aber		
+8437	,		
+8438	meine	1330	(mention_id=1322|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+8439	theure		
+8440	Sophie	1331	(mention_id=1323|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+8441	!		
+8442	«		
+8443	–		
+8444	fiel		
+8445	ich	1332	(mention_id=1324|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+8446	ein		
+8447	,		
+8448	indem		
+8449	ich	1333	(mention_id=1325|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+8450	auf		
+8451	die		
+8452	Flaschen		
+8453	zeigte		
+8454	–		
+8455	bin		
+8456	ich	1334	(mention_id=1326|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+8457	denn		
+8458	wirklich		
+8459	so		
+8460	krank		
+8461	gewesen		
+8462	?		
+8463	«		
+8464	Sie	1335	(mention_id=1327|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+8465	.		
+8466	Leider		
+8467	mehr		
+8468	,		
+8469	als		
+8470	Sie	1336	(mention_id=1328|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+8471	wissen		
+8472	und		
+8473	glauben		
+8474	werden		
+8475	.		
+8476	Ich	1337	(mention_id=1329|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+8477	.		
+8478	Aber		
+8479	sagen		
+8480	Sie	1338	(mention_id=1330|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+8481	mir	1339	(mention_id=1331|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+8482	doch		
+8483	....		
+8484	Sie	1340	(mention_id=1332|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+8485	.		
+8486	Ihr	1341	(mention_id=1333|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+8487	Freund	1342	(mention_id=1334|references=(entity=(entity_id=entity_0004|fullname=Heinrich|gender=m)))
+8488	Heinrich	1343	(mention_id=1335|references=(entity=(entity_id=entity_0004|fullname=Heinrich|gender=m)))
+8489	wird		
+8490	Ihnen	1344	(mention_id=1336|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+8491	alles		
+8492	erzählen		
+8493	.		
+8494	Er	1345	(mention_id=1337|references=(entity=(entity_id=entity_0004|fullname=Heinrich|gender=m)))
+8495	ist		
+8496	hier		
+8497	im		
+8498	Nebenzimmer		
+8499	.		
+8500	Erlauben		
+8501	Sie	1346	(mention_id=1338|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+8502	,		
+8503	daß		
+8504	ich	1347	(mention_id=1339|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+8505	ihn	1348	(mention_id=1340|references=(entity=(entity_id=entity_0004|fullname=Heinrich|gender=m)))
+8506	rufe		
+8507	.		
+8508	Ich	1349	(mention_id=1341|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+8509	werde		
+8510	den		
+8511	Augenblick		
+8512	wieder		
+8513	bey		
+8514	Ihnen	1350	(mention_id=1342|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+8515	seyn		
+8516	.		
+8517	Jetzt		
+8518	nun		
+8519	sagte		
+8520	mir	1351	(mention_id=1343|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+8521	Heinrich	1352	(mention_id=1344|references=(entity=(entity_id=entity_0004|fullname=Heinrich|gender=m)))
+8522	,		
+8523	daß		
+8524	ich	1353	(mention_id=1345|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+8525	nicht		
+8526	die		
+8527	Masern		
+8528	,		
+8529	aber		
+8530	ein		
+8531	sehr		
+8532	heftiges		
+8533	Brustfieber		
+8534	gehabt		
+8535	,		
+8536	fortwährend		
+8537	phanthasirt		
+8538	,		
+8539	und		
+8540	Marien	1354	(mention_id=1346|references=(entity=(entity_id=entity_0003|fullname=Marie|gender=f)))
+8541	mit		
+8542	lauter		
+8543	Stimme		
+8544	gerufen		
+8545	hätte		
+8546	.		
+8547	Daß		
+8548	Sophie	1355	(mention_id=1347|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+8549	die		
+8550	Einzige	1356	(mention_id=1348|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+8551	gewesen		
+8552	sey		
+8553	,		
+8554	die	1357	(mention_id=1349|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+8555	sich	1358	(mention_id=1350|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+8556	mir	1359	(mention_id=1351|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+8557	habe		
+8558	nahen		
+8559	dürfen		
+8560	,		
+8561	und		
+8562	daß		
+8563	ihre	1360	(mention_id=1352|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+8564	Gesundheit		
+8565	von		
+8566	den		
+8567	vielen		
+8568	Nachtwachen		
+8569	außerordentlich		
+8570	gelitten		
+8571	habe		
+8572	.		
+8573	»		
+8574	Demohngeachtet		
+8575	,		
+8576	«		
+8577	–		
+8578	setzte		
+8579	er	1361	(mention_id=1353|references=(entity=(entity_id=entity_0004|fullname=Heinrich|gender=m)))
+8580	hinzu		
+8581	–		
+8582	ist		
+8583	sie	1362	(mention_id=1354|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+8584	mild		
+8585	und		
+8586	thätig		
+8587	geblieben		
+8588	.		
+8589	Marie	1363	(mention_id=1355|references=(entity=(entity_id=entity_0003|fullname=Marie|gender=f)))
+8590	hatte		
+8591	die		
+8592	Gestalt		
+8593	,		
+8594	diese	1364	(mention_id=1356|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+8595	hat		
+8596	das		
+8597	Herz		
+8598	eines		
+8599	Engels	1365	
+8600	!		
+8601	»		
+8602	Welche		(mention_id=1357|references=(entity=(entity_id=entity_0003|fullname=Marie|gender=f)),(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+8603	würdest		
+8604	du	1366	(mention_id=1358|references=(entity=(entity_id=entity_0004|fullname=Heinrich|gender=m)))
+8605	vorziehen		
+8606	?		
+8607	«		
+8608	–		
+8609	rief		
+8610	ich	1367	(mention_id=1359|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+8611	,		
+8612	indem		
+8613	ich	1368	(mention_id=1360|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+8614	schnell		
+8615	seine	1369	(mention_id=1361|references=(entity=(entity_id=entity_0004|fullname=Heinrich|gender=m)))
+8616	Hand		
+8617	ergriff		
+8618	.		
+8619	Er	1370	(mention_id=1362|references=(entity=(entity_id=entity_0004|fullname=Heinrich|gender=m)))
+8620	.		
+8621	Sonderbare		
+8622	Frage		
+8623	!		
+8624	was		
+8625	meynen		
+8626	Sie	1371	(mention_id=1363|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+8627	damit		
+8628	.		
+8629	Ich	1372	(mention_id=1364|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+8630	.		
+8631	Nun		
+8632	welche	1373	
+8633	würdest		
+8634	du	1374	(mention_id=1365|references=(entity=(entity_id=entity_0004|fullname=Heinrich|gender=m)))
+8635	zur		
+8636	Gattin	1375	(mention_id=1366|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)),(entity=(entity_id=entity_0003|fullname=Marie|gender=f)))
+8637	wählen		
+8638	?		
+8639	Er	1376	(mention_id=1367|references=(entity=(entity_id=entity_0004|fullname=Heinrich|gender=m)))
+8640	.		
+8641	Sophie	1377	(mention_id=1368|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+8642	auf		
+8643	keinen		
+8644	Fall		
+8645	!		
+8646	Ich	1378	(mention_id=1369|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+8647	.		
+8648	Was		
+8649	!		
+8650	Er	1379	(mention_id=1370|references=(entity=(entity_id=entity_0004|fullname=Heinrich|gender=m)))
+8651	.		
+8652	Und		
+8653	darüber		
+8654	wundern		
+8655	Sie	1380	(mention_id=1371|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+8656	sich	1381	(mention_id=1372|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+8657	?		
+8658	–		
+8659	Ich	1382	(mention_id=1373|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+8660	.		
+8661	Mit		
+8662	Recht		
+8663	.		
+8664	Sagtest		
+8665	du	1383	(mention_id=1374|references=(entity=(entity_id=entity_0004|fullname=Heinrich|gender=m)))
+8666	nicht		
+8667	eben		
+8668	:		
+8669	sie	1384	(mention_id=1375|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+8670	habe		
+8671	das		
+8672	Herz		
+8673	eines		
+8674	Engels	1385	
+8675	?		
+8676	und		
+8677	was		
+8678	findest		
+8679	du	1386	(mention_id=1376|references=(entity=(entity_id=entity_0004|fullname=Heinrich|gender=m)))
+8680	Tadelhaftes		
+8681	an		
+8682	ihrer	1387	(mention_id=1377|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+8683	Gestalt		
+8684	?		
+8685	Er	1388	(mention_id=1378|references=(entity=(entity_id=entity_0004|fullname=Heinrich|gender=m)))
+8686	.		
+8687	Nichts		
+8688	.		
+8689	Sie	1389	(mention_id=1379|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+8690	vergessen		
+8691	aber		
+8692	,		
+8693	daß		
+8694	sie	1390	(mention_id=1380|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+8695	wenigstens		
+8696	zehn		
+8697	Jahr		
+8698	älter		
+8699	ist		
+8700	,		
+8701	als		
+8702	ich	1391	(mention_id=1381|references=(entity=(entity_id=entity_0004|fullname=Heinrich|gender=m)))
+8703	.		
+8704	Ich	1392	(mention_id=1382|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+8705	.		
+8706	Was		
+8707	macht		
+8708	das		
+8709	?		
+8710	Er	1393	(mention_id=1383|references=(entity=(entity_id=entity_0004|fullname=Heinrich|gender=m)))
+8711	.		
+8712	Sehr		
+8713	viel		
+8714	!		
+8715	–		
+8716	Alles		
+8717	!		
+8718	–		
+8719	nach		
+8720	wenigen		
+8721	Jahren		
+8722	würden		
+8723	wir	1394	(mention_id=1384|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)),(entity=(entity_id=entity_0004|fullname=Heinrich|gender=m)))
+8724	beyde		(mention_id=1385|references=(entity=(entity_id=entity_0004|fullname=Heinrich|gender=m)),(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+8725	elend		
+8726	seyn		
+8727	.		
+8728	»		
+8729	Geh		
+8730	!		
+8731	Geh		
+8732	!		
+8733	«		
+8734	–		
+8735	rief		
+8736	ich	1395	(mention_id=1386|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+8737	,		
+8738	und		
+8739	riß		
+8740	meine	1396	(mention_id=1387|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+8741	Hand		
+8742	aus		
+8743	der		
+8744	seinigen	1397	(mention_id=1388|references=(entity=(entity_id=entity_0004|fullname=Heinrich|gender=m)))
+8745	.		
+8746	–		
+8747	Laß		
+8748	mich	1398	(mention_id=1389|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+8749	ruhn		
+8750	!		
+8751	ich	1399	(mention_id=1390|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+8752	will		
+8753	schlafen		
+8754	.		
+8755	Er	1400	(mention_id=1391|references=(entity=(entity_id=entity_0004|fullname=Heinrich|gender=m)))
+8756	ging		
+8757	.		
+8758	Wehmüthig		
+8759	sah		
+8760	ich	1401	(mention_id=1392|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+8761	ihm	1402	(mention_id=1393|references=(entity=(entity_id=entity_0004|fullname=Heinrich|gender=m)))
+8762	nach		
+8763	.		
+8764	»		
+8765	Ach		
+8766	,		
+8767	daß		
+8768	er	1403	(mention_id=1394|references=(entity=(entity_id=entity_0004|fullname=Heinrich|gender=m)))
+8769	immer		
+8770	Recht		
+8771	haben		
+8772	muß		
+8773	!		
+8774	«		
+8775	–		
+8776	dachte		
+8777	ich	1404	(mention_id=1395|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+8778	,		
+8779	und		
+8780	sank		
+8781	auf		
+8782	mein	1405	(mention_id=1396|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+8783	Kissen		
+8784	.		
+8785	Achtes		
+8786	Kapitel		
+8787	Jetzt		
+8788	kam		
+8789	Sophie	1406	(mention_id=1397|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+8790	.		
+8791	Ich	1407	(mention_id=1398|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+8792	hatte		
+8793	nicht		
+8794	den		
+8795	Muth		
+8796	die		
+8797	Augen		
+8798	aufzuschlagen		
+8799	.		
+8800	Mich	1408	(mention_id=1399|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+8801	dünkte		
+8802	,		
+8803	sie	1409	(mention_id=1400|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+8804	könne		
+8805	in		
+8806	meiner	1410	(mention_id=1401|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+8807	Seele		
+8808	lesen		
+8809	.		
+8810	–		
+8811	Ach		
+8812	,		
+8813	wie		
+8814	ich	1411	(mention_id=1402|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+8815	mit		
+8816	mir	1412	(mention_id=1403|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+8817	selbst		
+8818	kämpfte		
+8819	!		
+8820	–		
+8821	eine		
+8822	unwiderstehliche		
+8823	Kraft		
+8824	zog		
+8825	mich	1413	(mention_id=1404|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+8826	hin		
+8827	zu		
+8828	ihr	1414	(mention_id=1405|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+8829	,		
+8830	eine		
+8831	Andere	1415	
+8832	stieß		
+8833	mich	1416	(mention_id=1406|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+8834	zurück		
+8835	.		
+8836	Ihre	1417	(mention_id=1407|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+8837	Stimme		
+8838	hatte		
+8839	etwas		
+8840	unbeschreiblich		
+8841	Rührendes		
+8842	;		
+8843	und		
+8844	ich	1418	(mention_id=1408|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+8845	fragte		
+8846	nach		
+8847	verschiedenen		
+8848	Kleinigkeiten		
+8849	,		
+8850	blos		
+8851	um		
+8852	sie	1419	(mention_id=1409|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+8853	sprechen		
+8854	zu		
+8855	hören		
+8856	.		
+8857	Sie	1420	(mention_id=1410|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+8858	schien		
+8859	nicht		
+8860	ruhiger		
+8861	,		
+8862	als		
+8863	ich	1421	(mention_id=1411|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+8864	,		
+8865	und		
+8866	vermied		
+8867	absichtlich		
+8868	die		
+8869	Gelegenheit		
+8870	,		
+8871	mir	1422	(mention_id=1412|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+8872	näher		
+8873	zu		
+8874	kommen		
+8875	.		
+8876	»		
+8877	Aber		
+8878	,		
+8879	meine	1423	(mention_id=1413|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+8880	theure		
+8881	Sophie	1424	(mention_id=1414|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+8882	!		
+8883	«		
+8884	–		
+8885	hub		
+8886	ich	1425	(mention_id=1415|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+8887	endlich		
+8888	an		
+8889	–		
+8890	»		
+8891	Soll		
+8892	mit		
+8893	meiner	1426	(mention_id=1416|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+8894	Krankheit		
+8895	denn		
+8896	mein	1427	(mention_id=1417|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+8897	ganzes		
+8898	Glück		
+8899	verschwinden		
+8900	?		
+8901	–		
+8902	wollen		
+8903	Sie	1428	(mention_id=1418|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+8904	sich	1429	(mention_id=1419|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+8905	mir	1430	(mention_id=1420|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+8906	nun		
+8907	gar		
+8908	nicht		
+8909	mehr		
+8910	nahn		
+8911	?		
+8912	«		
+8913	–		
+8914	Sie	1431	(mention_id=1421|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+8915	wollte		
+8916	antworten		
+8917	;		
+8918	aber		
+8919	die		
+8920	Empfindung		
+8921	schloß		
+8922	ihr	1432	(mention_id=1422|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+8923	den		
+8924	Mund		
+8925	.		
+8926	Mit		
+8927	einer		
+8928	unterdrückten		
+8929	Thräne		
+8930	im		
+8931	Auge		
+8932	reichte		
+8933	sie	1433	(mention_id=1423|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+8934	mir	1434	(mention_id=1424|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+8935	die		
+8936	Hand		
+8937	.		
+8938	War		
+8939	sie	1435	(mention_id=1425|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+8940	wirklich		
+8941	so		
+8942	schön		
+8943	?		
+8944	oder		
+8945	war		
+8946	es		
+8947	Dankbarkeit		
+8948	,		
+8949	und		
+8950	von		
+8951	neuem		
+8952	erwachte		
+8953	Sinnlichkeit		
+8954	,		
+8955	die		
+8956	sie	1436	(mention_id=1426|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+8957	mir	1437	(mention_id=1427|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+8958	in		
+8959	diesem		
+8960	Augenblicke		
+8961	so		
+8962	reizend		
+8963	machte		
+8964	?		
+8965	–		
+8966	Genug		
+8967	,		
+8968	die		
+8969	Zukunft		
+8970	verschwand		
+8971	vor		
+8972	meinen	1438	(mention_id=1428|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+8973	Augen		
+8974	;		
+8975	und		
+8976	mit		
+8977	dem		
+8978	ganzen		
+8979	Wahnsinn		
+8980	der		
+8981	Leidenschaft		
+8982	that		
+8983	ich	1439	(mention_id=1429|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+8984	ihr	1440	(mention_id=1430|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+8985	das		
+8986	Bekenntniß		
+8987	meiner	1441	(mention_id=1431|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+8988	Liebe		
+8989	.		
+8990	Ach		
+8991	ich	1442	(mention_id=1432|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+8992	hatte		
+8993	keinen		
+8994	andern		
+8995	Namen		
+8996	für		
+8997	meine	1443	(mention_id=1433|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+8998	Empfindung		
+8999	!		
+9000	–		
+9001	arme		
+9002	Weiber	1444	(mention_id=1434|references=(entity=(entity_id=generic_0151|fullname=generic_0030|gender=u|specialcase_entity=generic)),(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+9003	!		
+9004	Wie		
+9005	oft		
+9006	ist		
+9007	dies		
+9008	der		
+9009	Fall		
+9010	bey		
+9011	uns		(mention_id=1435|references=(entity=(entity_id=generic_0152|fullname=generic_0031|gender=u|specialcase_entity=generic)),(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+9012	Männern	1445	(mention_id=1436|references=(entity=(entity_id=generic_0153|fullname=generic_0032|gender=u|specialcase_entity=generic)),(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+9013	,		
+9014	und		
+9015	wie		
+9016	schrecklich		
+9017	müßt		
+9018	ihr	1446	(mention_id=1437|references=(entity=(entity_id=generic_0154|fullname=generic_0033|gender=u|specialcase_entity=generic)),(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+9019	für		
+9020	diesen		
+9021	Irrthum		
+9022	büßen		
+9023	!		
+9024	–		
+9025	Erst		
+9026	lange		
+9027	nachher		
+9028	habe		
+9029	ich	1447	(mention_id=1438|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+9030	begriffen		
+9031	:		
+9032	in		
+9033	welch		
+9034	einen		
+9035	peinlichen		
+9036	Zustand		
+9037	dies		
+9038	unbesonnene		
+9039	Geständniß		
+9040	Sophien	1448	(mention_id=1439|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+9041	versetzen		
+9042	mußte		
+9043	.		
+9044	Ihr	1449	(mention_id=1440|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+9045	Verstand		
+9046	war		
+9047	im		
+9048	heftigsten		
+9049	Kampfe		
+9050	mit		
+9051	ihrem	1450	(mention_id=1441|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+9052	Herzen		
+9053	,		
+9054	und		
+9055	die		
+9056	Blässe		
+9057	,		
+9058	welche		
+9059	plötzlich		
+9060	ihr	1451	(mention_id=1442|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+9061	Gesicht		
+9062	überzog		
+9063	,		
+9064	bewieß		
+9065	nur		
+9066	gar		
+9067	zu		
+9068	sehr		
+9069	:		
+9070	wie		
+9071	viel		
+9072	sie	1452	(mention_id=1443|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+9073	von		
+9074	diesem		
+9075	Augenblicke		
+9076	für		
+9077	ihre	1453	(mention_id=1444|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+9078	Ruhe		
+9079	befürchtete		
+9080	.		
+9081	Neuntes		
+9082	Kapitel		
+9083	Lange		
+9084	noch		
+9085	vermochte		
+9086	ihre	1454	(mention_id=1445|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+9087	große		
+9088	Seele		
+9089	der		
+9090	Leidenschaft		
+9091	zu		
+9092	widerstehen		
+9093	;		
+9094	aber		
+9095	eben		
+9096	dadurch		
+9097	wurde		
+9098	diese		
+9099	bey		
+9100	mir	1455	(mention_id=1446|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+9101	nur		
+9102	desto		
+9103	mehr		
+9104	gereitzt		
+9105	.		
+9106	Es		
+9107	blieb		
+9108	mir	1456	(mention_id=1447|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+9109	nicht		
+9110	verborgen		
+9111	,		
+9112	welchen		
+9113	Eindruck		
+9114	ich	1457	(mention_id=1448|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+9115	auf		
+9116	andere		
+9117	Frauenzimmer	1458	(mention_id=1449|references=(entity=(entity_id=generic_0155|fullname=generic_0034|gender=u|specialcase_entity=generic)))
+9118	machte		
+9119	;		
+9120	und		
+9121	meine	1459	(mention_id=1450|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+9122	Eitelkeit		
+9123	war		
+9124	auf		
+9125	das		
+9126	empfindlichste		
+9127	gekränkt		
+9128	.		
+9129	Schon		
+9130	ahnte		
+9131	ich	1460	(mention_id=1451|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+9132	,		
+9133	bey		
+9134	allem		
+9135	,		
+9136	was		
+9137	Sophie	1461	(mention_id=1452|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+9138	für		
+9139	mich	1462	(mention_id=1453|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+9140	that		
+9141	,		
+9142	wie		
+9143	theuer		
+9144	ich	1463	(mention_id=1454|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+9145	ihr	1464	(mention_id=1455|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+9146	seyn		
+9147	mußte		
+9148	.		
+9149	–		
+9150	Aber		
+9151	konnte		
+9152	das		
+9153	nicht		
+9154	Freundschaft		
+9155	,		
+9156	nicht		
+9157	Edelmuth		
+9158	seyn		
+9159	?		
+9160	–		
+9161	Gegen		
+9162	wen		
+9163	handelte		
+9164	sie	1465	(mention_id=1456|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+9165	nicht		
+9166	schön		
+9167	,		
+9168	nicht		
+9169	groß		
+9170	?		
+9171	Wie		
+9172	!		
+9173	sollte		
+9174	ich	1466	(mention_id=1457|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+9175	mit		
+9176	dem		
+9177	zufrieden		
+9178	seyn		
+9179	,		
+9180	was		
+9181	sie	1467	(mention_id=1458|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+9182	für		
+9183	Alle	1468	(mention_id=1459|references=(entity=(entity_id=generic_0156|fullname=generic_0035|gender=u|specialcase_entity=generic)))
+9184	empfand		
+9185	?		
+9186	–		
+9187	»		
+9188	Nein		
+9189	!		
+9190	«		
+9191	–		
+9192	rief		
+9193	ich	1469	(mention_id=1460|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+9194	–		
+9195	»		
+9196	Noch		
+9197	heute		
+9198	soll		
+9199	sie	1470	(mention_id=1461|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+9200	mir	1471	(mention_id=1462|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+9201	sagen		
+9202	,		
+9203	ob		
+9204	sie	1472	(mention_id=1463|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+9205	mich	1473	(mention_id=1464|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+9206	liebt		
+9207	!		
+9208	bey		
+9209	Gott		
+9210	!		
+9211	ich	1474	(mention_id=1465|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+9212	will		
+9213	wissen		
+9214	,		
+9215	woran		
+9216	ich	1475	(mention_id=1466|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+9217	bin		
+9218	!		
+9219	«		
+9220	Sie	1476	(mention_id=1467|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+9221	sagte		
+9222	es		
+9223	endlich		
+9224	.		
+9225	Aber		
+9226	wie		
+9227	sagte		
+9228	sie	1477	(mention_id=1468|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+9229	es		
+9230	!		
+9231	–		
+9232	Mir	1478	(mention_id=1469|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+9233	war		
+9234	,		
+9235	als		
+9236	dachte		
+9237	mit		
+9238	einem		
+9239	Male		
+9240	eine		
+9241	andere		
+9242	Seele		
+9243	in		
+9244	mir	1479	(mention_id=1470|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+9245	;		
+9246	als		
+9247	schlüge		
+9248	ein		
+9249	anderes		
+9250	Herz		
+9251	in		
+9252	meiner	1480	(mention_id=1471|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+9253	Brust		
+9254	;		
+9255	als		
+9256	könnte		
+9257	ich	1481	(mention_id=1472|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+9258	nie		
+9259	wieder		
+9260	etwas		
+9261	Schlechtes		
+9262	thun		
+9263	,		
+9264	oder		
+9265	wollen		
+9266	.		
+9267	Nein		
+9268	!		
+9269	so		
+9270	uneigennützig		
+9271	,		
+9272	so		
+9273	wahrhaft		
+9274	himmlisch		
+9275	bin		
+9276	ich	1482	(mention_id=1473|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+9277	nie		
+9278	von		
+9279	einem		
+9280	Weibe	1483	(mention_id=1474|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)),(entity=(entity_id=generic_0157|fullname=generic_0036|gender=u|specialcase_entity=generic)))
+9281	geliebt		
+9282	worden		
+9283	!		
+9284	Was		
+9285	hätte		
+9286	aus		
+9287	mir	1484	(mention_id=1475|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+9288	werden		
+9289	können		
+9290	,		
+9291	wenn		
+9292	dieser		
+9293	große		
+9294	Charakter	1485	(mention_id=1476|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+9295	nicht		
+9296	auch		
+9297	seine		(mention_id=1477|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+9298	Schwächen		
+9299	,		
+9300	freilich		
+9301	seine		(mention_id=1478|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+9302	schönen		
+9303	,		
+9304	menschlichen		
+9305	Schwächen		
+9306	gehabt		
+9307	hätte		
+9308	!		
+9309	–		
+9310	Zehntes		
+9311	Kapitel		
+9312	So		
+9313	lange		
+9314	das		
+9315	Bekenntniß		
+9316	der		
+9317	Liebe		
+9318	noch		
+9319	nicht		
+9320	über		
+9321	Sophiens	1486	(mention_id=1479|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+9322	Lippen		
+9323	gekommen		
+9324	war		
+9325	,		
+9326	herrschte		
+9327	eine		
+9328	schöne		
+9329	Mäßigung		
+9330	in		
+9331	ihrem	1487	(mention_id=1480|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+9332	Betragen		
+9333	;		
+9334	aber		
+9335	jetzt		
+9336	fing		
+9337	diese		
+9338	an		
+9339	immer		
+9340	mehr		
+9341	zu		
+9342	verschwinden		
+9343	.		
+9344	Sie	1488	(mention_id=1481|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+9345	hatte		
+9346	mir	1489	(mention_id=1482|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+9347	ihren	1490	(mention_id=1483|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+9348	guten		
+9349	Ruf		
+9350	,		
+9351	ja		
+9352	sogar		
+9353	ihre	1491	(mention_id=1484|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+9354	freundschaftlichen		
+9355	Verbindungen		
+9356	aufgeopfert		
+9357	;		
+9358	jetzt		
+9359	wollte		
+9360	sie	1492	(mention_id=1485|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+9361	alles		
+9362	in		
+9363	mir	1493	(mention_id=1486|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+9364	wiederfinden		
+9365	.		
+9366	Ich	1494	(mention_id=1487|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+9367	ward		
+9368	ihr	1495	(mention_id=1488|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+9369	Abgott	1496	(mention_id=1489|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+9370	;		
+9371	und		
+9372	alle		
+9373	ihre	1497	(mention_id=1490|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+9374	Gedanken		
+9375	und		
+9376	Empfindungen		
+9377	bezogen		
+9378	sich		
+9379	nur		
+9380	auf		
+9381	mich	1498	(mention_id=1491|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+9382	.		
+9383	Unser	1499	(mention_id=1492|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)),(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+9384	ganzes		
+9385	Verhältniß		
+9386	war		
+9387	mit		
+9388	einem		
+9389	Male		
+9390	verwandelt		
+9391	.		
+9392	Das		
+9393	Wesen	1500	(mention_id=1493|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+9394	,		
+9395	das		(mention_id=1494|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+9396	vormals		
+9397	so		
+9398	weit		
+9399	über		
+9400	mich	1501	(mention_id=1495|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+9401	erhaben		
+9402	schien		
+9403	,		
+9404	lag		
+9405	jetzt		
+9406	zu		
+9407	meinen	1502	(mention_id=1496|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+9408	Füßen		
+9409	,		
+9410	verehrte		
+9411	meine	1503	(mention_id=1497|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+9412	Worte		
+9413	wie		
+9414	Orakelsprüche		
+9415	,		
+9416	und		
+9417	zitterte		
+9418	,		
+9419	wenn		
+9420	ich	1504	(mention_id=1498|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+9421	die		
+9422	Stirn		
+9423	runzelte		
+9424	.		
+9425	Welcher		
+9426	Mann	1505	(mention_id=1499|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)),(entity=(entity_id=generic_0158|fullname=generic_0037|gender=u|specialcase_entity=generic)))
+9427	hätte		
+9428	ein		
+9429	solches		
+9430	gänzliches		
+9431	Dahingeben		
+9432	ertragen		
+9433	,		
+9434	welcher		
+9435	Mann	1506	(mention_id=1500|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)),(entity=(entity_id=generic_0159|fullname=generic_0038|gender=u|specialcase_entity=generic)))
+9436	hätte		
+9437	es		
+9438	verdienen		
+9439	können		
+9440	!		
+9441	–		
+9442	mich	1507	(mention_id=1501|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+9443	bethörte		
+9444	es		
+9445	so		
+9446	sehr		
+9447	,		
+9448	daß		
+9449	ich	1508	(mention_id=1502|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+9450	von		
+9451	dem		
+9452	achtungsvollsten		
+9453	Betragen		
+9454	zur		
+9455	beleidigendsten		
+9456	Unart		
+9457	überging		
+9458	.		
+9459	Aber		
+9460	gerade		
+9461	das		
+9462	stille		
+9463	,		
+9464	von		
+9465	aller		
+9466	Leidenschaft		
+9467	entfernte		
+9468	Wesen	1509	(mention_id=1503|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+9469	war		
+9470	es		
+9471	ja		
+9472	auch		
+9473	,		
+9474	was		
+9475	mein	1510	(mention_id=1504|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+9476	unruhiges		
+9477	Herz		
+9478	zu		
+9479	Sophien	1511	(mention_id=1505|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+9480	geneigt		
+9481	hatte		
+9482	.		
+9483	–		
+9484	Ich	1512	(mention_id=1506|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+9485	wähnte		
+9486	,		
+9487	sie	1513	(mention_id=1507|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+9488	sollte		
+9489	mich	1514	(mention_id=1508|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+9490	heilen		
+9491	,		
+9492	sie	1515	(mention_id=1509|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+9493	sollte		
+9494	über		
+9495	die		
+9496	Stürme		
+9497	des		
+9498	Lebens		
+9499	mich	1516	(mention_id=1510|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+9500	erheben		
+9501	–		
+9502	und		
+9503	ach		
+9504	!		
+9505	jetzt		
+9506	ward		
+9507	sie	1517	(mention_id=1511|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+9508	selbst		
+9509	davon		
+9510	ergriffen		
+9511	.		
+9512	Was		
+9513	ich	1518	(mention_id=1512|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+9514	suchte		
+9515	,		
+9516	was		
+9517	ich	1519	(mention_id=1513|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+9518	liebte		
+9519	,		
+9520	war		
+9521	verschwunden		
+9522	–		
+9523	ich	1520	(mention_id=1514|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+9524	Grausamer	1521	(mention_id=1515|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+9525	hatte		
+9526	selbst		
+9527	nicht		
+9528	geruht		
+9529	,		
+9530	bis		
+9531	es		
+9532	zerstört		
+9533	war		
+9534	.		
+9535	Ihr	1522	
+9536	unglücklichen		
+9537	Weiber	1523	(mention_id=1516|references=(entity=(entity_id=generic_0160|fullname=generic_0039|gender=u|specialcase_entity=generic)),(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+9538	!		
+9539	wie		
+9540	könnt		
+9541	ihr	1524	(mention_id=1517|references=(entity=(entity_id=generic_0161|fullname=generic_0040|gender=u|specialcase_entity=generic)),(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+9542	so		
+9543	thöricht		
+9544	seyn		
+9545	,		
+9546	eure	1525	(mention_id=1518|references=(entity=(entity_id=generic_0162|fullname=generic_0041|gender=u|specialcase_entity=generic)),(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+9547	ganze		
+9548	Glückseligkeit		
+9549	den		
+9550	Händen		
+9551	eines		
+9552	Mannes	1526	(mention_id=1519|references=(entity=(entity_id=generic_0163|fullname=generic_0042|gender=u|specialcase_entity=generic)),(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+9553	,		
+9554	eines		
+9555	angebohrnen		
+9556	Feindes	1527	(mention_id=1520|references=(entity=(entity_id=generic_0164|fullname=generic_0043|gender=u|specialcase_entity=generic)),(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+9557	,		
+9558	zu		
+9559	vertrauen		
+9560	!		
+9561	–		
+9562	Nein		
+9563	,		
+9564	wollt		
+9565	ihr	1528	(mention_id=1521|references=(entity=(entity_id=generic_0165|fullname=generic_0044|gender=u|specialcase_entity=generic)),(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+9566	euch	1529	(mention_id=1522|references=(entity=(entity_id=generic_0166|fullname=generic_0045|gender=u|specialcase_entity=generic)),(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+9567	nicht		
+9568	dem		
+9569	schrecklichsten		
+9570	Elende		
+9571	Preiß		
+9572	geben		
+9573	:		
+9574	sucht		
+9575	immerhin		
+9576	uns	1530	(mention_id=1523|references=(entity=(entity_id=generic_0167|fullname=generic_0046|gender=u|specialcase_entity=generic)),(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+9577	glücklich		
+9578	zu		
+9579	machen		
+9580	,		
+9581	aber		
+9582	hofft		
+9583	es		
+9584	nie		
+9585	durch		
+9586	uns	1531	(mention_id=1524|references=(entity=(entity_id=generic_0168|fullname=generic_0047|gender=u|specialcase_entity=generic)),(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+9587	zu		
+9588	werden		
+9589	.		
+9590	Eilftes		
+9591	Kapitel		
+9592	Die		
+9593	Periode		
+9594	,		
+9595	wo		
+9596	Sophie	1532	(mention_id=1525|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+9597	meinen	1533	(mention_id=1526|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+9598	Geist		
+9599	und		
+9600	mein	1534	(mention_id=1527|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+9601	Herz		
+9602	beschäftigt		
+9603	hatte		
+9604	,		
+9605	war		
+9606	also		
+9607	vorüber		
+9608	,		
+9609	und		
+9610	der		
+9611	Wahn		
+9612	von		
+9613	ihrer	1535	(mention_id=1528|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+9614	höheren		
+9615	,		
+9616	mir	1536	(mention_id=1529|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+9617	noch		
+9618	unbekannten		
+9619	Glückseligkeit		
+9620	verschwunden		
+9621	.		
+9622	Ach		
+9623	sie	1537	(mention_id=1530|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+9624	suchte		
+9625	diese		
+9626	Glückseligkeit		
+9627	ja		
+9628	bey		
+9629	mir	1538	(mention_id=1531|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+9630	,		
+9631	durch		
+9632	mich	1539	(mention_id=1532|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+9633	–		
+9634	Beweiß		
+9635	genug		
+9636	,		
+9637	daß		
+9638	es		
+9639	ihr	1540	(mention_id=1533|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+9640	daran		
+9641	fehlte		
+9642	.		
+9643	Mein	1541	(mention_id=1534|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+9644	Geist		
+9645	ahnte		
+9646	nichts		
+9647	Neues		
+9648	mehr		
+9649	;		
+9650	und		
+9651	so		
+9652	war		
+9653	die		
+9654	ganze		
+9655	Scene		
+9656	verwandelt		
+9657	.		
+9658	Vormals		
+9659	schien		
+9660	mir	1542	(mention_id=1535|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+9661	aller		
+9662	Erdengenuß		
+9663	in		
+9664	ihre	1543	(mention_id=1536|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+9665	Nähe		
+9666	gebannt		
+9667	;		
+9668	jetzt		
+9669	ward		
+9670	sie	1544	(mention_id=1537|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+9671	von		
+9672	einer		
+9673	Oede		
+9674	umgeben		
+9675	die		
+9676	mich	1545	(mention_id=1538|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+9677	elend		
+9678	machte		
+9679	.		
+9680	Nun		
+9681	hätte		
+9682	die		
+9683	Sinnlichkeit		
+9684	eintreten		
+9685	und		
+9686	mich	1546	
+9687	,		
+9688	wenigstens		
+9689	für		
+9690	einige		
+9691	Zeit		
+9692	noch		
+9693	täuschen		
+9694	können		
+9695	;		
+9696	aber		
+9697	Sophie	1547	(mention_id=1539|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+9698	war		
+9699	zu		
+9700	rein		
+9701	,		
+9702	und		
+9703	ich	1548	(mention_id=1540|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+9704	zu		
+9705	neu		
+9706	,		
+9707	als		
+9708	daß		
+9709	von		
+9710	dieser		
+9711	Seite		
+9712	für		
+9713	uns	1549	(mention_id=1541|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)),(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+9714	etwas		
+9715	zu		
+9716	hoffen		
+9717	gewesen		
+9718	wäre		
+9719	.		
+9720	Mein	1550	(mention_id=1542|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+9721	Unmuth		
+9722	nahm		
+9723	täglich		
+9724	zu		
+9725	.		
+9726	Ich	1551	(mention_id=1543|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+9727	konnte		
+9728	es		
+9729	Sophien	1552	(mention_id=1544|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+9730	nicht		
+9731	verzeihen		
+9732	,		
+9733	mich	1553	
+9734	,		
+9735	oder		
+9736	vielmehr		
+9737	sich	1554	(mention_id=1545|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+9738	selbst		
+9739	,		
+9740	so		
+9741	schrecklich		
+9742	getäuscht		
+9743	zu		
+9744	haben		
+9745	,		
+9746	und		
+9747	der		
+9748	tollkühne		
+9749	Glaube		
+9750	:		
+9751	sie	1555	(mention_id=1546|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+9752	können		
+9753	nie		
+9754	aufhören		
+9755	mich	1556	(mention_id=1547|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+9756	zu		
+9757	lieben		
+9758	–		
+9759	trieb		
+9760	jetzt		
+9761	meine	1557	(mention_id=1548|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+9762	Unart		
+9763	auf		
+9764	das		
+9765	Aeußerste		
+9766	.		
+9767	Ach		
+9768	noch		
+9769	heute		
+9770	erröthe		
+9771	ich	1558	(mention_id=1549|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+9772	vor		
+9773	den		
+9774	Mißhandlungen		
+9775	,		
+9776	zu		
+9777	welchen		
+9778	ich	1559	(mention_id=1550|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+9779	mich	1560	(mention_id=1551|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+9780	verirrte		
+9781	!		
+9782	–		
+9783	ich	1561	(mention_id=1552|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+9784	wollte		
+9785	–		
+9786	ohne		
+9787	es		
+9788	mir	1562	(mention_id=1553|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+9789	deutlich		
+9790	bewußt		
+9791	zu		
+9792	seyn		
+9793	–		
+9794	die		
+9795	Gelegenheit		
+9796	herbeyführen		
+9797	,		
+9798	mich	1563	(mention_id=1554|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+9799	von		
+9800	dem		
+9801	Anblicke		
+9802	einer		
+9803	Person	1564	(mention_id=1555|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+9804	zu		
+9805	befreyn		
+9806	,		
+9807	welche	1565	(mention_id=1556|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+9808	nur		
+9809	schmerzhafte		
+9810	Gefühle		
+9811	in		
+9812	mir	1566	(mention_id=1557|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+9813	er		
+9814	regte		
+9815	.		
+9816	Gleichwohl		
+9817	würde		
+9818	die		
+9819	Gewißheit		
+9820	:		
+9821	sie	1567	(mention_id=1558|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+9822	könne		
+9823	sich	1568	(mention_id=1559|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+9824	wirklich		
+9825	von		
+9826	mir	1569	(mention_id=1560|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+9827	losreißen		
+9828	–		
+9829	höchst		
+9830	wahrscheinlich		
+9831	eine		
+9832	plötzliche		
+9833	Verwandlung		
+9834	meiner	1570	(mention_id=1561|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+9835	ganzen		
+9836	Empfindungsart		
+9837	hervorgebracht		
+9838	haben		
+9839	.		
+9840	Doch		
+9841	woher		
+9842	sollte		
+9843	diese		
+9844	Gewißheit		
+9845	kommen		
+9846	?		
+9847	–		
+9848	Sophiens	1571	(mention_id=1562|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+9849	Liebe		
+9850	schien		
+9851	nur		
+9852	mit		
+9853	ihrem	1572	(mention_id=1563|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+9854	Leben		
+9855	aufhören		
+9856	zu		
+9857	können		
+9858	,		
+9859	und		
+9860	eher		
+9861	würde		
+9862	ich	1573	(mention_id=1564|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+9863	an		
+9864	dem		
+9865	Meinigen	1574	
+9866	,		
+9867	als		
+9868	an		
+9869	ihrer		(mention_id=1565|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+9870	Dauer		
+9871	gezweifelt		
+9872	haben		
+9873	.		
+9874	Aber		
+9875	meiner	1575	(mention_id=1566|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+9876	Eitelkeit		
+9877	und		
+9878	meinem	1576	(mention_id=1567|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+9879	Glauben		
+9880	stand		
+9881	eine		
+9882	harte		
+9883	Prüfung		
+9884	bevor		
+9885	;		
+9886	und		
+9887	ich	1577	(mention_id=1568|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+9888	selbst		
+9889	mußte		
+9890	sie		
+9891	herbeyführen		
+9892	.		
+9893	Zwölftes		
+9894	Kapitel		
+9895	Nimmermehr		
+9896	!		
+9897	rief		
+9898	Heinrich	1578	(mention_id=1569|references=(entity=(entity_id=entity_0004|fullname=Heinrich|gender=m)))
+9899	;		
+9900	–		
+9901	als		
+9902	ich	1579	(mention_id=1570|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+9903	mich	1580	(mention_id=1571|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+9904	meiner	1581	(mention_id=1572|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+9905	unumschränkten		
+9906	Herschaft		
+9907	über		
+9908	Sophien	1582	(mention_id=1573|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+9909	rühmte		
+9910	–		
+9911	nimmermehr		
+9912	kann		
+9913	diese		
+9914	geistvolle		
+9915	Person	1583	(mention_id=1574|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+9916	so		
+9917	ganz		
+9918	zum		
+9919	Kinde	1584	(mention_id=1575|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+9920	geworden		
+9921	seyn		
+9922	!		
+9923	Gut		
+9924	!		
+9925	–		
+9926	sagte		
+9927	ich	1585	(mention_id=1576|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+9928	–		
+9929	Du	1586	(mention_id=1577|references=(entity=(entity_id=entity_0004|fullname=Heinrich|gender=m)))
+9930	sollst		
+9931	einen		
+9932	Beweiß		
+9933	haben		
+9934	der		
+9935	keinen		
+9936	Zweifel		
+9937	übrig		
+9938	lassen		
+9939	wird		
+9940	.		
+9941	Bist		
+9942	Du	1587	(mention_id=1578|references=(entity=(entity_id=entity_0004|fullname=Heinrich|gender=m)))
+9943	morgen		
+9944	bey		
+9945	Ms	1588	(mention_id=1579|references=(entity=(entity_id=entity_0029|fullname=Ms.|gender=f)))
+9946	?		
+9947	Er	1589	(mention_id=1580|references=(entity=(entity_id=entity_0004|fullname=Heinrich|gender=m)))
+9948	.		
+9949	Das		
+9950	versteht		
+9951	sich		
+9952	!		
+9953	Sie	1590	(mention_id=1581|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+9954	wissen		
+9955	,		
+9956	daß		
+9957	ich	1591	(mention_id=1582|references=(entity=(entity_id=entity_0004|fullname=Heinrich|gender=m)))
+9958	niemahls		
+9959	fehle		
+9960	.		
+9961	»		
+9962	Halte		
+9963	dich	1592	(mention_id=1583|references=(entity=(entity_id=entity_0004|fullname=Heinrich|gender=m)))
+9964	in		
+9965	meiner	1593	(mention_id=1584|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+9966	Nähe		
+9967	«		
+9968	–		
+9969	erwiederte		
+9970	ich	1594	(mention_id=1585|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+9971	–		
+9972	»		
+9973	das		
+9974	Uebrige		
+9975	wird		
+9976	sich		
+9977	finden		
+9978	«		
+9979	Ungeduldig		
+9980	eilte		
+9981	ich	1595	(mention_id=1586|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+9982	am		
+9983	folgenden		
+9984	Tage		
+9985	meinem	1596	(mention_id=1587|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+9986	bevorstehenden		
+9987	Siege		
+9988	entgegen		
+9989	,		
+9990	und		
+9991	zürnte		
+9992	schon		
+9993	,		
+9994	daß		
+9995	Sophie	1597	(mention_id=1588|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+9996	so		
+9997	lange		
+9998	verweilte		
+9999	.		
+10000	Endlich		
+10001	erschien		
+10002	sie	1598	(mention_id=1589|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+10003	,		
+10004	und		
+10005	von		
+10006	dem		
+10007	Augenblicke		
+10008	an		
+10009	,		
+10010	war		
+10011	es		
+10012	mein	1599	(mention_id=1590|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+10013	unablässiges		
+10014	Bestreben		
+10015	,		
+10016	ihre	1600	(mention_id=1591|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+10017	Geduld		
+10018	durch		
+10019	tausend		
+10020	Unarten		
+10021	,		
+10022	eine		
+10023	immer		
+10024	kränkender		
+10025	als		
+10026	die		
+10027	andre		
+10028	,		
+10029	zu		
+10030	ermüden		
+10031	.		
+10032	Aber		
+10033	mit		
+10034	himmlischer		
+10035	Sanftmuth		
+10036	und		
+10037	bewundernswürdiger		
+10038	Feinheit		
+10039	,		
+10040	wußte		
+10041	sie	1601	(mention_id=1592|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+10042	sie		(mention_id=1593|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+10043	alle		
+10044	so		
+10045	zu		
+10046	mildern		
+10047	,		
+10048	und		
+10049	den		
+10050	Augen		
+10051	der		
+10052	Gesellschaft	1602	(mention_id=1594|references=(entity=(entity_id=entity_0023|fullname=Gesellschaft bei Ms.|gender=u|specialcase_entity=group)))
+10053	zu		
+10054	entziehn		
+10055	,		
+10056	daß		
+10057	ich	1603	(mention_id=1595|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+10058	beynahe		
+10059	verzweifelte		
+10060	,		
+10061	meinen	1604	(mention_id=1596|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+10062	Zweck		
+10063	zu		
+10064	erreichen		
+10065	.		
+10066	Doch		
+10067	als		
+10068	sie	1605	(mention_id=1597|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+10069	sich	1606	(mention_id=1598|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+10070	eben		
+10071	mit		
+10072	Heinrich	1607	(mention_id=1599|references=(entity=(entity_id=entity_0004|fullname=Heinrich|gender=m)))
+10073	in		
+10074	einem		
+10075	interessanten		
+10076	Gespräche		
+10077	befand		
+10078	,		
+10079	glaubte		
+10080	ich	1608	(mention_id=1600|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+10081	etwas		
+10082	Entscheidendes		
+10083	wagen		
+10084	zu		
+10085	müssen		
+10086	.		
+10087	Sophie	1609	(mention_id=1601|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+10088	!		
+10089	–		
+10090	sagte		
+10091	ich	1610	(mention_id=1602|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+10092	;		
+10093	und		
+10094	drängte		
+10095	Heinrich	1611	(mention_id=1603|references=(entity=(entity_id=entity_0004|fullname=Heinrich|gender=m)))
+10096	zur		
+10097	Seite		
+10098	!		
+10099	–		
+10100	machen		
+10101	Sie	1612	(mention_id=1604|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+10102	mir	1613	(mention_id=1605|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+10103	doch		
+10104	einmal		
+10105	die		
+10106	Schnalle		
+10107	fest		
+10108	!		
+10109	Eine		
+10110	hohe		
+10111	Nöthe		
+10112	überflog		
+10113	ihre	1614	(mention_id=1606|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+10114	Wangen		
+10115	;		
+10116	aber		
+10117	ohne		
+10118	weiter		
+10119	auf		
+10120	mich	1615	(mention_id=1607|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+10121	zu		
+10122	achten		
+10123	,		
+10124	setzte		
+10125	sie	1616	(mention_id=1608|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+10126	ihr	1617	(mention_id=1609|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+10127	Gespräch		
+10128	mit		
+10129	Heinrich	1618	(mention_id=1610|references=(entity=(entity_id=entity_0004|fullname=Heinrich|gender=m)))
+10130	fort		
+10131	.		
+10132	Nun		
+10133	Sophie	1619	(mention_id=1611|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+10134	?		
+10135	haben		
+10136	Sie	1620	(mention_id=1612|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+10137	mich	1621	(mention_id=1613|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+10138	nicht		
+10139	verstanden		
+10140	?		
+10141	–		
+10142	sagte		
+10143	ich	1622	(mention_id=1614|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+10144	trotzig		
+10145	;		
+10146	indem		
+10147	ich	1623	(mention_id=1615|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+10148	den		
+10149	Fuß		
+10150	auf		
+10151	einem		
+10152	Stuhle		
+10153	ruhen		
+10154	ließ		
+10155	.		
+10156	Sehr		
+10157	gut		
+10158	Herr	1624	(mention_id=1616|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+10159	v.	1624	(mention_id=1616|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+10160	S.	1624	(mention_id=1616|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+10161	–		
+10162	antwortete		
+10163	sie	1625	(mention_id=1617|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+10164	,		
+10165	mitleidig		
+10166	lächelnd		
+10167	–		
+10168	ich	1626	(mention_id=1618|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+10169	bedaure		
+10170	,		
+10171	daß		
+10172	Sie	1627	(mention_id=1619|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+10173	sich	1628	(mention_id=1620|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+10174	nicht		
+10175	recht		
+10176	wohl		
+10177	befinden		
+10178	;		
+10179	und		
+10180	in		
+10181	dem		
+10182	Augenblicke		
+10183	nahm		
+10184	sie	1629	(mention_id=1621|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+10185	Heinrichs	1630	(mention_id=1622|references=(entity=(entity_id=entity_0004|fullname=Heinrich|gender=m)))
+10186	Arm		
+10187	und		
+10188	entfernte		
+10189	sich	1631	(mention_id=1623|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+10190	in		
+10191	das		
+10192	Nebenzimmer		
+10193	.		
+10194	Da		
+10195	stand		
+10196	ich	1632	(mention_id=1624|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+10197	,		
+10198	und		
+10199	war		
+10200	ungewiß		
+10201	:		
+10202	ob		
+10203	ich	1633	(mention_id=1625|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+10204	träumte		
+10205	oder		
+10206	wachte		
+10207	.		
+10208	–		
+10209	Den		
+10210	ganzen		
+10211	Abend		
+10212	würdigte		
+10213	sie	1634	(mention_id=1626|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+10214	mich	1635	(mention_id=1627|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+10215	keines		
+10216	Blickes		
+10217	mehr		
+10218	;		
+10219	und		
+10220	eine		
+10221	traurige		
+10222	Ahnung		
+10223	von		
+10224	dem		
+10225	was		
+10226	meiner	1636	(mention_id=1628|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+10227	warte		
+10228	,		
+10229	durchdrang		
+10230	mein	1637	(mention_id=1629|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+10231	Herz		
+10232	.		
+10233	Den		
+10234	andern		
+10235	Morgen		
+10236	eilte		
+10237	ich	1638	(mention_id=1630|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+10238	in		
+10239	ihre	1639	(mention_id=1631|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+10240	Wohnung		
+10241	;		
+10242	aber		
+10243	man		(mention_id=1632|references=(entity=(entity_id=entity_0039|fullname=Sophies Bedienstete(r)|gender=u)))
+10244	sagte		
+10245	mir	1640	(mention_id=1633|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+10246	:		
+10247	sie	1641	(mention_id=1634|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+10248	sey		
+10249	zu		
+10250	einer		
+10251	Freundin	1642	(mention_id=1635|references=(entity=(entity_id=entity_0031|fullname=Freundin von Sophie|gender=f)))
+10252	aufs		
+10253	Land		
+10254	gereist		
+10255	,		
+10256	und		
+10257	diesen		
+10258	Morgen		
+10259	sey		
+10260	ein		
+10261	Zettel		
+10262	an		
+10263	Heinrich	1643	(mention_id=1636|references=(entity=(entity_id=entity_0004|fullname=Heinrich|gender=m)))
+10264	abgegangen		
+10265	.		
+10266	Was		
+10267	ist		
+10268	es		
+10269	?		
+10270	–		
+10271	rief		
+10272	ich	1644	(mention_id=1637|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+10273	diesem	1645	
+10274	entgegen		
+10275	–		
+10276	um		
+10277	Gottes	1646	
+10278	willen		
+10279	was		
+10280	ist		
+10281	es		
+10282	?		
+10283	was		
+10284	hat		
+10285	sie	1647	(mention_id=1638|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+10286	dir	1648	(mention_id=1639|references=(entity=(entity_id=entity_0004|fullname=Heinrich|gender=m)))
+10287	geschrieben		
+10288	?		
+10289	Daß		
+10290	sie	1649	(mention_id=1640|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+10291	Ihnen	1650	(mention_id=1641|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+10292	ein		
+10293	für		
+10294	alle		
+10295	Mal		
+10296	ihr	1651	(mention_id=1642|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+10297	Haus		
+10298	verbietet		
+10299	;		
+10300	und		
+10301	daß		
+10302	sie	1652	(mention_id=1643|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))
+10303	während		
+10304	Ihres	1653	(mention_id=1644|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+10305	hiesigen		
+10306	Aufenthalts		
+10307	,		
+10308	einen		
+10309	andern		
+10310	Wohnort		
+10311	wählen		
+10312	würde		
+10313	.		
+10314	Heinrich	1654	(mention_id=1645|references=(entity=(entity_id=entity_0004|fullname=Heinrich|gender=m)))
+10315	!		
+10316	–		
+10317	rief		
+10318	ich	1655	(mention_id=1646|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+10319	;		
+10320	und		
+10321	warf		
+10322	mich	1656	(mention_id=1647|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+10323	an		
+10324	seine	1657	(mention_id=1648|references=(entity=(entity_id=entity_0004|fullname=Heinrich|gender=m)))
+10325	Brust		
+10326	–		
+10327	wirst		
+10328	Du	1658	(mention_id=1649|references=(entity=(entity_id=entity_0004|fullname=Heinrich|gender=m)))
+10329	mich	1659	(mention_id=1650|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+10330	auch		
+10331	....		
+10332	vor		
+10333	Schmerz		
+10334	konnte		
+10335	ich	1660	(mention_id=1651|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+10336	nicht		
+10337	weiter		
+10338	sprechen		
+10339	;		
+10340	aber		
+10341	er	1661	(mention_id=1652|references=(entity=(entity_id=entity_0004|fullname=Heinrich|gender=m)))
+10342	errieth		
+10343	mich	1662	
+10344	.		
+10345	Nein		
+10346	!		
+10347	–		
+10348	sagte		
+10349	er	1663	(mention_id=1653|references=(entity=(entity_id=entity_0004|fullname=Heinrich|gender=m)))
+10350	–		
+10351	dafür		
+10352	sey		
+10353	Gott	1664	
+10354	!		
+10355	wie		
+10356	könnte		
+10357	ich	1665	(mention_id=1654|references=(entity=(entity_id=entity_0004|fullname=Heinrich|gender=m)))
+10358	dich	1666	(mention_id=1655|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+10359	jetzt		
+10360	verlassen		
+10361	da		
+10362	du	1667	(mention_id=1656|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+10363	die		
+10364	Hölle		
+10365	in		
+10366	deinem	1668	(mention_id=1657|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))
+10367	Herzen		
+10368	haben		
+10369	mußt		
+10370	!		
+10371	–		
