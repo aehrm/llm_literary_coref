@@ -1,6 +1,7 @@
 #%%
 import collections
 import csv
+import re
 
 import numpy as np
 import warnings
@@ -12,6 +13,7 @@ from matplotlib.ticker import FormatStrFormatter, FuncFormatter
 import matplotlib
 from scipy.stats import linregress
 from tqdm import tqdm
+
 
 from llm_literary_coref.eval.evaluator import Evaluator
 from llm_literary_coref.mention import parse_mentions
@@ -85,12 +87,13 @@ for doc in document_files:
 
 #%%
 
-ordering = list(documents.keys())
+ordering = ['Heimburg_Trudchen', 'Fischer_Gustav', 'Kürnberger_Amerika', 'Wolff_Wildfangrecht', 'Goethe_Wahlverwandtschaften']
 doc_title = {
 'Heimburg_Trudchen': 'Trudchens Heirat',
 'Fischer_Gustav': 'Gustavs Verirrungen',
 'Goethe_Wahlverwandtschaften': 'Wahlverwandtschaften',
 'Kürnberger_Amerika': 'Amerika-Müde',
+'Wolff_Wildfangrecht': 'Wildfangrecht'
 }
 
 
@@ -107,7 +110,7 @@ def get_mentions_by_tag(document_id, tag):
 
 #%%
 
-# basic statistics
+## basic statistics
 
 statistics = []
 for doc, df in sorted(documents.items(), key=lambda x: len(x[1])):
@@ -184,7 +187,7 @@ print(gender_by_entity.to_string())
 
 #%%
 
-# calculate entity sizes
+## calculate entity sizes
 
 entity_sizes = []
 for doc, entities in document_entities.items():
@@ -301,7 +304,7 @@ plt.show()
 
 #%%
 
-# Spread
+## Spread
 
 spreads = []
 for doc, entities in document_entities.items():
@@ -343,7 +346,7 @@ plt.show()
 
 #%%
 
-# Mention Distance
+## Mention Distance
 
 mention_distances = []
 
@@ -437,8 +440,8 @@ plt.show()
 
 #%%
 
-# IAA
-with open(Path(__file__).parent / 'annotations' / 'evaluation_reports' / 'iaa_report.json') as f:
+## IAA
+with open(ROOT_DIR / 'annotations' / 'evaluation_reports' / 'iaa_report.json') as f:
     iaa_report = json.load(f)
 
 #%%
@@ -453,18 +456,18 @@ cluster_variants = {
 }
 
 
-cluster_table = pandas.DataFrame(index=['all', 'replaceplural', 'nogeneric', 'nosingletons'],
+iaa_cluster_table = pandas.DataFrame(index=['all', 'replaceplural', 'nogeneric', 'nosingletons'],
                                  columns=['mentions', 'muc', 'bcub', 'ceafe', 'conll', 'ceafm', 'lea'])
 
-for variant in cluster_table.index:
+for variant in iaa_cluster_table.index:
     report = iaa_report[f'clusters_{variant}']
 
     for metric, scores in report.items():
-        cluster_table.loc[variant, metric] = scores['aggregated']['f1']
+        iaa_cluster_table.loc[variant, metric] = scores['aggregated']['f1']
 
-cluster_table['conll'] = cluster_table[['muc', 'bcub', 'ceafe']].mean(axis=1)
+iaa_cluster_table['conll'] = iaa_cluster_table[['muc', 'bcub', 'ceafe']].mean(axis=1)
 
-print(cluster_table.rename(cluster_variants).to_string(float_format=lambda x: f"{x*100:.2f}"))
+print(iaa_cluster_table.rename(cluster_variants).to_string(float_format=lambda x: f"{x*100:.2f}"))
 
 #%%
 
@@ -509,7 +512,7 @@ print(mention_table.to_string(na_rep='--', float_format=lambda x: f"{x*100:.2f}"
 
 #%%
 
-# Difference to silver pre-annotation
+## Difference to silver pre-annotation
 
 num_chapters = sum(doc_df['is_section_start'].sum() for doc_df in documents.values())
 
@@ -558,7 +561,7 @@ print(aggregated_scores_df.to_string(na_rep='--', float_format=lambda x: f"{x*10
 
 #%%
 
-# DROC Performance + IAA
+## DROC Performance + IAA
 model_output_dir = ROOT_DIR / "outputs"
 
 models = ['google--gemini-2.5-flash-lite', 'google--gemini-2.5-flash']
@@ -637,7 +640,7 @@ boxplot_kwargs = dict(patch_artist=True, boxprops=dict(fc='black', edgecolor='bl
                       flierprops=dict(markersize=4, markeredgewidth=.6))
 
 metrics = ['conll', 'lea']
-metric_labels = {'conll': "CoNNL", 'lea': "LEA"}
+metric_labels = {'conll': "CoNLL", 'lea': "LEA"}
 models = ['google--gemini-2.5-flash-lite', 'google--gemini-2.5-flash', 'iaa']
 model_labels = {'google--gemini-2.5-flash-lite': "gemini-2.5-flash-lite",
                 'google--gemini-2.5-flash': "gemini-2.5-flash",
@@ -664,4 +667,126 @@ for ax, metric in zip(axs, metrics):
 plt.tight_layout(h_pad=3)
 plt.savefig('/tmp/jcls_figures/droc_performance.pdf')
 plt.show()
+
+#%%
+
+## LLM Evaluation
+
+
+metrics = ['conll', 'lea']
+metric_labels = {'conll': "CoNLL", 'lea': "LEA"}
+models = [
+    'qwen--qwen3-30b-a3b-instruct-2507',
+    'qwen--qwen3-vl-235b-a22b-instruct',
+    'google--gemini-2.5-flash-lite',
+    'google--gemini-2.5-flash',
+]
+model_labels = {'google--gemini-2.5-flash-lite': "gemini-2.5-flash-lite",
+                'google--gemini-2.5-flash': "gemini-2.5-flash",
+                'qwen--qwen3-30b-a3b-instruct-2507': 'qwen3-30b-a3b-instruct',
+                'qwen--qwen3-vl-235b-a22b-instruct': 'qwen3-vl-235b-a22b-instruct',
+                }
+
+llm_eval_reports = {}
+for model_dir in (ROOT_DIR / "outputs" / "merged").iterdir():
+    if not model_dir.is_dir():
+        continue
+    if not (model_dir / "evaluation_report.json").is_file():
+        print('warn: no evaluation file for', model_dir)
+        continue
+    model_name = model_dir.name
+    with open(model_dir / "evaluation_report.json") as f:
+        llm_eval_reports[model_name] = json.load(f)
+
+#%%
+
+cluster_variants = {
+    "all": "full",
+    "replaceplural": "plurals replaced",
+    "nogeneric": "w/o generics",
+    "nosingletons": "w/o singletons",
+}
+
+# all_document_ids = [ x.replace('_', '-') for x in doc_title.keys() ]
+
+cluster_table = pandas.DataFrame(index=pandas.MultiIndex.from_product([['all', 'nogeneric', 'nosingletons'], models, ordering], names=['variant', 'model', 'doc']),
+                                 columns=pandas.MultiIndex.from_product(
+                                     [['mentions', 'muc', 'bcub', 'ceafe', 'conll', 'ceafm', 'lea'],
+                                      ['precision', 'recall', 'f1']]))
+
+for (variant, model, doc_id) in cluster_table.index:
+    report = llm_eval_reports[model][f'clusters_{variant}']
+
+    for metric, t in cluster_table.columns:
+        if metric == 'conll': continue
+        if doc_id not in report[metric].keys(): continue
+        cluster_table.loc[(variant, model, doc_id), (metric, t)] = report[metric][doc_id][t]
+
+    cluster_table.loc[(variant, model, doc_id), ('conll', 'f1')] = cluster_table.loc[(variant, model, doc_id), (['muc', 'bcub', 'ceafe'], 'f1')].mean()
+
+#%%
+
+print(cluster_table.groupby(level=[0,1]).mean().rename(cluster_variants).rename({'precision': 'P', 'recall': 'R', 'f1': 'F1'}, axis=1).to_string(na_rep='--', float_format=lambda x: f"{x*100:.2f}"))
+
+
+#%%
+
+fig, axs = plt.subplots(nrows=len(metrics), figsize=(4, 4.0), dpi=300)
+for ax, metric in zip(axs, metrics):
+    ticks = np.arange(len(models))
+
+    cycler = iter(plt.rcParams['axes.prop_cycle'])
+    for doc in ordering:
+        X = 100*cluster_table.loc[('all', models, doc), (metric, 'f1')].values
+        color = next(cycler)['color']
+        ax.scatter(X, ticks, facecolors='none', edgecolors=color, s=18, linewidth=plt.rcParams["lines.linewidth"], label=doc_title[doc])
+
+    # minX = [100*cluster_table.loc[('all', m), (metric, 'f1')].min() for m in models]
+    # maxX = [100*cluster_table.loc[('all', m), (metric, 'f1')].max() for m in models]
+    # ax.hlines(ticks, minX, maxX, color='black', alpha=0.4)
+
+
+
+    avg = [100 * cluster_table.loc[('all', m, ordering), (metric, 'f1')].mean() for m in models]
+    ax.plot(avg, ticks, markersize=2, marker='o', color='black', label='avg')
+
+    # ax.axvline(100* iaa_cluster_table.loc['all', metric], ls='--', color='black', label='IAA')
+    ax.yaxis.set_inverted(True)
+    ax.set_xlabel(metric_labels[metric])
+    ax.set_yticks(ticks, [model_labels[m] for m in models])
+    ax.set_ymargin(.3)
+
+axs[1].legend(frameon=False, ncol=2, loc='upper center', bbox_to_anchor=(0.3, -0.35))
+
+plt.tight_layout()
+plt.show()
+
+#%%
+
+document_lengths = {}
+for doc_id, doc_df in documents.items():
+    section_length = doc_df['is_section_start'].cumsum().value_counts()
+    idx = list(sorted(section_length.index))
+    document_lengths[doc_id] = section_length[idx].values
+
+fig, ax = plt.subplots()
+
+for model in llm_eval_reports.keys():
+    lea_reports = llm_eval_reports[model]['clusters_all']['lea']
+    chapters = list(sorted(x for x in lea_reports.keys() if 'section' in x))
+    lea_f_scores = [lea_reports[c]['f1'] for c in chapters]
+
+
+
+    doc_length = []
+    for label in chapters:
+        m = re.match(r'(.*)_section_(.*)', label)
+        doc_id, i = m.groups()
+
+        doc_length.append(document_lengths[doc_id.replace('-', '_')][int(i)])
+
+    ax.scatter(doc_length, lea_f_scores, label=model)
+ax.legend()
+plt.show()
+
 
