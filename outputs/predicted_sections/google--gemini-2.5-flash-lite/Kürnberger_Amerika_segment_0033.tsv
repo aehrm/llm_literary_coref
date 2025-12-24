@@ -1,0 +1,3829 @@
+i	token	is_section_start	gold	pred
+179121	Zweites	1		
+179122	Kapitel	0		
+179123	.	0		
+179124	Nun	0		
+179125	,	0		
+179126	mein	0		(mention_id=20882|references=(entity=(entity_id=16|fullname=Malwine|gender=f)))
+179127	Kind	0	(mention_id=21206|references=(entity=(entity_id=entity_0004|fullname=Malvine von Milden|gender=f)))	(mention_id=20883|references=(entity=(entity_id=16|fullname=Malwine|gender=f)))
+179128	,	0		
+179129	wie	0		
+179130	nimmst	0		
+179131	du	0	(mention_id=21207|references=(entity=(entity_id=entity_0004|fullname=Malvine von Milden|gender=f)))	(mention_id=20884|references=(entity=(entity_id=16|fullname=Malwine|gender=f)))
+179132	dich	0	(mention_id=21208|references=(entity=(entity_id=entity_0004|fullname=Malvine von Milden|gender=f)))	(mention_id=20885|references=(entity=(entity_id=16|fullname=Malwine|gender=f)))
+179133	?	0		
+179134	Kennst	0		
+179135	du	0	(mention_id=21209|references=(entity=(entity_id=entity_0004|fullname=Malvine von Milden|gender=f)))	(mention_id=20886|references=(entity=(entity_id=16|fullname=Malwine|gender=f)))
+179136	den	0		
+179137	Herrn	0	(mention_id=21210|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=20887|references=(entity=(entity_id=11|fullname=Herrn Baron|gender=m)))
+179138	Baron	0	(mention_id=21210|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=20887|references=(entity=(entity_id=11|fullname=Herrn Baron|gender=m)))
+179139	—	0		
+179140	den	0		
+179141	Herrn	0	(mention_id=21211|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=20888|references=(entity=(entity_id=13|fullname=Herrn Doctor|gender=m)))
+179142	Doctor	0	(mention_id=21211|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=20888|references=(entity=(entity_id=13|fullname=Herrn Doctor|gender=m)))
+179143	,	0		
+179144	wollt'	0		
+179145	ich	0	(mention_id=21212|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=20889|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)))
+179146	sagen	0		
+179147	,	0		
+179148	nicht	0		
+179149	mehr	0		
+179150	?	0		
+179151	Die	0		
+179152	kleine	0		
+179153	Malwine	0	(mention_id=21213|references=(entity=(entity_id=entity_0004|fullname=Malvine von Milden|gender=f)))	(mention_id=20890|references=(entity=(entity_id=16|fullname=Malwine|gender=f)))
+179154	drückte	0		
+179155	sich	0	(mention_id=21214|references=(entity=(entity_id=entity_0004|fullname=Malvine von Milden|gender=f)))	(mention_id=20891|references=(entity=(entity_id=16|fullname=Malwine|gender=f)))
+179156	scheu	0		
+179157	in	0		
+179158	den	0		
+179159	Winkel	0		
+179160	von	0		
+179161	Wand	0		
+179162	und	0		
+179163	Sopha	0		
+179164	und	0		
+179165	schüttelte	0		
+179166	den	0		
+179167	Kopf	0		
+179168	.	0		
+179169	Ist	0		
+179170	das	0		
+179171	nicht	0		
+179172	derselbe	0		
+179173	Herr	0	(mention_id=21215|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=20892|references=(entity=(entity_id=13|fullname=Herrn Doctor|gender=m)))
+179174	,	0		
+179175	welcher	0	(mention_id=21216|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=20893|references=(entity=(entity_id=13|fullname=Herrn Doctor|gender=m)))
+179176	die	0		
+179177	Güte	0		
+179178	gehabt	0		
+179179	,	0		
+179180	dich	0	(mention_id=21217|references=(entity=(entity_id=entity_0004|fullname=Malvine von Milden|gender=f)))	(mention_id=20894|references=(entity=(entity_id=16|fullname=Malwine|gender=f)))
+179181	nach	0		
+179182	Mr.	0	(mention_id=21218|references=(entity=(entity_id=entity_0002|fullname=Mr. Mockingbird|gender=m)))	(mention_id=20895|references=(entity=(entity_id=21|fullname=Mr Mockingbirds|gender=nb|specialcase_entity=nonfact)))
+179183	Mockingbird's	0	(mention_id=21218|references=(entity=(entity_id=entity_0002|fullname=Mr. Mockingbird|gender=m)))	(mention_id=20895|references=(entity=(entity_id=21|fullname=Mr Mockingbirds|gender=nb|specialcase_entity=nonfact)))
+179184	Schule	0		
+179185	zu	0		
+179186	fahren	0		
+179187	und	0		
+179188	welcher	0	(mention_id=21219|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=20896|references=(entity=(entity_id=13|fullname=Herrn Doctor|gender=m)))
+179189	uns	0	(mention_id=21220|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)),(entity=(entity_id=entity_0004|fullname=Malvine von Milden|gender=f)))	(mention_id=20897|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)),(entity=(entity_id=20|fullname=Moorfeld|gender=m)))
+179190	einst	0		
+179191	einen	0		
+179192	freundlichen	0		
+179193	Besuch	0		
+179194	zum	0		
+179195	Thee	0		
+179196	geschenkt	0		
+179197	?	0		
+179198	Das	0		
+179199	Mädchen	0	(mention_id=21221|references=(entity=(entity_id=entity_0004|fullname=Malvine von Milden|gender=f)))	(mention_id=20898|references=(entity=(entity_id=16|fullname=Malwine|gender=f)))
+179200	blickte	0		
+179201	aufmerksam	0		
+179202	auf	0		
+179203	.	0		
+179204	Moorfeld	0	(mention_id=21222|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=20899|references=(entity=(entity_id=20|fullname=Moorfeld|gender=m)))
+179205	faßte	0		
+179206	die	0		
+179207	Kleine	0	(mention_id=21223|references=(entity=(entity_id=entity_0004|fullname=Malvine von Milden|gender=f)))	(mention_id=20900|references=(entity=(entity_id=16|fullname=Malwine|gender=f)))
+179208	unter's	0		
+179209	Kinn	0		
+179210	:	0		
+179211	wahrhaftig	0		
+179212	,	0		
+179213	meine	0	(mention_id=21224|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=20901|references=(entity=(entity_id=16|fullname=Malwine|gender=f)))
+179214	Möwe	0		(mention_id=20902|references=(entity=(entity_id=16|fullname=Malwine|gender=f)))
+179215	hat	0		
+179216	mich	0	(mention_id=21225|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=20903|references=(entity=(entity_id=20|fullname=Moorfeld|gender=m)))
+179217	vergessen	0		
+179218	?	0		
+179219	Die	0		
+179220	„	0		
+179221	Möwe	0	(mention_id=21226|references=(entity=(entity_id=entity_0004|fullname=Malvine von Milden|gender=f)|specialcase_reference=figurative))	
+179222	“	0		
+179223	wirkte	0		
+179224	.	0		
+179225	Malwine	0	(mention_id=21227|references=(entity=(entity_id=entity_0004|fullname=Malvine von Milden|gender=f)))	(mention_id=20904|references=(entity=(entity_id=16|fullname=Malwine|gender=f)))
+179226	machte	0		
+179227	schnell	0		
+179228	eine	0		
+179229	entgegenkommende	0		
+179230	Bewegung	0		
+179231	,	0		
+179232	rief	0		
+179233	aber	0		
+179234	unwillkürlich	0		
+179235	dazu	0		
+179236	:	0		
+179237	Ach	0		
+179238	,	0		
+179239	Sie	0	(mention_id=21228|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=20905|references=(entity=(entity_id=16|fullname=Malwine|gender=f)))
+179240	sehen	0		
+179241	so	0		
+179242	blaß	0		
+179243	!	0		
+179244	Wirst	0		(mention_id=20906|references=(entity=(entity_id=16|fullname=Malwine|gender=f)))
+179245	du	0	(mention_id=21229|references=(entity=(entity_id=entity_0004|fullname=Malvine von Milden|gender=f)))	(mention_id=20907|references=(entity=(entity_id=16|fullname=Malwine|gender=f)))
+179246	?	0		
+179247	zürnte	0		
+179248	Frau	0	(mention_id=21230|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)))	(mention_id=20908|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)))
+179249	v.	0	(mention_id=21230|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)))	(mention_id=20908|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)))
+179250	Milden	0	(mention_id=21230|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)))	(mention_id=20908|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)))
+179251	,	0		
+179252	indeß	0		
+179253	Moorfeld	0	(mention_id=21231|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=20909|references=(entity=(entity_id=20|fullname=Moorfeld|gender=m)))
+179254	einen	0		
+179255	erschrockenen	0		
+179256	Blick	0		
+179257	nach	0		
+179258	dem	0		
+179259	Spiegel	0		
+179260	warf	0		
+179261	.	0		
+179262	Sie	0	(mention_id=21232|references=(entity=(entity_id=entity_0004|fullname=Malvine von Milden|gender=f)))	(mention_id=20910|references=(entity=(entity_id=16|fullname=Malwine|gender=f)))
+179263	hat	0		
+179264	Recht	0		
+179265	,	0		
+179266	sagte	0		
+179267	er	0	(mention_id=21233|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=20911|references=(entity=(entity_id=20|fullname=Moorfeld|gender=m)))
+179268	seufzend	0		
+179269	,	0		
+179270	damals	0		
+179271	kam	0		
+179272	ich	0	(mention_id=21234|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=20912|references=(entity=(entity_id=20|fullname=Moorfeld|gender=m)))
+179273	auch	0		
+179274	von	0		
+179275	Europa	0		
+179276	und	0		
+179277	heute	0		
+179278	nur	0		
+179279	—	0		
+179280	von	0		
+179281	Ohio	0		
+179282	!	0		
+179283	—	0		
+179284	Frau	0	(mention_id=21235|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)))	(mention_id=20913|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)))
+179285	v.	0	(mention_id=21235|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)))	(mention_id=20913|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)))
+179286	Milden	0	(mention_id=21235|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)))	(mention_id=20913|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)))
+179287	aber	0		
+179288	lenkte	0		
+179289	ab	0		
+179290	,	0		
+179291	indem	0		
+179292	sie	0	(mention_id=21236|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)))	(mention_id=20914|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)))
+179293	ihrem	0	(mention_id=21237|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)))	(mention_id=20915|references=(entity=(entity_id=12|fullname=Herrn Benthal|gender=m|specialcase_entity=nonfact)))
+179294	Gaste	0	(mention_id=21238|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=20916|references=(entity=(entity_id=12|fullname=Herrn Benthal|gender=m|specialcase_entity=nonfact)))
+179295	mit	0		
+179296	der	0		
+179297	Frage	0		
+179298	entgegenkam	0		
+179299	:	0		
+179300	Ich	0	(mention_id=21239|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)))	(mention_id=20917|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)))
+179301	werde	0		
+179302	vermuthen	0		
+179303	dürfen	0		
+179304	,	0		
+179305	daß	0		
+179306	ich	0	(mention_id=21240|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)))	(mention_id=20918|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)))
+179307	die	0		
+179308	Ehre	0		
+179309	Ihres	0	(mention_id=21241|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=20919|references=(entity=(entity_id=12|fullname=Herrn Benthal|gender=m|specialcase_entity=nonfact)))
+179310	Besuches	0		
+179311	Herrn	0	(mention_id=21242|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=20920|references=(entity=(entity_id=12|fullname=Herrn Benthal|gender=m|specialcase_entity=nonfact)))
+179312	Benthal	0	(mention_id=21242|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=20920|references=(entity=(entity_id=12|fullname=Herrn Benthal|gender=m|specialcase_entity=nonfact)))
+179313	verdanke	0		
+179314	?	0		
+179315	Ich	0	(mention_id=21243|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)))	(mention_id=20921|references=(entity=(entity_id=12|fullname=Herrn Benthal|gender=m|specialcase_entity=nonfact)))
+179316	bin	0		
+179317	bereit	0		
+179318	,	0		
+179319	Bestellungen	0		
+179320	an	0		
+179321	ihn	0	(mention_id=21244|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=20922|references=(entity=(entity_id=12|fullname=Herrn Benthal|gender=m|specialcase_entity=nonfact)))
+179322	nach	0		
+179323	Kräften	0		
+179324	zu	0		
+179325	besorgen	0		
+179326	.	0		
+179327	Er	0	(mention_id=21245|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=20923|references=(entity=(entity_id=12|fullname=Herrn Benthal|gender=m|specialcase_entity=nonfact)))
+179328	lebt	0		
+179329	also	0		
+179330	?!	0		
+179331	rief	0		
+179332	,	0		
+179333	oder	0		
+179334	vielmehr	0		
+179335	jauchzte	0		
+179336	Moorfeld	0	(mention_id=21246|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=20924|references=(entity=(entity_id=20|fullname=Moorfeld|gender=m)))
+179337	auf	0		
+179338	.	0		
+179339	Die	0		
+179340	Hausfrau	0	(mention_id=21247|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)))	(mention_id=20925|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)))
+179341	blickte	0		
+179342	verwundert	0		
+179343	:	0		
+179344	Ging	0		
+179345	zu	0		
+179346	irgend	0		
+179347	einer	0		
+179348	Zeit	0		
+179349	ein	0		
+179350	Gerücht	0		
+179351	seines	0	(mention_id=21248|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=20926|references=(entity=(entity_id=12|fullname=Herrn Benthal|gender=m|specialcase_entity=nonfact)))
+179352	Todes	0		
+179353	?	0		
+179354	Moorfeld	0	(mention_id=21249|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=20927|references=(entity=(entity_id=20|fullname=Moorfeld|gender=m)))
+179355	schüttet	0		
+179356	sein	0	(mention_id=21250|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=20928|references=(entity=(entity_id=20|fullname=Moorfeld|gender=m)))
+179357	ganzes	0		
+179358	Herz	0		
+179359	über	0		
+179360	seinen	0	(mention_id=21251|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=20929|references=(entity=(entity_id=20|fullname=Moorfeld|gender=m)))
+179361	gestrigen	0		
+179362	Besuch	0		
+179363	in	0		
+179364	Kleindeutschland	0		
+179365	aus	0		
+179366	.	0		
+179367	Frau	0	(mention_id=21252|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)))	(mention_id=20930|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)))
+179368	v.	0	(mention_id=21252|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)))	(mention_id=20930|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)))
+179369	Milden	0	(mention_id=21252|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)))	(mention_id=20930|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)))
+179370	sieht	0		
+179371	mit	0		
+179372	einem	0		
+179373	fast	0		
+179374	mütterlichen	0		
+179375	Blicke	0		
+179376	in	0		
+179377	das	0		
+179378	verstörte	0		
+179379	Antlitz	0		
+179380	des	0		
+179381	armen	0		
+179382	Leidenden	0	(mention_id=21253|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=20931|references=(entity=(entity_id=20|fullname=Moorfeld|gender=m)))
+179383	.	0		
+179384	Sie	0	(mention_id=21254|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)))	(mention_id=20932|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)))
+179385	„	0		
+179386	ist	0		
+179387	glücklich	0		
+179388	“	0		
+179389	,	0		
+179390	sagt	0		
+179391	sie	0	(mention_id=21255|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)))	(mention_id=20933|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)))
+179392	,	0		
+179393	so	0		
+179394	„	0		
+179395	lebhaft	0		
+179396	empfundene	0		
+179397	Sorgen	0		
+179398	“	0		
+179399	verscheuchen	0		
+179400	zu	0		
+179401	können	0		
+179402	.	0		
+179403	Moorfeld	0	(mention_id=21256|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=20934|references=(entity=(entity_id=20|fullname=Moorfeld|gender=m)))
+179404	athmet	0		
+179405	leichter	0		
+179406	.	0		
+179407	So	0		
+179408	müssen	0		
+179409	doch	0		
+179410	nicht	0		
+179411	alle	0		
+179412	Schreckensträume	0		
+179413	in	0		
+179414	Erfüllung	0		
+179415	gehen	0		
+179416	!	0		
+179417	Indem	0		
+179418	sich	0		
+179419	aber	0		
+179420	sein	0	(mention_id=21257|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=20935|references=(entity=(entity_id=20|fullname=Moorfeld|gender=m)))
+179421	Antlitz	0		
+179422	jetzt	0		
+179423	aufheitert	0		
+179424	,	0		
+179425	vermißt	0		
+179426	er	0	(mention_id=21258|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=20936|references=(entity=(entity_id=20|fullname=Moorfeld|gender=m)))
+179427	den	0		
+179428	gleichgestimmten	0		
+179429	Ton	0		
+179430	bei	0		
+179431	Frau	0	(mention_id=21259|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)))	(mention_id=20937|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)))
+179432	v.	0	(mention_id=21259|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)))	(mention_id=20937|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)))
+179433	Milden	0	(mention_id=21259|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)))	(mention_id=20937|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)))
+179434	.	0		
+179435	Er	0	(mention_id=21260|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=20938|references=(entity=(entity_id=20|fullname=Moorfeld|gender=m)))
+179436	hat	0		
+179437	in	0		
+179438	seiner	0	(mention_id=21261|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=20939|references=(entity=(entity_id=20|fullname=Moorfeld|gender=m)))
+179439	Freude	0		
+179440	ein	0		
+179441	scharfes	0		
+179442	Auge	0		
+179443	dafür	0		
+179444	,	0		
+179445	daß	0		
+179446	diese	0		
+179447	Freude	0		
+179448	nicht	0		
+179449	getheilt	0		
+179450	wird	0		
+179451	.	0		
+179452	Er	0	(mention_id=21262|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=20940|references=(entity=(entity_id=20|fullname=Moorfeld|gender=m)))
+179453	glaubt	0		
+179454	zu	0		
+179455	fühlen	0		
+179456	,	0		
+179457	die	0		
+179458	Frau	0	(mention_id=21263|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)))	(mention_id=20941|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)))
+179459	athmet	0		
+179460	nicht	0		
+179461	die	0		
+179462	reine	0		
+179463	Atmosphäre	0		
+179464	,	0		
+179465	die	0		
+179466	sie	0	(mention_id=21264|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)))	(mention_id=20942|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)))
+179467	selbst	0		
+179468	über	0		
+179469	ihn	0	(mention_id=21265|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=20943|references=(entity=(entity_id=20|fullname=Moorfeld|gender=m)))
+179470	verbreitet	0		
+179471	hat	0		
+179472	.	0		
+179473	Es	0		
+179474	fehlt	0		
+179475	etwas	0		
+179476	zwischen	0		
+179477	ihm	0	(mention_id=21266|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=20944|references=(entity=(entity_id=20|fullname=Moorfeld|gender=m)))
+179478	und	0		
+179479	ihr	0	(mention_id=21267|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)))	(mention_id=20945|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)))
+179480	,	0		
+179481	gleichsam	0		
+179482	ein	0		
+179483	Medium	0		
+179484	,	0		
+179485	eine	0		
+179486	Voraussetzung	0		
+179487	.	0		
+179488	Selbst	0		
+179489	ihre	0	(mention_id=21268|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)))	(mention_id=20946|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)))
+179490	Züge	0		
+179491	,	0		
+179492	bedünkt	0		
+179493	es	0		
+179494	ihm	0	(mention_id=21269|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=20947|references=(entity=(entity_id=20|fullname=Moorfeld|gender=m)))
+179495	bald	0		
+179496	,	0		
+179497	haben	0		
+179498	seit	0		
+179499	drei	0		
+179500	Monaten	0		
+179501	Vieles	0		
+179502	gelitten	0		
+179503	.	0		
+179504	Er	0	(mention_id=21270|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=20948|references=(entity=(entity_id=20|fullname=Moorfeld|gender=m)))
+179505	wollte	0		
+179506	das	0		
+179507	Wort	0		
+179508	,	0		
+179509	das	0		
+179510	ihm	0	(mention_id=21271|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=20949|references=(entity=(entity_id=20|fullname=Moorfeld|gender=m)))
+179511	Malwinens	0	(mention_id=21272|references=(entity=(entity_id=entity_0004|fullname=Malvine von Milden|gender=f)))	(mention_id=20950|references=(entity=(entity_id=16|fullname=Malwine|gender=f)))
+179512	Kindes-Naivetät	0		
+179513	entgegengetragen	0		
+179514	,	0		
+179515	leicht	0		
+179516	wieder	0		
+179517	zurückgeben	0		
+179518	können	0		
+179519	.	0		
+179520	—	0		
+179521	Die	0		
+179522	Hausfrau	0	(mention_id=21273|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)))	(mention_id=20951|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)))
+179523	nimmt	0		
+179524	mit	0		
+179525	ihrem	0	(mention_id=21274|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)))	(mention_id=20952|references=(entity=(entity_id=12|fullname=Herrn Benthal|gender=m|specialcase_entity=nonfact)))
+179526	Gaste	0	(mention_id=21275|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=20953|references=(entity=(entity_id=12|fullname=Herrn Benthal|gender=m|specialcase_entity=nonfact)))
+179527	Platz	0		
+179528	.	0		
+179529	Sie	0	(mention_id=21276|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)))	(mention_id=20954|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)))
+179530	richtet	0		
+179531	Fragen	0		
+179532	höflicher	0		
+179533	Theilnahme	0		
+179534	über	0		
+179535	seinen	0	(mention_id=21277|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=20955|references=(entity=(entity_id=20|fullname=Moorfeld|gender=m)))
+179536	Ohio-Ausflug	0		
+179537	an	0		
+179538	Moorfeld	0	(mention_id=21278|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=20956|references=(entity=(entity_id=20|fullname=Moorfeld|gender=m)))
+179539	.	0		
+179540	Unser	0	(mention_id=21279|references=(entity=(entity_id=entity_0008|fullname=Leser|gender=u)),(entity=(entity_id=entity_0007|fullname=Erzählinstanz|gender=u)))	(mention_id=20957|references=(entity=(entity_id=20|fullname=Moorfeld|gender=m)))
+179541	Freund	0	(mention_id=21280|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=20958|references=(entity=(entity_id=20|fullname=Moorfeld|gender=m)))
+179542	antwortet	0		
+179543	in	0		
+179544	demselben	0		
+179545	Tone	0		
+179546	.	0		
+179547	Er	0	(mention_id=21281|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=20959|references=(entity=(entity_id=20|fullname=Moorfeld|gender=m)))
+179548	erzählt	0		
+179549	vor	0		
+179550	Allem	0		
+179551	die	0		
+179552	Geschichte	0		
+179553	seines	0	(mention_id=21282|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=20960|references=(entity=(entity_id=20|fullname=Moorfeld|gender=m)))
+179554	ärgerlichen	0		
+179555	oder	0		
+179556	wunderlichen	0		
+179557	Prozesses	0		
+179558	mit	0		
+179559	dem	0		
+179560	Räuber	0	(mention_id=21283|references=(entity=(entity_id=entity_0783|fullname=Mr. Wogan|gender=m)))	(mention_id=20961|references=(entity=(entity_id=26|fullname=Räuber Wogan|gender=m)))
+179561	Wogan	0	(mention_id=21283|references=(entity=(entity_id=entity_0783|fullname=Mr. Wogan|gender=m)))	(mention_id=20961|references=(entity=(entity_id=26|fullname=Räuber Wogan|gender=m)))
+179562	,	0		
+179563	indem	0		
+179564	er	0	(mention_id=21284|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=20962|references=(entity=(entity_id=20|fullname=Moorfeld|gender=m)))
+179565	annimmt	0		
+179566	,	0		
+179567	daß	0		
+179568	er	0	(mention_id=21285|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=20963|references=(entity=(entity_id=20|fullname=Moorfeld|gender=m)))
+179569	mit	0		
+179570	diesem	0		
+179571	Bericht	0		
+179572	eigentlich	0		
+179573	vor	0		
+179574	Mitinteressenten	0	(mention_id=21286|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)),(entity=(entity_id=entity_0402|fullname=Pauline von Milden|gender=f)))	(mention_id=20964|references=(entity=(entity_id=generic_0001|fullname=Mitinteressenten|gender=u|specialcase_entity=generic)))
+179575	trete	0		
+179576	.	0		
+179577	Frau	0	(mention_id=21287|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)))	(mention_id=20965|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)))
+179578	v.	0	(mention_id=21287|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)))	(mention_id=20965|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)))
+179579	Milden	0	(mention_id=21287|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)))	(mention_id=20965|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)))
+179580	bezeugt	0		
+179581	dem	0		
+179582	Ereignisse	0		
+179583	schuldigen	0		
+179584	Antheil	0		
+179585	,	0		
+179586	—	0		
+179587	aber	0		
+179588	auch	0		
+179589	nur	0		
+179590	schuldigen	0	(mention_id=21288|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)))	
+179591	,	0		
+179592	glaubt	0		
+179593	Moorfeld	0	(mention_id=21289|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=20966|references=(entity=(entity_id=20|fullname=Moorfeld|gender=m)))
+179594	zu	0		
+179595	sehen	0		
+179596	.	0		
+179597	Er	0	(mention_id=21290|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=20967|references=(entity=(entity_id=20|fullname=Moorfeld|gender=m)))
+179598	findet	0		
+179599	keinen	0		
+179600	Zug	0		
+179601	,	0		
+179602	womit	0		
+179603	die	0		
+179604	Frau	0	(mention_id=21291|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)))	(mention_id=20968|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)))
+179605	ein	0		
+179606	persönliches	0		
+179607	Interesse	0		
+179608	daran	0		
+179609	verriethe	0		
+179610	,	0		
+179611	und	0		
+179612	auch	0		
+179613	die	0		
+179614	feinste	0		
+179615	Selbtbeherrschung	0		
+179616	,	0		
+179617	meint	0		
+179618	er	0	(mention_id=21292|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=20969|references=(entity=(entity_id=20|fullname=Moorfeld|gender=m)))
+179619	,	0		
+179620	müßte	0		
+179621	in	0		
+179622	solch	0		
+179623	einem	0		
+179624	Falle	0		
+179625	einen	0		
+179626	Moment	0		
+179627	von	0		
+179628	Durchsichtigkeit	0		
+179629	haben	0		
+179630	.	0		
+179631	Frau	0	(mention_id=21293|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)))	(mention_id=20970|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)))
+179632	v.	0	(mention_id=21293|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)))	(mention_id=20970|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)))
+179633	Milden	0	(mention_id=21293|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)))	(mention_id=20970|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)))
+179634	indeß	0		
+179635	bleibt	0		
+179636	augenscheinlich	0		
+179637	außer	0		
+179638	Partei	0		
+179639	dabei	0		
+179640	.	0		
+179641	Sie	0	(mention_id=21294|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)))	(mention_id=20971|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)))
+179642	geht	0		
+179643	eben	0		
+179644	so	0		
+179645	unbefangen	0		
+179646	zu	0		
+179647	andern	0		
+179648	Mittheilungen	0		
+179649	über	0		
+179650	.	0		
+179651	Moorfeld	0	(mention_id=21295|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=20972|references=(entity=(entity_id=20|fullname=Moorfeld|gender=m)))
+179652	antwortet	0		
+179653	fortwährend	0		
+179654	,	0		
+179655	wie	0		
+179656	Einer	0	(mention_id=21296|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)),(entity=(entity_id=generic_5756|fullname=generic_2101|gender=u|specialcase_entity=generic)))	(mention_id=20973|references=(entity=(entity_id=20|fullname=Moorfeld|gender=m)))
+179657	,	0		
+179658	der	0	(mention_id=21297|references=(entity=(entity_id=generic_5757|fullname=generic_2102|gender=u|specialcase_entity=generic)),(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=20974|references=(entity=(entity_id=20|fullname=Moorfeld|gender=m)))
+179659	sich	0	(mention_id=21298|references=(entity=(entity_id=generic_5758|fullname=generic_2103|gender=u|specialcase_entity=generic)),(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=20975|references=(entity=(entity_id=20|fullname=Moorfeld|gender=m)))
+179660	wiederholt	0		
+179661	,	0		
+179662	denn	0		
+179663	stillschweigend	0		
+179664	bezieht	0		
+179665	er	0	(mention_id=21299|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=20976|references=(entity=(entity_id=20|fullname=Moorfeld|gender=m)))
+179666	sich	0	(mention_id=21300|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=20977|references=(entity=(entity_id=20|fullname=Moorfeld|gender=m)))
+179667	auf	0		
+179668	seine	0	(mention_id=21301|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=20978|references=(entity=(entity_id=20|fullname=Moorfeld|gender=m)))
+179669	Briefe	0		
+179670	.	0		
+179671	Frau	0	(mention_id=21302|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)))	(mention_id=20979|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)))
+179672	v.	0	(mention_id=21302|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)))	(mention_id=20979|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)))
+179673	Milden	0	(mention_id=21302|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)))	(mention_id=20979|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)))
+179674	dagegen	0		
+179675	sieht	0		
+179676	sich	0	(mention_id=21303|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)))	(mention_id=20980|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)))
+179677	bei	0		
+179678	dieser	0		
+179679	Art	0		
+179680	zu	0		
+179681	antworten	0		
+179682	oft	0		
+179683	zu	0		
+179684	Ergänzungsfragen	0		
+179685	genöthigt	0		
+179686	.	0		
+179687	Diese	0		
+179688	Unterhaltung	0		
+179689	währte	0		
+179690	gar	0		
+179691	nicht	0		
+179692	lange	0		
+179693	,	0		
+179694	als	0		
+179695	Moorfeld	0	(mention_id=21304|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=20981|references=(entity=(entity_id=20|fullname=Moorfeld|gender=m)))
+179696	erkannte	0		
+179697	,	0		
+179698	daß	0		
+179699	sie	0		
+179700	schlechterdings	0		
+179701	auf	0		
+179702	einer	0		
+179703	Lücke	0		
+179704	beruhe	0		
+179705	.	0		
+179706	Er	0	(mention_id=21305|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=20982|references=(entity=(entity_id=20|fullname=Moorfeld|gender=m)))
+179707	spricht	0		
+179708	endlich	0		
+179709	direct	0		
+179710	von	0		
+179711	seinem	0	(mention_id=21306|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=20983|references=(entity=(entity_id=20|fullname=Moorfeld|gender=m)))
+179712	Reise-Tagebuch	0		
+179713	,	0		
+179714	und	0		
+179715	daß	0		
+179716	er	0	(mention_id=21307|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=20984|references=(entity=(entity_id=20|fullname=Moorfeld|gender=m)))
+179717	nicht	0		
+179718	anders	0		
+179719	als	0		
+179720	der	0		
+179721	Meinung	0		
+179722	lebe	0		
+179723	,	0		
+179724	Benthal	0	(mention_id=21308|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=20985|references=(entity=(entity_id=12|fullname=Herrn Benthal|gender=m|specialcase_entity=nonfact)))
+179725	habe	0		
+179726	es	0		
+179727	in	0		
+179728	seinem	0	(mention_id=21309|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=20986|references=(entity=(entity_id=12|fullname=Herrn Benthal|gender=m|specialcase_entity=nonfact)))
+179729	„	0		
+179730	Lorettohäuschen	0		
+179731	“	0		
+179732	mitgetheilt	0		
+179733	.	0		
+179734	Die	0		
+179735	Hausfrau	0	(mention_id=21310|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)))	(mention_id=20987|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)))
+179736	stutzt	0		
+179737	.	0		
+179738	Sie	0	(mention_id=21311|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)))	(mention_id=20988|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)))
+179739	blickt	0		
+179740	verlegen	0		
+179741	.	0		
+179742	Mit	0		
+179743	diesem	0		
+179744	Worte	0		
+179745	ist	0		
+179746	ein	0		
+179747	Punkt	0		
+179748	erreicht	0		
+179749	,	0		
+179750	auf	0		
+179751	welchem	0		
+179752	es	0		
+179753	nicht	0		
+179754	mehr	0		
+179755	möglich	0		
+179756	blieb	0		
+179757	,	0		
+179758	reservirt	0		
+179759	zu	0		
+179760	sein	0		
+179761	.	0		
+179762	Die	0		
+179763	Dame	0	(mention_id=21312|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)))	(mention_id=20989|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)))
+179764	faßt	0		
+179765	sich	0	(mention_id=21313|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)))	(mention_id=20990|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)))
+179766	indeß	0		
+179767	so	0		
+179768	gut	0		
+179769	es	0		
+179770	gehen	0		
+179771	will	0		
+179772	und	0		
+179773	antwortet	0		
+179774	gelassen	0		
+179775	:	0		
+179776	Ich	0	(mention_id=21314|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)))	(mention_id=20991|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)))
+179777	bedauere	0		
+179778	,	0		
+179779	daß	0		
+179780	uns	0	(mention_id=21315|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)),(entity=(entity_id=entity_0402|fullname=Pauline von Milden|gender=f)))	(mention_id=20992|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)),(entity=(entity_id=20|fullname=Moorfeld|gender=m)))
+179781	Herr	0	(mention_id=21316|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=20993|references=(entity=(entity_id=12|fullname=Herrn Benthal|gender=m|specialcase_entity=nonfact)))
+179782	Benthal	0	(mention_id=21316|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=20993|references=(entity=(entity_id=12|fullname=Herrn Benthal|gender=m|specialcase_entity=nonfact)))
+179783	dieses	0		
+179784	Vergnügen	0		
+179785	nicht	0		
+179786	gemacht	0		
+179787	hat	0		
+179788	.	0		
+179789	Er	0	(mention_id=21317|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=20994|references=(entity=(entity_id=12|fullname=Herrn Benthal|gender=m|specialcase_entity=nonfact)))
+179790	war	0		
+179791	viel	0		
+179792	beschäftigt	0		
+179793	.	0		
+179794	—	0		
+179795	Er	0	(mention_id=21318|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=20995|references=(entity=(entity_id=12|fullname=Herrn Benthal|gender=m|specialcase_entity=nonfact)))
+179796	ist	0		
+179797	ein	0		
+179798	Verräther	0	(mention_id=21319|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=20996|references=(entity=(entity_id=12|fullname=Herrn Benthal|gender=m|specialcase_entity=nonfact)))
+179799	!	0		
+179800	schrie	0		
+179801	Moorfeld	0	(mention_id=21320|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=20997|references=(entity=(entity_id=20|fullname=Moorfeld|gender=m)))
+179802	auf	0		
+179803	einmal	0		
+179804	wie	0		
+179805	von	0		
+179806	einem	0		
+179807	Dämon	0		
+179808	inspirirt	0		
+179809	.	0		
+179810	Als	0		
+179811	das	0		
+179812	Wort	0		
+179813	gesprochen	0		
+179814	war	0		
+179815	,	0		
+179816	blickte	0		
+179817	er	0	(mention_id=21321|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=20998|references=(entity=(entity_id=20|fullname=Moorfeld|gender=m)))
+179818	selbst	0		
+179819	erschrocken	0		
+179820	dazu	0		
+179821	.	0		
+179822	Es	0		
+179823	lag	0		
+179824	ein	0		
+179825	Gedanke	0		
+179826	darin	0		
+179827	,	0		
+179828	den	0		
+179829	nicht	0		
+179830	er	0	(mention_id=21322|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=20999|references=(entity=(entity_id=20|fullname=Moorfeld|gender=m)))
+179831	denken	0		
+179832	konnte	0		
+179833	;	0		
+179834	ein	0		
+179835	fremdes	0		
+179836	Wesen	0		
+179837	in	0		
+179838	ihm	0	(mention_id=21323|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=21000|references=(entity=(entity_id=20|fullname=Moorfeld|gender=m)))
+179839	hatte	0		
+179840	gedacht	0		
+179841	.	0		
+179842	Aber	0		
+179843	es	0		
+179844	war	0		
+179845	gesprochen	0		
+179846	,	0		
+179847	es	0		
+179848	war	0		
+179849	gedacht	0		
+179850	.	0		
+179851	Die	0		
+179852	Förmlichkeit	0		
+179853	der	0		
+179854	conventionellen	0		
+179855	Haltung	0		
+179856	war	0		
+179857	durchbrochen	0		
+179858	,	0		
+179859	Frau	0	(mention_id=21324|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)))	(mention_id=21001|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)))
+179860	v.	0	(mention_id=21324|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)))	(mention_id=21001|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)))
+179861	Milden	0	(mention_id=21324|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)))	(mention_id=21001|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)))
+179862	verwandelte	0		
+179863	sich	0	(mention_id=21325|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)))	(mention_id=21002|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)))
+179864	sichtlich	0		
+179865	.	0		
+179866	Sie	0	(mention_id=21326|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)))	(mention_id=21003|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)))
+179867	zeigte	0		
+179868	das	0		
+179869	leidende	0		
+179870	trostbedürftige	0		
+179871	Weib	0	(mention_id=21327|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)))	(mention_id=21004|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)))
+179872	.	0		
+179873	Es	0		
+179874	ziemt	0		
+179875	uns	0		(mention_id=21005|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)),(entity=(entity_id=20|fullname=Moorfeld|gender=m)))
+179876	Frauen	0	(mention_id=21328|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)),(entity=(entity_id=generic_5759|fullname=generic_2104|gender=u|specialcase_entity=generic)))	(mention_id=21006|references=(entity=(entity_id=generic_0002|fullname=Frauen im Allgemeinen|gender=u|specialcase_entity=generic)))
+179877	nicht	0		
+179878	,	0		
+179879	sagte	0		
+179880	sie	0	(mention_id=21329|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)))	(mention_id=21007|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)))
+179881	in	0		
+179882	einem	0		
+179883	Tone	0		
+179884	wehmüthiger	0		
+179885	Weichheit	0		
+179886	,	0		
+179887	unsre	0	(mention_id=21330|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)),(entity=(entity_id=generic_5760|fullname=generic_2105|gender=u|specialcase_entity=generic)))	(mention_id=21008|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)),(entity=(entity_id=20|fullname=Moorfeld|gender=m)))
+179888	Ausdrücke	0		
+179889	über	0		
+179890	Männer	0	(mention_id=21331|references=(entity=(entity_id=generic_5761|fullname=generic_2106|gender=u|specialcase_entity=generic)),(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=21009|references=(entity=(entity_id=generic_0004|fullname=Männer im Allgemeinen|gender=u|specialcase_entity=generic)))
+179891	so	0		
+179892	entschieden	0		
+179893	zu	0		
+179894	wählen	0		
+179895	,	0		
+179896	wie	0		
+179897	diese	0	(mention_id=21332|references=(entity=(entity_id=generic_5762|fullname=generic_2107|gender=u|specialcase_entity=generic)))	(mention_id=21010|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)))
+179898	es	0		
+179899	selbst	0		
+179900	dürfen	0		
+179901	.	0		
+179902	Ich	0	(mention_id=21333|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)))	(mention_id=21011|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)))
+179903	möchte	0		
+179904	Ihr	0	(mention_id=21334|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=21012|references=(entity=(entity_id=12|fullname=Herrn Benthal|gender=m|specialcase_entity=nonfact)))
+179905	Wort	0		
+179906	nicht	0		
+179907	wiederholen	0		
+179908	,	0		
+179909	Herr	0	(mention_id=21335|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=21013|references=(entity=(entity_id=12|fullname=Herrn Benthal|gender=m|specialcase_entity=nonfact)))
+179910	Doctor	0	(mention_id=21335|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=21013|references=(entity=(entity_id=12|fullname=Herrn Benthal|gender=m|specialcase_entity=nonfact)))
+179911	.	0		
+179912	Um	0		
+179913	Ihrer	0	(mention_id=21336|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=21014|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)))
+179914	selbst	0		
+179915	willen	0		
+179916	nicht	0		
+179917	.	0		
+179918	Sie	0	(mention_id=21337|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=21015|references=(entity=(entity_id=12|fullname=Herrn Benthal|gender=m|specialcase_entity=nonfact)))
+179919	waren	0		
+179920	sein	0	(mention_id=21338|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=21016|references=(entity=(entity_id=12|fullname=Herrn Benthal|gender=m|specialcase_entity=nonfact)))
+179921	Freund	0	(mention_id=21339|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=21017|references=(entity=(entity_id=12|fullname=Herrn Benthal|gender=m|specialcase_entity=nonfact)))
+179922	,	0		
+179923	ich	0	(mention_id=21340|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)))	(mention_id=21018|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)))
+179924	weiß	0		
+179925	es	0		
+179926	.	0		
+179927	Sie	0	(mention_id=21341|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=21019|references=(entity=(entity_id=12|fullname=Herrn Benthal|gender=m|specialcase_entity=nonfact)))
+179928	haben	0		
+179929	gebaut	0		
+179930	auf	0		
+179931	ihn	0	(mention_id=21342|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=21020|references=(entity=(entity_id=12|fullname=Herrn Benthal|gender=m|specialcase_entity=nonfact)))
+179932	,	0		
+179933	fest	0		
+179934	,	0		
+179935	unerschütterlich	0		
+179936	.	0		
+179937	Wie	0		
+179938	hielten	0		
+179939	wir	0	(mention_id=21343|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)),(entity=(entity_id=entity_0402|fullname=Pauline von Milden|gender=f)))	(mention_id=21021|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)),(entity=(entity_id=20|fullname=Moorfeld|gender=m)))
+179940	deßwegen	0		
+179941	auf	0		
+179942	Sie	0	(mention_id=21344|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=21022|references=(entity=(entity_id=12|fullname=Herrn Benthal|gender=m|specialcase_entity=nonfact)))
+179943	!	0		
+179944	So	0		
+179945	müssen	0		
+179946	Männer	0	(mention_id=21345|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)),(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)),(entity=(entity_id=generic_5763|fullname=generic_2108|gender=u|specialcase_entity=generic)))	(mention_id=21023|references=(entity=(entity_id=generic_0005|fullname=Männer im Allgemeinen|gender=u|specialcase_entity=generic)))
+179947	Freunde	0	(mention_id=21346|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)),(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)),(entity=(entity_id=generic_5764|fullname=generic_2109|gender=u|specialcase_entity=generic)))	
+179948	werden	0		
+179949	,	0		
+179950	sagten	0		
+179951	wir	0	(mention_id=21347|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)),(entity=(entity_id=entity_0402|fullname=Pauline von Milden|gender=f)))	(mention_id=21024|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)),(entity=(entity_id=20|fullname=Moorfeld|gender=m)))
+179952	oft	0		
+179953	.	0		
+179954	Ein	0		
+179955	Blick	0		
+179956	,	0		
+179957	ein	0		
+179958	Griff	0		
+179959	—	0		
+179960	und	0		
+179961	es	0		
+179962	ist	0		
+179963	der	0		
+179964	rechte	0		
+179965	!	0		
+179966	Denn	0		
+179967	im	0		
+179968	alltäglichen	0		
+179969	Umgang	0		
+179970	nehmen	0		
+179971	wir	0	(mention_id=21348|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)),(entity=(entity_id=entity_0402|fullname=Pauline von Milden|gender=f)),(entity=(entity_id=generic_5765|fullname=generic_2110|gender=u|specialcase_entity=generic)))	(mention_id=21025|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)),(entity=(entity_id=20|fullname=Moorfeld|gender=m)))
+179972	meist	0		
+179973	für	0		
+179974	Freundschaft	0		
+179975	was	0		
+179976	nur	0		
+179977	Gewohnheit	0		
+179978	ist	0		
+179979	,	0		
+179980	und	0		
+179981	ein	0		
+179982	so	0		
+179983	und	0		
+179984	so	0		
+179985	oft	0		
+179986	wiederholtes	0		
+179987	Sehen	0		
+179988	der	0		
+179989	Außenseite	0		
+179990	gibt	0		
+179991	gedankenlosen	0		
+179992	Credit	0		
+179993	fürs	0		
+179994	Innre	0		
+179995	.	0		
+179996	Sie	0	(mention_id=21349|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)),(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=21026|references=(entity=(entity_id=12|fullname=Herrn Benthal|gender=m|specialcase_entity=nonfact)))
+179997	wurden	0		
+179998	Freunde	0	(mention_id=21350|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)),(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=21027|references=(entity=(entity_id=12|fullname=Herrn Benthal|gender=m|specialcase_entity=nonfact)))
+179999	von	0		
+180000	innen	0		
+180001	heraus	0		
+180002	,	0		
+180003	nicht	0		
+180004	von	0		
+180005	außen	0		
+180006	hinein	0		
+180007	.	0		
+180008	Wir	0	(mention_id=21351|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)),(entity=(entity_id=entity_0402|fullname=Pauline von Milden|gender=f)))	(mention_id=21028|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)),(entity=(entity_id=20|fullname=Moorfeld|gender=m)))
+180009	fanden	0		
+180010	unsre	0	(mention_id=21352|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)),(entity=(entity_id=entity_0402|fullname=Pauline von Milden|gender=f)))	(mention_id=21029|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)),(entity=(entity_id=20|fullname=Moorfeld|gender=m)))
+180011	Bürgschaft	0		
+180012	in	0		
+180013	Ihnen	0	(mention_id=21353|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=21030|references=(entity=(entity_id=12|fullname=Herrn Benthal|gender=m|specialcase_entity=nonfact)))
+180014	.	0		
+180015	Wie	0		
+180016	hätten	0		
+180017	wir	0	(mention_id=21354|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)),(entity=(entity_id=entity_0402|fullname=Pauline von Milden|gender=f)))	(mention_id=21031|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)),(entity=(entity_id=20|fullname=Moorfeld|gender=m)))
+180018	schwache	0		
+180019	Frauen	0	(mention_id=21355|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)),(entity=(entity_id=entity_0402|fullname=Pauline von Milden|gender=f)))	(mention_id=21032|references=(entity=(entity_id=generic_0003|fullname=Frauen im Allgemeinen|gender=u|specialcase_entity=generic)))
+180020	nicht	0		
+180021	gläubig	0		
+180022	sein	0		
+180023	sollen	0		
+180024	,	0		
+180025	wo	0		
+180026	ein	0		
+180027	Mann	0	(mention_id=21356|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=21033|references=(entity=(entity_id=12|fullname=Herrn Benthal|gender=m|specialcase_entity=nonfact)))
+180028	den	0		
+180029	Mann	0	(mention_id=21357|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=21034|references=(entity=(entity_id=12|fullname=Herrn Benthal|gender=m|specialcase_entity=nonfact)))
+180030	so	0		
+180031	rasch	0		
+180032	überzeugte	0		
+180033	?	0		
+180034	Ja	0		
+180035	,	0		
+180036	er	0	(mention_id=21358|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=21035|references=(entity=(entity_id=12|fullname=Herrn Benthal|gender=m|specialcase_entity=nonfact)))
+180037	war	0		
+180038	zum	0		
+180039	Vertrauen	0		
+180040	geschaffen	0		
+180041	;	0		
+180042	er	0	(mention_id=21359|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=21036|references=(entity=(entity_id=12|fullname=Herrn Benthal|gender=m|specialcase_entity=nonfact)))
+180043	war	0		
+180044	ein	0		
+180045	Charakter	0	(mention_id=21360|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=21037|references=(entity=(entity_id=12|fullname=Herrn Benthal|gender=m|specialcase_entity=nonfact)))
+180046	.	0		
+180047	Ich	0	(mention_id=21361|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)))	(mention_id=21038|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)))
+180048	habe	0		
+180049	mir	0	(mention_id=21362|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)))	(mention_id=21039|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)))
+180050	nichts	0		
+180051	vorzuwerfen	0		
+180052	.	0		
+180053	Theodor	0	(mention_id=21363|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=21040|references=(entity=(entity_id=29|fullname=Theodor|gender=m)))
+180054	war	0		
+180055	brav	0		
+180056	—	0		
+180057	bis	0		
+180058	zur	0		
+180059	Stunde	0		
+180060	,	0		
+180061	von	0		
+180062	der	0		
+180063	wir	0	(mention_id=21364|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)),(entity=(entity_id=entity_0402|fullname=Pauline von Milden|gender=f)),(entity=(entity_id=generic_5766|fullname=generic_2111|gender=u|specialcase_entity=generic)))	(mention_id=21041|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)),(entity=(entity_id=20|fullname=Moorfeld|gender=m)))
+180064	Alle	0	(mention_id=21365|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)),(entity=(entity_id=entity_0402|fullname=Pauline von Milden|gender=f)),(entity=(entity_id=generic_5767|fullname=generic_2112|gender=u|specialcase_entity=generic)))	(mention_id=21042|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)),(entity=(entity_id=20|fullname=Moorfeld|gender=m)))
+180065	sprechen	0		
+180066	:	0		
+180067	Führe	0		
+180068	uns	0	(mention_id=21366|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)),(entity=(entity_id=entity_0402|fullname=Pauline von Milden|gender=f)),(entity=(entity_id=generic_5768|fullname=generic_2113|gender=u|specialcase_entity=generic)))	(mention_id=21043|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)),(entity=(entity_id=20|fullname=Moorfeld|gender=m)))
+180069	nicht	0		
+180070	in	0		
+180071	Versuchung	0		
+180072	!	0		
+180073	Moorfeld	0	(mention_id=21367|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=21044|references=(entity=(entity_id=20|fullname=Moorfeld|gender=m)))
+180074	saß	0		
+180075	da	0		
+180076	,	0		
+180077	—	0		
+180078	der	0		
+180079	letzte	0		
+180080	Blutstropfen	0		
+180081	aus	0		
+180082	seinem	0	(mention_id=21368|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=21045|references=(entity=(entity_id=20|fullname=Moorfeld|gender=m)))
+180083	Gesichte	0		
+180084	gewichen	0		
+180085	.	0		
+180086	Also	0		
+180087	doch	0		
+180088	!	0		
+180089	stammelte	0		
+180090	es	0		
+180091	dumpf	0		
+180092	in	0		
+180093	ihm	0	(mention_id=21369|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=21046|references=(entity=(entity_id=20|fullname=Moorfeld|gender=m)))
+180094	.	0		
+180095	Trag'	0		
+180096	dieses	0		
+180097	Buch	0		
+180098	zu	0		
+180099	Mistreß	0	(mention_id=21370|references=(entity=(entity_id=entity_1173|fullname=Mistreß Norbert|gender=f)))	(mention_id=21047|references=(entity=(entity_id=18|fullname=Mistreß Norbert|gender=f|specialcase_entity=nonfact)))
+180100	Norbert	0	(mention_id=21370|references=(entity=(entity_id=entity_1173|fullname=Mistreß Norbert|gender=f)))	(mention_id=21047|references=(entity=(entity_id=18|fullname=Mistreß Norbert|gender=f|specialcase_entity=nonfact)))
+180101	,	0		
+180102	hieß	0		
+180103	Frau	0	(mention_id=21371|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)))	(mention_id=21048|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)))
+180104	v.	0	(mention_id=21371|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)))	(mention_id=21048|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)))
+180105	Milden	0	(mention_id=21371|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)))	(mention_id=21048|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)))
+180106	ihr	0	(mention_id=21372|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)))	(mention_id=21049|references=(entity=(entity_id=16|fullname=Malwine|gender=f)))
+180107	Töchterchen	0	(mention_id=21373|references=(entity=(entity_id=entity_0004|fullname=Malvine von Milden|gender=f)))	(mention_id=21050|references=(entity=(entity_id=16|fullname=Malwine|gender=f)))
+180108	,	0		
+180109	indem	0		
+180110	sie	0	(mention_id=21374|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)))	(mention_id=21051|references=(entity=(entity_id=16|fullname=Malwine|gender=f)))
+180111	das	0		
+180112	Kind	0	(mention_id=21375|references=(entity=(entity_id=entity_0004|fullname=Malvine von Milden|gender=f)))	(mention_id=21052|references=(entity=(entity_id=16|fullname=Malwine|gender=f)))
+180113	damit	0		
+180114	entfernte	0		
+180115	.	0		
+180116	Malwine	0	(mention_id=21376|references=(entity=(entity_id=entity_0004|fullname=Malvine von Milden|gender=f)))	(mention_id=21053|references=(entity=(entity_id=16|fullname=Malwine|gender=f)))
+180117	ging	0		
+180118	.	0		
+180119	Moorfeld	0	(mention_id=21377|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=21054|references=(entity=(entity_id=20|fullname=Moorfeld|gender=m)))
+180120	sah	0		
+180121	ihr	0	(mention_id=21378|references=(entity=(entity_id=entity_0004|fullname=Malvine von Milden|gender=f)))	(mention_id=21055|references=(entity=(entity_id=16|fullname=Malwine|gender=f)))
+180122	nach	0		
+180123	und	0		
+180124	als	0		
+180125	sie	0	(mention_id=21379|references=(entity=(entity_id=entity_0004|fullname=Malvine von Milden|gender=f)))	(mention_id=21056|references=(entity=(entity_id=16|fullname=Malwine|gender=f)))
+180126	die	0		
+180127	Thüre	0		
+180128	geschlossen	0		
+180129	,	0		
+180130	sagte	0		
+180131	er	0	(mention_id=21380|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=21057|references=(entity=(entity_id=20|fullname=Moorfeld|gender=m)))
+180132	zur	0		
+180133	Mutter	0	(mention_id=21381|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)))	(mention_id=21058|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)))
+180134	gewendet	0		
+180135	:	0		
+180136	Geschlossener	0		
+180137	Hofraum	0		
+180138	!	0		
+180139	Die	0		
+180140	Execution	0		
+180141	kann	0		
+180142	beginnen	0		
+180143	.	0		
+180144	In	0		
+180145	Philadelphia	0		
+180146	richtet	0		
+180147	man	0		
+180148	so	0		
+180149	:	0		
+180150	ein	0		
+180151	tête	0		
+180152	à	0		
+180153	tête	0		
+180154	nur	0		
+180155	zwischen	0		
+180156	Henker	0	(mention_id=21382|references=(entity=(entity_id=generic_5769|fullname=generic_2114|gender=u|specialcase_entity=generic)))	(mention_id=21059|references=(entity=(entity_id=generic_0007|fullname=Henker|gender=u|specialcase_entity=generic)))
+180157	und	0		
+180158	Delinquenten	0	(mention_id=21383|references=(entity=(entity_id=generic_5770|fullname=generic_2115|gender=u|specialcase_entity=generic)))	(mention_id=21060|references=(entity=(entity_id=generic_0008|fullname=Delinquenten|gender=u|specialcase_entity=generic)))
+180159	.	0		
+180160	Ich	0	(mention_id=21384|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=21061|references=(entity=(entity_id=20|fullname=Moorfeld|gender=m)))
+180161	bitte	0		
+180162	,	0		
+180163	sprechen	0		
+180164	Sie	0	(mention_id=21385|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)))	(mention_id=21062|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)))
+180165	,	0		
+180166	gnädige	0		
+180167	Frau	0	(mention_id=21386|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)))	(mention_id=21063|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)))
+180168	.	0		
+180169	Könnt'	0		
+180170	ich	0	(mention_id=21387|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)))	(mention_id=21064|references=(entity=(entity_id=20|fullname=Moorfeld|gender=m)))
+180171	uns	0	(mention_id=21388|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)),(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=21065|references=(entity=(entity_id=20|fullname=Moorfeld|gender=m)),(entity=(entity_id=7|fullname=Frau v Milden|gender=f)))
+180172	Beiden	0	(mention_id=21389|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)),(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=21066|references=(entity=(entity_id=20|fullname=Moorfeld|gender=m)),(entity=(entity_id=7|fullname=Frau v Milden|gender=f)))
+180173	diese	0		
+180174	Stunde	0		
+180175	ersparen	0		
+180176	!	0		
+180177	seufzte	0		
+180178	die	0		
+180179	edle	0		
+180180	Frau	0	(mention_id=21390|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)))	(mention_id=21067|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)))
+180181	,	0		
+180182	deren	0	(mention_id=21391|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)))	(mention_id=21068|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)))
+180183	Züge	0		
+180184	der	0		
+180185	Schmerz	0		
+180186	eben	0		
+180187	so	0		
+180188	zu	0		
+180189	verschönen	0		
+180190	schien	0		
+180191	,	0		
+180192	als	0		
+180193	Moorfeld	0	(mention_id=21392|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=21069|references=(entity=(entity_id=20|fullname=Moorfeld|gender=m)))
+180194	wild	0		
+180195	,	0		
+180196	ja	0		
+180197	,	0		
+180198	gräßlich	0		
+180199	blickte	0		
+180200	.	0		
+180201	Und	0		
+180202	gleichsam	0		
+180203	als	0		
+180204	klängen	0		
+180205	ihr	0	(mention_id=21393|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)))	(mention_id=21070|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)))
+180206	Moorfeld's	0	(mention_id=21394|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=21071|references=(entity=(entity_id=20|fullname=Moorfeld|gender=m)))
+180207	Worte	0		
+180208	jetzt	0		
+180209	erst	0		
+180210	ans	0		
+180211	Ohr	0		
+180212	,	0		
+180213	sagte	0		
+180214	sie	0	(mention_id=21395|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)))	(mention_id=21072|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)))
+180215	sanft	0		
+180216	:	0		
+180217	Ich	0	(mention_id=21396|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)))	(mention_id=21073|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)))
+180218	richte	0		
+180219	Niemanden	0		
+180220	.	0		
+180221	Auch	0		
+180222	ist	0		
+180223	er	0	(mention_id=21397|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=21074|references=(entity=(entity_id=12|fullname=Herrn Benthal|gender=m|specialcase_entity=nonfact)))
+180224	noch	0		
+180225	nicht	0		
+180226	gerichtet	0		
+180227	.	0		
+180228	Ach	0		
+180229	,	0		
+180230	ich	0	(mention_id=21398|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)))	(mention_id=21075|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)))
+180231	erzähle	0		
+180232	ja	0		
+180233	nichts	0		
+180234	als	0		
+180235	ein	0		
+180236	paar	0		
+180237	veränderte	0		
+180238	Aeußerlichkeiten	0		
+180239	!	0		
+180240	Urtheilen	0		
+180241	Sie'	0	(mention_id=21399|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=21076|references=(entity=(entity_id=20|fullname=Moorfeld|gender=m)))
+180242	selbst	0		
+180243	,	0		
+180244	ob	0		
+180245	sie	0		
+180246	ein	0		
+180247	Schicksal	0		
+180248	sind	0		
+180249	.	0		
+180250	Moorfeld	0	(mention_id=21400|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=21077|references=(entity=(entity_id=20|fullname=Moorfeld|gender=m)))
+180251	starrte	0		
+180252	vor	0		
+180253	sich	0	(mention_id=21401|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=21078|references=(entity=(entity_id=20|fullname=Moorfeld|gender=m)))
+180254	hin	0		
+180255	.	0		
+180256	Frau	0	(mention_id=21402|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)))	(mention_id=21079|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)))
+180257	v.	0	(mention_id=21402|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)))	(mention_id=21079|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)))
+180258	Milden	0	(mention_id=21402|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)))	(mention_id=21079|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)))
+180259	begann	0		
+180260	:	0		
+180261	Es	0		
+180262	war	0		
+180263	am	0		
+180264	Tage	0		
+180265	Ihrer	0	(mention_id=21403|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=21080|references=(entity=(entity_id=20|fullname=Moorfeld|gender=m)))
+180266	Abreise	0		
+180267	,	0		
+180268	Herr	0	(mention_id=21404|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=21081|references=(entity=(entity_id=20|fullname=Moorfeld|gender=m)))
+180269	Doctor	0	(mention_id=21404|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=21081|references=(entity=(entity_id=20|fullname=Moorfeld|gender=m)))
+180270	.	0		
+180271	Die	0		
+180272	letzten	0		
+180273	Stunden	0		
+180274	,	0		
+180275	wenn	0		
+180276	ich	0	(mention_id=21405|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)))	(mention_id=21082|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)))
+180277	nicht	0		
+180278	irre	0		
+180279	,	0		
+180280	brachten	0		
+180281	ein	0		
+180282	wiederholtes	0		
+180283	Hin-	0		
+180284	und	0		
+180285	Wiedergehen	0		
+180286	zwischen	0		
+180287	Ihnen	0	(mention_id=21406|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=21083|references=(entity=(entity_id=20|fullname=Moorfeld|gender=m)),(entity=(entity_id=29|fullname=Theodor|gender=m)))
+180288	und	0		
+180289	Theodor	0	(mention_id=21407|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=21084|references=(entity=(entity_id=29|fullname=Theodor|gender=m)))
+180290	,	0		
+180291	wie	0		
+180292	es	0		
+180293	solche	0		
+180294	Gelegenheiten	0		
+180295	pflegen	0		
+180296	.	0		
+180297	Einmal	0		
+180298	kam	0		
+180299	Theodor	0	(mention_id=21408|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=21085|references=(entity=(entity_id=29|fullname=Theodor|gender=m)))
+180300	zu	0		
+180301	spät	0		
+180302	.	0		
+180303	Herr	0	(mention_id=21409|references=(entity=(entity_id=entity_0075|fullname=Herr Staunton|gender=m)))	(mention_id=21086|references=(entity=(entity_id=10|fullname=Herr Staunton|gender=m)))
+180304	Staunton	0	(mention_id=21409|references=(entity=(entity_id=entity_0075|fullname=Herr Staunton|gender=m)))	(mention_id=21086|references=(entity=(entity_id=10|fullname=Herr Staunton|gender=m)))
+180305	,	0		
+180306	der	0	(mention_id=21410|references=(entity=(entity_id=entity_0075|fullname=Herr Staunton|gender=m)))	(mention_id=21087|references=(entity=(entity_id=10|fullname=Herr Staunton|gender=m)))
+180307	zwischen	0		
+180308	Thür	0		
+180309	und	0		
+180310	Angel	0		
+180311	ihn	0	(mention_id=21411|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=21088|references=(entity=(entity_id=29|fullname=Theodor|gender=m)))
+180312	empfing	0		
+180313	,	0		
+180314	kündigte	0		
+180315	ihm	0	(mention_id=21412|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=21089|references=(entity=(entity_id=29|fullname=Theodor|gender=m)))
+180316	an	0		
+180317	,	0		
+180318	Sie	0	(mention_id=21413|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=21090|references=(entity=(entity_id=29|fullname=Theodor|gender=m)))
+180319	wären	0		
+180320	so	0		
+180321	eben	0		
+180322	abgereist	0		
+180323	.	0		
+180324	Das	0		
+180325	sind	0		
+180326	aber	0		
+180327	auch	0		
+180328	Entfernungen	0		
+180329	!	0		
+180330	rief	0		
+180331	Theodor	0	(mention_id=21414|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=21091|references=(entity=(entity_id=29|fullname=Theodor|gender=m)))
+180332	erhitzt	0		
+180333	und	0		
+180334	bestürzt	0		
+180335	,	0		
+180336	wie	0		
+180337	flog	0		
+180338	ich	0	(mention_id=21415|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=21092|references=(entity=(entity_id=29|fullname=Theodor|gender=m)))
+180339	zurück	0		
+180340	von	0		
+180341	der	0		
+180342	Croton'schen	0		
+180343	Wasserleitung	0		
+180344	!	0		
+180345	Und	0		
+180346	stehenden	0		
+180347	Fußes	0		
+180348	wandte	0		
+180349	er	0	(mention_id=21416|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=21093|references=(entity=(entity_id=29|fullname=Theodor|gender=m)))
+180350	sich	0	(mention_id=21417|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=21094|references=(entity=(entity_id=29|fullname=Theodor|gender=m)))
+180351	,	0		
+180352	um	0		
+180353	Sie	0	(mention_id=21418|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=21095|references=(entity=(entity_id=29|fullname=Theodor|gender=m)))
+180354	noch	0		
+180355	einzuholen	0		
+180356	.	0		
+180357	Herr	0	(mention_id=21419|references=(entity=(entity_id=entity_0075|fullname=Herr Staunton|gender=m)))	(mention_id=21096|references=(entity=(entity_id=10|fullname=Herr Staunton|gender=m)))
+180358	Staunton	0	(mention_id=21419|references=(entity=(entity_id=entity_0075|fullname=Herr Staunton|gender=m)))	(mention_id=21096|references=(entity=(entity_id=10|fullname=Herr Staunton|gender=m)))
+180359	hielt	0		
+180360	ihn	0	(mention_id=21420|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=21097|references=(entity=(entity_id=29|fullname=Theodor|gender=m)))
+180361	auf	0		
+180362	:	0		
+180363	Wie	0		
+180364	,	0		
+180365	mein	0	(mention_id=21421|references=(entity=(entity_id=entity_0075|fullname=Herr Staunton|gender=m)))	(mention_id=21098|references=(entity=(entity_id=10|fullname=Herr Staunton|gender=m)))
+180366	Herr	0	(mention_id=21422|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=21099|references=(entity=(entity_id=10|fullname=Herr Staunton|gender=m)))
+180367	,	0		
+180368	Sie	0	(mention_id=21423|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=21100|references=(entity=(entity_id=29|fullname=Theodor|gender=m)))
+180369	haben	0		
+180370	unsern	0		(mention_id=21101|references=(entity=(entity_id=10|fullname=Herr Staunton|gender=m)))
+180371	Croton-Aquadukt	0		
+180372	gesehen	0		
+180373	?	0		
+180374	Sie	0	(mention_id=21424|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=21102|references=(entity=(entity_id=29|fullname=Theodor|gender=m)))
+180375	staunen	0		
+180376	,	0		
+180377	wie	0		
+180378	?	0		
+180379	ein	0		
+180380	echt	0		
+180381	römisches	0		
+180382	Bauwerk	0		
+180383	,	0		
+180384	wie	0		
+180385	?	0		
+180386	—	0		
+180387	Verdammt	0		
+180388	römisch	0		
+180389	!	0		
+180390	rief	0		
+180391	Theodor	0	(mention_id=21425|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=21103|references=(entity=(entity_id=29|fullname=Theodor|gender=m)))
+180392	unwillig	0		
+180393	über	0		
+180394	die	0		
+180395	zudringliche	0		
+180396	Eitelkeit	0		
+180397	,	0		
+180398	—	0		
+180399	ich	0	(mention_id=21426|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=21104|references=(entity=(entity_id=29|fullname=Theodor|gender=m)))
+180400	glaube	0		
+180401	in	0		
+180402	der	0		
+180403	That	0		
+180404	,	0		
+180405	die	0		
+180406	Amerikaner	0	(mention_id=21427|references=(entity=(entity_id=generic_5771|fullname=generic_2116|gender=u|specialcase_entity=generic)))	
+180407	kennen	0		
+180408	so	0		
+180409	wenig	0		
+180410	als	0		
+180411	die	0		
+180412	alten	0		
+180413	Römer	0	(mention_id=21428|references=(entity=(entity_id=generic_5772|fullname=generic_2117|gender=u|specialcase_entity=generic)))	(mention_id=21105|references=(entity=(entity_id=generic_0009|fullname=Römer im Allgemeinen|gender=u|specialcase_entity=generic)))
+180414	das	0		
+180415	hydrostatische	0		
+180416	Gesetz	0		
+180417	,	0		
+180418	nach	0		
+180419	welchem	0		
+180420	das	0		
+180421	Wasser	0		
+180422	in	0		
+180423	Röhren	0		
+180424	,	0		
+180425	die	0		
+180426	untereinander	0		
+180427	verbunden	0		
+180428	sind	0		
+180429	,	0		
+180430	überall	0		
+180431	auf	0		
+180432	denselben	0		
+180433	Höhepunkt	0		
+180434	steigt	0		
+180435	.	0		
+180436	Kolossale	0		
+180437	Verschwendung	0		
+180438	dieser	0		
+180439	Aquaduct	0		
+180440	!	0		
+180441	in	0		
+180442	Europa	0		
+180443	richten	0		
+180444	wir's	0	(mention_id=21429|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)),(entity=(entity_id=generic_5773|fullname=generic_2118|gender=u|specialcase_entity=generic)))	(mention_id=21106|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)),(entity=(entity_id=20|fullname=Moorfeld|gender=m)))
+180445	wohlfeiler	0		
+180446	.	0		
+180447	Herr	0	(mention_id=21430|references=(entity=(entity_id=entity_0075|fullname=Herr Staunton|gender=m)))	(mention_id=21107|references=(entity=(entity_id=10|fullname=Herr Staunton|gender=m)))
+180448	Staunton	0	(mention_id=21430|references=(entity=(entity_id=entity_0075|fullname=Herr Staunton|gender=m)))	(mention_id=21107|references=(entity=(entity_id=10|fullname=Herr Staunton|gender=m)))
+180449	horchte	0		
+180450	mit	0		
+180451	offenem	0		
+180452	Munde	0		
+180453	.	0		
+180454	Sie	0	(mention_id=21431|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=21108|references=(entity=(entity_id=10|fullname=Herr Staunton|gender=m)))
+180455	sind	0		
+180456	Ingenieur	0	(mention_id=21432|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=21109|references=(entity=(entity_id=29|fullname=Theodor|gender=m)))
+180457	?	0		
+180458	war	0		
+180459	der	0		
+180460	halb	0		
+180461	geistesabwesende	0		
+180462	Ausdruck	0		
+180463	seiner	0	(mention_id=21433|references=(entity=(entity_id=entity_0075|fullname=Herr Staunton|gender=m)))	(mention_id=21110|references=(entity=(entity_id=10|fullname=Herr Staunton|gender=m)))
+180464	Ueberraschung	0		
+180465	.	0		
+180466	—	0		
+180467	Ingenieur	0	(mention_id=21434|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=21111|references=(entity=(entity_id=29|fullname=Theodor|gender=m)))
+180468	,	0		
+180469	Physiker	0	(mention_id=21435|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=21112|references=(entity=(entity_id=29|fullname=Theodor|gender=m)))
+180470	,	0		
+180471	Chemiker	0	(mention_id=21436|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=21113|references=(entity=(entity_id=29|fullname=Theodor|gender=m)))
+180472	,	0		
+180473	Techniker	0	(mention_id=21437|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=21114|references=(entity=(entity_id=29|fullname=Theodor|gender=m)))
+180474	,	0		
+180475	was	0		
+180476	Sie	0	(mention_id=21438|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=21115|references=(entity=(entity_id=29|fullname=Theodor|gender=m)))
+180477	wollen	0		
+180478	!	0		
+180479	—	0		
+180480	Wie	0		
+180481	hoch	0		
+180482	taxiren	0		
+180483	Sie	0	(mention_id=21439|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=21116|references=(entity=(entity_id=10|fullname=Herr Staunton|gender=m)))
+180484	ein	0		
+180485	Jahresengagement	0		
+180486	in	0		
+180487	all	0		
+180488	diesen	0		
+180489	Branchen	0		
+180490	?	0		
+180491	—	0		
+180492	Sechstausend	0		
+180493	Dollars	0		
+180494	!	0		
+180495	warf	0		
+180496	Theodor	0	(mention_id=21440|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=21117|references=(entity=(entity_id=29|fullname=Theodor|gender=m)))
+180497	hin	0		
+180498	,	0		
+180499	um	0		
+180500	den	0		
+180501	Lästigen	0	(mention_id=21441|references=(entity=(entity_id=entity_0075|fullname=Herr Staunton|gender=m)))	(mention_id=21118|references=(entity=(entity_id=10|fullname=Herr Staunton|gender=m)))
+180502	zu	0		
+180503	brüskiren	0		
+180504	.	0		
+180505	Aber	0		
+180506	Herr	0	(mention_id=21442|references=(entity=(entity_id=entity_0075|fullname=Herr Staunton|gender=m)))	(mention_id=21119|references=(entity=(entity_id=10|fullname=Herr Staunton|gender=m)))
+180507	Staunton	0	(mention_id=21442|references=(entity=(entity_id=entity_0075|fullname=Herr Staunton|gender=m)))	(mention_id=21119|references=(entity=(entity_id=10|fullname=Herr Staunton|gender=m)))
+180508	fuhr	0		
+180509	mit	0		
+180510	beiden	0		
+180511	Händen	0		
+180512	nach	0		
+180513	den	0		
+180514	seinigen	0	(mention_id=21443|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=21120|references=(entity=(entity_id=10|fullname=Herr Staunton|gender=m)))
+180515	und	0		
+180516	rief	0		
+180517	:	0		
+180518	Topp	0		
+180519	,	0		
+180520	Sie	0	(mention_id=21444|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=21121|references=(entity=(entity_id=29|fullname=Theodor|gender=m)))
+180521	sind	0		
+180522	mein	0	(mention_id=21445|references=(entity=(entity_id=entity_0075|fullname=Herr Staunton|gender=m)))	(mention_id=21122|references=(entity=(entity_id=10|fullname=Herr Staunton|gender=m)))
+180523	Mann	0	(mention_id=21446|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=21123|references=(entity=(entity_id=29|fullname=Theodor|gender=m)))
+180524	!	0		
+180525	Hätten	0		
+180526	Sie	0	(mention_id=21447|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=21124|references=(entity=(entity_id=29|fullname=Theodor|gender=m)))
+180527	zweitausend	0		
+180528	gesagt	0		
+180529	,	0		
+180530	—	0		
+180531	adieu	0		
+180532	!	0		
+180533	So	0		
+180534	viel	0		
+180535	Selbstvertrauen	0		
+180536	erwirbt	0		
+180537	Beachtung	0		
+180538	.	0		
+180539	Kommen	0		
+180540	Sie	0	(mention_id=21448|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=21125|references=(entity=(entity_id=29|fullname=Theodor|gender=m)))
+180541	in	0		
+180542	mein	0	(mention_id=21449|references=(entity=(entity_id=entity_0075|fullname=Herr Staunton|gender=m)))	(mention_id=21126|references=(entity=(entity_id=10|fullname=Herr Staunton|gender=m)))
+180543	Parlour	0		
+180544	.	0		
+180545	—	0		
+180546	Das	0		
+180547	Alles	0		
+180548	war	0		
+180549	das	0		
+180550	Werk	0		
+180551	einer	0		
+180552	Secunde	0		
+180553	.	0		
+180554	Theodor	0	(mention_id=21450|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=21127|references=(entity=(entity_id=29|fullname=Theodor|gender=m)))
+180555	folgte	0		
+180556	wie	0		
+180557	im	0		
+180558	Traume	0		
+180559	.	0		
+180560	Herr	0	(mention_id=21451|references=(entity=(entity_id=entity_0075|fullname=Herr Staunton|gender=m)))	(mention_id=21128|references=(entity=(entity_id=10|fullname=Herr Staunton|gender=m)))
+180561	Staunton	0	(mention_id=21451|references=(entity=(entity_id=entity_0075|fullname=Herr Staunton|gender=m)))	(mention_id=21128|references=(entity=(entity_id=10|fullname=Herr Staunton|gender=m)))
+180562	hieß	0		
+180563	ihn	0	(mention_id=21452|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=21129|references=(entity=(entity_id=29|fullname=Theodor|gender=m)))
+180564	auf	0		
+180565	ein	0		
+180566	feuerflammendes	0		
+180567	Kanapee	0		
+180568	niedersetzen	0		
+180569	,	0		
+180570	indeß	0		
+180571	er	0	(mention_id=21453|references=(entity=(entity_id=entity_0075|fullname=Herr Staunton|gender=m)))	(mention_id=21130|references=(entity=(entity_id=10|fullname=Herr Staunton|gender=m)))
+180572	selbst	0		
+180573	mit	0		
+180574	großen	0		
+180575	Schritten	0		
+180576	das	0		
+180577	Zimmer	0		
+180578	durchmaß	0		
+180579	.	0		
+180580	Er	0	(mention_id=21454|references=(entity=(entity_id=entity_0075|fullname=Herr Staunton|gender=m)))	(mention_id=21131|references=(entity=(entity_id=10|fullname=Herr Staunton|gender=m)))
+180581	fing	0		
+180582	eine	0		
+180583	weitausholende	0		
+180584	pathetische	0		
+180585	Rede	0		
+180586	von	0		
+180587	der	0		
+180588	Größe	0		
+180589	und	0		
+180590	Herrlichkeit	0		
+180591	seines	0	(mention_id=21455|references=(entity=(entity_id=entity_0075|fullname=Herr Staunton|gender=m)))	(mention_id=21132|references=(entity=(entity_id=10|fullname=Herr Staunton|gender=m)))
+180592	Vaterlandes	0		
+180593	an	0		
+180594	.	0		
+180595	Er	0	(mention_id=21456|references=(entity=(entity_id=entity_0075|fullname=Herr Staunton|gender=m)))	(mention_id=21133|references=(entity=(entity_id=10|fullname=Herr Staunton|gender=m)))
+180596	schien	0		
+180597	es	0		
+180598	darauf	0		
+180599	abzusehen	0		
+180600	,	0		
+180601	den	0		
+180602	jungen	0		
+180603	Mann	0	(mention_id=21457|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=21134|references=(entity=(entity_id=29|fullname=Theodor|gender=m)))
+180604	zu	0		
+180605	betäuben	0		
+180606	,	0		
+180607	zu	0		
+180608	berauschen	0		
+180609	.	0		
+180610	Er	0	(mention_id=21458|references=(entity=(entity_id=entity_0075|fullname=Herr Staunton|gender=m)))	(mention_id=21135|references=(entity=(entity_id=10|fullname=Herr Staunton|gender=m)))
+180611	streckte	0		
+180612	sich	0	(mention_id=21459|references=(entity=(entity_id=entity_0075|fullname=Herr Staunton|gender=m)))	(mention_id=21136|references=(entity=(entity_id=10|fullname=Herr Staunton|gender=m)))
+180613	zu	0		
+180614	einer	0		
+180615	Art	0		
+180616	höherem	0		
+180617	Wesen	0	(mention_id=21460|references=(entity=(entity_id=entity_0075|fullname=Herr Staunton|gender=m)))	
+180618	vor	0		
+180619	ihm	0	(mention_id=21461|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=21137|references=(entity=(entity_id=29|fullname=Theodor|gender=m)))
+180620	aus	0		
+180621	.	0		
+180622	Er	0	(mention_id=21462|references=(entity=(entity_id=entity_0075|fullname=Herr Staunton|gender=m)))	(mention_id=21138|references=(entity=(entity_id=10|fullname=Herr Staunton|gender=m)))
+180623	pries	0		
+180624	ihn	0	(mention_id=21463|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=21139|references=(entity=(entity_id=29|fullname=Theodor|gender=m)))
+180625	glücklich	0		
+180626	,	0		
+180627	daß	0		
+180628	die	0		
+180629	Erde	0		
+180630	Newyork's	0		
+180631	ihn	0	(mention_id=21464|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=21140|references=(entity=(entity_id=29|fullname=Theodor|gender=m)))
+180632	trage	0		
+180633	.	0		
+180634	Der	0		
+180635	Winkel	0		
+180636	am	0		
+180637	Hudson	0		
+180638	und	0		
+180639	an	0		
+180640	der	0		
+180641	Manhattanbai	0		
+180642	sei	0		
+180643	auf	0		
+180644	dem	0		
+180645	ganzen	0		
+180646	Globus	0		
+180647	der	0		
+180648	auserwählteste	0		
+180649	Sitz	0		
+180650	für	0		
+180651	Menschencultur	0		
+180652	.	0		
+180653	Wer	0	(mention_id=21465|references=(entity=(entity_id=generic_5774|fullname=generic_2119|gender=u|specialcase_entity=generic)))	(mention_id=21141|references=(entity=(entity_id=generic_0010|fullname=ein Mensch im Allgemeinen|gender=u|specialcase_entity=generic)))
+180654	es	0		
+180655	hier	0		
+180656	zu	0		
+180657	nichts	0		
+180658	bringe	0		
+180659	,	0		
+180660	der	0	(mention_id=21466|references=(entity=(entity_id=generic_5775|fullname=generic_2120|gender=u|specialcase_entity=generic)))	(mention_id=21142|references=(entity=(entity_id=generic_0011|fullname=ein Mensch im Allgemeinen|gender=u|specialcase_entity=generic)))
+180661	lästere	0		
+180662	den	0		
+180663	sechsten	0		
+180664	Schöpfungstag	0		
+180665	,	0		
+180666	er	0	(mention_id=21467|references=(entity=(entity_id=generic_5776|fullname=generic_2121|gender=u|specialcase_entity=generic)))	(mention_id=21143|references=(entity=(entity_id=generic_0012|fullname=ein Mensch im Allgemeinen|gender=u|specialcase_entity=generic)))
+180667	steige	0		
+180668	von	0		
+180669	der	0		
+180670	Höhe	0		
+180671	seiner	0	(mention_id=21468|references=(entity=(entity_id=generic_5777|fullname=generic_2122|gender=u|specialcase_entity=generic)))	(mention_id=21144|references=(entity=(entity_id=generic_0013|fullname=ein Mensch im Allgemeinen|gender=u|specialcase_entity=generic)))
+180672	Gattung	0		
+180673	herab	0		
+180674	zum	0		
+180675	Thiere	0		
+180676	und	0		
+180677	zur	0		
+180678	Pflanze	0		
+180679	.	0		
+180680	Fassen	0		
+180681	Sie	0	(mention_id=21469|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=21145|references=(entity=(entity_id=10|fullname=Herr Staunton|gender=m)))
+180682	diesen	0		
+180683	gottbegnadeten	0		
+180684	Punkt	0		
+180685	unsers	0	(mention_id=21470|references=(entity=(entity_id=entity_0075|fullname=Herr Staunton|gender=m)),(entity=(entity_id=generic_5778|fullname=generic_2123|gender=u|specialcase_entity=generic)))	(mention_id=21146|references=(entity=(entity_id=10|fullname=Herr Staunton|gender=m)))
+180686	Planeten	0		
+180687	näher	0		
+180688	ins	0		
+180689	Auge	0		
+180690	!	0		
+180691	rief	0		
+180692	er	0	(mention_id=21471|references=(entity=(entity_id=entity_0075|fullname=Herr Staunton|gender=m)))	(mention_id=21147|references=(entity=(entity_id=10|fullname=Herr Staunton|gender=m)))
+180693	mit	0		
+180694	ausgestreckten	0		
+180695	Händen	0		
+180696	.	0		
+180697	Denken	0		
+180698	Sie	0	(mention_id=21472|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=21148|references=(entity=(entity_id=10|fullname=Herr Staunton|gender=m)))
+180699	sich	0		(mention_id=21149|references=(entity=(entity_id=10|fullname=Herr Staunton|gender=m)))
+180700	z.	0		
+180701	B.	0		
+180702	:	0		
+180703	Afrika	0		
+180704	sei	0		
+180705	ein	0		
+180706	wohlbevölkertes	0		
+180707	,	0		
+180708	civilisirtes	0		
+180709	Land	0		
+180710	,	0		
+180711	die	0		
+180712	Spanier	0	(mention_id=21473|references=(entity=(entity_id=generic_5779|fullname=generic_2124|gender=u|specialcase_entity=generic)))	(mention_id=21150|references=(entity=(entity_id=generic_0014|fullname=Spanier im Allgemeinen|gender=u|specialcase_entity=generic)))
+180713	seien	0		
+180714	ein	0		
+180715	thätiges	0		
+180716	,	0		
+180717	aufgeklärtes	0		
+180718	Volk	0	(mention_id=21474|references=(entity=(entity_id=generic_5780|fullname=generic_2125|gender=u|specialcase_entity=generic)))	(mention_id=21151|references=(entity=(entity_id=generic_0015|fullname=Spanier im Allgemeinen|gender=u|specialcase_entity=generic)))
+180719	,	0		
+180720	mit	0		
+180721	einem	0		
+180722	hohen	0		
+180723	Sinn	0		
+180724	für	0		
+180725	Handelsverkehr	0		
+180726	,	0		
+180727	und	0		
+180728	nehmen	0		
+180729	Sie	0	(mention_id=21475|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=21152|references=(entity=(entity_id=10|fullname=Herr Staunton|gender=m)))
+180730	dann	0		
+180731	an	0		
+180732	,	0		
+180733	daß	0		
+180734	Gibraltar	0		
+180735	nicht	0		
+180736	nur	0		
+180737	der	0		
+180738	vorzüglichste	0		
+180739	,	0		
+180740	bequemste	0		
+180741	und	0		
+180742	gesundeste	0		
+180743	Hafen	0		
+180744	der	0		
+180745	Welt	0		
+180746	,	0		
+180747	sondern	0		
+180748	auch	0		
+180749	durch	0		
+180750	seine	0		
+180751	Lage	0		
+180752	den	0		
+180753	Vorrang	0		
+180754	im	0		
+180755	Handel	0		
+180756	von	0		
+180757	Europa	0		
+180758	zu	0		
+180759	behaupten	0		
+180760	berufen	0		
+180761	sei	0		
+180762	.	0		
+180763	Entfernen	0		
+180764	Sie	0	(mention_id=21476|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=21153|references=(entity=(entity_id=10|fullname=Herr Staunton|gender=m)))
+180765	alle	0		
+180766	bedeutenderen	0		
+180767	Nebenbuhlerinnen	0		
+180768	,	0		
+180769	welche	0		
+180770	durch	0		
+180771	Zufall	0		
+180772	oder	0		
+180773	Betriebsamkeit	0		
+180774	in	0		
+180775	den	0		
+180776	übrigen	0		
+180777	Theilen	0		
+180778	Europa's	0		
+180779	entstanden	0		
+180780	,	0		
+180781	kurz	0		
+180782	geben	0		
+180783	Sie	0	(mention_id=21477|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=21154|references=(entity=(entity_id=10|fullname=Herr Staunton|gender=m)))
+180784	Gibraltar	0		
+180785	unter	0		
+180786	den	0		
+180787	ersten	0		
+180788	Handelsstädten	0		
+180789	unsrer	0	(mention_id=21478|references=(entity=(entity_id=entity_0075|fullname=Herr Staunton|gender=m)),(entity=(entity_id=generic_5781|fullname=generic_2126|gender=u|specialcase_entity=generic)))	
+180790	Halbkugel	0		
+180791	die	0		
+180792	erste	0		
+180793	Stelle	0		
+180794	.	0		
+180795	Denken	0		
+180796	Sie	0	(mention_id=21479|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=21155|references=(entity=(entity_id=10|fullname=Herr Staunton|gender=m)))
+180797	sich	0	(mention_id=21480|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=21156|references=(entity=(entity_id=10|fullname=Herr Staunton|gender=m)))
+180798	hierauf	0		
+180799	das	0		
+180800	mittelländische	0		
+180801	Meer	0		
+180802	mit	0		
+180803	seinen	0		
+180804	Fortsetzungen	0		
+180805	als	0		
+180806	einen	0		
+180807	bloßen	0		
+180808	Strom	0		
+180809	,	0		
+180810	der	0		
+180811	in	0		
+180812	unmittelbarer	0		
+180813	Verbindung	0		
+180814	mit	0		
+180815	großen	0		
+180816	Seen	0		
+180817	steht	0		
+180818	,	0		
+180819	an	0		
+180820	deren	0		
+180821	Ufern	0		
+180822	Menschen	0	(mention_id=21481|references=(entity=(entity_id=generic_5782|fullname=generic_2127|gender=u|specialcase_entity=generic)))	(mention_id=21157|references=(entity=(entity_id=generic_0016|fullname=Menschen im Allgemeinen|gender=u|specialcase_entity=generic)))
+180823	von	0		
+180824	gleicher	0		
+180825	Erziehung	0		
+180826	,	0		
+180827	glei	0		
+180828	chen	0		
+180829	Ansichten	0		
+180830	und	0		
+180831	Bedürfnissen	0		
+180832	wohnen	0		
+180833	,	0		
+180834	welche	0	(mention_id=21482|references=(entity=(entity_id=generic_5783|fullname=generic_2128|gender=u|specialcase_entity=generic)))	(mention_id=21158|references=(entity=(entity_id=generic_0017|fullname=Menschen im Allgemeinen|gender=u|specialcase_entity=generic)))
+180835	dieselbe	0		
+180836	Staatsmarimen	0		
+180837	befolgen	0		
+180838	und	0		
+180839	unter	0		
+180840	denselben	0		
+180841	,	0		
+180842	allgemeinen	0		
+180843	Gesetzen	0		
+180844	stehen	0		
+180845	,	0		
+180846	nennen	0		
+180847	Sie	0	(mention_id=21483|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=21159|references=(entity=(entity_id=10|fullname=Herr Staunton|gender=m)))
+180848	dieses	0		
+180849	Gibraltar	0		(mention_id=21160|references=(entity=(entity_id=23|fullname=Newyork|gender=nb|specialcase_entity=nonfact)))
+180850	endlich	0		
+180851	Newyork	0		
+180852	,	0		
+180853	und	0		
+180854	ich	0	(mention_id=21484|references=(entity=(entity_id=entity_0075|fullname=Herr Staunton|gender=m)))	(mention_id=21161|references=(entity=(entity_id=10|fullname=Herr Staunton|gender=m)))
+180855	überlasse	0		
+180856	es	0		
+180857	Ihrer	0	(mention_id=21485|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=21162|references=(entity=(entity_id=10|fullname=Herr Staunton|gender=m)))
+180858	eigenen	0		
+180859	Einbildungskraft	0		
+180860	,	0		
+180861	was	0		
+180862	für	0		
+180863	ein	0		
+180864	Schauplatz	0		
+180865	menschlicher	0		
+180866	Thätigkeit	0		
+180867	und	0		
+180868	Machtentwicklung	0		
+180869	dieser	0		
+180870	unschätzbare	0		
+180871	Fleck	0		
+180872	Erde	0		
+180873	sein	0		
+180874	kann	0		
+180875	und	0		
+180876	sein	0		
+180877	muß	0		
+180878	.	0		
+180879	Ja	0		
+180880	!	0		
+180881	rief	0		
+180882	er	0	(mention_id=21486|references=(entity=(entity_id=entity_0075|fullname=Herr Staunton|gender=m)))	(mention_id=21163|references=(entity=(entity_id=10|fullname=Herr Staunton|gender=m)))
+180883	aus	0		
+180884	,	0		
+180885	indem	0		
+180886	er	0	(mention_id=21487|references=(entity=(entity_id=entity_0075|fullname=Herr Staunton|gender=m)))	(mention_id=21164|references=(entity=(entity_id=10|fullname=Herr Staunton|gender=m)))
+180887	vor	0		
+180888	einer	0		
+180889	Karte	0		
+180890	Amerika's	0		
+180891	stehen	0		
+180892	blieb	0		
+180893	,	0		
+180894	vor	0		
+180895	diesem	0		
+180896	Bilde	0		
+180897	muß	0		
+180898	jedes	0		
+180899	menschliche	0		
+180900	Knie	0	(mention_id=21488|references=(entity=(entity_id=generic_5784|fullname=generic_2129|gender=u|specialcase_entity=generic)|specialcase_reference=figurative,part))	
+180901	sich	0		
+180902	beugen	0		
+180903	.	0		
+180904	Welch	0		
+180905	ein	0		
+180906	Anblick	0		
+180907	!	0		
+180908	Dieses	0		
+180909	Profil	0		
+180910	,	0		
+180911	diese	0		
+180912	Gliederung	0		
+180913	,	0		
+180914	dieser	0		
+180915	wunderbare	0		
+180916	Zusammenhang	0		
+180917	der	0		
+180918	fähigsten	0		
+180919	Organe	0		
+180920	—	0		
+180921	welch	0		
+180922	ein	0		
+180923	Göttergebilde	0		
+180924	!	0		
+180925	Das	0		
+180926	ist	0		
+180927	ein	0		
+180928	Leib	0		
+180929	,	0		
+180930	wie	0		
+180931	die	0		
+180932	Schöpfung	0		
+180933	des	0		
+180934	Prometheus	0	(mention_id=21489|references=(entity=(entity_id=entity_1175|fullname=Prometheus|gender=m)))	(mention_id=21165|references=(entity=(entity_id=25|fullname=Prometheus|gender=m|specialcase_entity=nonfact)))
+180935	!	0		
+180936	Aber	0		
+180937	nicht	0		
+180938	das	0		
+180939	Feuer	0		
+180940	fehlt	0		
+180941	ihm	0		(mention_id=21166|references=(entity=(entity_id=23|fullname=Newyork|gender=nb|specialcase_entity=nonfact)))
+180942	—	0		
+180943	beim	0		
+180944	Himmel	0		
+180945	,	0		
+180946	das	0		
+180947	haben	0		
+180948	wir	0	(mention_id=21490|references=(entity=(entity_id=entity_0075|fullname=Herr Staunton|gender=m)),(entity=(entity_id=generic_5785|fullname=generic_2130|gender=u|specialcase_entity=generic)))	(mention_id=21167|references=(entity=(entity_id=10|fullname=Herr Staunton|gender=m)))
+180949	selbst	0		
+180950	!	0		
+180951	—	0		
+180952	bloß	0		
+180953	der	0		
+180954	Ausarbeitung	0		
+180955	seines	0		(mention_id=21168|references=(entity=(entity_id=10|fullname=Herr Staunton|gender=m)))
+180956	Geäders	0		
+180957	sind	0		
+180958	wir	0	(mention_id=21491|references=(entity=(entity_id=entity_0075|fullname=Herr Staunton|gender=m)),(entity=(entity_id=generic_5786|fullname=generic_2131|gender=u|specialcase_entity=generic)))	(mention_id=21169|references=(entity=(entity_id=10|fullname=Herr Staunton|gender=m)))
+180959	die	0		
+180960	letzte	0		
+180961	Hand	0		
+180962	schuldig	0		
+180963	.	0		
+180964	Dieser	0		
+180965	Hudson	0		
+180966	,	0		
+180967	dieser	0		
+180968	Mississippi	0		
+180969	,	0		
+180970	dieser	0		
+180971	Ohio	0		
+180972	und	0		
+180973	Missouri	0		
+180974	,	0		
+180975	diese	0		
+180976	Seen	0		
+180977	und	0		
+180978	dieser	0		
+180979	Golf	0		
+180980	—	0		
+180981	er	0	(mention_id=21492|references=(entity=(entity_id=entity_0075|fullname=Herr Staunton|gender=m)))	(mention_id=21170|references=(entity=(entity_id=23|fullname=Newyork|gender=nb|specialcase_entity=nonfact)))
+180982	beschrieb	0		
+180983	mit	0		
+180984	der	0		
+180985	Hand	0		
+180986	schwungvolle	0		
+180987	Linien	0		
+180988	—	0		
+180989	welcher	0		
+180990	Landkörper	0		
+180991	der	0		
+180992	Erde	0		
+180993	hat	0		
+180994	ähnliche	0		
+180995	Venen	0		
+180996	und	0		
+180997	Arterien	0		
+180998	aufzuweisen	0		
+180999	?	0		
+181000	Alles	0		
+181001	ist	0		
+181002	da	0		
+181003	,	0		
+181004	bloß	0		
+181005	in	0		
+181006	den	0		
+181007	Kapillargefäßen	0		
+181008	bleibt	0		
+181009	uns	0	(mention_id=21493|references=(entity=(entity_id=entity_0075|fullname=Herr Staunton|gender=m)),(entity=(entity_id=generic_5787|fullname=generic_2132|gender=u|specialcase_entity=generic)))	(mention_id=21171|references=(entity=(entity_id=10|fullname=Herr Staunton|gender=m)))
+181010	noch	0		
+181011	eine	0		
+181012	letzte	0		
+181013	Feile	0		
+181014	.	0		
+181015	Ein	0		
+181016	paar	0		
+181017	hundert	0		
+181018	Eisenbahnen	0		
+181019	und	0		
+181020	Kanäle	0		
+181021	sind	0		
+181022	wir	0	(mention_id=21494|references=(entity=(entity_id=entity_0075|fullname=Herr Staunton|gender=m)),(entity=(entity_id=generic_5788|fullname=generic_2133|gender=u|specialcase_entity=generic)))	(mention_id=21172|references=(entity=(entity_id=10|fullname=Herr Staunton|gender=m)))
+181023	diesem	0		
+181024	Lande	0		
+181025	schuldig	0		
+181026	!	0		
+181027	Hierauf	0		
+181028	folgte	0		
+181029	eine	0		
+181030	weitere	0		
+181031	Liturgie	0		
+181032	über	0		
+181033	den	0		
+181034	großartigen	0		
+181035	Thätigkeitstrieb	0		
+181036	der	0		
+181037	amerikanischen	0		
+181038	Nation	0		
+181039	,	0		
+181040	über	0		
+181041	die	0		
+181042	staunenswerthen	0		
+181043	Unternehmungen	0		
+181044	,	0		
+181045	die	0		
+181046	auf	0		
+181047	allen	0		
+181048	Punkten	0		
+181049	des	0		
+181050	Landes	0		
+181051	,	0		
+181052	wie	0		
+181053	eben	0		
+181054	so	0		
+181055	viele	0		
+181056	Jupiters	0		
+181057	,	0		
+181058	gerüstete	0		
+181059	Minerven	0		
+181060	erzeugten	0		
+181061	,	0		
+181062	—	0		
+181063	der	0		
+181064	Mann	0	(mention_id=21495|references=(entity=(entity_id=entity_0075|fullname=Herr Staunton|gender=m)))	(mention_id=21173|references=(entity=(entity_id=29|fullname=Theodor|gender=m)))
+181065	verwandelte	0		
+181066	ohne	0		
+181067	Weiters	0		
+181068	sein	0	(mention_id=21496|references=(entity=(entity_id=entity_0075|fullname=Herr Staunton|gender=m)))	(mention_id=21174|references=(entity=(entity_id=29|fullname=Theodor|gender=m)))
+181069	Amerika	0		
+181070	in	0		
+181071	einen	0		
+181072	Olymp	0		
+181073	von	0		
+181074	Göttern	0		
+181075	,	0		
+181076	indem	0		
+181077	er	0	(mention_id=21497|references=(entity=(entity_id=entity_0075|fullname=Herr Staunton|gender=m)))	(mention_id=21175|references=(entity=(entity_id=10|fullname=Herr Staunton|gender=m)))
+181078	dürftige	0		
+181079	Schulerinnerungen	0		
+181080	am	0		
+181081	rechten	0		
+181082	Orte	0		
+181083	mit	0		
+181084	Pomp	0		
+181085	paradiren	0		
+181086	ließ	0		
+181087	.	0		
+181088	Den	0		
+181089	Schluß	0		
+181090	machte	0		
+181091	ein	0		
+181092	Engagement	0		
+181093	für	0		
+181094	eine	0		
+181095	der	0		
+181096	reichsten	0		
+181097	und	0		
+181098	mächtigsten	0		
+181099	Eisenbahncompagnien	0		
+181100	Nordamerika'	0		
+181101	s.	0		
+181102	Den	0		
+181103	gänzlichen	0		
+181104	Schluß	0		
+181105	bildete	0		
+181106	der	0		
+181107	kleine	0		
+181108	Nachsatz	0		
+181109	,	0		
+181110	Herr	0	(mention_id=21498|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=21176|references=(entity=(entity_id=12|fullname=Herrn Benthal|gender=m|specialcase_entity=nonfact)))
+181111	Benthal	0	(mention_id=21498|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=21176|references=(entity=(entity_id=12|fullname=Herrn Benthal|gender=m|specialcase_entity=nonfact)))
+181112	könne	0		
+181113	gelegentlich	0		
+181114	der	0		
+181115	Tracirungen	0		
+181116	wohl	0		
+181117	auch	0		
+181118	in	0		
+181119	montanistischer	0		
+181120	,	0		
+181121	hydrographischer	0		
+181122	,	0		
+181123	chemisch-agrarischer	0		
+181124	,	0		
+181125	überhaupt	0		
+181126	in	0		
+181127	nationalökonomischer	0		
+181128	Beziehung	0		
+181129	die	0		
+181130	Landschaften	0		
+181131	ein	0		
+181132	wenig	0		
+181133	exploriren	0		
+181134	und	0		
+181135	nebenher	0		
+181136	seine	0	(mention_id=21499|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=21177|references=(entity=(entity_id=12|fullname=Herrn Benthal|gender=m|specialcase_entity=nonfact)))
+181137	Berichte	0		
+181138	und	0		
+181139	Zeichnungen	0		
+181140	darüber	0		
+181141	der	0		
+181142	Compagnie	0		
+181143	einsenden	0		
+181144	.	0		
+181145	Auf	0		
+181146	letzteres	0		
+181147	Offert	0		
+181148	antwortete	0		
+181149	Theodor	0	(mention_id=21500|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=21178|references=(entity=(entity_id=29|fullname=Theodor|gender=m)))
+181150	mit	0		
+181151	großer	0		
+181152	Kaltblütigkeit	0		
+181153	:	0		
+181154	Also	0		
+181155	von	0		
+181156	einem	0		
+181157	Doppelgeschäfte	0		
+181158	ist	0		
+181159	hier	0		
+181160	die	0		
+181161	Rede	0		
+181162	!	0		
+181163	Unsre	0	(mention_id=21501|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=21179|references=(entity=(entity_id=29|fullname=Theodor|gender=m)))
+181164	Eisenbahncompagnie	0		
+181165	ist	0		
+181166	zugleich	0		
+181167	eine	0		
+181168	Gesellschaft	0		
+181169	für	0		
+181170	Landhandel	0		
+181171	.	0		
+181172	Eine	0		
+181173	glückliche	0		
+181174	Combination	0		
+181175	,	0		
+181176	die	0		
+181177	einen	0		
+181178	ungeheuren	0		
+181179	Gewinn	0		
+181180	abwerfen	0		
+181181	muß	0		
+181182	!	0		
+181183	Indeß	0		
+181184	modificirt	0		
+181185	das	0		
+181186	unsre	0	(mention_id=21502|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=21180|references=(entity=(entity_id=29|fullname=Theodor|gender=m)))
+181187	Abrede	0		
+181188	ein	0		
+181189	wenig	0		
+181190	,	0		
+181191	Herr	0	(mention_id=21503|references=(entity=(entity_id=entity_0075|fullname=Herr Staunton|gender=m)))	(mention_id=21181|references=(entity=(entity_id=10|fullname=Herr Staunton|gender=m)))
+181192	Staunton	0	(mention_id=21503|references=(entity=(entity_id=entity_0075|fullname=Herr Staunton|gender=m)))	(mention_id=21181|references=(entity=(entity_id=10|fullname=Herr Staunton|gender=m)))
+181193	.	0		
+181194	Soll	0		
+181195	ich	0	(mention_id=21504|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=21182|references=(entity=(entity_id=29|fullname=Theodor|gender=m)))
+181196	die	0		
+181197	Seele	0		
+181198	solch	0		
+181199	eines	0		
+181200	zweilebigen	0		
+181201	Körpers	0		
+181202	sein	0		
+181203	,	0		
+181204	wie	0		
+181205	es	0		
+181206	den	0		
+181207	Schein	0		
+181208	hat	0		
+181209	,	0		
+181210	so	0		
+181211	wären	0		
+181212	sechstausend	0		
+181213	Dollars	0		
+181214	ein	0		
+181215	wahres	0		
+181216	Almosen	0		
+181217	für	0		
+181218	diese	0		
+181219	Stellung	0		
+181220	.	0		
+181221	Ich	0	(mention_id=21505|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=21183|references=(entity=(entity_id=29|fullname=Theodor|gender=m)))
+181222	würde	0		
+181223	in	0		
+181224	diesem	0		
+181225	Falle	0		
+181226	eine	0		
+181227	Tantième	0		
+181228	an	0		
+181229	dem	0		
+181230	Geschäfte	0		
+181231	selbst	0		
+181232	beanspruchen	0		
+181233	.	0		
+181234	Herr	0	(mention_id=21506|references=(entity=(entity_id=entity_0075|fullname=Herr Staunton|gender=m)))	(mention_id=21184|references=(entity=(entity_id=10|fullname=Herr Staunton|gender=m)))
+181235	Staunton	0	(mention_id=21506|references=(entity=(entity_id=entity_0075|fullname=Herr Staunton|gender=m)))	(mention_id=21184|references=(entity=(entity_id=10|fullname=Herr Staunton|gender=m)))
+181236	traute	0		
+181237	seinen	0	(mention_id=21507|references=(entity=(entity_id=entity_0075|fullname=Herr Staunton|gender=m)))	(mention_id=21185|references=(entity=(entity_id=10|fullname=Herr Staunton|gender=m)))
+181238	Ohren	0		
+181239	nicht	0		
+181240	.	0		
+181241	Er	0	(mention_id=21508|references=(entity=(entity_id=entity_0075|fullname=Herr Staunton|gender=m)))	(mention_id=21186|references=(entity=(entity_id=10|fullname=Herr Staunton|gender=m)))
+181242	hatte	0		
+181243	den	0		
+181244	schlichten	0		
+181245	,	0		
+181246	blonden	0		
+181247	Deutschen	0	(mention_id=21509|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=21187|references=(entity=(entity_id=29|fullname=Theodor|gender=m)))
+181248	so	0		
+181249	geschickt	0		
+181250	überrascht	0		
+181251	,	0		
+181252	wie	0		
+181253	er	0	(mention_id=21510|references=(entity=(entity_id=entity_0075|fullname=Herr Staunton|gender=m)))	(mention_id=21188|references=(entity=(entity_id=10|fullname=Herr Staunton|gender=m)))
+181254	meinte	0		
+181255	,	0		
+181256	und	0		
+181257	nun	0		
+181258	mußte	0		
+181259	er	0	(mention_id=21511|references=(entity=(entity_id=entity_0075|fullname=Herr Staunton|gender=m)))	(mention_id=21189|references=(entity=(entity_id=10|fullname=Herr Staunton|gender=m)))
+181260	diese	0		
+181261	Geistesgegenwart	0		
+181262	finden	0		
+181263	!	0		
+181264	Aber	0		
+181265	der	0		
+181266	Eindruck	0		
+181267	war	0		
+181268	ein	0		
+181269	bezaubernder	0		
+181270	.	0		
+181271	Herr	0	(mention_id=21512|references=(entity=(entity_id=entity_0075|fullname=Herr Staunton|gender=m)))	(mention_id=21190|references=(entity=(entity_id=10|fullname=Herr Staunton|gender=m)))
+181272	Staunton	0	(mention_id=21512|references=(entity=(entity_id=entity_0075|fullname=Herr Staunton|gender=m)))	(mention_id=21190|references=(entity=(entity_id=10|fullname=Herr Staunton|gender=m)))
+181273	strahlte	0		
+181274	;	0		
+181275	er	0	(mention_id=21513|references=(entity=(entity_id=entity_0075|fullname=Herr Staunton|gender=m)))	(mention_id=21191|references=(entity=(entity_id=10|fullname=Herr Staunton|gender=m)))
+181276	fiel	0		
+181277	mit	0		
+181278	offenen	0		
+181279	Armen	0		
+181280	über	0		
+181281	Theodor	0	(mention_id=21514|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=21192|references=(entity=(entity_id=29|fullname=Theodor|gender=m)))
+181282	her	0		
+181283	und	0		
+181284	rief	0		
+181285	:	0		
+181286	Sie	0	(mention_id=21515|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=21193|references=(entity=(entity_id=29|fullname=Theodor|gender=m)))
+181287	sind	0		
+181288	ein	0		
+181289	smart	0		
+181290	man	0	(mention_id=21516|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=21194|references=(entity=(entity_id=generic_0021|fullname=ein Amerikaner im Allgemeinen|gender=u|specialcase_entity=generic)))
+181291	!	0		
+181292	Sie	0	(mention_id=21517|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=21195|references=(entity=(entity_id=29|fullname=Theodor|gender=m)))
+181293	sind	0		
+181294	werth	0		
+181295	ein	0		
+181296	Amerikaner	0	(mention_id=21518|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=21196|references=(entity=(entity_id=generic_0022|fullname=Amerikaner im Allgemeinen|gender=u|specialcase_entity=generic)))
+181297	zu	0		
+181298	sein	0		
+181299	!	0		
+181300	Aber	0		
+181301	nun	0		
+181302	genug	0		
+181303	,	0		
+181304	Freundchen	0	(mention_id=21519|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=21197|references=(entity=(entity_id=29|fullname=Theodor|gender=m)))
+181305	!	0		
+181306	Lassen	0		
+181307	Sie's	0	(mention_id=21520|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=21198|references=(entity=(entity_id=29|fullname=Theodor|gender=m)))
+181308	gut	0		
+181309	sein	0		
+181310	.	0		
+181311	Ueberlassen	0		
+181312	Sie	0	(mention_id=21521|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=21199|references=(entity=(entity_id=29|fullname=Theodor|gender=m)))
+181313	sich	0	(mention_id=21522|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=21200|references=(entity=(entity_id=29|fullname=Theodor|gender=m)))
+181314	mir	0	(mention_id=21523|references=(entity=(entity_id=entity_0075|fullname=Herr Staunton|gender=m)))	(mention_id=21201|references=(entity=(entity_id=10|fullname=Herr Staunton|gender=m)))
+181315	und	0		
+181316	Sie	0	(mention_id=21524|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=21202|references=(entity=(entity_id=29|fullname=Theodor|gender=m)))
+181317	sollen	0		
+181318	es	0		
+181319	nicht	0		
+181320	bereuen	0		
+181321	.	0		
+181322	Wir	0	(mention_id=21525|references=(entity=(entity_id=entity_0075|fullname=Herr Staunton|gender=m)),(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=21203|references=(entity=(entity_id=10|fullname=Herr Staunton|gender=m)))
+181323	können	0		
+181324	den	0		
+181325	Baum	0		
+181326	nicht	0		
+181327	auf	0		
+181328	Einen	0		
+181329	Schlag	0		
+181330	fällen	0		
+181331	,	0		
+181332	seien	0		
+181333	Sie	0	(mention_id=21526|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=21204|references=(entity=(entity_id=29|fullname=Theodor|gender=m)))
+181334	indeß	0		
+181335	versichert	0		
+181336	:	0		
+181337	dem	0		
+181338	Genie	0	(mention_id=21527|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	
+181339	bewilligt	0		
+181340	der	0		
+181341	Amerikaner	0	(mention_id=21528|references=(entity=(entity_id=generic_5789|fullname=generic_2134|gender=u|specialcase_entity=generic)))	(mention_id=21205|references=(entity=(entity_id=generic_0023|fullname=Amerikaner im Allgemeinen|gender=u|specialcase_entity=generic)))
+181342	Alles	0		
+181343	,	0		
+181344	Alles	0		
+181345	!	0		
+181346	Sie	0	(mention_id=21529|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=21206|references=(entity=(entity_id=29|fullname=Theodor|gender=m)))
+181347	sollen	0		
+181348	nicht	0		
+181349	zu	0		
+181350	kurz	0		
+181351	kommen	0		
+181352	.	0		
+181353	Das	0		
+181354	,	0		
+181355	fuhr	0		
+181356	Frau	0	(mention_id=21530|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)))	(mention_id=21207|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)))
+181357	v.	0	(mention_id=21530|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)))	(mention_id=21207|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)))
+181358	Milden	0	(mention_id=21530|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)))	(mention_id=21207|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)))
+181359	fort	0		
+181360	,	0		
+181361	war	0		
+181362	der	0		
+181363	Inhalt	0		
+181364	eines	0		
+181365	Ergußes	0		
+181366	,	0		
+181367	womit	0		
+181368	Theodor	0	(mention_id=21531|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=21208|references=(entity=(entity_id=29|fullname=Theodor|gender=m)))
+181369	sprudelnd	0		
+181370	und	0		
+181371	glühend	0		
+181372	am	0		
+181373	selben	0		
+181374	Abend	0		
+181375	uns	0	(mention_id=21532|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)),(entity=(entity_id=entity_0402|fullname=Pauline von Milden|gender=f)))	(mention_id=21209|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)),(entity=(entity_id=20|fullname=Moorfeld|gender=m)))
+181376	überraschte	0		
+181377	.	0		
+181378	Er	0	(mention_id=21533|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=21210|references=(entity=(entity_id=29|fullname=Theodor|gender=m)))
+181379	riß	0		
+181380	unsere	0	(mention_id=21534|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)),(entity=(entity_id=entity_0402|fullname=Pauline von Milden|gender=f)))	(mention_id=21211|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)),(entity=(entity_id=20|fullname=Moorfeld|gender=m)))
+181381	Lebensgeister	0		
+181382	mit	0		
+181383	hin	0		
+181384	,	0		
+181385	wir	0	(mention_id=21535|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)),(entity=(entity_id=entity_0402|fullname=Pauline von Milden|gender=f)))	(mention_id=21212|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)),(entity=(entity_id=20|fullname=Moorfeld|gender=m)))
+181386	vernahmen	0		
+181387	wiederholt	0		
+181388	das	0		
+181389	glückliche	0		
+181390	Ereigniß	0		
+181391	aus	0		
+181392	seinem	0	(mention_id=21536|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=21213|references=(entity=(entity_id=29|fullname=Theodor|gender=m)))
+181393	Munde	0		
+181394	.	0		
+181395	Sie	0	(mention_id=21537|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=21214|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)))
+181396	hören	0		
+181397	,	0		
+181398	ich	0	(mention_id=21538|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)))	(mention_id=21215|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)))
+181399	behielt	0		
+181400	seine	0	(mention_id=21539|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=21216|references=(entity=(entity_id=29|fullname=Theodor|gender=m)))
+181401	Worte	0		
+181402	,	0		
+181403	wie	0		
+181404	ich	0	(mention_id=21540|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)))	(mention_id=21217|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)))
+181405	aus	0		
+181406	dem	0		
+181407	Mädchenpensionat	0		
+181408	noch	0		
+181409	manche	0		
+181410	Memorienaufgabe	0		
+181411	behalten	0		
+181412	.	0		
+181413	Wir	0	(mention_id=21541|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)),(entity=(entity_id=entity_0402|fullname=Pauline von Milden|gender=f)))	(mention_id=21218|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)),(entity=(entity_id=20|fullname=Moorfeld|gender=m)))
+181414	waren	0		
+181415	begeistert	0		
+181416	mit	0		
+181417	ihm	0	(mention_id=21542|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=21219|references=(entity=(entity_id=29|fullname=Theodor|gender=m)))
+181418	.	0		
+181419	Frau	0	(mention_id=21543|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)))	(mention_id=21220|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)))
+181420	v.	0	(mention_id=21543|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)))	(mention_id=21220|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)))
+181421	Milden	0	(mention_id=21543|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)))	(mention_id=21220|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)))
+181422	hielt	0		
+181423	inne	0		
+181424	.	0		
+181425	Sie	0	(mention_id=21544|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)))	(mention_id=21221|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)))
+181426	kämpfte	0		
+181427	einen	0		
+181428	Augenblick	0		
+181429	mit	0		
+181430	dem	0		
+181431	Schmerze	0		
+181432	,	0		
+181433	den	0		
+181434	ihr	0	(mention_id=21545|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)))	(mention_id=21222|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)))
+181435	die	0		
+181436	Natur	0		
+181437	dieser	0		
+181438	Mittheilungen	0		
+181439	aufzuregen	0		
+181440	schien	0		
+181441	,	0		
+181442	bis	0		
+181443	sie	0	(mention_id=21546|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)))	(mention_id=21223|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)))
+181444	mit	0		
+181445	unbewegter	0		
+181446	Stimme	0		
+181447	fortzufahren	0		
+181448	vermochte	0		
+181449	:	0		
+181450	Seit	0		
+181451	jenem	0		
+181452	Abend	0		
+181453	aber	0		
+181454	kam	0		
+181455	Alles	0		
+181456	anders	0		
+181457	.	0		
+181458	Theodor	0	(mention_id=21547|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=21224|references=(entity=(entity_id=29|fullname=Theodor|gender=m)))
+181459	verwandelte	0		
+181460	sich	0	(mention_id=21548|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=21225|references=(entity=(entity_id=29|fullname=Theodor|gender=m)))
+181461	rasch	0		
+181462	,	0		
+181463	im	0		
+181464	Fluge	0		
+181465	.	0		
+181466	Die	0		
+181467	feste	0		
+181468	,	0		
+181469	männliche	0		
+181470	Bescheidenheit	0		
+181471	,	0		
+181472	womit	0		
+181473	er	0	(mention_id=21549|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=21226|references=(entity=(entity_id=29|fullname=Theodor|gender=m)))
+181474	sonst	0		
+181475	unser	0	(mention_id=21550|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)),(entity=(entity_id=entity_0402|fullname=Pauline von Milden|gender=f)))	(mention_id=21227|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)),(entity=(entity_id=20|fullname=Moorfeld|gender=m)))
+181476	Loos	0		
+181477	,	0		
+181478	wie	0		
+181479	eine	0		
+181480	Würde	0		
+181481	,	0		
+181482	ertrug	0		
+181483	,	0		
+181484	machte	0		
+181485	einer	0		
+181486	wilden	0		
+181487	,	0		
+181488	hastigen	0		
+181489	Emotionssucht	0		
+181490	Platz	0		
+181491	.	0		
+181492	Er	0	(mention_id=21551|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=21228|references=(entity=(entity_id=29|fullname=Theodor|gender=m)))
+181493	erlaubte	0		
+181494	sich	0	(mention_id=21552|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=21229|references=(entity=(entity_id=29|fullname=Theodor|gender=m)))
+181495	,	0		
+181496	unsern	0	(mention_id=21553|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)),(entity=(entity_id=entity_0402|fullname=Pauline von Milden|gender=f)))	(mention_id=21230|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)),(entity=(entity_id=20|fullname=Moorfeld|gender=m)))
+181497	einfachen	0		
+181498	Thee	0		
+181499	mit	0		
+181500	allerlei	0		
+181501	Genüssen	0		
+181502	zu	0		
+181503	garniren	0		
+181504	,	0		
+181505	die	0		
+181506	höchstens	0		
+181507	ein	0		
+181508	Kind	0	(mention_id=21554|references=(entity=(entity_id=entity_0004|fullname=Malvine von Milden|gender=f)))	(mention_id=21231|references=(entity=(entity_id=16|fullname=Malwine|gender=f)))
+181509	naschen	0		
+181510	,	0		
+181511	eine	0		
+181512	angehende	0		
+181513	Hausfrau	0	(mention_id=21555|references=(entity=(entity_id=entity_0402|fullname=Pauline von Milden|gender=f)))	(mention_id=21232|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)))
+181514	aber	0		
+181515	nicht	0		
+181516	wirthschaften	0		
+181517	lehrten	0		
+181518	.	0		
+181519	Daneben	0		
+181520	fing	0		
+181521	er	0	(mention_id=21556|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=21233|references=(entity=(entity_id=29|fullname=Theodor|gender=m)))
+181522	an	0		
+181523	,	0		
+181524	einzelne	0		
+181525	Abende	0		
+181526	ausfallen	0		
+181527	zu	0		
+181528	lassen	0		
+181529	,	0		
+181530	—	0		
+181531	seine	0	(mention_id=21557|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=21234|references=(entity=(entity_id=29|fullname=Theodor|gender=m)))
+181532	neue	0		
+181533	Clubbverbindungen	0		
+181534	mit	0		
+181535	den	0		
+181536	Männern	0	(mention_id=21558|references=(entity=(entity_id=entity_1174|fullname=Männer des Commerce|gender=m)))	(mention_id=21235|references=(entity=(entity_id=generic_0006|fullname=Männer im Allgemeinen|gender=u|specialcase_entity=generic)))
+181537	des	0		
+181538	Commerce	0		
+181539	und	0		
+181540	der	0		
+181541	Industrie	0		
+181542	zögen	0		
+181543	ihn	0	(mention_id=21559|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=21236|references=(entity=(entity_id=29|fullname=Theodor|gender=m)))
+181544	nach	0		
+181545	außen	0		
+181546	.	0		
+181547	Wir	0	(mention_id=21560|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)),(entity=(entity_id=entity_0402|fullname=Pauline von Milden|gender=f)))	(mention_id=21237|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)),(entity=(entity_id=20|fullname=Moorfeld|gender=m)))
+181548	glaubten	0		
+181549	es	0		
+181550	gerne	0		
+181551	.	0		
+181552	Erschien	0		
+181553	er	0	(mention_id=21561|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=21238|references=(entity=(entity_id=29|fullname=Theodor|gender=m)))
+181554	dann	0		
+181555	,	0		
+181556	so	0		
+181557	trat	0		
+181558	er	0	(mention_id=21562|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=21239|references=(entity=(entity_id=29|fullname=Theodor|gender=m)))
+181559	ein	0		
+181560	wie	0		
+181561	ein	0		
+181562	Gott	0	(mention_id=21563|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=21240|references=(entity=(entity_id=29|fullname=Theodor|gender=m)))
+181563	,	0		
+181564	kramte	0		
+181565	glänzende	0		
+181566	Geschenke	0		
+181567	aus	0		
+181568	,	0		
+181569	und	0		
+181570	wurde	0		
+181571	empfindlich	0		
+181572	,	0		
+181573	selbst	0		
+181574	verletzend	0		
+181575	,	0		
+181576	wenn	0		
+181577	sie	0		
+181578	ihm	0	(mention_id=21564|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=21241|references=(entity=(entity_id=29|fullname=Theodor|gender=m)))
+181579	nur	0		
+181580	die	0		
+181581	Bewunderung	0		
+181582	meiner	0	(mention_id=21565|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)))	(mention_id=21242|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)))
+181583	Kleinen	0	(mention_id=21566|references=(entity=(entity_id=entity_0004|fullname=Malvine von Milden|gender=f)))	(mention_id=21243|references=(entity=(entity_id=16|fullname=Malwine|gender=f)))
+181584	,	0		
+181585	von	0		
+181586	Paulinen	0	(mention_id=21567|references=(entity=(entity_id=entity_0402|fullname=Pauline von Milden|gender=f)))	(mention_id=21244|references=(entity=(entity_id=24|fullname=Pauline|gender=f)))
+181587	aber	0		
+181588	ein	0		
+181589	tiefsinniges	0		
+181590	Kopfschütteln	0		
+181591	,	0		
+181592	von	0		
+181593	mir	0	(mention_id=21568|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)))	(mention_id=21245|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)))
+181594	eine	0		
+181595	mütterliche	0		
+181596	Ermahnung	0		
+181597	eintrugen	0		
+181598	.	0		
+181599	Allmählig	0		
+181600	fing	0		
+181601	er	0	(mention_id=21569|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=21246|references=(entity=(entity_id=29|fullname=Theodor|gender=m)))
+181602	auch	0		
+181603	an	0		
+181604	,	0		
+181605	sein	0	(mention_id=21570|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=21247|references=(entity=(entity_id=29|fullname=Theodor|gender=m)))
+181606	Aeußeres	0		
+181607	umzuformen	0		
+181608	.	0		
+181609	Erst	0		
+181610	verschwand	0		
+181611	sein	0	(mention_id=21571|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=21248|references=(entity=(entity_id=29|fullname=Theodor|gender=m)))
+181612	schöner	0		
+181613	,	0		
+181614	blonder	0		
+181615	Vollbart	0		
+181616	,	0		
+181617	dann	0		
+181618	kamen	0		
+181619	Vatermörder	0		(mention_id=21249|references=(entity=(entity_id=29|fullname=Theodor|gender=m)))
+181620	,	0		
+181621	dann	0		
+181622	dieses	0		
+181623	und	0		
+181624	jenes	0		
+181625	,	0		
+181626	nach	0		
+181627	und	0		
+181628	nach	0		
+181629	die	0		
+181630	ganze	0		
+181631	Transcription	0		
+181632	in	0		
+181633	den	0		
+181634	steifen	0		
+181635	,	0		
+181636	unkleidsamen	0		
+181637	Comptoir-	0	(mention_id=21572|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)),(entity=(entity_id=generic_5790|fullname=generic_2135|gender=u|specialcase_entity=generic)))	(mention_id=21250|references=(entity=(entity_id=generic_0024|fullname=Comptoir und Börsenmenschen|gender=u|specialcase_entity=generic)))
+181638	und	0		
+181639	Börsenmenschen	0	(mention_id=21573|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)),(entity=(entity_id=generic_5791|fullname=generic_2136|gender=u|specialcase_entity=generic)))	(mention_id=21251|references=(entity=(entity_id=generic_0025|fullname=Comptoir und Börsenmenschen|gender=u|specialcase_entity=generic)))
+181640	.	0		
+181641	Als	0		
+181642	Pauline	0	(mention_id=21574|references=(entity=(entity_id=entity_0402|fullname=Pauline von Milden|gender=f)))	(mention_id=21252|references=(entity=(entity_id=24|fullname=Pauline|gender=f)))
+181643	ihr	0	(mention_id=21575|references=(entity=(entity_id=entity_0402|fullname=Pauline von Milden|gender=f)))	(mention_id=21253|references=(entity=(entity_id=24|fullname=Pauline|gender=f)))
+181644	Leidwesen	0		
+181645	um	0		
+181646	die	0		
+181647	liebe	0		
+181648	,	0		
+181649	vaterländische	0		
+181650	Tracht	0		
+181651	bezeigte	0		
+181652	,	0		
+181653	antwortete	0		
+181654	Theodor	0	(mention_id=21576|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=21254|references=(entity=(entity_id=29|fullname=Theodor|gender=m)))
+181655	:	0		
+181656	sie	0	(mention_id=21577|references=(entity=(entity_id=entity_0402|fullname=Pauline von Milden|gender=f)))	(mention_id=21255|references=(entity=(entity_id=24|fullname=Pauline|gender=f)))
+181657	scheine	0		
+181658	auch	0		
+181659	nur	0		
+181660	zum	0		
+181661	„	0		
+181662	Leidwesen	0		
+181663	“	0		
+181664	geschaffen	0		
+181665	,	0		
+181666	seine	0	(mention_id=21578|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=21256|references=(entity=(entity_id=29|fullname=Theodor|gender=m)))
+181667	Freuden	0		
+181668	theile	0		
+181669	sie	0	(mention_id=21579|references=(entity=(entity_id=entity_0402|fullname=Pauline von Milden|gender=f)))	(mention_id=21257|references=(entity=(entity_id=24|fullname=Pauline|gender=f)))
+181670	wenig	0		
+181671	.	0		
+181672	Uebrigens	0		
+181673	standen	0		
+181674	diese	0		
+181675	Freuden	0		
+181676	selbst	0		
+181677	noch	0		
+181678	hinter	0		
+181679	manchem	0		
+181680	Meilenstein	0		
+181681	.	0		
+181682	Wovon	0		
+181683	Theodor	0	(mention_id=21580|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=21258|references=(entity=(entity_id=29|fullname=Theodor|gender=m)))
+181684	depensirte	0		
+181685	,	0		
+181686	das	0		
+181687	scheint	0		
+181688	nur	0		
+181689	ein	0		
+181690	glänzendes	0		
+181691	,	0		
+181692	oder	0		
+181693	vielmehr	0		
+181694	lockendes	0		
+181695	Handgeld	0		
+181696	gewesen	0		
+181697	zu	0		
+181698	sein	0		
+181699	.	0		
+181700	Der	0		
+181701	Abschluß	0		
+181702	des	0		
+181703	eigentlichen	0		
+181704	Engagements	0		
+181705	ließ	0		
+181706	auf	0		
+181707	sich	0		
+181708	warten	0		
+181709	.	0		
+181710	Es	0		
+181711	ist	0		
+181712	das	0		
+181713	ein	0		
+181714	dunkler	0		
+181715	,	0		
+181716	labyrinthischer	0		
+181717	Handel	0		
+181718	,	0		
+181719	den	0		
+181720	eine	0		
+181721	Frau	0	(mention_id=21581|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)),(entity=(entity_id=generic_5792|fullname=generic_2137|gender=u|specialcase_entity=generic)))	(mention_id=21259|references=(entity=(entity_id=generic_0026|fullname=Frau im Allgemeinen|gender=u|specialcase_entity=generic)))
+181722	schwer	0		
+181723	durchdringt	0		
+181724	,	0		
+181725	wohl	0		
+181726	auch	0		
+181727	nicht	0		
+181728	durchdringen	0		
+181729	will	0		
+181730	.	0		
+181731	Ich	0	(mention_id=21582|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)))	(mention_id=21260|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)))
+181732	habe	0		
+181733	mich	0	(mention_id=21583|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)))	(mention_id=21261|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)))
+181734	nie	0		
+181735	in	0		
+181736	die	0		
+181737	Karten	0		
+181738	gemischt	0		
+181739	.	0		
+181740	Wenn	0		
+181741	es	0		
+181742	indeß	0		
+181743	erlaubt	0		
+181744	ist	0		
+181745	,	0		
+181746	aus	0		
+181747	Gerüchten	0		
+181748	,	0		
+181749	Winken	0		
+181750	,	0		
+181751	Andeutungen	0		
+181752	und	0		
+181753	dergleichen	0		
+181754	Halbheiten	0		
+181755	ein	0		
+181756	Urtheil	0		
+181757	zu	0		
+181758	bilden	0		
+181759	,	0		
+181760	so	0		
+181761	dürfte	0		
+181762	auf	0		
+181763	Herrn	0	(mention_id=21584|references=(entity=(entity_id=entity_0075|fullname=Herr Staunton|gender=m)))	(mention_id=21262|references=(entity=(entity_id=10|fullname=Herr Staunton|gender=m)))
+181764	Staunton's	0	(mention_id=21584|references=(entity=(entity_id=entity_0075|fullname=Herr Staunton|gender=m)))	(mention_id=21262|references=(entity=(entity_id=10|fullname=Herr Staunton|gender=m)))
+181765	Charakter	0		
+181766	und	0		
+181767	bürgerliche	0		
+181768	Stellung	0		
+181769	ein	0		
+181770	Schein	0		
+181771	von	0		
+181772	Zweideutigkeit	0		
+181773	fallen	0		
+181774	.	0		
+181775	Dieser	0		
+181776	Herr	0	(mention_id=21585|references=(entity=(entity_id=entity_0075|fullname=Herr Staunton|gender=m)))	(mention_id=21263|references=(entity=(entity_id=10|fullname=Herr Staunton|gender=m)))
+181777	,	0		
+181778	wie	0		
+181779	man	0		
+181780	sagen	0		
+181781	will	0		
+181782	,	0		
+181783	hat	0		
+181784	sich	0	(mention_id=21586|references=(entity=(entity_id=entity_0075|fullname=Herr Staunton|gender=m)))	(mention_id=21264|references=(entity=(entity_id=10|fullname=Herr Staunton|gender=m)))
+181785	von	0		
+181786	verschiedenen	0		
+181787	Geschäften	0		
+181788	mit	0		
+181789	wiederholten	0		
+181790	Bankrotten	0		
+181791	zurückgezogen	0		
+181792	,	0		
+181793	was	0		
+181794	freilich	0		
+181795	in	0		
+181796	Amerika	0		
+181797	anders	0		
+181798	,	0		
+181799	als	0		
+181800	bei	0		
+181801	uns	0	(mention_id=21587|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)),(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)),(entity=(entity_id=generic_5793|fullname=generic_2138|gender=u|specialcase_entity=generic)))	(mention_id=21265|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)),(entity=(entity_id=20|fullname=Moorfeld|gender=m)))
+181802	beurtheilt	0		
+181803	werden	0		
+181804	wag	0		
+181805	.	0		
+181806	Das	0		
+181807	hiesige	0		
+181808	Creditsystem	0		
+181809	,	0		
+181810	und	0		
+181811	der	0		
+181812	volksthümliche	0		
+181813	Geist	0		
+181814	des	0		
+181815	kühnen	0		
+181816	Wagens	0		
+181817	mögen	0		
+181818	dafür	0		
+181819	Maßstäbe	0		
+181820	haben	0		
+181821	,	0		
+181822	welche	0		
+181823	nicht	0		
+181824	die	0		
+181825	unsrigen	0	(mention_id=21588|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)),(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)),(entity=(entity_id=generic_5794|fullname=generic_2139|gender=u|specialcase_entity=generic)))	(mention_id=21266|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)),(entity=(entity_id=20|fullname=Moorfeld|gender=m)))
+181826	sind	0		
+181827	;	0		
+181828	ich	0	(mention_id=21589|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)))	(mention_id=21267|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)))
+181829	will	0		
+181830	darüber	0		
+181831	nicht	0		
+181832	absprechen	0		
+181833	.	0		
+181834	Auch	0		
+181835	will	0		
+181836	ich	0	(mention_id=21590|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)))	(mention_id=21268|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)))
+181837	nicht	0		
+181838	entscheiden	0		
+181839	,	0		
+181840	ob	0		
+181841	er	0	(mention_id=21591|references=(entity=(entity_id=entity_0075|fullname=Herr Staunton|gender=m)))	(mention_id=21269|references=(entity=(entity_id=10|fullname=Herr Staunton|gender=m)))
+181842	den	0		
+181843	Versuch	0		
+181844	,	0		
+181845	ein	0		
+181846	fashionables	0		
+181847	Boardinghouse	0		
+181848	erst	0		
+181849	im	0		
+181850	Kleinen	0		
+181851	,	0		
+181852	dann	0		
+181853	im	0		
+181854	großartigeren	0		
+181855	Style	0		
+181856	zu	0		
+181857	halten	0		
+181858	,	0		
+181859	direct	0		
+181860	zu	0		
+181861	dem	0		
+181862	Zwecke	0		
+181863	unternommen	0		
+181864	hat	0		
+181865	,	0		
+181866	um	0		
+181867	reichere	0		
+181868	Auswanderer	0	(mention_id=21592|references=(entity=(entity_id=generic_5795|fullname=generic_2140|gender=u|specialcase_entity=generic)))	(mention_id=21270|references=(entity=(entity_id=generic_0027|fullname=Auswanderer im Allgemeinen|gender=u|specialcase_entity=generic)))
+181869	,	0		
+181870	welche	0	(mention_id=21593|references=(entity=(entity_id=generic_5796|fullname=generic_2141|gender=u|specialcase_entity=generic)))	(mention_id=21271|references=(entity=(entity_id=generic_0028|fullname=Auswanderer im Allgemeinen|gender=u|specialcase_entity=generic)))
+181871	er	0	(mention_id=21594|references=(entity=(entity_id=entity_0075|fullname=Herr Staunton|gender=m)))	(mention_id=21272|references=(entity=(entity_id=10|fullname=Herr Staunton|gender=m)))
+181872	in	0		
+181873	Europa	0		
+181874	selbst	0		
+181875	schon	0		
+181876	anzuködern	0		
+181877	wußte	0		
+181878	,	0		
+181879	den	0		
+181880	Händen	0		
+181881	einer	0		
+181882	mystisch-organisirten	0		
+181883	Landspeculation	0		
+181884	zu	0		
+181885	überantworten	0		
+181886	.	0		
+181887	Unzweifelhaft	0		
+181888	dürfte	0		
+181889	nur	0		
+181890	sein	0		
+181891	,	0		
+181892	daß	0		
+181893	er	0	(mention_id=21595|references=(entity=(entity_id=entity_0075|fullname=Herr Staunton|gender=m)))	(mention_id=21273|references=(entity=(entity_id=10|fullname=Herr Staunton|gender=m)))
+181894	in	0		
+181895	seinem	0	(mention_id=21596|references=(entity=(entity_id=entity_0075|fullname=Herr Staunton|gender=m)))	(mention_id=21274|references=(entity=(entity_id=10|fullname=Herr Staunton|gender=m)))
+181896	Geschäfte	0		
+181897	mit	0		
+181898	Theodor	0	(mention_id=21597|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=21275|references=(entity=(entity_id=29|fullname=Theodor|gender=m)))
+181899	wirklich	0		
+181900	oder	0		
+181901	auch	0		
+181902	wirklich	0		
+181903	nur	0		
+181904	als	0		
+181905	Makler	0	(mention_id=21598|references=(entity=(entity_id=entity_0075|fullname=Herr Staunton|gender=m)))	(mention_id=21276|references=(entity=(entity_id=10|fullname=Herr Staunton|gender=m)))
+181906	einer	0		
+181907	großen	0		
+181908	hinter	0		
+181909	ihm	0	(mention_id=21599|references=(entity=(entity_id=entity_0075|fullname=Herr Staunton|gender=m)))	(mention_id=21277|references=(entity=(entity_id=10|fullname=Herr Staunton|gender=m)))
+181910	stehenden	0		
+181911	Actiengesellschaft	0		
+181912	handelte	0		
+181913	.	0		
+181914	Er	0	(mention_id=21600|references=(entity=(entity_id=entity_0075|fullname=Herr Staunton|gender=m)))	(mention_id=21278|references=(entity=(entity_id=10|fullname=Herr Staunton|gender=m)))
+181915	scheint	0		
+181916	aber	0		
+181917	außer	0		
+181918	den	0		
+181919	Zwecken	0		
+181920	dieser	0		
+181921	Gesellschaft	0		
+181922	noch	0		
+181923	gewisse	0		
+181924	ihm	0	(mention_id=21601|references=(entity=(entity_id=entity_0075|fullname=Herr Staunton|gender=m)))	(mention_id=21279|references=(entity=(entity_id=10|fullname=Herr Staunton|gender=m)))
+181925	allein	0		
+181926	eigene	0		
+181927	verfolgt	0		
+181928	zu	0		
+181929	haben	0		
+181930	;	0		
+181931	wenigstens	0		
+181932	leuchtete	0		
+181933	aus	0		
+181934	all	0		
+181935	seinen	0	(mention_id=21602|references=(entity=(entity_id=entity_0075|fullname=Herr Staunton|gender=m)))	(mention_id=21280|references=(entity=(entity_id=10|fullname=Herr Staunton|gender=m)))
+181936	verworrenen	0		
+181937	Manövres	0		
+181938	der	0		
+181939	Eine	0		
+181940	Grundgedanke	0		
+181941	durch	0		
+181942	:	0		
+181943	Theodor'	0	(mention_id=21603|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=21281|references=(entity=(entity_id=29|fullname=Theodor|gender=m)))
+181944	in	0		
+181945	seiner	0	(mention_id=21604|references=(entity=(entity_id=entity_0075|fullname=Herr Staunton|gender=m)))	(mention_id=21282|references=(entity=(entity_id=29|fullname=Theodor|gender=m)))
+181946	Hand	0		
+181947	zu	0		
+181948	behalten	0		
+181949	.	0		
+181950	Er	0	(mention_id=21605|references=(entity=(entity_id=entity_0075|fullname=Herr Staunton|gender=m)))	(mention_id=21283|references=(entity=(entity_id=10|fullname=Herr Staunton|gender=m)))
+181951	brachte	0		
+181952	den	0		
+181953	jungen	0		
+181954	Mann	0	(mention_id=21606|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=21284|references=(entity=(entity_id=29|fullname=Theodor|gender=m)))
+181955	nie	0		
+181956	unmittelbar	0		
+181957	in	0		
+181958	Verbindung	0		
+181959	mit	0		
+181960	den	0		
+181961	Leitern	0	(mention_id=21607|references=(entity=(entity_id=entity_1172|fullname=Leiter der Gesellschaft|gender=m|specialcase_entity=group)))	(mention_id=21285|references=(entity=(entity_id=generic_0029|fullname=Leiter der Gesellschaft|gender=u|specialcase_entity=generic)))
+181962	der	0		
+181963	Gesellschaft	0		
+181964	,	0		
+181965	er	0	(mention_id=21608|references=(entity=(entity_id=entity_0075|fullname=Herr Staunton|gender=m)))	(mention_id=21286|references=(entity=(entity_id=10|fullname=Herr Staunton|gender=m)))
+181966	ließ	0		
+181967	sein	0	(mention_id=21609|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=21287|references=(entity=(entity_id=29|fullname=Theodor|gender=m)))
+181968	Engagement	0		
+181969	selbst	0		
+181970	eine	0		
+181971	Reihe	0		
+181972	von	0		
+181973	verschiedenen	0		
+181974	Chancen	0		
+181975	durchlaufen	0		
+181976	,	0		
+181977	heute	0		
+181978	streckte	0		
+181979	ein	0		
+181980	unermeßliches	0		
+181981	Capital	0		
+181982	sichtlich	0		
+181983	und	0		
+181984	greiflich	0		
+181985	seine	0		(mention_id=21288|references=(entity=(entity_id=29|fullname=Theodor|gender=m)))
+181986	goldgefüllte	0		
+181987	Hand	0		
+181988	nach	0		
+181989	Theodor	0	(mention_id=21610|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=21289|references=(entity=(entity_id=29|fullname=Theodor|gender=m)))
+181990	aus	0		
+181991	und	0		
+181992	morgen	0		
+181993	war	0		
+181994	Alles	0		
+181995	wieder	0		
+181996	so	0		
+181997	schattenhaft	0		
+181998	,	0		
+181999	so	0		
+182000	entlegen	0		
+182001	,	0		
+182002	daß	0		
+182003	die	0		
+182004	Hoffnung	0		
+182005	auf	0		
+182006	immer	0		
+182007	Abschied	0		
+182008	zu	0		
+182009	nehmen	0		
+182010	schien	0		
+182011	.	0		
+182012	Ich	0	(mention_id=21611|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)))	(mention_id=21290|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)))
+182013	kann	0		
+182014	diese	0		
+182015	Vorgänge	0		
+182016	unmöglich	0		
+182017	bestimmter	0		
+182018	schildern	0		
+182019	,	0		
+182020	als	0		
+182021	sie	0		
+182022	mir	0	(mention_id=21612|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)))	(mention_id=21291|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)))
+182023	selbst	0		
+182024	erschienen	0		
+182025	,	0		
+182026	und	0		
+182027	Sie	0	(mention_id=21613|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=21292|references=(entity=(entity_id=20|fullname=Moorfeld|gender=m)))
+182028	sehen	0		
+182029	wohl	0		
+182030	,	0		
+182031	ihr	0		
+182032	Licht	0		
+182033	war	0		
+182034	trübe	0		
+182035	genug	0		
+182036	.	0		
+182037	Herr	0	(mention_id=21614|references=(entity=(entity_id=entity_0075|fullname=Herr Staunton|gender=m)))	(mention_id=21293|references=(entity=(entity_id=10|fullname=Herr Staunton|gender=m)))
+182038	Staunton	0	(mention_id=21614|references=(entity=(entity_id=entity_0075|fullname=Herr Staunton|gender=m)))	(mention_id=21293|references=(entity=(entity_id=10|fullname=Herr Staunton|gender=m)))
+182039	bediente	0		
+182040	sich	0	(mention_id=21615|references=(entity=(entity_id=entity_0075|fullname=Herr Staunton|gender=m)))	(mention_id=21294|references=(entity=(entity_id=10|fullname=Herr Staunton|gender=m)))
+182041	ohne	0		
+182042	Zweifel	0		
+182043	gegen	0		
+182044	Theodor	0	(mention_id=21616|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=21295|references=(entity=(entity_id=29|fullname=Theodor|gender=m)))
+182045	des	0		
+182046	Vorgebens	0		
+182047	,	0		
+182048	und	0		
+182049	wer	0		
+182050	sagt	0		
+182051	mir	0	(mention_id=21617|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)))	(mention_id=21296|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)))
+182052	,	0		
+182053	ob	0		
+182054	und	0		
+182055	wieweit	0		
+182056	dieser	0	(mention_id=21618|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=21297|references=(entity=(entity_id=10|fullname=Herr Staunton|gender=m)))
+182057	es	0		
+182058	nicht	0		
+182059	gegen	0		
+182060	uns	0	(mention_id=21619|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)),(entity=(entity_id=entity_0402|fullname=Pauline von Milden|gender=f)))	(mention_id=21298|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)),(entity=(entity_id=20|fullname=Moorfeld|gender=m)))
+182061	gethan	0		
+182062	?	0		
+182063	Augenscheinlich	0		
+182064	aber	0		
+182065	war	0		
+182066	es	0		
+182067	allerdings	0		
+182068	,	0		
+182069	daß	0		
+182070	Theodor	0	(mention_id=21620|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=21299|references=(entity=(entity_id=29|fullname=Theodor|gender=m)))
+182071	selbst	0		
+182072	zwischen	0		
+182073	Hoffnung	0		
+182074	und	0		
+182075	Täuschung	0		
+182076	unendlich	0		
+182077	herumgetrieben	0		
+182078	wurde	0		
+182079	,	0		
+182080	daß	0		
+182081	er	0	(mention_id=21621|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=21300|references=(entity=(entity_id=29|fullname=Theodor|gender=m)))
+182082	Tantalusqualen	0		
+182083	litt	0		
+182084	,	0		
+182085	daß	0		
+182086	man	0	(mention_id=21622|references=(entity=(entity_id=entity_0075|fullname=Herr Staunton|gender=m)))	
+182087	ihn	0	(mention_id=21623|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=21301|references=(entity=(entity_id=29|fullname=Theodor|gender=m)))
+182088	wie	0		
+182089	einen	0		
+182090	Schweißhund	0		
+182091	an	0		
+182092	der	0		
+182093	Leine	0		
+182094	gehen	0		
+182095	ließ	0		
+182096	,	0		
+182097	daß	0		
+182098	ein	0		
+182099	unerbittlicher	0		
+182100	Rechner	0	(mention_id=21624|references=(entity=(entity_id=entity_0075|fullname=Herr Staunton|gender=m)))	(mention_id=21302|references=(entity=(entity_id=generic_0030|fullname=ein Rechner|gender=u|specialcase_entity=generic)))
+182101	es	0		
+182102	darauf	0		
+182103	abgesehen	0		
+182104	hatte	0		
+182105	,	0		
+182106	ihn	0	(mention_id=21625|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=21303|references=(entity=(entity_id=29|fullname=Theodor|gender=m)))
+182107	durch	0		
+182108	und	0		
+182109	durch	0		
+182110	moralisch	0		
+182111	mürbe	0		
+182112	zu	0		
+182113	machen	0		
+182114	,	0		
+182115	ehe	0		
+182116	er	0	(mention_id=21626|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=21304|references=(entity=(entity_id=29|fullname=Theodor|gender=m)))
+182117	den	0		
+182118	vorhabenden	0		
+182119	Zwecken	0		
+182120	zugeführt	0		
+182121	wurde	0		
+182122	.	0		
+182123	All	0		
+182124	seine	0	(mention_id=21627|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=21305|references=(entity=(entity_id=29|fullname=Theodor|gender=m)))
+182125	Leidenschaften	0		
+182126	waren	0		
+182127	aufgeregt	0		
+182128	und	0		
+182129	keine	0		
+182130	einzige	0		
+182131	befriedigt	0		
+182132	;	0		
+182133	es	0		
+182134	griff	0		
+182135	wirklich	0		
+182136	seinen	0	(mention_id=21628|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=21306|references=(entity=(entity_id=29|fullname=Theodor|gender=m)))
+182137	Körper	0		
+182138	an	0		
+182139	;	0		
+182140	er	0	(mention_id=21629|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=21307|references=(entity=(entity_id=29|fullname=Theodor|gender=m)))
+182141	sah	0		
+182142	oft	0		
+182143	recht	0		
+182144	elend	0		
+182145	aus	0		
+182146	.	0		
+182147	In	0		
+182148	solch	0		
+182149	einem	0		
+182150	Augenblick	0		
+182151	fragte	0		
+182152	ihn	0	(mention_id=21630|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=21308|references=(entity=(entity_id=29|fullname=Theodor|gender=m)))
+182153	Pauline	0	(mention_id=21631|references=(entity=(entity_id=entity_0402|fullname=Pauline von Milden|gender=f)))	(mention_id=21309|references=(entity=(entity_id=24|fullname=Pauline|gender=f)))
+182154	einmal	0		
+182155	:	0		
+182156	ob	0		
+182157	er	0	(mention_id=21632|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=21310|references=(entity=(entity_id=29|fullname=Theodor|gender=m)))
+182158	schon	0		
+182159	Briefe	0		
+182160	aus	0		
+182161	den	0		
+182162	Urwäldern	0		
+182163	Ohio's	0		
+182164	habe	0		
+182165	?	0		
+182166	Ich	0	(mention_id=21633|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)))	(mention_id=21311|references=(entity=(entity_id=29|fullname=Theodor|gender=m)))
+182167	verstand	0		
+182168	diese	0		
+182169	Frage	0		
+182170	wohl	0		
+182171	und	0		
+182172	auch	0		
+182173	Theodor	0	(mention_id=21634|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=21312|references=(entity=(entity_id=29|fullname=Theodor|gender=m)))
+182174	hat	0		
+182175	die	0		
+182176	Erinnerung	0		
+182177	an	0		
+182178	das	0		
+182179	stille	0		
+182180	Naturleben	0		
+182181	mitten	0		
+182182	aus	0		
+182183	seinen	0	(mention_id=21635|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=21313|references=(entity=(entity_id=29|fullname=Theodor|gender=m)))
+182184	städtischen	0		
+182185	Geschäftsfoltern	0		
+182186	heraus	0		
+182187	keineswegs	0		
+182188	mißverstanden	0		
+182189	.	0		
+182190	Deßungeachtet	0		
+182191	gab	0		
+182192	er	0	(mention_id=21636|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=21314|references=(entity=(entity_id=29|fullname=Theodor|gender=m)))
+182193	ihr	0	(mention_id=21637|references=(entity=(entity_id=entity_0402|fullname=Pauline von Milden|gender=f)))	(mention_id=21315|references=(entity=(entity_id=24|fullname=Pauline|gender=f)))
+182194	als	0		
+182195	Antwort	0		
+182196	zurück	0		
+182197	:	0		
+182198	Frägst	0		
+182199	du	0	(mention_id=21638|references=(entity=(entity_id=entity_0402|fullname=Pauline von Milden|gender=f)))	(mention_id=21316|references=(entity=(entity_id=24|fullname=Pauline|gender=f)))
+182200	des	0		
+182201	Urwalds	0		
+182202	,	0		
+182203	oder	0		
+182204	des	0		
+182205	Doctors	0	(mention_id=21639|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=21317|references=(entity=(entity_id=29|fullname=Theodor|gender=m)))
+182206	wegen	0		
+182207	so	0		
+182208	?	0		
+182209	Sie	0	(mention_id=21640|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=21318|references=(entity=(entity_id=24|fullname=Pauline|gender=f)))
+182210	hören	0		
+182211	es	0		
+182212	!	0		
+182213	Das	0		
+182214	geschah	0		
+182215	in	0		
+182216	meiner	0	(mention_id=21641|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)))	(mention_id=21319|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)))
+182217	Gegenwart	0		
+182218	.	0		
+182219	Pauline	0	(mention_id=21642|references=(entity=(entity_id=entity_0402|fullname=Pauline von Milden|gender=f)))	(mention_id=21320|references=(entity=(entity_id=24|fullname=Pauline|gender=f)))
+182220	erblaßte	0		
+182221	,	0		
+182222	stand	0		
+182223	auf	0		
+182224	,	0		
+182225	ging	0		
+182226	in	0		
+182227	das	0		
+182228	Nebenzimmer	0		
+182229	und	0		
+182230	weinte	0		
+182231	den	0		
+182232	ganzen	0		
+182233	Abend	0		
+182234	darin	0		
+182235	.	0		
+182236	Auch	0		
+182237	ich	0	(mention_id=21643|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)))	(mention_id=21321|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)))
+182238	gerieth	0		
+182239	außer	0		
+182240	Fassung	0		
+182241	diesmal	0		
+182242	.	0		
+182243	Ich	0	(mention_id=21644|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)))	(mention_id=21322|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)))
+182244	bin	0		
+182245	sonst	0		
+182246	geneigt	0		
+182247	,	0		
+182248	manche	0		
+182249	Ungezogenheit	0		
+182250	,	0		
+182251	manche	0		
+182252	Laune	0		
+182253	dem	0		
+182254	Geschlechte	0	(mention_id=21645|references=(entity=(entity_id=generic_5797|fullname=generic_2142|gender=u|specialcase_entity=generic)))	
+182255	nachzusehen	0		
+182256	,	0		
+182257	das	0		
+182258	,	0		
+182259	wenn	0		
+182260	es	0		
+182261	nicht	0		
+182262	das	0		
+182263	starke	0		
+182264	,	0		
+182265	doch	0		
+182266	gewiß	0		
+182267	das	0		
+182268	freie	0		
+182269	ist	0		
+182270	:	0		
+182271	aber	0		
+182272	diese	0		
+182273	niedrige	0		
+182274	Bosheit	0		
+182275	empörte	0		
+182276	mich	0	(mention_id=21646|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)))	(mention_id=21323|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)))
+182277	.	0		
+182278	Ich	0	(mention_id=21647|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)))	(mention_id=21324|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)))
+182279	ließ	0		
+182280	dem	0		
+182281	Menschen	0	(mention_id=21648|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=21325|references=(entity=(entity_id=generic_0018|fullname=Menschen im Allgemeinen|gender=u|specialcase_entity=generic)))
+182282	eine	0		
+182283	ernsthafte	0		
+182284	Rüge	0		
+182285	angedeihen	0		
+182286	.	0		
+182287	Es	0		
+182288	ist	0		
+182289	wahr	0		
+182290	,	0		
+182291	das	0		
+182292	Mädchen	0	(mention_id=21649|references=(entity=(entity_id=entity_0402|fullname=Pauline von Milden|gender=f)))	(mention_id=21326|references=(entity=(entity_id=24|fullname=Pauline|gender=f)))
+182293	ist	0		
+182294	eine	0		
+182295	etwas	0		
+182296	schwere	0		
+182297	Natur	0		
+182298	,	0		
+182299	sie	0	(mention_id=21650|references=(entity=(entity_id=entity_0402|fullname=Pauline von Milden|gender=f)))	(mention_id=21327|references=(entity=(entity_id=24|fullname=Pauline|gender=f)))
+182300	artet	0		
+182301	viel	0		
+182302	ihrem	0	(mention_id=21651|references=(entity=(entity_id=entity_0402|fullname=Pauline von Milden|gender=f)))	(mention_id=21328|references=(entity=(entity_id=24|fullname=Pauline|gender=f)))
+182303	Vater	0	(mention_id=21652|references=(entity=(entity_id=entity_0419|fullname=verstorbener Herr v. Milden|gender=m)))	(mention_id=21329|references=(entity=(entity_id=29|fullname=Theodor|gender=m)))
+182304	nach	0		
+182305	.	0		
+182306	Es	0		
+182307	mochte	0		
+182308	nicht	0		
+182309	ganz	0		
+182310	gewählt	0		
+182311	sein	0		
+182312	,	0		
+182313	daß	0		
+182314	sie	0	(mention_id=21653|references=(entity=(entity_id=entity_0402|fullname=Pauline von Milden|gender=f)))	(mention_id=21330|references=(entity=(entity_id=24|fullname=Pauline|gender=f)))
+182315	einem	0		
+182316	Manne	0	(mention_id=21654|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=21331|references=(entity=(entity_id=29|fullname=Theodor|gender=m)))
+182317	,	0		
+182318	der	0	(mention_id=21655|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=21332|references=(entity=(entity_id=29|fullname=Theodor|gender=m)))
+182319	mit	0		
+182320	vollen	0		
+182321	Segeln	0		
+182322	dem	0		
+182323	high	0		
+182324	life	0		
+182325	zuzufliegen	0		
+182326	meint	0		
+182327	,	0		
+182328	zu	0		
+182329	verstehen	0		
+182330	gibt	0		
+182331	,	0		
+182332	sie	0	(mention_id=21656|references=(entity=(entity_id=entity_0402|fullname=Pauline von Milden|gender=f)))	(mention_id=21333|references=(entity=(entity_id=24|fullname=Pauline|gender=f)))
+182333	sehe	0		
+182334	die	0		
+182335	rauhe	0		
+182336	Farmersaxt	0		
+182337	lieber	0		
+182338	in	0		
+182339	seiner	0	(mention_id=21657|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=21334|references=(entity=(entity_id=29|fullname=Theodor|gender=m)))
+182340	Faust	0		
+182341	.	0		
+182342	Es	0		
+182343	ist	0		
+182344	wahr	0		
+182345	,	0		
+182346	sie	0	(mention_id=21658|references=(entity=(entity_id=entity_0402|fullname=Pauline von Milden|gender=f)))	(mention_id=21335|references=(entity=(entity_id=24|fullname=Pauline|gender=f)))
+182347	hat	0		
+182348	die	0		
+182349	ganze	0		
+182350	Wendung	0		
+182351	seines	0	(mention_id=21659|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=21336|references=(entity=(entity_id=29|fullname=Theodor|gender=m)))
+182352	Geschicks	0		
+182353	mehr	0		
+182354	mit	0		
+182355	einem	0		
+182356	stillen	0		
+182357	ahnungsvollen	0		
+182358	Grauen	0		
+182359	,	0		
+182360	als	0		
+182361	mit	0		
+182362	lachendem	0		
+182363	Mitgenuß	0		
+182364	angesehen	0		
+182365	.	0		
+182366	Aber	0		
+182367	wenn	0		
+182368	sie	0	(mention_id=21660|references=(entity=(entity_id=entity_0402|fullname=Pauline von Milden|gender=f)))	(mention_id=21337|references=(entity=(entity_id=24|fullname=Pauline|gender=f)))
+182369	keinen	0		
+182370	Begriff	0		
+182371	davon	0		
+182372	hat	0		
+182373	,	0		
+182374	daß	0		
+182375	das	0		
+182376	Weib	0	(mention_id=21661|references=(entity=(entity_id=entity_0402|fullname=Pauline von Milden|gender=f)),(entity=(entity_id=generic_5798|fullname=generic_2143|gender=u|specialcase_entity=generic)))	(mention_id=21338|references=(entity=(entity_id=24|fullname=Pauline|gender=f)))
+182377	,	0		
+182378	unbeschadet	0		
+182379	seiner	0	(mention_id=21662|references=(entity=(entity_id=entity_0402|fullname=Pauline von Milden|gender=f)),(entity=(entity_id=generic_5799|fullname=generic_2144|gender=u|specialcase_entity=generic)))	(mention_id=21339|references=(entity=(entity_id=24|fullname=Pauline|gender=f)))
+182380	tiefen	0		
+182381	und	0		
+182382	wahren	0		
+182383	Empfindungen	0		
+182384	scheinen	0		
+182385	muß	0		
+182386	:	0		
+182387	so	0		
+182388	kannte	0		
+182389	Theodor	0	(mention_id=21663|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=21340|references=(entity=(entity_id=29|fullname=Theodor|gender=m)))
+182390	längst	0		
+182391	ihr	0	(mention_id=21664|references=(entity=(entity_id=entity_0402|fullname=Pauline von Milden|gender=f)))	(mention_id=21341|references=(entity=(entity_id=24|fullname=Pauline|gender=f)))
+182392	Naturell	0		
+182393	,	0		
+182394	und	0		
+182395	hat	0		
+182396	sie	0	(mention_id=21665|references=(entity=(entity_id=entity_0402|fullname=Pauline von Milden|gender=f)))	(mention_id=21342|references=(entity=(entity_id=24|fullname=Pauline|gender=f)))
+182397	,	0		
+182398	eben	0		
+182399	so	0		
+182400	wie	0		
+182401	sie	0	(mention_id=21666|references=(entity=(entity_id=entity_0402|fullname=Pauline von Milden|gender=f)))	(mention_id=21343|references=(entity=(entity_id=24|fullname=Pauline|gender=f)))
+182402	ist	0		
+182403	,	0		
+182404	gewählt	0		
+182405	,	0		
+182406	geschätzt	0		
+182407	,	0		
+182408	vergöttert	0		
+182409	.	0		
+182410	Sie	0	(mention_id=21667|references=(entity=(entity_id=entity_0402|fullname=Pauline von Milden|gender=f)))	(mention_id=21344|references=(entity=(entity_id=24|fullname=Pauline|gender=f)))
+182411	ist	0		
+182412	unverfälscht	0		
+182413	wie	0		
+182414	die	0		
+182415	Elemente	0		
+182416	!	0		
+182417	war	0		
+182418	sein	0	(mention_id=21668|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=21345|references=(entity=(entity_id=29|fullname=Theodor|gender=m)))
+182419	Lieblingsausdruck	0		
+182420	.	0		
+182421	Und	0		
+182422	er	0	(mention_id=21669|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=21346|references=(entity=(entity_id=29|fullname=Theodor|gender=m)))
+182423	hatte	0		
+182424	Recht	0		
+182425	damit	0		
+182426	.	0		
+182427	Das	0		
+182428	Mädchen	0	(mention_id=21670|references=(entity=(entity_id=entity_0402|fullname=Pauline von Milden|gender=f)))	(mention_id=21347|references=(entity=(entity_id=24|fullname=Pauline|gender=f)))
+182429	ist	0		
+182430	eine	0		
+182431	strenge	0		
+182432	,	0		
+182433	geradlinige	0		
+182434	Weiblichkeit	0	(mention_id=21671|references=(entity=(entity_id=entity_0402|fullname=Pauline von Milden|gender=f)))	(mention_id=21348|references=(entity=(entity_id=24|fullname=Pauline|gender=f)))
+182435	.	0		
+182436	Sie	0	(mention_id=21672|references=(entity=(entity_id=entity_0402|fullname=Pauline von Milden|gender=f)))	(mention_id=21349|references=(entity=(entity_id=24|fullname=Pauline|gender=f)))
+182437	ist	0		
+182438	wie	0		
+182439	eine	0		
+182440	Fackel	0		
+182441	,	0		
+182442	sie	0	(mention_id=21673|references=(entity=(entity_id=entity_0402|fullname=Pauline von Milden|gender=f)))	
+182443	flammt	0		
+182444	in	0		
+182445	jeder	0		
+182446	Richtung	0		
+182447	nach	0		
+182448	oben	0		
+182449	.	0		
+182450	Theodor's	0	(mention_id=21674|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=21350|references=(entity=(entity_id=29|fullname=Theodor|gender=m)))
+182451	Wort	0		
+182452	,	0		
+182453	überall	0		
+182454	sonst	0		
+182455	ein	0		
+182456	eifersüchtelnder	0		
+182457	Scherz	0		
+182458	,	0		
+182459	war	0		
+182460	hier	0		
+182461	eine	0		
+182462	freche	0		
+182463	Entheiligung	0		
+182464	.	0		
+182465	Auch	0		
+182466	erkannte	0		
+182467	er	0	(mention_id=21675|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=21351|references=(entity=(entity_id=29|fullname=Theodor|gender=m)))
+182468	sein	0	(mention_id=21676|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=21352|references=(entity=(entity_id=29|fullname=Theodor|gender=m)))
+182469	Unrecht	0		
+182470	und	0		
+182471	that	0		
+182472	mir	0	(mention_id=21677|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)))	(mention_id=21353|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)))
+182473	reuige	0		
+182474	Abbitte	0		
+182475	.	0		
+182476	Aber	0		
+182477	solche	0		
+182478	Aeußerungen	0		
+182479	kehrten	0		
+182480	öfter	0		
+182481	,	0		
+182482	es	0		
+182483	schien	0		
+182484	seine	0	(mention_id=21678|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=21354|references=(entity=(entity_id=29|fullname=Theodor|gender=m)))
+182485	Absicht	0		
+182486	,	0		
+182487	Zwietracht	0		
+182488	zu	0		
+182489	säen	0		
+182490	.	0		
+182491	Er	0	(mention_id=21679|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=21355|references=(entity=(entity_id=29|fullname=Theodor|gender=m)))
+182492	beträgt	0		
+182493	sich	0	(mention_id=21680|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=21356|references=(entity=(entity_id=29|fullname=Theodor|gender=m)))
+182494	fortwährend	0		
+182495	herrisch	0		
+182496	,	0		
+182497	launenhaft	0		
+182498	,	0		
+182499	nachlässig	0		
+182500	,	0		
+182501	oder	0		
+182502	noch	0		
+182503	ärger	0		
+182504	gnädig	0		
+182505	und	0		
+182506	prahlerisch	0		
+182507	und	0		
+182508	meint	0		
+182509	mit	0		
+182510	irgend	0		
+182511	einem	0		
+182512	goldenen	0		
+182513	Gehängsel	0		
+182514	ganze	0		
+182515	Reihen	0		
+182516	von	0		
+182517	Kränkungen	0		
+182518	gut	0		
+182519	zu	0		
+182520	machen	0		
+182521	.	0		
+182522	Auch	0		
+182523	bleibt	0		
+182524	er	0	(mention_id=21681|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=21357|references=(entity=(entity_id=29|fullname=Theodor|gender=m)))
+182525	wiederholt	0		
+182526	weg	0		
+182527	.	0		
+182528	Eben	0		
+182529	jetzt	0		
+182530	haben	0		
+182531	wir	0	(mention_id=21682|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)),(entity=(entity_id=entity_0402|fullname=Pauline von Milden|gender=f)))	(mention_id=21358|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)),(entity=(entity_id=20|fullname=Moorfeld|gender=m)))
+182532	ihn	0	(mention_id=21683|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=21359|references=(entity=(entity_id=29|fullname=Theodor|gender=m)))
+182533	länger	0		
+182534	als	0		
+182535	je	0		
+182536	,	0		
+182537	eine	0		
+182538	volle	0		
+182539	Woche	0		
+182540	lang	0		
+182541	,	0		
+182542	nicht	0		
+182543	gesehen	0		
+182544	.	0		
+182545	Er	0	(mention_id=21684|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=21360|references=(entity=(entity_id=29|fullname=Theodor|gender=m)))
+182546	ist	0		
+182547	aber	0		
+182548	weder	0		
+182549	verreist	0		
+182550	,	0		
+182551	noch	0		
+182552	gestorben	0		
+182553	,	0		
+182554	denn	0		
+182555	andere	0		
+182556	Leute	0	(mention_id=21685|references=(entity=(entity_id=entity_1170|fullname=andere Leute|gender=u|specialcase_entity=group)))	(mention_id=21361|references=(entity=(entity_id=generic_0031|fullname=Leute im Allgemeinen|gender=u|specialcase_entity=generic)))
+182557	haben	0		
+182558	ihn	0	(mention_id=21686|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=21362|references=(entity=(entity_id=29|fullname=Theodor|gender=m)))
+182559	gesehen	0		
+182560	.	0		
+182561	—	0		
+182562	Das	0		
+182563	ist	0		
+182564	Benthal	0	(mention_id=21687|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=21363|references=(entity=(entity_id=12|fullname=Herrn Benthal|gender=m|specialcase_entity=nonfact)))
+182565	von	0		
+182566	heute	0		
+182567	,	0		
+182568	—	0		
+182569	schloß	0		
+182570	Frau	0	(mention_id=21688|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)))	(mention_id=21364|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)))
+182571	v.	0	(mention_id=21688|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)))	(mention_id=21364|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)))
+182572	Milden	0	(mention_id=21688|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)))	(mention_id=21364|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)))
+182573	aufstehend	0		
+182574	.	0		
+182575	Als	0		
+182576	Moorfeld	0	(mention_id=21689|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=21365|references=(entity=(entity_id=20|fullname=Moorfeld|gender=m)))
+182577	sprechen	0		
+182578	wollte	0		
+182579	,	0		
+182580	fiel	0		
+182581	ihm	0	(mention_id=21690|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=21366|references=(entity=(entity_id=20|fullname=Moorfeld|gender=m)))
+182582	die	0		
+182583	sensible	0		
+182584	Frau	0	(mention_id=21691|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)))	(mention_id=21367|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)))
+182585	rasch	0		
+182586	ins	0		
+182587	Wort	0		
+182588	:	0		
+182589	Ich	0	(mention_id=21692|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)))	(mention_id=21368|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)))
+182590	bitte	0		
+182591	,	0		
+182592	sagen	0		
+182593	Sie	0	(mention_id=21693|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=21369|references=(entity=(entity_id=20|fullname=Moorfeld|gender=m)))
+182594	mir	0	(mention_id=21694|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)))	(mention_id=21370|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)))
+182595	nichts	0		
+182596	zum	0		
+182597	Troste	0		
+182598	.	0		
+182599	Ich	0	(mention_id=21695|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)))	(mention_id=21371|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)))
+182600	danke	0		
+182601	vorweg	0		
+182602	für	0		
+182603	Ihre	0	(mention_id=21696|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=21372|references=(entity=(entity_id=20|fullname=Moorfeld|gender=m)))
+182604	gute	0		
+182605	Meinung	0		
+182606	.	0		
+182607	Ich	0	(mention_id=21697|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)))	(mention_id=21373|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)))
+182608	weiß	0		
+182609	,	0		
+182610	was	0		
+182611	ich	0	(mention_id=21698|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)))	(mention_id=21374|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)))
+182612	zu	0		
+182613	denken	0		
+182614	habe	0		
+182615	.	0		
+182616	Ich	0	(mention_id=21699|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)))	(mention_id=21375|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)))
+182617	weiß	0		
+182618	,	0		
+182619	daß	0		
+182620	Sie	0	(mention_id=21700|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=21376|references=(entity=(entity_id=20|fullname=Moorfeld|gender=m)))
+182621	einen	0		
+182622	Versuch	0		
+182623	machen	0		
+182624	werden	0		
+182625	,	0		
+182626	das	0		
+182627	Schwungrad	0		
+182628	,	0		
+182629	das	0		
+182630	ihn	0	(mention_id=21701|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=21377|references=(entity=(entity_id=29|fullname=Theodor|gender=m)))
+182631	ergriffen	0		
+182632	hat	0		
+182633	,	0		
+182634	aufzuhalten	0		
+182635	.	0		
+182636	Das	0		
+182637	werden	0		
+182638	Sie	0	(mention_id=21702|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=21378|references=(entity=(entity_id=20|fullname=Moorfeld|gender=m)))
+182639	thun	0		
+182640	,	0		
+182641	aber	0		
+182642	versprechen	0		
+182643	können	0		
+182644	Sie	0	(mention_id=21703|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=21379|references=(entity=(entity_id=20|fullname=Moorfeld|gender=m)))
+182645	nichts	0		
+182646	.	0		
+182647	Dann	0		
+182648	reichte	0		
+182649	sie	0	(mention_id=21704|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)))	(mention_id=21380|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)))
+182650	Moorfeld	0	(mention_id=21705|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=21381|references=(entity=(entity_id=20|fullname=Moorfeld|gender=m)))
+182651	die	0		
+182652	Hand	0		
+182653	zum	0		
+182654	Abschiede	0		
+182655	und	0		
+182656	sagte	0		
+182657	mit	0		
+182658	einer	0		
+182659	schmerzlichen	0		
+182660	Heiterkeit	0		
+182661	:	0		
+182662	Doch	0		
+182663	,	0		
+182664	bester	0		
+182665	Herr	0	(mention_id=21706|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=21382|references=(entity=(entity_id=20|fullname=Moorfeld|gender=m)))
+182666	!	0		
+182667	Eins	0		
+182668	können	0		
+182669	Sie	0	(mention_id=21707|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=21383|references=(entity=(entity_id=20|fullname=Moorfeld|gender=m)))
+182670	mir	0	(mention_id=21708|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)))	(mention_id=21384|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)))
+182671	versprechen	0		
+182672	:	0		
+182673	Vor	0		
+182674	ihr	0	(mention_id=21709|references=(entity=(entity_id=entity_0402|fullname=Pauline von Milden|gender=f)))	(mention_id=21385|references=(entity=(entity_id=24|fullname=Pauline|gender=f)))
+182675	wollen	0		
+182676	wir	0	(mention_id=21710|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)),(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=21386|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)),(entity=(entity_id=20|fullname=Moorfeld|gender=m)))
+182677	fest	0		
+182678	bleiben	0		
+182679	.	0		
+182680	Wenn	0		
+182681	Sie	0	(mention_id=21711|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=21387|references=(entity=(entity_id=20|fullname=Moorfeld|gender=m)))
+182682	Pauline	0	(mention_id=21712|references=(entity=(entity_id=entity_0402|fullname=Pauline von Milden|gender=f)))	(mention_id=21388|references=(entity=(entity_id=24|fullname=Pauline|gender=f)))
+182683	irgendwie	0		
+182684	sehen	0		
+182685	sollten	0		
+182686	,	0		
+182687	verrathen	0		
+182688	Sie	0	(mention_id=21713|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=21389|references=(entity=(entity_id=20|fullname=Moorfeld|gender=m)))
+182689	nichts	0		
+182690	!	0		
+182691	Ich	0	(mention_id=21714|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)))	(mention_id=21390|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)))
+182692	zeige	0		
+182693	dem	0		
+182694	Mädchen	0	(mention_id=21715|references=(entity=(entity_id=entity_0402|fullname=Pauline von Milden|gender=f)))	(mention_id=21391|references=(entity=(entity_id=24|fullname=Pauline|gender=f)))
+182695	die	0		
+182696	heiterste	0		
+182697	Miene	0		
+182698	,	0		
+182699	und	0		
+182700	noch	0		
+182701	,	0		
+182702	denk'	0		
+182703	ich	0	(mention_id=21716|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)))	(mention_id=21392|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)))
+182704	,	0		
+182705	ahnt	0		
+182706	sie	0	(mention_id=21717|references=(entity=(entity_id=entity_0402|fullname=Pauline von Milden|gender=f)))	(mention_id=21393|references=(entity=(entity_id=24|fullname=Pauline|gender=f)))
+182707	die	0		
+182708	Möglichkeit	0		
+182709	ihres	0	(mention_id=21718|references=(entity=(entity_id=entity_0402|fullname=Pauline von Milden|gender=f)))	(mention_id=21394|references=(entity=(entity_id=24|fullname=Pauline|gender=f)))
+182710	Unglücks	0		
+182711	nicht	0		
+182712	.	0		
+182713	Ach	0		
+182714	,	0		
+182715	sie	0	(mention_id=21719|references=(entity=(entity_id=entity_0402|fullname=Pauline von Milden|gender=f)))	(mention_id=21395|references=(entity=(entity_id=24|fullname=Pauline|gender=f)))
+182716	hat	0		
+182717	keine	0		
+182718	Vorstellung	0		
+182719	von	0		
+182720	der	0		
+182721	schlechten	0		
+182722	Seite	0		
+182723	des	0		
+182724	menschlichen	0		
+182725	Herzens	0		
+182726	!	0		
+182727	Auf	0		
+182728	dieses	0		
+182729	Versprechen	0		
+182730	reichte	0		
+182731	Moorfeld	0	(mention_id=21720|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=21396|references=(entity=(entity_id=20|fullname=Moorfeld|gender=m)))
+182732	seine	0	(mention_id=21721|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=21397|references=(entity=(entity_id=20|fullname=Moorfeld|gender=m)))
+182733	Hand	0		
+182734	.	0		
+182735	Sie	0		
+182736	zitterte	0		
+182737	heftig	0		
+182738	in	0		
+182739	Frau	0	(mention_id=21722|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)))	(mention_id=21398|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)))
+182740	v.	0	(mention_id=21722|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)))	(mention_id=21398|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)))
+182741	Milden's	0	(mention_id=21722|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)))	(mention_id=21398|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)))
+182742	Hand	0		
+182743	.	0		
+182744	Nur	0		
+182745	mit	0		
+182746	einem	0		
+182747	stummen	0		
+182748	Blick	0		
+182749	vermochte	0		
+182750	er	0	(mention_id=21723|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=21399|references=(entity=(entity_id=20|fullname=Moorfeld|gender=m)))
+182751	sein	0	(mention_id=21724|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=21400|references=(entity=(entity_id=20|fullname=Moorfeld|gender=m)))
+182752	unaussprechliches	0		
+182753	Inneres	0		
+182754	auszudrücken	0		
+182755	.	0		
+182756	Trunken	0		
+182757	von	0		
+182758	Schmerz	0		
+182759	wankte	0		
+182760	er	0	(mention_id=21725|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=21401|references=(entity=(entity_id=20|fullname=Moorfeld|gender=m)))
+182761	zur	0		
+182762	Thüre	0		
+182763	hinaus	0		
+182764	.	0		
+182765	Als	0		
+182766	er	0	(mention_id=21726|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=21402|references=(entity=(entity_id=20|fullname=Moorfeld|gender=m)))
+182767	am	0		
+182768	Fuß	0		
+182769	der	0		
+182770	Treppe	0		
+182771	angelangt	0		
+182772	war	0		
+182773	,	0		
+182774	öffnete	0		
+182775	sich	0		
+182776	die	0		
+182777	Thüre	0		
+182778	des	0		
+182779	Basements	0		
+182780	,	0		
+182781	wo	0		
+182782	die	0		
+182783	Eigenthümerin	0	(mention_id=21727|references=(entity=(entity_id=entity_1171|fullname=Eigentümerin des Hauses|gender=f)))	(mention_id=21403|references=(entity=(entity_id=generic_0032|fullname=Eigenthümerin des Hauses|gender=u|specialcase_entity=generic)))
+182784	des	0		
+182785	Hauses	0		
+182786	wohnte	0		
+182787	.	0		
+182788	Pauline	0	(mention_id=21728|references=(entity=(entity_id=entity_0402|fullname=Pauline von Milden|gender=f)))	(mention_id=21404|references=(entity=(entity_id=24|fullname=Pauline|gender=f)))
+182789	trat	0		
+182790	zu	0		
+182791	der	0		
+182792	Thüre	0		
+182793	heraus	0		
+182794	.	0		
+182795	Sie	0	(mention_id=21729|references=(entity=(entity_id=entity_0402|fullname=Pauline von Milden|gender=f)))	(mention_id=21405|references=(entity=(entity_id=24|fullname=Pauline|gender=f)))
+182796	hatte	0		
+182797	eine	0		
+182798	Arzneischale	0		
+182799	in	0		
+182800	der	0		
+182801	Hand	0		
+182802	.	0		
+182803	Als	0		
+182804	sie	0	(mention_id=21730|references=(entity=(entity_id=entity_0402|fullname=Pauline von Milden|gender=f)))	(mention_id=21406|references=(entity=(entity_id=24|fullname=Pauline|gender=f)))
+182805	Moorfeld	0	(mention_id=21731|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=21407|references=(entity=(entity_id=20|fullname=Moorfeld|gender=m)))
+182806	ansichtig	0		
+182807	wurde	0		
+182808	schrack	0		
+182809	sie	0	(mention_id=21732|references=(entity=(entity_id=entity_0402|fullname=Pauline von Milden|gender=f)))	(mention_id=21408|references=(entity=(entity_id=24|fullname=Pauline|gender=f)))
+182810	heftig	0		
+182811	zusammen	0		
+182812	.	0		
+182813	Der	0		
+182814	volle	0		
+182815	Gegensatz	0		
+182816	zwischen	0		
+182817	Einst	0		
+182818	und	0		
+182819	Jetzt	0		
+182820	überwältigte	0		
+182821	sie	0	(mention_id=21733|references=(entity=(entity_id=entity_0402|fullname=Pauline von Milden|gender=f)))	(mention_id=21409|references=(entity=(entity_id=24|fullname=Pauline|gender=f)))
+182822	bei	0		
+182823	diesem	0		
+182824	Anblicke	0		
+182825	.	0		
+182826	Sie	0	(mention_id=21734|references=(entity=(entity_id=entity_0402|fullname=Pauline von Milden|gender=f)))	(mention_id=21410|references=(entity=(entity_id=20|fullname=Moorfeld|gender=m)))
+182827	sank	0		
+182828	mit	0		
+182829	einem	0		
+182830	gebrochenen	0		
+182831	Schmerzensruf	0		
+182832	an	0		
+182833	ihm	0	(mention_id=21735|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=21411|references=(entity=(entity_id=20|fullname=Moorfeld|gender=m)))
+182834	nieder	0		
+182835	.	0		
+182836	Moorfeld	0	(mention_id=21736|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=21412|references=(entity=(entity_id=20|fullname=Moorfeld|gender=m)))
+182837	eilte	0		
+182838	schnell	0		
+182839	,	0		
+182840	sie	0	(mention_id=21737|references=(entity=(entity_id=entity_0402|fullname=Pauline von Milden|gender=f)))	(mention_id=21413|references=(entity=(entity_id=24|fullname=Pauline|gender=f)))
+182841	zu	0		
+182842	stützen	0		
+182843	.	0		
+182844	Die	0		
+182845	Berührung	0		
+182846	eines	0		
+182847	fremden	0		
+182848	Arms	0		
+182849	schien	0		
+182850	allein	0		
+182851	schon	0		
+182852	mächtig	0		
+182853	,	0		
+182854	das	0		
+182855	züchtige	0		
+182856	Mädchen	0	(mention_id=21738|references=(entity=(entity_id=entity_0402|fullname=Pauline von Milden|gender=f)))	(mention_id=21414|references=(entity=(entity_id=24|fullname=Pauline|gender=f)))
+182857	aus	0		
+182858	ihrer	0	(mention_id=21739|references=(entity=(entity_id=entity_0402|fullname=Pauline von Milden|gender=f)))	(mention_id=21415|references=(entity=(entity_id=24|fullname=Pauline|gender=f)))
+182859	Ohnmacht	0		
+182860	aufzurütteln	0		
+182861	.	0		
+182862	Sie	0	(mention_id=21740|references=(entity=(entity_id=entity_0402|fullname=Pauline von Milden|gender=f)))	(mention_id=21416|references=(entity=(entity_id=24|fullname=Pauline|gender=f)))
+182863	entwand	0		
+182864	sich	0	(mention_id=21741|references=(entity=(entity_id=entity_0402|fullname=Pauline von Milden|gender=f)))	(mention_id=21417|references=(entity=(entity_id=24|fullname=Pauline|gender=f)))
+182865	den	0		
+182866	Armen	0		
+182867	Moorfeld's	0	(mention_id=21742|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=21418|references=(entity=(entity_id=20|fullname=Moorfeld|gender=m)))
+182868	,	0		
+182869	stützte	0		
+182870	sich	0	(mention_id=21743|references=(entity=(entity_id=entity_0402|fullname=Pauline von Milden|gender=f)))	(mention_id=21419|references=(entity=(entity_id=24|fullname=Pauline|gender=f)))
+182871	halblehnend	0		
+182872	gegen	0		
+182873	das	0		
+182874	Treppengeländer	0		
+182875	und	0		
+182876	hauchte	0		
+182877	ihm	0	(mention_id=21744|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=21420|references=(entity=(entity_id=20|fullname=Moorfeld|gender=m)))
+182878	die	0		
+182879	Worte	0		
+182880	zu	0		
+182881	:	0		
+182882	Ich	0	(mention_id=21745|references=(entity=(entity_id=entity_0402|fullname=Pauline von Milden|gender=f)))	(mention_id=21421|references=(entity=(entity_id=24|fullname=Pauline|gender=f)))
+182883	bitte	0		
+182884	,	0		
+182885	schonen	0		
+182886	Sie	0	(mention_id=21746|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=21422|references=(entity=(entity_id=20|fullname=Moorfeld|gender=m)))
+182887	meine	0	(mention_id=21747|references=(entity=(entity_id=entity_0402|fullname=Pauline von Milden|gender=f)))	(mention_id=21423|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)))
+182888	Mutter	0	(mention_id=21748|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)))	(mention_id=21424|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)))
+182889	.	0		
+182890	Noch	0		
+182891	tragen	0		
+182892	ihre	0	(mention_id=21749|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)))	(mention_id=21425|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)))
+182893	Ahnungen	0		
+182894	nicht	0		
+182895	so	0		
+182896	weit	0		
+182897	wie	0		
+182898	die	0		
+182899	meinigen	0		(mention_id=21426|references=(entity=(entity_id=24|fullname=Pauline|gender=f)))
+182900	.	0		
+182901	Ich	0	(mention_id=21750|references=(entity=(entity_id=entity_0402|fullname=Pauline von Milden|gender=f)))	(mention_id=21427|references=(entity=(entity_id=24|fullname=Pauline|gender=f)))
+182902	nehme	0		
+182903	mich	0	(mention_id=21751|references=(entity=(entity_id=entity_0402|fullname=Pauline von Milden|gender=f)))	(mention_id=21428|references=(entity=(entity_id=24|fullname=Pauline|gender=f)))
+182904	übermenschlich	0		
+182905	zusammen	0		
+182906	.	0		
+182907	Menschen	0	(mention_id=21752|references=(entity=(entity_id=entity_0402|fullname=Pauline von Milden|gender=f)),(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)),(entity=(entity_id=generic_5800|fullname=generic_2145|gender=u|specialcase_entity=generic)))	(mention_id=21429|references=(entity=(entity_id=generic_0019|fullname=Menschen im Allgemeinen|gender=u|specialcase_entity=generic)))
+182908	!	0		
+182909	Menschen	0	(mention_id=21753|references=(entity=(entity_id=entity_0402|fullname=Pauline von Milden|gender=f)),(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)),(entity=(entity_id=generic_5801|fullname=generic_2146|gender=u|specialcase_entity=generic)))	(mention_id=21430|references=(entity=(entity_id=generic_0020|fullname=Menschen im Allgemeinen|gender=u|specialcase_entity=generic)))
+182910	!	0		
+182911	rief	0		
+182912	Moorfeld	0	(mention_id=21754|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=21431|references=(entity=(entity_id=20|fullname=Moorfeld|gender=m)))
+182913	mit	0		
+182914	einem	0		
+182915	zerrissenen	0		
+182916	Blick	0		
+182917	zum	0		
+182918	Himmel	0		
+182919	,	0		
+182920	weint	0		
+182921	,	0		
+182922	wenn	0		
+182923	ihr	0	(mention_id=21755|references=(entity=(entity_id=entity_0402|fullname=Pauline von Milden|gender=f)),(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)),(entity=(entity_id=generic_5802|fullname=generic_2147|gender=u|specialcase_entity=generic)))	(mention_id=21432|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)))
+182924	weinen	0		
+182925	müßt	0		
+182926	,	0		
+182927	mit	0		
+182928	einander	0	(mention_id=21756|references=(entity=(entity_id=generic_5803|fullname=generic_2148|gender=u|specialcase_entity=generic)),(entity=(entity_id=entity_0402|fullname=Pauline von Milden|gender=f)),(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)))	(mention_id=21433|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)),(entity=(entity_id=20|fullname=Moorfeld|gender=m)))
+182929	,	0		
+182930	denn	0		
+182931	so	0		
+182932	eben	0		
+182933	sagte	0		
+182934	mir	0	(mention_id=21757|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=21434|references=(entity=(entity_id=20|fullname=Moorfeld|gender=m)))
+182935	Frau	0	(mention_id=21758|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)))	(mention_id=21435|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)))
+182936	v.	0	(mention_id=21758|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)))	(mention_id=21435|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)))
+182937	Milden	0	(mention_id=21758|references=(entity=(entity_id=entity_0403|fullname=Frau von Milden|gender=f)))	(mention_id=21435|references=(entity=(entity_id=7|fullname=Frau v Milden|gender=f)))
+182938	dasselbe	0		
+182939	!	0		
+182940	Mit	0		
+182941	wilder	0		
+182942	Hast	0		
+182943	stürzte	0		
+182944	er	0	(mention_id=21759|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	
+182945	zum	0		
+182946	Hause	0		
+182947	hinaus	0		
+182948	.	0		

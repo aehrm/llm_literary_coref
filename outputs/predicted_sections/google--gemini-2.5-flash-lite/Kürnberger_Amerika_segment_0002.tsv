@@ -1,0 +1,384 @@
+i	token	is_section_start	gold	pred
+8195	höheres	0		
+8196	Alter	0		
+8197	erreicht	0		
+8198	,	0		
+8199	—	0		
+8200	das	0		
+8201	zu	0		
+8202	betrachten	0		
+8203	laß	0		
+8204	dir	0		(mention_id=815|references=(entity=(entity_id=2|fullname=Dr Moorfeld|gender=m)))
+8205	auf's	0		
+8206	ernstlichste	0		
+8207	angelegen	0		
+8208	sein	0		
+8209	.	0		
+8210	Es	0		
+8211	ist	0		
+8212	in	0		
+8213	der	0		
+8214	That	0		
+8215	ein	0		
+8216	größerer	0		
+8217	Reichthum	0		
+8218	,	0		
+8219	als	0		
+8220	den	0		
+8221	ein	0		
+8222	Phantast	0	(mention_id=818|references=(entity=(entity_id=generic_2466|fullname=Phantast|gender=u|specialcase_entity=generic)))	(mention_id=816|references=(entity=(entity_id=generic_0001|fullname=ein Phantast im Allgemeinen|gender=u|specialcase_entity=generic)))
+8223	im	0		
+8224	Lotto	0		
+8225	zu	0		
+8226	gewinnen	0		
+8227	,	0		
+8228	oder	0		
+8229	ein	0		
+8230	Schatzgräber	0	(mention_id=819|references=(entity=(entity_id=generic_2467|fullname=Phantast|gender=u|specialcase_entity=generic)))	(mention_id=817|references=(entity=(entity_id=generic_0002|fullname=ein Schatzgräber im Allgemeinen|gender=u|specialcase_entity=generic)))
+8231	aus	0		
+8232	der	0		
+8233	Erde	0		
+8234	zu	0		
+8235	heben	0		
+8236	hofft	0		
+8237	.	0		
+8238	“	0		
+8239	Der	0		
+8240	Mann	0	(mention_id=820|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=818|references=(entity=(entity_id=1|fullname=Benjamin Franklin|gender=m)))
+8241	nimmt	0		
+8242	das	0		
+8243	Leben	0		
+8244	ein	0		
+8245	wenig	0		
+8246	peinlich	0		
+8247	,	0		
+8248	bemerkte	0		
+8249	Dr.	0	(mention_id=821|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=819|references=(entity=(entity_id=2|fullname=Dr Moorfeld|gender=m)))
+8250	Moorfeld	0	(mention_id=821|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=819|references=(entity=(entity_id=2|fullname=Dr Moorfeld|gender=m)))
+8251	,	0		
+8252	den	0	(mention_id=822|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=820|references=(entity=(entity_id=2|fullname=Dr Moorfeld|gender=m)))
+8253	dieses	0		
+8254	Bruchstück	0		
+8255	amerikanischer	0		
+8256	Disciplin	0		
+8257	offenbar	0		
+8258	minder	0		
+8259	ansprach	0		
+8260	,	0		
+8261	als	0		
+8262	das	0		
+8263	erste	0		
+8264	.	0		
+8265	Mein	0	(mention_id=823|references=(entity=(entity_id=entity_0002|fullname=Mr. Mockingbird|gender=m)))	(mention_id=821|references=(entity=(entity_id=5|fullname=Mr Mockingbird|gender=m)))
+8266	Herr	0	(mention_id=824|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=822|references=(entity=(entity_id=5|fullname=Mr Mockingbird|gender=m)))
+8267	,	0		
+8268	es	0		
+8269	ist	0		
+8270	Benjamin	0	(mention_id=825|references=(entity=(entity_id=entity_0021|fullname=Benjamin Franklin|gender=m)))	(mention_id=823|references=(entity=(entity_id=1|fullname=Benjamin Franklin|gender=m)))
+8271	Franklin	0	(mention_id=825|references=(entity=(entity_id=entity_0021|fullname=Benjamin Franklin|gender=m)))	(mention_id=823|references=(entity=(entity_id=1|fullname=Benjamin Franklin|gender=m)))
+8272	,	0		
+8273	der	0	(mention_id=826|references=(entity=(entity_id=entity_0021|fullname=Benjamin Franklin|gender=m)))	(mention_id=824|references=(entity=(entity_id=1|fullname=Benjamin Franklin|gender=m)))
+8274	so	0		
+8275	schreibt	0		
+8276	,	0		
+8277	antwortete	0		
+8278	Mr.	0	(mention_id=827|references=(entity=(entity_id=entity_0002|fullname=Mr. Mockingbird|gender=m)))	(mention_id=825|references=(entity=(entity_id=5|fullname=Mr Mockingbird|gender=m)))
+8279	Mockingbird	0	(mention_id=827|references=(entity=(entity_id=entity_0002|fullname=Mr. Mockingbird|gender=m)))	(mention_id=825|references=(entity=(entity_id=5|fullname=Mr Mockingbird|gender=m)))
+8280	ohne	0		
+8281	alle	0		
+8282	Erörterung	0		
+8283	.	0		
+8284	Der	0		
+8285	Doctor	0	(mention_id=828|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=826|references=(entity=(entity_id=2|fullname=Dr Moorfeld|gender=m)))
+8286	hatte	0		
+8287	indeß	0		
+8288	noch	0		
+8289	Genugthuung	0		
+8290	wegen	0		
+8291	des	0		
+8292	Ausfalls	0		
+8293	auf	0		
+8294	die	0		
+8295	deutsche	0		
+8296	Metaphysik	0		
+8297	zu	0		
+8298	nehmen	0		
+8299	,	0		
+8300	dessen	0		
+8301	eigentliche	0		
+8302	Zielscheibe	0		(mention_id=827|references=(entity=(entity_id=6|fullname=Zielscheibe|gender=u|specialcase_entity=nonfact)))
+8303	er	0	(mention_id=829|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=828|references=(entity=(entity_id=2|fullname=Dr Moorfeld|gender=m)))
+8304	freilich	0		
+8305	nicht	0		
+8306	kannte	0		
+8307	.	0		
+8308	Er	0	(mention_id=830|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=829|references=(entity=(entity_id=2|fullname=Dr Moorfeld|gender=m)))
+8309	war	0		
+8310	daher	0		
+8311	nicht	0		
+8312	geneigt	0		
+8313	,	0		
+8314	dem	0		
+8315	Manne	0	(mention_id=831|references=(entity=(entity_id=entity_0002|fullname=Mr. Mockingbird|gender=m)))	(mention_id=830|references=(entity=(entity_id=1|fullname=Benjamin Franklin|gender=m)))
+8316	,	0		
+8317	der	0	(mention_id=832|references=(entity=(entity_id=entity_0002|fullname=Mr. Mockingbird|gender=m)))	(mention_id=831|references=(entity=(entity_id=1|fullname=Benjamin Franklin|gender=m)))
+8318	ihm	0	(mention_id=833|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=832|references=(entity=(entity_id=2|fullname=Dr Moorfeld|gender=m)))
+8319	das	0		
+8320	Gastrecht	0		
+8321	zuerst	0		
+8322	verletzt	0		
+8323	zu	0		
+8324	haben	0		
+8325	schien	0		
+8326	,	0		
+8327	die	0		
+8328	Parthie	0		
+8329	allzu	0		
+8330	aufopfernd	0		
+8331	zu	0		
+8332	überlassen	0		
+8333	.	0		
+8334	Und	0		
+8335	indem	0		
+8336	er	0	(mention_id=834|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=833|references=(entity=(entity_id=2|fullname=Dr Moorfeld|gender=m)))
+8337	nach	0		
+8338	Hut	0		
+8339	und	0		
+8340	Stock	0		
+8341	griff	0		
+8342	,	0		
+8343	verabschiedete	0		
+8344	er	0	(mention_id=835|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=834|references=(entity=(entity_id=2|fullname=Dr Moorfeld|gender=m)))
+8345	sich	0	(mention_id=836|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=835|references=(entity=(entity_id=2|fullname=Dr Moorfeld|gender=m)))
+8346	jetzt	0		
+8347	,	0		
+8348	zwar	0		
+8349	unter	0		
+8350	den	0		
+8351	Formen	0		
+8352	eines	0		
+8353	Gentlemans	0	(mention_id=837|references=(entity=(entity_id=generic_2468|fullname=Gentleman|gender=u|specialcase_entity=generic)))	(mention_id=836|references=(entity=(entity_id=generic_0003|fullname=ein Gentleman im Allgemeinen|gender=u|specialcase_entity=generic)))
+8354	,	0		
+8355	in	0		
+8356	Bezug	0		
+8357	auf	0		
+8358	die	0		
+8359	Antwort	0		
+8360	des	0		
+8361	Mr.	0	(mention_id=838|references=(entity=(entity_id=entity_0002|fullname=Mr. Mockingbird|gender=m)))	(mention_id=837|references=(entity=(entity_id=5|fullname=Mr Mockingbird|gender=m)))
+8362	Mockingbird	0	(mention_id=838|references=(entity=(entity_id=entity_0002|fullname=Mr. Mockingbird|gender=m)))	(mention_id=837|references=(entity=(entity_id=5|fullname=Mr Mockingbird|gender=m)))
+8363	aber	0		
+8364	erwiderte	0		
+8365	er	0	(mention_id=839|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=838|references=(entity=(entity_id=2|fullname=Dr Moorfeld|gender=m)))
+8366	dieses	0		
+8367	:	0		
+8368	Ich	0	(mention_id=840|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=839|references=(entity=(entity_id=2|fullname=Dr Moorfeld|gender=m)))
+8369	bin	0		
+8370	Ihnen	0	(mention_id=841|references=(entity=(entity_id=entity_0002|fullname=Mr. Mockingbird|gender=m)))	(mention_id=840|references=(entity=(entity_id=5|fullname=Mr Mockingbird|gender=m)))
+8371	sehr	0		
+8372	verbunden	0		
+8373	,	0		
+8374	mein	0	(mention_id=842|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=841|references=(entity=(entity_id=5|fullname=Mr Mockingbird|gender=m)))
+8375	Herr	0	(mention_id=843|references=(entity=(entity_id=entity_0002|fullname=Mr. Mockingbird|gender=m)))	(mention_id=842|references=(entity=(entity_id=5|fullname=Mr Mockingbird|gender=m)))
+8376	,	0		
+8377	daß	0		
+8378	Sie	0	(mention_id=844|references=(entity=(entity_id=entity_0002|fullname=Mr. Mockingbird|gender=m)))	(mention_id=843|references=(entity=(entity_id=2|fullname=Dr Moorfeld|gender=m)))
+8379	mir	0	(mention_id=845|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=844|references=(entity=(entity_id=2|fullname=Dr Moorfeld|gender=m)))
+8380	den	0		
+8381	geschätzten	0		
+8382	Namen	0		
+8383	eines	0		
+8384	Benjamin	0	(mention_id=846|references=(entity=(entity_id=entity_0021|fullname=Benjamin Franklin|gender=m)))	(mention_id=845|references=(entity=(entity_id=1|fullname=Benjamin Franklin|gender=m)))
+8385	Franklin	0	(mention_id=846|references=(entity=(entity_id=entity_0021|fullname=Benjamin Franklin|gender=m)))	(mention_id=845|references=(entity=(entity_id=1|fullname=Benjamin Franklin|gender=m)))
+8386	nennen	0		
+8387	.	0		
+8388	Der	0		
+8389	Mann	0	(mention_id=847|references=(entity=(entity_id=entity_0021|fullname=Benjamin Franklin|gender=m)))	(mention_id=846|references=(entity=(entity_id=1|fullname=Benjamin Franklin|gender=m)))
+8390	hat	0		
+8391	jedenfalls	0		
+8392	in	0		
+8393	der	0		
+8394	Wissenschaft	0		
+8395	noch	0		
+8396	mehr	0		
+8397	als	0		
+8398	in	0		
+8399	der	0		
+8400	Bank	0		
+8401	hinterlassen	0		
+8402	,	0		
+8403	und	0		
+8404	durch	0		
+8405	sein	0	(mention_id=848|references=(entity=(entity_id=entity_0021|fullname=Benjamin Franklin|gender=m)))	(mention_id=847|references=(entity=(entity_id=1|fullname=Benjamin Franklin|gender=m)))
+8406	eigenes	0		
+8407	Leben	0		
+8408	ein	0		
+8409	höheres	0		
+8410	Ideal	0		
+8411	aufgestellt	0		
+8412	,	0		
+8413	als	0		
+8414	welches	0		
+8415	in	0		
+8416	jener	0		
+8417	Schrift	0		
+8418	dem	0		
+8419	menschlichen	0		
+8420	Trachten	0		
+8421	zugemuthet	0		
+8422	wird	0		
+8423	.	0		
+8424	Diese	0		
+8425	Ausmünzung	0		
+8426	der	0		
+8427	menschlichen	0		
+8428	Existenz	0		
+8429	in	0		
+8430	Schillinge	0		
+8431	und	0		
+8432	Pfunde	0		
+8433	gewinnt	0		
+8434	erst	0		
+8435	durch	0		
+8436	die	0		
+8437	Erfindung	0		
+8438	des	0		
+8439	Blitzableiters	0		
+8440	den	0		
+8441	Anspruch	0		
+8442	auf	0		
+8443	unsre	0	(mention_id=849|references=(entity=(entity_id=entity_0002|fullname=Mr. Mockingbird|gender=m)),(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)),(entity=(entity_id=entity_0003|fullname=Knaben in der Schule von Mockingbird|gender=m|members=entity_0009|all_members_given=False|specialcase_entity=group)))	(mention_id=848|references=(entity=(entity_id=12|fullname=wir|gender=mf)))
+8444	Verzeihung	0		
+8445	.	0		
+8446	Ohne	0		
+8447	sie	0		
+8448	würden	0		
+8449	wir	0	(mention_id=850|references=(entity=(entity_id=entity_0002|fullname=Mr. Mockingbird|gender=m)),(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)),(entity=(entity_id=entity_0003|fullname=Knaben in der Schule von Mockingbird|gender=m|members=entity_0009|all_members_given=False|specialcase_entity=group)))	(mention_id=849|references=(entity=(entity_id=12|fullname=wir|gender=mf)))
+8450	die	0		
+8451	Doctrine	0		
+8452	eines	0		
+8453	Mannes	0	(mention_id=851|references=(entity=(entity_id=entity_0021|fullname=Benjamin Franklin|gender=m)))	(mention_id=850|references=(entity=(entity_id=8|fullname=ein Mann im Allgemeinen|gender=u)))
+8454	vor	0		
+8455	uns	0	(mention_id=852|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)),(entity=(entity_id=entity_0002|fullname=Mr. Mockingbird|gender=m)),(entity=(entity_id=entity_0003|fullname=Knaben in der Schule von Mockingbird|gender=m|members=entity_0009|all_members_given=False|specialcase_entity=group)))	(mention_id=851|references=(entity=(entity_id=12|fullname=wir|gender=mf)))
+8456	haben	0		
+8457	,	0		
+8458	der	0	(mention_id=853|references=(entity=(entity_id=entity_0021|fullname=Benjamin Franklin|gender=m)))	(mention_id=852|references=(entity=(entity_id=8|fullname=ein Mann im Allgemeinen|gender=u)))
+8459	sich	0	(mention_id=854|references=(entity=(entity_id=entity_0021|fullname=Benjamin Franklin|gender=m)))	(mention_id=853|references=(entity=(entity_id=8|fullname=ein Mann im Allgemeinen|gender=u)))
+8460	so	0		
+8461	weit	0		
+8462	vergessen	0		
+8463	hätte	0		
+8464	,	0		
+8465	unsre	0	(mention_id=855|references=(entity=(entity_id=entity_0003|fullname=Knaben in der Schule von Mockingbird|gender=m|members=entity_0009|all_members_given=False|specialcase_entity=group)),(entity=(entity_id=generic_2469|fullname=Menschen allgemein|gender=u|specialcase_entity=generic)),(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)),(entity=(entity_id=entity_0002|fullname=Mr. Mockingbird|gender=m)))	(mention_id=854|references=(entity=(entity_id=12|fullname=wir|gender=mf)))
+8466	Bestimmung	0		
+8467	dahin	0		
+8468	zu	0		
+8469	definiren	0		
+8470	:	0		
+8471	Aus	0		
+8472	dem	0		
+8473	Rinde	0		
+8474	macht	0		
+8475	man	0		
+8476	Talg	0		
+8477	,	0		
+8478	aus	0		
+8479	dem	0		
+8480	Menschen	0	(mention_id=856|references=(entity=(entity_id=generic_2470|fullname=Mensch allgemein 2|gender=u|specialcase_entity=generic)))	(mention_id=855|references=(entity=(entity_id=generic_0004|fullname=Menschen im Allgemeinen|gender=u|specialcase_entity=generic)))
+8481	Geld	0		
+8482	.	0		
+8483	Mag	0		
+8484	sein	0		
+8485	,	0		
+8486	daß	0		
+8487	ein	0		
+8488	unfertiges	0		
+8489	Volk	0	(mention_id=857|references=(entity=(entity_id=generic_2472|fullname=unfertiges Volk|gender=u|specialcase_entity=generic)))	(mention_id=856|references=(entity=(entity_id=generic_0006|fullname=ein Volk im Allgemeinen|gender=u|specialcase_entity=generic)))
+8490	eine	0		
+8491	Zeitlang	0		
+8492	auf	0		
+8493	diesen	0		
+8494	Standpunkt	0		
+8495	sich	0	(mention_id=858|references=(entity=(entity_id=generic_2473|fullname=unfertiges Volk|gender=u|specialcase_entity=generic)))	(mention_id=857|references=(entity=(entity_id=generic_0007|fullname=ein Volk im Allgemeinen|gender=u|specialcase_entity=generic)))
+8496	herabstellen	0		
+8497	muß	0		
+8498	,	0		
+8499	ein	0		
+8500	fertiges	0	(mention_id=859|references=(entity=(entity_id=generic_2474|fullname=fertiges Volk|gender=u|specialcase_entity=generic)))	
+8501	aber	0		
+8502	sagt	0		
+8503	:	0		
+8504	Geist	0		
+8505	macht	0		
+8506	man	0		
+8507	aus	0		
+8508	dem	0		
+8509	Menschen	0	(mention_id=860|references=(entity=(entity_id=generic_2471|fullname=Mensch allgemein 2|gender=u|specialcase_entity=generic)))	(mention_id=858|references=(entity=(entity_id=generic_0005|fullname=Menschen im Allgemeinen|gender=u|specialcase_entity=generic)))
+8510	,	0		
+8511	nicht	0		
+8512	Geld	0		
+8513	!	0		
+8514	Der	0		
+8515	Hilfslehrer	0	(mention_id=861|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=859|references=(entity=(entity_id=3|fullname=Hilfslehrer des Mr Mockingbird|gender=m)))
+8516	des	0		
+8517	Mr.	0	(mention_id=862|references=(entity=(entity_id=entity_0002|fullname=Mr. Mockingbird|gender=m)))	(mention_id=860|references=(entity=(entity_id=5|fullname=Mr Mockingbird|gender=m)))
+8518	Mockingbird	0	(mention_id=862|references=(entity=(entity_id=entity_0002|fullname=Mr. Mockingbird|gender=m)))	(mention_id=860|references=(entity=(entity_id=5|fullname=Mr Mockingbird|gender=m)))
+8519	,	0		
+8520	der	0	(mention_id=863|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=861|references=(entity=(entity_id=3|fullname=Hilfslehrer des Mr Mockingbird|gender=m)))
+8521	bisher	0		
+8522	ohne	0		
+8523	aufzublicken	0		
+8524	sich	0	(mention_id=864|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=862|references=(entity=(entity_id=3|fullname=Hilfslehrer des Mr Mockingbird|gender=m)))
+8525	an	0		
+8526	seine	0	(mention_id=865|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=863|references=(entity=(entity_id=3|fullname=Hilfslehrer des Mr Mockingbird|gender=m)))
+8527	Linirmaschine	0		
+8528	gehalten	0		
+8529	,	0		
+8530	legte	0		
+8531	sein	0	(mention_id=866|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=864|references=(entity=(entity_id=3|fullname=Hilfslehrer des Mr Mockingbird|gender=m)))
+8532	Handzeug	0		
+8533	jetzt	0		
+8534	hin	0		
+8535	,	0		
+8536	und	0		
+8537	machte	0		
+8538	mit	0		
+8539	Schüchternheit	0		
+8540	,	0		
+8541	wie	0		
+8542	es	0		
+8543	schien	0		
+8544	,	0		
+8545	einen	0		
+8546	Versuch	0		
+8547	,	0		
+8548	dem	0		
+8549	Fremden	0	(mention_id=867|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=865|references=(entity=(entity_id=2|fullname=Dr Moorfeld|gender=m)))
+8550	das	0		
+8551	Geleite	0		
+8552	zu	0		
+8553	geben	0		
+8554	.	0		
+8555	Unter	0		
+8556	der	0		
+8557	Thüre	0		
+8558	ergriff	0		
+8559	er	0	(mention_id=868|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=866|references=(entity=(entity_id=3|fullname=Hilfslehrer des Mr Mockingbird|gender=m)))
+8560	verstohlen	0		
+8561	die	0		
+8562	Hand	0		
+8563	desselben	0	(mention_id=869|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=867|references=(entity=(entity_id=2|fullname=Dr Moorfeld|gender=m)))
+8564	und	0		
+8565	flüsterte	0		
+8566	mit	0		
+8567	bewegter	0		
+8568	Stimme	0		
+8569	:	0		
+8570	Ich	0	(mention_id=870|references=(entity=(entity_id=entity_0012|fullname=Theodor Benthal|gender=m)))	(mention_id=868|references=(entity=(entity_id=3|fullname=Hilfslehrer des Mr Mockingbird|gender=m)))
+8571	danke	0		
+8572	Ihnen	0	(mention_id=871|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	
+8573	für	0		
+8574	dieses	0		
+8575	deutsche	0		
+8576	Wort	0		
+8577	!	0		

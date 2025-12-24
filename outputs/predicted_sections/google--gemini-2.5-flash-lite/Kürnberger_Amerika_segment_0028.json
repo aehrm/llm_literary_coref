@@ -1,0 +1,5038 @@
+{
+  "model": "google/gemini-2.5-flash-lite",
+  "request_args": {
+    "seed": 123,
+    "temperature": 0,
+    "reasoning": {
+      "enabled": false
+    },
+    "provider": {
+      "only": [
+        "google-vertex"
+      ]
+    }
+  },
+  "raw_input": "\n# Entit\u00e4tsannotation in literarischen Texten\n\n## Aufgabe\nAnnotiere JEDE markierte Entit\u00e4ts-Erw\u00e4hnung im Text. F\u00fcr jede Erw\u00e4hnung (jede Zeile im Input B) musst du das \"Annotation\"-Feld als ein Array von Objekten bef\u00fcllen. Halte dich exakt an die vorgegebenen Kernprinzipien, die Struktur und die Logik der Sonderf\u00e4lle.\n\n## Zentrales Konzept: Die Entit\u00e4t\nEine **Entit\u00e4t** ist das konzeptionelle Ding, auf das im Text verwiesen wird. F\u00fcr diese Aufgabe gibt es zwei Arten von Entit\u00e4ten:\n1.  **Einzelfigur:** Ein einzelner menschlicher oder menschen\u00e4hnlicher Charakter (dies schlie\u00dft auch hypothetische Figuren mit ein).\n2.  **Gruppe als Einheit:** Eine Gruppe, die im Text als ein zusammenh\u00e4ngender Akteur handelt ODER als eine spezifische, aber nicht in ihre Mitglieder aufgel\u00f6ste Menge von Personen erscheint (siehe \"Fall 1\" bei den Gruppenregeln).\n\n## Input\nDu erh\u00e4ltst:\n1.  Den vollst\u00e4ndigen Text (A).\n2.  Eine Liste der zu annotierenden Erw\u00e4hnungen (B) als JSON Lines. Jede Erw\u00e4hnung ist ein einzelnes Wort.\n\n## Kernprinzipien der Annotation\n1.  **Konsistenz der `entity_id`:** Die wichtigste Regel! Verwende f\u00fcr dieselbe Entit\u00e4t (egal ob Einzelfigur oder Gruppe als Einheit) \u00fcber den gesamten Text hinweg **IMMER** die exakt gleiche `entity_id`.\n2.  **Namenswahl f\u00fcr `entity_id`:**\n    -   Bei Einzelfiguren mit Eigennamen: Verwende den Vornamen.\n    -   Bei Einzelfiguren ohne Namen: Erstelle eine kurze, pr\u00e4zise, textnahe Umschreibung (z.B. \"der alte Mann\", \"die Tante\").\n    -   Bei Gruppen als Einheit (Fall 1): Verwende eine passende Gruppenbezeichnung (z.B. \"Familie Armbruster\", \"die Wachen\").\n3.  **Referenz-Logik:** Jede Erw\u00e4hnung referenziert eine oder mehrere Entit\u00e4ten. Deine Aufgabe ist es, diese im \"Annotation\"-Array vollst\u00e4ndig und korrekt abzubilden.\n\n## Attribute im Annotationsobjekt\n-   `gender`: (String, nur bei erster Nennung) `m`, `f`, `nb` (nicht-bin\u00e4r), `u` (unbekannt), `mf` (nur bei Gruppen, falls diese aus m\u00e4nnlichen und weiblichen Mitgliedern besteht).\n-   `specialcase_entity`: (**Array von Strings**, nur bei erster Nennung) Sonderf\u00e4lle, die die Natur der Entit\u00e4t beschreiben. Alle diese Attribute sind unabh\u00e4ngig voneinander und k\u00f6nnen parallel auftreten.\n    -   `nonfact`: nicht-faktische Entit\u00e4t, siehe unten.\n    -   `group`: Gruppe, siehe unten.\n    -   `generic`: Generische Entit\u00e4t, siehe unten.\n    -   Falls keine dieser Attribute zutrifft, dann setze bei der ersten Nennung `\"specialcase_entity\": []`. Beachte, dass diese in der ersten Nennung angegebenen Attribute auch f\u00fcr alle folgenden Nennungen gelten m\u00fcssen, da diese Attribute sich auf die Entit\u00e4t beziehen.\n    \n## Logik der Sonderf\u00e4lle: Eine Entscheidungshierarchie\n\n**WICHTIG:** Gehe bei jeder Erw\u00e4hnung diese Schritte in der angegebenen Reihenfolge durch. Annotiere gem\u00e4\u00df der **ersten zutreffenden Regel** und ignoriere die folgenden f\u00fcr diese eine Erw\u00e4hnung, au\u00dfer es wird explizit anders angegeben (wie bei dualen Referenzen). Die korrekte Unterscheidung von spezifischen, nicht-faktischen und generischen Entit\u00e4ten ist entscheidend.\n\n### Schritt 1: Pr\u00fcfung auf spezifische Referenz (H\u00f6chste Priorit\u00e4t)\n*Frage dich:* Kann diese Erw\u00e4hnung auf eine **konkrete, bereits bekannte Figur** im Text zur\u00fcckgef\u00fchrt werden, selbst wenn ein allgemeiner Begriff (wie \"der Mann\", \"der Schuldige\"), ein Reflexivpronomen (\"sich\") oder das unpers\u00f6nliche Pronomen \"man\" verwendet wird?\n-   **Typischer Fall:** Eine Figur spricht \u00fcber sich selbst oder eine andere Figur in verallgemeinernder Weise.\n-   **Beispiel 1:** Hans reflektiert \u00fcber seine eigene Schuld und sagt: \"...zeigt sich **dem Schuldigen** wie eine strenge Richterin\". Hier ist \"dem Schuldigen\" **keine** generische Entit\u00e4t, sondern eine Referenz auf `Hans`.\n-   **Beispiel 2:** Eine Figur sagt \"wenn **man** glaubte...\". Pr\u00fcfe scharf, ob `man` hier nicht f\u00fcr \"ich\" (also die sprechende Figur) steht. \n-   **Anweisung:** Wenn ja, l\u00f6se die Koreferenz zur spezifischen Figur auf. Diese Entit\u00e4t ist **NICHT `generic` und NICHT `nonfact`**.\n\n### Schritt 2: Pr\u00fcfung auf nicht-faktische Entit\u00e4t (Mittlere Priorit\u00e4t)\n*Frage dich:* Wenn die Erw\u00e4hnung sich nicht auf eine bekannte Figur bezieht, handelt es sich dann um eine **hypothetische, gew\u00fcnschte, negierte oder als Beispiel genannte Einzelfigur oder eine kleine, definierte Gruppe?** Existiert diese Entit\u00e4t zum Zeitpunkt der Erw\u00e4hnung nicht *real* in der erz\u00e4hlten Welt, wird aber als individuelles Konzept behandelt?\n-   **Typischer Fall:** Gedankenexperimente, W\u00fcnsche, Pl\u00e4ne, Warnungen.\n-   **Beispiel 1:** \"Anna w\u00fcnschte sich eine **Tochter**\". Diese Tochter existiert nicht, ist aber eine hypothetische Einzelperson. -> `specialcase_entity: [\"nonfact\"]`.\n-   **Beispiel 2:** In einem philosophischen Dialog wird gesagt: \"was w\u00fcrde ein **Grieche**... einem **Chineser** antworten?\". Diese Personen sind keine allgemeinen Kategorien, sondern **hypothetische Beispiele** in einer Argumentation. -> `specialcase_entity: [\"nonfact\"]`.\n-   **Anweisung:** Wenn ja, erstelle eine neue Entit\u00e4t und f\u00fcge `\"nonfact\"` zum `specialcase_entity`-Array hinzu. Diese Entit\u00e4t ist **NICHT `generic`**.\n\n### Schritt 3: Pr\u00fcfung auf generische Entit\u00e4t (Niedrigste Priorit\u00e4t)\n*Frage dich:* Nur wenn Schritt 1 und 2 NICHT zutreffen: Bezieht sich die Erw\u00e4hnung auf eine **abstrakte Kategorie von Menschen** oder wird eine allgemeing\u00fcltige, gesetzm\u00e4\u00dfige Aussage \u00fcber eine Art von Mensch gemacht? L\u00e4sst sich die Entit\u00e4t als \"XXX im Allgemeinen\" beschreiben, ohne dass sie ein spezifisches oder hypothetisches Individuum im Kontext meint?\n-   **Typischer Fall:** Sentenzen, allgemeine Aussagen, die sich nicht auf den unmittelbaren Kontext zur\u00fcckf\u00fchren lassen.\n-   **Beispiel:** \"Ein **K\u00f6nig** muss stets gerecht sein.\" (Wenn dies als allgemeine Regel und nicht bezogen auf einen bestimmten K\u00f6nig gesagt wird).\n-   **Anweisung:** Nur in diesem Fall, f\u00fcge `\"generic\"` zum `specialcase_entity`-Array hinzu. Der Name der Entit\u00e4t muss von der Form \"XXX im Allgemeinen\" sein.\n\n### Sonderfall: Duale Referenz (Generisch + Spezifisch)\n*Frage dich:* Spricht eine Figur eine allgemeine Gruppe an (\"ihr Frauen\", \"ihr Elenden\"), meint damit aber **gleichzeitig** und erkennbar auch eine **spezifische Figur** im Raum?\n-   **Typischer Fall:** Eine Apostrophe (Anrede), die eine allgemeine Aussage mit einer direkten, pers\u00f6nlichen Ansprache verbindet.\n-   **Beispiel:** Gustav sagt zu Sophie: \"**Ihr** ungl\u00fccklichen **Weiber**! wie k\u00f6nnt **ihr** so th\u00f6richt seyn...\".\n-   **Anweisung:** In diesem seltenen Fall soll die Erw\u00e4hnung **mehrere Annotationsobjekte** im Array erhalten, da es sich um eine Gruppe von Fall 2 handelt: Eines f\u00fcr die generische Entit\u00e4t (\"Weiber im Allgemeinen\") und eines f\u00fcr jede spezifische Figur, die mitgemeint ist (hier: \"Sophie\").\n\n### Handhabung von Gruppen\n\n**Fall 1: Gruppe als Einheit (Eine Annotation)**\n-   **Logik:** Erw\u00e4hnungen im Plural, die sich auf eine **konkrete, aber anonyme oder nicht weiter aufgeschl\u00fcsselte Menge von Personen** in der Welt der Erz\u00e4hlung beziehen. Auch wenn die Mitglieder unbekannt sind, ist es eine spezifische Gruppe im Text. *Beispiele: \"meine Freunde\", \"die P\u00e4chter\", \"die Wachen am Tor\".*\n-   **Umsetzung:** Das `Annotation`-Array enth\u00e4lt **ein einziges Objekt**.\n    -   Dieses Objekt bekommt eine eigene Gruppen-`entity_id` (z.B. \"manche t\u00e4tige Freunde\").\n    -   Bei ihrer ersten Nennung, setze `specialcase_entity: [\"group\"]`.\n\n**Fall 2: Aufl\u00f6sbare Gruppe (Mehrere Annotationen)**\n-   **Logik:** Die Erw\u00e4hnung (oft ein Pronomen wie \"sie\", \"ihnen\" oder \"beide\") verweist klar auf **mehrere, individuelle Entit\u00e4ten, die im unmittelbaren Kontext bekannt sind**.\n-   **Umsetzung:** Das `Annotation`-Array enth\u00e4lt **mehrere Objekte**, eines f\u00fcr jede referenzierte Entit\u00e4t.\n    -   Jedes Objekt enth\u00e4lt die `entity_id` des jeweiligen Mitglieds.\n    -   Erfinde keine neuen Einzelfiguren. Wenn die Mitglieder nicht klar aus dem Kontext hervorgehen, ist es Fall 1.\n    - Beachte, dass in diesem Fall das Feld \"Annotation\" aus mehreren Objekten besteht. Auf keinen Fall darf das Feld \"entity_id\" aus einer Liste von Namen bestehen.\n\n## Ausgabeformat\n-   Gib EXAKT so viele Zeilen aus, wie Du im Input (B) erhalten hast. KEINE Zeilen \u00fcberspringen.\n-   Das Format ist JSON Lines (ein komplettes und valides JSON-Objekt pro Zeile).\n-   Gib NUR die aktualisierte Liste B zur\u00fcck.\n-   Keine Code-Fences, Kommentare oder Erkl\u00e4rungen in der Ausgabe.\n\n## Beispiele\n\n**Beispiel-Text:**\n[Hans][1] und [Anna][2] sa\u00dfen im Garten. [Sie][3] w\u00fcnschte [sich][4] eine [Tochter][5]. [Hans][6] stellte [sich][7] vor, dass ein [K\u00f6nig][8] stets gerecht sein muss. Sp\u00e4ter gingen [sie][9] gemeinsam ins Haus.\n\n**Input B:**\n{\"ID\": 1, \"Position\": 0, \"Text\": \"Hans\", \"Annotation\": []}\n{\"ID\": 2, \"Position\": 2, \"Text\": \"Anna\", \"Annotation\": []}\n{\"ID\": 3, \"Position\": 7, \"Text\": \"Sie\", \"Annotation\": []}\n{\"ID\": 4, \"Position\": 9, \"Text\": \"sich\", \"Annotation\": []}\n{\"ID\": 5, \"Position\": 11, \"Text\": \"Tochter\", \"Annotation\": []}\n{\"ID\": 6, \"Position\": 14, \"Text\": \"Hans\", \"Annotation\": []}\n{\"ID\": 7, \"Position\": 16, \"Text\": \"sich\", \"Annotation\": []}\n{\"ID\": 8, \"Position\": 21, \"Text\": \"K\u00f6nig\", \"Annotation\": []}\n{\"ID\": 9, \"Position\": 30, \"Text\": \"sie\", \"Annotation\": []}\n\n**Erwartete Ausgabe:**\n{\"ID\": 1, \"Position\": 0, \"Text\": \"Hans\", \"Annotation\": [{\"entity_id\": \"Hans\", \"gender\": \"m\"}]}\n{\"ID\": 2, \"Position\": 2, \"Text\": \"Anna\", \"Annotation\": [{\"entity_id\": \"Anna\", \"gender\": \"f\"}]}\n{\"ID\": 3, \"Position\": 7, \"Text\": \"Sie\", \"Annotation\": [{\"entity_id\": \"Anna\"}]}\n{\"ID\": 4, \"Position\": 9, \"Text\": \"sich\", \"Annotation\": [{\"entity_id\": \"Anna\"}]}\n{\"ID\": 5, \"Position\": 11, \"Text\": \"Tochter\", \"Annotation\": [{\"entity_id\": \"gew\u00fcnschte Tochter\", \"gender\": \"f\", \"specialcase_entity\": [\"nonfact\"]}]}\n{\"ID\": 6, \"Position\": 14, \"Text\": \"Hans\", \"Annotation\": [{\"entity_id\": \"Hans\"}]}\n{\"ID\": 7, \"Position\": 16, \"Text\": \"sich\", \"Annotation\": [{\"entity_id\": \"Hans\"}]}\n{\"ID\": 8, \"Position\": 21, \"Text\": \"K\u00f6nig\", \"Annotation\": [{\"entity_id\": \"ein K\u00f6nig im Allgemeinen\", \"gender\": \"m\", \"specialcase_entity\": [\"generic\"]}]}\n{\"ID\": 9, \"Position\": 30, \"Text\": \"sie\", \"Annotation\": [{\"entity_id\": \"Hans\"}, {\"entity_id\": \"Anna\"}]}\n\n---\n\n**Hier ist der zu annotierende Text:**\nInput A:\njetzt die Stimme : [Jesus][1] komm herab ! aber die umgebende [Menge][2] verhielt [sich][3] schweigend . [Hoby][4] , der [Stra\u00dfenjunge][5] , war zum Mittelpunkte der Andacht geworden . \u2014 [Ich][6] merke , [er][7] sitzt auf dem \u201e Angststuhl \u201c sagte [Doctor Althof][8] \u2014 bitte , [Poll][9] , reichen [Sie][10] [mir][11] das Besteck , wenn [ich][12] etwa eine Ader schlagen m\u00fc\u00dfte . Erschrocken machte [ich][13] Fragen , aber [Althof][14] antwortete : [Wir][15] werden sehen , [mein][16] [Herr][17] . [Er][18] und der studen tische [Poll][19] betrugen [sich][20] auf einmal knapp und gemessen . Unter den [Amerikanern][21] nahmen [sie][22] [ihre][23] amerikanische Miene vor . [Wir][24] dr\u00e4ngten [uns][25] aus der Pheripherie des Menschenkn\u00e4uels muthig ins Centrum durch . Die Scene hier war folgende . [Hoby][26] sa\u00df in der That auf einem niedern Stuhl , nach der vorigen Aeu\u00dferung , dem Angststuhl . Der [Prediger][27] und [sein][28] [Gehilfe][29] standen [ihm][30] links und rechts zur Seite und hielten , oder vielmehr r\u00fcttelten und sch\u00fcttelten [ihn][31] wie ein Sieb , um [seine][32] wunderth\u00e4tigen Circulationen zu bef\u00f6rdern . [Er][33] lag oder streckte [sich][34] in [ihren][35] Armen , und that , zwischen den Ausrufungen an [Jesu][36] , [seine][37] Wiederbelebungsbeichte . [Ich][38] habe gestohlen \u2014 [Jesus][39] komm herab ! [ich][40] war unz\u00fcchtig \u2014 [Jesus][41] komm herab ! \u2014 [ich][42] entweihte den Sabbath \u2014 [Jesus][43] komm herab ! u. s. w. So oft [er][44] eine S\u00fcnde nannte , stie\u00df [er][45] heftig mit dem Bein , gleichsam unter Fu\u00dftritten sie verabschiedend ; bei der Formel : [Jesus][46] komm herab ! fuhr [er][47] dagegen mit der Hand in die Luft , wie [Macbeth][48] der nach dem Dolche hascht . Diese Geberden l\u00f6sten sich fast canonisch-regelm\u00e4\u00dfig einander ab : es sah aus wie Maschinenarbeit , wie Drahtpuppenbewegung . Ein \u00e4hnliches Man\u00f6ver wiederholte [er][49] mit der Stimme . Das Bekenntni\u00df einer S\u00fcnde st\u00f6hnte [er][50] dumpf und r\u00f6chelnd wie ein [Sterbender][51] , den Refrain : [Jesus][52] komm herab ! stie\u00df [er][53] gellend heraus wie im aufschreienden Schmerzgef\u00fchl . Dabei athmete [sein][54] heiserer , offen stehender Schlund kurz und lechzend , [seine][55] Augen rollten wild , [sein][56] Gesicht war aufgedunsen , verdummt und verquollen , Schwei\u00df und Schaum bedeckte es reichlich . Die [Umstehenden][57] blickten mit gro\u00dfer Andacht auf dieses Bild des Abscheu' s. [Ich][58] wendete geekelt das Auge davon . W\u00e4re es m\u00f6glich gewesen , das dichte Gedr\u00e4nge von [Menschen][59] zu durchpirschen wie ein Walddickicht , so h\u00e4tte [ich][60] sogleich die [Familie Ermar][61] aufgesucht . [Ich][62] brannte vor Ungeduld [mich][63] zu \u00fcberzeugen , da\u00df [ihre][64] deutsche Natur entweder selbst schon abgeschreckt sei , oder mindestens [meine][65] Sorge f\u00fcr [Annette][66] guthei\u00dfe . Zuf\u00e4llig standen [sie][67] [mir][68] n\u00e4her als [ich][69] ahnte . Indem [ich][70] den Kreis \u00fcberblickte , sah [ich][71] [Vater][72] , [Mutter][73] und [Kind][74] an einem [mir][75] entgegengesetzten Punkte des Cirkels in den vordersten Reihen stehen . [Annette][76] hielt [sich][77] [ihr][78] Taschentuch vor die Augen , weil [ihr][79] die Sonne grell in's Gesicht schien , oder um [sich][80] vor dem barbarischen Schauspiele der Wiederbelebung zu sch\u00fctzen . [Ich][81] mochte gerne das Letztere glauben . Die [Mutter][82] stand etwas zur\u00fcck , [ich][83] sah nur [ihre][84] vorgestreckten H\u00e4nde auf [Annettens][85] Schultern ruhen . [Ich][86] suchte [mich][87] zu n\u00e4hern . [Ich][88] r\u00fcckte sachte aber best\u00e4ndig von [meinem][89] Platz dem [ihrigen][90] zu . Von Zeit zu Zeit gab [ich][91] Winke [meines][92] Daseins . Endlich wurde [ich][93] bemerkt . [Annette][94] fuhr bei [meinem][95] Anblick freudevoll auf , [sie][96] sprang aus der Reihe und rief [mir][97] voll Selbstvergessenheit zu : Ach , [Herr Bruder][98] , la\u00df [uns][99] gehn ! [Ich][100] erschrack nicht wenig . Fern , wie [ich][101] noch war , gab [ich][102] [ihr][103] ein Zeichen der Beschwichtigung . Aber das Ungl\u00fcck packte [sie][104] schnell . Der schwarze [Prediger][105] warf [sich][106] [ihr][107] entgegen und donnerte [sie][108] an : Halt , junge [S\u00fcnderin][109] , wohin ? Warum willst [du][110] fort ? Steh und verantworte [dich][111] : Bist [du][112] f\u00fcr [Gott][113] oder f\u00fcr den Teufel ? [Annette][114] bebte zusammen . [Sie][115] wurde brennend roth , schlug das Auge nieder , zitterte heftig und antwortete wie ein erschrockenes [Kind][116] : mit Thr\u00e4nen . Das sinnloseste aller Thiere hielt diese Stummheit f\u00fcr Verstocktheit . Schreib sie in das Buch des Teufels ! br\u00fcllte der [Pfaff][117] [seinem][118] [Schreiber][119] zu . Da fuhr [sich][120] das [M\u00e4dchen][121] an die Stirne , ein durchdringender Schrei , ein Ri\u00df durch alle Gesichtsmuskeln , [sie][122] st\u00fcrzte zu Boden . [Man][123] sagte [mir][124] , [ich][125] habe wie eine Tigerkatze an der Kehle des [Methodisten][126] gehangen , und zwei [Parteien][127] haben [mich][128] wechselweise besch\u00fctzt und gepr\u00fcgelt . [Ich][129] kam wieder zur Besinnung ; [Annette][130] nicht mehr . Der Schlag hat [ihr][131] Gehirn gel\u00e4hmt ; [sie][132] delirirt . Man will das ungl\u00fcckliche [Kind][133] in das Irrenhaus zu Columbus bringen . Das Irrenhaus zu Columbus hat eine Fa\u00e7ade von S\u00e4ulen und Pilastern , eine pr\u00e4chtige Marmorbekleidung und ist , wie alle Narren- und Zuchth\u00e4user dieses Landes , das sch\u00f6nste Geb\u00e4ude seiner Stadt . Wenn [dich][134] der [Dircetor][135] darin herumf\u00fchrt , so wird [er][136] [sein][137] respectvollstes Nationalgesicht vorlegen , und in [seinem][138] langweiligen Englisch feierlich peroriren : Dieses Haus ist errichtet worden und ausgestattet von den Beitr\u00e4gen gro\u00dfm\u00fcthiger [B\u00fcrger][139] des Staates Ohio zum Heile [derjenigen][140] [unserer][141] leidenden [Mitchristen][142] , [welchen][143] der g\u00f6ttliche Rathschlu\u00df die Gesundheit des Geistes entbehren l\u00e4\u00dft . Es enth\u00e4lt dreihundert Wohnungen , Bets\u00e4le , Leses\u00e4le , Badesalons und einen Garten von f\u00fcnfzig Acre Landes . Es wird \u00e4rztlich geleitet von dem sehr ehrenwerthen [Herrn Doctor Jehadiah Bykbookbeaker][144] , die Kosten [seines][145] j\u00e4hrlichen Unterhalts betragen die Summe von hunderttausend Dollars . Die Einrichtungen und Zust\u00e4nde der Anstalt sind solche , welche den Fortschritten der Wissenschaft , der Bl\u00fcthe des Staates Ohio , dem Ruhme [unsrer][146] gro\u00dfen und erleuchteten Nation in allen Theilen entsprechen . [Unsre][147] Wohlth\u00e4tigkeitsanstalten sind der Stolz [unsers][148] Landes . Aber wie sie sich f\u00fcllen , sagt [er][149] nicht .\n\nInput B:\n{\"ID\": 1, \"Position\": 4, \"Text\": \"Jesus\", \"Annotation\": []}\n{\"ID\": 2, \"Position\": 11, \"Text\": \"Menge\", \"Annotation\": []}\n{\"ID\": 3, \"Position\": 13, \"Text\": \"sich\", \"Annotation\": []}\n{\"ID\": 4, \"Position\": 16, \"Text\": \"Hoby\", \"Annotation\": []}\n{\"ID\": 5, \"Position\": 19, \"Text\": \"Stra\\u00dfenjunge\", \"Annotation\": []}\n{\"ID\": 6, \"Position\": 29, \"Text\": \"Ich\", \"Annotation\": []}\n{\"ID\": 7, \"Position\": 32, \"Text\": \"er\", \"Annotation\": []}\n{\"ID\": 8, \"Position\": 40, \"Text\": \"Doctor Althof\", \"Annotation\": []}\n{\"ID\": 9, \"Position\": 45, \"Text\": \"Poll\", \"Annotation\": []}\n{\"ID\": 10, \"Position\": 48, \"Text\": \"Sie\", \"Annotation\": []}\n{\"ID\": 11, \"Position\": 49, \"Text\": \"mir\", \"Annotation\": []}\n{\"ID\": 12, \"Position\": 54, \"Text\": \"ich\", \"Annotation\": []}\n{\"ID\": 13, \"Position\": 63, \"Text\": \"ich\", \"Annotation\": []}\n{\"ID\": 14, \"Position\": 67, \"Text\": \"Althof\", \"Annotation\": []}\n{\"ID\": 15, \"Position\": 70, \"Text\": \"Wir\", \"Annotation\": []}\n{\"ID\": 16, \"Position\": 74, \"Text\": \"mein\", \"Annotation\": []}\n{\"ID\": 17, \"Position\": 75, \"Text\": \"Herr\", \"Annotation\": []}\n{\"ID\": 18, \"Position\": 77, \"Text\": \"Er\", \"Annotation\": []}\n{\"ID\": 19, \"Position\": 82, \"Text\": \"Poll\", \"Annotation\": []}\n{\"ID\": 20, \"Position\": 84, \"Text\": \"sich\", \"Annotation\": []}\n{\"ID\": 21, \"Position\": 93, \"Text\": \"Amerikanern\", \"Annotation\": []}\n{\"ID\": 22, \"Position\": 95, \"Text\": \"sie\", \"Annotation\": []}\n{\"ID\": 23, \"Position\": 96, \"Text\": \"ihre\", \"Annotation\": []}\n{\"ID\": 24, \"Position\": 101, \"Text\": \"Wir\", \"Annotation\": []}\n{\"ID\": 25, \"Position\": 103, \"Text\": \"uns\", \"Annotation\": []}\n{\"ID\": 26, \"Position\": 120, \"Text\": \"Hoby\", \"Annotation\": []}\n{\"ID\": 27, \"Position\": 139, \"Text\": \"Prediger\", \"Annotation\": []}\n{\"ID\": 28, \"Position\": 141, \"Text\": \"sein\", \"Annotation\": []}\n{\"ID\": 29, \"Position\": 142, \"Text\": \"Gehilfe\", \"Annotation\": []}\n{\"ID\": 30, \"Position\": 144, \"Text\": \"ihm\", \"Annotation\": []}\n{\"ID\": 31, \"Position\": 158, \"Text\": \"ihn\", \"Annotation\": []}\n{\"ID\": 32, \"Position\": 164, \"Text\": \"seine\", \"Annotation\": []}\n{\"ID\": 33, \"Position\": 170, \"Text\": \"Er\", \"Annotation\": []}\n{\"ID\": 34, \"Position\": 174, \"Text\": \"sich\", \"Annotation\": []}\n{\"ID\": 35, \"Position\": 176, \"Text\": \"ihren\", \"Annotation\": []}\n{\"ID\": 36, \"Position\": 186, \"Text\": \"Jesu\", \"Annotation\": []}\n{\"ID\": 37, \"Position\": 188, \"Text\": \"seine\", \"Annotation\": []}\n{\"ID\": 38, \"Position\": 191, \"Text\": \"Ich\", \"Annotation\": []}\n{\"ID\": 39, \"Position\": 195, \"Text\": \"Jesus\", \"Annotation\": []}\n{\"ID\": 40, \"Position\": 199, \"Text\": \"ich\", \"Annotation\": []}\n{\"ID\": 41, \"Position\": 203, \"Text\": \"Jesus\", \"Annotation\": []}\n{\"ID\": 42, \"Position\": 208, \"Text\": \"ich\", \"Annotation\": []}\n{\"ID\": 43, \"Position\": 213, \"Text\": \"Jesus\", \"Annotation\": []}\n{\"ID\": 44, \"Position\": 222, \"Text\": \"er\", \"Annotation\": []}\n{\"ID\": 45, \"Position\": 228, \"Text\": \"er\", \"Annotation\": []}\n{\"ID\": 46, \"Position\": 244, \"Text\": \"Jesus\", \"Annotation\": []}\n{\"ID\": 47, \"Position\": 249, \"Text\": \"er\", \"Annotation\": []}\n{\"ID\": 48, \"Position\": 259, \"Text\": \"Macbeth\", \"Annotation\": []}\n{\"ID\": 49, \"Position\": 288, \"Text\": \"er\", \"Annotation\": []}\n{\"ID\": 50, \"Position\": 298, \"Text\": \"er\", \"Annotation\": []}\n{\"ID\": 51, \"Position\": 304, \"Text\": \"Sterbender\", \"Annotation\": []}\n{\"ID\": 52, \"Position\": 309, \"Text\": \"Jesus\", \"Annotation\": []}\n{\"ID\": 53, \"Position\": 314, \"Text\": \"er\", \"Annotation\": []}\n{\"ID\": 54, \"Position\": 324, \"Text\": \"sein\", \"Annotation\": []}\n{\"ID\": 55, \"Position\": 334, \"Text\": \"seine\", \"Annotation\": []}\n{\"ID\": 56, \"Position\": 339, \"Text\": \"sein\", \"Annotation\": []}\n{\"ID\": 57, \"Position\": 356, \"Text\": \"Umstehenden\", \"Annotation\": []}\n{\"ID\": 58, \"Position\": 367, \"Text\": \"Ich\", \"Annotation\": []}\n{\"ID\": 59, \"Position\": 383, \"Text\": \"Menschen\", \"Annotation\": []}\n{\"ID\": 60, \"Position\": 392, \"Text\": \"ich\", \"Annotation\": []}\n{\"ID\": 61, \"Position\": 395, \"Text\": \"Familie Ermar\", \"Annotation\": []}\n{\"ID\": 62, \"Position\": 399, \"Text\": \"Ich\", \"Annotation\": []}\n{\"ID\": 63, \"Position\": 403, \"Text\": \"mich\", \"Annotation\": []}\n{\"ID\": 64, \"Position\": 408, \"Text\": \"ihre\", \"Annotation\": []}\n{\"ID\": 65, \"Position\": 419, \"Text\": \"meine\", \"Annotation\": []}\n{\"ID\": 66, \"Position\": 422, \"Text\": \"Annette\", \"Annotation\": []}\n{\"ID\": 67, \"Position\": 427, \"Text\": \"sie\", \"Annotation\": []}\n{\"ID\": 68, \"Position\": 428, \"Text\": \"mir\", \"Annotation\": []}\n{\"ID\": 69, \"Position\": 431, \"Text\": \"ich\", \"Annotation\": []}\n{\"ID\": 70, \"Position\": 435, \"Text\": \"ich\", \"Annotation\": []}\n{\"ID\": 71, \"Position\": 441, \"Text\": \"ich\", \"Annotation\": []}\n{\"ID\": 72, \"Position\": 442, \"Text\": \"Vater\", \"Annotation\": []}\n{\"ID\": 73, \"Position\": 444, \"Text\": \"Mutter\", \"Annotation\": []}\n{\"ID\": 74, \"Position\": 446, \"Text\": \"Kind\", \"Annotation\": []}\n{\"ID\": 75, \"Position\": 449, \"Text\": \"mir\", \"Annotation\": []}\n{\"ID\": 76, \"Position\": 460, \"Text\": \"Annette\", \"Annotation\": []}\n{\"ID\": 77, \"Position\": 462, \"Text\": \"sich\", \"Annotation\": []}\n{\"ID\": 78, \"Position\": 463, \"Text\": \"ihr\", \"Annotation\": []}\n{\"ID\": 79, \"Position\": 470, \"Text\": \"ihr\", \"Annotation\": []}\n{\"ID\": 80, \"Position\": 480, \"Text\": \"sich\", \"Annotation\": []}\n{\"ID\": 81, \"Position\": 490, \"Text\": \"Ich\", \"Annotation\": []}\n{\"ID\": 82, \"Position\": 498, \"Text\": \"Mutter\", \"Annotation\": []}\n{\"ID\": 83, \"Position\": 503, \"Text\": \"ich\", \"Annotation\": []}\n{\"ID\": 84, \"Position\": 506, \"Text\": \"ihre\", \"Annotation\": []}\n{\"ID\": 85, \"Position\": 510, \"Text\": \"Annettens\", \"Annotation\": []}\n{\"ID\": 86, \"Position\": 514, \"Text\": \"Ich\", \"Annotation\": []}\n{\"ID\": 87, \"Position\": 516, \"Text\": \"mich\", \"Annotation\": []}\n{\"ID\": 88, \"Position\": 520, \"Text\": \"Ich\", \"Annotation\": []}\n{\"ID\": 89, \"Position\": 526, \"Text\": \"meinem\", \"Annotation\": []}\n{\"ID\": 90, \"Position\": 529, \"Text\": \"ihrigen\", \"Annotation\": []}\n{\"ID\": 91, \"Position\": 537, \"Text\": \"ich\", \"Annotation\": []}\n{\"ID\": 92, \"Position\": 539, \"Text\": \"meines\", \"Annotation\": []}\n{\"ID\": 93, \"Position\": 544, \"Text\": \"ich\", \"Annotation\": []}\n{\"ID\": 94, \"Position\": 547, \"Text\": \"Annette\", \"Annotation\": []}\n{\"ID\": 95, \"Position\": 550, \"Text\": \"meinem\", \"Annotation\": []}\n{\"ID\": 96, \"Position\": 555, \"Text\": \"sie\", \"Annotation\": []}\n{\"ID\": 97, \"Position\": 562, \"Text\": \"mir\", \"Annotation\": []}\n{\"ID\": 98, \"Position\": 569, \"Text\": \"Herr Bruder\", \"Annotation\": []}\n{\"ID\": 99, \"Position\": 573, \"Text\": \"uns\", \"Annotation\": []}\n{\"ID\": 100, \"Position\": 576, \"Text\": \"Ich\", \"Annotation\": []}\n{\"ID\": 101, \"Position\": 584, \"Text\": \"ich\", \"Annotation\": []}\n{\"ID\": 102, \"Position\": 589, \"Text\": \"ich\", \"Annotation\": []}\n{\"ID\": 103, \"Position\": 590, \"Text\": \"ihr\", \"Annotation\": []}\n{\"ID\": 104, \"Position\": 600, \"Text\": \"sie\", \"Annotation\": []}\n{\"ID\": 105, \"Position\": 605, \"Text\": \"Prediger\", \"Annotation\": []}\n{\"ID\": 106, \"Position\": 607, \"Text\": \"sich\", \"Annotation\": []}\n{\"ID\": 107, \"Position\": 608, \"Text\": \"ihr\", \"Annotation\": []}\n{\"ID\": 108, \"Position\": 612, \"Text\": \"sie\", \"Annotation\": []}\n{\"ID\": 109, \"Position\": 618, \"Text\": \"S\\u00fcnderin\", \"Annotation\": []}\n{\"ID\": 110, \"Position\": 624, \"Text\": \"du\", \"Annotation\": []}\n{\"ID\": 111, \"Position\": 630, \"Text\": \"dich\", \"Annotation\": []}\n{\"ID\": 112, \"Position\": 633, \"Text\": \"du\", \"Annotation\": []}\n{\"ID\": 113, \"Position\": 635, \"Text\": \"Gott\", \"Annotation\": []}\n{\"ID\": 114, \"Position\": 641, \"Text\": \"Annette\", \"Annotation\": []}\n{\"ID\": 115, \"Position\": 645, \"Text\": \"Sie\", \"Annotation\": []}\n{\"ID\": 116, \"Position\": 662, \"Text\": \"Kind\", \"Annotation\": []}\n{\"ID\": 117, \"Position\": 687, \"Text\": \"Pfaff\", \"Annotation\": []}\n{\"ID\": 118, \"Position\": 688, \"Text\": \"seinem\", \"Annotation\": []}\n{\"ID\": 119, \"Position\": 689, \"Text\": \"Schreiber\", \"Annotation\": []}\n{\"ID\": 120, \"Position\": 694, \"Text\": \"sich\", \"Annotation\": []}\n{\"ID\": 121, \"Position\": 696, \"Text\": \"M\\u00e4dchen\", \"Annotation\": []}\n{\"ID\": 122, \"Position\": 711, \"Text\": \"sie\", \"Annotation\": []}\n{\"ID\": 123, \"Position\": 716, \"Text\": \"Man\", \"Annotation\": []}\n{\"ID\": 124, \"Position\": 718, \"Text\": \"mir\", \"Annotation\": []}\n{\"ID\": 125, \"Position\": 720, \"Text\": \"ich\", \"Annotation\": []}\n{\"ID\": 126, \"Position\": 729, \"Text\": \"Methodisten\", \"Annotation\": []}\n{\"ID\": 127, \"Position\": 734, \"Text\": \"Parteien\", \"Annotation\": []}\n{\"ID\": 128, \"Position\": 736, \"Text\": \"mich\", \"Annotation\": []}\n{\"ID\": 129, \"Position\": 742, \"Text\": \"Ich\", \"Annotation\": []}\n{\"ID\": 130, \"Position\": 748, \"Text\": \"Annette\", \"Annotation\": []}\n{\"ID\": 131, \"Position\": 755, \"Text\": \"ihr\", \"Annotation\": []}\n{\"ID\": 132, \"Position\": 759, \"Text\": \"sie\", \"Annotation\": []}\n{\"ID\": 133, \"Position\": 766, \"Text\": \"Kind\", \"Annotation\": []}\n{\"ID\": 134, \"Position\": 807, \"Text\": \"dich\", \"Annotation\": []}\n{\"ID\": 135, \"Position\": 809, \"Text\": \"Dircetor\", \"Annotation\": []}\n{\"ID\": 136, \"Position\": 815, \"Text\": \"er\", \"Annotation\": []}\n{\"ID\": 137, \"Position\": 816, \"Text\": \"sein\", \"Annotation\": []}\n{\"ID\": 138, \"Position\": 823, \"Text\": \"seinem\", \"Annotation\": []}\n{\"ID\": 139, \"Position\": 840, \"Text\": \"B\\u00fcrger\", \"Annotation\": []}\n{\"ID\": 140, \"Position\": 846, \"Text\": \"derjenigen\", \"Annotation\": []}\n{\"ID\": 141, \"Position\": 847, \"Text\": \"unserer\", \"Annotation\": []}\n{\"ID\": 142, \"Position\": 849, \"Text\": \"Mitchristen\", \"Annotation\": []}\n{\"ID\": 143, \"Position\": 851, \"Text\": \"welchen\", \"Annotation\": []}\n{\"ID\": 144, \"Position\": 888, \"Text\": \"Herrn Doctor Jehadiah Bykbookbeaker\", \"Annotation\": []}\n{\"ID\": 145, \"Position\": 895, \"Text\": \"seines\", \"Annotation\": []}\n{\"ID\": 146, \"Position\": 928, \"Text\": \"unsrer\", \"Annotation\": []}\n{\"ID\": 147, \"Position\": 938, \"Text\": \"Unsre\", \"Annotation\": []}\n{\"ID\": 148, \"Position\": 943, \"Text\": \"unsers\", \"Annotation\": []}\n{\"ID\": 149, \"Position\": 953, \"Text\": \"er\", \"Annotation\": []}\n",
+  "raw_output": "{\"ID\": 1, \"Position\": 4, \"Text\": \"Jesus\", \"Annotation\": [{\"entity_id\": \"Jesus\", \"gender\": \"m\"}]}\n{\"ID\": 2, \"Position\": 11, \"Text\": \"Menge\", \"Annotation\": [{\"entity_id\": \"die Menge\", \"specialcase_entity\": [\"group\"]}]}\n{\"ID\": 3, \"Position\": 13, \"Text\": \"sich\", \"Annotation\": [{\"entity_id\": \"die Menge\"}]}\n{\"ID\": 4, \"Position\": 16, \"Text\": \"Hoby\", \"Annotation\": [{\"entity_id\": \"Hoby\", \"gender\": \"m\"}]}\n{\"ID\": 5, \"Position\": 19, \"Text\": \"Stra\\u00dfenjunge\", \"Annotation\": [{\"entity_id\": \"Hoby\"}]}\n{\"ID\": 6, \"Position\": 29, \"Text\": \"Ich\", \"Annotation\": [{\"entity_id\": \"Ich\", \"gender\": \"m\"}]}\n{\"ID\": 7, \"Position\": 32, \"Text\": \"er\", \"Annotation\": [{\"entity_id\": \"Hoby\"}]}\n{\"ID\": 8, \"Position\": 40, \"Text\": \"Doctor Althof\", \"Annotation\": [{\"entity_id\": \"Doctor Althof\", \"gender\": \"m\"}]}\n{\"ID\": 9, \"Position\": 45, \"Text\": \"Poll\", \"Annotation\": [{\"entity_id\": \"Poll\", \"gender\": \"m\"}]}\n{\"ID\": 10, \"Position\": 48, \"Text\": \"Sie\", \"Annotation\": [{\"entity_id\": \"Poll\"}]}\n{\"ID\": 11, \"Position\": 49, \"Text\": \"mir\", \"Annotation\": [{\"entity_id\": \"Ich\"}]}\n{\"ID\": 12, \"Position\": 54, \"Text\": \"ich\", \"Annotation\": [{\"entity_id\": \"Ich\"}]}\n{\"ID\": 13, \"Position\": 63, \"Text\": \"ich\", \"Annotation\": [{\"entity_id\": \"Ich\"}]}\n{\"ID\": 14, \"Position\": 67, \"Text\": \"Althof\", \"Annotation\": [{\"entity_id\": \"Doctor Althof\"}]}\n{\"ID\": 15, \"Position\": 70, \"Text\": \"Wir\", \"Annotation\": [{\"entity_id\": \"Ich\"}, {\"entity_id\": \"Doctor Althof\"}]}\n{\"ID\": 16, \"Position\": 74, \"Text\": \"mein\", \"Annotation\": [{\"entity_id\": \"Ich\"}]}\n{\"ID\": 17, \"Position\": 75, \"Text\": \"Herr\", \"Annotation\": [{\"entity_id\": \"Ich\"}]}\n{\"ID\": 18, \"Position\": 77, \"Text\": \"Er\", \"Annotation\": [{\"entity_id\": \"Doctor Althof\"}]}\n{\"ID\": 19, \"Position\": 82, \"Text\": \"Poll\", \"Annotation\": [{\"entity_id\": \"Poll\"}]}\n{\"ID\": 20, \"Position\": 84, \"Text\": \"sich\", \"Annotation\": [{\"entity_id\": \"Doctor Althof\"}, {\"entity_id\": \"Poll\"}]}\n{\"ID\": 21, \"Position\": 93, \"Text\": \"Amerikanern\", \"Annotation\": [{\"entity_id\": \"die Amerikaner\", \"specialcase_entity\": [\"group\"]}]}\n{\"ID\": 22, \"Position\": 95, \"Text\": \"sie\", \"Annotation\": [{\"entity_id\": \"die Amerikaner\"}]}\n{\"ID\": 23, \"Position\": 96, \"Text\": \"ihre\", \"Annotation\": [{\"entity_id\": \"die Amerikaner\"}]}\n{\"ID\": 24, \"Position\": 101, \"Text\": \"Wir\", \"Annotation\": [{\"entity_id\": \"Ich\"}, {\"entity_id\": \"die Amerikaner\"}]}\n{\"ID\": 25, \"Position\": 103, \"Text\": \"uns\", \"Annotation\": [{\"entity_id\": \"Ich\"}, {\"entity_id\": \"die Amerikaner\"}]}\n{\"ID\": 26, \"Position\": 120, \"Text\": \"Hoby\", \"Annotation\": [{\"entity_id\": \"Hoby\"}]}\n{\"ID\": 27, \"Position\": 139, \"Text\": \"Prediger\", \"Annotation\": [{\"entity_id\": \"der Prediger\", \"gender\": \"m\"}]}\n{\"ID\": 28, \"Position\": 141, \"Text\": \"sein\", \"Annotation\": [{\"entity_id\": \"der Prediger\"}]}\n{\"ID\": 29, \"Position\": 142, \"Text\": \"Gehilfe\", \"Annotation\": [{\"entity_id\": \"sein Gehilfe\", \"gender\": \"m\"}]}\n{\"ID\": 30, \"Position\": 144, \"Text\": \"ihm\", \"Annotation\": [{\"entity_id\": \"Hoby\"}]}\n{\"ID\": 31, \"Position\": 158, \"Text\": \"ihn\", \"Annotation\": [{\"entity_id\": \"Hoby\"}]}\n{\"ID\": 32, \"Position\": 164, \"Text\": \"seine\", \"Annotation\": [{\"entity_id\": \"Hoby\"}]}\n{\"ID\": 33, \"Position\": 170, \"Text\": \"Er\", \"Annotation\": [{\"entity_id\": \"Hoby\"}]}\n{\"ID\": 34, \"Position\": 174, \"Text\": \"sich\", \"Annotation\": [{\"entity_id\": \"Hoby\"}]}\n{\"ID\": 35, \"Position\": 176, \"Text\": \"ihren\", \"Annotation\": [{\"entity_id\": \"der Prediger\"}, {\"entity_id\": \"sein Gehilfe\"}]}\n{\"ID\": 36, \"Position\": 186, \"Text\": \"Jesu\", \"Annotation\": [{\"entity_id\": \"Jesus\"}]}\n{\"ID\": 37, \"Position\": 188, \"Text\": \"seine\", \"Annotation\": [{\"entity_id\": \"Hoby\"}]}\n{\"ID\": 38, \"Position\": 191, \"Text\": \"Ich\", \"Annotation\": [{\"entity_id\": \"Ich\"}]}\n{\"ID\": 39, \"Position\": 195, \"Text\": \"Jesus\", \"Annotation\": [{\"entity_id\": \"Jesus\"}]}\n{\"ID\": 40, \"Position\": 199, \"Text\": \"ich\", \"Annotation\": [{\"entity_id\": \"Ich\"}]}\n{\"ID\": 41, \"Position\": 203, \"Text\": \"Jesus\", \"Annotation\": [{\"entity_id\": \"Jesus\"}]}\n{\"ID\": 42, \"Position\": 208, \"Text\": \"ich\", \"Annotation\": [{\"entity_id\": \"Ich\"}]}\n{\"ID\": 43, \"Position\": 213, \"Text\": \"Jesus\", \"Annotation\": [{\"entity_id\": \"Jesus\"}]}\n{\"ID\": 44, \"Position\": 222, \"Text\": \"er\", \"Annotation\": [{\"entity_id\": \"Hoby\"}]}\n{\"ID\": 45, \"Position\": 228, \"Text\": \"er\", \"Annotation\": [{\"entity_id\": \"Hoby\"}]}\n{\"ID\": 46, \"Position\": 244, \"Text\": \"Jesus\", \"Annotation\": [{\"entity_id\": \"Jesus\"}]}\n{\"ID\": 47, \"Position\": 249, \"Text\": \"er\", \"Annotation\": [{\"entity_id\": \"Hoby\"}]}\n{\"ID\": 48, \"Position\": 259, \"Text\": \"Macbeth\", \"Annotation\": [{\"entity_id\": \"Macbeth\", \"gender\": \"m\"}]}\n{\"ID\": 49, \"Position\": 288, \"Text\": \"er\", \"Annotation\": [{\"entity_id\": \"Hoby\"}]}\n{\"ID\": 50, \"Position\": 298, \"Text\": \"er\", \"Annotation\": [{\"entity_id\": \"Hoby\"}]}\n{\"ID\": 51, \"Position\": 304, \"Text\": \"Sterbender\", \"Annotation\": [{\"entity_id\": \"ein Sterbender im Allgemeinen\", \"gender\": \"m\", \"specialcase_entity\": [\"generic\"]}]}\n{\"ID\": 52, \"Position\": 309, \"Text\": \"Jesus\", \"Annotation\": [{\"entity_id\": \"Jesus\"}]}\n{\"ID\": 53, \"Position\": 314, \"Text\": \"er\", \"Annotation\": [{\"entity_id\": \"Hoby\"}]}\n{\"ID\": 54, \"Position\": 324, \"Text\": \"sein\", \"Annotation\": [{\"entity_id\": \"Hoby\"}]}\n{\"ID\": 55, \"Position\": 334, \"Text\": \"seine\", \"Annotation\": [{\"entity_id\": \"Hoby\"}]}\n{\"ID\": 56, \"Position\": 339, \"Text\": \"sein\", \"Annotation\": [{\"entity_id\": \"Hoby\"}]}\n{\"ID\": 57, \"Position\": 356, \"Text\": \"Umstehenden\", \"Annotation\": [{\"entity_id\": \"die Umstehenden\", \"specialcase_entity\": [\"group\"]}]}\n{\"ID\": 58, \"Position\": 367, \"Text\": \"Ich\", \"Annotation\": [{\"entity_id\": \"Ich\"}]}\n{\"ID\": 59, \"Position\": 383, \"Text\": \"Menschen\", \"Annotation\": [{\"entity_id\": \"Menschen im Allgemeinen\", \"specialcase_entity\": [\"generic\"]}]}\n{\"ID\": 60, \"Position\": 392, \"Text\": \"ich\", \"Annotation\": [{\"entity_id\": \"Ich\"}]}\n{\"ID\": 61, \"Position\": 395, \"Text\": \"Familie Ermar\", \"Annotation\": [{\"entity_id\": \"Familie Ermar\", \"specialcase_entity\": [\"group\"]}]}\n{\"ID\": 62, \"Position\": 399, \"Text\": \"Ich\", \"Annotation\": [{\"entity_id\": \"Ich\"}]}\n{\"ID\": 63, \"Position\": 403, \"Text\": \"mich\", \"Annotation\": [{\"entity_id\": \"Ich\"}]}\n{\"ID\": 64, \"Position\": 408, \"Text\": \"ihre\", \"Annotation\": [{\"entity_id\": \"Familie Ermar\"}]}\n{\"ID\": 65, \"Position\": 419, \"Text\": \"meine\", \"Annotation\": [{\"entity_id\": \"Ich\"}]}\n{\"ID\": 66, \"Position\": 422, \"Text\": \"Annette\", \"Annotation\": [{\"entity_id\": \"Annette\", \"gender\": \"f\"}]}\n{\"ID\": 67, \"Position\": 427, \"Text\": \"sie\", \"Annotation\": [{\"entity_id\": \"Annette\"}]}\n{\"ID\": 68, \"Position\": 428, \"Text\": \"mir\", \"Annotation\": [{\"entity_id\": \"Ich\"}]}\n{\"ID\": 69, \"Position\": 431, \"Text\": \"ich\", \"Annotation\": [{\"entity_id\": \"Ich\"}]}\n{\"ID\": 70, \"Position\": 435, \"Text\": \"ich\", \"Annotation\": [{\"entity_id\": \"Ich\"}]}\n{\"ID\": 71, \"Position\": 441, \"Text\": \"ich\", \"Annotation\": [{\"entity_id\": \"Ich\"}]}\n{\"ID\": 72, \"Position\": 442, \"Text\": \"Vater\", \"Annotation\": [{\"entity_id\": \"Vater\", \"gender\": \"m\"}]}\n{\"ID\": 73, \"Position\": 444, \"Text\": \"Mutter\", \"Annotation\": [{\"entity_id\": \"Mutter\", \"gender\": \"f\"}]}\n{\"ID\": 74, \"Position\": 446, \"Text\": \"Kind\", \"Annotation\": [{\"entity_id\": \"Kind\", \"gender\": \"nb\"}]}\n{\"ID\": 75, \"Position\": 449, \"Text\": \"mir\", \"Annotation\": [{\"entity_id\": \"Ich\"}]}\n{\"ID\": 76, \"Position\": 460, \"Text\": \"Annette\", \"Annotation\": [{\"entity_id\": \"Annette\"}]}\n{\"ID\": 77, \"Position\": 462, \"Text\": \"sich\", \"Annotation\": [{\"entity_id\": \"Annette\"}]}\n{\"ID\": 78, \"Position\": 463, \"Text\": \"ihr\", \"Annotation\": [{\"entity_id\": \"Annette\"}]}\n{\"ID\": 79, \"Position\": 470, \"Text\": \"ihr\", \"Annotation\": [{\"entity_id\": \"Annette\"}]}\n{\"ID\": 80, \"Position\": 480, \"Text\": \"sich\", \"Annotation\": [{\"entity_id\": \"Annette\"}]}\n{\"ID\": 81, \"Position\": 490, \"Text\": \"Ich\", \"Annotation\": [{\"entity_id\": \"Ich\"}]}\n{\"ID\": 82, \"Position\": 498, \"Text\": \"Mutter\", \"Annotation\": [{\"entity_id\": \"Mutter\"}]}\n{\"ID\": 83, \"Position\": 503, \"Text\": \"ich\", \"Annotation\": [{\"entity_id\": \"Ich\"}]}\n{\"ID\": 84, \"Position\": 506, \"Text\": \"ihre\", \"Annotation\": [{\"entity_id\": \"Mutter\"}]}\n{\"ID\": 85, \"Position\": 510, \"Text\": \"Annettens\", \"Annotation\": [{\"entity_id\": \"Annette\"}]}\n{\"ID\": 86, \"Position\": 514, \"Text\": \"Ich\", \"Annotation\": [{\"entity_id\": \"Ich\"}]}\n{\"ID\": 87, \"Position\": 516, \"Text\": \"mich\", \"Annotation\": [{\"entity_id\": \"Ich\"}]}\n{\"ID\": 88, \"Position\": 520, \"Text\": \"Ich\", \"Annotation\": [{\"entity_id\": \"Ich\"}]}\n{\"ID\": 89, \"Position\": 526, \"Text\": \"meinem\", \"Annotation\": [{\"entity_id\": \"Ich\"}]}\n{\"ID\": 90, \"Position\": 529, \"Text\": \"ihrigen\", \"Annotation\": [{\"entity_id\": \"Vater\"}, {\"entity_id\": \"Mutter\"}, {\"entity_id\": \"Kind\"}]}\n{\"ID\": 91, \"Position\": 537, \"Text\": \"ich\", \"Annotation\": [{\"entity_id\": \"Ich\"}]}\n{\"ID\": 92, \"Position\": 539, \"Text\": \"meines\", \"Annotation\": [{\"entity_id\": \"Ich\"}]}\n{\"ID\": 93, \"Position\": 544, \"Text\": \"ich\", \"Annotation\": [{\"entity_id\": \"Ich\"}]}\n{\"ID\": 94, \"Position\": 547, \"Text\": \"Annette\", \"Annotation\": [{\"entity_id\": \"Annette\"}]}\n{\"ID\": 95, \"Position\": 550, \"Text\": \"meinem\", \"Annotation\": [{\"entity_id\": \"Ich\"}]}\n{\"ID\": 96, \"Position\": 555, \"Text\": \"sie\", \"Annotation\": [{\"entity_id\": \"Annette\"}]}\n{\"ID\": 97, \"Position\": 562, \"Text\": \"mir\", \"Annotation\": [{\"entity_id\": \"Ich\"}]}\n{\"ID\": 98, \"Position\": 569, \"Text\": \"Herr Bruder\", \"Annotation\": [{\"entity_id\": \"Ich\"}]}\n{\"ID\": 99, \"Position\": 573, \"Text\": \"uns\", \"Annotation\": [{\"entity_id\": \"Ich\"}, {\"entity_id\": \"Annette\"}]}\n{\"ID\": 100, \"Position\": 576, \"Text\": \"Ich\", \"Annotation\": [{\"entity_id\": \"Ich\"}]}\n{\"ID\": 101, \"Position\": 584, \"Text\": \"ich\", \"Annotation\": [{\"entity_id\": \"Ich\"}]}\n{\"ID\": 102, \"Position\": 589, \"Text\": \"ich\", \"Annotation\": [{\"entity_id\": \"Ich\"}]}\n{\"ID\": 103, \"Position\": 590, \"Text\": \"ihr\", \"Annotation\": [{\"entity_id\": \"Annette\"}]}\n{\"ID\": 104, \"Position\": 600, \"Text\": \"sie\", \"Annotation\": [{\"entity_id\": \"Annette\"}]}\n{\"ID\": 105, \"Position\": 605, \"Text\": \"Prediger\", \"Annotation\": [{\"entity_id\": \"der Prediger\"}]}\n{\"ID\": 106, \"Position\": 607, \"Text\": \"sich\", \"Annotation\": [{\"entity_id\": \"der Prediger\"}]}\n{\"ID\": 107, \"Position\": 608, \"Text\": \"ihr\", \"Annotation\": [{\"entity_id\": \"Annette\"}]}\n{\"ID\": 108, \"Position\": 612, \"Text\": \"sie\", \"Annotation\": [{\"entity_id\": \"Annette\"}]}\n{\"ID\": 109, \"Position\": 618, \"Text\": \"S\\u00fcnderin\", \"Annotation\": [{\"entity_id\": \"Annette\"}]}\n{\"ID\": 110, \"Position\": 624, \"Text\": \"du\", \"Annotation\": [{\"entity_id\": \"Annette\"}]}\n{\"ID\": 111, \"Position\": 630, \"Text\": \"dich\", \"Annotation\": [{\"entity_id\": \"Annette\"}]}\n{\"ID\": 112, \"Position\": 633, \"Text\": \"du\", \"Annotation\": [{\"entity_id\": \"Annette\"}]}\n{\"ID\": 113, \"Position\": 635, \"Text\": \"Gott\", \"Annotation\": [{\"entity_id\": \"Gott\"}]}\n{\"ID\": 114, \"Position\": 641, \"Text\": \"Annette\", \"Annotation\": [{\"entity_id\": \"Annette\"}]}\n{\"ID\": 115, \"Position\": 645, \"Text\": \"Sie\", \"Annotation\": [{\"entity_id\": \"Annette\"}]}\n{\"ID\": 116, \"Position\": 662, \"Text\": \"Kind\", \"Annotation\": [{\"entity_id\": \"Annette\"}]}\n{\"ID\": 117, \"Position\": 687, \"Text\": \"Pfaff\", \"Annotation\": [{\"entity_id\": \"der Prediger\"}]}\n{\"ID\": 118, \"Position\": 688, \"Text\": \"seinem\", \"Annotation\": [{\"entity_id\": \"der Prediger\"}]}\n{\"ID\": 119, \"Position\": 689, \"Text\": \"Schreiber\", \"Annotation\": [{\"entity_id\": \"sein Schreiber\", \"gender\": \"m\"}]}\n{\"ID\": 120, \"Position\": 694, \"Text\": \"sich\", \"Annotation\": [{\"entity_id\": \"Annette\"}]}\n{\"ID\": 121, \"Position\": 696, \"Text\": \"M\\u00e4dchen\", \"Annotation\": [{\"entity_id\": \"Annette\"}]}\n{\"ID\": 122, \"Position\": 711, \"Text\": \"sie\", \"Annotation\": [{\"entity_id\": \"Annette\"}]}\n{\"ID\": 123, \"Position\": 716, \"Text\": \"Man\", \"Annotation\": [{\"entity_id\": \"man\", \"specialcase_entity\": [\"generic\"]}]}\n{\"ID\": 124, \"Position\": 718, \"Text\": \"mir\", \"Annotation\": [{\"entity_id\": \"Ich\"}]}\n{\"ID\": 125, \"Position\": 720, \"Text\": \"ich\", \"Annotation\": [{\"entity_id\": \"Ich\"}]}\n{\"ID\": 126, \"Position\": 729, \"Text\": \"Methodisten\", \"Annotation\": [{\"entity_id\": \"die Methodisten\", \"specialcase_entity\": [\"group\"]}]}\n{\"ID\": 127, \"Position\": 734, \"Text\": \"Parteien\", \"Annotation\": [{\"entity_id\": \"zwei Parteien\", \"specialcase_entity\": [\"group\"]}]}\n{\"ID\": 128, \"Position\": 736, \"Text\": \"mich\", \"Annotation\": [{\"entity_id\": \"Ich\"}]}\n{\"ID\": 129, \"Position\": 742, \"Text\": \"Ich\", \"Annotation\": [{\"entity_id\": \"Ich\"}]}\n{\"ID\": 130, \"Position\": 748, \"Text\": \"Annette\", \"Annotation\": [{\"entity_id\": \"Annette\"}]}\n{\"ID\": 131, \"Position\": 755, \"Text\": \"ihr\", \"Annotation\": [{\"entity_id\": \"Annette\"}]}\n{\"ID\": 132, \"Position\": 759, \"Text\": \"sie\", \"Annotation\": [{\"entity_id\": \"Annette\"}]}\n{\"ID\": 133, \"Position\": 766, \"Text\": \"Kind\", \"Annotation\": [{\"entity_id\": \"Annette\"}]}\n{\"ID\": 134, \"Position\": 807, \"Text\": \"dich\", \"Annotation\": [{\"entity_id\": \"du\", \"gender\": \"m\"}]}\n{\"ID\": 135, \"Position\": 809, \"Text\": \"Dircetor\", \"Annotation\": [{\"entity_id\": \"der Dircetor\", \"gender\": \"m\"}]}\n{\"ID\": 136, \"Position\": 815, \"Text\": \"er\", \"Annotation\": [{\"entity_id\": \"der Dircetor\"}]}\n{\"ID\": 137, \"Position\": 816, \"Text\": \"sein\", \"Annotation\": [{\"entity_id\": \"der Dircetor\"}]}\n{\"ID\": 138, \"Position\": 823, \"Text\": \"seinem\", \"Annotation\": [{\"entity_id\": \"der Dircetor\"}]}\n{\"ID\": 139, \"Position\": 840, \"Text\": \"B\\u00fcrger\", \"Annotation\": [{\"entity_id\": \"B\u00fcrger\", \"specialcase_entity\": [\"generic\"]}]}\n{\"ID\": 140, \"Position\": 846, \"Text\": \"derjenigen\", \"Annotation\": [{\"entity_id\": \"derjenigen\", \"specialcase_entity\": [\"generic\"]}]}\n{\"ID\": 141, \"Position\": 847, \"Text\": \"unserer\", \"Annotation\": [{\"entity_id\": \"unsere\", \"specialcase_entity\": [\"generic\"]}]}\n{\"ID\": 142, \"Position\": 849, \"Text\": \"Mitchristen\", \"Annotation\": [{\"entity_id\": \"Mitchristen\", \"specialcase_entity\": [\"generic\"]}]}\n{\"ID\": 143, \"Position\": 851, \"Text\": \"welchen\", \"Annotation\": [{\"entity_id\": \"derjenigen\"}]}\n{\"ID\": 144, \"Position\": 888, \"Text\": \"Herrn Doctor Jehadiah Bykbookbeaker\", \"Annotation\": [{\"entity_id\": \"Herrn Doctor Jehadiah Bykbookbeaker\", \"gender\": \"m\"}]}\n{\"ID\": 145, \"Position\": 895, \"Text\": \"seines\", \"Annotation\": [{\"entity_id\": \"Herrn Doctor Jehadiah Bykbookbeaker\"}]}\n{\"ID\": 146, \"Position\": 928, \"Text\": \"unsrer\", \"Annotation\": [{\"entity_id\": \"unsere\", \"specialcase_entity\": [\"generic\"]}]}\n{\"ID\": 147, \"Position\": 938, \"Text\": \"Unsre\", \"Annotation\": [{\"entity_id\": \"unsere\", \"specialcase_entity\": [\"generic\"]}]}\n{\"ID\": 148, \"Position\": 943, \"Text\": \"unsers\", \"Annotation\": [{\"entity_id\": \"unsere\", \"specialcase_entity\": [\"generic\"]}]}\n",
+  "generation_details": [
+    {
+      "usage": {
+        "prompt_tokens": 9325,
+        "completion_tokens": 5679,
+        "total_tokens": 15004,
+        "cost": 0.0032041,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.0009325,
+          "upstream_inference_completions_cost": 0.0022716
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      },
+      "finish_reason": "stop",
+      "request_id": "gen-1766523462-UponnhvsxTGaVXC3z0A7"
+    }
+  ],
+  "json_output": [
+    {
+      "ID": 1,
+      "Position": 4,
+      "Text": "Jesus",
+      "Annotation": [
+        {
+          "entity_id": "Jesus",
+          "gender": "m"
+        }
+      ]
+    },
+    {
+      "ID": 2,
+      "Position": 11,
+      "Text": "Menge",
+      "Annotation": [
+        {
+          "entity_id": "die Menge",
+          "specialcase_entity": [
+            "group"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 3,
+      "Position": 13,
+      "Text": "sich",
+      "Annotation": [
+        {
+          "entity_id": "die Menge"
+        }
+      ]
+    },
+    {
+      "ID": 4,
+      "Position": 16,
+      "Text": "Hoby",
+      "Annotation": [
+        {
+          "entity_id": "Hoby",
+          "gender": "m"
+        }
+      ]
+    },
+    {
+      "ID": 5,
+      "Position": 19,
+      "Text": "Stra\u00dfenjunge",
+      "Annotation": [
+        {
+          "entity_id": "Hoby"
+        }
+      ]
+    },
+    {
+      "ID": 6,
+      "Position": 29,
+      "Text": "Ich",
+      "Annotation": [
+        {
+          "entity_id": "Ich",
+          "gender": "m"
+        }
+      ]
+    },
+    {
+      "ID": 7,
+      "Position": 32,
+      "Text": "er",
+      "Annotation": [
+        {
+          "entity_id": "Hoby"
+        }
+      ]
+    },
+    {
+      "ID": 8,
+      "Position": 40,
+      "Text": "Doctor Althof",
+      "Annotation": [
+        {
+          "entity_id": "Doctor Althof",
+          "gender": "m"
+        }
+      ]
+    },
+    {
+      "ID": 9,
+      "Position": 45,
+      "Text": "Poll",
+      "Annotation": [
+        {
+          "entity_id": "Poll",
+          "gender": "m"
+        }
+      ]
+    },
+    {
+      "ID": 10,
+      "Position": 48,
+      "Text": "Sie",
+      "Annotation": [
+        {
+          "entity_id": "Poll"
+        }
+      ]
+    },
+    {
+      "ID": 11,
+      "Position": 49,
+      "Text": "mir",
+      "Annotation": [
+        {
+          "entity_id": "Ich"
+        }
+      ]
+    },
+    {
+      "ID": 12,
+      "Position": 54,
+      "Text": "ich",
+      "Annotation": [
+        {
+          "entity_id": "Ich"
+        }
+      ]
+    },
+    {
+      "ID": 13,
+      "Position": 63,
+      "Text": "ich",
+      "Annotation": [
+        {
+          "entity_id": "Ich"
+        }
+      ]
+    },
+    {
+      "ID": 14,
+      "Position": 67,
+      "Text": "Althof",
+      "Annotation": [
+        {
+          "entity_id": "Doctor Althof"
+        }
+      ]
+    },
+    {
+      "ID": 15,
+      "Position": 70,
+      "Text": "Wir",
+      "Annotation": [
+        {
+          "entity_id": "Ich"
+        },
+        {
+          "entity_id": "Doctor Althof"
+        }
+      ]
+    },
+    {
+      "ID": 16,
+      "Position": 74,
+      "Text": "mein",
+      "Annotation": [
+        {
+          "entity_id": "Ich"
+        }
+      ]
+    },
+    {
+      "ID": 17,
+      "Position": 75,
+      "Text": "Herr",
+      "Annotation": [
+        {
+          "entity_id": "Ich"
+        }
+      ]
+    },
+    {
+      "ID": 18,
+      "Position": 77,
+      "Text": "Er",
+      "Annotation": [
+        {
+          "entity_id": "Doctor Althof"
+        }
+      ]
+    },
+    {
+      "ID": 19,
+      "Position": 82,
+      "Text": "Poll",
+      "Annotation": [
+        {
+          "entity_id": "Poll"
+        }
+      ]
+    },
+    {
+      "ID": 20,
+      "Position": 84,
+      "Text": "sich",
+      "Annotation": [
+        {
+          "entity_id": "Doctor Althof"
+        },
+        {
+          "entity_id": "Poll"
+        }
+      ]
+    },
+    {
+      "ID": 21,
+      "Position": 93,
+      "Text": "Amerikanern",
+      "Annotation": [
+        {
+          "entity_id": "die Amerikaner",
+          "specialcase_entity": [
+            "group"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 22,
+      "Position": 95,
+      "Text": "sie",
+      "Annotation": [
+        {
+          "entity_id": "die Amerikaner"
+        }
+      ]
+    },
+    {
+      "ID": 23,
+      "Position": 96,
+      "Text": "ihre",
+      "Annotation": [
+        {
+          "entity_id": "die Amerikaner"
+        }
+      ]
+    },
+    {
+      "ID": 24,
+      "Position": 101,
+      "Text": "Wir",
+      "Annotation": [
+        {
+          "entity_id": "Ich"
+        },
+        {
+          "entity_id": "die Amerikaner"
+        }
+      ]
+    },
+    {
+      "ID": 25,
+      "Position": 103,
+      "Text": "uns",
+      "Annotation": [
+        {
+          "entity_id": "Ich"
+        },
+        {
+          "entity_id": "die Amerikaner"
+        }
+      ]
+    },
+    {
+      "ID": 26,
+      "Position": 120,
+      "Text": "Hoby",
+      "Annotation": [
+        {
+          "entity_id": "Hoby"
+        }
+      ]
+    },
+    {
+      "ID": 27,
+      "Position": 139,
+      "Text": "Prediger",
+      "Annotation": [
+        {
+          "entity_id": "der Prediger",
+          "gender": "m"
+        }
+      ]
+    },
+    {
+      "ID": 28,
+      "Position": 141,
+      "Text": "sein",
+      "Annotation": [
+        {
+          "entity_id": "der Prediger"
+        }
+      ]
+    },
+    {
+      "ID": 29,
+      "Position": 142,
+      "Text": "Gehilfe",
+      "Annotation": [
+        {
+          "entity_id": "sein Gehilfe",
+          "gender": "m"
+        }
+      ]
+    },
+    {
+      "ID": 30,
+      "Position": 144,
+      "Text": "ihm",
+      "Annotation": [
+        {
+          "entity_id": "Hoby"
+        }
+      ]
+    },
+    {
+      "ID": 31,
+      "Position": 158,
+      "Text": "ihn",
+      "Annotation": [
+        {
+          "entity_id": "Hoby"
+        }
+      ]
+    },
+    {
+      "ID": 32,
+      "Position": 164,
+      "Text": "seine",
+      "Annotation": [
+        {
+          "entity_id": "Hoby"
+        }
+      ]
+    },
+    {
+      "ID": 33,
+      "Position": 170,
+      "Text": "Er",
+      "Annotation": [
+        {
+          "entity_id": "Hoby"
+        }
+      ]
+    },
+    {
+      "ID": 34,
+      "Position": 174,
+      "Text": "sich",
+      "Annotation": [
+        {
+          "entity_id": "Hoby"
+        }
+      ]
+    },
+    {
+      "ID": 35,
+      "Position": 176,
+      "Text": "ihren",
+      "Annotation": [
+        {
+          "entity_id": "der Prediger"
+        },
+        {
+          "entity_id": "sein Gehilfe"
+        }
+      ]
+    },
+    {
+      "ID": 36,
+      "Position": 186,
+      "Text": "Jesu",
+      "Annotation": [
+        {
+          "entity_id": "Jesus"
+        }
+      ]
+    },
+    {
+      "ID": 37,
+      "Position": 188,
+      "Text": "seine",
+      "Annotation": [
+        {
+          "entity_id": "Hoby"
+        }
+      ]
+    },
+    {
+      "ID": 38,
+      "Position": 191,
+      "Text": "Ich",
+      "Annotation": [
+        {
+          "entity_id": "Ich"
+        }
+      ]
+    },
+    {
+      "ID": 39,
+      "Position": 195,
+      "Text": "Jesus",
+      "Annotation": [
+        {
+          "entity_id": "Jesus"
+        }
+      ]
+    },
+    {
+      "ID": 40,
+      "Position": 199,
+      "Text": "ich",
+      "Annotation": [
+        {
+          "entity_id": "Ich"
+        }
+      ]
+    },
+    {
+      "ID": 41,
+      "Position": 203,
+      "Text": "Jesus",
+      "Annotation": [
+        {
+          "entity_id": "Jesus"
+        }
+      ]
+    },
+    {
+      "ID": 42,
+      "Position": 208,
+      "Text": "ich",
+      "Annotation": [
+        {
+          "entity_id": "Ich"
+        }
+      ]
+    },
+    {
+      "ID": 43,
+      "Position": 213,
+      "Text": "Jesus",
+      "Annotation": [
+        {
+          "entity_id": "Jesus"
+        }
+      ]
+    },
+    {
+      "ID": 44,
+      "Position": 222,
+      "Text": "er",
+      "Annotation": [
+        {
+          "entity_id": "Hoby"
+        }
+      ]
+    },
+    {
+      "ID": 45,
+      "Position": 228,
+      "Text": "er",
+      "Annotation": [
+        {
+          "entity_id": "Hoby"
+        }
+      ]
+    },
+    {
+      "ID": 46,
+      "Position": 244,
+      "Text": "Jesus",
+      "Annotation": [
+        {
+          "entity_id": "Jesus"
+        }
+      ]
+    },
+    {
+      "ID": 47,
+      "Position": 249,
+      "Text": "er",
+      "Annotation": [
+        {
+          "entity_id": "Hoby"
+        }
+      ]
+    },
+    {
+      "ID": 48,
+      "Position": 259,
+      "Text": "Macbeth",
+      "Annotation": [
+        {
+          "entity_id": "Macbeth",
+          "gender": "m"
+        }
+      ]
+    },
+    {
+      "ID": 49,
+      "Position": 288,
+      "Text": "er",
+      "Annotation": [
+        {
+          "entity_id": "Hoby"
+        }
+      ]
+    },
+    {
+      "ID": 50,
+      "Position": 298,
+      "Text": "er",
+      "Annotation": [
+        {
+          "entity_id": "Hoby"
+        }
+      ]
+    },
+    {
+      "ID": 51,
+      "Position": 304,
+      "Text": "Sterbender",
+      "Annotation": [
+        {
+          "entity_id": "ein Sterbender im Allgemeinen",
+          "gender": "m",
+          "specialcase_entity": [
+            "generic"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 52,
+      "Position": 309,
+      "Text": "Jesus",
+      "Annotation": [
+        {
+          "entity_id": "Jesus"
+        }
+      ]
+    },
+    {
+      "ID": 53,
+      "Position": 314,
+      "Text": "er",
+      "Annotation": [
+        {
+          "entity_id": "Hoby"
+        }
+      ]
+    },
+    {
+      "ID": 54,
+      "Position": 324,
+      "Text": "sein",
+      "Annotation": [
+        {
+          "entity_id": "Hoby"
+        }
+      ]
+    },
+    {
+      "ID": 55,
+      "Position": 334,
+      "Text": "seine",
+      "Annotation": [
+        {
+          "entity_id": "Hoby"
+        }
+      ]
+    },
+    {
+      "ID": 56,
+      "Position": 339,
+      "Text": "sein",
+      "Annotation": [
+        {
+          "entity_id": "Hoby"
+        }
+      ]
+    },
+    {
+      "ID": 57,
+      "Position": 356,
+      "Text": "Umstehenden",
+      "Annotation": [
+        {
+          "entity_id": "die Umstehenden",
+          "specialcase_entity": [
+            "group"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 58,
+      "Position": 367,
+      "Text": "Ich",
+      "Annotation": [
+        {
+          "entity_id": "Ich"
+        }
+      ]
+    },
+    {
+      "ID": 59,
+      "Position": 383,
+      "Text": "Menschen",
+      "Annotation": [
+        {
+          "entity_id": "Menschen im Allgemeinen",
+          "specialcase_entity": [
+            "generic"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 60,
+      "Position": 392,
+      "Text": "ich",
+      "Annotation": [
+        {
+          "entity_id": "Ich"
+        }
+      ]
+    },
+    {
+      "ID": 61,
+      "Position": 395,
+      "Text": "Familie Ermar",
+      "Annotation": [
+        {
+          "entity_id": "Familie Ermar",
+          "specialcase_entity": [
+            "group"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 62,
+      "Position": 399,
+      "Text": "Ich",
+      "Annotation": [
+        {
+          "entity_id": "Ich"
+        }
+      ]
+    },
+    {
+      "ID": 63,
+      "Position": 403,
+      "Text": "mich",
+      "Annotation": [
+        {
+          "entity_id": "Ich"
+        }
+      ]
+    },
+    {
+      "ID": 64,
+      "Position": 408,
+      "Text": "ihre",
+      "Annotation": [
+        {
+          "entity_id": "Familie Ermar"
+        }
+      ]
+    },
+    {
+      "ID": 65,
+      "Position": 419,
+      "Text": "meine",
+      "Annotation": [
+        {
+          "entity_id": "Ich"
+        }
+      ]
+    },
+    {
+      "ID": 66,
+      "Position": 422,
+      "Text": "Annette",
+      "Annotation": [
+        {
+          "entity_id": "Annette",
+          "gender": "f"
+        }
+      ]
+    },
+    {
+      "ID": 67,
+      "Position": 427,
+      "Text": "sie",
+      "Annotation": [
+        {
+          "entity_id": "Annette"
+        }
+      ]
+    },
+    {
+      "ID": 68,
+      "Position": 428,
+      "Text": "mir",
+      "Annotation": [
+        {
+          "entity_id": "Ich"
+        }
+      ]
+    },
+    {
+      "ID": 69,
+      "Position": 431,
+      "Text": "ich",
+      "Annotation": [
+        {
+          "entity_id": "Ich"
+        }
+      ]
+    },
+    {
+      "ID": 70,
+      "Position": 435,
+      "Text": "ich",
+      "Annotation": [
+        {
+          "entity_id": "Ich"
+        }
+      ]
+    },
+    {
+      "ID": 71,
+      "Position": 441,
+      "Text": "ich",
+      "Annotation": [
+        {
+          "entity_id": "Ich"
+        }
+      ]
+    },
+    {
+      "ID": 72,
+      "Position": 442,
+      "Text": "Vater",
+      "Annotation": [
+        {
+          "entity_id": "Vater",
+          "gender": "m"
+        }
+      ]
+    },
+    {
+      "ID": 73,
+      "Position": 444,
+      "Text": "Mutter",
+      "Annotation": [
+        {
+          "entity_id": "Mutter",
+          "gender": "f"
+        }
+      ]
+    },
+    {
+      "ID": 74,
+      "Position": 446,
+      "Text": "Kind",
+      "Annotation": [
+        {
+          "entity_id": "Kind",
+          "gender": "nb"
+        }
+      ]
+    },
+    {
+      "ID": 75,
+      "Position": 449,
+      "Text": "mir",
+      "Annotation": [
+        {
+          "entity_id": "Ich"
+        }
+      ]
+    },
+    {
+      "ID": 76,
+      "Position": 460,
+      "Text": "Annette",
+      "Annotation": [
+        {
+          "entity_id": "Annette"
+        }
+      ]
+    },
+    {
+      "ID": 77,
+      "Position": 462,
+      "Text": "sich",
+      "Annotation": [
+        {
+          "entity_id": "Annette"
+        }
+      ]
+    },
+    {
+      "ID": 78,
+      "Position": 463,
+      "Text": "ihr",
+      "Annotation": [
+        {
+          "entity_id": "Annette"
+        }
+      ]
+    },
+    {
+      "ID": 79,
+      "Position": 470,
+      "Text": "ihr",
+      "Annotation": [
+        {
+          "entity_id": "Annette"
+        }
+      ]
+    },
+    {
+      "ID": 80,
+      "Position": 480,
+      "Text": "sich",
+      "Annotation": [
+        {
+          "entity_id": "Annette"
+        }
+      ]
+    },
+    {
+      "ID": 81,
+      "Position": 490,
+      "Text": "Ich",
+      "Annotation": [
+        {
+          "entity_id": "Ich"
+        }
+      ]
+    },
+    {
+      "ID": 82,
+      "Position": 498,
+      "Text": "Mutter",
+      "Annotation": [
+        {
+          "entity_id": "Mutter"
+        }
+      ]
+    },
+    {
+      "ID": 83,
+      "Position": 503,
+      "Text": "ich",
+      "Annotation": [
+        {
+          "entity_id": "Ich"
+        }
+      ]
+    },
+    {
+      "ID": 84,
+      "Position": 506,
+      "Text": "ihre",
+      "Annotation": [
+        {
+          "entity_id": "Mutter"
+        }
+      ]
+    },
+    {
+      "ID": 85,
+      "Position": 510,
+      "Text": "Annettens",
+      "Annotation": [
+        {
+          "entity_id": "Annette"
+        }
+      ]
+    },
+    {
+      "ID": 86,
+      "Position": 514,
+      "Text": "Ich",
+      "Annotation": [
+        {
+          "entity_id": "Ich"
+        }
+      ]
+    },
+    {
+      "ID": 87,
+      "Position": 516,
+      "Text": "mich",
+      "Annotation": [
+        {
+          "entity_id": "Ich"
+        }
+      ]
+    },
+    {
+      "ID": 88,
+      "Position": 520,
+      "Text": "Ich",
+      "Annotation": [
+        {
+          "entity_id": "Ich"
+        }
+      ]
+    },
+    {
+      "ID": 89,
+      "Position": 526,
+      "Text": "meinem",
+      "Annotation": [
+        {
+          "entity_id": "Ich"
+        }
+      ]
+    },
+    {
+      "ID": 90,
+      "Position": 529,
+      "Text": "ihrigen",
+      "Annotation": [
+        {
+          "entity_id": "Vater"
+        },
+        {
+          "entity_id": "Mutter"
+        },
+        {
+          "entity_id": "Kind"
+        }
+      ]
+    },
+    {
+      "ID": 91,
+      "Position": 537,
+      "Text": "ich",
+      "Annotation": [
+        {
+          "entity_id": "Ich"
+        }
+      ]
+    },
+    {
+      "ID": 92,
+      "Position": 539,
+      "Text": "meines",
+      "Annotation": [
+        {
+          "entity_id": "Ich"
+        }
+      ]
+    },
+    {
+      "ID": 93,
+      "Position": 544,
+      "Text": "ich",
+      "Annotation": [
+        {
+          "entity_id": "Ich"
+        }
+      ]
+    },
+    {
+      "ID": 94,
+      "Position": 547,
+      "Text": "Annette",
+      "Annotation": [
+        {
+          "entity_id": "Annette"
+        }
+      ]
+    },
+    {
+      "ID": 95,
+      "Position": 550,
+      "Text": "meinem",
+      "Annotation": [
+        {
+          "entity_id": "Ich"
+        }
+      ]
+    },
+    {
+      "ID": 96,
+      "Position": 555,
+      "Text": "sie",
+      "Annotation": [
+        {
+          "entity_id": "Annette"
+        }
+      ]
+    },
+    {
+      "ID": 97,
+      "Position": 562,
+      "Text": "mir",
+      "Annotation": [
+        {
+          "entity_id": "Ich"
+        }
+      ]
+    },
+    {
+      "ID": 98,
+      "Position": 569,
+      "Text": "Herr Bruder",
+      "Annotation": [
+        {
+          "entity_id": "Ich"
+        }
+      ]
+    },
+    {
+      "ID": 99,
+      "Position": 573,
+      "Text": "uns",
+      "Annotation": [
+        {
+          "entity_id": "Ich"
+        },
+        {
+          "entity_id": "Annette"
+        }
+      ]
+    },
+    {
+      "ID": 100,
+      "Position": 576,
+      "Text": "Ich",
+      "Annotation": [
+        {
+          "entity_id": "Ich"
+        }
+      ]
+    },
+    {
+      "ID": 101,
+      "Position": 584,
+      "Text": "ich",
+      "Annotation": [
+        {
+          "entity_id": "Ich"
+        }
+      ]
+    },
+    {
+      "ID": 102,
+      "Position": 589,
+      "Text": "ich",
+      "Annotation": [
+        {
+          "entity_id": "Ich"
+        }
+      ]
+    },
+    {
+      "ID": 103,
+      "Position": 590,
+      "Text": "ihr",
+      "Annotation": [
+        {
+          "entity_id": "Annette"
+        }
+      ]
+    },
+    {
+      "ID": 104,
+      "Position": 600,
+      "Text": "sie",
+      "Annotation": [
+        {
+          "entity_id": "Annette"
+        }
+      ]
+    },
+    {
+      "ID": 105,
+      "Position": 605,
+      "Text": "Prediger",
+      "Annotation": [
+        {
+          "entity_id": "der Prediger"
+        }
+      ]
+    },
+    {
+      "ID": 106,
+      "Position": 607,
+      "Text": "sich",
+      "Annotation": [
+        {
+          "entity_id": "der Prediger"
+        }
+      ]
+    },
+    {
+      "ID": 107,
+      "Position": 608,
+      "Text": "ihr",
+      "Annotation": [
+        {
+          "entity_id": "Annette"
+        }
+      ]
+    },
+    {
+      "ID": 108,
+      "Position": 612,
+      "Text": "sie",
+      "Annotation": [
+        {
+          "entity_id": "Annette"
+        }
+      ]
+    },
+    {
+      "ID": 109,
+      "Position": 618,
+      "Text": "S\u00fcnderin",
+      "Annotation": [
+        {
+          "entity_id": "Annette"
+        }
+      ]
+    },
+    {
+      "ID": 110,
+      "Position": 624,
+      "Text": "du",
+      "Annotation": [
+        {
+          "entity_id": "Annette"
+        }
+      ]
+    },
+    {
+      "ID": 111,
+      "Position": 630,
+      "Text": "dich",
+      "Annotation": [
+        {
+          "entity_id": "Annette"
+        }
+      ]
+    },
+    {
+      "ID": 112,
+      "Position": 633,
+      "Text": "du",
+      "Annotation": [
+        {
+          "entity_id": "Annette"
+        }
+      ]
+    },
+    {
+      "ID": 113,
+      "Position": 635,
+      "Text": "Gott",
+      "Annotation": [
+        {
+          "entity_id": "Gott"
+        }
+      ]
+    },
+    {
+      "ID": 114,
+      "Position": 641,
+      "Text": "Annette",
+      "Annotation": [
+        {
+          "entity_id": "Annette"
+        }
+      ]
+    },
+    {
+      "ID": 115,
+      "Position": 645,
+      "Text": "Sie",
+      "Annotation": [
+        {
+          "entity_id": "Annette"
+        }
+      ]
+    },
+    {
+      "ID": 116,
+      "Position": 662,
+      "Text": "Kind",
+      "Annotation": [
+        {
+          "entity_id": "Annette"
+        }
+      ]
+    },
+    {
+      "ID": 117,
+      "Position": 687,
+      "Text": "Pfaff",
+      "Annotation": [
+        {
+          "entity_id": "der Prediger"
+        }
+      ]
+    },
+    {
+      "ID": 118,
+      "Position": 688,
+      "Text": "seinem",
+      "Annotation": [
+        {
+          "entity_id": "der Prediger"
+        }
+      ]
+    },
+    {
+      "ID": 119,
+      "Position": 689,
+      "Text": "Schreiber",
+      "Annotation": [
+        {
+          "entity_id": "sein Schreiber",
+          "gender": "m"
+        }
+      ]
+    },
+    {
+      "ID": 120,
+      "Position": 694,
+      "Text": "sich",
+      "Annotation": [
+        {
+          "entity_id": "Annette"
+        }
+      ]
+    },
+    {
+      "ID": 121,
+      "Position": 696,
+      "Text": "M\u00e4dchen",
+      "Annotation": [
+        {
+          "entity_id": "Annette"
+        }
+      ]
+    },
+    {
+      "ID": 122,
+      "Position": 711,
+      "Text": "sie",
+      "Annotation": [
+        {
+          "entity_id": "Annette"
+        }
+      ]
+    },
+    {
+      "ID": 123,
+      "Position": 716,
+      "Text": "Man",
+      "Annotation": [
+        {
+          "entity_id": "man",
+          "specialcase_entity": [
+            "generic"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 124,
+      "Position": 718,
+      "Text": "mir",
+      "Annotation": [
+        {
+          "entity_id": "Ich"
+        }
+      ]
+    },
+    {
+      "ID": 125,
+      "Position": 720,
+      "Text": "ich",
+      "Annotation": [
+        {
+          "entity_id": "Ich"
+        }
+      ]
+    },
+    {
+      "ID": 126,
+      "Position": 729,
+      "Text": "Methodisten",
+      "Annotation": [
+        {
+          "entity_id": "die Methodisten",
+          "specialcase_entity": [
+            "group"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 127,
+      "Position": 734,
+      "Text": "Parteien",
+      "Annotation": [
+        {
+          "entity_id": "zwei Parteien",
+          "specialcase_entity": [
+            "group"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 128,
+      "Position": 736,
+      "Text": "mich",
+      "Annotation": [
+        {
+          "entity_id": "Ich"
+        }
+      ]
+    },
+    {
+      "ID": 129,
+      "Position": 742,
+      "Text": "Ich",
+      "Annotation": [
+        {
+          "entity_id": "Ich"
+        }
+      ]
+    },
+    {
+      "ID": 130,
+      "Position": 748,
+      "Text": "Annette",
+      "Annotation": [
+        {
+          "entity_id": "Annette"
+        }
+      ]
+    },
+    {
+      "ID": 131,
+      "Position": 755,
+      "Text": "ihr",
+      "Annotation": [
+        {
+          "entity_id": "Annette"
+        }
+      ]
+    },
+    {
+      "ID": 132,
+      "Position": 759,
+      "Text": "sie",
+      "Annotation": [
+        {
+          "entity_id": "Annette"
+        }
+      ]
+    },
+    {
+      "ID": 133,
+      "Position": 766,
+      "Text": "Kind",
+      "Annotation": [
+        {
+          "entity_id": "Annette"
+        }
+      ]
+    },
+    {
+      "ID": 134,
+      "Position": 807,
+      "Text": "dich",
+      "Annotation": [
+        {
+          "entity_id": "du",
+          "gender": "m"
+        }
+      ]
+    },
+    {
+      "ID": 135,
+      "Position": 809,
+      "Text": "Dircetor",
+      "Annotation": [
+        {
+          "entity_id": "der Dircetor",
+          "gender": "m"
+        }
+      ]
+    },
+    {
+      "ID": 136,
+      "Position": 815,
+      "Text": "er",
+      "Annotation": [
+        {
+          "entity_id": "der Dircetor"
+        }
+      ]
+    },
+    {
+      "ID": 137,
+      "Position": 816,
+      "Text": "sein",
+      "Annotation": [
+        {
+          "entity_id": "der Dircetor"
+        }
+      ]
+    },
+    {
+      "ID": 138,
+      "Position": 823,
+      "Text": "seinem",
+      "Annotation": [
+        {
+          "entity_id": "der Dircetor"
+        }
+      ]
+    },
+    {
+      "ID": 139,
+      "Position": 840,
+      "Text": "B\u00fcrger",
+      "Annotation": [
+        {
+          "entity_id": "B\u00fcrger",
+          "specialcase_entity": [
+            "generic"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 140,
+      "Position": 846,
+      "Text": "derjenigen",
+      "Annotation": [
+        {
+          "entity_id": "derjenigen",
+          "specialcase_entity": [
+            "generic"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 141,
+      "Position": 847,
+      "Text": "unserer",
+      "Annotation": [
+        {
+          "entity_id": "unsere",
+          "specialcase_entity": [
+            "generic"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 142,
+      "Position": 849,
+      "Text": "Mitchristen",
+      "Annotation": [
+        {
+          "entity_id": "Mitchristen",
+          "specialcase_entity": [
+            "generic"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 143,
+      "Position": 851,
+      "Text": "welchen",
+      "Annotation": [
+        {
+          "entity_id": "derjenigen"
+        }
+      ]
+    },
+    {
+      "ID": 144,
+      "Position": 888,
+      "Text": "Herrn Doctor Jehadiah Bykbookbeaker",
+      "Annotation": [
+        {
+          "entity_id": "Herrn Doctor Jehadiah Bykbookbeaker",
+          "gender": "m"
+        }
+      ]
+    },
+    {
+      "ID": 145,
+      "Position": 895,
+      "Text": "seines",
+      "Annotation": [
+        {
+          "entity_id": "Herrn Doctor Jehadiah Bykbookbeaker"
+        }
+      ]
+    },
+    {
+      "ID": 146,
+      "Position": 928,
+      "Text": "unsrer",
+      "Annotation": [
+        {
+          "entity_id": "unsere",
+          "specialcase_entity": [
+            "generic"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 147,
+      "Position": 938,
+      "Text": "Unsre",
+      "Annotation": [
+        {
+          "entity_id": "unsere",
+          "specialcase_entity": [
+            "generic"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 148,
+      "Position": 943,
+      "Text": "unsers",
+      "Annotation": [
+        {
+          "entity_id": "unsere",
+          "specialcase_entity": [
+            "generic"
+          ]
+        }
+      ]
+    }
+  ],
+  "output": [
+    {
+      "id": "18070",
+      "token_idx": [
+        155446
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 9,
+            "fullname": "Jesus",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18071",
+      "token_idx": [
+        155453
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 21,
+            "fullname": "die Menge",
+            "gender": "u",
+            "specialcase_entity": [
+              "group"
+            ],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18072",
+      "token_idx": [
+        155455
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 21,
+            "fullname": "die Menge",
+            "gender": "u",
+            "specialcase_entity": [
+              "group"
+            ],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18073",
+      "token_idx": [
+        155458
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 7,
+            "fullname": "Hoby",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18074",
+      "token_idx": [
+        155461
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 7,
+            "fullname": "Hoby",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18075",
+      "token_idx": [
+        155471
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 8,
+            "fullname": "Ich",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18076",
+      "token_idx": [
+        155474
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 7,
+            "fullname": "Hoby",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18077",
+      "token_idx": [
+        155482,
+        155483
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 3,
+            "fullname": "Doctor Althof",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18078",
+      "token_idx": [
+        155487
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 15,
+            "fullname": "Poll",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18079",
+      "token_idx": [
+        155490
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 15,
+            "fullname": "Poll",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18080",
+      "token_idx": [
+        155491
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 8,
+            "fullname": "Ich",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18081",
+      "token_idx": [
+        155496
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 8,
+            "fullname": "Ich",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18082",
+      "token_idx": [
+        155505
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 8,
+            "fullname": "Ich",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18083",
+      "token_idx": [
+        155509
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 3,
+            "fullname": "Doctor Althof",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18084",
+      "token_idx": [
+        155512
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 8,
+            "fullname": "Ich",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        },
+        {
+          "entity": {
+            "id": 3,
+            "fullname": "Doctor Althof",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18085",
+      "token_idx": [
+        155516
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 8,
+            "fullname": "Ich",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18086",
+      "token_idx": [
+        155517
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 8,
+            "fullname": "Ich",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18087",
+      "token_idx": [
+        155519
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 3,
+            "fullname": "Doctor Althof",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18088",
+      "token_idx": [
+        155524
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 15,
+            "fullname": "Poll",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18089",
+      "token_idx": [
+        155526
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 3,
+            "fullname": "Doctor Althof",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        },
+        {
+          "entity": {
+            "id": 15,
+            "fullname": "Poll",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18090",
+      "token_idx": [
+        155535
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 20,
+            "fullname": "die Amerikaner",
+            "gender": "u",
+            "specialcase_entity": [
+              "group"
+            ],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18091",
+      "token_idx": [
+        155537
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 20,
+            "fullname": "die Amerikaner",
+            "gender": "u",
+            "specialcase_entity": [
+              "group"
+            ],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18092",
+      "token_idx": [
+        155538
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 20,
+            "fullname": "die Amerikaner",
+            "gender": "u",
+            "specialcase_entity": [
+              "group"
+            ],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18093",
+      "token_idx": [
+        155543
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 8,
+            "fullname": "Ich",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        },
+        {
+          "entity": {
+            "id": 20,
+            "fullname": "die Amerikaner",
+            "gender": "u",
+            "specialcase_entity": [
+              "group"
+            ],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18094",
+      "token_idx": [
+        155545
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 8,
+            "fullname": "Ich",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        },
+        {
+          "entity": {
+            "id": 20,
+            "fullname": "die Amerikaner",
+            "gender": "u",
+            "specialcase_entity": [
+              "group"
+            ],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18095",
+      "token_idx": [
+        155562
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 7,
+            "fullname": "Hoby",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18096",
+      "token_idx": [
+        155581
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 18,
+            "fullname": "der Prediger",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18097",
+      "token_idx": [
+        155583
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 18,
+            "fullname": "der Prediger",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18098",
+      "token_idx": [
+        155584
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 27,
+            "fullname": "sein Gehilfe",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18099",
+      "token_idx": [
+        155586
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 7,
+            "fullname": "Hoby",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18100",
+      "token_idx": [
+        155600
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 7,
+            "fullname": "Hoby",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18101",
+      "token_idx": [
+        155606
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 7,
+            "fullname": "Hoby",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18102",
+      "token_idx": [
+        155612
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 7,
+            "fullname": "Hoby",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18103",
+      "token_idx": [
+        155616
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 7,
+            "fullname": "Hoby",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18104",
+      "token_idx": [
+        155618
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 18,
+            "fullname": "der Prediger",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        },
+        {
+          "entity": {
+            "id": 27,
+            "fullname": "sein Gehilfe",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18105",
+      "token_idx": [
+        155628
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 9,
+            "fullname": "Jesus",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18106",
+      "token_idx": [
+        155630
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 7,
+            "fullname": "Hoby",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18107",
+      "token_idx": [
+        155633
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 8,
+            "fullname": "Ich",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18108",
+      "token_idx": [
+        155637
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 9,
+            "fullname": "Jesus",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18109",
+      "token_idx": [
+        155641
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 8,
+            "fullname": "Ich",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18110",
+      "token_idx": [
+        155645
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 9,
+            "fullname": "Jesus",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18111",
+      "token_idx": [
+        155650
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 8,
+            "fullname": "Ich",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18112",
+      "token_idx": [
+        155655
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 9,
+            "fullname": "Jesus",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18113",
+      "token_idx": [
+        155664
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 7,
+            "fullname": "Hoby",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18114",
+      "token_idx": [
+        155670
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 7,
+            "fullname": "Hoby",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18115",
+      "token_idx": [
+        155686
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 9,
+            "fullname": "Jesus",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18116",
+      "token_idx": [
+        155691
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 7,
+            "fullname": "Hoby",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18117",
+      "token_idx": [
+        155701
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 11,
+            "fullname": "Macbeth",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18118",
+      "token_idx": [
+        155730
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 7,
+            "fullname": "Hoby",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18119",
+      "token_idx": [
+        155740
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 7,
+            "fullname": "Hoby",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18120",
+      "token_idx": [
+        155746
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": "generic_0001",
+            "fullname": "ein Sterbender im Allgemeinen",
+            "gender": "u",
+            "specialcase_entity": [
+              "generic"
+            ],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18121",
+      "token_idx": [
+        155751
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 9,
+            "fullname": "Jesus",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18122",
+      "token_idx": [
+        155756
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 7,
+            "fullname": "Hoby",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18123",
+      "token_idx": [
+        155766
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 7,
+            "fullname": "Hoby",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18124",
+      "token_idx": [
+        155776
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 7,
+            "fullname": "Hoby",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18125",
+      "token_idx": [
+        155781
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 7,
+            "fullname": "Hoby",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18126",
+      "token_idx": [
+        155798
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 23,
+            "fullname": "die Umstehenden",
+            "gender": "u",
+            "specialcase_entity": [
+              "group"
+            ],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18127",
+      "token_idx": [
+        155809
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 8,
+            "fullname": "Ich",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18128",
+      "token_idx": [
+        155825
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": "generic_0002",
+            "fullname": "Menschen im Allgemeinen",
+            "gender": "u",
+            "specialcase_entity": [
+              "generic"
+            ],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18129",
+      "token_idx": [
+        155834
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 8,
+            "fullname": "Ich",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18130",
+      "token_idx": [
+        155837,
+        155838
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 4,
+            "fullname": "Familie Ermar",
+            "gender": "u",
+            "specialcase_entity": [
+              "group"
+            ],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18131",
+      "token_idx": [
+        155841
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 8,
+            "fullname": "Ich",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18132",
+      "token_idx": [
+        155845
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 8,
+            "fullname": "Ich",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18133",
+      "token_idx": [
+        155850
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 4,
+            "fullname": "Familie Ermar",
+            "gender": "u",
+            "specialcase_entity": [
+              "group"
+            ],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18134",
+      "token_idx": [
+        155861
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 8,
+            "fullname": "Ich",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18135",
+      "token_idx": [
+        155864
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 1,
+            "fullname": "Annette",
+            "gender": "f",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18136",
+      "token_idx": [
+        155869
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 1,
+            "fullname": "Annette",
+            "gender": "f",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18137",
+      "token_idx": [
+        155870
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 8,
+            "fullname": "Ich",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18138",
+      "token_idx": [
+        155873
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 8,
+            "fullname": "Ich",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18139",
+      "token_idx": [
+        155877
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 8,
+            "fullname": "Ich",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18140",
+      "token_idx": [
+        155883
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 8,
+            "fullname": "Ich",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18141",
+      "token_idx": [
+        155884
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 16,
+            "fullname": "Vater",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18142",
+      "token_idx": [
+        155886
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 14,
+            "fullname": "Mutter",
+            "gender": "f",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18143",
+      "token_idx": [
+        155888
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 10,
+            "fullname": "Kind",
+            "gender": "nb",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18144",
+      "token_idx": [
+        155891
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 8,
+            "fullname": "Ich",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18145",
+      "token_idx": [
+        155902
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 1,
+            "fullname": "Annette",
+            "gender": "f",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18146",
+      "token_idx": [
+        155904
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 1,
+            "fullname": "Annette",
+            "gender": "f",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18147",
+      "token_idx": [
+        155905
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 1,
+            "fullname": "Annette",
+            "gender": "f",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18148",
+      "token_idx": [
+        155912
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 1,
+            "fullname": "Annette",
+            "gender": "f",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18149",
+      "token_idx": [
+        155922
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 1,
+            "fullname": "Annette",
+            "gender": "f",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18150",
+      "token_idx": [
+        155932
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 8,
+            "fullname": "Ich",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18151",
+      "token_idx": [
+        155940
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 14,
+            "fullname": "Mutter",
+            "gender": "f",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18152",
+      "token_idx": [
+        155945
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 8,
+            "fullname": "Ich",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18153",
+      "token_idx": [
+        155948
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 14,
+            "fullname": "Mutter",
+            "gender": "f",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18154",
+      "token_idx": [
+        155952
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 1,
+            "fullname": "Annette",
+            "gender": "f",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18155",
+      "token_idx": [
+        155956
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 8,
+            "fullname": "Ich",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18156",
+      "token_idx": [
+        155958
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 8,
+            "fullname": "Ich",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18157",
+      "token_idx": [
+        155962
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 8,
+            "fullname": "Ich",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18158",
+      "token_idx": [
+        155968
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 8,
+            "fullname": "Ich",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18159",
+      "token_idx": [
+        155971
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 16,
+            "fullname": "Vater",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        },
+        {
+          "entity": {
+            "id": 14,
+            "fullname": "Mutter",
+            "gender": "f",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        },
+        {
+          "entity": {
+            "id": 10,
+            "fullname": "Kind",
+            "gender": "nb",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18160",
+      "token_idx": [
+        155979
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 8,
+            "fullname": "Ich",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18161",
+      "token_idx": [
+        155981
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 8,
+            "fullname": "Ich",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18162",
+      "token_idx": [
+        155986
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 8,
+            "fullname": "Ich",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18163",
+      "token_idx": [
+        155989
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 1,
+            "fullname": "Annette",
+            "gender": "f",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18164",
+      "token_idx": [
+        155992
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 8,
+            "fullname": "Ich",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18165",
+      "token_idx": [
+        155997
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 1,
+            "fullname": "Annette",
+            "gender": "f",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18166",
+      "token_idx": [
+        156004
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 8,
+            "fullname": "Ich",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18167",
+      "token_idx": [
+        156011,
+        156012
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 8,
+            "fullname": "Ich",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18168",
+      "token_idx": [
+        156015
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 8,
+            "fullname": "Ich",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        },
+        {
+          "entity": {
+            "id": 1,
+            "fullname": "Annette",
+            "gender": "f",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18169",
+      "token_idx": [
+        156018
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 8,
+            "fullname": "Ich",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18170",
+      "token_idx": [
+        156026
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 8,
+            "fullname": "Ich",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18171",
+      "token_idx": [
+        156031
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 8,
+            "fullname": "Ich",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18172",
+      "token_idx": [
+        156032
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 1,
+            "fullname": "Annette",
+            "gender": "f",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18173",
+      "token_idx": [
+        156042
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 1,
+            "fullname": "Annette",
+            "gender": "f",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18174",
+      "token_idx": [
+        156047
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 18,
+            "fullname": "der Prediger",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18175",
+      "token_idx": [
+        156049
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 18,
+            "fullname": "der Prediger",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18176",
+      "token_idx": [
+        156050
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 1,
+            "fullname": "Annette",
+            "gender": "f",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18177",
+      "token_idx": [
+        156054
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 1,
+            "fullname": "Annette",
+            "gender": "f",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18178",
+      "token_idx": [
+        156060
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 1,
+            "fullname": "Annette",
+            "gender": "f",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18179",
+      "token_idx": [
+        156066
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 1,
+            "fullname": "Annette",
+            "gender": "f",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18180",
+      "token_idx": [
+        156072
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 1,
+            "fullname": "Annette",
+            "gender": "f",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18181",
+      "token_idx": [
+        156075
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 1,
+            "fullname": "Annette",
+            "gender": "f",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18182",
+      "token_idx": [
+        156077
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 5,
+            "fullname": "Gott",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18183",
+      "token_idx": [
+        156083
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 1,
+            "fullname": "Annette",
+            "gender": "f",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18184",
+      "token_idx": [
+        156087
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 1,
+            "fullname": "Annette",
+            "gender": "f",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18185",
+      "token_idx": [
+        156104
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 1,
+            "fullname": "Annette",
+            "gender": "f",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18186",
+      "token_idx": [
+        156129
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 18,
+            "fullname": "der Prediger",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18187",
+      "token_idx": [
+        156130
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 18,
+            "fullname": "der Prediger",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18188",
+      "token_idx": [
+        156131
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 28,
+            "fullname": "sein Schreiber",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18189",
+      "token_idx": [
+        156136
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 1,
+            "fullname": "Annette",
+            "gender": "f",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18190",
+      "token_idx": [
+        156138
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 1,
+            "fullname": "Annette",
+            "gender": "f",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18191",
+      "token_idx": [
+        156153
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 1,
+            "fullname": "Annette",
+            "gender": "f",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18192",
+      "token_idx": [
+        156158
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": "generic_0003",
+            "fullname": "man",
+            "gender": "u",
+            "specialcase_entity": [
+              "generic"
+            ],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18193",
+      "token_idx": [
+        156160
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 8,
+            "fullname": "Ich",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18194",
+      "token_idx": [
+        156162
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 8,
+            "fullname": "Ich",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18195",
+      "token_idx": [
+        156171
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 22,
+            "fullname": "die Methodisten",
+            "gender": "u",
+            "specialcase_entity": [
+              "group"
+            ],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18196",
+      "token_idx": [
+        156176
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 30,
+            "fullname": "zwei Parteien",
+            "gender": "u",
+            "specialcase_entity": [
+              "group"
+            ],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18197",
+      "token_idx": [
+        156178
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 8,
+            "fullname": "Ich",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18198",
+      "token_idx": [
+        156184
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 8,
+            "fullname": "Ich",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18199",
+      "token_idx": [
+        156190
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 1,
+            "fullname": "Annette",
+            "gender": "f",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18200",
+      "token_idx": [
+        156197
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 1,
+            "fullname": "Annette",
+            "gender": "f",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18201",
+      "token_idx": [
+        156201
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 1,
+            "fullname": "Annette",
+            "gender": "f",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18202",
+      "token_idx": [
+        156208
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 1,
+            "fullname": "Annette",
+            "gender": "f",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18203",
+      "token_idx": [
+        156249
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 24,
+            "fullname": "du",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18204",
+      "token_idx": [
+        156251
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 17,
+            "fullname": "der Dircetor",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18205",
+      "token_idx": [
+        156257
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 17,
+            "fullname": "der Dircetor",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18206",
+      "token_idx": [
+        156258
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 17,
+            "fullname": "der Dircetor",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18207",
+      "token_idx": [
+        156265
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 17,
+            "fullname": "der Dircetor",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18208",
+      "token_idx": [
+        156282
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": "generic_0004",
+            "fullname": "B\u00fcrger",
+            "gender": "u",
+            "specialcase_entity": [
+              "generic"
+            ],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18209",
+      "token_idx": [
+        156288
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": "generic_0005",
+            "fullname": "derjenigen",
+            "gender": "u",
+            "specialcase_entity": [
+              "generic"
+            ],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18210",
+      "token_idx": [
+        156289
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": "generic_0007",
+            "fullname": "unsere",
+            "gender": "u",
+            "specialcase_entity": [
+              "generic"
+            ],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18211",
+      "token_idx": [
+        156291
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": "generic_0011",
+            "fullname": "Mitchristen",
+            "gender": "u",
+            "specialcase_entity": [
+              "generic"
+            ],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18212",
+      "token_idx": [
+        156293
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": "generic_0006",
+            "fullname": "derjenigen",
+            "gender": "u",
+            "specialcase_entity": [
+              "generic"
+            ],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18213",
+      "token_idx": [
+        156330,
+        156331,
+        156332,
+        156333
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 6,
+            "fullname": "Herrn Doctor Jehadiah Bykbookbeaker",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18214",
+      "token_idx": [
+        156337
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 6,
+            "fullname": "Herrn Doctor Jehadiah Bykbookbeaker",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18215",
+      "token_idx": [
+        156370
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": "generic_0008",
+            "fullname": "unsere",
+            "gender": "u",
+            "specialcase_entity": [
+              "generic"
+            ],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18216",
+      "token_idx": [
+        156380
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": "generic_0009",
+            "fullname": "unsere",
+            "gender": "u",
+            "specialcase_entity": [
+              "generic"
+            ],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "18217",
+      "token_idx": [
+        156385
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": "generic_0010",
+            "fullname": "unsere",
+            "gender": "u",
+            "specialcase_entity": [
+              "generic"
+            ],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    }
+  ],
+  "exception": null
+}
