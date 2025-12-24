@@ -98,37 +98,37 @@ def merge_entities(new_id, new_fullname, entities: List[Entity]) -> Entity:
 
 
 class MergePrompt(Prompt[List[Mention]], ABC):
-    def __init__(self, tokens: pandas.Series, is_section_start: pandas.Series, mentions: List[Mention]):
+    def __init__(self, tokens: pandas.Series, is_segment_start: pandas.Series, mentions: List[Mention]):
         self.tokens = tokens
-        self.is_section_start = is_section_start
+        self.is_segment_start = is_segment_start
         self.mentions = copy.deepcopy(mentions)
-        self.section_id_ser = self.is_section_start.cumsum()
-
-
-class BasicMergePrompt(MergePrompt):
-
-    def __init__(self, tokens: pandas.Series, is_section_start: pandas.Series, mentions: List[Mention]):
-        super().__init__(tokens, is_section_start, mentions)
+        self.segment_id_ser = self.is_segment_start.cumsum()
 
         self.entities: Dict[Tuple[int, str], List[Tuple[Mention, Reference]]] = self.setup_entities()
-
-        self.annotation_rows, self.json_input_lines = self.prepare_input()
 
     def setup_entities(self) -> Dict[Tuple[int, str], List[Tuple[Mention, Reference]]]:
         entities = collections.defaultdict(list)
         for mention in self.mentions:
-            section_id = self.section_id_ser[mention.token_idx[0]]
+            segment_id = self.segment_id_ser[mention.token_idx[0]]
             for ref in mention.references:
-                entities[(int(section_id), ref.entity.id)].append((mention, ref))
+                entities[(int(segment_id), ref.entity.id)].append((mention, ref))
 
         return dict(entities)
+
+
+class BasicMergePrompt(MergePrompt):
+
+    def __init__(self, tokens: pandas.Series, is_segment_start: pandas.Series, mentions: List[Mention]):
+        super().__init__(tokens, is_segment_start, mentions)
+
+        self.annotation_rows, self.json_input_lines = self.prepare_input()
 
     def prepare_input(self) -> Tuple[List[Tuple[int, str]], List[str]]:
         json_input_lines = []
         annotation_rows = []
 
         i = 0
-        for (section_id, _),  references in sorted(self.entities.items(), key=lambda x: x[0][0]):
+        for (segment_id, _),  references in sorted(self.entities.items(), key=lambda x: x[0][0]):
             entity = references[0][1].entity
 
             # drop any generic entities since these cannot co-refer anyway
@@ -147,7 +147,7 @@ class BasicMergePrompt(MergePrompt):
             refs_with_count = Counter(s for s in str_references).most_common()
             json_input_lines.append(json.dumps({
                 "Nummer": i,
-                "Kapitel": section_id,
+                "Kapitel": segment_id,
                 "Figurenname_Kapitel": entity_name,
                 "Erwähnungen": [x[0] for x in refs_with_count],
                 "Figurenname_Vollständig": ""
@@ -155,7 +155,7 @@ class BasicMergePrompt(MergePrompt):
 
             i = i + 1
 
-            annotation_rows.append((section_id, entity_id))
+            annotation_rows.append((segment_id, entity_id))
 
 
         return annotation_rows, json_input_lines
@@ -173,24 +173,24 @@ class BasicMergePrompt(MergePrompt):
 
         new_entities = collections.defaultdict(list)
         merged_entities = set()
-        for (section_id, old_entity_id), entity_global_name in entity_translation_map.items():
-            new_entities[entity_global_name].append((section_id, old_entity_id))
-            merged_entities.add((section_id, old_entity_id))
+        for (segment_id, old_entity_id), entity_global_name in entity_translation_map.items():
+            new_entities[entity_global_name].append((segment_id, old_entity_id))
+            merged_entities.add((segment_id, old_entity_id))
 
 
         entity_counter = 0
         for entity_global_name, chapter_entities in new_entities.items():
             entity_counter += 1
-            for (section_id, old_entity_id) in chapter_entities:
-                entries = self.entities[(section_id, old_entity_id)]
+            for (segment_id, old_entity_id) in chapter_entities:
+                entries = self.entities[(segment_id, old_entity_id)]
 
                 merged_entity = merge_entities(f'figur_{entity_counter:04d}', entity_global_name, [reference.entity for _, reference in entries])
                 for _, reference in entries:
                     reference.entity = merged_entity
 
-        for (section_id, old_entity_id) in self.entities.keys() - merged_entities:
+        for (segment_id, old_entity_id) in self.entities.keys() - merged_entities:
             entity_counter += 1
-            entries = self.entities[(section_id, old_entity_id)]
+            entries = self.entities[(segment_id, old_entity_id)]
             for _, reference in entries:
                 reference.entity.id = f'figur_{entity_counter:04d}'
 
@@ -205,9 +205,9 @@ class BasicMergePrompt(MergePrompt):
                 id_ = line['Nummer']
                 entity_global_name = line['Figurenname_Vollständig']
 
-                section_id, entity_id = self.annotation_rows[id_]
+                segment_id, entity_id = self.annotation_rows[id_]
 
-                entity_translation_map[(section_id, entity_id)] = entity_global_name
+                entity_translation_map[(segment_id, entity_id)] = entity_global_name
             except Exception as e:
                 logger.warning(f'Error decoding line {line!r}: {e}')
 

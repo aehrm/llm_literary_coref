@@ -1,5 +1,6 @@
 from pathlib import Path
 
+import more_itertools
 import pandas as pd
 import torch
 import re
@@ -13,28 +14,40 @@ from tqdm import tqdm
 from functools import partial
 
 
-def read_input_tsv(file_path):
+def split_into_segments(df, max_segment_length=None):
+    section_id = df['is_section_start'].cumsum()
+    for _, group in df.groupby(section_id):
+        idx = group.index
+        if max_segment_length is None or len(idx) <= max_segment_length:
+            yield group
+        else:
+            for segment_idx in more_itertools.chunked(idx, max_segment_length):
+                yield group.loc[segment_idx]
+
+
+
+def read_input_tsv(file_path, max_segment_length=None):
     try:
         df = pd.read_csv(file_path, sep='\t', keep_default_na=False, index_col='i')
         if 'is_section_start' not in df.columns:
             raise ValueError("Header likely missing")
     except ValueError:
         print("Header likely missing. Trying to read without header, assuming columns 'token' and 'is_section_start'.")
-        df = pd.read_csv(file_path, sep='\t', header=None, names=['token', 'is_section_start'], keep_default_na=False)
+        df = pd.read_csv(file_path, sep='\t', header=None, keep_default_na=False)
+        df.columns.names = ['token', 'is_section_start'][:len(df.columns)]
 
     if 'token' not in df.columns:
         raise ValueError("No 'token' column found in input file.")
 
-    if 'is_section_start' not in df.columns:
-        raise ValueError("No 'is_section_start' column found in input file.")
+    if 'is_section_start' in df.columns:
+        df['is_section_start'] = df['is_section_start'].astype(str).str.lower().isin(['true', '1', 't', 'yes'])
+    else:
+        df['is_section_start'] = False
 
-    df['is_section_start'] = df['is_section_start'].astype(str).str.lower().isin(['true', '1', 't', 'yes'])
-    df['section_group'] = df['is_section_start'].cumsum()
+
     df['mention'] = None
-
-    sections = [group.copy().reset_index() for _, group in df.groupby('section_group')]
-
-    return sections
+    segments = [segment.copy().reset_index() for segment in split_into_segments(df, max_segment_length=max_segment_length)]
+    return segments
 
 
 def tokenize(examples, tokenizer):
@@ -143,13 +156,15 @@ def process_sections(sections, basename, model_id, output_dir, device='cuda'):
 
     for sec_id, section_df in enumerate(sections):
         output_df = section_df[['i', 'token', 'mention']].copy()
+        if 'is_section_start' in section_df.columns:
+            output_df['is_section_start'] = section_df['is_section_start'].copy().astype(int)
         if 'gold' in section_df.columns:
             output_df['gold'] = section_df['gold'].copy()
 
         output_df.set_index('i', inplace=True)
 
         # Write to TSV
-        out_path = output_dir / f"{basename}_section_{sec_id:04d}.tsv"
+        out_path = output_dir / f"{basename}_segment_{sec_id:04d}.tsv"
         print(f"Writing {out_path}...")
         output_df.to_csv(out_path, sep='\t')
 
@@ -161,6 +176,7 @@ if __name__ == "__main__":
     parser.add_argument("--input_file", type=Path, required=True, help="Path to input TSV file.")
     parser.add_argument("--model_id", type=str, required=True, help="Path to HuggingFace model or Hub ID.")
     parser.add_argument("--output_dir", type=Path, default="outputs/mention_detection", help="Directory to save output TSVs.")
+    parser.add_argument("--max_segment_length", type=int, default=8192, help="Maximum segment length. If section is longer than this quantity, section will be split into multiple segments of this length.")
     parser.add_argument("--device", type=str, default="cuda" if torch.cuda.is_available() else "cpu",
                         help="Device (cuda/cpu).")
 
@@ -168,7 +184,7 @@ if __name__ == "__main__":
 
     # Read and split data
     print("Reading input file...")
-    sections = read_input_tsv(args.input_file)
+    sections = read_input_tsv(args.input_file, max_segment_length=args.max_segment_length)
 
     # Process
     basename = args.input_file.stem

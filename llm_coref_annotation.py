@@ -30,16 +30,16 @@ def get_mention_spans(mentions: pd.Series) -> Iterator[Mention]:
 
 
 
-def annotate_section(section_path: Path, annotator: LLMRunner, prompt_class: Type[MentionPrompt], output_dir: Path):
-    section_df = pd.read_csv(section_path, sep='\t', keep_default_na=False, index_col='i')
+def annotate_file(file_path: Path, annotator: LLMRunner, prompt_class: Type[MentionPrompt], output_dir: Path):
+    df = pd.read_csv(file_path, sep='\t', keep_default_na=False, index_col='i')
 
-    if not {'token', 'mention'} <= set(section_df.columns):
+    if not {'token', 'mention'} <= set(df.columns):
         raise ValueError("Input file must contain columns 'token' and 'mention'.")
 
-    tokens = section_df['token']
-    mention_spans = list(get_mention_spans(section_df['mention']))
+    tokens = df['token']
+    mention_spans = list(get_mention_spans(df['mention']))
 
-    print(f'Starting annotations for {section_path.name}: {len(tokens)} tokens, {len(mention_spans)} mentions found.')
+    print(f'Starting annotations for {file_path.name}: {len(tokens)} tokens, {len(mention_spans)} mentions found.')
 
     if not mention_spans:
         res = None
@@ -51,36 +51,36 @@ def annotate_section(section_path: Path, annotator: LLMRunner, prompt_class: Typ
             res = annotator.run(prompt)
         except Exception as e:
             trace = traceback.format_exc()
-            print(f"Annotator failed for {section_path.name}: {trace}")
+            print(f"Annotator failed for {file_path.name}: {trace}")
             return
 
 
         # output res as debug output
-        debug_filename = output_dir / f"{section_path.stem}.json"
+        debug_filename = output_dir / f"{file_path.stem}.json"
         with open(debug_filename, 'w', encoding='utf-8') as f:
             json.dump(res, f, indent=2, cls=JSONEncoder)
         print(f"Saved debug output to {debug_filename}")
 
         if res.exception:
-            print(f"Annotator failed for {section_path.name}: {res.exception}")
+            print(f"Annotator failed for {file_path.name}: {res.exception}")
             return
 
         decoded_mentions = res.output
 
-    output_df = section_df.copy().drop('mention', axis='columns')
+    output_df = df.copy().drop('mention', axis='columns')
     output_df['pred'] = ''
 
     for mention in decoded_mentions:
         for k in mention.token_idx:
             output_df.loc[k, 'pred'] = output_df.loc[k, 'pred'] + str(mention)
 
-    output_filename = output_dir / f"{section_path.stem}.tsv"
+    output_filename = output_dir / f"{file_path.stem}.tsv"
     output_df.to_csv(output_filename, sep='\t')
     print(f"Saved annotations to {output_filename}")
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Run LLM-based annotation on TSV text sections.")
+    parser = argparse.ArgumentParser(description="Run LLM-based annotation on TSV text segments.")
     parser.add_argument('--input_files', type=Path, nargs='+', required=True, help='List of input TSV files to process.' )
     parser.add_argument('--output_dir', type=Path, required=True, help='Directory to save output TSV and debug JSON files.' )
     parser.add_argument('--model', type=str, required=True, help='LLM Model string (e.g., "openai/gpt-4-turbo", "anthropic/claude-3-opus").')
@@ -119,7 +119,7 @@ def main():
     )
 
     for input_path in args.input_files:
-        annotate_section(input_path, annotator, prompt_class, args.output_dir)
+        annotate_file(input_path, annotator, prompt_class, args.output_dir)
 
 
 if __name__ == "__main__":

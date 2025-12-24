@@ -29,12 +29,13 @@ def load_document(gold_file: Path, input_files: List[Path]) -> pd.DataFrame:
     for f in input_files:
         print(f"loading {f}")
         df = pd.read_csv(f, sep="\t", index_col='i', keep_default_na=False)
-        #df['is_section_start'] = 0
-        #df.loc[df.index[0], 'is_section_start'] = 1
+        df['is_segment_start'] = 0
+        df.loc[df.index[0], 'is_segment_start'] = 1
         all_inference_dfs.append(df)
 
     inference_df = pd.concat(all_inference_dfs).sort_index()
     gold_df['pred'] = inference_df['pred']
+    gold_df['is_segment_start'] = inference_df['is_segment_start']
     if not all(~gold_df['pred'].isna()):
         missing_indices = list(sorted(gold_df.index[gold_df['pred'].isna()]))
         ranges = [(k, k + len(list(g)) - 1) for k, g in itertools.groupby(enumerate(missing_indices), lambda x: x[1] - x[0])]
@@ -43,7 +44,7 @@ def load_document(gold_file: Path, input_files: List[Path]) -> pd.DataFrame:
     return gold_df.sort_index()
 
 
-def merge_section(gold_file: Path, input_files: List[Path], annotator: LLMRunner, prompt_class: Type[MergePrompt], output_file: Path):
+def merge_segments(gold_file: Path, input_files: List[Path], annotator: LLMRunner, prompt_class: Type[MergePrompt], output_file: Path):
     document_df = load_document(gold_file, input_files)
 
     if not {'token', 'pred'} <= set(document_df.columns):
@@ -52,7 +53,9 @@ def merge_section(gold_file: Path, input_files: List[Path], annotator: LLMRunner
     tokens = document_df['token']
     mentions: List[Mention] = list(parse_mentions(document_df['pred']))
 
-    prompt = prompt_class(tokens, document_df['is_section_start'], mentions)
+    prompt = prompt_class(tokens, document_df['is_segment_start'], mentions)
+
+    print(f'Starting annotations for {gold_file.name}: {len(prompt.entities.values())} entities found.')
     res = annotator.run(prompt)
 
     # output res as debug output
@@ -84,7 +87,7 @@ def merge_section(gold_file: Path, input_files: List[Path], annotator: LLMRunner
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Run LLM-based annotation on TSV text sections. Groups input files according to their name")
+    parser = argparse.ArgumentParser(description="Run LLM-based annotation on TSV text segments. Groups input files according to their name")
     parser.add_argument('--gold_files', type=Path, nargs='+', required=True, help='List of gold TSV files to process.' )
     parser.add_argument('--input_files', type=Path, nargs='+', required=True, help='List of input TSV files to process.' )
     parser.add_argument('--output_dir', type=Path, required=True, help='Output directory for merged TSV files.' )
@@ -124,17 +127,17 @@ def main():
     )
 
     tsv_files: List[Path] = [f for f in args.input_files if f.name.endswith('.tsv')]
-    keyfn = lambda x: re.sub(r'_section_[0-9]+\.tsv', '', x.name)
-    for document_name, section_files in itertools.groupby(sorted(tsv_files, key=keyfn), key=keyfn):
-        section_files = list(section_files)
+    keyfn = lambda x: re.sub(r'_segment_[0-9]+\.tsv', '', x.name)
+    for document_name, segment_files in itertools.groupby(sorted(tsv_files, key=keyfn), key=keyfn):
+        segment_files = list(segment_files)
         gold_file = [f for f in args.gold_files if f.name == f"{document_name}.tsv"]
         if len(gold_file) != 1:
-            print(f'for inference TSV files {section_files}, no gold file named "{document_name}.tsv" specified')
+            print(f'for inference TSV files {segment_files}, no gold file named "{document_name}.tsv" specified')
             sys.exit(1)
 
         gold_file = gold_file[0]
         output_file = args.output_dir / f"{document_name}.tsv"
-        merge_section(gold_file, list(section_files), annotator, prompt_class, output_file)
+        merge_segments(gold_file, list(segment_files), annotator, prompt_class, output_file)
 
 
 if __name__ == "__main__":
