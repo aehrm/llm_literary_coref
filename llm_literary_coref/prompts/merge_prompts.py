@@ -111,6 +111,9 @@ class MergePrompt(Prompt[List[Mention]], ABC):
         for mention in self.mentions:
             segment_id = self.segment_id_ser[mention.token_idx[0]]
             for ref in mention.references:
+                # drop any generic entities since these cannot co-refer anyway
+                if 'generic' in ref.entity.specialcase_entity:
+                    break
                 entities[(int(segment_id), ref.entity.id)].append((mention, ref))
 
         return dict(entities)
@@ -131,9 +134,8 @@ class BasicMergePrompt(MergePrompt):
         for (segment_id, _),  references in sorted(self.entities.items(), key=lambda x: x[0][0]):
             entity = references[0][1].entity
 
-            # drop any generic entities since these cannot co-refer anyway
-            if 'generic' in entity.specialcase_entity:
-                continue
+            #if 'generic' in entity.specialcase_entity:
+            #    continue
 
             str_references = [
                 ' '.join(self.tokens[mention.token_idx])
