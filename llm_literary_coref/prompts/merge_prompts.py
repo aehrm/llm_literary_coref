@@ -41,6 +41,8 @@ Du erhältst eine Liste von JSON-Objekten, wobei jedes Objekt eine in einem best
 ## Ausgabeformat
 - Gib NUR die aktualisierte Liste zurück
 - Stelle sicher, dass wirklich jeder Eintrag der Input-Liste auch in der Ausgabe vorkommt
+- Füge keine weitere JSON-Zeilen der Ausgabe hinzu
+- Stelle sicher, dass Nummer, Kapitel, und Figurenname_Kapitel identisch in der Ausgabe sind
 - Das Feld `"Erwähnungen"` soll in der Ausgabe ausgelassen werden.
 - Ein JSON-Objekt pro Zeile (keine Liste, keine code fences)
 - Keine zusätzlichen Erklärungen oder Kommentare
