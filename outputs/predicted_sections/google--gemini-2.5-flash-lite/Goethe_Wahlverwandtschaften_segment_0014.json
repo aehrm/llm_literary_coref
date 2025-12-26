@@ -1,0 +1,3061 @@
+{
+  "model": "google/gemini-2.5-flash-lite",
+  "request_args": {
+    "seed": 123,
+    "temperature": 0,
+    "reasoning": {
+      "enabled": false
+    },
+    "provider": {
+      "only": [
+        "google-vertex"
+      ]
+    }
+  },
+  "raw_input": "\n# Entit\u00e4tsannotation in literarischen Texten\n\n## Aufgabe\nAnnotiere JEDE markierte Entit\u00e4ts-Erw\u00e4hnung im Text. F\u00fcr jede Erw\u00e4hnung (jede Zeile im Input B) musst du das \"Annotation\"-Feld als ein Array von Objekten bef\u00fcllen. Halte dich exakt an die vorgegebenen Kernprinzipien, die Struktur und die Logik der Sonderf\u00e4lle.\n\n## Zentrales Konzept: Die Entit\u00e4t\nEine **Entit\u00e4t** ist das konzeptionelle Ding, auf das im Text verwiesen wird. F\u00fcr diese Aufgabe gibt es zwei Arten von Entit\u00e4ten:\n1.  **Einzelfigur:** Ein einzelner menschlicher oder menschen\u00e4hnlicher Charakter (dies schlie\u00dft auch hypothetische Figuren mit ein).\n2.  **Gruppe als Einheit:** Eine Gruppe, die im Text als ein zusammenh\u00e4ngender Akteur handelt ODER als eine spezifische, aber nicht in ihre Mitglieder aufgel\u00f6ste Menge von Personen erscheint (siehe \"Fall 1\" bei den Gruppenregeln).\n\n## Input\nDu erh\u00e4ltst:\n1.  Den vollst\u00e4ndigen Text (A).\n2.  Eine Liste der zu annotierenden Erw\u00e4hnungen (B) als JSON Lines. Jede Erw\u00e4hnung ist ein einzelnes Wort.\n\n## Kernprinzipien der Annotation\n1.  **Konsistenz der `entity_id`:** Die wichtigste Regel! Verwende f\u00fcr dieselbe Entit\u00e4t (egal ob Einzelfigur oder Gruppe als Einheit) \u00fcber den gesamten Text hinweg **IMMER** die exakt gleiche `entity_id`.\n2.  **Namenswahl f\u00fcr `entity_id`:**\n    -   Bei Einzelfiguren mit Eigennamen: Verwende den Vornamen.\n    -   Bei Einzelfiguren ohne Namen: Erstelle eine kurze, pr\u00e4zise, textnahe Umschreibung (z.B. \"der alte Mann\", \"die Tante\").\n    -   Bei Gruppen als Einheit (Fall 1): Verwende eine passende Gruppenbezeichnung (z.B. \"Familie Armbruster\", \"die Wachen\").\n3.  **Referenz-Logik:** Jede Erw\u00e4hnung referenziert eine oder mehrere Entit\u00e4ten. Deine Aufgabe ist es, diese im \"Annotation\"-Array vollst\u00e4ndig und korrekt abzubilden.\n\n## Attribute im Annotationsobjekt\n-   `gender`: (String, nur bei erster Nennung) `m`, `f`, `nb` (nicht-bin\u00e4r), `u` (unbekannt), `mf` (nur bei Gruppen, falls diese aus m\u00e4nnlichen und weiblichen Mitgliedern besteht).\n-   `specialcase_entity`: (**Array von Strings**, nur bei erster Nennung) Sonderf\u00e4lle, die die Natur der Entit\u00e4t beschreiben. Alle diese Attribute sind unabh\u00e4ngig voneinander und k\u00f6nnen parallel auftreten.\n    -   `nonfact`: nicht-faktische Entit\u00e4t, siehe unten.\n    -   `group`: Gruppe, siehe unten.\n    -   `generic`: Generische Entit\u00e4t, siehe unten.\n    -   Falls keine dieser Attribute zutrifft, dann setze bei der ersten Nennung `\"specialcase_entity\": []`. Beachte, dass diese in der ersten Nennung angegebenen Attribute auch f\u00fcr alle folgenden Nennungen gelten m\u00fcssen, da diese Attribute sich auf die Entit\u00e4t beziehen.\n    \n## Logik der Sonderf\u00e4lle: Eine Entscheidungshierarchie\n\n**WICHTIG:** Gehe bei jeder Erw\u00e4hnung diese Schritte in der angegebenen Reihenfolge durch. Annotiere gem\u00e4\u00df der **ersten zutreffenden Regel** und ignoriere die folgenden f\u00fcr diese eine Erw\u00e4hnung, au\u00dfer es wird explizit anders angegeben (wie bei dualen Referenzen). Die korrekte Unterscheidung von spezifischen, nicht-faktischen und generischen Entit\u00e4ten ist entscheidend.\n\n### Schritt 1: Pr\u00fcfung auf spezifische Referenz (H\u00f6chste Priorit\u00e4t)\n*Frage dich:* Kann diese Erw\u00e4hnung auf eine **konkrete, bereits bekannte Figur** im Text zur\u00fcckgef\u00fchrt werden, selbst wenn ein allgemeiner Begriff (wie \"der Mann\", \"der Schuldige\"), ein Reflexivpronomen (\"sich\") oder das unpers\u00f6nliche Pronomen \"man\" verwendet wird?\n-   **Typischer Fall:** Eine Figur spricht \u00fcber sich selbst oder eine andere Figur in verallgemeinernder Weise.\n-   **Beispiel 1:** Hans reflektiert \u00fcber seine eigene Schuld und sagt: \"...zeigt sich **dem Schuldigen** wie eine strenge Richterin\". Hier ist \"dem Schuldigen\" **keine** generische Entit\u00e4t, sondern eine Referenz auf `Hans`.\n-   **Beispiel 2:** Eine Figur sagt \"wenn **man** glaubte...\". Pr\u00fcfe scharf, ob `man` hier nicht f\u00fcr \"ich\" (also die sprechende Figur) steht. \n-   **Anweisung:** Wenn ja, l\u00f6se die Koreferenz zur spezifischen Figur auf. Diese Entit\u00e4t ist **NICHT `generic` und NICHT `nonfact`**.\n\n### Schritt 2: Pr\u00fcfung auf nicht-faktische Entit\u00e4t (Mittlere Priorit\u00e4t)\n*Frage dich:* Wenn die Erw\u00e4hnung sich nicht auf eine bekannte Figur bezieht, handelt es sich dann um eine **hypothetische, gew\u00fcnschte, negierte oder als Beispiel genannte Einzelfigur oder eine kleine, definierte Gruppe?** Existiert diese Entit\u00e4t zum Zeitpunkt der Erw\u00e4hnung nicht *real* in der erz\u00e4hlten Welt, wird aber als individuelles Konzept behandelt?\n-   **Typischer Fall:** Gedankenexperimente, W\u00fcnsche, Pl\u00e4ne, Warnungen.\n-   **Beispiel 1:** \"Anna w\u00fcnschte sich eine **Tochter**\". Diese Tochter existiert nicht, ist aber eine hypothetische Einzelperson. -> `specialcase_entity: [\"nonfact\"]`.\n-   **Beispiel 2:** In einem philosophischen Dialog wird gesagt: \"was w\u00fcrde ein **Grieche**... einem **Chineser** antworten?\". Diese Personen sind keine allgemeinen Kategorien, sondern **hypothetische Beispiele** in einer Argumentation. -> `specialcase_entity: [\"nonfact\"]`.\n-   **Anweisung:** Wenn ja, erstelle eine neue Entit\u00e4t und f\u00fcge `\"nonfact\"` zum `specialcase_entity`-Array hinzu. Diese Entit\u00e4t ist **NICHT `generic`**.\n\n### Schritt 3: Pr\u00fcfung auf generische Entit\u00e4t (Niedrigste Priorit\u00e4t)\n*Frage dich:* Nur wenn Schritt 1 und 2 NICHT zutreffen: Bezieht sich die Erw\u00e4hnung auf eine **abstrakte Kategorie von Menschen** oder wird eine allgemeing\u00fcltige, gesetzm\u00e4\u00dfige Aussage \u00fcber eine Art von Mensch gemacht? L\u00e4sst sich die Entit\u00e4t als \"XXX im Allgemeinen\" beschreiben, ohne dass sie ein spezifisches oder hypothetisches Individuum im Kontext meint?\n-   **Typischer Fall:** Sentenzen, allgemeine Aussagen, die sich nicht auf den unmittelbaren Kontext zur\u00fcckf\u00fchren lassen.\n-   **Beispiel:** \"Ein **K\u00f6nig** muss stets gerecht sein.\" (Wenn dies als allgemeine Regel und nicht bezogen auf einen bestimmten K\u00f6nig gesagt wird).\n-   **Anweisung:** Nur in diesem Fall, f\u00fcge `\"generic\"` zum `specialcase_entity`-Array hinzu. Der Name der Entit\u00e4t muss von der Form \"XXX im Allgemeinen\" sein.\n\n### Sonderfall: Duale Referenz (Generisch + Spezifisch)\n*Frage dich:* Spricht eine Figur eine allgemeine Gruppe an (\"ihr Frauen\", \"ihr Elenden\"), meint damit aber **gleichzeitig** und erkennbar auch eine **spezifische Figur** im Raum?\n-   **Typischer Fall:** Eine Apostrophe (Anrede), die eine allgemeine Aussage mit einer direkten, pers\u00f6nlichen Ansprache verbindet.\n-   **Beispiel:** Gustav sagt zu Sophie: \"**Ihr** ungl\u00fccklichen **Weiber**! wie k\u00f6nnt **ihr** so th\u00f6richt seyn...\".\n-   **Anweisung:** In diesem seltenen Fall soll die Erw\u00e4hnung **mehrere Annotationsobjekte** im Array erhalten, da es sich um eine Gruppe von Fall 2 handelt: Eines f\u00fcr die generische Entit\u00e4t (\"Weiber im Allgemeinen\") und eines f\u00fcr jede spezifische Figur, die mitgemeint ist (hier: \"Sophie\").\n\n### Handhabung von Gruppen\n\n**Fall 1: Gruppe als Einheit (Eine Annotation)**\n-   **Logik:** Erw\u00e4hnungen im Plural, die sich auf eine **konkrete, aber anonyme oder nicht weiter aufgeschl\u00fcsselte Menge von Personen** in der Welt der Erz\u00e4hlung beziehen. Auch wenn die Mitglieder unbekannt sind, ist es eine spezifische Gruppe im Text. *Beispiele: \"meine Freunde\", \"die P\u00e4chter\", \"die Wachen am Tor\".*\n-   **Umsetzung:** Das `Annotation`-Array enth\u00e4lt **ein einziges Objekt**.\n    -   Dieses Objekt bekommt eine eigene Gruppen-`entity_id` (z.B. \"manche t\u00e4tige Freunde\").\n    -   Bei ihrer ersten Nennung, setze `specialcase_entity: [\"group\"]`.\n\n**Fall 2: Aufl\u00f6sbare Gruppe (Mehrere Annotationen)**\n-   **Logik:** Die Erw\u00e4hnung (oft ein Pronomen wie \"sie\", \"ihnen\" oder \"beide\") verweist klar auf **mehrere, individuelle Entit\u00e4ten, die im unmittelbaren Kontext bekannt sind**.\n-   **Umsetzung:** Das `Annotation`-Array enth\u00e4lt **mehrere Objekte**, eines f\u00fcr jede referenzierte Entit\u00e4t.\n    -   Jedes Objekt enth\u00e4lt die `entity_id` des jeweiligen Mitglieds.\n    -   Erfinde keine neuen Einzelfiguren. Wenn die Mitglieder nicht klar aus dem Kontext hervorgehen, ist es Fall 1.\n    - Beachte, dass in diesem Fall das Feld \"Annotation\" aus mehreren Objekten besteht. Auf keinen Fall darf das Feld \"entity_id\" aus einer Liste von Namen bestehen.\n\n## Ausgabeformat\n-   Gib EXAKT so viele Zeilen aus, wie Du im Input (B) erhalten hast. KEINE Zeilen \u00fcberspringen.\n-   Das Format ist JSON Lines (ein komplettes und valides JSON-Objekt pro Zeile).\n-   Gib NUR die aktualisierte Liste B zur\u00fcck.\n-   Keine Code-Fences, Kommentare oder Erkl\u00e4rungen in der Ausgabe.\n\n## Beispiele\n\n**Beispiel-Text:**\n[Hans][1] und [Anna][2] sa\u00dfen im Garten. [Sie][3] w\u00fcnschte [sich][4] eine [Tochter][5]. [Hans][6] stellte [sich][7] vor, dass ein [K\u00f6nig][8] stets gerecht sein muss. Sp\u00e4ter gingen [sie][9] gemeinsam ins Haus.\n\n**Input B:**\n{\"ID\": 1, \"Position\": 0, \"Text\": \"Hans\", \"Annotation\": []}\n{\"ID\": 2, \"Position\": 2, \"Text\": \"Anna\", \"Annotation\": []}\n{\"ID\": 3, \"Position\": 7, \"Text\": \"Sie\", \"Annotation\": []}\n{\"ID\": 4, \"Position\": 9, \"Text\": \"sich\", \"Annotation\": []}\n{\"ID\": 5, \"Position\": 11, \"Text\": \"Tochter\", \"Annotation\": []}\n{\"ID\": 6, \"Position\": 14, \"Text\": \"Hans\", \"Annotation\": []}\n{\"ID\": 7, \"Position\": 16, \"Text\": \"sich\", \"Annotation\": []}\n{\"ID\": 8, \"Position\": 21, \"Text\": \"K\u00f6nig\", \"Annotation\": []}\n{\"ID\": 9, \"Position\": 30, \"Text\": \"sie\", \"Annotation\": []}\n\n**Erwartete Ausgabe:**\n{\"ID\": 1, \"Position\": 0, \"Text\": \"Hans\", \"Annotation\": [{\"entity_id\": \"Hans\", \"gender\": \"m\"}]}\n{\"ID\": 2, \"Position\": 2, \"Text\": \"Anna\", \"Annotation\": [{\"entity_id\": \"Anna\", \"gender\": \"f\"}]}\n{\"ID\": 3, \"Position\": 7, \"Text\": \"Sie\", \"Annotation\": [{\"entity_id\": \"Anna\"}]}\n{\"ID\": 4, \"Position\": 9, \"Text\": \"sich\", \"Annotation\": [{\"entity_id\": \"Anna\"}]}\n{\"ID\": 5, \"Position\": 11, \"Text\": \"Tochter\", \"Annotation\": [{\"entity_id\": \"gew\u00fcnschte Tochter\", \"gender\": \"f\", \"specialcase_entity\": [\"nonfact\"]}]}\n{\"ID\": 6, \"Position\": 14, \"Text\": \"Hans\", \"Annotation\": [{\"entity_id\": \"Hans\"}]}\n{\"ID\": 7, \"Position\": 16, \"Text\": \"sich\", \"Annotation\": [{\"entity_id\": \"Hans\"}]}\n{\"ID\": 8, \"Position\": 21, \"Text\": \"K\u00f6nig\", \"Annotation\": [{\"entity_id\": \"ein K\u00f6nig im Allgemeinen\", \"gender\": \"m\", \"specialcase_entity\": [\"generic\"]}]}\n{\"ID\": 9, \"Position\": 30, \"Text\": \"sie\", \"Annotation\": [{\"entity_id\": \"Hans\"}, {\"entity_id\": \"Anna\"}]}\n\n---\n\n**Hier ist der zu annotierende Text:**\nInput A:\nVierzehntes Kapitel Von dem [Grafen][1] war indessen ein Brief an den [Hauptmann][2] angekommen , und zwar ein doppelter , einer zum Vorzeigen , der sehr sch\u00f6ne Aussichten in die Ferne darwies ; der andre hingegen , der ein entschiedenes Anerbieten f\u00fcr die Gegenwart enthielt , eine bedeutende Hof- und Gesch\u00e4ftsstelle , den Charakter als Major , ansehnlichen Gehalt und andre Vorteile , sollte wegen verschiedener Nebenumst\u00e4nde noch geheimgehalten werden . Auch unterrichtete der [Hauptmann][3] [seine][4] [Freunde][5] nur von jenen Hoffnungen und verbarg , was so nahe bevorstand . Indessen setzte [er][6] die gegenw\u00e4rtigen Gesch\u00e4fte lebhaft fort und machte in der Stille Einrichtungen , wie alles in [seiner][7] Abwesenheit ungehinderten Fortgang haben k\u00f6nnte . Es ist [ihm][8] nun selbst daran gelegen , da\u00df f\u00fcr manches ein Termin bestimmt werde , da\u00df [Ottiliens][9] Geburtstag manches beschleunige . Nun wirken die beiden [Freunde][10] , obschon ohne ausdr\u00fcckliches Einverst\u00e4ndnis , gern zusammen . [Eduard][11] ist nun recht zufrieden , da\u00df man durch das Vorauserheben der Gelder die Kasse verst\u00e4rkt hat ; die ganze Anstalt r\u00fcckt auf das rascheste vorw\u00e4rts . Die drei Teiche in einen See zu verwandeln , h\u00e4tte jetzt der [Hauptmann][12] am liebsten ganz widerraten . Der untere Damm war zu verst\u00e4rken , die mittlern abzutragen und die ganze Sache in mehr als einem Sinne wichtig und bedenklich . Beide Arbeiten aber , wie sie ineinanderwirken konnten , waren schon angefangen , und hier kam ein junger [Architekt][13] , ein ehemaliger [Z\u00f6gling][14] des [Hauptmanns][15] , sehr erw\u00fcnscht , [der][16] teils mit Anstellung t\u00fcchtiger [Meister][17] , teils mit Verdingen der Arbeit , wo sichs tun lie\u00df , die Sache f\u00f6rderte und dem Werke Sicherheit und Dauer versprach ; wobei [sich][18] der [Hauptmann][19] im stillen freute , da\u00df man [seine][20] Entfernung nicht f\u00fchlen w\u00fcrde . Denn [er][21] hatte den Grundsatz , aus einem \u00fcbernommenen unvollendeten Gesch\u00e4ft nicht zu scheiden , bis [er][22] [seine][23] Stelle genugsam ersetzt s\u00e4he . Ja [er][24] verachtete [diejenigen][25] , [die][26] , um [ihren][27] Abgang f\u00fchlbar zu machen , erst noch Verwirrung in [ihrem][28] Kreise anrichten , indem [sie][29] als ungebildete [Selbstler][30] das zu zerst\u00f6ren w\u00fcnschen , wobei [sie][31] nicht mehr fortwirken sollen . So arbeitete man immer mit Anstrengung , um [Ottiliens][32] Geburtstag zu verherrlichen , ohne da\u00df [man][33] es aussprach oder [sichs][34] recht aufrichtig bekannte . Nach [Charlottens][35] obgleich neidlosen Gesinnungen konnte es doch kein entschiedenes Fest werden . Die Jugend [Ottiliens][36] , [ihre][37] Gl\u00fccksumst\u00e4nde , das Verh\u00e4ltnis zur [Familie][38] berechtigten [sie][39] nicht , als [K\u00f6nigin][40] eines Tages zu erscheinen . Und [Eduard][41] wollte nicht davon gesprochen haben , weil alles wie von selbst entspringen , \u00fcberraschen und nat\u00fcrlich erfreuen sollte . [Alle][42] kamen daher stillschweigend in dem Vorwande \u00fcberein , als wenn an diesem Tage , ohne weitere Beziehung , jenes Lusthaus gerichtet werden sollte , und bei diesem Anla\u00df konnte man dem [Volke][43] sowie den [Freunden][44] ein Fest ank\u00fcndigen . [Eduards][45] Neigung war aber grenzenlos . Wie [er][46] [sich][47] [Ottilien][48] zuzueignen begehrte , so kannte [er][49] auch kein Ma\u00df des Hingebens , Schenkens , Versprechens . Zu einigen Gaben , die [er][50] [Ottilien][51] an diesem Tage verehren wollte , hatte [ihm][52] [Charlotte][53] viel zu \u00e4rmliche Vorschl\u00e4ge getan . [Er][54] sprach mit [seinem][55] [Kammerdiener][56] , [der][57] [seine][58] Garderobe besorgte und mit [Handelsleuten][59] und [Modeh\u00e4ndlern][60] in best\u00e4ndigem Verh\u00e4ltnis blieb ; [dieser][61] , nicht unbekannt sowohl mit den angenehmsten Gaben selbst als mit der besten Art , sie zu \u00fcberreichen , bestellte sogleich in der Stadt den niedlichsten Koffer , mit rotem Saffian \u00fcberzogen , mit Stahln\u00e4geln beschlagen und angef\u00fcllt mit Geschenken , einer solchen Schale w\u00fcrdig . Noch einen andern Vorschlag tat [er][62] [Eduarden][63] . Es war ein kleines Feuerwerk vorhanden , das man immer abzubrennen vers\u00e4umt hatte . Dies konnte man leicht verst\u00e4rken und erweitern . [Eduard][64] ergriff den Gedanken , und [jener][65] versprach , f\u00fcr die Ausf\u00fchrung zu sorgen . Die Sache sollte ein Geheimnis bleiben . Der [Hauptmann][66] hatte unterdessen , je n\u00e4her der Tag heranr\u00fcckte , [seine][67] polizeilichen Einrichtungen getroffen , die [er][68] f\u00fcr so n\u00f6tig hielt , wenn eine Masse [Menschen][69] zusammenberufen oder \u2013 gelockt wird . Ja sogar hatte [er][70] wegen des Bettelns und andrer Unbequemlichkeiten , wodurch die Anmut eines Festes gest\u00f6rt wird , durchaus Vorsorge genommen . [Eduard][71] und [sein][72] [Vertrauter][73] dagegen besch\u00e4ftigten [sich][74] vorz\u00fcglich mit dem Feuerwerk . Am mittelsten Teiche vor jenen gro\u00dfen Eichb\u00e4umen sollte es abgebrannt werden ; gegen\u00fcber unter den Platanen sollte die [Gesellschaft][75] [sich][76] aufhalten , um die Wirkung aus geh\u00f6riger Ferne , die Abspiegelung im Wasser , und was auf dem Wasser selbst brennend zu schwimmen bestimmt war , mit Sicherheit und Bequemlichkeit anzuschauen . Unter einem andern Vorwand lie\u00df daher [Eduard][77] den Raum unter den Platanen von Gestr\u00e4uch , Gras und Moos s\u00e4ubern , und nun erschien erst die Herrlichkeit des Baumwuchses sowohl an H\u00f6he als Breite auf dem gereinigten Boden . [Eduard][78] empfand dar\u00fcber die gr\u00f6\u00dfte Freude . \u203a Es war ungef\u00e4hr um diese Jahrszeit , als [ich][79] sie pflanzte . Wie lange mag es her sein ? \u2039 sagte [er][80] zu [sich][81] selbst . Sobald [er][82] nach Hause kam , schlug [er][83] in alten Tageb\u00fcchern nach , die [sein][84] [Vater][85] , besonders auf dem Lande , sehr ordentlich gef\u00fchrt hatte . Zwar diese Pflanzung konnte nicht darin erw\u00e4hnt sein , aber eine andre h\u00e4uslich wichtige Begebenheit an demselben Tage , deren [sich][86] [Eduard][87] noch wohl erinnerte , mu\u00dfte notwendig darin angemerkt stehen . [Er][88] durchbl\u00e4ttert einige B\u00e4nde , der Umstand findet sich . Aber wie erstaunt , wie erfreut ist [Eduard][89] , als [er][90] das wunderbarste Zusammentreffen bemerkt ! Der Tag , das Jahr jener Baumpflanzung ist zugleich der Tag , das Jahr von [Ottiliens][91] Geburt .\n\nInput B:\n{\"ID\": 1, \"Position\": 4, \"Text\": \"Grafen\", \"Annotation\": []}\n{\"ID\": 2, \"Position\": 11, \"Text\": \"Hauptmann\", \"Annotation\": []}\n{\"ID\": 3, \"Position\": 73, \"Text\": \"Hauptmann\", \"Annotation\": []}\n{\"ID\": 4, \"Position\": 74, \"Text\": \"seine\", \"Annotation\": []}\n{\"ID\": 5, \"Position\": 75, \"Text\": \"Freunde\", \"Annotation\": []}\n{\"ID\": 6, \"Position\": 90, \"Text\": \"er\", \"Annotation\": []}\n{\"ID\": 7, \"Position\": 106, \"Text\": \"seiner\", \"Annotation\": []}\n{\"ID\": 8, \"Position\": 115, \"Text\": \"ihm\", \"Annotation\": []}\n{\"ID\": 9, \"Position\": 130, \"Text\": \"Ottiliens\", \"Annotation\": []}\n{\"ID\": 10, \"Position\": 139, \"Text\": \"Freunde\", \"Annotation\": []}\n{\"ID\": 11, \"Position\": 149, \"Text\": \"Eduard\", \"Annotation\": []}\n{\"ID\": 12, \"Position\": 188, \"Text\": \"Hauptmann\", \"Annotation\": []}\n{\"ID\": 13, \"Position\": 235, \"Text\": \"Architekt\", \"Annotation\": []}\n{\"ID\": 14, \"Position\": 239, \"Text\": \"Z\\u00f6gling\", \"Annotation\": []}\n{\"ID\": 15, \"Position\": 241, \"Text\": \"Hauptmanns\", \"Annotation\": []}\n{\"ID\": 16, \"Position\": 246, \"Text\": \"der\", \"Annotation\": []}\n{\"ID\": 17, \"Position\": 251, \"Text\": \"Meister\", \"Annotation\": []}\n{\"ID\": 18, \"Position\": 276, \"Text\": \"sich\", \"Annotation\": []}\n{\"ID\": 19, \"Position\": 278, \"Text\": \"Hauptmann\", \"Annotation\": []}\n{\"ID\": 20, \"Position\": 285, \"Text\": \"seine\", \"Annotation\": []}\n{\"ID\": 21, \"Position\": 292, \"Text\": \"er\", \"Annotation\": []}\n{\"ID\": 22, \"Position\": 307, \"Text\": \"er\", \"Annotation\": []}\n{\"ID\": 23, \"Position\": 308, \"Text\": \"seine\", \"Annotation\": []}\n{\"ID\": 24, \"Position\": 315, \"Text\": \"er\", \"Annotation\": []}\n{\"ID\": 25, \"Position\": 317, \"Text\": \"diejenigen\", \"Annotation\": []}\n{\"ID\": 26, \"Position\": 319, \"Text\": \"die\", \"Annotation\": []}\n{\"ID\": 27, \"Position\": 322, \"Text\": \"ihren\", \"Annotation\": []}\n{\"ID\": 28, \"Position\": 332, \"Text\": \"ihrem\", \"Annotation\": []}\n{\"ID\": 29, \"Position\": 337, \"Text\": \"sie\", \"Annotation\": []}\n{\"ID\": 30, \"Position\": 340, \"Text\": \"Selbstler\", \"Annotation\": []}\n{\"ID\": 31, \"Position\": 347, \"Text\": \"sie\", \"Annotation\": []}\n{\"ID\": 32, \"Position\": 361, \"Text\": \"Ottiliens\", \"Annotation\": []}\n{\"ID\": 33, \"Position\": 368, \"Text\": \"man\", \"Annotation\": []}\n{\"ID\": 34, \"Position\": 372, \"Text\": \"sichs\", \"Annotation\": []}\n{\"ID\": 35, \"Position\": 378, \"Text\": \"Charlottens\", \"Annotation\": []}\n{\"ID\": 36, \"Position\": 392, \"Text\": \"Ottiliens\", \"Annotation\": []}\n{\"ID\": 37, \"Position\": 394, \"Text\": \"ihre\", \"Annotation\": []}\n{\"ID\": 38, \"Position\": 400, \"Text\": \"Familie\", \"Annotation\": []}\n{\"ID\": 39, \"Position\": 402, \"Text\": \"sie\", \"Annotation\": []}\n{\"ID\": 40, \"Position\": 406, \"Text\": \"K\\u00f6nigin\", \"Annotation\": []}\n{\"ID\": 41, \"Position\": 413, \"Text\": \"Eduard\", \"Annotation\": []}\n{\"ID\": 42, \"Position\": 433, \"Text\": \"Alle\", \"Annotation\": []}\n{\"ID\": 43, \"Position\": 465, \"Text\": \"Volke\", \"Annotation\": []}\n{\"ID\": 44, \"Position\": 468, \"Text\": \"Freunden\", \"Annotation\": []}\n{\"ID\": 45, \"Position\": 473, \"Text\": \"Eduards\", \"Annotation\": []}\n{\"ID\": 46, \"Position\": 480, \"Text\": \"er\", \"Annotation\": []}\n{\"ID\": 47, \"Position\": 481, \"Text\": \"sich\", \"Annotation\": []}\n{\"ID\": 48, \"Position\": 482, \"Text\": \"Ottilien\", \"Annotation\": []}\n{\"ID\": 49, \"Position\": 488, \"Text\": \"er\", \"Annotation\": []}\n{\"ID\": 50, \"Position\": 504, \"Text\": \"er\", \"Annotation\": []}\n{\"ID\": 51, \"Position\": 505, \"Text\": \"Ottilien\", \"Annotation\": []}\n{\"ID\": 52, \"Position\": 513, \"Text\": \"ihm\", \"Annotation\": []}\n{\"ID\": 53, \"Position\": 514, \"Text\": \"Charlotte\", \"Annotation\": []}\n{\"ID\": 54, \"Position\": 521, \"Text\": \"Er\", \"Annotation\": []}\n{\"ID\": 55, \"Position\": 524, \"Text\": \"seinem\", \"Annotation\": []}\n{\"ID\": 56, \"Position\": 525, \"Text\": \"Kammerdiener\", \"Annotation\": []}\n{\"ID\": 57, \"Position\": 527, \"Text\": \"der\", \"Annotation\": []}\n{\"ID\": 58, \"Position\": 528, \"Text\": \"seine\", \"Annotation\": []}\n{\"ID\": 59, \"Position\": 533, \"Text\": \"Handelsleuten\", \"Annotation\": []}\n{\"ID\": 60, \"Position\": 535, \"Text\": \"Modeh\\u00e4ndlern\", \"Annotation\": []}\n{\"ID\": 61, \"Position\": 541, \"Text\": \"dieser\", \"Annotation\": []}\n{\"ID\": 62, \"Position\": 593, \"Text\": \"er\", \"Annotation\": []}\n{\"ID\": 63, \"Position\": 594, \"Text\": \"Eduarden\", \"Annotation\": []}\n{\"ID\": 64, \"Position\": 618, \"Text\": \"Eduard\", \"Annotation\": []}\n{\"ID\": 65, \"Position\": 624, \"Text\": \"jener\", \"Annotation\": []}\n{\"ID\": 66, \"Position\": 641, \"Text\": \"Hauptmann\", \"Annotation\": []}\n{\"ID\": 67, \"Position\": 651, \"Text\": \"seine\", \"Annotation\": []}\n{\"ID\": 68, \"Position\": 657, \"Text\": \"er\", \"Annotation\": []}\n{\"ID\": 69, \"Position\": 666, \"Text\": \"Menschen\", \"Annotation\": []}\n{\"ID\": 70, \"Position\": 676, \"Text\": \"er\", \"Annotation\": []}\n{\"ID\": 71, \"Position\": 696, \"Text\": \"Eduard\", \"Annotation\": []}\n{\"ID\": 72, \"Position\": 698, \"Text\": \"sein\", \"Annotation\": []}\n{\"ID\": 73, \"Position\": 699, \"Text\": \"Vertrauter\", \"Annotation\": []}\n{\"ID\": 74, \"Position\": 702, \"Text\": \"sich\", \"Annotation\": []}\n{\"ID\": 75, \"Position\": 726, \"Text\": \"Gesellschaft\", \"Annotation\": []}\n{\"ID\": 76, \"Position\": 727, \"Text\": \"sich\", \"Annotation\": []}\n{\"ID\": 77, \"Position\": 766, \"Text\": \"Eduard\", \"Annotation\": []}\n{\"ID\": 78, \"Position\": 798, \"Text\": \"Eduard\", \"Annotation\": []}\n{\"ID\": 79, \"Position\": 814, \"Text\": \"ich\", \"Annotation\": []}\n{\"ID\": 80, \"Position\": 827, \"Text\": \"er\", \"Annotation\": []}\n{\"ID\": 81, \"Position\": 829, \"Text\": \"sich\", \"Annotation\": []}\n{\"ID\": 82, \"Position\": 833, \"Text\": \"er\", \"Annotation\": []}\n{\"ID\": 83, \"Position\": 839, \"Text\": \"er\", \"Annotation\": []}\n{\"ID\": 84, \"Position\": 846, \"Text\": \"sein\", \"Annotation\": []}\n{\"ID\": 85, \"Position\": 847, \"Text\": \"Vater\", \"Annotation\": []}\n{\"ID\": 86, \"Position\": 879, \"Text\": \"sich\", \"Annotation\": []}\n{\"ID\": 87, \"Position\": 880, \"Text\": \"Eduard\", \"Annotation\": []}\n{\"ID\": 88, \"Position\": 891, \"Text\": \"Er\", \"Annotation\": []}\n{\"ID\": 89, \"Position\": 908, \"Text\": \"Eduard\", \"Annotation\": []}\n{\"ID\": 90, \"Position\": 911, \"Text\": \"er\", \"Annotation\": []}\n{\"ID\": 91, \"Position\": 932, \"Text\": \"Ottiliens\", \"Annotation\": []}\n",
+  "raw_output": "{\"ID\": 1, \"Position\": 4, \"Text\": \"Grafen\", \"Annotation\": [{\"entity_id\": \"Graf\", \"gender\": \"m\"}]}\n{\"ID\": 2, \"Position\": 11, \"Text\": \"Hauptmann\", \"Annotation\": [{\"entity_id\": \"Hauptmann\", \"gender\": \"m\"}]}\n{\"ID\": 3, \"Position\": 73, \"Text\": \"Hauptmann\", \"Annotation\": [{\"entity_id\": \"Hauptmann\"}]}\n{\"ID\": 4, \"Position\": 74, \"Text\": \"seine\", \"Annotation\": [{\"entity_id\": \"Hauptmann\"}]}\n{\"ID\": 5, \"Position\": 75, \"Text\": \"Freunde\", \"Annotation\": [{\"entity_id\": \"Freunde des Hauptmanns\", \"specialcase_entity\": [\"group\"]}]}\n{\"ID\": 6, \"Position\": 90, \"Text\": \"er\", \"Annotation\": [{\"entity_id\": \"Hauptmann\"}]}\n{\"ID\": 7, \"Position\": 106, \"Text\": \"seiner\", \"Annotation\": [{\"entity_id\": \"Hauptmann\"}]}\n{\"ID\": 8, \"Position\": 115, \"Text\": \"ihm\", \"Annotation\": [{\"entity_id\": \"Hauptmann\"}]}\n{\"ID\": 9, \"Position\": 130, \"Text\": \"Ottiliens\", \"Annotation\": [{\"entity_id\": \"Ottilien\", \"gender\": \"f\"}]}\n{\"ID\": 10, \"Position\": 139, \"Text\": \"Freunde\", \"Annotation\": [{\"entity_id\": \"Freunde des Hauptmanns\"}]}\n{\"ID\": 11, \"Position\": 149, \"Text\": \"Eduard\", \"Annotation\": [{\"entity_id\": \"Eduard\", \"gender\": \"m\"}]}\n{\"ID\": 12, \"Position\": 188, \"Text\": \"Hauptmann\", \"Annotation\": [{\"entity_id\": \"Hauptmann\"}]}\n{\"ID\": 13, \"Position\": 235, \"Text\": \"Architekt\", \"Annotation\": [{\"entity_id\": \"ein Architekt\", \"gender\": \"m\", \"specialcase_entity\": [\"nonfact\"]}]}\n{\"ID\": 14, \"Position\": 239, \"Text\": \"Z\u00f6gling\", \"Annotation\": [{\"entity_id\": \"ein Z\u00f6gling des Hauptmanns\", \"specialcase_entity\": [\"nonfact\"]}]}\n{\"ID\": 15, \"Position\": 241, \"Text\": \"Hauptmanns\", \"Annotation\": [{\"entity_id\": \"Hauptmann\"}]}\n{\"ID\": 16, \"Position\": 246, \"Text\": \"der\", \"Annotation\": [{\"entity_id\": \"ein Architekt\"}]}\n{\"ID\": 17, \"Position\": 251, \"Text\": \"Meister\", \"Annotation\": [{\"entity_id\": \"Meister\", \"specialcase_entity\": [\"generic\"]}]}\n{\"ID\": 18, \"Position\": 276, \"Text\": \"sich\", \"Annotation\": [{\"entity_id\": \"Hauptmann\"}]}\n{\"ID\": 19, \"Position\": 278, \"Text\": \"Hauptmann\", \"Annotation\": [{\"entity_id\": \"Hauptmann\"}]}\n{\"ID\": 20, \"Position\": 285, \"Text\": \"seine\", \"Annotation\": [{\"entity_id\": \"Hauptmann\"}]}\n{\"ID\": 21, \"Position\": 292, \"Text\": \"er\", \"Annotation\": [{\"entity_id\": \"Hauptmann\"}]}\n{\"ID\": 22, \"Position\": 307, \"Text\": \"er\", \"Annotation\": [{\"entity_id\": \"Hauptmann\"}]}\n{\"ID\": 23, \"Position\": 308, \"Text\": \"seine\", \"Annotation\": [{\"entity_id\": \"Hauptmann\"}]}\n{\"ID\": 24, \"Position\": 315, \"Text\": \"er\", \"Annotation\": [{\"entity_id\": \"Hauptmann\"}]}\n{\"ID\": 25, \"Position\": 317, \"Text\": \"diejenigen\", \"Annotation\": [{\"entity_id\": \"diejenigen, die ihren Abgang f\u00fchlbar machen wollen\", \"specialcase_entity\": [\"generic\"]}]}\n{\"ID\": 26, \"Position\": 319, \"Text\": \"die\", \"Annotation\": [{\"entity_id\": \"diejenigen, die ihren Abgang f\u00fchlbar machen wollen\"}]}\n{\"ID\": 27, \"Position\": 322, \"Text\": \"ihren\", \"Annotation\": [{\"entity_id\": \"diejenigen, die ihren Abgang f\u00fchlbar machen wollen\"}]}\n{\"ID\": 28, \"Position\": 332, \"Text\": \"ihrem\", \"Annotation\": [{\"entity_id\": \"diejenigen, die ihren Abgang f\u00fchlbar machen wollen\"}]}\n{\"ID\": 29, \"Position\": 337, \"Text\": \"sie\", \"Annotation\": [{\"entity_id\": \"diejenigen, die ihren Abgang f\u00fchlbar machen wollen\"}]}\n{\"ID\": 30, \"Position\": 340, \"Text\": \"Selbstler\", \"Annotation\": [{\"entity_id\": \"Selbstler\", \"specialcase_entity\": [\"generic\"]}]}\n{\"ID\": 31, \"Position\": 347, \"Text\": \"sie\", \"Annotation\": [{\"entity_id\": \"diejenigen, die ihren Abgang f\u00fchlbar machen wollen\"}]}\n{\"ID\": 32, \"Position\": 361, \"Text\": \"Ottiliens\", \"Annotation\": [{\"entity_id\": \"Ottilien\"}]}\n{\"ID\": 33, \"Position\": 368, \"Text\": \"man\", \"Annotation\": [{\"entity_id\": \"man im Allgemeinen\", \"specialcase_entity\": [\"generic\"]}]}\n{\"ID\": 34, \"Position\": 372, \"Text\": \"sichs\", \"Annotation\": [{\"entity_id\": \"man im Allgemeinen\"}]}\n{\"ID\": 35, \"Position\": 378, \"Text\": \"Charlottens\", \"Annotation\": [{\"entity_id\": \"Charlotte\", \"gender\": \"f\"}]}\n{\"ID\": 36, \"Position\": 392, \"Text\": \"Ottiliens\", \"Annotation\": [{\"entity_id\": \"Ottilien\"}]}\n{\"ID\": 37, \"Position\": 394, \"Text\": \"ihre\", \"Annotation\": [{\"entity_id\": \"Ottilien\"}]}\n{\"ID\": 38, \"Position\": 400, \"Text\": \"Familie\", \"Annotation\": [{\"entity_id\": \"Familie\", \"specialcase_entity\": [\"group\"]}]}\n{\"ID\": 39, \"Position\": 402, \"Text\": \"sie\", \"Annotation\": [{\"entity_id\": \"Ottilien\"}]}\n{\"ID\": 40, \"Position\": 406, \"Text\": \"K\u00f6nigin\", \"Annotation\": [{\"entity_id\": \"K\u00f6nigin im Allgemeinen\", \"gender\": \"f\", \"specialcase_entity\": [\"generic\"]}]}\n{\"ID\": 41, \"Position\": 413, \"Text\": \"Eduard\", \"Annotation\": [{\"entity_id\": \"Eduard\"}]}\n{\"ID\": 42, \"Position\": 433, \"Text\": \"Alle\", \"Annotation\": [{\"entity_id\": \"Alle\", \"specialcase_entity\": [\"group\"]}]}\n{\"ID\": 43, \"Position\": 465, \"Text\": \"Volke\", \"Annotation\": [{\"entity_id\": \"Volk\", \"specialcase_entity\": [\"generic\"]}]}\n{\"ID\": 44, \"Position\": 468, \"Text\": \"Freunden\", \"Annotation\": [{\"entity_id\": \"Freunde\", \"specialcase_entity\": [\"generic\"]}]}\n{\"ID\": 45, \"Position\": 473, \"Text\": \"Eduards\", \"Annotation\": [{\"entity_id\": \"Eduard\"}]}\n{\"ID\": 46, \"Position\": 480, \"Text\": \"er\", \"Annotation\": [{\"entity_id\": \"Eduard\"}]}\n{\"ID\": 47, \"Position\": 481, \"Text\": \"sich\", \"Annotation\": [{\"entity_id\": \"Eduard\"}]}\n{\"ID\": 48, \"Position\": 482, \"Text\": \"Ottilien\", \"Annotation\": [{\"entity_id\": \"Ottilien\"}]}\n{\"ID\": 49, \"Position\": 488, \"Text\": \"er\", \"Annotation\": [{\"entity_id\": \"Eduard\"}]}\n{\"ID\": 50, \"Position\": 504, \"Text\": \"er\", \"Annotation\": [{\"entity_id\": \"Eduard\"}]}\n{\"ID\": 51, \"Position\": 505, \"Text\": \"Ottilien\", \"Annotation\": [{\"entity_id\": \"Ottilien\"}]}\n{\"ID\": 52, \"Position\": 513, \"Text\": \"ihm\", \"Annotation\": [{\"entity_id\": \"Eduard\"}]}\n{\"ID\": 53, \"Position\": 514, \"Text\": \"Charlotte\", \"Annotation\": [{\"entity_id\": \"Charlotte\", \"gender\": \"f\"}]}\n{\"ID\": 54, \"Position\": 521, \"Text\": \"Er\", \"Annotation\": [{\"entity_id\": \"Eduard\"}]}\n{\"ID\": 55, \"Position\": 524, \"Text\": \"seinem\", \"Annotation\": [{\"entity_id\": \"Eduard\"}]}\n{\"ID\": 56, \"Position\": 525, \"Text\": \"Kammerdiener\", \"Annotation\": [{\"entity_id\": \"Kammerdiener\", \"gender\": \"m\", \"specialcase_entity\": [\"nonfact\"]}]}\n{\"ID\": 57, \"Position\": 527, \"Text\": \"der\", \"Annotation\": [{\"entity_id\": \"Kammerdiener\"}]}\n{\"ID\": 58, \"Position\": 528, \"Text\": \"seine\", \"Annotation\": [{\"entity_id\": \"Kammerdiener\"}]}\n{\"ID\": 59, \"Position\": 533, \"Text\": \"Handelsleuten\", \"Annotation\": [{\"entity_id\": \"Handelsleute\", \"specialcase_entity\": [\"generic\"]}]}\n{\"ID\": 60, \"Position\": 535, \"Text\": \"Modeh\u00e4ndlern\", \"Annotation\": [{\"entity_id\": \"Modeh\u00e4ndler\", \"specialcase_entity\": [\"generic\"]}]}\n{\"ID\": 61, \"Position\": 541, \"Text\": \"dieser\", \"Annotation\": [{\"entity_id\": \"Kammerdiener\"}]}\n{\"ID\": 62, \"Position\": 593, \"Text\": \"er\", \"Annotation\": [{\"entity_id\": \"Eduard\"}]}\n{\"ID\": 63, \"Position\": 594, \"Text\": \"Eduarden\", \"Annotation\": [{\"entity_id\": \"Eduard\"}]}\n{\"ID\": 64, \"Position\": 618, \"Text\": \"Eduard\", \"Annotation\": [{\"entity_id\": \"Eduard\"}]}\n{\"ID\": 65, \"Position\": 624, \"Text\": \"jener\", \"Annotation\": [{\"entity_id\": \"Kammerdiener\"}]}\n{\"ID\": 66, \"Position\": 641, \"Text\": \"Hauptmann\", \"Annotation\": [{\"entity_id\": \"Hauptmann\"}]}\n{\"ID\": 67, \"Position\": 651, \"Text\": \"seine\", \"Annotation\": [{\"entity_id\": \"Hauptmann\"}]}\n{\"ID\": 68, \"Position\": 657, \"Text\": \"er\", \"Annotation\": [{\"entity_id\": \"Hauptmann\"}]}\n{\"ID\": 69, \"Position\": 666, \"Text\": \"Menschen\", \"Annotation\": [{\"entity_id\": \"Menschen im Allgemeinen\", \"specialcase_entity\": [\"generic\"]}]}\n{\"ID\": 70, \"Position\": 676, \"Text\": \"er\", \"Annotation\": [{\"entity_id\": \"Hauptmann\"}]}\n{\"ID\": 71, \"Position\": 696, \"Text\": \"Eduard\", \"Annotation\": [{\"entity_id\": \"Eduard\"}]}\n{\"ID\": 72, \"Position\": 698, \"Text\": \"sein\", \"Annotation\": [{\"entity_id\": \"Eduard\"}]}\n{\"ID\": 73, \"Position\": 699, \"Text\": \"Vertrauter\", \"Annotation\": [{\"entity_id\": \"Vertrauter Eduards\", \"gender\": \"m\", \"specialcase_entity\": [\"nonfact\"]}]}\n{\"ID\": 74, \"Position\": 702, \"Text\": \"sich\", \"Annotation\": [{\"entity_id\": \"Eduard\"}]}\n{\"ID\": 75, \"Position\": 726, \"Text\": \"Gesellschaft\", \"Annotation\": [{\"entity_id\": \"Gesellschaft\", \"specialcase_entity\": [\"group\"]}]}\n{\"ID\": 76, \"Position\": 727, \"Text\": \"sich\", \"Annotation\": [{\"entity_id\": \"Gesellschaft\"}]}\n{\"ID\": 77, \"Position\": 766, \"Text\": \"Eduard\", \"Annotation\": [{\"entity_id\": \"Eduard\"}]}\n{\"ID\": 78, \"Position\": 798, \"Text\": \"Eduard\", \"Annotation\": [{\"entity_id\": \"Eduard\"}]}\n{\"ID\": 79, \"Position\": 814, \"Text\": \"ich\", \"Annotation\": [{\"entity_id\": \"Eduard\"}]}\n{\"ID\": 80, \"Position\": 827, \"Text\": \"er\", \"Annotation\": [{\"entity_id\": \"Eduard\"}]}\n{\"ID\": 81, \"Position\": 829, \"Text\": \"sich\", \"Annotation\": [{\"entity_id\": \"Eduard\"}]}\n{\"ID\": 82, \"Position\": 833, \"Text\": \"er\", \"Annotation\": [{\"entity_id\": \"Eduard\"}]}\n{\"ID\": 83, \"Position\": 839, \"Text\": \"er\", \"Annotation\": [{\"entity_id\": \"Eduard\"}]}\n{\"ID\": 84, \"Position\": 846, \"Text\": \"sein\", \"Annotation\": [{\"entity_id\": \"Eduard\"}]}\n{\"ID\": 85, \"Position\": 847, \"Text\": \"Vater\", \"Annotation\": [{\"entity_id\": \"Vaters Eduards\", \"gender\": \"m\", \"specialcase_entity\": [\"nonfact\"]}]}\n{\"ID\": 86, \"Position\": 879, \"Text\": \"sich\", \"Annotation\": [{\"entity_id\": \"Eduard\"}]}\n{\"ID\": 87, \"Position\": 880, \"Text\": \"Eduard\", \"Annotation\": [{\"entity_id\": \"Eduard\"}]}\n{\"ID\": 88, \"Position\": 891, \"Text\": \"Er\", \"Annotation\": [{\"entity_id\": \"Eduard\"}]}\n{\"ID\": 89, \"Position\": 908, \"Text\": \"Eduard\", \"Annotation\": [{\"entity_id\": \"Eduard\"}]}\n{\"ID\": 90, \"Position\": 911, \"Text\": \"er\", \"Annotation\": [{\"entity_id\": \"Eduard\"}]}\n",
+  "generation_details": [
+    {
+      "usage": {
+        "prompt_tokens": 7262,
+        "completion_tokens": 3584,
+        "total_tokens": 10846,
+        "cost": 0.0021598,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.0007262,
+          "upstream_inference_completions_cost": 0.0014336
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      },
+      "finish_reason": "stop",
+      "request_id": "gen-1766597769-guq3Pk1JJnYZXSHrz35v"
+    }
+  ],
+  "json_output": [
+    {
+      "ID": 1,
+      "Position": 4,
+      "Text": "Grafen",
+      "Annotation": [
+        {
+          "entity_id": "Graf",
+          "gender": "m"
+        }
+      ]
+    },
+    {
+      "ID": 2,
+      "Position": 11,
+      "Text": "Hauptmann",
+      "Annotation": [
+        {
+          "entity_id": "Hauptmann",
+          "gender": "m"
+        }
+      ]
+    },
+    {
+      "ID": 3,
+      "Position": 73,
+      "Text": "Hauptmann",
+      "Annotation": [
+        {
+          "entity_id": "Hauptmann"
+        }
+      ]
+    },
+    {
+      "ID": 4,
+      "Position": 74,
+      "Text": "seine",
+      "Annotation": [
+        {
+          "entity_id": "Hauptmann"
+        }
+      ]
+    },
+    {
+      "ID": 5,
+      "Position": 75,
+      "Text": "Freunde",
+      "Annotation": [
+        {
+          "entity_id": "Freunde des Hauptmanns",
+          "specialcase_entity": [
+            "group"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 6,
+      "Position": 90,
+      "Text": "er",
+      "Annotation": [
+        {
+          "entity_id": "Hauptmann"
+        }
+      ]
+    },
+    {
+      "ID": 7,
+      "Position": 106,
+      "Text": "seiner",
+      "Annotation": [
+        {
+          "entity_id": "Hauptmann"
+        }
+      ]
+    },
+    {
+      "ID": 8,
+      "Position": 115,
+      "Text": "ihm",
+      "Annotation": [
+        {
+          "entity_id": "Hauptmann"
+        }
+      ]
+    },
+    {
+      "ID": 9,
+      "Position": 130,
+      "Text": "Ottiliens",
+      "Annotation": [
+        {
+          "entity_id": "Ottilien",
+          "gender": "f"
+        }
+      ]
+    },
+    {
+      "ID": 10,
+      "Position": 139,
+      "Text": "Freunde",
+      "Annotation": [
+        {
+          "entity_id": "Freunde des Hauptmanns"
+        }
+      ]
+    },
+    {
+      "ID": 11,
+      "Position": 149,
+      "Text": "Eduard",
+      "Annotation": [
+        {
+          "entity_id": "Eduard",
+          "gender": "m"
+        }
+      ]
+    },
+    {
+      "ID": 12,
+      "Position": 188,
+      "Text": "Hauptmann",
+      "Annotation": [
+        {
+          "entity_id": "Hauptmann"
+        }
+      ]
+    },
+    {
+      "ID": 13,
+      "Position": 235,
+      "Text": "Architekt",
+      "Annotation": [
+        {
+          "entity_id": "ein Architekt",
+          "gender": "m",
+          "specialcase_entity": [
+            "nonfact"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 14,
+      "Position": 239,
+      "Text": "Z\u00f6gling",
+      "Annotation": [
+        {
+          "entity_id": "ein Z\u00f6gling des Hauptmanns",
+          "specialcase_entity": [
+            "nonfact"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 15,
+      "Position": 241,
+      "Text": "Hauptmanns",
+      "Annotation": [
+        {
+          "entity_id": "Hauptmann"
+        }
+      ]
+    },
+    {
+      "ID": 16,
+      "Position": 246,
+      "Text": "der",
+      "Annotation": [
+        {
+          "entity_id": "ein Architekt"
+        }
+      ]
+    },
+    {
+      "ID": 17,
+      "Position": 251,
+      "Text": "Meister",
+      "Annotation": [
+        {
+          "entity_id": "Meister",
+          "specialcase_entity": [
+            "generic"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 18,
+      "Position": 276,
+      "Text": "sich",
+      "Annotation": [
+        {
+          "entity_id": "Hauptmann"
+        }
+      ]
+    },
+    {
+      "ID": 19,
+      "Position": 278,
+      "Text": "Hauptmann",
+      "Annotation": [
+        {
+          "entity_id": "Hauptmann"
+        }
+      ]
+    },
+    {
+      "ID": 20,
+      "Position": 285,
+      "Text": "seine",
+      "Annotation": [
+        {
+          "entity_id": "Hauptmann"
+        }
+      ]
+    },
+    {
+      "ID": 21,
+      "Position": 292,
+      "Text": "er",
+      "Annotation": [
+        {
+          "entity_id": "Hauptmann"
+        }
+      ]
+    },
+    {
+      "ID": 22,
+      "Position": 307,
+      "Text": "er",
+      "Annotation": [
+        {
+          "entity_id": "Hauptmann"
+        }
+      ]
+    },
+    {
+      "ID": 23,
+      "Position": 308,
+      "Text": "seine",
+      "Annotation": [
+        {
+          "entity_id": "Hauptmann"
+        }
+      ]
+    },
+    {
+      "ID": 24,
+      "Position": 315,
+      "Text": "er",
+      "Annotation": [
+        {
+          "entity_id": "Hauptmann"
+        }
+      ]
+    },
+    {
+      "ID": 25,
+      "Position": 317,
+      "Text": "diejenigen",
+      "Annotation": [
+        {
+          "entity_id": "diejenigen, die ihren Abgang f\u00fchlbar machen wollen",
+          "specialcase_entity": [
+            "generic"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 26,
+      "Position": 319,
+      "Text": "die",
+      "Annotation": [
+        {
+          "entity_id": "diejenigen, die ihren Abgang f\u00fchlbar machen wollen"
+        }
+      ]
+    },
+    {
+      "ID": 27,
+      "Position": 322,
+      "Text": "ihren",
+      "Annotation": [
+        {
+          "entity_id": "diejenigen, die ihren Abgang f\u00fchlbar machen wollen"
+        }
+      ]
+    },
+    {
+      "ID": 28,
+      "Position": 332,
+      "Text": "ihrem",
+      "Annotation": [
+        {
+          "entity_id": "diejenigen, die ihren Abgang f\u00fchlbar machen wollen"
+        }
+      ]
+    },
+    {
+      "ID": 29,
+      "Position": 337,
+      "Text": "sie",
+      "Annotation": [
+        {
+          "entity_id": "diejenigen, die ihren Abgang f\u00fchlbar machen wollen"
+        }
+      ]
+    },
+    {
+      "ID": 30,
+      "Position": 340,
+      "Text": "Selbstler",
+      "Annotation": [
+        {
+          "entity_id": "Selbstler",
+          "specialcase_entity": [
+            "generic"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 31,
+      "Position": 347,
+      "Text": "sie",
+      "Annotation": [
+        {
+          "entity_id": "diejenigen, die ihren Abgang f\u00fchlbar machen wollen"
+        }
+      ]
+    },
+    {
+      "ID": 32,
+      "Position": 361,
+      "Text": "Ottiliens",
+      "Annotation": [
+        {
+          "entity_id": "Ottilien"
+        }
+      ]
+    },
+    {
+      "ID": 33,
+      "Position": 368,
+      "Text": "man",
+      "Annotation": [
+        {
+          "entity_id": "man im Allgemeinen",
+          "specialcase_entity": [
+            "generic"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 34,
+      "Position": 372,
+      "Text": "sichs",
+      "Annotation": [
+        {
+          "entity_id": "man im Allgemeinen"
+        }
+      ]
+    },
+    {
+      "ID": 35,
+      "Position": 378,
+      "Text": "Charlottens",
+      "Annotation": [
+        {
+          "entity_id": "Charlotte",
+          "gender": "f"
+        }
+      ]
+    },
+    {
+      "ID": 36,
+      "Position": 392,
+      "Text": "Ottiliens",
+      "Annotation": [
+        {
+          "entity_id": "Ottilien"
+        }
+      ]
+    },
+    {
+      "ID": 37,
+      "Position": 394,
+      "Text": "ihre",
+      "Annotation": [
+        {
+          "entity_id": "Ottilien"
+        }
+      ]
+    },
+    {
+      "ID": 38,
+      "Position": 400,
+      "Text": "Familie",
+      "Annotation": [
+        {
+          "entity_id": "Familie",
+          "specialcase_entity": [
+            "group"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 39,
+      "Position": 402,
+      "Text": "sie",
+      "Annotation": [
+        {
+          "entity_id": "Ottilien"
+        }
+      ]
+    },
+    {
+      "ID": 40,
+      "Position": 406,
+      "Text": "K\u00f6nigin",
+      "Annotation": [
+        {
+          "entity_id": "K\u00f6nigin im Allgemeinen",
+          "gender": "f",
+          "specialcase_entity": [
+            "generic"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 41,
+      "Position": 413,
+      "Text": "Eduard",
+      "Annotation": [
+        {
+          "entity_id": "Eduard"
+        }
+      ]
+    },
+    {
+      "ID": 42,
+      "Position": 433,
+      "Text": "Alle",
+      "Annotation": [
+        {
+          "entity_id": "Alle",
+          "specialcase_entity": [
+            "group"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 43,
+      "Position": 465,
+      "Text": "Volke",
+      "Annotation": [
+        {
+          "entity_id": "Volk",
+          "specialcase_entity": [
+            "generic"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 44,
+      "Position": 468,
+      "Text": "Freunden",
+      "Annotation": [
+        {
+          "entity_id": "Freunde",
+          "specialcase_entity": [
+            "generic"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 45,
+      "Position": 473,
+      "Text": "Eduards",
+      "Annotation": [
+        {
+          "entity_id": "Eduard"
+        }
+      ]
+    },
+    {
+      "ID": 46,
+      "Position": 480,
+      "Text": "er",
+      "Annotation": [
+        {
+          "entity_id": "Eduard"
+        }
+      ]
+    },
+    {
+      "ID": 47,
+      "Position": 481,
+      "Text": "sich",
+      "Annotation": [
+        {
+          "entity_id": "Eduard"
+        }
+      ]
+    },
+    {
+      "ID": 48,
+      "Position": 482,
+      "Text": "Ottilien",
+      "Annotation": [
+        {
+          "entity_id": "Ottilien"
+        }
+      ]
+    },
+    {
+      "ID": 49,
+      "Position": 488,
+      "Text": "er",
+      "Annotation": [
+        {
+          "entity_id": "Eduard"
+        }
+      ]
+    },
+    {
+      "ID": 50,
+      "Position": 504,
+      "Text": "er",
+      "Annotation": [
+        {
+          "entity_id": "Eduard"
+        }
+      ]
+    },
+    {
+      "ID": 51,
+      "Position": 505,
+      "Text": "Ottilien",
+      "Annotation": [
+        {
+          "entity_id": "Ottilien"
+        }
+      ]
+    },
+    {
+      "ID": 52,
+      "Position": 513,
+      "Text": "ihm",
+      "Annotation": [
+        {
+          "entity_id": "Eduard"
+        }
+      ]
+    },
+    {
+      "ID": 53,
+      "Position": 514,
+      "Text": "Charlotte",
+      "Annotation": [
+        {
+          "entity_id": "Charlotte",
+          "gender": "f"
+        }
+      ]
+    },
+    {
+      "ID": 54,
+      "Position": 521,
+      "Text": "Er",
+      "Annotation": [
+        {
+          "entity_id": "Eduard"
+        }
+      ]
+    },
+    {
+      "ID": 55,
+      "Position": 524,
+      "Text": "seinem",
+      "Annotation": [
+        {
+          "entity_id": "Eduard"
+        }
+      ]
+    },
+    {
+      "ID": 56,
+      "Position": 525,
+      "Text": "Kammerdiener",
+      "Annotation": [
+        {
+          "entity_id": "Kammerdiener",
+          "gender": "m",
+          "specialcase_entity": [
+            "nonfact"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 57,
+      "Position": 527,
+      "Text": "der",
+      "Annotation": [
+        {
+          "entity_id": "Kammerdiener"
+        }
+      ]
+    },
+    {
+      "ID": 58,
+      "Position": 528,
+      "Text": "seine",
+      "Annotation": [
+        {
+          "entity_id": "Kammerdiener"
+        }
+      ]
+    },
+    {
+      "ID": 59,
+      "Position": 533,
+      "Text": "Handelsleuten",
+      "Annotation": [
+        {
+          "entity_id": "Handelsleute",
+          "specialcase_entity": [
+            "generic"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 60,
+      "Position": 535,
+      "Text": "Modeh\u00e4ndlern",
+      "Annotation": [
+        {
+          "entity_id": "Modeh\u00e4ndler",
+          "specialcase_entity": [
+            "generic"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 61,
+      "Position": 541,
+      "Text": "dieser",
+      "Annotation": [
+        {
+          "entity_id": "Kammerdiener"
+        }
+      ]
+    },
+    {
+      "ID": 62,
+      "Position": 593,
+      "Text": "er",
+      "Annotation": [
+        {
+          "entity_id": "Eduard"
+        }
+      ]
+    },
+    {
+      "ID": 63,
+      "Position": 594,
+      "Text": "Eduarden",
+      "Annotation": [
+        {
+          "entity_id": "Eduard"
+        }
+      ]
+    },
+    {
+      "ID": 64,
+      "Position": 618,
+      "Text": "Eduard",
+      "Annotation": [
+        {
+          "entity_id": "Eduard"
+        }
+      ]
+    },
+    {
+      "ID": 65,
+      "Position": 624,
+      "Text": "jener",
+      "Annotation": [
+        {
+          "entity_id": "Kammerdiener"
+        }
+      ]
+    },
+    {
+      "ID": 66,
+      "Position": 641,
+      "Text": "Hauptmann",
+      "Annotation": [
+        {
+          "entity_id": "Hauptmann"
+        }
+      ]
+    },
+    {
+      "ID": 67,
+      "Position": 651,
+      "Text": "seine",
+      "Annotation": [
+        {
+          "entity_id": "Hauptmann"
+        }
+      ]
+    },
+    {
+      "ID": 68,
+      "Position": 657,
+      "Text": "er",
+      "Annotation": [
+        {
+          "entity_id": "Hauptmann"
+        }
+      ]
+    },
+    {
+      "ID": 69,
+      "Position": 666,
+      "Text": "Menschen",
+      "Annotation": [
+        {
+          "entity_id": "Menschen im Allgemeinen",
+          "specialcase_entity": [
+            "generic"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 70,
+      "Position": 676,
+      "Text": "er",
+      "Annotation": [
+        {
+          "entity_id": "Hauptmann"
+        }
+      ]
+    },
+    {
+      "ID": 71,
+      "Position": 696,
+      "Text": "Eduard",
+      "Annotation": [
+        {
+          "entity_id": "Eduard"
+        }
+      ]
+    },
+    {
+      "ID": 72,
+      "Position": 698,
+      "Text": "sein",
+      "Annotation": [
+        {
+          "entity_id": "Eduard"
+        }
+      ]
+    },
+    {
+      "ID": 73,
+      "Position": 699,
+      "Text": "Vertrauter",
+      "Annotation": [
+        {
+          "entity_id": "Vertrauter Eduards",
+          "gender": "m",
+          "specialcase_entity": [
+            "nonfact"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 74,
+      "Position": 702,
+      "Text": "sich",
+      "Annotation": [
+        {
+          "entity_id": "Eduard"
+        }
+      ]
+    },
+    {
+      "ID": 75,
+      "Position": 726,
+      "Text": "Gesellschaft",
+      "Annotation": [
+        {
+          "entity_id": "Gesellschaft",
+          "specialcase_entity": [
+            "group"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 76,
+      "Position": 727,
+      "Text": "sich",
+      "Annotation": [
+        {
+          "entity_id": "Gesellschaft"
+        }
+      ]
+    },
+    {
+      "ID": 77,
+      "Position": 766,
+      "Text": "Eduard",
+      "Annotation": [
+        {
+          "entity_id": "Eduard"
+        }
+      ]
+    },
+    {
+      "ID": 78,
+      "Position": 798,
+      "Text": "Eduard",
+      "Annotation": [
+        {
+          "entity_id": "Eduard"
+        }
+      ]
+    },
+    {
+      "ID": 79,
+      "Position": 814,
+      "Text": "ich",
+      "Annotation": [
+        {
+          "entity_id": "Eduard"
+        }
+      ]
+    },
+    {
+      "ID": 80,
+      "Position": 827,
+      "Text": "er",
+      "Annotation": [
+        {
+          "entity_id": "Eduard"
+        }
+      ]
+    },
+    {
+      "ID": 81,
+      "Position": 829,
+      "Text": "sich",
+      "Annotation": [
+        {
+          "entity_id": "Eduard"
+        }
+      ]
+    },
+    {
+      "ID": 82,
+      "Position": 833,
+      "Text": "er",
+      "Annotation": [
+        {
+          "entity_id": "Eduard"
+        }
+      ]
+    },
+    {
+      "ID": 83,
+      "Position": 839,
+      "Text": "er",
+      "Annotation": [
+        {
+          "entity_id": "Eduard"
+        }
+      ]
+    },
+    {
+      "ID": 84,
+      "Position": 846,
+      "Text": "sein",
+      "Annotation": [
+        {
+          "entity_id": "Eduard"
+        }
+      ]
+    },
+    {
+      "ID": 85,
+      "Position": 847,
+      "Text": "Vater",
+      "Annotation": [
+        {
+          "entity_id": "Vaters Eduards",
+          "gender": "m",
+          "specialcase_entity": [
+            "nonfact"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 86,
+      "Position": 879,
+      "Text": "sich",
+      "Annotation": [
+        {
+          "entity_id": "Eduard"
+        }
+      ]
+    },
+    {
+      "ID": 87,
+      "Position": 880,
+      "Text": "Eduard",
+      "Annotation": [
+        {
+          "entity_id": "Eduard"
+        }
+      ]
+    },
+    {
+      "ID": 88,
+      "Position": 891,
+      "Text": "Er",
+      "Annotation": [
+        {
+          "entity_id": "Eduard"
+        }
+      ]
+    },
+    {
+      "ID": 89,
+      "Position": 908,
+      "Text": "Eduard",
+      "Annotation": [
+        {
+          "entity_id": "Eduard"
+        }
+      ]
+    },
+    {
+      "ID": 90,
+      "Position": 911,
+      "Text": "er",
+      "Annotation": [
+        {
+          "entity_id": "Eduard"
+        }
+      ]
+    }
+  ],
+  "output": [
+    {
+      "id": "4522",
+      "token_idx": [
+        34347
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 8,
+            "fullname": "Graf",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "4523",
+      "token_idx": [
+        34354
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 10,
+            "fullname": "Hauptmann",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "4524",
+      "token_idx": [
+        34416
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 10,
+            "fullname": "Hauptmann",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "4525",
+      "token_idx": [
+        34417
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 10,
+            "fullname": "Hauptmann",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "4526",
+      "token_idx": [
+        34418
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 6,
+            "fullname": "Freunde des Hauptmanns",
+            "gender": "u",
+            "specialcase_entity": [
+              "group"
+            ],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "4527",
+      "token_idx": [
+        34433
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 10,
+            "fullname": "Hauptmann",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "4528",
+      "token_idx": [
+        34449
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 10,
+            "fullname": "Hauptmann",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "4529",
+      "token_idx": [
+        34458
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 10,
+            "fullname": "Hauptmann",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "4530",
+      "token_idx": [
+        34473
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 16,
+            "fullname": "Ottilien",
+            "gender": "f",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "4531",
+      "token_idx": [
+        34482
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 6,
+            "fullname": "Freunde des Hauptmanns",
+            "gender": "u",
+            "specialcase_entity": [
+              "group"
+            ],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "4532",
+      "token_idx": [
+        34492
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 3,
+            "fullname": "Eduard",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "4533",
+      "token_idx": [
+        34531
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 10,
+            "fullname": "Hauptmann",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "4534",
+      "token_idx": [
+        34578
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 22,
+            "fullname": "ein Architekt",
+            "gender": "m",
+            "specialcase_entity": [
+              "nonfact"
+            ],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "4535",
+      "token_idx": [
+        34582
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 23,
+            "fullname": "ein Z\u00f6gling des Hauptmanns",
+            "gender": "u",
+            "specialcase_entity": [
+              "nonfact"
+            ],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "4536",
+      "token_idx": [
+        34584
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 10,
+            "fullname": "Hauptmann",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "4537",
+      "token_idx": [
+        34589
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 22,
+            "fullname": "ein Architekt",
+            "gender": "m",
+            "specialcase_entity": [
+              "nonfact"
+            ],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "4538",
+      "token_idx": [
+        34594
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": "generic_0001",
+            "fullname": "Meister",
+            "gender": "u",
+            "specialcase_entity": [
+              "generic"
+            ],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "4539",
+      "token_idx": [
+        34619
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 10,
+            "fullname": "Hauptmann",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "4540",
+      "token_idx": [
+        34621
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 10,
+            "fullname": "Hauptmann",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "4541",
+      "token_idx": [
+        34628
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 10,
+            "fullname": "Hauptmann",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "4542",
+      "token_idx": [
+        34635
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 10,
+            "fullname": "Hauptmann",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "4543",
+      "token_idx": [
+        34650
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 10,
+            "fullname": "Hauptmann",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "4544",
+      "token_idx": [
+        34651
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 10,
+            "fullname": "Hauptmann",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "4545",
+      "token_idx": [
+        34658
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 10,
+            "fullname": "Hauptmann",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "4546",
+      "token_idx": [
+        34660
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": "generic_0002",
+            "fullname": "diejenigen die ihren Abgang f\u00fchlbar machen wollen",
+            "gender": "u",
+            "specialcase_entity": [
+              "generic"
+            ],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "4547",
+      "token_idx": [
+        34662
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": "generic_0003",
+            "fullname": "diejenigen die ihren Abgang f\u00fchlbar machen wollen",
+            "gender": "u",
+            "specialcase_entity": [
+              "generic"
+            ],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "4548",
+      "token_idx": [
+        34665
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": "generic_0004",
+            "fullname": "diejenigen die ihren Abgang f\u00fchlbar machen wollen",
+            "gender": "u",
+            "specialcase_entity": [
+              "generic"
+            ],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "4549",
+      "token_idx": [
+        34675
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": "generic_0005",
+            "fullname": "diejenigen die ihren Abgang f\u00fchlbar machen wollen",
+            "gender": "u",
+            "specialcase_entity": [
+              "generic"
+            ],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "4550",
+      "token_idx": [
+        34680
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": "generic_0006",
+            "fullname": "diejenigen die ihren Abgang f\u00fchlbar machen wollen",
+            "gender": "u",
+            "specialcase_entity": [
+              "generic"
+            ],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "4551",
+      "token_idx": [
+        34683
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": "generic_0008",
+            "fullname": "Selbstler",
+            "gender": "u",
+            "specialcase_entity": [
+              "generic"
+            ],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "4552",
+      "token_idx": [
+        34690
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": "generic_0007",
+            "fullname": "diejenigen die ihren Abgang f\u00fchlbar machen wollen",
+            "gender": "u",
+            "specialcase_entity": [
+              "generic"
+            ],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "4553",
+      "token_idx": [
+        34704
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 16,
+            "fullname": "Ottilien",
+            "gender": "f",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "4554",
+      "token_idx": [
+        34711
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": "generic_0009",
+            "fullname": "man im Allgemeinen",
+            "gender": "u",
+            "specialcase_entity": [
+              "generic"
+            ],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "4555",
+      "token_idx": [
+        34715
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": "generic_0010",
+            "fullname": "man im Allgemeinen",
+            "gender": "u",
+            "specialcase_entity": [
+              "generic"
+            ],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "4556",
+      "token_idx": [
+        34721
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 2,
+            "fullname": "Charlotte",
+            "gender": "f",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "4557",
+      "token_idx": [
+        34735
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 16,
+            "fullname": "Ottilien",
+            "gender": "f",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "4558",
+      "token_idx": [
+        34737
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 16,
+            "fullname": "Ottilien",
+            "gender": "f",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "4559",
+      "token_idx": [
+        34743
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 4,
+            "fullname": "Familie",
+            "gender": "u",
+            "specialcase_entity": [
+              "group"
+            ],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "4560",
+      "token_idx": [
+        34745
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 16,
+            "fullname": "Ottilien",
+            "gender": "f",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "4561",
+      "token_idx": [
+        34749
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": "generic_0011",
+            "fullname": "K\u00f6nigin im Allgemeinen",
+            "gender": "u",
+            "specialcase_entity": [
+              "generic"
+            ],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "4562",
+      "token_idx": [
+        34756
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 3,
+            "fullname": "Eduard",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "4563",
+      "token_idx": [
+        34776
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 1,
+            "fullname": "Alle",
+            "gender": "u",
+            "specialcase_entity": [
+              "group"
+            ],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "4564",
+      "token_idx": [
+        34808
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": "generic_0012",
+            "fullname": "Volk",
+            "gender": "u",
+            "specialcase_entity": [
+              "generic"
+            ],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "4565",
+      "token_idx": [
+        34811
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": "generic_0013",
+            "fullname": "Freunde",
+            "gender": "u",
+            "specialcase_entity": [
+              "generic"
+            ],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "4566",
+      "token_idx": [
+        34816
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 3,
+            "fullname": "Eduard",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "4567",
+      "token_idx": [
+        34823
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 3,
+            "fullname": "Eduard",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "4568",
+      "token_idx": [
+        34824
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 3,
+            "fullname": "Eduard",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "4569",
+      "token_idx": [
+        34825
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 16,
+            "fullname": "Ottilien",
+            "gender": "f",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "4570",
+      "token_idx": [
+        34831
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 3,
+            "fullname": "Eduard",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "4571",
+      "token_idx": [
+        34847
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 3,
+            "fullname": "Eduard",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "4572",
+      "token_idx": [
+        34848
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 16,
+            "fullname": "Ottilien",
+            "gender": "f",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "4573",
+      "token_idx": [
+        34856
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 3,
+            "fullname": "Eduard",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "4574",
+      "token_idx": [
+        34857
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 2,
+            "fullname": "Charlotte",
+            "gender": "f",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "4575",
+      "token_idx": [
+        34864
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 3,
+            "fullname": "Eduard",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "4576",
+      "token_idx": [
+        34867
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 3,
+            "fullname": "Eduard",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "4577",
+      "token_idx": [
+        34868
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 11,
+            "fullname": "Kammerdiener",
+            "gender": "m",
+            "specialcase_entity": [
+              "nonfact"
+            ],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "4578",
+      "token_idx": [
+        34870
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 11,
+            "fullname": "Kammerdiener",
+            "gender": "m",
+            "specialcase_entity": [
+              "nonfact"
+            ],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "4579",
+      "token_idx": [
+        34871
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 11,
+            "fullname": "Kammerdiener",
+            "gender": "m",
+            "specialcase_entity": [
+              "nonfact"
+            ],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "4580",
+      "token_idx": [
+        34876
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": "generic_0014",
+            "fullname": "Handelsleute",
+            "gender": "u",
+            "specialcase_entity": [
+              "generic"
+            ],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "4581",
+      "token_idx": [
+        34878
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": "generic_0015",
+            "fullname": "Modeh\u00e4ndler",
+            "gender": "u",
+            "specialcase_entity": [
+              "generic"
+            ],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "4582",
+      "token_idx": [
+        34884
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 11,
+            "fullname": "Kammerdiener",
+            "gender": "m",
+            "specialcase_entity": [
+              "nonfact"
+            ],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "4583",
+      "token_idx": [
+        34936
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 3,
+            "fullname": "Eduard",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "4584",
+      "token_idx": [
+        34937
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 3,
+            "fullname": "Eduard",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "4585",
+      "token_idx": [
+        34961
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 3,
+            "fullname": "Eduard",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "4586",
+      "token_idx": [
+        34967
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 11,
+            "fullname": "Kammerdiener",
+            "gender": "m",
+            "specialcase_entity": [
+              "nonfact"
+            ],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "4587",
+      "token_idx": [
+        34984
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 10,
+            "fullname": "Hauptmann",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "4588",
+      "token_idx": [
+        34994
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 10,
+            "fullname": "Hauptmann",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "4589",
+      "token_idx": [
+        35000
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 10,
+            "fullname": "Hauptmann",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "4590",
+      "token_idx": [
+        35009
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": "generic_0016",
+            "fullname": "Menschen im Allgemeinen",
+            "gender": "u",
+            "specialcase_entity": [
+              "generic"
+            ],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "4591",
+      "token_idx": [
+        35019
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 10,
+            "fullname": "Hauptmann",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "4592",
+      "token_idx": [
+        35039
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 3,
+            "fullname": "Eduard",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "4593",
+      "token_idx": [
+        35041
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 3,
+            "fullname": "Eduard",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "4594",
+      "token_idx": [
+        35042
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 19,
+            "fullname": "Vertrauter Eduards",
+            "gender": "m",
+            "specialcase_entity": [
+              "nonfact"
+            ],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "4595",
+      "token_idx": [
+        35045
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 3,
+            "fullname": "Eduard",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "4596",
+      "token_idx": [
+        35069
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 7,
+            "fullname": "Gesellschaft",
+            "gender": "u",
+            "specialcase_entity": [
+              "group"
+            ],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "4597",
+      "token_idx": [
+        35070
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 7,
+            "fullname": "Gesellschaft",
+            "gender": "u",
+            "specialcase_entity": [
+              "group"
+            ],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "4598",
+      "token_idx": [
+        35109
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 3,
+            "fullname": "Eduard",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "4599",
+      "token_idx": [
+        35141
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 3,
+            "fullname": "Eduard",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "4600",
+      "token_idx": [
+        35157
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 3,
+            "fullname": "Eduard",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "4601",
+      "token_idx": [
+        35170
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 3,
+            "fullname": "Eduard",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "4602",
+      "token_idx": [
+        35172
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 3,
+            "fullname": "Eduard",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "4603",
+      "token_idx": [
+        35176
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 3,
+            "fullname": "Eduard",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "4604",
+      "token_idx": [
+        35182
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 3,
+            "fullname": "Eduard",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "4605",
+      "token_idx": [
+        35189
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 3,
+            "fullname": "Eduard",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "4606",
+      "token_idx": [
+        35190
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 18,
+            "fullname": "Vaters Eduards",
+            "gender": "m",
+            "specialcase_entity": [
+              "nonfact"
+            ],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "4607",
+      "token_idx": [
+        35222
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 3,
+            "fullname": "Eduard",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "4608",
+      "token_idx": [
+        35223
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 3,
+            "fullname": "Eduard",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "4609",
+      "token_idx": [
+        35234
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 3,
+            "fullname": "Eduard",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "4610",
+      "token_idx": [
+        35251
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 3,
+            "fullname": "Eduard",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "4611",
+      "token_idx": [
+        35254
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 3,
+            "fullname": "Eduard",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    }
+  ],
+  "exception": null
+}

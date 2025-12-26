@@ -173,7 +173,7 @@ def process_sections(sections, basename, model_id, output_dir, device='cuda'):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Run mention detection on TSV files.")
-    parser.add_argument("--input_file", type=Path, required=True, help="Path to input TSV file.")
+    parser.add_argument("--input_files", type=Path, nargs="+", required=True, help="Path to input TSV file.")
     parser.add_argument("--model_id", type=str, required=True, help="Path to HuggingFace model or Hub ID.")
     parser.add_argument("--output_dir", type=Path, default="outputs/mention_detection", help="Directory to save output TSVs.")
     parser.add_argument("--max_segment_length", type=int, default=8192, help="Maximum segment length. If section is longer than this quantity, section will be split into multiple segments of this length.")
@@ -183,9 +183,10 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     # Read and split data
-    print("Reading input file...")
-    sections = read_input_tsv(args.input_file, max_segment_length=args.max_segment_length)
+    for input_file in args.input_files:
+        print(f"Reading input file {input_file}...")
+        sections = read_input_tsv(input_file, max_segment_length=args.max_segment_length)
 
-    # Process
-    basename = args.input_file.stem
-    process_sections(sections, basename, args.model_id, args.output_dir, args.device)
+        # Process
+        basename = input_file.stem
+        process_sections(sections, basename, args.model_id, args.output_dir, args.device)

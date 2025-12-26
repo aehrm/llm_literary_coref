@@ -1,0 +1,2878 @@
+i	token	is_section_start	gold	pred
+41200	Dreizehntes	1		
+41201	Kapitel	0		
+41202	.	0		
+41203	Während	0		
+41204	der	0		
+41205	nächsten	0		
+41206	Tage	0		
+41207	hielt	0		
+41208	sich	0	(mention_id=6262|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6315|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+41209	Hammichel	0	(mention_id=6263|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6316|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+41210	still	0		
+41211	in	0		
+41212	seinem	0	(mention_id=6264|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6317|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+41213	Losament	0		
+41214	,	0		
+41215	weil	0		
+41216	er	0	(mention_id=6265|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6318|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+41217	sich	0	(mention_id=6266|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6319|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+41218	nicht	0		
+41219	dem	0		
+41220	Gespött	0		
+41221	von	0		
+41222	Freund	0	(mention_id=6267|references=(entity=(entity_id=entity_0021|fullname=Christophs Gegner|gender=mf|members=entity_0015,entity_0043|all_members_given=False|specialcase_entity=group)))	(mention_id=6320|references=(entity=(entity_id=generic_0001|fullname=Freund im Allgemeinen|gender=u|specialcase_entity=generic)))
+41223	und	0		
+41224	Feind	0	(mention_id=6268|references=(entity=(entity_id=entity_0020|fullname=Christophs Verbündete|gender=mf|members=entity_0014,entity_0042|all_members_given=False|specialcase_entity=group)))	(mention_id=6321|references=(entity=(entity_id=generic_0002|fullname=Feind im Allgemeinen|gender=u|specialcase_entity=generic)))
+41225	über	0		
+41226	die	0		
+41227	Verunstaltung	0		
+41228	seines	0	(mention_id=6269|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6322|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+41229	Gesichtes	0		
+41230	aussetzen	0		
+41231	wollte	0		
+41232	,	0		
+41233	die	0		
+41234	jedem	0	(mention_id=6270|references=(entity=(entity_id=generic_0263|fullname=generic_0059|gender=u|specialcase_entity=generic)))	
+41235	,	0		
+41236	der	0	(mention_id=6271|references=(entity=(entity_id=generic_0264|fullname=generic_0060|gender=u|specialcase_entity=generic)))	
+41237	ihm	0	(mention_id=6272|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6323|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+41238	begegnete	0		
+41239	,	0		
+41240	sofort	0		
+41241	auffallen	0		
+41242	mußte	0		
+41243	.	0		
+41244	Vor	0		
+41245	Merten	0	(mention_id=6273|references=(entity=(entity_id=entity_0046|fullname=Merten Flachendag|gender=m)))	(mention_id=6324|references=(entity=(entity_id=21|fullname=Merten Fachendag|gender=m)))
+41246	Fachendag	0	(mention_id=6273|references=(entity=(entity_id=entity_0046|fullname=Merten Flachendag|gender=m)))	(mention_id=6324|references=(entity=(entity_id=21|fullname=Merten Fachendag|gender=m)))
+41247	und	0		
+41248	Kaspar	0	(mention_id=6274|references=(entity=(entity_id=entity_0006|fullname=Kaspar|gender=m)))	(mention_id=6325|references=(entity=(entity_id=14|fullname=Kaspar|gender=m)))
+41249	konnte	0		
+41250	er	0	(mention_id=6275|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6326|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+41251	seine	0	(mention_id=6276|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6327|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+41252	vertrackte	0		
+41253	Visage	0		
+41254	freilich	0		
+41255	nicht	0		
+41256	verbergen	0		
+41257	.	0		
+41258	Der	0		
+41259	Junge	0	(mention_id=6277|references=(entity=(entity_id=entity_0006|fullname=Kaspar|gender=m)))	(mention_id=6328|references=(entity=(entity_id=14|fullname=Kaspar|gender=m)))
+41260	betrachtete	0		
+41261	seinen	0	(mention_id=6278|references=(entity=(entity_id=entity_0006|fullname=Kaspar|gender=m)))	(mention_id=6329|references=(entity=(entity_id=14|fullname=Kaspar|gender=m)))
+41262	lieben	0		
+41263	Großvater	0	(mention_id=6279|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6330|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+41264	verwundert	0		
+41265	,	0		
+41266	traute	0		
+41267	sich	0	(mention_id=6280|references=(entity=(entity_id=entity_0006|fullname=Kaspar|gender=m)))	(mention_id=6331|references=(entity=(entity_id=14|fullname=Kaspar|gender=m)))
+41268	jedoch	0		
+41269	nicht	0		
+41270	,	0		
+41271	ihn	0	(mention_id=6281|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6332|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+41272	zu	0		
+41273	fragen	0		
+41274	,	0		
+41275	von	0		
+41276	wem	0		
+41277	er	0	(mention_id=6282|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6333|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+41278	denn	0		
+41279	so	0		
+41280	sonderbar	0		
+41281	gezeichnet	0		
+41282	wäre	0		
+41283	.	0		
+41284	Er	0	(mention_id=6283|references=(entity=(entity_id=entity_0006|fullname=Kaspar|gender=m)))	(mention_id=6334|references=(entity=(entity_id=14|fullname=Kaspar|gender=m)))
+41285	dachte	0		
+41286	sich	0	(mention_id=6284|references=(entity=(entity_id=entity_0006|fullname=Kaspar|gender=m)))	(mention_id=6335|references=(entity=(entity_id=14|fullname=Kaspar|gender=m)))
+41287	aber	0		
+41288	sein	0	(mention_id=6285|references=(entity=(entity_id=entity_0006|fullname=Kaspar|gender=m)))	(mention_id=6336|references=(entity=(entity_id=14|fullname=Kaspar|gender=m)))
+41289	Teil	0		
+41290	,	0		
+41291	denn	0		
+41292	er	0	(mention_id=6286|references=(entity=(entity_id=entity_0006|fullname=Kaspar|gender=m)))	(mention_id=6337|references=(entity=(entity_id=14|fullname=Kaspar|gender=m)))
+41293	wußte	0		
+41294	aus	0		
+41295	Erfahrung	0		
+41296	,	0		
+41297	auf	0		
+41298	welche	0		
+41299	Weise	0		
+41300	man	0		
+41301	zu	0		
+41302	einer	0		
+41303	dick	0		
+41304	aufgequollenen	0		
+41305	Backe	0		
+41306	kommen	0		
+41307	konnte	0		
+41308	.	0		
+41309	Fachendags	0	(mention_id=6287|references=(entity=(entity_id=entity_0046|fullname=Merten Flachendag|gender=m)))	(mention_id=6338|references=(entity=(entity_id=21|fullname=Merten Fachendag|gender=m)))
+41310	Hohn	0		
+41311	dagegen	0		
+41312	mußte	0		
+41313	der	0		
+41314	Geschlagene	0	(mention_id=6288|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6339|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+41315	über	0		
+41316	sich	0	(mention_id=6289|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6340|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+41317	ergehen	0		
+41318	lassen	0		
+41319	,	0		
+41320	als	0		
+41321	ihn	0	(mention_id=6290|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6341|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+41322	sein	0	(mention_id=6291|references=(entity=(entity_id=entity_0046|fullname=Merten Flachendag|gender=m)))	(mention_id=6342|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+41323	Hauswirt	0	(mention_id=6292|references=(entity=(entity_id=entity_0046|fullname=Merten Flachendag|gender=m)))	(mention_id=6343|references=(entity=(entity_id=21|fullname=Merten Fachendag|gender=m)))
+41324	bei	0		
+41325	Tische	0		
+41326	hänselte	0		
+41327	:	0		
+41328	»	0		
+41329	Aber	0		
+41330	,	0		
+41331	Hammichel	0	(mention_id=6293|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6344|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+41332	,	0		
+41333	was	0		
+41334	ist	0		
+41335	denn	0		
+41336	das	0		
+41337	mit	0		
+41338	dir	0	(mention_id=6294|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6345|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+41339	?	0		
+41340	hast	0		
+41341	du	0	(mention_id=6295|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6346|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+41342	dich	0	(mention_id=6296|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6347|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+41343	etwa	0		
+41344	beim	0		
+41345	Kochen	0		
+41346	und	0		
+41347	Probieren	0		
+41348	deiner	0	(mention_id=6297|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6348|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+41349	Mixturen	0		
+41350	krank	0		
+41351	gemacht	0		
+41352	,	0		
+41353	daß	0		
+41354	dir	0	(mention_id=6298|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6349|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+41355	all	0		
+41356	dein	0	(mention_id=6299|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6350|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+41357	bißchen	0		
+41358	Blut	0		
+41359	in	0		
+41360	den	0		
+41361	Kopf	0		
+41362	gestiegen	0		
+41363	ist	0		
+41364	?	0		
+41365	Siehst	0		
+41366	ja	0		
+41367	merkwürdig	0		
+41368	gedunsen	0		
+41369	aus	0		
+41370	;	0		
+41371	ich	0	(mention_id=6300|references=(entity=(entity_id=entity_0046|fullname=Merten Flachendag|gender=m)))	(mention_id=6351|references=(entity=(entity_id=21|fullname=Merten Fachendag|gender=m)))
+41372	könnte	0		
+41373	mich	0	(mention_id=6301|references=(entity=(entity_id=entity_0046|fullname=Merten Flachendag|gender=m)))	(mention_id=6352|references=(entity=(entity_id=21|fullname=Merten Fachendag|gender=m)))
+41374	beinahe	0		
+41375	um	0		
+41376	dich	0	(mention_id=6302|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6353|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+41377	ängstigen	0		
+41378	.	0		
+41379	«	0		
+41380	»	0		
+41381	Kümmere	0		
+41382	dich	0	(mention_id=6303|references=(entity=(entity_id=entity_0046|fullname=Merten Flachendag|gender=m)))	(mention_id=6354|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+41383	nicht	0		
+41384	um	0		
+41385	mein	0	(mention_id=6304|references=(entity=(entity_id=entity_0046|fullname=Merten Flachendag|gender=m)))	(mention_id=6355|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+41386	Aussehen	0		
+41387	!	0		
+41388	«	0		
+41389	schnauzte	0		
+41390	ihn	0	(mention_id=6305|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6356|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+41391	Hammichel	0	(mention_id=6306|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6357|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+41392	an	0		
+41393	.	0		
+41394	»	0		
+41395	Das	0		
+41396	Gesöff	0		
+41397	,	0		
+41398	das	0		
+41399	du	0	(mention_id=6307|references=(entity=(entity_id=entity_0046|fullname=Merten Flachendag|gender=m)))	(mention_id=6358|references=(entity=(entity_id=21|fullname=Merten Fachendag|gender=m)))
+41400	kelterst	0		
+41401	,	0		
+41402	wäre	0		
+41403	ohne	0		
+41404	mein	0	(mention_id=6308|references=(entity=(entity_id=entity_0046|fullname=Merten Flachendag|gender=m)))	(mention_id=6359|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+41405	heilsames	0		
+41406	mixtum	0		
+41407	compositum	0		
+41408	so	0		
+41409	lebensgefährlich	0		
+41410	,	0		
+41411	daß	0		
+41412	man	0		
+41413	dran	0		
+41414	krepieren	0		
+41415	könnte	0		
+41416	.	0		
+41417	Im	0		
+41418	übrigen	0		
+41419	bin	0		
+41420	ich	0	(mention_id=6309|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6360|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+41421	für	0		
+41422	dich	0	(mention_id=6310|references=(entity=(entity_id=entity_0046|fullname=Merten Flachendag|gender=m)))	(mention_id=6361|references=(entity=(entity_id=21|fullname=Merten Fachendag|gender=m)))
+41423	noch	0		
+41424	lange	0		
+41425	schön	0		
+41426	genug	0		
+41427	.	0		
+41428	«	0		
+41429	»	0		
+41430	Ja	0		
+41431	,	0		
+41432	meinetwegen	0	(mention_id=6311|references=(entity=(entity_id=entity_0046|fullname=Merten Flachendag|gender=m)))	
+41433	kannst	0		
+41434	du	0	(mention_id=6312|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6362|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+41435	vorn	0		
+41436	und	0		
+41437	hinten	0		
+41438	geschwollen	0		
+41439	sein	0		
+41440	,	0		
+41441	alte	0		
+41442	Giftkröte	0	(mention_id=6313|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6363|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+41443	!	0		
+41444	«	0		
+41445	gab	0		
+41446	ihm	0	(mention_id=6314|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6364|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+41447	Fachendag	0	(mention_id=6315|references=(entity=(entity_id=entity_0046|fullname=Merten Flachendag|gender=m)))	(mention_id=6365|references=(entity=(entity_id=21|fullname=Merten Fachendag|gender=m)))
+41448	grob	0		
+41449	zurück	0		
+41450	.	0		
+41451	»	0		
+41452	Ich	0	(mention_id=6316|references=(entity=(entity_id=entity_0046|fullname=Merten Flachendag|gender=m)))	(mention_id=6366|references=(entity=(entity_id=21|fullname=Merten Fachendag|gender=m)))
+41453	gönne	0		
+41454	dir	0	(mention_id=6317|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6367|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+41455	deine	0	(mention_id=6318|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6368|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+41456	Pausbacken	0		
+41457	und	0		
+41458	noch	0		
+41459	mehr	0		
+41460	das	0		
+41461	,	0		
+41462	wovon	0		
+41463	sie	0		
+41464	herrühren	0		
+41465	.	0		
+41466	Hast	0		
+41467	dich	0	(mention_id=6319|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6369|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+41468	wohl	0		
+41469	mit	0		
+41470	Lutz	0	(mention_id=6320|references=(entity=(entity_id=entity_0014|fullname=Lutz Hebenstreit|gender=m)))	(mention_id=6370|references=(entity=(entity_id=17|fullname=Lutz Hebenstreit|gender=m)))
+41471	Hebenstreit	0	(mention_id=6320|references=(entity=(entity_id=entity_0014|fullname=Lutz Hebenstreit|gender=m)))	(mention_id=6370|references=(entity=(entity_id=17|fullname=Lutz Hebenstreit|gender=m)))
+41472	bei	0		
+41473	einer	0		
+41474	freundschaftlichen	0		
+41475	Unterredung	0		
+41476	auseinandergeeinigt	0		
+41477	?	0		
+41478	der	0	(mention_id=6321|references=(entity=(entity_id=entity_0014|fullname=Lutz Hebenstreit|gender=m)))	(mention_id=6371|references=(entity=(entity_id=17|fullname=Lutz Hebenstreit|gender=m)))
+41479	hat	0		
+41480	so	0		
+41481	'ne	0		
+41482	ähnliche	0		
+41483	Handschrift	0		
+41484	.	0		
+41485	«	0		
+41486	»	0		
+41487	Scheinst	0		
+41488	sie	0		(mention_id=6372|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+41489	ja	0		
+41490	gut	0		
+41491	zu	0		
+41492	kennen	0		
+41493	,	0		
+41494	«	0		
+41495	knurrte	0		
+41496	der	0		
+41497	also	0		
+41498	Gefoppte	0	(mention_id=6322|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6373|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+41499	.	0		
+41500	Anzüglichkeiten	0		
+41501	wie	0		
+41502	die	0		
+41503	,	0		
+41504	mit	0		
+41505	denen	0		
+41506	ihm	0	(mention_id=6323|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6374|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+41507	Fachendag	0	(mention_id=6324|references=(entity=(entity_id=entity_0046|fullname=Merten Flachendag|gender=m)))	(mention_id=6375|references=(entity=(entity_id=21|fullname=Merten Fachendag|gender=m)))
+41508	hier	0		
+41509	das	0		
+41510	kärgliche	0		
+41511	Mittagessen	0		
+41512	würzte	0		
+41513	,	0		
+41514	hätte	0		
+41515	Hammichel	0	(mention_id=6325|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6376|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+41516	noch	0		
+41517	mehr	0		
+41518	herunterschlucken	0		
+41519	müssen	0		
+41520	,	0		
+41521	wenn	0		
+41522	er	0	(mention_id=6326|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6377|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+41523	sich	0	(mention_id=6327|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6378|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+41524	jetzt	0		
+41525	auf	0		
+41526	die	0		
+41527	Gasse	0		
+41528	hinausgewagt	0		
+41529	hätte	0		
+41530	.	0		
+41531	Darum	0		
+41532	blieb	0		
+41533	er	0	(mention_id=6328|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6379|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+41534	zu	0		
+41535	Hause	0		
+41536	und	0		
+41537	benutzte	0		
+41538	die	0		
+41539	unfreiwillige	0		
+41540	Muße	0		
+41541	dazu	0		
+41542	,	0		
+41543	sich	0	(mention_id=6329|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6380|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+41544	seine	0	(mention_id=6330|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6381|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+41545	Pläne	0		
+41546	gegen	0		
+41547	Christoph	0	(mention_id=6331|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))	(mention_id=6382|references=(entity=(entity_id=1|fullname=Christoph Armbruster|gender=m)))
+41548	Armbruster	0	(mention_id=6331|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))	(mention_id=6382|references=(entity=(entity_id=1|fullname=Christoph Armbruster|gender=m)))
+41549	auszuspinnen	0		
+41550	.	0		
+41551	Endlich	0		
+41552	war	0		
+41553	für	0		
+41554	ihn	0	(mention_id=6332|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6383|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+41555	die	0		
+41556	Zeit	0		
+41557	und	0		
+41558	Gelegenheit	0		
+41559	zur	0		
+41560	Vergeltung	0		
+41561	gekommen	0		
+41562	,	0		
+41563	auf	0		
+41564	die	0		
+41565	er	0	(mention_id=6333|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6384|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+41566	jahrelang	0		
+41567	gewartet	0		
+41568	hatte	0		
+41569	.	0		
+41570	Jetzt	0		
+41571	wollte	0		
+41572	er	0	(mention_id=6334|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6385|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+41573	mit	0		
+41574	dem	0		
+41575	Bürgermeister	0	(mention_id=6335|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))	(mention_id=6386|references=(entity=(entity_id=1|fullname=Christoph Armbruster|gender=m)))
+41576	abrechnen	0		
+41577	für	0		
+41578	den	0		
+41579	großen	0		
+41580	Schaden	0		
+41581	,	0		
+41582	den	0		
+41583	ihm	0	(mention_id=6336|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))	(mention_id=6387|references=(entity=(entity_id=1|fullname=Christoph Armbruster|gender=m)))
+41584	dieser	0	(mention_id=6337|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))	(mention_id=6388|references=(entity=(entity_id=1|fullname=Christoph Armbruster|gender=m)))
+41585	durch	0		
+41586	die	0		
+41587	Schmälerung	0		
+41588	seines	0	(mention_id=6338|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))	(mention_id=6389|references=(entity=(entity_id=1|fullname=Christoph Armbruster|gender=m)))
+41589	Verdienstes	0		
+41590	beim	0		
+41591	Panschgewerbe	0		
+41592	zugefügt	0		
+41593	hatte	0		
+41594	.	0		
+41595	Seine	0	(mention_id=6339|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6390|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+41596	beiden	0		
+41597	Versuche	0		
+41598	,	0		
+41599	ihm	0	(mention_id=6340|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))	(mention_id=6391|references=(entity=(entity_id=1|fullname=Christoph Armbruster|gender=m)))
+41600	Geld	0		
+41601	abzupressen	0		
+41602	,	0		
+41603	waren	0		
+41604	fehlgeschlagen	0		
+41605	,	0		
+41606	aber	0		
+41607	sie	0		
+41608	waren	0		
+41609	ja	0		
+41610	nur	0		
+41611	ein	0		
+41612	kleines	0		
+41613	Vorspiel	0		
+41614	zur	0		
+41615	eigentlichen	0		
+41616	Hauptaktion	0		
+41617	gewesen	0		
+41618	.	0		
+41619	Und	0		
+41620	auch	0		
+41621	wenn	0		
+41622	sie	0		
+41623	gelungen	0		
+41624	wären	0		
+41625	,	0		
+41626	hätte	0		
+41627	das	0		
+41628	an	0		
+41629	seinem	0	(mention_id=6341|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6392|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+41630	Racheplane	0		
+41631	nichts	0		
+41632	geändert	0		
+41633	,	0		
+41634	denn	0		
+41635	auch	0		
+41636	nach	0		
+41637	Empfang	0		
+41638	des	0		
+41639	geforderten	0		
+41640	Schweigegeldes	0		
+41641	würde	0		
+41642	er	0	(mention_id=6342|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6393|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+41643	nicht	0		
+41644	geschwiegen	0		
+41645	haben	0		
+41646	,	0		
+41647	und	0		
+41648	den	0		
+41649	angebotenen	0		
+41650	Falscheid	0		
+41651	hätte	0		
+41652	er	0	(mention_id=6343|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6394|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+41653	sich	0	(mention_id=6344|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6395|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+41654	natürlich	0		
+41655	vorher	0		
+41656	bezahlen	0		
+41657	lassen	0		
+41658	und	0		
+41659	ihn	0		
+41660	nachher	0		
+41661	aus	0		
+41662	Furcht	0		
+41663	vor	0		
+41664	der	0		
+41665	schweren	0		
+41666	Strafe	0		
+41667	vielleicht	0		
+41668	doch	0		
+41669	nicht	0		
+41670	geschworen	0		
+41671	.	0		
+41672	Daß	0		
+41673	er	0	(mention_id=6345|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6396|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+41674	zu	0		
+41675	dem	0		
+41676	Mißerfolg	0		
+41677	auch	0		
+41678	noch	0		
+41679	zwei	0		
+41680	Riesenohrfeigen	0		
+41681	hatte	0		
+41682	in	0		
+41683	den	0		
+41684	Kauf	0		
+41685	nehmen	0		
+41686	müssen	0		
+41687	,	0		
+41688	wurmte	0		
+41689	ihn	0	(mention_id=6346|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6397|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+41690	gewaltig	0		
+41691	und	0		
+41692	spornte	0		
+41693	ihn	0	(mention_id=6347|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6398|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+41694	,	0		
+41695	das	0		
+41696	Hereinbrechen	0		
+41697	des	0		
+41698	Unheils	0		
+41699	über	0		
+41700	die	0		
+41701	Armbruster'sche	0		(mention_id=6399|references=(entity=(entity_id=1|fullname=Christoph Armbruster|gender=m)))
+41702	Familie	0	(mention_id=6348|references=(entity=(entity_id=entity_0007|fullname=Familie Armbruster|gender=mf|members=entity_0001,entity_0003,entity_0004,entity_0005,entity_0008,entity_0016,entity_0017|all_members_given=True|specialcase_entity=group)))	(mention_id=6400|references=(entity=(entity_id=2|fullname=Familie Armbruster|gender=u|specialcase_entity=group)))
+41703	nach	0		
+41704	Kräften	0		
+41705	zu	0		
+41706	beschleunigen	0		
+41707	.	0		
+41708	Doch	0		
+41709	seltsam	0		
+41710	!	0		
+41711	Während	0		
+41712	er	0	(mention_id=6349|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6401|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+41713	über	0		
+41714	der	0		
+41715	Art	0		
+41716	der	0		
+41717	Ausführung	0		
+41718	seiner	0	(mention_id=6350|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6402|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+41719	Entschlüsse	0		
+41720	brütete	0		
+41721	,	0		
+41722	regte	0		
+41723	sich	0		
+41724	auch	0		
+41725	in	0		
+41726	dieser	0		
+41727	hartgesottenen	0		
+41728	Sünderseele	0	(mention_id=6351|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6403|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+41729	noch	0		
+41730	eine	0		
+41731	Spur	0		
+41732	von	0		
+41733	Mitgefühl	0		
+41734	mit	0		
+41735	Trudi	0	(mention_id=6352|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=6404|references=(entity=(entity_id=27|fullname=Trudi|gender=f)))
+41736	,	0		
+41737	die	0	(mention_id=6353|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=6405|references=(entity=(entity_id=27|fullname=Trudi|gender=f)))
+41738	ihm	0	(mention_id=6354|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6406|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+41739	nichts	0		
+41740	zuleide	0		
+41741	getan	0		
+41742	hatte	0		
+41743	.	0		
+41744	Diese	0		
+41745	Regung	0		
+41746	kam	0		
+41747	aus	0		
+41748	dem	0		
+41749	tief	0		
+41750	verborgenen	0		
+41751	Winkel	0		
+41752	seines	0	(mention_id=6355|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6407|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+41753	Innern	0		
+41754	,	0		
+41755	wo	0		
+41756	noch	0		
+41757	ein	0		
+41758	Stück	0		
+41759	vom	0		
+41760	alten	0		
+41761	Spielmann	0	(mention_id=6356|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6408|references=(entity=(entity_id=generic_0003|fullname=Spielmann im Allgemeinen|gender=u|specialcase_entity=generic)))
+41762	wohnte	0		
+41763	.	0		
+41764	Spielleute	0	(mention_id=6357|references=(entity=(entity_id=generic_0265|fullname=Spielleute|gender=u|specialcase_entity=generic)))	(mention_id=6409|references=(entity=(entity_id=generic_0004|fullname=Spielleute im Allgemeinen|gender=u|specialcase_entity=generic)))
+41765	sind	0		
+41766	meist	0		
+41767	gute	0		
+41768	Menschen	0	(mention_id=6358|references=(entity=(entity_id=generic_0266|fullname=Spielleute|gender=u|specialcase_entity=generic)))	(mention_id=6410|references=(entity=(entity_id=generic_0005|fullname=Menschen im Allgemeinen|gender=u|specialcase_entity=generic)))
+41769	,	0		
+41770	nicht	0		
+41771	klug	0		
+41772	wie	0		
+41773	die	0		
+41774	Schlangen	0		
+41775	,	0		
+41776	aber	0		
+41777	ohne	0		
+41778	Falsch	0		
+41779	wie	0		
+41780	die	0		
+41781	Tauben	0		
+41782	.	0		
+41783	Und	0		
+41784	Hammichel	0	(mention_id=6359|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6411|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+41785	,	0		
+41786	der	0	(mention_id=6360|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6412|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+41787	heute	0		
+41788	noch	0		
+41789	in	0		
+41790	den	0		
+41791	Spinnstuben	0		
+41792	und	0		
+41793	auf	0		
+41794	Kirchweihen	0		
+41795	Lieder	0		
+41796	der	0		
+41797	Liebe	0		
+41798	und	0		
+41799	Sehnsucht	0		
+41800	auf	0		
+41801	seiner	0	(mention_id=6361|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6413|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+41802	Fiedel	0		
+41803	begleitete	0		
+41804	und	0		
+41805	in	0		
+41806	seinen	0	(mention_id=6362|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6414|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+41807	jüngeren	0		
+41808	Jahren	0		
+41809	selber	0		
+41810	gesungen	0		
+41811	hatte	0		
+41812	,	0		
+41813	der	0	(mention_id=6363|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6415|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+41814	wollte	0		
+41815	jetzt	0		
+41816	gegen	0		
+41817	ein	0		
+41818	holdes	0		
+41819	,	0		
+41820	anmutiges	0		
+41821	Mädchen	0	(mention_id=6364|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=6416|references=(entity=(entity_id=27|fullname=Trudi|gender=f)))
+41822	,	0		
+41823	das	0	(mention_id=6365|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=6417|references=(entity=(entity_id=27|fullname=Trudi|gender=f)))
+41824	in	0		
+41825	wahrer	0		
+41826	großer	0		
+41827	Liebe	0		
+41828	an	0		
+41829	einem	0		
+41830	braven	0		
+41831	Burschen	0	(mention_id=6366|references=(entity=(entity_id=entity_0009|fullname=Franz Gersbacher|gender=m)))	(mention_id=6418|references=(entity=(entity_id=4|fullname=Franz Gersbacher|gender=m)))
+41832	hing	0		
+41833	,	0		
+41834	feindlich	0		
+41835	vorgehen	0		
+41836	,	0		
+41837	denn	0		
+41838	Trudi	0	(mention_id=6367|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=6419|references=(entity=(entity_id=27|fullname=Trudi|gender=f)))
+41839	war	0		
+41840	es	0		
+41841	ja	0		
+41842	doch	0		
+41843	,	0		
+41844	die	0	(mention_id=6368|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=6420|references=(entity=(entity_id=27|fullname=Trudi|gender=f)))
+41845	das	0		
+41846	unschuldige	0		
+41847	Opfer	0		(mention_id=6421|references=(entity=(entity_id=27|fullname=Trudi|gender=f)))
+41848	seines	0	(mention_id=6369|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6422|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+41849	Verrates	0		
+41850	wurde	0		
+41851	.	0		
+41852	Allerdings	0		
+41853	,	0		
+41854	auch	0		
+41855	wenn	0		
+41856	er	0	(mention_id=6370|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6423|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+41857	auf	0		
+41858	ihrer	0	(mention_id=6371|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=6424|references=(entity=(entity_id=27|fullname=Trudi|gender=f)))
+41859	Seite	0		
+41860	gestanden	0		
+41861	hätte	0		
+41862	,	0		
+41863	ihr	0	(mention_id=6372|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=6425|references=(entity=(entity_id=27|fullname=Trudi|gender=f)))
+41864	helfen	0		
+41865	,	0		
+41866	sie	0	(mention_id=6373|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=6426|references=(entity=(entity_id=27|fullname=Trudi|gender=f)))
+41867	vor	0		
+41868	ihrem	0	(mention_id=6374|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=6427|references=(entity=(entity_id=27|fullname=Trudi|gender=f)))
+41869	Schicksal	0		
+41870	bewahren	0		
+41871	hätte	0		
+41872	er	0	(mention_id=6375|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6428|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+41873	auch	0		
+41874	beim	0		
+41875	besten	0		
+41876	Willen	0		
+41877	nicht	0		
+41878	gekonnt	0		
+41879	.	0		
+41880	Aber	0		
+41881	er	0	(mention_id=6376|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6429|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+41882	wühlte	0		
+41883	und	0		
+41884	wirkte	0		
+41885	ja	0		
+41886	noch	0		
+41887	in	0		
+41888	anderer	0		
+41889	Weise	0		
+41890	gegen	0		
+41891	sie	0	(mention_id=6377|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=6430|references=(entity=(entity_id=27|fullname=Trudi|gender=f)))
+41892	,	0		
+41893	dafür	0		
+41894	bestochen	0		
+41895	und	0		
+41896	bezahlt	0		
+41897	von	0		
+41898	Jakobinen	0	(mention_id=6378|references=(entity=(entity_id=entity_0022|fullname=Jakobine Steinecker|gender=f)))	(mention_id=6431|references=(entity=(entity_id=9|fullname=Jakobine|gender=f)))
+41899	,	0		
+41900	deren	0	(mention_id=6379|references=(entity=(entity_id=entity_0022|fullname=Jakobine Steinecker|gender=f)))	(mention_id=6432|references=(entity=(entity_id=9|fullname=Jakobine|gender=f)))
+41901	Liebe	0		
+41902	zu	0		
+41903	Franz	0	(mention_id=6380|references=(entity=(entity_id=entity_0009|fullname=Franz Gersbacher|gender=m)))	(mention_id=6433|references=(entity=(entity_id=4|fullname=Franz Gersbacher|gender=m)))
+41904	–	0		
+41905	das	0		
+41906	hatte	0		
+41907	der	0		
+41908	Laurer	0	(mention_id=6381|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6434|references=(entity=(entity_id=16|fullname=Laurer|gender=m)))
+41909	längst	0		
+41910	erkannt	0		
+41911	–	0		
+41912	nicht	0		
+41913	so	0		
+41914	lauter	0		
+41915	und	0		
+41916	innig	0		
+41917	war	0		
+41918	wie	0		
+41919	die	0		
+41920	Trudis	0	(mention_id=6382|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=6435|references=(entity=(entity_id=27|fullname=Trudi|gender=f)))
+41921	.	0		
+41922	Was	0		
+41923	bewog	0		
+41924	ihn	0	(mention_id=6383|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6436|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+41925	dazu	0		
+41926	?	0		
+41927	Nichts	0		
+41928	anderes	0		
+41929	als	0		
+41930	sein	0	(mention_id=6384|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6437|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+41931	nie	0		
+41932	schlummerndes	0		
+41933	,	0		
+41934	ihn	0	(mention_id=6385|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6438|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+41935	stets	0		
+41936	prickelndes	0		
+41937	Begehren	0		
+41938	nach	0		
+41939	Geld	0		
+41940	und	0		
+41941	immer	0		
+41942	wieder	0		
+41943	Geld	0		
+41944	.	0		
+41945	Davon	0		
+41946	kam	0		
+41947	er	0	(mention_id=6386|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6439|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+41948	nicht	0		
+41949	los	0		
+41950	,	0		
+41951	das	0		
+41952	war	0		
+41953	die	0		
+41954	starke	0		
+41955	und	0		
+41956	,	0		
+41957	außer	0		
+41958	seiner	0	(mention_id=6387|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6440|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+41959	Rachsucht	0		
+41960	,	0		
+41961	einzige	0		
+41962	Triebfeder	0		
+41963	all	0		
+41964	seines	0	(mention_id=6388|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6441|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+41965	Handelns	0		
+41966	,	0		
+41967	die	0		
+41968	ihn	0	(mention_id=6389|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6442|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+41969	auch	0		
+41970	jetzt	0		
+41971	nicht	0		
+41972	rasten	0		
+41973	und	0		
+41974	ruhen	0		
+41975	ließ	0		
+41976	,	0		
+41977	bis	0		
+41978	er	0	(mention_id=6390|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6443|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+41979	Jakobinen	0	(mention_id=6391|references=(entity=(entity_id=entity_0022|fullname=Jakobine Steinecker|gender=f)))	(mention_id=6444|references=(entity=(entity_id=9|fullname=Jakobine|gender=f)))
+41980	noch	0		
+41981	vor	0		
+41982	dem	0		
+41983	öffentlichen	0		
+41984	Bekanntwerden	0		
+41985	des	0		
+41986	Wildfangrechtes	0		
+41987	einen	0		
+41988	beträchtlichen	0		
+41989	Lohn	0		
+41990	für	0		
+41991	gar	0		
+41992	nicht	0		
+41993	geleistete	0		
+41994	Dienste	0		
+41995	abgeschwindelt	0		
+41996	hatte	0		
+41997	.	0		
+41998	Aber	0		
+41999	wie	0		
+42000	und	0		
+42001	wo	0		
+42002	sollte	0		
+42003	er	0	(mention_id=6392|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6445|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+42004	mit	0		
+42005	ihr	0	(mention_id=6393|references=(entity=(entity_id=entity_0022|fullname=Jakobine Steinecker|gender=f)))	(mention_id=6446|references=(entity=(entity_id=9|fullname=Jakobine|gender=f)))
+42006	zusammenkommen	0		
+42007	?	0		
+42008	wie	0		
+42009	ihr	0	(mention_id=6394|references=(entity=(entity_id=entity_0022|fullname=Jakobine Steinecker|gender=f)))	(mention_id=6447|references=(entity=(entity_id=9|fullname=Jakobine|gender=f)))
+42010	Nachricht	0		
+42011	senden	0		
+42012	,	0		
+42013	daß	0		
+42014	er	0	(mention_id=6395|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6448|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+42015	sie	0	(mention_id=6396|references=(entity=(entity_id=entity_0022|fullname=Jakobine Steinecker|gender=f)))	(mention_id=6449|references=(entity=(entity_id=9|fullname=Jakobine|gender=f)))
+42016	sprechen	0		
+42017	müßte	0		
+42018	und	0		
+42019	sie	0	(mention_id=6397|references=(entity=(entity_id=entity_0022|fullname=Jakobine Steinecker|gender=f)))	(mention_id=6450|references=(entity=(entity_id=9|fullname=Jakobine|gender=f)))
+42020	Geld	0		
+42021	mitbringen	0		
+42022	möchte	0		
+42023	?	0		
+42024	Seinen	0	(mention_id=6398|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6451|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+42025	Enkel	0	(mention_id=6399|references=(entity=(entity_id=entity_0006|fullname=Kaspar|gender=m)))	(mention_id=6452|references=(entity=(entity_id=14|fullname=Kaspar|gender=m)))
+42026	,	0		
+42027	dem	0	(mention_id=6400|references=(entity=(entity_id=entity_0006|fullname=Kaspar|gender=m)))	(mention_id=6453|references=(entity=(entity_id=14|fullname=Kaspar|gender=m)))
+42028	Trudi	0	(mention_id=6401|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=6454|references=(entity=(entity_id=27|fullname=Trudi|gender=f)))
+42029	das	0		
+42030	Leben	0		
+42031	gerettet	0		
+42032	hatte	0		
+42033	,	0		
+42034	in	0		
+42035	diesem	0		
+42036	Falle	0		
+42037	als	0		
+42038	Boten	0	(mention_id=6402|references=(entity=(entity_id=entity_0006|fullname=Kaspar|gender=m)))	(mention_id=6455|references=(entity=(entity_id=14|fullname=Kaspar|gender=m)))
+42039	zu	0		
+42040	gebrauchen	0		
+42041	,	0		
+42042	deuchte	0		
+42043	ihm	0	(mention_id=6403|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6456|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+42044	nicht	0		
+42045	ratsam	0		
+42046	,	0		
+42047	und	0		
+42048	doch	0		
+42049	wußte	0		
+42050	er	0	(mention_id=6404|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6457|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+42051	niemand	0		
+42052	,	0		
+42053	der	0		
+42054	ihm	0	(mention_id=6405|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6458|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+42055	dazu	0		
+42056	so	0		
+42057	geeignet	0		
+42058	schien	0		
+42059	wie	0		
+42060	Kaspar	0	(mention_id=6406|references=(entity=(entity_id=entity_0006|fullname=Kaspar|gender=m)))	(mention_id=6459|references=(entity=(entity_id=14|fullname=Kaspar|gender=m)))
+42061	.	0		
+42062	Den	0		
+42063	Jungen	0	(mention_id=6407|references=(entity=(entity_id=entity_0006|fullname=Kaspar|gender=m)))	(mention_id=6460|references=(entity=(entity_id=14|fullname=Kaspar|gender=m)))
+42064	mit	0		
+42065	einer	0		
+42066	List	0		
+42067	über	0		
+42068	die	0		
+42069	wahre	0		
+42070	Bedeutung	0		
+42071	seines	0	(mention_id=6408|references=(entity=(entity_id=entity_0006|fullname=Kaspar|gender=m)))	(mention_id=6461|references=(entity=(entity_id=14|fullname=Kaspar|gender=m)))
+42072	Auftrages	0		
+42073	zu	0		
+42074	täuschen	0		
+42075	,	0		
+42076	konnte	0		
+42077	ihm	0	(mention_id=6409|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6462|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+42078	nicht	0		
+42079	schwer	0		
+42080	fallen	0		
+42081	,	0		
+42082	und	0		
+42083	so	0		
+42084	nahm	0		
+42085	er	0	(mention_id=6410|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6463|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+42086	ihn	0		(mention_id=6464|references=(entity=(entity_id=14|fullname=Kaspar|gender=m)))
+42087	sich	0	(mention_id=6411|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6465|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+42088	eines	0		
+42089	Nachmittages	0		
+42090	vor	0		
+42091	und	0		
+42092	sprach	0		
+42093	zu	0		
+42094	ihm	0	(mention_id=6412|references=(entity=(entity_id=entity_0006|fullname=Kaspar|gender=m)))	(mention_id=6466|references=(entity=(entity_id=14|fullname=Kaspar|gender=m)))
+42095	:	0		
+42096	»	0		
+42097	Kaschper	0	(mention_id=6413|references=(entity=(entity_id=entity_0006|fullname=Kaspar|gender=m)))	(mention_id=6467|references=(entity=(entity_id=14|fullname=Kaspar|gender=m)))
+42098	,	0		
+42099	ich	0	(mention_id=6414|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6468|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+42100	habe	0		
+42101	eine	0		
+42102	sehr	0		
+42103	wichtige	0		
+42104	Besorgung	0		
+42105	für	0		
+42106	dich	0	(mention_id=6415|references=(entity=(entity_id=entity_0006|fullname=Kaspar|gender=m)))	(mention_id=6469|references=(entity=(entity_id=14|fullname=Kaspar|gender=m)))
+42107	,	0		
+42108	von	0		
+42109	der	0		
+42110	du	0	(mention_id=6416|references=(entity=(entity_id=entity_0006|fullname=Kaspar|gender=m)))	(mention_id=6470|references=(entity=(entity_id=14|fullname=Kaspar|gender=m)))
+42111	keinem	0		
+42112	Menschen	0		
+42113	ein	0		
+42114	Wort	0		
+42115	sagen	0		
+42116	darfst	0		
+42117	als	0		
+42118	der	0	(mention_id=6417|references=(entity=(entity_id=entity_0022|fullname=Jakobine Steinecker|gender=f)))	(mention_id=6471|references=(entity=(entity_id=14|fullname=Kaspar|gender=m)))
+42119	,	0		
+42120	zu	0		
+42121	der	0	(mention_id=6418|references=(entity=(entity_id=entity_0022|fullname=Jakobine Steinecker|gender=f)))	(mention_id=6472|references=(entity=(entity_id=10|fullname=Jakobine Steinecker|gender=u)))
+42122	ich	0	(mention_id=6419|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6473|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+42123	dich	0	(mention_id=6420|references=(entity=(entity_id=entity_0006|fullname=Kaspar|gender=m)))	(mention_id=6474|references=(entity=(entity_id=10|fullname=Jakobine Steinecker|gender=u)))
+42124	schicke	0		
+42125	.	0		
+42126	Geh'	0		
+42127	hin	0		
+42128	zu	0		
+42129	Jakobine	0	(mention_id=6421|references=(entity=(entity_id=entity_0022|fullname=Jakobine Steinecker|gender=f)))	(mention_id=6475|references=(entity=(entity_id=9|fullname=Jakobine|gender=f)))
+42130	Steinecker	0	(mention_id=6421|references=(entity=(entity_id=entity_0022|fullname=Jakobine Steinecker|gender=f)))	(mention_id=6475|references=(entity=(entity_id=9|fullname=Jakobine|gender=f)))
+42131	und	0		
+42132	melde	0		
+42133	ihr	0	(mention_id=6422|references=(entity=(entity_id=entity_0022|fullname=Jakobine Steinecker|gender=f)))	(mention_id=6476|references=(entity=(entity_id=9|fullname=Jakobine|gender=f)))
+42134	ganz	0		
+42135	geheim	0		
+42136	,	0		
+42137	ich	0	(mention_id=6423|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6477|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+42138	hätte	0		
+42139	das	0		
+42140	neue	0		
+42141	Mittel	0		
+42142	zur	0		
+42143	Verbesserung	0		
+42144	des	0		
+42145	Weines	0		
+42146	,	0		
+42147	über	0		
+42148	das	0		
+42149	ich	0	(mention_id=6424|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6478|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+42150	vor	0		
+42151	einiger	0		
+42152	Zeit	0		
+42153	am	0		
+42154	Gartenzaune	0		
+42155	,	0		
+42156	wo	0		
+42157	du	0	(mention_id=6425|references=(entity=(entity_id=entity_0006|fullname=Kaspar|gender=m)))	(mention_id=6479|references=(entity=(entity_id=14|fullname=Kaspar|gender=m)))
+42158	ja	0		
+42159	damals	0		
+42160	dazukamst	0		
+42161	,	0		
+42162	mit	0		
+42163	ihr	0	(mention_id=6426|references=(entity=(entity_id=entity_0022|fullname=Jakobine Steinecker|gender=f)))	(mention_id=6480|references=(entity=(entity_id=9|fullname=Jakobine|gender=f)))
+42164	gesprochen	0		
+42165	hätte	0		
+42166	,	0		
+42167	nun	0		
+42168	zurecht	0		
+42169	gemacht	0		
+42170	,	0		
+42171	wollte	0		
+42172	es	0		
+42173	ihr	0	(mention_id=6427|references=(entity=(entity_id=entity_0022|fullname=Jakobine Steinecker|gender=f)))	(mention_id=6481|references=(entity=(entity_id=9|fullname=Jakobine|gender=f)))
+42174	aber	0		
+42175	selber	0		
+42176	einhändigen	0		
+42177	,	0		
+42178	damit	0		
+42179	sie	0	(mention_id=6428|references=(entity=(entity_id=entity_0022|fullname=Jakobine Steinecker|gender=f)))	(mention_id=6482|references=(entity=(entity_id=9|fullname=Jakobine|gender=f)))
+42180	es	0		
+42181	erst	0		
+42182	einmal	0		
+42183	allein	0		
+42184	,	0		
+42185	ohne	0		
+42186	Wissen	0		
+42187	des	0		
+42188	Vaters	0	(mention_id=6429|references=(entity=(entity_id=entity_0023|fullname=Adam Steinecker|gender=m)))	(mention_id=6483|references=(entity=(entity_id=1|fullname=Christoph Armbruster|gender=m)))
+42189	,	0		
+42190	ausprobiere	0		
+42191	.	0		
+42192	Sie	0	(mention_id=6430|references=(entity=(entity_id=entity_0022|fullname=Jakobine Steinecker|gender=f)))	(mention_id=6484|references=(entity=(entity_id=9|fullname=Jakobine|gender=f)))
+42193	sollte	0		
+42194	morgen	0		
+42195	gleich	0		
+42196	nach	0		
+42197	Mittag	0		
+42198	wieder	0		
+42199	an	0		
+42200	derselben	0		
+42201	Stelle	0		
+42202	des	0		
+42203	Zaunes	0		
+42204	sein	0		
+42205	und	0		
+42206	sich	0	(mention_id=6431|references=(entity=(entity_id=entity_0022|fullname=Jakobine Steinecker|gender=f)))	(mention_id=6485|references=(entity=(entity_id=9|fullname=Jakobine|gender=f)))
+42207	mit	0		
+42208	Geld	0		
+42209	versehen	0		
+42210	,	0		
+42211	denn	0		
+42212	ich	0	(mention_id=6432|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6486|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+42213	hätte	0		
+42214	erhebliche	0		
+42215	Auslagen	0		
+42216	dafür	0		
+42217	gehabt	0		
+42218	.	0		
+42219	Hast	0		
+42220	du	0	(mention_id=6433|references=(entity=(entity_id=entity_0006|fullname=Kaspar|gender=m)))	(mention_id=6487|references=(entity=(entity_id=14|fullname=Kaspar|gender=m)))
+42221	verstanden	0		
+42222	?	0		
+42223	«	0		
+42224	»	0		
+42225	Ja	0		
+42226	,	0		
+42227	Großvater	0	(mention_id=6434|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6488|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+42228	,	0		
+42229	werd's	0		
+42230	ausrichten	0		
+42231	,	0		
+42232	«	0		
+42233	versprach	0		
+42234	Kaspar	0	(mention_id=6435|references=(entity=(entity_id=entity_0006|fullname=Kaspar|gender=m)))	(mention_id=6489|references=(entity=(entity_id=14|fullname=Kaspar|gender=m)))
+42235	.	0		
+42236	»	0		
+42237	Gut	0		
+42238	!	0		
+42239	so	0		
+42240	lauf'	0		
+42241	und	0		
+42242	bring	0		
+42243	mir	0	(mention_id=6436|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6490|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+42244	Bescheid	0		
+42245	.	0		
+42246	Und	0		
+42247	daß	0		
+42248	du	0	(mention_id=6437|references=(entity=(entity_id=entity_0006|fullname=Kaspar|gender=m)))	(mention_id=6491|references=(entity=(entity_id=14|fullname=Kaspar|gender=m)))
+42249	mir	0	(mention_id=6438|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6492|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+42250	vor	0		
+42251	allen	0		
+42252	anderen	0	(mention_id=6439|references=(entity=(entity_id=generic_0267|fullname=generic_0061|gender=u|specialcase_entity=generic)))	
+42253	das	0		
+42254	Maul	0		
+42255	hältst	0		
+42256	,	0		
+42257	Junge	0	(mention_id=6440|references=(entity=(entity_id=entity_0006|fullname=Kaspar|gender=m)))	(mention_id=6493|references=(entity=(entity_id=14|fullname=Kaspar|gender=m)))
+42258	!	0		
+42259	sonst	0		
+42260	wehe	0		
+42261	dir	0	(mention_id=6441|references=(entity=(entity_id=entity_0006|fullname=Kaspar|gender=m)))	(mention_id=6494|references=(entity=(entity_id=14|fullname=Kaspar|gender=m)))
+42262	!	0		
+42263	«	0		
+42264	schärfte	0		
+42265	ihm	0	(mention_id=6442|references=(entity=(entity_id=entity_0006|fullname=Kaspar|gender=m)))	(mention_id=6495|references=(entity=(entity_id=14|fullname=Kaspar|gender=m)))
+42266	Hammichel	0	(mention_id=6443|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6496|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+42267	noch	0		
+42268	einmal	0		
+42269	ein	0		
+42270	.	0		
+42271	Abends	0		
+42272	berichtete	0		
+42273	Kaspar	0	(mention_id=6444|references=(entity=(entity_id=entity_0006|fullname=Kaspar|gender=m)))	(mention_id=6497|references=(entity=(entity_id=14|fullname=Kaspar|gender=m)))
+42274	,	0		
+42275	es	0		
+42276	wäre	0		
+42277	sehr	0		
+42278	schwierig	0		
+42279	gewesen	0		
+42280	,	0		
+42281	Jakobinen	0	(mention_id=6445|references=(entity=(entity_id=entity_0022|fullname=Jakobine Steinecker|gender=f)))	(mention_id=6498|references=(entity=(entity_id=9|fullname=Jakobine|gender=f)))
+42282	allein	0		
+42283	zu	0		
+42284	sprechen	0		
+42285	.	0		
+42286	Er	0	(mention_id=6446|references=(entity=(entity_id=entity_0006|fullname=Kaspar|gender=m)))	(mention_id=6499|references=(entity=(entity_id=14|fullname=Kaspar|gender=m)))
+42287	hätte	0		
+42288	jedoch	0		
+42289	mit	0		
+42290	seiner	0	(mention_id=6447|references=(entity=(entity_id=entity_0006|fullname=Kaspar|gender=m)))	(mention_id=6500|references=(entity=(entity_id=14|fullname=Kaspar|gender=m)))
+42291	Vogelscheuchklapper	0		(mention_id=6501|references=(entity=(entity_id=14|fullname=Kaspar|gender=m)))
+42292	so	0		
+42293	lange	0		
+42294	am	0		
+42295	Zaune	0		
+42296	gerasselt	0		
+42297	,	0		
+42298	bis	0		
+42299	sie	0	(mention_id=6448|references=(entity=(entity_id=entity_0022|fullname=Jakobine Steinecker|gender=f)))	(mention_id=6502|references=(entity=(entity_id=9|fullname=Jakobine|gender=f)))
+42300	im	0		
+42301	Garten	0		
+42302	erschienen	0		
+42303	wäre	0		
+42304	,	0		
+42305	aber	0		
+42306	in	0		
+42307	Begleitung	0		
+42308	ihres	0	(mention_id=6449|references=(entity=(entity_id=entity_0022|fullname=Jakobine Steinecker|gender=f)))	(mention_id=6503|references=(entity=(entity_id=9|fullname=Jakobine|gender=f)))
+42309	Bruders	0	(mention_id=6450|references=(entity=(entity_id=entity_0024|fullname=Wilm Steinecker|gender=m)))	(mention_id=6504|references=(entity=(entity_id=31|fullname=Wilm|gender=m)))
+42310	.	0		
+42311	Er	0	(mention_id=6451|references=(entity=(entity_id=entity_0006|fullname=Kaspar|gender=m)))	(mention_id=6505|references=(entity=(entity_id=14|fullname=Kaspar|gender=m)))
+42312	hätte	0		
+42313	dann	0		
+42314	,	0		
+42315	von	0		
+42316	diesem	0	(mention_id=6452|references=(entity=(entity_id=entity_0024|fullname=Wilm Steinecker|gender=m)))	(mention_id=6506|references=(entity=(entity_id=31|fullname=Wilm|gender=m)))
+42317	ungesehen	0		
+42318	,	0		
+42319	den	0		
+42320	Finger	0		
+42321	auf	0		
+42322	den	0		
+42323	Mund	0		
+42324	gelegt	0		
+42325	zum	0		
+42326	Zeichen	0		
+42327	,	0		
+42328	daß	0		
+42329	er	0	(mention_id=6453|references=(entity=(entity_id=entity_0006|fullname=Kaspar|gender=m)))	(mention_id=6507|references=(entity=(entity_id=14|fullname=Kaspar|gender=m)))
+42330	ihr	0	(mention_id=6454|references=(entity=(entity_id=entity_0022|fullname=Jakobine Steinecker|gender=f)))	(mention_id=6508|references=(entity=(entity_id=9|fullname=Jakobine|gender=f)))
+42331	etwas	0		
+42332	im	0		
+42333	geheimen	0		
+42334	zu	0		
+42335	sagen	0		
+42336	hätte	0		
+42337	.	0		
+42338	Darauf	0		
+42339	wäre	0		
+42340	sie	0	(mention_id=6455|references=(entity=(entity_id=entity_0022|fullname=Jakobine Steinecker|gender=f)))	(mention_id=6509|references=(entity=(entity_id=9|fullname=Jakobine|gender=f)))
+42341	mit	0		
+42342	Wilm	0	(mention_id=6456|references=(entity=(entity_id=entity_0024|fullname=Wilm Steinecker|gender=m)))	(mention_id=6510|references=(entity=(entity_id=31|fullname=Wilm|gender=m)))
+42343	ins	0		
+42344	Haus	0		
+42345	gegangen	0		
+42346	,	0		
+42347	bald	0		
+42348	aber	0		
+42349	allein	0		
+42350	wiedergekommen	0		
+42351	,	0		
+42352	und	0		
+42353	da	0		
+42354	hätte	0		
+42355	er	0	(mention_id=6457|references=(entity=(entity_id=entity_0006|fullname=Kaspar|gender=m)))	(mention_id=6511|references=(entity=(entity_id=14|fullname=Kaspar|gender=m)))
+42356	die	0		
+42357	Bestellung	0		
+42358	bei	0		
+42359	ihr	0	(mention_id=6458|references=(entity=(entity_id=entity_0022|fullname=Jakobine Steinecker|gender=f)))	(mention_id=6512|references=(entity=(entity_id=9|fullname=Jakobine|gender=f)))
+42360	angebracht	0		
+42361	.	0		
+42362	Jakobine	0	(mention_id=6459|references=(entity=(entity_id=entity_0022|fullname=Jakobine Steinecker|gender=f)))	(mention_id=6513|references=(entity=(entity_id=9|fullname=Jakobine|gender=f)))
+42363	würde	0		
+42364	morgen	0		
+42365	gleich	0		
+42366	nach	0		
+42367	Mittag	0		
+42368	am	0		
+42369	Zaune	0		
+42370	sein	0		
+42371	.	0		
+42372	»	0		
+42373	Das	0		
+42374	hast	0		
+42375	du	0	(mention_id=6460|references=(entity=(entity_id=entity_0006|fullname=Kaspar|gender=m)))	(mention_id=6514|references=(entity=(entity_id=14|fullname=Kaspar|gender=m)))
+42376	gut	0		
+42377	gemacht	0		
+42378	,	0		
+42379	Junge	0	(mention_id=6461|references=(entity=(entity_id=entity_0006|fullname=Kaspar|gender=m)))	(mention_id=6515|references=(entity=(entity_id=14|fullname=Kaspar|gender=m)))
+42380	!	0		
+42381	«	0		
+42382	belobte	0		
+42383	ihn	0	(mention_id=6462|references=(entity=(entity_id=entity_0006|fullname=Kaspar|gender=m)))	(mention_id=6516|references=(entity=(entity_id=14|fullname=Kaspar|gender=m)))
+42384	der	0		
+42385	Alte	0	(mention_id=6463|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6517|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+42386	und	0		
+42387	dachte	0		
+42388	:	0		
+42389	der	0		
+42390	Bengel	0	(mention_id=6464|references=(entity=(entity_id=entity_0006|fullname=Kaspar|gender=m)))	(mention_id=6518|references=(entity=(entity_id=14|fullname=Kaspar|gender=m)))
+42391	ist	0		
+42392	doch	0		
+42393	brauchbarer	0		
+42394	als	0		
+42395	ich	0	(mention_id=6465|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6519|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+42396	ihm	0	(mention_id=6466|references=(entity=(entity_id=entity_0006|fullname=Kaspar|gender=m)))	(mention_id=6520|references=(entity=(entity_id=14|fullname=Kaspar|gender=m)))
+42397	zugetraut	0		
+42398	hatte	0		
+42399	.	0		
+42400	Zur	0		
+42401	verabredeten	0		
+42402	Stunde	0		
+42403	begab	0		
+42404	sich	0	(mention_id=6467|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6521|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+42405	Hammichel	0	(mention_id=6468|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6522|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+42406	an	0		
+42407	den	0		
+42408	bezeichneten	0		
+42409	Ort	0		
+42410	,	0		
+42411	wo	0		
+42412	er	0	(mention_id=6469|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6523|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+42413	Jakobinen	0	(mention_id=6470|references=(entity=(entity_id=entity_0022|fullname=Jakobine Steinecker|gender=f)))	(mention_id=6524|references=(entity=(entity_id=9|fullname=Jakobine|gender=f)))
+42414	schon	0		
+42415	seiner	0	(mention_id=6471|references=(entity=(entity_id=entity_0022|fullname=Jakobine Steinecker|gender=f)))	(mention_id=6525|references=(entity=(entity_id=9|fullname=Jakobine|gender=f)))
+42416	harrend	0		
+42417	fand	0		
+42418	.	0		
+42419	Sie	0	(mention_id=6472|references=(entity=(entity_id=entity_0022|fullname=Jakobine Steinecker|gender=f)))	(mention_id=6526|references=(entity=(entity_id=9|fullname=Jakobine|gender=f)))
+42420	empfing	0		
+42421	ihn	0	(mention_id=6473|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6527|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+42422	mit	0		
+42423	den	0		
+42424	Worten	0		
+42425	:	0		
+42426	»	0		
+42427	Endlich	0		
+42428	,	0		
+42429	Hammichel	0	(mention_id=6474|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6528|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+42430	!	0		
+42431	wie	0		
+42432	lange	0		
+42433	hast	0		
+42434	du	0	(mention_id=6475|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6529|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+42435	dich	0	(mention_id=6476|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6530|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+42436	nicht	0		
+42437	vor	0		
+42438	mir	0	(mention_id=6477|references=(entity=(entity_id=entity_0022|fullname=Jakobine Steinecker|gender=f)))	(mention_id=6531|references=(entity=(entity_id=9|fullname=Jakobine|gender=f)))
+42439	sehen	0		
+42440	lassen	0		
+42441	!	0		
+42442	wo	0		
+42443	hast	0		
+42444	du	0	(mention_id=6478|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6532|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+42445	denn	0		
+42446	nur	0		
+42447	gesteckt	0		
+42448	?	0		
+42449	«	0		
+42450	»	0		
+42451	Wo	0		
+42452	ich	0	(mention_id=6479|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6533|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+42453	so	0		
+42454	lange	0		
+42455	gesteckt	0		
+42456	habe	0		
+42457	?	0		
+42458	«	0		
+42459	erwiderte	0		
+42460	er	0	(mention_id=6480|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6534|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+42461	.	0		
+42462	»	0		
+42463	Ja	0		
+42464	,	0		
+42465	was	0		
+42466	meinst	0		
+42467	du	0	(mention_id=6481|references=(entity=(entity_id=entity_0022|fullname=Jakobine Steinecker|gender=f)))	(mention_id=6535|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+42468	wohl	0		
+42469	,	0		
+42470	wo	0		
+42471	ich	0	(mention_id=6482|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6536|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+42472	gewesen	0		
+42473	hin	0		
+42474	,	0		
+42475	Jakobinchen	0	(mention_id=6483|references=(entity=(entity_id=entity_0022|fullname=Jakobine Steinecker|gender=f)))	(mention_id=6537|references=(entity=(entity_id=9|fullname=Jakobine|gender=f)))
+42476	?	0		
+42477	In	0		
+42478	Kaiserslautern	0		
+42479	war	0		
+42480	ich	0	(mention_id=6484|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6538|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+42481	;	0		
+42482	ja	0		
+42483	,	0		
+42484	mach	0		
+42485	nur	0		
+42486	Augen	0		
+42487	!	0		
+42488	den	0		
+42489	weiten	0		
+42490	Weg	0		
+42491	nach	0		
+42492	Kaiserslautern	0		
+42493	zu	0		
+42494	meinem	0	(mention_id=6485|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6539|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+42495	großgünstigen	0		
+42496	Freunde	0	(mention_id=6486|references=(entity=(entity_id=entity_0031|fullname=Hammichels Freund|gender=m)))	(mention_id=6540|references=(entity=(entity_id=7|fullname=Herrn Sekretarius|gender=m)))
+42497	bin	0		
+42498	ich	0	(mention_id=6487|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6541|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+42499	gewandert	0		
+42500	bei	0		
+42501	der	0		
+42502	sengenden	0		
+42503	Augusthitze	0		
+42504	.	0		
+42505	Siehst	0		
+42506	du	0	(mention_id=6488|references=(entity=(entity_id=entity_0022|fullname=Jakobine Steinecker|gender=f)))	(mention_id=6542|references=(entity=(entity_id=7|fullname=Herrn Sekretarius|gender=m)))
+42507	,	0		
+42508	so	0		
+42509	plag'	0		
+42510	ich	0	(mention_id=6489|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6543|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+42511	und	0		
+42512	schind'	0		
+42513	ich	0	(mention_id=6490|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6544|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+42514	mich	0	(mention_id=6491|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6545|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+42515	für	0		
+42516	dich	0	(mention_id=6492|references=(entity=(entity_id=entity_0022|fullname=Jakobine Steinecker|gender=f)))	(mention_id=6546|references=(entity=(entity_id=9|fullname=Jakobine|gender=f)))
+42517	.	0		
+42518	Aber	0		
+42519	nun	0		
+42520	sind	0		
+42521	wir	0	(mention_id=6493|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)),(entity=(entity_id=entity_0022|fullname=Jakobine Steinecker|gender=f)))	(mention_id=6547|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)),(entity=(entity_id=9|fullname=Jakobine|gender=f)))
+42522	auch	0		
+42523	gerüstet	0		
+42524	und	0		
+42525	gewappnet	0		
+42526	;	0		
+42527	wirst	0		
+42528	deine	0	(mention_id=6494|references=(entity=(entity_id=entity_0022|fullname=Jakobine Steinecker|gender=f)))	(mention_id=6548|references=(entity=(entity_id=9|fullname=Jakobine|gender=f)))
+42529	Freude	0		
+42530	haben	0		
+42531	über	0		
+42532	das	0		
+42533	,	0		
+42534	was	0		
+42535	ich	0	(mention_id=6495|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6549|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+42536	dir	0	(mention_id=6496|references=(entity=(entity_id=entity_0022|fullname=Jakobine Steinecker|gender=f)))	(mention_id=6550|references=(entity=(entity_id=9|fullname=Jakobine|gender=f)))
+42537	nun	0		
+42538	mitteilen	0		
+42539	kann	0		
+42540	.	0		
+42541	«	0		
+42542	»	0		
+42543	Nun	0		
+42544	?	0		
+42545	laß	0		
+42546	hören	0		
+42547	,	0		
+42548	laß	0		
+42549	hören	0		
+42550	,	0		
+42551	Hammichel	0	(mention_id=6497|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6551|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+42552	!	0		
+42553	«	0		
+42554	sprach	0		
+42555	sie	0	(mention_id=6498|references=(entity=(entity_id=entity_0022|fullname=Jakobine Steinecker|gender=f)))	(mention_id=6552|references=(entity=(entity_id=9|fullname=Jakobine|gender=f)))
+42556	in	0		
+42557	fiebernder	0		
+42558	Erwartung	0		
+42559	.	0		
+42560	»	0		
+42561	Nur	0		
+42562	Geduld	0		
+42563	,	0		
+42564	mein	0	(mention_id=6499|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6553|references=(entity=(entity_id=9|fullname=Jakobine|gender=f)))
+42565	Herzchen	0	(mention_id=6500|references=(entity=(entity_id=entity_0022|fullname=Jakobine Steinecker|gender=f)))	
+42566	!	0		
+42567	eins	0		
+42568	nach	0		
+42569	dem	0		
+42570	andern	0		
+42571	!	0		
+42572	erst	0		
+42573	–	0		
+42574	hier	0		
+42575	!	0		
+42576	«	0		
+42577	versetzte	0		
+42578	er	0	(mention_id=6501|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6554|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+42579	mit	0		
+42580	einem	0		
+42581	süßlichen	0		
+42582	Lächeln	0		
+42583	und	0		
+42584	hielt	0		
+42585	ihr	0	(mention_id=6502|references=(entity=(entity_id=entity_0022|fullname=Jakobine Steinecker|gender=f)))	(mention_id=6555|references=(entity=(entity_id=9|fullname=Jakobine|gender=f)))
+42586	wie	0		
+42587	ein	0		
+42588	Bettler	0	(mention_id=6503|references=(entity=(entity_id=generic_0268|fullname=Bettler|gender=u|specialcase_entity=generic)),(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6556|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+42589	die	0		
+42590	offene	0		
+42591	Hand	0		
+42592	über	0		
+42593	den	0		
+42594	Zaun	0		
+42595	hin	0		
+42596	.	0		
+42597	»	0		
+42598	Ich	0	(mention_id=6504|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6557|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+42599	habe	0		
+42600	von	0		
+42601	dem	0		
+42602	Besuche	0		
+42603	große	0		
+42604	Unkosten	0		
+42605	gehabt	0		
+42606	,	0		
+42607	denn	0		
+42608	ich	0	(mention_id=6505|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6558|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+42609	mußte	0		
+42610	meinen	0	(mention_id=6506|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6559|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+42611	Freund	0	(mention_id=6507|references=(entity=(entity_id=entity_0031|fullname=Hammichels Freund|gender=m)))	(mention_id=6560|references=(entity=(entity_id=7|fullname=Herrn Sekretarius|gender=m)))
+42612	,	0		
+42613	den	0		
+42614	Herrn	0	(mention_id=6508|references=(entity=(entity_id=entity_0031|fullname=Hammichels Freund|gender=m)))	(mention_id=6561|references=(entity=(entity_id=7|fullname=Herrn Sekretarius|gender=m)))
+42615	Sekretarius	0	(mention_id=6508|references=(entity=(entity_id=entity_0031|fullname=Hammichels Freund|gender=m)))	(mention_id=6561|references=(entity=(entity_id=7|fullname=Herrn Sekretarius|gender=m)))
+42616	,	0		
+42617	in	0		
+42618	der	0		
+42619	besten	0		
+42620	Wirtschaft	0		
+42621	der	0		
+42622	Stadt	0		
+42623	freihalten	0		
+42624	und	0		
+42625	mit	0		
+42626	sehr	0		
+42627	guten	0		
+42628	Weinen	0		
+42629	traktieren	0		
+42630	,	0		
+42631	um	0		
+42632	ihm	0	(mention_id=6509|references=(entity=(entity_id=entity_0031|fullname=Hammichels Freund|gender=m)))	(mention_id=6562|references=(entity=(entity_id=7|fullname=Herrn Sekretarius|gender=m)))
+42633	die	0		
+42634	Zunge	0		
+42635	zu	0		
+42636	lösen	0		
+42637	.	0		
+42638	Und	0		
+42639	je	0		
+42640	mehr	0		
+42641	er	0	(mention_id=6510|references=(entity=(entity_id=entity_0031|fullname=Hammichels Freund|gender=m)))	(mention_id=6563|references=(entity=(entity_id=7|fullname=Herrn Sekretarius|gender=m)))
+42642	trank	0		
+42643	,	0		
+42644	desto	0		
+42645	höher	0		
+42646	schraubte	0		
+42647	er	0	(mention_id=6511|references=(entity=(entity_id=entity_0031|fullname=Hammichels Freund|gender=m)))	(mention_id=6564|references=(entity=(entity_id=7|fullname=Herrn Sekretarius|gender=m)))
+42648	seine	0	(mention_id=6512|references=(entity=(entity_id=entity_0031|fullname=Hammichels Freund|gender=m)))	(mention_id=6565|references=(entity=(entity_id=7|fullname=Herrn Sekretarius|gender=m)))
+42649	Forderung	0		
+42650	für	0		
+42651	die	0		
+42652	Offenbarung	0		
+42653	seines	0	(mention_id=6513|references=(entity=(entity_id=entity_0031|fullname=Hammichels Freund|gender=m)))	(mention_id=6566|references=(entity=(entity_id=7|fullname=Herrn Sekretarius|gender=m)))
+42654	Geheimnisses	0		
+42655	.	0		
+42656	Fünfzehn	0		
+42657	Gulden	0		
+42658	habe	0		
+42659	ich	0	(mention_id=6514|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6567|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+42660	ihm	0	(mention_id=6515|references=(entity=(entity_id=entity_0031|fullname=Hammichels Freund|gender=m)))	(mention_id=6568|references=(entity=(entity_id=7|fullname=Herrn Sekretarius|gender=m)))
+42661	dafür	0		
+42662	bezahlen	0		
+42663	müssen	0		
+42664	,	0		
+42665	und	0		
+42666	dazu	0		
+42667	kommt	0		
+42668	noch	0		
+42669	die	0		
+42670	teure	0		
+42671	Zeche	0		
+42672	und	0		
+42673	meine	0	(mention_id=6516|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6569|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+42674	Wegzehrung	0		
+42675	hin	0		
+42676	und	0		
+42677	her	0		
+42678	.	0		
+42679	Zweiundzwanzig	0		
+42680	Gulden	0		
+42681	mußt	0		
+42682	du	0	(mention_id=6517|references=(entity=(entity_id=entity_0022|fullname=Jakobine Steinecker|gender=f)))	(mention_id=6570|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+42683	mir	0	(mention_id=6518|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6571|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+42684	geben	0		
+42685	,	0		
+42686	eh'	0		
+42687	ich	0	(mention_id=6519|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6572|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+42688	dir	0	(mention_id=6520|references=(entity=(entity_id=entity_0022|fullname=Jakobine Steinecker|gender=f)))	(mention_id=6573|references=(entity=(entity_id=9|fullname=Jakobine|gender=f)))
+42689	sage	0		
+42690	,	0		
+42691	was	0		
+42692	ich	0	(mention_id=6521|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6574|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+42693	weiß	0		
+42694	.	0		
+42695	«	0		
+42696	»	0		
+42697	Hammichel	0	(mention_id=6522|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6575|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+42698	!	0		
+42699	auf	0		
+42700	soviel	0		
+42701	war	0		
+42702	ich	0	(mention_id=6523|references=(entity=(entity_id=entity_0022|fullname=Jakobine Steinecker|gender=f)))	(mention_id=6576|references=(entity=(entity_id=9|fullname=Jakobine|gender=f)))
+42703	nicht	0		
+42704	gefaßt	0		
+42705	,	0		
+42706	«	0		
+42707	seufzte	0		
+42708	die	0		
+42709	Erschrockene	0	(mention_id=6524|references=(entity=(entity_id=entity_0022|fullname=Jakobine Steinecker|gender=f)))	(mention_id=6577|references=(entity=(entity_id=9|fullname=Jakobine|gender=f)))
+42710	.	0	(mention_id=6524|references=(entity=(entity_id=entity_0022|fullname=Jakobine Steinecker|gender=f)))	
+42711	»	0		
+42712	Siebzehn	0		
+42713	Gulden	0		
+42714	hab'	0		
+42715	ich	0	(mention_id=6525|references=(entity=(entity_id=entity_0022|fullname=Jakobine Steinecker|gender=f)))	(mention_id=6578|references=(entity=(entity_id=9|fullname=Jakobine|gender=f)))
+42716	im	0		
+42717	ganzen	0		
+42718	,	0		
+42719	und	0		
+42720	damit	0		
+42721	könntest	0		
+42722	du	0	(mention_id=6526|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6579|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+42723	wohl	0		
+42724	zufrieden	0		
+42725	sein	0		
+42726	,	0		
+42727	mein'	0		
+42728	ich	0	(mention_id=6527|references=(entity=(entity_id=entity_0022|fullname=Jakobine Steinecker|gender=f)))	(mention_id=6580|references=(entity=(entity_id=9|fullname=Jakobine|gender=f)))
+42729	.	0		
+42730	«	0		
+42731	»	0		
+42732	Nein	0		
+42733	,	0		
+42734	Jakobinchen	0	(mention_id=6528|references=(entity=(entity_id=entity_0022|fullname=Jakobine Steinecker|gender=f)))	(mention_id=6581|references=(entity=(entity_id=9|fullname=Jakobine|gender=f)))
+42735	,	0		
+42736	ich	0	(mention_id=6529|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6582|references=(entity=(entity_id=9|fullname=Jakobine|gender=f)))
+42737	kann	0		
+42738	nichts	0		
+42739	ablassen	0		
+42740	,	0		
+42741	«	0		
+42742	erwiderte	0		
+42743	der	0		
+42744	geriebene	0		
+42745	Knicker	0	(mention_id=6530|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6583|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+42746	;	0		
+42747	»	0		
+42748	soll	0		
+42749	ich	0	(mention_id=6531|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6584|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+42750	denn	0		
+42751	dabei	0		
+42752	noch	0		
+42753	Schaden	0		
+42754	machen	0		
+42755	?	0		
+42756	Könntest	0		
+42757	mir	0	(mention_id=6532|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6585|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+42758	wohl	0		
+42759	fünfundzwanzig	0		
+42760	Gulden	0		
+42761	geben	0		
+42762	,	0		
+42763	damit	0		
+42764	ich	0	(mention_id=6533|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6586|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+42765	auch	0		
+42766	ein	0		
+42767	bißchen	0		
+42768	was	0		
+42769	dabei	0		
+42770	verdiene	0		
+42771	.	0		
+42772	«	0		
+42773	»	0		
+42774	Ich	0	(mention_id=6534|references=(entity=(entity_id=entity_0022|fullname=Jakobine Steinecker|gender=f)))	(mention_id=6587|references=(entity=(entity_id=9|fullname=Jakobine|gender=f)))
+42775	kann	0		
+42776	dir	0	(mention_id=6535|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6588|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+42777	nicht	0		
+42778	nachrechnen	0		
+42779	,	0		
+42780	Hammichel	0	(mention_id=6536|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6589|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+42781	,	0		
+42782	wieviel	0		
+42783	du	0	(mention_id=6537|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6590|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+42784	dabei	0		
+42785	verdienst	0		
+42786	,	0		
+42787	«	0		
+42788	sagte	0		
+42789	sie	0	(mention_id=6538|references=(entity=(entity_id=entity_0022|fullname=Jakobine Steinecker|gender=f)))	(mention_id=6591|references=(entity=(entity_id=9|fullname=Jakobine|gender=f)))
+42790	.	0		
+42791	»	0		
+42792	Hier	0		
+42793	nimm	0		
+42794	die	0		
+42795	siebzehn	0		
+42796	Gulden	0		
+42797	,	0		
+42798	und	0		
+42799	drei	0		
+42800	will	0		
+42801	ich	0	(mention_id=6539|references=(entity=(entity_id=entity_0022|fullname=Jakobine Steinecker|gender=f)))	(mention_id=6592|references=(entity=(entity_id=9|fullname=Jakobine|gender=f)))
+42802	dir	0	(mention_id=6540|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6593|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+42803	noch	0		
+42804	nachzahlen	0		
+42805	,	0		
+42806	sobald	0		
+42807	ich	0	(mention_id=6541|references=(entity=(entity_id=entity_0022|fullname=Jakobine Steinecker|gender=f)))	(mention_id=6594|references=(entity=(entity_id=9|fullname=Jakobine|gender=f)))
+42808	kann	0		
+42809	.	0		
+42810	Das	0		
+42811	macht	0		
+42812	zwanzig	0		
+42813	,	0		
+42814	damit	0		
+42815	mußt	0		
+42816	du	0	(mention_id=6542|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6595|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+42817	dich	0	(mention_id=6543|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6596|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+42818	begnügen	0		
+42819	.	0		
+42820	«	0		
+42821	»	0		
+42822	Nun	0		
+42823	,	0		
+42824	weil	0		
+42825	du's	0		(mention_id=6597|references=(entity=(entity_id=9|fullname=Jakobine|gender=f)))
+42826	bist	0		
+42827	,	0		
+42828	Jakobinchen	0	(mention_id=6544|references=(entity=(entity_id=entity_0022|fullname=Jakobine Steinecker|gender=f)))	(mention_id=6598|references=(entity=(entity_id=9|fullname=Jakobine|gender=f)))
+42829	,	0		
+42830	will	0		
+42831	ich	0	(mention_id=6545|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6599|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+42832	mich	0	(mention_id=6546|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6600|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+42833	für	0		
+42834	diesmal	0		
+42835	bescheiden	0		
+42836	;	0		
+42837	einer	0		
+42838	anderen	0	(mention_id=6547|references=(entity=(entity_id=generic_0269|fullname=generic_0062|gender=u|specialcase_entity=generic)))	(mention_id=6601|references=(entity=(entity_id=generic_0006|fullname=anderen Personen|gender=u|specialcase_entity=generic)))
+42839	gegenüber	0		
+42840	tät	0		
+42841	ich's	0		(mention_id=6602|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+42842	nicht	0		
+42843	,	0		
+42844	«	0		
+42845	entgegnete	0		
+42846	er	0	(mention_id=6548|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6603|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+42847	.	0		
+42848	»	0		
+42849	Also	0		
+42850	gib	0		
+42851	her	0		
+42852	!	0		
+42853	und	0		
+42854	fünf	0		
+42855	Gulden	0		
+42856	krieg'	0		
+42857	ich	0	(mention_id=6549|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6604|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+42858	dann	0		
+42859	noch	0		
+42860	.	0		
+42861	«	0		
+42862	»	0		
+42863	Drei	0		
+42864	,	0		
+42865	Hammichel	0	(mention_id=6550|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6605|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+42866	,	0		
+42867	drei	0		
+42868	!	0		
+42869	«	0		
+42870	»	0		
+42871	Ach	0		
+42872	ja	0		
+42873	,	0		
+42874	drei	0		
+42875	!	0		
+42876	Wenn	0		
+42877	du	0	(mention_id=6551|references=(entity=(entity_id=entity_0022|fullname=Jakobine Steinecker|gender=f)))	(mention_id=6606|references=(entity=(entity_id=9|fullname=Jakobine|gender=f)))
+42878	aber	0		
+42879	erst	0		
+42880	weißt	0		
+42881	,	0		
+42882	was	0		
+42883	ich	0	(mention_id=6552|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6607|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+42884	weiß	0		
+42885	,	0		
+42886	wirst	0		
+42887	du	0	(mention_id=6553|references=(entity=(entity_id=entity_0022|fullname=Jakobine Steinecker|gender=f)))	(mention_id=6608|references=(entity=(entity_id=9|fullname=Jakobine|gender=f)))
+42888	aus	0		
+42889	freien	0		
+42890	Stücken	0		
+42891	noch	0		
+42892	dreimal	0		
+42893	drei	0		
+42894	zulegen	0		
+42895	,	0		
+42896	«	0		
+42897	sprach	0		
+42898	er	0	(mention_id=6554|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6609|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+42899	und	0		
+42900	sackte	0		
+42901	den	0		
+42902	ergaunerten	0		
+42903	Lügenlohn	0		
+42904	vergnügt	0		
+42905	ein	0		
+42906	.	0		
+42907	»	0		
+42908	Wenn	0		
+42909	ich's	0	(mention_id=6555|references=(entity=(entity_id=entity_0022|fullname=Jakobine Steinecker|gender=f)))	(mention_id=6610|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+42910	nur	0		
+42911	erst	0		
+42912	wüßte	0		
+42913	!	0		
+42914	«	0		
+42915	sagte	0		
+42916	Jakobine	0	(mention_id=6556|references=(entity=(entity_id=entity_0022|fullname=Jakobine Steinecker|gender=f)))	(mention_id=6611|references=(entity=(entity_id=9|fullname=Jakobine|gender=f)))
+42917	.	0		
+42918	»	0		
+42919	Dein	0	(mention_id=6557|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6612|references=(entity=(entity_id=9|fullname=Jakobine|gender=f)))
+42920	Geld	0		
+42921	hast	0		
+42922	du	0	(mention_id=6558|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6613|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+42923	;	0		
+42924	nun	0		
+42925	fang'	0		
+42926	endlich	0		
+42927	an	0		
+42928	,	0		
+42929	deine	0	(mention_id=6559|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6614|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+42930	Weisheit	0		
+42931	auszukramen	0		
+42932	.	0		
+42933	«	0		
+42934	»	0		
+42935	Kommt	0		
+42936	schon	0		
+42937	,	0		
+42938	kommt	0		
+42939	schon	0		
+42940	,	0		
+42941	«	0		
+42942	sagte	0		
+42943	Hammichel	0	(mention_id=6560|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6615|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+42944	.	0		
+42945	»	0		
+42946	Kann	0		
+42947	uns	0	(mention_id=6561|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)),(entity=(entity_id=entity_0022|fullname=Jakobine Steinecker|gender=f)))	(mention_id=6616|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)),(entity=(entity_id=9|fullname=Jakobine|gender=f)))
+42948	hier	0		
+42949	auch	0		
+42950	niemand	0		
+42951	hören	0		
+42952	?	0		
+42953	«	0		
+42954	»	0		
+42955	Du	0		
+42956	lieber	0		
+42957	Himmel	0		(mention_id=6617|references=(entity=(entity_id=generic_0007|fullname=Himmel|gender=u|specialcase_entity=generic)))
+42958	–	0		
+42959	nein	0		
+42960	!	0		
+42961	«	0		
+42962	rief	0		
+42963	sie	0	(mention_id=6562|references=(entity=(entity_id=entity_0022|fullname=Jakobine Steinecker|gender=f)))	(mention_id=6618|references=(entity=(entity_id=9|fullname=Jakobine|gender=f)))
+42964	in	0		
+42965	heller	0		
+42966	Verzweiflung	0		
+42967	.	0		
+42968	»	0		
+42969	Also	0		
+42970	knöpf'	0		
+42971	die	0		
+42972	Ohren	0		
+42973	auf	0		
+42974	!	0		
+42975	«	0		
+42976	begann	0		
+42977	er	0	(mention_id=6563|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6619|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+42978	.	0		
+42979	Dann	0		
+42980	sprach	0		
+42981	er	0	(mention_id=6564|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6620|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+42982	leise	0		
+42983	,	0		
+42984	noch	0		
+42985	leiser	0		
+42986	als	0		
+42987	bisher	0		
+42988	:	0		
+42989	»	0		
+42990	Wenn	0		
+42991	deine	0	(mention_id=6565|references=(entity=(entity_id=entity_0022|fullname=Jakobine Steinecker|gender=f)))	(mention_id=6621|references=(entity=(entity_id=27|fullname=Trudi|gender=f)))
+42992	Herzensfeindin	0	(mention_id=6566|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=6622|references=(entity=(entity_id=27|fullname=Trudi|gender=f)))
+42993	,	0		
+42994	die	0		
+42995	Würzburgische	0	(mention_id=6567|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=6623|references=(entity=(entity_id=27|fullname=Trudi|gender=f)))
+42996	,	0		
+42997	ein	0		
+42998	Jahr	0		
+42999	lang	0		
+43000	hier	0		
+43001	in	0		
+43002	Wachenheim	0		
+43003	ist	0		
+43004	,	0		
+43005	–	0		
+43006	und	0		
+43007	das	0		
+43008	ist	0		
+43009	sie	0	(mention_id=6568|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=6624|references=(entity=(entity_id=27|fullname=Trudi|gender=f)))
+43010	nun	0		
+43011	bald	0		
+43012	–	0		
+43013	so	0		
+43014	wird	0		
+43015	sie	0	(mention_id=6569|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=6625|references=(entity=(entity_id=27|fullname=Trudi|gender=f)))
+43016	ein	0		
+43017	Wildfang	0	(mention_id=6570|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=6626|references=(entity=(entity_id=generic_0008|fullname=Wildfang im Allgemeinen|gender=u|specialcase_entity=generic)))
+43018	.	0		
+43019	–	0		
+43020	Was	0		
+43021	das	0		
+43022	ist	0		
+43023	?	0		
+43024	das	0		
+43025	bedeutet	0		
+43026	:	0		
+43027	so	0		
+43028	jemand	0	(mention_id=6571|references=(entity=(entity_id=generic_0208|fullname=Wildfang|gender=u|specialcase_entity=generic)))	(mention_id=6627|references=(entity=(entity_id=generic_0010|fullname=jemand im Allgemeinen|gender=u|specialcase_entity=generic)))
+43029	,	0		
+43030	Mannsbild	0	(mention_id=6572|references=(entity=(entity_id=generic_0209|fullname=Wildfang|gender=u|specialcase_entity=generic)))	(mention_id=6628|references=(entity=(entity_id=generic_0014|fullname=Mannsbild im Allgemeinen|gender=u|specialcase_entity=generic)))
+43031	oder	0		
+43032	Weibsbild	0	(mention_id=6573|references=(entity=(entity_id=generic_0210|fullname=Wildfang|gender=u|specialcase_entity=generic)))	(mention_id=6629|references=(entity=(entity_id=generic_0015|fullname=Weibsbild im Allgemeinen|gender=u|specialcase_entity=generic)))
+43033	,	0		
+43034	von	0		
+43035	auswärts	0		
+43036	in	0		
+43037	ein	0		
+43038	Land	0		
+43039	,	0		
+43040	wo	0		
+43041	er	0	(mention_id=6574|references=(entity=(entity_id=generic_0211|fullname=Wildfang|gender=u|specialcase_entity=generic)))	(mention_id=6630|references=(entity=(entity_id=generic_0011|fullname=jemand im Allgemeinen|gender=u|specialcase_entity=generic)))
+43042	nicht	0		
+43043	geboren	0		
+43044	ist	0		
+43045	,	0		
+43046	einwandert	0		
+43047	und	0		
+43048	sich	0	(mention_id=6575|references=(entity=(entity_id=generic_0212|fullname=Wildfang|gender=u|specialcase_entity=generic)))	(mention_id=6631|references=(entity=(entity_id=generic_0012|fullname=jemand im Allgemeinen|gender=u|specialcase_entity=generic)))
+43049	Jahr	0		
+43050	und	0		
+43051	Tag	0		
+43052	dort	0		
+43053	aufhält	0		
+43054	,	0		
+43055	so	0		
+43056	wird	0		
+43057	er	0	(mention_id=6576|references=(entity=(entity_id=generic_0213|fullname=Wildfang|gender=u|specialcase_entity=generic)))	(mention_id=6632|references=(entity=(entity_id=generic_0013|fullname=jemand im Allgemeinen|gender=u|specialcase_entity=generic)))
+43058	hörig	0		
+43059	und	0		
+43060	leibeigen	0		
+43061	,	0		
+43062	und	0		
+43063	das	0		
+43064	nennt	0		
+43065	man	0		
+43066	einen	0		
+43067	Wildfang	0	(mention_id=6577|references=(entity=(entity_id=generic_0214|fullname=Wildfang|gender=u|specialcase_entity=generic)))	
+43068	.	0		
+43069	«	0		
+43070	Jakobine	0	(mention_id=6578|references=(entity=(entity_id=entity_0022|fullname=Jakobine Steinecker|gender=f)))	(mention_id=6633|references=(entity=(entity_id=9|fullname=Jakobine|gender=f)))
+43071	sah	0		
+43072	den	0		
+43073	Alten	0	(mention_id=6579|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6634|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+43074	noch	0		
+43075	immer	0		
+43076	verständnislos	0		
+43077	an	0		
+43078	.	0		
+43079	Dieser	0	(mention_id=6580|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6635|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+43080	fuhr	0		
+43081	fort	0		
+43082	:	0		
+43083	»	0		
+43084	Das	0		
+43085	ist	0		
+43086	nämlich	0		
+43087	ein	0		
+43088	uraltes	0		
+43089	Königsrecht	0		
+43090	,	0		
+43091	ein	0		
+43092	sogenanntes	0		
+43093	Regale	0		
+43094	,	0		
+43095	stammt	0		
+43096	schon	0		
+43097	von	0		
+43098	Karl	0	(mention_id=6581|references=(entity=(entity_id=entity_0197|fullname=Karl der Große|gender=m)))	(mention_id=6636|references=(entity=(entity_id=13|fullname=Karl|gender=m)))
+43099	dem	0	(mention_id=6581|references=(entity=(entity_id=entity_0197|fullname=Karl der Große|gender=m)))	
+43100	Großen	0	(mention_id=6581|references=(entity=(entity_id=entity_0197|fullname=Karl der Große|gender=m)))	(mention_id=6637|references=(entity=(entity_id=13|fullname=Karl|gender=m)))
+43101	her	0		
+43102	oder	0		
+43103	von	0		
+43104	Kaiser	0	(mention_id=6582|references=(entity=(entity_id=entity_0198|fullname=Kaiser Rotbart|gender=m)))	(mention_id=6638|references=(entity=(entity_id=12|fullname=Kaiser Rotbart|gender=m)))
+43105	Rotbart	0	(mention_id=6582|references=(entity=(entity_id=entity_0198|fullname=Kaiser Rotbart|gender=m)))	(mention_id=6638|references=(entity=(entity_id=12|fullname=Kaiser Rotbart|gender=m)))
+43106	oder	0		
+43107	sonst	0		
+43108	so	0		
+43109	einem	0		
+43110	,	0		
+43111	hat	0		
+43112	lange	0		
+43113	Jahre	0		
+43114	geruht	0		
+43115	,	0		
+43116	ist	0		
+43117	aber	0		
+43118	jetzt	0		
+43119	von	0		
+43120	unserm	0	(mention_id=6583|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)),(entity=(entity_id=entity_0022|fullname=Jakobine Steinecker|gender=f)))	(mention_id=6639|references=(entity=(entity_id=15|fullname=Kurfürsten|gender=m)))
+43121	gnädigen	0		
+43122	Kurfürsten	0		(mention_id=6640|references=(entity=(entity_id=15|fullname=Kurfürsten|gender=m)))
+43123	und	0		
+43124	Pfalzgrafen	0		(mention_id=6641|references=(entity=(entity_id=23|fullname=Pfalzgrafen Karl Ludwig|gender=m)))
+43125	Karl	0		(mention_id=6641|references=(entity=(entity_id=23|fullname=Pfalzgrafen Karl Ludwig|gender=m)))
+43126	Ludwig	0		(mention_id=6641|references=(entity=(entity_id=23|fullname=Pfalzgrafen Karl Ludwig|gender=m)))
+43127	wieder	0		
+43128	eingeführt	0		
+43129	und	0		
+43130	anbefohlen	0		
+43131	worden	0		
+43132	.	0		
+43133	Begreifst	0		
+43134	du	0	(mention_id=6584|references=(entity=(entity_id=entity_0022|fullname=Jakobine Steinecker|gender=f)))	(mention_id=6642|references=(entity=(entity_id=9|fullname=Jakobine|gender=f)))
+43135	nun	0		
+43136	?	0		
+43137	–	0		
+43138	noch	0		
+43139	nicht	0		
+43140	?	0		
+43141	Dann	0		
+43142	also	0		
+43143	kurz	0		
+43144	mit	0		
+43145	einem	0		
+43146	Worte	0		
+43147	:	0		
+43148	Bürgermeisters	0	(mention_id=6585|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))	
+43149	Trudi	0	(mention_id=6586|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=6643|references=(entity=(entity_id=27|fullname=Trudi|gender=f)))
+43150	muß	0		
+43151	hörig	0		
+43152	und	0		
+43153	leibeigen	0		
+43154	werden	0		
+43155	.	0		
+43156	«	0		
+43157	»	0		
+43158	Wem	0		
+43159	leibeigen	0		
+43160	?	0		
+43161	«	0		
+43162	fragte	0		
+43163	Jakobine	0	(mention_id=6587|references=(entity=(entity_id=entity_0022|fullname=Jakobine Steinecker|gender=f)))	(mention_id=6644|references=(entity=(entity_id=9|fullname=Jakobine|gender=f)))
+43164	,	0		
+43165	der	0	(mention_id=6588|references=(entity=(entity_id=entity_0022|fullname=Jakobine Steinecker|gender=f)))	(mention_id=6645|references=(entity=(entity_id=9|fullname=Jakobine|gender=f)))
+43166	plötzlich	0		
+43167	ein	0		
+43168	Licht	0		
+43169	aufzugehen	0		
+43170	schien	0		
+43171	.	0		
+43172	»	0		
+43173	Dem	0		
+43174	Pfalzgrafen	0	(mention_id=6589|references=(entity=(entity_id=entity_0047|fullname=Kurfürst Karl Ludwig|gender=m)))	(mention_id=6646|references=(entity=(entity_id=23|fullname=Pfalzgrafen Karl Ludwig|gender=m)))
+43175	oder	0		
+43176	vielmehr	0		
+43177	unserm	0	(mention_id=6590|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)),(entity=(entity_id=entity_0022|fullname=Jakobine Steinecker|gender=f)))	(mention_id=6647|references=(entity=(entity_id=22|fullname=Obervogt|gender=m)))
+43178	Obervogt	0	(mention_id=6591|references=(entity=(entity_id=entity_0018|fullname=Reichsfreiherr Dietrich von Remchingen|gender=m)))	(mention_id=6648|references=(entity=(entity_id=22|fullname=Obervogt|gender=m)))
+43179	,	0		
+43180	dem	0		
+43181	Reichsfreiherrn	0	(mention_id=6592|references=(entity=(entity_id=entity_0018|fullname=Reichsfreiherr Dietrich von Remchingen|gender=m)))	(mention_id=6649|references=(entity=(entity_id=24|fullname=Reichsfreiherrn|gender=m)))
+43182	auf	0		
+43183	der	0		
+43184	Wachtenburg	0		
+43185	.	0		
+43186	«	0		
+43187	»	0		
+43188	Auf	0		
+43189	der	0		
+43190	Wachtenburg	0		
+43191	?	0		
+43192	da	0		
+43193	muß	0		
+43194	sie	0	(mention_id=6593|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=6650|references=(entity=(entity_id=27|fullname=Trudi|gender=f)))
+43195	leibeigen	0		
+43196	werden	0		
+43197	?	0		
+43198	muß	0		
+43199	da	0		
+43200	hausen	0		
+43201	und	0		
+43202	dienen	0		
+43203	wie	0		
+43204	die	0		
+43205	geringste	0		
+43206	,	0		
+43207	niedrigste	0		
+43208	Magd	0	(mention_id=6594|references=(entity=(entity_id=generic_0270|fullname=Magd|gender=u|specialcase_entity=generic)),(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=6651|references=(entity=(entity_id=generic_0016|fullname=Magd im Allgemeinen|gender=u|specialcase_entity=generic)))
+43209	?	0		
+43210	«	0		
+43211	fragte	0		
+43212	Jakobine	0	(mention_id=6595|references=(entity=(entity_id=entity_0022|fullname=Jakobine Steinecker|gender=f)))	(mention_id=6652|references=(entity=(entity_id=9|fullname=Jakobine|gender=f)))
+43213	weiter	0		
+43214	mit	0		
+43215	flackernden	0		
+43216	Augen	0		
+43217	.	0		
+43218	»	0		
+43219	Muß	0		
+43220	sie	0	(mention_id=6596|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=6653|references=(entity=(entity_id=27|fullname=Trudi|gender=f)))
+43221	,	0		
+43222	gewiß	0		
+43223	,	0		
+43224	mein	0	(mention_id=6597|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6654|references=(entity=(entity_id=9|fullname=Jakobine|gender=f)))
+43225	Schmeichelkätzchen	0	(mention_id=6598|references=(entity=(entity_id=entity_0022|fullname=Jakobine Steinecker|gender=f)))	(mention_id=6655|references=(entity=(entity_id=9|fullname=Jakobine|gender=f)))
+43226	!	0		
+43227	«	0		
+43228	sprach	0		
+43229	der	0		
+43230	Alte	0	(mention_id=6599|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6656|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+43231	.	0		
+43232	»	0		
+43233	Und	0		
+43234	nun	0		
+43235	,	0		
+43236	–	0		
+43237	glaubst	0		
+43238	du	0	(mention_id=6600|references=(entity=(entity_id=entity_0022|fullname=Jakobine Steinecker|gender=f)))	(mention_id=6657|references=(entity=(entity_id=9|fullname=Jakobine|gender=f)))
+43239	,	0		
+43240	daß	0		
+43241	Franz	0	(mention_id=6601|references=(entity=(entity_id=entity_0009|fullname=Franz Gersbacher|gender=m)))	(mention_id=6658|references=(entity=(entity_id=4|fullname=Franz Gersbacher|gender=m)))
+43242	Gersbacher	0	(mention_id=6601|references=(entity=(entity_id=entity_0009|fullname=Franz Gersbacher|gender=m)))	(mention_id=6658|references=(entity=(entity_id=4|fullname=Franz Gersbacher|gender=m)))
+43243	eine	0		
+43244	Leibeigene	0		(mention_id=6659|references=(entity=(entity_id=27|fullname=Trudi|gender=f)))
+43245	heiraten	0		
+43246	wird	0		
+43247	?	0		
+43248	«	0		
+43249	»	0		
+43250	Hammichel	0	(mention_id=6602|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6660|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+43251	!	0		
+43252	Hammichel	0	(mention_id=6603|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6661|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+43253	!	0		
+43254	«	0		
+43255	jauchzte	0		
+43256	das	0		
+43257	Mädchen	0	(mention_id=6604|references=(entity=(entity_id=entity_0022|fullname=Jakobine Steinecker|gender=f)))	(mention_id=6662|references=(entity=(entity_id=9|fullname=Jakobine|gender=f)))
+43258	in	0		
+43259	unsinniger	0		
+43260	Freude	0		
+43261	.	0		
+43262	»	0		
+43263	Das	0		
+43264	ist	0		
+43265	–	0		
+43266	das	0		
+43267	ist	0		
+43268	eine	0		
+43269	Botschaft	0		
+43270	,	0		
+43271	–	0		
+43272	ich	0	(mention_id=6605|references=(entity=(entity_id=entity_0022|fullname=Jakobine Steinecker|gender=f)))	(mention_id=6663|references=(entity=(entity_id=9|fullname=Jakobine|gender=f)))
+43273	kann's	0		
+43274	noch	0		
+43275	gar	0		
+43276	nicht	0		
+43277	fassen	0		
+43278	.	0		
+43279	Ist	0		
+43280	das	0		
+43281	auch	0		
+43282	wirklich	0		
+43283	wahr	0		
+43284	?	0		
+43285	kein	0		
+43286	Trug	0		
+43287	und	0		
+43288	Irrtum	0		
+43289	dabei	0		
+43290	?	0		
+43291	«	0		
+43292	»	0		
+43293	Kein	0		
+43294	Trug	0		
+43295	und	0		
+43296	Irrtum	0		
+43297	,	0		
+43298	alles	0		
+43299	so	0		
+43300	wahr	0		
+43301	wie	0		
+43302	daß	0		
+43303	du	0	(mention_id=6606|references=(entity=(entity_id=entity_0022|fullname=Jakobine Steinecker|gender=f)))	(mention_id=6664|references=(entity=(entity_id=9|fullname=Jakobine|gender=f)))
+43304	mir	0	(mention_id=6607|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6665|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+43305	für	0		
+43306	diese	0		
+43307	Botschaft	0		
+43308	nicht	0		
+43309	mehr	0		
+43310	als	0		
+43311	siebzehn	0		
+43312	Gulden	0		
+43313	gegeben	0		
+43314	hast	0		
+43315	,	0		
+43316	«	0		
+43317	sagte	0		
+43318	Hammichel	0	(mention_id=6608|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6666|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+43319	vorwurfsvoll	0		
+43320	.	0		
+43321	»	0		
+43322	Weiß	0		
+43323	es	0		
+43324	Trudi	0	(mention_id=6609|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=6667|references=(entity=(entity_id=27|fullname=Trudi|gender=f)))
+43325	?	0		
+43326	«	0		
+43327	fragte	0		
+43328	Jakobine	0	(mention_id=6610|references=(entity=(entity_id=entity_0022|fullname=Jakobine Steinecker|gender=f)))	(mention_id=6668|references=(entity=(entity_id=9|fullname=Jakobine|gender=f)))
+43329	aufs	0		
+43330	neue	0		
+43331	.	0		
+43332	»	0		
+43333	Schwerlich	0		
+43334	,	0		
+43335	«	0		
+43336	erwiderte	0		
+43337	Hammichel	0	(mention_id=6611|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6669|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+43338	,	0		
+43339	»	0		
+43340	es	0		
+43341	ist	0		
+43342	noch	0		
+43343	Geheimnis	0		
+43344	.	0		
+43345	Vielleicht	0		
+43346	weiß	0		
+43347	auch	0		
+43348	der	0		
+43349	Freiherr	0	(mention_id=6612|references=(entity=(entity_id=entity_0018|fullname=Reichsfreiherr Dietrich von Remchingen|gender=m)))	(mention_id=6670|references=(entity=(entity_id=24|fullname=Reichsfreiherrn|gender=m)))
+43350	noch	0		
+43351	nicht	0		
+43352	genug	0		
+43353	,	0		
+43354	um	0		
+43355	gegen	0		
+43356	sie	0	(mention_id=6613|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=6671|references=(entity=(entity_id=27|fullname=Trudi|gender=f)))
+43357	einschreiten	0		
+43358	zu	0		
+43359	können	0		
+43360	.	0		
+43361	«	0		
+43362	»	0		
+43363	Weiß	0		
+43364	es	0		
+43365	Junker	0	(mention_id=6614|references=(entity=(entity_id=entity_0029|fullname=Junker Ulrich von Remchingen|gender=m)))	(mention_id=6672|references=(entity=(entity_id=11|fullname=Junker Ulrich|gender=m)))
+43366	Ulrich	0	(mention_id=6614|references=(entity=(entity_id=entity_0029|fullname=Junker Ulrich von Remchingen|gender=m)))	(mention_id=6672|references=(entity=(entity_id=11|fullname=Junker Ulrich|gender=m)))
+43367	?	0		
+43368	«	0		
+43369	flog	0		
+43370	jetzt	0		
+43371	von	0		
+43372	Jakobinens	0	(mention_id=6615|references=(entity=(entity_id=entity_0022|fullname=Jakobine Steinecker|gender=f)))	(mention_id=6673|references=(entity=(entity_id=9|fullname=Jakobine|gender=f)))
+43373	Lippen	0		
+43374	die	0		
+43375	Frage	0		
+43376	wie	0		
+43377	ein	0		
+43378	schwirrender	0		
+43379	Pfeil	0		
+43380	.	0		
+43381	Hammichel	0	(mention_id=6616|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6674|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+43382	zuckte	0		
+43383	die	0		
+43384	schiefen	0		
+43385	Schultern	0		
+43386	.	0		
+43387	»	0		
+43388	Mir	0	(mention_id=6617|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6675|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+43389	scheint	0		
+43390	die	0		
+43391	Sache	0		
+43392	so	0		
+43393	zu	0		
+43394	liegen	0		
+43395	:	0		
+43396	der	0		
+43397	Freiherr	0	(mention_id=6618|references=(entity=(entity_id=entity_0018|fullname=Reichsfreiherr Dietrich von Remchingen|gender=m)))	(mention_id=6676|references=(entity=(entity_id=24|fullname=Reichsfreiherrn|gender=m)))
+43398	weiß	0		
+43399	jedenfalls	0		
+43400	vom	0		
+43401	Wildfangrecht	0		
+43402	,	0		
+43403	aber	0		
+43404	nicht	0		
+43405	,	0		
+43406	daß	0		
+43407	Trudi	0	(mention_id=6619|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=6677|references=(entity=(entity_id=27|fullname=Trudi|gender=f)))
+43408	eine	0		
+43409	zugewanderte	0		
+43410	Fremde	0	(mention_id=6620|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=6678|references=(entity=(entity_id=27|fullname=Trudi|gender=f)))
+43411	ist	0		
+43412	.	0		
+43413	Dies	0		
+43414	weiß	0		
+43415	Junker	0	(mention_id=6621|references=(entity=(entity_id=entity_0029|fullname=Junker Ulrich von Remchingen|gender=m)))	(mention_id=6679|references=(entity=(entity_id=11|fullname=Junker Ulrich|gender=m)))
+43416	Ulrich	0	(mention_id=6621|references=(entity=(entity_id=entity_0029|fullname=Junker Ulrich von Remchingen|gender=m)))	(mention_id=6679|references=(entity=(entity_id=11|fullname=Junker Ulrich|gender=m)))
+43417	,	0		
+43418	aber	0		
+43419	vielleicht	0		
+43420	noch	0		
+43421	nichts	0		
+43422	vom	0		
+43423	Wildfangrecht	0		
+43424	.	0		
+43425	Wenn	0		
+43426	beide	0	(mention_id=6622|references=(entity=(entity_id=entity_0018|fullname=Reichsfreiherr Dietrich von Remchingen|gender=m)),(entity=(entity_id=entity_0029|fullname=Junker Ulrich von Remchingen|gender=m)))	(mention_id=6680|references=(entity=(entity_id=24|fullname=Reichsfreiherrn|gender=m)),(entity=(entity_id=11|fullname=Junker Ulrich|gender=m)))
+43427	beides	0		
+43428	wüßten	0		
+43429	,	0		
+43430	wäre	0		
+43431	das	0		
+43432	Schicksal	0		
+43433	der	0		
+43434	Würzburgerin	0	(mention_id=6623|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=6681|references=(entity=(entity_id=27|fullname=Trudi|gender=f)))
+43435	beschlossen	0		
+43436	und	0		
+43437	besiegelt	0		
+43438	.	0		
+43439	«	0		
+43440	»	0		
+43441	Sie	0	(mention_id=6624|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=6682|references=(entity=(entity_id=27|fullname=Trudi|gender=f)))
+43442	müssen's	0		
+43443	erfahren	0		
+43444	,	0		
+43445	«	0		
+43446	fiel	0		
+43447	Jakobine	0	(mention_id=6625|references=(entity=(entity_id=entity_0022|fullname=Jakobine Steinecker|gender=f)))	(mention_id=6683|references=(entity=(entity_id=9|fullname=Jakobine|gender=f)))
+43448	schnell	0		
+43449	ein	0		
+43450	.	0		
+43451	»	0		
+43452	Richtig	0		
+43453	!	0		
+43454	«	0		
+43455	sprach	0		
+43456	Hammichel	0	(mention_id=6626|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6684|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+43457	,	0		
+43458	»	0		
+43459	aber	0		
+43460	wie	0		
+43461	?	0		
+43462	ich	0	(mention_id=6627|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6685|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+43463	kann's	0		
+43464	ihnen	0	(mention_id=6628|references=(entity=(entity_id=entity_0018|fullname=Reichsfreiherr Dietrich von Remchingen|gender=m)),(entity=(entity_id=entity_0029|fullname=Junker Ulrich von Remchingen|gender=m)))	(mention_id=6686|references=(entity=(entity_id=24|fullname=Reichsfreiherrn|gender=m)),(entity=(entity_id=11|fullname=Junker Ulrich|gender=m)))
+43465	nicht	0		
+43466	stecken	0		
+43467	und	0		
+43468	du	0	(mention_id=6629|references=(entity=(entity_id=entity_0022|fullname=Jakobine Steinecker|gender=f)))	(mention_id=6687|references=(entity=(entity_id=9|fullname=Jakobine|gender=f)))
+43469	auch	0		
+43470	nicht	0		
+43471	,	0		
+43472	Jakobinchen	0	(mention_id=6630|references=(entity=(entity_id=entity_0022|fullname=Jakobine Steinecker|gender=f)))	(mention_id=6688|references=(entity=(entity_id=9|fullname=Jakobine|gender=f)))
+43473	.	0		
+43474	«	0		
+43475	»	0		
+43476	Warum	0		
+43477	nicht	0		
+43478	ich	0	(mention_id=6631|references=(entity=(entity_id=entity_0022|fullname=Jakobine Steinecker|gender=f)))	(mention_id=6689|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+43479	?	0		
+43480	«	0		
+43481	»	0		
+43482	Weil	0		
+43483	du	0	(mention_id=6632|references=(entity=(entity_id=entity_0022|fullname=Jakobine Steinecker|gender=f)))	(mention_id=6690|references=(entity=(entity_id=9|fullname=Jakobine|gender=f)))
+43484	,	0		
+43485	wenn	0		
+43486	du	0	(mention_id=6633|references=(entity=(entity_id=entity_0022|fullname=Jakobine Steinecker|gender=f)))	(mention_id=6691|references=(entity=(entity_id=9|fullname=Jakobine|gender=f)))
+43487	danach	0		
+43488	gefragt	0		
+43489	würdest	0		
+43490	,	0		
+43491	nicht	0		
+43492	sagen	0		
+43493	darfst	0		
+43494	,	0		
+43495	von	0		
+43496	wem	0	(mention_id=6634|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	
+43497	du's	0	(mention_id=6635|references=(entity=(entity_id=entity_0022|fullname=Jakobine Steinecker|gender=f)))	(mention_id=6692|references=(entity=(entity_id=9|fullname=Jakobine|gender=f)))
+43498	hast	0		
+43499	.	0		
+43500	Denn	0		
+43501	ich	0	(mention_id=6636|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6693|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+43502	will	0		
+43503	mit	0		
+43504	der	0		
+43505	Angelegenheit	0		
+43506	nichts	0		
+43507	zu	0		
+43508	tun	0		
+43509	haben	0		
+43510	,	0		
+43511	will	0		
+43512	mich	0	(mention_id=6637|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6694|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+43513	in	0		
+43514	keiner	0		
+43515	Weise	0		
+43516	,	0		
+43517	mit	0		
+43518	keinem	0		
+43519	Worte	0		
+43520	hineinmischen	0		
+43521	.	0		
+43522	Das	0		
+43523	merke	0		
+43524	wohl	0		
+43525	,	0		
+43526	Jakobinchen	0	(mention_id=6638|references=(entity=(entity_id=entity_0022|fullname=Jakobine Steinecker|gender=f)))	(mention_id=6695|references=(entity=(entity_id=9|fullname=Jakobine|gender=f)))
+43527	!	0		
+43528	mich	0	(mention_id=6639|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6696|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+43529	darfst	0		
+43530	du	0	(mention_id=6640|references=(entity=(entity_id=entity_0022|fullname=Jakobine Steinecker|gender=f)))	(mention_id=6697|references=(entity=(entity_id=9|fullname=Jakobine|gender=f)))
+43531	nicht	0		
+43532	verraten	0		
+43533	.	0		
+43534	«	0		
+43535	»	0		
+43536	Nein	0		
+43537	,	0		
+43538	nein	0		
+43539	,	0		
+43540	das	0		
+43541	will	0		
+43542	ich	0	(mention_id=6641|references=(entity=(entity_id=entity_0022|fullname=Jakobine Steinecker|gender=f)))	(mention_id=6698|references=(entity=(entity_id=9|fullname=Jakobine|gender=f)))
+43543	auch	0		
+43544	nicht	0		
+43545	,	0		
+43546	aber	0		
+43547	dem	0		
+43548	Junker	0	(mention_id=6642|references=(entity=(entity_id=entity_0029|fullname=Junker Ulrich von Remchingen|gender=m)))	(mention_id=6699|references=(entity=(entity_id=11|fullname=Junker Ulrich|gender=m)))
+43549	könnt'	0		
+43550	ich	0	(mention_id=6643|references=(entity=(entity_id=entity_0022|fullname=Jakobine Steinecker|gender=f)))	(mention_id=6700|references=(entity=(entity_id=9|fullname=Jakobine|gender=f)))
+43551	doch	0		
+43552	einen	0		
+43553	vertraulichen	0		
+43554	Wink	0		
+43555	geben	0		
+43556	,	0		
+43557	«	0		
+43558	meinte	0		
+43559	sie	0	(mention_id=6644|references=(entity=(entity_id=entity_0022|fullname=Jakobine Steinecker|gender=f)))	(mention_id=6701|references=(entity=(entity_id=9|fullname=Jakobine|gender=f)))
+43560	.	0		
+43561	»	0		
+43562	Hm	0		
+43563	!	0		
+43564	«	0		
+43565	machte	0		
+43566	Hammichel	0	(mention_id=6645|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6702|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+43567	bedenklich	0		
+43568	,	0		
+43569	»	0		
+43570	das	0		
+43571	wäre	0		
+43572	ja	0		
+43573	allerdings	0		
+43574	das	0		
+43575	Geschickteste	0		
+43576	,	0		
+43577	aber	0		
+43578	ich	0	(mention_id=6646|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6703|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+43579	rate	0		
+43580	dir	0	(mention_id=6647|references=(entity=(entity_id=entity_0022|fullname=Jakobine Steinecker|gender=f)))	(mention_id=6704|references=(entity=(entity_id=9|fullname=Jakobine|gender=f)))
+43581	davon	0		
+43582	ab	0		
+43583	,	0		
+43584	denn	0		
+43585	es	0		
+43586	wäre	0		
+43587	gefährlich	0		
+43588	für	0		
+43589	dich	0	(mention_id=6648|references=(entity=(entity_id=entity_0022|fullname=Jakobine Steinecker|gender=f)))	(mention_id=6705|references=(entity=(entity_id=9|fullname=Jakobine|gender=f)))
+43590	.	0		
+43591	Mit	0		
+43592	Junker	0	(mention_id=6649|references=(entity=(entity_id=entity_0029|fullname=Junker Ulrich von Remchingen|gender=m)))	(mention_id=6706|references=(entity=(entity_id=11|fullname=Junker Ulrich|gender=m)))
+43593	Ulrich	0	(mention_id=6649|references=(entity=(entity_id=entity_0029|fullname=Junker Ulrich von Remchingen|gender=m)))	(mention_id=6706|references=(entity=(entity_id=11|fullname=Junker Ulrich|gender=m)))
+43594	ein	0		
+43595	Stelldichein	0		
+43596	unter	0		
+43597	vier	0		
+43598	Augen	0		
+43599	mit	0		
+43600	vertraulichen	0		
+43601	Zuflüsterungen	0		
+43602	,	0		
+43603	–	0		
+43604	Jakobinchen	0	(mention_id=6650|references=(entity=(entity_id=entity_0022|fullname=Jakobine Steinecker|gender=f)))	(mention_id=6707|references=(entity=(entity_id=9|fullname=Jakobine|gender=f)))
+43605	,	0		
+43606	Jakobinchen	0	(mention_id=6651|references=(entity=(entity_id=entity_0022|fullname=Jakobine Steinecker|gender=f)))	(mention_id=6708|references=(entity=(entity_id=9|fullname=Jakobine|gender=f)))
+43607	,	0		
+43608	nimm	0		
+43609	dich	0	(mention_id=6652|references=(entity=(entity_id=entity_0022|fullname=Jakobine Steinecker|gender=f)))	(mention_id=6709|references=(entity=(entity_id=9|fullname=Jakobine|gender=f)))
+43610	in	0		
+43611	acht	0		
+43612	!	0		
+43613	Der	0	(mention_id=6653|references=(entity=(entity_id=entity_0029|fullname=Junker Ulrich von Remchingen|gender=m)))	(mention_id=6710|references=(entity=(entity_id=11|fullname=Junker Ulrich|gender=m)))
+43614	braucht	0		
+43615	nicht	0		
+43616	erst	0		
+43617	einen	0		
+43618	Liebestrank	0		
+43619	,	0		
+43620	um	0		
+43621	zärtlich	0		
+43622	zu	0		
+43623	werden	0		
+43624	.	0		
+43625	«	0		
+43626	»	0		
+43627	Ach	0		
+43628	,	0		
+43629	davor	0		
+43630	fürcht'	0		
+43631	ich	0	(mention_id=6654|references=(entity=(entity_id=entity_0022|fullname=Jakobine Steinecker|gender=f)))	(mention_id=6711|references=(entity=(entity_id=9|fullname=Jakobine|gender=f)))
+43632	mich	0	(mention_id=6655|references=(entity=(entity_id=entity_0022|fullname=Jakobine Steinecker|gender=f)))	(mention_id=6712|references=(entity=(entity_id=9|fullname=Jakobine|gender=f)))
+43633	nicht	0		
+43634	,	0		
+43635	«	0		
+43636	warf	0		
+43637	sie	0	(mention_id=6656|references=(entity=(entity_id=entity_0022|fullname=Jakobine Steinecker|gender=f)))	(mention_id=6713|references=(entity=(entity_id=9|fullname=Jakobine|gender=f)))
+43638	leichtfertig	0		
+43639	hin	0		
+43640	.	0		
+43641	»	0		
+43642	Wann	0		
+43643	ist	0		
+43644	es	0		
+43645	so	0		
+43646	weit	0		
+43647	,	0		
+43648	daß	0		
+43649	die	0		
+43650	Würzburgische	0	(mention_id=6657|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=6714|references=(entity=(entity_id=27|fullname=Trudi|gender=f)))
+43651	hörig	0		
+43652	werden	0		
+43653	muß	0		
+43654	?	0		
+43655	«	0		
+43656	»	0		
+43657	Am	0		
+43658	Kreuz-Erhöhungstag	0		
+43659	wird	0		
+43660	es	0		
+43661	ein	0		
+43662	Jahr	0		
+43663	,	0		
+43664	daß	0		
+43665	sie	0	(mention_id=6658|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=6715|references=(entity=(entity_id=27|fullname=Trudi|gender=f)))
+43666	hier	0		
+43667	ist	0		
+43668	,	0		
+43669	dann	0		
+43670	ist's	0		
+43671	mit	0		
+43672	ihrer	0	(mention_id=6659|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=6716|references=(entity=(entity_id=27|fullname=Trudi|gender=f)))
+43673	Freiheit	0		
+43674	Matthäi	0		
+43675	am	0		
+43676	letzten	0		
+43677	.	0		
+43678	«	0		
+43679	»	0		
+43680	Also	0		
+43681	ist	0		
+43682	keine	0		
+43683	Zeit	0		
+43684	zu	0		
+43685	verlieren	0		
+43686	,	0		
+43687	sonst	0		
+43688	macht	0		
+43689	sie	0	(mention_id=6660|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=6717|references=(entity=(entity_id=27|fullname=Trudi|gender=f)))
+43690	sich	0	(mention_id=6661|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=6718|references=(entity=(entity_id=27|fullname=Trudi|gender=f)))
+43691	noch	0		
+43692	vorher	0		
+43693	auf	0		
+43694	und	0		
+43695	davon	0		
+43696	,	0		
+43697	«	0		
+43698	sprach	0		
+43699	Jakobine	0	(mention_id=6662|references=(entity=(entity_id=entity_0022|fullname=Jakobine Steinecker|gender=f)))	(mention_id=6719|references=(entity=(entity_id=9|fullname=Jakobine|gender=f)))
+43700	fast	0		
+43701	ängstlich	0		
+43702	.	0		
+43703	»	0		
+43704	Und	0		
+43705	was	0		
+43706	dann	0		
+43707	?	0		
+43708	–	0		
+43709	dann	0		
+43710	wärst	0		
+43711	du	0	(mention_id=6663|references=(entity=(entity_id=entity_0022|fullname=Jakobine Steinecker|gender=f)))	(mention_id=6720|references=(entity=(entity_id=9|fullname=Jakobine|gender=f)))
+43712	die	0		
+43713	Nebenbuhlerin	0	(mention_id=6664|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=6721|references=(entity=(entity_id=27|fullname=Trudi|gender=f)))
+43714	ein	0		
+43715	für	0		
+43716	allemal	0		
+43717	los	0		
+43718	,	0		
+43719	du	0	(mention_id=6665|references=(entity=(entity_id=entity_0022|fullname=Jakobine Steinecker|gender=f)))	(mention_id=6722|references=(entity=(entity_id=9|fullname=Jakobine|gender=f)))
+43720	Glückskind	0	(mention_id=6666|references=(entity=(entity_id=entity_0022|fullname=Jakobine Steinecker|gender=f)))	(mention_id=6723|references=(entity=(entity_id=9|fullname=Jakobine|gender=f)))
+43721	!	0		
+43722	«	0		
+43723	lachte	0		
+43724	Hammichel	0	(mention_id=6667|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6724|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+43725	.	0		
+43726	»	0		
+43727	Franz	0	(mention_id=6668|references=(entity=(entity_id=entity_0009|fullname=Franz Gersbacher|gender=m)))	(mention_id=6725|references=(entity=(entity_id=4|fullname=Franz Gersbacher|gender=m)))
+43728	wird	0		
+43729	ihr	0	(mention_id=6669|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=6726|references=(entity=(entity_id=27|fullname=Trudi|gender=f)))
+43730	nicht	0		
+43731	nachlaufen	0		
+43732	und	0		
+43733	sie	0	(mention_id=6670|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=6727|references=(entity=(entity_id=27|fullname=Trudi|gender=f)))
+43734	zurückholen	0		
+43735	,	0		
+43736	und	0		
+43737	tät	0		
+43738	er's	0		(mention_id=6728|references=(entity=(entity_id=4|fullname=Franz Gersbacher|gender=m)))
+43739	,	0		
+43740	so	0		
+43741	würde	0		
+43742	sie	0	(mention_id=6671|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=6729|references=(entity=(entity_id=27|fullname=Trudi|gender=f)))
+43743	doch	0		
+43744	hier	0		
+43745	hörig	0		
+43746	werden	0		
+43747	müssen	0		
+43748	.	0		
+43749	Ihrer	0	(mention_id=6672|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=6730|references=(entity=(entity_id=27|fullname=Trudi|gender=f)))
+43750	ledig	0		
+43751	wirst	0		
+43752	du	0	(mention_id=6673|references=(entity=(entity_id=entity_0022|fullname=Jakobine Steinecker|gender=f)))	(mention_id=6731|references=(entity=(entity_id=9|fullname=Jakobine|gender=f)))
+43753	auf	0		
+43754	jeden	0		
+43755	Fall	0		
+43756	,	0		
+43757	ob	0		
+43758	sie	0	(mention_id=6674|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=6732|references=(entity=(entity_id=27|fullname=Trudi|gender=f)))
+43759	nun	0		
+43760	als	0		
+43761	Leibeigene	0	(mention_id=6675|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=6733|references=(entity=(entity_id=27|fullname=Trudi|gender=f)))
+43762	auf	0		
+43763	die	0		
+43764	Wachtenburg	0		
+43765	muß	0		
+43766	oder	0		
+43767	vorher	0		
+43768	die	0		
+43769	Flucht	0		
+43770	ergreift	0		
+43771	.	0		
+43772	«	0		
+43773	»	0		
+43774	Ja	0		
+43775	,	0		
+43776	du	0	(mention_id=6676|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6734|references=(entity=(entity_id=9|fullname=Jakobine|gender=f)))
+43777	hast	0		
+43778	recht	0		
+43779	,	0		
+43780	Hammichel	0	(mention_id=6677|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6735|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+43781	!	0		
+43782	ich	0	(mention_id=6678|references=(entity=(entity_id=entity_0022|fullname=Jakobine Steinecker|gender=f)))	(mention_id=6736|references=(entity=(entity_id=9|fullname=Jakobine|gender=f)))
+43783	werde	0		
+43784	sie	0	(mention_id=6679|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=6737|references=(entity=(entity_id=27|fullname=Trudi|gender=f)))
+43785	los	0		
+43786	,	0		
+43787	so	0		
+43788	oder	0		
+43789	so	0		
+43790	,	0		
+43791	sie	0	(mention_id=6680|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=6738|references=(entity=(entity_id=27|fullname=Trudi|gender=f)))
+43792	kann	0		
+43793	mir	0	(mention_id=6681|references=(entity=(entity_id=entity_0022|fullname=Jakobine Steinecker|gender=f)))	(mention_id=6739|references=(entity=(entity_id=9|fullname=Jakobine|gender=f)))
+43794	den	0		
+43795	Weg	0		
+43796	zu	0		
+43797	meiner	0	(mention_id=6682|references=(entity=(entity_id=entity_0022|fullname=Jakobine Steinecker|gender=f)))	(mention_id=6740|references=(entity=(entity_id=9|fullname=Jakobine|gender=f)))
+43798	Versöhnung	0		
+43799	mit	0		
+43800	Franz	0	(mention_id=6683|references=(entity=(entity_id=entity_0009|fullname=Franz Gersbacher|gender=m)))	(mention_id=6741|references=(entity=(entity_id=4|fullname=Franz Gersbacher|gender=m)))
+43801	nicht	0		
+43802	mehr	0		
+43803	versperren	0		
+43804	,	0		
+43805	«	0		
+43806	frohlockte	0		
+43807	Jakobine	0	(mention_id=6684|references=(entity=(entity_id=entity_0022|fullname=Jakobine Steinecker|gender=f)))	(mention_id=6742|references=(entity=(entity_id=9|fullname=Jakobine|gender=f)))
+43808	.	0		
+43809	»	0		
+43810	Siehst	0		
+43811	du	0	(mention_id=6685|references=(entity=(entity_id=entity_0022|fullname=Jakobine Steinecker|gender=f)))	(mention_id=6743|references=(entity=(entity_id=9|fullname=Jakobine|gender=f)))
+43812	,	0		
+43813	das	0		
+43814	ist's	0		
+43815	,	0		
+43816	was	0		
+43817	ich	0	(mention_id=6686|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6744|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+43818	dir	0	(mention_id=6687|references=(entity=(entity_id=entity_0022|fullname=Jakobine Steinecker|gender=f)))	(mention_id=6745|references=(entity=(entity_id=9|fullname=Jakobine|gender=f)))
+43819	zu	0		
+43820	wissen	0		
+43821	geben	0		
+43822	wollte	0		
+43823	,	0		
+43824	wozu	0		
+43825	ich	0	(mention_id=6688|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6746|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+43826	dich	0	(mention_id=6689|references=(entity=(entity_id=entity_0022|fullname=Jakobine Steinecker|gender=f)))	(mention_id=6747|references=(entity=(entity_id=9|fullname=Jakobine|gender=f)))
+43827	durch	0		
+43828	Kaschper	0	(mention_id=6690|references=(entity=(entity_id=entity_0006|fullname=Kaspar|gender=m)))	
+43829	hier	0		
+43830	an	0		
+43831	den	0		
+43832	Zaun	0		
+43833	bestellen	0		
+43834	ließ	0		
+43835	,	0		
+43836	«	0		
+43837	sprach	0		
+43838	Hammichel	0	(mention_id=6691|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6748|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+43839	.	0		
+43840	»	0		
+43841	Der	0		
+43842	Junge	0	(mention_id=6692|references=(entity=(entity_id=entity_0006|fullname=Kaspar|gender=m)))	(mention_id=6749|references=(entity=(entity_id=14|fullname=Kaspar|gender=m)))
+43843	hat	0		
+43844	das	0		
+43845	sehr	0		
+43846	pfiffig	0		
+43847	angefangen	0		
+43848	,	0		
+43849	«	0		
+43850	sagte	0		
+43851	Jakobine	0	(mention_id=6693|references=(entity=(entity_id=entity_0022|fullname=Jakobine Steinecker|gender=f)))	(mention_id=6750|references=(entity=(entity_id=9|fullname=Jakobine|gender=f)))
+43852	,	0		
+43853	»	0		
+43854	ich	0	(mention_id=6694|references=(entity=(entity_id=entity_0022|fullname=Jakobine Steinecker|gender=f)))	(mention_id=6751|references=(entity=(entity_id=9|fullname=Jakobine|gender=f)))
+43855	werde	0		
+43856	ihm	0	(mention_id=6695|references=(entity=(entity_id=entity_0006|fullname=Kaspar|gender=m)))	(mention_id=6752|references=(entity=(entity_id=14|fullname=Kaspar|gender=m)))
+43857	nächstens	0		
+43858	einmal	0		
+43859	was	0		
+43860	dafür	0		
+43861	zugute	0		
+43862	tun	0		
+43863	.	0		
+43864	«	0		
+43865	»	0		
+43866	Dem	0		
+43867	Jungen	0	(mention_id=6696|references=(entity=(entity_id=entity_0006|fullname=Kaspar|gender=m)))	(mention_id=6753|references=(entity=(entity_id=14|fullname=Kaspar|gender=m)))
+43868	?	0		
+43869	das	0		
+43870	hast	0		
+43871	du	0	(mention_id=6697|references=(entity=(entity_id=entity_0022|fullname=Jakobine Steinecker|gender=f)))	(mention_id=6754|references=(entity=(entity_id=9|fullname=Jakobine|gender=f)))
+43872	gar	0		
+43873	nicht	0		
+43874	nötig	0		
+43875	,	0		
+43876	«	0		
+43877	winkte	0		
+43878	Hammichel	0	(mention_id=6698|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6755|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+43879	ab	0		
+43880	.	0		
+43881	»	0		
+43882	Aber	0		
+43883	meine	0	(mention_id=6699|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6756|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+43884	sieben	0		
+43885	Gulden	0		
+43886	vergiß	0		
+43887	nicht	0		
+43888	,	0		
+43889	die	0		
+43890	ich	0	(mention_id=6700|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6757|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+43891	noch	0		
+43892	von	0		
+43893	dir	0	(mention_id=6701|references=(entity=(entity_id=entity_0022|fullname=Jakobine Steinecker|gender=f)))	(mention_id=6758|references=(entity=(entity_id=9|fullname=Jakobine|gender=f)))
+43894	kriege	0		
+43895	!	0		
+43896	«	0		
+43897	»	0		
+43898	Sieben	0		
+43899	?	0		
+43900	woher	0		
+43901	denn	0		
+43902	sieben	0		
+43903	?	0		
+43904	«	0		
+43905	fragte	0		
+43906	sie	0	(mention_id=6702|references=(entity=(entity_id=entity_0022|fullname=Jakobine Steinecker|gender=f)))	(mention_id=6759|references=(entity=(entity_id=9|fullname=Jakobine|gender=f)))
+43907	im	0		
+43908	Abgehen	0		
+43909	,	0		
+43910	schon	0		
+43911	einige	0		
+43912	Schritte	0		
+43913	vom	0		
+43914	Zaun	0		
+43915	entfernt	0		
+43916	.	0		
+43917	»	0		
+43918	O	0		
+43919	es	0		
+43920	dürfen	0		
+43921	auch	0		
+43922	zehn	0		
+43923	sein	0		
+43924	,	0		
+43925	Jakobinchen	0	(mention_id=6703|references=(entity=(entity_id=entity_0022|fullname=Jakobine Steinecker|gender=f)))	(mention_id=6760|references=(entity=(entity_id=9|fullname=Jakobine|gender=f)))
+43926	!	0		
+43927	«	0		
+43928	rief	0		
+43929	ihr	0	(mention_id=6704|references=(entity=(entity_id=entity_0022|fullname=Jakobine Steinecker|gender=f)))	(mention_id=6761|references=(entity=(entity_id=9|fullname=Jakobine|gender=f)))
+43930	der	0		
+43931	alte	0		
+43932	Spitzbube	0	(mention_id=6705|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6762|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+43933	nach	0		
+43934	.	0		
+43935	–	0		
+43936	»	0		
+43937	Nun	0		
+43938	geht	0		
+43939	der	0		
+43940	Tanz	0		
+43941	los	0		
+43942	,	0		
+43943	«	0		
+43944	kicherte	0		
+43945	er	0	(mention_id=6706|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6763|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+43946	auf	0		
+43947	dem	0		
+43948	Heimwege	0		
+43949	.	0		
+43950	»	0		
+43951	Die	0		
+43952	Jakobine	0	(mention_id=6707|references=(entity=(entity_id=entity_0022|fullname=Jakobine Steinecker|gender=f)))	(mention_id=6764|references=(entity=(entity_id=9|fullname=Jakobine|gender=f)))
+43953	kann	0		
+43954	nicht	0		
+43955	lange	0		
+43956	schweigen	0		
+43957	,	0		
+43958	und	0		
+43959	das	0		
+43960	soll	0		
+43961	sie	0	(mention_id=6708|references=(entity=(entity_id=entity_0022|fullname=Jakobine Steinecker|gender=f)))	(mention_id=6765|references=(entity=(entity_id=9|fullname=Jakobine|gender=f)))
+43962	auch	0		
+43963	nicht	0		
+43964	;	0		
+43965	ich	0	(mention_id=6709|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6766|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+43966	hör'	0		
+43967	es	0		
+43968	und	0		
+43969	seh'	0		
+43970	es	0		
+43971	,	0		
+43972	wie	0		
+43973	sie	0	(mention_id=6710|references=(entity=(entity_id=entity_0022|fullname=Jakobine Steinecker|gender=f)))	(mention_id=6767|references=(entity=(entity_id=9|fullname=Jakobine|gender=f)))
+43974	dem	0		
+43975	Junker	0	(mention_id=6711|references=(entity=(entity_id=entity_0029|fullname=Junker Ulrich von Remchingen|gender=m)))	(mention_id=6768|references=(entity=(entity_id=11|fullname=Junker Ulrich|gender=m)))
+43976	die	0		
+43977	Neuigkeit	0		
+43978	im	0		
+43979	Dunkeln	0		
+43980	beibringt	0		
+43981	;	0		
+43982	na	0		
+43983	,	0		
+43984	wohl	0		
+43985	bekomm's	0		
+43986	!	0		
+43987	Jung	0	(mention_id=6712|references=(entity=(entity_id=entity_0029|fullname=Junker Ulrich von Remchingen|gender=m)))	(mention_id=6769|references=(entity=(entity_id=11|fullname=Junker Ulrich|gender=m)))
+43988	Ulrich	0	(mention_id=6712|references=(entity=(entity_id=entity_0029|fullname=Junker Ulrich von Remchingen|gender=m)))	(mention_id=6769|references=(entity=(entity_id=11|fullname=Junker Ulrich|gender=m)))
+43989	spitzt	0		
+43990	sich	0	(mention_id=6713|references=(entity=(entity_id=entity_0029|fullname=Junker Ulrich von Remchingen|gender=m)))	(mention_id=6770|references=(entity=(entity_id=11|fullname=Junker Ulrich|gender=m)))
+43991	dann	0		
+43992	nicht	0		
+43993	schlecht	0		
+43994	auf	0		
+43995	das	0		
+43996	hübsche	0		
+43997	,	0		
+43998	appetitliche	0		
+43999	Schätzchen	0	(mention_id=6714|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=6771|references=(entity=(entity_id=9|fullname=Jakobine|gender=f)))
+44000	,	0		
+44001	als	0		
+44002	hätt'	0		
+44003	er's	0		(mention_id=6772|references=(entity=(entity_id=11|fullname=Junker Ulrich|gender=m)))
+44004	schon	0		
+44005	in	0		
+44006	den	0		
+44007	Armen	0		
+44008	oben	0		
+44009	auf	0		
+44010	der	0		
+44011	Burg	0		
+44012	.	0		
+44013	Der	0		
+44014	Bürgermeister	0	(mention_id=6715|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))	(mention_id=6773|references=(entity=(entity_id=1|fullname=Christoph Armbruster|gender=m)))
+44015	aber	0		
+44016	ist	0		
+44017	als	0		
+44018	Hüter	0	(mention_id=6716|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))	(mention_id=6774|references=(entity=(entity_id=1|fullname=Christoph Armbruster|gender=m)))
+44019	und	0		
+44020	Hehler	0	(mention_id=6717|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))	(mention_id=6775|references=(entity=(entity_id=1|fullname=Christoph Armbruster|gender=m)))
+44021	eines	0		
+44022	Wildfangs	0	(mention_id=6718|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=6776|references=(entity=(entity_id=generic_0009|fullname=Wildfang im Allgemeinen|gender=u|specialcase_entity=generic)))
+44023	ein	0		
+44024	geschlagener	0		
+44025	Mann	0	(mention_id=6719|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))	(mention_id=6777|references=(entity=(entity_id=1|fullname=Christoph Armbruster|gender=m)))
+44026	und	0		
+44027	muß	0		
+44028	Amt	0		
+44029	und	0		
+44030	Würden	0		
+44031	niederlegen	0		
+44032	.	0		
+44033	Das	0		
+44034	wird	0		
+44035	einen	0		
+44036	Spektakel	0		
+44037	geben	0		
+44038	,	0		
+44039	wie	0		
+44040	ihn	0		
+44041	die	0		
+44042	lieben	0		
+44043	Wachenheimer	0	(mention_id=6720|references=(entity=(entity_id=entity_0019|fullname=Wachenheimer|gender=mf|members=entity_0007,entity_0013,entity_0014,entity_0026|all_members_given=False|specialcase_entity=group)))	(mention_id=6778|references=(entity=(entity_id=generic_0017|fullname=Wachenheimer im Allgemeinen|gender=u|specialcase_entity=generic)))
+44044	seit	0		
+44045	Menschengedenken	0		
+44046	nicht	0		
+44047	erlebt	0		
+44048	haben	0		
+44049	,	0		
+44050	«	0		
+44051	schloß	0		
+44052	er	0	(mention_id=6721|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6779|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+44053	sein	0	(mention_id=6722|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6780|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+44054	Selbstgespräch	0		
+44055	und	0		
+44056	ließ	0		
+44057	spielend	0		
+44058	seine	0	(mention_id=6723|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	(mention_id=6781|references=(entity=(entity_id=6|fullname=Hammichel|gender=m)))
+44059	siebzehn	0		
+44060	Silberlinge	0		
+44061	so	0		
+44062	lustig	0		
+44063	in	0		
+44064	der	0		
+44065	Tasche	0		
+44066	klimpern	0		
+44067	,	0		
+44068	daß	0		
+44069	ihm	0	(mention_id=6724|references=(entity=(entity_id=entity_0015|fullname=Hammichel von Gimmeldingen|gender=m)))	
+44070	das	0		
+44071	Herz	0		
+44072	im	0		
+44073	Leibe	0		
+44074	dabei	0		
+44075	lachte	0		
+44076	.	0		

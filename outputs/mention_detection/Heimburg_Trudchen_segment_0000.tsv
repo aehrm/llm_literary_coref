@@ -1,0 +1,5009 @@
+i	token	mention	is_section_start	gold
+0	1.		1	
+1	»		0	
+2	Wahrhaftig		0	(mention_id=1|references=(entity=(entity_id=entity_0002|fullname=Richard Weishaupt|gender=m)))
+3	,		0	
+4	Franz	1	0	(mention_id=2|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+5	,		0	
+6	an		0	
+7	deiner	2	0	(mention_id=3|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+8	Stelle		0	
+9	wüßte		0	
+10	ich	3	0	(mention_id=4|references=(entity=(entity_id=entity_0002|fullname=Richard Weishaupt|gender=m)))
+11	nicht		0	
+12	,		0	
+13	ob		0	
+14	ich	4	0	(mention_id=5|references=(entity=(entity_id=entity_0002|fullname=Richard Weishaupt|gender=m)))
+15	lachen		0	
+16	oder		0	
+17	weinen		0	
+18	sollte		0	
+19	!		0	
+20	Eine		0	
+21	Erbschaft		0	
+22	ist		0	
+23	mir	5	0	(mention_id=6|references=(entity=(entity_id=entity_0002|fullname=Richard Weishaupt|gender=m)))
+24	immer		0	
+25	als		0	
+26	das		0	
+27	Ziel		0	
+28	meiner	6	0	(mention_id=7|references=(entity=(entity_id=entity_0002|fullname=Richard Weishaupt|gender=m)))
+29	Wünsche		0	
+30	erschienen		0	
+31	,		0	
+32	aber		0	
+33	wie		0	
+34	mit		0	
+35	jedem		0	
+36	Dinge		0	
+37	im		0	
+38	menschlichen		0	
+39	Leben		0	
+40	–		0	
+41	alles		0	
+42	mit		0	
+43	Unterschied		0	
+44	.		0	
+45	Franz	7	0	(mention_id=8|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+46	,		0	
+47	wirklich		0	
+48	,		0	
+49	du	8	0	(mention_id=9|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+50	tust		0	
+51	mir	9	0	(mention_id=10|references=(entity=(entity_id=entity_0002|fullname=Richard Weishaupt|gender=m)))
+52	leid		0	
+53	!		0	
+54	Da		0	
+55	hast		0	
+56	du	10	0	(mention_id=11|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+57	nun		0	
+58	etwas		0	
+59	Ererbtes		0	
+60	am		0	
+61	Halse		0	
+62	,		0	
+63	an		0	
+64	das		0	
+65	du	11	0	(mention_id=12|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+66	nie		0	
+67	gedacht		0	
+68	hast		0	
+69	.		0	
+70	Ein		0	
+71	sogenanntes		0	
+72	Gut		0	
+73	,		0	
+74	ein		0	
+75	paar		0	
+76	hundert		0	
+77	Morgen		0	
+78	Äckerchen		0	
+79	und		0	
+80	Wiesen		0	
+81	,		0	
+82	etwas		0	
+83	Wald		0	
+84	,		0	
+85	einen		0	
+86	verwilderten		0	
+87	Garten		0	
+88	,		0	
+89	ein		0	
+90	vernachlässigtes		0	
+91	Wohnhaus		0	
+92	,		0	
+93	als		0	
+94	Inventar		0	
+95	vier		0	
+96	gallige		0	
+97	,		0	
+98	spatlahme		0	
+99	Andalusier	12	0	
+100	,		0	
+101	sechs		0	
+102	spindeldürre		0	
+103	Kühe		0	
+104	und		0	
+105	eine		0	
+106	Tante	13	0	(mention_id=13|references=(entity=(entity_id=entity_0028|fullname=Fräulein Rosalie|gender=f)))
+107	als		0	
+108	Hauptsache		0	
+109	,		0	
+110	die	14	0	(mention_id=14|references=(entity=(entity_id=entity_0028|fullname=Fräulein Rosalie|gender=f)))
+111	das		0	
+112	Gallige		0	
+113	und		0	
+114	Spindeldürre		0	
+115	in		0	
+116	ihrer	15	0	(mention_id=15|references=(entity=(entity_id=entity_0028|fullname=Fräulein Rosalie|gender=f)))
+117	angenehmen		0	
+118	Persönlichkeit		0	
+119	zu		0	
+120	vereinigen		0	
+121	scheint		0	
+122	.		0	
+123	–		0	
+124	Menschenkind	16	0	(mention_id=16|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+125	,		0	
+126	so		0	
+127	ringe		0	
+128	doch		0	
+129	wenigstens		0	
+130	die		0	
+131	Hände		0	
+132	oder		0	
+133	schimpfe		0	
+134	,		0	
+135	oder		0	
+136	tue		0	
+137	irgend		0	
+138	etwas		0	
+139	dergleichen		0	
+140	,		0	
+141	aber		0	
+142	stehe		0	
+143	nicht		0	
+144	so		0	
+145	einher		0	
+146	wie		0	
+147	die		0	
+148	stumme		0	
+149	Verzweiflung		0	
+150	selbst		0	
+151	!		0	
+152	«		0	
+153	Amtsrichter	17	0	(mention_id=17|references=(entity=(entity_id=entity_0002|fullname=Richard Weishaupt|gender=m)))
+154	Weishaupt	17	0	(mention_id=17|references=(entity=(entity_id=entity_0002|fullname=Richard Weishaupt|gender=m)))
+155	sprach		0	
+156	diese		0	
+157	Worte		0	
+158	im		0	
+159	komischen		0	
+160	Zorn		0	
+161	zu		0	
+162	seinem	18	0	(mention_id=18|references=(entity=(entity_id=entity_0002|fullname=Richard Weishaupt|gender=m)))
+163	gegenübersitzenden		0	
+164	Freund	19	0	(mention_id=19|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+165	,		0	
+166	dem		0	
+167	Assessor	20	0	(mention_id=20|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+168	Linden	20	0	(mention_id=20|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+169	.		0	
+170	Vor		0	
+171	ihnen	21	0	(mention_id=21|references=(entity=(entity_id=entity_0002|fullname=Richard Weishaupt|gender=m)),(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+172	auf		0	
+173	dem		0	
+174	Tische		0	
+175	stand		0	
+176	eine		0	
+177	Rheinweinflasche		0	
+178	nebst		0	
+179	Gläsern		0	
+180	,		0	
+181	und		0	
+182	auf		0	
+183	dieser		0	
+184	bereits		0	
+185	geleerten		0	
+186	Flasche		0	
+187	hafteten		0	
+188	die		0	
+189	Augen		0	
+190	des		0	
+191	Angeredeten	22	0	(mention_id=22|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+192	mit		0	
+193	nachdenklichem		0	
+194	Ausdruck		0	
+195	,		0	
+196	als		0	
+197	könne		0	
+198	er	23	0	(mention_id=23|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+199	von		0	
+200	dem		0	
+201	Etikett		0	
+202	eine		0	
+203	Antwort		0	
+204	ablesen		0	
+205	.		0	
+206	Es		0	
+207	war		0	
+208	ein		0	
+209	großes		0	
+210	Zimmer		0	
+211	,		0	
+212	in		0	
+213	dem		0	
+214	sich	24	0	(mention_id=24|references=(entity=(entity_id=entity_0002|fullname=Richard Weishaupt|gender=m)),(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+215	die		0	
+216	beiden	25	0	(mention_id=25|references=(entity=(entity_id=entity_0002|fullname=Richard Weishaupt|gender=m)),(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+217	befanden		0	
+218	,		0	
+219	eine		0	
+220	Art		0	
+221	Gartensaal		0	
+222	,		0	
+223	unendlich		0	
+224	altmodisch		0	
+225	und		0	
+226	einfach		0	
+227	ausgestattet		0	
+228	mit		0	
+229	zwei		0	
+230	birkenen		0	
+231	Eckschränken		0	
+232	,		0	
+233	wie		0	
+234	sie	26	0	
+235	zu		0	
+236	Großmutterzeiten		0	(mention_id=26|references=(entity=(entity_id=generic_0002|fullname=Großmutter|gender=u|specialcase_entity=generic)))
+237	die		0	
+238	jetzigen		0	
+239	vornehmen		0	
+240	Kredenztische		0	
+241	vertraten		0	
+242	und		0	
+243	anstatt		0	
+244	kostbarer		0	
+245	Majoliken		0	
+246	die		0	
+247	vergoldeten		0	
+248	buntbemalten		0	
+249	Porzellantassen		0	
+250	hinter		0	
+251	ihren	27	0	
+252	Glasscheiben		0	
+253	sehen		0	
+254	ließen		0	
+255	,		0	
+256	mit		0	
+257	einem		0	
+258	großen		0	
+259	Sofa		0	
+260	,		0	
+261	dessen		0	
+262	schwarzer		0	
+263	Roßhaarbezug		0	
+264	gar		0	
+265	keinen		0	
+266	Gedanken		0	
+267	an		0	
+268	ein		0	
+269	behaglich-molliges		0	
+270	Ruhestündchen		0	
+271	aufkommen		0	
+272	ließ		0	
+273	,		0	
+274	mit		0	
+275	sechs		0	
+276	rührend		0	
+277	einfach		0	
+278	konstruierten		0	
+279	Rohrstühlen		0	
+280	,		0	
+281	die		0	
+282	um		0	
+283	den		0	
+284	großen		0	
+285	Tisch		0	
+286	standen		0	
+287	,		0	
+288	und		0	
+289	endlich		0	
+290	mit		0	
+291	mehr		0	
+292	als		0	
+293	zweifelhaften		0	
+294	Familienporträten		0	
+295	,		0	
+296	unter		0	
+297	denen		0	
+298	besonders		0	
+299	das		0	
+300	Pastellbildnis		0	
+301	einer		0	
+302	blondgelockten		0	
+303	jugendlichen		0	
+304	Schönheit	28	0	(mention_id=27|references=(entity=(entity_id=entity_0023|fullname=Pastellbildnis einer blondgelockten jugendlichen Schönheit|gender=f)))
+305	auffiel		0	
+306	,		0	
+307	deren	29	0	(mention_id=28|references=(entity=(entity_id=entity_0023|fullname=Pastellbildnis einer blondgelockten jugendlichen Schönheit|gender=f)))
+308	unendlich		0	
+309	kleiner		0	
+310	Mund		0	
+311	wie		0	
+312	verlegen		0	
+313	lächelte		0	
+314	,		0	
+315	als		0	
+316	wollte		0	
+317	sie	30	0	(mention_id=29|references=(entity=(entity_id=entity_0023|fullname=Pastellbildnis einer blondgelockten jugendlichen Schönheit|gender=f)))
+318	sagen		0	
+319	:		0	
+320	»		0	
+321	Glaubt		0	
+322	mir	31	0	(mention_id=30|references=(entity=(entity_id=entity_0023|fullname=Pastellbildnis einer blondgelockten jugendlichen Schönheit|gender=f)))
+323	nur		0	
+324	,		0	
+325	ganz		0	
+326	so		0	
+327	dumm		0	
+328	habe		0	
+329	ich	32	0	(mention_id=31|references=(entity=(entity_id=entity_0023|fullname=Pastellbildnis einer blondgelockten jugendlichen Schönheit|gender=f)))
+330	in		0	
+331	Wirklichkeit		0	
+332	nicht		0	
+333	ausgesehen		0	
+334	!		0	
+335	«		0	
+336	Und		0	
+337	über		0	
+338	all		0	
+339	dieses		0	
+340	verbreiteten		0	
+341	orangegelbe		0	
+342	Fenstervorhänge		0	
+343	ein		0	
+344	eigentümlich		0	
+345	unangenehmes		0	
+346	Licht		0	
+347	.		0	
+348	Die		0	
+349	Tür		0	
+350	des		0	
+351	Zimmers		0	
+352	stand		0	
+353	geöffnet		0	
+354	und		0	
+355	,		0	
+356	wie		0	
+357	entschädigend		0	
+358	für		0	
+359	alle		0	
+360	Geschmacklosigkeiten		0	
+361	,		0	
+362	bot		0	
+363	sich		0	
+364	dem		0	
+365	Auge		0	
+366	eine		0	
+367	wunderliebliche		0	
+368	Aussicht		0	
+369	.		0	
+370	Hohe		0	
+371	,		0	
+372	bewaldete		0	
+373	Bergkuppen		0	
+374	,		0	
+375	mit		0	
+376	üppigem		0	
+377	Laubwald		0	
+378	bedeckt		0	
+379	,		0	
+380	dessen		0	
+381	ernstes		0	
+382	Grün		0	
+383	der		0	
+384	Herbst		0	
+385	schon		0	
+386	in		0	
+387	leuchtende		0	
+388	Farben		0	
+389	verwandelt		0	
+390	hatte		0	
+391	,		0	
+392	bildeten		0	
+393	den		0	
+394	Hintergrund		0	
+395	.		0	
+396	In		0	
+397	nächster		0	
+398	Nähe		0	
+399	der		0	
+400	Garten		0	
+401	,		0	
+402	malerisch		0	
+403	genug		0	
+404	in		0	
+405	seiner		0	
+406	Verwilderung		0	
+407	;		0	
+408	und		0	
+409	hinter		0	
+410	den		0	
+411	Bäumen		0	
+412	hervorschimmernd		0	
+413	die		0	
+414	roten		0	
+415	Ziegeldächer		0	
+416	des		0	
+417	Dorfes		0	
+418	.		0	
+419	Und		0	
+420	das		0	
+421	Ganze		0	
+422	verschleiert		0	
+423	von		0	
+424	dem		0	
+425	feinen		0	
+426	Hauch		0	
+427	eines		0	
+428	Oktobermorgens		0	
+429	,		0	
+430	dessen		0	
+431	die		0	
+432	Sonne		0	
+433	noch		0	
+434	nicht		0	
+435	Herr		0	
+436	werden		0	
+437	konnte		0	
+438	.		0	
+439	Mit		0	
+440	der		0	
+441	herben		0	
+442	,		0	
+443	reinen		0	
+444	Luft		0	
+445	aber		0	
+446	wehte		0	
+447	anmutend		0	
+448	der		0	
+449	taktmäßige		0	
+450	Schall		0	
+451	der		0	
+452	Dreschflegel		0	
+453	herüber		0	
+454	,		0	
+455	die		0	
+456	auf		0	
+457	der		0	
+458	Tenne		0	
+459	des		0	
+460	Gutes		0	
+461	geschwungen		0	
+462	wurden		0	
+463	.		0	
+464	Von		0	
+465	der		0	
+466	Weinflasche		0	
+467	war		0	
+468	das		0	
+469	dunkle		0	
+470	Auge		0	
+471	des		0	
+472	jungen		0	
+473	Mannes	33	0	(mention_id=32|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+474	hinausgeschweift		0	
+475	.		0	
+476	Er	34	0	(mention_id=33|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+477	sprang		0	
+478	plötzlich		0	
+479	empor		0	
+480	und		0	
+481	trat		0	
+482	in		0	
+483	die		0	
+484	Tür		0	
+485	.		0	
+486	»		0	
+487	Und		0	
+488	trotz		0	
+489	alledem		0	
+490	,		0	
+491	Richard	35	0	(mention_id=34|references=(entity=(entity_id=entity_0002|fullname=Richard Weishaupt|gender=m)))
+492	,		0	
+493	es		0	
+494	ist		0	
+495	ein		0	
+496	reizendes		0	
+497	Fleckchen		0	
+498	Erde		0	
+499	«		0	
+500	,		0	
+501	sagte		0	
+502	er	36	0	(mention_id=35|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+503	warm		0	
+504	,		0	
+505	»		0	
+506	ich	37	0	(mention_id=36|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+507	habe		0	
+508	für		0	
+509	Norddeutschland		0	
+510	immer		0	
+511	große		0	
+512	Sympathien		0	
+513	gehabt		0	
+514	.		0	
+515	Glaube		0	
+516	mir	38	0	(mention_id=37|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+517	,		0	
+518	der		0	
+519	Faust		0	
+520	liest		0	
+521	sich		0	
+522	hier		0	
+523	noch		0	
+524	einmal		0	
+525	so		0	
+526	gut		0	
+527	,		0	
+528	wo		0	
+529	der		0	
+530	Brocken		0	
+531	dort		0	
+532	herüberschaut		0	
+533	.		0	
+534	Ich	39	0	(mention_id=38|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+535	bitte		0	
+536	dich	40	0	(mention_id=39|references=(entity=(entity_id=entity_0002|fullname=Richard Weishaupt|gender=m)))
+537	,		0	
+538	krächze		0	
+539	nicht		0	
+540	mehr		0	
+541	wie		0	
+542	ein		0	
+543	Unglücksrabe	41	0	(mention_id=40|references=(entity=(entity_id=entity_0002|fullname=Richard Weishaupt|gender=m)|specialcase_reference=figurative))
+544	!		0	
+545	Ich	42	0	(mention_id=41|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+546	werde		0	
+547	Frankfurt		0	
+548	nie		0	
+549	vergessen		0	
+550	,		0	
+551	aber		0	
+552	auch		0	
+553	nicht		0	
+554	allzusehr		0	
+555	vermissen		0	
+556	–		0	
+557	hoffe		0	
+558	ich	43	0	(mention_id=42|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+559	.		0	
+560	«		0	
+561	»		0	
+562	Na		0	
+563	,		0	
+564	Gott		0	
+565	bewahre		0	
+566	!		0	
+567	«		0	
+568	scherzte		0	
+569	der		0	
+570	Kleine	44	0	(mention_id=43|references=(entity=(entity_id=entity_0002|fullname=Richard Weishaupt|gender=m)))
+571	,		0	
+572	noch		0	
+573	immer		0	
+574	mit		0	
+575	dem		0	
+576	leeren		0	
+577	Weinglase		0	
+578	spielend		0	
+579	,		0	
+580	»		0	
+581	du	45	0	(mention_id=44|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+582	willst		0	
+583	mir	46	0	(mention_id=45|references=(entity=(entity_id=entity_0002|fullname=Richard Weishaupt|gender=m)))
+584	doch		0	
+585	nicht		0	
+586	weismachen		0	
+587	–		0	
+588	«		0	
+589	Aber		0	
+590	Linden	47	0	(mention_id=46|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+591	unterbrach		0	
+592	ihn	48	0	(mention_id=47|references=(entity=(entity_id=entity_0002|fullname=Richard Weishaupt|gender=m)))
+593	:		0	
+594	»		0	
+595	Ich	49	0	(mention_id=48|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+596	will		0	
+597	dir	50	0	(mention_id=49|references=(entity=(entity_id=entity_0002|fullname=Richard Weishaupt|gender=m)))
+598	gar		0	
+599	nichts		0	
+600	weismachen		0	
+601	,		0	
+602	ich	51	0	(mention_id=50|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+603	will		0	
+604	versuchen		0	
+605	,		0	
+606	ein		0	
+607	Landwirt	52	0	(mention_id=51|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+608	zu		0	
+609	werden		0	
+610	,		0	
+611	und		0	
+612	ich	53	0	(mention_id=52|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+613	will		0	
+614	dies		0	
+615	nicht		0	
+616	nur		0	
+617	,		0	
+618	weil		0	
+619	ich	54	0	(mention_id=53|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+620	muß		0	
+621	,		0	
+622	Richard	55	0	(mention_id=54|references=(entity=(entity_id=entity_0002|fullname=Richard Weishaupt|gender=m)))
+623	–		0	
+624	mir	56	0	(mention_id=55|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+625	ist		0	
+626	wirklich		0	
+627	in		0	
+628	dem		0	
+629	alten		0	
+630	Neste		0	
+631	ganz		0	
+632	behaglich		0	
+633	;		0	
+634	ergo		0	
+635	höre		0	
+636	auf		0	
+637	,		0	
+638	mein	57	0	(mention_id=56|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+639	Alterchen	58	0	(mention_id=57|references=(entity=(entity_id=entity_0002|fullname=Richard Weishaupt|gender=m)))
+640	.		0	
+641	«		0	
+642	»		0	
+643	Na		0	
+644	,		0	
+645	Glück		0	
+646	zu		0	
+647	!		0	
+648	«		0	
+649	erwiderte		0	
+650	der		0	
+651	andere	59	0	(mention_id=58|references=(entity=(entity_id=entity_0002|fullname=Richard Weishaupt|gender=m)))
+652	,		0	
+653	neben		0	
+654	den		0	
+655	Freund	60	0	(mention_id=59|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+656	tretend		0	
+657	und		0	
+658	fast		0	
+659	zärtlich		0	
+660	in		0	
+661	das		0	
+662	hübsche		0	
+663	Männergesicht		0	(mention_id=60|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)|specialcase_reference=part))
+664	schauend		0	
+665	.		0	
+666	»		0	
+667	Ich	61	0	(mention_id=61|references=(entity=(entity_id=entity_0002|fullname=Richard Weishaupt|gender=m)))
+668	habe		0	
+669	ja		0	
+670	im		0	
+671	allgemeinen		0	
+672	nichts		0	
+673	einzuwenden		0	
+674	gegen		0	
+675	dieses		0	
+676	Gutsbesitzerspiel		0	
+677	,		0	
+678	wenn		0	
+679	ich	62	0	(mention_id=62|references=(entity=(entity_id=entity_0002|fullname=Richard Weishaupt|gender=m)))
+680	nur		0	
+681	wüßte		0	
+682	wie		0	
+683	und		0	
+684	wo		0	
+685	–		0	
+686	.		0	
+687	Siehst		0	
+688	du	63	0	(mention_id=63|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+689	,		0	
+690	Franz	64	0	(mention_id=64|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+691	,		0	
+692	wäre		0	
+693	ich	65	0	(mention_id=65|references=(entity=(entity_id=entity_0002|fullname=Richard Weishaupt|gender=m)))
+694	nicht		0	
+695	solch		0	
+696	ein		0	
+697	armer		0	
+698	Schlucker	66	0	(mention_id=66|references=(entity=(entity_id=entity_0002|fullname=Richard Weishaupt|gender=m)))
+699	,		0	
+700	ich	67	0	(mention_id=67|references=(entity=(entity_id=entity_0002|fullname=Richard Weishaupt|gender=m)))
+701	sagte		0	
+702	dir	68	0	(mention_id=68|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+703	sofort		0	
+704	,		0	
+705	›		0	
+706	hier		0	
+707	,		0	
+708	mein	69	0	(mention_id=69|references=(entity=(entity_id=entity_0002|fullname=Richard Weishaupt|gender=m)))
+709	Junge	70	0	(mention_id=70|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+710	,		0	
+711	hast		0	
+712	du	71	0	(mention_id=71|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+713	ein		0	
+714	Kapital		0	
+715	von		0	
+716	soundsoviel		0	
+717	.		0	
+718	Nun		0	
+719	fange		0	
+720	einmal		0	
+721	an		0	
+722	,		0	
+723	das		0	
+724	veraltete		0	
+725	lotterige		0	
+726	Ding		0	
+727	in		0	
+728	Zug		0	
+729	zu		0	
+730	bringen		0	
+731	‹		0	
+732	.		0	
+733	–		0	
+734	So		0	
+735	,		0	
+736	wie		0	
+737	es		0	
+738	jetzt		0	
+739	ist		0	
+740	,		0	
+741	kann's		0	
+742	nicht		0	
+743	bleiben		0	
+744	.		0	
+745	Aber		0	
+746	–		0	
+747	na		0	
+748	,		0	
+749	du	72	0	(mention_id=72|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+750	weißt		0	
+751	«		0	
+752	,		0	
+753	schloß		0	
+754	er	73	0	(mention_id=73|references=(entity=(entity_id=entity_0002|fullname=Richard Weishaupt|gender=m)))
+755	mit		0	
+756	einem		0	
+757	Seufzer		0	
+758	.		0	
+759	Franz	74	0	(mention_id=74|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+760	Linden	74	0	(mention_id=74|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+761	hatte		0	
+762	abermals		0	
+763	keine		0	
+764	Antwort		0	
+765	,		0	
+766	aber		0	
+767	er	75	0	(mention_id=75|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+768	pfiff		0	
+769	leise		0	
+770	eine		0	
+771	lustige		0	
+772	Melodie		0	
+773	,		0	
+774	wie		0	
+775	er	76	0	(mention_id=76|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+776	immer		0	
+777	tat		0	
+778	,		0	
+779	wenn		0	
+780	er	77	0	(mention_id=77|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+781	unangenehme		0	
+782	Gedanken		0	
+783	verscheuchen		0	
+784	wollte		0	
+785	.		0	
+786	»		0	
+787	Ja		0	
+788	,		0	
+789	pfeife		0	
+790	nur		0	
+791	«		0	
+792	,		0	
+793	murmelte		0	
+794	der		0	
+795	Kleine	78	0	(mention_id=78|references=(entity=(entity_id=entity_0002|fullname=Richard Weishaupt|gender=m)))
+796	,		0	
+797	»		0	
+798	es		0	
+799	wird		0	
+800	die		0	
+801	einzige		0	
+802	Musik		0	
+803	sein		0	
+804	,		0	
+805	die		0	
+806	du	79	0	(mention_id=79|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+807	hier		0	
+808	zu		0	
+809	hören		0	
+810	bekommst		0	
+811	–		0	
+812	oder		0	
+813	etwa		0	
+814	noch		0	
+815	eine		0	
+816	knarrende		0	
+817	Stubentür		0	
+818	oder		0	
+819	das		0	
+820	Konzert		0	
+821	einer		0	
+822	höchst		0	
+823	respektablen		0	
+824	Mäusefamilie	80	0	
+825	,		0	
+826	die	81	0	
+827	sich	82	0	
+828	in		0	
+829	deinem	83	0	(mention_id=80|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+830	Zimmer		0	
+831	angesiedelt		0	
+832	hat		0	
+833	.		0	
+834	Brr		0	
+835	–		0	
+836	Franz	84	0	(mention_id=81|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+837	!		0	
+838	Jetzt		0	
+839	denke		0	
+840	dir	85	0	(mention_id=82|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+841	dieses		0	
+842	einsame		0	
+843	Nest		0	
+844	im		0	
+845	Winter		0	
+846	–		0	
+847	auf		0	
+848	den		0	
+849	Bergen		0	
+850	Schnee		0	
+851	,		0	
+852	auf		0	
+853	der		0	
+854	Straße		0	
+855	Schnee		0	
+856	,		0	
+857	im		0	
+858	Garten		0	
+859	Schnee		0	
+860	und		0	
+861	in		0	
+862	der		0	
+863	Luft		0	
+864	weißes		0	
+865	Gewimmel		0	
+866	–		0	
+867	Herr		0	
+868	Gott	86	0	
+869	,		0	
+870	was		0	
+871	willst		0	
+872	du	87	0	(mention_id=83|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+873	die		0	
+874	langen		0	
+875	Abende		0	
+876	hindurch		0	
+877	beginnen		0	
+878	,		0	
+879	an		0	
+880	denen		0	
+881	wir	88	0	(mention_id=84|references=(entity=(entity_id=entity_0002|fullname=Richard Weishaupt|gender=m)),(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+882	sonst		0	
+883	im		0	
+884	Taunus		0	
+885	,		0	
+886	auf		0	
+887	der		0	
+888	Bockenheimer		0	
+889	Gasse		0	
+890	saßen		0	
+891	oder		0	
+892	im		0	
+893	Theater		0	
+894	?		0	
+895	Wer		0	
+896	soll		0	
+897	hier		0	
+898	Skat		0	
+899	mit		0	
+900	dir	89	0	(mention_id=85|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+901	spielen		0	
+902	?		0	
+903	Für		0	
+904	wen		0	
+905	willst		0	
+906	du	90	0	(mention_id=86|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+907	deine	91	0	(mention_id=87|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+908	vielbewunderten		0	
+909	Gedichte		0	
+910	machen		0	
+911	?		0	
+912	In		0	
+913	der		0	
+914	Dorfschenke		0	
+915	werden		0	
+916	sie		0	
+917	sicher		0	
+918	nicht		0	
+919	verstanden		0	
+920	.		0	
+921	–		0	
+922	Ach		0	
+923	,		0	
+924	wenn		0	
+925	ich	92	0	(mention_id=88|references=(entity=(entity_id=entity_0002|fullname=Richard Weishaupt|gender=m)))
+926	dich	93	0	(mention_id=89|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+927	so		0	
+928	ansehe		0	
+929	,		0	
+930	du	94	0	(mention_id=90|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+931	hier		0	
+932	allein		0	
+933	,		0	
+934	versauernd		0	
+935	und		0	
+936	Sorgen		0	
+937	dazu		0	
+938	!		0	
+939	«		0	
+940	Er	95	0	(mention_id=91|references=(entity=(entity_id=entity_0002|fullname=Richard Weishaupt|gender=m)))
+941	seufzte		0	
+942	.		0	
+943	»		0	
+944	Ich	96	0	(mention_id=92|references=(entity=(entity_id=entity_0002|fullname=Richard Weishaupt|gender=m)))
+945	will		0	
+946	dir	97	0	(mention_id=93|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+947	etwas		0	
+948	sagen		0	
+949	,		0	
+950	Franz	98	0	(mention_id=94|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+951	,		0	
+952	Scherz		0	
+953	in		0	
+954	die		0	
+955	Ecke		0	
+956	«		0	
+957	,		0	
+958	fuhr		0	
+959	er	99	0	(mention_id=95|references=(entity=(entity_id=entity_0002|fullname=Richard Weishaupt|gender=m)))
+960	fort		0	
+961	,		0	
+962	»		0	
+963	du	100	0	(mention_id=96|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+964	wirst		0	
+965	heiraten		0	
+966	müssen		0	
+967	!		0	
+968	Und		0	
+969	da		0	
+970	gebe		0	
+971	ich	101	0	(mention_id=97|references=(entity=(entity_id=entity_0002|fullname=Richard Weishaupt|gender=m)))
+972	dir	102	0	(mention_id=98|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+973	den		0	
+974	Rat		0	
+975	,		0	
+976	tue		0	
+977	bei		0	
+978	dieser		0	
+979	Angelegenheit		0	
+980	deinen	103	0	(mention_id=99|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+981	Idealen		0	
+982	ein		0	
+983	wenig		0	
+984	Zwang		0	
+985	an		0	
+986	.		0	
+987	Sieh		0	
+988	ab		0	
+989	von		0	
+990	elfengleichem		0	
+991	Wuchs		0	
+992	,		0	
+993	sinnigen		0	
+994	Augen		0	
+995	und		0	
+996	holdester		0	
+997	Weiblichkeit		0	
+998	–		0	
+999	zugunsten		0	
+1000	eines		0	
+1001	anderen		0	
+1002	Vorzuges		0	
+1003	,		0	
+1004	der		0	
+1005	durch		0	
+1006	nichts		0	
+1007	zu		0	
+1008	ersetzen		0	
+1009	ist		0	
+1010	in		0	
+1011	unserem	104	0	(mention_id=100|references=(entity=(entity_id=entity_0002|fullname=Richard Weishaupt|gender=m)),(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+1012	prosaischen		0	
+1013	Leben		0	
+1014	.		0	
+1015	Bringe		0	
+1016	mir	105	0	(mention_id=101|references=(entity=(entity_id=entity_0002|fullname=Richard Weishaupt|gender=m)))
+1017	kein		0	
+1018	armes		0	
+1019	Mädchen	106	0	(mention_id=102|references=(entity=(entity_id=generic_0003|fullname=arme Zukünftige|gender=u|specialcase_entity=generic)))
+1020	,		0	
+1021	Franz	107	0	(mention_id=103|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+1022	,		0	
+1023	und		0	
+1024	wäre		0	
+1025	sie	108	0	(mention_id=104|references=(entity=(entity_id=generic_0004|fullname=arme Zukünftige|gender=u|specialcase_entity=generic)))
+1026	die		0	
+1027	Perle	109	0	(mention_id=105|references=(entity=(entity_id=generic_0005|fullname=arme Zukünftige|gender=u|specialcase_entity=generic)))
+1028	aller		0	
+1029	Weltteile		0	
+1030	.		0	
+1031	In		0	
+1032	deiner	110	0	(mention_id=106|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+1033	Lage		0	
+1034	würde		0	
+1035	es		0	
+1036	einfach		0	
+1037	Torheit		0	
+1038	sein		0	
+1039	,		0	
+1040	eine		0	
+1041	Sünde		0	
+1042	an		0	
+1043	dir	111	0	(mention_id=107|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+1044	und		0	
+1045	allen		0	
+1046	deinen	112	0	(mention_id=108|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+1047	Nachkommen	113	0	(mention_id=109|references=(entity=(entity_id=entity_0056|fullname=Nachkommen des Franz Linden|gender=u|specialcase_entity=group,nonfact)))
+1048	.		0	
+1049	–		0	
+1050	Es		0	
+1051	schadet		0	
+1052	rein		0	
+1053	gar		0	
+1054	nichts		0	
+1055	,		0	
+1056	wenn		0	
+1057	deine	114	0	(mention_id=110|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+1058	hübschen		0	
+1059	Reime		0	
+1060	nicht		0	
+1061	auf		0	
+1062	sie	115	0	(mention_id=111|references=(entity=(entity_id=entity_0063|fullname=Zukünfige|gender=f|specialcase_entity=nonfact)))
+1063	passen		0	
+1064	–		0	
+1065	du	116	0	(mention_id=112|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+1066	wirst		0	
+1067	auch		0	
+1068	die		0	
+1069	Schönste	117	0	(mention_id=113|references=(entity=(entity_id=generic_0006|fullname=die Schönste Zukünftige|gender=u|specialcase_entity=generic)))
+1070	nicht		0	
+1071	ewig		0	
+1072	andichten		0	
+1073	.		0	
+1074	–		0	
+1075	Jammervoll		0	
+1076	!		0	
+1077	«		0	
+1078	Er	118	0	(mention_id=114|references=(entity=(entity_id=entity_0002|fullname=Richard Weishaupt|gender=m)))
+1079	stiebte		0	
+1080	die		0	
+1081	Asche		0	
+1082	seiner	119	0	(mention_id=115|references=(entity=(entity_id=entity_0002|fullname=Richard Weishaupt|gender=m)))
+1083	Zigarre		0	
+1084	ab		0	
+1085	.		0	
+1086	»		0	
+1087	In		0	
+1088	Frankfurt		0	
+1089	–		0	
+1090	hättest		0	
+1091	du	120	0	(mention_id=116|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+1092	ernstlich		0	
+1093	gewollt		0	
+1094	–		0	
+1095	war		0	
+1096	was		0	
+1097	zu		0	
+1098	machen		0	
+1099	.		0	
+1100	Aber		0	
+1101	du	121	0	(mention_id=117|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+1102	hast		0	
+1103	dich	122	0	(mention_id=118|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+1104	von		0	
+1105	den		0	
+1106	koketten		0	
+1107	Augen		0	
+1108	der		0	
+1109	kleinen		0	
+1110	Thea	123	0	(mention_id=119|references=(entity=(entity_id=entity_0026|fullname=Thea|gender=f)))
+1111	völlig		0	
+1112	blenden		0	
+1113	lassen		0	
+1114	.		0	
+1115	Wie		0	
+1116	oft		0	
+1117	habe		0	
+1118	ich	124	0	(mention_id=120|references=(entity=(entity_id=entity_0002|fullname=Richard Weishaupt|gender=m)))
+1119	mich	125	0	(mention_id=121|references=(entity=(entity_id=entity_0002|fullname=Richard Weishaupt|gender=m)))
+1120	damals		0	
+1121	geärgert		0	
+1122	!		0	
+1123	–		0	
+1124	Wenn		0	
+1125	der		0	
+1126	Mensch	126	0	(mention_id=122|references=(entity=(entity_id=generic_0007|fullname=Mensch über 25|gender=u|specialcase_entity=generic)),(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+1127	über		0	
+1128	die		0	
+1129	Fünfundzwanzig		0	
+1130	hinaus		0	
+1131	ist		0	
+1132	,		0	
+1133	sollte		0	
+1134	er	127	0	(mention_id=123|references=(entity=(entity_id=generic_0008|fullname=Mensch über 25|gender=u|specialcase_entity=generic)),(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+1135	wahrhaftig		0	
+1136	vernünftiger		0	
+1137	werden		0	
+1138	!		0	
+1139	«		0	
+1140	Franz	128	0	(mention_id=124|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+1141	Linden	128	0	(mention_id=124|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+1142	schwieg		0	
+1143	beharrlich		0	
+1144	,		0	
+1145	und		0	
+1146	der		0	
+1147	Kleine	129	0	(mention_id=125|references=(entity=(entity_id=entity_0002|fullname=Richard Weishaupt|gender=m)))
+1148	wußte		0	
+1149	sofort		0	
+1150	,		0	
+1151	daß		0	
+1152	er	130	0	(mention_id=126|references=(entity=(entity_id=entity_0002|fullname=Richard Weishaupt|gender=m)))
+1153	,		0	
+1154	wie		0	
+1155	er	131	0	(mention_id=127|references=(entity=(entity_id=entity_0002|fullname=Richard Weishaupt|gender=m)))
+1156	sich	132	0	(mention_id=128|references=(entity=(entity_id=entity_0002|fullname=Richard Weishaupt|gender=m)))
+1157	auszudrücken		0	
+1158	pflegte		0	
+1159	,		0	
+1160	in		0	
+1161	den		0	
+1162	Fettopf		0	
+1163	getreten		0	
+1164	hatte		0	
+1165	.		0	
+1166	»		0	
+1167	Na		0	
+1168	,		0	
+1169	Franz	133	0	(mention_id=129|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+1170	,		0	
+1171	laß		0	
+1172	gut		0	
+1173	sein		0	
+1174	«		0	
+1175	,		0	
+1176	scherzte		0	
+1177	er	134	0	(mention_id=130|references=(entity=(entity_id=entity_0002|fullname=Richard Weishaupt|gender=m)))
+1178	,		0	
+1179	»		0	
+1180	hier		0	
+1181	gibt's		0	
+1182	vielleicht		0	
+1183	auch		0	
+1184	reiche		0	
+1185	Mädchen	135	0	(mention_id=131|references=(entity=(entity_id=generic_0009|fullname=reiche Mädchen|gender=u|specialcase_entity=generic)))
+1186	.		0	
+1187	«		0	
+1188	»		0	
+1189	Ei		0	
+1190	gewiß		0	
+1191	,		0	
+1192	mein	136	0	(mention_id=132|references=(entity=(entity_id=entity_0003|fullname=Herr Wolff|gender=m)))
+1193	Herr	137	0	(mention_id=133|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+1194	,		0	
+1195	ei		0	
+1196	gewiß		0	
+1197	«		0	
+1198	,		0	
+1199	klang		0	
+1200	es		0	
+1201	hinter		0	
+1202	ihnen	138	0	(mention_id=134|references=(entity=(entity_id=entity_0002|fullname=Richard Weishaupt|gender=m)),(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+1203	,		0	
+1204	»		0	
+1205	reiche		0	
+1206	Mädchen	139	0	(mention_id=135|references=(entity=(entity_id=generic_0010|fullname=reiche Mädchen|gender=u|specialcase_entity=generic)))
+1207	und		0	
+1208	hübsche		0	
+1209	Mädchen	140	0	(mention_id=136|references=(entity=(entity_id=generic_0011|fullname=hübsche Mädchen|gender=u|specialcase_entity=generic)))
+1210	.		0	
+1211	Unsere	141	0	(mention_id=137|references=(entity=(entity_id=entity_0003|fullname=Herr Wolff|gender=m)))
+1212	alte		0	
+1213	Stadt		0	
+1214	ist		0	
+1215	von		0	
+1216	jeher		0	
+1217	dafür		0	
+1218	berühmt		0	
+1219	gewesen		0	
+1220	.		0	
+1221	«		0	
+1222	Beide		0	
+1223	Herren	142	0	(mention_id=138|references=(entity=(entity_id=entity_0002|fullname=Richard Weishaupt|gender=m)),(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+1224	wandten		0	
+1225	sich	143	0	(mention_id=139|references=(entity=(entity_id=entity_0002|fullname=Richard Weishaupt|gender=m)),(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+1226	nach		0	
+1227	dem		0	
+1228	Sprecher	144	0	(mention_id=140|references=(entity=(entity_id=entity_0003|fullname=Herr Wolff|gender=m)))
+1229	um		0	
+1230	;		0	
+1231	der		0	
+1232	Amtsrichter	145	0	(mention_id=141|references=(entity=(entity_id=entity_0002|fullname=Richard Weishaupt|gender=m)))
+1233	nur		0	
+1234	,		0	
+1235	um		0	
+1236	mit		0	
+1237	einem		0	
+1238	ärgerlichen		0	
+1239	Achselzucken		0	
+1240	sofort		0	
+1241	wieder		0	
+1242	in		0	
+1243	die		0	
+1244	Gegend		0	
+1245	hinauszuschauen		0	
+1246	,		0	
+1247	Franz	146	0	(mention_id=142|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+1248	Linden	146	0	(mention_id=142|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+1249	,		0	
+1250	um		0	
+1251	ihn	147	0	(mention_id=143|references=(entity=(entity_id=entity_0003|fullname=Herr Wolff|gender=m)))
+1252	höflich		0	
+1253	zu		0	
+1254	begrüßen		0	
+1255	.		0	
+1256	»		0	
+1257	Ich	148	0	(mention_id=144|references=(entity=(entity_id=entity_0003|fullname=Herr Wolff|gender=m)))
+1258	bringe		0	
+1259	die		0	
+1260	gewünschten		0	
+1261	Notizen		0	
+1262	«		0	
+1263	,		0	
+1264	fuhr		0	
+1265	der		0	
+1266	Eingetretene	149	0	(mention_id=145|references=(entity=(entity_id=entity_0003|fullname=Herr Wolff|gender=m)))
+1267	fort		0	
+1268	,		0	
+1269	ein		0	
+1270	kleiner		0	
+1271	Mann	150	0	(mention_id=146|references=(entity=(entity_id=entity_0003|fullname=Herr Wolff|gender=m)))
+1272	in		0	
+1273	den		0	
+1274	fünfziger		0	
+1275	Jahren		0	
+1276	,		0	
+1277	mit		0	
+1278	einem		0	
+1279	unglaublich		0	
+1280	schmalen		0	
+1281	spitzen		0	
+1282	Gesicht		0	
+1283	,		0	
+1284	auf		0	
+1285	dem		0	
+1286	ein		0	
+1287	süßes		0	
+1288	Lächeln		0	
+1289	spielte		0	
+1290	,		0	
+1291	devot		0	
+1292	in		0	
+1293	jeder		0	
+1294	Miene		0	
+1295	,		0	
+1296	jeder		0	
+1297	Bewegung		0	
+1298	.		0	
+1299	»		0	
+1300	Ich	151	0	(mention_id=147|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+1301	danke		0	
+1302	sehr		0	
+1303	,		0	
+1304	Herr	152	0	(mention_id=148|references=(entity=(entity_id=entity_0003|fullname=Herr Wolff|gender=m)))
+1305	Wolff	152	0	(mention_id=148|references=(entity=(entity_id=entity_0003|fullname=Herr Wolff|gender=m)))
+1306	«		0	
+1307	,		0	
+1308	sagte		0	
+1309	Franz	153	0	(mention_id=149|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+1310	Linden	153	0	(mention_id=149|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+1311	und		0	
+1312	nahm		0	
+1313	die		0	
+1314	Papiere		0	
+1315	.		0	
+1316	»		0	
+1317	Wenn		0	
+1318	ich	154	0	(mention_id=150|references=(entity=(entity_id=entity_0003|fullname=Herr Wolff|gender=m)))
+1319	sonst		0	
+1320	noch		0	
+1321	dienen		0	
+1322	kann		0	
+1323	–		0	
+1324	–		0	
+1325	Fräulein	155	0	(mention_id=151|references=(entity=(entity_id=entity_0011|fullname=Rosalie Kruse|gender=f)))
+1326	Rosalie	155	0	(mention_id=151|references=(entity=(entity_id=entity_0011|fullname=Rosalie Kruse|gender=f)))
+1327	wird		0	
+1328	bezeugen		0	
+1329	,		0	
+1330	daß		0	
+1331	ich	156	0	(mention_id=152|references=(entity=(entity_id=entity_0003|fullname=Herr Wolff|gender=m)))
+1332	dem		0	
+1333	verstorbenen		0	
+1334	Herrn	157	0	(mention_id=153|references=(entity=(entity_id=entity_0024|fullname=Onkel des Franz Linden|gender=m)))
+1335	Onkel	157	0	(mention_id=153|references=(entity=(entity_id=entity_0024|fullname=Onkel des Franz Linden|gender=m)))
+1336	stets		0	
+1337	ein		0	
+1338	dienstwilliger		0	
+1339	Freund	158	0	(mention_id=154|references=(entity=(entity_id=entity_0003|fullname=Herr Wolff|gender=m)))
+1340	gewesen		0	
+1341	–		0	
+1342	«		0	
+1343	»		0	
+1344	Ich	159	0	(mention_id=155|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+1345	bin		0	
+1346	völlig		0	
+1347	fremd		0	
+1348	hier		0	
+1349	«		0	
+1350	,		0	
+1351	erwiderte		0	
+1352	der		0	
+1353	junge		0	
+1354	Hausherr	160	0	(mention_id=156|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+1355	,		0	
+1356	»		0	
+1357	es		0	
+1358	kann		0	
+1359	wohl		0	
+1360	sein		0	
+1361	,		0	
+1362	daß		0	
+1363	ich	161	0	(mention_id=157|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+1364	Ihrer	162	0	(mention_id=158|references=(entity=(entity_id=entity_0003|fullname=Herr Wolff|gender=m)))
+1365	Hilfe		0	
+1366	bedarf		0	
+1367	.		0	
+1368	«		0	
+1369	»		0	
+1370	Größte		0	
+1371	Ehre		0	
+1372	,		0	
+1373	Herr	163	0	(mention_id=159|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+1374	Linden	163	0	(mention_id=159|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+1375	!		0	
+1376	Ja		0	
+1377	,		0	
+1378	und		0	
+1379	wie		0	
+1380	gesagt		0	
+1381	,		0	
+1382	sollten		0	
+1383	Sie	164	0	(mention_id=160|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+1384	in		0	
+1385	der		0	
+1386	Stadt		0	
+1387	Bekanntschaften		0	
+1388	suchen		0	
+1389	–		0	
+1390	da		0	
+1391	sind		0	
+1392	die		0	
+1393	Tubmanns	165	0	(mention_id=161|references=(entity=(entity_id=entity_0051|fullname=Familie Tubmann|gender=mf|specialcase_entity=group)))
+1394	,		0	
+1395	die		0	
+1396	Schenks	166	0	(mention_id=162|references=(entity=(entity_id=entity_0049|fullname=Familie Schenk|gender=mf|specialcase_entity=group)))
+1397	,		0	
+1398	die		0	
+1399	Meiers	167	0	(mention_id=163|references=(entity=(entity_id=entity_0050|fullname=Familie Meier|gender=mf|specialcase_entity=group)))
+1400	und		0	
+1401	Hellborns	168	0	(mention_id=164|references=(entity=(entity_id=entity_0048|fullname=Familie Hellborn|gender=mf|specialcase_entity=group)))
+1402	,		0	
+1403	und		0	
+1404	vor		0	
+1405	allem		0	
+1406	die		0	
+1407	Baumhagens	169	0	(mention_id=165|references=(entity=(entity_id=entity_0010|fullname=Familie Baumhagen|gender=mf|members=entity_0004,entity_0005,entity_0006,entity_0007,entity_0008,entity_0009,entity_0015|all_members_given=True|specialcase_entity=group)))
+1408	.		0	
+1409	Reiche		0	
+1410	und		0	
+1411	angenehme		0	
+1412	Häuser		0	
+1413	,		0	
+1414	Herr	170	0	(mention_id=166|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+1415	Linden	170	0	(mention_id=166|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+1416	–		0	
+1417	werden		0	
+1418	mit		0	
+1419	offenen		0	
+1420	Armen		0	
+1421	aufgenommen		0	
+1422	,		0	
+1423	ist		0	
+1424	immer		0	
+1425	Mangel		0	
+1426	an		0	
+1427	liebenswürdigen		0	
+1428	Kavalieren	171	0	(mention_id=167|references=(entity=(entity_id=generic_0012|fullname=Kavaliere|gender=u|specialcase_entity=generic)),(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+1429	in		0	
+1430	der		0	
+1431	kleinen		0	
+1432	Stadt		0	
+1433	.		0	
+1434	Die		0	
+1435	Herren	172	0	(mention_id=168|references=(entity=(entity_id=generic_0013|fullname=Kavaliere|gender=u|specialcase_entity=generic)))
+1436	von		0	(mention_id=168|references=(entity=(entity_id=generic_0013|fullname=Kavaliere|gender=u|specialcase_entity=generic)))
+1437	der		0	(mention_id=168|references=(entity=(entity_id=generic_0013|fullname=Kavaliere|gender=u|specialcase_entity=generic)))
+1438	Kavallerie	173	0	(mention_id=168|references=(entity=(entity_id=generic_0013|fullname=Kavaliere|gender=u|specialcase_entity=generic)))
+1439	–		0	
+1440	Sie	174	0	(mention_id=169|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+1441	wissen		0	
+1442	schon		0	
+1443	–		0	
+1444	ein		0	
+1445	wenig		0	
+1446	oben		0	
+1447	hinaus		0	
+1448	,		0	
+1449	wollen		0	
+1450	sich	175	0	(mention_id=170|references=(entity=(entity_id=generic_0014|fullname=Kavaliere|gender=u|specialcase_entity=generic)))
+1451	lediglich		0	
+1452	amüsieren		0	
+1453	;		0	
+1454	–		0	
+1455	–		0	
+1456	ich	176	0	(mention_id=171|references=(entity=(entity_id=entity_0003|fullname=Herr Wolff|gender=m)))
+1457	bin		0	
+1458	gern		0	
+1459	erbötig		0	
+1460	,		0	
+1461	falls		0	
+1462	Sie	177	0	(mention_id=172|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+1463	–		0	
+1464	–		0	
+1465	«		0	
+1466	Der		0	
+1467	Amtsrichter	178	0	(mention_id=173|references=(entity=(entity_id=entity_0002|fullname=Richard Weishaupt|gender=m)))
+1468	unterbrach		0	
+1469	ihn	179	0	(mention_id=174|references=(entity=(entity_id=entity_0003|fullname=Herr Wolff|gender=m)))
+1470	mit		0	
+1471	einem		0	
+1472	gewaltigen		0	
+1473	Räuspern		0	
+1474	.		0	
+1475	»		0	
+1476	Franz	180	0	(mention_id=175|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+1477	«		0	
+1478	,		0	
+1479	sagte		0	
+1480	er	181	0	(mention_id=176|references=(entity=(entity_id=entity_0002|fullname=Richard Weishaupt|gender=m)))
+1481	trocken		0	
+1482	,		0	
+1483	»		0	
+1484	was		0	
+1485	ist		0	
+1486	das		0	
+1487	für		0	
+1488	ein		0	
+1489	Turm		0	
+1490	dort		0	
+1491	drüben		0	
+1492	auf		0	
+1493	dem		0	
+1494	Berge		0	
+1495	?		0	
+1496	Du	182	0	(mention_id=177|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+1497	hast		0	
+1498	ja		0	
+1499	gestern		0	
+1500	die		0	
+1501	Generalstabskarte		0	
+1502	studiert		0	
+1503	.		0	
+1504	«		0	
+1505	»		0	
+1506	Die		0	
+1507	Hubertushöhe		0	
+1508	«		0	
+1509	,		0	
+1510	erwiderte		0	
+1511	der		0	
+1512	junge		0	
+1513	Mann	183	0	(mention_id=178|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+1514	,		0	
+1515	zu		0	
+1516	ihm	184	0	(mention_id=179|references=(entity=(entity_id=entity_0002|fullname=Richard Weishaupt|gender=m)))
+1517	tretend		0	
+1518	.		0	
+1519	»		0	
+1520	Gehört		0	
+1521	dem		0	
+1522	Freiherrn	185	0	(mention_id=180|references=(entity=(entity_id=entity_0052|fullname=Freiherr von Lobersberg|gender=m)))
+1523	von	185	0	(mention_id=180|references=(entity=(entity_id=entity_0052|fullname=Freiherr von Lobersberg|gender=m)))
+1524	Lobersberg	185	0	(mention_id=180|references=(entity=(entity_id=entity_0052|fullname=Freiherr von Lobersberg|gender=m)))
+1525	«		0	
+1526	,		0	
+1527	mischte		0	
+1528	sich	186	0	(mention_id=181|references=(entity=(entity_id=entity_0003|fullname=Herr Wolff|gender=m)))
+1529	Herr	187	0	(mention_id=182|references=(entity=(entity_id=entity_0003|fullname=Herr Wolff|gender=m)))
+1530	Wolff	187	0	(mention_id=182|references=(entity=(entity_id=entity_0003|fullname=Herr Wolff|gender=m)))
+1531	ein		0	
+1532	.		0	
+1533	»		0	
+1534	Interessiert		0	
+1535	mich	188	0	(mention_id=183|references=(entity=(entity_id=entity_0002|fullname=Richard Weishaupt|gender=m)))
+1536	gar		0	
+1537	nicht		0	
+1538	«		0	
+1539	,		0	
+1540	murmelte		0	
+1541	der		0	
+1542	Amtsrichter	189	0	(mention_id=184|references=(entity=(entity_id=entity_0002|fullname=Richard Weishaupt|gender=m)))
+1543	und		0	
+1544	fixierte		0	
+1545	,		0	
+1546	in		0	
+1547	Ermangelung		0	
+1548	eines		0	
+1549	Fernrohres		0	
+1550	,		0	
+1551	den		0	
+1552	Turm		0	
+1553	durch		0	
+1554	die		0	
+1555	hohle		0	
+1556	Hand		0	
+1557	.		0	
+1558	»		0	
+1559	Ich	190	0	(mention_id=185|references=(entity=(entity_id=entity_0003|fullname=Herr Wolff|gender=m)))
+1560	habe		0	
+1561	die		0	
+1562	Ehre		0	
+1563	,		0	
+1564	mich	191	0	(mention_id=186|references=(entity=(entity_id=entity_0003|fullname=Herr Wolff|gender=m)))
+1565	zu		0	
+1566	empfehlen		0	
+1567	«		0	
+1568	,		0	
+1569	schnarrte		0	
+1570	Wolff	192	0	(mention_id=187|references=(entity=(entity_id=entity_0003|fullname=Herr Wolff|gender=m)))
+1571	,		0	
+1572	»		0	
+1573	muß		0	
+1574	noch		0	
+1575	hinüber		0	
+1576	nach		0	
+1577	Lobersberg		0	
+1578	.		0	
+1579	«		0	
+1580	Der		0	
+1581	Amtsrichter	193	0	(mention_id=188|references=(entity=(entity_id=entity_0002|fullname=Richard Weishaupt|gender=m)))
+1582	nickte		0	
+1583	kurz		0	
+1584	;		0	
+1585	Linden	194	0	(mention_id=189|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+1586	begleitete		0	
+1587	den		0	
+1588	Agenten	195	0	(mention_id=190|references=(entity=(entity_id=entity_0003|fullname=Herr Wolff|gender=m)))
+1589	bis		0	
+1590	zur		0	
+1591	Tür		0	
+1592	und		0	
+1593	kam		0	
+1594	dann		0	
+1595	langsam		0	
+1596	zurück		0	
+1597	.		0	
+1598	»		0	
+1599	Nun		0	
+1600	erkläre		0	
+1601	mir	196	0	(mention_id=191|references=(entity=(entity_id=entity_0002|fullname=Richard Weishaupt|gender=m)))
+1602	,		0	
+1603	bitte		0	
+1604	«		0	
+1605	,		0	
+1606	fuhr		0	
+1607	der		0	
+1608	Freund	197	0	(mention_id=192|references=(entity=(entity_id=entity_0002|fullname=Richard Weishaupt|gender=m)))
+1609	auf		0	
+1610	ihn	198	0	(mention_id=193|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+1611	los		0	
+1612	,		0	
+1613	»		0	
+1614	wie		0	
+1615	kommst		0	
+1616	du	199	0	(mention_id=194|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+1617	zu		0	
+1618	diesem		0	
+1619	Menschen	200	0	(mention_id=195|references=(entity=(entity_id=entity_0003|fullname=Herr Wolff|gender=m)))
+1620	–		0	
+1621	was		0	
+1622	sage		0	
+1623	ich	201	0	(mention_id=196|references=(entity=(entity_id=entity_0002|fullname=Richard Weishaupt|gender=m)))
+1624	–		0	
+1625	zu		0	
+1626	dieser		0	
+1627	Ratte	202	0	(mention_id=197|references=(entity=(entity_id=entity_0003|fullname=Herr Wolff|gender=m)),(entity=(entity_id=entity_0003|fullname=Herr Wolff|gender=m)|specialcase_reference=figurative))
+1628	,		0	
+1629	die	203	0	(mention_id=198|references=(entity=(entity_id=entity_0003|fullname=Herr Wolff|gender=m)))
+1630	sich	204	0	(mention_id=199|references=(entity=(entity_id=entity_0003|fullname=Herr Wolff|gender=m)))
+1631	so		0	
+1632	unaufgefordert		0	
+1633	in		0	
+1634	deine	205	0	(mention_id=200|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+1635	Angelegenheiten		0	
+1636	drängt		0	
+1637	?		0	
+1638	«		0	
+1639	Die		0	
+1640	dunklen		0	
+1641	Augen		0	
+1642	Franz	206	0	(mention_id=201|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+1643	Lindens	206	0	(mention_id=201|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+1644	sahen		0	
+1645	wie		0	
+1646	erstaunt		0	
+1647	in		0	
+1648	das		0	
+1649	ärgerliche		0	
+1650	Antlitz		0	
+1651	des		0	
+1652	Amtsrichters	207	0	(mention_id=202|references=(entity=(entity_id=entity_0002|fullname=Richard Weishaupt|gender=m)))
+1653	.		0	
+1654	»		0	
+1655	Je		0	
+1656	nun		0	
+1657	,		0	
+1658	Richard	208	0	(mention_id=203|references=(entity=(entity_id=entity_0002|fullname=Richard Weishaupt|gender=m)))
+1659	,		0	
+1660	er	209	0	(mention_id=204|references=(entity=(entity_id=entity_0003|fullname=Herr Wolff|gender=m)))
+1661	ist		0	
+1662	des		0	
+1663	verstorbenen		0	
+1664	Onkels	210	0	(mention_id=205|references=(entity=(entity_id=entity_0024|fullname=Onkel des Franz Linden|gender=m)))
+1665	rechte		0	
+1666	Hand		0	
+1667	gewesen		0	
+1668	,		0	
+1669	sozusagen		0	
+1670	sein	211	0	(mention_id=206|references=(entity=(entity_id=entity_0024|fullname=Onkel des Franz Linden|gender=m)))
+1671	Faktotum	212	0	
+1672	,		0	
+1673	und		0	
+1674	schließlich		0	
+1675	–		0	
+1676	er	213	0	(mention_id=207|references=(entity=(entity_id=entity_0003|fullname=Herr Wolff|gender=m)))
+1677	darf		0	
+1678	wohl		0	
+1679	ein		0	
+1680	Wörtchen		0	
+1681	mitreden		0	
+1682	,		0	
+1683	da		0	
+1684	er	214	0	(mention_id=208|references=(entity=(entity_id=entity_0003|fullname=Herr Wolff|gender=m)))
+1685	leider		0	
+1686	Gottes		0	(mention_id=209|references=(entity=(entity_id=entity_0019|fullname=Gott|gender=u|specialcase_entity=nonfact)))
+1687	eine		0	
+1688	große		0	
+1689	Hypothek		0	
+1690	auf		0	
+1691	Niendorf		0	
+1692	stehen		0	
+1693	hat		0	
+1694	.		0	
+1695	«		0	
+1696	»		0	
+1697	Das		0	
+1698	berechtigt		0	
+1699	ihn	215	0	(mention_id=210|references=(entity=(entity_id=entity_0003|fullname=Herr Wolff|gender=m)))
+1700	noch		0	
+1701	nicht		0	
+1702	zu		0	
+1703	dem		0	
+1704	aufdringlichen		0	
+1705	Gebaren		0	
+1706	,		0	
+1707	das		0	
+1708	der		0	
+1709	Mann	216	0	(mention_id=211|references=(entity=(entity_id=entity_0003|fullname=Herr Wolff|gender=m)))
+1710	dir	217	0	(mention_id=212|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+1711	gegenüber		0	
+1712	entfaltet		0	
+1713	«		0	
+1714	,		0	
+1715	sagte		0	
+1716	der		0	
+1717	Kleine	218	0	(mention_id=213|references=(entity=(entity_id=entity_0002|fullname=Richard Weishaupt|gender=m)))
+1718	.		0	
+1719	»		0	
+1720	I		0	
+1721	,		0	
+1722	Kreisrichterchen	219	0	(mention_id=214|references=(entity=(entity_id=entity_0002|fullname=Richard Weishaupt|gender=m)))
+1723	«		0	
+1724	,		0	
+1725	entschuldigte		0	
+1726	der		0	
+1727	junge		0	
+1728	Mann	220	0	(mention_id=215|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+1729	,		0	
+1730	»		0	
+1731	er	221	0	(mention_id=216|references=(entity=(entity_id=entity_0003|fullname=Herr Wolff|gender=m)))
+1732	hält		0	
+1733	mich	222	0	(mention_id=217|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+1734	für		0	
+1735	einen		0	
+1736	Neuling	223	0	(mention_id=218|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+1737	,		0	
+1738	für		0	
+1739	einen		0	
+1740	Ignoranten	224	0	(mention_id=219|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+1741	in		0	
+1742	dem		0	
+1743	heiligen		0	
+1744	Getriebe		0	
+1745	einer		0	
+1746	Landwirtschaft		0	
+1747	.		0	
+1748	Du	225	0	(mention_id=220|references=(entity=(entity_id=entity_0002|fullname=Richard Weishaupt|gender=m)))
+1749	–		0	
+1750	–		0	
+1751	«		0	
+1752	»		0	
+1753	Und		0	
+1754	ich	226	0	(mention_id=221|references=(entity=(entity_id=entity_0002|fullname=Richard Weishaupt|gender=m)))
+1755	halte		0	
+1756	ihn	227	0	(mention_id=222|references=(entity=(entity_id=entity_0003|fullname=Herr Wolff|gender=m)))
+1757	für		0	
+1758	einen		0	
+1759	dunklen		0	
+1760	Ehrenmann	228	0	(mention_id=223|references=(entity=(entity_id=entity_0003|fullname=Herr Wolff|gender=m)))
+1761	!		0	
+1762	Und		0	
+1763	wenn		0	
+1764	wir	229	0	(mention_id=224|references=(entity=(entity_id=entity_0002|fullname=Richard Weishaupt|gender=m)),(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+1765	uns	230	0	(mention_id=225|references=(entity=(entity_id=entity_0002|fullname=Richard Weishaupt|gender=m)),(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+1766	wieder		0	
+1767	einmal		0	
+1768	sprechen		0	
+1769	,		0	
+1770	Goldsohn	231	0	(mention_id=226|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+1771	,		0	
+1772	wirst		0	
+1773	du	232	0	(mention_id=227|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+1774	mir	233	0	(mention_id=228|references=(entity=(entity_id=entity_0002|fullname=Richard Weishaupt|gender=m)))
+1775	sagen		0	
+1776	:		0	
+1777	›		0	
+1778	Richard	234	0	(mention_id=229|references=(entity=(entity_id=entity_0002|fullname=Richard Weishaupt|gender=m)))
+1779	,		0	
+1780	weiß		0	
+1781	Gott		0	
+1782	,		0	
+1783	du	235	0	(mention_id=230|references=(entity=(entity_id=entity_0002|fullname=Richard Weishaupt|gender=m)))
+1784	hattest		0	
+1785	recht		0	
+1786	mit		0	
+1787	diesem		0	
+1788	Menschen	236	0	(mention_id=231|references=(entity=(entity_id=entity_0003|fullname=Herr Wolff|gender=m)))
+1789	,		0	
+1790	der		0	
+1791	Kerl	237	0	(mention_id=232|references=(entity=(entity_id=entity_0003|fullname=Herr Wolff|gender=m)))
+1792	ist		0	
+1793	ein		0	
+1794	Spitzbube	238	0	(mention_id=233|references=(entity=(entity_id=entity_0003|fullname=Herr Wolff|gender=m)))
+1795	!		0	
+1796	‹		0	
+1797	«		0	
+1798	»		0	
+1799	Weißt		0	
+1800	du	239	0	(mention_id=234|references=(entity=(entity_id=entity_0002|fullname=Richard Weishaupt|gender=m)))
+1801	«		0	
+1802	,		0	
+1803	erklärte		0	
+1804	Franz	240	0	(mention_id=235|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+1805	Linden	240	0	(mention_id=235|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+1806	,		0	
+1807	zwischen		0	
+1808	Scherz		0	
+1809	und		0	
+1810	Ernst		0	
+1811	schwankend		0	
+1812	,		0	
+1813	»		0	
+1814	ich	241	0	(mention_id=236|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+1815	wollte		0	
+1816	,		0	
+1817	ich	242	0	(mention_id=237|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+1818	hätte		0	
+1819	dich	243	0	(mention_id=238|references=(entity=(entity_id=entity_0002|fullname=Richard Weishaupt|gender=m)))
+1820	ruhig		0	
+1821	in		0	
+1822	deiner	244	0	(mention_id=239|references=(entity=(entity_id=entity_0002|fullname=Richard Weishaupt|gender=m)))
+1823	Wohnung		0	
+1824	am		0	
+1825	Goethe-Platz		0	
+1826	gelassen		0	
+1827	.		0	
+1828	Du	245	0	(mention_id=240|references=(entity=(entity_id=entity_0002|fullname=Richard Weishaupt|gender=m)))
+1829	bist		0	
+1830	imstande		0	
+1831	,		0	
+1832	mir	246	0	(mention_id=241|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+1833	mit		0	
+1834	deinen	247	0	(mention_id=242|references=(entity=(entity_id=entity_0002|fullname=Richard Weishaupt|gender=m)))
+1835	morosen		0	
+1836	Ansichten		0	
+1837	alles		0	
+1838	,		0	
+1839	alles		0	
+1840	hier		0	
+1841	zu		0	
+1842	verekeln		0	
+1843	.		0	
+1844	Komm		0	
+1845	,		0	
+1846	wir	248	0	(mention_id=243|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)),(entity=(entity_id=entity_0002|fullname=Richard Weishaupt|gender=m)))
+1847	wollen		0	
+1848	einen		0	
+1849	Gang		0	
+1850	machen		0	
+1851	durch		0	
+1852	den		0	
+1853	Garten		0	
+1854	,		0	
+1855	dann		0	
+1856	wird		0	
+1857	es		0	
+1858	leider		0	
+1859	Zeit		0	
+1860	sein		0	
+1861	,		0	
+1862	daß		0	
+1863	du	249	0	(mention_id=244|references=(entity=(entity_id=entity_0002|fullname=Richard Weishaupt|gender=m)))
+1864	zur		0	
+1865	Bahn		0	
+1866	mußt		0	
+1867	,		0	
+1868	wenn		0	
+1869	du	250	0	(mention_id=245|references=(entity=(entity_id=entity_0002|fullname=Richard Weishaupt|gender=m)))
+1870	allerwegen		0	
+1871	noch		0	
+1872	den		0	
+1873	Kurierzug		0	
+1874	erreichen		0	
+1875	willst		0	
+1876	.		0	
+1877	«		0	
+1878	Er	251	0	(mention_id=246|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+1879	nahm		0	
+1880	des		0	
+1881	brummenden		0	
+1882	Freundes	252	0	(mention_id=247|references=(entity=(entity_id=entity_0002|fullname=Richard Weishaupt|gender=m)))
+1883	Arm		0	
+1884	und		0	
+1885	zog		0	
+1886	ihn	253	0	(mention_id=248|references=(entity=(entity_id=entity_0002|fullname=Richard Weishaupt|gender=m)))
+1887	mit		0	
+1888	sich	254	0	(mention_id=249|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+1889	,		0	
+1890	hinunter		0	
+1891	in		0	
+1892	die		0	
+1893	verschlungenen		0	
+1894	Wege		0	
+1895	,		0	
+1896	auf		0	
+1897	denen		0	
+1898	schon		0	
+1899	das		0	
+1900	welke		0	
+1901	Laub		0	
+1902	der		0	
+1903	Bäume		0	
+1904	lag		0	
+1905	.		0	
+1906	»		0	
+1907	Ich	255	0	(mention_id=250|references=(entity=(entity_id=entity_0002|fullname=Richard Weishaupt|gender=m)))
+1908	bin		0	
+1909	überzeugt		0	
+1910	,		0	
+1911	der		0	
+1912	Kerl	256	0	(mention_id=251|references=(entity=(entity_id=entity_0003|fullname=Herr Wolff|gender=m)))
+1913	hat		0	
+1914	ein		0	
+1915	Heiratsbüro		0	
+1916	«		0	
+1917	,		0	
+1918	murmelte		0	
+1919	ingrimmig		0	
+1920	der		0	
+1921	Amtsrichter	257	0	(mention_id=252|references=(entity=(entity_id=entity_0002|fullname=Richard Weishaupt|gender=m)))
+1922	.		0	
+1923	Als		0	
+1924	sie	258	0	(mention_id=253|references=(entity=(entity_id=entity_0002|fullname=Richard Weishaupt|gender=m)),(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+1925	um		0	
+1926	die		0	
+1927	Ecke		0	
+1928	eines		0	
+1929	verwilderten		0	
+1930	Bosketts		0	
+1931	gingen		0	
+1932	,		0	
+1933	sahen		0	
+1934	sie	259	0	(mention_id=254|references=(entity=(entity_id=entity_0002|fullname=Richard Weishaupt|gender=m)),(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+1935	jenseits		0	
+1936	des		0	
+1937	kleinen		0	
+1938	,		0	
+1939	ganz		0	
+1940	mit		0	
+1941	Wasserlinsen		0	
+1942	bedeckten		0	
+1943	Teiches		0	
+1944	eine		0	
+1945	alte		0	
+1946	Frau	260	0	(mention_id=255|references=(entity=(entity_id=entity_0011|fullname=Rosalie Kruse|gender=f)))
+1947	langsam		0	
+1948	dahinschreiten		0	
+1949	.		0	
+1950	»		0	
+1951	Ich	261	0	(mention_id=256|references=(entity=(entity_id=entity_0002|fullname=Richard Weishaupt|gender=m)))
+1952	bitte		0	
+1953	dich	262	0	(mention_id=257|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+1954	um		0	
+1955	Gottes		0	(mention_id=258|references=(entity=(entity_id=entity_0019|fullname=Gott|gender=u|specialcase_entity=nonfact)))
+1956	willen		0	
+1957	«		0	
+1958	,		0	
+1959	begann		0	
+1960	der		0	
+1961	Kleine	263	0	(mention_id=259|references=(entity=(entity_id=entity_0002|fullname=Richard Weishaupt|gender=m)))
+1962	wieder		0	
+1963	,		0	
+1964	»		0	
+1965	sieh		0	
+1966	dir	264	0	(mention_id=260|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+1967	diese		0	
+1968	Gestalt	265	0	(mention_id=261|references=(entity=(entity_id=entity_0011|fullname=Rosalie Kruse|gender=f)))
+1969	an		0	
+1970	,		0	
+1971	diese		0	
+1972	Haube		0	
+1973	mit		0	
+1974	der		0	
+1975	ungeheuren		0	
+1976	Trauerschleife		0	
+1977	,		0	
+1978	dieses		0	
+1979	wunderliche		0	
+1980	Kleid		0	
+1981	mit		0	
+1982	einer		0	
+1983	Taille		0	
+1984	,		0	
+1985	die		0	
+1986	unter		0	
+1987	den		0	
+1988	Armen		0	
+1989	sitzt		0	
+1990	.		0	
+1991	Und		0	
+1992	wie		0	
+1993	malerisch		0	
+1994	trägt		0	
+1995	sie	266	0	(mention_id=262|references=(entity=(entity_id=entity_0011|fullname=Rosalie Kruse|gender=f)))
+1996	den		0	
+1997	schwarzen		0	
+1998	Schal		0	
+1999	–		0	
+2000	weiß		0	
+2001	der		0	
+2002	Himmel		0	
+2003	,		0	
+2004	sie	267	0	(mention_id=263|references=(entity=(entity_id=entity_0011|fullname=Rosalie Kruse|gender=f)))
+2005	hat		0	
+2006	einen		0	
+2007	roten		0	
+2008	Parapluie		0	
+2009	!		0	
+2010	Goldsohn	268	0	(mention_id=264|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+2011	,		0	
+2012	den		0	
+2013	benutzt		0	
+2014	sie	269	0	(mention_id=265|references=(entity=(entity_id=entity_0011|fullname=Rosalie Kruse|gender=f)))
+2015	vermutlich		0	
+2016	,		0	
+2017	um		0	
+2018	am		0	
+2019	ersten		0	
+2020	Mai		0	
+2021	auf		0	
+2022	Urlaub		0	
+2023	zu		0	
+2024	gehen		0	
+2025	,		0	
+2026	respektive		0	
+2027	zu		0	
+2028	reiten		0	
+2029	;		0	
+2030	brr		0	
+2031	–		0	
+2032	und		0	
+2033	das		0	
+2034	ist		0	
+2035	deine	270	0	(mention_id=266|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+2036	einzige		0	
+2037	Gesellschaft		0	
+2038	!		0	
+2039	«		0	
+2040	In		0	
+2041	der		0	
+2042	Tat		0	
+2043	,		0	
+2044	sie	271	0	(mention_id=267|references=(entity=(entity_id=entity_0011|fullname=Rosalie Kruse|gender=f)))
+2045	sah		0	
+2046	wunderlich		0	
+2047	aus		0	
+2048	,		0	
+2049	diese		0	
+2050	alte		0	
+2051	Frau	272	0	(mention_id=268|references=(entity=(entity_id=entity_0011|fullname=Rosalie Kruse|gender=f)))
+2052	,		0	
+2053	wie		0	
+2054	sie	273	0	(mention_id=269|references=(entity=(entity_id=entity_0011|fullname=Rosalie Kruse|gender=f)))
+2055	so		0	
+2056	voller		0	
+2057	Grandezza		0	
+2058	dahinwandelte		0	
+2059	,		0	
+2060	als		0	
+2061	sei		0	
+2062	eins		0	
+2063	der		0	
+2064	verblichenen		0	
+2065	Pastellbilder		0	
+2066	aus		0	
+2067	dem		0	
+2068	Gartensaal		0	
+2069	wieder		0	
+2070	lebendig		0	
+2071	geworden		0	
+2072	.		0	
+2073	»		0	
+2074	Soll		0	
+2075	ich	274	0	(mention_id=270|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+2076	sie	275	0	(mention_id=271|references=(entity=(entity_id=entity_0011|fullname=Rosalie Kruse|gender=f)))
+2077	rufen		0	
+2078	?		0	
+2079	«		0	
+2080	fragte		0	
+2081	lächelnd		0	
+2082	Franz	276	0	(mention_id=272|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+2083	Linden	276	0	(mention_id=272|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+2084	.		0	
+2085	»		0	
+2086	Der		0	
+2087	Himmel		0	
+2088	bewahre		0	
+2089	uns	277	0	(mention_id=273|references=(entity=(entity_id=entity_0002|fullname=Richard Weishaupt|gender=m)),(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+2090	!		0	
+2091	«		0	
+2092	wehrte		0	
+2093	der		0	
+2094	andere	278	0	(mention_id=274|references=(entity=(entity_id=entity_0002|fullname=Richard Weishaupt|gender=m)))
+2095	.		0	
+2096	»		0	
+2097	Mir	279	0	(mention_id=275|references=(entity=(entity_id=entity_0002|fullname=Richard Weishaupt|gender=m)))
+2098	ist		0	
+2099	die		0	
+2100	Nähe		0	
+2101	des		0	
+2102	Blocksberges		0	
+2103	wirklich		0	
+2104	unheimlich		0	
+2105	,		0	
+2106	dein	280	0	(mention_id=276|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+2107	Herr	281	0	(mention_id=277|references=(entity=(entity_id=entity_0003|fullname=Herr Wolff|gender=m)))
+2108	Wolff	281	0	(mention_id=277|references=(entity=(entity_id=entity_0003|fullname=Herr Wolff|gender=m)))
+2109	sieht		0	
+2110	aus		0	
+2111	wie		0	
+2112	Mephisto	282	0	(mention_id=278|references=(entity=(entity_id=entity_0057|fullname=Mephisto|gender=m|specialcase_entity=nonfact)|specialcase_reference=figurative),(entity=(entity_id=entity_0003|fullname=Herr Wolff|gender=m)|specialcase_reference=figurative))
+2113	,		0	
+2114	und		0	
+2115	diese	283	0	(mention_id=279|references=(entity=(entity_id=entity_0011|fullname=Rosalie Kruse|gender=f)))
+2116	–		0	
+2117	nun		0	
+2118	,		0	
+2119	ich	284	0	(mention_id=280|references=(entity=(entity_id=entity_0002|fullname=Richard Weishaupt|gender=m)))
+2120	habe		0	
+2121	es		0	
+2122	eben		0	
+2123	angedeutet		0	
+2124	:		0	
+2125	sie	285	0	(mention_id=281|references=(entity=(entity_id=entity_0011|fullname=Rosalie Kruse|gender=f)))
+2126	ist		0	
+2127	eine		0	
+2128	peinliche		0	
+2129	Zugabe		0	
+2130	für		0	
+2131	dich	286	0	(mention_id=282|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+2132	,		0	
+2133	Franz.	287	0	(mention_id=283|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+2134	«		0	
+2135	Die		0	
+2136	wunderliche		0	
+2137	Frauengestalt	288	0	(mention_id=284|references=(entity=(entity_id=entity_0011|fullname=Rosalie Kruse|gender=f)))
+2138	war		0	
+2139	längst		0	
+2140	hinter		0	
+2141	den		0	
+2142	Büschen		0	
+2143	verschwunden		0	
+2144	,		0	
+2145	als		0	
+2146	der		0	
+2147	junge		0	
+2148	Mann	289	0	
+2149	endlich		0	
+2150	wie		0	
+2151	verloren		0	
+2152	antwortete		0	
+2153	:		0	
+2154	»		0	
+2155	Du	290	0	(mention_id=285|references=(entity=(entity_id=entity_0002|fullname=Richard Weishaupt|gender=m)))
+2156	siehst		0	
+2157	zu		0	
+2158	schwarz		0	
+2159	,		0	
+2160	Richard	291	0	(mention_id=286|references=(entity=(entity_id=entity_0002|fullname=Richard Weishaupt|gender=m)))
+2161	–		0	
+2162	inwiefern		0	
+2163	könnte		0	
+2164	dieses		0	
+2165	alte		0	
+2166	,		0	
+2167	dem		0	
+2168	Grabe		0	
+2169	zuwankende		0	
+2170	Menschenkind	292	0	(mention_id=287|references=(entity=(entity_id=entity_0011|fullname=Rosalie Kruse|gender=f)))
+2171	lästig		0	
+2172	sein		0	
+2173	?		0	
+2174	Sie	293	0	(mention_id=288|references=(entity=(entity_id=entity_0011|fullname=Rosalie Kruse|gender=f)))
+2175	lebt		0	
+2176	förmlich		0	
+2177	verschollen		0	
+2178	in		0	
+2179	ihrem	294	0	(mention_id=289|references=(entity=(entity_id=entity_0011|fullname=Rosalie Kruse|gender=f)))
+2180	Erkerstübchen		0	
+2181	.		0	
+2182	«		0	
+2183	»		0	
+2184	Nun		0	
+2185	,		0	
+2186	ich	295	0	(mention_id=290|references=(entity=(entity_id=entity_0002|fullname=Richard Weishaupt|gender=m)))
+2187	taxiere		0	
+2188	sie	296	0	(mention_id=291|references=(entity=(entity_id=entity_0011|fullname=Rosalie Kruse|gender=f)))
+2189	darauf		0	
+2190	,		0	
+2191	daß		0	
+2192	sie	297	0	(mention_id=292|references=(entity=(entity_id=entity_0011|fullname=Rosalie Kruse|gender=f)))
+2193	dich	298	0	(mention_id=293|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+2194	alle		0	
+2195	Augenblicke		0	
+2196	um		0	
+2197	etwas		0	
+2198	bitten		0	
+2199	wird		0	
+2200	–		0	
+2201	wenn		0	
+2202	sie	299	0	(mention_id=294|references=(entity=(entity_id=entity_0011|fullname=Rosalie Kruse|gender=f)))
+2203	friert		0	
+2204	,		0	
+2205	heizt		0	
+2206	der		0	
+2207	Ofen		0	
+2208	nicht		0	
+2209	gut		0	
+2210	,		0	
+2211	wenn		0	
+2212	sie	300	0	(mention_id=295|references=(entity=(entity_id=entity_0011|fullname=Rosalie Kruse|gender=f)))
+2213	Reißen		0	
+2214	hat		0	
+2215	,		0	
+2216	wirst		0	
+2217	du	301	0	(mention_id=296|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+2218	ihr	302	0	(mention_id=297|references=(entity=(entity_id=entity_0011|fullname=Rosalie Kruse|gender=f)))
+2219	eine		0	
+2220	Katze		0	
+2221	schießen		0	
+2222	müssen		0	
+2223	.		0	
+2224	Sie	303	0	(mention_id=298|references=(entity=(entity_id=entity_0011|fullname=Rosalie Kruse|gender=f)))
+2225	wird		0	
+2226	sich	304	0	(mention_id=299|references=(entity=(entity_id=entity_0011|fullname=Rosalie Kruse|gender=f)))
+2227	in		0	
+2228	deine	305	0	(mention_id=300|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+2229	Angelegenheiten		0	
+2230	mengen		0	
+2231	,		0	
+2232	deine	306	0	(mention_id=301|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+2233	Sachen		0	
+2234	verlegen		0	
+2235	und		0	
+2236	dir	307	0	(mention_id=302|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+2237	zahllose		0	
+2238	kleine		0	
+2239	Verdrießlichkeiten		0	
+2240	bereiten		0	
+2241	.		0	
+2242	Oh		0	
+2243	,		0	
+2244	alte		0	
+2245	Tanten	308	0	(mention_id=303|references=(entity=(entity_id=generic_0015|fullname=alte Tanten|gender=u|specialcase_entity=generic)))
+2246	sind		0	
+2247	eigens		0	
+2248	dazu		0	
+2249	erfunden		0	
+2250	,		0	
+2251	ihre	309	0	(mention_id=304|references=(entity=(entity_id=generic_0016|fullname=alte Tanten|gender=u|specialcase_entity=generic)))
+2252	Mitmenschen	310	0	(mention_id=305|references=(entity=(entity_id=generic_0017|fullname=Mitmenschen der alten Tanten|gender=u|specialcase_entity=generic)))
+2253	zu		0	
+2254	quälen		0	
+2255	.		0	
+2256	Aber		0	
+2257	es		0	
+2258	schadet		0	
+2259	nichts		0	
+2260	,		0	
+2261	koche		0	
+2262	du	311	0	(mention_id=306|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+2263	dir	312	0	(mention_id=307|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+2264	nur		0	
+2265	einen		0	
+2266	recht		0	
+2267	großen		0	
+2268	Topf		0	
+2269	voll		0	
+2270	Zuckerguß		0	
+2271	und		0	
+2272	glasiere		0	
+2273	alles		0	
+2274	damit		0	
+2275	.		0	
+2276	's		0	
+2277	wird		0	
+2278	nötig		0	
+2279	sein		0	
+2280	.		0	
+2281	–		0	
+2282	Ich	313	0	(mention_id=308|references=(entity=(entity_id=entity_0002|fullname=Richard Weishaupt|gender=m)))
+2283	glaube		0	
+2284	aber		0	
+2285	,		0	
+2286	Franz	314	0	(mention_id=309|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+2287	,		0	
+2288	es		0	
+2289	ist		0	
+2290	Zeit		0	
+2291	,		0	
+2292	der		0	
+2293	Eilzug		0	
+2294	wartet		0	
+2295	nicht		0	
+2296	.		0	
+2297	«		0	
+2298	Der		0	
+2299	Angeredete	315	0	(mention_id=310|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+2300	sah		0	
+2301	nach		0	
+2302	der		0	
+2303	Uhr		0	
+2304	,		0	
+2305	nickte		0	
+2306	mit		0	
+2307	dem		0	
+2308	Kopfe		0	
+2309	und		0	
+2310	ging		0	
+2311	eilig		0	
+2312	dem		0	
+2313	Hause		0	
+2314	zu		0	
+2315	,		0	
+2316	um		0	
+2317	das		0	
+2318	Anspannen		0	
+2319	zu		0	
+2320	bestellen		0	
+2321	.		0	
+2322	Gedankenschwer		0	
+2323	folgte		0	
+2324	ihm	316	0	(mention_id=311|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+2325	der		0	
+2326	Freund	317	0	(mention_id=312|references=(entity=(entity_id=entity_0002|fullname=Richard Weishaupt|gender=m)))
+2327	.		0	
+2328	Endlich		0	
+2329	stieß		0	
+2330	er	318	0	(mention_id=313|references=(entity=(entity_id=entity_0002|fullname=Richard Weishaupt|gender=m)))
+2331	ein		0	
+2332	halblautes		0	
+2333	»		0	
+2334	Donnerwetter		0	
+2335	!		0	
+2336	«		0	
+2337	heraus		0	
+2338	.		0	
+2339	»		0	
+2340	So		0	
+2341	ein		0	
+2342	Bild		0	
+2343	von		0	
+2344	einem		0	
+2345	Jungen	319	0	(mention_id=314|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+2346	«		0	
+2347	,		0	
+2348	räsonierte		0	
+2349	er	320	0	(mention_id=315|references=(entity=(entity_id=entity_0002|fullname=Richard Weishaupt|gender=m)))
+2350	innerlich		0	
+2351	weiter		0	
+2352	,		0	
+2353	»		0	
+2354	soll		0	
+2355	hier		0	
+2356	Hungerpfoten		0	
+2357	saugen		0	
+2358	auf		0	
+2359	dieser		0	
+2360	Bauernklitsche		0	
+2361	?		0	
+2362	Was		0	
+2363	wird		0	
+2364	er	321	0	(mention_id=316|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+2365	überhaupt		0	
+2366	für		0	
+2367	eine		0	
+2368	Rolle		0	
+2369	spielen		0	
+2370	unter		0	
+2371	den		0	
+2372	reichen		0	
+2373	Grundbesitzern	322	0	(mention_id=317|references=(entity=(entity_id=generic_0018|fullname=reiche Grundbesitzer|gender=u|specialcase_entity=generic)))
+2374	dieses		0	
+2375	gesegneten		0	
+2376	Landstriches		0	
+2377	?		0	
+2378	Hätte		0	
+2379	doch		0	
+2380	der		0	
+2381	Selige	323	0	
+2382	Gott		0	(mention_id=318|references=(entity=(entity_id=entity_0019|fullname=Gott|gender=u|specialcase_entity=nonfact)))
+2383	weiß		0	
+2384	wen		0	(mention_id=319|references=(entity=(entity_id=entity_0033|fullname=imaginärer Erbe|gender=m|specialcase_entity=nonfact)))
+2385	zum		0	
+2386	Erben	324	0	(mention_id=320|references=(entity=(entity_id=entity_0033|fullname=imaginärer Erbe|gender=m|specialcase_entity=nonfact)))
+2387	auserkoren		0	
+2388	,		0	
+2389	nur		0	
+2390	den	325	0	(mention_id=321|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+2391	nicht		0	
+2392	–		0	
+2393	soll		0	
+2394	sich's	326	0	
+2395	auch		0	
+2396	noch		0	
+2397	zur		0	
+2398	Ehre		0	
+2399	schätzen		0	
+2400	!		0	
+2401	Was		0	
+2402	hätte		0	
+2403	er	327	0	(mention_id=322|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+2404	für		0	
+2405	Karriere		0	
+2406	machen		0	
+2407	können		0	
+2408	!		0	
+2409	Versauern		0	
+2410	und		0	
+2411	verbauern		0	
+2412	wird		0	
+2413	er	328	0	(mention_id=323|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+2414	hier		0	
+2415	,		0	
+2416	und		0	
+2417	diese	329	0	
+2418	–		0	
+2419	hole		0	
+2420	der		0	
+2421	Henker	330	0	(mention_id=324|references=(entity=(entity_id=entity_0044|fullname=Henker|gender=m|specialcase_entity=nonfact)))
+2422	das		0	
+2423	ganze		0	
+2424	Niendorf		0	
+2425	!		0	
+2426	Hätte		0	
+2427	ich	331	0	(mention_id=325|references=(entity=(entity_id=entity_0002|fullname=Richard Weishaupt|gender=m)))
+2428	ihn	332	0	(mention_id=326|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+2429	nur		0	
+2430	wieder		0	
+2431	daheim		0	
+2432	im		0	
+2433	lustigen		0	
+2434	Frankfurt		0	
+2435	–		0	
+2436	Herrrr	333	0	(mention_id=327|references=(entity=(entity_id=entity_0019|fullname=Gott|gender=u|specialcase_entity=nonfact)))
+2437	,		0	
+2438	es		0	
+2439	ist		0	
+2440	–		0	
+2441	–		0	
+2442	«		0	
+2443	Ein		0	
+2444	Viertelstündchen		0	
+2445	später		0	
+2446	saßen		0	
+2447	die		0	
+2448	Freunde	334	0	(mention_id=328|references=(entity=(entity_id=entity_0002|fullname=Richard Weishaupt|gender=m)),(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+2449	in		0	
+2450	einem		0	
+2451	etwas		0	
+2452	altmodischen		0	
+2453	Gefährt		0	
+2454	und		0	
+2455	rollten		0	
+2456	der		0	
+2457	Kreisstadt		0	
+2458	zu		0	
+2459	.		0	
+2460	Hinter		0	
+2461	ihnen	335	0	(mention_id=329|references=(entity=(entity_id=entity_0002|fullname=Richard Weishaupt|gender=m)),(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+2462	versank		0	
+2463	das		0	
+2464	stille		0	
+2465	Harzdörfchen		0	
+2466	,		0	
+2467	und		0	
+2468	eine		0	
+2469	vieltürmige		0	
+2470	Stadt		0	
+2471	zeigte		0	
+2472	sich		0	
+2473	am		0	
+2474	Horizont		0	
+2475	ihren	336	0	(mention_id=330|references=(entity=(entity_id=entity_0002|fullname=Richard Weishaupt|gender=m)),(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+2476	Blicken		0	
+2477	.		0	
+2478	Allzu		0	
+2479	weit		0	
+2480	hatten		0	
+2481	sie	337	0	(mention_id=331|references=(entity=(entity_id=entity_0002|fullname=Richard Weishaupt|gender=m)),(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+2482	nicht		0	
+2483	zu		0	
+2484	fahren		0	
+2485	,		0	
+2486	in		0	
+2487	Zeit		0	
+2488	einer		0	
+2489	Stunde		0	
+2490	war		0	
+2491	das		0	
+2492	Ziel		0	
+2493	erreicht		0	
+2494	,		0	
+2495	und		0	
+2496	der		0	
+2497	Wagen		0	
+2498	hielt		0	
+2499	vor		0	
+2500	dem		0	
+2501	stattlichen		0	
+2502	Bahnhofsgebäude		0	
+2503	.		0	
+2504	So		0	
+2505	schweigend		0	
+2506	wie		0	
+2507	sie	338	0	(mention_id=332|references=(entity=(entity_id=entity_0002|fullname=Richard Weishaupt|gender=m)),(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+2508	gekommen		0	
+2509	,		0	
+2510	wurde		0	
+2511	Billett		0	
+2512	und		0	
+2513	Gepäck		0	
+2514	besorgt		0	
+2515	,		0	
+2516	und		0	
+2517	erst		0	
+2518	auf		0	
+2519	dem		0	
+2520	Perron		0	
+2521	begann		0	
+2522	Linden	339	0	(mention_id=333|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+2523	zu		0	
+2524	sprechen		0	
+2525	.		0	
+2526	»		0	
+2527	Grüß		0	
+2528	mir	340	0	(mention_id=334|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+2529	Frankfurt		0	
+2530	,		0	
+2531	Richard	341	0	(mention_id=335|references=(entity=(entity_id=entity_0002|fullname=Richard Weishaupt|gender=m)))
+2532	,		0	
+2533	und		0	
+2534	die		0	
+2535	Kollegen	342	0	(mention_id=336|references=(entity=(entity_id=entity_0039|fullname=Kollegen von Weishaupt|gender=m|specialcase_entity=group)))
+2536	.		0	
+2537	Schreibe		0	
+2538	mir	343	0	(mention_id=337|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+2539	auch		0	
+2540	mal		0	
+2541	,		0	
+2542	wenn		0	
+2543	du	344	0	(mention_id=338|references=(entity=(entity_id=entity_0002|fullname=Richard Weishaupt|gender=m)))
+2544	Zeit		0	
+2545	hast		0	
+2546	.		0	
+2547	Sorge		0	
+2548	,		0	
+2549	daß		0	
+2550	ich	345	0	(mention_id=339|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+2551	meine	346	0	(mention_id=340|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+2552	Möbel		0	
+2553	und		0	
+2554	Bücher		0	
+2555	bald		0	
+2556	bekomme		0	
+2557	,		0	
+2558	und		0	
+2559	nun		0	
+2560	vielen		0	
+2561	Dank		0	
+2562	für		0	
+2563	deine	347	0	(mention_id=341|references=(entity=(entity_id=entity_0002|fullname=Richard Weishaupt|gender=m)))
+2564	Begleitung		0	
+2565	nach		0	
+2566	hier		0	
+2567	.		0	
+2568	«		0	
+2569	Der		0	
+2570	Amtsrichter	348	0	(mention_id=342|references=(entity=(entity_id=entity_0002|fullname=Richard Weishaupt|gender=m)))
+2571	machte		0	
+2572	eine		0	
+2573	abwehrende		0	
+2574	Bewegung		0	
+2575	mit		0	
+2576	der		0	
+2577	Hand		0	
+2578	.		0	
+2579	»		0	
+2580	Wollte		0	
+2581	Gott		0	(mention_id=343|references=(entity=(entity_id=entity_0019|fullname=Gott|gender=u|specialcase_entity=nonfact)))
+2582	,		0	
+2583	ich	349	0	(mention_id=344|references=(entity=(entity_id=entity_0002|fullname=Richard Weishaupt|gender=m)))
+2584	könnte		0	
+2585	dich	350	0	(mention_id=345|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+2586	mit		0	
+2587	zurücknehmen		0	
+2588	,		0	
+2589	Franz	351	0	(mention_id=346|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+2590	«		0	
+2591	,		0	
+2592	sagte		0	
+2593	er	352	0	(mention_id=347|references=(entity=(entity_id=entity_0002|fullname=Richard Weishaupt|gender=m)))
+2594	beinahe		0	
+2595	weich		0	
+2596	,		0	
+2597	»		0	
+2598	du	353	0	(mention_id=348|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+2599	glaubst		0	
+2600	nicht		0	
+2601	,		0	
+2602	wie		0	
+2603	du	354	0	(mention_id=349|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+2604	mir	355	0	(mention_id=350|references=(entity=(entity_id=entity_0002|fullname=Richard Weishaupt|gender=m)))
+2605	fehlen		0	
+2606	wirst		0	
+2607	.		0	
+2608	Mit		0	
+2609	dem		0	
+2610	Schreiben		0	
+2611	ist		0	
+2612	das		0	
+2613	so		0	
+2614	so		0	
+2615	bei		0	
+2616	mir	356	0	(mention_id=351|references=(entity=(entity_id=entity_0002|fullname=Richard Weishaupt|gender=m)))
+2617	,		0	
+2618	du	357	0	(mention_id=352|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+2619	kennst		0	
+2620	mich	358	0	(mention_id=353|references=(entity=(entity_id=entity_0002|fullname=Richard Weishaupt|gender=m)))
+2621	ja		0	
+2622	,		0	
+2623	du	359	0	(mention_id=354|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+2624	bist		0	
+2625	fixer		0	
+2626	bei		0	
+2627	der		0	
+2628	Hand		0	
+2629	damit		0	
+2630	,		0	
+2631	wirst		0	
+2632	auch		0	
+2633	mehr		0	
+2634	Zeit		0	
+2635	haben		0	
+2636	–		0	
+2637	–		0	
+2638	«		0	
+2639	Das		0	
+2640	Pfeifen		0	
+2641	,		0	
+2642	das		0	
+2643	Rollen		0	
+2644	und		0	
+2645	Rasseln		0	
+2646	des		0	
+2647	heranbrausenden		0	
+2648	Zuges		0	
+2649	schnitt		0	
+2650	ihm	360	0	(mention_id=355|references=(entity=(entity_id=entity_0002|fullname=Richard Weishaupt|gender=m)))
+2651	das		0	
+2652	Wort		0	
+2653	ab		0	
+2654	;		0	
+2655	schon		0	
+2656	im		0	
+2657	nächsten		0	
+2658	Moment		0	
+2659	saß		0	
+2660	er	361	0	(mention_id=356|references=(entity=(entity_id=entity_0002|fullname=Richard Weishaupt|gender=m)))
+2661	in		0	
+2662	einem		0	
+2663	Coupe		0	
+2664	.		0	
+2665	»		0	
+2666	Adieu		0	
+2667	,		0	
+2668	Franz	362	0	(mention_id=357|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+2669	–		0	
+2670	komm		0	
+2671	noch		0	
+2672	einmal		0	
+2673	dicht		0	
+2674	heran		0	
+2675	,		0	
+2676	alter		0	
+2677	Junge	363	0	(mention_id=358|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+2678	–		0	
+2679	sieh		0	
+2680	,		0	
+2681	wenn		0	
+2682	du	364	0	(mention_id=359|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+2683	in		0	
+2684	ernstlicher		0	
+2685	Verlegenheit		0	
+2686	bist		0	
+2687	,		0	
+2688	schreibe		0	
+2689	mir	365	0	(mention_id=360|references=(entity=(entity_id=entity_0002|fullname=Richard Weishaupt|gender=m)))
+2690	zuerst		0	
+2691	davon		0	
+2692	.		0	
+2693	Wenn		0	
+2694	ich	366	0	(mention_id=361|references=(entity=(entity_id=entity_0002|fullname=Richard Weishaupt|gender=m)))
+2695	auch		0	
+2696	selbst		0	
+2697	nicht		0	
+2698	in		0	
+2699	der		0	
+2700	Lage		0	
+2701	–		0	
+2702	du	367	0	(mention_id=362|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+2703	weißt		0	
+2704	,		0	
+2705	meine	368	0	(mention_id=363|references=(entity=(entity_id=entity_0002|fullname=Richard Weishaupt|gender=m)))
+2706	Schwester	369	0	(mention_id=364|references=(entity=(entity_id=entity_0054|fullname=Schwester des Amtsrichters Weishaupt|gender=f)))
+2707	ist		0	
+2708	in		0	
+2709	guter		0	
+2710	Lage		0	
+2711	.		0	
+2712	«		0	
+2713	Noch		0	
+2714	ein		0	
+2715	Händedruck		0	
+2716	,		0	
+2717	noch		0	
+2718	ein		0	
+2719	Blick		0	
+2720	in		0	
+2721	zwei		0	
+2722	ehrliche		0	
+2723	Männeraugen		0	
+2724	,		0	
+2725	und		0	
+2726	Franz	370	0	(mention_id=365|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+2727	Linden	370	0	(mention_id=365|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+2728	stand		0	
+2729	allein		0	
+2730	auf		0	
+2731	dem		0	
+2732	Bahnhof		0	
+2733	.		0	
+2734	Langsam		0	
+2735	wandte		0	
+2736	er	371	0	(mention_id=366|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+2737	sich	372	0	(mention_id=367|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+2738	und		0	
+2739	schritt		0	
+2740	vom		0	
+2741	Perron		0	
+2742	hinunter		0	
+2743	seinem	373	0	(mention_id=368|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+2744	Wagen		0	
+2745	zu		0	
+2746	.		0	
+2747	Er	374	0	(mention_id=369|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+2748	hatte		0	
+2749	schon		0	
+2750	den		0	
+2751	Fuß		0	
+2752	auf		0	
+2753	dem		0	
+2754	Tritt		0	
+2755	,		0	
+2756	als		0	
+2757	er	375	0	(mention_id=370|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+2758	sich	376	0	(mention_id=371|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+2759	besann		0	
+2760	und		0	
+2761	dem		0	
+2762	Kutscher	377	0	(mention_id=372|references=(entity=(entity_id=entity_0037|fullname=Kutscher am Bahnhof|gender=m)))
+2763	befahl		0	
+2764	,		0	
+2765	im		0	
+2766	Hotel		0	
+2767	auszuspannen		0	
+2768	,		0	
+2769	er	378	0	(mention_id=373|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+2770	habe		0	
+2771	in		0	
+2772	der		0	
+2773	Stadt		0	
+2774	zu		0	
+2775	tun		0	
+2776	.		0	
+2777	Er	379	0	(mention_id=374|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+2778	war		0	
+2779	so		0	
+2780	völlig		0	
+2781	im		0	
+2782	Bann		0	
+2783	des		0	
+2784	unbehaglichen		0	
+2785	Gefühles		0	
+2786	,		0	
+2787	das		0	
+2788	nach		0	
+2789	der		0	
+2790	Trennung		0	
+2791	von		0	
+2792	liebgewordenen		0	
+2793	Menschen	380	0	(mention_id=375|references=(entity=(entity_id=generic_0019|fullname=liebgewordene Menschen|gender=u|specialcase_entity=generic)),(entity=(entity_id=entity_0002|fullname=Richard Weishaupt|gender=m)))
+2794	das		0	
+2795	Herz		0	
+2796	erfüllt		0	
+2797	,		0	
+2798	daß		0	
+2799	er	381	0	(mention_id=376|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+2800	in		0	
+2801	keineswegs		0	
+2802	gehobener		0	
+2803	Stimmung		0	
+2804	die		0	
+2805	Straße		0	
+2806	zur		0	
+2807	Stadt		0	
+2808	hinabschritt		0	
+2809	.		0	
+2810	Am		0	
+2811	Eingang		0	
+2812	derselben		0	
+2813	bog		0	
+2814	er	382	0	(mention_id=377|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+2815	zur		0	
+2816	Seite		0	
+2817	und		0	
+2818	verfolgte		0	
+2819	einen		0	
+2820	menschenleeren		0	
+2821	Weg		0	
+2822	,		0	
+2823	der		0	
+2824	an		0	
+2825	der		0	
+2826	wohlerhaltenen		0	
+2827	alten		0	
+2828	Stadtmauer		0	
+2829	entlangführte		0	
+2830	.		0	
+2831	Wohin		0	
+2832	er	383	0	(mention_id=378|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+2833	wollte		0	
+2834	,		0	
+2835	wußte		0	
+2836	er	384	0	(mention_id=379|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+2837	selbst		0	
+2838	nicht		0	
+2839	.		0	
+2840	Er	385	0	(mention_id=380|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+2841	hatte		0	
+2842	gar		0	
+2843	nichts		0	
+2844	hier		0	
+2845	zu		0	
+2846	suchen		0	
+2847	,		0	
+2848	er	386	0	(mention_id=381|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+2849	kannte		0	
+2850	keinen		0	
+2851	Menschen	387	0	(mention_id=382|references=(entity=(entity_id=generic_0020|fullname=Menschen|gender=u|specialcase_entity=generic)))
+2852	,		0	
+2853	aber		0	
+2854	er	388	0	(mention_id=383|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+2855	mußte		0	
+2856	sich	389	0	(mention_id=384|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+2857	doch		0	
+2858	etwas		0	
+2859	orientieren		0	
+2860	in		0	
+2861	seiner	390	0	(mention_id=385|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+2862	Nachbarschaft		0	
+2863	.		0	
+2864	Sie		0	
+2865	schien		0	
+2866	in		0	
+2867	der		0	
+2868	Tat		0	
+2869	ihren		0	
+2870	Ruf		0	
+2871	als		0	
+2872	alte		0	
+2873	deutsche		0	
+2874	Kaiserstadt		0	
+2875	zu		0	
+2876	rechtfertigen		0	
+2877	.		0	
+2878	Trotzig		0	
+2879	lag		0	
+2880	das		0	
+2881	Schloß		0	
+2882	mit		0	
+2883	dem		0	
+2884	berühmten		0	
+2885	Dome		0	
+2886	auf		0	
+2887	steilem		0	
+2888	Fels		0	
+2889	:		0	
+2890	aus		0	
+2891	dem		0	
+2892	Gewirre		0	
+2893	roter		0	
+2894	spitzgiebliger		0	
+2895	Dächer		0	
+2896	ragte		0	
+2897	manch		0	
+2898	schlanker		0	
+2899	Kirchturm		0	
+2900	empor		0	
+2901	,		0	
+2902	und		0	
+2903	wie		0	
+2904	ein		0	
+2905	fester		0	
+2906	Kranz		0	
+2907	umgaben		0	
+2908	noch		0	
+2909	heute		0	
+2910	Wall		0	
+2911	und		0	
+2912	Mauern		0	
+2913	die		0	
+2914	Altstadt		0	
+2915	,		0	
+2916	regelmäßig		0	
+2917	unterbrochen		0	
+2918	durch		0	
+2919	plumpe		0	
+2920	,		0	
+2921	viereckige		0	
+2922	Warttürme		0	
+2923	.		0	
+2924	Er	391	0	(mention_id=386|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+2925	freute		0	
+2926	sich	392	0	(mention_id=387|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+2927	über		0	
+2928	das		0	
+2929	hübsche		0	
+2930	Bild		0	
+2931	.		0	
+2932	Und		0	
+2933	wie		0	
+2934	er	393	0	(mention_id=388|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+2935	so		0	
+2936	dahinschritt		0	
+2937	,		0	
+2938	ließ		0	
+2939	seine	394	0	(mention_id=389|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+2940	Phantasie		0	
+2941	die		0	
+2942	prächtige		0	
+2943	Kaiserstadt		0	
+2944	aufwachen		0	
+2945	aus		0	
+2946	tausendjährigem		0	
+2947	Schlummer		0	
+2948	.		0	
+2949	Nach		0	
+2950	einem		0	
+2951	Weilchen		0	
+2952	blieb		0	
+2953	er	395	0	(mention_id=390|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+2954	stehen		0	
+2955	und		0	
+2956	sah		0	
+2957	zu		0	
+2958	einer		0	
+2959	der		0	
+2960	grauen		0	
+2961	Warten		0	
+2962	empor		0	
+2963	.		0	
+2964	»		0	
+2965	Wirklich		0	
+2966	,		0	
+2967	beinah		0	
+2968	wie		0	
+2969	das		0	
+2970	Eschenheimer		0	
+2971	Tor		0	
+2972	in		0	
+2973	Frankfurt		0	
+2974	«		0	
+2975	,		0	
+2976	sagte		0	
+2977	er	396	0	(mention_id=391|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+2978	halblaut		0	
+2979	,		0	
+2980	»		0	
+2981	was		0	
+2982	für		0	
+2983	wunderliche		0	
+2984	Sprünge		0	
+2985	machen		0	
+2986	die		0	
+2987	Gedanken		0	
+2988	!		0	
+2989	«		0	
+2990	–		0	
+2991	Er	397	0	(mention_id=392|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+2992	befand		0	
+2993	sich	398	0	(mention_id=393|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+2994	plötzlich		0	
+2995	wieder		0	
+2996	mitten		0	
+2997	in		0	
+2998	der		0	
+2999	Gegenwart		0	
+3000	.		0	
+3001	Noch		0	
+3002	vor		0	
+3003	kaum		0	
+3004	vier		0	
+3005	Wochen		0	
+3006	war		0	
+3007	er	399	0	(mention_id=394|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+3008	unter		0	
+3009	dem		0	
+3010	schönen		0	
+3011	Tor		0	
+3012	dahingegangen		0	
+3013	,		0	
+3014	ohne		0	
+3015	zu		0	
+3016	ahnen		0	
+3017	,		0	
+3018	daß		0	
+3019	er	400	0	(mention_id=395|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+3020	diesen		0	
+3021	Kollegen	401	0	
+3022	in		0	
+3023	Norddeutschland		0	
+3024	so		0	
+3025	bald		0	
+3026	schon		0	
+3027	begrüßen		0	
+3028	würde		0	
+3029	.		0	
+3030	–		0	
+3031	Gleich		0	
+3032	einem		0	
+3033	Blitze		0	
+3034	aus		0	
+3035	heiterem		0	
+3036	Himmel		0	
+3037	war		0	
+3038	diese		0	
+3039	Erbschaft		0	
+3040	gekommen		0	
+3041	,		0	
+3042	die		0	
+3043	ihn	402	0	(mention_id=396|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+3044	zum		0	
+3045	Besitzer	403	0	(mention_id=397|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+3046	von		0	
+3047	Niendorf		0	
+3048	machte		0	
+3049	.		0	
+3050	–		0	
+3051	Wie		0	
+3052	der		0	
+3053	alte		0	
+3054	Bruder	404	0	(mention_id=398|references=(entity=(entity_id=entity_0024|fullname=Onkel des Franz Linden|gender=m)))
+3055	seines	405	0	(mention_id=399|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+3056	Großvaters	406	0	(mention_id=400|references=(entity=(entity_id=entity_0043|fullname=Großvater von Franz Linden|gender=m)))
+3057	darauf		0	
+3058	verfallen		0	
+3059	war		0	
+3060	,		0	
+3061	gerade		0	
+3062	ihn	407	0	(mention_id=401|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+3063	aus		0	
+3064	der		0	
+3065	ganzen		0	
+3066	zahlreichen		0	
+3067	Verwandtschaft		0	
+3068	zum		0	
+3069	Erben	408	0	(mention_id=402|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+3070	einzusetzen		0	
+3071	,		0	
+3072	es		0	
+3073	blieb		0	
+3074	fast		0	
+3075	ein		0	
+3076	Rätsel		0	
+3077	und		0	
+3078	ließ		0	
+3079	sich		0	
+3080	nur		0	
+3081	auf		0	
+3082	die		0	
+3083	besondere		0	
+3084	Zuneigung		0	
+3085	zu		0	
+3086	der		0	
+3087	Mutter	409	0	(mention_id=403|references=(entity=(entity_id=entity_0029|fullname=Mutter des Franz Linden|gender=f)))
+3088	des		0	
+3089	jungen		0	
+3090	Mannes	410	0	(mention_id=404|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+3091	zurückführen		0	
+3092	,		0	
+3093	die	411	0	(mention_id=405|references=(entity=(entity_id=entity_0029|fullname=Mutter des Franz Linden|gender=f)))
+3094	der		0	
+3095	alte		0	
+3096	Sonderling	412	0	(mention_id=406|references=(entity=(entity_id=entity_0024|fullname=Onkel des Franz Linden|gender=m)))
+3097	immer		0	
+3098	bevorzugt		0	
+3099	hatte		0	
+3100	.		0	
+3101	Es		0	
+3102	war		0	
+3103	ihm	413	0	(mention_id=407|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+3104	aber		0	
+3105	beim		0	
+3106	Empfange		0	
+3107	der		0	
+3108	Nachricht		0	
+3109	gewesen		0	
+3110	,		0	
+3111	als		0	
+3112	falle		0	
+3113	ein		0	
+3114	goldener		0	
+3115	Regen		0	
+3116	in		0	
+3117	seinen	414	0	(mention_id=408|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+3118	Schoß		0	
+3119	.		0	
+3120	Es		0	
+3121	lebt		0	
+3122	sich		0	
+3123	schlecht		0	
+3124	in		0	
+3125	einer		0	
+3126	Millionenstadt		0	
+3127	mit		0	
+3128	dem		0	
+3129	Einkommen		0	
+3130	eines		0	
+3131	Assessors	415	0	(mention_id=409|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)),(entity=(entity_id=generic_0028|fullname=Assessor|gender=u|specialcase_entity=generic)))
+3132	.		0	
+3133	Und		0	
+3134	dann		0	
+3135	–		0	
+3136	er	416	0	(mention_id=410|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+3137	hatte		0	
+3138	in		0	
+3139	dem		0	
+3140	glänzenden		0	
+3141	verwirrenden		0	
+3142	Leben		0	
+3143	dort		0	
+3144	eine		0	
+3145	Herzenswunde		0	
+3146	empfangen		0	
+3147	,		0	
+3148	und		0	
+3149	die		0	
+3150	Narbe		0	
+3151	brannte		0	
+3152	zuweilen		0	
+3153	noch		0	
+3154	.		0	
+3155	Das		0	
+3156	war		0	
+3157	,		0	
+3158	wenn		0	
+3159	an		0	
+3160	ihm	417	0	(mention_id=411|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+3161	eine		0	
+3162	elegante		0	
+3163	Equipage		0	
+3164	vorübersauste		0	
+3165	–		0	
+3166	schwarz		0	
+3167	die		0	
+3168	Pferde		0	
+3169	,		0	
+3170	schwarz		0	
+3171	mit		0	
+3172	Silber		0	
+3173	die		0	
+3174	Livreen		0	
+3175	und		0	
+3176	im		0	
+3177	mattgrauen		0	
+3178	Fond		0	
+3179	eine		0	
+3180	Frauengestalt	418	0	(mention_id=412|references=(entity=(entity_id=generic_0029|fullname=Frauengestalt|gender=u|specialcase_entity=generic)))
+3181	,		0	
+3182	dunkle		0	
+3183	Straußfedern		0	
+3184	über		0	
+3185	dem		0	
+3186	marmorweißen		0	
+3187	Gesicht		0	
+3188	,		0	
+3189	goldigbraun		0	
+3190	der		0	
+3191	üppige		0	
+3192	Haarknoten		0	
+3193	im		0	
+3194	Nacken		0	
+3195	,		0	
+3196	und		0	
+3197	ach		0	
+3198	!		0	
+3199	so		0	
+3200	fremd		0	
+3201	ihn	419	0	(mention_id=413|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+3202	anblickend		0	
+3203	aus		0	
+3204	den		0	
+3205	großen		0	
+3206	,		0	
+3207	blauen		0	
+3208	Augen		0	
+3209	.		0	
+3210	–		0	
+3211	Er	420	0	(mention_id=414|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+3212	war		0	
+3213	dann		0	
+3214	verstimmt		0	
+3215	auf		0	
+3216	Tage		0	
+3217	nach		0	
+3218	solchem		0	
+3219	Begegnen		0	
+3220	.		0	
+3221	»		0	
+3222	Eine		0	
+3223	Modepuppe	421	0	(mention_id=415|references=(entity=(entity_id=generic_0030|fullname=Frauengestalt|gender=u|specialcase_entity=generic)))
+3224	,		0	
+3225	ein		0	
+3226	herzloses		0	
+3227	Weib	422	0	(mention_id=416|references=(entity=(entity_id=generic_0031|fullname=Frauengestalt|gender=u|specialcase_entity=generic)))
+3228	«		0	
+3229	,		0	
+3230	nannte		0	
+3231	er	423	0	(mention_id=417|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+3232	sie	424	0	(mention_id=418|references=(entity=(entity_id=generic_0032|fullname=Frauengestalt|gender=u|specialcase_entity=generic)))
+3233	bitter		0	
+3234	;		0	
+3235	aber		0	
+3236	er	425	0	(mention_id=419|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+3237	hatte		0	
+3238	doch		0	
+3239	einmal		0	
+3240	das		0	
+3241	Gegenteil		0	
+3242	geglaubt		0	
+3243	,		0	
+3244	ein		0	
+3245	ganzes		0	
+3246	Jahr		0	
+3247	lang		0	
+3248	,		0	
+3249	bis		0	
+3250	er	426	0	(mention_id=420|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+3251	eines		0	
+3252	Morgens		0	
+3253	ihre	427	0	(mention_id=421|references=(entity=(entity_id=entity_0026|fullname=Thea|gender=f)))
+3254	Verlobungsanzeige		0	
+3255	in		0	
+3256	der		0	
+3257	Hand		0	
+3258	hielt		0	
+3259	.		0	
+3260	Sie	428	0	(mention_id=422|references=(entity=(entity_id=entity_0026|fullname=Thea|gender=f)))
+3261	heiratete		0	
+3262	einen		0	
+3263	Bankier	429	0	(mention_id=423|references=(entity=(entity_id=entity_0025|fullname=Bankier|gender=m)))
+3264	,		0	
+3265	einen		0	
+3266	kleinen		0	
+3267	,		0	
+3268	dicken		0	
+3269	Bankier	430	0	(mention_id=424|references=(entity=(entity_id=entity_0025|fullname=Bankier|gender=m)))
+3270	,		0	
+3271	der	431	0	(mention_id=425|references=(entity=(entity_id=entity_0025|fullname=Bankier|gender=m)))
+3272	ihr	432	0	(mention_id=426|references=(entity=(entity_id=entity_0026|fullname=Thea|gender=f)))
+3273	oft		0	
+3274	als		0	
+3275	Zielscheibe	433	0	(mention_id=427|references=(entity=(entity_id=entity_0025|fullname=Bankier|gender=m)))
+3276	des		0	
+3277	Spottes		0	
+3278	gedient		0	
+3279	hatte		0	
+3280	.		0	
+3281	Aber		0	
+3282	,		0	
+3283	mein		0	
+3284	Gott		0	(mention_id=428|references=(entity=(entity_id=entity_0019|fullname=Gott|gender=u|specialcase_entity=nonfact)))
+3285	–		0	
+3286	er	434	0	(mention_id=429|references=(entity=(entity_id=entity_0025|fullname=Bankier|gender=m)))
+3287	hatte		0	
+3288	eine		0	
+3289	Million		0	
+3290	!		0	
+3291	Ja		0	
+3292	,		0	
+3293	wie		0	
+3294	gern		0	
+3295	war		0	
+3296	er	435	0	(mention_id=430|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+3297	aus		0	
+3298	ihrer	436	0	(mention_id=431|references=(entity=(entity_id=entity_0026|fullname=Thea|gender=f)))
+3299	Nähe		0	
+3300	gegangen		0	
+3301	,		0	
+3302	wie		0	
+3303	hatte		0	
+3304	er	437	0	(mention_id=432|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+3305	sich	438	0	(mention_id=433|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+3306	gefreut		0	
+3307	,		0	
+3308	das		0	
+3309	ganze		0	
+3310	Getriebe		0	
+3311	der		0	
+3312	großen		0	
+3313	Welt		0	
+3314	im		0	
+3315	Rücken		0	
+3316	zu		0	
+3317	haben		0	
+3318	,		0	
+3319	wie		0	
+3320	selig		0	
+3321	hatte		0	
+3322	er	439	0	(mention_id=434|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+3323	an		0	
+3324	die		0	
+3325	Mutter	440	0	(mention_id=435|references=(entity=(entity_id=entity_0029|fullname=Mutter des Franz Linden|gender=f)))
+3326	geschrieben		0	
+3327	–		0	
+3328	und		0	
+3329	was		0	
+3330	hatte		0	
+3331	er	441	0	(mention_id=436|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+3332	gefunden		0	
+3333	?		0	
+3334	Aber		0	
+3335	gleichviel		0	
+3336	!		0	
+3337	Der		0	
+3338	Verwalter	442	0	(mention_id=437|references=(entity=(entity_id=entity_0030|fullname=Verwalter|gender=m)))
+3339	,		0	
+3340	den	443	0	(mention_id=438|references=(entity=(entity_id=entity_0030|fullname=Verwalter|gender=m)))
+3341	er	444	0	(mention_id=439|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+3342	vorläufig		0	
+3343	angenommen		0	
+3344	hatte		0	
+3345	,		0	
+3346	schien		0	
+3347	ein		0	
+3348	tüchtiger		0	
+3349	Mensch	445	0	(mention_id=440|references=(entity=(entity_id=entity_0030|fullname=Verwalter|gender=m)))
+3350	zu		0	
+3351	sein		0	
+3352	.		0	
+3353	Er	446	0	(mention_id=441|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+3354	selbst		0	
+3355	wollte		0	
+3356	sich	447	0	(mention_id=442|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+3357	in		0	
+3358	keiner		0	
+3359	Hinsicht		0	
+3360	schonen		0	
+3361	,		0	
+3362	und		0	
+3363	dann		0	
+3364	–		0	
+3365	Wolff	448	0	(mention_id=443|references=(entity=(entity_id=entity_0003|fullname=Herr Wolff|gender=m)))
+3366	.		0	
+3367	Er	449	0	(mention_id=444|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+3368	verstand		0	
+3369	wieder		0	
+3370	nicht		0	
+3371	,		0	
+3372	was		0	
+3373	Weishaupt	450	0	(mention_id=445|references=(entity=(entity_id=entity_0002|fullname=Richard Weishaupt|gender=m)))
+3374	an		0	
+3375	dem		0	
+3376	Manne	451	0	(mention_id=446|references=(entity=(entity_id=entity_0003|fullname=Herr Wolff|gender=m)))
+3377	auszusetzen		0	
+3378	fand		0	
+3379	.		0	
+3380	Er	452	0	(mention_id=447|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+3381	wanderte		0	
+3382	schon		0	
+3383	längst		0	
+3384	durch		0	
+3385	belebte		0	
+3386	Gassen		0	
+3387	der		0	
+3388	Stadt		0	
+3389	.		0	
+3390	Er	453	0	(mention_id=448|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+3391	hatte		0	
+3392	nach		0	
+3393	dem		0	
+3394	Hotel		0	
+3395	gefragt		0	
+3396	,		0	
+3397	in		0	
+3398	dem		0	
+3399	sein	454	0	(mention_id=449|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+3400	Kutscher	455	0	(mention_id=450|references=(entity=(entity_id=entity_0038|fullname=Kutscher|gender=m)))
+3401	ausspannen		0	
+3402	wollte		0	
+3403	.		0	
+3404	Nun		0	
+3405	betrat		0	
+3406	er	456	0	(mention_id=451|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+3407	den		0	
+3408	Markt		0	
+3409	,		0	
+3410	in		0	
+3411	dessen		0	
+3412	Mitte		0	
+3413	der		0	
+3414	Roland		0	
+3415	steht		0	
+3416	.		0	
+3417	Ein		0	
+3418	stattliches		0	
+3419	Rathaus		0	
+3420	im		0	
+3421	Renaissancestil		0	
+3422	erhob		0	
+3423	sich		0	
+3424	im		0	
+3425	Westen		0	
+3426	des		0	
+3427	Platzes		0	
+3428	,		0	
+3429	und		0	
+3430	ihm		0	
+3431	schlossen		0	
+3432	sich		0	
+3433	würdig		0	
+3434	hohe		0	
+3435	,		0	
+3436	spitzgieblige		0	
+3437	Patrizierhäuser		0	
+3438	an		0	
+3439	:		0	
+3440	einige		0	
+3441	mit		0	
+3442	Erker		0	
+3443	geschmückt		0	
+3444	,		0	
+3445	einige		0	
+3446	stufenartig		0	
+3447	nach		0	
+3448	oben		0	
+3449	hinausgebaut		0	
+3450	,		0	
+3451	daß		0	
+3452	es		0	
+3453	aussah		0	
+3454	,		0	
+3455	als		0	
+3456	müßten		0	
+3457	sie		0	
+3458	das		0	
+3459	Übergewicht		0	
+3460	bekommen		0	
+3461	.		0	
+3462	Nur		0	
+3463	zwei		0	
+3464	bis		0	
+3465	drei		0	
+3466	Gebäude		0	
+3467	waren		0	
+3468	neueren		0	
+3469	Ursprungs		0	
+3470	,		0	
+3471	und		0	
+3472	auch		0	
+3473	bei		0	
+3474	diesen		0	
+3475	hatte		0	
+3476	man		0	
+3477	sich		0	
+3478	augenscheinlich		0	
+3479	bemüht		0	
+3480	,		0	
+3481	den		0	
+3482	mittelalterlichen		0	
+3483	Charakter		0	
+3484	festzuhalten		0	
+3485	.		0	
+3486	Angenehm		0	
+3487	überrascht		0	
+3488	blieb		0	
+3489	Linden	457	0	(mention_id=452|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+3490	stehen		0	
+3491	,		0	
+3492	und		0	
+3493	sein	458	0	(mention_id=453|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+3494	Blick		0	
+3495	flog		0	
+3496	musternd		0	
+3497	über		0	
+3498	die		0	
+3499	Front		0	
+3500	des		0	
+3501	hohen		0	
+3502	Gebäudes		0	
+3503	,		0	
+3504	vor		0	
+3505	dem		0	
+3506	er	459	0	(mention_id=454|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+3507	zufällig		0	
+3508	haltgemacht		0	
+3509	hatte		0	
+3510	.		0	
+3511	Drei		0	
+3512	mächtige		0	
+3513	Stockwerke		0	
+3514	türmten		0	
+3515	sich		0	
+3516	aufeinander		0	
+3517	.		0	
+3518	Über		0	
+3519	der		0	
+3520	großen		0	
+3521	,		0	
+3522	spitzbogigen		0	
+3523	Haustür		0	
+3524	erhob		0	
+3525	sich		0	
+3526	ein		0	
+3527	zierlicher		0	
+3528	Erkerbau		0	
+3529	,		0	
+3530	der		0	
+3531	sich		0	
+3532	durch		0	
+3533	alle		0	
+3534	Etagen		0	
+3535	fortsetzte		0	
+3536	,		0	
+3537	um		0	
+3538	als		0	
+3539	stattlicher		0	
+3540	Turm		0	
+3541	sein		0	
+3542	Haupt		0	
+3543	,		0	
+3544	mit		0	
+3545	einer		0	
+3546	Windfahne		0	
+3547	geschmückt		0	
+3548	,		0	
+3549	in		0	
+3550	den		0	
+3551	blauen		0	
+3552	Oktoberhimmel		0	
+3553	zu		0	
+3554	erheben		0	
+3555	.		0	
+3556	In		0	
+3557	der		0	
+3558	Beletage		0	
+3559	zeigten		0	
+3560	die		0	
+3561	durch		0	
+3562	Säulen		0	
+3563	geteilten		0	
+3564	Erkerfenster		0	
+3565	altertümliche		0	
+3566	Butzenscheiben		0	
+3567	,		0	
+3568	jedenfalls		0	
+3569	war		0	
+3570	man		0	
+3571	dort		0	
+3572	»		0	
+3573	stilvoll		0	
+3574	«		0	
+3575	eingerichtet		0	
+3576	.		0	
+3577	Im		0	
+3578	zweiten		0	
+3579	Stock		0	
+3580	aber		0	
+3581	schimmerten		0	
+3582	reiche		0	
+3583	Spitzengardinen		0	
+3584	hinter		0	
+3585	klaren		0	
+3586	hohen		0	
+3587	Glasscheiben		0	
+3588	,		0	
+3589	und		0	
+3590	ein		0	
+3591	Flor		0	
+3592	von		0	
+3593	Fuchsien		0	
+3594	und		0	
+3595	Nelken		0	
+3596	grüßte		0	
+3597	und		0	
+3598	nickte		0	
+3599	von		0	
+3600	den		0	
+3601	außen		0	
+3602	angebrachten		0	
+3603	Blumenbrettern		0	
+3604	herunter		0	
+3605	.		0	
+3606	Nur		0	
+3607	noch		0	
+3608	ein		0	
+3609	holdes		0	
+3610	Mädchenantlitz		0	(mention_id=455|references=(entity=(entity_id=generic_0033|fullname=imaginiertes Mädchenanlitz|gender=u|specialcase_entity=generic)))
+3611	darüber		0	
+3612	,		0	
+3613	und		0	
+3614	das		0	
+3615	lieblichste		0	
+3616	Bild		0	
+3617	wäre		0	
+3618	gegeben		0	
+3619	.		0	
+3620	Aber		0	
+3621	es		0	
+3622	zeigte		0	
+3623	sich		0	
+3624	nichts		0	
+3625	dergleichen		0	
+3626	und		0	
+3627	noch		0	
+3628	einen		0	
+3629	Blick		0	
+3630	auf		0	
+3631	das		0	
+3632	kunstvolle		0	
+3633	Eisengeländer		0	
+3634	der		0	
+3635	Treppe		0	
+3636	werfend		0	
+3637	,		0	
+3638	wandte		0	
+3639	sich	460	0	(mention_id=456|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+3640	der		0	
+3641	aufmerksame		0	
+3642	Beschauer	461	0	(mention_id=457|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+3643	ab		0	
+3644	und		0	
+3645	schritt		0	
+3646	quer		0	
+3647	über		0	
+3648	den		0	
+3649	Markt		0	
+3650	dem		0	
+3651	Hotel		0	
+3652	zu		0	
+3653	,		0	
+3654	um		0	
+3655	Mittag		0	
+3656	zu		0	
+3657	speisen		0	
+3658	.		0	
+3659	Da		0	
+3660	es		0	
+3661	schon		0	
+3662	eine		0	
+3663	späte		0	
+3664	Stunde		0	
+3665	,		0	
+3666	war		0	
+3667	er	462	0	(mention_id=458|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+3668	der		0	
+3669	einzige		0	
+3670	Gast	463	0	(mention_id=459|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+3671	in		0	
+3672	dem		0	
+3673	hübschen		0	
+3674	großen		0	
+3675	Speisesaal		0	
+3676	.		0	
+3677	So		0	
+3678	aß		0	
+3679	er	464	0	(mention_id=460|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+3680	ziemlich		0	
+3681	rasch		0	
+3682	und		0	
+3683	begann		0	
+3684	von		0	
+3685	neuem		0	
+3686	die		0	
+3687	Straßen		0	
+3688	der		0	
+3689	Stadt		0	
+3690	zu		0	
+3691	durchwandern		0	
+3692	.		0	
+3693	Hinter		0	
+3694	dem		0	
+3695	Rathause		0	
+3696	kam		0	
+3697	er	465	0	(mention_id=461|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+3698	in		0	
+3699	ein		0	
+3700	Gewirr		0	
+3701	von		0	
+3702	engen		0	
+3703	und		0	
+3704	engsten		0	
+3705	Gäßchen		0	
+3706	,		0	
+3707	trat		0	
+3708	dann		0	
+3709	aber		0	
+3710	unter		0	
+3711	einem		0	
+3712	gewölbten		0	
+3713	Bogen		0	
+3714	unversehens		0	
+3715	hervor		0	
+3716	auf		0	
+3717	einen		0	
+3718	Platz		0	
+3719	,		0	
+3720	umstanden		0	
+3721	von		0	
+3722	hohen		0	
+3723	,		0	
+3724	halbentblätterten		0	
+3725	Lindenbäumen		0	
+3726	,		0	
+3727	die		0	
+3728	ernst		0	
+3729	und		0	
+3730	feierlich		0	
+3731	eine		0	
+3732	mächtige		0	
+3733	Kirche		0	
+3734	zu		0	
+3735	bewachen		0	
+3736	schienen		0	
+3737	.		0	
+3738	Es		0	
+3739	war		0	
+3740	,		0	
+3741	als		0	
+3742	ob		0	
+3743	hier		0	
+3744	alles		0	
+3745	Leben		0	
+3746	erstorben		0	
+3747	sei		0	
+3748	,		0	
+3749	nur		0	
+3750	einige		0	
+3751	Kinder	466	0	(mention_id=462|references=(entity=(entity_id=entity_0067|fullname=spielende Kinder|gender=u)))
+3752	spielten		0	
+3753	zwischen		0	
+3754	dem		0	
+3755	welken		0	
+3756	Laub		0	
+3757	,		0	
+3758	und		0	
+3759	eine		0	
+3760	alte		0	
+3761	Frau	467	0	(mention_id=463|references=(entity=(entity_id=entity_0059|fullname=alte Frau|gender=f)))
+3762	humpelte		0	
+3763	nach		0	
+3764	einem		0	
+3765	sonnigen		0	
+3766	Eckchen		0	
+3767	,		0	
+3768	sonst		0	
+3769	tiefste		0	
+3770	Ruhe		0	
+3771	ringsumher		0	
+3772	.		0	
+3773	Eine		0	
+3774	Seitentür		0	
+3775	der		0	
+3776	Kirche		0	
+3777	stand		0	
+3778	geöffnet		0	
+3779	.		0	
+3780	Er	468	0	(mention_id=464|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+3781	ging		0	
+3782	hinüber		0	
+3783	und		0	
+3784	trat		0	
+3785	in		0	
+3786	die		0	
+3787	schweigende		0	
+3788	Dämmerung		0	
+3789	des		0	
+3790	Gotteshauses		0	
+3791	.		0	
+3792	Er	469	0	(mention_id=465|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+3793	nahm		0	
+3794	den		0	
+3795	Hut		0	
+3796	ab		0	
+3797	und		0	
+3798	betrachtete		0	
+3799	,		0	
+3800	überrascht		0	
+3801	von		0	
+3802	der		0	
+3803	edlen		0	
+3804	Einfachheit		0	
+3805	dieses		0	
+3806	Baues		0	
+3807	,		0	
+3808	die		0	
+3809	schlanken		0	
+3810	,		0	
+3811	doch		0	
+3812	kraftvoll		0	
+3813	aufstrebenden		0	
+3814	Pfeiler		0	
+3815	und		0	
+3816	das		0	
+3817	reiche		0	
+3818	Netzgewölbe		0	
+3819	des		0	
+3820	Chores		0	
+3821	.		0	
+3822	Dann		0	
+3823	schritt		0	
+3824	er	470	0	(mention_id=466|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+3825	den		0	
+3826	Mittelgang		0	
+3827	empor		0	
+3828	,		0	
+3829	zwischen		0	
+3830	den		0	
+3831	altersbraunen		0	
+3832	,		0	
+3833	kunstvoll		0	
+3834	geschnitzten		0	
+3835	Kirchenstühlen		0	
+3836	.		0	
+3837	Er	471	0	(mention_id=467|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+3838	freute		0	
+3839	sich	472	0	(mention_id=468|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+3840	darüber		0	
+3841	,		0	
+3842	er	473	0	(mention_id=469|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+3843	besaß		0	
+3844	lebhaftes		0	
+3845	Interesse		0	
+3846	für		0	
+3847	die		0	
+3848	schönen		0	
+3849	Formen		0	
+3850	der		0	
+3851	Renaissance		0	
+3852	,		0	
+3853	und		0	
+3854	er	474	0	(mention_id=470|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+3855	freute		0	
+3856	sich	475	0	(mention_id=471|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+3857	doppelt		0	
+3858	,		0	
+3859	weil		0	
+3860	er	476	0	(mention_id=472|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+3861	Ähnliches		0	
+3862	hier		0	
+3863	nicht		0	
+3864	gesucht		0	
+3865	hatte		0	
+3866	.		0	
+3867	Dann		0	
+3868	hielt		0	
+3869	er	477	0	
+3870	plötzlich		0	
+3871	seine	478	0	(mention_id=473|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+3872	hallenden		0	
+3873	Schritte		0	
+3874	an		0	
+3875	–		0	
+3876	dort		0	
+3877	am		0	
+3878	Taufstein		0	
+3879	,		0	
+3880	über		0	
+3881	welchem		0	
+3882	mit		0	
+3883	ausgebreiteten		0	
+3884	Flügeln		0	
+3885	die		0	
+3886	weiße		0	
+3887	Taube		0	
+3888	schwebte		0	
+3889	,		0	
+3890	erblickte		0	
+3891	er	479	0	(mention_id=474|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+3892	drei		0	
+3893	Frauen	480	0	(mention_id=475|references=(entity=(entity_id=entity_0012|fullname=Johanne|gender=f)),(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)),(entity=(entity_id=entity_0017|fullname=Hebamme Schmidt|gender=f)))
+3894	.		0	
+3895	Zwei	481	0	(mention_id=476|references=(entity=(entity_id=entity_0017|fullname=Hebamme Schmidt|gender=f)),(entity=(entity_id=entity_0012|fullname=Johanne|gender=f)))
+3896	von		0	
+3897	ihnen	482	0	(mention_id=477|references=(entity=(entity_id=entity_0017|fullname=Hebamme Schmidt|gender=f)),(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)),(entity=(entity_id=entity_0012|fullname=Johanne|gender=f)))
+3898	schienen		0	
+3899	geringen		0	
+3900	Standes		0	
+3901	,		0	
+3902	die		0	
+3903	ältere	483	0	(mention_id=478|references=(entity=(entity_id=entity_0017|fullname=Hebamme Schmidt|gender=f)))
+3904	,		0	
+3905	vermutlich		0	
+3906	die		0	
+3907	Hebamme	484	0	(mention_id=479|references=(entity=(entity_id=entity_0017|fullname=Hebamme Schmidt|gender=f)))
+3908	,		0	
+3909	hielt		0	
+3910	den		0	
+3911	Täufling	485	0	(mention_id=480|references=(entity=(entity_id=entity_0014|fullname=Täufling|gender=m)))
+3912	in		0	
+3913	beständig		0	
+3914	schaukelnder		0	
+3915	Bewegung		0	
+3916	.		0	
+3917	Die		0	
+3918	andere	486	0	(mention_id=481|references=(entity=(entity_id=entity_0012|fullname=Johanne|gender=f)))
+3919	,		0	
+3920	im		0	
+3921	einfachen		0	
+3922	schwarzen		0	
+3923	Wollkleid		0	
+3924	und		0	
+3925	Umschlagetuch		0	
+3926	,		0	
+3927	ein		0	
+3928	junges		0	
+3929	Weib	487	0	(mention_id=482|references=(entity=(entity_id=entity_0012|fullname=Johanne|gender=f)))
+3930	,		0	
+3931	schaute		0	
+3932	mit		0	
+3933	verweinten		0	
+3934	Augen		0	
+3935	auf		0	
+3936	das		0	
+3937	Kind	488	0	(mention_id=483|references=(entity=(entity_id=entity_0014|fullname=Täufling|gender=m)))
+3938	.		0	
+3939	Eine		0	
+3940	dritte	489	0	(mention_id=484|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))
+3941	hatte		0	
+3942	sich	490	0	(mention_id=485|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))
+3943	zu		0	
+3944	dem		0	
+3945	Kleinen	491	0	(mention_id=486|references=(entity=(entity_id=entity_0014|fullname=Täufling|gender=m)))
+3946	herniedergebeugt		0	
+3947	.		0	
+3948	Der		0	
+3949	Kirchendiener	492	0	(mention_id=487|references=(entity=(entity_id=entity_0018|fullname=Kirchdiener Engelmann|gender=m)))
+3950	,		0	
+3951	der	493	0	(mention_id=488|references=(entity=(entity_id=entity_0018|fullname=Kirchdiener Engelmann|gender=m)))
+3952	eben		0	
+3953	das		0	
+3954	Wasser		0	
+3955	in		0	
+3956	das		0	
+3957	Taufbecken		0	
+3958	goß		0	
+3959	,		0	
+3960	verdeckte		0	
+3961	sie	494	0	(mention_id=489|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))
+3962	augenblicklich		0	
+3963	völlig		0	
+3964	,		0	
+3965	und		0	
+3966	Linden	495	0	(mention_id=490|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+3967	sah		0	
+3968	nur		0	
+3969	die		0	
+3970	Schleppe		0	
+3971	eines		0	
+3972	dunklen		0	
+3973	seidenen		0	
+3974	Kleides		0	
+3975	auf		0	
+3976	dem		0	
+3977	Sandsteinboden		0	
+3978	.		0	
+3979	Und		0	
+3980	jetzt		0	
+3981	tönte		0	
+3982	eine		0	
+3983	weiche		0	
+3984	,		0	
+3985	biegsame		0	
+3986	Frauenstimme		0	
+3987	in		0	
+3988	sein	496	0	(mention_id=491|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+3989	Ohr		0	
+3990	.		0	
+3991	»		0	
+3992	Weinen		0	
+3993	Sie	497	0	(mention_id=492|references=(entity=(entity_id=entity_0012|fullname=Johanne|gender=f)))
+3994	nicht		0	
+3995	so		0	
+3996	viel		0	
+3997	,		0	
+3998	meine	498	0	(mention_id=493|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))
+3999	gute		0	
+4000	Johanne	499	0	(mention_id=494|references=(entity=(entity_id=entity_0012|fullname=Johanne|gender=f)))
+4001	,		0	
+4002	Sie	500	0	(mention_id=495|references=(entity=(entity_id=entity_0012|fullname=Johanne|gender=f)))
+4003	werden		0	
+4004	noch		0	
+4005	recht		0	
+4006	viel		0	
+4007	Freude		0	
+4008	haben		0	
+4009	an		0	
+4010	dem		0	
+4011	kleinen		0	
+4012	Würmchen		0	(mention_id=496|references=(entity=(entity_id=entity_0014|fullname=Täufling|gender=m)))
+4013	–		0	
+4014	weinen		0	
+4015	Sie	501	0	(mention_id=497|references=(entity=(entity_id=entity_0012|fullname=Johanne|gender=f)))
+4016	doch		0	
+4017	nicht		0	
+4018	!		0	
+4019	–		0	
+4020	Lieber		0	
+4021	Engelmann	502	0	(mention_id=498|references=(entity=(entity_id=entity_0018|fullname=Kirchdiener Engelmann|gender=m)))
+4022	,		0	
+4023	benachrichtigen		0	
+4024	Sie	503	0	(mention_id=499|references=(entity=(entity_id=entity_0018|fullname=Kirchdiener Engelmann|gender=m)))
+4025	den		0	
+4026	Herrn	504	0	(mention_id=500|references=(entity=(entity_id=entity_0013|fullname=Oberprediger|gender=m)))
+4027	Oberprediger	504	0	(mention_id=500|references=(entity=(entity_id=entity_0013|fullname=Oberprediger|gender=m)))
+4028	–		0	
+4029	meine	505	0	(mention_id=501|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))
+4030	Schwester	506	0	(mention_id=502|references=(entity=(entity_id=entity_0006|fullname=Jenny Fredrich, geb. Baumhagen|gender=f)))
+4031	scheint		0	
+4032	nicht		0	
+4033	zu		0	
+4034	kommen		0	
+4035	,		0	
+4036	sie	507	0	(mention_id=503|references=(entity=(entity_id=entity_0006|fullname=Jenny Fredrich, geb. Baumhagen|gender=f)))
+4037	wird		0	
+4038	Abhaltung		0	
+4039	haben		0	
+4040	.		0	
+4041	Wir	508	0	(mention_id=504|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)),(entity=(entity_id=entity_0012|fullname=Johanne|gender=f)))
+4042	wollen		0	
+4043	nicht		0	
+4044	länger		0	
+4045	warten		0	
+4046	.		0	
+4047	«		0	
+4048	Die		0	
+4049	Sprecherin	509	0	(mention_id=505|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))
+4050	wandte		0	
+4051	sich	510	0	(mention_id=506|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))
+4052	zu		0	
+4053	der		0	
+4054	Mutter	511	0	(mention_id=507|references=(entity=(entity_id=entity_0012|fullname=Johanne|gender=f)))
+4055	und		0	
+4056	Franz	512	0	(mention_id=508|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+4057	Linden	512	0	(mention_id=508|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+4058	sah		0	
+4059	nun		0	
+4060	voll		0	
+4061	in		0	
+4062	ein		0	
+4063	junges		0	
+4064	Mädchenantlitz		0	
+4065	.		0	
+4066	Ja		0	
+4067	,		0	
+4068	es		0	
+4069	war		0	
+4070	nicht		0	
+4071	eigentlich		0	
+4072	schön		0	
+4073	,		0	
+4074	dieses		0	
+4075	schmale		0	
+4076	Oval		0	
+4077	,		0	
+4078	überschattet		0	
+4079	von		0	
+4080	goldigbraunem		0	
+4081	,		0	
+4082	üppigem		0	
+4083	Haar		0	
+4084	;		0	
+4085	zu		0	
+4086	blaß		0	
+4087	der		0	
+4088	Teint		0	
+4089	,		0	
+4090	zu		0	
+4091	traurig		0	
+4092	der		0	
+4093	Ausdruck		0	
+4094	,		0	
+4095	den		0	
+4096	die		0	
+4097	etwas		0	
+4098	herabgezogenen		0	
+4099	Mundwinkel		0	
+4100	noch		0	
+4101	verschärften		0	
+4102	.		0	
+4103	Aber		0	
+4104	unter		0	
+4105	den		0	
+4106	feingezeichneten		0	
+4107	,		0	
+4108	wenig		0	
+4109	geschwungenen		0	
+4110	Brauen		0	
+4111	sahen		0	
+4112	ein		0	
+4113	Paar		0	
+4114	tiefe		0	
+4115	blaue		0	
+4116	Augen		0	
+4117	ihn	513	0	(mention_id=509|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+4118	an		0	
+4119	,		0	
+4120	klar		0	
+4121	wie		0	
+4122	die		0	
+4123	eines		0	
+4124	Kindes	514	0	(mention_id=510|references=(entity=(entity_id=generic_0034|fullname=Kind|gender=u|specialcase_entity=generic)))
+4125	,		0	
+4126	bittend		0	
+4127	und		0	
+4128	fragend		0	
+4129	,		0	
+4130	wie		0	
+4131	Frieden		0	
+4132	heischend		0	
+4133	für		0	
+4134	die		0	
+4135	heilige		0	
+4136	Handlung		0	
+4137	.		0	
+4138	Es		0	
+4139	mochte		0	
+4140	wohl		0	
+4141	oft		0	
+4142	vorkommen		0	
+4143	,		0	
+4144	daß		0	
+4145	Fremde	515	0	(mention_id=511|references=(entity=(entity_id=generic_0035|fullname=Fremde Besuchende der Kirche|gender=u|specialcase_entity=generic)))
+4146	in		0	
+4147	die		0	
+4148	schöne		0	
+4149	Kirche		0	
+4150	eintraten		0	
+4151	und		0	
+4152	dadurch		0	
+4153	Störung		0	
+4154	veranlaßten		0	
+4155	–		0	
+4156	so		0	
+4157	glaubte		0	
+4158	wenigstens		0	
+4159	Franz	516	0	(mention_id=512|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+4160	Linden	516	0	(mention_id=512|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+4161	den		0	
+4162	Blick		0	
+4163	zu		0	
+4164	verstehen		0	
+4165	.		0	
+4166	Atemlos		0	
+4167	still		0	
+4168	verharrte		0	
+4169	er	517	0	(mention_id=513|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+4170	nun		0	
+4171	,		0	
+4172	an		0	
+4173	den		0	
+4174	alten		0	
+4175	Kirchenstuhl		0	
+4176	gelehnt		0	
+4177	,		0	
+4178	und		0	
+4179	seine	518	0	(mention_id=514|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+4180	Augen		0	
+4181	folgten		0	
+4182	jeder		0	
+4183	Bewegung		0	
+4184	der		0	
+4185	schlanken		0	
+4186	Mädchengestalt	519	0	(mention_id=515|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))
+4187	,		0	
+4188	wie		0	
+4189	sie	520	0	(mention_id=516|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))
+4190	jetzt		0	
+4191	das		0	
+4192	Kind	521	0	(mention_id=517|references=(entity=(entity_id=entity_0014|fullname=Täufling|gender=m)))
+4193	in		0	
+4194	die		0	
+4195	Arme		0	
+4196	nahm		0	
+4197	und		0	
+4198	zu		0	
+4199	dem		0	
+4200	Geistlichen	522	0	(mention_id=518|references=(entity=(entity_id=entity_0013|fullname=Oberprediger|gender=m)))
+4201	trat		0	
+4202	.		0	
+4203	»		0	
+4204	Herr	523	0	(mention_id=519|references=(entity=(entity_id=entity_0013|fullname=Oberprediger|gender=m)))
+4205	Oberprediger	523	0	(mention_id=519|references=(entity=(entity_id=entity_0013|fullname=Oberprediger|gender=m)))
+4206	«		0	
+4207	,		0	
+4208	klang		0	
+4209	die		0	
+4210	weiche		0	
+4211	Stimme		0	
+4212	,		0	
+4213	»		0	
+4214	Sie	524	0	(mention_id=520|references=(entity=(entity_id=entity_0013|fullname=Oberprediger|gender=m)))
+4215	müssen		0	
+4216	mit		0	
+4217	einem		0	
+4218	Taufzeugen	525	0	(mention_id=521|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))
+4219	vorliebnehmen		0	
+4220	,		0	
+4221	meine	526	0	(mention_id=522|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))
+4222	Schwester	527	0	(mention_id=523|references=(entity=(entity_id=entity_0006|fullname=Jenny Fredrich, geb. Baumhagen|gender=f)))
+4223	ist		0	
+4224	leider		0	
+4225	ausgeblieben		0	
+4226	.		0	
+4227	«		0	
+4228	Der		0	
+4229	Geistliche	528	0	(mention_id=524|references=(entity=(entity_id=entity_0013|fullname=Oberprediger|gender=m)))
+4230	hob		0	
+4231	den		0	
+4232	Kopf		0	
+4233	.		0	
+4234	»		0	
+4235	Dann		0	
+4236	könnten		0	
+4237	Sie	529	0	(mention_id=525|references=(entity=(entity_id=entity_0013|fullname=Oberprediger|gender=m)))
+4238	wohl		0	
+4239	,		0	
+4240	liebe		0	
+4241	Schmidt	530	0	(mention_id=526|references=(entity=(entity_id=entity_0017|fullname=Hebamme Schmidt|gender=f)))
+4242	–		0	
+4243	«		0	
+4244	,		0	
+4245	er	531	0	(mention_id=527|references=(entity=(entity_id=entity_0013|fullname=Oberprediger|gender=m)))
+4246	winkte		0	
+4247	der		0	
+4248	älteren		0	
+4249	Frau	532	0	(mention_id=528|references=(entity=(entity_id=entity_0017|fullname=Hebamme Schmidt|gender=f)))
+4250	zu		0	
+4251	.		0	
+4252	Franz	533	0	(mention_id=529|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+4253	Linden	533	0	(mention_id=529|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+4254	stand		0	
+4255	plötzlich		0	
+4256	vor		0	
+4257	dem		0	
+4258	Taufsteine		0	
+4259	neben		0	
+4260	dem		0	
+4261	jungen		0	
+4262	Mädchen	534	0	(mention_id=530|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))
+4263	.		0	
+4264	Er	535	0	(mention_id=531|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+4265	wußte		0	
+4266	selbst		0	
+4267	nicht		0	
+4268	,		0	
+4269	wie		0	
+4270	er	536	0	(mention_id=532|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+4271	so		0	
+4272	rasch		0	
+4273	dahin		0	
+4274	gekommen		0	
+4275	.		0	
+4276	»		0	
+4277	Gestatten		0	
+4278	Sie	537	0	(mention_id=533|references=(entity=(entity_id=entity_0013|fullname=Oberprediger|gender=m)))
+4279	mir	538	0	(mention_id=534|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+4280	diese		0	
+4281	zweite		0	
+4282	Patenstelle		0	
+4283	«		0	
+4284	,		0	
+4285	sprach		0	
+4286	er	539	0	(mention_id=535|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+4287	.		0	
+4288	»		0	
+4289	Ich	540	0	(mention_id=536|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+4290	kam		0	
+4291	zufällig		0	
+4292	in		0	
+4293	die		0	
+4294	Kirche		0	
+4295	,		0	
+4296	ein		0	
+4297	landfremder		0	
+4298	Mensch	541	0	(mention_id=537|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+4299	.		0	
+4300	Ich	542	0	(mention_id=538|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+4301	möchte		0	
+4302	die		0	
+4303	erste		0	
+4304	Gelegenheit		0	
+4305	in		0	
+4306	meiner	543	0	(mention_id=539|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+4307	neuen		0	
+4308	Heimat		0	
+4309	,		0	
+4310	Christenpflicht		0	
+4311	zu		0	
+4312	üben		0	
+4313	,		0	
+4314	nicht		0	
+4315	versäumen		0	
+4316	.		0	
+4317	«		0	
+4318	Er	544	0	(mention_id=540|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+4319	war		0	
+4320	einem		0	
+4321	Impuls		0	
+4322	gefolgt		0	
+4323	,		0	
+4324	und		0	
+4325	er	545	0	(mention_id=541|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+4326	wurde		0	
+4327	verstanden		0	
+4328	.		0	
+4329	Der		0	
+4330	greise		0	
+4331	Prediger	546	0	(mention_id=542|references=(entity=(entity_id=entity_0013|fullname=Oberprediger|gender=m)))
+4332	nickte		0	
+4333	lächelnd		0	
+4334	.		0	
+4335	»		0	
+4336	Es		0	
+4337	ist		0	
+4338	ein		0	
+4339	armes		0	
+4340	,		0	
+4341	früh		0	
+4342	vaterlos		0	
+4343	gewordenes		0	
+4344	Kind	547	0	(mention_id=543|references=(entity=(entity_id=entity_0014|fullname=Täufling|gender=m)))
+4345	,		0	
+4346	mein	548	0	(mention_id=544|references=(entity=(entity_id=entity_0013|fullname=Oberprediger|gender=m)))
+4347	Herr	549	0	(mention_id=545|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+4348	«		0	
+4349	,		0	
+4350	erwiderte		0	
+4351	er	550	0	(mention_id=546|references=(entity=(entity_id=entity_0013|fullname=Oberprediger|gender=m)))
+4352	;		0	
+4353	»		0	
+4354	vier		0	
+4355	Wochen		0	
+4356	vor		0	
+4357	seiner	551	0	(mention_id=547|references=(entity=(entity_id=entity_0014|fullname=Täufling|gender=m)))
+4358	Geburt		0	
+4359	verunglückte		0	
+4360	der		0	
+4361	Vater	552	0	(mention_id=548|references=(entity=(entity_id=entity_0060|fullname=Fritze|gender=m)))
+4362	–		0	
+4363	Sie	553	0	(mention_id=549|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+4364	tun		0	
+4365	ein		0	
+4366	gutes		0	
+4367	Werk		0	
+4368	.		0	
+4369	–		0	
+4370	Ist		0	
+4371	es		0	
+4372	Ihnen	554	0	(mention_id=550|references=(entity=(entity_id=entity_0012|fullname=Johanne|gender=f)))
+4373	,		0	
+4374	liebe		0	
+4375	Frau	555	0	(mention_id=551|references=(entity=(entity_id=entity_0012|fullname=Johanne|gender=f)))
+4376	,		0	
+4377	recht		0	
+4378	?		0	
+4379	«		0	
+4380	wandte		0	
+4381	er	556	0	(mention_id=552|references=(entity=(entity_id=entity_0013|fullname=Oberprediger|gender=m)))
+4382	sich	557	0	(mention_id=553|references=(entity=(entity_id=entity_0013|fullname=Oberprediger|gender=m)))
+4383	zu		0	
+4384	der		0	
+4385	jungen		0	
+4386	Mutter	558	0	(mention_id=554|references=(entity=(entity_id=entity_0012|fullname=Johanne|gender=f)))
+4387	.		0	
+4388	»		0	
+4389	Nun		0	
+4390	schön		0	
+4391	–		0	
+4392	Engelmann	559	0	(mention_id=555|references=(entity=(entity_id=entity_0018|fullname=Kirchdiener Engelmann|gender=m)))
+4393	,		0	
+4394	so		0	
+4395	tragen		0	
+4396	Sie	560	0	(mention_id=556|references=(entity=(entity_id=entity_0018|fullname=Kirchdiener Engelmann|gender=m)))
+4397	den		0	
+4398	Namen		0	
+4399	des		0	
+4400	Herrn	561	0	(mention_id=557|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+4401	Paten	561	0	(mention_id=557|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+4402	in		0	
+4403	das		0	
+4404	Kirchenbuch		0	
+4405	ein		0	
+4406	.		0	
+4407	«		0	
+4408	»		0	
+4409	Karl	562	0	(mention_id=558|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+4410	Max	562	0	(mention_id=558|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+4411	Franz	562	0	(mention_id=558|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+4412	Linden	562	0	(mention_id=558|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+4413	«		0	
+4414	,		0	
+4415	sagte		0	
+4416	der		0	
+4417	junge		0	
+4418	Mann	563	0	(mention_id=559|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+4419	.		0	
+4420	Und		0	
+4421	nun		0	
+4422	standen		0	
+4423	sie	564	0	(mention_id=560|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)),(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))
+4424	zusammen		0	
+4425	vor		0	
+4426	dem		0	
+4427	Prediger	565	0	(mention_id=561|references=(entity=(entity_id=entity_0013|fullname=Oberprediger|gender=m)))
+4428	,		0	
+4429	die		0	
+4430	beiden	566	0	(mention_id=562|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)),(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))
+4431	,		0	
+4432	die	567	0	(mention_id=563|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)),(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))
+4433	vor		0	
+4434	einer		0	
+4435	Viertelstunde		0	
+4436	noch		0	
+4437	keine		0	
+4438	Ahnung		0	
+4439	voneinander		0	(mention_id=564|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)),(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))
+4440	gehabt		0	
+4441	hatten		0	
+4442	.		0	
+4443	Sie	568	0	(mention_id=565|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))
+4444	hielt		0	
+4445	das		0	
+4446	schlummernde		0	
+4447	Kind	569	0	(mention_id=566|references=(entity=(entity_id=entity_0014|fullname=Täufling|gender=m)))
+4448	in		0	
+4449	den		0	
+4450	Armen		0	
+4451	.		0	
+4452	Sie	570	0	(mention_id=567|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))
+4453	hatte		0	
+4454	nicht		0	
+4455	emporgesehen		0	
+4456	,		0	
+4457	das		0	
+4458	lebhafte		0	
+4459	Rot		0	
+4460	der		0	
+4461	Überraschung		0	
+4462	brannte		0	
+4463	noch		0	
+4464	auf		0	
+4465	dem		0	
+4466	zarten		0	
+4467	Gesicht		0	
+4468	,		0	
+4469	und		0	
+4470	das		0	
+4471	einfache		0	
+4472	Spitzchen		0	
+4473	an		0	
+4474	dem		0	
+4475	Kissen		0	
+4476	des		0	
+4477	Täuflings	571	0	(mention_id=568|references=(entity=(entity_id=entity_0014|fullname=Täufling|gender=m)))
+4478	zitterte		0	
+4479	leise		0	
+4480	.		0	
+4481	Es		0	
+4482	waren		0	
+4483	nur		0	
+4484	wenig		0	
+4485	Worte		0	
+4486	,		0	
+4487	die		0	
+4488	der		0	
+4489	Geistliche	572	0	(mention_id=569|references=(entity=(entity_id=entity_0013|fullname=Oberprediger|gender=m)))
+4490	sprach		0	
+4491	;		0	
+4492	wunderbar		0	
+4493	klangen		0	
+4494	sie		0	
+4495	nach		0	
+4496	in		0	
+4497	beider	573	0	(mention_id=570|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)),(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))
+4498	Herzen		0	
+4499	.		0	
+4500	Linden	574	0	(mention_id=571|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+4501	sah		0	
+4502	herab		0	
+4503	auf		0	
+4504	das		0	
+4505	braune		0	
+4506	tiefgesenkte		0	
+4507	Haupt		0	
+4508	neben		0	
+4509	sich	575	0	(mention_id=572|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+4510	,		0	
+4511	dann		0	
+4512	lagen		0	
+4513	zwei		0	
+4514	Hände		0	
+4515	auf		0	
+4516	dem		0	
+4517	ärmlichen		0	
+4518	Bettchen		0	
+4519	des		0	
+4520	Täuflings	576	0	(mention_id=573|references=(entity=(entity_id=entity_0014|fullname=Täufling|gender=m)))
+4521	,		0	
+4522	zwei		0	
+4523	warme		0	
+4524	junge		0	
+4525	Menschenhände		0	
+4526	dicht		0	
+4527	nebeneinander		0	
+4528	,		0	
+4529	und		0	
+4530	von		0	
+4531	beider		0	(mention_id=574|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)),(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))
+4532	Lippen		0	
+4533	kam		0	
+4534	ein		0	
+4535	helles		0	
+4536	,		0	
+4537	klares		0	
+4538	»		0	
+4539	Ja		0	
+4540	«		0	
+4541	,		0	
+4542	die		0	
+4543	Frage		0	
+4544	des		0	
+4545	Geistlichen	577	0	(mention_id=575|references=(entity=(entity_id=entity_0013|fullname=Oberprediger|gender=m)))
+4546	beantwortend		0	
+4547	.		0	
+4548	Als		0	
+4549	die		0	
+4550	Zeremonie		0	
+4551	vorüber		0	
+4552	,		0	
+4553	trug		0	
+4554	das		0	
+4555	Mädchen	578	0	(mention_id=576|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))
+4556	der		0	
+4557	weinenden		0	
+4558	Mutter	579	0	(mention_id=577|references=(entity=(entity_id=entity_0012|fullname=Johanne|gender=f)))
+4559	das		0	
+4560	Kind	580	0	
+4561	zu		0	
+4562	und		0	
+4563	drückte		0	
+4564	einen		0	
+4565	Kuß		0	
+4566	auf		0	
+4567	das		0	
+4568	kleine		0	
+4569	rote		0	
+4570	Gesichtchen		0	
+4571	,		0	
+4572	dann		0	
+4573	kam		0	
+4574	sie	581	0	(mention_id=578|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))
+4575	hinüber		0	
+4576	zu		0	
+4577	Linden	582	0	(mention_id=579|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+4578	,		0	
+4579	und		0	
+4580	ihre	583	0	(mention_id=580|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))
+4581	Augen		0	
+4582	blickten		0	
+4583	ihn	584	0	(mention_id=581|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+4584	an		0	
+4585	mit		0	
+4586	einem		0	
+4587	Gemisch		0	
+4588	von		0	
+4589	Verwunderung		0	
+4590	und		0	
+4591	Dankbarkeit		0	
+4592	.		0	
+4593	»		0	
+4594	Ich	585	0	(mention_id=582|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))
+4595	danke		0	
+4596	Ihnen	586	0	(mention_id=583|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+4597	,		0	
+4598	mein	587	0	(mention_id=584|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))
+4599	Herr	588	0	(mention_id=585|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+4600	«		0	
+4601	,		0	
+4602	sprach		0	
+4603	sie	589	0	(mention_id=586|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))
+4604	und		0	
+4605	legte		0	
+4606	einen		0	
+4607	Moment		0	
+4608	die		0	
+4609	schmale		0	
+4610	Hand		0	
+4611	in		0	
+4612	seine	590	0	(mention_id=587|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+4613	Rechte		0	
+4614	,		0	
+4615	»		0	
+4616	ich	591	0	(mention_id=588|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))
+4617	danke		0	
+4618	Ihnen	592	0	(mention_id=589|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+4619	im		0	
+4620	Namen		0	
+4621	der		0	
+4622	armen		0	
+4623	Frau	593	0	(mention_id=590|references=(entity=(entity_id=entity_0012|fullname=Johanne|gender=f)))
+4624	–		0	
+4625	es		0	
+4626	war		0	
+4627	gut		0	
+4628	von		0	
+4629	Ihnen	594	0	(mention_id=591|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+4630	!		0	
+4631	«		0	
+4632	Dann		0	
+4633	ein		0	
+4634	unnachahmlich		0	
+4635	stolzes		0	
+4636	Neigen		0	
+4637	des		0	
+4638	kleinen		0	
+4639	Kopfes		0	
+4640	und		0	
+4641	sie	595	0	(mention_id=592|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))
+4642	ging		0	
+4643	,		0	
+4644	leise		0	
+4645	umrauscht		0	
+4646	von		0	
+4647	der		0	
+4648	schweren		0	
+4649	Seide		0	
+4650	ihres	596	0	(mention_id=593|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))
+4651	Kleides		0	
+4652	.		0	
+4653	Dort		0	
+4654	unten		0	
+4655	an		0	
+4656	der		0	
+4657	Pforte		0	
+4658	im		0	
+4659	hellen		0	
+4660	Schein		0	
+4661	des		0	
+4662	hereinbrechenden		0	
+4663	Tageslichtes		0	
+4664	sah		0	
+4665	sie	597	0	(mention_id=594|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))
+4666	noch		0	
+4667	einmal		0	
+4668	zu		0	
+4669	ihm	598	0	(mention_id=595|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+4670	hinüber		0	
+4671	,		0	
+4672	der	599	0	(mention_id=596|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+4673	regungslos		0	
+4674	am		0	
+4675	Taufstein		0	
+4676	geblieben		0	
+4677	war		0	
+4678	,		0	
+4679	um		0	
+4680	ihr	600	0	(mention_id=597|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))
+4681	nachzuschauen		0	
+4682	.		0	
+4683	Es		0	
+4684	war		0	
+4685	,		0	
+4686	als		0	
+4687	senke		0	
+4688	sie	601	0	(mention_id=598|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))
+4689	nochmals		0	
+4690	grüßend		0	
+4691	das		0	
+4692	blasse		0	
+4693	Antlitz		0	
+4694	,		0	
+4695	dann		0	
+4696	war		0	
+4697	sie	602	0	(mention_id=599|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))
+4698	verschwunden		0	
+4699	.		0	
+4700	Franz	603	0	(mention_id=600|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+4701	Linden	603	0	(mention_id=600|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+4702	war		0	
+4703	allein		0	
+4704	in		0	
+4705	der		0	
+4706	stillen		0	
+4707	Kirche		0	
+4708	zurückgeblieben		0	
+4709	.		0	
+4710	Wer		0	
+4711	mochte		0	
+4712	sie	604	0	(mention_id=601|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))
+4713	sein		0	
+4714	,		0	
+4715	die	605	0	(mention_id=602|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))
+4716	da		0	
+4717	eben		0	
+4718	neben		0	
+4719	ihm	606	0	(mention_id=603|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+4720	gestanden		0	
+4721	hatte		0	
+4722	?		0	
+4723	–		0	
+4724	Ein		0	
+4725	leises		0	
+4726	Klingeln		0	
+4727	ließ		0	
+4728	ihn	607	0	(mention_id=604|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+4729	sich	608	0	(mention_id=605|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+4730	umsehen		0	
+4731	.		0	
+4732	Der		0	
+4733	Küster	609	0	(mention_id=606|references=(entity=(entity_id=entity_0022|fullname=Küster|gender=m)))
+4734	mit		0	
+4735	dem		0	
+4736	Schlüsselbund		0	
+4737	trat		0	
+4738	aus		0	
+4739	der		0	
+4740	Sakristei		0	
+4741	.		0	
+4742	»		0	
+4743	Sie	610	0	(mention_id=607|references=(entity=(entity_id=entity_0022|fullname=Küster|gender=m)))
+4744	wollen		0	
+4745	zuschließen		0	
+4746	,		0	
+4747	alter		0	
+4748	Freund	611	0	(mention_id=608|references=(entity=(entity_id=entity_0022|fullname=Küster|gender=m)))
+4749	?		0	
+4750	«		0	
+4751	sagte		0	
+4752	er	612	0	(mention_id=609|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+4753	zerstreut		0	
+4754	,		0	
+4755	»		0	
+4756	ich	613	0	(mention_id=610|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+4757	gehe		0	
+4758	schon		0	
+4759	.		0	
+4760	«		0	
+4761	Dann		0	
+4762	,		0	
+4763	wie		0	
+4764	sich	614	0	(mention_id=611|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+4765	besinnend		0	
+4766	,		0	
+4767	kam		0	
+4768	er	615	0	(mention_id=612|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+4769	ein		0	
+4770	paar		0	
+4771	Schritte		0	
+4772	zurück		0	
+4773	.		0	
+4774	»		0	
+4775	Wer		0	
+4776	war		0	
+4777	die		0	
+4778	junge		0	
+4779	Dame	616	0	(mention_id=613|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))
+4780	?		0	
+4781	«		0	
+4782	wollte		0	
+4783	er	617	0	(mention_id=614|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+4784	fragen		0	
+4785	,		0	
+4786	aber		0	
+4787	er	618	0	(mention_id=615|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+4788	brachte		0	
+4789	es		0	
+4790	nicht		0	
+4791	über		0	
+4792	die		0	
+4793	Lippen		0	
+4794	,		0	
+4795	er	619	0	(mention_id=616|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+4796	betrachtete		0	
+4797	nur		0	
+4798	angelegentlich		0	
+4799	die		0	
+4800	in		0	
+4801	glühenden		0	
+4802	Farben		0	
+4803	schimmernden		0	
+4804	Glasmalereien		0	
+4805	der		0	
+4806	hohen		0	
+4807	Fenster		0	
+4808	.		0	
+4809	»		0	
+4810	Die		0	
+4811	sind		0	
+4812	einzig		0	
+4813	schön		0	
+4814	«		0	
+4815	,		0	
+4816	lobte		0	
+4817	der		0	
+4818	Küster	620	0	(mention_id=617|references=(entity=(entity_id=entity_0022|fullname=Küster|gender=m)))
+4819	,		0	
+4820	»		0	
+4821	und		0	
+4822	werden		0	
+4823	immer		0	
+4824	sehr		0	
+4825	bewundert		0	
+4826	.		0	
+4827	Das		0	
+4828	dort		0	
+4829	ist		0	
+4830	von		0	
+4831	1511		0	
+4832	,		0	
+4833	der		0	
+4834	Auszug		0	
+4835	der		0	
+4836	Kinder		0	(mention_id=618|references=(entity=(entity_id=entity_0040|fullname=Kinder Israels|gender=u|specialcase_entity=group)))
+4837	Israels		0	
+4838	,		0	
+4839	ein		0	
+4840	Geschenk		0	
+4841	der		0	
+4842	Äbtissin	621	0	
+4843	Anna	621	0	(mention_id=619|references=(entity=(entity_id=entity_0068|fullname=Äbtissin Anna|gender=f)))
+4844	vom	621	0	
+4845	Schlosse	621	0	
+4846	droben	621	0	
+4847	.		0	
+4848	Sie	622	0	(mention_id=620|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+4849	soll		0	
+4850	,		0	
+4851	wie		0	
+4852	man		0	
+4853	sagt		0	
+4854	,		0	
+4855	eine		0	
+4856	Vorliebe		0	
+4857	für		0	
+4858	diese		0	
+4859	Kirche		0	
+4860	gehabt		0	
+4861	haben		0	
+4862	;		0	
+4863	ist		0	
+4864	auch		0	
+4865	die		0	
+4866	schönste		0	
+4867	weit		0	
+4868	und		0	
+4869	breit		0	
+4870	herum		0	
+4871	,		0	
+4872	unsere	623	0	
+4873	Benedikti-Kirche		0	
+4874	.		0	
+4875	«		0	
+4876	Franz	624	0	(mention_id=621|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+4877	Linden	624	0	(mention_id=621|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+4878	nickte		0	
+4879	.		0	
+4880	»		0	
+4881	Da		0	
+4882	mögen		0	
+4883	Sie	625	0	(mention_id=622|references=(entity=(entity_id=entity_0022|fullname=Küster|gender=m)))
+4884	wohl		0	
+4885	recht		0	
+4886	haben		0	
+4887	«		0	
+4888	,		0	
+4889	sagte		0	
+4890	er	626	0	(mention_id=623|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+4891	zerstreut		0	
+4892	.		0	
+4893	Dann		0	
+4894	händigte		0	
+4895	er	627	0	(mention_id=624|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+4896	dem		0	
+4897	Manne	628	0	(mention_id=625|references=(entity=(entity_id=entity_0022|fullname=Küster|gender=m)))
+4898	eine		0	
+4899	kleine		0	
+4900	Summe		0	
+4901	ein		0	
+4902	für		0	
+4903	den		0	
+4904	Täufling		0	(mention_id=626|references=(entity=(entity_id=entity_0014|fullname=Täufling|gender=m)))
+4905	und		0	
+4906	schritt		0	
+4907	hinaus		0	
+4908	.		0	
+4909	Bald		0	
+4910	darauf		0	
+4911	rollte		0	
+4912	sein	629	0	(mention_id=627|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+4913	Wagen		0	
+4914	der		0	
+4915	Heimat		0	
+4916	zu		0	
+4917	.		0	
+4918	Dunkel		0	
+4919	hoben		0	
+4920	sich		0	
+4921	die		0	
+4922	Umrisse		0	
+4923	des		0	
+4924	kleinen		0	
+4925	Gebirges		0	
+4926	vom		0	
+4927	leuchtend		0	
+4928	roten		0	
+4929	Abendhimmel		0	
+4930	,		0	
+4931	und		0	
+4932	immer		0	
+4933	näher		0	
+4934	rückte		0	
+4935	der		0	
+4936	Kirchturm		0	
+4937	von		0	
+4938	Niendorf		0	
+4939	.		0	
+4940	–		0	
+4941	Es		0	
+4942	war		0	
+4943	nichts		0	
+4944	Fremdes		0	
+4945	mehr		0	
+4946	um		0	
+4947	ihn	630	0	
+4948	,		0	
+4949	wie		0	
+4950	heute		0	
+4951	früh		0	
+4952	noch		0	
+4953	.		0	
+4954	Das		0	
+4955	erste		0	
+4956	leise		0	
+4957	,		0	
+4958	wonnige		0	
+4959	Bewußtsein		0	
+4960	des		0	
+4961	Heimatgefühls		0	
+4962	zog		0	
+4963	in		0	
+4964	sein	631	0	(mention_id=628|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+4965	Herz		0	
+4966	.		0	
+4967	Auf		0	
+4968	der		0	
+4969	Höhe		0	
+4970	wandte		0	
+4971	er	632	0	(mention_id=629|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+4972	sich	633	0	(mention_id=630|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+4973	noch		0	
+4974	einmal		0	
+4975	und		0	
+4976	sah		0	
+4977	nach		0	
+4978	der		0	
+4979	Stadt		0	
+4980	zurück		0	
+4981	.		0	
+4982	Wie		0	
+4983	längst		0	
+4984	bekannt		0	
+4985	grüßte		0	
+4986	ihn	634	0	(mention_id=631|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))
+4987	das		0	
+4988	alte		0	
+4989	Schloß		0	
+4990	–		0	
+4991	und		0	
+4992	horch		0	
+4993	!		0	
+4994	Da		0	
+4995	kam		0	
+4996	im		0	
+4997	Abendwind		0	
+4998	ein		0	
+4999	verlorener		0	
+5000	Glockenklang		0	
+5001	herübergeweht		0	
+5002	.		0	
+5003	Vielleicht		0	
+5004	vom		0	
+5005	St.		0	
+5006	Benedikti-Turm		0	
+5007	?		0	

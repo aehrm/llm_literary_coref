@@ -1,0 +1,724 @@
+{
+  "model": "google/gemini-2.5-flash",
+  "request_args": {
+    "seed": 123,
+    "temperature": 0,
+    "reasoning": {
+      "enabled": false
+    },
+    "provider": {
+      "only": [
+        "google-vertex"
+      ]
+    }
+  },
+  "raw_input": "\n# Entit\u00e4tsannotation in literarischen Texten\n\n## Aufgabe\nAnnotiere JEDE markierte Entit\u00e4ts-Erw\u00e4hnung im Text. F\u00fcr jede Erw\u00e4hnung (jede Zeile im Input B) musst du das \"Annotation\"-Feld als ein Array von Objekten bef\u00fcllen. Halte dich exakt an die vorgegebenen Kernprinzipien, die Struktur und die Logik der Sonderf\u00e4lle.\n\n## Zentrales Konzept: Die Entit\u00e4t\nEine **Entit\u00e4t** ist das konzeptionelle Ding, auf das im Text verwiesen wird. F\u00fcr diese Aufgabe gibt es zwei Arten von Entit\u00e4ten:\n1.  **Einzelfigur:** Ein einzelner menschlicher oder menschen\u00e4hnlicher Charakter (dies schlie\u00dft auch hypothetische Figuren mit ein).\n2.  **Gruppe als Einheit:** Eine Gruppe, die im Text als ein zusammenh\u00e4ngender Akteur handelt ODER als eine spezifische, aber nicht in ihre Mitglieder aufgel\u00f6ste Menge von Personen erscheint (siehe \"Fall 1\" bei den Gruppenregeln).\n\n## Input\nDu erh\u00e4ltst:\n1.  Den vollst\u00e4ndigen Text (A).\n2.  Eine Liste der zu annotierenden Erw\u00e4hnungen (B) als JSON Lines. Jede Erw\u00e4hnung ist ein einzelnes Wort.\n\n## Kernprinzipien der Annotation\n1.  **Konsistenz der `entity_id`:** Die wichtigste Regel! Verwende f\u00fcr dieselbe Entit\u00e4t (egal ob Einzelfigur oder Gruppe als Einheit) \u00fcber den gesamten Text hinweg **IMMER** die exakt gleiche `entity_id`.\n2.  **Namenswahl f\u00fcr `entity_id`:**\n    -   Bei Einzelfiguren mit Eigennamen: Verwende den Vornamen.\n    -   Bei Einzelfiguren ohne Namen: Erstelle eine kurze, pr\u00e4zise, textnahe Umschreibung (z.B. \"der alte Mann\", \"die Tante\").\n    -   Bei Gruppen als Einheit (Fall 1): Verwende eine passende Gruppenbezeichnung (z.B. \"Familie Armbruster\", \"die Wachen\").\n3.  **Referenz-Logik:** Jede Erw\u00e4hnung referenziert eine oder mehrere Entit\u00e4ten. Deine Aufgabe ist es, diese im \"Annotation\"-Array vollst\u00e4ndig und korrekt abzubilden.\n\n## Attribute im Annotationsobjekt\n-   `gender`: (String, nur bei erster Nennung) `m`, `f`, `nb` (nicht-bin\u00e4r), `u` (unbekannt), `mf` (nur bei Gruppen, falls diese aus m\u00e4nnlichen und weiblichen Mitgliedern besteht).\n-   `specialcase_entity`: (**Array von Strings**, nur bei erster Nennung) Sonderf\u00e4lle, die die Natur der Entit\u00e4t beschreiben. Alle diese Attribute sind unabh\u00e4ngig voneinander und k\u00f6nnen parallel auftreten.\n    -   `nonfact`: nicht-faktische Entit\u00e4t, siehe unten.\n    -   `group`: Gruppe, siehe unten.\n    -   `generic`: Generische Entit\u00e4t, siehe unten.\n    -   Falls keine dieser Attribute zutrifft, dann setze bei der ersten Nennung `\"specialcase_entity\": []`. Beachte, dass diese in der ersten Nennung angegebenen Attribute auch f\u00fcr alle folgenden Nennungen gelten m\u00fcssen, da diese Attribute sich auf die Entit\u00e4t beziehen.\n    \n## Logik der Sonderf\u00e4lle: Eine Entscheidungshierarchie\n\n**WICHTIG:** Gehe bei jeder Erw\u00e4hnung diese Schritte in der angegebenen Reihenfolge durch. Annotiere gem\u00e4\u00df der **ersten zutreffenden Regel** und ignoriere die folgenden f\u00fcr diese eine Erw\u00e4hnung, au\u00dfer es wird explizit anders angegeben (wie bei dualen Referenzen). Die korrekte Unterscheidung von spezifischen, nicht-faktischen und generischen Entit\u00e4ten ist entscheidend.\n\n### Schritt 1: Pr\u00fcfung auf spezifische Referenz (H\u00f6chste Priorit\u00e4t)\n*Frage dich:* Kann diese Erw\u00e4hnung auf eine **konkrete, bereits bekannte Figur** im Text zur\u00fcckgef\u00fchrt werden, selbst wenn ein allgemeiner Begriff (wie \"der Mann\", \"der Schuldige\"), ein Reflexivpronomen (\"sich\") oder das unpers\u00f6nliche Pronomen \"man\" verwendet wird?\n-   **Typischer Fall:** Eine Figur spricht \u00fcber sich selbst oder eine andere Figur in verallgemeinernder Weise.\n-   **Beispiel 1:** Hans reflektiert \u00fcber seine eigene Schuld und sagt: \"...zeigt sich **dem Schuldigen** wie eine strenge Richterin\". Hier ist \"dem Schuldigen\" **keine** generische Entit\u00e4t, sondern eine Referenz auf `Hans`.\n-   **Beispiel 2:** Eine Figur sagt \"wenn **man** glaubte...\". Pr\u00fcfe scharf, ob `man` hier nicht f\u00fcr \"ich\" (also die sprechende Figur) steht. \n-   **Anweisung:** Wenn ja, l\u00f6se die Koreferenz zur spezifischen Figur auf. Diese Entit\u00e4t ist **NICHT `generic` und NICHT `nonfact`**.\n\n### Schritt 2: Pr\u00fcfung auf nicht-faktische Entit\u00e4t (Mittlere Priorit\u00e4t)\n*Frage dich:* Wenn die Erw\u00e4hnung sich nicht auf eine bekannte Figur bezieht, handelt es sich dann um eine **hypothetische, gew\u00fcnschte, negierte oder als Beispiel genannte Einzelfigur oder eine kleine, definierte Gruppe?** Existiert diese Entit\u00e4t zum Zeitpunkt der Erw\u00e4hnung nicht *real* in der erz\u00e4hlten Welt, wird aber als individuelles Konzept behandelt?\n-   **Typischer Fall:** Gedankenexperimente, W\u00fcnsche, Pl\u00e4ne, Warnungen.\n-   **Beispiel 1:** \"Anna w\u00fcnschte sich eine **Tochter**\". Diese Tochter existiert nicht, ist aber eine hypothetische Einzelperson. -> `specialcase_entity: [\"nonfact\"]`.\n-   **Beispiel 2:** In einem philosophischen Dialog wird gesagt: \"was w\u00fcrde ein **Grieche**... einem **Chineser** antworten?\". Diese Personen sind keine allgemeinen Kategorien, sondern **hypothetische Beispiele** in einer Argumentation. -> `specialcase_entity: [\"nonfact\"]`.\n-   **Anweisung:** Wenn ja, erstelle eine neue Entit\u00e4t und f\u00fcge `\"nonfact\"` zum `specialcase_entity`-Array hinzu. Diese Entit\u00e4t ist **NICHT `generic`**.\n\n### Schritt 3: Pr\u00fcfung auf generische Entit\u00e4t (Niedrigste Priorit\u00e4t)\n*Frage dich:* Nur wenn Schritt 1 und 2 NICHT zutreffen: Bezieht sich die Erw\u00e4hnung auf eine **abstrakte Kategorie von Menschen** oder wird eine allgemeing\u00fcltige, gesetzm\u00e4\u00dfige Aussage \u00fcber eine Art von Mensch gemacht? L\u00e4sst sich die Entit\u00e4t als \"XXX im Allgemeinen\" beschreiben, ohne dass sie ein spezifisches oder hypothetisches Individuum im Kontext meint?\n-   **Typischer Fall:** Sentenzen, allgemeine Aussagen, die sich nicht auf den unmittelbaren Kontext zur\u00fcckf\u00fchren lassen.\n-   **Beispiel:** \"Ein **K\u00f6nig** muss stets gerecht sein.\" (Wenn dies als allgemeine Regel und nicht bezogen auf einen bestimmten K\u00f6nig gesagt wird).\n-   **Anweisung:** Nur in diesem Fall, f\u00fcge `\"generic\"` zum `specialcase_entity`-Array hinzu. Der Name der Entit\u00e4t muss von der Form \"XXX im Allgemeinen\" sein.\n\n### Sonderfall: Duale Referenz (Generisch + Spezifisch)\n*Frage dich:* Spricht eine Figur eine allgemeine Gruppe an (\"ihr Frauen\", \"ihr Elenden\"), meint damit aber **gleichzeitig** und erkennbar auch eine **spezifische Figur** im Raum?\n-   **Typischer Fall:** Eine Apostrophe (Anrede), die eine allgemeine Aussage mit einer direkten, pers\u00f6nlichen Ansprache verbindet.\n-   **Beispiel:** Gustav sagt zu Sophie: \"**Ihr** ungl\u00fccklichen **Weiber**! wie k\u00f6nnt **ihr** so th\u00f6richt seyn...\".\n-   **Anweisung:** In diesem seltenen Fall soll die Erw\u00e4hnung **mehrere Annotationsobjekte** im Array erhalten, da es sich um eine Gruppe von Fall 2 handelt: Eines f\u00fcr die generische Entit\u00e4t (\"Weiber im Allgemeinen\") und eines f\u00fcr jede spezifische Figur, die mitgemeint ist (hier: \"Sophie\").\n\n### Handhabung von Gruppen\n\n**Fall 1: Gruppe als Einheit (Eine Annotation)**\n-   **Logik:** Erw\u00e4hnungen im Plural, die sich auf eine **konkrete, aber anonyme oder nicht weiter aufgeschl\u00fcsselte Menge von Personen** in der Welt der Erz\u00e4hlung beziehen. Auch wenn die Mitglieder unbekannt sind, ist es eine spezifische Gruppe im Text. *Beispiele: \"meine Freunde\", \"die P\u00e4chter\", \"die Wachen am Tor\".*\n-   **Umsetzung:** Das `Annotation`-Array enth\u00e4lt **ein einziges Objekt**.\n    -   Dieses Objekt bekommt eine eigene Gruppen-`entity_id` (z.B. \"manche t\u00e4tige Freunde\").\n    -   Bei ihrer ersten Nennung, setze `specialcase_entity: [\"group\"]`.\n\n**Fall 2: Aufl\u00f6sbare Gruppe (Mehrere Annotationen)**\n-   **Logik:** Die Erw\u00e4hnung (oft ein Pronomen wie \"sie\", \"ihnen\" oder \"beide\") verweist klar auf **mehrere, individuelle Entit\u00e4ten, die im unmittelbaren Kontext bekannt sind**.\n-   **Umsetzung:** Das `Annotation`-Array enth\u00e4lt **mehrere Objekte**, eines f\u00fcr jede referenzierte Entit\u00e4t.\n    -   Jedes Objekt enth\u00e4lt die `entity_id` des jeweiligen Mitglieds.\n    -   Erfinde keine neuen Einzelfiguren. Wenn die Mitglieder nicht klar aus dem Kontext hervorgehen, ist es Fall 1.\n    - Beachte, dass in diesem Fall das Feld \"Annotation\" aus mehreren Objekten besteht. Auf keinen Fall darf das Feld \"entity_id\" aus einer Liste von Namen bestehen.\n\n## Ausgabeformat\n-   Gib EXAKT so viele Zeilen aus, wie Du im Input (B) erhalten hast. KEINE Zeilen \u00fcberspringen.\n-   Das Format ist JSON Lines (ein komplettes und valides JSON-Objekt pro Zeile).\n-   Gib NUR die aktualisierte Liste B zur\u00fcck.\n-   Keine Code-Fences, Kommentare oder Erkl\u00e4rungen in der Ausgabe.\n\n## Beispiele\n\n**Beispiel-Text:**\n[Hans][1] und [Anna][2] sa\u00dfen im Garten. [Sie][3] w\u00fcnschte [sich][4] eine [Tochter][5]. [Hans][6] stellte [sich][7] vor, dass ein [K\u00f6nig][8] stets gerecht sein muss. Sp\u00e4ter gingen [sie][9] gemeinsam ins Haus.\n\n**Input B:**\n{\"ID\": 1, \"Position\": 0, \"Text\": \"Hans\", \"Annotation\": []}\n{\"ID\": 2, \"Position\": 2, \"Text\": \"Anna\", \"Annotation\": []}\n{\"ID\": 3, \"Position\": 7, \"Text\": \"Sie\", \"Annotation\": []}\n{\"ID\": 4, \"Position\": 9, \"Text\": \"sich\", \"Annotation\": []}\n{\"ID\": 5, \"Position\": 11, \"Text\": \"Tochter\", \"Annotation\": []}\n{\"ID\": 6, \"Position\": 14, \"Text\": \"Hans\", \"Annotation\": []}\n{\"ID\": 7, \"Position\": 16, \"Text\": \"sich\", \"Annotation\": []}\n{\"ID\": 8, \"Position\": 21, \"Text\": \"K\u00f6nig\", \"Annotation\": []}\n{\"ID\": 9, \"Position\": 30, \"Text\": \"sie\", \"Annotation\": []}\n\n**Erwartete Ausgabe:**\n{\"ID\": 1, \"Position\": 0, \"Text\": \"Hans\", \"Annotation\": [{\"entity_id\": \"Hans\", \"gender\": \"m\"}]}\n{\"ID\": 2, \"Position\": 2, \"Text\": \"Anna\", \"Annotation\": [{\"entity_id\": \"Anna\", \"gender\": \"f\"}]}\n{\"ID\": 3, \"Position\": 7, \"Text\": \"Sie\", \"Annotation\": [{\"entity_id\": \"Anna\"}]}\n{\"ID\": 4, \"Position\": 9, \"Text\": \"sich\", \"Annotation\": [{\"entity_id\": \"Anna\"}]}\n{\"ID\": 5, \"Position\": 11, \"Text\": \"Tochter\", \"Annotation\": [{\"entity_id\": \"gew\u00fcnschte Tochter\", \"gender\": \"f\", \"specialcase_entity\": [\"nonfact\"]}]}\n{\"ID\": 6, \"Position\": 14, \"Text\": \"Hans\", \"Annotation\": [{\"entity_id\": \"Hans\"}]}\n{\"ID\": 7, \"Position\": 16, \"Text\": \"sich\", \"Annotation\": [{\"entity_id\": \"Hans\"}]}\n{\"ID\": 8, \"Position\": 21, \"Text\": \"K\u00f6nig\", \"Annotation\": [{\"entity_id\": \"ein K\u00f6nig im Allgemeinen\", \"gender\": \"m\", \"specialcase_entity\": [\"generic\"]}]}\n{\"ID\": 9, \"Position\": 30, \"Text\": \"sie\", \"Annotation\": [{\"entity_id\": \"Hans\"}, {\"entity_id\": \"Anna\"}]}\n\n---\n\n**Hier ist der zu annotierende Text:**\nInput A:\nweder das Fieber , noch die Langweile grassirt , wo es [einem][1] so recht bergesfrisch und waldheimlich und wasserk\u00fchl zu Muthe wird , da\u00df [ich][2] mit gutem Gewissen sagen darf : liebe [Deutsche][3] , kommt zu [mir][4] , deutsche Feen haben das f\u00fcr [euch][5] geschaffen ! denn [ich][6] hoffe , die [Feen][7] sind auch ein wenig emigrirt wie die [Menschen][8] . Hol's der Teufel ! Indem [ich][9] schreibe , w\u00e4lzt [mir][10] der n\u00e4chste Schlott eine Rauchs\u00e4ule durch's offene Fenster , da\u00df Herculanum und Pompeji dran ersticken k\u00f6nnten . Und schlie\u00df' [ich][11] das Fenster , so erstick' [ich][12] wieder . [Ich][13] schlie\u00dfe demnach dieses Briefpaquet , es bleibt nichts anders \u00fcbrig . Adieu ! [ich][14] hoffe vom Ohio soll Alles besser klingen . La belle rivi\u00e8re nannten die [Franzosen][15] den Ohio , und die [Franzosen][16] wissen was sch\u00f6n ist . Aber warum behaupteten [sie][17] ihn nicht ? Geht's [uns][18] mit allem Sch\u00f6nen so ? [Du][19] hast Recht : der [Mensch][20] kann nur beginnen !\n\nInput B:\n{\"ID\": 1, \"Position\": 11, \"Text\": \"einem\", \"Annotation\": []}\n{\"ID\": 2, \"Position\": 24, \"Text\": \"ich\", \"Annotation\": []}\n{\"ID\": 3, \"Position\": 32, \"Text\": \"Deutsche\", \"Annotation\": []}\n{\"ID\": 4, \"Position\": 36, \"Text\": \"mir\", \"Annotation\": []}\n{\"ID\": 5, \"Position\": 43, \"Text\": \"euch\", \"Annotation\": []}\n{\"ID\": 6, \"Position\": 47, \"Text\": \"ich\", \"Annotation\": []}\n{\"ID\": 7, \"Position\": 51, \"Text\": \"Feen\", \"Annotation\": []}\n{\"ID\": 8, \"Position\": 59, \"Text\": \"Menschen\", \"Annotation\": []}\n{\"ID\": 9, \"Position\": 66, \"Text\": \"ich\", \"Annotation\": []}\n{\"ID\": 10, \"Position\": 70, \"Text\": \"mir\", \"Annotation\": []}\n{\"ID\": 11, \"Position\": 90, \"Text\": \"ich\", \"Annotation\": []}\n{\"ID\": 12, \"Position\": 96, \"Text\": \"ich\", \"Annotation\": []}\n{\"ID\": 13, \"Position\": 99, \"Text\": \"Ich\", \"Annotation\": []}\n{\"ID\": 14, \"Position\": 113, \"Text\": \"ich\", \"Annotation\": []}\n{\"ID\": 15, \"Position\": 127, \"Text\": \"Franzosen\", \"Annotation\": []}\n{\"ID\": 16, \"Position\": 133, \"Text\": \"Franzosen\", \"Annotation\": []}\n{\"ID\": 17, \"Position\": 142, \"Text\": \"sie\", \"Annotation\": []}\n{\"ID\": 18, \"Position\": 147, \"Text\": \"uns\", \"Annotation\": []}\n{\"ID\": 19, \"Position\": 153, \"Text\": \"Du\", \"Annotation\": []}\n{\"ID\": 20, \"Position\": 158, \"Text\": \"Mensch\", \"Annotation\": []}\n",
+  "raw_output": "```json\n{\"ID\": 1, \"Position\": 11, \"Text\": \"einem\", \"Annotation\": [{\"entity_id\": \"Sprecher\"}]}\n{\"ID\": 2, \"Position\": 24, \"Text\": \"ich\", \"Annotation\": [{\"entity_id\": \"Sprecher\", \"gender\": \"u\"}]}\n{\"ID\": 3, \"Position\": 32, \"Text\": \"Deutsche\", \"Annotation\": [{\"entity_id\": \"Deutsche im Allgemeinen\", \"gender\": \"mf\", \"specialcase_entity\": [\"generic\"]}]}\n{\"ID\": 4, \"Position\": 36, \"Text\": \"mir\", \"Annotation\": [{\"entity_id\": \"Sprecher\"}]}\n{\"ID\": 5, \"Position\": 43, \"Text\": \"euch\", \"Annotation\": [{\"entity_id\": \"Deutsche im Allgemeinen\"}]}\n{\"ID\": 6, \"Position\": 47, \"Text\": \"ich\", \"Annotation\": [{\"entity_id\": \"Sprecher\"}]}\n{\"ID\": 7, \"Position\": 51, \"Text\": \"Feen\", \"Annotation\": [{\"entity_id\": \"Feen im Allgemeinen\", \"gender\": \"f\", \"specialcase_entity\": [\"generic\"]}]}\n{\"ID\": 8, \"Position\": 59, \"Text\": \"Menschen\", \"Annotation\": [{\"entity_id\": \"Menschen im Allgemeinen\", \"gender\": \"mf\", \"specialcase_entity\": [\"generic\"]}]}\n{\"ID\": 9, \"Position\": 66, \"Text\": \"ich\", \"Annotation\": [{\"entity_id\": \"Sprecher\"}]}\n{\"ID\": 10, \"Position\": 70, \"Text\": \"mir\", \"Annotation\": [{\"entity_id\": \"Sprecher\"}]}\n{\"ID\": 11, \"Position\": 90, \"Text\": \"ich\", \"Annotation\": [{\"entity_id\": \"Sprecher\"}]}\n{\"ID\": 12, \"Position\": 96, \"Text\": \"ich\", \"Annotation\": [{\"entity_id\": \"Sprecher\"}]}\n{\"ID\": 13, \"Position\": 99, \"Text\": \"Ich\", \"Annotation\": [{\"entity_id\": \"Sprecher\"}]}\n{\"ID\": 14, \"Position\": 113, \"Text\": \"ich\", \"Annotation\": [{\"entity_id\": \"Sprecher\"}]}\n{\"ID\": 15, \"Position\": 127, \"Text\": \"Franzosen\", \"Annotation\": [{\"entity_id\": \"die Franzosen\", \"gender\": \"m\", \"specialcase_entity\": [\"group\"]}]}\n{\"ID\": 16, \"Position\": 133, \"Text\": \"Franzosen\", \"Annotation\": [{\"entity_id\": \"die Franzosen\"}]}\n{\"ID\": 17, \"Position\": 142, \"Text\": \"sie\", \"Annotation\": [{\"entity_id\": \"die Franzosen\"}]}\n{\"ID\": 18, \"Position\": 147, \"Text\": \"uns\", \"Annotation\": [{\"entity_id\": \"Sprecher\"}, {\"entity_id\": \"Adressat\"}]}\n{\"ID\": 19, \"Position\": 153, \"Text\": \"Du\", \"Annotation\": [{\"entity_id\": \"Adressat\", \"gender\": \"u\"}]}\n{\"ID\": 20, \"Position\": 158, \"Text\": \"Mensch\", \"Annotation\": [{\"entity_id\": \"Mensch im Allgemeinen\", \"gender\": \"m\", \"specialcase_entity\": [\"generic\"]}]}\n",
+  "generation_details": [
+    {
+      "usage": null,
+      "finish_reason": "max_output_lines",
+      "request_id": "gen-1766639169-1SjYOOYuRGbFLXpm3cLS"
+    }
+  ],
+  "json_output": [
+    {
+      "ID": 1,
+      "Position": 11,
+      "Text": "einem",
+      "Annotation": [
+        {
+          "entity_id": "Sprecher"
+        }
+      ]
+    },
+    {
+      "ID": 2,
+      "Position": 24,
+      "Text": "ich",
+      "Annotation": [
+        {
+          "entity_id": "Sprecher",
+          "gender": "u"
+        }
+      ]
+    },
+    {
+      "ID": 3,
+      "Position": 32,
+      "Text": "Deutsche",
+      "Annotation": [
+        {
+          "entity_id": "Deutsche im Allgemeinen",
+          "gender": "mf",
+          "specialcase_entity": [
+            "generic"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 4,
+      "Position": 36,
+      "Text": "mir",
+      "Annotation": [
+        {
+          "entity_id": "Sprecher"
+        }
+      ]
+    },
+    {
+      "ID": 5,
+      "Position": 43,
+      "Text": "euch",
+      "Annotation": [
+        {
+          "entity_id": "Deutsche im Allgemeinen"
+        }
+      ]
+    },
+    {
+      "ID": 6,
+      "Position": 47,
+      "Text": "ich",
+      "Annotation": [
+        {
+          "entity_id": "Sprecher"
+        }
+      ]
+    },
+    {
+      "ID": 7,
+      "Position": 51,
+      "Text": "Feen",
+      "Annotation": [
+        {
+          "entity_id": "Feen im Allgemeinen",
+          "gender": "f",
+          "specialcase_entity": [
+            "generic"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 8,
+      "Position": 59,
+      "Text": "Menschen",
+      "Annotation": [
+        {
+          "entity_id": "Menschen im Allgemeinen",
+          "gender": "mf",
+          "specialcase_entity": [
+            "generic"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 9,
+      "Position": 66,
+      "Text": "ich",
+      "Annotation": [
+        {
+          "entity_id": "Sprecher"
+        }
+      ]
+    },
+    {
+      "ID": 10,
+      "Position": 70,
+      "Text": "mir",
+      "Annotation": [
+        {
+          "entity_id": "Sprecher"
+        }
+      ]
+    },
+    {
+      "ID": 11,
+      "Position": 90,
+      "Text": "ich",
+      "Annotation": [
+        {
+          "entity_id": "Sprecher"
+        }
+      ]
+    },
+    {
+      "ID": 12,
+      "Position": 96,
+      "Text": "ich",
+      "Annotation": [
+        {
+          "entity_id": "Sprecher"
+        }
+      ]
+    },
+    {
+      "ID": 13,
+      "Position": 99,
+      "Text": "Ich",
+      "Annotation": [
+        {
+          "entity_id": "Sprecher"
+        }
+      ]
+    },
+    {
+      "ID": 14,
+      "Position": 113,
+      "Text": "ich",
+      "Annotation": [
+        {
+          "entity_id": "Sprecher"
+        }
+      ]
+    },
+    {
+      "ID": 15,
+      "Position": 127,
+      "Text": "Franzosen",
+      "Annotation": [
+        {
+          "entity_id": "die Franzosen",
+          "gender": "m",
+          "specialcase_entity": [
+            "group"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 16,
+      "Position": 133,
+      "Text": "Franzosen",
+      "Annotation": [
+        {
+          "entity_id": "die Franzosen"
+        }
+      ]
+    },
+    {
+      "ID": 17,
+      "Position": 142,
+      "Text": "sie",
+      "Annotation": [
+        {
+          "entity_id": "die Franzosen"
+        }
+      ]
+    },
+    {
+      "ID": 18,
+      "Position": 147,
+      "Text": "uns",
+      "Annotation": [
+        {
+          "entity_id": "Sprecher"
+        },
+        {
+          "entity_id": "Adressat"
+        }
+      ]
+    },
+    {
+      "ID": 19,
+      "Position": 153,
+      "Text": "Du",
+      "Annotation": [
+        {
+          "entity_id": "Adressat",
+          "gender": "u"
+        }
+      ]
+    },
+    {
+      "ID": 20,
+      "Position": 158,
+      "Text": "Mensch",
+      "Annotation": [
+        {
+          "entity_id": "Mensch im Allgemeinen",
+          "gender": "m",
+          "specialcase_entity": [
+            "generic"
+          ]
+        }
+      ]
+    }
+  ],
+  "output": [
+    {
+      "id": "13734",
+      "token_idx": [
+        117933
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 6,
+            "fullname": "Sprecher",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "13735",
+      "token_idx": [
+        117946
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 6,
+            "fullname": "Sprecher",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "13736",
+      "token_idx": [
+        117954
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": "generic_0001",
+            "fullname": "Deutsche im Allgemeinen",
+            "gender": "u",
+            "specialcase_entity": [
+              "generic"
+            ],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "13737",
+      "token_idx": [
+        117958
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 6,
+            "fullname": "Sprecher",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "13738",
+      "token_idx": [
+        117965
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": "generic_0002",
+            "fullname": "Deutsche im Allgemeinen",
+            "gender": "u",
+            "specialcase_entity": [
+              "generic"
+            ],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "13739",
+      "token_idx": [
+        117969
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 6,
+            "fullname": "Sprecher",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "13740",
+      "token_idx": [
+        117973
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": "generic_0003",
+            "fullname": "Feen im Allgemeinen",
+            "gender": "u",
+            "specialcase_entity": [
+              "generic"
+            ],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "13741",
+      "token_idx": [
+        117981
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": "generic_0004",
+            "fullname": "Menschen im Allgemeinen",
+            "gender": "u",
+            "specialcase_entity": [
+              "generic"
+            ],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "13742",
+      "token_idx": [
+        117988
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 6,
+            "fullname": "Sprecher",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "13743",
+      "token_idx": [
+        117992
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 6,
+            "fullname": "Sprecher",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "13744",
+      "token_idx": [
+        118012
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 6,
+            "fullname": "Sprecher",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "13745",
+      "token_idx": [
+        118018
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 6,
+            "fullname": "Sprecher",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "13746",
+      "token_idx": [
+        118021
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 6,
+            "fullname": "Sprecher",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "13747",
+      "token_idx": [
+        118035
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 6,
+            "fullname": "Sprecher",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "13748",
+      "token_idx": [
+        118049
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 7,
+            "fullname": "die Franzosen",
+            "gender": "m",
+            "specialcase_entity": [
+              "group"
+            ],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "13749",
+      "token_idx": [
+        118055
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 7,
+            "fullname": "die Franzosen",
+            "gender": "m",
+            "specialcase_entity": [
+              "group"
+            ],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "13750",
+      "token_idx": [
+        118064
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 7,
+            "fullname": "die Franzosen",
+            "gender": "m",
+            "specialcase_entity": [
+              "group"
+            ],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "13751",
+      "token_idx": [
+        118069
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 6,
+            "fullname": "Sprecher",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        },
+        {
+          "entity": {
+            "id": 1,
+            "fullname": "Adressat",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "13752",
+      "token_idx": [
+        118075
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 1,
+            "fullname": "Adressat",
+            "gender": "u",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "13753",
+      "token_idx": [
+        118080
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": "generic_0005",
+            "fullname": "Mensch im Allgemeinen",
+            "gender": "u",
+            "specialcase_entity": [
+              "generic"
+            ],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    }
+  ],
+  "exception": null
+}

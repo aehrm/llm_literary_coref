@@ -1,0 +1,957 @@
+i	token	is_section_start	gold	pred
+155442	jetzt	0		
+155443	die	0		
+155444	Stimme	0		
+155445	:	0		
+155446	Jesus	0	(mention_id=18314|references=(entity=(entity_id=entity_0602|fullname=Jesus Christus|gender=m)))	(mention_id=18070|references=(entity=(entity_id=12|fullname=Jesus|gender=m|specialcase_entity=nonfact)))
+155447	komm	0		
+155448	herab	0		
+155449	!	0		
+155450	aber	0		
+155451	die	0		
+155452	umgebende	0		
+155453	Menge	0	(mention_id=18315|references=(entity=(entity_id=entity_0967|fullname=Gemeinde|gender=mf|members=entity_0829,entity_0831,entity_0834,entity_0972|all_members_given=False|specialcase_entity=group)))	(mention_id=18071|references=(entity=(entity_id=25|fullname=umgebende Menge|gender=u|specialcase_entity=group)))
+155454	verhielt	0		
+155455	sich	0	(mention_id=18316|references=(entity=(entity_id=entity_0967|fullname=Gemeinde|gender=mf|members=entity_0829,entity_0831,entity_0834,entity_0972|all_members_given=False|specialcase_entity=group)))	(mention_id=18072|references=(entity=(entity_id=25|fullname=umgebende Menge|gender=u|specialcase_entity=group)))
+155456	schweigend	0		
+155457	.	0		
+155458	Hoby	0	(mention_id=18317|references=(entity=(entity_id=entity_0005|fullname=Hoby|gender=m)))	(mention_id=18073|references=(entity=(entity_id=10|fullname=Hoby|gender=m)))
+155459	,	0		
+155460	der	0		
+155461	Straßenjunge	0	(mention_id=18318|references=(entity=(entity_id=entity_0005|fullname=Hoby|gender=m)))	(mention_id=18074|references=(entity=(entity_id=10|fullname=Hoby|gender=m)))
+155462	,	0		
+155463	war	0		
+155464	zum	0		
+155465	Mittelpunkte	0		
+155466	der	0		
+155467	Andacht	0		
+155468	geworden	0		
+155469	.	0		
+155470	—	0		
+155471	Ich	0	(mention_id=18319|references=(entity=(entity_id=entity_0323|fullname=Arzt|gender=m)))	(mention_id=18075|references=(entity=(entity_id=6|fullname=Erzähler|gender=m)))
+155472	merke	0		
+155473	,	0		
+155474	er	0	(mention_id=18320|references=(entity=(entity_id=entity_0005|fullname=Hoby|gender=m)))	(mention_id=18076|references=(entity=(entity_id=10|fullname=Hoby|gender=m)))
+155475	sitzt	0		
+155476	auf	0		
+155477	dem	0		
+155478	„	0		
+155479	Angststuhl	0		
+155480	“	0		
+155481	sagte	0		
+155482	Doctor	0	(mention_id=18321|references=(entity=(entity_id=entity_0323|fullname=Arzt|gender=m)))	(mention_id=18077|references=(entity=(entity_id=1|fullname=Althof|gender=m)))
+155483	Althof	0	(mention_id=18321|references=(entity=(entity_id=entity_0323|fullname=Arzt|gender=m)))	(mention_id=18077|references=(entity=(entity_id=1|fullname=Althof|gender=m)))
+155484	—	0		
+155485	bitte	0		
+155486	,	0		
+155487	Poll	0	(mention_id=18322|references=(entity=(entity_id=entity_0302|fullname=Herr Poll|gender=m)))	(mention_id=18078|references=(entity=(entity_id=17|fullname=Poll|gender=m)))
+155488	,	0		
+155489	reichen	0		
+155490	Sie	0	(mention_id=18323|references=(entity=(entity_id=entity_0302|fullname=Herr Poll|gender=m)))	(mention_id=18079|references=(entity=(entity_id=17|fullname=Poll|gender=m)))
+155491	mir	0	(mention_id=18324|references=(entity=(entity_id=entity_0323|fullname=Arzt|gender=m)))	(mention_id=18080|references=(entity=(entity_id=1|fullname=Althof|gender=m)))
+155492	das	0		
+155493	Besteck	0		
+155494	,	0		
+155495	wenn	0		
+155496	ich	0	(mention_id=18325|references=(entity=(entity_id=entity_0323|fullname=Arzt|gender=m)))	(mention_id=18081|references=(entity=(entity_id=1|fullname=Althof|gender=m)))
+155497	etwa	0		
+155498	eine	0		
+155499	Ader	0		
+155500	schlagen	0		
+155501	müßte	0		
+155502	.	0		
+155503	Erschrocken	0		
+155504	machte	0		
+155505	ich	0	(mention_id=18326|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=18082|references=(entity=(entity_id=6|fullname=Erzähler|gender=m)))
+155506	Fragen	0		
+155507	,	0		
+155508	aber	0		
+155509	Althof	0	(mention_id=18327|references=(entity=(entity_id=entity_0323|fullname=Arzt|gender=m)))	(mention_id=18083|references=(entity=(entity_id=1|fullname=Althof|gender=m)))
+155510	antwortete	0		
+155511	:	0		
+155512	Wir	0	(mention_id=18328|references=(entity=(entity_id=entity_0323|fullname=Arzt|gender=m)),(entity=(entity_id=entity_0302|fullname=Herr Poll|gender=m)),(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=18084|references=(entity=(entity_id=1|fullname=Althof|gender=m)),(entity=(entity_id=6|fullname=Erzähler|gender=m)))
+155513	werden	0		
+155514	sehen	0		
+155515	,	0		
+155516	mein	0	(mention_id=18329|references=(entity=(entity_id=entity_0323|fullname=Arzt|gender=m)))	(mention_id=18085|references=(entity=(entity_id=1|fullname=Althof|gender=m)))
+155517	Herr	0	(mention_id=18330|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=18086|references=(entity=(entity_id=6|fullname=Erzähler|gender=m)))
+155518	.	0		
+155519	Er	0	(mention_id=18331|references=(entity=(entity_id=entity_0323|fullname=Arzt|gender=m)))	(mention_id=18087|references=(entity=(entity_id=1|fullname=Althof|gender=m)))
+155520	und	0		
+155521	der	0		
+155522	studen	0		
+155523	tische	0		
+155524	Poll	0	(mention_id=18332|references=(entity=(entity_id=entity_0302|fullname=Herr Poll|gender=m)))	(mention_id=18088|references=(entity=(entity_id=17|fullname=Poll|gender=m)))
+155525	betrugen	0		
+155526	sich	0	(mention_id=18333|references=(entity=(entity_id=entity_0323|fullname=Arzt|gender=m)),(entity=(entity_id=entity_0302|fullname=Herr Poll|gender=m)))	(mention_id=18089|references=(entity=(entity_id=1|fullname=Althof|gender=m)),(entity=(entity_id=17|fullname=Poll|gender=m)))
+155527	auf	0		
+155528	einmal	0		
+155529	knapp	0		
+155530	und	0		
+155531	gemessen	0		
+155532	.	0		
+155533	Unter	0		
+155534	den	0		
+155535	Amerikanern	0	(mention_id=18334|references=(entity=(entity_id=entity_0967|fullname=Gemeinde|gender=mf|members=entity_0829,entity_0831,entity_0834,entity_0972|all_members_given=False|specialcase_entity=group)))	(mention_id=18090|references=(entity=(entity_id=2|fullname=Amerikaner|gender=u|specialcase_entity=group)))
+155536	nahmen	0		
+155537	sie	0	(mention_id=18335|references=(entity=(entity_id=entity_0323|fullname=Arzt|gender=m)),(entity=(entity_id=entity_0302|fullname=Herr Poll|gender=m)))	(mention_id=18091|references=(entity=(entity_id=1|fullname=Althof|gender=m)),(entity=(entity_id=17|fullname=Poll|gender=m)))
+155538	ihre	0	(mention_id=18336|references=(entity=(entity_id=entity_0323|fullname=Arzt|gender=m)),(entity=(entity_id=entity_0302|fullname=Herr Poll|gender=m)))	(mention_id=18092|references=(entity=(entity_id=1|fullname=Althof|gender=m)),(entity=(entity_id=17|fullname=Poll|gender=m)))
+155539	amerikanische	0		
+155540	Miene	0		
+155541	vor	0		
+155542	.	0		
+155543	Wir	0	(mention_id=18337|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)),(entity=(entity_id=entity_0323|fullname=Arzt|gender=m)),(entity=(entity_id=entity_0302|fullname=Herr Poll|gender=m)))	(mention_id=18093|references=(entity=(entity_id=6|fullname=Erzähler|gender=m)),(entity=(entity_id=1|fullname=Althof|gender=m)),(entity=(entity_id=17|fullname=Poll|gender=m)))
+155544	drängten	0		
+155545	uns	0	(mention_id=18338|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)),(entity=(entity_id=entity_0323|fullname=Arzt|gender=m)),(entity=(entity_id=entity_0302|fullname=Herr Poll|gender=m)))	(mention_id=18094|references=(entity=(entity_id=6|fullname=Erzähler|gender=m)),(entity=(entity_id=1|fullname=Althof|gender=m)),(entity=(entity_id=17|fullname=Poll|gender=m)))
+155546	aus	0		
+155547	der	0		
+155548	Pheripherie	0		
+155549	des	0		
+155550	Menschenknäuels	0		
+155551	muthig	0		
+155552	ins	0		
+155553	Centrum	0		
+155554	durch	0		
+155555	.	0		
+155556	Die	0		
+155557	Scene	0		
+155558	hier	0		
+155559	war	0		
+155560	folgende	0		
+155561	.	0		
+155562	Hoby	0	(mention_id=18339|references=(entity=(entity_id=entity_0005|fullname=Hoby|gender=m)))	(mention_id=18095|references=(entity=(entity_id=10|fullname=Hoby|gender=m)))
+155563	saß	0		
+155564	in	0		
+155565	der	0		
+155566	That	0		
+155567	auf	0		
+155568	einem	0		
+155569	niedern	0		
+155570	Stuhl	0		
+155571	,	0		
+155572	nach	0		
+155573	der	0		
+155574	vorigen	0		
+155575	Aeußerung	0		
+155576	,	0		
+155577	dem	0		
+155578	Angststuhl	0		
+155579	.	0		
+155580	Der	0		
+155581	Prediger	0	(mention_id=18340|references=(entity=(entity_id=entity_0965|fullname=Prediger bei Camp-Meeting|gender=m)))	(mention_id=18096|references=(entity=(entity_id=18|fullname=Prediger|gender=m)))
+155582	und	0		
+155583	sein	0	(mention_id=18341|references=(entity=(entity_id=entity_0965|fullname=Prediger bei Camp-Meeting|gender=m)))	(mention_id=18097|references=(entity=(entity_id=18|fullname=Prediger|gender=m)))
+155584	Gehilfe	0	(mention_id=18342|references=(entity=(entity_id=entity_0998|fullname=Gehilfe des Predigers|gender=m)))	(mention_id=18098|references=(entity=(entity_id=8|fullname=Gehilfe des Predigers|gender=m)))
+155585	standen	0		
+155586	ihm	0	(mention_id=18343|references=(entity=(entity_id=entity_0005|fullname=Hoby|gender=m)))	(mention_id=18099|references=(entity=(entity_id=10|fullname=Hoby|gender=m)))
+155587	links	0		
+155588	und	0		
+155589	rechts	0		
+155590	zur	0		
+155591	Seite	0		
+155592	und	0		
+155593	hielten	0		
+155594	,	0		
+155595	oder	0		
+155596	vielmehr	0		
+155597	rüttelten	0		
+155598	und	0		
+155599	schüttelten	0		
+155600	ihn	0	(mention_id=18344|references=(entity=(entity_id=entity_0005|fullname=Hoby|gender=m)))	(mention_id=18100|references=(entity=(entity_id=10|fullname=Hoby|gender=m)))
+155601	wie	0		
+155602	ein	0		
+155603	Sieb	0		
+155604	,	0		
+155605	um	0		
+155606	seine	0	(mention_id=18345|references=(entity=(entity_id=entity_0005|fullname=Hoby|gender=m)))	(mention_id=18101|references=(entity=(entity_id=10|fullname=Hoby|gender=m)))
+155607	wunderthätigen	0		
+155608	Circulationen	0		
+155609	zu	0		
+155610	befördern	0		
+155611	.	0		
+155612	Er	0	(mention_id=18346|references=(entity=(entity_id=entity_0005|fullname=Hoby|gender=m)))	(mention_id=18102|references=(entity=(entity_id=10|fullname=Hoby|gender=m)))
+155613	lag	0		
+155614	oder	0		
+155615	streckte	0		
+155616	sich	0	(mention_id=18347|references=(entity=(entity_id=entity_0005|fullname=Hoby|gender=m)))	(mention_id=18103|references=(entity=(entity_id=10|fullname=Hoby|gender=m)))
+155617	in	0		
+155618	ihren	0	(mention_id=18348|references=(entity=(entity_id=entity_0965|fullname=Prediger bei Camp-Meeting|gender=m)),(entity=(entity_id=entity_0998|fullname=Gehilfe des Predigers|gender=m)))	(mention_id=18104|references=(entity=(entity_id=18|fullname=Prediger|gender=m)),(entity=(entity_id=8|fullname=Gehilfe des Predigers|gender=m)))
+155619	Armen	0		
+155620	,	0		
+155621	und	0		
+155622	that	0		
+155623	,	0		
+155624	zwischen	0		
+155625	den	0		
+155626	Ausrufungen	0		
+155627	an	0		
+155628	Jesu	0	(mention_id=18349|references=(entity=(entity_id=entity_0602|fullname=Jesus Christus|gender=m)))	(mention_id=18105|references=(entity=(entity_id=12|fullname=Jesus|gender=m|specialcase_entity=nonfact)))
+155629	,	0		
+155630	seine	0	(mention_id=18350|references=(entity=(entity_id=entity_0005|fullname=Hoby|gender=m)))	(mention_id=18106|references=(entity=(entity_id=10|fullname=Hoby|gender=m)))
+155631	Wiederbelebungsbeichte	0		
+155632	.	0		
+155633	Ich	0	(mention_id=18351|references=(entity=(entity_id=entity_0005|fullname=Hoby|gender=m)))	(mention_id=18107|references=(entity=(entity_id=10|fullname=Hoby|gender=m)))
+155634	habe	0		
+155635	gestohlen	0		
+155636	—	0		
+155637	Jesus	0	(mention_id=18352|references=(entity=(entity_id=entity_0602|fullname=Jesus Christus|gender=m)))	(mention_id=18108|references=(entity=(entity_id=12|fullname=Jesus|gender=m|specialcase_entity=nonfact)))
+155638	komm	0		
+155639	herab	0		
+155640	!	0		
+155641	ich	0	(mention_id=18353|references=(entity=(entity_id=entity_0005|fullname=Hoby|gender=m)))	(mention_id=18109|references=(entity=(entity_id=10|fullname=Hoby|gender=m)))
+155642	war	0		
+155643	unzüchtig	0		
+155644	—	0		
+155645	Jesus	0	(mention_id=18354|references=(entity=(entity_id=entity_0602|fullname=Jesus Christus|gender=m)))	(mention_id=18110|references=(entity=(entity_id=12|fullname=Jesus|gender=m|specialcase_entity=nonfact)))
+155646	komm	0		
+155647	herab	0		
+155648	!	0		
+155649	—	0		
+155650	ich	0	(mention_id=18355|references=(entity=(entity_id=entity_0005|fullname=Hoby|gender=m)))	(mention_id=18111|references=(entity=(entity_id=10|fullname=Hoby|gender=m)))
+155651	entweihte	0		
+155652	den	0		
+155653	Sabbath	0		
+155654	—	0		
+155655	Jesus	0	(mention_id=18356|references=(entity=(entity_id=entity_0602|fullname=Jesus Christus|gender=m)))	(mention_id=18112|references=(entity=(entity_id=12|fullname=Jesus|gender=m|specialcase_entity=nonfact)))
+155656	komm	0		
+155657	herab	0		
+155658	!	0		
+155659	u.	0		
+155660	s.	0		
+155661	w.	0		
+155662	So	0		
+155663	oft	0		
+155664	er	0	(mention_id=18357|references=(entity=(entity_id=entity_0005|fullname=Hoby|gender=m)))	(mention_id=18113|references=(entity=(entity_id=10|fullname=Hoby|gender=m)))
+155665	eine	0		
+155666	Sünde	0		
+155667	nannte	0		
+155668	,	0		
+155669	stieß	0		
+155670	er	0	(mention_id=18358|references=(entity=(entity_id=entity_0005|fullname=Hoby|gender=m)))	(mention_id=18114|references=(entity=(entity_id=10|fullname=Hoby|gender=m)))
+155671	heftig	0		
+155672	mit	0		
+155673	dem	0		
+155674	Bein	0		
+155675	,	0		
+155676	gleichsam	0		
+155677	unter	0		
+155678	Fußtritten	0		
+155679	sie	0		
+155680	verabschiedend	0		
+155681	;	0		
+155682	bei	0		
+155683	der	0		
+155684	Formel	0		
+155685	:	0		
+155686	Jesus	0	(mention_id=18359|references=(entity=(entity_id=entity_0602|fullname=Jesus Christus|gender=m)))	(mention_id=18115|references=(entity=(entity_id=12|fullname=Jesus|gender=m|specialcase_entity=nonfact)))
+155687	komm	0		
+155688	herab	0		
+155689	!	0		
+155690	fuhr	0		
+155691	er	0	(mention_id=18360|references=(entity=(entity_id=entity_0005|fullname=Hoby|gender=m)))	(mention_id=18116|references=(entity=(entity_id=10|fullname=Hoby|gender=m)))
+155692	dagegen	0		
+155693	mit	0		
+155694	der	0		
+155695	Hand	0		
+155696	in	0		
+155697	die	0		
+155698	Luft	0		
+155699	,	0		
+155700	wie	0		
+155701	Macbeth	0	(mention_id=18361|references=(entity=(entity_id=entity_0005|fullname=Hoby|gender=m)))	(mention_id=18117|references=(entity=(entity_id=13|fullname=Macbeth|gender=m|specialcase_entity=nonfact)))
+155702	der	0		
+155703	nach	0		
+155704	dem	0		
+155705	Dolche	0		
+155706	hascht	0		
+155707	.	0		
+155708	Diese	0		
+155709	Geberden	0		
+155710	lösten	0		
+155711	sich	0		
+155712	fast	0		
+155713	canonisch-regelmäßig	0		
+155714	einander	0		
+155715	ab	0		
+155716	:	0		
+155717	es	0		
+155718	sah	0		
+155719	aus	0		
+155720	wie	0		
+155721	Maschinenarbeit	0		
+155722	,	0		
+155723	wie	0		
+155724	Drahtpuppenbewegung	0		
+155725	.	0		
+155726	Ein	0		
+155727	ähnliches	0		
+155728	Manöver	0		
+155729	wiederholte	0		
+155730	er	0	(mention_id=18362|references=(entity=(entity_id=entity_0005|fullname=Hoby|gender=m)))	(mention_id=18118|references=(entity=(entity_id=10|fullname=Hoby|gender=m)))
+155731	mit	0		
+155732	der	0		
+155733	Stimme	0		
+155734	.	0		
+155735	Das	0		
+155736	Bekenntniß	0		
+155737	einer	0		
+155738	Sünde	0		
+155739	stöhnte	0		
+155740	er	0	(mention_id=18363|references=(entity=(entity_id=entity_0005|fullname=Hoby|gender=m)))	(mention_id=18119|references=(entity=(entity_id=10|fullname=Hoby|gender=m)))
+155741	dumpf	0		
+155742	und	0		
+155743	röchelnd	0		
+155744	wie	0		
+155745	ein	0		
+155746	Sterbender	0	(mention_id=18364|references=(entity=(entity_id=entity_0005|fullname=Hoby|gender=m)))	(mention_id=18120|references=(entity=(entity_id=generic_0001|fullname=ein Sterbender im Allgemeinen|gender=u|specialcase_entity=generic)))
+155747	,	0		
+155748	den	0		
+155749	Refrain	0		
+155750	:	0		
+155751	Jesus	0	(mention_id=18365|references=(entity=(entity_id=entity_0602|fullname=Jesus Christus|gender=m)))	(mention_id=18121|references=(entity=(entity_id=12|fullname=Jesus|gender=m|specialcase_entity=nonfact)))
+155752	komm	0		
+155753	herab	0		
+155754	!	0		
+155755	stieß	0		
+155756	er	0	(mention_id=18366|references=(entity=(entity_id=entity_0005|fullname=Hoby|gender=m)))	(mention_id=18122|references=(entity=(entity_id=10|fullname=Hoby|gender=m)))
+155757	gellend	0		
+155758	heraus	0		
+155759	wie	0		
+155760	im	0		
+155761	aufschreienden	0		
+155762	Schmerzgefühl	0		
+155763	.	0		
+155764	Dabei	0		
+155765	athmete	0		
+155766	sein	0	(mention_id=18367|references=(entity=(entity_id=entity_0005|fullname=Hoby|gender=m)))	(mention_id=18123|references=(entity=(entity_id=10|fullname=Hoby|gender=m)))
+155767	heiserer	0		
+155768	,	0		
+155769	offen	0		
+155770	stehender	0		
+155771	Schlund	0		
+155772	kurz	0		
+155773	und	0		
+155774	lechzend	0		
+155775	,	0		
+155776	seine	0	(mention_id=18368|references=(entity=(entity_id=entity_0005|fullname=Hoby|gender=m)))	(mention_id=18124|references=(entity=(entity_id=10|fullname=Hoby|gender=m)))
+155777	Augen	0		
+155778	rollten	0		
+155779	wild	0		
+155780	,	0		
+155781	sein	0	(mention_id=18369|references=(entity=(entity_id=entity_0005|fullname=Hoby|gender=m)))	(mention_id=18125|references=(entity=(entity_id=10|fullname=Hoby|gender=m)))
+155782	Gesicht	0		
+155783	war	0		
+155784	aufgedunsen	0		
+155785	,	0		
+155786	verdummt	0		
+155787	und	0		
+155788	verquollen	0		
+155789	,	0		
+155790	Schweiß	0		
+155791	und	0		
+155792	Schaum	0		
+155793	bedeckte	0		
+155794	es	0		
+155795	reichlich	0		
+155796	.	0		
+155797	Die	0		
+155798	Umstehenden	0	(mention_id=18370|references=(entity=(entity_id=entity_0967|fullname=Gemeinde|gender=mf|members=entity_0829,entity_0831,entity_0834,entity_0972|all_members_given=False|specialcase_entity=group)))	(mention_id=18126|references=(entity=(entity_id=20|fullname=Umstehende|gender=u|specialcase_entity=group)))
+155799	blickten	0		
+155800	mit	0		
+155801	großer	0		
+155802	Andacht	0		
+155803	auf	0		
+155804	dieses	0		
+155805	Bild	0		
+155806	des	0		
+155807	Abscheu'	0		
+155808	s.	0		
+155809	Ich	0	(mention_id=18371|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=18127|references=(entity=(entity_id=6|fullname=Erzähler|gender=m)))
+155810	wendete	0		
+155811	geekelt	0		
+155812	das	0		
+155813	Auge	0		
+155814	davon	0		
+155815	.	0		
+155816	Wäre	0		
+155817	es	0		
+155818	möglich	0		
+155819	gewesen	0		
+155820	,	0		
+155821	das	0		
+155822	dichte	0		
+155823	Gedränge	0		
+155824	von	0		
+155825	Menschen	0	(mention_id=18372|references=(entity=(entity_id=entity_0967|fullname=Gemeinde|gender=mf|members=entity_0829,entity_0831,entity_0834,entity_0972|all_members_given=False|specialcase_entity=group)))	(mention_id=18128|references=(entity=(entity_id=14|fullname=Menschenmenge|gender=u|specialcase_entity=group)))
+155826	zu	0		
+155827	durchpirschen	0		
+155828	wie	0		
+155829	ein	0		
+155830	Walddickicht	0		
+155831	,	0		
+155832	so	0		
+155833	hätte	0		
+155834	ich	0	(mention_id=18373|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=18129|references=(entity=(entity_id=6|fullname=Erzähler|gender=m)))
+155835	sogleich	0		
+155836	die	0		
+155837	Familie	0	(mention_id=18374|references=(entity=(entity_id=entity_0831|fullname=Vater Ermar|gender=m)),(entity=(entity_id=entity_0829|fullname=Annette Ermar|gender=f)),(entity=(entity_id=entity_0834|fullname=Frau Ermar|gender=f)))	(mention_id=18130|references=(entity=(entity_id=7|fullname=Familie Ermar|gender=u|specialcase_entity=group)))
+155838	Ermar	0	(mention_id=18374|references=(entity=(entity_id=entity_0831|fullname=Vater Ermar|gender=m)),(entity=(entity_id=entity_0829|fullname=Annette Ermar|gender=f)),(entity=(entity_id=entity_0834|fullname=Frau Ermar|gender=f)))	(mention_id=18130|references=(entity=(entity_id=7|fullname=Familie Ermar|gender=u|specialcase_entity=group)))
+155839	aufgesucht	0		
+155840	.	0		
+155841	Ich	0	(mention_id=18375|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=18131|references=(entity=(entity_id=6|fullname=Erzähler|gender=m)))
+155842	brannte	0		
+155843	vor	0		
+155844	Ungeduld	0		
+155845	mich	0	(mention_id=18376|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=18132|references=(entity=(entity_id=6|fullname=Erzähler|gender=m)))
+155846	zu	0		
+155847	überzeugen	0		
+155848	,	0		
+155849	daß	0		
+155850	ihre	0	(mention_id=18377|references=(entity=(entity_id=entity_0831|fullname=Vater Ermar|gender=m)),(entity=(entity_id=entity_0834|fullname=Frau Ermar|gender=f)),(entity=(entity_id=entity_0829|fullname=Annette Ermar|gender=f)))	(mention_id=18133|references=(entity=(entity_id=7|fullname=Familie Ermar|gender=u|specialcase_entity=group)))
+155851	deutsche	0		
+155852	Natur	0		
+155853	entweder	0		
+155854	selbst	0		
+155855	schon	0		
+155856	abgeschreckt	0		
+155857	sei	0		
+155858	,	0		
+155859	oder	0		
+155860	mindestens	0		
+155861	meine	0	(mention_id=18378|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=18134|references=(entity=(entity_id=6|fullname=Erzähler|gender=m)))
+155862	Sorge	0		
+155863	für	0		
+155864	Annette	0	(mention_id=18379|references=(entity=(entity_id=entity_0829|fullname=Annette Ermar|gender=f)))	(mention_id=18135|references=(entity=(entity_id=3|fullname=Annette|gender=f)))
+155865	gutheiße	0		
+155866	.	0		
+155867	Zufällig	0		
+155868	standen	0		
+155869	sie	0	(mention_id=18380|references=(entity=(entity_id=entity_0831|fullname=Vater Ermar|gender=m)),(entity=(entity_id=entity_0834|fullname=Frau Ermar|gender=f)),(entity=(entity_id=entity_0829|fullname=Annette Ermar|gender=f)))	(mention_id=18136|references=(entity=(entity_id=7|fullname=Familie Ermar|gender=u|specialcase_entity=group)))
+155870	mir	0	(mention_id=18381|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=18137|references=(entity=(entity_id=6|fullname=Erzähler|gender=m)))
+155871	näher	0		
+155872	als	0		
+155873	ich	0	(mention_id=18382|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=18138|references=(entity=(entity_id=6|fullname=Erzähler|gender=m)))
+155874	ahnte	0		
+155875	.	0		
+155876	Indem	0		
+155877	ich	0	(mention_id=18383|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=18139|references=(entity=(entity_id=6|fullname=Erzähler|gender=m)))
+155878	den	0		
+155879	Kreis	0		
+155880	überblickte	0		
+155881	,	0		
+155882	sah	0		
+155883	ich	0	(mention_id=18384|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=18140|references=(entity=(entity_id=6|fullname=Erzähler|gender=m)))
+155884	Vater	0	(mention_id=18385|references=(entity=(entity_id=entity_0831|fullname=Vater Ermar|gender=m)))	(mention_id=18141|references=(entity=(entity_id=21|fullname=Vater Ermar|gender=m)))
+155885	,	0		
+155886	Mutter	0	(mention_id=18386|references=(entity=(entity_id=entity_0834|fullname=Frau Ermar|gender=f)))	(mention_id=18142|references=(entity=(entity_id=15|fullname=Mutter Ermar|gender=f)))
+155887	und	0		
+155888	Kind	0	(mention_id=18387|references=(entity=(entity_id=entity_0829|fullname=Annette Ermar|gender=f)))	(mention_id=18143|references=(entity=(entity_id=3|fullname=Annette|gender=f)))
+155889	an	0		
+155890	einem	0		
+155891	mir	0	(mention_id=18388|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=18144|references=(entity=(entity_id=6|fullname=Erzähler|gender=m)))
+155892	entgegengesetzten	0		
+155893	Punkte	0		
+155894	des	0		
+155895	Cirkels	0		
+155896	in	0		
+155897	den	0		
+155898	vordersten	0		
+155899	Reihen	0		
+155900	stehen	0		
+155901	.	0		
+155902	Annette	0	(mention_id=18389|references=(entity=(entity_id=entity_0829|fullname=Annette Ermar|gender=f)))	(mention_id=18145|references=(entity=(entity_id=3|fullname=Annette|gender=f)))
+155903	hielt	0		
+155904	sich	0	(mention_id=18390|references=(entity=(entity_id=entity_0829|fullname=Annette Ermar|gender=f)))	(mention_id=18146|references=(entity=(entity_id=3|fullname=Annette|gender=f)))
+155905	ihr	0	(mention_id=18391|references=(entity=(entity_id=entity_0829|fullname=Annette Ermar|gender=f)))	(mention_id=18147|references=(entity=(entity_id=3|fullname=Annette|gender=f)))
+155906	Taschentuch	0		
+155907	vor	0		
+155908	die	0		
+155909	Augen	0		
+155910	,	0		
+155911	weil	0		
+155912	ihr	0	(mention_id=18392|references=(entity=(entity_id=entity_0829|fullname=Annette Ermar|gender=f)))	(mention_id=18148|references=(entity=(entity_id=3|fullname=Annette|gender=f)))
+155913	die	0		
+155914	Sonne	0		
+155915	grell	0		
+155916	in's	0		
+155917	Gesicht	0		
+155918	schien	0		
+155919	,	0		
+155920	oder	0		
+155921	um	0		
+155922	sich	0	(mention_id=18393|references=(entity=(entity_id=entity_0829|fullname=Annette Ermar|gender=f)))	(mention_id=18149|references=(entity=(entity_id=3|fullname=Annette|gender=f)))
+155923	vor	0		
+155924	dem	0		
+155925	barbarischen	0		
+155926	Schauspiele	0		
+155927	der	0		
+155928	Wiederbelebung	0		
+155929	zu	0		
+155930	schützen	0		
+155931	.	0		
+155932	Ich	0	(mention_id=18394|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=18150|references=(entity=(entity_id=6|fullname=Erzähler|gender=m)))
+155933	mochte	0		
+155934	gerne	0		
+155935	das	0		
+155936	Letztere	0		
+155937	glauben	0		
+155938	.	0		
+155939	Die	0		
+155940	Mutter	0	(mention_id=18395|references=(entity=(entity_id=entity_0834|fullname=Frau Ermar|gender=f)))	(mention_id=18151|references=(entity=(entity_id=15|fullname=Mutter Ermar|gender=f)))
+155941	stand	0		
+155942	etwas	0		
+155943	zurück	0		
+155944	,	0		
+155945	ich	0	(mention_id=18396|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=18152|references=(entity=(entity_id=6|fullname=Erzähler|gender=m)))
+155946	sah	0		
+155947	nur	0		
+155948	ihre	0	(mention_id=18397|references=(entity=(entity_id=entity_0834|fullname=Frau Ermar|gender=f)))	(mention_id=18153|references=(entity=(entity_id=15|fullname=Mutter Ermar|gender=f)))
+155949	vorgestreckten	0		
+155950	Hände	0		
+155951	auf	0		
+155952	Annettens	0	(mention_id=18398|references=(entity=(entity_id=entity_0829|fullname=Annette Ermar|gender=f)))	(mention_id=18154|references=(entity=(entity_id=3|fullname=Annette|gender=f)))
+155953	Schultern	0		
+155954	ruhen	0		
+155955	.	0		
+155956	Ich	0	(mention_id=18399|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=18155|references=(entity=(entity_id=6|fullname=Erzähler|gender=m)))
+155957	suchte	0		
+155958	mich	0	(mention_id=18400|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=18156|references=(entity=(entity_id=6|fullname=Erzähler|gender=m)))
+155959	zu	0		
+155960	nähern	0		
+155961	.	0		
+155962	Ich	0	(mention_id=18401|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=18157|references=(entity=(entity_id=6|fullname=Erzähler|gender=m)))
+155963	rückte	0		
+155964	sachte	0		
+155965	aber	0		
+155966	beständig	0		
+155967	von	0		
+155968	meinem	0	(mention_id=18402|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=18158|references=(entity=(entity_id=6|fullname=Erzähler|gender=m)))
+155969	Platz	0		
+155970	dem	0		
+155971	ihrigen	0	(mention_id=18403|references=(entity=(entity_id=entity_0831|fullname=Vater Ermar|gender=m)),(entity=(entity_id=entity_0834|fullname=Frau Ermar|gender=f)),(entity=(entity_id=entity_0829|fullname=Annette Ermar|gender=f)))	(mention_id=18159|references=(entity=(entity_id=7|fullname=Familie Ermar|gender=u|specialcase_entity=group)))
+155972	zu	0		
+155973	.	0		
+155974	Von	0		
+155975	Zeit	0		
+155976	zu	0		
+155977	Zeit	0		
+155978	gab	0		
+155979	ich	0	(mention_id=18404|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=18160|references=(entity=(entity_id=6|fullname=Erzähler|gender=m)))
+155980	Winke	0		
+155981	meines	0	(mention_id=18405|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=18161|references=(entity=(entity_id=6|fullname=Erzähler|gender=m)))
+155982	Daseins	0		
+155983	.	0		
+155984	Endlich	0		
+155985	wurde	0		
+155986	ich	0	(mention_id=18406|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=18162|references=(entity=(entity_id=6|fullname=Erzähler|gender=m)))
+155987	bemerkt	0		
+155988	.	0		
+155989	Annette	0	(mention_id=18407|references=(entity=(entity_id=entity_0829|fullname=Annette Ermar|gender=f)))	(mention_id=18163|references=(entity=(entity_id=3|fullname=Annette|gender=f)))
+155990	fuhr	0		
+155991	bei	0		
+155992	meinem	0	(mention_id=18408|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=18164|references=(entity=(entity_id=6|fullname=Erzähler|gender=m)))
+155993	Anblick	0		
+155994	freudevoll	0		
+155995	auf	0		
+155996	,	0		
+155997	sie	0	(mention_id=18409|references=(entity=(entity_id=entity_0829|fullname=Annette Ermar|gender=f)))	(mention_id=18165|references=(entity=(entity_id=3|fullname=Annette|gender=f)))
+155998	sprang	0		
+155999	aus	0		
+156000	der	0		
+156001	Reihe	0		
+156002	und	0		
+156003	rief	0		
+156004	mir	0	(mention_id=18410|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=18166|references=(entity=(entity_id=6|fullname=Erzähler|gender=m)))
+156005	voll	0		
+156006	Selbstvergessenheit	0		
+156007	zu	0		
+156008	:	0		
+156009	Ach	0		
+156010	,	0		
+156011	Herr	0	(mention_id=18411|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=18167|references=(entity=(entity_id=6|fullname=Erzähler|gender=m)))
+156012	Bruder	0	(mention_id=18411|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=18167|references=(entity=(entity_id=6|fullname=Erzähler|gender=m)))
+156013	,	0		
+156014	laß	0		
+156015	uns	0	(mention_id=18412|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)),(entity=(entity_id=entity_0829|fullname=Annette Ermar|gender=f)))	(mention_id=18168|references=(entity=(entity_id=3|fullname=Annette|gender=f)),(entity=(entity_id=6|fullname=Erzähler|gender=m)))
+156016	gehn	0		
+156017	!	0		
+156018	Ich	0	(mention_id=18413|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=18169|references=(entity=(entity_id=6|fullname=Erzähler|gender=m)))
+156019	erschrack	0		
+156020	nicht	0		
+156021	wenig	0		
+156022	.	0		
+156023	Fern	0		
+156024	,	0		
+156025	wie	0		
+156026	ich	0	(mention_id=18414|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=18170|references=(entity=(entity_id=6|fullname=Erzähler|gender=m)))
+156027	noch	0		
+156028	war	0		
+156029	,	0		
+156030	gab	0		
+156031	ich	0	(mention_id=18415|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=18171|references=(entity=(entity_id=6|fullname=Erzähler|gender=m)))
+156032	ihr	0	(mention_id=18416|references=(entity=(entity_id=entity_0829|fullname=Annette Ermar|gender=f)))	(mention_id=18172|references=(entity=(entity_id=3|fullname=Annette|gender=f)))
+156033	ein	0		
+156034	Zeichen	0		
+156035	der	0		
+156036	Beschwichtigung	0		
+156037	.	0		
+156038	Aber	0		
+156039	das	0		
+156040	Unglück	0		
+156041	packte	0		
+156042	sie	0	(mention_id=18417|references=(entity=(entity_id=entity_0829|fullname=Annette Ermar|gender=f)))	(mention_id=18173|references=(entity=(entity_id=3|fullname=Annette|gender=f)))
+156043	schnell	0		
+156044	.	0		
+156045	Der	0		
+156046	schwarze	0		
+156047	Prediger	0	(mention_id=18418|references=(entity=(entity_id=entity_0965|fullname=Prediger bei Camp-Meeting|gender=m)))	(mention_id=18174|references=(entity=(entity_id=18|fullname=Prediger|gender=m)))
+156048	warf	0		
+156049	sich	0	(mention_id=18419|references=(entity=(entity_id=entity_0965|fullname=Prediger bei Camp-Meeting|gender=m)))	(mention_id=18175|references=(entity=(entity_id=18|fullname=Prediger|gender=m)))
+156050	ihr	0	(mention_id=18420|references=(entity=(entity_id=entity_0829|fullname=Annette Ermar|gender=f)))	(mention_id=18176|references=(entity=(entity_id=3|fullname=Annette|gender=f)))
+156051	entgegen	0		
+156052	und	0		
+156053	donnerte	0		
+156054	sie	0	(mention_id=18421|references=(entity=(entity_id=entity_0829|fullname=Annette Ermar|gender=f)))	(mention_id=18177|references=(entity=(entity_id=3|fullname=Annette|gender=f)))
+156055	an	0		
+156056	:	0		
+156057	Halt	0		
+156058	,	0		
+156059	junge	0		
+156060	Sünderin	0	(mention_id=18422|references=(entity=(entity_id=entity_0829|fullname=Annette Ermar|gender=f)))	(mention_id=18178|references=(entity=(entity_id=3|fullname=Annette|gender=f)))
+156061	,	0		
+156062	wohin	0		
+156063	?	0		
+156064	Warum	0		
+156065	willst	0		
+156066	du	0	(mention_id=18423|references=(entity=(entity_id=entity_0829|fullname=Annette Ermar|gender=f)))	(mention_id=18179|references=(entity=(entity_id=3|fullname=Annette|gender=f)))
+156067	fort	0		
+156068	?	0		
+156069	Steh	0		
+156070	und	0		
+156071	verantworte	0		
+156072	dich	0	(mention_id=18424|references=(entity=(entity_id=entity_0829|fullname=Annette Ermar|gender=f)))	(mention_id=18180|references=(entity=(entity_id=3|fullname=Annette|gender=f)))
+156073	:	0		
+156074	Bist	0		
+156075	du	0	(mention_id=18425|references=(entity=(entity_id=entity_0829|fullname=Annette Ermar|gender=f)))	(mention_id=18181|references=(entity=(entity_id=3|fullname=Annette|gender=f)))
+156076	für	0		
+156077	Gott	0	(mention_id=18426|references=(entity=(entity_id=entity_0092|fullname=Gott|gender=u)))	(mention_id=18182|references=(entity=(entity_id=9|fullname=Gott|gender=m|specialcase_entity=nonfact)))
+156078	oder	0		
+156079	für	0		
+156080	den	0		
+156081	Teufel	0	(mention_id=18427|references=(entity=(entity_id=entity_0066|fullname=Teufel|gender=u)))	
+156082	?	0		
+156083	Annette	0	(mention_id=18428|references=(entity=(entity_id=entity_0829|fullname=Annette Ermar|gender=f)))	(mention_id=18183|references=(entity=(entity_id=3|fullname=Annette|gender=f)))
+156084	bebte	0		
+156085	zusammen	0		
+156086	.	0		
+156087	Sie	0	(mention_id=18429|references=(entity=(entity_id=entity_0829|fullname=Annette Ermar|gender=f)))	(mention_id=18184|references=(entity=(entity_id=3|fullname=Annette|gender=f)))
+156088	wurde	0		
+156089	brennend	0		
+156090	roth	0		
+156091	,	0		
+156092	schlug	0		
+156093	das	0		
+156094	Auge	0		
+156095	nieder	0		
+156096	,	0		
+156097	zitterte	0		
+156098	heftig	0		
+156099	und	0		
+156100	antwortete	0		
+156101	wie	0		
+156102	ein	0		
+156103	erschrockenes	0		
+156104	Kind	0	(mention_id=18430|references=(entity=(entity_id=entity_0829|fullname=Annette Ermar|gender=f)))	(mention_id=18185|references=(entity=(entity_id=3|fullname=Annette|gender=f)))
+156105	:	0		
+156106	mit	0		
+156107	Thränen	0		
+156108	.	0		
+156109	Das	0		
+156110	sinnloseste	0		
+156111	aller	0		
+156112	Thiere	0	(mention_id=18431|references=(entity=(entity_id=entity_0965|fullname=Prediger bei Camp-Meeting|gender=m)|specialcase_reference=figurative))	
+156113	hielt	0		
+156114	diese	0		
+156115	Stummheit	0		
+156116	für	0		
+156117	Verstocktheit	0		
+156118	.	0		
+156119	Schreib	0		
+156120	sie	0	(mention_id=18432|references=(entity=(entity_id=entity_0829|fullname=Annette Ermar|gender=f)))	
+156121	in	0		
+156122	das	0		
+156123	Buch	0		
+156124	des	0		
+156125	Teufels	0	(mention_id=18433|references=(entity=(entity_id=entity_0066|fullname=Teufel|gender=u)))	
+156126	!	0		
+156127	brüllte	0		
+156128	der	0		
+156129	Pfaff	0	(mention_id=18434|references=(entity=(entity_id=entity_0965|fullname=Prediger bei Camp-Meeting|gender=m)))	(mention_id=18186|references=(entity=(entity_id=18|fullname=Prediger|gender=m)))
+156130	seinem	0	(mention_id=18435|references=(entity=(entity_id=entity_0965|fullname=Prediger bei Camp-Meeting|gender=m)))	(mention_id=18187|references=(entity=(entity_id=18|fullname=Prediger|gender=m)))
+156131	Schreiber	0	(mention_id=18436|references=(entity=(entity_id=entity_1021|fullname=Schreiber des Predigers|gender=m)))	(mention_id=18188|references=(entity=(entity_id=19|fullname=Schreiber des Predigers|gender=m)))
+156132	zu	0		
+156133	.	0		
+156134	Da	0		
+156135	fuhr	0		
+156136	sich	0	(mention_id=18437|references=(entity=(entity_id=entity_0829|fullname=Annette Ermar|gender=f)))	(mention_id=18189|references=(entity=(entity_id=3|fullname=Annette|gender=f)))
+156137	das	0		
+156138	Mädchen	0	(mention_id=18438|references=(entity=(entity_id=entity_0829|fullname=Annette Ermar|gender=f)))	(mention_id=18190|references=(entity=(entity_id=3|fullname=Annette|gender=f)))
+156139	an	0		
+156140	die	0		
+156141	Stirne	0		
+156142	,	0		
+156143	ein	0		
+156144	durchdringender	0		
+156145	Schrei	0		
+156146	,	0		
+156147	ein	0		
+156148	Riß	0		
+156149	durch	0		
+156150	alle	0		
+156151	Gesichtsmuskeln	0		
+156152	,	0		
+156153	sie	0	(mention_id=18439|references=(entity=(entity_id=entity_0829|fullname=Annette Ermar|gender=f)))	(mention_id=18191|references=(entity=(entity_id=3|fullname=Annette|gender=f)))
+156154	stürzte	0		
+156155	zu	0		
+156156	Boden	0		
+156157	.	0		
+156158	Man	0		(mention_id=18192|references=(entity=(entity_id=generic_0002|fullname=die Leute im Allgemeinen|gender=u|specialcase_entity=generic)))
+156159	sagte	0		
+156160	mir	0	(mention_id=18440|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=18193|references=(entity=(entity_id=6|fullname=Erzähler|gender=m)))
+156161	,	0		
+156162	ich	0	(mention_id=18441|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=18194|references=(entity=(entity_id=6|fullname=Erzähler|gender=m)))
+156163	habe	0		
+156164	wie	0		
+156165	eine	0		
+156166	Tigerkatze	0		
+156167	an	0		
+156168	der	0		
+156169	Kehle	0		
+156170	des	0		
+156171	Methodisten	0	(mention_id=18442|references=(entity=(entity_id=entity_0965|fullname=Prediger bei Camp-Meeting|gender=m)))	(mention_id=18195|references=(entity=(entity_id=18|fullname=Prediger|gender=m)))
+156172	gehangen	0		
+156173	,	0		
+156174	und	0		
+156175	zwei	0		
+156176	Parteien	0		(mention_id=18196|references=(entity=(entity_id=16|fullname=Parteien|gender=u|specialcase_entity=group)))
+156177	haben	0		
+156178	mich	0	(mention_id=18443|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=18197|references=(entity=(entity_id=6|fullname=Erzähler|gender=m)))
+156179	wechselweise	0		
+156180	beschützt	0		
+156181	und	0		
+156182	geprügelt	0		
+156183	.	0		
+156184	Ich	0	(mention_id=18444|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=18198|references=(entity=(entity_id=6|fullname=Erzähler|gender=m)))
+156185	kam	0		
+156186	wieder	0		
+156187	zur	0		
+156188	Besinnung	0		
+156189	;	0		
+156190	Annette	0	(mention_id=18445|references=(entity=(entity_id=entity_0829|fullname=Annette Ermar|gender=f)))	(mention_id=18199|references=(entity=(entity_id=3|fullname=Annette|gender=f)))
+156191	nicht	0		
+156192	mehr	0		
+156193	.	0		
+156194	Der	0		
+156195	Schlag	0		
+156196	hat	0		
+156197	ihr	0	(mention_id=18446|references=(entity=(entity_id=entity_0829|fullname=Annette Ermar|gender=f)))	(mention_id=18200|references=(entity=(entity_id=3|fullname=Annette|gender=f)))
+156198	Gehirn	0		
+156199	gelähmt	0		
+156200	;	0		
+156201	sie	0	(mention_id=18447|references=(entity=(entity_id=entity_0829|fullname=Annette Ermar|gender=f)))	(mention_id=18201|references=(entity=(entity_id=3|fullname=Annette|gender=f)))
+156202	delirirt	0		
+156203	.	0		
+156204	Man	0	(mention_id=18448|references=(entity=(entity_id=entity_0831|fullname=Vater Ermar|gender=m)|borderline_reference=ID))	
+156205	will	0		
+156206	das	0		
+156207	unglückliche	0		
+156208	Kind	0	(mention_id=18449|references=(entity=(entity_id=entity_0829|fullname=Annette Ermar|gender=f)))	(mention_id=18202|references=(entity=(entity_id=3|fullname=Annette|gender=f)))
+156209	in	0		
+156210	das	0		
+156211	Irrenhaus	0		
+156212	zu	0		
+156213	Columbus	0		
+156214	bringen	0		
+156215	.	0		
+156216	Das	0		
+156217	Irrenhaus	0		
+156218	zu	0		
+156219	Columbus	0		
+156220	hat	0		
+156221	eine	0		
+156222	Façade	0		
+156223	von	0		
+156224	Säulen	0		
+156225	und	0		
+156226	Pilastern	0		
+156227	,	0		
+156228	eine	0		
+156229	prächtige	0		
+156230	Marmorbekleidung	0		
+156231	und	0		
+156232	ist	0		
+156233	,	0		
+156234	wie	0		
+156235	alle	0		
+156236	Narren-	0		
+156237	und	0		
+156238	Zuchthäuser	0		
+156239	dieses	0		
+156240	Landes	0		
+156241	,	0		
+156242	das	0		
+156243	schönste	0		
+156244	Gebäude	0		
+156245	seiner	0		
+156246	Stadt	0		
+156247	.	0		
+156248	Wenn	0		
+156249	dich	0	(mention_id=18450|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=18203|references=(entity=(entity_id=6|fullname=Erzähler|gender=m)))
+156250	der	0		
+156251	Dircetor	0	(mention_id=18451|references=(entity=(entity_id=entity_0973|fullname=Director des Irrenhauses|gender=m)))	(mention_id=18204|references=(entity=(entity_id=5|fullname=Director des Irrenhauses|gender=m)))
+156252	darin	0		
+156253	herumführt	0		
+156254	,	0		
+156255	so	0		
+156256	wird	0		
+156257	er	0	(mention_id=18452|references=(entity=(entity_id=entity_0973|fullname=Director des Irrenhauses|gender=m)))	(mention_id=18205|references=(entity=(entity_id=5|fullname=Director des Irrenhauses|gender=m)))
+156258	sein	0	(mention_id=18453|references=(entity=(entity_id=entity_0973|fullname=Director des Irrenhauses|gender=m)))	(mention_id=18206|references=(entity=(entity_id=5|fullname=Director des Irrenhauses|gender=m)))
+156259	respectvollstes	0		
+156260	Nationalgesicht	0		
+156261	vorlegen	0		
+156262	,	0		
+156263	und	0		
+156264	in	0		
+156265	seinem	0	(mention_id=18454|references=(entity=(entity_id=entity_0973|fullname=Director des Irrenhauses|gender=m)))	(mention_id=18207|references=(entity=(entity_id=5|fullname=Director des Irrenhauses|gender=m)))
+156266	langweiligen	0		
+156267	Englisch	0		
+156268	feierlich	0		
+156269	peroriren	0		
+156270	:	0		
+156271	Dieses	0		
+156272	Haus	0		
+156273	ist	0		
+156274	errichtet	0		
+156275	worden	0		
+156276	und	0		
+156277	ausgestattet	0		
+156278	von	0		
+156279	den	0		
+156280	Beiträgen	0		
+156281	großmüthiger	0		
+156282	Bürger	0	(mention_id=18455|references=(entity=(entity_id=entity_1025|fullname=großmütige Bürger|gender=u|specialcase_entity=group)))	(mention_id=18208|references=(entity=(entity_id=4|fullname=Bürger des Staates Ohio|gender=u|specialcase_entity=group)))
+156283	des	0		
+156284	Staates	0		
+156285	Ohio	0		
+156286	zum	0		
+156287	Heile	0		
+156288	derjenigen	0	(mention_id=18456|references=(entity=(entity_id=generic_5455|fullname=generic_1800|gender=u|specialcase_entity=generic)))	(mention_id=18209|references=(entity=(entity_id=24|fullname=leidende Mitchristen|gender=u|specialcase_entity=group)))
+156289	unserer	0	(mention_id=18457|references=(entity=(entity_id=entity_0973|fullname=Director des Irrenhauses|gender=m)),(entity=(entity_id=generic_5456|fullname=generic_1801|gender=u|specialcase_entity=generic)))	(mention_id=18210|references=(entity=(entity_id=5|fullname=Director des Irrenhauses|gender=m)))
+156290	leidenden	0		
+156291	Mitchristen	0	(mention_id=18458|references=(entity=(entity_id=generic_5457|fullname=generic_1802|gender=u|specialcase_entity=generic)))	(mention_id=18211|references=(entity=(entity_id=24|fullname=leidende Mitchristen|gender=u|specialcase_entity=group)))
+156292	,	0		
+156293	welchen	0	(mention_id=18459|references=(entity=(entity_id=generic_5458|fullname=generic_1803|gender=u|specialcase_entity=generic)))	(mention_id=18212|references=(entity=(entity_id=24|fullname=leidende Mitchristen|gender=u|specialcase_entity=group)))
+156294	der	0		
+156295	göttliche	0		
+156296	Rathschluß	0		
+156297	die	0		
+156298	Gesundheit	0		
+156299	des	0		
+156300	Geistes	0		
+156301	entbehren	0		
+156302	läßt	0		
+156303	.	0		
+156304	Es	0		
+156305	enthält	0		
+156306	dreihundert	0		
+156307	Wohnungen	0		
+156308	,	0		
+156309	Betsäle	0		
+156310	,	0		
+156311	Lesesäle	0		
+156312	,	0		
+156313	Badesalons	0		
+156314	und	0		
+156315	einen	0		
+156316	Garten	0		
+156317	von	0		
+156318	fünfzig	0		
+156319	Acre	0		
+156320	Landes	0		
+156321	.	0		
+156322	Es	0		
+156323	wird	0		
+156324	ärztlich	0		
+156325	geleitet	0		
+156326	von	0		
+156327	dem	0		
+156328	sehr	0		
+156329	ehrenwerthen	0		
+156330	Herrn	0	(mention_id=18460|references=(entity=(entity_id=entity_1004|fullname=Doctor Bykbookbeaker|gender=m)))	(mention_id=18213|references=(entity=(entity_id=11|fullname=Jehadiah Bykbookbeaker|gender=m)))
+156331	Doctor	0	(mention_id=18460|references=(entity=(entity_id=entity_1004|fullname=Doctor Bykbookbeaker|gender=m)))	(mention_id=18213|references=(entity=(entity_id=11|fullname=Jehadiah Bykbookbeaker|gender=m)))
+156332	Jehadiah	0	(mention_id=18460|references=(entity=(entity_id=entity_1004|fullname=Doctor Bykbookbeaker|gender=m)))	(mention_id=18213|references=(entity=(entity_id=11|fullname=Jehadiah Bykbookbeaker|gender=m)))
+156333	Bykbookbeaker	0	(mention_id=18460|references=(entity=(entity_id=entity_1004|fullname=Doctor Bykbookbeaker|gender=m)))	(mention_id=18213|references=(entity=(entity_id=11|fullname=Jehadiah Bykbookbeaker|gender=m)))
+156334	,	0		
+156335	die	0		
+156336	Kosten	0		
+156337	seines	0		(mention_id=18214|references=(entity=(entity_id=11|fullname=Jehadiah Bykbookbeaker|gender=m)))
+156338	jährlichen	0		
+156339	Unterhalts	0		
+156340	betragen	0		
+156341	die	0		
+156342	Summe	0		
+156343	von	0		
+156344	hunderttausend	0		
+156345	Dollars	0		
+156346	.	0		
+156347	Die	0		
+156348	Einrichtungen	0		
+156349	und	0		
+156350	Zustände	0		
+156351	der	0		
+156352	Anstalt	0		
+156353	sind	0		
+156354	solche	0		
+156355	,	0		
+156356	welche	0		
+156357	den	0		
+156358	Fortschritten	0		
+156359	der	0		
+156360	Wissenschaft	0		
+156361	,	0		
+156362	der	0		
+156363	Blüthe	0		
+156364	des	0		
+156365	Staates	0		
+156366	Ohio	0		
+156367	,	0		
+156368	dem	0		
+156369	Ruhme	0		
+156370	unsrer	0	(mention_id=18461|references=(entity=(entity_id=entity_0973|fullname=Director des Irrenhauses|gender=m)),(entity=(entity_id=generic_5459|fullname=generic_1804|gender=u|specialcase_entity=generic)))	(mention_id=18215|references=(entity=(entity_id=5|fullname=Director des Irrenhauses|gender=m)))
+156371	großen	0		
+156372	und	0		
+156373	erleuchteten	0		
+156374	Nation	0		
+156375	in	0		
+156376	allen	0		
+156377	Theilen	0		
+156378	entsprechen	0		
+156379	.	0		
+156380	Unsre	0	(mention_id=18462|references=(entity=(entity_id=entity_0973|fullname=Director des Irrenhauses|gender=m)))	(mention_id=18216|references=(entity=(entity_id=5|fullname=Director des Irrenhauses|gender=m)))
+156381	Wohlthätigkeitsanstalten	0		
+156382	sind	0		
+156383	der	0		
+156384	Stolz	0		
+156385	unsers	0	(mention_id=18463|references=(entity=(entity_id=entity_0973|fullname=Director des Irrenhauses|gender=m)))	(mention_id=18217|references=(entity=(entity_id=5|fullname=Director des Irrenhauses|gender=m)))
+156386	Landes	0		
+156387	.	0		
+156388	Aber	0		
+156389	wie	0		
+156390	sie	0	(mention_id=18464|references=(entity=(entity_id=entity_1006|fullname=Insassen des Irrenhauses|gender=u|specialcase_entity=group)))	
+156391	sich	0		
+156392	füllen	0		
+156393	,	0		
+156394	sagt	0		
+156395	er	0	(mention_id=18465|references=(entity=(entity_id=entity_0973|fullname=Director des Irrenhauses|gender=m)))	(mention_id=18218|references=(entity=(entity_id=5|fullname=Director des Irrenhauses|gender=m)))
+156396	nicht	0		
+156397	.	0		

@@ -1,0 +1,10 @@
+i	token	is_section_start	gold	pred
+0	Johann	1		(mention_id=1|references=(entity=(entity_id=1|fullname=Johann Wolfgang|gender=m)))
+1	Wolfgang	0		(mention_id=1|references=(entity=(entity_id=1|fullname=Johann Wolfgang|gender=m)))
+2	Goethe	0		
+3	Die	0		
+4	Wahlverwandtschaften	0		
+5	Ein	0		
+6	Roman	0		
+7	Erster	0		
+8	Teil	0		

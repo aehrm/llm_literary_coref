@@ -1,0 +1,86 @@
+i	token	mention	is_section_start	gold
+0	Caroline		1	
+1	Auguste	1	0	
+2	Fischer	1	0	
+3	Gustavs		0	
+4	Verirrungen		0	
+5	Ein		0	
+6	Roman		0	
+7	[		0	
+8	Vorbemerkung		0	
+9	]		0	
+10	Man		0	(mention_id=1|references=(entity=(entity_id=generic_0122|fullname=generic_0001|gender=u|specialcase_entity=generic)))
+11	erzählt		0	
+12	uns	2	0	(mention_id=2|references=(entity=(entity_id=generic_0123|fullname=generic_0002|gender=u|specialcase_entity=generic)))
+13	oft		0	
+14	,		0	
+15	was		0	
+16	die		0	
+17	Menschen	3	0	(mention_id=3|references=(entity=(entity_id=generic_0124|fullname=generic_0003|gender=u|specialcase_entity=generic)))
+18	sind		0	
+19	;		0	
+20	man		0	(mention_id=4|references=(entity=(entity_id=generic_0125|fullname=generic_0004|gender=u|specialcase_entity=generic)))
+21	beschreibt		0	
+22	uns	4	0	(mention_id=5|references=(entity=(entity_id=generic_0126|fullname=generic_0005|gender=u|specialcase_entity=generic)))
+23	noch		0	
+24	öfter		0	
+25	–		0	
+26	vielleicht		0	
+27	ein		0	
+28	wenig		0	
+29	zu		0	
+30	oft		0	
+31	wie		0	
+32	sie	5	0	(mention_id=6|references=(entity=(entity_id=generic_0127|fullname=generic_0006|gender=u|specialcase_entity=generic)))
+33	seyn		0	
+34	sollen		0	
+35	;		0	
+36	aber		0	
+37	man		0	(mention_id=7|references=(entity=(entity_id=generic_0128|fullname=generic_0007|gender=u|specialcase_entity=generic)))
+38	sagt		0	
+39	uns	6	0	
+40	,		0	
+41	wie		0	
+42	mich	7	0	(mention_id=8|references=(entity=(entity_id=entity_0001|fullname=Herausgeber|gender=u)))
+43	dünkt		0	
+44	,		0	
+45	noch		0	
+46	immer		0	
+47	nicht		0	
+48	oft		0	
+49	genug		0	
+50	:		0	
+51	auf		0	
+52	welche		0	
+53	Weise		0	
+54	sie	8	0	(mention_id=9|references=(entity=(entity_id=generic_0129|fullname=generic_0008|gender=u|specialcase_entity=generic)))
+55	das		0	
+56	werden		0	
+57	,		0	
+58	was		0	
+59	sie	9	0	(mention_id=10|references=(entity=(entity_id=generic_0130|fullname=generic_0009|gender=u|specialcase_entity=generic)))
+60	sind		0	
+61	.		0	
+62	Ist		0	
+63	diese		0	
+64	letzte		0	
+65	Bemerkung		0	
+66	richtig		0	
+67	,		0	
+68	so		0	
+69	hoffe		0	
+70	ich	10	0	(mention_id=11|references=(entity=(entity_id=entity_0001|fullname=Herausgeber|gender=u)))
+71	,		0	
+72	sie		0	
+73	werde		0	
+74	eine		0	
+75	Entschuldigung		0	
+76	für		0	
+77	die		0	
+78	Herausgabe		0	
+79	des		0	
+80	gegenwärtigen		0	
+81	kleinen		0	
+82	Romans		0	
+83	enthalten		0	
+84	.		0	

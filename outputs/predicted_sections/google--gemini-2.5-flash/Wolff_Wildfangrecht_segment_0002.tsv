@@ -1,0 +1,3382 @@
+i	token	is_section_start	gold	pred
+4999	Zweites	1		
+5000	Kapitel	0		
+5001	.	0		
+5002	In	0		
+5003	der	0		
+5004	Frühe	0		
+5005	des	0		
+5006	nächsten	0		
+5007	Tages	0		
+5008	fragte	0		
+5009	Madlen	0	(mention_id=749|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)))	(mention_id=771|references=(entity=(entity_id=8|fullname=Madlen|gender=f)))
+5010	ihre	0	(mention_id=750|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)))	(mention_id=772|references=(entity=(entity_id=8|fullname=Madlen|gender=f)))
+5011	Tochter	0	(mention_id=751|references=(entity=(entity_id=entity_0004|fullname=Ammerie Armbruster|gender=f)))	(mention_id=773|references=(entity=(entity_id=1|fullname=Ammerie|gender=f)))
+5012	,	0		
+5013	wie	0		
+5014	Trudi	0	(mention_id=752|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=774|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+5015	geschlafen	0		
+5016	hätte	0		
+5017	.	0		
+5018	»	0		
+5019	Sie	0	(mention_id=753|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=775|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+5020	schläft	0		
+5021	immer	0		
+5022	noch	0		
+5023	,	0		
+5024	«	0		
+5025	gab	0		
+5026	Ammerie	0	(mention_id=754|references=(entity=(entity_id=entity_0004|fullname=Ammerie Armbruster|gender=f)))	(mention_id=776|references=(entity=(entity_id=1|fullname=Ammerie|gender=f)))
+5027	zur	0		
+5028	Antwort	0		
+5029	,	0		
+5030	»	0		
+5031	und	0		
+5032	ich	0	(mention_id=755|references=(entity=(entity_id=entity_0004|fullname=Ammerie Armbruster|gender=f)))	(mention_id=777|references=(entity=(entity_id=1|fullname=Ammerie|gender=f)))
+5033	habe	0		
+5034	beim	0		
+5035	Anziehen	0		
+5036	ganz	0		
+5037	leise	0		
+5038	gemacht	0		
+5039	,	0		
+5040	um	0		
+5041	sie	0	(mention_id=756|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=778|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+5042	nicht	0		
+5043	zu	0		
+5044	wecken	0		
+5045	.	0		
+5046	«	0		
+5047	»	0		
+5048	Gut	0		
+5049	!	0		
+5050	aber	0		
+5051	sage	0		
+5052	mal	0		
+5053	:	0		
+5054	wie	0		
+5055	ist's	0		
+5056	mit	0		
+5057	ihrer	0	(mention_id=757|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=779|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+5058	Kleidung	0		
+5059	bestellt	0		
+5060	?	0		
+5061	«	0		
+5062	»	0		
+5063	Soviel	0		
+5064	ich	0	(mention_id=758|references=(entity=(entity_id=entity_0004|fullname=Ammerie Armbruster|gender=f)))	(mention_id=780|references=(entity=(entity_id=1|fullname=Ammerie|gender=f)))
+5065	davon	0		
+5066	gesehen	0		
+5067	habe	0		
+5068	,	0		
+5069	recht	0		
+5070	dürftig	0		
+5071	,	0		
+5072	und	0		
+5073	wenn	0		
+5074	sie	0	(mention_id=759|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=781|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+5075	mit	0		
+5076	uns	0	(mention_id=760|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)),(entity=(entity_id=entity_0004|fullname=Ammerie Armbruster|gender=f)))	(mention_id=782|references=(entity=(entity_id=8|fullname=Madlen|gender=f)),(entity=(entity_id=1|fullname=Ammerie|gender=f)))
+5077	zum	0		
+5078	Hochamt	0		
+5079	gehen	0		
+5080	soll	0		
+5081	.	0		
+5082	.	0		
+5083	.	0		
+5084	Ich	0	(mention_id=761|references=(entity=(entity_id=entity_0004|fullname=Ammerie Armbruster|gender=f)))	(mention_id=783|references=(entity=(entity_id=1|fullname=Ammerie|gender=f)))
+5085	habe	0		
+5086	schon	0		
+5087	gedacht	0		
+5088	,	0		
+5089	ob	0		
+5090	ich	0	(mention_id=762|references=(entity=(entity_id=entity_0004|fullname=Ammerie Armbruster|gender=f)))	(mention_id=784|references=(entity=(entity_id=1|fullname=Ammerie|gender=f)))
+5091	ihr	0	(mention_id=763|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=785|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+5092	nicht	0		
+5093	aushelfen	0		
+5094	könnte	0		
+5095	,	0		
+5096	aber	0		
+5097	meine	0	(mention_id=764|references=(entity=(entity_id=entity_0004|fullname=Ammerie Armbruster|gender=f)))	(mention_id=786|references=(entity=(entity_id=1|fullname=Ammerie|gender=f)))
+5098	Röcke	0		
+5099	werden	0		
+5100	ihr	0	(mention_id=765|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=787|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+5101	zu	0		
+5102	kurz	0		
+5103	sein	0		
+5104	,	0		
+5105	denn	0		
+5106	sie	0	(mention_id=766|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=788|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+5107	ist	0		
+5108	ein	0		
+5109	ganz	0		
+5110	Teil	0		
+5111	größer	0		
+5112	als	0		
+5113	ich	0	(mention_id=767|references=(entity=(entity_id=entity_0004|fullname=Ammerie Armbruster|gender=f)))	(mention_id=789|references=(entity=(entity_id=1|fullname=Ammerie|gender=f)))
+5114	.	0		
+5115	«	0		
+5116	»	0		
+5117	Und	0		
+5118	meine	0	(mention_id=768|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)))	(mention_id=790|references=(entity=(entity_id=8|fullname=Madlen|gender=f)))
+5119	Gewänder	0		
+5120	sind	0		
+5121	ihr	0	(mention_id=769|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=791|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+5122	zu	0		
+5123	weit	0		
+5124	,	0		
+5125	«	0		
+5126	lächelte	0		
+5127	Madlen	0	(mention_id=770|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)))	(mention_id=792|references=(entity=(entity_id=8|fullname=Madlen|gender=f)))
+5128	.	0		
+5129	»	0		
+5130	Aber	0		
+5131	von	0		
+5132	Elsbeth	0	(mention_id=771|references=(entity=(entity_id=entity_0008|fullname=Elsbeth Armbruster|gender=f)))	(mention_id=793|references=(entity=(entity_id=4|fullname=Elsbeth|gender=f)))
+5133	könnte	0		
+5134	ihr	0	(mention_id=772|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=794|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+5135	vielleicht	0		
+5136	manches	0		
+5137	passen	0		
+5138	,	0		
+5139	«	0		
+5140	meinte	0		
+5141	Ammerie	0	(mention_id=773|references=(entity=(entity_id=entity_0004|fullname=Ammerie Armbruster|gender=f)))	(mention_id=795|references=(entity=(entity_id=1|fullname=Ammerie|gender=f)))
+5142	.	0		
+5143	»	0		
+5144	Das	0		
+5145	ist	0		
+5146	wahr	0		
+5147	;	0		
+5148	lauf	0		
+5149	hin	0		
+5150	zu	0		
+5151	ihr	0	(mention_id=774|references=(entity=(entity_id=entity_0008|fullname=Elsbeth Armbruster|gender=f)))	(mention_id=796|references=(entity=(entity_id=4|fullname=Elsbeth|gender=f)))
+5152	und	0		
+5153	sieh	0		
+5154	zu	0		
+5155	,	0		
+5156	was	0		
+5157	du	0	(mention_id=775|references=(entity=(entity_id=entity_0004|fullname=Ammerie Armbruster|gender=f)))	(mention_id=797|references=(entity=(entity_id=1|fullname=Ammerie|gender=f)))
+5158	ihr	0	(mention_id=776|references=(entity=(entity_id=entity_0008|fullname=Elsbeth Armbruster|gender=f)))	(mention_id=798|references=(entity=(entity_id=4|fullname=Elsbeth|gender=f)))
+5159	abschwatzen	0		
+5160	kannst	0		
+5161	;	0		
+5162	sie	0	(mention_id=777|references=(entity=(entity_id=entity_0008|fullname=Elsbeth Armbruster|gender=f)))	(mention_id=799|references=(entity=(entity_id=4|fullname=Elsbeth|gender=f)))
+5163	ist	0		
+5164	ja	0		
+5165	gutherzig	0		
+5166	und	0		
+5167	gefällig	0		
+5168	.	0		
+5169	«	0		
+5170	»	0		
+5171	Jaja	0		
+5172	!	0		
+5173	sofort	0		
+5174	!	0		
+5175	und	0		
+5176	mit	0		
+5177	leeren	0		
+5178	Händen	0		
+5179	komme	0		
+5180	ich	0	(mention_id=778|references=(entity=(entity_id=entity_0004|fullname=Ammerie Armbruster|gender=f)))	(mention_id=800|references=(entity=(entity_id=1|fullname=Ammerie|gender=f)))
+5181	nicht	0		
+5182	wieder	0		
+5183	,	0		
+5184	«	0		
+5185	rief	0		
+5186	Ammerie	0	(mention_id=779|references=(entity=(entity_id=entity_0004|fullname=Ammerie Armbruster|gender=f)))	(mention_id=801|references=(entity=(entity_id=1|fullname=Ammerie|gender=f)))
+5187	und	0		
+5188	sprang	0		
+5189	davon	0		
+5190	.	0		
+5191	Nach	0		
+5192	kaum	0		
+5193	einem	0		
+5194	Viertelstündchen	0		
+5195	kehrte	0		
+5196	sie	0	(mention_id=780|references=(entity=(entity_id=entity_0004|fullname=Ammerie Armbruster|gender=f)))	(mention_id=802|references=(entity=(entity_id=1|fullname=Ammerie|gender=f)))
+5197	mit	0		
+5198	einem	0		
+5199	makellos	0		
+5200	sauberen	0		
+5201	Kleide	0		
+5202	zurück	0		
+5203	,	0		
+5204	das	0		
+5205	sie	0	(mention_id=781|references=(entity=(entity_id=entity_0004|fullname=Ammerie Armbruster|gender=f)))	(mention_id=803|references=(entity=(entity_id=1|fullname=Ammerie|gender=f)))
+5206	triumphierend	0		
+5207	vor	0		
+5208	der	0		
+5209	Mutter	0	(mention_id=782|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)))	(mention_id=804|references=(entity=(entity_id=8|fullname=Madlen|gender=f)))
+5210	entfaltete	0		
+5211	.	0		
+5212	»	0		
+5213	Siehst	0		
+5214	du	0	(mention_id=783|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)))	(mention_id=805|references=(entity=(entity_id=8|fullname=Madlen|gender=f)))
+5215	?	0		
+5216	ich	0	(mention_id=784|references=(entity=(entity_id=entity_0004|fullname=Ammerie Armbruster|gender=f)))	(mention_id=806|references=(entity=(entity_id=1|fullname=Ammerie|gender=f)))
+5217	wußt	0		
+5218	es	0		
+5219	wohl	0		
+5220	,	0		
+5221	die	0		
+5222	Elsbeth	0	(mention_id=785|references=(entity=(entity_id=entity_0008|fullname=Elsbeth Armbruster|gender=f)))	(mention_id=807|references=(entity=(entity_id=4|fullname=Elsbeth|gender=f)))
+5223	schlägt	0		
+5224	mir	0	(mention_id=786|references=(entity=(entity_id=entity_0004|fullname=Ammerie Armbruster|gender=f)))	(mention_id=808|references=(entity=(entity_id=4|fullname=Elsbeth|gender=f)))
+5225	nichts	0		
+5226	ab	0		
+5227	,	0		
+5228	und	0		
+5229	sie	0	(mention_id=787|references=(entity=(entity_id=entity_0008|fullname=Elsbeth Armbruster|gender=f)))	(mention_id=809|references=(entity=(entity_id=4|fullname=Elsbeth|gender=f)))
+5230	hat's	0		
+5231	gern	0		
+5232	hergegeben	0		
+5233	.	0		
+5234	«	0		
+5235	Dann	0		
+5236	eilte	0		
+5237	sie	0	(mention_id=788|references=(entity=(entity_id=entity_0004|fullname=Ammerie Armbruster|gender=f)))	(mention_id=810|references=(entity=(entity_id=1|fullname=Ammerie|gender=f)))
+5238	vergnügt	0		
+5239	damit	0		
+5240	die	0		
+5241	Treppe	0		
+5242	hinauf	0		
+5243	.	0		
+5244	Als	0		
+5245	Trudi	0	(mention_id=789|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=811|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+5246	,	0		
+5247	erfrischt	0		
+5248	und	0		
+5249	gestärkt	0		
+5250	durch	0		
+5251	den	0		
+5252	gesunden	0		
+5253	Schlaf	0		
+5254	,	0		
+5255	mit	0		
+5256	Ammerie	0	(mention_id=790|references=(entity=(entity_id=entity_0004|fullname=Ammerie Armbruster|gender=f)))	(mention_id=812|references=(entity=(entity_id=1|fullname=Ammerie|gender=f)))
+5257	herankam	0		
+5258	,	0		
+5259	nahm	0		
+5260	sie	0	(mention_id=791|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=813|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+5261	sich	0	(mention_id=792|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=814|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+5262	ganz	0		
+5263	vortrefflich	0		
+5264	aus	0		
+5265	,	0		
+5266	denn	0		
+5267	Elsbeths	0	(mention_id=793|references=(entity=(entity_id=entity_0008|fullname=Elsbeth Armbruster|gender=f)))	(mention_id=815|references=(entity=(entity_id=4|fullname=Elsbeth|gender=f)))
+5268	Kleid	0		
+5269	stand	0		
+5270	ihr	0	(mention_id=794|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=816|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+5271	gut	0		
+5272	und	0		
+5273	saß	0		
+5274	ihr	0	(mention_id=795|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=817|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+5275	auch	0		
+5276	leidlich	0		
+5277	gut	0		
+5278	,	0		
+5279	wenn	0		
+5280	es	0		
+5281	auch	0		
+5282	um	0		
+5283	die	0		
+5284	Brust	0		
+5285	etwas	0		
+5286	eng	0		
+5287	und	0		
+5288	um	0		
+5289	den	0		
+5290	Gürtel	0		
+5291	nicht	0		
+5292	anschließend	0		
+5293	genug	0		
+5294	war	0		
+5295	,	0		
+5296	aber	0		
+5297	das	0		
+5298	ließ	0		
+5299	sich	0		
+5300	ja	0		
+5301	leicht	0		
+5302	ändern	0		
+5303	.	0		
+5304	»	0		
+5305	Ihr	0	(mention_id=796|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=818|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+5306	beschämt	0		
+5307	mich	0	(mention_id=797|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=819|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+5308	mit	0		
+5309	eurer	0	(mention_id=798|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)))	(mention_id=820|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+5310	Güte	0		
+5311	,	0		
+5312	«	0		
+5313	sprach	0		
+5314	sie	0	(mention_id=799|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=821|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+5315	nach	0		
+5316	dargebrachtem	0		
+5317	Morgengruß	0		
+5318	,	0		
+5319	»	0		
+5320	aber	0		
+5321	ich	0	(mention_id=800|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=822|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+5322	nehme	0		
+5323	es	0		
+5324	mit	0		
+5325	allem	0		
+5326	Dank	0		
+5327	an	0		
+5328	,	0		
+5329	damit	0		
+5330	ich	0	(mention_id=801|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=823|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+5331	euch	0	(mention_id=802|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)),(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)),(entity=(entity_id=entity_0004|fullname=Ammerie Armbruster|gender=f)))	(mention_id=824|references=(entity=(entity_id=8|fullname=Madlen|gender=f)),(entity=(entity_id=1|fullname=Ammerie|gender=f)),(entity=(entity_id=2|fullname=Christoph|gender=m)))
+5332	am	0		
+5333	Feiertage	0		
+5334	mit	0		
+5335	meinen	0	(mention_id=803|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=825|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+5336	abgetragenen	0		
+5337	Sachen	0		
+5338	keine	0		
+5339	Schande	0		
+5340	mache	0		
+5341	.	0		
+5342	«	0		
+5343	»	0		
+5344	Wie	0		
+5345	ist	0		
+5346	dir	0	(mention_id=804|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=826|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+5347	nach	0		
+5348	deiner	0	(mention_id=805|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=827|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+5349	Wanderung	0		
+5350	zumute	0		
+5351	?	0		
+5352	«	0		
+5353	fragte	0		
+5354	Madlen	0	(mention_id=806|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)))	(mention_id=828|references=(entity=(entity_id=8|fullname=Madlen|gender=f)))
+5355	.	0		
+5356	»	0		
+5357	Ach	0		
+5358	!	0		
+5359	wie	0		
+5360	neugeboren	0		
+5361	fühl	0		
+5362	ich	0	(mention_id=807|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=829|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+5363	mich	0	(mention_id=808|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=830|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+5364	;	0		
+5365	es	0		
+5366	lag	0		
+5367	sich	0		
+5368	so	0		
+5369	wonnig	0		
+5370	in	0		
+5371	dem	0		
+5372	schönen	0		
+5373	Bett	0		
+5374	,	0		
+5375	ich	0	(mention_id=809|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=831|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+5376	konnte	0		
+5377	mich	0	(mention_id=810|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=832|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+5378	recken	0		
+5379	und	0		
+5380	strecken	0		
+5381	,	0		
+5382	und	0		
+5383	nicht	0		
+5384	einmal	0		
+5385	geträumt	0		
+5386	hab	0		
+5387	ich	0	(mention_id=811|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=833|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+5388	.	0		
+5389	«	0		
+5390	»	0		
+5391	Schade	0		
+5392	!	0		
+5393	«	0		
+5394	meinte	0		
+5395	Ammerie	0	(mention_id=812|references=(entity=(entity_id=entity_0004|fullname=Ammerie Armbruster|gender=f)))	(mention_id=834|references=(entity=(entity_id=1|fullname=Ammerie|gender=f)))
+5396	,	0		
+5397	»	0		
+5398	denn	0		
+5399	was	0		
+5400	man	0		
+5401	in	0		
+5402	der	0		
+5403	ersten	0		
+5404	Nacht	0		
+5405	unter	0		
+5406	einem	0		
+5407	fremden	0		
+5408	Dache	0		
+5409	träumt	0		
+5410	,	0		
+5411	das	0		
+5412	geht	0		
+5413	in	0		
+5414	Erfüllung	0		
+5415	.	0		
+5416	«	0		
+5417	»	0		
+5418	Mir	0	(mention_id=813|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=835|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+5419	ist	0		
+5420	so	0		
+5421	wohlig	0		
+5422	hier	0		
+5423	,	0		
+5424	als	0		
+5425	wäre	0		
+5426	dies	0		
+5427	kein	0		
+5428	fremdes	0		
+5429	Dach	0		
+5430	für	0		
+5431	mich	0	(mention_id=814|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=836|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+5432	,	0		
+5433	«	0		
+5434	erwiderte	0		
+5435	Trudi	0	(mention_id=815|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=837|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+5436	,	0		
+5437	»	0		
+5438	und	0		
+5439	was	0		
+5440	soll	0		
+5441	mir	0	(mention_id=816|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=838|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+5442	denn	0		
+5443	noch	0		
+5444	groß	0		
+5445	in	0		
+5446	Erfüllung	0		
+5447	gehen	0		
+5448	?	0		
+5449	«	0		
+5450	»	0		
+5451	Kind	0	(mention_id=817|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=839|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+5452	,	0		
+5453	du	0	(mention_id=818|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=840|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+5454	bist	0		
+5455	noch	0		
+5456	jung	0		
+5457	;	0		
+5458	in	0		
+5459	deinen	0	(mention_id=819|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=841|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+5460	Jahren	0		
+5461	läßt	0		
+5462	sich	0		
+5463	auch	0		
+5464	das	0		
+5465	schwerste	0		
+5466	Leid	0		
+5467	mit	0		
+5468	frohen	0		
+5469	Hoffnungen	0		
+5470	trösten	0		
+5471	,	0		
+5472	«	0		
+5473	gemahnte	0		
+5474	sie	0	(mention_id=820|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)))	(mention_id=842|references=(entity=(entity_id=8|fullname=Madlen|gender=f)))
+5475	Madlen	0	(mention_id=821|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)))	(mention_id=843|references=(entity=(entity_id=8|fullname=Madlen|gender=f)))
+5476	.	0		
+5477	Trudi	0	(mention_id=822|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=844|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+5478	seufzte	0		
+5479	leise	0		
+5480	und	0		
+5481	schwieg	0		
+5482	.	0		
+5483	Jetzt	0		
+5484	trat	0		
+5485	Christoph	0	(mention_id=823|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))	(mention_id=845|references=(entity=(entity_id=2|fullname=Christoph|gender=m)))
+5486	ins	0		
+5487	Zimmer	0		
+5488	,	0		
+5489	wo	0		
+5490	das	0		
+5491	Frühmahl	0		
+5492	seiner	0	(mention_id=824|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))	(mention_id=846|references=(entity=(entity_id=2|fullname=Christoph|gender=m)))
+5493	harrte	0		
+5494	.	0		
+5495	»	0		
+5496	Nun	0		
+5497	,	0		
+5498	ich	0	(mention_id=825|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))	(mention_id=847|references=(entity=(entity_id=2|fullname=Christoph|gender=m)))
+5499	brauche	0		
+5500	nicht	0		
+5501	zu	0		
+5502	fragen	0		
+5503	,	0		
+5504	wie	0		
+5505	du	0	(mention_id=826|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=848|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+5506	geruht	0		
+5507	hast	0		
+5508	,	0		
+5509	«	0		
+5510	sprach	0		
+5511	er	0	(mention_id=827|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))	(mention_id=849|references=(entity=(entity_id=2|fullname=Christoph|gender=m)))
+5512	,	0		
+5513	»	0		
+5514	siehst	0		
+5515	heute	0		
+5516	schon	0		
+5517	ganz	0		
+5518	anders	0		
+5519	aus	0		
+5520	als	0		
+5521	gestern	0		
+5522	abend	0		
+5523	.	0		
+5524	«	0		
+5525	»	0		
+5526	Das	0		
+5527	macht	0		
+5528	nicht	0		
+5529	bloß	0		
+5530	der	0		
+5531	tiefe	0		
+5532	Schlaf	0		
+5533	,	0		
+5534	Onkel	0	(mention_id=828|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))	(mention_id=850|references=(entity=(entity_id=2|fullname=Christoph|gender=m)))
+5535	,	0		
+5536	«	0		
+5537	erwiderte	0		
+5538	Trudi	0	(mention_id=829|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=851|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+5539	,	0		
+5540	»	0		
+5541	die	0		
+5542	liebevolle	0		
+5543	Aufnahme	0		
+5544	tut's	0		
+5545	,	0		
+5546	die	0		
+5547	ich	0	(mention_id=830|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=852|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+5548	bei	0		
+5549	Euch	0	(mention_id=831|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)),(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)),(entity=(entity_id=entity_0004|fullname=Ammerie Armbruster|gender=f)))	(mention_id=853|references=(entity=(entity_id=8|fullname=Madlen|gender=f)),(entity=(entity_id=1|fullname=Ammerie|gender=f)),(entity=(entity_id=2|fullname=Christoph|gender=m)))
+5550	gefunden	0		
+5551	habe	0		
+5552	.	0		
+5553	«	0		
+5554	Er	0	(mention_id=832|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))	(mention_id=854|references=(entity=(entity_id=2|fullname=Christoph|gender=m)))
+5555	strich	0		
+5556	ihr	0	(mention_id=833|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=855|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+5557	mit	0		
+5558	der	0		
+5559	Hand	0		
+5560	über	0		
+5561	ihr	0	(mention_id=834|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=856|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+5562	volles	0		
+5563	,	0		
+5564	glänzendes	0		
+5565	Blondhaar	0		
+5566	und	0		
+5567	sagte	0		
+5568	:	0		
+5569	»	0		
+5570	Dem	0		
+5571	Müden	0	(mention_id=835|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)),(entity=(entity_id=generic_0120|fullname=generic_0007|gender=u|specialcase_entity=generic)))	(mention_id=857|references=(entity=(entity_id=generic_0001|fullname=der Müde im Allgemeinen|gender=u|specialcase_entity=generic)))
+5572	ist	0		
+5573	leicht	0		
+5574	gebettet	0		
+5575	,	0		
+5576	und	0		
+5577	der	0		
+5578	Willkommene	0	(mention_id=836|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)),(entity=(entity_id=generic_0121|fullname=generic_0008|gender=u|specialcase_entity=generic)))	(mention_id=858|references=(entity=(entity_id=generic_0002|fullname=der Willkommene im Allgemeinen|gender=u|specialcase_entity=generic)))
+5579	findet	0		
+5580	immer	0		
+5581	offene	0		
+5582	Arme	0		
+5583	.	0		
+5584	«	0		
+5585	Dann	0		
+5586	ließen	0		
+5587	sich	0	(mention_id=837|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)),(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)),(entity=(entity_id=entity_0004|fullname=Ammerie Armbruster|gender=f)),(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=859|references=(entity=(entity_id=8|fullname=Madlen|gender=f)),(entity=(entity_id=1|fullname=Ammerie|gender=f)),(entity=(entity_id=2|fullname=Christoph|gender=m)),(entity=(entity_id=12|fullname=Trudi|gender=f)))
+5588	alle	0		
+5589	vier	0	(mention_id=838|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)),(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)),(entity=(entity_id=entity_0004|fullname=Ammerie Armbruster|gender=f)),(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=860|references=(entity=(entity_id=8|fullname=Madlen|gender=f)),(entity=(entity_id=1|fullname=Ammerie|gender=f)),(entity=(entity_id=2|fullname=Christoph|gender=m)),(entity=(entity_id=12|fullname=Trudi|gender=f)))
+5590	am	0		
+5591	Tische	0		
+5592	nieder	0		
+5593	.	0		
+5594	Die	0		
+5595	Armbrusters	0	(mention_id=839|references=(entity=(entity_id=entity_0007|fullname=Familie Armbruster|gender=mf|members=entity_0001,entity_0003,entity_0004,entity_0005,entity_0008,entity_0016,entity_0017|all_members_given=True|specialcase_entity=group)))	(mention_id=861|references=(entity=(entity_id=5|fullname=Familie Armbruster|gender=u|specialcase_entity=group)))
+5596	waren	0		
+5597	bereits	0		
+5598	in	0		
+5599	festlichem	0		
+5600	Gewand	0		
+5601	,	0		
+5602	und	0		
+5603	als	0		
+5604	später	0		
+5605	die	0		
+5606	Glocke	0		
+5607	der	0		
+5608	dem	0		
+5609	Ritter	0	(mention_id=840|references=(entity=(entity_id=entity_0082|fullname=Ritter Sankt Georg|gender=m)))	(mention_id=862|references=(entity=(entity_id=11|fullname=Sankt Georg|gender=m|specialcase_entity=nonfact)))
+5610	Sankt	0	(mention_id=840|references=(entity=(entity_id=entity_0082|fullname=Ritter Sankt Georg|gender=m)))	(mention_id=862|references=(entity=(entity_id=11|fullname=Sankt Georg|gender=m|specialcase_entity=nonfact)))
+5611	Georg	0	(mention_id=840|references=(entity=(entity_id=entity_0082|fullname=Ritter Sankt Georg|gender=m)))	(mention_id=862|references=(entity=(entity_id=11|fullname=Sankt Georg|gender=m|specialcase_entity=nonfact)))
+5612	geweihten	0		
+5613	Kirche	0		
+5614	läutete	0		
+5615	,	0		
+5616	setzte	0		
+5617	sich	0		(mention_id=863|references=(entity=(entity_id=2|fullname=Christoph|gender=m)))
+5618	der	0		
+5619	Bürgermeister	0	(mention_id=841|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))	(mention_id=864|references=(entity=(entity_id=2|fullname=Christoph|gender=m)))
+5620	seinen	0	(mention_id=842|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))	(mention_id=865|references=(entity=(entity_id=2|fullname=Christoph|gender=m)))
+5621	breitkrempigen	0		
+5622	Dreispitz	0		
+5623	auf	0		
+5624	,	0		
+5625	und	0		
+5626	sie	0	(mention_id=843|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)),(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)),(entity=(entity_id=entity_0004|fullname=Ammerie Armbruster|gender=f)))	(mention_id=866|references=(entity=(entity_id=8|fullname=Madlen|gender=f)),(entity=(entity_id=1|fullname=Ammerie|gender=f)),(entity=(entity_id=2|fullname=Christoph|gender=m)))
+5627	begaben	0		
+5628	sich	0	(mention_id=844|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)),(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)),(entity=(entity_id=entity_0004|fullname=Ammerie Armbruster|gender=f)))	(mention_id=867|references=(entity=(entity_id=8|fullname=Madlen|gender=f)),(entity=(entity_id=1|fullname=Ammerie|gender=f)),(entity=(entity_id=2|fullname=Christoph|gender=m)))
+5629	mit	0		
+5630	Trudi	0	(mention_id=845|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=868|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+5631	zum	0		
+5632	Gottesdienst	0		
+5633	.	0		
+5634	Auch	0		
+5635	heute	0		
+5636	wölbte	0		
+5637	sich	0		
+5638	wieder	0		
+5639	ein	0		
+5640	wolkenloser	0		
+5641	Himmel	0		
+5642	über	0		
+5643	der	0		
+5644	Pfalz	0		
+5645	,	0		
+5646	und	0		
+5647	es	0		
+5648	brütete	0		
+5649	eine	0		
+5650	schier	0		
+5651	sommerliche	0		
+5652	Wärme	0		
+5653	.	0		
+5654	Die	0		
+5655	Wachenheimer	0	(mention_id=846|references=(entity=(entity_id=entity_0019|fullname=Wachenheimer|gender=mf|members=entity_0007,entity_0013,entity_0014,entity_0026|all_members_given=False|specialcase_entity=group)))	(mention_id=869|references=(entity=(entity_id=26|fullname=die Wachenheimer|gender=u|specialcase_entity=group)))
+5656	pilgerten	0		
+5657	in	0		
+5658	Scharen	0		
+5659	zur	0		
+5660	Kirche	0		
+5661	.	0		
+5662	Ihre	0	(mention_id=847|references=(entity=(entity_id=entity_0019|fullname=Wachenheimer|gender=mf|members=entity_0007,entity_0013,entity_0014,entity_0026|all_members_given=False|specialcase_entity=group)))	(mention_id=870|references=(entity=(entity_id=26|fullname=die Wachenheimer|gender=u|specialcase_entity=group)))
+5663	Gesichter	0		
+5664	schauten	0		
+5665	heiter	0		
+5666	,	0		
+5667	und	0		
+5668	ihre	0	(mention_id=848|references=(entity=(entity_id=entity_0019|fullname=Wachenheimer|gender=mf|members=entity_0007,entity_0013,entity_0014,entity_0026|all_members_given=False|specialcase_entity=group)))	(mention_id=871|references=(entity=(entity_id=26|fullname=die Wachenheimer|gender=u|specialcase_entity=group)))
+5669	Gemüter	0		
+5670	waren	0		
+5671	froh	0		
+5672	gestimmt	0		
+5673	,	0		
+5674	wohl	0		
+5675	nicht	0		
+5676	zum	0		
+5677	geringsten	0		
+5678	Teil	0		
+5679	deswegen	0		
+5680	,	0		
+5681	weil	0		
+5682	diese	0		
+5683	heißen	0		
+5684	Sonnenstrahlen	0		
+5685	den	0		
+5686	Trauben	0		
+5687	an	0		
+5688	den	0		
+5689	Weinstöcken	0		
+5690	noch	0		
+5691	zugute	0		
+5692	kamen	0		
+5693	,	0		
+5694	an	0		
+5695	deren	0		
+5696	vollsaftigem	0		
+5697	Gedeihen	0		
+5698	die	0		
+5699	Hoffnungen	0		
+5700	eines	0		
+5701	ganzen	0		
+5702	Jahres	0		
+5703	hingen	0		
+5704	.	0		
+5705	Die	0		
+5706	Sitzreihen	0		
+5707	der	0		
+5708	Kirche	0		
+5709	füllten	0		
+5710	sich	0		
+5711	schnell	0		
+5712	,	0		
+5713	und	0		
+5714	viel	0		
+5715	neugierige	0		
+5716	Blicke	0		
+5717	richteten	0		
+5718	sich	0		
+5719	auf	0		
+5720	die	0		
+5721	bildhübsche	0		
+5722	Fremde	0	(mention_id=849|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=872|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+5723	zwischen	0		
+5724	Madlen	0	(mention_id=850|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)))	(mention_id=873|references=(entity=(entity_id=8|fullname=Madlen|gender=f)))
+5725	und	0		
+5726	Ammerie	0	(mention_id=851|references=(entity=(entity_id=entity_0004|fullname=Ammerie Armbruster|gender=f)))	(mention_id=874|references=(entity=(entity_id=1|fullname=Ammerie|gender=f)))
+5727	,	0		
+5728	die	0	(mention_id=852|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=875|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+5729	man	0		
+5730	noch	0		
+5731	nie	0		
+5732	in	0		
+5733	Gesellschaft	0		
+5734	der	0		
+5735	Armbruster	0	(mention_id=853|references=(entity=(entity_id=entity_0007|fullname=Familie Armbruster|gender=mf|members=entity_0001,entity_0003,entity_0004,entity_0005,entity_0008,entity_0016,entity_0017|all_members_given=True|specialcase_entity=group)))	(mention_id=876|references=(entity=(entity_id=5|fullname=Familie Armbruster|gender=u|specialcase_entity=group)))
+5736	gesehen	0		
+5737	hatte	0		
+5738	.	0		
+5739	Das	0		
+5740	Hochamt	0		
+5741	begann	0		
+5742	,	0		
+5743	nahm	0		
+5744	seinen	0		
+5745	gewöhnlichen	0		
+5746	Verlauf	0		
+5747	und	0		
+5748	sein	0		
+5749	Ende	0		
+5750	,	0		
+5751	und	0		
+5752	das	0		
+5753	Gotteshaus	0		
+5754	leerte	0		
+5755	sich	0		
+5756	wieder	0		
+5757	.	0		
+5758	Auf	0		
+5759	dem	0		
+5760	Heimwege	0		
+5761	schlossen	0		
+5762	sich	0	(mention_id=854|references=(entity=(entity_id=entity_0079|fullname=Kirchgänger|gender=u)))	(mention_id=877|references=(entity=(entity_id=33|fullname=manche Kirchgänger|gender=u|specialcase_entity=group)))
+5763	manche	0	(mention_id=855|references=(entity=(entity_id=entity_0079|fullname=Kirchgänger|gender=u)))	
+5764	der	0		
+5765	Kirchgänger	0	(mention_id=856|references=(entity=(entity_id=entity_0079|fullname=Kirchgänger|gender=u)))	(mention_id=878|references=(entity=(entity_id=33|fullname=manche Kirchgänger|gender=u|specialcase_entity=group)))
+5766	der	0		
+5767	Bürgermeisterfamilie	0	(mention_id=857|references=(entity=(entity_id=entity_0007|fullname=Familie Armbruster|gender=mf|members=entity_0001,entity_0003,entity_0004,entity_0005,entity_0008,entity_0016,entity_0017|all_members_given=True|specialcase_entity=group)))	(mention_id=879|references=(entity=(entity_id=5|fullname=Familie Armbruster|gender=u|specialcase_entity=group)))
+5768	an	0		
+5769	,	0		
+5770	und	0		
+5771	wenn	0		
+5772	es	0		
+5773	die	0		
+5774	Lippen	0		
+5775	nicht	0		
+5776	taten	0		
+5777	,	0		
+5778	so	0		
+5779	fragten	0		
+5780	doch	0		
+5781	die	0		
+5782	Augen	0		
+5783	:	0		
+5784	wen	0		
+5785	habt	0		
+5786	ihr	0	(mention_id=858|references=(entity=(entity_id=entity_0007|fullname=Familie Armbruster|gender=mf|members=entity_0001,entity_0003,entity_0004,entity_0005,entity_0008,entity_0016,entity_0017|all_members_given=True|specialcase_entity=group)))	(mention_id=880|references=(entity=(entity_id=5|fullname=Familie Armbruster|gender=u|specialcase_entity=group)))
+5787	denn	0		
+5788	da	0		
+5789	bei	0		
+5790	euch	0	(mention_id=859|references=(entity=(entity_id=entity_0007|fullname=Familie Armbruster|gender=mf|members=entity_0001,entity_0003,entity_0004,entity_0005,entity_0008,entity_0016,entity_0017|all_members_given=True|specialcase_entity=group)))	(mention_id=881|references=(entity=(entity_id=5|fullname=Familie Armbruster|gender=u|specialcase_entity=group)))
+5791	?	0		
+5792	so	0		
+5793	daß	0		
+5794	Madlen	0	(mention_id=860|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)))	(mention_id=882|references=(entity=(entity_id=8|fullname=Madlen|gender=f)))
+5795	oftmals	0		
+5796	wiederholen	0		
+5797	mußte	0		
+5798	:	0		
+5799	»	0		
+5800	Das	0		
+5801	ist	0		
+5802	eine	0		
+5803	liebe	0		
+5804	Verwandte	0	(mention_id=861|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=883|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+5805	,	0		
+5806	die	0	(mention_id=862|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=884|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+5807	zum	0		
+5808	Besuch	0		
+5809	eingetroffen	0		
+5810	ist	0		
+5811	und	0		
+5812	längere	0		
+5813	Zeit	0		
+5814	bei	0		
+5815	uns	0	(mention_id=863|references=(entity=(entity_id=entity_0007|fullname=Familie Armbruster|gender=mf|members=entity_0001,entity_0003,entity_0004,entity_0005,entity_0008,entity_0016,entity_0017|all_members_given=True|specialcase_entity=group)))	(mention_id=885|references=(entity=(entity_id=5|fullname=Familie Armbruster|gender=u|specialcase_entity=group)))
+5816	bleiben	0		
+5817	wird	0		
+5818	.	0		
+5819	«	0		
+5820	Die	0		
+5821	Honoratioren	0	(mention_id=864|references=(entity=(entity_id=entity_0073|fullname=Honoratioren der Winzergilde|gender=m|specialcase_entity=group)))	(mention_id=886|references=(entity=(entity_id=6|fullname=Honoratioren der Winzergilde|gender=u|specialcase_entity=group)))
+5822	der	0		
+5823	Winzergilde	0	(mention_id=865|references=(entity=(entity_id=entity_0086|fullname=Winzergilde|gender=m|members=entity_0073|all_members_given=False|specialcase_entity=group)))	(mention_id=887|references=(entity=(entity_id=6|fullname=Honoratioren der Winzergilde|gender=u|specialcase_entity=group)))
+5824	,	0		
+5825	auch	0		
+5826	einige	0		
+5827	kleinere	0		
+5828	Hofbesitzer	0	(mention_id=866|references=(entity=(entity_id=entity_0075|fullname=Hofbesitzer|gender=m|members=entity_0001|all_members_given=False|specialcase_entity=group)))	(mention_id=888|references=(entity=(entity_id=30|fullname=einige kleinere Hofbesitzer|gender=u|specialcase_entity=group)))
+5829	und	0		
+5830	ehrsame	0		
+5831	Handwerksmeister	0	(mention_id=867|references=(entity=(entity_id=entity_0074|fullname=Handwerksmeister|gender=m|specialcase_entity=group)))	(mention_id=889|references=(entity=(entity_id=28|fullname=ehrsame Handwerksmeister|gender=u|specialcase_entity=group)))
+5832	vereinigten	0		
+5833	sich	0	(mention_id=868|references=(entity=(entity_id=entity_0073|fullname=Honoratioren der Winzergilde|gender=m|specialcase_entity=group)),(entity=(entity_id=entity_0075|fullname=Hofbesitzer|gender=m|members=entity_0001|all_members_given=False|specialcase_entity=group)),(entity=(entity_id=entity_0074|fullname=Handwerksmeister|gender=m|specialcase_entity=group)))	(mention_id=890|references=(entity=(entity_id=6|fullname=Honoratioren der Winzergilde|gender=u|specialcase_entity=group)),(entity=(entity_id=30|fullname=einige kleinere Hofbesitzer|gender=u|specialcase_entity=group)),(entity=(entity_id=28|fullname=ehrsame Handwerksmeister|gender=u|specialcase_entity=group)))
+5834	nach	0		
+5835	dem	0		
+5836	Gottesdienste	0		
+5837	noch	0		
+5838	in	0		
+5839	dem	0		
+5840	Gasthaus	0		
+5841	zur	0		
+5842	Krone	0		
+5843	bei	0		
+5844	der	0		
+5845	sogenannten	0		
+5846	Elfuhrmesse	0		
+5847	zu	0		
+5848	einem	0		
+5849	Schoppenglase	0		
+5850	.	0		
+5851	Auch	0		
+5852	Christoph	0	(mention_id=869|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))	(mention_id=891|references=(entity=(entity_id=2|fullname=Christoph|gender=m)))
+5853	Armbruster	0	(mention_id=869|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))	(mention_id=891|references=(entity=(entity_id=2|fullname=Christoph|gender=m)))
+5854	fehlte	0		
+5855	selten	0		
+5856	bei	0		
+5857	diesem	0		
+5858	Sonntagstrunke	0		
+5859	,	0		
+5860	denn	0		
+5861	dort	0		
+5862	wurden	0		
+5863	die	0		
+5864	Gemeindeangelegenheiten	0		
+5865	oft	0		
+5866	gründlicher	0		
+5867	durchgesprochen	0		
+5868	als	0		
+5869	auf	0		
+5870	dem	0		
+5871	Stadthause	0		
+5872	,	0		
+5873	und	0		
+5874	man	0	(mention_id=870|references=(entity=(entity_id=entity_0075|fullname=Hofbesitzer|gender=m|members=entity_0001|all_members_given=False|specialcase_entity=group)),(entity=(entity_id=entity_0073|fullname=Honoratioren der Winzergilde|gender=m|specialcase_entity=group)),(entity=(entity_id=entity_0074|fullname=Handwerksmeister|gender=m|specialcase_entity=group)))	
+5875	vertrug	0		
+5876	sich	0	(mention_id=871|references=(entity=(entity_id=entity_0075|fullname=Hofbesitzer|gender=m|members=entity_0001|all_members_given=False|specialcase_entity=group)),(entity=(entity_id=entity_0073|fullname=Honoratioren der Winzergilde|gender=m|specialcase_entity=group)),(entity=(entity_id=entity_0074|fullname=Handwerksmeister|gender=m|specialcase_entity=group)))	(mention_id=892|references=(entity=(entity_id=6|fullname=Honoratioren der Winzergilde|gender=u|specialcase_entity=group)),(entity=(entity_id=30|fullname=einige kleinere Hofbesitzer|gender=u|specialcase_entity=group)),(entity=(entity_id=28|fullname=ehrsame Handwerksmeister|gender=u|specialcase_entity=group)),(entity=(entity_id=2|fullname=Christoph|gender=m)))
+5877	beim	0		
+5878	Wein	0		
+5879	leicht	0		
+5880	in	0		
+5881	Frieden	0		
+5882	und	0		
+5883	Freundschaft	0		
+5884	.	0		
+5885	Manchmal	0		
+5886	freilich	0		
+5887	kam	0		
+5888	es	0		
+5889	auch	0		
+5890	anders	0		
+5891	,	0		
+5892	wenn	0		
+5893	die	0		
+5894	Köpfe	0		
+5895	der	0		
+5896	Streitenden	0	(mention_id=872|references=(entity=(entity_id=entity_0078|fullname=Streitende im Gasthaus|gender=u|specialcase_entity=group)))	(mention_id=893|references=(entity=(entity_id=25|fullname=die Streitenden|gender=u|specialcase_entity=group)))
+5897	heiß	0		
+5898	wurden	0		
+5899	.	0		
+5900	Dann	0		
+5901	fielen	0		
+5902	schwere	0		
+5903	,	0		
+5904	selbst	0		
+5905	grobe	0		
+5906	Worte	0		
+5907	,	0		
+5908	keiner	0	(mention_id=873|references=(entity=(entity_id=entity_0078|fullname=Streitende im Gasthaus|gender=u|specialcase_entity=group)))	
+5909	blieb	0		
+5910	dem	0		
+5911	andern	0	(mention_id=874|references=(entity=(entity_id=entity_0078|fullname=Streitende im Gasthaus|gender=u|specialcase_entity=group)))	(mention_id=894|references=(entity=(entity_id=25|fullname=die Streitenden|gender=u|specialcase_entity=group)))
+5912	etwas	0		
+5913	schuldig	0		
+5914	,	0		
+5915	und	0		
+5916	die	0		
+5917	Fäuste	0		
+5918	donnerten	0		
+5919	mit	0		
+5920	einem	0		
+5921	trotzigen	0		
+5922	Hol	0		
+5923	mich	0		
+5924	der	0		
+5925	Deibel	0	(mention_id=875|references=(entity=(entity_id=entity_0041|fullname=Teufel|gender=m|specialcase_entity=nonfact)))	(mention_id=895|references=(entity=(entity_id=3|fullname=Deibel|gender=m|specialcase_entity=nonfact)))
+5926	!	0		
+5927	auf	0		
+5928	den	0		
+5929	Tisch	0		
+5930	.	0		
+5931	Denn	0		
+5932	ein	0		
+5933	Sprichwort	0		
+5934	sagte	0		
+5935	:	0		
+5936	dem	0		
+5937	Pfälzer	0		(mention_id=896|references=(entity=(entity_id=generic_0003|fullname=der Pfälzer im Allgemeinen|gender=u|specialcase_entity=generic)))
+5938	sitzt	0		
+5939	das	0		
+5940	Herz	0		
+5941	auf	0		
+5942	der	0		
+5943	Zunge	0		
+5944	und	0		
+5945	nicht	0		
+5946	hinter	0		
+5947	den	0		
+5948	Ohren	0		
+5949	.	0		
+5950	Die	0		
+5951	Frauen	0	(mention_id=876|references=(entity=(entity_id=entity_0085|fullname=Wachenheimer Frauen|gender=f|members=entity_0002,entity_0003,entity_0004,entity_0011,entity_0022|all_members_given=False|specialcase_entity=group)))	(mention_id=897|references=(entity=(entity_id=23|fullname=die Frauen|gender=u|specialcase_entity=group)))
+5952	aber	0		
+5953	gingen	0		
+5954	heim	0		
+5955	,	0		
+5956	um	0		
+5957	nach	0		
+5958	dem	0		
+5959	Mittagessen	0		
+5960	zu	0		
+5961	sehen	0		
+5962	.	0		
+5963	So	0		
+5964	auch	0		
+5965	die	0		
+5966	Frau	0	(mention_id=877|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)))	(mention_id=898|references=(entity=(entity_id=8|fullname=Madlen|gender=f)))
+5967	Bürgermeisterin	0	(mention_id=877|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)))	(mention_id=898|references=(entity=(entity_id=8|fullname=Madlen|gender=f)))
+5968	mit	0		
+5969	den	0		
+5970	beiden	0		
+5971	jungen	0		
+5972	Mädchen	0	(mention_id=878|references=(entity=(entity_id=entity_0004|fullname=Ammerie Armbruster|gender=f)),(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=899|references=(entity=(entity_id=1|fullname=Ammerie|gender=f)),(entity=(entity_id=12|fullname=Trudi|gender=f)))
+5973	.	0		
+5974	Auf	0		
+5975	dem	0		
+5976	Abtshof	0		
+5977	angelangt	0		
+5978	sagte	0		
+5979	Madlen	0	(mention_id=879|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)))	(mention_id=900|references=(entity=(entity_id=8|fullname=Madlen|gender=f)))
+5980	zu	0		
+5981	Trudi	0	(mention_id=880|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=901|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+5982	:	0		
+5983	»	0		
+5984	Nun	0		
+5985	komm	0		
+5986	mit	0		
+5987	mir	0	(mention_id=881|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)))	(mention_id=902|references=(entity=(entity_id=8|fullname=Madlen|gender=f)))
+5988	in	0		
+5989	den	0		
+5990	Garten	0		
+5991	;	0		
+5992	dort	0		
+5993	ist	0		
+5994	eine	0		
+5995	schattige	0		
+5996	Laube	0		
+5997	,	0		
+5998	wo	0		
+5999	du	0	(mention_id=882|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=903|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+6000	mir	0	(mention_id=883|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)))	(mention_id=904|references=(entity=(entity_id=8|fullname=Madlen|gender=f)))
+6001	deine	0	(mention_id=884|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=905|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+6002	Lebensgeschichte	0		
+6003	erzählen	0		
+6004	kannst	0		
+6005	und	0		
+6006	uns	0	(mention_id=885|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)),(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=906|references=(entity=(entity_id=8|fullname=Madlen|gender=f)),(entity=(entity_id=12|fullname=Trudi|gender=f)))
+6007	niemand	0		
+6008	stören	0		
+6009	wird	0		
+6010	.	0		
+6011	«	0		
+6012	Dieser	0		
+6013	Zusatz	0		
+6014	war	0		
+6015	für	0		
+6016	Ammerie	0	(mention_id=886|references=(entity=(entity_id=entity_0004|fullname=Ammerie Armbruster|gender=f)))	(mention_id=907|references=(entity=(entity_id=1|fullname=Ammerie|gender=f)))
+6017	bestimmt	0		
+6018	,	0		
+6019	die	0	(mention_id=887|references=(entity=(entity_id=entity_0004|fullname=Ammerie Armbruster|gender=f)))	(mention_id=908|references=(entity=(entity_id=1|fullname=Ammerie|gender=f)))
+6020	den	0		
+6021	Wink	0		
+6022	verstand	0		
+6023	und	0		
+6024	sich	0	(mention_id=888|references=(entity=(entity_id=entity_0004|fullname=Ammerie Armbruster|gender=f)))	(mention_id=909|references=(entity=(entity_id=1|fullname=Ammerie|gender=f)))
+6025	an	0		
+6026	Stelle	0		
+6027	der	0		
+6028	Mutter	0	(mention_id=889|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)))	(mention_id=910|references=(entity=(entity_id=8|fullname=Madlen|gender=f)))
+6029	pflichtschuldig	0		
+6030	in	0		
+6031	die	0		
+6032	Küche	0		
+6033	verfügte	0		
+6034	.	0		
+6035	Als	0		
+6036	Base	0	(mention_id=890|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)))	(mention_id=911|references=(entity=(entity_id=8|fullname=Madlen|gender=f)))
+6037	und	0		
+6038	Nichte	0	(mention_id=891|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=912|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+6039	auf	0		
+6040	einer	0		
+6041	Bank	0		
+6042	in	0		
+6043	der	0		
+6044	Laube	0		
+6045	Platz	0		
+6046	genommen	0		
+6047	hatten	0		
+6048	,	0		
+6049	Trudi	0	(mention_id=892|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=913|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+6050	aber	0		
+6051	noch	0		
+6052	schwieg	0		
+6053	,	0		
+6054	faßte	0		
+6055	Madlen	0	(mention_id=893|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)))	(mention_id=914|references=(entity=(entity_id=8|fullname=Madlen|gender=f)))
+6056	ihre	0	(mention_id=894|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)))	(mention_id=915|references=(entity=(entity_id=8|fullname=Madlen|gender=f)))
+6057	Hand	0		
+6058	und	0		
+6059	sprach	0		
+6060	:	0		
+6061	»	0		
+6062	Öffne	0		
+6063	mir	0	(mention_id=895|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)))	(mention_id=916|references=(entity=(entity_id=8|fullname=Madlen|gender=f)))
+6064	dein	0	(mention_id=896|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=917|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+6065	Herz	0		
+6066	,	0		
+6067	liebes	0		
+6068	Kind	0	(mention_id=897|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=918|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+6069	,	0		
+6070	so	0		
+6071	vertrauensvoll	0		
+6072	,	0		
+6073	als	0		
+6074	wär'	0		
+6075	ich	0	(mention_id=898|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)))	(mention_id=919|references=(entity=(entity_id=8|fullname=Madlen|gender=f)))
+6076	deine	0	(mention_id=899|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)))	(mention_id=920|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+6077	beste	0		
+6078	Freundin	0	(mention_id=900|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)))	(mention_id=921|references=(entity=(entity_id=8|fullname=Madlen|gender=f)))
+6079	oder	0		
+6080	deine	0	(mention_id=901|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)))	(mention_id=922|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+6081	Mutter	0	(mention_id=902|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)))	(mention_id=923|references=(entity=(entity_id=8|fullname=Madlen|gender=f)))
+6082	,	0		
+6083	was	0		
+6084	ich	0	(mention_id=903|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)))	(mention_id=924|references=(entity=(entity_id=8|fullname=Madlen|gender=f)))
+6085	ja	0		
+6086	beides	0		
+6087	fortan	0		
+6088	auch	0		
+6089	wirklich	0		
+6090	sein	0		
+6091	will	0		
+6092	.	0		
+6093	«	0		
+6094	Und	0		
+6095	Trudi	0	(mention_id=904|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=925|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+6096	hub	0		
+6097	mit	0		
+6098	bewegter	0		
+6099	Stimme	0		
+6100	und	0		
+6101	anfangs	0		
+6102	manchmal	0		
+6103	stockend	0		
+6104	an	0		
+6105	:	0		
+6106	»	0		
+6107	Ich	0	(mention_id=905|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=926|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+6108	muß	0		
+6109	mit	0		
+6110	den	0		
+6111	Erinnerungen	0		
+6112	meiner	0	(mention_id=906|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=927|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+6113	frühesten	0		
+6114	Jugend	0		
+6115	beginnen	0		
+6116	,	0		
+6117	die	0		
+6118	bis	0		
+6119	zu	0		
+6120	meinem	0	(mention_id=907|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=928|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+6121	zwölften	0		
+6122	Jahre	0		
+6123	eine	0		
+6124	wunschlos	0		
+6125	glückliche	0		
+6126	war	0		
+6127	.	0		
+6128	Meine	0	(mention_id=908|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=929|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+6129	Eltern	0	(mention_id=909|references=(entity=(entity_id=entity_0032|fullname=Hilde Scheithauer|gender=f)),(entity=(entity_id=entity_0035|fullname=Hegewald|gender=m)))	(mention_id=930|references=(entity=(entity_id=13|fullname=Trudis Eltern|gender=mf|specialcase_entity=group)))
+6130	,	0		
+6131	deren	0	(mention_id=910|references=(entity=(entity_id=entity_0032|fullname=Hilde Scheithauer|gender=f)),(entity=(entity_id=entity_0035|fullname=Hegewald|gender=m)))	(mention_id=931|references=(entity=(entity_id=13|fullname=Trudis Eltern|gender=mf|specialcase_entity=group)))
+6132	einziges	0		
+6133	Kind	0	(mention_id=911|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=932|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+6134	ich	0	(mention_id=912|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=933|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+6135	war	0		
+6136	,	0		
+6137	erzogen	0		
+6138	mich	0	(mention_id=913|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=934|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+6139	zu	0		
+6140	allem	0		
+6141	Guten	0		
+6142	und	0		
+6143	Schicklichen	0		
+6144	und	0		
+6145	sorgten	0		
+6146	auch	0		
+6147	für	0		
+6148	meinen	0	(mention_id=914|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=935|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+6149	Unterricht	0		
+6150	,	0		
+6151	den	0		
+6152	mir	0	(mention_id=915|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=936|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+6153	und	0		
+6154	ein	0		
+6155	paar	0		
+6156	anderen	0		
+6157	Kindern	0	(mention_id=916|references=(entity=(entity_id=entity_0080|fullname=Kinder in Trudis Kindheit|gender=u|specialcase_entity=group)))	(mention_id=937|references=(entity=(entity_id=29|fullname=ein paar andere Kinder|gender=u|specialcase_entity=group)))
+6158	ein	0		
+6159	alter	0		
+6160	geistlicher	0		
+6161	Herr	0	(mention_id=917|references=(entity=(entity_id=entity_0087|fullname=geistlicher Herr|gender=m)))	(mention_id=938|references=(entity=(entity_id=17|fullname=alter geistlicher Herr|gender=m)))
+6162	mit	0		
+6163	großer	0		
+6164	Hingebung	0		
+6165	erteilte	0		
+6166	.	0		
+6167	Sie	0	(mention_id=918|references=(entity=(entity_id=entity_0032|fullname=Hilde Scheithauer|gender=f)),(entity=(entity_id=entity_0035|fullname=Hegewald|gender=m)))	(mention_id=939|references=(entity=(entity_id=13|fullname=Trudis Eltern|gender=mf|specialcase_entity=group)))
+6168	besaßen	0		
+6169	in	0		
+6170	Gamburg	0		
+6171	,	0		
+6172	nicht	0		
+6173	weit	0		
+6174	von	0		
+6175	Tauberbischofsheim	0		
+6176	im	0		
+6177	Würzburgischen	0		
+6178	,	0		
+6179	ein	0		
+6180	mäßiges	0		
+6181	Ackergut	0		
+6182	,	0		
+6183	dessen	0		
+6184	Ertrag	0		
+6185	sie	0	(mention_id=919|references=(entity=(entity_id=entity_0084|fullname=Trudis Eltern|gender=mf|members=entity_0032,entity_0035|all_members_given=True|specialcase_entity=group)))	(mention_id=940|references=(entity=(entity_id=13|fullname=Trudis Eltern|gender=mf|specialcase_entity=group)))
+6186	auskömmlich	0		
+6187	ernährte	0		
+6188	und	0		
+6189	zu	0		
+6190	dem	0		
+6191	auch	0		
+6192	ein	0		
+6193	Weinberg	0		
+6194	in	0		
+6195	guter	0		
+6196	Lage	0		
+6197	gehörte	0		
+6198	.	0		
+6199	Sie	0	(mention_id=920|references=(entity=(entity_id=entity_0032|fullname=Hilde Scheithauer|gender=f)),(entity=(entity_id=entity_0035|fullname=Hegewald|gender=m)))	(mention_id=941|references=(entity=(entity_id=13|fullname=Trudis Eltern|gender=mf|specialcase_entity=group)))
+6200	waren	0		
+6201	jedoch	0		
+6202	Altarleute	0	(mention_id=921|references=(entity=(entity_id=entity_0032|fullname=Hilde Scheithauer|gender=f)),(entity=(entity_id=entity_0035|fullname=Hegewald|gender=m)))	(mention_id=942|references=(entity=(entity_id=13|fullname=Trudis Eltern|gender=mf|specialcase_entity=group)))
+6203	des	0		
+6204	Klosters	0		
+6205	Bronnbach	0		
+6206	,	0		
+6207	hatten	0		
+6208	diesem	0		
+6209	Zehnten	0		
+6210	und	0		
+6211	Beden	0		
+6212	zu	0		
+6213	leisten	0		
+6214	,	0		
+6215	und	0		
+6216	mein	0	(mention_id=922|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=943|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+6217	Vater	0	(mention_id=923|references=(entity=(entity_id=entity_0035|fullname=Hegewald|gender=m)))	(mention_id=944|references=(entity=(entity_id=15|fullname=Trudis Vater|gender=m)))
+6218	mußte	0		
+6219	auf	0		
+6220	dem	0		
+6221	klösterlichen	0		
+6222	Meierhofe	0		
+6223	in	0		
+6224	den	0		
+6225	Jahreszeiten	0		
+6226	,	0		
+6227	wo	0		
+6228	es	0		
+6229	Feldarbeit	0		
+6230	gab	0		
+6231	,	0		
+6232	wöchentlich	0		
+6233	einen	0		
+6234	,	0		
+6235	während	0		
+6236	der	0		
+6237	Ernte	0		
+6238	meistens	0		
+6239	zwei	0		
+6240	Tage	0		
+6241	Frondienst	0		
+6242	tun	0		
+6243	.	0		
+6244	Das	0		
+6245	kam	0		
+6246	ihn	0	(mention_id=924|references=(entity=(entity_id=entity_0035|fullname=Hegewald|gender=m)))	(mention_id=945|references=(entity=(entity_id=15|fullname=Trudis Vater|gender=m)))
+6247	hart	0		
+6248	an	0		
+6249	,	0		
+6250	aber	0		
+6251	er	0	(mention_id=925|references=(entity=(entity_id=entity_0035|fullname=Hegewald|gender=m)))	(mention_id=946|references=(entity=(entity_id=15|fullname=Trudis Vater|gender=m)))
+6252	hatte	0		
+6253	bei	0		
+6254	der	0		
+6255	Übereignung	0		
+6256	des	0		
+6257	Lehngutes	0		
+6258	diese	0		
+6259	unablösbare	0		
+6260	Verpflichtung	0		
+6261	mit	0		
+6262	übernehmen	0		
+6263	müssen	0		
+6264	.	0		
+6265	Der	0		
+6266	Meier	0	(mention_id=926|references=(entity=(entity_id=entity_0077|fullname=Meier des Klosterhofes|gender=m)))	(mention_id=947|references=(entity=(entity_id=22|fullname=der alte Meier|gender=m)))
+6267	des	0		
+6268	Klosterhofes	0		
+6269	war	0		
+6270	nachsichtig	0		
+6271	und	0		
+6272	milde	0		
+6273	gegen	0		
+6274	ihn	0	(mention_id=927|references=(entity=(entity_id=entity_0035|fullname=Hegewald|gender=m)))	(mention_id=948|references=(entity=(entity_id=15|fullname=Trudis Vater|gender=m)))
+6275	,	0		
+6276	plagte	0		
+6277	ihn	0	(mention_id=928|references=(entity=(entity_id=entity_0035|fullname=Hegewald|gender=m)))	(mention_id=949|references=(entity=(entity_id=15|fullname=Trudis Vater|gender=m)))
+6278	nicht	0		
+6279	und	0		
+6280	drückte	0		
+6281	ein	0		
+6282	Auge	0		
+6283	zu	0		
+6284	,	0		
+6285	wenn	0		
+6286	der	0		
+6287	Vater	0	(mention_id=929|references=(entity=(entity_id=entity_0035|fullname=Hegewald|gender=m)))	(mention_id=950|references=(entity=(entity_id=15|fullname=Trudis Vater|gender=m)))
+6288	einmal	0		
+6289	eine	0		
+6290	Woche	0		
+6291	lang	0		
+6292	nicht	0		
+6293	zum	0		
+6294	Fronen	0		
+6295	und	0		
+6296	Roboten	0		
+6297	erschien	0		
+6298	.	0		
+6299	So	0		
+6300	gingen	0		
+6301	meine	0	(mention_id=930|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=951|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+6302	Tage	0		
+6303	sorglos	0		
+6304	dahin	0		
+6305	;	0		
+6306	dann	0		
+6307	aber	0		
+6308	–	0		
+6309	dann	0		
+6310	brach	0		
+6311	das	0		
+6312	Unglück	0		
+6313	über	0		
+6314	uns	0	(mention_id=931|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)),(entity=(entity_id=entity_0032|fullname=Hilde Scheithauer|gender=f)),(entity=(entity_id=entity_0035|fullname=Hegewald|gender=m)))	(mention_id=952|references=(entity=(entity_id=12|fullname=Trudi|gender=f)),(entity=(entity_id=14|fullname=Trudis Mutter|gender=f)))
+6315	herein	0		
+6316	.	0		
+6317	Mein	0	(mention_id=932|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=953|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+6318	lieber	0		
+6319	Vater	0	(mention_id=933|references=(entity=(entity_id=entity_0035|fullname=Hegewald|gender=m)))	(mention_id=954|references=(entity=(entity_id=15|fullname=Trudis Vater|gender=m)))
+6320	starb	0		
+6321	–	0		
+6322	nach	0		
+6323	kurzem	0		
+6324	Krankenlager	0		
+6325	–	0		
+6326	an	0		
+6327	einem	0		
+6328	hitzigen	0		
+6329	Lungenfieber	0		
+6330	,	0		
+6331	–	0		
+6332	und	0		
+6333	meine	0	(mention_id=934|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=955|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+6334	Mutter	0	(mention_id=935|references=(entity=(entity_id=entity_0032|fullname=Hilde Scheithauer|gender=f)))	(mention_id=956|references=(entity=(entity_id=14|fullname=Trudis Mutter|gender=f)))
+6335	war	0		
+6336	trost-	0		
+6337	und	0		
+6338	ratlos	0		
+6339	.	0		
+6340	–	0		
+6341	Es	0		
+6342	sind	0		
+6343	nun	0		
+6344	zehn	0		
+6345	Jahre	0		
+6346	her	0		
+6347	,	0		
+6348	aber	0		
+6349	heute	0		
+6350	noch	0		
+6351	seh	0		
+6352	ich	0	(mention_id=936|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=957|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+6353	und	0		
+6354	fühl	0		
+6355	ich	0	(mention_id=937|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=958|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+6356	,	0		
+6357	wie	0		
+6358	sie	0	(mention_id=938|references=(entity=(entity_id=entity_0032|fullname=Hilde Scheithauer|gender=f)))	(mention_id=959|references=(entity=(entity_id=14|fullname=Trudis Mutter|gender=f)))
+6359	in	0		
+6360	ihrer	0	(mention_id=939|references=(entity=(entity_id=entity_0032|fullname=Hilde Scheithauer|gender=f)))	(mention_id=960|references=(entity=(entity_id=14|fullname=Trudis Mutter|gender=f)))
+6361	Verzweiflung	0		
+6362	die	0		
+6363	Hände	0		
+6364	rang	0		
+6365	,	0		
+6366	mich	0	(mention_id=940|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=961|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+6367	in	0		
+6368	maßlosem	0		
+6369	Jammer	0		
+6370	an	0		
+6371	sich	0	(mention_id=941|references=(entity=(entity_id=entity_0032|fullname=Hilde Scheithauer|gender=f)))	(mention_id=962|references=(entity=(entity_id=14|fullname=Trudis Mutter|gender=f)))
+6372	preßte	0		
+6373	und	0		
+6374	schluchzte	0		
+6375	.	0		
+6376	«	0		
+6377	Trudi	0	(mention_id=942|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=963|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+6378	selber	0		
+6379	zitterte	0		
+6380	am	0		
+6381	ganzen	0		
+6382	Körper	0		
+6383	bei	0		
+6384	der	0		
+6385	Mitteilung	0		
+6386	dieses	0		
+6387	unvorhergesehenen	0		
+6388	,	0		
+6389	tief	0		
+6390	in	0		
+6391	ihr	0	(mention_id=943|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=964|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+6392	Leben	0		
+6393	einschneidenden	0		
+6394	Trauerfalles	0		
+6395	.	0		
+6396	»	0		
+6397	Kurz	0		
+6398	vor	0		
+6399	Anfang	0		
+6400	des	0		
+6401	Winters	0		
+6402	war	0		
+6403	es	0		
+6404	.	0		
+6405	Korn	0		
+6406	und	0		
+6407	Trauben	0		
+6408	waren	0		
+6409	herein	0		
+6410	,	0		
+6411	aber	0		
+6412	was	0		
+6413	sollte	0		
+6414	werden	0		
+6415	,	0		
+6416	wenn	0		
+6417	das	0		
+6418	Frühjahr	0		
+6419	kam	0		
+6420	und	0		
+6421	der	0		
+6422	Wingert	0		
+6423	besorgt	0		
+6424	,	0		
+6425	der	0		
+6426	Acker	0		
+6427	bestellt	0		
+6428	werden	0		
+6429	mußte	0		
+6430	?	0		
+6431	Da	0		
+6432	blieb	0		
+6433	meiner	0	(mention_id=944|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=965|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+6434	Mutter	0	(mention_id=945|references=(entity=(entity_id=entity_0032|fullname=Hilde Scheithauer|gender=f)))	(mention_id=966|references=(entity=(entity_id=14|fullname=Trudis Mutter|gender=f)))
+6435	nichts	0		
+6436	anderes	0		
+6437	übrig	0		
+6438	als	0		
+6439	einen	0		
+6440	Oberknecht	0	(mention_id=946|references=(entity=(entity_id=entity_0028|fullname=Pankraz Dornhuber|gender=m)))	(mention_id=967|references=(entity=(entity_id=9|fullname=Pankraz Dornhuber|gender=m)))
+6441	anzunehmen	0		
+6442	,	0		
+6443	der	0	(mention_id=947|references=(entity=(entity_id=entity_0028|fullname=Pankraz Dornhuber|gender=m)))	(mention_id=968|references=(entity=(entity_id=9|fullname=Pankraz Dornhuber|gender=m)))
+6444	die	0		
+6445	Wirtschaft	0		
+6446	leiten	0		
+6447	sollte	0		
+6448	.	0		
+6449	Das	0		
+6450	geschah	0		
+6451	denn	0		
+6452	auch	0		
+6453	.	0		
+6454	Pankraz	0	(mention_id=948|references=(entity=(entity_id=entity_0028|fullname=Pankraz Dornhuber|gender=m)))	(mention_id=969|references=(entity=(entity_id=9|fullname=Pankraz Dornhuber|gender=m)))
+6455	Dornhuber	0	(mention_id=948|references=(entity=(entity_id=entity_0028|fullname=Pankraz Dornhuber|gender=m)))	(mention_id=969|references=(entity=(entity_id=9|fullname=Pankraz Dornhuber|gender=m)))
+6456	war	0		
+6457	ein	0		
+6458	noch	0		
+6459	ziemlich	0		
+6460	junger	0		
+6461	,	0		
+6462	aber	0		
+6463	tüchtiger	0		
+6464	Mensch	0	(mention_id=949|references=(entity=(entity_id=entity_0028|fullname=Pankraz Dornhuber|gender=m)))	(mention_id=970|references=(entity=(entity_id=9|fullname=Pankraz Dornhuber|gender=m)))
+6465	,	0		
+6466	der	0	(mention_id=950|references=(entity=(entity_id=entity_0028|fullname=Pankraz Dornhuber|gender=m)))	(mention_id=971|references=(entity=(entity_id=9|fullname=Pankraz Dornhuber|gender=m)))
+6467	den	0		
+6468	ihm	0	(mention_id=951|references=(entity=(entity_id=entity_0028|fullname=Pankraz Dornhuber|gender=m)))	(mention_id=972|references=(entity=(entity_id=9|fullname=Pankraz Dornhuber|gender=m)))
+6469	anvertrauten	0		
+6470	Posten	0		
+6471	zur	0		
+6472	Zufriedenheit	0		
+6473	meiner	0	(mention_id=952|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=973|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+6474	Mutter	0	(mention_id=953|references=(entity=(entity_id=entity_0032|fullname=Hilde Scheithauer|gender=f)))	(mention_id=974|references=(entity=(entity_id=14|fullname=Trudis Mutter|gender=f)))
+6475	ausfüllte	0		
+6476	,	0		
+6477	sich	0	(mention_id=954|references=(entity=(entity_id=entity_0028|fullname=Pankraz Dornhuber|gender=m)))	(mention_id=975|references=(entity=(entity_id=9|fullname=Pankraz Dornhuber|gender=m)))
+6478	aber	0		
+6479	auch	0		
+6480	auf	0		
+6481	jede	0		
+6482	Weise	0		
+6483	in	0		
+6484	ihre	0	(mention_id=955|references=(entity=(entity_id=entity_0032|fullname=Hilde Scheithauer|gender=f)))	(mention_id=976|references=(entity=(entity_id=14|fullname=Trudis Mutter|gender=f)))
+6485	Gunst	0		
+6486	einzuschmeicheln	0		
+6487	suchte	0		
+6488	.	0		
+6489	«	0		
+6490	Die	0		
+6491	Erzählerin	0	(mention_id=956|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=977|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+6492	blickte	0		
+6493	einige	0		
+6494	Sekunden	0		
+6495	lang	0		
+6496	starr	0		
+6497	vor	0		
+6498	sich	0	(mention_id=957|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=978|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+6499	hin	0		
+6500	,	0		
+6501	ehe	0		
+6502	sie	0	(mention_id=958|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=979|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+6503	fortfuhr	0		
+6504	:	0		
+6505	»	0		
+6506	Ja	0		
+6507	,	0		
+6508	–	0		
+6509	wie	0		
+6510	das	0		
+6511	alles	0		
+6512	so	0		
+6513	gekommen	0		
+6514	ist	0		
+6515	,	0		
+6516	weiß	0		
+6517	ich	0	(mention_id=959|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=980|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+6518	nicht	0		
+6519	mehr	0		
+6520	,	0		
+6521	aber	0		
+6522	nach	0		
+6523	der	0		
+6524	ersten	0		
+6525	Ernte	0		
+6526	unter	0		
+6527	seinem	0	(mention_id=960|references=(entity=(entity_id=entity_0028|fullname=Pankraz Dornhuber|gender=m)))	(mention_id=981|references=(entity=(entity_id=9|fullname=Pankraz Dornhuber|gender=m)))
+6528	Betriebe	0		
+6529	,	0		
+6530	die	0		
+6531	sehr	0		
+6532	gut	0		
+6533	ausgefallen	0		
+6534	war	0		
+6535	,	0		
+6536	heiratete	0		
+6537	meine	0	(mention_id=961|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=982|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+6538	Mutter	0	(mention_id=962|references=(entity=(entity_id=entity_0032|fullname=Hilde Scheithauer|gender=f)))	(mention_id=983|references=(entity=(entity_id=14|fullname=Trudis Mutter|gender=f)))
+6539	ihren	0	(mention_id=963|references=(entity=(entity_id=entity_0032|fullname=Hilde Scheithauer|gender=f)))	(mention_id=984|references=(entity=(entity_id=14|fullname=Trudis Mutter|gender=f)))
+6540	Großknecht	0	(mention_id=964|references=(entity=(entity_id=entity_0028|fullname=Pankraz Dornhuber|gender=m)))	(mention_id=985|references=(entity=(entity_id=9|fullname=Pankraz Dornhuber|gender=m)))
+6541	,	0		
+6542	und	0		
+6543	nun	0		
+6544	zog	0		
+6545	er	0	(mention_id=965|references=(entity=(entity_id=entity_0028|fullname=Pankraz Dornhuber|gender=m)))	(mention_id=986|references=(entity=(entity_id=9|fullname=Pankraz Dornhuber|gender=m)))
+6546	plötzlich	0		
+6547	ganz	0		
+6548	andere	0		
+6549	Saiten	0		
+6550	auf	0		
+6551	.	0		
+6552	Als	0		
+6553	Herr	0	(mention_id=966|references=(entity=(entity_id=entity_0028|fullname=Pankraz Dornhuber|gender=m)))	(mention_id=987|references=(entity=(entity_id=9|fullname=Pankraz Dornhuber|gender=m)))
+6554	in	0		
+6555	Haus	0		
+6556	und	0		
+6557	Hof	0		
+6558	trat	0		
+6559	er	0	(mention_id=967|references=(entity=(entity_id=entity_0028|fullname=Pankraz Dornhuber|gender=m)))	(mention_id=988|references=(entity=(entity_id=9|fullname=Pankraz Dornhuber|gender=m)))
+6560	auch	0		
+6561	herrisch	0		
+6562	auf	0		
+6563	,	0		
+6564	und	0		
+6565	alles	0		
+6566	mußte	0		
+6567	nun	0		
+6568	nach	0		
+6569	seinem	0	(mention_id=968|references=(entity=(entity_id=entity_0028|fullname=Pankraz Dornhuber|gender=m)))	(mention_id=989|references=(entity=(entity_id=9|fullname=Pankraz Dornhuber|gender=m)))
+6570	Willen	0		
+6571	gehen	0		
+6572	.	0		
+6573	Die	0		
+6574	Mutter	0	(mention_id=969|references=(entity=(entity_id=entity_0032|fullname=Hilde Scheithauer|gender=f)))	(mention_id=990|references=(entity=(entity_id=14|fullname=Trudis Mutter|gender=f)))
+6575	hatte	0		
+6576	nichts	0		
+6577	mehr	0		
+6578	zu	0		
+6579	sagen	0		
+6580	,	0		
+6581	und	0		
+6582	nur	0		
+6583	mit	0		
+6584	vieler	0		
+6585	Mühe	0		
+6586	und	0		
+6587	nach	0		
+6588	manchem	0		
+6589	harten	0		
+6590	Streite	0		
+6591	konnte	0		
+6592	sie	0	(mention_id=970|references=(entity=(entity_id=entity_0032|fullname=Hilde Scheithauer|gender=f)))	(mention_id=991|references=(entity=(entity_id=14|fullname=Trudis Mutter|gender=f)))
+6593	es	0		
+6594	durchsetzen	0		
+6595	,	0		
+6596	daß	0		
+6597	ich	0	(mention_id=971|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=992|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+6598	den	0		
+6599	guten	0		
+6600	Unterricht	0		
+6601	noch	0		
+6602	weiter	0		
+6603	genießen	0		
+6604	durfte	0		
+6605	.	0		
+6606	Ich	0	(mention_id=972|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=993|references=(entity=(entity_id=9|fullname=Pankraz Dornhuber|gender=m)))
+6607	sollte	0		
+6608	im	0		
+6609	Weinberge	0		
+6610	und	0		
+6611	auf	0		
+6612	dem	0		
+6613	Felde	0		
+6614	mitarbeiten	0		
+6615	,	0		
+6616	verlangte	0		
+6617	er	0	(mention_id=973|references=(entity=(entity_id=entity_0028|fullname=Pankraz Dornhuber|gender=m)))	(mention_id=994|references=(entity=(entity_id=9|fullname=Pankraz Dornhuber|gender=m)))
+6618	und	0		
+6619	ließ	0		
+6620	mich	0	(mention_id=974|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=995|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+6621	mit	0		
+6622	jedem	0		
+6623	Tage	0		
+6624	mehr	0		
+6625	fühlen	0		
+6626	,	0		
+6627	daß	0		
+6628	ich	0	(mention_id=975|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=996|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+6629	ihm	0	(mention_id=976|references=(entity=(entity_id=entity_0028|fullname=Pankraz Dornhuber|gender=m)))	(mention_id=997|references=(entity=(entity_id=9|fullname=Pankraz Dornhuber|gender=m)))
+6630	ein	0		
+6631	unbequemes	0		
+6632	,	0		
+6633	sehr	0		
+6634	überflüssiges	0		
+6635	Stiefkind	0	(mention_id=977|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=998|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+6636	war	0		
+6637	.	0		
+6638	Jahre	0		
+6639	vergingen	0		
+6640	;	0		
+6641	ich	0	(mention_id=978|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=999|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+6642	hatte	0		
+6643	mich	0	(mention_id=979|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1000|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+6644	zu	0		
+6645	einem	0		
+6646	kräftigen	0		
+6647	Mädchen	0	(mention_id=980|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1001|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+6648	entwickelt	0		
+6649	und	0		
+6650	sah	0		
+6651	,	0		
+6652	wie	0		
+6653	sehr	0		
+6654	meine	0	(mention_id=981|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1002|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+6655	Mutter	0	(mention_id=982|references=(entity=(entity_id=entity_0032|fullname=Hilde Scheithauer|gender=f)))	(mention_id=1003|references=(entity=(entity_id=14|fullname=Trudis Mutter|gender=f)))
+6656	unter	0		
+6657	dem	0		
+6658	rohen	0		
+6659	Wesen	0		
+6660	ihres	0	(mention_id=983|references=(entity=(entity_id=entity_0032|fullname=Hilde Scheithauer|gender=f)))	(mention_id=1004|references=(entity=(entity_id=14|fullname=Trudis Mutter|gender=f)))
+6661	zweiten	0		
+6662	Mannes	0	(mention_id=984|references=(entity=(entity_id=entity_0028|fullname=Pankraz Dornhuber|gender=m)))	(mention_id=1005|references=(entity=(entity_id=9|fullname=Pankraz Dornhuber|gender=m)))
+6663	litt	0		
+6664	,	0		
+6665	vor	0		
+6666	dem	0	(mention_id=985|references=(entity=(entity_id=entity_0028|fullname=Pankraz Dornhuber|gender=m)))	(mention_id=1006|references=(entity=(entity_id=9|fullname=Pankraz Dornhuber|gender=m)))
+6667	sie	0	(mention_id=986|references=(entity=(entity_id=entity_0032|fullname=Hilde Scheithauer|gender=f)))	(mention_id=1007|references=(entity=(entity_id=14|fullname=Trudis Mutter|gender=f)))
+6668	zu	0		
+6669	schützen	0		
+6670	nicht	0		
+6671	in	0		
+6672	meiner	0	(mention_id=987|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1008|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+6673	Macht	0		
+6674	lag	0		
+6675	;	0		
+6676	jeden	0		
+6677	Versuch	0		
+6678	dazu	0		
+6679	hatte	0		
+6680	ich	0	(mention_id=988|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1009|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+6681	schwer	0		
+6682	zu	0		
+6683	büßen	0		
+6684	.	0		
+6685	Nun	0		
+6686	mußte	0		
+6687	ich	0	(mention_id=989|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1010|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+6688	öfter	0		
+6689	die	0		
+6690	fälligen	0		
+6691	Gilten	0		
+6692	,	0		
+6693	das	0		
+6694	Fastnachtshuhn	0		
+6695	und	0		
+6696	andere	0		
+6697	Abgaben	0		
+6698	nach	0		
+6699	dem	0		
+6700	Meierhofe	0		
+6701	des	0		
+6702	Klosters	0		
+6703	tragen	0		
+6704	,	0		
+6705	was	0		
+6706	ich	0	(mention_id=990|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1011|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+6707	anfangs	0		
+6708	sehr	0		
+6709	gern	0		
+6710	tat	0		
+6711	,	0		
+6712	um	0		
+6713	dann	0		
+6714	und	0		
+6715	wann	0		
+6716	auf	0		
+6717	kurze	0		
+6718	Zeit	0		
+6719	von	0		
+6720	Hause	0		
+6721	wegzukommen	0		
+6722	und	0		
+6723	frei	0		
+6724	und	0		
+6725	allein	0		
+6726	zu	0		
+6727	sein	0		
+6728	,	0		
+6729	denn	0		
+6730	die	0		
+6731	Meierei	0		
+6732	war	0		
+6733	wenig	0		
+6734	über	0		
+6735	eine	0		
+6736	halbe	0		
+6737	Stunde	0		
+6738	von	0		
+6739	Gamburg	0		
+6740	entfernt	0		
+6741	.	0		
+6742	Bald	0		
+6743	aber	0		
+6744	trat	0		
+6745	ich	0	(mention_id=991|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1012|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+6746	diesen	0		
+6747	Weg	0		
+6748	nur	0		
+6749	mit	0		
+6750	dem	0		
+6751	größten	0		
+6752	Widerstreben	0		
+6753	an	0		
+6754	,	0		
+6755	und	0		
+6756	das	0		
+6757	hatte	0		
+6758	seinen	0		
+6759	besonderen	0		
+6760	Grund	0		
+6761	.	0		
+6762	«	0		
+6763	»	0		
+6764	Was	0		
+6765	für	0		
+6766	einen	0		
+6767	Grund	0		
+6768	,	0		
+6769	Trudi	0	(mention_id=992|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1013|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+6770	?	0		
+6771	«	0		
+6772	fragte	0		
+6773	Madlen	0	(mention_id=993|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)))	(mention_id=1014|references=(entity=(entity_id=8|fullname=Madlen|gender=f)))
+6774	,	0		
+6775	berührt	0		
+6776	von	0		
+6777	dem	0		
+6778	auffallend	0		
+6779	bittern	0		
+6780	Tone	0		
+6781	,	0		
+6782	mit	0		
+6783	dem	0		
+6784	Trudi	0	(mention_id=994|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1015|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+6785	die	0		
+6786	letzten	0		
+6787	Worte	0		
+6788	gesprochen	0		
+6789	hatte	0		
+6790	,	0		
+6791	und	0		
+6792	weil	0		
+6793	sie	0	(mention_id=995|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1016|references=(entity=(entity_id=8|fullname=Madlen|gender=f)))
+6794	danach	0		
+6795	in	0		
+6796	ihrem	0	(mention_id=996|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1017|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+6797	Berichte	0		
+6798	wieder	0		
+6799	stockte	0		
+6800	.	0		
+6801	»	0		
+6802	Der	0		
+6803	Sohn	0	(mention_id=997|references=(entity=(entity_id=entity_0027|fullname=Vincenz Ebendorffer|gender=m)))	(mention_id=1018|references=(entity=(entity_id=16|fullname=Vincenz Ebendorffer|gender=m)))
+6804	des	0		
+6805	Meiers	0	(mention_id=998|references=(entity=(entity_id=entity_0077|fullname=Meier des Klosterhofes|gender=m)))	(mention_id=1019|references=(entity=(entity_id=22|fullname=der alte Meier|gender=m)))
+6806	,	0		
+6807	«	0		
+6808	griff	0		
+6809	Trudi	0	(mention_id=999|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1020|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+6810	den	0		
+6811	Faden	0		
+6812	wieder	0		
+6813	auf	0		
+6814	,	0		
+6815	»	0		
+6816	hatte	0		
+6817	seinem	0	(mention_id=1000|references=(entity=(entity_id=entity_0027|fullname=Vincenz Ebendorffer|gender=m)))	(mention_id=1021|references=(entity=(entity_id=16|fullname=Vincenz Ebendorffer|gender=m)))
+6818	alternden	0		
+6819	,	0		
+6820	schwachen	0		
+6821	Vater	0	(mention_id=1001|references=(entity=(entity_id=entity_0077|fullname=Meier des Klosterhofes|gender=m)))	(mention_id=1022|references=(entity=(entity_id=22|fullname=der alte Meier|gender=m)))
+6822	das	0		
+6823	Regiment	0		
+6824	auf	0		
+6825	dem	0		
+6826	Klosterhofe	0		
+6827	ganz	0		
+6828	aus	0		
+6829	den	0		
+6830	Händen	0		
+6831	genommen	0		
+6832	und	0		
+6833	schaltete	0		
+6834	nun	0		
+6835	dort	0		
+6836	allein	0		
+6837	nach	0		
+6838	seinem	0	(mention_id=1002|references=(entity=(entity_id=entity_0027|fullname=Vincenz Ebendorffer|gender=m)))	(mention_id=1023|references=(entity=(entity_id=16|fullname=Vincenz Ebendorffer|gender=m)))
+6839	Belieben	0		
+6840	.	0		
+6841	Sooft	0		
+6842	ich	0	(mention_id=1003|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1024|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+6843	dahin	0		
+6844	kam	0		
+6845	,	0		
+6846	näherte	0		
+6847	sich	0	(mention_id=1004|references=(entity=(entity_id=entity_0027|fullname=Vincenz Ebendorffer|gender=m)))	(mention_id=1025|references=(entity=(entity_id=16|fullname=Vincenz Ebendorffer|gender=m)))
+6848	mir	0	(mention_id=1005|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1026|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+6849	der	0		
+6850	Vincenz	0	(mention_id=1006|references=(entity=(entity_id=entity_0027|fullname=Vincenz Ebendorffer|gender=m)))	(mention_id=1027|references=(entity=(entity_id=16|fullname=Vincenz Ebendorffer|gender=m)))
+6851	Ebendorffer	0	(mention_id=1006|references=(entity=(entity_id=entity_0027|fullname=Vincenz Ebendorffer|gender=m)))	(mention_id=1027|references=(entity=(entity_id=16|fullname=Vincenz Ebendorffer|gender=m)))
+6852	,	0		
+6853	–	0		
+6854	so	0		
+6855	hieß	0		
+6856	der	0		
+6857	junge	0		
+6858	Meier	0	(mention_id=1007|references=(entity=(entity_id=entity_0027|fullname=Vincenz Ebendorffer|gender=m)))	(mention_id=1028|references=(entity=(entity_id=16|fullname=Vincenz Ebendorffer|gender=m)))
+6859	–	0		
+6860	sprach	0		
+6861	in	0		
+6862	Ausdrücken	0		
+6863	zu	0		
+6864	mir	0	(mention_id=1008|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1029|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+6865	,	0		
+6866	die	0		
+6867	mir	0	(mention_id=1009|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1030|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+6868	das	0		
+6869	Blut	0		
+6870	in	0		
+6871	die	0		
+6872	Wangen	0		
+6873	trieben	0		
+6874	,	0		
+6875	und	0		
+6876	stellte	0		
+6877	mich	0	(mention_id=1010|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1031|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+6878	,	0		
+6879	um	0		
+6880	mich	0	(mention_id=1011|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1032|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+6881	länger	0		
+6882	bei	0		
+6883	sich	0	(mention_id=1012|references=(entity=(entity_id=entity_0027|fullname=Vincenz Ebendorffer|gender=m)))	(mention_id=1033|references=(entity=(entity_id=16|fullname=Vincenz Ebendorffer|gender=m)))
+6884	zu	0		
+6885	behalten	0		
+6886	,	0		
+6887	zu	0		
+6888	leichten	0		
+6889	Arbeiten	0		
+6890	an	0		
+6891	,	0		
+6892	dies	0		
+6893	damit	0		
+6894	erklärend	0		
+6895	,	0		
+6896	daß	0		
+6897	mein	0	(mention_id=1013|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1034|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+6898	Stiefvater	0	(mention_id=1014|references=(entity=(entity_id=entity_0028|fullname=Pankraz Dornhuber|gender=m)))	(mention_id=1035|references=(entity=(entity_id=9|fullname=Pankraz Dornhuber|gender=m)))
+6899	seinem	0	(mention_id=1015|references=(entity=(entity_id=entity_0028|fullname=Pankraz Dornhuber|gender=m)))	(mention_id=1036|references=(entity=(entity_id=9|fullname=Pankraz Dornhuber|gender=m)))
+6900	Frondienst	0		
+6901	nicht	0		
+6902	genügend	0		
+6903	nachkäme	0		
+6904	und	0		
+6905	ich	0	(mention_id=1016|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1037|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+6906	ihn	0	(mention_id=1017|references=(entity=(entity_id=entity_0028|fullname=Pankraz Dornhuber|gender=m)))	(mention_id=1038|references=(entity=(entity_id=9|fullname=Pankraz Dornhuber|gender=m)))
+6907	dafür	0		
+6908	durch	0		
+6909	Leistungen	0		
+6910	meinerseits	0		(mention_id=1039|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+6911	entschädigen	0		
+6912	müßte	0		
+6913	.	0		
+6914	Er	0	(mention_id=1018|references=(entity=(entity_id=entity_0027|fullname=Vincenz Ebendorffer|gender=m)))	(mention_id=1040|references=(entity=(entity_id=16|fullname=Vincenz Ebendorffer|gender=m)))
+6915	sagte	0		
+6916	mir	0	(mention_id=1019|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1041|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+6917	das	0		
+6918	mit	0		
+6919	einer	0		
+6920	falschen	0		
+6921	,	0		
+6922	geschmeidigen	0		
+6923	Höflichkeit	0		
+6924	und	0		
+6925	sah	0		
+6926	mich	0	(mention_id=1020|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1042|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+6927	dabei	0		
+6928	von	0		
+6929	oben	0		
+6930	bis	0		
+6931	unten	0		
+6932	mit	0		
+6933	so	0		
+6934	seltsamen	0		
+6935	Blicken	0		
+6936	an	0		
+6937	,	0		
+6938	daß	0		
+6939	ich	0	(mention_id=1021|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1043|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+6940	mich	0	(mention_id=1022|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1044|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+6941	im	0		
+6942	Innern	0		
+6943	davon	0		
+6944	erschaudern	0		
+6945	fühlte	0		
+6946	.	0		
+6947	Ich	0	(mention_id=1023|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1045|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+6948	mochte	0		
+6949	den	0		
+6950	widerlichen	0		
+6951	Menschen	0	(mention_id=1024|references=(entity=(entity_id=entity_0027|fullname=Vincenz Ebendorffer|gender=m)))	(mention_id=1046|references=(entity=(entity_id=16|fullname=Vincenz Ebendorffer|gender=m)))
+6952	mit	0		
+6953	seinem	0	(mention_id=1025|references=(entity=(entity_id=entity_0027|fullname=Vincenz Ebendorffer|gender=m)))	(mention_id=1047|references=(entity=(entity_id=16|fullname=Vincenz Ebendorffer|gender=m)))
+6954	fuchsroten	0		
+6955	Haar	0		
+6956	und	0		
+6957	Bart	0		
+6958	nicht	0		
+6959	leiden	0		
+6960	;	0		
+6961	sein	0	(mention_id=1026|references=(entity=(entity_id=entity_0027|fullname=Vincenz Ebendorffer|gender=m)))	(mention_id=1048|references=(entity=(entity_id=16|fullname=Vincenz Ebendorffer|gender=m)))
+6962	Benehmen	0		
+6963	,	0		
+6964	seine	0	(mention_id=1027|references=(entity=(entity_id=entity_0027|fullname=Vincenz Ebendorffer|gender=m)))	(mention_id=1049|references=(entity=(entity_id=16|fullname=Vincenz Ebendorffer|gender=m)))
+6965	bloße	0		
+6966	Gegenwart	0		
+6967	schon	0		
+6968	flößten	0		
+6969	mir	0	(mention_id=1028|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1050|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+6970	unwillkürlich	0		
+6971	Mißtrauen	0		
+6972	und	0		
+6973	Furcht	0		
+6974	ein	0		
+6975	.	0		
+6976	Mein	0	(mention_id=1029|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1051|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+6977	Stiefvater	0	(mention_id=1030|references=(entity=(entity_id=entity_0028|fullname=Pankraz Dornhuber|gender=m)))	(mention_id=1052|references=(entity=(entity_id=9|fullname=Pankraz Dornhuber|gender=m)))
+6978	schien	0		
+6979	mein	0	(mention_id=1031|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1053|references=(entity=(entity_id=9|fullname=Pankraz Dornhuber|gender=m)))
+6980	längeres	0		
+6981	Fortbleiben	0		
+6982	von	0		
+6983	Hause	0		
+6984	nicht	0		
+6985	zu	0		
+6986	beachten	0		
+6987	oder	0		
+6988	war	0		
+6989	dessen	0		
+6990	vielleicht	0		
+6991	froh	0		
+6992	,	0		
+6993	um	0		
+6994	mich	0	(mention_id=1032|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1054|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+6995	,	0		
+6996	die	0	(mention_id=1033|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1055|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+6997	ihm	0	(mention_id=1034|references=(entity=(entity_id=entity_0028|fullname=Pankraz Dornhuber|gender=m)))	(mention_id=1056|references=(entity=(entity_id=9|fullname=Pankraz Dornhuber|gender=m)))
+6998	sichtlich	0		
+6999	Verhaßte	0		(mention_id=1057|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+7000	,	0		
+7001	nicht	0		
+7002	beständig	0		
+7003	vor	0		
+7004	Augen	0		
+7005	haben	0		
+7006	zu	0		
+7007	müssen	0		
+7008	.	0		
+7009	«	0		
+7010	Mit	0		
+7011	steigender	0		
+7012	Spannung	0		
+7013	lauschte	0		
+7014	Madlen	0	(mention_id=1035|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)))	(mention_id=1058|references=(entity=(entity_id=8|fullname=Madlen|gender=f)))
+7015	den	0		
+7016	Eröffnungen	0		
+7017	der	0		
+7018	immer	0		
+7019	erregter	0		
+7020	Werdenden	0	(mention_id=1036|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1059|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+7021	.	0		
+7022	»	0		
+7023	Hast	0		
+7024	du	0	(mention_id=1037|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1060|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+7025	dich	0	(mention_id=1038|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1061|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+7026	in	0		
+7027	dieser	0		
+7028	Annahme	0		
+7029	nicht	0		
+7030	getäuscht	0		
+7031	,	0		
+7032	liebes	0		
+7033	Kind	0	(mention_id=1039|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1062|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+7034	?	0		
+7035	«	0		
+7036	fragte	0		
+7037	sie	0	(mention_id=1040|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)))	(mention_id=1063|references=(entity=(entity_id=8|fullname=Madlen|gender=f)))
+7038	jetzt	0		
+7039	.	0		
+7040	»	0		
+7041	Er	0	(mention_id=1041|references=(entity=(entity_id=entity_0028|fullname=Pankraz Dornhuber|gender=m)))	(mention_id=1064|references=(entity=(entity_id=9|fullname=Pankraz Dornhuber|gender=m)))
+7042	entbehrte	0		
+7043	doch	0		
+7044	während	0		
+7045	deiner	0	(mention_id=1042|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1065|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+7046	Abwesenheit	0		
+7047	deine	0	(mention_id=1043|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1066|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+7048	Hilfe	0		
+7049	bei	0		
+7050	der	0		
+7051	Arbeit	0		
+7052	.	0		
+7053	«	0		
+7054	Trudi	0	(mention_id=1044|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1067|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+7055	schüttelte	0		
+7056	das	0		
+7057	Haupt	0		
+7058	.	0		
+7059	»	0		
+7060	Nein	0		
+7061	,	0		
+7062	ich	0	(mention_id=1045|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1068|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+7063	habe	0		
+7064	mich	0	(mention_id=1046|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1069|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+7065	nicht	0		
+7066	getäuscht	0		
+7067	,	0		
+7068	und	0		
+7069	später	0		
+7070	ist	0		
+7071	mir	0	(mention_id=1047|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1070|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+7072	die	0		
+7073	Erkenntnis	0		
+7074	darüber	0		
+7075	aufgegangen	0		
+7076	,	0		
+7077	warum	0		
+7078	er	0	(mention_id=1048|references=(entity=(entity_id=entity_0028|fullname=Pankraz Dornhuber|gender=m)))	(mention_id=1071|references=(entity=(entity_id=9|fullname=Pankraz Dornhuber|gender=m)))
+7079	mich	0	(mention_id=1049|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1072|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+7080	immer	0		
+7081	nach	0		
+7082	dem	0		
+7083	Klosterhof	0		
+7084	schickte	0		
+7085	.	0		
+7086	Ich	0	(mention_id=1050|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1073|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+7087	habe	0		
+7088	vergessen	0		
+7089	zu	0		
+7090	erwähnen	0		
+7091	,	0		
+7092	daß	0		
+7093	meine	0	(mention_id=1051|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1074|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+7094	Mutter	0	(mention_id=1052|references=(entity=(entity_id=entity_0032|fullname=Hilde Scheithauer|gender=f)))	(mention_id=1075|references=(entity=(entity_id=14|fullname=Trudis Mutter|gender=f)))
+7095	dem	0		
+7096	Pankraz	0	(mention_id=1053|references=(entity=(entity_id=entity_0028|fullname=Pankraz Dornhuber|gender=m)))	(mention_id=1076|references=(entity=(entity_id=9|fullname=Pankraz Dornhuber|gender=m)))
+7097	nicht	0		
+7098	lange	0		
+7099	nach	0		
+7100	der	0		
+7101	Hochzeit	0		
+7102	einen	0		
+7103	Knaben	0	(mention_id=1054|references=(entity=(entity_id=entity_0072|fullname=Pankraz' Sohn|gender=m)))	(mention_id=1077|references=(entity=(entity_id=10|fullname=Pankraz Sohn|gender=m)))
+7104	geboren	0		
+7105	hatte	0		
+7106	.	0		
+7107	Von	0		
+7108	Stund	0		
+7109	an	0		
+7110	war	0		
+7111	ich	0	(mention_id=1055|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1078|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+7112	,	0		
+7113	die	0		
+7114	rechtmäßige	0		
+7115	künftige	0		
+7116	Erbin	0	(mention_id=1056|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1079|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+7117	des	0		
+7118	Lehngutes	0		
+7119	,	0		
+7120	ihm	0	(mention_id=1057|references=(entity=(entity_id=entity_0028|fullname=Pankraz Dornhuber|gender=m)))	(mention_id=1080|references=(entity=(entity_id=9|fullname=Pankraz Dornhuber|gender=m)))
+7121	im	0		
+7122	Wege	0		
+7123	,	0		
+7124	und	0		
+7125	er	0	(mention_id=1058|references=(entity=(entity_id=entity_0028|fullname=Pankraz Dornhuber|gender=m)))	(mention_id=1081|references=(entity=(entity_id=9|fullname=Pankraz Dornhuber|gender=m)))
+7126	wollte	0		
+7127	mich	0	(mention_id=1059|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1082|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+7128	los	0		
+7129	sein	0		
+7130	,	0		
+7131	um	0		
+7132	den	0		
+7133	durch	0		
+7134	die	0		
+7135	Heirat	0		
+7136	mit	0		
+7137	meiner	0	(mention_id=1060|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1083|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+7138	Mutter	0	(mention_id=1061|references=(entity=(entity_id=entity_0032|fullname=Hilde Scheithauer|gender=f)))	(mention_id=1084|references=(entity=(entity_id=14|fullname=Trudis Mutter|gender=f)))
+7139	erschlichenen	0		
+7140	Besitz	0		
+7141	dermaleinst	0		
+7142	seinem	0	(mention_id=1062|references=(entity=(entity_id=entity_0028|fullname=Pankraz Dornhuber|gender=m)))	(mention_id=1085|references=(entity=(entity_id=9|fullname=Pankraz Dornhuber|gender=m)))
+7143	Sohne	0	(mention_id=1063|references=(entity=(entity_id=entity_0072|fullname=Pankraz' Sohn|gender=m)))	(mention_id=1086|references=(entity=(entity_id=10|fullname=Pankraz Sohn|gender=m)))
+7144	verschreiben	0		
+7145	zu	0		
+7146	können	0		
+7147	.	0		
+7148	Nun	0		
+7149	durchschaute	0		
+7150	ich	0	(mention_id=1064|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1087|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+7151	auch	0		
+7152	die	0		
+7153	abscheulichen	0		
+7154	Absichten	0		
+7155	Vincenz	0	(mention_id=1065|references=(entity=(entity_id=entity_0027|fullname=Vincenz Ebendorffer|gender=m)))	(mention_id=1088|references=(entity=(entity_id=16|fullname=Vincenz Ebendorffer|gender=m)))
+7156	Ebendorffers	0	(mention_id=1065|references=(entity=(entity_id=entity_0027|fullname=Vincenz Ebendorffer|gender=m)))	(mention_id=1088|references=(entity=(entity_id=16|fullname=Vincenz Ebendorffer|gender=m)))
+7157	,	0		
+7158	der	0	(mention_id=1066|references=(entity=(entity_id=entity_0027|fullname=Vincenz Ebendorffer|gender=m)))	(mention_id=1089|references=(entity=(entity_id=16|fullname=Vincenz Ebendorffer|gender=m)))
+7159	immer	0		
+7160	zudringlicher	0		
+7161	,	0		
+7162	immer	0		
+7163	deutlicher	0		
+7164	in	0		
+7165	seinen	0	(mention_id=1067|references=(entity=(entity_id=entity_0027|fullname=Vincenz Ebendorffer|gender=m)))	(mention_id=1090|references=(entity=(entity_id=16|fullname=Vincenz Ebendorffer|gender=m)))
+7166	Anspielungen	0		
+7167	wurde	0		
+7168	und	0		
+7169	die	0		
+7170	unverschämtesten	0		
+7171	Verführungskünste	0		
+7172	gegen	0		
+7173	mich	0	(mention_id=1068|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1091|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+7174	aufbot	0		
+7175	.	0		
+7176	Er	0	(mention_id=1069|references=(entity=(entity_id=entity_0027|fullname=Vincenz Ebendorffer|gender=m)))	(mention_id=1092|references=(entity=(entity_id=16|fullname=Vincenz Ebendorffer|gender=m)))
+7177	begehrte	0		
+7178	meiner	0	(mention_id=1070|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1093|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+7179	,	0		
+7180	aber	0		
+7181	nicht	0		
+7182	zum	0		
+7183	Weibe	0	(mention_id=1071|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	
+7184	;	0		
+7185	er	0	(mention_id=1072|references=(entity=(entity_id=entity_0027|fullname=Vincenz Ebendorffer|gender=m)))	(mention_id=1094|references=(entity=(entity_id=16|fullname=Vincenz Ebendorffer|gender=m)))
+7186	wollte	0		
+7187	mich	0	(mention_id=1073|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1095|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+7188	nur	0		
+7189	besitzen	0		
+7190	,	0		
+7191	und	0		
+7192	mein	0	(mention_id=1074|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1096|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+7193	Stiefvater	0	(mention_id=1075|references=(entity=(entity_id=entity_0028|fullname=Pankraz Dornhuber|gender=m)))	(mention_id=1097|references=(entity=(entity_id=9|fullname=Pankraz Dornhuber|gender=m)))
+7194	–	0		
+7195	unterstützte	0		
+7196	ihn	0	(mention_id=1076|references=(entity=(entity_id=entity_0027|fullname=Vincenz Ebendorffer|gender=m)))	(mention_id=1098|references=(entity=(entity_id=16|fullname=Vincenz Ebendorffer|gender=m)))
+7197	in	0		
+7198	seinen	0	(mention_id=1077|references=(entity=(entity_id=entity_0027|fullname=Vincenz Ebendorffer|gender=m)))	(mention_id=1099|references=(entity=(entity_id=16|fullname=Vincenz Ebendorffer|gender=m)))
+7199	sündhaften	0		
+7200	Plänen	0		
+7201	,	0		
+7202	«	0		
+7203	rief	0		
+7204	Trudi	0	(mention_id=1078|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1100|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+7205	zornrot	0		
+7206	.	0		
+7207	»	0		
+7208	Trudi	0	(mention_id=1079|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1101|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+7209	!	0		
+7210	«	0		
+7211	»	0		
+7212	Hört	0		
+7213	mich	0	(mention_id=1080|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1102|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+7214	nur	0		
+7215	weiter	0		
+7216	!	0		
+7217	Eines	0		
+7218	Tages	0		
+7219	kam	0		
+7220	der	0		
+7221	Vincenz	0	(mention_id=1081|references=(entity=(entity_id=entity_0027|fullname=Vincenz Ebendorffer|gender=m)))	(mention_id=1103|references=(entity=(entity_id=16|fullname=Vincenz Ebendorffer|gender=m)))
+7222	zu	0		
+7223	uns	0	(mention_id=1082|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)),(entity=(entity_id=entity_0032|fullname=Hilde Scheithauer|gender=f)))	(mention_id=1104|references=(entity=(entity_id=12|fullname=Trudi|gender=f)),(entity=(entity_id=14|fullname=Trudis Mutter|gender=f)))
+7224	und	0		
+7225	hatte	0		
+7226	eine	0		
+7227	heimliche	0		
+7228	Unterredung	0		
+7229	mit	0		
+7230	Pankraz	0	(mention_id=1083|references=(entity=(entity_id=entity_0028|fullname=Pankraz Dornhuber|gender=m)))	(mention_id=1105|references=(entity=(entity_id=9|fullname=Pankraz Dornhuber|gender=m)))
+7231	,	0		
+7232	deren	0		
+7233	Inhalt	0		
+7234	ich	0	(mention_id=1084|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1106|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+7235	von	0		
+7236	meiner	0	(mention_id=1085|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1107|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+7237	Mutter	0	(mention_id=1086|references=(entity=(entity_id=entity_0032|fullname=Hilde Scheithauer|gender=f)))	(mention_id=1108|references=(entity=(entity_id=14|fullname=Trudis Mutter|gender=f)))
+7238	erfahren	0		
+7239	habe	0		
+7240	.	0		
+7241	Er	0	(mention_id=1087|references=(entity=(entity_id=entity_0027|fullname=Vincenz Ebendorffer|gender=m)))	(mention_id=1109|references=(entity=(entity_id=16|fullname=Vincenz Ebendorffer|gender=m)))
+7242	hatte	0		
+7243	ihm	0	(mention_id=1088|references=(entity=(entity_id=entity_0028|fullname=Pankraz Dornhuber|gender=m)))	(mention_id=1110|references=(entity=(entity_id=9|fullname=Pankraz Dornhuber|gender=m)))
+7244	den	0		
+7245	Vorschlag	0		
+7246	gemacht	0		
+7247	,	0		
+7248	mich	0	(mention_id=1089|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1111|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+7249	ihm	0	(mention_id=1090|references=(entity=(entity_id=entity_0027|fullname=Vincenz Ebendorffer|gender=m)))	(mention_id=1112|references=(entity=(entity_id=16|fullname=Vincenz Ebendorffer|gender=m)))
+7250	auf	0		
+7251	den	0		
+7252	Meierhof	0		
+7253	auszuliefern	0		
+7254	,	0		
+7255	wogegen	0		
+7256	er	0	(mention_id=1091|references=(entity=(entity_id=entity_0027|fullname=Vincenz Ebendorffer|gender=m)))	(mention_id=1113|references=(entity=(entity_id=16|fullname=Vincenz Ebendorffer|gender=m)))
+7257	ihn	0	(mention_id=1092|references=(entity=(entity_id=entity_0028|fullname=Pankraz Dornhuber|gender=m)))	(mention_id=1114|references=(entity=(entity_id=9|fullname=Pankraz Dornhuber|gender=m)))
+7258	von	0		
+7259	allem	0		
+7260	Frondienst	0		
+7261	befreien	0		
+7262	und	0		
+7263	ihm	0	(mention_id=1093|references=(entity=(entity_id=entity_0028|fullname=Pankraz Dornhuber|gender=m)))	(mention_id=1115|references=(entity=(entity_id=9|fullname=Pankraz Dornhuber|gender=m)))
+7264	die	0		
+7265	Gilten	0		
+7266	und	0		
+7267	Beden	0		
+7268	soviel	0		
+7269	wie	0		
+7270	möglich	0		
+7271	erlassen	0		
+7272	wollte	0		
+7273	.	0		
+7274	Mein	0	(mention_id=1094|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1116|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+7275	Stiefvater	0	(mention_id=1095|references=(entity=(entity_id=entity_0028|fullname=Pankraz Dornhuber|gender=m)))	(mention_id=1117|references=(entity=(entity_id=9|fullname=Pankraz Dornhuber|gender=m)))
+7276	war	0		
+7277	auf	0		
+7278	den	0		
+7279	gewissenlosen	0		
+7280	Handel	0		
+7281	bereitwillig	0		
+7282	eingegangen	0		
+7283	,	0		
+7284	aber	0		
+7285	meine	0	(mention_id=1096|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1118|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+7286	Mutter	0	(mention_id=1097|references=(entity=(entity_id=entity_0032|fullname=Hilde Scheithauer|gender=f)))	(mention_id=1119|references=(entity=(entity_id=14|fullname=Trudis Mutter|gender=f)))
+7287	,	0		
+7288	die	0	(mention_id=1098|references=(entity=(entity_id=entity_0032|fullname=Hilde Scheithauer|gender=f)))	(mention_id=1120|references=(entity=(entity_id=14|fullname=Trudis Mutter|gender=f)))
+7289	unsere	0	(mention_id=1099|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)),(entity=(entity_id=entity_0032|fullname=Hilde Scheithauer|gender=f)))	(mention_id=1121|references=(entity=(entity_id=12|fullname=Trudi|gender=f)),(entity=(entity_id=14|fullname=Trudis Mutter|gender=f)))
+7290	trübseligen	0		
+7291	häuslichen	0		
+7292	Verhältnisse	0		
+7293	kaum	0		
+7294	noch	0		
+7295	ertragen	0		
+7296	konnte	0		
+7297	und	0		
+7298	,	0		
+7299	an	0		
+7300	Leib	0		
+7301	und	0		
+7302	Seele	0		
+7303	davon	0		
+7304	angegriffen	0		
+7305	,	0		
+7306	kränkelte	0		
+7307	,	0		
+7308	raffte	0		
+7309	all	0		
+7310	ihr	0	(mention_id=1100|references=(entity=(entity_id=entity_0032|fullname=Hilde Scheithauer|gender=f)))	(mention_id=1122|references=(entity=(entity_id=14|fullname=Trudis Mutter|gender=f)))
+7311	bißchen	0		
+7312	Kraft	0		
+7313	noch	0		
+7314	auf	0		
+7315	,	0		
+7316	die	0		
+7317	Schmach	0		
+7318	und	0		
+7319	Schande	0		
+7320	von	0		
+7321	mir	0	(mention_id=1101|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1123|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+7322	abzuwenden	0		
+7323	.	0		
+7324	Die	0		
+7325	Folge	0		
+7326	ihres	0	(mention_id=1102|references=(entity=(entity_id=entity_0032|fullname=Hilde Scheithauer|gender=f)))	(mention_id=1124|references=(entity=(entity_id=14|fullname=Trudis Mutter|gender=f)))
+7327	und	0		
+7328	meines	0	(mention_id=1103|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1125|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+7329	unüberwindlichen	0		
+7330	Widerstandes	0		
+7331	gegen	0		
+7332	den	0		
+7333	ruchlosen	0		
+7334	Verrat	0		
+7335	Dornhubers	0	(mention_id=1104|references=(entity=(entity_id=entity_0028|fullname=Pankraz Dornhuber|gender=m)))	(mention_id=1126|references=(entity=(entity_id=9|fullname=Pankraz Dornhuber|gender=m)))
+7336	war	0		
+7337	,	0		
+7338	daß	0		
+7339	der	0		
+7340	Unmensch	0	(mention_id=1105|references=(entity=(entity_id=entity_0028|fullname=Pankraz Dornhuber|gender=m)))	(mention_id=1127|references=(entity=(entity_id=9|fullname=Pankraz Dornhuber|gender=m)))
+7341	uns	0	(mention_id=1106|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)),(entity=(entity_id=entity_0032|fullname=Hilde Scheithauer|gender=f)))	(mention_id=1128|references=(entity=(entity_id=12|fullname=Trudi|gender=f)),(entity=(entity_id=14|fullname=Trudis Mutter|gender=f)))
+7342	beide	0	(mention_id=1107|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)),(entity=(entity_id=entity_0032|fullname=Hilde Scheithauer|gender=f)))	(mention_id=1129|references=(entity=(entity_id=12|fullname=Trudi|gender=f)),(entity=(entity_id=14|fullname=Trudis Mutter|gender=f)))
+7343	nun	0		
+7344	noch	0		
+7345	niederträchtiger	0		
+7346	behandelte	0		
+7347	,	0		
+7348	ich	0	(mention_id=1108|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1130|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+7349	kann	0		
+7350	wohl	0		
+7351	sagen	0		
+7352	mißhandelte	0		
+7353	.	0		
+7354	Das	0		
+7355	hielt	0		
+7356	meine	0	(mention_id=1109|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1131|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+7357	arme	0		
+7358	Mutter	0	(mention_id=1110|references=(entity=(entity_id=entity_0032|fullname=Hilde Scheithauer|gender=f)))	(mention_id=1132|references=(entity=(entity_id=14|fullname=Trudis Mutter|gender=f)))
+7359	nicht	0		
+7360	mehr	0		
+7361	lange	0		
+7362	aus	0		
+7363	;	0		
+7364	sie	0	(mention_id=1111|references=(entity=(entity_id=entity_0032|fullname=Hilde Scheithauer|gender=f)))	(mention_id=1133|references=(entity=(entity_id=14|fullname=Trudis Mutter|gender=f)))
+7365	siechte	0		
+7366	trotz	0		
+7367	meiner	0	(mention_id=1112|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1134|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+7368	sorgsamsten	0		
+7369	Pflege	0		
+7370	zusehends	0		
+7371	dahin	0		
+7372	,	0		
+7373	und	0		
+7374	in	0		
+7375	diesem	0		
+7376	Frühjahr	0		
+7377	starb	0		
+7378	sie	0	(mention_id=1113|references=(entity=(entity_id=entity_0032|fullname=Hilde Scheithauer|gender=f)))	(mention_id=1135|references=(entity=(entity_id=14|fullname=Trudis Mutter|gender=f)))
+7379	,	0		
+7380	wie	0		
+7381	zu	0		
+7382	Tode	0		
+7383	gemartert	0		
+7384	.	0		
+7385	«	0		
+7386	Die	0		
+7387	mit	0		
+7388	Tränen	0		
+7389	Kämpfende	0		(mention_id=1136|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+7390	brach	0		
+7391	ab	0		
+7392	und	0		
+7393	versank	0		
+7394	in	0		
+7395	schmerzliches	0		
+7396	Sinnen	0		
+7397	.	0		
+7398	Auch	0		
+7399	Madlen	0	(mention_id=1114|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)))	(mention_id=1137|references=(entity=(entity_id=8|fullname=Madlen|gender=f)))
+7400	,	0		
+7401	aufs	0		
+7402	tiefste	0		
+7403	erschüttert	0		
+7404	,	0		
+7405	konnte	0		
+7406	kein	0		
+7407	Wort	0		
+7408	hervorbringen	0		
+7409	.	0		
+7410	»	0		
+7411	Von	0		
+7412	da	0		
+7413	ab	0		
+7414	,	0		
+7415	«	0		
+7416	fing	0		
+7417	Trudi	0	(mention_id=1115|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1138|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+7418	wieder	0		
+7419	an	0		
+7420	,	0		
+7421	»	0		
+7422	wurde	0		
+7423	mir	0	(mention_id=1116|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1139|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+7424	Haus	0		
+7425	und	0		
+7426	Hof	0		
+7427	zu	0		
+7428	einer	0		
+7429	wahren	0		
+7430	Hölle	0		
+7431	,	0		
+7432	ich	0	(mention_id=1117|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1140|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+7433	hatte	0		
+7434	keine	0		
+7435	ruhige	0		
+7436	Stunde	0		
+7437	mehr	0		
+7438	.	0		
+7439	Pankraz	0	(mention_id=1118|references=(entity=(entity_id=entity_0028|fullname=Pankraz Dornhuber|gender=m)))	(mention_id=1141|references=(entity=(entity_id=9|fullname=Pankraz Dornhuber|gender=m)))
+7440	hetzte	0		
+7441	seinen	0	(mention_id=1119|references=(entity=(entity_id=entity_0028|fullname=Pankraz Dornhuber|gender=m)))	(mention_id=1142|references=(entity=(entity_id=9|fullname=Pankraz Dornhuber|gender=m)))
+7442	nichtsnutzigen	0		
+7443	Jungen	0	(mention_id=1120|references=(entity=(entity_id=entity_0072|fullname=Pankraz' Sohn|gender=m)))	(mention_id=1143|references=(entity=(entity_id=10|fullname=Pankraz Sohn|gender=m)))
+7444	gegen	0		
+7445	mich	0	(mention_id=1121|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1144|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+7446	auf	0		
+7447	,	0		
+7448	daß	0		
+7449	er	0	(mention_id=1122|references=(entity=(entity_id=entity_0072|fullname=Pankraz' Sohn|gender=m)))	(mention_id=1145|references=(entity=(entity_id=10|fullname=Pankraz Sohn|gender=m)))
+7450	mich	0	(mention_id=1123|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1146|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+7451	unablässig	0		
+7452	quälte	0		
+7453	und	0		
+7454	ärgerte	0		
+7455	und	0		
+7456	mir	0	(mention_id=1124|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1147|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+7457	tagtäglich	0		
+7458	allerhand	0		
+7459	Schabernack	0		
+7460	und	0		
+7461	böse	0		
+7462	Streiche	0		
+7463	spielte	0		
+7464	.	0		
+7465	Der	0		
+7466	Meier	0	(mention_id=1125|references=(entity=(entity_id=entity_0027|fullname=Vincenz Ebendorffer|gender=m)))	(mention_id=1148|references=(entity=(entity_id=16|fullname=Vincenz Ebendorffer|gender=m)))
+7467	kam	0		
+7468	öfter	0		
+7469	,	0		
+7470	bat	0		
+7471	und	0		
+7472	lockte	0		
+7473	und	0		
+7474	versprach	0		
+7475	mir	0	(mention_id=1126|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1149|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+7476	viel	0		
+7477	Gutes	0		
+7478	und	0		
+7479	Schönes	0		
+7480	.	0		
+7481	Mein	0	(mention_id=1127|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1150|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+7482	Stiefvater	0	(mention_id=1128|references=(entity=(entity_id=entity_0028|fullname=Pankraz Dornhuber|gender=m)))	(mention_id=1151|references=(entity=(entity_id=9|fullname=Pankraz Dornhuber|gender=m)))
+7483	schalt	0		
+7484	,	0		
+7485	drohte	0		
+7486	und	0		
+7487	peinigte	0		
+7488	mich	0	(mention_id=1129|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1152|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+7489	so	0		
+7490	grausam	0		
+7491	,	0		
+7492	daß	0		
+7493	es	0		
+7494	nicht	0		
+7495	mehr	0		
+7496	zu	0		
+7497	ertragen	0		
+7498	war	0		
+7499	.	0		
+7500	Ich	0	(mention_id=1130|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1153|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+7501	blieb	0		
+7502	jedoch	0		
+7503	fest	0		
+7504	und	0		
+7505	ließ	0		
+7506	mich	0	(mention_id=1131|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1154|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+7507	durch	0		
+7508	nichts	0		
+7509	zum	0		
+7510	Nachgeben	0		
+7511	bewegen	0		
+7512	.	0		
+7513	Aber	0		
+7514	auch	0		
+7515	mit	0		
+7516	meiner	0	(mention_id=1132|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1155|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+7517	Kraft	0		
+7518	ging	0		
+7519	es	0		
+7520	zu	0		
+7521	Ende	0		
+7522	,	0		
+7523	und	0		
+7524	von	0		
+7525	Verzweiflung	0		
+7526	getrieben	0		
+7527	wollte	0		
+7528	ich	0	(mention_id=1133|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1156|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+7529	mich	0	(mention_id=1134|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1157|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+7530	in	0		
+7531	die	0		
+7532	Tauber	0		
+7533	stürzen	0		
+7534	.	0		
+7535	Da	0		
+7536	kam	0		
+7537	mir	0	(mention_id=1135|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1158|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+7538	zu	0		
+7539	meinem	0	(mention_id=1136|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1159|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+7540	Heile	0		
+7541	plötzlich	0		
+7542	ins	0		
+7543	Gedächtnis	0		
+7544	,	0		
+7545	was	0		
+7546	mir	0	(mention_id=1137|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1160|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+7547	meine	0	(mention_id=1138|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1161|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+7548	Mutter	0	(mention_id=1139|references=(entity=(entity_id=entity_0032|fullname=Hilde Scheithauer|gender=f)))	(mention_id=1162|references=(entity=(entity_id=14|fullname=Trudis Mutter|gender=f)))
+7549	einst	0		
+7550	von	0		
+7551	Euch	0	(mention_id=1140|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)),(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))	(mention_id=1163|references=(entity=(entity_id=8|fullname=Madlen|gender=f)),(entity=(entity_id=2|fullname=Christoph|gender=m)))
+7552	gesagt	0		
+7553	hatte	0		
+7554	;	0		
+7555	ich	0	(mention_id=1141|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1164|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+7556	entsann	0		
+7557	mich	0	(mention_id=1142|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1165|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+7558	Eures	0	(mention_id=1143|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)),(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))	(mention_id=1166|references=(entity=(entity_id=8|fullname=Madlen|gender=f)),(entity=(entity_id=2|fullname=Christoph|gender=m)))
+7559	Namens	0		
+7560	und	0		
+7561	Wohnortes	0		
+7562	,	0		
+7563	und	0		
+7564	mir	0	(mention_id=1144|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1167|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+7565	dämmerte	0		
+7566	ein	0		
+7567	Schimmer	0		
+7568	von	0		
+7569	Hoffnung	0		
+7570	auf	0		
+7571	.	0		
+7572	Schnell	0		
+7573	war	0		
+7574	mein	0	(mention_id=1145|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1168|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+7575	Entschluß	0		
+7576	gefaßt	0		
+7577	.	0		
+7578	Ich	0	(mention_id=1146|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1169|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+7579	hatte	0		
+7580	noch	0		
+7581	einen	0		
+7582	wohlverwahrten	0		
+7583	Sparpfennig	0		
+7584	von	0		
+7585	meiner	0	(mention_id=1147|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1170|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+7586	Mutter	0	(mention_id=1148|references=(entity=(entity_id=entity_0032|fullname=Hilde Scheithauer|gender=f)))	(mention_id=1171|references=(entity=(entity_id=14|fullname=Trudis Mutter|gender=f)))
+7587	,	0		
+7588	steckte	0		
+7589	ihn	0		
+7590	zu	0		
+7591	mir	0	(mention_id=1149|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1172|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+7592	,	0		
+7593	schnürte	0		
+7594	mein	0	(mention_id=1150|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1173|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+7595	Bündel	0		
+7596	und	0		
+7597	entfloh	0		
+7598	eines	0		
+7599	Nachts	0		
+7600	,	0		
+7601	um	0		
+7602	in	0		
+7603	meiner	0	(mention_id=1151|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1174|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+7604	Not	0		
+7605	und	0		
+7606	Bedrängnis	0		
+7607	bei	0		
+7608	euch	0	(mention_id=1152|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)),(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))	(mention_id=1175|references=(entity=(entity_id=8|fullname=Madlen|gender=f)),(entity=(entity_id=2|fullname=Christoph|gender=m)))
+7609	,	0		
+7610	meinen	0	(mention_id=1153|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1176|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+7611	einzigen	0		
+7612	Verwandten	0	(mention_id=1154|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)),(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))	(mention_id=1177|references=(entity=(entity_id=8|fullname=Madlen|gender=f)),(entity=(entity_id=2|fullname=Christoph|gender=m)))
+7613	,	0		
+7614	Schutz	0		
+7615	und	0		
+7616	Zuflucht	0		
+7617	zu	0		
+7618	suchen	0		
+7619	.	0		
+7620	Und	0		
+7621	da	0		
+7622	bin	0		
+7623	ich	0	(mention_id=1155|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1178|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+7624	nun	0		
+7625	,	0		
+7626	und	0		
+7627	–	0		
+7628	und	0		
+7629	nun	0		
+7630	wißt	0		
+7631	Ihr	0	(mention_id=1156|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)),(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))	(mention_id=1179|references=(entity=(entity_id=8|fullname=Madlen|gender=f)),(entity=(entity_id=2|fullname=Christoph|gender=m)))
+7632	alles	0		
+7633	,	0		
+7634	Base	0	(mention_id=1157|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)))	(mention_id=1180|references=(entity=(entity_id=8|fullname=Madlen|gender=f)))
+7635	Madlen	0	(mention_id=1157|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)))	(mention_id=1180|references=(entity=(entity_id=8|fullname=Madlen|gender=f)))
+7636	!	0		
+7637	«	0		
+7638	schloß	0		
+7639	sie	0	(mention_id=1158|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1181|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+7640	,	0		
+7641	erschöpft	0		
+7642	von	0		
+7643	dem	0		
+7644	langen	0		
+7645	Bericht	0		
+7646	ihres	0	(mention_id=1159|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1182|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+7647	traurigen	0		
+7648	Schicksals	0		
+7649	.	0		
+7650	Madlen	0	(mention_id=1160|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)))	(mention_id=1183|references=(entity=(entity_id=8|fullname=Madlen|gender=f)))
+7651	zog	0		
+7652	sie	0	(mention_id=1161|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)))	(mention_id=1184|references=(entity=(entity_id=8|fullname=Madlen|gender=f)))
+7653	in	0		
+7654	ihre	0	(mention_id=1162|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)))	(mention_id=1185|references=(entity=(entity_id=8|fullname=Madlen|gender=f)))
+7655	Arme	0		
+7656	.	0		
+7657	»	0		
+7658	Sei	0		
+7659	getrost	0		
+7660	,	0		
+7661	mein	0	(mention_id=1163|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)))	(mention_id=1186|references=(entity=(entity_id=8|fullname=Madlen|gender=f)))
+7662	Herzenskind	0	(mention_id=1164|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1187|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+7663	!	0		
+7664	«	0		
+7665	sprach	0		
+7666	sie	0	(mention_id=1165|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)))	(mention_id=1188|references=(entity=(entity_id=8|fullname=Madlen|gender=f)))
+7667	mit	0		
+7668	innigem	0		
+7669	Tone	0		
+7670	.	0		
+7671	»	0		
+7672	Du	0	(mention_id=1166|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1189|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+7673	bleibst	0		
+7674	bei	0		
+7675	uns	0	(mention_id=1167|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)),(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))	(mention_id=1190|references=(entity=(entity_id=5|fullname=Familie Armbruster|gender=u|specialcase_entity=group)))
+7676	,	0		
+7677	nicht	0		
+7678	als	0		
+7679	dienende	0		
+7680	Magd	0	(mention_id=1168|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1191|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+7681	,	0		
+7682	sondern	0		
+7683	als	0		
+7684	unsere	0	(mention_id=1169|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)),(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))	(mention_id=1192|references=(entity=(entity_id=5|fullname=Familie Armbruster|gender=u|specialcase_entity=group)))
+7685	liebe	0		
+7686	Tochter	0	(mention_id=1170|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1193|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+7687	,	0		
+7688	die	0	(mention_id=1171|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1194|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+7689	es	0		
+7690	nicht	0		
+7691	schlecht	0		
+7692	bei	0		
+7693	uns	0	(mention_id=1172|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)),(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))	(mention_id=1195|references=(entity=(entity_id=5|fullname=Familie Armbruster|gender=u|specialcase_entity=group)))
+7694	haben	0		
+7695	soll	0		
+7696	und	0		
+7697	von	0		
+7698	heut	0		
+7699	an	0		
+7700	nennst	0		
+7701	du	0	(mention_id=1173|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1196|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+7702	mich	0	(mention_id=1174|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)))	(mention_id=1197|references=(entity=(entity_id=8|fullname=Madlen|gender=f)))
+7703	du	0	(mention_id=1175|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	
+7704	!	0		
+7705	verstanden	0		
+7706	?	0		
+7707	Aber	0		
+7708	nun	0		
+7709	sage	0		
+7710	mir	0	(mention_id=1176|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)))	(mention_id=1198|references=(entity=(entity_id=8|fullname=Madlen|gender=f)))
+7711	noch	0		
+7712	,	0		
+7713	«	0		
+7714	fuhr	0		
+7715	sie	0	(mention_id=1177|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)))	(mention_id=1199|references=(entity=(entity_id=8|fullname=Madlen|gender=f)))
+7716	nach	0		
+7717	einer	0		
+7718	kleinen	0		
+7719	Pause	0		
+7720	fort	0		
+7721	,	0		
+7722	»	0		
+7723	wie	0		
+7724	du	0	(mention_id=1178|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1200|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+7725	dich	0	(mention_id=1179|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1201|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+7726	hergefunden	0		
+7727	und	0		
+7728	ob	0		
+7729	du	0	(mention_id=1180|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1202|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+7730	als	0		
+7731	einsam	0		
+7732	Fahrende	0	(mention_id=1181|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1203|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+7733	unterwegs	0		
+7734	nicht	0		
+7735	Anfechtungen	0		
+7736	und	0		
+7737	Widerwärtigkeiten	0		
+7738	zu	0		
+7739	bestehen	0		
+7740	gehabt	0		
+7741	hast	0		
+7742	.	0		
+7743	«	0		
+7744	»	0		
+7745	Mir	0	(mention_id=1182|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1204|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+7746	ist	0		
+7747	Gott	0	(mention_id=1183|references=(entity=(entity_id=entity_0040|fullname=Gott|gender=m|specialcase_entity=nonfact)))	
+7748	sei	0		
+7749	Dank	0		
+7750	!	0		
+7751	nichts	0		
+7752	Arges	0		
+7753	begegnet	0		
+7754	,	0		
+7755	«	0		
+7756	erwiderte	0		
+7757	Trudi	0	(mention_id=1184|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1205|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+7758	,	0		
+7759	»	0		
+7760	aber	0		
+7761	sechs	0		
+7762	Tage	0		
+7763	habe	0		
+7764	ich	0	(mention_id=1185|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1206|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+7765	zu	0		
+7766	der	0		
+7767	Wanderung	0		
+7768	gebraucht	0		
+7769	und	0		
+7770	traf	0		
+7771	überall	0		
+7772	gute	0		
+7773	Menschen	0	(mention_id=1186|references=(entity=(entity_id=entity_0071|fullname=gute Menschen|gender=mf|members=entity_0006,entity_0070,entity_0076|all_members_given=True|specialcase_entity=group)))	(mention_id=1207|references=(entity=(entity_id=31|fullname=gute Menschen|gender=u|specialcase_entity=group)))
+7774	,	0		
+7775	die	0	(mention_id=1187|references=(entity=(entity_id=entity_0071|fullname=gute Menschen|gender=mf|members=entity_0006,entity_0070,entity_0076|all_members_given=True|specialcase_entity=group)))	(mention_id=1208|references=(entity=(entity_id=31|fullname=gute Menschen|gender=u|specialcase_entity=group)))
+7776	sich	0	(mention_id=1188|references=(entity=(entity_id=entity_0071|fullname=gute Menschen|gender=mf|members=entity_0006,entity_0070,entity_0076|all_members_given=True|specialcase_entity=group)))	(mention_id=1209|references=(entity=(entity_id=31|fullname=gute Menschen|gender=u|specialcase_entity=group)))
+7777	meiner	0	(mention_id=1189|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1210|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+7778	erbarmten	0		
+7779	,	0		
+7780	weil	0		
+7781	sie	0	(mention_id=1190|references=(entity=(entity_id=entity_0071|fullname=gute Menschen|gender=mf|members=entity_0006,entity_0070,entity_0076|all_members_given=True|specialcase_entity=group)))	(mention_id=1211|references=(entity=(entity_id=31|fullname=gute Menschen|gender=u|specialcase_entity=group)))
+7782	mir	0	(mention_id=1191|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1212|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+7783	wohl	0		
+7784	meine	0	(mention_id=1192|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1213|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+7785	Kümmernis	0		
+7786	und	0		
+7787	Hilflosigkeit	0		
+7788	vom	0		
+7789	Gesichte	0		
+7790	lasen	0		
+7791	.	0		
+7792	Über	0		
+7793	Amorbach	0		
+7794	kam	0		
+7795	ich	0	(mention_id=1193|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1214|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+7796	durch	0		
+7797	ein	0		
+7798	Stück	0		
+7799	Odenwald	0		
+7800	nach	0		
+7801	Eberbach	0		
+7802	am	0		
+7803	Neckar	0		
+7804	und	0		
+7805	kehrte	0		
+7806	dort	0		
+7807	in	0		
+7808	einem	0		
+7809	Gasthof	0		
+7810	ein	0		
+7811	,	0		
+7812	wo	0		
+7813	sie	0	(mention_id=1194|references=(entity=(entity_id=entity_0070|fullname=Wirtin|gender=f)))	(mention_id=1215|references=(entity=(entity_id=27|fullname=die Wirtin|gender=f)))
+7814	zufällig	0		
+7815	Wäsche	0		
+7816	hatten	0		
+7817	.	0		
+7818	Ich	0	(mention_id=1195|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1216|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+7819	half	0		
+7820	dabei	0		
+7821	den	0		
+7822	ganzen	0		
+7823	nächsten	0		
+7824	Tag	0		
+7825	,	0		
+7826	um	0		
+7827	mir	0	(mention_id=1196|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1217|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+7828	damit	0		
+7829	vielleicht	0		
+7830	mein	0	(mention_id=1197|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1218|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+7831	Nachtlager	0		
+7832	zu	0		
+7833	verdienen	0		
+7834	,	0		
+7835	und	0		
+7836	abends	0		
+7837	machte	0		
+7838	mir	0	(mention_id=1198|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1219|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+7839	die	0		
+7840	Wirtin	0	(mention_id=1199|references=(entity=(entity_id=entity_0070|fullname=Wirtin|gender=f)))	(mention_id=1220|references=(entity=(entity_id=27|fullname=die Wirtin|gender=f)))
+7841	den	0		
+7842	Vorschlag	0		
+7843	,	0		
+7844	ganz	0		
+7845	bei	0		
+7846	ihr	0	(mention_id=1200|references=(entity=(entity_id=entity_0070|fullname=Wirtin|gender=f)))	(mention_id=1221|references=(entity=(entity_id=27|fullname=die Wirtin|gender=f)))
+7847	zu	0		
+7848	bleiben	0		
+7849	,	0		
+7850	weil	0		
+7851	sie	0	(mention_id=1201|references=(entity=(entity_id=entity_0070|fullname=Wirtin|gender=f)))	(mention_id=1222|references=(entity=(entity_id=27|fullname=die Wirtin|gender=f)))
+7852	mich	0	(mention_id=1202|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1223|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+7853	gut	0		
+7854	verwenden	0		
+7855	könnte	0		
+7856	.	0		
+7857	Ich	0	(mention_id=1203|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1224|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+7858	wäre	0		
+7859	gern	0		
+7860	darauf	0		
+7861	eingegangen	0		
+7862	und	0		
+7863	hätte	0		
+7864	dann	0		
+7865	euch	0	(mention_id=1204|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)),(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))	(mention_id=1225|references=(entity=(entity_id=5|fullname=Familie Armbruster|gender=u|specialcase_entity=group)))
+7866	nicht	0		
+7867	zur	0		
+7868	Last	0		
+7869	zu	0		
+7870	fallen	0		
+7871	brauchen	0		
+7872	,	0		
+7873	aber	0		
+7874	es	0		
+7875	war	0		
+7876	mir	0	(mention_id=1205|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1226|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+7877	noch	0		
+7878	nicht	0		
+7879	weit	0		
+7880	genug	0		
+7881	von	0		
+7882	Gamburg	0		
+7883	,	0		
+7884	und	0		
+7885	ich	0	(mention_id=1206|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1227|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+7886	fürchtete	0		
+7887	,	0		
+7888	der	0		
+7889	Meier	0	(mention_id=1207|references=(entity=(entity_id=entity_0027|fullname=Vincenz Ebendorffer|gender=m)))	(mention_id=1228|references=(entity=(entity_id=16|fullname=Vincenz Ebendorffer|gender=m)))
+7890	könnte	0		
+7891	mir	0	(mention_id=1208|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1229|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+7892	nachsetzen	0		
+7893	,	0		
+7894	mich	0	(mention_id=1209|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1230|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+7895	aufgreifen	0		
+7896	und	0		
+7897	mit	0		
+7898	Gewalt	0		
+7899	wieder	0		
+7900	nach	0		
+7901	Hause	0		
+7902	oder	0		
+7903	gar	0		
+7904	auf	0		
+7905	den	0		
+7906	Klosterhof	0		
+7907	schleppen	0		
+7908	;	0		
+7909	darum	0		
+7910	lehnte	0		
+7911	ich	0	(mention_id=1210|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1231|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+7912	das	0		
+7913	Anerbieten	0		
+7914	dankend	0		
+7915	ab	0		
+7916	.	0		
+7917	Am	0		
+7918	nächsten	0		
+7919	Morgen	0		
+7920	verschaffte	0		
+7921	mir	0	(mention_id=1211|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1232|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+7922	die	0		
+7923	Frau	0	(mention_id=1212|references=(entity=(entity_id=entity_0070|fullname=Wirtin|gender=f)))	(mention_id=1233|references=(entity=(entity_id=27|fullname=die Wirtin|gender=f)))
+7924	,	0		
+7925	die	0	(mention_id=1213|references=(entity=(entity_id=entity_0070|fullname=Wirtin|gender=f)))	(mention_id=1234|references=(entity=(entity_id=27|fullname=die Wirtin|gender=f)))
+7926	kein	0		
+7927	Geld	0		
+7928	von	0		
+7929	mir	0	(mention_id=1214|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1235|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+7930	annahm	0		
+7931	,	0		
+7932	vielmehr	0		
+7933	mir	0	(mention_id=1215|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1236|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+7934	noch	0		
+7935	einen	0		
+7936	reichlichen	0		
+7937	Imbiß	0		
+7938	als	0		
+7939	Wegzehrung	0		
+7940	mitgab	0		
+7941	,	0		
+7942	eine	0		
+7943	Schiffsgelegenheit	0		
+7944	nach	0		
+7945	Heidelberg	0		
+7946	,	0		
+7947	und	0		
+7948	ich	0	(mention_id=1216|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1237|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+7949	fuhr	0		
+7950	auf	0		
+7951	dem	0		
+7952	Neckar	0		
+7953	durch	0		
+7954	das	0		
+7955	schöne	0		
+7956	Tal	0		
+7957	mit	0		
+7958	den	0		
+7959	vielen	0		
+7960	Burgen	0		
+7961	,	0		
+7962	die	0		
+7963	mir	0	(mention_id=1217|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1238|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+7964	die	0		
+7965	Schifferfrau	0	(mention_id=1218|references=(entity=(entity_id=entity_0083|fullname=Schifferfrau|gender=f)))	(mention_id=1239|references=(entity=(entity_id=24|fullname=die Schifferfrau|gender=f)))
+7966	alle	0		
+7967	bei	0		
+7968	Namen	0		
+7969	nannte	0		
+7970	.	0		
+7971	Von	0		
+7972	Heidelberg	0		
+7973	ging	0		
+7974	ich	0	(mention_id=1219|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1240|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+7975	wieder	0		
+7976	zu	0		
+7977	Fuß	0		
+7978	und	0		
+7979	kam	0		
+7980	an	0		
+7981	den	0		
+7982	Rhein	0		
+7983	,	0		
+7984	den	0		
+7985	mächtigen	0		
+7986	Strom	0		
+7987	mit	0		
+7988	Staunen	0		
+7989	betrachtend	0		
+7990	und	0		
+7991	froh	0		
+7992	,	0		
+7993	euch	0	(mention_id=1220|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)),(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))	(mention_id=1241|references=(entity=(entity_id=5|fullname=Familie Armbruster|gender=u|specialcase_entity=group)))
+7994	nun	0		
+7995	schon	0		
+7996	so	0		
+7997	nahe	0		
+7998	zu	0		
+7999	sein	0		
+8000	,	0		
+8001	denn	0		
+8002	da	0		
+8003	drüben	0		
+8004	am	0		
+8005	anderen	0		
+8006	Ufer	0		
+8007	lag	0		
+8008	ja	0		
+8009	die	0		
+8010	Pfalz	0		
+8011	,	0		
+8012	meiner	0	(mention_id=1221|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1242|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+8013	lieben	0		
+8014	Mutter	0		(mention_id=1243|references=(entity=(entity_id=14|fullname=Trudis Mutter|gender=f)))
+8015	Heimatland	0		
+8016	.	0		
+8017	Vom	0		
+8018	Dorfe	0		
+8019	Rheinhausen	0		
+8020	ließ	0		
+8021	ich	0	(mention_id=1222|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1244|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+8022	mich	0	(mention_id=1223|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1245|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+8023	nach	0		
+8024	Speyer	0		
+8025	übersetzen	0		
+8026	und	0		
+8027	fühlte	0		
+8028	mich	0	(mention_id=1224|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1246|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+8029	in	0		
+8030	der	0		
+8031	großen	0		
+8032	Stadt	0		
+8033	mit	0		
+8034	den	0		
+8035	von	0		
+8036	Menschen	0	(mention_id=1225|references=(entity=(entity_id=generic_0122|fullname=Menschen|gender=u|specialcase_entity=generic)))	
+8037	wimmelnden	0		
+8038	Straßen	0		
+8039	recht	0		
+8040	verlassen	0		
+8041	.	0		
+8042	Da	0		
+8043	begegneten	0		
+8044	mir	0	(mention_id=1226|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1247|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+8045	zwei	0		
+8046	Brigittenschwestern	0	(mention_id=1227|references=(entity=(entity_id=entity_0076|fullname=Brigittenschwestern|gender=f|specialcase_entity=group)))	(mention_id=1248|references=(entity=(entity_id=34|fullname=zwei Brigittenschwestern|gender=f|specialcase_entity=group)))
+8047	,	0		
+8048	die	0	(mention_id=1228|references=(entity=(entity_id=entity_0076|fullname=Brigittenschwestern|gender=f|specialcase_entity=group)))	(mention_id=1249|references=(entity=(entity_id=34|fullname=zwei Brigittenschwestern|gender=f|specialcase_entity=group)))
+8049	ich	0	(mention_id=1229|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1250|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+8050	nach	0		
+8051	einer	0		
+8052	bescheidenen	0		
+8053	Herberge	0		
+8054	fragte	0		
+8055	.	0		
+8056	Sie	0	(mention_id=1230|references=(entity=(entity_id=entity_0076|fullname=Brigittenschwestern|gender=f|specialcase_entity=group)))	(mention_id=1251|references=(entity=(entity_id=34|fullname=zwei Brigittenschwestern|gender=f|specialcase_entity=group)))
+8057	nahmen	0		
+8058	mich	0	(mention_id=1231|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1252|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+8059	aber	0		
+8060	mit	0		
+8061	in	0		
+8062	ihr	0	(mention_id=1232|references=(entity=(entity_id=entity_0076|fullname=Brigittenschwestern|gender=f|specialcase_entity=group)))	(mention_id=1253|references=(entity=(entity_id=34|fullname=zwei Brigittenschwestern|gender=f|specialcase_entity=group)))
+8063	Stiftshaus	0		
+8064	,	0		
+8065	wo	0		
+8066	ich	0	(mention_id=1233|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1254|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+8067	gute	0		
+8068	Unterkunft	0		
+8069	fand	0		
+8070	,	0		
+8071	für	0		
+8072	die	0		
+8073	ich	0	(mention_id=1234|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1255|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+8074	nicht	0		
+8075	einmal	0		
+8076	etwas	0		
+8077	bezahlen	0		
+8078	durfte	0		
+8079	.	0		
+8080	Der	0		
+8081	Weg	0		
+8082	von	0		
+8083	Speyer	0		
+8084	nach	0		
+8085	Neustadt	0		
+8086	und	0		
+8087	von	0		
+8088	da	0		
+8089	über	0		
+8090	Deidesheim	0		
+8091	hierher	0		
+8092	nach	0		
+8093	Wachenheim	0		
+8094	war	0		
+8095	nicht	0		
+8096	zu	0		
+8097	verfehlen	0		
+8098	,	0		
+8099	und	0		
+8100	hier	0		
+8101	vor	0		
+8102	dem	0		
+8103	Tore	0		
+8104	fand	0		
+8105	ich	0	(mention_id=1235|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1256|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+8106	gestern	0		
+8107	abend	0		
+8108	den	0		
+8109	Kaschper	0	(mention_id=1236|references=(entity=(entity_id=entity_0006|fullname=Kaspar|gender=m)))	(mention_id=1257|references=(entity=(entity_id=7|fullname=Kaschper|gender=m)))
+8110	,	0		
+8111	der	0	(mention_id=1237|references=(entity=(entity_id=entity_0006|fullname=Kaspar|gender=m)))	(mention_id=1258|references=(entity=(entity_id=7|fullname=Kaschper|gender=m)))
+8112	mich	0	(mention_id=1238|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1259|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+8113	auf	0		
+8114	meine	0	(mention_id=1239|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1260|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+8115	Bitte	0		
+8116	zu	0		
+8117	euch	0	(mention_id=1240|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)),(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))	(mention_id=1261|references=(entity=(entity_id=5|fullname=Familie Armbruster|gender=u|specialcase_entity=group)))
+8118	führte	0		
+8119	.	0		
+8120	Aber	0		
+8121	nun	0		
+8122	,	0		
+8123	Base	0	(mention_id=1241|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)))	(mention_id=1262|references=(entity=(entity_id=8|fullname=Madlen|gender=f)))
+8124	Madlen	0	(mention_id=1241|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)))	(mention_id=1262|references=(entity=(entity_id=8|fullname=Madlen|gender=f)))
+8125	,	0		
+8126	wenn	0		
+8127	ich	0	(mention_id=1242|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1263|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+8128	hier	0		
+8129	bleiben	0		
+8130	soll	0		
+8131	,	0		
+8132	so	0		
+8133	müßt	0		
+8134	ihr	0	(mention_id=1243|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)),(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))	(mention_id=1264|references=(entity=(entity_id=8|fullname=Madlen|gender=f)),(entity=(entity_id=2|fullname=Christoph|gender=m)))
+8135	mir	0	(mention_id=1244|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1265|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+8136	auch	0		
+8137	was	0		
+8138	zu	0		
+8139	schaffen	0		
+8140	geben	0		
+8141	,	0		
+8142	denn	0		
+8143	ich	0	(mention_id=1245|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1266|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+8144	will	0		
+8145	hier	0		
+8146	nicht	0		
+8147	faulenzen	0		
+8148	,	0		
+8149	habe	0		
+8150	zwei	0		
+8151	rüstige	0		
+8152	Arme	0		
+8153	,	0		
+8154	und	0		
+8155	keine	0		
+8156	Arbeit	0		
+8157	soll	0		
+8158	mir	0	(mention_id=1246|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1267|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+8159	zu	0		
+8160	schwer	0		
+8161	sein	0		
+8162	.	0		
+8163	«	0		
+8164	»	0		
+8165	Schon	0		
+8166	gut	0		
+8167	!	0		
+8168	«	0		
+8169	sprach	0		
+8170	Madlen	0	(mention_id=1247|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)))	(mention_id=1268|references=(entity=(entity_id=8|fullname=Madlen|gender=f)))
+8171	und	0		
+8172	drückte	0		
+8173	dem	0		
+8174	Mädchen	0	(mention_id=1248|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1269|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+8175	die	0		
+8176	Hand	0		
+8177	.	0		
+8178	»	0		
+8179	Müßig	0		
+8180	sollst	0		
+8181	du	0	(mention_id=1249|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1270|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+8182	nicht	0		
+8183	sein	0		
+8184	und	0		
+8185	kannst	0		
+8186	uns	0	(mention_id=1250|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)),(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))	(mention_id=1271|references=(entity=(entity_id=8|fullname=Madlen|gender=f)),(entity=(entity_id=2|fullname=Christoph|gender=m)))
+8187	schon	0		
+8188	bei	0		
+8189	der	0		
+8190	Lese	0		
+8191	wacker	0		
+8192	helfen	0		
+8193	.	0		
+8194	Im	0		
+8195	übrigen	0		
+8196	sieh	0		
+8197	zu	0		
+8198	,	0		
+8199	was	0		
+8200	du	0	(mention_id=1251|references=(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1272|references=(entity=(entity_id=12|fullname=Trudi|gender=f)))
+8201	der	0		
+8202	Ammerie	0	(mention_id=1252|references=(entity=(entity_id=entity_0004|fullname=Ammerie Armbruster|gender=f)))	(mention_id=1273|references=(entity=(entity_id=1|fullname=Ammerie|gender=f)))
+8203	an	0		
+8204	häuslichen	0		
+8205	Verrichtungen	0		
+8206	abnehmen	0		
+8207	kannst	0		
+8208	,	0		
+8209	aber	0		
+8210	zankt	0		
+8211	euch	0	(mention_id=1253|references=(entity=(entity_id=entity_0004|fullname=Ammerie Armbruster|gender=f)),(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1274|references=(entity=(entity_id=12|fullname=Trudi|gender=f)),(entity=(entity_id=1|fullname=Ammerie|gender=f)))
+8212	nicht	0		
+8213	um	0		
+8214	die	0		
+8215	Arbeit	0		
+8216	.	0		
+8217	«	0		
+8218	»	0		
+8219	Wir	0	(mention_id=1254|references=(entity=(entity_id=entity_0004|fullname=Ammerie Armbruster|gender=f)),(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1275|references=(entity=(entity_id=12|fullname=Trudi|gender=f)),(entity=(entity_id=1|fullname=Ammerie|gender=f)))
+8220	uns	0	(mention_id=1255|references=(entity=(entity_id=entity_0004|fullname=Ammerie Armbruster|gender=f)),(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1276|references=(entity=(entity_id=12|fullname=Trudi|gender=f)),(entity=(entity_id=1|fullname=Ammerie|gender=f)))
+8221	zanken	0		
+8222	?	0		
+8223	«	0		
+8224	rief	0		
+8225	eine	0		
+8226	fröhliche	0		
+8227	Stimme	0		
+8228	hinter	0		
+8229	dem	0		
+8230	dichten	0		
+8231	Gerank	0		
+8232	der	0		
+8233	Laube	0		
+8234	.	0		
+8235	Es	0		
+8236	war	0		
+8237	Ammerie	0	(mention_id=1256|references=(entity=(entity_id=entity_0004|fullname=Ammerie Armbruster|gender=f)))	(mention_id=1277|references=(entity=(entity_id=1|fullname=Ammerie|gender=f)))
+8238	,	0		
+8239	die	0	(mention_id=1257|references=(entity=(entity_id=entity_0004|fullname=Ammerie Armbruster|gender=f)))	(mention_id=1278|references=(entity=(entity_id=1|fullname=Ammerie|gender=f)))
+8240	unbemerkt	0		
+8241	herangekommen	0		
+8242	war	0		
+8243	und	0		
+8244	die	0		
+8245	Worte	0		
+8246	der	0		
+8247	Mutter	0	(mention_id=1258|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)))	(mention_id=1279|references=(entity=(entity_id=8|fullname=Madlen|gender=f)))
+8248	gehört	0		
+8249	hatte	0		
+8250	.	0		
+8251	»	0		
+8252	Wer	0		(mention_id=1280|references=(entity=(entity_id=generic_0004|fullname=jemand im Allgemeinen|gender=u|specialcase_entity=generic)))
+8253	sich	0		(mention_id=1281|references=(entity=(entity_id=generic_0005|fullname=jemand im Allgemeinen|gender=u|specialcase_entity=generic)))
+8254	mit	0		
+8255	mir	0	(mention_id=1259|references=(entity=(entity_id=entity_0004|fullname=Ammerie Armbruster|gender=f)))	(mention_id=1282|references=(entity=(entity_id=1|fullname=Ammerie|gender=f)))
+8256	zanken	0		
+8257	will	0		
+8258	,	0		
+8259	der	0	(mention_id=1260|references=(entity=(entity_id=entity_0004|fullname=Ammerie Armbruster|gender=f)))	(mention_id=1283|references=(entity=(entity_id=generic_0006|fullname=jemand im Allgemeinen|gender=u|specialcase_entity=generic)))
+8260	muß	0		
+8261	es	0		
+8262	schon	0		
+8263	hübsch	0		
+8264	grob	0		
+8265	anfangen	0		
+8266	,	0		
+8267	denn	0		
+8268	ich	0	(mention_id=1261|references=(entity=(entity_id=entity_0004|fullname=Ammerie Armbruster|gender=f)))	(mention_id=1284|references=(entity=(entity_id=1|fullname=Ammerie|gender=f)))
+8269	bin	0		
+8270	doch	0		
+8271	das	0		
+8272	sanftmütigste	0		
+8273	und	0		
+8274	verträglichste	0		
+8275	Geschöpf	0	(mention_id=1262|references=(entity=(entity_id=entity_0004|fullname=Ammerie Armbruster|gender=f)))	(mention_id=1285|references=(entity=(entity_id=1|fullname=Ammerie|gender=f)))
+8276	zwischen	0		
+8277	Rhein	0		
+8278	und	0		
+8279	Haardt	0		
+8280	.	0		
+8281	Aber	0		
+8282	kommt	0		
+8283	!	0		
+8284	der	0		
+8285	Vater	0	(mention_id=1263|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))	(mention_id=1286|references=(entity=(entity_id=2|fullname=Christoph|gender=m)))
+8286	ist	0		
+8287	da	0		
+8288	und	0		
+8289	sieht	0		
+8290	kirschrot	0		
+8291	aus	0		
+8292	im	0		
+8293	Gesicht	0		
+8294	.	0		
+8295	Er	0	(mention_id=1264|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))	(mention_id=1287|references=(entity=(entity_id=2|fullname=Christoph|gender=m)))
+8296	ist	0		
+8297	gewiß	0		
+8298	wieder	0		
+8299	mit	0		
+8300	dem	0		
+8301	Freiherrn	0	(mention_id=1265|references=(entity=(entity_id=entity_0018|fullname=Reichsfreiherr Dietrich von Remchingen|gender=m)))	(mention_id=1288|references=(entity=(entity_id=18|fullname=der Freiherr|gender=m)))
+8302	zusammengeraten	0		
+8303	,	0		
+8304	der	0	(mention_id=1266|references=(entity=(entity_id=entity_0018|fullname=Reichsfreiherr Dietrich von Remchingen|gender=m)))	(mention_id=1289|references=(entity=(entity_id=18|fullname=der Freiherr|gender=m)))
+8305	vielleicht	0		
+8306	die	0		
+8307	Elfuhrmesse	0		
+8308	mit	0		
+8309	seiner	0	(mention_id=1267|references=(entity=(entity_id=entity_0018|fullname=Reichsfreiherr Dietrich von Remchingen|gender=m)))	(mention_id=1290|references=(entity=(entity_id=18|fullname=der Freiherr|gender=m)))
+8310	hohen	0		
+8311	Gegenwart	0		
+8312	beehrt	0		
+8313	hat	0		
+8314	.	0		
+8315	«	0		
+8316	»	0		
+8317	Und	0		
+8318	wie	0		
+8319	steht's	0		
+8320	mit	0		
+8321	dem	0		
+8322	Mittagessen	0		
+8323	?	0		
+8324	«	0		
+8325	fragte	0		
+8326	Madlen	0	(mention_id=1268|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)))	(mention_id=1291|references=(entity=(entity_id=8|fullname=Madlen|gender=f)))
+8327	.	0		
+8328	»	0		
+8329	Alles	0		
+8330	bereit	0		
+8331	!	0		
+8332	riecht	0		
+8333	ihr	0	(mention_id=1269|references=(entity=(entity_id=entity_0004|fullname=Ammerie Armbruster|gender=f)),(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1292|references=(entity=(entity_id=8|fullname=Madlen|gender=f)),(entity=(entity_id=12|fullname=Trudi|gender=f)))
+8334	denn	0		
+8335	nicht	0		
+8336	,	0		
+8337	wie	0		
+8338	der	0		
+8339	Sonntagsschweinsbraten	0		
+8340	duftet	0		
+8341	?	0		
+8342	«	0		
+8343	lachte	0		
+8344	der	0		
+8345	Kobold	0	(mention_id=1270|references=(entity=(entity_id=entity_0004|fullname=Ammerie Armbruster|gender=f)|specialcase_reference=figurative))	(mention_id=1293|references=(entity=(entity_id=1|fullname=Ammerie|gender=f)))
+8346	.	0		
+8347	Da	0		
+8348	erhoben	0		
+8349	sich	0	(mention_id=1271|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)),(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1294|references=(entity=(entity_id=8|fullname=Madlen|gender=f)),(entity=(entity_id=12|fullname=Trudi|gender=f)))
+8350	die	0		
+8351	zwei	0	(mention_id=1272|references=(entity=(entity_id=entity_0003|fullname=Magdalene Armbruster|gender=f)),(entity=(entity_id=entity_0002|fullname=Gontrud Hegewald|gender=f)))	(mention_id=1295|references=(entity=(entity_id=8|fullname=Madlen|gender=f)),(entity=(entity_id=12|fullname=Trudi|gender=f)))
+8352	und	0		
+8353	gingen	0		
+8354	mit	0		
+8355	Ammerie	0	(mention_id=1273|references=(entity=(entity_id=entity_0004|fullname=Ammerie Armbruster|gender=f)))	(mention_id=1296|references=(entity=(entity_id=1|fullname=Ammerie|gender=f)))
+8356	zum	0		
+8357	Hause	0		
+8358	,	0		
+8359	in	0		
+8360	dessen	0		
+8361	Tür	0		
+8362	groß	0		
+8363	und	0		
+8364	breit	0		
+8365	Christoph	0	(mention_id=1274|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))	(mention_id=1297|references=(entity=(entity_id=2|fullname=Christoph|gender=m)))
+8366	Armbruster	0	(mention_id=1274|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))	(mention_id=1297|references=(entity=(entity_id=2|fullname=Christoph|gender=m)))
+8367	in	0		
+8368	seiner	0	(mention_id=1275|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))	(mention_id=1298|references=(entity=(entity_id=2|fullname=Christoph|gender=m)))
+8369	ganzen	0		
+8370	Bürgermeisterwürde	0		(mention_id=1299|references=(entity=(entity_id=2|fullname=Christoph|gender=m)))
+8371	,	0		
+8372	aber	0		
+8373	auch	0		
+8374	in	0		
+8375	seiner	0	(mention_id=1276|references=(entity=(entity_id=entity_0001|fullname=Christoph Armbruster|gender=m)))	(mention_id=1300|references=(entity=(entity_id=2|fullname=Christoph|gender=m)))
+8376	rosigsten	0		
+8377	Laune	0		
+8378	stand	0		
+8379	.	0		

@@ -1,0 +1,3612 @@
+i	token	is_section_start	gold	pred
+24400	6.	1		
+24401	Acht	0		
+24402	Tage	0		
+24403	später	0		
+24404	kehrten	0		
+24405	die	0		
+24406	Eisenschimmel	0		(mention_id=3396|references=(entity=(entity_id=31|fullname=die Eisenschimmel|gender=mf|specialcase_entity=group)))
+24407	mit	0		
+24408	dem	0		
+24409	geschlossenen	0		
+24410	Wagen	0		
+24411	im	0		
+24412	scharfen	0		
+24413	Trabe	0		
+24414	vom	0		
+24415	Kirchhofe	0		
+24416	zurück	0		
+24417	.	0		
+24418	Im	0		
+24419	Fond	0		
+24420	saß	0		
+24421	neben	0		
+24422	dem	0		
+24423	Onkel	0	(mention_id=3398|references=(entity=(entity_id=entity_0008|fullname=Onkel Heinrich|gender=m)))	(mention_id=3397|references=(entity=(entity_id=17|fullname=Onkel Heinrich|gender=m)))
+24424	Artur	0	(mention_id=3399|references=(entity=(entity_id=entity_0007|fullname=Artur Fredrich|gender=m)))	(mention_id=3398|references=(entity=(entity_id=1|fullname=Artur Fredrich|gender=m)))
+24425	Fredrich	0	(mention_id=3399|references=(entity=(entity_id=entity_0007|fullname=Artur Fredrich|gender=m)))	(mention_id=3398|references=(entity=(entity_id=1|fullname=Artur Fredrich|gender=m)))
+24426	mit	0		
+24427	verweinten	0		
+24428	Augen	0		
+24429	;	0		
+24430	gegenüber	0		
+24431	Linden	0	(mention_id=3400|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3399|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+24432	.	0		
+24433	Sie	0	(mention_id=3401|references=(entity=(entity_id=entity_0007|fullname=Artur Fredrich|gender=m)),(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)),(entity=(entity_id=entity_0008|fullname=Onkel Heinrich|gender=m)))	(mention_id=3400|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+24434	hatten	0		
+24435	Trauerflor	0		
+24436	um	0		
+24437	die	0		
+24438	Hüte	0		
+24439	und	0		
+24440	Trauerflor	0		
+24441	am	0		
+24442	linken	0		
+24443	Arm	0		
+24444	.	0		
+24445	Der	0		
+24446	Winter	0		
+24447	war	0		
+24448	vor	0		
+24449	dem	0		
+24450	Scheiden	0		
+24451	noch	0		
+24452	einmal	0		
+24453	in	0		
+24454	voller	0		
+24455	Herrlichkeit	0		
+24456	erschienen	0		
+24457	.	0		
+24458	Es	0		
+24459	schneite	0		
+24460	,	0		
+24461	und	0		
+24462	die	0		
+24463	großen	0		
+24464	Flocken	0		
+24465	legten	0		
+24466	sich	0		
+24467	auf	0		
+24468	ein	0		
+24469	kleines	0		
+24470	,	0		
+24471	frisches	0		
+24472	Grab	0		
+24473	in	0		
+24474	der	0		
+24475	eisenumgitterten	0		
+24476	Familiengruft	0		
+24477	der	0		
+24478	Baumhagens	0	(mention_id=3402|references=(entity=(entity_id=entity_0010|fullname=Familie Baumhagen|gender=mf|members=entity_0004,entity_0005,entity_0006,entity_0007,entity_0008,entity_0009,entity_0015|all_members_given=True|specialcase_entity=group)))	(mention_id=3401|references=(entity=(entity_id=30|fullname=die Baumhagens|gender=mf|specialcase_entity=group)))
+24479	.	0		
+24480	Jennys	0	(mention_id=3403|references=(entity=(entity_id=entity_0006|fullname=Jenny Fredrich, geb. Baumhagen|gender=f)))	(mention_id=3402|references=(entity=(entity_id=9|fullname=Jenny|gender=f)))
+24481	blonder	0		
+24482	Liebling	0	(mention_id=3404|references=(entity=(entity_id=entity_0020|fullname=Walterchen Fredrich|gender=m)))	(mention_id=3403|references=(entity=(entity_id=10|fullname=Jennys blonder Liebling|gender=m)))
+24483	war	0		
+24484	tot	0		
+24485	!	0		
+24486	Im	0		
+24487	Wagen	0		
+24488	sprach	0		
+24489	niemand	0		
+24490	ein	0		
+24491	Wort	0		
+24492	,	0		
+24493	und	0		
+24494	als	0		
+24495	die	0		
+24496	drei	0		
+24497	Herren	0	(mention_id=3405|references=(entity=(entity_id=entity_0007|fullname=Artur Fredrich|gender=m)),(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)),(entity=(entity_id=entity_0008|fullname=Onkel Heinrich|gender=m)))	(mention_id=3404|references=(entity=(entity_id=37|fullname=die drei Herren|gender=m|specialcase_entity=group)))
+24498	ausgestiegen	0		
+24499	waren	0		
+24500	,	0		
+24501	ging	0		
+24502	jeder	0	(mention_id=3406|references=(entity=(entity_id=entity_0007|fullname=Artur Fredrich|gender=m)),(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)),(entity=(entity_id=entity_0008|fullname=Onkel Heinrich|gender=m)))	(mention_id=3405|references=(entity=(entity_id=1|fullname=Artur Fredrich|gender=m)),(entity=(entity_id=11|fullname=Linden|gender=m)),(entity=(entity_id=17|fullname=Onkel Heinrich|gender=m)))
+24503	nach	0		
+24504	einem	0		
+24505	stummen	0		
+24506	Händedruck	0		
+24507	seinen	0	(mention_id=3407|references=(entity=(entity_id=entity_0007|fullname=Artur Fredrich|gender=m)),(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)),(entity=(entity_id=entity_0008|fullname=Onkel Heinrich|gender=m)))	
+24508	eigenen	0		
+24509	Weg	0		
+24510	.	0		
+24511	Onkel	0	(mention_id=3408|references=(entity=(entity_id=entity_0008|fullname=Onkel Heinrich|gender=m)))	(mention_id=3406|references=(entity=(entity_id=17|fullname=Onkel Heinrich|gender=m)))
+24512	Heinrich	0	(mention_id=3408|references=(entity=(entity_id=entity_0008|fullname=Onkel Heinrich|gender=m)))	(mention_id=3406|references=(entity=(entity_id=17|fullname=Onkel Heinrich|gender=m)))
+24513	,	0		
+24514	um	0		
+24515	einen	0		
+24516	Kognak	0		
+24517	zu	0		
+24518	nehmen	0		
+24519	,	0		
+24520	Artur	0	(mention_id=3409|references=(entity=(entity_id=entity_0007|fullname=Artur Fredrich|gender=m)))	(mention_id=3407|references=(entity=(entity_id=1|fullname=Artur Fredrich|gender=m)))
+24521	zu	0		
+24522	seiner	0	(mention_id=3410|references=(entity=(entity_id=entity_0007|fullname=Artur Fredrich|gender=m)))	(mention_id=3408|references=(entity=(entity_id=1|fullname=Artur Fredrich|gender=m)))
+24523	trostlosen	0		
+24524	jungen	0		
+24525	Frau	0	(mention_id=3411|references=(entity=(entity_id=entity_0006|fullname=Jenny Fredrich, geb. Baumhagen|gender=f)))	(mention_id=3409|references=(entity=(entity_id=2|fullname=Artur Fredrichs Frau|gender=f)))
+24526	und	0		
+24527	Linden	0	(mention_id=3412|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3410|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+24528	hinauf	0		
+24529	zu	0		
+24530	Trudchen	0	(mention_id=3413|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3411|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+24531	.	0		
+24532	Er	0	(mention_id=3414|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3412|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+24533	fand	0		
+24534	sie	0	(mention_id=3415|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3413|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+24535	nicht	0		
+24536	in	0		
+24537	der	0		
+24538	Wohnstube	0		
+24539	,	0		
+24540	sie	0	(mention_id=3416|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3414|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+24541	war	0		
+24542	wohl	0		
+24543	noch	0		
+24544	bei	0		
+24545	der	0		
+24546	Schwester	0	(mention_id=3417|references=(entity=(entity_id=entity_0006|fullname=Jenny Fredrich, geb. Baumhagen|gender=f)))	(mention_id=3415|references=(entity=(entity_id=26|fullname=Trudchens Schwester|gender=f)))
+24547	.	0		
+24548	Dann	0		
+24549	glaubte	0		
+24550	er	0	(mention_id=3418|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3416|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+24551	nebenan	0		
+24552	etwas	0		
+24553	rascheln	0		
+24554	zu	0		
+24555	hören	0		
+24556	.	0		
+24557	Er	0	(mention_id=3419|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3417|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+24558	schritt	0		
+24559	über	0		
+24560	den	0		
+24561	weichen	0		
+24562	Teppich	0		
+24563	und	0		
+24564	trat	0		
+24565	in	0		
+24566	die	0		
+24567	geöffnete	0		
+24568	Tür	0		
+24569	des	0		
+24570	Erkerzimmers	0		
+24571	.	0		
+24572	»	0		
+24573	Trudchen	0	(mention_id=3420|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3418|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+24574	«	0		
+24575	,	0		
+24576	sagte	0		
+24577	er	0	(mention_id=3421|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3419|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+24578	bestürzt	0		
+24579	,	0		
+24580	»	0		
+24581	um	0		
+24582	Gottes	0		
+24583	willen	0		
+24584	,	0		
+24585	was	0		
+24586	ist	0		
+24587	dir	0	(mention_id=3422|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3420|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+24588	?	0		
+24589	«	0		
+24590	–	0		
+24591	Sie	0	(mention_id=3423|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3421|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+24592	lag	0		
+24593	kniend	0		
+24594	vor	0		
+24595	ihrem	0	(mention_id=3424|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3422|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+24596	kleinen	0		
+24597	Sofa	0		
+24598	,	0		
+24599	den	0		
+24600	Kopf	0		
+24601	in	0		
+24602	ihre	0	(mention_id=3425|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3423|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+24603	Arme	0		
+24604	geborgen	0		
+24605	.	0		
+24606	Ein	0		
+24607	wunderliches	0		
+24608	Zucken	0		
+24609	und	0		
+24610	Beben	0		
+24611	ging	0		
+24612	durch	0		
+24613	ihren	0	(mention_id=3426|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3424|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+24614	Körper	0		
+24615	,	0		
+24616	wie	0		
+24617	wenn	0		
+24618	man	0		
+24619	weint	0		
+24620	ohne	0		
+24621	Tränen	0		
+24622	.	0		
+24623	»	0		
+24624	Trudchen	0	(mention_id=3427|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3425|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+24625	!	0		
+24626	«	0		
+24627	Er	0	(mention_id=3428|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3426|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+24628	faßte	0		
+24629	sie	0	(mention_id=3429|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3427|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+24630	und	0		
+24631	wollte	0		
+24632	sie	0	(mention_id=3430|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3428|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+24633	emporziehen	0		
+24634	,	0		
+24635	da	0		
+24636	hob	0		
+24637	sie	0	(mention_id=3431|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3429|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+24638	den	0		
+24639	Kopf	0		
+24640	und	0		
+24641	stand	0		
+24642	auf	0		
+24643	.	0		
+24644	»	0		
+24645	Aber	0		
+24646	sprich	0		
+24647	doch	0		
+24648	,	0		
+24649	sprich	0		
+24650	,	0		
+24651	was	0		
+24652	ist	0		
+24653	denn	0		
+24654	geschehen	0		
+24655	?	0		
+24656	«	0		
+24657	forschte	0		
+24658	er	0	(mention_id=3432|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3430|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+24659	,	0		
+24660	»	0		
+24661	gibst	0		
+24662	du	0	(mention_id=3433|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3431|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+24663	dich	0	(mention_id=3434|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3432|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+24664	so	0		
+24665	dem	0		
+24666	Schmerze	0		
+24667	um	0		
+24668	den	0		
+24669	kleinen	0		
+24670	Liebling	0	(mention_id=3435|references=(entity=(entity_id=entity_0020|fullname=Walterchen Fredrich|gender=m)))	(mention_id=3433|references=(entity=(entity_id=10|fullname=Jennys blonder Liebling|gender=m)))
+24671	hin	0		
+24672	?	0		
+24673	Ich	0	(mention_id=3436|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3434|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+24674	bitte	0		
+24675	dich	0	(mention_id=3437|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3435|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+24676	,	0		
+24677	Trudchen	0	(mention_id=3438|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3436|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+24678	,	0		
+24679	nimm	0		
+24680	dich	0	(mention_id=3439|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3437|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+24681	zusammen	0		
+24682	,	0		
+24683	fasse	0		
+24684	dich	0	(mention_id=3440|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3438|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+24685	–	0		
+24686	du	0	(mention_id=3441|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3439|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+24687	machst	0		
+24688	dich	0	(mention_id=3442|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3440|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+24689	krank	0		
+24690	!	0		
+24691	«	0		
+24692	Sie	0	(mention_id=3443|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3441|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+24693	hatte	0		
+24694	nicht	0		
+24695	geweint	0		
+24696	,	0		
+24697	sie	0	(mention_id=3444|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3442|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+24698	sah	0		
+24699	nur	0		
+24700	leichenblaß	0		
+24701	aus	0		
+24702	,	0		
+24703	ihre	0	(mention_id=3445|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3443|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+24704	Hände	0		
+24705	lagen	0		
+24706	eisigkalt	0		
+24707	in	0		
+24708	den	0		
+24709	seinen	0	(mention_id=3446|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3444|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+24710	.	0		
+24711	»	0		
+24712	Komm	0		
+24713	«	0		
+24714	,	0		
+24715	sagte	0		
+24716	er	0	(mention_id=3447|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3445|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+24717	,	0		
+24718	»	0		
+24719	erzähle	0		
+24720	mir	0	(mention_id=3448|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3446|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+24721	,	0		
+24722	weine	0		
+24723	dich	0	(mention_id=3449|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3447|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+24724	aus	0		
+24725	!	0		
+24726	«	0		
+24727	Und	0		
+24728	er	0	(mention_id=3450|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3448|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+24729	zog	0		
+24730	sie	0	(mention_id=3451|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3449|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+24731	an	0		
+24732	sich	0	(mention_id=3452|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3450|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+24733	.	0		
+24734	Sie	0	(mention_id=3453|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3451|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+24735	schmiegte	0		
+24736	sich	0	(mention_id=3454|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3452|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+24737	fest	0		
+24738	in	0		
+24739	seine	0	(mention_id=3455|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3453|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+24740	Arme	0		
+24741	,	0		
+24742	wie	0		
+24743	sie	0	(mention_id=3456|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3454|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+24744	es	0		
+24745	noch	0		
+24746	nie	0		
+24747	bisher	0		
+24748	getan	0		
+24749	.	0		
+24750	»	0		
+24751	Nun	0		
+24752	bin	0		
+24753	ich	0	(mention_id=3457|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3455|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+24754	ja	0		
+24755	bei	0		
+24756	dir	0	(mention_id=3458|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3456|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+24757	«	0		
+24758	,	0		
+24759	flüsterte	0		
+24760	sie	0	(mention_id=3459|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3457|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+24761	,	0		
+24762	»	0		
+24763	nun	0		
+24764	ist	0		
+24765	es	0		
+24766	gut	0		
+24767	.	0		
+24768	«	0		
+24769	»	0		
+24770	Hast	0		
+24771	du	0	(mention_id=3460|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3458|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+24772	dich	0	(mention_id=3461|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3459|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+24773	gefürchtet	0		
+24774	?	0		
+24775	Hat	0		
+24776	dir	0	(mention_id=3462|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3460|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+24777	jemand	0		
+24778	etwas	0		
+24779	getan	0		
+24780	?	0		
+24781	«	0		
+24782	Sie	0	(mention_id=3463|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3461|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+24783	nickte	0		
+24784	.	0		
+24785	»	0		
+24786	Ja	0		
+24787	!	0		
+24788	«	0		
+24789	sprach	0		
+24790	sie	0	(mention_id=3464|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3462|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+24791	hastig	0		
+24792	,	0		
+24793	»	0		
+24794	vorhin	0		
+24795	–	0		
+24796	da	0		
+24797	hörte	0		
+24798	ich	0	(mention_id=3465|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3463|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+24799	ganz	0		
+24800	zufällig	0		
+24801	ein	0		
+24802	paar	0		
+24803	Worte	0		
+24804	an	0		
+24805	,	0		
+24806	zwischen	0		
+24807	Mama	0	(mention_id=3466|references=(entity=(entity_id=entity_0005|fullname=Ottilie Baumhagen|gender=f)))	(mention_id=3464|references=(entity=(entity_id=3|fullname=Frau Baumhagen|gender=f)))
+24808	und	0		
+24809	der	0		
+24810	Tante	0	(mention_id=3467|references=(entity=(entity_id=entity_0009|fullname=Tante Pauline|gender=f)))	(mention_id=3465|references=(entity=(entity_id=23|fullname=Tante Stadträtin|gender=f)))
+24811	Stadträtin	0	(mention_id=3467|references=(entity=(entity_id=entity_0009|fullname=Tante Pauline|gender=f)))	(mention_id=3465|references=(entity=(entity_id=23|fullname=Tante Stadträtin|gender=f)))
+24812	–	0		
+24813	sie	0	(mention_id=3468|references=(entity=(entity_id=entity_0005|fullname=Ottilie Baumhagen|gender=f)),(entity=(entity_id=entity_0009|fullname=Tante Pauline|gender=f)))	(mention_id=3466|references=(entity=(entity_id=3|fullname=Frau Baumhagen|gender=f)))
+24814	kamen	0		
+24815	von	0		
+24816	Jenny	0	(mention_id=3469|references=(entity=(entity_id=entity_0006|fullname=Jenny Fredrich, geb. Baumhagen|gender=f)))	(mention_id=3467|references=(entity=(entity_id=9|fullname=Jenny|gender=f)))
+24817	herauf	0		
+24818	,	0		
+24819	sie	0	(mention_id=3470|references=(entity=(entity_id=entity_0005|fullname=Ottilie Baumhagen|gender=f)),(entity=(entity_id=entity_0009|fullname=Tante Pauline|gender=f)))	(mention_id=3468|references=(entity=(entity_id=3|fullname=Frau Baumhagen|gender=f)))
+24820	vermuteten	0		
+24821	mich	0	(mention_id=3471|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3469|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+24822	wohl	0		
+24823	nicht	0		
+24824	hier	0		
+24825	–	0		
+24826	ich	0	(mention_id=3472|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3470|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+24827	weiß	0		
+24828	es	0		
+24829	nicht	0		
+24830	.	0		
+24831	Mama	0	(mention_id=3473|references=(entity=(entity_id=entity_0005|fullname=Ottilie Baumhagen|gender=f)))	(mention_id=3471|references=(entity=(entity_id=3|fullname=Frau Baumhagen|gender=f)))
+24832	weinte	0		
+24833	noch	0		
+24834	immer	0		
+24835	sehr	0		
+24836	um	0		
+24837	den	0		
+24838	Kleinen	0	(mention_id=3474|references=(entity=(entity_id=entity_0020|fullname=Walterchen Fredrich|gender=m)))	(mention_id=3472|references=(entity=(entity_id=10|fullname=Jennys blonder Liebling|gender=m)))
+24839	und	0		
+24840	–	0		
+24841	dazwischen	0		
+24842	sagte	0		
+24843	sie	0	(mention_id=3475|references=(entity=(entity_id=entity_0005|fullname=Ottilie Baumhagen|gender=f)))	(mention_id=3473|references=(entity=(entity_id=3|fullname=Frau Baumhagen|gender=f)))
+24844	,	0		
+24845	Jenny	0	(mention_id=3476|references=(entity=(entity_id=entity_0006|fullname=Jenny Fredrich, geb. Baumhagen|gender=f)))	(mention_id=3474|references=(entity=(entity_id=9|fullname=Jenny|gender=f)))
+24846	müsse	0		
+24847	aus	0		
+24848	dem	0		
+24849	Hause	0		
+24850	–	0		
+24851	sie	0	(mention_id=3477|references=(entity=(entity_id=entity_0006|fullname=Jenny Fredrich, geb. Baumhagen|gender=f)))	(mention_id=3475|references=(entity=(entity_id=3|fullname=Frau Baumhagen|gender=f)))
+24852	müsse	0		
+24853	zerstreut	0		
+24854	werden	0		
+24855	–	0		
+24856	diese	0		
+24857	apathische	0		
+24858	Ruhe	0		
+24859	sei	0		
+24860	so	0		
+24861	gefährlich	0		
+24862	.	0		
+24863	Du	0	(mention_id=3478|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3476|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+24864	weißt	0		
+24865	ja	0		
+24866	,	0		
+24867	sie	0	(mention_id=3479|references=(entity=(entity_id=entity_0006|fullname=Jenny Fredrich, geb. Baumhagen|gender=f)))	(mention_id=3477|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+24868	hat	0		
+24869	seit	0		
+24870	drei	0		
+24871	Tagen	0		
+24872	noch	0		
+24873	kein	0		
+24874	Wort	0		
+24875	gesprochen	0		
+24876	–	0		
+24877	und	0		
+24878	ich	0	(mention_id=3480|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3478|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+24879	müsse	0		
+24880	sie	0	(mention_id=3481|references=(entity=(entity_id=entity_0006|fullname=Jenny Fredrich, geb. Baumhagen|gender=f)))	(mention_id=3479|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+24881	begleiten	0		
+24882	auf	0		
+24883	einer	0		
+24884	längeren	0		
+24885	Reise	0		
+24886	–	0		
+24887	damit	0		
+24888	ich	0	(mention_id=3482|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3480|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+24889	–	0		
+24890	«	0		
+24891	Sie	0	(mention_id=3483|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3481|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+24892	stockte	0		
+24893	und	0		
+24894	biß	0		
+24895	die	0		
+24896	Lippen	0		
+24897	aufeinander	0		
+24898	.	0		
+24899	»	0		
+24900	Damit	0		
+24901	du	0	(mention_id=3484|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3482|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+24902	mich	0	(mention_id=3485|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3483|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+24903	womöglich	0		
+24904	vergessen	0		
+24905	sollst	0		
+24906	?	0		
+24907	«	0		
+24908	fragte	0		
+24909	er	0	(mention_id=3486|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3484|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+24910	ernst	0		
+24911	.	0		
+24912	Er	0	(mention_id=3487|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3485|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+24913	legte	0		
+24914	die	0		
+24915	Hand	0		
+24916	unter	0		
+24917	ihr	0	(mention_id=3488|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3486|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+24918	Kinn	0		
+24919	und	0		
+24920	blickte	0		
+24921	in	0		
+24922	ihre	0	(mention_id=3489|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3487|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+24923	Augen	0		
+24924	.	0		
+24925	Sie	0	(mention_id=3490|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3488|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+24926	antwortete	0		
+24927	nicht	0		
+24928	.	0		
+24929	Aber	0		
+24930	er	0	(mention_id=3491|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3489|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+24931	las	0		
+24932	die	0		
+24933	Bestätigung	0		
+24934	in	0		
+24935	dem	0		
+24936	tränenumflorten	0		
+24937	Blick	0		
+24938	.	0		
+24939	»	0		
+24940	So	0		
+24941	gern	0		
+24942	möchte	0		
+24943	man	0		
+24944	mich	0	(mention_id=3492|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3490|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+24945	hier	0		
+24946	fortdrängen	0		
+24947	?	0		
+24948	So	0		
+24949	stark	0		
+24950	ist	0		
+24951	die	0		
+24952	Abneigung	0		
+24953	,	0		
+24954	Trudchen	0	(mention_id=3493|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3491|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+24955	?	0		
+24956	–	0		
+24957	Und	0		
+24958	du	0	(mention_id=3494|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3492|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+24959	?	0		
+24960	«	0		
+24961	Er	0	(mention_id=3495|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3493|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+24962	fühlte	0		
+24963	,	0		
+24964	wie	0		
+24965	sie	0	(mention_id=3496|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3494|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+24966	zitterte	0		
+24967	.	0		
+24968	»	0		
+24969	Oh	0		
+24970	!	0		
+24971	«	0		
+24972	sprach	0		
+24973	sie	0	(mention_id=3497|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3495|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+24974	mit	0		
+24975	einer	0		
+24976	Heftigkeit	0		
+24977	,	0		
+24978	vor	0		
+24979	der	0		
+24980	Linden	0	(mention_id=3498|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3496|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+24981	fast	0		
+24982	erschrak	0		
+24983	,	0		
+24984	»	0		
+24985	–	0		
+24986	oh	0		
+24987	–	0		
+24988	ich	0	(mention_id=3499|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3497|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+24989	–	0		
+24990	–	0		
+24991	siehst	0		
+24992	du	0	(mention_id=3500|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3498|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+24993	,	0		
+24994	es	0		
+24995	gibt	0		
+24996	Momente	0		
+24997	,	0		
+24998	wo	0		
+24999	ein	0		
+25000	Dämon	0		
+25001	Gewalt	0		
+25002	über	0		
+25003	mein	0	(mention_id=3501|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3499|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+25004	Herz	0		
+25005	bekommt	0		
+25006	.	0		
+25007	Ich	0	(mention_id=3502|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3500|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+25008	bin	0		
+25009	hineingelaufen	0		
+25010	im	0		
+25011	hellen	0		
+25012	Zorn	0		
+25013	,	0		
+25014	ich	0	(mention_id=3503|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3501|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+25015	–	0		
+25016	ich	0	(mention_id=3504|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3502|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+25017	weiß	0		
+25018	nicht	0		
+25019	mehr	0		
+25020	,	0		
+25021	was	0		
+25022	ich	0	(mention_id=3505|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3503|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+25023	alles	0		
+25024	getan	0		
+25025	und	0		
+25026	gesagt	0		
+25027	habe	0		
+25028	–	0		
+25029	ich	0	(mention_id=3506|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3504|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+25030	schäme	0		
+25031	mich	0	(mention_id=3507|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3505|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+25032	jetzt	0		
+25033	–	0		
+25034	ich	0	(mention_id=3508|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3506|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+25035	hätte	0		
+25036	still	0		
+25037	sein	0		
+25038	müssen	0		
+25039	.	0		
+25040	Sie	0	(mention_id=3509|references=(entity=(entity_id=entity_0005|fullname=Ottilie Baumhagen|gender=f)),(entity=(entity_id=entity_0009|fullname=Tante Pauline|gender=f)))	(mention_id=3507|references=(entity=(entity_id=3|fullname=Frau Baumhagen|gender=f)),(entity=(entity_id=23|fullname=Tante Stadträtin|gender=f)))
+25041	können	0		
+25042	uns	0	(mention_id=3510|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)),(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3508|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)),(entity=(entity_id=11|fullname=Linden|gender=m)))
+25043	ja	0		
+25044	gar	0		
+25045	nicht	0		
+25046	trennen	0		
+25047	,	0		
+25048	nein	0		
+25049	–	0		
+25050	sie	0	(mention_id=3511|references=(entity=(entity_id=entity_0005|fullname=Ottilie Baumhagen|gender=f)),(entity=(entity_id=entity_0009|fullname=Tante Pauline|gender=f)))	(mention_id=3509|references=(entity=(entity_id=3|fullname=Frau Baumhagen|gender=f)))
+25051	können	0		
+25052	es	0		
+25053	nicht	0		
+25054	!	0		
+25055	Nun	0		
+25056	liegt	0		
+25057	Mama	0	(mention_id=3512|references=(entity=(entity_id=entity_0005|fullname=Ottilie Baumhagen|gender=f)))	(mention_id=3510|references=(entity=(entity_id=3|fullname=Frau Baumhagen|gender=f)))
+25058	drüben	0		
+25059	in	0		
+25060	ihrem	0	(mention_id=3513|references=(entity=(entity_id=entity_0005|fullname=Ottilie Baumhagen|gender=f)))	(mention_id=3511|references=(entity=(entity_id=3|fullname=Frau Baumhagen|gender=f)))
+25061	Schlafzimmer	0		
+25062	,	0		
+25063	und	0		
+25064	die	0		
+25065	Sophie	0	(mention_id=3514|references=(entity=(entity_id=entity_0071|fullname=Sophie|gender=f)))	(mention_id=3512|references=(entity=(entity_id=22|fullname=Sophie|gender=f)))
+25066	wurde	0		
+25067	zu	0		
+25068	dem	0		
+25069	Doktor	0	(mention_id=3515|references=(entity=(entity_id=entity_0120|fullname=Doktor|gender=m)))	(mention_id=3513|references=(entity=(entity_id=28|fullname=der Doktor|gender=m)))
+25070	geschickt	0		
+25071	.	0		
+25072	Ach	0		
+25073	,	0		
+25074	Franz	0	(mention_id=3516|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3514|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+25075	,	0		
+25076	ich	0	(mention_id=3517|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3515|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+25077	habe	0		
+25078	so	0		
+25079	lange	0		
+25080	Jahre	0		
+25081	alles	0		
+25082	geduldig	0		
+25083	getragen	0		
+25084	–	0		
+25085	ist	0		
+25086	es	0		
+25087	denn	0		
+25088	so	0		
+25089	große	0		
+25090	Sünde	0		
+25091	,	0		
+25092	wenn	0		
+25093	endlich	0		
+25094	das	0		
+25095	unterdrückte	0		
+25096	Gefühl	0		
+25097	durchbricht	0		
+25098	,	0		
+25099	wenn	0		
+25100	einmal	0		
+25101	die	0		
+25102	Selbstbeherrschung	0		
+25103	mich	0	(mention_id=3518|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3516|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+25104	verließ	0		
+25105	?	0		
+25106	Ich	0	(mention_id=3519|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3517|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+25107	bin	0		
+25108	heftig	0		
+25109	gewesen	0		
+25110	–	0		
+25111	ich	0	(mention_id=3520|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3518|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+25112	habe	0		
+25113	mich	0	(mention_id=3521|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3519|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+25114	stets	0		
+25115	für	0		
+25116	so	0		
+25117	ruhig	0		
+25118	gehalten	0		
+25119	–	0		
+25120	wie	0		
+25121	ein	0		
+25122	Sturm	0		
+25123	rissen	0		
+25124	die	0		
+25125	Worte	0		
+25126	mich	0	(mention_id=3522|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3520|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+25127	hin	0		
+25128	,	0		
+25129	die	0		
+25130	ich	0	(mention_id=3523|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3521|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+25131	gehört	0		
+25132	habe	0		
+25133	.	0		
+25134	Ich	0	(mention_id=3524|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3522|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+25135	weiß	0		
+25136	nicht	0		
+25137	,	0		
+25138	wie	0		
+25139	schwer	0		
+25140	meine	0	(mention_id=3525|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3523|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+25141	Vorwürfe	0		
+25142	waren	0		
+25143	gegen	0		
+25144	die	0		
+25145	Mutter	0	(mention_id=3526|references=(entity=(entity_id=entity_0005|fullname=Ottilie Baumhagen|gender=f)))	(mention_id=3524|references=(entity=(entity_id=3|fullname=Frau Baumhagen|gender=f)))
+25146	.	0		
+25147	Und	0		
+25148	heute	0		
+25149	,	0		
+25150	gerade	0		
+25151	heute	0		
+25152	,	0		
+25153	wo	0		
+25154	sie	0	(mention_id=3527|references=(entity=(entity_id=entity_0005|fullname=Ottilie Baumhagen|gender=f)))	(mention_id=3525|references=(entity=(entity_id=3|fullname=Frau Baumhagen|gender=f)))
+25155	den	0		
+25156	einzigen	0		
+25157	Sonnenstrahl	0		
+25158	hinaustrugen	0		
+25159	,	0		
+25160	der	0		
+25161	für	0		
+25162	mich	0	(mention_id=3528|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3526|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+25163	im	0		
+25164	Hause	0		
+25165	war	0		
+25166	.	0		
+25167	«	0		
+25168	»	0		
+25169	Wir	0	(mention_id=3529|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)),(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3527|references=(entity=(entity_id=11|fullname=Linden|gender=m)),(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+25170	wollen	0		
+25171	zur	0		
+25172	Mama	0	(mention_id=3530|references=(entity=(entity_id=entity_0005|fullname=Ottilie Baumhagen|gender=f)))	(mention_id=3528|references=(entity=(entity_id=3|fullname=Frau Baumhagen|gender=f)))
+25173	gehen	0		
+25174	,	0		
+25175	Trudchen	0	(mention_id=3531|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3529|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+25176	,	0		
+25177	und	0		
+25178	sie	0	(mention_id=3532|references=(entity=(entity_id=entity_0005|fullname=Ottilie Baumhagen|gender=f)))	(mention_id=3530|references=(entity=(entity_id=3|fullname=Frau Baumhagen|gender=f)))
+25179	bitten	0		
+25180	,	0		
+25181	uns	0	(mention_id=3533|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)),(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3531|references=(entity=(entity_id=11|fullname=Linden|gender=m)),(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+25182	zu	0		
+25183	verzeihen	0		
+25184	,	0		
+25185	daß	0		
+25186	wir	0	(mention_id=3534|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)),(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3532|references=(entity=(entity_id=11|fullname=Linden|gender=m)),(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+25187	uns	0	(mention_id=3535|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)),(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3533|references=(entity=(entity_id=11|fullname=Linden|gender=m)),(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+25188	so	0		
+25189	liebhaben	0		
+25190	–	0		
+25191	komm.	0		
+25192	«	0		
+25193	Er	0	(mention_id=3536|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3534|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+25194	hatte	0		
+25195	das	0		
+25196	so	0		
+25197	gesprochen	0		
+25198	,	0		
+25199	um	0		
+25200	sie	0	(mention_id=3537|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3535|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+25201	zu	0		
+25202	trösten	0		
+25203	und	0		
+25204	weil	0		
+25205	er	0	(mention_id=3538|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3536|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+25206	fühlte	0		
+25207	,	0		
+25208	daß	0		
+25209	irgend	0		
+25210	etwas	0		
+25211	geschehen	0		
+25212	müsse	0		
+25213	.	0		
+25214	Am	0		
+25215	liebsten	0		
+25216	hätte	0		
+25217	er	0	(mention_id=3539|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3537|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+25218	das	0		
+25219	Mädchen	0	(mention_id=3540|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3538|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+25220	an	0		
+25221	die	0		
+25222	Hand	0		
+25223	genommen	0		
+25224	und	0		
+25225	sie	0	(mention_id=3541|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3539|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+25226	hinausgeführt	0		
+25227	über	0		
+25228	diese	0		
+25229	Schwelle	0		
+25230	.	0		
+25231	Sie	0	(mention_id=3542|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3540|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+25232	machte	0		
+25233	sich	0	(mention_id=3543|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3541|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+25234	los	0		
+25235	und	0		
+25236	sah	0		
+25237	ihn	0	(mention_id=3544|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3542|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+25238	erstaunt	0		
+25239	an	0		
+25240	.	0		
+25241	»	0		
+25242	Um	0		
+25243	Verzeihung	0		
+25244	bitten	0		
+25245	?	0		
+25246	Deshalb	0		
+25247	?	0		
+25248	«	0		
+25249	»	0		
+25250	Trudchen	0	(mention_id=3545|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3543|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+25251	,	0		
+25252	verstehe	0		
+25253	mich	0	(mention_id=3546|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3544|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+25254	nicht	0		
+25255	falsch	0		
+25256	!	0		
+25257	«	0		
+25258	Er	0	(mention_id=3547|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3545|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+25259	wurde	0		
+25260	fast	0		
+25261	verlegen	0		
+25262	vor	0		
+25263	ihren	0	(mention_id=3548|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3546|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+25264	großen	0		
+25265	,	0		
+25266	verwunderten	0		
+25267	Augen	0		
+25268	.	0		
+25269	»	0		
+25270	Ich	0	(mention_id=3549|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3547|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+25271	meinte	0		
+25272	damit	0		
+25273	,	0		
+25274	daß	0		
+25275	Mama	0	(mention_id=3550|references=(entity=(entity_id=entity_0005|fullname=Ottilie Baumhagen|gender=f)))	(mention_id=3548|references=(entity=(entity_id=3|fullname=Frau Baumhagen|gender=f)))
+25276	es	0		
+25277	auf	0		
+25278	eine	0		
+25279	angemessene	0		
+25280	Art	0		
+25281	erfährt	0		
+25282	,	0		
+25283	wie	0		
+25284	wir	0	(mention_id=3551|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)),(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3549|references=(entity=(entity_id=11|fullname=Linden|gender=m)),(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+25285	voneinander	0		
+25286	nicht	0		
+25287	lassen	0		
+25288	werden	0		
+25289	.	0		
+25290	Sag	0		
+25291	ihr	0	(mention_id=3552|references=(entity=(entity_id=entity_0005|fullname=Ottilie Baumhagen|gender=f)))	(mention_id=3550|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+25292	ein	0		
+25293	gutes	0		
+25294	Wort	0		
+25295	wegen	0		
+25296	deiner	0	(mention_id=3553|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3551|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+25297	Heftigkeit	0		
+25298	.	0		
+25299	Komm	0		
+25300	,	0		
+25301	ich	0	(mention_id=3554|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3552|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+25302	gehe	0		
+25303	mit	0		
+25304	dir	0	(mention_id=3555|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3553|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+25305	.	0		
+25306	«	0		
+25307	»	0		
+25308	Das	0		
+25309	kann	0		
+25310	ich	0	(mention_id=3556|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3554|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+25311	nicht	0		
+25312	!	0		
+25313	«	0		
+25314	rief	0		
+25315	sie	0	(mention_id=3557|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3555|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+25316	.	0		
+25317	»	0		
+25318	Ich	0	(mention_id=3558|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3556|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+25319	kann	0		
+25320	nicht	0		
+25321	um	0		
+25322	Verzeihung	0		
+25323	bitten	0		
+25324	,	0		
+25325	wenn	0		
+25326	man	0		
+25327	mich	0	(mention_id=3559|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3557|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+25328	so	0		
+25329	gekränkt	0		
+25330	hat	0		
+25331	in	0		
+25332	dem	0		
+25333	,	0		
+25334	was	0		
+25335	mir	0	(mention_id=3560|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3558|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+25336	das	0		
+25337	Heiligste	0		
+25338	,	0		
+25339	das	0		
+25340	Liebste	0		
+25341	ist	0		
+25342	.	0		
+25343	Ich	0	(mention_id=3561|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3559|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+25344	kann	0		
+25345	nicht	0		
+25346	!	0		
+25347	«	0		
+25348	wiederholte	0		
+25349	sie	0	(mention_id=3562|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3560|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+25350	und	0		
+25351	trat	0		
+25352	an	0		
+25353	ihm	0	(mention_id=3563|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3561|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+25354	vorüber	0		
+25355	in	0		
+25356	den	0		
+25357	Erker	0		
+25358	.	0		
+25359	Er	0	(mention_id=3564|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3562|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+25360	ging	0		
+25361	ihr	0	(mention_id=3565|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3563|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+25362	nach	0		
+25363	und	0		
+25364	faßte	0		
+25365	nach	0		
+25366	ihrer	0	(mention_id=3566|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3564|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+25367	Hand	0		
+25368	.	0		
+25369	Es	0		
+25370	war	0		
+25371	ihm	0	(mention_id=3567|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3565|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+25372	wunderlich	0		
+25373	zumute	0		
+25374	.	0		
+25375	Er	0	(mention_id=3568|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3566|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+25376	hatte	0		
+25377	bis	0		
+25378	jetzt	0		
+25379	nur	0		
+25380	das	0		
+25381	ruhige	0		
+25382	,	0		
+25383	maßvolle	0		
+25384	Weib	0	(mention_id=3569|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3567|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+25385	in	0		
+25386	ihr	0	(mention_id=3570|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3568|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+25387	gesehen	0		
+25388	.	0		
+25389	Aber	0		
+25390	sie	0	(mention_id=3571|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3569|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+25391	verstand	0		
+25392	ihn	0	(mention_id=3572|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3570|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+25393	falsch	0		
+25394	.	0		
+25395	»	0		
+25396	Nein	0		
+25397	!	0		
+25398	«	0		
+25399	sagte	0		
+25400	sie	0	(mention_id=3573|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3571|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+25401	,	0		
+25402	»	0		
+25403	bitte	0		
+25404	mich	0	(mention_id=3574|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3572|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+25405	nicht	0		
+25406	darum	0		
+25407	,	0		
+25408	Franz.	0	(mention_id=3575|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3573|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+25409	Ich	0	(mention_id=3576|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3574|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+25410	tue	0		
+25411	es	0		
+25412	nicht	0		
+25413	,	0		
+25414	ich	0	(mention_id=3577|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3575|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+25415	kann	0		
+25416	es	0		
+25417	nicht	0		
+25418	,	0		
+25419	ich	0	(mention_id=3578|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3576|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+25420	habe	0		
+25421	es	0		
+25422	nie	0		
+25423	gekonnt	0		
+25424	!	0		
+25425	Auch	0		
+25426	als	0		
+25427	Kind	0	(mention_id=3579|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3577|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+25428	nicht	0		
+25429	,	0		
+25430	obgleich	0		
+25431	sie	0	(mention_id=3580|references=(entity=(entity_id=entity_0005|fullname=Ottilie Baumhagen|gender=f)),(entity=(entity_id=entity_0015|fullname=Leberecht Baumhagen|gender=m)))	(mention_id=3578|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+25432	mich	0	(mention_id=3581|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3579|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+25433	stundenlang	0		
+25434	eingesperrt	0		
+25435	haben	0		
+25436	in	0		
+25437	eine	0		
+25438	dunkle	0		
+25439	Stube	0		
+25440	.	0		
+25441	«	0		
+25442	»	0		
+25443	Ich	0	(mention_id=3582|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3580|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+25444	wollte	0		
+25445	dich	0	(mention_id=3583|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3581|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+25446	nicht	0		
+25447	bitten	0		
+25448	«	0		
+25449	,	0		
+25450	sagte	0		
+25451	er	0	(mention_id=3584|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3582|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+25452	,	0		
+25453	»	0		
+25454	laß	0		
+25455	mir	0	(mention_id=3585|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3583|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+25456	nur	0		
+25457	deine	0	(mention_id=3586|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3584|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+25458	Hand	0		
+25459	.	0		
+25460	Ich	0	(mention_id=3587|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3585|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+25461	muß	0		
+25462	doch	0		
+25463	wissen	0		
+25464	,	0		
+25465	daß	0		
+25466	du	0	(mention_id=3588|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3586|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+25467	es	0		
+25468	noch	0		
+25469	bist	0		
+25470	,	0		
+25471	Trudchen	0	(mention_id=3589|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3587|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+25472	.	0		
+25473	«	0		
+25474	Sie	0	(mention_id=3590|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3588|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+25475	beugte	0		
+25476	sich	0	(mention_id=3591|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3589|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+25477	hernieder	0		
+25478	auf	0		
+25479	seine	0	(mention_id=3592|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3590|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+25480	Rechte	0		
+25481	und	0		
+25482	drückte	0		
+25483	einen	0		
+25484	Kuß	0		
+25485	darauf	0		
+25486	.	0		
+25487	»	0		
+25488	Wenn	0		
+25489	du	0	(mention_id=3593|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3591|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+25490	nicht	0		
+25491	auf	0		
+25492	der	0		
+25493	Welt	0		
+25494	wärest	0		
+25495	,	0		
+25496	Franz	0	(mention_id=3594|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3592|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+25497	,	0		
+25498	wenn	0		
+25499	ich	0	(mention_id=3595|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3593|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+25500	hier	0		
+25501	allein	0		
+25502	stehen	0		
+25503	müßte	0		
+25504	,	0		
+25505	heute	0		
+25506	«	0		
+25507	,	0		
+25508	flüsterte	0		
+25509	sie	0	(mention_id=3596|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3594|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+25510	innig	0		
+25511	.	0		
+25512	»	0		
+25513	Aber	0		
+25514	du	0	(mention_id=3597|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3595|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+25515	hast	0		
+25516	doch	0		
+25517	um	0		
+25518	meinetwegen	0	(mention_id=3598|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3596|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+25519	den	0		
+25520	Kummer	0		
+25521	«	0		
+25522	,	0		
+25523	erwiderte	0		
+25524	er	0	(mention_id=3599|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3597|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+25525	gerührt	0		
+25526	.	0		
+25527	Sie	0	(mention_id=3600|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3598|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+25528	schüttelte	0		
+25529	den	0		
+25530	Kopf	0		
+25531	.	0		
+25532	»	0		
+25533	Verkenne	0		
+25534	mich	0	(mention_id=3601|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3599|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+25535	nur	0		
+25536	nicht	0		
+25537	«	0		
+25538	,	0		
+25539	sprach	0		
+25540	sie	0	(mention_id=3602|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3600|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+25541	wieder	0		
+25542	,	0		
+25543	»	0		
+25544	und	0		
+25545	habe	0		
+25546	Nachsicht	0		
+25547	mit	0		
+25548	meinen	0	(mention_id=3603|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3601|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+25549	Fehlern	0		
+25550	.	0		
+25551	Nicht	0		
+25552	wahr	0		
+25553	,	0		
+25554	Franz	0	(mention_id=3604|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3602|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+25555	,	0		
+25556	das	0		
+25557	versprichst	0		
+25558	du	0	(mention_id=3605|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3603|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+25559	mir	0	(mention_id=3606|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3604|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+25560	?	0		
+25561	«	0		
+25562	Es	0		
+25563	klang	0		
+25564	wie	0		
+25565	Angst	0		
+25566	aus	0		
+25567	dieser	0		
+25568	Bitte	0		
+25569	.	0		
+25570	»	0		
+25571	Sieh	0		
+25572	,	0		
+25573	ich	0	(mention_id=3607|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3605|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+25574	bin	0		
+25575	so	0		
+25576	trotzig	0		
+25577	,	0		
+25578	wenn	0		
+25579	ich	0	(mention_id=3608|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3606|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+25580	mich	0	(mention_id=3609|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3607|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+25581	gekränkt	0		
+25582	fühle	0		
+25583	.	0		
+25584	Hart	0		
+25585	werde	0		
+25586	ich	0	(mention_id=3610|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3608|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+25587	dann	0		
+25588	aus	0		
+25589	Trotz	0		
+25590	wie	0		
+25591	Stein	0		
+25592	,	0		
+25593	alles	0		
+25594	Gute	0		
+25595	schweigt	0		
+25596	in	0		
+25597	mir	0	(mention_id=3611|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3609|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+25598	,	0		
+25599	hassen	0		
+25600	kann	0		
+25601	ich	0	(mention_id=3612|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3610|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+25602	,	0		
+25603	wenn	0		
+25604	mir	0	(mention_id=3613|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3611|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+25605	niedriges	0		
+25606	Denken	0		
+25607	entgegentritt	0		
+25608	!	0		
+25609	Franz	0	(mention_id=3614|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3612|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+25610	,	0		
+25611	du	0	(mention_id=3615|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3613|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+25612	weißt	0		
+25613	nicht	0		
+25614	,	0		
+25615	was	0		
+25616	ich	0	(mention_id=3616|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3614|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+25617	schon	0		
+25618	gelitten	0		
+25619	habe	0		
+25620	darunter	0		
+25621	–	0		
+25622	«	0		
+25623	Sie	0	(mention_id=3617|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)),(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3615|references=(entity=(entity_id=3|fullname=Frau Baumhagen|gender=f)),(entity=(entity_id=23|fullname=Tante Stadträtin|gender=f)))
+25624	standen	0		
+25625	noch	0		
+25626	immer	0		
+25627	Hand	0		
+25628	in	0		
+25629	Hand	0		
+25630	.	0		
+25631	Draußen	0		
+25632	wirbelte	0		
+25633	der	0		
+25634	Schnee	0		
+25635	vor	0		
+25636	den	0		
+25637	Spiegelscheiben	0		
+25638	in	0		
+25639	der	0		
+25640	Dämmerung	0		
+25641	des	0		
+25642	vergehenden	0		
+25643	Wintertages	0		
+25644	.	0		
+25645	Es	0		
+25646	war	0		
+25647	so	0		
+25648	still	0		
+25649	hierinnen	0		
+25650	,	0		
+25651	so	0		
+25652	warm	0		
+25653	und	0		
+25654	traut	0		
+25655	.	0		
+25656	»	0		
+25657	Franz	0	(mention_id=3618|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3616|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+25658	!	0		
+25659	«	0		
+25660	flüsterte	0		
+25661	sie	0	(mention_id=3619|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3617|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+25662	.	0		
+25663	»	0		
+25664	Mein	0	(mention_id=3620|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3618|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+25665	Trudchen	0	(mention_id=3621|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3619|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+25666	!	0		
+25667	«	0		
+25668	»	0		
+25669	Du	0	(mention_id=3622|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3620|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+25670	bist	0		
+25671	mir	0	(mention_id=3623|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3621|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+25672	nicht	0		
+25673	böse	0		
+25674	?	0		
+25675	«	0		
+25676	»	0		
+25677	Nein	0		
+25678	!	0		
+25679	Nein	0		
+25680	!	0		
+25681	Wie	0		
+25682	wollen	0		
+25683	unsere	0	(mention_id=3624|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)),(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3622|references=(entity=(entity_id=11|fullname=Linden|gender=m)),(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+25684	Fehler	0		
+25685	ertragen	0		
+25686	,	0		
+25687	und	0		
+25688	wir	0	(mention_id=3625|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)),(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3623|references=(entity=(entity_id=11|fullname=Linden|gender=m)),(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+25689	wollen	0		
+25690	sie	0		
+25691	schon	0		
+25692	bessern	0		
+25693	.	0		
+25694	Wenn	0		
+25695	wir	0	(mention_id=3626|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)),(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3624|references=(entity=(entity_id=11|fullname=Linden|gender=m)),(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+25696	uns	0	(mention_id=3627|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)),(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3625|references=(entity=(entity_id=11|fullname=Linden|gender=m)),(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+25697	nur	0		
+25698	erst	0		
+25699	ganz	0		
+25700	allein	0		
+25701	haben	0		
+25702	.	0		
+25703	«	0		
+25704	»	0		
+25705	Du	0	(mention_id=3628|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3626|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+25706	hast	0		
+25707	keine	0		
+25708	Fehler	0		
+25709	«	0		
+25710	,	0		
+25711	sagte	0		
+25712	sie	0	(mention_id=3629|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3627|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+25713	stolz	0		
+25714	und	0		
+25715	überzeugt	0		
+25716	und	0		
+25717	schmiegte	0		
+25718	sich	0	(mention_id=3630|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3628|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+25719	an	0		
+25720	ihn	0	(mention_id=3631|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3629|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+25721	.	0		
+25722	Er	0	(mention_id=3632|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3630|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+25723	war	0		
+25724	ernst	0		
+25725	.	0		
+25726	»	0		
+25727	Doch	0		
+25728	,	0		
+25729	Trudchen	0	(mention_id=3633|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3631|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+25730	.	0		
+25731	Ich	0	(mention_id=3634|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3632|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+25732	bin	0		
+25733	ein	0		
+25734	maßlos	0		
+25735	heftiger	0		
+25736	Mensch	0	(mention_id=3635|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3633|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+25737	,	0		
+25738	heftig	0		
+25739	bis	0		
+25740	zum	0		
+25741	Jähzorn	0		
+25742	.	0		
+25743	«	0		
+25744	»	0		
+25745	Das	0		
+25746	sind	0		
+25747	nicht	0		
+25748	die	0		
+25749	schlechtesten	0		
+25750	Männer	0	(mention_id=3636|references=(entity=(entity_id=generic_0059|fullname=nicht die schlechtesten Männer|gender=u|specialcase_entity=generic)))	(mention_id=3634|references=(entity=(entity_id=generic_0001|fullname=Männer im Allgemeinen|gender=u|specialcase_entity=generic)))
+25751	«	0		
+25752	,	0		
+25753	meinte	0		
+25754	sie	0	(mention_id=3637|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3635|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+25755	und	0		
+25756	schlang	0		
+25757	den	0		
+25758	Arm	0		
+25759	um	0		
+25760	seinen	0	(mention_id=3638|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3636|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+25761	Hals	0		
+25762	.	0		
+25763	»	0		
+25764	Weißt	0		
+25765	du	0	(mention_id=3639|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3637|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+25766	das	0		
+25767	so	0		
+25768	genau	0		
+25769	?	0		
+25770	«	0		
+25771	erkundigte	0		
+25772	er	0	(mention_id=3640|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3638|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+25773	sich	0	(mention_id=3641|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3639|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+25774	und	0		
+25775	sah	0		
+25776	ihr	0	(mention_id=3642|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3640|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+25777	lächelnd	0		
+25778	in	0		
+25779	das	0		
+25780	liebliche	0		
+25781	Antlitz	0		
+25782	,	0		
+25783	das	0		
+25784	jetzt	0		
+25785	so	0		
+25786	weich	0		
+25787	in	0		
+25788	der	0		
+25789	Dämmerung	0		
+25790	vor	0		
+25791	seinen	0	(mention_id=3643|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3641|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+25792	Blicken	0		
+25793	schwamm	0		
+25794	.	0		
+25795	»	0		
+25796	Ja	0		
+25797	!	0		
+25798	Großmutter	0	(mention_id=3644|references=(entity=(entity_id=entity_0016|fullname=Großmutter von Trudchen Baumhagen|gender=f)))	(mention_id=3642|references=(entity=(entity_id=25|fullname=Trudchens Großmutter|gender=f)))
+25799	behauptete	0		
+25800	es	0		
+25801	immer	0		
+25802	«	0		
+25803	,	0		
+25804	nickte	0		
+25805	sie	0	(mention_id=3645|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3643|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+25806	.	0		
+25807	»	0		
+25808	Die	0		
+25809	Großmutter	0	(mention_id=3646|references=(entity=(entity_id=entity_0016|fullname=Großmutter von Trudchen Baumhagen|gender=f)))	(mention_id=3644|references=(entity=(entity_id=25|fullname=Trudchens Großmutter|gender=f)))
+25810	aus	0		
+25811	der	0		
+25812	engen	0		
+25813	Gasse	0		
+25814	?	0		
+25815	«	0		
+25816	»	0		
+25817	Dieselbe	0	(mention_id=3647|references=(entity=(entity_id=entity_0016|fullname=Großmutter von Trudchen Baumhagen|gender=f)))	(mention_id=3645|references=(entity=(entity_id=25|fullname=Trudchens Großmutter|gender=f)))
+25818	,	0		
+25819	Liebster	0	(mention_id=3648|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3646|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+25820	;	0		
+25821	hättest	0		
+25822	du	0	(mention_id=3649|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3647|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+25823	sie	0	(mention_id=3650|references=(entity=(entity_id=entity_0016|fullname=Großmutter von Trudchen Baumhagen|gender=f)))	(mention_id=3648|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+25824	doch	0		
+25825	gekannt	0		
+25826	!	0		
+25827	Aber	0		
+25828	deine	0	(mention_id=3651|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3649|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+25829	Mutter	0	(mention_id=3652|references=(entity=(entity_id=entity_0029|fullname=Mutter des Franz Linden|gender=f)))	(mention_id=3650|references=(entity=(entity_id=3|fullname=Frau Baumhagen|gender=f)))
+25830	möchte	0		
+25831	ich	0	(mention_id=3653|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3651|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+25832	sehen	0		
+25833	«	0		
+25834	,	0		
+25835	fügte	0		
+25836	sie	0	(mention_id=3654|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3652|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+25837	dann	0		
+25838	hinzu	0		
+25839	.	0		
+25840	»	0		
+25841	Wir	0	(mention_id=3655|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)),(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3653|references=(entity=(entity_id=11|fullname=Linden|gender=m)),(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+25842	reisen	0		
+25843	hin	0		
+25844	,	0		
+25845	Liebling	0	(mention_id=3656|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3654|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+25846	,	0		
+25847	sobald	0		
+25848	wir	0	(mention_id=3657|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)),(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3655|references=(entity=(entity_id=11|fullname=Linden|gender=m)),(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+25849	Mann	0	(mention_id=3658|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3656|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+25850	und	0		
+25851	Frau	0	(mention_id=3659|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3657|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+25852	sind	0		
+25853	.	0		
+25854	Wann	0		
+25855	wird	0		
+25856	das	0		
+25857	sein	0		
+25858	?	0		
+25859	«	0		
+25860	»	0		
+25861	Franz	0	(mention_id=3660|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3658|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+25862	«	0		
+25863	,	0		
+25864	bat	0		
+25865	sie	0	(mention_id=3661|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3659|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+25866	statt	0		
+25867	der	0		
+25868	Antwort	0		
+25869	,	0		
+25870	»	0		
+25871	laß	0		
+25872	uns	0	(mention_id=3662|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)),(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3660|references=(entity=(entity_id=11|fullname=Linden|gender=m)),(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+25873	nicht	0		
+25874	gleich	0		
+25875	reisen	0		
+25876	,	0		
+25877	laß	0		
+25878	es	0		
+25879	mich	0	(mention_id=3663|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3661|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+25880	erst	0		
+25881	wissen	0		
+25882	,	0		
+25883	wie	0		
+25884	es	0		
+25885	in	0		
+25886	einer	0		
+25887	Heimat	0		
+25888	ist	0		
+25889	,	0		
+25890	wo	0		
+25891	Liebe	0		
+25892	,	0		
+25893	Vertrauen	0		
+25894	und	0		
+25895	gegenseitiges	0		
+25896	Verstehen	0		
+25897	beieinander	0		
+25898	wohnen	0		
+25899	!	0		
+25900	Laß	0		
+25901	mich	0	(mention_id=3664|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3662|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+25902	erst	0		
+25903	wissen	0		
+25904	,	0		
+25905	was	0		
+25906	Frieden	0		
+25907	ist	0		
+25908	!	0		
+25909	«	0		
+25910	»	0		
+25911	Ja	0		
+25912	,	0		
+25913	mein	0	(mention_id=3665|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3663|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+25914	Trudchen	0	(mention_id=3666|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3664|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+25915	!	0		
+25916	Wollte	0		
+25917	Gott	0		(mention_id=3665|references=(entity=(entity_id=generic_0002|fullname=Gott|gender=u|specialcase_entity=generic)))
+25918	,	0		
+25919	ich	0	(mention_id=3667|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3666|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+25920	könnte	0		
+25921	dich	0	(mention_id=3668|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3667|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+25922	morgen	0		
+25923	hinausholen	0		
+25924	in	0		
+25925	das	0		
+25926	alte	0		
+25927	Haus	0		
+25928	.	0		
+25929	«	0		
+25930	»	0		
+25931	Gertrud	0	(mention_id=3669|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3668|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+25932	!	0		
+25933	«	0		
+25934	rief	0		
+25935	es	0		
+25936	schrill	0		
+25937	aus	0		
+25938	dem	0		
+25939	Nebenzimmer	0		
+25940	.	0		
+25941	Sie	0	(mention_id=3670|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3669|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+25942	fuhr	0		
+25943	empor	0		
+25944	.	0		
+25945	»	0		
+25946	Mama	0	(mention_id=3671|references=(entity=(entity_id=entity_0005|fullname=Ottilie Baumhagen|gender=f)))	(mention_id=3670|references=(entity=(entity_id=3|fullname=Frau Baumhagen|gender=f)))
+25947	!	0		
+25948	«	0		
+25949	flüsterte	0		
+25950	sie	0	(mention_id=3672|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3671|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+25951	,	0		
+25952	»	0		
+25953	komm	0		
+25954	!	0		
+25955	«	0		
+25956	Sie	0	(mention_id=3673|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)),(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3672|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+25957	gingen	0		
+25958	hinüber	0		
+25959	.	0		
+25960	Frau	0	(mention_id=3674|references=(entity=(entity_id=entity_0005|fullname=Ottilie Baumhagen|gender=f)))	(mention_id=3673|references=(entity=(entity_id=3|fullname=Frau Baumhagen|gender=f)))
+25961	Baumhagen	0	(mention_id=3674|references=(entity=(entity_id=entity_0005|fullname=Ottilie Baumhagen|gender=f)))	(mention_id=3673|references=(entity=(entity_id=3|fullname=Frau Baumhagen|gender=f)))
+25962	stand	0		
+25963	neben	0		
+25964	ihrem	0	(mention_id=3675|references=(entity=(entity_id=entity_0005|fullname=Ottilie Baumhagen|gender=f)))	(mention_id=3674|references=(entity=(entity_id=3|fullname=Frau Baumhagen|gender=f)))
+25965	Schreibtisch	0		
+25966	.	0		
+25967	Eben	0		
+25968	brachte	0		
+25969	Sophie	0	(mention_id=3676|references=(entity=(entity_id=entity_0071|fullname=Sophie|gender=f)))	(mention_id=3675|references=(entity=(entity_id=22|fullname=Sophie|gender=f)))
+25970	die	0		
+25971	Lampe	0		
+25972	,	0		
+25973	und	0		
+25974	ihr	0		
+25975	Schein	0		
+25976	beleuchtete	0		
+25977	das	0		
+25978	runde	0		
+25979	,	0		
+25980	verweinte	0		
+25981	Antlitz	0		
+25982	der	0		
+25983	Mutter	0	(mention_id=3677|references=(entity=(entity_id=entity_0005|fullname=Ottilie Baumhagen|gender=f)))	(mention_id=3676|references=(entity=(entity_id=3|fullname=Frau Baumhagen|gender=f)))
+25984	,	0		
+25985	in	0		
+25986	dem	0		
+25987	sich	0		
+25988	heute	0		
+25989	eine	0		
+25990	ganz	0		
+25991	ungewöhnliche	0		
+25992	Entschlossenheit	0		
+25993	ausprägte	0		
+25994	.	0		
+25995	»	0		
+25996	Es	0		
+25997	ist	0		
+25998	gut	0		
+25999	,	0		
+26000	daß	0		
+26001	Sie	0	(mention_id=3678|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3677|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+26002	hier	0		
+26003	sind	0		
+26004	,	0		
+26005	Linden	0	(mention_id=3679|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3678|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+26006	«	0		
+26007	,	0		
+26008	redete	0		
+26009	sie	0	(mention_id=3680|references=(entity=(entity_id=entity_0005|fullname=Ottilie Baumhagen|gender=f)))	(mention_id=3679|references=(entity=(entity_id=3|fullname=Frau Baumhagen|gender=f)))
+26010	den	0		
+26011	jungen	0		
+26012	Mann	0	(mention_id=3681|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3680|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+26013	an	0		
+26014	,	0		
+26015	während	0		
+26016	sie	0	(mention_id=3682|references=(entity=(entity_id=entity_0005|fullname=Ottilie Baumhagen|gender=f)))	(mention_id=3681|references=(entity=(entity_id=3|fullname=Frau Baumhagen|gender=f)))
+26017	die	0		
+26018	Klappe	0		
+26019	des	0		
+26020	Schreibtisches	0		
+26021	herunterließ	0		
+26022	und	0		
+26023	Platz	0		
+26024	daran	0		
+26025	nahm	0		
+26026	.	0		
+26027	»	0		
+26028	Wieviel	0		
+26029	Zeit	0		
+26030	gebrauchen	0		
+26031	Sie	0	(mention_id=3683|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3682|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+26032	,	0		
+26033	um	0		
+26034	Ihr	0	(mention_id=3684|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3683|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+26035	Haus	0		
+26036	so	0		
+26037	instand	0		
+26038	zu	0		
+26039	setzen	0		
+26040	,	0		
+26041	daß	0		
+26042	Gertrud	0	(mention_id=3685|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3684|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+26043	dort	0		
+26044	wohnen	0		
+26045	kann	0		
+26046	?	0		
+26047	«	0		
+26048	»	0		
+26049	Nicht	0		
+26050	lange	0		
+26051	«	0		
+26052	,	0		
+26053	erwiderte	0		
+26054	er	0	(mention_id=3686|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3685|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+26055	.	0		
+26056	»	0		
+26057	Einige	0		
+26058	Zimmer	0		
+26059	sind	0		
+26060	mit	0		
+26061	neuen	0		
+26062	Tapeten	0		
+26063	zu	0		
+26064	versehen	0		
+26065	und	0		
+26066	dergleichen	0		
+26067	Kleinigkeiten	0		
+26068	–	0		
+26069	das	0		
+26070	wäre	0		
+26071	alles	0		
+26072	.	0		
+26073	«	0		
+26074	»	0		
+26075	Schön	0		
+26076	!	0		
+26077	Mir	0	(mention_id=3687|references=(entity=(entity_id=entity_0005|fullname=Ottilie Baumhagen|gender=f)))	(mention_id=3686|references=(entity=(entity_id=3|fullname=Frau Baumhagen|gender=f)))
+26078	kann	0		
+26079	es	0		
+26080	recht	0		
+26081	sein	0		
+26082	«	0		
+26083	,	0		
+26084	erwiderte	0		
+26085	sie	0	(mention_id=3688|references=(entity=(entity_id=entity_0005|fullname=Ottilie Baumhagen|gender=f)))	(mention_id=3687|references=(entity=(entity_id=3|fullname=Frau Baumhagen|gender=f)))
+26086	kühl	0		
+26087	,	0		
+26088	»	0		
+26089	so	0		
+26090	haben	0		
+26091	Sie	0	(mention_id=3689|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3688|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+26092	die	0		
+26093	Güte	0		
+26094	,	0		
+26095	morgen	0		
+26096	Ihre	0	(mention_id=3690|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3689|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+26097	Papiere	0		
+26098	dem	0		
+26099	Herrn	0	(mention_id=3691|references=(entity=(entity_id=entity_0013|fullname=Oberprediger|gender=m)))	(mention_id=3690|references=(entity=(entity_id=8|fullname=Herrn Oberprediger|gender=m)))
+26100	Oberprediger	0	(mention_id=3691|references=(entity=(entity_id=entity_0013|fullname=Oberprediger|gender=m)))	(mention_id=3690|references=(entity=(entity_id=8|fullname=Herrn Oberprediger|gender=m)))
+26101	zuzusenden	0		
+26102	und	0		
+26103	das	0		
+26104	Aufgebot	0		
+26105	zu	0		
+26106	bestellen	0		
+26107	.	0		
+26108	Ich	0	(mention_id=3692|references=(entity=(entity_id=entity_0005|fullname=Ottilie Baumhagen|gender=f)))	(mention_id=3691|references=(entity=(entity_id=3|fullname=Frau Baumhagen|gender=f)))
+26109	reise	0		
+26110	in	0		
+26111	drei	0		
+26112	Wochen	0		
+26113	mit	0		
+26114	meiner	0	(mention_id=3693|references=(entity=(entity_id=entity_0005|fullname=Ottilie Baumhagen|gender=f)))	(mention_id=3692|references=(entity=(entity_id=3|fullname=Frau Baumhagen|gender=f)))
+26115	ältesten	0		
+26116	Tochter	0	(mention_id=3694|references=(entity=(entity_id=entity_0006|fullname=Jenny Fredrich, geb. Baumhagen|gender=f)))	(mention_id=3693|references=(entity=(entity_id=4|fullname=Frau Baumhagens älteste Tochter|gender=f)))
+26117	nach	0		
+26118	dem	0		
+26119	Süden	0		
+26120	und	0		
+26121	wünsche	0		
+26122	vorher	0		
+26123	diese	0		
+26124	–	0		
+26125	diese	0		
+26126	Angelegenheit	0		
+26127	geordnet	0		
+26128	zu	0		
+26129	wissen	0		
+26130	.	0		
+26131	«	0		
+26132	Linden	0	(mention_id=3695|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3694|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+26133	verbeugte	0		
+26134	sich	0	(mention_id=3696|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3695|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+26135	.	0		
+26136	»	0		
+26137	Ich	0	(mention_id=3697|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3696|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+26138	danke	0		
+26139	Ihnen	0	(mention_id=3698|references=(entity=(entity_id=entity_0005|fullname=Ottilie Baumhagen|gender=f)))	(mention_id=3697|references=(entity=(entity_id=3|fullname=Frau Baumhagen|gender=f)))
+26140	,	0		
+26141	gnädige	0		
+26142	Frau	0	(mention_id=3699|references=(entity=(entity_id=entity_0005|fullname=Ottilie Baumhagen|gender=f)))	(mention_id=3698|references=(entity=(entity_id=3|fullname=Frau Baumhagen|gender=f)))
+26143	!	0		
+26144	«	0		
+26145	–	0		
+26146	Gertrud	0	(mention_id=3700|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3699|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+26147	stand	0		
+26148	bleich	0		
+26149	bis	0		
+26150	in	0		
+26151	die	0		
+26152	Lippen	0		
+26153	,	0		
+26154	aber	0		
+26155	sie	0	(mention_id=3701|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3700|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+26156	sah	0		
+26157	nicht	0		
+26158	herüber	0		
+26159	zu	0		
+26160	ihm	0	(mention_id=3702|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3701|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+26161	.	0		
+26162	Er	0	(mention_id=3703|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3702|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+26163	fühlte	0		
+26164	nur	0		
+26165	das	0		
+26166	eine	0		
+26167	deutlich	0		
+26168	,	0		
+26169	sie	0	(mention_id=3704|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3703|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+26170	litt	0		
+26171	furchtbar	0		
+26172	durch	0		
+26173	diese	0		
+26174	Szene	0		
+26175	,	0		
+26176	um	0		
+26177	seinetwillen	0	(mention_id=3705|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3704|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+26178	.	0		
+26179	»	0		
+26180	Ich	0	(mention_id=3706|references=(entity=(entity_id=entity_0005|fullname=Ottilie Baumhagen|gender=f)))	(mention_id=3705|references=(entity=(entity_id=3|fullname=Frau Baumhagen|gender=f)))
+26181	möchte	0		
+26182	jetzt	0		
+26183	noch	0		
+26184	einiges	0		
+26185	mit	0		
+26186	meiner	0	(mention_id=3707|references=(entity=(entity_id=entity_0005|fullname=Ottilie Baumhagen|gender=f)))	(mention_id=3706|references=(entity=(entity_id=3|fullname=Frau Baumhagen|gender=f)))
+26187	Tochter	0	(mention_id=3708|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3707|references=(entity=(entity_id=4|fullname=Frau Baumhagens älteste Tochter|gender=f)))
+26188	besprechen	0		
+26189	«	0		
+26190	,	0		
+26191	fuhr	0		
+26192	Frau	0	(mention_id=3709|references=(entity=(entity_id=entity_0005|fullname=Ottilie Baumhagen|gender=f)))	(mention_id=3708|references=(entity=(entity_id=3|fullname=Frau Baumhagen|gender=f)))
+26193	Baumhagen	0	(mention_id=3709|references=(entity=(entity_id=entity_0005|fullname=Ottilie Baumhagen|gender=f)))	(mention_id=3708|references=(entity=(entity_id=3|fullname=Frau Baumhagen|gender=f)))
+26194	fort	0		
+26195	.	0		
+26196	»	0		
+26197	Es	0		
+26198	betrifft	0		
+26199	die	0		
+26200	Ausstattungsgelder	0		
+26201	und	0		
+26202	den	0		
+26203	Ehekontrakt	0		
+26204	.	0		
+26205	«	0		
+26206	Er	0	(mention_id=3710|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3709|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+26207	war	0		
+26208	sofort	0		
+26209	zum	0		
+26210	Gehen	0		
+26211	bereit	0		
+26212	und	0		
+26213	küßte	0		
+26214	die	0		
+26215	Hand	0		
+26216	seiner	0	(mention_id=3711|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3710|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+26217	Braut	0	(mention_id=3712|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3711|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+26218	und	0		
+26219	sah	0		
+26220	sie	0	(mention_id=3713|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3712|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+26221	bittend	0		
+26222	an	0		
+26223	.	0		
+26224	»	0		
+26225	Bleibe	0		
+26226	ruhig	0		
+26227	«	0		
+26228	,	0		
+26229	flüsterte	0		
+26230	er	0	(mention_id=3714|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3713|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+26231	.	0		
+26232	Trudchen	0	(mention_id=3715|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3714|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+26233	aber	0		
+26234	legte	0		
+26235	hinter	0		
+26236	dem	0		
+26237	Rücken	0		
+26238	der	0		
+26239	Mutter	0	(mention_id=3716|references=(entity=(entity_id=entity_0005|fullname=Ottilie Baumhagen|gender=f)))	(mention_id=3715|references=(entity=(entity_id=3|fullname=Frau Baumhagen|gender=f)))
+26240	die	0		
+26241	Hand	0		
+26242	auf	0		
+26243	des	0		
+26244	Bräutigams	0	(mention_id=3717|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3716|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+26245	Mund	0		
+26246	.	0		
+26247	»	0		
+26248	Ich	0	(mention_id=3718|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3717|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+26249	will	0		
+26250	keinen	0		
+26251	Ehekontrakt	0		
+26252	!	0		
+26253	«	0		
+26254	sagte	0		
+26255	sie	0	(mention_id=3719|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3718|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+26256	dabei	0		
+26257	laut	0		
+26258	.	0		
+26259	»	0		
+26260	So	0		
+26261	lebt	0		
+26262	ihr	0	(mention_id=3720|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)),(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3719|references=(entity=(entity_id=3|fullname=Frau Baumhagen|gender=f)))
+26263	in	0		
+26264	Gütergemeinschaft	0		
+26265	?	0		
+26266	«	0		
+26267	klang	0		
+26268	es	0		
+26269	zurück	0		
+26270	.	0		
+26271	»	0		
+26272	Das	0		
+26273	ist	0		
+26274	das	0		
+26275	richtige	0		
+26276	«	0		
+26277	,	0		
+26278	erwiderte	0		
+26279	sie	0	(mention_id=3721|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3720|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+26280	.	0		
+26281	»	0		
+26282	Wenn	0		
+26283	ich	0	(mention_id=3722|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3721|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+26284	mich	0	(mention_id=3723|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3722|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+26285	selbst	0		
+26286	gebe	0		
+26287	,	0		
+26288	werde	0		
+26289	ich	0	(mention_id=3724|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3723|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+26290	mein	0	(mention_id=3725|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3724|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+26291	Geld	0		
+26292	nicht	0		
+26293	ausschließen	0		
+26294	.	0		
+26295	Es	0		
+26296	käme	0		
+26297	mir	0	(mention_id=3726|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3725|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+26298	vor	0		
+26299	wie	0		
+26300	ein	0		
+26301	Widerspruch	0		
+26302	.	0		
+26303	«	0		
+26304	Frau	0	(mention_id=3727|references=(entity=(entity_id=entity_0005|fullname=Ottilie Baumhagen|gender=f)))	(mention_id=3726|references=(entity=(entity_id=3|fullname=Frau Baumhagen|gender=f)))
+26305	Baumhagen	0	(mention_id=3727|references=(entity=(entity_id=entity_0005|fullname=Ottilie Baumhagen|gender=f)))	(mention_id=3726|references=(entity=(entity_id=3|fullname=Frau Baumhagen|gender=f)))
+26306	zuckte	0		
+26307	die	0		
+26308	Schultern	0		
+26309	und	0		
+26310	wendete	0		
+26311	sich	0	(mention_id=3728|references=(entity=(entity_id=entity_0005|fullname=Ottilie Baumhagen|gender=f)))	(mention_id=3727|references=(entity=(entity_id=3|fullname=Frau Baumhagen|gender=f)))
+26312	um	0		
+26313	.	0		
+26314	Sie	0	(mention_id=3729|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)),(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3728|references=(entity=(entity_id=11|fullname=Linden|gender=m)),(entity=(entity_id=17|fullname=Onkel Heinrich|gender=m)))
+26315	standen	0		
+26316	dicht	0		
+26317	aneinander	0		
+26318	geschmiegt	0		
+26319	,	0		
+26320	die	0		
+26321	beiden	0	(mention_id=3730|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)),(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3729|references=(entity=(entity_id=11|fullname=Linden|gender=m)),(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+26322	,	0		
+26323	und	0		
+26324	das	0		
+26325	bittere	0		
+26326	Wort	0		
+26327	erstarb	0		
+26328	ihr	0	(mention_id=3731|references=(entity=(entity_id=entity_0005|fullname=Ottilie Baumhagen|gender=f)))	(mention_id=3730|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+26329	auf	0		
+26330	den	0		
+26331	Lippen	0		
+26332	.	0		
+26333	»	0		
+26334	Dein	0	(mention_id=3732|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3731|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+26335	Vormund	0	(mention_id=3733|references=(entity=(entity_id=entity_0008|fullname=Onkel Heinrich|gender=m)))	(mention_id=3732|references=(entity=(entity_id=17|fullname=Onkel Heinrich|gender=m)))
+26336	mag	0		
+26337	mit	0		
+26338	dir	0	(mention_id=3734|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3733|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+26339	darüber	0		
+26340	reden	0		
+26341	«	0		
+26342	,	0		
+26343	sagte	0		
+26344	sie	0	(mention_id=3735|references=(entity=(entity_id=entity_0005|fullname=Ottilie Baumhagen|gender=f)))	(mention_id=3734|references=(entity=(entity_id=3|fullname=Frau Baumhagen|gender=f)))
+26345	.	0		
+26346	»	0		
+26347	Wollen	0		
+26348	Sie	0	(mention_id=3736|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3735|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+26349	so	0		
+26350	freundlich	0		
+26351	sein	0		
+26352	,	0		
+26353	Linden	0	(mention_id=3737|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3736|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+26354	,	0		
+26355	und	0		
+26356	meinen	0	(mention_id=3738|references=(entity=(entity_id=entity_0005|fullname=Ottilie Baumhagen|gender=f)))	(mention_id=3737|references=(entity=(entity_id=3|fullname=Frau Baumhagen|gender=f)))
+26357	Schwager	0	(mention_id=3739|references=(entity=(entity_id=entity_0008|fullname=Onkel Heinrich|gender=m)))	(mention_id=3738|references=(entity=(entity_id=17|fullname=Onkel Heinrich|gender=m)))
+26358	aufsuchen	0		
+26359	?	0		
+26360	Ich	0	(mention_id=3740|references=(entity=(entity_id=entity_0005|fullname=Ottilie Baumhagen|gender=f)))	(mention_id=3739|references=(entity=(entity_id=3|fullname=Frau Baumhagen|gender=f)))
+26361	möchte	0		
+26362	mit	0		
+26363	ihm	0	(mention_id=3741|references=(entity=(entity_id=entity_0008|fullname=Onkel Heinrich|gender=m)))	(mention_id=3740|references=(entity=(entity_id=17|fullname=Onkel Heinrich|gender=m)))
+26364	sprechen	0		
+26365	.	0		
+26366	«	0		
+26367	Er	0	(mention_id=3742|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3741|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+26368	küßte	0		
+26369	Trudchen	0	(mention_id=3743|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3742|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+26370	auf	0		
+26371	die	0		
+26372	Stirn	0		
+26373	und	0		
+26374	nahm	0		
+26375	seinen	0	(mention_id=3744|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3743|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+26376	Hut	0		
+26377	,	0		
+26378	dann	0		
+26379	ging	0		
+26380	er	0	(mention_id=3745|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3744|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+26381	.	0		
+26382	Gott	0	(mention_id=3746|references=(entity=(entity_id=entity_0019|fullname=Gott|gender=u|specialcase_entity=nonfact)))	
+26383	sei	0		
+26384	Dank	0		
+26385	!	0		
+26386	Er	0	(mention_id=3747|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3745|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+26387	durfte	0		
+26388	sie	0	(mention_id=3748|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3746|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+26389	aus	0		
+26390	dieser	0		
+26391	Lieblosigkeit	0		
+26392	bald	0		
+26393	in	0		
+26394	sein	0	(mention_id=3749|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3747|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+26395	Haus	0		
+26396	hinüberretten	0		
+26397	,	0		
+26398	das	0		
+26399	arme	0		
+26400	stolze	0		
+26401	Mädchen	0	(mention_id=3750|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3748|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+26402	,	0		
+26403	das	0	(mention_id=3751|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3749|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+26404	ihn	0	(mention_id=3752|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3750|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+26405	so	0		
+26406	liebhatte	0		
+26407	.	0		
+26408	Rasch	0		
+26409	schritt	0		
+26410	er	0	(mention_id=3753|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3751|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+26411	über	0		
+26412	den	0		
+26413	Markt	0		
+26414	.	0		
+26415	Die	0		
+26416	frische	0		
+26417	Luft	0		
+26418	tat	0		
+26419	ihm	0	(mention_id=3754|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3752|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+26420	wohl	0		
+26421	.	0		
+26422	Er	0	(mention_id=3755|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3753|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+26423	war	0		
+26424	im	0		
+26425	innersten	0		
+26426	Herzen	0		
+26427	empört	0		
+26428	,	0		
+26429	daß	0		
+26430	man	0		
+26431	sie	0	(mention_id=3756|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)),(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3754|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+26432	hatte	0		
+26433	trennen	0		
+26434	wollen	0		
+26435	,	0		
+26436	Meilen	0		
+26437	und	0		
+26438	aber	0		
+26439	Meilen	0		
+26440	zwischen	0		
+26441	sie	0	(mention_id=3757|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)),(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3755|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+26442	legen	0		
+26443	.	0		
+26444	Und	0		
+26445	wie	0		
+26446	leicht	0		
+26447	ist	0		
+26448	ein	0		
+26449	Mißverständnis	0		
+26450	angebahnt	0		
+26451	,	0		
+26452	wie	0		
+26453	leicht	0		
+26454	bei	0		
+26455	dem	0		
+26456	Charakter	0		
+26457	dieses	0		
+26458	Mädchens	0	(mention_id=3758|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3756|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+26459	,	0		
+26460	dem	0		(mention_id=3757|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+26461	ein	0		
+26462	Schein	0		
+26463	niedriger	0		
+26464	Gesinnung	0		
+26465	schon	0		
+26466	genügen	0		
+26467	würde	0		
+26468	,	0		
+26469	zu	0		
+26470	trotzen	0		
+26471	,	0		
+26472	zu	0		
+26473	hassen	0		
+26474	,	0		
+26475	zu	0		
+26476	verachten	0		
+26477	.	0		
+26478	Wie	0		
+26479	manches	0		
+26480	Paar	0	(mention_id=3759|references=(entity=(entity_id=generic_0060|fullname=liebendes Paar|gender=u|specialcase_entity=generic)))	(mention_id=3758|references=(entity=(entity_id=generic_0003|fullname=Paare im Allgemeinen|gender=u|specialcase_entity=generic)))
+26481	,	0		
+26482	das	0	(mention_id=3760|references=(entity=(entity_id=generic_0061|fullname=liebendes Paar|gender=u|specialcase_entity=generic)))	(mention_id=3759|references=(entity=(entity_id=generic_0004|fullname=Paare im Allgemeinen|gender=u|specialcase_entity=generic)))
+26483	sich	0	(mention_id=3761|references=(entity=(entity_id=generic_0062|fullname=liebendes Paar|gender=u|specialcase_entity=generic)))	(mention_id=3760|references=(entity=(entity_id=generic_0005|fullname=Paare im Allgemeinen|gender=u|specialcase_entity=generic)))
+26484	von	0		
+26485	Herzen	0		
+26486	liebte	0		
+26487	,	0		
+26488	war	0		
+26489	schon	0		
+26490	auf	0		
+26491	diese	0		
+26492	Weise	0		
+26493	für	0		
+26494	immer	0		
+26495	geschieden	0		
+26496	worden	0		
+26497	.	0		
+26498	Er	0	(mention_id=3762|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3761|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+26499	wagte	0		
+26500	es	0		
+26501	nicht	0		
+26502	auszudenken	0		
+26503	,	0		
+26504	was	0		
+26505	mit	0		
+26506	ihm	0	(mention_id=3763|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3762|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+26507	geworden	0		
+26508	,	0		
+26509	wenn	0		
+26510	es	0		
+26511	so	0		
+26512	gekommen	0		
+26513	wäre	0		
+26514	.	0		
+26515	»	0		
+26516	Pst	0		
+26517	!	0		
+26518	pst	0		
+26519	!	0		
+26520	«	0		
+26521	scholl	0		
+26522	es	0		
+26523	hinter	0		
+26524	ihm	0	(mention_id=3764|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3763|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+26525	,	0		
+26526	und	0		
+26527	als	0		
+26528	er	0	(mention_id=3765|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3764|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+26529	sich	0	(mention_id=3766|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3765|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+26530	auf	0		
+26531	dem	0		
+26532	schlüpfrigen	0		
+26533	Trottoir	0		
+26534	umwandte	0		
+26535	,	0		
+26536	sah	0		
+26537	er	0	(mention_id=3767|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3766|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+26538	Onkel	0	(mention_id=3768|references=(entity=(entity_id=entity_0008|fullname=Onkel Heinrich|gender=m)))	(mention_id=3767|references=(entity=(entity_id=17|fullname=Onkel Heinrich|gender=m)))
+26539	Heinrich	0	(mention_id=3768|references=(entity=(entity_id=entity_0008|fullname=Onkel Heinrich|gender=m)))	(mention_id=3767|references=(entity=(entity_id=17|fullname=Onkel Heinrich|gender=m)))
+26540	die	0		
+26541	Stufen	0		
+26542	der	0		
+26543	Hoteltreppe	0		
+26544	heruntersteigen	0		
+26545	.	0		
+26546	Er	0	(mention_id=3769|references=(entity=(entity_id=entity_0008|fullname=Onkel Heinrich|gender=m)))	(mention_id=3768|references=(entity=(entity_id=17|fullname=Onkel Heinrich|gender=m)))
+26547	hatte	0		
+26548	offenbar	0		
+26549	diniert	0		
+26550	,	0		
+26551	und	0		
+26552	sein	0	(mention_id=3770|references=(entity=(entity_id=entity_0008|fullname=Onkel Heinrich|gender=m)))	(mention_id=3769|references=(entity=(entity_id=17|fullname=Onkel Heinrich|gender=m)))
+26553	joviales	0		
+26554	Gesicht	0		
+26555	bot	0		
+26556	ein	0		
+26557	wunderliches	0		
+26558	Gemisch	0		
+26559	von	0		
+26560	Trauer	0		
+26561	und	0		
+26562	Behagen	0		
+26563	.	0		
+26564	»	0		
+26565	Ich	0	(mention_id=3771|references=(entity=(entity_id=entity_0008|fullname=Onkel Heinrich|gender=m)))	(mention_id=3770|references=(entity=(entity_id=17|fullname=Onkel Heinrich|gender=m)))
+26566	habe	0		
+26567	zu	0		
+26568	Mittag	0		
+26569	gespeist	0		
+26570	,	0		
+26571	Linden	0	(mention_id=3772|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3771|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+26572	«	0		
+26573	,	0		
+26574	begann	0		
+26575	er	0	(mention_id=3773|references=(entity=(entity_id=entity_0008|fullname=Onkel Heinrich|gender=m)))	(mention_id=3772|references=(entity=(entity_id=17|fullname=Onkel Heinrich|gender=m)))
+26576	und	0		
+26577	legte	0		
+26578	seinen	0	(mention_id=3774|references=(entity=(entity_id=entity_0008|fullname=Onkel Heinrich|gender=m)))	(mention_id=3773|references=(entity=(entity_id=17|fullname=Onkel Heinrich|gender=m)))
+26579	Arm	0		
+26580	in	0		
+26581	den	0		
+26582	des	0		
+26583	jungen	0		
+26584	Mannes	0	(mention_id=3775|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3774|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+26585	,	0		
+26586	»	0		
+26587	mir	0	(mention_id=3776|references=(entity=(entity_id=entity_0008|fullname=Onkel Heinrich|gender=m)))	(mention_id=3775|references=(entity=(entity_id=17|fullname=Onkel Heinrich|gender=m)))
+26588	war	0		
+26589	mehr	0		
+26590	wie	0		
+26591	plundrig	0		
+26592	nach	0		
+26593	der	0		
+26594	Affäre	0		
+26595	heute	0		
+26596	früh	0		
+26597	.	0		
+26598	Sie	0	(mention_id=3777|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3776|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+26599	denken	0		
+26600	doch	0		
+26601	nicht	0		
+26602	falsch	0		
+26603	von	0		
+26604	mir	0	(mention_id=3778|references=(entity=(entity_id=entity_0008|fullname=Onkel Heinrich|gender=m)))	(mention_id=3777|references=(entity=(entity_id=17|fullname=Onkel Heinrich|gender=m)))
+26605	?	0		
+26606	he	0		
+26607	?	0		
+26608	Ich	0	(mention_id=3779|references=(entity=(entity_id=entity_0008|fullname=Onkel Heinrich|gender=m)))	(mention_id=3778|references=(entity=(entity_id=17|fullname=Onkel Heinrich|gender=m)))
+26609	bin	0		
+26610	keiner	0	(mention_id=3780|references=(entity=(entity_id=entity_0008|fullname=Onkel Heinrich|gender=m)))	
+26611	von	0		
+26612	denen	0	(mention_id=3781|references=(entity=(entity_id=generic_0063|fullname=Appetit verlierende Personen|gender=u|specialcase_entity=generic)))	(mention_id=3779|references=(entity=(entity_id=generic_0006|fullname=Menschen im Allgemeinen|gender=u|specialcase_entity=generic)))
+26613	,	0		
+26614	die	0	(mention_id=3782|references=(entity=(entity_id=generic_0064|fullname=Appetit verlierende Personen|gender=u|specialcase_entity=generic)))	(mention_id=3780|references=(entity=(entity_id=generic_0007|fullname=Menschen im Allgemeinen|gender=u|specialcase_entity=generic)))
+26615	aus	0		
+26616	Betrübnis	0		
+26617	den	0		
+26618	Appetit	0		
+26619	verlieren	0		
+26620	.	0		
+26621	Ich	0	(mention_id=3783|references=(entity=(entity_id=entity_0008|fullname=Onkel Heinrich|gender=m)))	(mention_id=3781|references=(entity=(entity_id=17|fullname=Onkel Heinrich|gender=m)))
+26622	lobe	0		
+26623	mir	0	(mention_id=3784|references=(entity=(entity_id=entity_0008|fullname=Onkel Heinrich|gender=m)))	(mention_id=3782|references=(entity=(entity_id=17|fullname=Onkel Heinrich|gender=m)))
+26624	unsere	0	(mention_id=3785|references=(entity=(entity_id=entity_0008|fullname=Onkel Heinrich|gender=m)),(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3783|references=(entity=(entity_id=17|fullname=Onkel Heinrich|gender=m)),(entity=(entity_id=11|fullname=Linden|gender=m)))
+26625	Voreltern	0	(mention_id=3786|references=(entity=(entity_id=entity_0194|fullname=Voreltern|gender=u)))	(mention_id=3784|references=(entity=(entity_id=36|fullname=die Voreltern|gender=mf|specialcase_entity=group)))
+26626	,	0		
+26627	die	0	(mention_id=3787|references=(entity=(entity_id=entity_0194|fullname=Voreltern|gender=u)))	(mention_id=3785|references=(entity=(entity_id=36|fullname=die Voreltern|gender=mf|specialcase_entity=group)))
+26628	ihren	0	(mention_id=3788|references=(entity=(entity_id=entity_0194|fullname=Voreltern|gender=u)))	(mention_id=3786|references=(entity=(entity_id=36|fullname=die Voreltern|gender=mf|specialcase_entity=group)))
+26629	Leichenschmaus	0		
+26630	hielten	0		
+26631	.	0		
+26632	Ich	0	(mention_id=3789|references=(entity=(entity_id=entity_0008|fullname=Onkel Heinrich|gender=m)))	(mention_id=3787|references=(entity=(entity_id=17|fullname=Onkel Heinrich|gender=m)))
+26633	bitte	0		
+26634	Sie	0	(mention_id=3790|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3788|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+26635	,	0		
+26636	Linden	0	(mention_id=3791|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3789|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+26637	,	0		
+26638	das	0		
+26639	war	0		
+26640	gar	0		
+26641	kein	0		
+26642	so	0		
+26643	unästhetisches	0		
+26644	Gebaren	0		
+26645	,	0		
+26646	als	0		
+26647	was	0		
+26648	es	0		
+26649	leider	0		
+26650	unsere	0	(mention_id=3792|references=(entity=(entity_id=entity_0008|fullname=Onkel Heinrich|gender=m)),(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	
+26651	heutige	0		
+26652	Welt	0		
+26653	auffaßt	0		
+26654	.	0		
+26655	Man	0		
+26656	gebe	0		
+26657	den	0		
+26658	Toten	0	(mention_id=3793|references=(entity=(entity_id=generic_0065|fullname=Tote|gender=u|specialcase_entity=generic)))	(mention_id=3790|references=(entity=(entity_id=generic_0011|fullname=die Toten im Allgemeinen|gender=u|specialcase_entity=generic)))
+26659	alle	0		
+26660	Ehre	0		
+26661	,	0		
+26662	der	0		
+26663	Lebende	0	(mention_id=3794|references=(entity=(entity_id=generic_0066|fullname=Lebende|gender=u|specialcase_entity=generic)))	(mention_id=3791|references=(entity=(entity_id=generic_0012|fullname=die Lebenden im Allgemeinen|gender=u|specialcase_entity=generic)))
+26664	will	0		
+26665	aber	0		
+26666	sein	0	(mention_id=3795|references=(entity=(entity_id=generic_0067|fullname=Lebende|gender=u|specialcase_entity=generic)))	(mention_id=3792|references=(entity=(entity_id=generic_0013|fullname=die Lebenden im Allgemeinen|gender=u|specialcase_entity=generic)))
+26667	Recht	0		
+26668	,	0		
+26669	und	0		
+26670	zu	0		
+26671	diesem	0		
+26672	gehört	0		
+26673	das	0		
+26674	Essen	0		
+26675	und	0		
+26676	Trinken	0		
+26677	,	0		
+26678	es	0		
+26679	hält	0		
+26680	Leib	0		
+26681	und	0		
+26682	Seele	0		
+26683	zusammen	0		
+26684	.	0		
+26685	O	0		
+26686	la	0		
+26687	la	0		
+26688	!	0		
+26689	Mir	0	(mention_id=3796|references=(entity=(entity_id=entity_0008|fullname=Onkel Heinrich|gender=m)))	(mention_id=3793|references=(entity=(entity_id=17|fullname=Onkel Heinrich|gender=m)))
+26690	fällt	0		
+26691	ein	0		
+26692	Begräbnis	0		
+26693	immer	0		
+26694	gleich	0		
+26695	auf	0		
+26696	den	0		
+26697	Magen	0		
+26698	.	0		
+26699	Das	0		
+26700	kleine	0		
+26701	gute	0		
+26702	Kerlchen	0	(mention_id=3797|references=(entity=(entity_id=entity_0020|fullname=Walterchen Fredrich|gender=m)))	(mention_id=3794|references=(entity=(entity_id=10|fullname=Jennys blonder Liebling|gender=m)))
+26703	!	0		
+26704	Aber	0		
+26705	,	0		
+26706	glauben	0		
+26707	Sie	0	(mention_id=3798|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3795|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+26708	mir	0	(mention_id=3799|references=(entity=(entity_id=entity_0008|fullname=Onkel Heinrich|gender=m)))	(mention_id=3796|references=(entity=(entity_id=17|fullname=Onkel Heinrich|gender=m)))
+26709	,	0		
+26710	ich	0	(mention_id=3800|references=(entity=(entity_id=entity_0008|fullname=Onkel Heinrich|gender=m)))	(mention_id=3797|references=(entity=(entity_id=17|fullname=Onkel Heinrich|gender=m)))
+26711	liebte	0		
+26712	es	0	(mention_id=3801|references=(entity=(entity_id=entity_0020|fullname=Walterchen Fredrich|gender=m)))	(mention_id=3798|references=(entity=(entity_id=10|fullname=Jennys blonder Liebling|gender=m)))
+26713	darum	0		
+26714	nicht	0		
+26715	weniger	0		
+26716	.	0		
+26717	Sie	0	(mention_id=3802|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3799|references=(entity=(entity_id=generic_0014|fullname=Frauenzimmer|gender=u|specialcase_entity=generic)))
+26718	sind	0		
+26719	sicher	0		
+26720	noch	0		
+26721	nüchtern	0		
+26722	?	0		
+26723	Frauenzimmer	0	(mention_id=3803|references=(entity=(entity_id=generic_0068|fullname=Frauen bei Beerdigungen|gender=u|specialcase_entity=generic)))	(mention_id=3800|references=(entity=(entity_id=generic_0015|fullname=Frauenzimmer im Allgemeinen|gender=u|specialcase_entity=generic)))
+26724	essen	0		
+26725	ja	0		
+26726	bekanntlich	0		
+26727	nie	0		
+26728	bei	0		
+26729	derartigen	0		
+26730	Ereignissen	0		
+26731	.	0		
+26732	«	0		
+26733	»	0		
+26734	Ich	0	(mention_id=3804|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3801|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+26735	wollte	0		
+26736	Sie	0	(mention_id=3805|references=(entity=(entity_id=entity_0008|fullname=Onkel Heinrich|gender=m)))	(mention_id=3802|references=(entity=(entity_id=17|fullname=Onkel Heinrich|gender=m)))
+26737	aufsuchen	0		
+26738	«	0		
+26739	,	0		
+26740	erwiderte	0		
+26741	Linden	0	(mention_id=3806|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3803|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+26742	,	0		
+26743	»	0		
+26744	meine	0	(mention_id=3807|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3804|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+26745	Schwiegermutter	0	(mention_id=3808|references=(entity=(entity_id=entity_0005|fullname=Ottilie Baumhagen|gender=f)))	(mention_id=3805|references=(entity=(entity_id=3|fullname=Frau Baumhagen|gender=f)))
+26746	läßt	0		
+26747	Sie	0	(mention_id=3809|references=(entity=(entity_id=entity_0008|fullname=Onkel Heinrich|gender=m)))	(mention_id=3806|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+26748	bitten	0		
+26749	,	0		
+26750	zu	0		
+26751	ihr	0	(mention_id=3810|references=(entity=(entity_id=entity_0005|fullname=Ottilie Baumhagen|gender=f)))	(mention_id=3807|references=(entity=(entity_id=17|fullname=Onkel Heinrich|gender=m)))
+26752	zu	0		
+26753	kommen	0		
+26754	.	0		
+26755	Wir	0	(mention_id=3811|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)),(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3808|references=(entity=(entity_id=11|fullname=Linden|gender=m)),(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+26756	–	0		
+26757	heiraten	0		
+26758	in	0		
+26759	drei	0		
+26760	Wochen	0		
+26761	.	0		
+26762	«	0		
+26763	Der	0		
+26764	kleine	0		
+26765	Herr	0	(mention_id=3812|references=(entity=(entity_id=entity_0008|fullname=Onkel Heinrich|gender=m)))	(mention_id=3809|references=(entity=(entity_id=17|fullname=Onkel Heinrich|gender=m)))
+26766	im	0		
+26767	Nerzpelz	0		
+26768	blieb	0		
+26769	stehen	0		
+26770	und	0		
+26771	sah	0		
+26772	Linden	0	(mention_id=3813|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3810|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+26773	an	0		
+26774	,	0		
+26775	als	0		
+26776	traue	0		
+26777	er	0	(mention_id=3814|references=(entity=(entity_id=entity_0008|fullname=Onkel Heinrich|gender=m)))	(mention_id=3811|references=(entity=(entity_id=17|fullname=Onkel Heinrich|gender=m)))
+26778	seinen	0	(mention_id=3815|references=(entity=(entity_id=entity_0008|fullname=Onkel Heinrich|gender=m)))	(mention_id=3812|references=(entity=(entity_id=17|fullname=Onkel Heinrich|gender=m)))
+26779	Ohren	0		
+26780	nicht	0		
+26781	.	0		
+26782	»	0		
+26783	Wie	0		
+26784	?	0		
+26785	Was	0		
+26786	?	0		
+26787	Sie	0	(mention_id=3816|references=(entity=(entity_id=entity_0005|fullname=Ottilie Baumhagen|gender=f)))	(mention_id=3813|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+26788	ist	0		
+26789	ja	0		
+26790	geschwind	0		
+26791	andern	0		
+26792	Sinns	0		
+26793	geworden	0		
+26794	.	0		
+26795	Hat	0		
+26796	Trudchen	0	(mention_id=3817|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3814|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+26797	die	0		
+26798	weiche	0		
+26799	Stimmung	0		
+26800	benutzt	0		
+26801	–	0		
+26802	oder	0		
+26803	–	0		
+26804	?	0		
+26805	«	0		
+26806	»	0		
+26807	Das	0		
+26808	würde	0		
+26809	Trudchen	0	(mention_id=3818|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3815|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+26810	nie	0		
+26811	tun	0		
+26812	.	0		
+26813	Nein	0		
+26814	,	0		
+26815	Frau	0	(mention_id=3819|references=(entity=(entity_id=entity_0005|fullname=Ottilie Baumhagen|gender=f)))	(mention_id=3816|references=(entity=(entity_id=3|fullname=Frau Baumhagen|gender=f)))
+26816	Baumhagen	0	(mention_id=3819|references=(entity=(entity_id=entity_0005|fullname=Ottilie Baumhagen|gender=f)))	(mention_id=3816|references=(entity=(entity_id=3|fullname=Frau Baumhagen|gender=f)))
+26817	wünscht	0		
+26818	mit	0		
+26819	ihrer	0	(mention_id=3820|references=(entity=(entity_id=entity_0005|fullname=Ottilie Baumhagen|gender=f)))	(mention_id=3817|references=(entity=(entity_id=3|fullname=Frau Baumhagen|gender=f)))
+26820	ältesten	0		
+26821	Tochter	0	(mention_id=3821|references=(entity=(entity_id=entity_0006|fullname=Jenny Fredrich, geb. Baumhagen|gender=f)))	(mention_id=3818|references=(entity=(entity_id=4|fullname=Frau Baumhagens älteste Tochter|gender=f)))
+26822	zu	0		
+26823	verreisen	0		
+26824	auf	0		
+26825	lange	0		
+26826	Zeit	0		
+26827	,	0		
+26828	da	0		
+26829	–	0		
+26830	«	0		
+26831	»	0		
+26832	O	0		
+26833	la	0		
+26834	la	0		
+26835	!	0		
+26836	Und	0		
+26837	Trudchen	0	(mention_id=3822|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3819|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+26838	soll	0		
+26839	nicht	0		
+26840	mit	0		
+26841	?	0		
+26842	«	0		
+26843	»	0		
+26844	Im	0		
+26845	Gegenteil	0		
+26846	–	0		
+26847	aber	0		
+26848	sie	0	(mention_id=3823|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3820|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+26849	wollte	0		
+26850	nicht	0		
+26851	.	0		
+26852	«	0		
+26853	»	0		
+26854	Aha	0		
+26855	!	0		
+26856	Jetzt	0		
+26857	dämmert	0		
+26858	es	0		
+26859	mir	0	(mention_id=3824|references=(entity=(entity_id=entity_0008|fullname=Onkel Heinrich|gender=m)))	(mention_id=3821|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+26860	,	0		
+26861	es	0		
+26862	hat	0		
+26863	etwas	0		
+26864	gegeben	0		
+26865	!	0		
+26866	Sie	0	(mention_id=3825|references=(entity=(entity_id=entity_0005|fullname=Ottilie Baumhagen|gender=f)))	(mention_id=3822|references=(entity=(entity_id=3|fullname=Frau Baumhagen|gender=f)))
+26867	,	0		
+26868	Serenissima	0	(mention_id=3826|references=(entity=(entity_id=entity_0005|fullname=Ottilie Baumhagen|gender=f)))	(mention_id=3823|references=(entity=(entity_id=3|fullname=Frau Baumhagen|gender=f)))
+26869	,	0		
+26870	hat	0		
+26871	versucht	0		
+26872	–	0		
+26873	hm	0		
+26874	–	0		
+26875	ich	0	(mention_id=3827|references=(entity=(entity_id=entity_0008|fullname=Onkel Heinrich|gender=m)))	(mention_id=3824|references=(entity=(entity_id=3|fullname=Frau Baumhagen|gender=f)))
+26876	verstehe	0		
+26877	schon	0		
+26878	–	0		
+26879	Reisen	0		
+26880	,	0		
+26881	andere	0		
+26882	Gegenden	0		
+26883	,	0		
+26884	andere	0		
+26885	Menschen	0	(mention_id=3828|references=(entity=(entity_id=generic_0069|fullname=andere Menschen|gender=u|specialcase_entity=generic)))	(mention_id=3825|references=(entity=(entity_id=generic_0008|fullname=Menschen im Allgemeinen|gender=u|specialcase_entity=generic)))
+26886	–	0		
+26887	aus	0		
+26888	den	0		
+26889	Augen	0		
+26890	,	0		
+26891	aus	0		
+26892	dem	0		
+26893	Sinn	0		
+26894	!	0		
+26895	Ha	0		
+26896	,	0		
+26897	ha	0		
+26898	,	0		
+26899	's	0		
+26900	ist	0		
+26901	eine	0		
+26902	geborene	0		
+26903	Diplomatin	0	(mention_id=3829|references=(entity=(entity_id=entity_0005|fullname=Ottilie Baumhagen|gender=f)))	(mention_id=3826|references=(entity=(entity_id=3|fullname=Frau Baumhagen|gender=f)))
+26904	.	0		
+26905	Nun	0		
+26906	,	0		
+26907	ich	0	(mention_id=3830|references=(entity=(entity_id=entity_0008|fullname=Onkel Heinrich|gender=m)))	(mention_id=3827|references=(entity=(entity_id=3|fullname=Frau Baumhagen|gender=f)))
+26908	komme	0		
+26909	,	0		
+26910	lassen	0		
+26911	Sie	0	(mention_id=3831|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3828|references=(entity=(entity_id=11|fullname=Linden|gender=m)),(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+26912	uns	0	(mention_id=3832|references=(entity=(entity_id=entity_0008|fullname=Onkel Heinrich|gender=m)),(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3829|references=(entity=(entity_id=11|fullname=Linden|gender=m)),(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+26913	nur	0		
+26914	einen	0		
+26915	kleinen	0		
+26916	Umweg	0		
+26917	machen	0		
+26918	,	0		
+26919	mir	0	(mention_id=3833|references=(entity=(entity_id=entity_0008|fullname=Onkel Heinrich|gender=m)))	(mention_id=3830|references=(entity=(entity_id=3|fullname=Frau Baumhagen|gender=f)))
+26920	tut	0		
+26921	die	0		
+26922	frische	0		
+26923	Luft	0		
+26924	gut	0		
+26925	.	0		
+26926	Aber	0		
+26927	es	0		
+26928	freut	0		
+26929	mich	0	(mention_id=3834|references=(entity=(entity_id=entity_0008|fullname=Onkel Heinrich|gender=m)))	(mention_id=3831|references=(entity=(entity_id=3|fullname=Frau Baumhagen|gender=f)))
+26930	von	0		
+26931	Herzen	0		
+26932	.	0		
+26933	Also	0		
+26934	in	0		
+26935	drei	0		
+26936	Wochen	0		
+26937	?	0		
+26938	«	0		
+26939	Die	0		
+26940	Herren	0	(mention_id=3835|references=(entity=(entity_id=entity_0008|fullname=Onkel Heinrich|gender=m)),(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3832|references=(entity=(entity_id=11|fullname=Linden|gender=m)),(entity=(entity_id=17|fullname=Onkel Heinrich|gender=m)))
+26941	gingen	0		
+26942	stumm	0		
+26943	nebeneinander	0		
+26944	durch	0		
+26945	das	0		
+26946	Schneegestöber	0		
+26947	.	0		
+26948	In	0		
+26949	den	0		
+26950	Straßen	0		
+26951	war	0		
+26952	es	0		
+26953	trotz	0		
+26954	des	0		
+26955	lebhaften	0		
+26956	Verkehrs	0		
+26957	merkwürdig	0		
+26958	still	0		
+26959	,	0		
+26960	Menschen	0	(mention_id=3836|references=(entity=(entity_id=entity_0197|fullname=Menschen auf den Straßen (Beerdigung)|gender=u|specialcase_entity=group)))	(mention_id=3833|references=(entity=(entity_id=generic_0009|fullname=Menschen im Allgemeinen|gender=u|specialcase_entity=generic)))
+26961	und	0		
+26962	Wagen	0		
+26963	schienen	0		
+26964	auf	0		
+26965	der	0		
+26966	weißen	0		
+26967	Decke	0		
+26968	förmlich	0		
+26969	zu	0		
+26970	schweben	0		
+26971	.	0		
+26972	Die	0		
+26973	Luft	0		
+26974	war	0		
+26975	mild	0		
+26976	,	0		
+26977	wie	0		
+26978	nach	0		
+26979	Frühjahr	0		
+26980	duftend	0		
+26981	,	0		
+26982	und	0		
+26983	Franz	0	(mention_id=3837|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3834|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+26984	Linden	0	(mention_id=3837|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3834|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+26985	dachte	0		
+26986	an	0		
+26987	sein	0	(mention_id=3838|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3835|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+26988	Daheim	0		
+26989	und	0		
+26990	an	0		
+26991	das	0		
+26992	kleine	0		
+26993	Zimmer	0		
+26994	neben	0		
+26995	dem	0		
+26996	seinigen	0	(mention_id=3839|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3836|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+26997	,	0		
+26998	das	0		
+26999	nun	0		
+27000	nicht	0		
+27001	lange	0		
+27002	mehr	0		
+27003	unbewohnt	0		
+27004	bleiben	0		
+27005	würde	0		
+27006	.	0		
+27007	»	0		
+27008	Ganz	0		
+27009	ergebenster	0		
+27010	Diener	0	(mention_id=3840|references=(entity=(entity_id=entity_0003|fullname=Herr Wolff|gender=m)))	(mention_id=3837|references=(entity=(entity_id=15|fullname=Monsieur Wolff|gender=m)))
+27011	!	0		
+27012	«	0		
+27013	sagte	0		
+27014	da	0		
+27015	eine	0		
+27016	Stimme	0		
+27017	,	0		
+27018	und	0		
+27019	an	0		
+27020	ihnen	0	(mention_id=3841|references=(entity=(entity_id=entity_0008|fullname=Onkel Heinrich|gender=m)),(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3838|references=(entity=(entity_id=11|fullname=Linden|gender=m)),(entity=(entity_id=17|fullname=Onkel Heinrich|gender=m)))
+27021	vorüber	0		
+27022	schob	0		
+27023	sich	0	(mention_id=3842|references=(entity=(entity_id=entity_0003|fullname=Herr Wolff|gender=m)))	(mention_id=3839|references=(entity=(entity_id=15|fullname=Monsieur Wolff|gender=m)))
+27024	ein	0		
+27025	kleines	0		
+27026	Männchen	0	(mention_id=3843|references=(entity=(entity_id=entity_0003|fullname=Herr Wolff|gender=m)))	(mention_id=3840|references=(entity=(entity_id=15|fullname=Monsieur Wolff|gender=m)))
+27027	,	0		
+27028	den	0		
+27029	Hut	0		
+27030	schwebend	0		
+27031	über	0		
+27032	den	0		
+27033	kahlen	0		
+27034	Scheitel	0		
+27035	haltend	0		
+27036	,	0		
+27037	eitel	0		
+27038	Freundlichkeit	0		
+27039	das	0		
+27040	spitze	0		
+27041	Gesicht	0		
+27042	.	0		
+27043	Linden	0	(mention_id=3844|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3841|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+27044	grüßte	0		
+27045	.	0		
+27046	Onkel	0	(mention_id=3845|references=(entity=(entity_id=entity_0008|fullname=Onkel Heinrich|gender=m)))	(mention_id=3842|references=(entity=(entity_id=17|fullname=Onkel Heinrich|gender=m)))
+27047	Heinrich	0	(mention_id=3845|references=(entity=(entity_id=entity_0008|fullname=Onkel Heinrich|gender=m)))	(mention_id=3842|references=(entity=(entity_id=17|fullname=Onkel Heinrich|gender=m)))
+27048	berührte	0		
+27049	nachlässig	0		
+27050	den	0		
+27051	Rand	0		
+27052	seines	0	(mention_id=3846|references=(entity=(entity_id=entity_0008|fullname=Onkel Heinrich|gender=m)))	(mention_id=3843|references=(entity=(entity_id=17|fullname=Onkel Heinrich|gender=m)))
+27053	Hutes	0		
+27054	.	0		
+27055	»	0		
+27056	Woher	0		
+27057	kennen	0		
+27058	Sie	0	(mention_id=3847|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3844|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+27059	denn	0		
+27060	diesen	0		
+27061	Monsieur	0	(mention_id=3848|references=(entity=(entity_id=entity_0003|fullname=Herr Wolff|gender=m)))	(mention_id=3845|references=(entity=(entity_id=15|fullname=Monsieur Wolff|gender=m)))
+27062	Wolff	0	(mention_id=3848|references=(entity=(entity_id=entity_0003|fullname=Herr Wolff|gender=m)))	(mention_id=3845|references=(entity=(entity_id=15|fullname=Monsieur Wolff|gender=m)))
+27063	?	0		
+27064	«	0		
+27065	fragte	0		
+27066	er	0	(mention_id=3849|references=(entity=(entity_id=entity_0008|fullname=Onkel Heinrich|gender=m)))	(mention_id=3846|references=(entity=(entity_id=17|fullname=Onkel Heinrich|gender=m)))
+27067	,	0		
+27068	dem	0		
+27069	Dahineilenden	0		(mention_id=3847|references=(entity=(entity_id=15|fullname=Monsieur Wolff|gender=m)))
+27070	nachblickend	0		
+27071	,	0		
+27072	der	0	(mention_id=3850|references=(entity=(entity_id=entity_0003|fullname=Herr Wolff|gender=m)))	(mention_id=3848|references=(entity=(entity_id=15|fullname=Monsieur Wolff|gender=m)))
+27073	sich	0	(mention_id=3851|references=(entity=(entity_id=entity_0003|fullname=Herr Wolff|gender=m)))	(mention_id=3849|references=(entity=(entity_id=15|fullname=Monsieur Wolff|gender=m)))
+27074	unglaublich	0		
+27075	behende	0		
+27076	durch	0		
+27077	die	0		
+27078	Menschen	0	(mention_id=3852|references=(entity=(entity_id=entity_0197|fullname=Menschen auf den Straßen (Beerdigung)|gender=u|specialcase_entity=group)))	(mention_id=3850|references=(entity=(entity_id=generic_0010|fullname=Menschen im Allgemeinen|gender=u|specialcase_entity=generic)))
+27079	wand	0		
+27080	.	0		
+27081	»	0		
+27082	Sehen	0		
+27083	Sie	0	(mention_id=3853|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3851|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+27084	,	0		
+27085	Linden	0	(mention_id=3854|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3852|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+27086	,	0		
+27087	der	0	(mention_id=3855|references=(entity=(entity_id=entity_0003|fullname=Herr Wolff|gender=m)))	(mention_id=3853|references=(entity=(entity_id=15|fullname=Monsieur Wolff|gender=m)))
+27088	ist	0		
+27089	auch	0		
+27090	so	0		
+27091	einer	0	(mention_id=3856|references=(entity=(entity_id=entity_0003|fullname=Herr Wolff|gender=m)))	(mention_id=3854|references=(entity=(entity_id=15|fullname=Monsieur Wolff|gender=m)))
+27092	,	0		
+27093	der	0	(mention_id=3857|references=(entity=(entity_id=entity_0003|fullname=Herr Wolff|gender=m)))	(mention_id=3855|references=(entity=(entity_id=15|fullname=Monsieur Wolff|gender=m)))
+27094	,	0		
+27095	treffe	0		
+27096	ich	0	(mention_id=3858|references=(entity=(entity_id=entity_0008|fullname=Onkel Heinrich|gender=m)))	(mention_id=3856|references=(entity=(entity_id=17|fullname=Onkel Heinrich|gender=m)))
+27097	ihn	0	(mention_id=3859|references=(entity=(entity_id=entity_0003|fullname=Herr Wolff|gender=m)))	(mention_id=3857|references=(entity=(entity_id=15|fullname=Monsieur Wolff|gender=m)))
+27098	vor	0		
+27099	Tische	0		
+27100	,	0		
+27101	mir	0	(mention_id=3860|references=(entity=(entity_id=entity_0008|fullname=Onkel Heinrich|gender=m)))	(mention_id=3858|references=(entity=(entity_id=17|fullname=Onkel Heinrich|gender=m)))
+27102	den	0		
+27103	Appetit	0		
+27104	beinahe	0		
+27105	verderben	0		
+27106	kann	0		
+27107	.	0		
+27108	«	0		
+27109	»	0		
+27110	Ich	0	(mention_id=3861|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3859|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+27111	stehe	0		
+27112	oder	0		
+27113	stand	0		
+27114	vielmehr	0		
+27115	mit	0		
+27116	ihm	0	(mention_id=3862|references=(entity=(entity_id=entity_0003|fullname=Herr Wolff|gender=m)))	(mention_id=3860|references=(entity=(entity_id=15|fullname=Monsieur Wolff|gender=m)))
+27117	in	0		
+27118	Geschäftsverbindung	0		
+27119	durch	0		
+27120	meinen	0	(mention_id=3863|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3861|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+27121	alten	0		
+27122	Onkel	0	(mention_id=3864|references=(entity=(entity_id=entity_0024|fullname=Onkel des Franz Linden|gender=m)))	(mention_id=3862|references=(entity=(entity_id=13|fullname=Lindens alter Onkel|gender=m)))
+27123	.	0		
+27124	Er	0	(mention_id=3865|references=(entity=(entity_id=entity_0024|fullname=Onkel des Franz Linden|gender=m)))	(mention_id=3863|references=(entity=(entity_id=13|fullname=Lindens alter Onkel|gender=m)))
+27125	hatte	0		
+27126	Geld	0		
+27127	von	0		
+27128	ihm	0	(mention_id=3866|references=(entity=(entity_id=entity_0003|fullname=Herr Wolff|gender=m)))	(mention_id=3864|references=(entity=(entity_id=13|fullname=Lindens alter Onkel|gender=m)))
+27129	auf	0		
+27130	Niendorf	0		
+27131	«	0		
+27132	,	0		
+27133	erklärte	0		
+27134	Linden	0	(mention_id=3867|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3865|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+27135	.	0		
+27136	»	0		
+27137	Von	0		
+27138	diesem	0		
+27139	Krawattenfabrikanten	0	(mention_id=3868|references=(entity=(entity_id=entity_0003|fullname=Herr Wolff|gender=m)))	(mention_id=3866|references=(entity=(entity_id=29|fullname=der Krawattenfabrikant|gender=m)))
+27140	?	0		
+27141	Der	0		
+27142	Alte	0	(mention_id=3869|references=(entity=(entity_id=entity_0024|fullname=Onkel des Franz Linden|gender=m)))	(mention_id=3867|references=(entity=(entity_id=13|fullname=Lindens alter Onkel|gender=m)))
+27143	ist	0		
+27144	wohl	0		
+27145	unklug	0		
+27146	gewesen	0		
+27147	!	0		
+27148	«	0		
+27149	Linden	0	(mention_id=3870|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3868|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+27150	erwiderte	0		
+27151	nichts	0		
+27152	.	0		
+27153	Sie	0	(mention_id=3871|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)),(entity=(entity_id=entity_0008|fullname=Onkel Heinrich|gender=m)))	(mention_id=3869|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+27154	waren	0		
+27155	eben	0		
+27156	in	0		
+27157	eine	0		
+27158	stille	0		
+27159	Seitenstraße	0		
+27160	eingebogen	0		
+27161	.	0		
+27162	»	0		
+27163	Steht	0		
+27164	das	0		
+27165	Geld	0		
+27166	noch	0		
+27167	darauf	0		
+27168	?	0		
+27169	«	0		
+27170	fragte	0		
+27171	Herr	0	(mention_id=3872|references=(entity=(entity_id=entity_0008|fullname=Onkel Heinrich|gender=m)))	(mention_id=3870|references=(entity=(entity_id=17|fullname=Onkel Heinrich|gender=m)))
+27172	Baumhagen	0	(mention_id=3872|references=(entity=(entity_id=entity_0008|fullname=Onkel Heinrich|gender=m)))	(mention_id=3870|references=(entity=(entity_id=17|fullname=Onkel Heinrich|gender=m)))
+27173	.	0		
+27174	»	0		
+27175	Nein	0		
+27176	,	0		
+27177	die	0		
+27178	Schwester	0	(mention_id=3873|references=(entity=(entity_id=entity_0142|fullname=Schwester des Amtsrichters|gender=f)))	(mention_id=3871|references=(entity=(entity_id=34|fullname=die Schwester meines Freundes|gender=f)))
+27179	meines	0	(mention_id=3874|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3872|references=(entity=(entity_id=12|fullname=Lindens Freund|gender=m)))
+27180	Freundes	0	(mention_id=3875|references=(entity=(entity_id=entity_0002|fullname=Richard Weishaupt|gender=m)))	(mention_id=3873|references=(entity=(entity_id=12|fullname=Lindens Freund|gender=m)))
+27181	hat	0		
+27182	die	0		
+27183	Hypothek	0		
+27184	übernommen	0		
+27185	.	0		
+27186	«	0		
+27187	»	0		
+27188	So	0		
+27189	!	0		
+27190	–	0		
+27191	Warum	0		
+27192	haben	0		
+27193	Sie	0	(mention_id=3876|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3874|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+27194	es	0		
+27195	mir	0	(mention_id=3877|references=(entity=(entity_id=entity_0008|fullname=Onkel Heinrich|gender=m)))	(mention_id=3875|references=(entity=(entity_id=17|fullname=Onkel Heinrich|gender=m)))
+27196	nicht	0		
+27197	gesagt	0		
+27198	?	0		
+27199	Sie	0	(mention_id=3878|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3876|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+27200	hätten	0		
+27201	überdies	0		
+27202	von	0		
+27203	Trudchens	0	(mention_id=3879|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3877|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+27204	Geld	0		
+27205	–	0		
+27206	«	0		
+27207	Franz	0	(mention_id=3880|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3878|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+27208	Linden	0	(mention_id=3880|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3878|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+27209	machte	0		
+27210	eine	0		
+27211	abwehrende	0		
+27212	Bewegung	0		
+27213	mit	0		
+27214	der	0		
+27215	Hand	0		
+27216	.	0		
+27217	»	0		
+27218	Na	0		
+27219	–	0		
+27220	ich	0	(mention_id=3881|references=(entity=(entity_id=entity_0008|fullname=Onkel Heinrich|gender=m)))	(mention_id=3879|references=(entity=(entity_id=17|fullname=Onkel Heinrich|gender=m)))
+27221	hab's	0		
+27222	dem	0		
+27223	Kinde	0	(mention_id=3882|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3880|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+27224	versprochen	0		
+27225	.	0		
+27226	Sie	0	(mention_id=3883|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3881|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+27227	hatte	0		
+27228	mich	0	(mention_id=3884|references=(entity=(entity_id=entity_0008|fullname=Onkel Heinrich|gender=m)))	(mention_id=3882|references=(entity=(entity_id=17|fullname=Onkel Heinrich|gender=m)))
+27229	beauftragt	0		
+27230	,	0		
+27231	Ihnen	0	(mention_id=3885|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3883|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+27232	ein	0		
+27233	Kapital	0		
+27234	zur	0		
+27235	Verfügung	0		
+27236	zu	0		
+27237	stellen	0		
+27238	«	0		
+27239	,	0		
+27240	erläuterte	0		
+27241	der	0		
+27242	alte	0		
+27243	Herr	0	(mention_id=3886|references=(entity=(entity_id=entity_0008|fullname=Onkel Heinrich|gender=m)))	(mention_id=3884|references=(entity=(entity_id=17|fullname=Onkel Heinrich|gender=m)))
+27244	.	0		
+27245	»	0		
+27246	Ich	0	(mention_id=3887|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3885|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+27247	danke	0		
+27248	!	0		
+27249	«	0		
+27250	erwiderte	0		
+27251	Linden	0	(mention_id=3888|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3886|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+27252	kurz	0		
+27253	;	0		
+27254	»	0		
+27255	in	0		
+27256	meine	0	(mention_id=3889|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3887|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+27257	Brautschaft	0		
+27258	mag	0		
+27259	ich	0	(mention_id=3890|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3888|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+27260	keine	0		
+27261	Geldgeschichten	0		
+27262	hineinspielen	0		
+27263	lassen	0		
+27264	.	0		
+27265	«	0		
+27266	»	0		
+27267	Und	0		
+27268	der	0		
+27269	Bau	0		
+27270	in	0		
+27271	Niendorf	0		
+27272	?	0		
+27273	«	0		
+27274	»	0		
+27275	Trudchen	0	(mention_id=3891|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3889|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+27276	weiß	0		
+27277	,	0		
+27278	daß	0		
+27279	kein	0		
+27280	Feenpalast	0		
+27281	sie	0	(mention_id=3892|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3890|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+27282	erwartet	0		
+27283	.	0		
+27284	Es	0		
+27285	läßt	0		
+27286	sich	0		
+27287	übrigens	0		
+27288	ganz	0		
+27289	gemütlich	0		
+27290	dort	0		
+27291	wohnen	0		
+27292	in	0		
+27293	den	0		
+27294	alten	0		
+27295	Zimmern	0		
+27296	,	0		
+27297	wenn	0		
+27298	sie	0		
+27299	auch	0		
+27300	niedrig	0		
+27301	sind	0		
+27302	und	0		
+27303	klein	0		
+27304	.	0		
+27305	–	0		
+27306	Einen	0		
+27307	Gartensaal	0		
+27308	habe	0		
+27309	ich	0	(mention_id=3893|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3891|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+27310	,	0		
+27311	der	0		
+27312	sehr	0		
+27313	hübsch	0		
+27314	ist	0		
+27315	.	0		
+27316	Und	0		
+27317	das	0		
+27318	,	0		
+27319	was	0		
+27320	vor	0		
+27321	den	0		
+27322	Fenstern	0		
+27323	liegt	0		
+27324	,	0		
+27325	findet	0		
+27326	man	0		
+27327	so	0		
+27328	bald	0		
+27329	nicht	0		
+27330	wieder	0		
+27331	,	0		
+27332	und	0		
+27333	reist	0		
+27334	man	0		
+27335	noch	0		
+27336	so	0		
+27337	weit	0		
+27338	.	0		
+27339	«	0		
+27340	»	0		
+27341	Ei	0		
+27342	,	0		
+27343	das	0		
+27344	Kind	0	(mention_id=3894|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3892|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+27345	ist	0		
+27346	schon	0		
+27347	zufrieden	0		
+27348	,	0		
+27349	freilich	0		
+27350	!	0		
+27351	«	0		
+27352	stimmte	0		
+27353	Herr	0	(mention_id=3895|references=(entity=(entity_id=entity_0008|fullname=Onkel Heinrich|gender=m)))	(mention_id=3893|references=(entity=(entity_id=17|fullname=Onkel Heinrich|gender=m)))
+27354	Baumhagen	0	(mention_id=3895|references=(entity=(entity_id=entity_0008|fullname=Onkel Heinrich|gender=m)))	(mention_id=3893|references=(entity=(entity_id=17|fullname=Onkel Heinrich|gender=m)))
+27355	bei	0		
+27356	,	0		
+27357	»	0		
+27358	aber	0		
+27359	Serenissima	0	(mention_id=3896|references=(entity=(entity_id=entity_0005|fullname=Ottilie Baumhagen|gender=f)))	(mention_id=3894|references=(entity=(entity_id=3|fullname=Frau Baumhagen|gender=f)))
+27360	?	0		
+27361	«	0		
+27362	»	0		
+27363	Es	0		
+27364	ist	0		
+27365	mir	0	(mention_id=3897|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3895|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+27366	immer	0		
+27367	noch	0		
+27368	lieber	0		
+27369	,	0		
+27370	sie	0	(mention_id=3898|references=(entity=(entity_id=entity_0005|fullname=Ottilie Baumhagen|gender=f)))	(mention_id=3896|references=(entity=(entity_id=3|fullname=Frau Baumhagen|gender=f)))
+27371	sagt	0		
+27372	:	0		
+27373	›	0		
+27374	Mein	0	(mention_id=3899|references=(entity=(entity_id=entity_0005|fullname=Ottilie Baumhagen|gender=f)))	(mention_id=3897|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+27375	Kind	0	(mention_id=3900|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3898|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+27376	ist	0		
+27377	in	0		
+27378	ein	0		
+27379	altes	0		
+27380	Bauernhaus	0		
+27381	gezogen	0		
+27382	‹	0		
+27383	,	0		
+27384	als	0		
+27385	:	0		
+27386	›	0		
+27387	Wir	0	(mention_id=3901|references=(entity=(entity_id=entity_0005|fullname=Ottilie Baumhagen|gender=f)),(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3899|references=(entity=(entity_id=11|fullname=Linden|gender=m)),(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+27388	haben	0		
+27389	erst	0		
+27390	bauen	0		
+27391	müssen	0		
+27392	‹	0		
+27393	«	0		
+27394	,	0		
+27395	bemerkte	0		
+27396	Linden	0	(mention_id=3902|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3900|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+27397	trocken	0		
+27398	.	0		
+27399	Der	0		
+27400	alte	0		
+27401	Herr	0	(mention_id=3903|references=(entity=(entity_id=entity_0008|fullname=Onkel Heinrich|gender=m)))	(mention_id=3901|references=(entity=(entity_id=17|fullname=Onkel Heinrich|gender=m)))
+27402	lachte	0		
+27403	vergnügt	0		
+27404	in	0		
+27405	sich	0	(mention_id=3904|references=(entity=(entity_id=entity_0008|fullname=Onkel Heinrich|gender=m)))	(mention_id=3902|references=(entity=(entity_id=17|fullname=Onkel Heinrich|gender=m)))
+27406	hinein	0		
+27407	.	0		
+27408	»	0		
+27409	Ja	0		
+27410	,	0		
+27411	ja	0		
+27412	,	0		
+27413	so	0		
+27414	spricht	0		
+27415	sie	0	(mention_id=3905|references=(entity=(entity_id=entity_0005|fullname=Ottilie Baumhagen|gender=f)))	(mention_id=3903|references=(entity=(entity_id=3|fullname=Frau Baumhagen|gender=f)))
+27416	,	0		
+27417	so	0		
+27418	macht	0		
+27419	sie'	0	(mention_id=3906|references=(entity=(entity_id=entity_0005|fullname=Ottilie Baumhagen|gender=f)))	(mention_id=3904|references=(entity=(entity_id=3|fullname=Frau Baumhagen|gender=f)))
+27420	s.	0	(mention_id=3906|references=(entity=(entity_id=entity_0005|fullname=Ottilie Baumhagen|gender=f)))	(mention_id=3904|references=(entity=(entity_id=3|fullname=Frau Baumhagen|gender=f)))
+27421	Und	0		
+27422	verreisen	0		
+27423	will	0		
+27424	sie	0	(mention_id=3907|references=(entity=(entity_id=entity_0005|fullname=Ottilie Baumhagen|gender=f)))	(mention_id=3905|references=(entity=(entity_id=3|fullname=Frau Baumhagen|gender=f)))
+27425	–	0		
+27426	's	0		
+27427	ist	0		
+27428	wunderbar	0		
+27429	.	0		
+27430	Meine	0	(mention_id=3908|references=(entity=(entity_id=entity_0008|fullname=Onkel Heinrich|gender=m)))	(mention_id=3906|references=(entity=(entity_id=19|fullname=Onkel Heinrichs Mutter|gender=f)))
+27431	liebe	0		
+27432	selige	0		
+27433	Mutter	0	(mention_id=3909|references=(entity=(entity_id=entity_0200|fullname=Onkel Heinrichs Mutter|gender=f)))	(mention_id=3907|references=(entity=(entity_id=19|fullname=Onkel Heinrichs Mutter|gender=f)))
+27434	suchte	0		
+27435	Trost	0		
+27436	in	0		
+27437	der	0		
+27438	Arbeit	0		
+27439	,	0		
+27440	als	0		
+27441	mein	0	(mention_id=3910|references=(entity=(entity_id=entity_0008|fullname=Onkel Heinrich|gender=m)))	(mention_id=3908|references=(entity=(entity_id=17|fullname=Onkel Heinrich|gender=m)))
+27442	Vater	0	(mention_id=3911|references=(entity=(entity_id=entity_0199|fullname=Onkel Heinrichs Vater|gender=m)))	(mention_id=3909|references=(entity=(entity_id=20|fullname=Onkel Heinrichs Vater|gender=m)))
+27443	starb	0		
+27444	–	0		
+27445	das	0		
+27446	war	0		
+27447	noch	0		
+27448	die	0		
+27449	gute	0		
+27450	alte	0		
+27451	Sitte	0		
+27452	;	0		
+27453	die	0		
+27454	Heutigen	0		(mention_id=3910|references=(entity=(entity_id=generic_0016|fullname=die Heutigen im Allgemeinen|gender=u|specialcase_entity=generic)))
+27455	reisen	0		
+27456	.	0		
+27457	Dem	0		
+27458	armen	0		
+27459	Ding	0	(mention_id=3912|references=(entity=(entity_id=entity_0006|fullname=Jenny Fredrich, geb. Baumhagen|gender=f)))	(mention_id=3911|references=(entity=(entity_id=9|fullname=Jenny|gender=f)))
+27460	,	0		
+27461	der	0		
+27462	Jenny	0	(mention_id=3913|references=(entity=(entity_id=entity_0006|fullname=Jenny Fredrich, geb. Baumhagen|gender=f)))	(mention_id=3912|references=(entity=(entity_id=9|fullname=Jenny|gender=f)))
+27463	tät's	0		
+27464	besser	0		
+27465	,	0		
+27466	sie	0	(mention_id=3914|references=(entity=(entity_id=entity_0006|fullname=Jenny Fredrich, geb. Baumhagen|gender=f)))	(mention_id=3913|references=(entity=(entity_id=9|fullname=Jenny|gender=f)))
+27467	trauerte	0		
+27468	recht	0		
+27469	tief	0		
+27470	innerlich	0		
+27471	in	0		
+27472	der	0		
+27473	Stille	0		
+27474	.	0		
+27475	Nein	0		
+27476	,	0		
+27477	da	0		
+27478	wird	0		
+27479	sie	0	(mention_id=3915|references=(entity=(entity_id=entity_0006|fullname=Jenny Fredrich, geb. Baumhagen|gender=f)))	(mention_id=3914|references=(entity=(entity_id=9|fullname=Jenny|gender=f)))
+27480	hinausgerissen	0		
+27481	,	0		
+27482	damit	0		
+27483	das	0		
+27484	Pfeifen	0		
+27485	der	0		
+27486	Lokomotive	0		
+27487	ihr	0	(mention_id=3916|references=(entity=(entity_id=entity_0006|fullname=Jenny Fredrich, geb. Baumhagen|gender=f)))	(mention_id=3915|references=(entity=(entity_id=9|fullname=Jenny|gender=f)))
+27488	die	0		
+27489	letzte	0		
+27490	Erinnerung	0		
+27491	an	0		
+27492	die	0		
+27493	Stimme	0		
+27494	des	0		
+27495	Kleinen	0	(mention_id=3917|references=(entity=(entity_id=entity_0020|fullname=Walterchen Fredrich|gender=m)))	(mention_id=3916|references=(entity=(entity_id=10|fullname=Jennys blonder Liebling|gender=m)))
+27496	übertönt	0		
+27497	.	0		
+27498	Linden	0	(mention_id=3918|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3917|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+27499	!	0		
+27500	«	0		
+27501	der	0		
+27502	alte	0		
+27503	Herr	0	(mention_id=3919|references=(entity=(entity_id=entity_0008|fullname=Onkel Heinrich|gender=m)))	(mention_id=3918|references=(entity=(entity_id=17|fullname=Onkel Heinrich|gender=m)))
+27504	blieb	0		
+27505	stehen	0		
+27506	und	0		
+27507	legte	0		
+27508	die	0		
+27509	Hand	0		
+27510	auf	0		
+27511	seine	0	(mention_id=3920|references=(entity=(entity_id=entity_0008|fullname=Onkel Heinrich|gender=m)))	(mention_id=3919|references=(entity=(entity_id=17|fullname=Onkel Heinrich|gender=m)))
+27512	Schulter	0		
+27513	,	0		
+27514	»	0		
+27515	die	0		
+27516	Trudchen	0	(mention_id=3921|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3920|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+27517	ist	0		
+27518	anders	0		
+27519	,	0		
+27520	Sie	0	(mention_id=3922|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3921|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+27521	können's	0		
+27522	glauben	0		
+27523	!	0		
+27524	Sie	0	(mention_id=3923|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3922|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+27525	ginge	0		
+27526	nicht	0		
+27527	fort	0		
+27528	von	0		
+27529	dem	0		
+27530	kleinen	0		
+27531	Grabe	0		
+27532	da	0		
+27533	draußen	0		
+27534	,	0		
+27535	jetzt	0		
+27536	nicht	0		
+27537	!	0		
+27538	Sie	0	(mention_id=3924|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3923|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+27539	hat	0		
+27540	auch	0		
+27541	ihre	0	(mention_id=3925|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3924|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+27542	Fehler	0		
+27543	,	0		
+27544	das	0		
+27545	Kind	0	(mention_id=3926|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3925|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+27546	,	0		
+27547	aber	0		
+27548	–	0		
+27549	hier	0		
+27550	drinnen	0		
+27551	«	0		
+27552	,	0		
+27553	er	0	(mention_id=3927|references=(entity=(entity_id=entity_0008|fullname=Onkel Heinrich|gender=m)))	(mention_id=3926|references=(entity=(entity_id=17|fullname=Onkel Heinrich|gender=m)))
+27554	zeigte	0		
+27555	auf	0		
+27556	seine	0	(mention_id=3928|references=(entity=(entity_id=entity_0008|fullname=Onkel Heinrich|gender=m)))	(mention_id=3927|references=(entity=(entity_id=17|fullname=Onkel Heinrich|gender=m)))
+27557	Brust	0		
+27558	,	0		
+27559	»	0		
+27560	–	0		
+27561	da	0		
+27562	ist's	0		
+27563	richtig	0		
+27564	bei	0		
+27565	ihr	0	(mention_id=3929|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3928|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+27566	.	0		
+27567	Wollte	0		
+27568	Gott	0		
+27569	,	0		
+27570	daß	0		
+27571	sie	0	(mention_id=3930|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3929|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+27572	recht	0		
+27573	glücklich	0		
+27574	würde	0		
+27575	bei	0		
+27576	Ihnen	0	(mention_id=3931|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3930|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+27577	,	0		
+27578	in	0		
+27579	dem	0		
+27580	alten	0		
+27581	Neste	0		
+27582	.	0		
+27583	Sie	0	(mention_id=3932|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3931|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+27584	hat's	0		
+27585	verdient	0		
+27586	,	0		
+27587	schon	0		
+27588	um	0		
+27589	ihre	0	(mention_id=3933|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3932|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+27590	Jugend	0		
+27591	–	0		
+27592	um	0		
+27593	ihren	0		(mention_id=3933|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+27594	Vater	0	(mention_id=3934|references=(entity=(entity_id=entity_0015|fullname=Leberecht Baumhagen|gender=m)))	(mention_id=3934|references=(entity=(entity_id=27|fullname=Trudchens Vater|gender=m)))
+27595	.	0		
+27596	«	0		
+27597	Franz	0	(mention_id=3935|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3935|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+27598	nickte	0		
+27599	,	0		
+27600	er	0	(mention_id=3936|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3936|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+27601	wußte	0		
+27602	es	0		
+27603	ja	0		
+27604	so	0		
+27605	genau	0		
+27606	,	0		
+27607	was	0		
+27608	der	0		
+27609	alte	0		
+27610	Egoist	0	(mention_id=3937|references=(entity=(entity_id=entity_0008|fullname=Onkel Heinrich|gender=m)))	(mention_id=3937|references=(entity=(entity_id=27|fullname=Trudchens Vater|gender=m)))
+27611	ihm	0	(mention_id=3938|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3938|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+27612	da	0		
+27613	erzählte	0		
+27614	.	0		
+27615	»	0		
+27616	Na	0		
+27617	,	0		
+27618	nun	0		
+27619	kommen	0		
+27620	Sie	0	(mention_id=3939|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3939|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+27621	aber	0		
+27622	«	0		
+27623	,	0		
+27624	fuhr	0		
+27625	Onkel	0	(mention_id=3940|references=(entity=(entity_id=entity_0008|fullname=Onkel Heinrich|gender=m)))	(mention_id=3940|references=(entity=(entity_id=17|fullname=Onkel Heinrich|gender=m)))
+27626	Heinrich	0	(mention_id=3940|references=(entity=(entity_id=entity_0008|fullname=Onkel Heinrich|gender=m)))	(mention_id=3940|references=(entity=(entity_id=17|fullname=Onkel Heinrich|gender=m)))
+27627	fort	0		
+27628	,	0		
+27629	»	0		
+27630	meine	0	(mention_id=3941|references=(entity=(entity_id=entity_0008|fullname=Onkel Heinrich|gender=m)))	(mention_id=3941|references=(entity=(entity_id=17|fullname=Onkel Heinrich|gender=m)))
+27631	Schwägerin	0	(mention_id=3942|references=(entity=(entity_id=entity_0005|fullname=Ottilie Baumhagen|gender=f)))	(mention_id=3942|references=(entity=(entity_id=3|fullname=Frau Baumhagen|gender=f)))
+27632	wird	0		
+27633	mich	0	(mention_id=3943|references=(entity=(entity_id=entity_0008|fullname=Onkel Heinrich|gender=m)))	(mention_id=3943|references=(entity=(entity_id=17|fullname=Onkel Heinrich|gender=m)))
+27634	sprechen	0		
+27635	wollen	0		
+27636	wegen	0		
+27637	der	0		
+27638	Hochzeit	0		
+27639	.	0		
+27640	«	0		
+27641	»	0		
+27642	Ich	0	(mention_id=3944|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3944|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+27643	denke	0		
+27644	,	0		
+27645	wegen	0		
+27646	des	0		
+27647	Ehekontraktes	0		
+27648	«	0		
+27649	,	0		
+27650	meinte	0		
+27651	Franz	0	(mention_id=3945|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3945|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+27652	Linden	0	(mention_id=3945|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3945|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+27653	,	0		
+27654	»	0		
+27655	und	0		
+27656	da	0		
+27657	wollte	0		
+27658	ich	0	(mention_id=3946|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3946|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+27659	Sie	0	(mention_id=3947|references=(entity=(entity_id=entity_0008|fullname=Onkel Heinrich|gender=m)))	(mention_id=3947|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+27660	bitten	0		
+27661	,	0		
+27662	auch	0		
+27663	Gertrud	0	(mention_id=3948|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3948|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+27664	zu	0		
+27665	bestimmen	0		
+27666	,	0		
+27667	daß	0		
+27668	sie	0	(mention_id=3949|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3949|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+27669	sich	0	(mention_id=3950|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3950|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+27670	den	0		
+27671	Wünschen	0		
+27672	ihrer	0	(mention_id=3951|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3951|references=(entity=(entity_id=3|fullname=Frau Baumhagen|gender=f)))
+27673	Mutter	0	(mention_id=3952|references=(entity=(entity_id=entity_0005|fullname=Ottilie Baumhagen|gender=f)))	(mention_id=3952|references=(entity=(entity_id=3|fullname=Frau Baumhagen|gender=f)))
+27674	fügt	0		
+27675	.	0		
+27676	Es	0		
+27677	ist	0		
+27678	mir	0	(mention_id=3953|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3953|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+27679	lieber	0		
+27680	so	0		
+27681	.	0		
+27682	«	0		
+27683	»	0		
+27684	Hm	0		
+27685	!	0		
+27686	«	0		
+27687	der	0		
+27688	alte	0		
+27689	Herr	0	(mention_id=3954|references=(entity=(entity_id=entity_0008|fullname=Onkel Heinrich|gender=m)))	(mention_id=3954|references=(entity=(entity_id=17|fullname=Onkel Heinrich|gender=m)))
+27690	räusperte	0		
+27691	sich	0	(mention_id=3955|references=(entity=(entity_id=entity_0008|fullname=Onkel Heinrich|gender=m)))	(mention_id=3955|references=(entity=(entity_id=17|fullname=Onkel Heinrich|gender=m)))
+27692	.	0		
+27693	»	0		
+27694	Ich	0	(mention_id=3956|references=(entity=(entity_id=entity_0008|fullname=Onkel Heinrich|gender=m)))	(mention_id=3956|references=(entity=(entity_id=17|fullname=Onkel Heinrich|gender=m)))
+27695	füge	0		
+27696	mich	0	(mention_id=3957|references=(entity=(entity_id=entity_0008|fullname=Onkel Heinrich|gender=m)))	(mention_id=3957|references=(entity=(entity_id=17|fullname=Onkel Heinrich|gender=m)))
+27697	,	0		
+27698	du	0	(mention_id=3958|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3958|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+27699	fügst	0		
+27700	dich	0	(mention_id=3959|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3959|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+27701	,	0		
+27702	er	0	(mention_id=3960|references=(entity=(entity_id=entity_0008|fullname=Onkel Heinrich|gender=m)))	(mention_id=3960|references=(entity=(entity_id=18|fullname=Onkel Heinrichs Bruder|gender=m)))
+27703	fügt	0		
+27704	sich	0	(mention_id=3961|references=(entity=(entity_id=entity_0008|fullname=Onkel Heinrich|gender=m)))	(mention_id=3961|references=(entity=(entity_id=18|fullname=Onkel Heinrichs Bruder|gender=m)))
+27705	,	0		
+27706	sie	0	(mention_id=3962|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3962|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+27707	–	0		
+27708	fügt	0		
+27709	sich	0	(mention_id=3963|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3963|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+27710	nicht	0		
+27711	!	0		
+27712	's	0	(mention_id=3964|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	
+27713	ist	0		
+27714	ein	0		
+27715	Trotzkopf	0	(mention_id=3965|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)|specialcase_reference=figurative))	(mention_id=3964|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+27716	–	0		
+27717	pardon	0		
+27718	!	0		
+27719	–	0		
+27720	Na	0		
+27721	,	0		
+27722	bange	0		
+27723	machen	0		
+27724	gilt	0		
+27725	nicht	0		
+27726	–	0		
+27727	das	0		
+27728	hat	0		
+27729	sie	0	(mention_id=3966|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3965|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+27730	von	0		
+27731	meinem	0	(mention_id=3967|references=(entity=(entity_id=entity_0008|fullname=Onkel Heinrich|gender=m)))	(mention_id=3966|references=(entity=(entity_id=18|fullname=Onkel Heinrichs Bruder|gender=m)))
+27732	Bruder	0	(mention_id=3968|references=(entity=(entity_id=entity_0015|fullname=Leberecht Baumhagen|gender=m)))	(mention_id=3967|references=(entity=(entity_id=18|fullname=Onkel Heinrichs Bruder|gender=m)))
+27733	.	0		
+27734	Er	0	(mention_id=3969|references=(entity=(entity_id=entity_0015|fullname=Leberecht Baumhagen|gender=m)))	(mention_id=3968|references=(entity=(entity_id=18|fullname=Onkel Heinrichs Bruder|gender=m)))
+27735	war	0		
+27736	ein	0		
+27737	praktischer	0		
+27738	,	0		
+27739	ein	0		
+27740	tüchtiger	0		
+27741	Kaufmann	0	(mention_id=3970|references=(entity=(entity_id=entity_0015|fullname=Leberecht Baumhagen|gender=m)))	(mention_id=3969|references=(entity=(entity_id=18|fullname=Onkel Heinrichs Bruder|gender=m)))
+27742	,	0		
+27743	aber	0		
+27744	sobald	0		
+27745	das	0		
+27746	Herz	0		
+27747	ins	0		
+27748	Spiel	0		
+27749	kam	0		
+27750	–	0		
+27751	vorbei	0		
+27752	mit	0		
+27753	Klugheit	0		
+27754	,	0		
+27755	Vorsicht	0		
+27756	,	0		
+27757	Berechnung	0		
+27758	,	0		
+27759	was	0		
+27760	weiß	0		
+27761	ich'	0		(mention_id=3970|references=(entity=(entity_id=18|fullname=Onkel Heinrichs Bruder|gender=m)))
+27762	s.	0		(mention_id=3970|references=(entity=(entity_id=18|fullname=Onkel Heinrichs Bruder|gender=m)))
+27763	–	0		
+27764	O	0		
+27765	la	0		
+27766	la	0		
+27767	!	0		
+27768	Aber	0		
+27769	,	0		
+27770	da	0		
+27771	wären	0		
+27772	wir	0	(mention_id=3971|references=(entity=(entity_id=entity_0008|fullname=Onkel Heinrich|gender=m)),(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3971|references=(entity=(entity_id=17|fullname=Onkel Heinrich|gender=m)),(entity=(entity_id=11|fullname=Linden|gender=m)))
+27773	ja	0		
+27774	.	0		
+27775	«	0		
+27776	Frau	0	(mention_id=3972|references=(entity=(entity_id=entity_0005|fullname=Ottilie Baumhagen|gender=f)))	(mention_id=3972|references=(entity=(entity_id=3|fullname=Frau Baumhagen|gender=f)))
+27777	Baumhagen	0	(mention_id=3972|references=(entity=(entity_id=entity_0005|fullname=Ottilie Baumhagen|gender=f)))	(mention_id=3972|references=(entity=(entity_id=3|fullname=Frau Baumhagen|gender=f)))
+27778	empfing	0		
+27779	die	0		
+27780	Herren	0	(mention_id=3973|references=(entity=(entity_id=entity_0008|fullname=Onkel Heinrich|gender=m)),(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3973|references=(entity=(entity_id=11|fullname=Linden|gender=m)),(entity=(entity_id=17|fullname=Onkel Heinrich|gender=m)))
+27781	sehr	0		
+27782	ruhig	0		
+27783	.	0		
+27784	Gertrud	0	(mention_id=3974|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3974|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+27785	war	0		
+27786	nicht	0		
+27787	bei	0		
+27788	ihr	0	(mention_id=3975|references=(entity=(entity_id=entity_0005|fullname=Ottilie Baumhagen|gender=f)))	(mention_id=3975|references=(entity=(entity_id=3|fullname=Frau Baumhagen|gender=f)))
+27789	.	0		
+27790	»	0		
+27791	Sie	0	(mention_id=3976|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3976|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+27792	ist	0		
+27793	in	0		
+27794	ihrem	0	(mention_id=3977|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3977|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+27795	Zimmer	0		
+27796	«	0		
+27797	,	0		
+27798	erklärte	0		
+27799	sie	0	(mention_id=3978|references=(entity=(entity_id=entity_0005|fullname=Ottilie Baumhagen|gender=f)))	(mention_id=3978|references=(entity=(entity_id=3|fullname=Frau Baumhagen|gender=f)))
+27800	Linden	0	(mention_id=3979|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3979|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+27801	,	0		
+27802	der	0	(mention_id=3980|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3980|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+27803	sich	0	(mention_id=3981|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3981|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+27804	wie	0		
+27805	suchend	0		
+27806	umblickte	0		
+27807	,	0		
+27808	»	0		
+27809	und	0		
+27810	erwartet	0		
+27811	Sie	0	(mention_id=3982|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3982|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+27812	.	0		
+27813	«	0		
+27814	Er	0	(mention_id=3983|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3983|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+27815	fand	0		
+27816	das	0		
+27817	Mädchen	0	(mention_id=3984|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3984|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+27818	im	0		
+27819	Erker	0		
+27820	.	0		
+27821	Es	0		
+27822	brannte	0		
+27823	noch	0		
+27824	kein	0		
+27825	Licht	0		
+27826	,	0		
+27827	nur	0		
+27828	der	0		
+27829	Schein	0		
+27830	der	0		
+27831	Ofenflammen	0		
+27832	leuchtete	0		
+27833	über	0		
+27834	den	0		
+27835	Teppich	0		
+27836	.	0		
+27837	»	0		
+27838	Gertrud	0	(mention_id=3985|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3985|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+27839	«	0		
+27840	,	0		
+27841	sagte	0		
+27842	er	0	(mention_id=3986|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3986|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+27843	,	0		
+27844	»	0		
+27845	wie	0		
+27846	soll	0		
+27847	ich	0	(mention_id=3987|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3987|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+27848	dir	0	(mention_id=3988|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3988|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+27849	danken	0		
+27850	!	0		
+27851	«	0		
+27852	Und	0		
+27853	als	0		
+27854	er	0	(mention_id=3989|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3989|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+27855	die	0		
+27856	Hände	0		
+27857	ergriff	0		
+27858	,	0		
+27859	brannten	0		
+27860	sie	0		
+27861	heiß	0		
+27862	in	0		
+27863	den	0		
+27864	seinen	0	(mention_id=3990|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3990|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+27865	.	0		
+27866	»	0		
+27867	Wofür	0		
+27868	?	0		
+27869	«	0		
+27870	fragte	0		
+27871	sie	0	(mention_id=3991|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3991|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+27872	.	0		
+27873	»	0		
+27874	Für	0		
+27875	alles	0		
+27876	,	0		
+27877	Trudchen	0	(mention_id=3992|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3992|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+27878	!	0		
+27879	–	0		
+27880	Du	0	(mention_id=3993|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3993|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+27881	warst	0		
+27882	doch	0		
+27883	ruhig	0		
+27884	,	0		
+27885	Mama	0	(mention_id=3994|references=(entity=(entity_id=entity_0005|fullname=Ottilie Baumhagen|gender=f)))	(mention_id=3994|references=(entity=(entity_id=3|fullname=Frau Baumhagen|gender=f)))
+27886	gegenüber	0		
+27887	?	0		
+27888	«	0		
+27889	setzte	0		
+27890	er	0	(mention_id=3995|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3995|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+27891	dann	0		
+27892	hinzu	0		
+27893	,	0		
+27894	als	0		
+27895	sie	0	(mention_id=3996|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3996|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+27896	schwieg	0		
+27897	.	0		
+27898	»	0		
+27899	Ganz	0		
+27900	ruhig	0		
+27901	!	0		
+27902	«	0		
+27903	erwiderte	0		
+27904	sie	0	(mention_id=3997|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3997|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+27905	,	0		
+27906	»	0		
+27907	ich	0	(mention_id=3998|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=3998|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+27908	dachte	0		
+27909	an	0		
+27910	dich	0	(mention_id=3999|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=3999|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+27911	;	0		
+27912	aber	0		
+27913	fest	0		
+27914	bin	0		
+27915	ich	0	(mention_id=4000|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=4000|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+27916	geblieben	0		
+27917	,	0		
+27918	ich	0	(mention_id=4001|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=4001|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+27919	will	0		
+27920	keinen	0		
+27921	Ehekontrakt	0		
+27922	!	0		
+27923	«	0		
+27924	»	0		
+27925	Du	0	(mention_id=4002|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=4002|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+27926	törichtes	0		
+27927	Mädchen	0	(mention_id=4003|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=4003|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+27928	!	0		
+27929	Ich	0	(mention_id=4004|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=4004|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+27930	kann	0		
+27931	ja	0		
+27932	Unglück	0		
+27933	haben	0		
+27934	,	0		
+27935	schlechte	0		
+27936	Ernten	0		
+27937	oder	0		
+27938	dergleichen	0		
+27939	–	0		
+27940	dann	0		
+27941	leidest	0		
+27942	du	0	(mention_id=4005|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=4005|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+27943	mit	0		
+27944	?	0		
+27945	«	0		
+27946	Sie	0	(mention_id=4006|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=4006|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+27947	nickte	0		
+27948	und	0		
+27949	lächelte	0		
+27950	.	0		
+27951	»	0		
+27952	Freilich	0		
+27953	–	0		
+27954	und	0		
+27955	helfe	0		
+27956	dir	0	(mention_id=4007|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=4007|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+27957	mit	0		
+27958	allem	0		
+27959	,	0		
+27960	was	0		
+27961	ich	0	(mention_id=4008|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=4008|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+27962	besitze	0		
+27963	.	0		
+27964	Und	0		
+27965	wenn	0		
+27966	wir	0	(mention_id=4009|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)),(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=4009|references=(entity=(entity_id=11|fullname=Linden|gender=m)),(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+27967	schlechte	0		
+27968	Ernten	0		
+27969	haben	0		
+27970	und	0		
+27971	nichts	0		
+27972	,	0		
+27973	nichts	0		
+27974	glücken	0		
+27975	will	0		
+27976	,	0		
+27977	gar	0		
+27978	nichts	0		
+27979	mehr	0		
+27980	unser	0	(mention_id=4010|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)),(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=4010|references=(entity=(entity_id=11|fullname=Linden|gender=m)),(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+27981	ist	0		
+27982	,	0		
+27983	dann	0		
+27984	«	0		
+27985	–	0		
+27986	sie	0	(mention_id=4011|references=(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=4011|references=(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+27987	hielt	0		
+27988	inne	0		
+27989	und	0		
+27990	sah	0		
+27991	ihn	0	(mention_id=4012|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	(mention_id=4012|references=(entity=(entity_id=11|fullname=Linden|gender=m)))
+27992	glückselig	0		
+27993	an	0		
+27994	aus	0		
+27995	den	0		
+27996	lieben	0		
+27997	verweinten	0		
+27998	Augen	0		
+27999	,	0		
+28000	»	0		
+28001	dann	0		
+28002	hungern	0		
+28003	wir	0	(mention_id=4013|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)),(entity=(entity_id=entity_0004|fullname=Gertrud Baumhagen|gender=f)))	(mention_id=4013|references=(entity=(entity_id=11|fullname=Linden|gender=m)),(entity=(entity_id=24|fullname=Trudchen|gender=f)))
+28004	zusammen	0		
+28005	,	0		
+28006	nicht	0		
+28007	?	0		
+28008	du	0	(mention_id=4014|references=(entity=(entity_id=entity_0001|fullname=Franz Linden|gender=m)))	
+28009	?	0		
+28010	«	0		

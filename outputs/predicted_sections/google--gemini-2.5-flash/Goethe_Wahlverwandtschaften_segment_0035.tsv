@@ -1,0 +1,1972 @@
+i	token	is_section_start	gold	pred
+87646	Siebzehntes	1		
+87647	Kapitel	0		
+87648	Wie	0		
+87649	höchst	0		
+87650	überrascht	0		
+87651	war	0		
+87652	Charlotte	0	(mention_id=11649|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)))	(mention_id=11719|references=(entity=(entity_id=1|fullname=Charlotte|gender=f)))
+87653	,	0		
+87654	als	0		
+87655	sie	0	(mention_id=11650|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)))	(mention_id=11720|references=(entity=(entity_id=1|fullname=Charlotte|gender=f)))
+87656	Ottilien	0	(mention_id=11651|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=11721|references=(entity=(entity_id=12|fullname=Ottilie|gender=f)))
+87657	vorfahren	0		
+87658	und	0		
+87659	Eduarden	0	(mention_id=11652|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))	(mention_id=11722|references=(entity=(entity_id=2|fullname=Eduard|gender=m)))
+87660	zu	0		
+87661	Pferde	0		
+87662	sogleich	0		
+87663	in	0		
+87664	den	0		
+87665	Schloßhof	0		
+87666	hereinsprengen	0		
+87667	sah	0		
+87668	!	0		
+87669	Sie	0	(mention_id=11653|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)))	(mention_id=11723|references=(entity=(entity_id=1|fullname=Charlotte|gender=f)))
+87670	eilte	0		
+87671	bis	0		
+87672	zur	0		
+87673	Türschwelle	0		
+87674	.	0		
+87675	Ottilie	0	(mention_id=11654|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=11724|references=(entity=(entity_id=12|fullname=Ottilie|gender=f)))
+87676	steigt	0		
+87677	aus	0		
+87678	und	0		
+87679	nähert	0		
+87680	sich	0	(mention_id=11655|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=11725|references=(entity=(entity_id=12|fullname=Ottilie|gender=f)))
+87681	mit	0		
+87682	Eduarden	0	(mention_id=11656|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))	(mention_id=11726|references=(entity=(entity_id=2|fullname=Eduard|gender=m)))
+87683	.	0		
+87684	Mit	0		
+87685	Eifer	0		
+87686	und	0		
+87687	Gewalt	0		
+87688	faßt	0		
+87689	sie	0	(mention_id=11657|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=11727|references=(entity=(entity_id=12|fullname=Ottilie|gender=f)))
+87690	die	0		
+87691	Hände	0		
+87692	beider	0		
+87693	Ehegatten	0	(mention_id=11658|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)),(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))	(mention_id=11728|references=(entity=(entity_id=1|fullname=Charlotte|gender=f)),(entity=(entity_id=2|fullname=Eduard|gender=m)))
+87694	,	0		
+87695	drückt	0		
+87696	sie	0		(mention_id=11729|references=(entity=(entity_id=1|fullname=Charlotte|gender=f)),(entity=(entity_id=2|fullname=Eduard|gender=m)))
+87697	zusammen	0		
+87698	und	0		
+87699	eilt	0		
+87700	auf	0		
+87701	ihr	0	(mention_id=11659|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=11730|references=(entity=(entity_id=12|fullname=Ottilie|gender=f)))
+87702	Zimmer	0		
+87703	.	0		
+87704	Eduard	0	(mention_id=11660|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))	(mention_id=11731|references=(entity=(entity_id=2|fullname=Eduard|gender=m)))
+87705	wirft	0		
+87706	sich	0	(mention_id=11661|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))	(mention_id=11732|references=(entity=(entity_id=2|fullname=Eduard|gender=m)))
+87707	Charlotten	0	(mention_id=11662|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)))	(mention_id=11733|references=(entity=(entity_id=1|fullname=Charlotte|gender=f)))
+87708	um	0		
+87709	den	0		
+87710	Hals	0		
+87711	und	0		
+87712	zerfließt	0		
+87713	in	0		
+87714	Tränen	0		
+87715	;	0		
+87716	er	0	(mention_id=11663|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))	(mention_id=11734|references=(entity=(entity_id=2|fullname=Eduard|gender=m)))
+87717	kann	0		
+87718	sich	0	(mention_id=11664|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))	(mention_id=11735|references=(entity=(entity_id=2|fullname=Eduard|gender=m)))
+87719	nicht	0		
+87720	erklären	0		
+87721	,	0		
+87722	bittet	0		
+87723	,	0		
+87724	Geduld	0		
+87725	mit	0		
+87726	ihm	0	(mention_id=11665|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))	(mention_id=11736|references=(entity=(entity_id=2|fullname=Eduard|gender=m)))
+87727	zu	0		
+87728	haben	0		
+87729	,	0		
+87730	Ottilien	0	(mention_id=11666|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=11737|references=(entity=(entity_id=12|fullname=Ottilie|gender=f)))
+87731	beizustehen	0		
+87732	,	0		
+87733	ihr	0	(mention_id=11667|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=11738|references=(entity=(entity_id=12|fullname=Ottilie|gender=f)))
+87734	zu	0		
+87735	helfen	0		
+87736	.	0		
+87737	Charlotte	0	(mention_id=11668|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)))	(mention_id=11739|references=(entity=(entity_id=1|fullname=Charlotte|gender=f)))
+87738	eilt	0		
+87739	auf	0		
+87740	Ottiliens	0	(mention_id=11669|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=11740|references=(entity=(entity_id=12|fullname=Ottilie|gender=f)))
+87741	Zimmer	0		
+87742	,	0		
+87743	und	0		
+87744	ihr	0	(mention_id=11670|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)))	(mention_id=11741|references=(entity=(entity_id=1|fullname=Charlotte|gender=f)))
+87745	schaudert	0		
+87746	,	0		
+87747	da	0		
+87748	sie	0	(mention_id=11671|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)))	(mention_id=11742|references=(entity=(entity_id=1|fullname=Charlotte|gender=f)))
+87749	hineintritt	0		
+87750	;	0		
+87751	es	0		
+87752	war	0		
+87753	schon	0		
+87754	ganz	0		
+87755	ausgeräumt	0		
+87756	,	0		
+87757	nur	0		
+87758	die	0		
+87759	leeren	0		
+87760	Wände	0		
+87761	standen	0		
+87762	da	0		
+87763	.	0		
+87764	Es	0		
+87765	erschien	0		
+87766	so	0		
+87767	weitläufig	0		
+87768	als	0		
+87769	unerfreulich	0		
+87770	.	0		
+87771	Man	0		
+87772	hatte	0		
+87773	alles	0		
+87774	weggetragen	0		
+87775	,	0		
+87776	nur	0		
+87777	das	0		
+87778	Köfferchen	0		
+87779	,	0		
+87780	unschlüssig	0		
+87781	,	0		
+87782	wo	0		
+87783	man	0		
+87784	es	0		
+87785	hinstellen	0		
+87786	sollte	0		
+87787	,	0		
+87788	in	0		
+87789	der	0		
+87790	Mitte	0		
+87791	des	0		
+87792	Zimmers	0		
+87793	stehengelassen	0		
+87794	.	0		
+87795	Ottilie	0	(mention_id=11672|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=11743|references=(entity=(entity_id=12|fullname=Ottilie|gender=f)))
+87796	lag	0		
+87797	auf	0		
+87798	dem	0		
+87799	Boden	0		
+87800	,	0		
+87801	Arm	0		
+87802	und	0		
+87803	Haupt	0		
+87804	über	0		
+87805	den	0		
+87806	Koffer	0		
+87807	gestreckt	0		
+87808	.	0		
+87809	Charlotte	0	(mention_id=11673|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)))	(mention_id=11744|references=(entity=(entity_id=1|fullname=Charlotte|gender=f)))
+87810	bemüht	0		
+87811	sich	0	(mention_id=11674|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)))	(mention_id=11745|references=(entity=(entity_id=1|fullname=Charlotte|gender=f)))
+87812	um	0		
+87813	sie	0	(mention_id=11675|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=11746|references=(entity=(entity_id=12|fullname=Ottilie|gender=f)))
+87814	,	0		
+87815	fragt	0		
+87816	,	0		
+87817	was	0		
+87818	vorgegangen	0		
+87819	,	0		
+87820	und	0		
+87821	erhält	0		
+87822	keine	0		
+87823	Antwort	0		
+87824	.	0		
+87825	Sie	0	(mention_id=11676|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)))	(mention_id=11747|references=(entity=(entity_id=1|fullname=Charlotte|gender=f)))
+87826	läßt	0		
+87827	ihr	0	(mention_id=11677|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)))	(mention_id=11748|references=(entity=(entity_id=1|fullname=Charlotte|gender=f)))
+87828	Mädchen	0	(mention_id=11678|references=(entity=(entity_id=entity_0439|fullname=Charlottes Mädchen|gender=f)))	(mention_id=11749|references=(entity=(entity_id=10|fullname=Mädchen|gender=f)))
+87829	,	0		
+87830	das	0	(mention_id=11679|references=(entity=(entity_id=entity_0439|fullname=Charlottes Mädchen|gender=f)))	(mention_id=11750|references=(entity=(entity_id=10|fullname=Mädchen|gender=f)))
+87831	mit	0		
+87832	Erquickungen	0		
+87833	kommt	0		
+87834	,	0		
+87835	bei	0		
+87836	Ottilien	0	(mention_id=11680|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=11751|references=(entity=(entity_id=12|fullname=Ottilie|gender=f)))
+87837	und	0		
+87838	eilt	0		
+87839	zu	0		
+87840	Eduarden	0	(mention_id=11681|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))	(mention_id=11752|references=(entity=(entity_id=2|fullname=Eduard|gender=m)))
+87841	.	0		
+87842	Sie	0	(mention_id=11682|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)))	(mention_id=11753|references=(entity=(entity_id=1|fullname=Charlotte|gender=f)))
+87843	findet	0		
+87844	ihn	0	(mention_id=11683|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))	(mention_id=11754|references=(entity=(entity_id=2|fullname=Eduard|gender=m)))
+87845	im	0		
+87846	Saal	0		
+87847	;	0		
+87848	auch	0		
+87849	er	0	(mention_id=11684|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))	(mention_id=11755|references=(entity=(entity_id=2|fullname=Eduard|gender=m)))
+87850	belehrt	0		
+87851	sie	0	(mention_id=11685|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)))	(mention_id=11756|references=(entity=(entity_id=1|fullname=Charlotte|gender=f)))
+87852	nicht	0		
+87853	.	0		
+87854	Er	0	(mention_id=11686|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))	(mention_id=11757|references=(entity=(entity_id=2|fullname=Eduard|gender=m)))
+87855	wirft	0		
+87856	sich	0	(mention_id=11687|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))	(mention_id=11758|references=(entity=(entity_id=2|fullname=Eduard|gender=m)))
+87857	vor	0		
+87858	ihr	0	(mention_id=11688|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)))	(mention_id=11759|references=(entity=(entity_id=1|fullname=Charlotte|gender=f)))
+87859	nieder	0		
+87860	,	0		
+87861	er	0	(mention_id=11689|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))	(mention_id=11760|references=(entity=(entity_id=2|fullname=Eduard|gender=m)))
+87862	badet	0		
+87863	ihre	0	(mention_id=11690|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)))	(mention_id=11761|references=(entity=(entity_id=1|fullname=Charlotte|gender=f)))
+87864	Hände	0		
+87865	in	0		
+87866	Tränen	0		
+87867	,	0		
+87868	er	0	(mention_id=11691|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))	(mention_id=11762|references=(entity=(entity_id=2|fullname=Eduard|gender=m)))
+87869	flieht	0		
+87870	auf	0		
+87871	sein	0	(mention_id=11692|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))	(mention_id=11763|references=(entity=(entity_id=2|fullname=Eduard|gender=m)))
+87872	Zimmer	0		
+87873	,	0		
+87874	und	0		
+87875	als	0		
+87876	sie	0	(mention_id=11693|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)))	(mention_id=11764|references=(entity=(entity_id=1|fullname=Charlotte|gender=f)))
+87877	ihm	0	(mention_id=11694|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))	(mention_id=11765|references=(entity=(entity_id=2|fullname=Eduard|gender=m)))
+87878	nachfolgen	0		
+87879	will	0		
+87880	,	0		
+87881	begegnet	0		
+87882	ihr	0	(mention_id=11695|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)))	(mention_id=11766|references=(entity=(entity_id=1|fullname=Charlotte|gender=f)))
+87883	der	0		
+87884	Kammerdiener	0	(mention_id=11696|references=(entity=(entity_id=entity_0144|fullname=Eduards Kammerdiener|gender=m)))	(mention_id=11767|references=(entity=(entity_id=5|fullname=Kammerdiener|gender=m)))
+87885	,	0		
+87886	der	0	(mention_id=11697|references=(entity=(entity_id=entity_0144|fullname=Eduards Kammerdiener|gender=m)))	(mention_id=11768|references=(entity=(entity_id=5|fullname=Kammerdiener|gender=m)))
+87887	sie	0	(mention_id=11698|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)))	(mention_id=11769|references=(entity=(entity_id=1|fullname=Charlotte|gender=f)))
+87888	aufklärt	0		
+87889	,	0		
+87890	soweit	0		
+87891	er	0	(mention_id=11699|references=(entity=(entity_id=entity_0144|fullname=Eduards Kammerdiener|gender=m)))	(mention_id=11770|references=(entity=(entity_id=5|fullname=Kammerdiener|gender=m)))
+87892	vermag	0		
+87893	.	0		
+87894	Das	0		
+87895	übrige	0		
+87896	denkt	0		
+87897	sie	0	(mention_id=11700|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)))	(mention_id=11771|references=(entity=(entity_id=1|fullname=Charlotte|gender=f)))
+87898	sich	0	(mention_id=11701|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)))	(mention_id=11772|references=(entity=(entity_id=1|fullname=Charlotte|gender=f)))
+87899	zusammen	0		
+87900	und	0		
+87901	dann	0		
+87902	sogleich	0		
+87903	mit	0		
+87904	Entschlossenheit	0		
+87905	an	0		
+87906	das	0		
+87907	,	0		
+87908	was	0		
+87909	der	0		
+87910	Augenblick	0		
+87911	fordert	0		
+87912	.	0		
+87913	Ottiliens	0	(mention_id=11702|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=11773|references=(entity=(entity_id=12|fullname=Ottilie|gender=f)))
+87914	Zimmer	0		
+87915	ist	0		
+87916	aufs	0		
+87917	baldigste	0		
+87918	wieder	0		
+87919	eingerichtet	0		
+87920	.	0		
+87921	Eduard	0	(mention_id=11703|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))	(mention_id=11774|references=(entity=(entity_id=2|fullname=Eduard|gender=m)))
+87922	hat	0		
+87923	die	0		
+87924	seinigen	0	(mention_id=11704|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))	(mention_id=11775|references=(entity=(entity_id=2|fullname=Eduard|gender=m)))
+87925	angetroffen	0		
+87926	,	0		
+87927	bis	0		
+87928	auf	0		
+87929	das	0		
+87930	letzte	0		
+87931	Papier	0		
+87932	,	0		
+87933	wie	0		
+87934	er	0	(mention_id=11705|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))	(mention_id=11776|references=(entity=(entity_id=2|fullname=Eduard|gender=m)))
+87935	sie	0	(mention_id=11706|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))	(mention_id=11777|references=(entity=(entity_id=2|fullname=Eduard|gender=m)))
+87936	verlassen	0		
+87937	.	0		
+87938	Die	0		
+87939	dreie	0	(mention_id=11707|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)),(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)),(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=11778|references=(entity=(entity_id=1|fullname=Charlotte|gender=f)),(entity=(entity_id=2|fullname=Eduard|gender=m)),(entity=(entity_id=12|fullname=Ottilie|gender=f)))
+87940	scheinen	0		
+87941	sich	0	(mention_id=11708|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)),(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)),(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=11779|references=(entity=(entity_id=1|fullname=Charlotte|gender=f)),(entity=(entity_id=2|fullname=Eduard|gender=m)),(entity=(entity_id=12|fullname=Ottilie|gender=f)))
+87942	wieder	0		
+87943	gegeneinander	0		
+87944	zu	0		
+87945	finden	0		
+87946	,	0		
+87947	aber	0		
+87948	Ottilie	0	(mention_id=11709|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=11780|references=(entity=(entity_id=12|fullname=Ottilie|gender=f)))
+87949	fährt	0		
+87950	fort	0		
+87951	zu	0		
+87952	schweigen	0		
+87953	,	0		
+87954	und	0		
+87955	Eduard	0	(mention_id=11710|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))	(mention_id=11781|references=(entity=(entity_id=2|fullname=Eduard|gender=m)))
+87956	vermag	0		
+87957	nichts	0		
+87958	,	0		
+87959	als	0		
+87960	seine	0	(mention_id=11711|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))	(mention_id=11782|references=(entity=(entity_id=2|fullname=Eduard|gender=m)))
+87961	Gattin	0	(mention_id=11712|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)))	(mention_id=11783|references=(entity=(entity_id=1|fullname=Charlotte|gender=f)))
+87962	um	0		
+87963	Geduld	0		
+87964	zu	0		
+87965	bitten	0		
+87966	,	0		
+87967	die	0		
+87968	ihm	0	(mention_id=11713|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))	(mention_id=11784|references=(entity=(entity_id=2|fullname=Eduard|gender=m)))
+87969	selbst	0		
+87970	zu	0		
+87971	fehlen	0		
+87972	scheint	0		
+87973	.	0		
+87974	Charlotte	0	(mention_id=11714|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)))	(mention_id=11785|references=(entity=(entity_id=1|fullname=Charlotte|gender=f)))
+87975	sendet	0		
+87976	Boten	0		
+87977	an	0		
+87978	Mittlern	0	(mention_id=11715|references=(entity=(entity_id=entity_0021|fullname=Mittler|gender=m)))	(mention_id=11786|references=(entity=(entity_id=9|fullname=Mittler|gender=m)))
+87979	und	0		
+87980	an	0		
+87981	den	0		
+87982	Major	0	(mention_id=11716|references=(entity=(entity_id=entity_0003|fullname=Hauptmann|gender=m|possible_identity_with=entity_0374)))	(mention_id=11787|references=(entity=(entity_id=6|fullname=Major|gender=m)))
+87983	.	0		
+87984	Jener	0	(mention_id=11717|references=(entity=(entity_id=entity_0021|fullname=Mittler|gender=m)))	(mention_id=11788|references=(entity=(entity_id=9|fullname=Mittler|gender=m)))
+87985	war	0		
+87986	nicht	0		
+87987	anzutreffen	0		
+87988	,	0		
+87989	dieser	0	(mention_id=11718|references=(entity=(entity_id=entity_0003|fullname=Hauptmann|gender=m|possible_identity_with=entity_0374)))	(mention_id=11789|references=(entity=(entity_id=6|fullname=Major|gender=m)))
+87990	kommt	0		
+87991	.	0		
+87992	Gegen	0		
+87993	ihn	0	(mention_id=11719|references=(entity=(entity_id=entity_0003|fullname=Hauptmann|gender=m|possible_identity_with=entity_0374)))	(mention_id=11790|references=(entity=(entity_id=6|fullname=Major|gender=m)))
+87994	schüttet	0		
+87995	Eduard	0	(mention_id=11720|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))	(mention_id=11791|references=(entity=(entity_id=2|fullname=Eduard|gender=m)))
+87996	sein	0	(mention_id=11721|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))	(mention_id=11792|references=(entity=(entity_id=2|fullname=Eduard|gender=m)))
+87997	Herz	0		
+87998	aus	0		
+87999	,	0		
+88000	ihm	0	(mention_id=11722|references=(entity=(entity_id=entity_0003|fullname=Hauptmann|gender=m|possible_identity_with=entity_0374)))	(mention_id=11793|references=(entity=(entity_id=6|fullname=Major|gender=m)))
+88001	gesteht	0		
+88002	er	0	(mention_id=11723|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))	(mention_id=11794|references=(entity=(entity_id=2|fullname=Eduard|gender=m)))
+88003	jeden	0		
+88004	kleinsten	0		
+88005	Umstand	0		
+88006	,	0		
+88007	und	0		
+88008	so	0		
+88009	erfährt	0		
+88010	Charlotte	0	(mention_id=11724|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)))	(mention_id=11795|references=(entity=(entity_id=1|fullname=Charlotte|gender=f)))
+88011	,	0		
+88012	was	0		
+88013	begegnet	0		
+88014	,	0		
+88015	was	0		
+88016	die	0		
+88017	Lage	0		
+88018	so	0		
+88019	sonderbar	0		
+88020	verändert	0		
+88021	,	0		
+88022	was	0		
+88023	die	0		
+88024	Gemüter	0		
+88025	aufgeregt	0		
+88026	.	0		
+88027	Sie	0	(mention_id=11725|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)))	(mention_id=11796|references=(entity=(entity_id=1|fullname=Charlotte|gender=f)))
+88028	spricht	0		
+88029	aufs	0		
+88030	liebevollste	0		
+88031	mit	0		
+88032	ihrem	0	(mention_id=11726|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)))	(mention_id=11797|references=(entity=(entity_id=1|fullname=Charlotte|gender=f)))
+88033	Gemahl	0	(mention_id=11727|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))	(mention_id=11798|references=(entity=(entity_id=2|fullname=Eduard|gender=m)))
+88034	.	0		
+88035	Sie	0	(mention_id=11728|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)))	(mention_id=11799|references=(entity=(entity_id=1|fullname=Charlotte|gender=f)))
+88036	weiß	0		
+88037	keine	0		
+88038	andere	0		
+88039	Bitte	0		
+88040	zu	0		
+88041	tun	0		
+88042	als	0		
+88043	nur	0		
+88044	,	0		
+88045	daß	0		
+88046	man	0		
+88047	das	0		
+88048	Kind	0	(mention_id=11729|references=(entity=(entity_id=entity_0199|fullname=Otto|gender=m)))	(mention_id=11800|references=(entity=(entity_id=12|fullname=Ottilie|gender=f)))
+88049	gegenwärtig	0		
+88050	nicht	0		
+88051	bestürmen	0		
+88052	möge	0		
+88053	.	0		
+88054	Eduard	0	(mention_id=11730|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))	(mention_id=11801|references=(entity=(entity_id=2|fullname=Eduard|gender=m)))
+88055	fühlt	0		
+88056	den	0		
+88057	Wert	0		
+88058	,	0		
+88059	die	0		
+88060	Liebe	0		
+88061	,	0		
+88062	die	0		
+88063	Vernunft	0		
+88064	seiner	0	(mention_id=11731|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))	(mention_id=11802|references=(entity=(entity_id=2|fullname=Eduard|gender=m)))
+88065	Gattin	0	(mention_id=11732|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)))	(mention_id=11803|references=(entity=(entity_id=1|fullname=Charlotte|gender=f)))
+88066	;	0		
+88067	aber	0		
+88068	seine	0	(mention_id=11733|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))	(mention_id=11804|references=(entity=(entity_id=2|fullname=Eduard|gender=m)))
+88069	Neigung	0		
+88070	beherrscht	0		
+88071	ihn	0	(mention_id=11734|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))	(mention_id=11805|references=(entity=(entity_id=2|fullname=Eduard|gender=m)))
+88072	ausschließlich	0		
+88073	.	0		
+88074	Charlotte	0	(mention_id=11735|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)))	(mention_id=11806|references=(entity=(entity_id=1|fullname=Charlotte|gender=f)))
+88075	macht	0		
+88076	ihm	0	(mention_id=11736|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))	(mention_id=11807|references=(entity=(entity_id=2|fullname=Eduard|gender=m)))
+88077	Hoffnung	0		
+88078	,	0		
+88079	verspricht	0		
+88080	ihm	0	(mention_id=11737|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))	(mention_id=11808|references=(entity=(entity_id=2|fullname=Eduard|gender=m)))
+88081	,	0		
+88082	in	0		
+88083	die	0		
+88084	Scheidung	0		
+88085	zu	0		
+88086	willigen	0		
+88087	.	0		
+88088	Er	0	(mention_id=11738|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))	(mention_id=11809|references=(entity=(entity_id=2|fullname=Eduard|gender=m)))
+88089	traut	0		
+88090	nicht	0		
+88091	;	0		
+88092	er	0	(mention_id=11739|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))	(mention_id=11810|references=(entity=(entity_id=2|fullname=Eduard|gender=m)))
+88093	ist	0		
+88094	so	0		
+88095	krank	0		
+88096	,	0		
+88097	daß	0		
+88098	ihn	0	(mention_id=11740|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))	(mention_id=11811|references=(entity=(entity_id=2|fullname=Eduard|gender=m)))
+88099	Hoffnung	0		
+88100	und	0		
+88101	Glaube	0		
+88102	abwechselnd	0		
+88103	verlassen	0		
+88104	;	0		
+88105	er	0	(mention_id=11741|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))	(mention_id=11812|references=(entity=(entity_id=2|fullname=Eduard|gender=m)))
+88106	dringt	0		
+88107	in	0		
+88108	Charlotten	0	(mention_id=11742|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)))	(mention_id=11813|references=(entity=(entity_id=1|fullname=Charlotte|gender=f)))
+88109	,	0		
+88110	sie	0	(mention_id=11743|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)))	(mention_id=11814|references=(entity=(entity_id=1|fullname=Charlotte|gender=f)))
+88111	soll	0		
+88112	dem	0		
+88113	Major	0	(mention_id=11744|references=(entity=(entity_id=entity_0003|fullname=Hauptmann|gender=m|possible_identity_with=entity_0374)))	(mention_id=11815|references=(entity=(entity_id=6|fullname=Major|gender=m)))
+88114	ihre	0	(mention_id=11745|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)))	(mention_id=11816|references=(entity=(entity_id=1|fullname=Charlotte|gender=f)))
+88115	Hand	0		
+88116	zusagen	0		
+88117	;	0		
+88118	eine	0		
+88119	Art	0		
+88120	von	0		
+88121	wahnsinnigem	0		
+88122	Unmut	0		
+88123	hat	0		
+88124	ihn	0	(mention_id=11746|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))	(mention_id=11817|references=(entity=(entity_id=2|fullname=Eduard|gender=m)))
+88125	ergriffen	0		
+88126	.	0		
+88127	Charlotte	0	(mention_id=11747|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)))	(mention_id=11818|references=(entity=(entity_id=1|fullname=Charlotte|gender=f)))
+88128	,	0		
+88129	ihn	0	(mention_id=11748|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))	(mention_id=11819|references=(entity=(entity_id=2|fullname=Eduard|gender=m)))
+88130	zu	0		
+88131	besänftigen	0		
+88132	,	0		
+88133	ihn	0	(mention_id=11749|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))	(mention_id=11820|references=(entity=(entity_id=2|fullname=Eduard|gender=m)))
+88134	zu	0		
+88135	erhalten	0		
+88136	,	0		
+88137	tut	0		
+88138	,	0		
+88139	was	0		
+88140	er	0	(mention_id=11750|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))	(mention_id=11821|references=(entity=(entity_id=2|fullname=Eduard|gender=m)))
+88141	fordert	0		
+88142	.	0		
+88143	Sie	0	(mention_id=11751|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)))	(mention_id=11822|references=(entity=(entity_id=1|fullname=Charlotte|gender=f)))
+88144	sagt	0		
+88145	dem	0		
+88146	Major	0	(mention_id=11752|references=(entity=(entity_id=entity_0003|fullname=Hauptmann|gender=m|possible_identity_with=entity_0374)))	(mention_id=11823|references=(entity=(entity_id=6|fullname=Major|gender=m)))
+88147	ihre	0	(mention_id=11753|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)))	(mention_id=11824|references=(entity=(entity_id=1|fullname=Charlotte|gender=f)))
+88148	Hand	0		
+88149	zu	0		
+88150	auf	0		
+88151	den	0		
+88152	Fall	0		
+88153	,	0		
+88154	daß	0		
+88155	Ottilie	0	(mention_id=11754|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=11825|references=(entity=(entity_id=12|fullname=Ottilie|gender=f)))
+88156	sich	0	(mention_id=11755|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=11826|references=(entity=(entity_id=12|fullname=Ottilie|gender=f)))
+88157	mit	0		
+88158	Eduarden	0	(mention_id=11756|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))	(mention_id=11827|references=(entity=(entity_id=2|fullname=Eduard|gender=m)))
+88159	verbinden	0		
+88160	wolle	0		
+88161	,	0		
+88162	jedoch	0		
+88163	unter	0		
+88164	ausdrücklicher	0		
+88165	Bedingung	0		
+88166	,	0		
+88167	daß	0		
+88168	die	0		
+88169	beiden	0		
+88170	Männer	0	(mention_id=11757|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)),(entity=(entity_id=entity_0003|fullname=Hauptmann|gender=m|possible_identity_with=entity_0374)))	(mention_id=11828|references=(entity=(entity_id=2|fullname=Eduard|gender=m)),(entity=(entity_id=6|fullname=Major|gender=m)))
+88171	für	0		
+88172	den	0		
+88173	Augenblick	0		
+88174	zusammen	0		
+88175	eine	0		
+88176	Reise	0		
+88177	machen	0		
+88178	.	0		
+88179	Der	0		
+88180	Major	0	(mention_id=11758|references=(entity=(entity_id=entity_0003|fullname=Hauptmann|gender=m|possible_identity_with=entity_0374)))	(mention_id=11829|references=(entity=(entity_id=6|fullname=Major|gender=m)))
+88181	hat	0		
+88182	für	0		
+88183	seinen	0	(mention_id=11759|references=(entity=(entity_id=entity_0003|fullname=Hauptmann|gender=m|possible_identity_with=entity_0374)))	(mention_id=11830|references=(entity=(entity_id=6|fullname=Major|gender=m)))
+88184	Hof	0		
+88185	ein	0		
+88186	auswärtiges	0		
+88187	Geschäft	0		
+88188	,	0		
+88189	und	0		
+88190	Eduard	0	(mention_id=11760|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))	(mention_id=11831|references=(entity=(entity_id=2|fullname=Eduard|gender=m)))
+88191	verspricht	0		
+88192	,	0		
+88193	ihn	0	(mention_id=11761|references=(entity=(entity_id=entity_0003|fullname=Hauptmann|gender=m|possible_identity_with=entity_0374)))	(mention_id=11832|references=(entity=(entity_id=6|fullname=Major|gender=m)))
+88194	zu	0		
+88195	begleiten	0		
+88196	.	0		
+88197	Man	0	(mention_id=11762|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)),(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)),(entity=(entity_id=entity_0003|fullname=Hauptmann|gender=m|possible_identity_with=entity_0374)))	
+88198	macht	0		
+88199	Anstalten	0		
+88200	,	0		
+88201	und	0		
+88202	man	0	(mention_id=11763|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)),(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)),(entity=(entity_id=entity_0003|fullname=Hauptmann|gender=m|possible_identity_with=entity_0374)))	(mention_id=11833|references=(entity=(entity_id=14|fullname=die Anwesenden|gender=u|specialcase_entity=group)))
+88203	beruhigt	0		
+88204	sich	0	(mention_id=11764|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)),(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)),(entity=(entity_id=entity_0003|fullname=Hauptmann|gender=m|possible_identity_with=entity_0374)))	(mention_id=11834|references=(entity=(entity_id=14|fullname=die Anwesenden|gender=u|specialcase_entity=group)))
+88205	einigermaßen	0		
+88206	,	0		
+88207	indem	0		
+88208	wenigstens	0		
+88209	etwas	0		
+88210	geschieht	0		
+88211	.	0		
+88212	Unterdessen	0		
+88213	kann	0		
+88214	man	0		
+88215	bemerken	0		
+88216	,	0		
+88217	daß	0		
+88218	Ottilie	0	(mention_id=11765|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=11835|references=(entity=(entity_id=12|fullname=Ottilie|gender=f)))
+88219	kaum	0		
+88220	Speise	0		
+88221	noch	0		
+88222	Trank	0		
+88223	zu	0		
+88224	sich	0	(mention_id=11766|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=11836|references=(entity=(entity_id=12|fullname=Ottilie|gender=f)))
+88225	nimmt	0		
+88226	,	0		
+88227	indem	0		
+88228	sie	0	(mention_id=11767|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=11837|references=(entity=(entity_id=12|fullname=Ottilie|gender=f)))
+88229	immerfort	0		
+88230	bei	0		
+88231	ihrem	0	(mention_id=11768|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=11838|references=(entity=(entity_id=12|fullname=Ottilie|gender=f)))
+88232	Schweigen	0		
+88233	verharrt	0		
+88234	.	0		
+88235	Man	0	(mention_id=11769|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)),(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)),(entity=(entity_id=entity_0003|fullname=Hauptmann|gender=m|possible_identity_with=entity_0374)))	
+88236	redet	0		
+88237	ihr	0	(mention_id=11770|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=11839|references=(entity=(entity_id=12|fullname=Ottilie|gender=f)))
+88238	zu	0		
+88239	,	0		
+88240	sie	0	(mention_id=11771|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=11840|references=(entity=(entity_id=12|fullname=Ottilie|gender=f)))
+88241	wird	0		
+88242	ängstlich	0		
+88243	;	0		
+88244	man	0	(mention_id=11772|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)),(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)),(entity=(entity_id=entity_0003|fullname=Hauptmann|gender=m|possible_identity_with=entity_0374)))	
+88245	unterläßt	0		
+88246	es	0		
+88247	.	0		
+88248	Denn	0		
+88249	haben	0		
+88250	wir	0	(mention_id=11773|references=(entity=(entity_id=entity_0016|fullname=Erzählinstanz|gender=u)),(entity=(entity_id=generic_1165|fullname=Menschen allgemein|gender=u|specialcase_entity=generic)))	(mention_id=11841|references=(entity=(entity_id=13|fullname=der Erzähler und die Leser|gender=u|specialcase_entity=group)))
+88251	nicht	0		
+88252	meistenteils	0		
+88253	die	0		
+88254	Schwäche	0		
+88255	,	0		
+88256	daß	0		
+88257	wir	0	(mention_id=11774|references=(entity=(entity_id=entity_0016|fullname=Erzählinstanz|gender=u)),(entity=(entity_id=generic_1166|fullname=Menschen allgemein|gender=u|specialcase_entity=generic)))	(mention_id=11842|references=(entity=(entity_id=13|fullname=der Erzähler und die Leser|gender=u|specialcase_entity=group)))
+88258	jemanden	0		(mention_id=11843|references=(entity=(entity_id=generic_0001|fullname=jemand im Allgemeinen|gender=u|specialcase_entity=generic)))
+88259	auch	0		
+88260	zu	0		
+88261	seinem	0	(mention_id=11775|references=(entity=(entity_id=entity_0016|fullname=Erzählinstanz|gender=u)),(entity=(entity_id=generic_1167|fullname=Menschen allgemein|gender=u|specialcase_entity=generic)))	(mention_id=11844|references=(entity=(entity_id=generic_0002|fullname=jemand im Allgemeinen|gender=u|specialcase_entity=generic)))
+88262	Besten	0		
+88263	nicht	0		
+88264	gern	0		
+88265	quälen	0		
+88266	mögen	0		
+88267	?	0		
+88268	Charlotte	0	(mention_id=11776|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)))	(mention_id=11845|references=(entity=(entity_id=1|fullname=Charlotte|gender=f)))
+88269	sann	0		
+88270	alle	0		
+88271	Mittel	0		
+88272	durch	0		
+88273	,	0		
+88274	endlich	0		
+88275	geriet	0		
+88276	sie	0	(mention_id=11777|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)))	(mention_id=11846|references=(entity=(entity_id=1|fullname=Charlotte|gender=f)))
+88277	auf	0		
+88278	den	0		
+88279	Gedanken	0		
+88280	,	0		
+88281	jenen	0		
+88282	Gehülfen	0	(mention_id=11778|references=(entity=(entity_id=entity_0037|fullname=Gehülfe|gender=m)))	(mention_id=11847|references=(entity=(entity_id=3|fullname=Gehülfe|gender=m)))
+88283	aus	0		
+88284	der	0		
+88285	Pension	0		
+88286	kommen	0		
+88287	zu	0		
+88288	lassen	0		
+88289	,	0		
+88290	der	0	(mention_id=11779|references=(entity=(entity_id=entity_0037|fullname=Gehülfe|gender=m)))	(mention_id=11848|references=(entity=(entity_id=3|fullname=Gehülfe|gender=m)))
+88291	über	0		
+88292	Ottilien	0	(mention_id=11780|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=11849|references=(entity=(entity_id=12|fullname=Ottilie|gender=f)))
+88293	viel	0		
+88294	vermochte	0		
+88295	,	0		
+88296	der	0	(mention_id=11781|references=(entity=(entity_id=entity_0037|fullname=Gehülfe|gender=m)))	(mention_id=11850|references=(entity=(entity_id=3|fullname=Gehülfe|gender=m)))
+88297	wegen	0		
+88298	ihres	0	(mention_id=11782|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=11851|references=(entity=(entity_id=12|fullname=Ottilie|gender=f)))
+88299	unvermuteten	0		
+88300	Außenbleibens	0		
+88301	sich	0	(mention_id=11783|references=(entity=(entity_id=entity_0037|fullname=Gehülfe|gender=m)))	(mention_id=11852|references=(entity=(entity_id=3|fullname=Gehülfe|gender=m)))
+88302	sehr	0		
+88303	freundlich	0		
+88304	geäußert	0		
+88305	,	0		
+88306	aber	0		
+88307	keine	0		
+88308	Antwort	0		
+88309	erhalten	0		
+88310	hatte	0		
+88311	.	0		
+88312	Man	0		
+88313	spricht	0		
+88314	,	0		
+88315	um	0		
+88316	Ottilien	0	(mention_id=11784|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=11853|references=(entity=(entity_id=12|fullname=Ottilie|gender=f)))
+88317	nicht	0		
+88318	zu	0		
+88319	überraschen	0		
+88320	,	0		
+88321	von	0		
+88322	diesem	0		
+88323	Vorsatz	0		
+88324	in	0		
+88325	ihrer	0	(mention_id=11785|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=11854|references=(entity=(entity_id=12|fullname=Ottilie|gender=f)))
+88326	Gegenwart	0		
+88327	.	0		
+88328	Sie	0	(mention_id=11786|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=11855|references=(entity=(entity_id=12|fullname=Ottilie|gender=f)))
+88329	scheint	0		
+88330	nicht	0		
+88331	einzustimmen	0		
+88332	;	0		
+88333	sie	0	(mention_id=11787|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=11856|references=(entity=(entity_id=12|fullname=Ottilie|gender=f)))
+88334	bedenkt	0		
+88335	sich	0	(mention_id=11788|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=11857|references=(entity=(entity_id=12|fullname=Ottilie|gender=f)))
+88336	;	0		
+88337	endlich	0		
+88338	scheint	0		
+88339	ein	0		
+88340	Entschluß	0		
+88341	in	0		
+88342	ihr	0	(mention_id=11789|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=11858|references=(entity=(entity_id=12|fullname=Ottilie|gender=f)))
+88343	zu	0		
+88344	reifen	0		
+88345	,	0		
+88346	sie	0	(mention_id=11790|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=11859|references=(entity=(entity_id=12|fullname=Ottilie|gender=f)))
+88347	eilt	0		
+88348	nach	0		
+88349	ihrem	0	(mention_id=11791|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=11860|references=(entity=(entity_id=12|fullname=Ottilie|gender=f)))
+88350	Zimmer	0		
+88351	und	0		
+88352	sendet	0		
+88353	noch	0		
+88354	vor	0		
+88355	Abend	0		
+88356	an	0		
+88357	die	0		
+88358	Versammelten	0	(mention_id=11792|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)),(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)),(entity=(entity_id=entity_0003|fullname=Hauptmann|gender=m|possible_identity_with=entity_0374)))	(mention_id=11861|references=(entity=(entity_id=1|fullname=Charlotte|gender=f)),(entity=(entity_id=2|fullname=Eduard|gender=m)),(entity=(entity_id=6|fullname=Major|gender=m)),(entity=(entity_id=9|fullname=Mittler|gender=m)))
+88359	folgendes	0		
+88360	Schreiben	0		
+88361	.	0		
+88362	Ottilie	0	(mention_id=11793|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=11862|references=(entity=(entity_id=12|fullname=Ottilie|gender=f)))
+88363	den	0		
+88364	Freunden	0	(mention_id=11794|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)),(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)),(entity=(entity_id=entity_0003|fullname=Hauptmann|gender=m|possible_identity_with=entity_0374)))	(mention_id=11863|references=(entity=(entity_id=1|fullname=Charlotte|gender=f)),(entity=(entity_id=2|fullname=Eduard|gender=m)),(entity=(entity_id=6|fullname=Major|gender=m)),(entity=(entity_id=9|fullname=Mittler|gender=m)))
+88365	»	0		
+88366	Warum	0		
+88367	soll	0		
+88368	ich	0	(mention_id=11795|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=11864|references=(entity=(entity_id=12|fullname=Ottilie|gender=f)))
+88369	ausdrücklich	0		
+88370	sagen	0		
+88371	,	0		
+88372	meine	0	(mention_id=11796|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=11865|references=(entity=(entity_id=12|fullname=Ottilie|gender=f)))
+88373	Geliebten	0	(mention_id=11797|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)),(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)),(entity=(entity_id=entity_0003|fullname=Hauptmann|gender=m|possible_identity_with=entity_0374)))	(mention_id=11866|references=(entity=(entity_id=1|fullname=Charlotte|gender=f)),(entity=(entity_id=2|fullname=Eduard|gender=m)),(entity=(entity_id=6|fullname=Major|gender=m)),(entity=(entity_id=9|fullname=Mittler|gender=m)))
+88374	,	0		
+88375	was	0		
+88376	sich	0		
+88377	von	0		
+88378	selbst	0		
+88379	versteht	0		
+88380	?	0		
+88381	Ich	0	(mention_id=11798|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=11867|references=(entity=(entity_id=12|fullname=Ottilie|gender=f)))
+88382	bin	0		
+88383	aus	0		
+88384	meiner	0	(mention_id=11799|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=11868|references=(entity=(entity_id=12|fullname=Ottilie|gender=f)))
+88385	Bahn	0		
+88386	geschritten	0		
+88387	,	0		
+88388	und	0		
+88389	ich	0	(mention_id=11800|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=11869|references=(entity=(entity_id=12|fullname=Ottilie|gender=f)))
+88390	soll	0		
+88391	nicht	0		
+88392	wieder	0		
+88393	hinein	0		
+88394	.	0		
+88395	Ein	0		
+88396	feindseliger	0		
+88397	Dämon	0		
+88398	,	0		
+88399	der	0		
+88400	Macht	0		
+88401	über	0		
+88402	mich	0	(mention_id=11801|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=11870|references=(entity=(entity_id=12|fullname=Ottilie|gender=f)))
+88403	gewonnen	0		
+88404	,	0		
+88405	scheint	0		
+88406	mich	0	(mention_id=11802|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=11871|references=(entity=(entity_id=12|fullname=Ottilie|gender=f)))
+88407	von	0		
+88408	außen	0		
+88409	zu	0		
+88410	hindern	0		
+88411	,	0		
+88412	hätte	0		
+88413	ich	0	(mention_id=11803|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=11872|references=(entity=(entity_id=12|fullname=Ottilie|gender=f)))
+88414	mich	0	(mention_id=11804|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=11873|references=(entity=(entity_id=12|fullname=Ottilie|gender=f)))
+88415	auch	0		
+88416	mit	0		
+88417	mir	0	(mention_id=11805|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=11874|references=(entity=(entity_id=12|fullname=Ottilie|gender=f)))
+88418	selbst	0		
+88419	wieder	0		
+88420	zur	0		
+88421	Einigkeit	0		
+88422	gefunden	0		
+88423	.	0		
+88424	Ganz	0		
+88425	rein	0		
+88426	war	0		
+88427	mein	0	(mention_id=11806|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=11875|references=(entity=(entity_id=12|fullname=Ottilie|gender=f)))
+88428	Vorsatz	0		
+88429	,	0		
+88430	Eduarden	0	(mention_id=11807|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))	(mention_id=11876|references=(entity=(entity_id=2|fullname=Eduard|gender=m)))
+88431	zu	0		
+88432	entsagen	0		
+88433	,	0		
+88434	mich	0	(mention_id=11808|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=11877|references=(entity=(entity_id=12|fullname=Ottilie|gender=f)))
+88435	von	0		
+88436	ihm	0	(mention_id=11809|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))	(mention_id=11878|references=(entity=(entity_id=2|fullname=Eduard|gender=m)))
+88437	zu	0		
+88438	entfernen	0		
+88439	.	0		
+88440	Ihm	0	(mention_id=11810|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))	(mention_id=11879|references=(entity=(entity_id=2|fullname=Eduard|gender=m)))
+88441	hofft	0		
+88442	ich	0	(mention_id=11811|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=11880|references=(entity=(entity_id=12|fullname=Ottilie|gender=f)))
+88443	nicht	0		
+88444	wieder	0		
+88445	zu	0		
+88446	begegnen	0		
+88447	.	0		
+88448	Es	0		
+88449	ist	0		
+88450	anders	0		
+88451	geworden	0		
+88452	;	0		
+88453	er	0	(mention_id=11812|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))	(mention_id=11881|references=(entity=(entity_id=2|fullname=Eduard|gender=m)))
+88454	stand	0		
+88455	selbst	0		
+88456	gegen	0		
+88457	seinen	0	(mention_id=11813|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))	(mention_id=11882|references=(entity=(entity_id=2|fullname=Eduard|gender=m)))
+88458	eigenen	0		
+88459	Willen	0		
+88460	vor	0		
+88461	mir	0	(mention_id=11814|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=11883|references=(entity=(entity_id=12|fullname=Ottilie|gender=f)))
+88462	.	0		
+88463	Mein	0	(mention_id=11815|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=11884|references=(entity=(entity_id=12|fullname=Ottilie|gender=f)))
+88464	Versprechen	0		
+88465	,	0		
+88466	mich	0	(mention_id=11816|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=11885|references=(entity=(entity_id=12|fullname=Ottilie|gender=f)))
+88467	mit	0		
+88468	ihm	0	(mention_id=11817|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))	(mention_id=11886|references=(entity=(entity_id=2|fullname=Eduard|gender=m)))
+88469	in	0		
+88470	keine	0		
+88471	Unterredung	0		
+88472	einzulassen	0		
+88473	,	0		
+88474	habe	0		
+88475	ich	0	(mention_id=11818|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=11887|references=(entity=(entity_id=12|fullname=Ottilie|gender=f)))
+88476	vielleicht	0		
+88477	zu	0		
+88478	buchstäblich	0		
+88479	genommen	0		
+88480	und	0		
+88481	gedeutet	0		
+88482	.	0		
+88483	Nach	0		
+88484	Gefühl	0		
+88485	und	0		
+88486	Gewissen	0		
+88487	des	0		
+88488	Augenblicks	0		
+88489	schwieg	0		
+88490	ich	0	(mention_id=11819|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=11888|references=(entity=(entity_id=12|fullname=Ottilie|gender=f)))
+88491	,	0		
+88492	verstummt	0		
+88493	ich	0	(mention_id=11820|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=11889|references=(entity=(entity_id=12|fullname=Ottilie|gender=f)))
+88494	vor	0		
+88495	dem	0		
+88496	Freunde	0	(mention_id=11821|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))	(mention_id=11890|references=(entity=(entity_id=2|fullname=Eduard|gender=m)))
+88497	,	0		
+88498	und	0		
+88499	nun	0		
+88500	habe	0		
+88501	ich	0	(mention_id=11822|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=11891|references=(entity=(entity_id=12|fullname=Ottilie|gender=f)))
+88502	nichts	0		
+88503	mehr	0		
+88504	zu	0		
+88505	sagen	0		
+88506	.	0		
+88507	Ein	0		
+88508	strenges	0		
+88509	Ordensgelübde	0		
+88510	,	0		
+88511	welches	0		
+88512	den	0	(mention_id=11823|references=(entity=(entity_id=generic_1168|fullname=jemand der Ordensgelübde mit Überlegung eingeht|gender=u|specialcase_entity=generic)))	(mention_id=11892|references=(entity=(entity_id=generic_0003|fullname=jemand im Allgemeinen|gender=u|specialcase_entity=generic)))
+88513	,	0		
+88514	der	0	(mention_id=11824|references=(entity=(entity_id=generic_1169|fullname=jemand der Ordensgelübde mit Überlegung eingeht|gender=u|specialcase_entity=generic)))	(mention_id=11893|references=(entity=(entity_id=generic_0004|fullname=jemand im Allgemeinen|gender=u|specialcase_entity=generic)))
+88515	es	0		
+88516	mit	0		
+88517	Überlegung	0		
+88518	eingeht	0		
+88519	,	0		
+88520	vielleicht	0		
+88521	unbequem	0		
+88522	ängstiget	0		
+88523	,	0		
+88524	habe	0		
+88525	ich	0	(mention_id=11825|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=11894|references=(entity=(entity_id=12|fullname=Ottilie|gender=f)))
+88526	zufällig	0		
+88527	,	0		
+88528	vom	0		
+88529	Gefühl	0		
+88530	gedrungen	0		
+88531	,	0		
+88532	über	0		
+88533	mich	0	(mention_id=11826|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=11895|references=(entity=(entity_id=12|fullname=Ottilie|gender=f)))
+88534	genommen	0		
+88535	.	0		
+88536	Laßt	0		
+88537	mich	0	(mention_id=11827|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=11896|references=(entity=(entity_id=12|fullname=Ottilie|gender=f)))
+88538	darin	0		
+88539	beharren	0		
+88540	,	0		
+88541	solange	0		
+88542	mir	0	(mention_id=11828|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=11897|references=(entity=(entity_id=12|fullname=Ottilie|gender=f)))
+88543	das	0		
+88544	Herz	0		
+88545	gebietet	0		
+88546	.	0		
+88547	Beruft	0		
+88548	keine	0		
+88549	Mittelsperson	0	(mention_id=11829|references=(entity=(entity_id=entity_0442|fullname=Mittelsperson|gender=u|specialcase_entity=nonfact)))	
+88550	!	0		
+88551	Dringt	0		
+88552	nicht	0		
+88553	in	0		
+88554	mich	0	(mention_id=11830|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=11898|references=(entity=(entity_id=12|fullname=Ottilie|gender=f)))
+88555	,	0		
+88556	daß	0		
+88557	ich	0	(mention_id=11831|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=11899|references=(entity=(entity_id=12|fullname=Ottilie|gender=f)))
+88558	reden	0		
+88559	,	0		
+88560	daß	0		
+88561	ich	0	(mention_id=11832|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=11900|references=(entity=(entity_id=12|fullname=Ottilie|gender=f)))
+88562	mehr	0		
+88563	Speise	0		
+88564	und	0		
+88565	Trank	0		
+88566	genießen	0		
+88567	soll	0		
+88568	,	0		
+88569	als	0		
+88570	ich	0	(mention_id=11833|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=11901|references=(entity=(entity_id=12|fullname=Ottilie|gender=f)))
+88571	höchstens	0		
+88572	bedarf	0		
+88573	.	0		
+88574	Helft	0		
+88575	mir	0	(mention_id=11834|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=11902|references=(entity=(entity_id=12|fullname=Ottilie|gender=f)))
+88576	durch	0		
+88577	Nachsicht	0		
+88578	und	0		
+88579	Geduld	0		
+88580	über	0		
+88581	diese	0		
+88582	Zeit	0		
+88583	hin	0		
+88584	weg	0		
+88585	.	0		
+88586	Ich	0	(mention_id=11835|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=11903|references=(entity=(entity_id=12|fullname=Ottilie|gender=f)))
+88587	bin	0		
+88588	jung	0		
+88589	,	0		
+88590	die	0		
+88591	Jugend	0		
+88592	stellt	0		
+88593	sich	0		
+88594	unversehens	0		
+88595	wieder	0		
+88596	her	0		
+88597	.	0		
+88598	Duldet	0		
+88599	mich	0	(mention_id=11836|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=11904|references=(entity=(entity_id=12|fullname=Ottilie|gender=f)))
+88600	in	0		
+88601	eurer	0	(mention_id=11837|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)),(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)),(entity=(entity_id=entity_0003|fullname=Hauptmann|gender=m|possible_identity_with=entity_0374)))	(mention_id=11905|references=(entity=(entity_id=1|fullname=Charlotte|gender=f)),(entity=(entity_id=2|fullname=Eduard|gender=m)),(entity=(entity_id=6|fullname=Major|gender=m)),(entity=(entity_id=9|fullname=Mittler|gender=m)))
+88602	Gegenwart	0		
+88603	,	0		
+88604	erfreut	0		
+88605	mich	0	(mention_id=11838|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=11906|references=(entity=(entity_id=12|fullname=Ottilie|gender=f)))
+88606	durch	0		
+88607	eure	0	(mention_id=11839|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)),(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)),(entity=(entity_id=entity_0003|fullname=Hauptmann|gender=m|possible_identity_with=entity_0374)))	(mention_id=11907|references=(entity=(entity_id=1|fullname=Charlotte|gender=f)),(entity=(entity_id=2|fullname=Eduard|gender=m)),(entity=(entity_id=6|fullname=Major|gender=m)),(entity=(entity_id=9|fullname=Mittler|gender=m)))
+88608	Liebe	0		
+88609	,	0		
+88610	belehrt	0		
+88611	mich	0	(mention_id=11840|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=11908|references=(entity=(entity_id=12|fullname=Ottilie|gender=f)))
+88612	durch	0		
+88613	eure	0	(mention_id=11841|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)),(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)),(entity=(entity_id=entity_0003|fullname=Hauptmann|gender=m|possible_identity_with=entity_0374)))	(mention_id=11909|references=(entity=(entity_id=1|fullname=Charlotte|gender=f)),(entity=(entity_id=2|fullname=Eduard|gender=m)),(entity=(entity_id=6|fullname=Major|gender=m)),(entity=(entity_id=9|fullname=Mittler|gender=m)))
+88614	Unterhaltung	0		
+88615	;	0		
+88616	aber	0		
+88617	mein	0	(mention_id=11842|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=11910|references=(entity=(entity_id=12|fullname=Ottilie|gender=f)))
+88618	Innres	0		
+88619	überlaßt	0		
+88620	mir	0	(mention_id=11843|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=11911|references=(entity=(entity_id=12|fullname=Ottilie|gender=f)))
+88621	selbst	0		
+88622	!	0		
+88623	«	0		
+88624	Die	0		
+88625	längst	0		
+88626	vorbereitete	0		
+88627	Abreise	0		
+88628	der	0		
+88629	Männer	0	(mention_id=11844|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)),(entity=(entity_id=entity_0003|fullname=Hauptmann|gender=m|possible_identity_with=entity_0374)))	(mention_id=11912|references=(entity=(entity_id=2|fullname=Eduard|gender=m)),(entity=(entity_id=6|fullname=Major|gender=m)))
+88630	unterblieb	0		
+88631	,	0		
+88632	weil	0		
+88633	jenes	0		
+88634	auswärtige	0		
+88635	Geschäft	0		
+88636	des	0		
+88637	Majors	0	(mention_id=11845|references=(entity=(entity_id=entity_0003|fullname=Hauptmann|gender=m|possible_identity_with=entity_0374)))	(mention_id=11913|references=(entity=(entity_id=6|fullname=Major|gender=m)))
+88638	sich	0		
+88639	verzögerte	0		
+88640	.	0		
+88641	Wie	0		
+88642	erwünscht	0		
+88643	für	0		
+88644	Eduard	0	(mention_id=11846|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))	(mention_id=11914|references=(entity=(entity_id=2|fullname=Eduard|gender=m)))
+88645	!	0		
+88646	Nun	0		
+88647	durch	0		
+88648	Ottiliens	0	(mention_id=11847|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=11915|references=(entity=(entity_id=12|fullname=Ottilie|gender=f)))
+88649	Blatt	0		
+88650	aufs	0		
+88651	neue	0		
+88652	angeregt	0		
+88653	,	0		
+88654	durch	0		
+88655	ihre	0	(mention_id=11848|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=11916|references=(entity=(entity_id=12|fullname=Ottilie|gender=f)))
+88656	trostvollen	0		
+88657	,	0		
+88658	hoffnunggebenden	0		
+88659	Worte	0		
+88660	wieder	0		
+88661	ermutigt	0		
+88662	und	0		
+88663	zu	0		
+88664	standhaftem	0		
+88665	Ausharren	0		
+88666	berechtigt	0		
+88667	,	0		
+88668	erklärte	0		
+88669	er	0	(mention_id=11849|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))	(mention_id=11917|references=(entity=(entity_id=2|fullname=Eduard|gender=m)))
+88670	auf	0		
+88671	einmal	0		
+88672	,	0		
+88673	er	0	(mention_id=11850|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))	(mention_id=11918|references=(entity=(entity_id=2|fullname=Eduard|gender=m)))
+88674	werde	0		
+88675	sich	0	(mention_id=11851|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))	(mention_id=11919|references=(entity=(entity_id=2|fullname=Eduard|gender=m)))
+88676	nicht	0		
+88677	entfernen	0		
+88678	.	0		
+88679	»	0		
+88680	Wie	0		
+88681	töricht	0		
+88682	,	0		
+88683	«	0		
+88684	rief	0		
+88685	er	0	(mention_id=11852|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))	(mention_id=11920|references=(entity=(entity_id=2|fullname=Eduard|gender=m)))
+88686	aus	0		
+88687	,	0		
+88688	»	0		
+88689	das	0		
+88690	Unentbehrlichste	0		
+88691	,	0		
+88692	Notwendigste	0		
+88693	vorsätzlich	0		
+88694	,	0		
+88695	voreilig	0		
+88696	wegzuwerfen	0		
+88697	,	0		
+88698	das	0		
+88699	,	0		
+88700	wenn	0		
+88701	uns	0	(mention_id=11853|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))	(mention_id=11921|references=(entity=(entity_id=2|fullname=Eduard|gender=m)))
+88702	auch	0		
+88703	der	0		
+88704	Verlust	0		
+88705	bedroht	0		
+88706	,	0		
+88707	vielleicht	0		
+88708	noch	0		
+88709	zu	0		
+88710	erhalten	0		
+88711	wäre	0		
+88712	!	0		
+88713	Und	0		
+88714	was	0		
+88715	soll	0		
+88716	es	0		
+88717	heißen	0		
+88718	?	0		
+88719	Doch	0		
+88720	nur	0		
+88721	,	0		
+88722	daß	0		
+88723	der	0		
+88724	Mensch	0	(mention_id=11854|references=(entity=(entity_id=generic_1170|fullname=Mensch allgemein|gender=u|specialcase_entity=generic)))	(mention_id=11922|references=(entity=(entity_id=generic_0005|fullname=Mensch im Allgemeinen|gender=u|specialcase_entity=generic)))
+88725	ja	0		
+88726	scheine	0		
+88727	,	0		
+88728	wollen	0		
+88729	,	0		
+88730	wählen	0		
+88731	zu	0		
+88732	können	0		
+88733	.	0		
+88734	So	0		
+88735	habe	0		
+88736	ich	0	(mention_id=11855|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))	(mention_id=11923|references=(entity=(entity_id=2|fullname=Eduard|gender=m)))
+88737	oft	0		
+88738	,	0		
+88739	beherrscht	0		
+88740	von	0		
+88741	solchem	0		
+88742	albernen	0		
+88743	Dünkel	0		
+88744	,	0		
+88745	Stunden	0		
+88746	,	0		
+88747	ja	0		
+88748	Tage	0		
+88749	zu	0		
+88750	früh	0		
+88751	mich	0	(mention_id=11856|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))	(mention_id=11924|references=(entity=(entity_id=2|fullname=Eduard|gender=m)))
+88752	von	0		
+88753	Freunden	0	(mention_id=11857|references=(entity=(entity_id=entity_0441|fullname=Eduards Freunde|gender=u|specialcase_entity=group)))	(mention_id=11925|references=(entity=(entity_id=1|fullname=Charlotte|gender=f)),(entity=(entity_id=6|fullname=Major|gender=m)),(entity=(entity_id=9|fullname=Mittler|gender=m)))
+88754	losgerissen	0		
+88755	,	0		
+88756	um	0		
+88757	nur	0		
+88758	nicht	0		
+88759	von	0		
+88760	dem	0		
+88761	letzten	0		
+88762	,	0		
+88763	unausweichlichen	0		
+88764	Termin	0		
+88765	entschieden	0		
+88766	gezwungen	0		
+88767	zu	0		
+88768	werden	0		
+88769	.	0		
+88770	Diesmal	0		
+88771	aber	0		
+88772	will	0		
+88773	ich	0	(mention_id=11858|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))	(mention_id=11926|references=(entity=(entity_id=2|fullname=Eduard|gender=m)))
+88774	bleiben	0		
+88775	.	0		
+88776	Warum	0		
+88777	soll	0		
+88778	ich	0	(mention_id=11859|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))	(mention_id=11927|references=(entity=(entity_id=2|fullname=Eduard|gender=m)))
+88779	mich	0	(mention_id=11860|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))	(mention_id=11928|references=(entity=(entity_id=2|fullname=Eduard|gender=m)))
+88780	entfernen	0		
+88781	?	0		
+88782	Ist	0		
+88783	sie	0	(mention_id=11861|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=11929|references=(entity=(entity_id=12|fullname=Ottilie|gender=f)))
+88784	nicht	0		
+88785	schon	0		
+88786	von	0		
+88787	mir	0	(mention_id=11862|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))	(mention_id=11930|references=(entity=(entity_id=2|fullname=Eduard|gender=m)))
+88788	entfernt	0		
+88789	?	0		
+88790	Es	0		
+88791	fällt	0		
+88792	mir	0	(mention_id=11863|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))	(mention_id=11931|references=(entity=(entity_id=2|fullname=Eduard|gender=m)))
+88793	nicht	0		
+88794	ein	0		
+88795	,	0		
+88796	ihre	0	(mention_id=11864|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=11932|references=(entity=(entity_id=12|fullname=Ottilie|gender=f)))
+88797	Hand	0		
+88798	zu	0		
+88799	fassen	0		
+88800	,	0		
+88801	sie	0		(mention_id=11933|references=(entity=(entity_id=12|fullname=Ottilie|gender=f)))
+88802	an	0		
+88803	mein	0	(mention_id=11865|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))	(mention_id=11934|references=(entity=(entity_id=2|fullname=Eduard|gender=m)))
+88804	Herz	0		
+88805	zu	0		
+88806	drücken	0		
+88807	;	0		
+88808	sogar	0		
+88809	darf	0		
+88810	ich	0	(mention_id=11866|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))	(mention_id=11935|references=(entity=(entity_id=2|fullname=Eduard|gender=m)))
+88811	es	0		
+88812	nicht	0		
+88813	denken	0		
+88814	,	0		
+88815	es	0		
+88816	schaudert	0		
+88817	mir	0	(mention_id=11867|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))	(mention_id=11936|references=(entity=(entity_id=2|fullname=Eduard|gender=m)))
+88818	.	0		
+88819	Sie	0	(mention_id=11868|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=11937|references=(entity=(entity_id=12|fullname=Ottilie|gender=f)))
+88820	hat	0		
+88821	sich	0	(mention_id=11869|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=11938|references=(entity=(entity_id=12|fullname=Ottilie|gender=f)))
+88822	nicht	0		
+88823	von	0		
+88824	mir	0	(mention_id=11870|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))	(mention_id=11939|references=(entity=(entity_id=2|fullname=Eduard|gender=m)))
+88825	weg	0		
+88826	,	0		
+88827	sie	0	(mention_id=11871|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=11940|references=(entity=(entity_id=12|fullname=Ottilie|gender=f)))
+88828	hat	0		
+88829	sich	0	(mention_id=11872|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=11941|references=(entity=(entity_id=12|fullname=Ottilie|gender=f)))
+88830	über	0		
+88831	mich	0	(mention_id=11873|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))	(mention_id=11942|references=(entity=(entity_id=2|fullname=Eduard|gender=m)))
+88832	weggehoben	0		
+88833	.	0		
+88834	«	0		
+88835	Und	0		
+88836	so	0		
+88837	blieb	0		
+88838	er	0	(mention_id=11874|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))	(mention_id=11943|references=(entity=(entity_id=2|fullname=Eduard|gender=m)))
+88839	,	0		
+88840	wie	0		
+88841	er	0	(mention_id=11875|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))	(mention_id=11944|references=(entity=(entity_id=2|fullname=Eduard|gender=m)))
+88842	wollte	0		
+88843	,	0		
+88844	wie	0		
+88845	er	0	(mention_id=11876|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))	(mention_id=11945|references=(entity=(entity_id=2|fullname=Eduard|gender=m)))
+88846	mußte	0		
+88847	.	0		
+88848	Aber	0		
+88849	auch	0		
+88850	dem	0		
+88851	Behagen	0		
+88852	glich	0		
+88853	nichts	0		
+88854	,	0		
+88855	wenn	0		
+88856	er	0	(mention_id=11877|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))	(mention_id=11946|references=(entity=(entity_id=2|fullname=Eduard|gender=m)))
+88857	sich	0	(mention_id=11878|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))	(mention_id=11947|references=(entity=(entity_id=2|fullname=Eduard|gender=m)))
+88858	mit	0		
+88859	ihr	0	(mention_id=11879|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=11948|references=(entity=(entity_id=12|fullname=Ottilie|gender=f)))
+88860	zusammenfand	0		
+88861	.	0		
+88862	Und	0		
+88863	so	0		
+88864	war	0		
+88865	auch	0		
+88866	ihr	0	(mention_id=11880|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=11949|references=(entity=(entity_id=12|fullname=Ottilie|gender=f)))
+88867	dieselbe	0		
+88868	Empfindung	0		
+88869	geblieben	0		
+88870	;	0		
+88871	auch	0		
+88872	sie	0	(mention_id=11881|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=11950|references=(entity=(entity_id=12|fullname=Ottilie|gender=f)))
+88873	konnte	0		
+88874	sich	0	(mention_id=11882|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=11951|references=(entity=(entity_id=12|fullname=Ottilie|gender=f)))
+88875	dieser	0		
+88876	seligen	0		
+88877	Notwendigkeit	0		
+88878	nicht	0		
+88879	entziehen	0		
+88880	.	0		
+88881	Nach	0		
+88882	wie	0		
+88883	vor	0		
+88884	übten	0		
+88885	sie	0	(mention_id=11883|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)),(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=11952|references=(entity=(entity_id=2|fullname=Eduard|gender=m)),(entity=(entity_id=12|fullname=Ottilie|gender=f)))
+88886	eine	0		
+88887	unbeschreibliche	0		
+88888	,	0		
+88889	fast	0		
+88890	magische	0		
+88891	Anziehungskraft	0		
+88892	gegeneinander	0		
+88893	aus	0		
+88894	.	0		
+88895	Sie	0	(mention_id=11884|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)),(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=11953|references=(entity=(entity_id=2|fullname=Eduard|gender=m)),(entity=(entity_id=12|fullname=Ottilie|gender=f)))
+88896	wohnten	0		
+88897	unter	0		
+88898	Einem	0		
+88899	Dache	0		
+88900	;	0		
+88901	aber	0		
+88902	selbst	0		
+88903	ohne	0		
+88904	gerade	0		
+88905	aneinander	0		
+88906	zu	0		
+88907	denken	0		
+88908	,	0		
+88909	mit	0		
+88910	andern	0		
+88911	Dingen	0		
+88912	beschäftigt	0		
+88913	,	0		
+88914	von	0		
+88915	der	0		
+88916	Gesellschaft	0	(mention_id=11885|references=(entity=(entity_id=entity_0440|fullname=Gesellschaft|gender=u|specialcase_entity=group)))	(mention_id=11954|references=(entity=(entity_id=15|fullname=die Gesellschaft|gender=mf|specialcase_entity=group)))
+88917	hin	0		
+88918	und	0		
+88919	her	0		
+88920	gezogen	0		
+88921	,	0		
+88922	näherten	0		
+88923	sie	0	(mention_id=11886|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)),(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=11955|references=(entity=(entity_id=2|fullname=Eduard|gender=m)),(entity=(entity_id=12|fullname=Ottilie|gender=f)))
+88924	sich	0	(mention_id=11887|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)),(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=11956|references=(entity=(entity_id=2|fullname=Eduard|gender=m)),(entity=(entity_id=12|fullname=Ottilie|gender=f)))
+88925	einander	0	(mention_id=11888|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)),(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=11957|references=(entity=(entity_id=2|fullname=Eduard|gender=m)),(entity=(entity_id=12|fullname=Ottilie|gender=f)))
+88926	.	0		
+88927	Fanden	0		
+88928	sie	0	(mention_id=11889|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)),(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=11958|references=(entity=(entity_id=2|fullname=Eduard|gender=m)),(entity=(entity_id=12|fullname=Ottilie|gender=f)))
+88929	sich	0	(mention_id=11890|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)),(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=11959|references=(entity=(entity_id=2|fullname=Eduard|gender=m)),(entity=(entity_id=12|fullname=Ottilie|gender=f)))
+88930	in	0		
+88931	Einem	0		
+88932	Saale	0		
+88933	,	0		
+88934	so	0		
+88935	dauerte	0		
+88936	es	0		
+88937	nicht	0		
+88938	lange	0		
+88939	,	0		
+88940	und	0		
+88941	sie	0	(mention_id=11891|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)),(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=11960|references=(entity=(entity_id=2|fullname=Eduard|gender=m)),(entity=(entity_id=12|fullname=Ottilie|gender=f)))
+88942	standen	0		
+88943	,	0		
+88944	sie	0	(mention_id=11892|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)),(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=11961|references=(entity=(entity_id=2|fullname=Eduard|gender=m)),(entity=(entity_id=12|fullname=Ottilie|gender=f)))
+88945	saßen	0		
+88946	nebeneinander	0		
+88947	.	0		
+88948	Nur	0		
+88949	die	0		
+88950	nächste	0		
+88951	Nähe	0		
+88952	konnte	0		
+88953	sie	0	(mention_id=11893|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)),(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=11962|references=(entity=(entity_id=2|fullname=Eduard|gender=m)),(entity=(entity_id=12|fullname=Ottilie|gender=f)))
+88954	beruhigen	0		
+88955	,	0		
+88956	aber	0		
+88957	auch	0		
+88958	völlig	0		
+88959	beruhigen	0		
+88960	,	0		
+88961	und	0		
+88962	diese	0		
+88963	Nähe	0		
+88964	war	0		
+88965	genug	0		
+88966	;	0		
+88967	nicht	0		
+88968	eines	0		
+88969	Blickes	0		
+88970	,	0		
+88971	nicht	0		
+88972	eines	0		
+88973	Wortes	0		
+88974	,	0		
+88975	keiner	0		
+88976	Gebärde	0		
+88977	,	0		
+88978	keiner	0		
+88979	Berührung	0		
+88980	bedurfte	0		
+88981	es	0		
+88982	,	0		
+88983	nur	0		
+88984	des	0		
+88985	reinen	0		
+88986	Zusammenseins	0		
+88987	.	0		
+88988	Dann	0		
+88989	waren	0		
+88990	es	0		
+88991	nicht	0		
+88992	zwei	0		
+88993	Menschen	0	(mention_id=11894|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)),(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=11963|references=(entity=(entity_id=2|fullname=Eduard|gender=m)),(entity=(entity_id=12|fullname=Ottilie|gender=f)))
+88994	,	0		
+88995	es	0		
+88996	war	0		
+88997	nur	0		
+88998	Ein	0		
+88999	Mensch	0	(mention_id=11895|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)),(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=11964|references=(entity=(entity_id=2|fullname=Eduard|gender=m)),(entity=(entity_id=12|fullname=Ottilie|gender=f)))
+89000	im	0		
+89001	bewußtlosen	0		
+89002	,	0		
+89003	vollkommnen	0		
+89004	Behagen	0		
+89005	,	0		
+89006	mit	0		
+89007	sich	0	(mention_id=11896|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)),(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=11965|references=(entity=(entity_id=2|fullname=Eduard|gender=m)),(entity=(entity_id=12|fullname=Ottilie|gender=f)))
+89008	selbst	0		
+89009	zufrieden	0		
+89010	und	0		
+89011	mit	0		
+89012	der	0		
+89013	Welt	0		
+89014	.	0		
+89015	Ja	0		
+89016	,	0		
+89017	hätte	0		
+89018	man	0		
+89019	eins	0	(mention_id=11897|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)),(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=11966|references=(entity=(entity_id=2|fullname=Eduard|gender=m)),(entity=(entity_id=12|fullname=Ottilie|gender=f)))
+89020	von	0		
+89021	beiden	0	(mention_id=11898|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)),(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=11967|references=(entity=(entity_id=2|fullname=Eduard|gender=m)),(entity=(entity_id=12|fullname=Ottilie|gender=f)))
+89022	am	0		
+89023	letzten	0		
+89024	Ende	0		
+89025	der	0		
+89026	Wohnung	0		
+89027	festgehalten	0		
+89028	,	0		
+89029	das	0		
+89030	andere	0	(mention_id=11899|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)),(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=11968|references=(entity=(entity_id=2|fullname=Eduard|gender=m)),(entity=(entity_id=12|fullname=Ottilie|gender=f)))
+89031	hätte	0		
+89032	sich	0		(mention_id=11969|references=(entity=(entity_id=2|fullname=Eduard|gender=m)),(entity=(entity_id=12|fullname=Ottilie|gender=f)))
+89033	nach	0		
+89034	und	0		
+89035	nach	0		
+89036	von	0		
+89037	selbst	0		
+89038	,	0		
+89039	ohne	0		
+89040	Vorsatz	0		
+89041	,	0		
+89042	zu	0		
+89043	ihm	0	(mention_id=11900|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)),(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=11970|references=(entity=(entity_id=2|fullname=Eduard|gender=m)),(entity=(entity_id=12|fullname=Ottilie|gender=f)))
+89044	hinbewegt	0		
+89045	.	0		
+89046	Das	0		
+89047	Leben	0		
+89048	war	0		
+89049	ihnen	0	(mention_id=11901|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)),(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=11971|references=(entity=(entity_id=2|fullname=Eduard|gender=m)),(entity=(entity_id=12|fullname=Ottilie|gender=f)))
+89050	ein	0		
+89051	Rätsel	0		
+89052	,	0		
+89053	dessen	0		
+89054	Auflösung	0		
+89055	sie	0	(mention_id=11902|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)),(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=11972|references=(entity=(entity_id=2|fullname=Eduard|gender=m)),(entity=(entity_id=12|fullname=Ottilie|gender=f)))
+89056	nur	0		
+89057	miteinander	0		
+89058	fanden	0		
+89059	.	0		
+89060	Ottilie	0	(mention_id=11903|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=11973|references=(entity=(entity_id=12|fullname=Ottilie|gender=f)))
+89061	war	0		
+89062	durchaus	0		
+89063	heiter	0		
+89064	und	0		
+89065	gelassen	0		
+89066	,	0		
+89067	so	0		
+89068	daß	0		
+89069	man	0		
+89070	sich	0		
+89071	über	0		
+89072	sie	0	(mention_id=11904|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=11974|references=(entity=(entity_id=12|fullname=Ottilie|gender=f)))
+89073	völlig	0		
+89074	beruhigen	0		
+89075	konnte	0		
+89076	.	0		
+89077	Sie	0	(mention_id=11905|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=11975|references=(entity=(entity_id=12|fullname=Ottilie|gender=f)))
+89078	entfernte	0		
+89079	sich	0	(mention_id=11906|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=11976|references=(entity=(entity_id=12|fullname=Ottilie|gender=f)))
+89080	wenig	0		
+89081	aus	0		
+89082	der	0		
+89083	Gesellschaft	0	(mention_id=11907|references=(entity=(entity_id=entity_0440|fullname=Gesellschaft|gender=u|specialcase_entity=group)))	(mention_id=11977|references=(entity=(entity_id=15|fullname=die Gesellschaft|gender=mf|specialcase_entity=group)))
+89084	,	0		
+89085	nur	0		
+89086	hatte	0		
+89087	sie	0	(mention_id=11908|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=11978|references=(entity=(entity_id=12|fullname=Ottilie|gender=f)))
+89088	es	0		
+89089	erlangt	0		
+89090	,	0		
+89091	allein	0		
+89092	zu	0		
+89093	speisen	0		
+89094	.	0		
+89095	Niemand	0		
+89096	als	0		
+89097	Nanny	0	(mention_id=11909|references=(entity=(entity_id=entity_0183|fullname=Nanny|gender=f)))	(mention_id=11979|references=(entity=(entity_id=11|fullname=Nanny|gender=f)))
+89098	bediente	0		
+89099	sie	0	(mention_id=11910|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=11980|references=(entity=(entity_id=12|fullname=Ottilie|gender=f)))
+89100	.	0		
+89101	Was	0		
+89102	einem	0		
+89103	jeden	0		
+89104	Menschen	0	(mention_id=11911|references=(entity=(entity_id=generic_1171|fullname=Mensch allgemein 2|gender=u|specialcase_entity=generic)))	(mention_id=11981|references=(entity=(entity_id=generic_0006|fullname=Mensch im Allgemeinen|gender=u|specialcase_entity=generic)))
+89105	gewöhnlich	0		
+89106	begegnet	0		
+89107	,	0		
+89108	wiederholt	0		
+89109	sich	0		
+89110	mehr	0		
+89111	,	0		
+89112	als	0		
+89113	man	0		
+89114	glaubt	0		
+89115	,	0		
+89116	weil	0		
+89117	seine	0	(mention_id=11912|references=(entity=(entity_id=generic_1172|fullname=Mensch allgemein 2|gender=u|specialcase_entity=generic)))	(mention_id=11982|references=(entity=(entity_id=generic_0007|fullname=Mensch im Allgemeinen|gender=u|specialcase_entity=generic)))
+89118	Natur	0		
+89119	hiezu	0		
+89120	die	0		
+89121	nächste	0		
+89122	Bestimmung	0		
+89123	gibt	0		
+89124	.	0		
+89125	Charakter	0		
+89126	,	0		
+89127	Individualität	0		
+89128	,	0		
+89129	Neigung	0		
+89130	,	0		
+89131	Richtung	0		
+89132	,	0		
+89133	Örtlichkeit	0		
+89134	,	0		
+89135	Umgebungen	0		
+89136	und	0		
+89137	Gewohnheiten	0		
+89138	bilden	0		
+89139	zusammen	0		
+89140	ein	0		
+89141	Ganzes	0		
+89142	,	0		
+89143	in	0		
+89144	welchem	0		
+89145	jeder	0		
+89146	Mensch	0	(mention_id=11913|references=(entity=(entity_id=generic_1173|fullname=Mensch allgemein 2|gender=u|specialcase_entity=generic)))	(mention_id=11983|references=(entity=(entity_id=generic_0008|fullname=Mensch im Allgemeinen|gender=u|specialcase_entity=generic)))
+89147	wie	0		
+89148	in	0		
+89149	einem	0		
+89150	Elemente	0		
+89151	,	0		
+89152	in	0		
+89153	einer	0		
+89154	Atmosphäre	0		
+89155	schwimmt	0		
+89156	,	0		
+89157	worin	0		
+89158	es	0		
+89159	ihm	0	(mention_id=11914|references=(entity=(entity_id=generic_1174|fullname=Mensch allgemein 2|gender=u|specialcase_entity=generic)))	(mention_id=11984|references=(entity=(entity_id=generic_0009|fullname=Mensch im Allgemeinen|gender=u|specialcase_entity=generic)))
+89160	allein	0		
+89161	bequem	0		
+89162	und	0		
+89163	behaglich	0		
+89164	ist	0		
+89165	.	0		
+89166	Und	0		
+89167	so	0		
+89168	finden	0		
+89169	wir	0	(mention_id=11915|references=(entity=(entity_id=entity_0016|fullname=Erzählinstanz|gender=u)),(entity=(entity_id=entity_0195|fullname=Leser|gender=u)))	(mention_id=11985|references=(entity=(entity_id=13|fullname=der Erzähler und die Leser|gender=u|specialcase_entity=group)))
+89170	die	0		
+89171	Menschen	0	(mention_id=11916|references=(entity=(entity_id=generic_1175|fullname=Menschen allgemein 3|gender=u|specialcase_entity=generic)))	(mention_id=11986|references=(entity=(entity_id=generic_0010|fullname=Menschen im Allgemeinen|gender=u|specialcase_entity=generic)))
+89172	,	0		
+89173	über	0		
+89174	deren	0	(mention_id=11917|references=(entity=(entity_id=generic_1176|fullname=Menschen allgemein 3|gender=u|specialcase_entity=generic)))	(mention_id=11987|references=(entity=(entity_id=generic_0011|fullname=Menschen im Allgemeinen|gender=u|specialcase_entity=generic)))
+89175	Veränderlichkeit	0		
+89176	so	0		
+89177	viele	0		
+89178	Klage	0		
+89179	geführt	0		
+89180	wird	0		
+89181	,	0		
+89182	nach	0		
+89183	vielen	0		
+89184	Jahren	0		
+89185	zu	0		
+89186	unserm	0	(mention_id=11918|references=(entity=(entity_id=entity_0016|fullname=Erzählinstanz|gender=u)),(entity=(entity_id=entity_0195|fullname=Leser|gender=u)))	(mention_id=11988|references=(entity=(entity_id=13|fullname=der Erzähler und die Leser|gender=u|specialcase_entity=group)))
+89187	Erstaunen	0		
+89188	unverändert	0		
+89189	und	0		
+89190	nach	0		
+89191	äußern	0		
+89192	und	0		
+89193	innern	0		
+89194	unendlichen	0		
+89195	Anregungen	0		
+89196	unveränderlich	0		
+89197	.	0		
+89198	So	0		
+89199	bewegte	0		
+89200	sich	0		
+89201	auch	0		
+89202	in	0		
+89203	dem	0		
+89204	täglichen	0		
+89205	Zusammenleben	0		
+89206	unserer	0	(mention_id=11919|references=(entity=(entity_id=entity_0016|fullname=Erzählinstanz|gender=u)),(entity=(entity_id=entity_0195|fullname=Leser|gender=u)))	(mention_id=11989|references=(entity=(entity_id=1|fullname=Charlotte|gender=f)),(entity=(entity_id=2|fullname=Eduard|gender=m)),(entity=(entity_id=12|fullname=Ottilie|gender=f)))
+89207	Freunde	0	(mention_id=11920|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)),(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)),(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)),(entity=(entity_id=entity_0003|fullname=Hauptmann|gender=m|possible_identity_with=entity_0374)))	(mention_id=11990|references=(entity=(entity_id=1|fullname=Charlotte|gender=f)),(entity=(entity_id=2|fullname=Eduard|gender=m)),(entity=(entity_id=12|fullname=Ottilie|gender=f)))
+89208	fast	0		
+89209	alles	0		
+89210	wieder	0		
+89211	in	0		
+89212	dem	0		
+89213	alten	0		
+89214	Gleise	0		
+89215	.	0		
+89216	Noch	0		
+89217	immer	0		
+89218	äußerte	0		
+89219	Ottilie	0	(mention_id=11921|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=11991|references=(entity=(entity_id=12|fullname=Ottilie|gender=f)))
+89220	stillschweigend	0		
+89221	durch	0		
+89222	manche	0		
+89223	Gefälligkeit	0		
+89224	ihr	0	(mention_id=11922|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=11992|references=(entity=(entity_id=12|fullname=Ottilie|gender=f)))
+89225	zuvorkommendes	0		
+89226	Wesen	0		
+89227	,	0		
+89228	und	0		
+89229	so	0		
+89230	jedes	0	(mention_id=11923|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)),(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)),(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)),(entity=(entity_id=entity_0003|fullname=Hauptmann|gender=m|possible_identity_with=entity_0374)))	(mention_id=11993|references=(entity=(entity_id=1|fullname=Charlotte|gender=f)),(entity=(entity_id=2|fullname=Eduard|gender=m)),(entity=(entity_id=12|fullname=Ottilie|gender=f)))
+89231	nach	0		
+89232	seiner	0	(mention_id=11924|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)),(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)),(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)),(entity=(entity_id=entity_0003|fullname=Hauptmann|gender=m|possible_identity_with=entity_0374)))	(mention_id=11994|references=(entity=(entity_id=1|fullname=Charlotte|gender=f)),(entity=(entity_id=2|fullname=Eduard|gender=m)),(entity=(entity_id=12|fullname=Ottilie|gender=f)))
+89233	Art	0		
+89234	.	0		
+89235	Auf	0		
+89236	diese	0		
+89237	Weise	0		
+89238	zeigte	0		
+89239	sich	0		
+89240	der	0		
+89241	häusliche	0		
+89242	Zirkel	0	(mention_id=11925|references=(entity=(entity_id=entity_0003|fullname=Hauptmann|gender=m|possible_identity_with=entity_0374)),(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)),(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)),(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)))	
+89243	als	0		
+89244	ein	0		
+89245	Scheinbild	0		
+89246	des	0		
+89247	vorigen	0		
+89248	Lebens	0		
+89249	,	0		
+89250	und	0		
+89251	der	0		
+89252	Wahn	0		
+89253	,	0		
+89254	als	0		
+89255	ob	0		
+89256	noch	0		
+89257	alles	0		
+89258	beim	0		
+89259	alten	0		
+89260	sei	0		
+89261	,	0		
+89262	war	0		
+89263	verzeihlich	0		
+89264	.	0		
+89265	Die	0		
+89266	herbstlichen	0		
+89267	Tage	0		
+89268	,	0		
+89269	an	0		
+89270	Länge	0		
+89271	jenen	0		
+89272	Frühlingstagen	0		
+89273	gleich	0		
+89274	,	0		
+89275	riefen	0		
+89276	die	0		
+89277	Gesellschaft	0	(mention_id=11926|references=(entity=(entity_id=entity_0003|fullname=Hauptmann|gender=m|possible_identity_with=entity_0374)),(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)),(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)),(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))	(mention_id=11995|references=(entity=(entity_id=15|fullname=die Gesellschaft|gender=mf|specialcase_entity=group)))
+89278	um	0		
+89279	eben	0		
+89280	die	0		
+89281	Stunde	0		
+89282	aus	0		
+89283	dem	0		
+89284	Freien	0		
+89285	ins	0		
+89286	Haus	0		
+89287	zurück	0		
+89288	.	0		
+89289	Der	0		
+89290	Schmuck	0		
+89291	an	0		
+89292	Früchten	0		
+89293	und	0		
+89294	Blumen	0		
+89295	,	0		
+89296	der	0		
+89297	dieser	0		
+89298	Zeit	0		
+89299	eigen	0		
+89300	ist	0		
+89301	,	0		
+89302	ließ	0		
+89303	glauben	0		
+89304	,	0		
+89305	als	0		
+89306	wenn	0		
+89307	es	0		
+89308	der	0		
+89309	Herbst	0		
+89310	jenes	0		
+89311	ersten	0		
+89312	Frühlings	0		
+89313	wäre	0		
+89314	;	0		
+89315	die	0		
+89316	Zwischenzeit	0		
+89317	war	0		
+89318	ins	0		
+89319	Vergessen	0		
+89320	gefallen	0		
+89321	.	0		
+89322	Denn	0		
+89323	nun	0		
+89324	blühten	0		
+89325	die	0		
+89326	Blumen	0		
+89327	,	0		
+89328	dergleichen	0		
+89329	man	0		
+89330	in	0		
+89331	jenen	0		
+89332	ersten	0		
+89333	Tagen	0		
+89334	auch	0		
+89335	gesäet	0		
+89336	hatte	0		
+89337	;	0		
+89338	nun	0		
+89339	reiften	0		
+89340	Früchte	0		
+89341	an	0		
+89342	den	0		
+89343	Bäumen	0		
+89344	,	0		
+89345	die	0		
+89346	man	0		
+89347	damals	0		
+89348	blühen	0		
+89349	gesehen	0		
+89350	.	0		
+89351	Der	0		
+89352	Major	0	(mention_id=11927|references=(entity=(entity_id=entity_0003|fullname=Hauptmann|gender=m|possible_identity_with=entity_0374)))	(mention_id=11996|references=(entity=(entity_id=6|fullname=Major|gender=m)))
+89353	ging	0		
+89354	ab	0		
+89355	und	0		
+89356	zu	0		
+89357	;	0		
+89358	auch	0		
+89359	Mittler	0	(mention_id=11928|references=(entity=(entity_id=entity_0021|fullname=Mittler|gender=m)))	(mention_id=11997|references=(entity=(entity_id=9|fullname=Mittler|gender=m)))
+89360	ließ	0		
+89361	sich	0	(mention_id=11929|references=(entity=(entity_id=entity_0021|fullname=Mittler|gender=m)))	(mention_id=11998|references=(entity=(entity_id=9|fullname=Mittler|gender=m)))
+89362	öfter	0		
+89363	sehen	0		
+89364	.	0		
+89365	Die	0		
+89366	Abendsitzungen	0		
+89367	waren	0		
+89368	meistens	0		
+89369	regelmäßig	0		
+89370	.	0		
+89371	Eduard	0	(mention_id=11930|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))	(mention_id=11999|references=(entity=(entity_id=2|fullname=Eduard|gender=m)))
+89372	las	0		
+89373	gewöhnlich	0		
+89374	,	0		
+89375	lebhafter	0		
+89376	,	0		
+89377	gefühlvoller	0		
+89378	,	0		
+89379	besser	0		
+89380	,	0		
+89381	ja	0		
+89382	sogar	0		
+89383	heiterer	0		
+89384	,	0		
+89385	wenn	0		
+89386	man	0		
+89387	will	0		
+89388	,	0		
+89389	als	0		
+89390	jemals	0		
+89391	.	0		
+89392	Es	0		
+89393	war	0		
+89394	,	0		
+89395	als	0		
+89396	wenn	0		
+89397	er	0	(mention_id=11931|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))	(mention_id=12000|references=(entity=(entity_id=2|fullname=Eduard|gender=m)))
+89398	,	0		
+89399	so	0		
+89400	gut	0		
+89401	durch	0		
+89402	Fröhlichkeit	0		
+89403	als	0		
+89404	durch	0		
+89405	Gefühl	0		
+89406	,	0		
+89407	Ottiliens	0	(mention_id=11932|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=12001|references=(entity=(entity_id=12|fullname=Ottilie|gender=f)))
+89408	Erstarren	0		
+89409	wieder	0		
+89410	beleben	0		
+89411	,	0		
+89412	ihr	0	(mention_id=11933|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=12002|references=(entity=(entity_id=12|fullname=Ottilie|gender=f)))
+89413	Schweigen	0		
+89414	wieder	0		
+89415	auflösen	0		
+89416	wollte	0		
+89417	.	0		
+89418	Er	0	(mention_id=11934|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))	(mention_id=12003|references=(entity=(entity_id=2|fullname=Eduard|gender=m)))
+89419	setzte	0		
+89420	sich	0	(mention_id=11935|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))	(mention_id=12004|references=(entity=(entity_id=2|fullname=Eduard|gender=m)))
+89421	wie	0		
+89422	vormals	0		
+89423	,	0		
+89424	daß	0		
+89425	sie	0	(mention_id=11936|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=12005|references=(entity=(entity_id=12|fullname=Ottilie|gender=f)))
+89426	ihm	0	(mention_id=11937|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))	(mention_id=12006|references=(entity=(entity_id=2|fullname=Eduard|gender=m)))
+89427	ins	0		
+89428	Buch	0		
+89429	sehen	0		
+89430	konnte	0		
+89431	,	0		
+89432	ja	0		
+89433	er	0	(mention_id=11938|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))	(mention_id=12007|references=(entity=(entity_id=2|fullname=Eduard|gender=m)))
+89434	ward	0		
+89435	unruhig	0		
+89436	,	0		
+89437	zerstreut	0		
+89438	,	0		
+89439	wenn	0		
+89440	sie	0	(mention_id=11939|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=12008|references=(entity=(entity_id=12|fullname=Ottilie|gender=f)))
+89441	nicht	0		
+89442	hineinsah	0		
+89443	,	0		
+89444	wenn	0		
+89445	er	0	(mention_id=11940|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))	(mention_id=12009|references=(entity=(entity_id=2|fullname=Eduard|gender=m)))
+89446	nicht	0		
+89447	gewiß	0		
+89448	war	0		
+89449	,	0		
+89450	daß	0		
+89451	sie	0	(mention_id=11941|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=12010|references=(entity=(entity_id=12|fullname=Ottilie|gender=f)))
+89452	seinen	0	(mention_id=11942|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))	(mention_id=12011|references=(entity=(entity_id=2|fullname=Eduard|gender=m)))
+89453	Worten	0		
+89454	mit	0		
+89455	ihren	0	(mention_id=11943|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=12012|references=(entity=(entity_id=12|fullname=Ottilie|gender=f)))
+89456	Augen	0		
+89457	folgte	0		
+89458	.	0		
+89459	Jedes	0		
+89460	unerfreuliche	0		
+89461	,	0		
+89462	unbequeme	0		
+89463	Gefühl	0		
+89464	der	0		
+89465	mittleren	0		
+89466	Zeit	0		
+89467	war	0		
+89468	ausgelöscht	0		
+89469	.	0		
+89470	Keines	0		
+89471	trug	0		
+89472	mehr	0		
+89473	dem	0		
+89474	andern	0		
+89475	etwas	0		
+89476	nach	0		
+89477	;	0		
+89478	jede	0		
+89479	Art	0		
+89480	von	0		
+89481	Bitterkeit	0		
+89482	war	0		
+89483	verschwunden	0		
+89484	.	0		
+89485	Der	0		
+89486	Major	0	(mention_id=11944|references=(entity=(entity_id=entity_0003|fullname=Hauptmann|gender=m|possible_identity_with=entity_0374)))	(mention_id=12013|references=(entity=(entity_id=6|fullname=Major|gender=m)))
+89487	begleitete	0		
+89488	mit	0		
+89489	der	0		
+89490	Violine	0		
+89491	das	0		
+89492	Klavierspiel	0		
+89493	Charlottens	0	(mention_id=11945|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)))	(mention_id=12014|references=(entity=(entity_id=1|fullname=Charlotte|gender=f)))
+89494	,	0		
+89495	so	0		
+89496	wie	0		
+89497	Eduards	0	(mention_id=11946|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))	(mention_id=12015|references=(entity=(entity_id=2|fullname=Eduard|gender=m)))
+89498	Flöte	0		
+89499	mit	0		
+89500	Ottiliens	0	(mention_id=11947|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=12016|references=(entity=(entity_id=12|fullname=Ottilie|gender=f)))
+89501	Behandlung	0		
+89502	des	0		
+89503	Saiteninstruments	0		
+89504	wieder	0		
+89505	wie	0		
+89506	vormals	0		
+89507	zusammentraf	0		
+89508	.	0		
+89509	So	0		
+89510	rückte	0		
+89511	man	0		
+89512	dem	0		
+89513	Geburtstage	0		
+89514	Eduards	0	(mention_id=11948|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))	(mention_id=12017|references=(entity=(entity_id=2|fullname=Eduard|gender=m)))
+89515	näher	0		
+89516	,	0		
+89517	dessen	0		
+89518	Feier	0		
+89519	man	0		
+89520	vor	0		
+89521	einem	0		
+89522	Jahre	0		
+89523	nicht	0		
+89524	erreicht	0		
+89525	hatte	0		
+89526	.	0		
+89527	Er	0		
+89528	sollte	0		
+89529	ohne	0		
+89530	Festlichkeit	0		
+89531	in	0		
+89532	stillem	0		
+89533	,	0		
+89534	freundlichem	0		
+89535	Behagen	0		
+89536	diesmal	0		
+89537	gefeiert	0		
+89538	werden	0		
+89539	.	0		
+89540	So	0		
+89541	war	0		
+89542	man	0	(mention_id=11949|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)),(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)),(entity=(entity_id=entity_0003|fullname=Hauptmann|gender=m|possible_identity_with=entity_0374)))	(mention_id=12018|references=(entity=(entity_id=14|fullname=die Anwesenden|gender=u|specialcase_entity=group)))
+89543	,	0		
+89544	halb	0		
+89545	stillschweigend	0		
+89546	halb	0		
+89547	aus	0		
+89548	drücklich	0		
+89549	,	0		
+89550	miteinander	0		
+89551	übereingekommen	0		
+89552	.	0		
+89553	Doch	0		
+89554	je	0		
+89555	näher	0		
+89556	diese	0		
+89557	Epoche	0		
+89558	heranrückte	0		
+89559	,	0		
+89560	vermehrte	0		
+89561	sich	0		
+89562	das	0		
+89563	Feierliche	0		
+89564	in	0		
+89565	Ottiliens	0	(mention_id=11950|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=12019|references=(entity=(entity_id=12|fullname=Ottilie|gender=f)))
+89566	Wesen	0		
+89567	,	0		
+89568	das	0		
+89569	man	0		
+89570	bisher	0		
+89571	mehr	0		
+89572	empfunden	0		
+89573	als	0		
+89574	bemerkt	0		
+89575	hatte	0		
+89576	.	0		
+89577	Sie	0	(mention_id=11951|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=12020|references=(entity=(entity_id=12|fullname=Ottilie|gender=f)))
+89578	schien	0		
+89579	im	0		
+89580	Garten	0		
+89581	oft	0		
+89582	die	0		
+89583	Blumen	0		
+89584	zu	0		
+89585	mustern	0		
+89586	;	0		
+89587	sie	0	(mention_id=11952|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=12021|references=(entity=(entity_id=12|fullname=Ottilie|gender=f)))
+89588	hatte	0		
+89589	dem	0		
+89590	Gärtner	0	(mention_id=11953|references=(entity=(entity_id=entity_0249|fullname=Gärtner|gender=m|specialcase_entity=group)))	(mention_id=12022|references=(entity=(entity_id=4|fullname=Gärtner|gender=m)))
+89591	angedeutet	0		
+89592	,	0		
+89593	die	0		
+89594	Sommergewächse	0		
+89595	aller	0		
+89596	Art	0		
+89597	zu	0		
+89598	schonen	0		
+89599	,	0		
+89600	und	0		
+89601	sich	0	(mention_id=11954|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=12023|references=(entity=(entity_id=12|fullname=Ottilie|gender=f)))
+89602	besonders	0		
+89603	bei	0		
+89604	den	0		
+89605	Astern	0		
+89606	aufgehalten	0		
+89607	,	0		
+89608	die	0		
+89609	gerade	0		
+89610	dieses	0		
+89611	Jahr	0		
+89612	in	0		
+89613	unmäßiger	0		
+89614	Menge	0		
+89615	blühten	0		
+89616	.	0		

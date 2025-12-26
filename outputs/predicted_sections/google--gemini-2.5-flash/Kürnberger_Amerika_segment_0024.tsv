@@ -1,0 +1,779 @@
+i	token	is_section_start	gold	pred
+135988	in	0		
+135989	der	0		
+135990	That	0		
+135991	scherzweise	0		
+135992	so	0		
+135993	—	0		
+135994	hatte	0		
+135995	ein	0		
+135996	Kränzchen	0		
+135997	der	0		
+135998	fashionablesten	0		
+135999	Cavaliere	0	(mention_id=16042|references=(entity=(entity_id=entity_0854|fullname=Cavaliere|gender=m|specialcase_entity=group)))	(mention_id=15838|references=(entity=(entity_id=4|fullname=Cavaliere|gender=m|specialcase_entity=group)))
+136000	gewettet	0		
+136001	,	0		
+136002	wer	0	(mention_id=16043|references=(entity=(entity_id=entity_0854|fullname=Cavaliere|gender=m|specialcase_entity=group)))	(mention_id=15839|references=(entity=(entity_id=4|fullname=Cavaliere|gender=m|specialcase_entity=group)))
+136003	unter	0		
+136004	ihnen	0	(mention_id=16044|references=(entity=(entity_id=entity_0854|fullname=Cavaliere|gender=m|specialcase_entity=group)))	(mention_id=15840|references=(entity=(entity_id=4|fullname=Cavaliere|gender=m|specialcase_entity=group)))
+136005	in	0		
+136006	der	0		
+136007	kostbarsten	0		
+136008	und	0		
+136009	originellsten	0		
+136010	Maske	0		
+136011	erscheinen	0		
+136012	würde	0		
+136013	.	0		
+136014	Der	0		
+136015	Reichsgraf	0	(mention_id=16045|references=(entity=(entity_id=entity_0830|fullname=Reichsgraf von Tettan|gender=m|specialcase_entity=nonfact)))	(mention_id=15841|references=(entity=(entity_id=11|fullname=Reichsgraf|gender=m)))
+136016	setzte	0		
+136017	zum	0		
+136018	Besten	0		
+136019	Griechenlands	0		
+136020	Zwanzig	0		
+136021	Tausend	0		
+136022	Francs	0		
+136023	,	0		
+136024	daß	0		
+136025	er	0	(mention_id=16046|references=(entity=(entity_id=entity_0830|fullname=Reichsgraf von Tettan|gender=m|specialcase_entity=nonfact)))	(mention_id=15842|references=(entity=(entity_id=11|fullname=Reichsgraf|gender=m)))
+136026	die	0		
+136027	Wette	0		
+136028	gewinnen	0		
+136029	wolle	0		
+136030	.	0		
+136031	Er	0	(mention_id=16047|references=(entity=(entity_id=entity_0830|fullname=Reichsgraf von Tettan|gender=m|specialcase_entity=nonfact)))	(mention_id=15843|references=(entity=(entity_id=11|fullname=Reichsgraf|gender=m)))
+136032	erschien	0		
+136033	aber	0		
+136034	im	0		
+136035	Habit	0		
+136036	eines	0		
+136037	—	0		
+136038	Hausirers	0	(mention_id=16048|references=(entity=(entity_id=entity_0830|fullname=Reichsgraf von Tettan|gender=m|specialcase_entity=nonfact)))	(mention_id=15844|references=(entity=(entity_id=11|fullname=Reichsgraf|gender=m)))
+136039	,	0		
+136040	trug	0		
+136041	das	0		
+136042	Tuch	0		
+136043	und	0		
+136044	die	0		
+136045	Wäsche	0		
+136046	eines	0		
+136047	servirenden	0		
+136048	Laden-Commis	0	(mention_id=16049|references=(entity=(entity_id=entity_0830|fullname=Reichsgraf von Tettan|gender=m|specialcase_entity=nonfact)))	
+136049	,	0		
+136050	dazu	0		
+136051	nur	0		
+136052	noch	0		
+136053	am	0		
+136054	grünen	0		
+136055	Bande	0		
+136056	seinen	0	(mention_id=16050|references=(entity=(entity_id=entity_0830|fullname=Reichsgraf von Tettan|gender=m|specialcase_entity=nonfact)))	(mention_id=15845|references=(entity=(entity_id=11|fullname=Reichsgraf|gender=m)))
+136057	Tabulettkasten	0		
+136058	von	0		
+136059	Ebenholz	0		
+136060	vor	0		
+136061	sich	0	(mention_id=16051|references=(entity=(entity_id=entity_0830|fullname=Reichsgraf von Tettan|gender=m|specialcase_entity=nonfact)))	(mention_id=15846|references=(entity=(entity_id=11|fullname=Reichsgraf|gender=m)))
+136062	an	0		
+136063	der	0		
+136064	Brust	0		
+136065	.	0		
+136066	Mit	0		
+136067	diesen	0		
+136068	Kasten	0		
+136069	promenirte	0		
+136070	er	0	(mention_id=16052|references=(entity=(entity_id=entity_0830|fullname=Reichsgraf von Tettan|gender=m|specialcase_entity=nonfact)))	(mention_id=15847|references=(entity=(entity_id=11|fullname=Reichsgraf|gender=m)))
+136071	ausrufend	0		
+136072	durch	0		
+136073	die	0		
+136074	Appartements	0		
+136075	—	0		
+136076	Messieurs	0	(mention_id=16053|references=(entity=(entity_id=entity_0853|fullname=Gäste der Herzogin|gender=m|specialcase_entity=group)))	(mention_id=15848|references=(entity=(entity_id=2|fullname=Ballgäste|gender=mf|specialcase_entity=group)))
+136077	et	0		
+136078	Mesdames	0	(mention_id=16054|references=(entity=(entity_id=entity_0844|fullname=Gästinnen der Herzogin|gender=f|specialcase_entity=group)))	(mention_id=15849|references=(entity=(entity_id=2|fullname=Ballgäste|gender=mf|specialcase_entity=group)))
+136079	,	0		
+136080	achetez	0		
+136081	,	0		
+136082	achetez	0		
+136083	,	0		
+136084	s'il	0		
+136085	vous	0	(mention_id=16055|references=(entity=(entity_id=entity_0844|fullname=Gästinnen der Herzogin|gender=f|specialcase_entity=group)),(entity=(entity_id=entity_0853|fullname=Gäste der Herzogin|gender=m|specialcase_entity=group)))	(mention_id=15850|references=(entity=(entity_id=2|fullname=Ballgäste|gender=mf|specialcase_entity=group)))
+136086	plait	0		
+136087	!	0		
+136088	Objets	0		
+136089	de	0		
+136090	toilette	0		
+136091	,	0		
+136092	objets	0		
+136093	de	0		
+136094	fantaisie	0		
+136095	,	0		
+136096	bijoux	0		
+136097	,	0		
+136098	parfums	0		
+136099	,	0		
+136100	avancez	0		
+136101	,	0		
+136102	Messieurs	0	(mention_id=16056|references=(entity=(entity_id=entity_0853|fullname=Gäste der Herzogin|gender=m|specialcase_entity=group)))	(mention_id=15851|references=(entity=(entity_id=2|fullname=Ballgäste|gender=mf|specialcase_entity=group)))
+136103	et	0		
+136104	Mesdames	0	(mention_id=16057|references=(entity=(entity_id=entity_0844|fullname=Gästinnen der Herzogin|gender=f|specialcase_entity=group)))	(mention_id=15852|references=(entity=(entity_id=2|fullname=Ballgäste|gender=mf|specialcase_entity=group)))
+136105	!	0		
+136106	Lachend	0		
+136107	und	0		
+136108	glossirend	0		
+136109	drängten	0		
+136110	sich	0	(mention_id=16058|references=(entity=(entity_id=entity_0844|fullname=Gästinnen der Herzogin|gender=f|specialcase_entity=group)))	(mention_id=15853|references=(entity=(entity_id=5|fullname=Damen des Balls|gender=f|specialcase_entity=group)))
+136111	die	0		
+136112	reizenden	0		
+136113	Damen	0	(mention_id=16059|references=(entity=(entity_id=entity_0844|fullname=Gästinnen der Herzogin|gender=f|specialcase_entity=group)))	(mention_id=15854|references=(entity=(entity_id=5|fullname=Damen des Balls|gender=f|specialcase_entity=group)))
+136114	des	0		
+136115	Balls	0		
+136116	um	0		
+136117	die	0		
+136118	drollige	0		
+136119	Charaktermaske	0		
+136120	,	0		
+136121	der	0		
+136122	Graf	0	(mention_id=16060|references=(entity=(entity_id=entity_0830|fullname=Reichsgraf von Tettan|gender=m|specialcase_entity=nonfact)))	(mention_id=15855|references=(entity=(entity_id=11|fullname=Reichsgraf|gender=m)))
+136123	theilte	0		
+136124	nach	0		
+136125	links	0		
+136126	und	0		
+136127	rechts	0		
+136128	seine	0	(mention_id=16061|references=(entity=(entity_id=entity_0830|fullname=Reichsgraf von Tettan|gender=m|specialcase_entity=nonfact)))	(mention_id=15856|references=(entity=(entity_id=11|fullname=Reichsgraf|gender=m)))
+136129	Quelquechoserien	0		
+136130	aus	0		
+136131	,	0		
+136132	und	0		
+136133	die	0		
+136134	Waare	0		
+136135	fand	0		
+136136	um	0		
+136137	so	0		
+136138	schnelleren	0		
+136139	Abgang	0		
+136140	,	0		
+136141	als	0		
+136142	man	0	(mention_id=16062|references=(entity=(entity_id=entity_0844|fullname=Gästinnen der Herzogin|gender=f|specialcase_entity=group)))	
+136143	sie	0		
+136144	ohne	0		
+136145	Zweifel	0		
+136146	für	0		
+136147	unächt	0		
+136148	hielt	0		
+136149	.	0		
+136150	Aber	0		
+136151	,	0		
+136152	—	0		
+136153	welch	0		
+136154	ein	0		
+136155	angenehmes	0		
+136156	Staunen	0		
+136157	wogte	0		
+136158	,	0		
+136159	erst	0		
+136160	flüsternd	0		
+136161	,	0		
+136162	dann	0		
+136163	laut	0		
+136164	und	0		
+136165	immer	0		
+136166	lauter	0		
+136167	,	0		
+136168	durch	0		
+136169	die	0		
+136170	Säle	0		
+136171	,	0		
+136172	als	0		
+136173	man	0		
+136174	die	0		
+136175	Entdeckung	0		
+136176	machte	0		
+136177	,	0		
+136178	daß	0		
+136179	der	0		
+136180	blitzende	0		
+136181	Inhalt	0		
+136182	der	0		
+136183	vielerlei	0		
+136184	Schächtelchen	0		
+136185	und	0		
+136186	Kästchen	0		
+136187	,	0		
+136188	daß	0		
+136189	die	0		
+136190	Bonbonnièren	0		
+136191	mit	0		
+136192	Türkissen	0		
+136193	oder	0		
+136194	Rubinen	0		
+136195	,	0		
+136196	die	0		
+136197	Ringe	0		
+136198	und	0		
+136199	Ohrringe	0		
+136200	,	0		
+136201	die	0		
+136202	damascirten	0		
+136203	Flacons	0		
+136204	mit	0		
+136205	ihren	0		
+136206	Steinen	0		
+136207	,	0		
+136208	die	0		
+136209	reichbesetzten	0		
+136210	Damenuhren	0		
+136211	von	0		
+136212	Breguet	0	(mention_id=16063|references=(entity=(entity_id=entity_0865|fullname=Breguet|gender=m)))	
+136213	,	0		
+136214	die	0		
+136215	Colliers	0		
+136216	von	0		
+136217	Bot	0	(mention_id=16064|references=(entity=(entity_id=entity_0864|fullname=Bot|gender=m)))	(mention_id=15857|references=(entity=(entity_id=3|fullname=Bot|gender=u)))
+136218	,	0		(mention_id=15857|references=(entity=(entity_id=3|fullname=Bot|gender=u)))
+136219	mit	0		
+136220	großen	0		
+136221	Chrysoprasen	0		
+136222	geschmückt	0		
+136223	,	0		
+136224	die	0		
+136225	massiven	0		
+136226	antik	0		
+136227	gearbeiteten	0		
+136228	Armspangen	0		
+136229	,	0		
+136230	die	0		
+136231	modernen	0		
+136232	Berliner	0		
+136233	Eisengürtel	0		
+136234	mit	0		
+136235	Sapphiren	0		
+136236	oder	0		
+136237	Amethysten	0		
+136238	à	0		
+136239	jour	0		
+136240	gefaßt	0		
+136241	,	0		
+136242	kurz	0		
+136243	,	0		
+136244	daß	0		
+136245	der	0		
+136246	ganze	0		
+136247	Galanteriekram	0		
+136248	ächt	0		
+136249	war	0		
+136250	!	0		
+136251	In	0		
+136252	Wahrheit	0		
+136253	,	0		
+136254	Madame	0	(mention_id=16065|references=(entity=(entity_id=entity_0828|fullname=Lady Morgan|gender=f)))	(mention_id=15858|references=(entity=(entity_id=6|fullname=Lady Morgan|gender=f)))
+136255	,	0		
+136256	der	0		
+136257	Graf	0	(mention_id=16066|references=(entity=(entity_id=entity_0830|fullname=Reichsgraf von Tettan|gender=m|specialcase_entity=nonfact)))	(mention_id=15859|references=(entity=(entity_id=11|fullname=Reichsgraf|gender=m)))
+136258	hat	0		
+136259	an	0		
+136260	jenem	0		
+136261	Abend	0		
+136262	einen	0		
+136263	Werth	0		
+136264	von	0		
+136265	Hundert	0		
+136266	Tausend	0		
+136267	Francs	0		
+136268	verschenkt	0		
+136269	für	0		
+136270	Zwanzig	0		
+136271	Tausend	0		
+136272	Francs	0		
+136273	zu	0		
+136274	Gunsten	0		
+136275	Griechenlands	0		
+136276	und	0		
+136277	—	0		
+136278	für	0		
+136279	den	0		
+136280	Nachruf	0		
+136281	:	0		
+136282	Der	0		
+136283	artige	0		
+136284	deutsche	0		
+136285	Cavalier	0	(mention_id=16067|references=(entity=(entity_id=entity_0830|fullname=Reichsgraf von Tettan|gender=m|specialcase_entity=nonfact)))	(mention_id=15860|references=(entity=(entity_id=11|fullname=Reichsgraf|gender=m)))
+136286	!	0		
+136287	—	0		
+136288	Wir	0	(mention_id=16068|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)),(entity=(entity_id=entity_0842|fullname=Gesellschaft deutscher Edelleute|gender=u|members=entity_0830,entity_0839|all_members_given=False|specialcase_entity=group,nonfact)))	(mention_id=15861|references=(entity=(entity_id=7|fullname=Moorfeld|gender=m)),(entity=(entity_id=1|fullname=Anhorst|gender=m)))
+136289	wollen	0		
+136290	nun	0		
+136291	sehen	0		
+136292	,	0		
+136293	schloß	0		
+136294	Moorfeld	0	(mention_id=16069|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=15862|references=(entity=(entity_id=7|fullname=Moorfeld|gender=m)))
+136295	aufstehend	0		
+136296	,	0		
+136297	wo	0		
+136298	wir	0	(mention_id=16070|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)),(entity=(entity_id=entity_0842|fullname=Gesellschaft deutscher Edelleute|gender=u|members=entity_0830,entity_0839|all_members_given=False|specialcase_entity=group,nonfact)))	(mention_id=15863|references=(entity=(entity_id=7|fullname=Moorfeld|gender=m)),(entity=(entity_id=1|fullname=Anhorst|gender=m)))
+136299	in	0		
+136300	Amerika	0		
+136301	die	0		
+136302	Stelle	0		
+136303	finden	0		
+136304	,	0		
+136305	dies	0		
+136306	Treiben	0		
+136307	des	0		
+136308	lustigen	0		
+136309	alten	0		
+136310	Europa	0		
+136311	möglichst	0		
+136312	originalgetreu	0		
+136313	fortzusetzen	0		
+136314	.	0		
+136315	Aber	0		
+136316	,	0		
+136317	bitte	0		
+136318	,	0		
+136319	Madame	0	(mention_id=16071|references=(entity=(entity_id=entity_0828|fullname=Lady Morgan|gender=f)))	(mention_id=15864|references=(entity=(entity_id=6|fullname=Lady Morgan|gender=f)))
+136320	,	0		
+136321	verrathen	0		
+136322	Sie	0	(mention_id=16072|references=(entity=(entity_id=entity_0828|fullname=Lady Morgan|gender=f)))	(mention_id=15865|references=(entity=(entity_id=6|fullname=Lady Morgan|gender=f)))
+136323	mich	0	(mention_id=16073|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=15866|references=(entity=(entity_id=7|fullname=Moorfeld|gender=m)))
+136324	nicht	0		
+136325	.	0		
+136326	Wir	0	(mention_id=16074|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)),(entity=(entity_id=entity_0842|fullname=Gesellschaft deutscher Edelleute|gender=u|members=entity_0830,entity_0839|all_members_given=False|specialcase_entity=group,nonfact)))	(mention_id=15867|references=(entity=(entity_id=7|fullname=Moorfeld|gender=m)),(entity=(entity_id=1|fullname=Anhorst|gender=m)))
+136327	möchten	0		
+136328	den	0		
+136329	Cynismus	0		
+136330	der	0		
+136331	Land-Jobberei	0		
+136332	nicht	0		
+136333	vor	0		
+136334	der	0		
+136335	Zeit	0		
+136336	aufregen	0		
+136337	,	0		
+136338	und	0		
+136339	dann	0		
+136340	—	0		
+136341	kommt	0		
+136342	ja	0		
+136343	Alles	0		
+136344	noch	0		
+136345	,	0		
+136346	wie	0		
+136347	gesagt	0		
+136348	,	0		
+136349	auf	0		
+136350	mein	0	(mention_id=16075|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=15868|references=(entity=(entity_id=7|fullname=Moorfeld|gender=m)))
+136351	und	0		
+136352	meiner	0	(mention_id=16076|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=15869|references=(entity=(entity_id=7|fullname=Moorfeld|gender=m)))
+136353	Collegen	0	(mention_id=16077|references=(entity=(entity_id=entity_0839|fullname=zwei weitere Edelleute|gender=m|specialcase_entity=group,nonfact)))	(mention_id=15870|references=(entity=(entity_id=8|fullname=Moorfelds Collegen|gender=m|specialcase_entity=group)))
+136354	Referat	0		
+136355	an	0		
+136356	.	0		
+136357	In	0		
+136358	diesem	0		
+136359	Augenblicke	0		
+136360	kam	0		
+136361	Mr.	0	(mention_id=16078|references=(entity=(entity_id=entity_0832|fullname=Michael Braubacher|gender=m)))	(mention_id=15871|references=(entity=(entity_id=9|fullname=Mr Braubacher|gender=m)))
+136362	Braubacher	0	(mention_id=16078|references=(entity=(entity_id=entity_0832|fullname=Michael Braubacher|gender=m)))	(mention_id=15871|references=(entity=(entity_id=9|fullname=Mr Braubacher|gender=m)))
+136363	mit	0		
+136364	Anhorst	0	(mention_id=16079|references=(entity=(entity_id=entity_0782|fullname=Max Anhorst|gender=m)))	(mention_id=15872|references=(entity=(entity_id=1|fullname=Anhorst|gender=m)))
+136365	zurück	0		
+136366	,	0		
+136367	hinter	0		
+136368	ihnen	0	(mention_id=16080|references=(entity=(entity_id=entity_0832|fullname=Michael Braubacher|gender=m)),(entity=(entity_id=entity_0782|fullname=Max Anhorst|gender=m)))	(mention_id=15873|references=(entity=(entity_id=9|fullname=Mr Braubacher|gender=m)),(entity=(entity_id=1|fullname=Anhorst|gender=m)))
+136369	zwei	0		
+136370	schmalleibige	0		
+136371	Knaben	0	(mention_id=16081|references=(entity=(entity_id=entity_0841|fullname=zweiter Sohn von Lady Morgan|gender=m)),(entity=(entity_id=entity_0838|fullname=Sohn von Lady Morgan|gender=m)))	(mention_id=15874|references=(entity=(entity_id=10|fullname=NewyorkerSprösslinge|gender=m|specialcase_entity=group)))
+136372	mit	0		
+136373	matten	0		
+136374	Augen	0		
+136375	und	0		
+136376	bleichen	0		
+136377	Gesichtern	0		
+136378	,	0		
+136379	verzärtelte	0		
+136380	Newyorker-Sprößlinge	0	(mention_id=16082|references=(entity=(entity_id=entity_0841|fullname=zweiter Sohn von Lady Morgan|gender=m)),(entity=(entity_id=entity_0838|fullname=Sohn von Lady Morgan|gender=m)))	(mention_id=15875|references=(entity=(entity_id=10|fullname=NewyorkerSprösslinge|gender=m|specialcase_entity=group)))
+136381	.	0		
+136382	Einer	0	(mention_id=16083|references=(entity=(entity_id=entity_0838|fullname=Sohn von Lady Morgan|gender=m)))	(mention_id=15876|references=(entity=(entity_id=14|fullname=einer der NewyorkerSprösslinge|gender=m)))
+136383	derselben	0	(mention_id=16084|references=(entity=(entity_id=entity_0838|fullname=Sohn von Lady Morgan|gender=m)))	(mention_id=15877|references=(entity=(entity_id=10|fullname=NewyorkerSprösslinge|gender=m|specialcase_entity=group)))
+136384	pflanzte	0		
+136385	sich	0	(mention_id=16085|references=(entity=(entity_id=entity_0838|fullname=Sohn von Lady Morgan|gender=m)))	(mention_id=15878|references=(entity=(entity_id=14|fullname=einer der NewyorkerSprösslinge|gender=m)))
+136386	sogleich	0		
+136387	vor	0		
+136388	Moorfeld	0		(mention_id=15879|references=(entity=(entity_id=7|fullname=Moorfeld|gender=m)))
+136389	hin	0		
+136390	und	0		
+136391	rief	0		
+136392	:	0		
+136393	Ma	0		(mention_id=15880|references=(entity=(entity_id=6|fullname=Lady Morgan|gender=f)))
+136394	,	0		
+136395	ist	0		
+136396	das	0		
+136397	auch	0		
+136398	ein	0		
+136399	Dutchman	0	(mention_id=16086|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=15881|references=(entity=(entity_id=7|fullname=Moorfeld|gender=m)))
+136400	?	0		
+136401	Aber	0		
+136402	die	0		
+136403	Ma	0	(mention_id=16087|references=(entity=(entity_id=entity_0828|fullname=Lady Morgan|gender=f)))	(mention_id=15882|references=(entity=(entity_id=6|fullname=Lady Morgan|gender=f)))
+136404	klapste	0		
+136405	mit	0		
+136406	eigener	0		
+136407	feiner	0		
+136408	Hand	0		
+136409	den	0		
+136410	Frager	0	(mention_id=16088|references=(entity=(entity_id=entity_0838|fullname=Sohn von Lady Morgan|gender=m)))	(mention_id=15883|references=(entity=(entity_id=14|fullname=einer der NewyorkerSprösslinge|gender=m)))
+136411	auf	0		
+136412	den	0		
+136413	Mund	0		
+136414	und	0		
+136415	zürnte	0		
+136416	sehr	0		
+136417	ernsthaft	0		
+136418	:	0		
+136419	Unartiger	0	(mention_id=16089|references=(entity=(entity_id=entity_0838|fullname=Sohn von Lady Morgan|gender=m)))	(mention_id=15884|references=(entity=(entity_id=14|fullname=einer der NewyorkerSprösslinge|gender=m)))
+136420	!	0		
+136421	Wie	0		
+136422	oft	0		
+136423	habe	0		
+136424	ich	0	(mention_id=16090|references=(entity=(entity_id=entity_0828|fullname=Lady Morgan|gender=f)))	(mention_id=15885|references=(entity=(entity_id=6|fullname=Lady Morgan|gender=f)))
+136425	dir	0	(mention_id=16091|references=(entity=(entity_id=entity_0838|fullname=Sohn von Lady Morgan|gender=m)))	(mention_id=15886|references=(entity=(entity_id=14|fullname=einer der NewyorkerSprösslinge|gender=m)))
+136426	gesagt	0		
+136427	:	0		
+136428	German	0	(mention_id=16092|references=(entity=(entity_id=generic_5150|fullname=generic_1495|gender=u|specialcase_entity=generic)))	
+136429	heißt	0		
+136430	ein	0		
+136431	Deutscher	0	(mention_id=16093|references=(entity=(entity_id=generic_5151|fullname=generic_1496|gender=u|specialcase_entity=generic)))	(mention_id=15887|references=(entity=(entity_id=generic_0001|fullname=ein Deutscher im Allgemeinen|gender=u|specialcase_entity=generic)))
+136432	,	0		
+136433	nicht	0		
+136434	Dutchman	0	(mention_id=16094|references=(entity=(entity_id=generic_5152|fullname=generic_1497|gender=u|specialcase_entity=generic)))	(mention_id=15888|references=(entity=(entity_id=generic_0002|fullname=ein Dutchman im Allgemeinen|gender=u|specialcase_entity=generic)))
+136435	!	0		
+136436	Dann	0		
+136437	wandte	0		
+136438	sie	0	(mention_id=16095|references=(entity=(entity_id=entity_0828|fullname=Lady Morgan|gender=f)))	(mention_id=15889|references=(entity=(entity_id=6|fullname=Lady Morgan|gender=f)))
+136439	sich	0	(mention_id=16096|references=(entity=(entity_id=entity_0828|fullname=Lady Morgan|gender=f)))	(mention_id=15890|references=(entity=(entity_id=6|fullname=Lady Morgan|gender=f)))
+136440	mit	0		
+136441	einem	0		
+136442	verzerrten	0		
+136443	Lächeln	0		
+136444	zu	0		
+136445	Moorfeld	0	(mention_id=16097|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=15891|references=(entity=(entity_id=7|fullname=Moorfeld|gender=m)))
+136446	:	0		
+136447	Entschuldigung	0		
+136448	,	0		
+136449	Sir	0	(mention_id=16098|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=15892|references=(entity=(entity_id=7|fullname=Moorfeld|gender=m)))
+136450	!	0		
+136451	deutsch	0		
+136452	—	0		
+136453	dutch	0		
+136454	—	0		
+136455	es	0		
+136456	liegt	0		
+136457	den	0		
+136458	Kindern	0	(mention_id=16099|references=(entity=(entity_id=entity_0841|fullname=zweiter Sohn von Lady Morgan|gender=m)),(entity=(entity_id=entity_0838|fullname=Sohn von Lady Morgan|gender=m)))	(mention_id=15893|references=(entity=(entity_id=10|fullname=NewyorkerSprösslinge|gender=m|specialcase_entity=group)))
+136459	so	0		
+136460	im	0		
+136461	Munde	0		
+136462	.	0		
+136463	—	0		
+136464	Hat	0		
+136465	nichts	0		
+136466	zu	0		
+136467	sagen	0		
+136468	,	0		
+136469	Madame	0	(mention_id=16100|references=(entity=(entity_id=entity_0828|fullname=Lady Morgan|gender=f)))	(mention_id=15894|references=(entity=(entity_id=6|fullname=Lady Morgan|gender=f)))
+136470	;	0		
+136471	ich	0	(mention_id=16101|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=15895|references=(entity=(entity_id=7|fullname=Moorfeld|gender=m)))
+136472	werde	0		
+136473	es	0		
+136474	an	0		
+136475	meiner	0	(mention_id=16102|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=15896|references=(entity=(entity_id=7|fullname=Moorfeld|gender=m)))
+136476	Bemühung	0		
+136477	nicht	0		
+136478	fehlen	0		
+136479	lassen	0		
+136480	,	0		
+136481	den	0		
+136482	lieben	0		
+136483	Kleinen	0	(mention_id=16103|references=(entity=(entity_id=entity_0841|fullname=zweiter Sohn von Lady Morgan|gender=m)),(entity=(entity_id=entity_0838|fullname=Sohn von Lady Morgan|gender=m)))	(mention_id=15897|references=(entity=(entity_id=10|fullname=NewyorkerSprösslinge|gender=m|specialcase_entity=group)))
+136484	einen	0		
+136485	regelmäßigen	0		
+136486	deutschen	0		
+136487	Sprachunterricht	0		
+136488	zu	0		
+136489	verschaffen	0		
+136490	.	0		
+136491	—	0		
+136492	O	0		
+136493	,	0		
+136494	ich	0	(mention_id=16104|references=(entity=(entity_id=entity_0828|fullname=Lady Morgan|gender=f)))	(mention_id=15898|references=(entity=(entity_id=6|fullname=Lady Morgan|gender=f)))
+136495	wäre	0		
+136496	unendlich	0		
+136497	dankbar	0		
+136498	,	0		
+136499	Sir	0	(mention_id=16105|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=15899|references=(entity=(entity_id=7|fullname=Moorfeld|gender=m)))
+136500	,	0		
+136501	grinste	0		
+136502	Lady	0	(mention_id=16106|references=(entity=(entity_id=entity_0828|fullname=Lady Morgan|gender=f)))	(mention_id=15900|references=(entity=(entity_id=6|fullname=Lady Morgan|gender=f)))
+136503	Morgan	0	(mention_id=16106|references=(entity=(entity_id=entity_0828|fullname=Lady Morgan|gender=f)))	(mention_id=15900|references=(entity=(entity_id=6|fullname=Lady Morgan|gender=f)))
+136504	übersüß	0		
+136505	.	0		
+136506	Die	0		
+136507	Kinder	0	(mention_id=16107|references=(entity=(entity_id=entity_0841|fullname=zweiter Sohn von Lady Morgan|gender=m)),(entity=(entity_id=entity_0838|fullname=Sohn von Lady Morgan|gender=m)))	(mention_id=15901|references=(entity=(entity_id=10|fullname=NewyorkerSprösslinge|gender=m|specialcase_entity=group)))
+136508	aber	0		
+136509	staunten	0		
+136510	ihre	0	(mention_id=16108|references=(entity=(entity_id=entity_0841|fullname=zweiter Sohn von Lady Morgan|gender=m)),(entity=(entity_id=entity_0838|fullname=Sohn von Lady Morgan|gender=m)))	(mention_id=15902|references=(entity=(entity_id=10|fullname=NewyorkerSprösslinge|gender=m|specialcase_entity=group)))
+136511	Ma	0	(mention_id=16109|references=(entity=(entity_id=entity_0828|fullname=Lady Morgan|gender=f)))	(mention_id=15903|references=(entity=(entity_id=6|fullname=Lady Morgan|gender=f)))
+136512	,	0		
+136513	Mister	0	(mention_id=16110|references=(entity=(entity_id=entity_0832|fullname=Michael Braubacher|gender=m)))	(mention_id=15904|references=(entity=(entity_id=9|fullname=Mr Braubacher|gender=m)))
+136514	Brubaker	0	(mention_id=16110|references=(entity=(entity_id=entity_0832|fullname=Michael Braubacher|gender=m)))	(mention_id=15904|references=(entity=(entity_id=9|fullname=Mr Braubacher|gender=m)))
+136515	seine	0		(mention_id=15905|references=(entity=(entity_id=9|fullname=Mr Braubacher|gender=m)))
+136516	Mistreß	0	(mention_id=16111|references=(entity=(entity_id=entity_0828|fullname=Lady Morgan|gender=f)))	(mention_id=15906|references=(entity=(entity_id=6|fullname=Lady Morgan|gender=f)))
+136517	,	0		
+136518	Anhorst	0	(mention_id=16112|references=(entity=(entity_id=entity_0782|fullname=Max Anhorst|gender=m)))	(mention_id=15907|references=(entity=(entity_id=1|fullname=Anhorst|gender=m)))
+136519	seinen	0	(mention_id=16113|references=(entity=(entity_id=entity_0782|fullname=Max Anhorst|gender=m)))	(mention_id=15908|references=(entity=(entity_id=1|fullname=Anhorst|gender=m)))
+136520	Moorfeld	0	(mention_id=16114|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=15909|references=(entity=(entity_id=7|fullname=Moorfeld|gender=m)))
+136521	an	0		
+136522	,	0		
+136523	und	0		
+136524	Moorfeld	0	(mention_id=16115|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=15910|references=(entity=(entity_id=7|fullname=Moorfeld|gender=m)))
+136525	griff	0		
+136526	mit	0		
+136527	einer	0		
+136528	cavaliermäßigen	0		
+136529	tour	0		
+136530	de	0		
+136531	main	0		
+136532	nach	0		
+136533	seinem	0	(mention_id=16116|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=15911|references=(entity=(entity_id=7|fullname=Moorfeld|gender=m)))
+136534	Hut	0		
+136535	,	0		
+136536	und	0		
+136537	empfahl	0		
+136538	sich	0	(mention_id=16117|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=15912|references=(entity=(entity_id=7|fullname=Moorfeld|gender=m)))
+136539	nach	0		
+136540	allen	0		
+136541	Seiten	0		
+136542	im	0		
+136543	herzlichsten	0		
+136544	Einverständniß	0		
+136545	.	0		
+136546	Unser	0	(mention_id=16118|references=(entity=(entity_id=entity_0008|fullname=Leser|gender=u)),(entity=(entity_id=entity_0007|fullname=Erzählinstanz|gender=u)))	(mention_id=15913|references=(entity=(entity_id=7|fullname=Moorfeld|gender=m)),(entity=(entity_id=1|fullname=Anhorst|gender=m)))
+136547	Paar	0	(mention_id=16119|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)),(entity=(entity_id=entity_0782|fullname=Max Anhorst|gender=m)))	(mention_id=15914|references=(entity=(entity_id=7|fullname=Moorfeld|gender=m)),(entity=(entity_id=1|fullname=Anhorst|gender=m)))
+136548	hatte	0		
+136549	den	0		
+136550	Farm	0		
+136551	lange	0		
+136552	hinter	0		
+136553	sich	0	(mention_id=16120|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)),(entity=(entity_id=entity_0782|fullname=Max Anhorst|gender=m)))	(mention_id=15915|references=(entity=(entity_id=7|fullname=Moorfeld|gender=m)),(entity=(entity_id=1|fullname=Anhorst|gender=m)))
+136554	,	0		
+136555	als	0		
+136556	Anhorst	0	(mention_id=16121|references=(entity=(entity_id=entity_0782|fullname=Max Anhorst|gender=m)))	(mention_id=15916|references=(entity=(entity_id=1|fullname=Anhorst|gender=m)))
+136557	endlich	0		
+136558	eine	0		
+136559	Art	0		
+136560	versteinertes	0		
+136561	Schweigen	0		
+136562	brach	0		
+136563	:	0		
+136564	Darf	0		
+136565	ich	0	(mention_id=16122|references=(entity=(entity_id=entity_0782|fullname=Max Anhorst|gender=m)))	(mention_id=15917|references=(entity=(entity_id=1|fullname=Anhorst|gender=m)))
+136566	mir	0	(mention_id=16123|references=(entity=(entity_id=entity_0782|fullname=Max Anhorst|gender=m)))	(mention_id=15918|references=(entity=(entity_id=1|fullname=Anhorst|gender=m)))
+136567	erlauben	0		
+136568	,	0		
+136569	Sir	0	(mention_id=16124|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=15919|references=(entity=(entity_id=7|fullname=Moorfeld|gender=m)))
+136570	,	0		
+136571	Ihrer	0	(mention_id=16125|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=15920|references=(entity=(entity_id=7|fullname=Moorfeld|gender=m)))
+136572	—	0		(mention_id=15920|references=(entity=(entity_id=7|fullname=Moorfeld|gender=m)))
+136573	wickedness	0	(mention_id=16126|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=15921|references=(entity=(entity_id=7|fullname=Moorfeld|gender=m)))
+136574	meine	0	(mention_id=16127|references=(entity=(entity_id=entity_0782|fullname=Max Anhorst|gender=m)))	(mention_id=15922|references=(entity=(entity_id=1|fullname=Anhorst|gender=m)))
+136575	ganze	0		
+136576	Huldigung	0		
+136577	darzubringen	0		
+136578	?	0		
+136579	Bitte	0		
+136580	!	0		
+136581	Ich	0	(mention_id=16128|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=15923|references=(entity=(entity_id=7|fullname=Moorfeld|gender=m)))
+136582	habe	0		
+136583	der	0		
+136584	Gans	0	(mention_id=16129|references=(entity=(entity_id=entity_0828|fullname=Lady Morgan|gender=f)))	(mention_id=15924|references=(entity=(entity_id=6|fullname=Lady Morgan|gender=f)))
+136585	bloß	0		
+136586	ein	0		
+136587	wenig	0		
+136588	Vogeldunst	0		
+136589	gestreut	0		
+136590	,	0		
+136591	antwortete	0		
+136592	Moorfeld	0	(mention_id=16130|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=15925|references=(entity=(entity_id=7|fullname=Moorfeld|gender=m)))
+136593	.	0		
+136594	Er	0	(mention_id=16131|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=15926|references=(entity=(entity_id=7|fullname=Moorfeld|gender=m)))
+136595	erzählte	0		
+136596	seinen	0	(mention_id=16132|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=15927|references=(entity=(entity_id=7|fullname=Moorfeld|gender=m)))
+136597	Einfall	0		
+136598	.	0		
+136599	Sie	0	(mention_id=16133|references=(entity=(entity_id=entity_0828|fullname=Lady Morgan|gender=f)))	(mention_id=15928|references=(entity=(entity_id=6|fullname=Lady Morgan|gender=f)))
+136600	hat	0		
+136601	nun	0		
+136602	ein	0		
+136603	Jahr	0		
+136604	lang	0		
+136605	Besserungsfrist	0		
+136606	,	0		
+136607	sagte	0		
+136608	er	0	(mention_id=16134|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=15929|references=(entity=(entity_id=7|fullname=Moorfeld|gender=m)))
+136609	,	0		
+136610	und	0		
+136611	kommt	0		
+136612	der	0		
+136613	Reichsgraf	0	(mention_id=16135|references=(entity=(entity_id=entity_0830|fullname=Reichsgraf von Tettan|gender=m|specialcase_entity=nonfact)))	(mention_id=15930|references=(entity=(entity_id=11|fullname=Reichsgraf|gender=m)))
+136614	nicht	0		
+136615	,	0		
+136616	so	0		
+136617	kommt	0		
+136618	vielleicht	0		
+136619	doch	0		
+136620	die	0		
+136621	Karbatsche	0		
+136622	.	0		
+136623	Ihren	0	(mention_id=16136|references=(entity=(entity_id=entity_0828|fullname=Lady Morgan|gender=f)))	(mention_id=15931|references=(entity=(entity_id=6|fullname=Lady Morgan|gender=f)))
+136624	Mann	0	(mention_id=16137|references=(entity=(entity_id=entity_0832|fullname=Michael Braubacher|gender=m)))	(mention_id=15932|references=(entity=(entity_id=9|fullname=Mr Braubacher|gender=m)))
+136625	will	0		
+136626	ich	0	(mention_id=16138|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=15933|references=(entity=(entity_id=7|fullname=Moorfeld|gender=m)))
+136627	inzwischen	0		
+136628	auch	0		
+136629	noch	0		
+136630	ein	0		
+136631	wenig	0		
+136632	abrichten	0		
+136633	.	0		
+136634	Anhorst	0	(mention_id=16139|references=(entity=(entity_id=entity_0782|fullname=Max Anhorst|gender=m)))	(mention_id=15934|references=(entity=(entity_id=1|fullname=Anhorst|gender=m)))
+136635	bezeigte	0		
+136636	sich	0	(mention_id=16140|references=(entity=(entity_id=entity_0782|fullname=Max Anhorst|gender=m)))	(mention_id=15935|references=(entity=(entity_id=1|fullname=Anhorst|gender=m)))
+136637	ungemein	0		
+136638	erfreut	0		
+136639	über	0		
+136640	das	0		
+136641	Gehörte	0		
+136642	.	0		
+136643	Vielleicht	0		
+136644	gefiel	0		
+136645	ihm	0	(mention_id=16141|references=(entity=(entity_id=entity_0782|fullname=Max Anhorst|gender=m)))	(mention_id=15936|references=(entity=(entity_id=1|fullname=Anhorst|gender=m)))
+136646	Moorfeld's	0	(mention_id=16142|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=15937|references=(entity=(entity_id=7|fullname=Moorfeld|gender=m)))
+136647	Puff	0		
+136648	darum	0		
+136649	so	0		
+136650	ungewöhnlich	0		
+136651	,	0		
+136652	weil	0		
+136653	er	0		
+136654	nicht	0		
+136655	bloß	0		
+136656	ein	0		
+136657	müssiges	0		
+136658	Spiel	0		
+136659	des	0		
+136660	Witzes	0		
+136661	,	0		
+136662	sondern	0		
+136663	eine	0		
+136664	praktische	0		
+136665	That	0		
+136666	mit	0		
+136667	einem	0		
+136668	bestimmten	0		
+136669	sittlichen	0		
+136670	Zwecke	0		
+136671	war	0		
+136672	.	0		
+136673	Unter	0		
+136674	diesem	0		
+136675	Gesichtspunkte	0		
+136676	begriff	0		
+136677	er	0	(mention_id=16143|references=(entity=(entity_id=entity_0782|fullname=Max Anhorst|gender=m)))	(mention_id=15938|references=(entity=(entity_id=1|fullname=Anhorst|gender=m)))
+136678	das	0		
+136679	Geistreiche	0		
+136680	leicht	0		
+136681	und	0		
+136682	lebhaft	0		
+136683	.	0		
+136684	Es	0		
+136685	war	0		
+136686	das	0		
+136687	Erstemal	0		
+136688	,	0		
+136689	auf	0		
+136690	dem	0		
+136691	abendlichen	0		
+136692	und	0		
+136693	theilweise	0		
+136694	nächtlichen	0		
+136695	Nachhauseritt	0		
+136696	,	0		
+136697	daß	0		
+136698	diese	0		
+136699	so	0		
+136700	ungleich	0		
+136701	gearteten	0		
+136702	Männer	0	(mention_id=16144|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)),(entity=(entity_id=entity_0782|fullname=Max Anhorst|gender=m)))	(mention_id=15939|references=(entity=(entity_id=7|fullname=Moorfeld|gender=m)),(entity=(entity_id=1|fullname=Anhorst|gender=m)))
+136703	sich	0	(mention_id=16145|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)),(entity=(entity_id=entity_0782|fullname=Max Anhorst|gender=m)))	(mention_id=15940|references=(entity=(entity_id=7|fullname=Moorfeld|gender=m)),(entity=(entity_id=1|fullname=Anhorst|gender=m)))
+136704	besser	0		
+136705	als	0		
+136706	je	0		
+136707	verstanden	0		
+136708	.	0		
+136709	Jeder	0	(mention_id=16146|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)),(entity=(entity_id=entity_0782|fullname=Max Anhorst|gender=m)))	(mention_id=15941|references=(entity=(entity_id=7|fullname=Moorfeld|gender=m)),(entity=(entity_id=1|fullname=Anhorst|gender=m)))
+136710	schien	0		
+136711	bei	0		
+136712	sich	0	(mention_id=16147|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)),(entity=(entity_id=entity_0782|fullname=Max Anhorst|gender=m)))	(mention_id=15942|references=(entity=(entity_id=7|fullname=Moorfeld|gender=m)),(entity=(entity_id=1|fullname=Anhorst|gender=m)))
+136713	selbst	0		
+136714	gegen	0		
+136715	den	0		
+136716	Andern	0	(mention_id=16148|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)),(entity=(entity_id=entity_0782|fullname=Max Anhorst|gender=m)))	
+136717	zu	0		
+136718	widerrufen	0		
+136719	,	0		
+136720	daß	0		
+136721	er	0	(mention_id=16149|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)),(entity=(entity_id=entity_0782|fullname=Max Anhorst|gender=m)))	(mention_id=15943|references=(entity=(entity_id=7|fullname=Moorfeld|gender=m)),(entity=(entity_id=1|fullname=Anhorst|gender=m)))
+136722	ausschließlich	0		
+136723	Prosaiker	0	(mention_id=16150|references=(entity=(entity_id=entity_0782|fullname=Max Anhorst|gender=m)))	
+136724	oder	0		
+136725	ausschließlich	0		
+136726	Schöngeist	0	(mention_id=16151|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	
+136727	sei	0		
+136728	.	0		
+136729	Diese	0		
+136730	Meinung	0		
+136731	transpirirte	0		
+136732	mit	0		
+136733	einer	0		
+136734	warmen	0		
+136735	Ausstrahlung	0		
+136736	durch	0		
+136737	ihr	0	(mention_id=16152|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)),(entity=(entity_id=entity_0782|fullname=Max Anhorst|gender=m)))	(mention_id=15944|references=(entity=(entity_id=7|fullname=Moorfeld|gender=m)),(entity=(entity_id=1|fullname=Anhorst|gender=m)))
+136738	Gespräch	0		
+136739	.	0		
+136740	Anhorst's	0	(mention_id=16153|references=(entity=(entity_id=entity_0782|fullname=Max Anhorst|gender=m)))	(mention_id=15945|references=(entity=(entity_id=1|fullname=Anhorst|gender=m)))
+136741	und	0		
+136742	Moorfeld's	0	(mention_id=16154|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)))	(mention_id=15946|references=(entity=(entity_id=7|fullname=Moorfeld|gender=m)))
+136743	Unterhaltung	0		
+136744	in	0		
+136745	dieser	0		
+136746	Stunde	0		
+136747	war	0		
+136748	von	0		
+136749	jener	0		
+136750	Art	0		
+136751	,	0		
+136752	welche	0		
+136753	dauernde	0		
+136754	Freundschaften	0		
+136755	zu	0		
+136756	begründen	0		
+136757	pflegt	0		
+136758	.	0		
+136759	So	0		
+136760	erreichten	0		
+136761	sie	0	(mention_id=16155|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)),(entity=(entity_id=entity_0782|fullname=Max Anhorst|gender=m)))	(mention_id=15947|references=(entity=(entity_id=7|fullname=Moorfeld|gender=m)),(entity=(entity_id=1|fullname=Anhorst|gender=m)))
+136762	ihren	0	(mention_id=16156|references=(entity=(entity_id=entity_0001|fullname=Dr. Moorfeld|gender=m)),(entity=(entity_id=entity_0782|fullname=Max Anhorst|gender=m)))	(mention_id=15948|references=(entity=(entity_id=7|fullname=Moorfeld|gender=m)),(entity=(entity_id=1|fullname=Anhorst|gender=m)))
+136763	einsamen	0		
+136764	Waldwinkel	0		
+136765	.	0		

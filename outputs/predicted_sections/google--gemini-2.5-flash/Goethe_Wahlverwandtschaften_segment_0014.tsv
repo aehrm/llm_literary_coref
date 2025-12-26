@@ -1,0 +1,936 @@
+i	token	is_section_start	gold	pred
+34343	Vierzehntes	1		
+34344	Kapitel	0		
+34345	Von	0		
+34346	dem	0		
+34347	Grafen	0	(mention_id=4473|references=(entity=(entity_id=entity_0086|fullname=Graf|gender=m)))	(mention_id=4522|references=(entity=(entity_id=8|fullname=Graf|gender=m)))
+34348	war	0		
+34349	indessen	0		
+34350	ein	0		
+34351	Brief	0		
+34352	an	0		
+34353	den	0		
+34354	Hauptmann	0	(mention_id=4474|references=(entity=(entity_id=entity_0003|fullname=Hauptmann|gender=m|possible_identity_with=entity_0374)))	(mention_id=4523|references=(entity=(entity_id=10|fullname=Hauptmann|gender=m)))
+34355	angekommen	0		
+34356	,	0		
+34357	und	0		
+34358	zwar	0		
+34359	ein	0		
+34360	doppelter	0		
+34361	,	0		
+34362	einer	0		
+34363	zum	0		
+34364	Vorzeigen	0		
+34365	,	0		
+34366	der	0		
+34367	sehr	0		
+34368	schöne	0		
+34369	Aussichten	0		
+34370	in	0		
+34371	die	0		
+34372	Ferne	0		
+34373	darwies	0		
+34374	;	0		
+34375	der	0		
+34376	andre	0		
+34377	hingegen	0		
+34378	,	0		
+34379	der	0		
+34380	ein	0		
+34381	entschiedenes	0		
+34382	Anerbieten	0		
+34383	für	0		
+34384	die	0		
+34385	Gegenwart	0		
+34386	enthielt	0		
+34387	,	0		
+34388	eine	0		
+34389	bedeutende	0		
+34390	Hof-	0		
+34391	und	0		
+34392	Geschäftsstelle	0		
+34393	,	0		
+34394	den	0		
+34395	Charakter	0		
+34396	als	0		
+34397	Major	0	(mention_id=4475|references=(entity=(entity_id=entity_0003|fullname=Hauptmann|gender=m|possible_identity_with=entity_0374)))	
+34398	,	0		
+34399	ansehnlichen	0		
+34400	Gehalt	0		
+34401	und	0		
+34402	andre	0		
+34403	Vorteile	0		
+34404	,	0		
+34405	sollte	0		
+34406	wegen	0		
+34407	verschiedener	0		
+34408	Nebenumstände	0		
+34409	noch	0		
+34410	geheimgehalten	0		
+34411	werden	0		
+34412	.	0		
+34413	Auch	0		
+34414	unterrichtete	0		
+34415	der	0		
+34416	Hauptmann	0	(mention_id=4476|references=(entity=(entity_id=entity_0003|fullname=Hauptmann|gender=m|possible_identity_with=entity_0374)))	(mention_id=4524|references=(entity=(entity_id=10|fullname=Hauptmann|gender=m)))
+34417	seine	0	(mention_id=4477|references=(entity=(entity_id=entity_0003|fullname=Hauptmann|gender=m|possible_identity_with=entity_0374)))	(mention_id=4525|references=(entity=(entity_id=10|fullname=Hauptmann|gender=m)))
+34418	Freunde	0	(mention_id=4478|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)),(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))	(mention_id=4526|references=(entity=(entity_id=6|fullname=Freunde des Hauptmanns|gender=u|specialcase_entity=group)))
+34419	nur	0		
+34420	von	0		
+34421	jenen	0		
+34422	Hoffnungen	0		
+34423	und	0		
+34424	verbarg	0		
+34425	,	0		
+34426	was	0		
+34427	so	0		
+34428	nahe	0		
+34429	bevorstand	0		
+34430	.	0		
+34431	Indessen	0		
+34432	setzte	0		
+34433	er	0	(mention_id=4479|references=(entity=(entity_id=entity_0003|fullname=Hauptmann|gender=m|possible_identity_with=entity_0374)))	(mention_id=4527|references=(entity=(entity_id=10|fullname=Hauptmann|gender=m)))
+34434	die	0		
+34435	gegenwärtigen	0		
+34436	Geschäfte	0		
+34437	lebhaft	0		
+34438	fort	0		
+34439	und	0		
+34440	machte	0		
+34441	in	0		
+34442	der	0		
+34443	Stille	0		
+34444	Einrichtungen	0		
+34445	,	0		
+34446	wie	0		
+34447	alles	0		
+34448	in	0		
+34449	seiner	0	(mention_id=4480|references=(entity=(entity_id=entity_0003|fullname=Hauptmann|gender=m|possible_identity_with=entity_0374)))	(mention_id=4528|references=(entity=(entity_id=10|fullname=Hauptmann|gender=m)))
+34450	Abwesenheit	0		
+34451	ungehinderten	0		
+34452	Fortgang	0		
+34453	haben	0		
+34454	könnte	0		
+34455	.	0		
+34456	Es	0		
+34457	ist	0		
+34458	ihm	0	(mention_id=4481|references=(entity=(entity_id=entity_0003|fullname=Hauptmann|gender=m|possible_identity_with=entity_0374)))	(mention_id=4529|references=(entity=(entity_id=10|fullname=Hauptmann|gender=m)))
+34459	nun	0		
+34460	selbst	0		
+34461	daran	0		
+34462	gelegen	0		
+34463	,	0		
+34464	daß	0		
+34465	für	0		
+34466	manches	0		
+34467	ein	0		
+34468	Termin	0		
+34469	bestimmt	0		
+34470	werde	0		
+34471	,	0		
+34472	daß	0		
+34473	Ottiliens	0	(mention_id=4482|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=4530|references=(entity=(entity_id=15|fullname=Ottilie|gender=f)))
+34474	Geburtstag	0		
+34475	manches	0		
+34476	beschleunige	0		
+34477	.	0		
+34478	Nun	0		
+34479	wirken	0		
+34480	die	0		
+34481	beiden	0		
+34482	Freunde	0	(mention_id=4483|references=(entity=(entity_id=entity_0003|fullname=Hauptmann|gender=m|possible_identity_with=entity_0374)),(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))	(mention_id=4531|references=(entity=(entity_id=6|fullname=Freunde des Hauptmanns|gender=u|specialcase_entity=group)))
+34483	,	0		
+34484	obschon	0		
+34485	ohne	0		
+34486	ausdrückliches	0		
+34487	Einverständnis	0		
+34488	,	0		
+34489	gern	0		
+34490	zusammen	0		
+34491	.	0		
+34492	Eduard	0	(mention_id=4484|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))	(mention_id=4532|references=(entity=(entity_id=3|fullname=Eduard|gender=m)))
+34493	ist	0		
+34494	nun	0		
+34495	recht	0		
+34496	zufrieden	0		
+34497	,	0		
+34498	daß	0		
+34499	man	0		
+34500	durch	0		
+34501	das	0		
+34502	Vorauserheben	0		
+34503	der	0		
+34504	Gelder	0		
+34505	die	0		
+34506	Kasse	0		
+34507	verstärkt	0		
+34508	hat	0		
+34509	;	0		
+34510	die	0		
+34511	ganze	0		
+34512	Anstalt	0		
+34513	rückt	0		
+34514	auf	0		
+34515	das	0		
+34516	rascheste	0		
+34517	vorwärts	0		
+34518	.	0		
+34519	Die	0		
+34520	drei	0		
+34521	Teiche	0		
+34522	in	0		
+34523	einen	0		
+34524	See	0		
+34525	zu	0		
+34526	verwandeln	0		
+34527	,	0		
+34528	hätte	0		
+34529	jetzt	0		
+34530	der	0		
+34531	Hauptmann	0	(mention_id=4485|references=(entity=(entity_id=entity_0003|fullname=Hauptmann|gender=m|possible_identity_with=entity_0374)))	(mention_id=4533|references=(entity=(entity_id=10|fullname=Hauptmann|gender=m)))
+34532	am	0		
+34533	liebsten	0		
+34534	ganz	0		
+34535	widerraten	0		
+34536	.	0		
+34537	Der	0		
+34538	untere	0		
+34539	Damm	0		
+34540	war	0		
+34541	zu	0		
+34542	verstärken	0		
+34543	,	0		
+34544	die	0		
+34545	mittlern	0		
+34546	abzutragen	0		
+34547	und	0		
+34548	die	0		
+34549	ganze	0		
+34550	Sache	0		
+34551	in	0		
+34552	mehr	0		
+34553	als	0		
+34554	einem	0		
+34555	Sinne	0		
+34556	wichtig	0		
+34557	und	0		
+34558	bedenklich	0		
+34559	.	0		
+34560	Beide	0		
+34561	Arbeiten	0		
+34562	aber	0		
+34563	,	0		
+34564	wie	0		
+34565	sie	0		
+34566	ineinanderwirken	0		
+34567	konnten	0		
+34568	,	0		
+34569	waren	0		
+34570	schon	0		
+34571	angefangen	0		
+34572	,	0		
+34573	und	0		
+34574	hier	0		
+34575	kam	0		
+34576	ein	0		
+34577	junger	0		
+34578	Architekt	0	(mention_id=4486|references=(entity=(entity_id=entity_0147|fullname=Architekt|gender=m)))	(mention_id=4534|references=(entity=(entity_id=1|fullname=Architekt|gender=m)))
+34579	,	0		
+34580	ein	0		
+34581	ehemaliger	0		
+34582	Zögling	0	(mention_id=4487|references=(entity=(entity_id=entity_0147|fullname=Architekt|gender=m)))	(mention_id=4535|references=(entity=(entity_id=1|fullname=Architekt|gender=m)))
+34583	des	0		
+34584	Hauptmanns	0	(mention_id=4488|references=(entity=(entity_id=entity_0003|fullname=Hauptmann|gender=m|possible_identity_with=entity_0374)))	(mention_id=4536|references=(entity=(entity_id=10|fullname=Hauptmann|gender=m)))
+34585	,	0		
+34586	sehr	0		
+34587	erwünscht	0		
+34588	,	0		
+34589	der	0	(mention_id=4489|references=(entity=(entity_id=entity_0147|fullname=Architekt|gender=m)))	(mention_id=4537|references=(entity=(entity_id=1|fullname=Architekt|gender=m)))
+34590	teils	0		
+34591	mit	0		
+34592	Anstellung	0		
+34593	tüchtiger	0		
+34594	Meister	0	(mention_id=4490|references=(entity=(entity_id=entity_0151|fullname=tüchtige Meister|gender=u|specialcase_entity=group)))	(mention_id=4538|references=(entity=(entity_id=18|fullname=tüchtige Meister|gender=u|specialcase_entity=group)))
+34595	,	0		
+34596	teils	0		
+34597	mit	0		
+34598	Verdingen	0		
+34599	der	0		
+34600	Arbeit	0		
+34601	,	0		
+34602	wo	0		
+34603	sichs	0		
+34604	tun	0		
+34605	ließ	0		
+34606	,	0		
+34607	die	0		
+34608	Sache	0		
+34609	förderte	0		
+34610	und	0		
+34611	dem	0		
+34612	Werke	0		
+34613	Sicherheit	0		
+34614	und	0		
+34615	Dauer	0		
+34616	versprach	0		
+34617	;	0		
+34618	wobei	0		
+34619	sich	0	(mention_id=4491|references=(entity=(entity_id=entity_0003|fullname=Hauptmann|gender=m|possible_identity_with=entity_0374)))	(mention_id=4539|references=(entity=(entity_id=10|fullname=Hauptmann|gender=m)))
+34620	der	0		
+34621	Hauptmann	0	(mention_id=4492|references=(entity=(entity_id=entity_0003|fullname=Hauptmann|gender=m|possible_identity_with=entity_0374)))	(mention_id=4540|references=(entity=(entity_id=10|fullname=Hauptmann|gender=m)))
+34622	im	0		
+34623	stillen	0		
+34624	freute	0		
+34625	,	0		
+34626	daß	0		
+34627	man	0		
+34628	seine	0	(mention_id=4493|references=(entity=(entity_id=entity_0003|fullname=Hauptmann|gender=m|possible_identity_with=entity_0374)))	(mention_id=4541|references=(entity=(entity_id=10|fullname=Hauptmann|gender=m)))
+34629	Entfernung	0		
+34630	nicht	0		
+34631	fühlen	0		
+34632	würde	0		
+34633	.	0		
+34634	Denn	0		
+34635	er	0	(mention_id=4494|references=(entity=(entity_id=entity_0003|fullname=Hauptmann|gender=m|possible_identity_with=entity_0374)))	(mention_id=4542|references=(entity=(entity_id=10|fullname=Hauptmann|gender=m)))
+34636	hatte	0		
+34637	den	0		
+34638	Grundsatz	0		
+34639	,	0		
+34640	aus	0		
+34641	einem	0		
+34642	übernommenen	0		
+34643	unvollendeten	0		
+34644	Geschäft	0		
+34645	nicht	0		
+34646	zu	0		
+34647	scheiden	0		
+34648	,	0		
+34649	bis	0		
+34650	er	0	(mention_id=4495|references=(entity=(entity_id=entity_0003|fullname=Hauptmann|gender=m|possible_identity_with=entity_0374)))	(mention_id=4543|references=(entity=(entity_id=10|fullname=Hauptmann|gender=m)))
+34651	seine	0	(mention_id=4496|references=(entity=(entity_id=entity_0003|fullname=Hauptmann|gender=m|possible_identity_with=entity_0374)))	(mention_id=4544|references=(entity=(entity_id=10|fullname=Hauptmann|gender=m)))
+34652	Stelle	0		
+34653	genugsam	0		
+34654	ersetzt	0		
+34655	sähe	0		
+34656	.	0		
+34657	Ja	0		
+34658	er	0	(mention_id=4497|references=(entity=(entity_id=entity_0003|fullname=Hauptmann|gender=m|possible_identity_with=entity_0374)))	(mention_id=4545|references=(entity=(entity_id=10|fullname=Hauptmann|gender=m)))
+34659	verachtete	0		
+34660	diejenigen	0	(mention_id=4498|references=(entity=(entity_id=generic_0279|fullname=Ungebildete Selbstler|gender=u|specialcase_entity=generic)))	(mention_id=4546|references=(entity=(entity_id=17|fullname=diejenigen die Verwirrung anrichten|gender=u|specialcase_entity=group)))
+34661	,	0		
+34662	die	0	(mention_id=4499|references=(entity=(entity_id=generic_0280|fullname=Ungebildete Selbstler|gender=u|specialcase_entity=generic)))	(mention_id=4547|references=(entity=(entity_id=17|fullname=diejenigen die Verwirrung anrichten|gender=u|specialcase_entity=group)))
+34663	,	0		
+34664	um	0		
+34665	ihren	0	(mention_id=4500|references=(entity=(entity_id=generic_0281|fullname=Ungebildete Selbstler|gender=u|specialcase_entity=generic)))	(mention_id=4548|references=(entity=(entity_id=17|fullname=diejenigen die Verwirrung anrichten|gender=u|specialcase_entity=group)))
+34666	Abgang	0		
+34667	fühlbar	0		
+34668	zu	0		
+34669	machen	0		
+34670	,	0		
+34671	erst	0		
+34672	noch	0		
+34673	Verwirrung	0		
+34674	in	0		
+34675	ihrem	0	(mention_id=4501|references=(entity=(entity_id=generic_0282|fullname=Ungebildete Selbstler|gender=u|specialcase_entity=generic)))	(mention_id=4549|references=(entity=(entity_id=17|fullname=diejenigen die Verwirrung anrichten|gender=u|specialcase_entity=group)))
+34676	Kreise	0		
+34677	anrichten	0		
+34678	,	0		
+34679	indem	0		
+34680	sie	0	(mention_id=4502|references=(entity=(entity_id=generic_0283|fullname=Ungebildete Selbstler|gender=u|specialcase_entity=generic)))	(mention_id=4550|references=(entity=(entity_id=17|fullname=diejenigen die Verwirrung anrichten|gender=u|specialcase_entity=group)))
+34681	als	0		
+34682	ungebildete	0		
+34683	Selbstler	0	(mention_id=4503|references=(entity=(entity_id=generic_0284|fullname=Ungebildete Selbstler|gender=u|specialcase_entity=generic)))	(mention_id=4551|references=(entity=(entity_id=17|fullname=diejenigen die Verwirrung anrichten|gender=u|specialcase_entity=group)))
+34684	das	0		
+34685	zu	0		
+34686	zerstören	0		
+34687	wünschen	0		
+34688	,	0		
+34689	wobei	0		
+34690	sie	0	(mention_id=4504|references=(entity=(entity_id=generic_0285|fullname=Ungebildete Selbstler|gender=u|specialcase_entity=generic)))	(mention_id=4552|references=(entity=(entity_id=17|fullname=diejenigen die Verwirrung anrichten|gender=u|specialcase_entity=group)))
+34691	nicht	0		
+34692	mehr	0		
+34693	fortwirken	0		
+34694	sollen	0		
+34695	.	0		
+34696	So	0		
+34697	arbeitete	0		
+34698	man	0	(mention_id=4505|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)),(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)),(entity=(entity_id=entity_0003|fullname=Hauptmann|gender=m|possible_identity_with=entity_0374)))	
+34699	immer	0		
+34700	mit	0		
+34701	Anstrengung	0		
+34702	,	0		
+34703	um	0		
+34704	Ottiliens	0	(mention_id=4506|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=4553|references=(entity=(entity_id=15|fullname=Ottilie|gender=f)))
+34705	Geburtstag	0		
+34706	zu	0		
+34707	verherrlichen	0		
+34708	,	0		
+34709	ohne	0		
+34710	daß	0		
+34711	man	0	(mention_id=4507|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)),(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)),(entity=(entity_id=entity_0003|fullname=Hauptmann|gender=m|possible_identity_with=entity_0374)))	(mention_id=4554|references=(entity=(entity_id=3|fullname=Eduard|gender=m)),(entity=(entity_id=10|fullname=Hauptmann|gender=m)),(entity=(entity_id=2|fullname=Charlotte|gender=f)))
+34712	es	0		
+34713	aussprach	0		
+34714	oder	0		
+34715	sichs	0		(mention_id=4555|references=(entity=(entity_id=3|fullname=Eduard|gender=m)),(entity=(entity_id=10|fullname=Hauptmann|gender=m)),(entity=(entity_id=2|fullname=Charlotte|gender=f)))
+34716	recht	0		
+34717	aufrichtig	0		
+34718	bekannte	0		
+34719	.	0		
+34720	Nach	0		
+34721	Charlottens	0	(mention_id=4508|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)))	(mention_id=4556|references=(entity=(entity_id=2|fullname=Charlotte|gender=f)))
+34722	obgleich	0		
+34723	neidlosen	0		
+34724	Gesinnungen	0		
+34725	konnte	0		
+34726	es	0		
+34727	doch	0		
+34728	kein	0		
+34729	entschiedenes	0		
+34730	Fest	0		
+34731	werden	0		
+34732	.	0		
+34733	Die	0		
+34734	Jugend	0		
+34735	Ottiliens	0	(mention_id=4509|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=4557|references=(entity=(entity_id=15|fullname=Ottilie|gender=f)))
+34736	,	0		
+34737	ihre	0	(mention_id=4510|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=4558|references=(entity=(entity_id=15|fullname=Ottilie|gender=f)))
+34738	Glücksumstände	0		
+34739	,	0		
+34740	das	0		
+34741	Verhältnis	0		
+34742	zur	0		
+34743	Familie	0	(mention_id=4511|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)),(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)),(entity=(entity_id=entity_0005|fullname=Luciane|gender=f)))	(mention_id=4559|references=(entity=(entity_id=5|fullname=Familie|gender=u|specialcase_entity=group)))
+34744	berechtigten	0		
+34745	sie	0	(mention_id=4512|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=4560|references=(entity=(entity_id=15|fullname=Ottilie|gender=f)))
+34746	nicht	0		
+34747	,	0		
+34748	als	0		
+34749	Königin	0	(mention_id=4513|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=4561|references=(entity=(entity_id=generic_0001|fullname=Königin im Allgemeinen|gender=u|specialcase_entity=generic)))
+34750	eines	0		
+34751	Tages	0		
+34752	zu	0		
+34753	erscheinen	0		
+34754	.	0		
+34755	Und	0		
+34756	Eduard	0	(mention_id=4514|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))	(mention_id=4562|references=(entity=(entity_id=3|fullname=Eduard|gender=m)))
+34757	wollte	0		
+34758	nicht	0		
+34759	davon	0		
+34760	gesprochen	0		
+34761	haben	0		
+34762	,	0		
+34763	weil	0		
+34764	alles	0		
+34765	wie	0		
+34766	von	0		
+34767	selbst	0		
+34768	entspringen	0		
+34769	,	0		
+34770	überraschen	0		
+34771	und	0		
+34772	natürlich	0		
+34773	erfreuen	0		
+34774	sollte	0		
+34775	.	0		
+34776	Alle	0	(mention_id=4515|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)),(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)),(entity=(entity_id=entity_0003|fullname=Hauptmann|gender=m|possible_identity_with=entity_0374)))	(mention_id=4563|references=(entity=(entity_id=3|fullname=Eduard|gender=m)),(entity=(entity_id=10|fullname=Hauptmann|gender=m)),(entity=(entity_id=2|fullname=Charlotte|gender=f)))
+34777	kamen	0		
+34778	daher	0		
+34779	stillschweigend	0		
+34780	in	0		
+34781	dem	0		
+34782	Vorwande	0		
+34783	überein	0		
+34784	,	0		
+34785	als	0		
+34786	wenn	0		
+34787	an	0		
+34788	diesem	0		
+34789	Tage	0		
+34790	,	0		
+34791	ohne	0		
+34792	weitere	0		
+34793	Beziehung	0		
+34794	,	0		
+34795	jenes	0		
+34796	Lusthaus	0		
+34797	gerichtet	0		
+34798	werden	0		
+34799	sollte	0		
+34800	,	0		
+34801	und	0		
+34802	bei	0		
+34803	diesem	0		
+34804	Anlaß	0		
+34805	konnte	0		
+34806	man	0		
+34807	dem	0		
+34808	Volke	0	(mention_id=4516|references=(entity=(entity_id=entity_0153|fullname=Volk|gender=u|specialcase_entity=group)))	(mention_id=4564|references=(entity=(entity_id=16|fullname=Volk|gender=u|specialcase_entity=group)))
+34809	sowie	0		
+34810	den	0		
+34811	Freunden	0	(mention_id=4517|references=(entity=(entity_id=entity_0149|fullname=Freunde|gender=u|specialcase_entity=group)))	(mention_id=4565|references=(entity=(entity_id=6|fullname=Freunde des Hauptmanns|gender=u|specialcase_entity=group)))
+34812	ein	0		
+34813	Fest	0		
+34814	ankündigen	0		
+34815	.	0		
+34816	Eduards	0	(mention_id=4518|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))	(mention_id=4566|references=(entity=(entity_id=3|fullname=Eduard|gender=m)))
+34817	Neigung	0		
+34818	war	0		
+34819	aber	0		
+34820	grenzenlos	0		
+34821	.	0		
+34822	Wie	0		
+34823	er	0	(mention_id=4519|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))	(mention_id=4567|references=(entity=(entity_id=3|fullname=Eduard|gender=m)))
+34824	sich	0	(mention_id=4520|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))	(mention_id=4568|references=(entity=(entity_id=3|fullname=Eduard|gender=m)))
+34825	Ottilien	0	(mention_id=4521|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=4569|references=(entity=(entity_id=15|fullname=Ottilie|gender=f)))
+34826	zuzueignen	0		
+34827	begehrte	0		
+34828	,	0		
+34829	so	0		
+34830	kannte	0		
+34831	er	0	(mention_id=4522|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))	(mention_id=4570|references=(entity=(entity_id=3|fullname=Eduard|gender=m)))
+34832	auch	0		
+34833	kein	0		
+34834	Maß	0		
+34835	des	0		
+34836	Hingebens	0		
+34837	,	0		
+34838	Schenkens	0		
+34839	,	0		
+34840	Versprechens	0		
+34841	.	0		
+34842	Zu	0		
+34843	einigen	0		
+34844	Gaben	0		
+34845	,	0		
+34846	die	0		
+34847	er	0	(mention_id=4523|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))	(mention_id=4571|references=(entity=(entity_id=3|fullname=Eduard|gender=m)))
+34848	Ottilien	0	(mention_id=4524|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=4572|references=(entity=(entity_id=15|fullname=Ottilie|gender=f)))
+34849	an	0		
+34850	diesem	0		
+34851	Tage	0		
+34852	verehren	0		
+34853	wollte	0		
+34854	,	0		
+34855	hatte	0		
+34856	ihm	0	(mention_id=4525|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))	(mention_id=4573|references=(entity=(entity_id=3|fullname=Eduard|gender=m)))
+34857	Charlotte	0	(mention_id=4526|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)))	(mention_id=4574|references=(entity=(entity_id=2|fullname=Charlotte|gender=f)))
+34858	viel	0		
+34859	zu	0		
+34860	ärmliche	0		
+34861	Vorschläge	0		
+34862	getan	0		
+34863	.	0		
+34864	Er	0	(mention_id=4527|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))	(mention_id=4575|references=(entity=(entity_id=3|fullname=Eduard|gender=m)))
+34865	sprach	0		
+34866	mit	0		
+34867	seinem	0	(mention_id=4528|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))	(mention_id=4576|references=(entity=(entity_id=3|fullname=Eduard|gender=m)))
+34868	Kammerdiener	0	(mention_id=4529|references=(entity=(entity_id=entity_0144|fullname=Eduards Kammerdiener|gender=m)))	(mention_id=4577|references=(entity=(entity_id=11|fullname=Kammerdiener|gender=m)))
+34869	,	0		
+34870	der	0	(mention_id=4530|references=(entity=(entity_id=entity_0144|fullname=Eduards Kammerdiener|gender=m)))	(mention_id=4578|references=(entity=(entity_id=11|fullname=Kammerdiener|gender=m)))
+34871	seine	0	(mention_id=4531|references=(entity=(entity_id=entity_0144|fullname=Eduards Kammerdiener|gender=m)))	(mention_id=4579|references=(entity=(entity_id=11|fullname=Kammerdiener|gender=m)))
+34872	Garderobe	0		
+34873	besorgte	0		
+34874	und	0		
+34875	mit	0		
+34876	Handelsleuten	0	(mention_id=4532|references=(entity=(entity_id=entity_0150|fullname=Handelsleute im Kontakt mit Eduards Kammerdiener|gender=u|specialcase_entity=group)))	(mention_id=4580|references=(entity=(entity_id=9|fullname=Handelsleute|gender=u|specialcase_entity=group)))
+34877	und	0		
+34878	Modehändlern	0	(mention_id=4533|references=(entity=(entity_id=entity_0152|fullname=Modehändler im Kontakt mit Eduards Kammerdiener|gender=u|specialcase_entity=group)))	(mention_id=4581|references=(entity=(entity_id=14|fullname=Modehändler|gender=u|specialcase_entity=group)))
+34879	in	0		
+34880	beständigem	0		
+34881	Verhältnis	0		
+34882	blieb	0		
+34883	;	0		
+34884	dieser	0	(mention_id=4534|references=(entity=(entity_id=entity_0144|fullname=Eduards Kammerdiener|gender=m)))	(mention_id=4582|references=(entity=(entity_id=11|fullname=Kammerdiener|gender=m)))
+34885	,	0		
+34886	nicht	0		
+34887	unbekannt	0		
+34888	sowohl	0		
+34889	mit	0		
+34890	den	0		
+34891	angenehmsten	0		
+34892	Gaben	0		
+34893	selbst	0		
+34894	als	0		
+34895	mit	0		
+34896	der	0		
+34897	besten	0		
+34898	Art	0		
+34899	,	0		
+34900	sie	0		
+34901	zu	0		
+34902	überreichen	0		
+34903	,	0		
+34904	bestellte	0		
+34905	sogleich	0		
+34906	in	0		
+34907	der	0		
+34908	Stadt	0		
+34909	den	0		
+34910	niedlichsten	0		
+34911	Koffer	0		
+34912	,	0		
+34913	mit	0		
+34914	rotem	0		
+34915	Saffian	0		
+34916	überzogen	0		
+34917	,	0		
+34918	mit	0		
+34919	Stahlnägeln	0		
+34920	beschlagen	0		
+34921	und	0		
+34922	angefüllt	0		
+34923	mit	0		
+34924	Geschenken	0		
+34925	,	0		
+34926	einer	0		
+34927	solchen	0		
+34928	Schale	0		
+34929	würdig	0		
+34930	.	0		
+34931	Noch	0		
+34932	einen	0		
+34933	andern	0		
+34934	Vorschlag	0		
+34935	tat	0		
+34936	er	0	(mention_id=4535|references=(entity=(entity_id=entity_0144|fullname=Eduards Kammerdiener|gender=m)))	(mention_id=4583|references=(entity=(entity_id=11|fullname=Kammerdiener|gender=m)))
+34937	Eduarden	0	(mention_id=4536|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))	(mention_id=4584|references=(entity=(entity_id=3|fullname=Eduard|gender=m)))
+34938	.	0		
+34939	Es	0		
+34940	war	0		
+34941	ein	0		
+34942	kleines	0		
+34943	Feuerwerk	0		
+34944	vorhanden	0		
+34945	,	0		
+34946	das	0		
+34947	man	0		
+34948	immer	0		
+34949	abzubrennen	0		
+34950	versäumt	0		
+34951	hatte	0		
+34952	.	0		
+34953	Dies	0		
+34954	konnte	0		
+34955	man	0		
+34956	leicht	0		
+34957	verstärken	0		
+34958	und	0		
+34959	erweitern	0		
+34960	.	0		
+34961	Eduard	0	(mention_id=4537|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))	(mention_id=4585|references=(entity=(entity_id=3|fullname=Eduard|gender=m)))
+34962	ergriff	0		
+34963	den	0		
+34964	Gedanken	0		
+34965	,	0		
+34966	und	0		
+34967	jener	0	(mention_id=4538|references=(entity=(entity_id=entity_0144|fullname=Eduards Kammerdiener|gender=m)))	(mention_id=4586|references=(entity=(entity_id=11|fullname=Kammerdiener|gender=m)))
+34968	versprach	0		
+34969	,	0		
+34970	für	0		
+34971	die	0		
+34972	Ausführung	0		
+34973	zu	0		
+34974	sorgen	0		
+34975	.	0		
+34976	Die	0		
+34977	Sache	0		
+34978	sollte	0		
+34979	ein	0		
+34980	Geheimnis	0		
+34981	bleiben	0		
+34982	.	0		
+34983	Der	0		
+34984	Hauptmann	0	(mention_id=4539|references=(entity=(entity_id=entity_0003|fullname=Hauptmann|gender=m|possible_identity_with=entity_0374)))	(mention_id=4587|references=(entity=(entity_id=10|fullname=Hauptmann|gender=m)))
+34985	hatte	0		
+34986	unterdessen	0		
+34987	,	0		
+34988	je	0		
+34989	näher	0		
+34990	der	0		
+34991	Tag	0		
+34992	heranrückte	0		
+34993	,	0		
+34994	seine	0	(mention_id=4540|references=(entity=(entity_id=entity_0003|fullname=Hauptmann|gender=m|possible_identity_with=entity_0374)))	(mention_id=4588|references=(entity=(entity_id=10|fullname=Hauptmann|gender=m)))
+34995	polizeilichen	0		
+34996	Einrichtungen	0		
+34997	getroffen	0		
+34998	,	0		
+34999	die	0		
+35000	er	0	(mention_id=4541|references=(entity=(entity_id=entity_0003|fullname=Hauptmann|gender=m|possible_identity_with=entity_0374)))	(mention_id=4589|references=(entity=(entity_id=10|fullname=Hauptmann|gender=m)))
+35001	für	0		
+35002	so	0		
+35003	nötig	0		
+35004	hielt	0		
+35005	,	0		
+35006	wenn	0		
+35007	eine	0		
+35008	Masse	0		
+35009	Menschen	0	(mention_id=4542|references=(entity=(entity_id=entity_0148|fullname=Ottilies Geburtstagsgesellschaft|gender=u|specialcase_entity=group)))	(mention_id=4590|references=(entity=(entity_id=13|fullname=Menschenmenge|gender=u|specialcase_entity=group)))
+35010	zusammenberufen	0		
+35011	oder	0		
+35012	–	0		
+35013	gelockt	0		
+35014	wird	0		
+35015	.	0		
+35016	Ja	0		
+35017	sogar	0		
+35018	hatte	0		
+35019	er	0	(mention_id=4543|references=(entity=(entity_id=entity_0003|fullname=Hauptmann|gender=m|possible_identity_with=entity_0374)))	(mention_id=4591|references=(entity=(entity_id=10|fullname=Hauptmann|gender=m)))
+35020	wegen	0		
+35021	des	0		
+35022	Bettelns	0		
+35023	und	0		
+35024	andrer	0		
+35025	Unbequemlichkeiten	0		
+35026	,	0		
+35027	wodurch	0		
+35028	die	0		
+35029	Anmut	0		
+35030	eines	0		
+35031	Festes	0		
+35032	gestört	0		
+35033	wird	0		
+35034	,	0		
+35035	durchaus	0		
+35036	Vorsorge	0		
+35037	genommen	0		
+35038	.	0		
+35039	Eduard	0	(mention_id=4544|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))	(mention_id=4592|references=(entity=(entity_id=3|fullname=Eduard|gender=m)))
+35040	und	0		
+35041	sein	0	(mention_id=4545|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))	(mention_id=4593|references=(entity=(entity_id=3|fullname=Eduard|gender=m)))
+35042	Vertrauter	0	(mention_id=4546|references=(entity=(entity_id=entity_0144|fullname=Eduards Kammerdiener|gender=m)))	(mention_id=4594|references=(entity=(entity_id=11|fullname=Kammerdiener|gender=m)))
+35043	dagegen	0		
+35044	beschäftigten	0		
+35045	sich	0	(mention_id=4547|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)),(entity=(entity_id=entity_0144|fullname=Eduards Kammerdiener|gender=m)))	(mention_id=4595|references=(entity=(entity_id=3|fullname=Eduard|gender=m)),(entity=(entity_id=11|fullname=Kammerdiener|gender=m)))
+35046	vorzüglich	0		
+35047	mit	0		
+35048	dem	0		
+35049	Feuerwerk	0		
+35050	.	0		
+35051	Am	0		
+35052	mittelsten	0		
+35053	Teiche	0		
+35054	vor	0		
+35055	jenen	0		
+35056	großen	0		
+35057	Eichbäumen	0		
+35058	sollte	0		
+35059	es	0		
+35060	abgebrannt	0		
+35061	werden	0		
+35062	;	0		
+35063	gegenüber	0		
+35064	unter	0		
+35065	den	0		
+35066	Platanen	0		
+35067	sollte	0		
+35068	die	0		
+35069	Gesellschaft	0	(mention_id=4548|references=(entity=(entity_id=entity_0148|fullname=Ottilies Geburtstagsgesellschaft|gender=u|specialcase_entity=group)))	(mention_id=4596|references=(entity=(entity_id=7|fullname=Gesellschaft|gender=u|specialcase_entity=group)))
+35070	sich	0	(mention_id=4549|references=(entity=(entity_id=entity_0148|fullname=Ottilies Geburtstagsgesellschaft|gender=u|specialcase_entity=group)))	(mention_id=4597|references=(entity=(entity_id=7|fullname=Gesellschaft|gender=u|specialcase_entity=group)))
+35071	aufhalten	0		
+35072	,	0		
+35073	um	0		
+35074	die	0		
+35075	Wirkung	0		
+35076	aus	0		
+35077	gehöriger	0		
+35078	Ferne	0		
+35079	,	0		
+35080	die	0		
+35081	Abspiegelung	0		
+35082	im	0		
+35083	Wasser	0		
+35084	,	0		
+35085	und	0		
+35086	was	0		
+35087	auf	0		
+35088	dem	0		
+35089	Wasser	0		
+35090	selbst	0		
+35091	brennend	0		
+35092	zu	0		
+35093	schwimmen	0		
+35094	bestimmt	0		
+35095	war	0		
+35096	,	0		
+35097	mit	0		
+35098	Sicherheit	0		
+35099	und	0		
+35100	Bequemlichkeit	0		
+35101	anzuschauen	0		
+35102	.	0		
+35103	Unter	0		
+35104	einem	0		
+35105	andern	0		
+35106	Vorwand	0		
+35107	ließ	0		
+35108	daher	0		
+35109	Eduard	0	(mention_id=4550|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))	(mention_id=4598|references=(entity=(entity_id=3|fullname=Eduard|gender=m)))
+35110	den	0		
+35111	Raum	0		
+35112	unter	0		
+35113	den	0		
+35114	Platanen	0		
+35115	von	0		
+35116	Gesträuch	0		
+35117	,	0		
+35118	Gras	0		
+35119	und	0		
+35120	Moos	0		
+35121	säubern	0		
+35122	,	0		
+35123	und	0		
+35124	nun	0		
+35125	erschien	0		
+35126	erst	0		
+35127	die	0		
+35128	Herrlichkeit	0		
+35129	des	0		
+35130	Baumwuchses	0		
+35131	sowohl	0		
+35132	an	0		
+35133	Höhe	0		
+35134	als	0		
+35135	Breite	0		
+35136	auf	0		
+35137	dem	0		
+35138	gereinigten	0		
+35139	Boden	0		
+35140	.	0		
+35141	Eduard	0	(mention_id=4551|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))	(mention_id=4599|references=(entity=(entity_id=3|fullname=Eduard|gender=m)))
+35142	empfand	0		
+35143	darüber	0		
+35144	die	0		
+35145	größte	0		
+35146	Freude	0		
+35147	.	0		
+35148	›	0		
+35149	Es	0		
+35150	war	0		
+35151	ungefähr	0		
+35152	um	0		
+35153	diese	0		
+35154	Jahrszeit	0		
+35155	,	0		
+35156	als	0		
+35157	ich	0	(mention_id=4552|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))	(mention_id=4600|references=(entity=(entity_id=3|fullname=Eduard|gender=m)))
+35158	sie	0		
+35159	pflanzte	0		
+35160	.	0		
+35161	Wie	0		
+35162	lange	0		
+35163	mag	0		
+35164	es	0		
+35165	her	0		
+35166	sein	0		
+35167	?	0		
+35168	‹	0		
+35169	sagte	0		
+35170	er	0	(mention_id=4553|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))	(mention_id=4601|references=(entity=(entity_id=3|fullname=Eduard|gender=m)))
+35171	zu	0		
+35172	sich	0	(mention_id=4554|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))	(mention_id=4602|references=(entity=(entity_id=3|fullname=Eduard|gender=m)))
+35173	selbst	0		
+35174	.	0		
+35175	Sobald	0		
+35176	er	0	(mention_id=4555|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))	(mention_id=4603|references=(entity=(entity_id=3|fullname=Eduard|gender=m)))
+35177	nach	0		
+35178	Hause	0		
+35179	kam	0		
+35180	,	0		
+35181	schlug	0		
+35182	er	0	(mention_id=4556|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))	(mention_id=4604|references=(entity=(entity_id=3|fullname=Eduard|gender=m)))
+35183	in	0		
+35184	alten	0		
+35185	Tagebüchern	0		
+35186	nach	0		
+35187	,	0		
+35188	die	0		
+35189	sein	0	(mention_id=4557|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))	(mention_id=4605|references=(entity=(entity_id=3|fullname=Eduard|gender=m)))
+35190	Vater	0	(mention_id=4558|references=(entity=(entity_id=entity_0013|fullname=Eduards Vater|gender=m)))	(mention_id=4606|references=(entity=(entity_id=4|fullname=Eduards Vater|gender=m)))
+35191	,	0		
+35192	besonders	0		
+35193	auf	0		
+35194	dem	0		
+35195	Lande	0		
+35196	,	0		
+35197	sehr	0		
+35198	ordentlich	0		
+35199	geführt	0		
+35200	hatte	0		
+35201	.	0		
+35202	Zwar	0		
+35203	diese	0		
+35204	Pflanzung	0		
+35205	konnte	0		
+35206	nicht	0		
+35207	darin	0		
+35208	erwähnt	0		
+35209	sein	0		
+35210	,	0		
+35211	aber	0		
+35212	eine	0		
+35213	andre	0		
+35214	häuslich	0		
+35215	wichtige	0		
+35216	Begebenheit	0		
+35217	an	0		
+35218	demselben	0		
+35219	Tage	0		
+35220	,	0		
+35221	deren	0		
+35222	sich	0	(mention_id=4559|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))	(mention_id=4607|references=(entity=(entity_id=3|fullname=Eduard|gender=m)))
+35223	Eduard	0	(mention_id=4560|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))	(mention_id=4608|references=(entity=(entity_id=3|fullname=Eduard|gender=m)))
+35224	noch	0		
+35225	wohl	0		
+35226	erinnerte	0		
+35227	,	0		
+35228	mußte	0		
+35229	notwendig	0		
+35230	darin	0		
+35231	angemerkt	0		
+35232	stehen	0		
+35233	.	0		
+35234	Er	0	(mention_id=4561|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))	(mention_id=4609|references=(entity=(entity_id=3|fullname=Eduard|gender=m)))
+35235	durchblättert	0		
+35236	einige	0		
+35237	Bände	0		
+35238	,	0		
+35239	der	0		
+35240	Umstand	0		
+35241	findet	0		
+35242	sich	0		
+35243	.	0		
+35244	Aber	0		
+35245	wie	0		
+35246	erstaunt	0		
+35247	,	0		
+35248	wie	0		
+35249	erfreut	0		
+35250	ist	0		
+35251	Eduard	0	(mention_id=4562|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))	(mention_id=4610|references=(entity=(entity_id=3|fullname=Eduard|gender=m)))
+35252	,	0		
+35253	als	0		
+35254	er	0	(mention_id=4563|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))	(mention_id=4611|references=(entity=(entity_id=3|fullname=Eduard|gender=m)))
+35255	das	0		
+35256	wunderbarste	0		
+35257	Zusammentreffen	0		
+35258	bemerkt	0		
+35259	!	0		
+35260	Der	0		
+35261	Tag	0		
+35262	,	0		
+35263	das	0		
+35264	Jahr	0		
+35265	jener	0		
+35266	Baumpflanzung	0		
+35267	ist	0		
+35268	zugleich	0		
+35269	der	0		
+35270	Tag	0		
+35271	,	0		
+35272	das	0		
+35273	Jahr	0		
+35274	von	0		
+35275	Ottiliens	0	(mention_id=4564|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=4612|references=(entity=(entity_id=15|fullname=Ottilie|gender=f)))
+35276	Geburt	0		
+35277	.	0		

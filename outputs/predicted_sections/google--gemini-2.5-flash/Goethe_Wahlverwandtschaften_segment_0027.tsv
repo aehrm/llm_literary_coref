@@ -1,0 +1,1485 @@
+i	token	is_section_start	gold	pred
+67721	Neuntes	1		
+67722	Kapitel	0		
+67723	Der	0		
+67724	Frühling	0		
+67725	war	0		
+67726	gekommen	0		
+67727	,	0		
+67728	später	0		
+67729	,	0		
+67730	aber	0		
+67731	auch	0		
+67732	rascher	0		
+67733	und	0		
+67734	freudiger	0		
+67735	als	0		
+67736	gewöhnlich	0		
+67737	.	0		
+67738	Ottilie	0	(mention_id=8821|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=8916|references=(entity=(entity_id=6|fullname=Ottilie|gender=f)))
+67739	fand	0		
+67740	nun	0		
+67741	im	0		
+67742	Garten	0		
+67743	die	0		
+67744	Frucht	0		
+67745	ihres	0	(mention_id=8822|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=8917|references=(entity=(entity_id=6|fullname=Ottilie|gender=f)))
+67746	Vorsehens	0		
+67747	;	0		
+67748	alles	0		
+67749	keimte	0		
+67750	,	0		
+67751	grünte	0		
+67752	und	0		
+67753	blühte	0		
+67754	zur	0		
+67755	rechten	0		
+67756	Zeit	0		
+67757	;	0		
+67758	manches	0		
+67759	,	0		
+67760	was	0		
+67761	hinter	0		
+67762	wohlangelegten	0		
+67763	Glashäusern	0		
+67764	und	0		
+67765	Beeten	0		
+67766	vorbereitet	0		
+67767	worden	0		
+67768	,	0		
+67769	trat	0		
+67770	nun	0		
+67771	sogleich	0		
+67772	der	0		
+67773	endlich	0		
+67774	von	0		
+67775	außen	0		
+67776	wirkenden	0		
+67777	Natur	0		
+67778	entgegen	0		
+67779	,	0		
+67780	und	0		
+67781	alles	0		
+67782	,	0		
+67783	was	0		
+67784	zu	0		
+67785	tun	0		
+67786	und	0		
+67787	zu	0		
+67788	besorgen	0		
+67789	war	0		
+67790	,	0		
+67791	blieb	0		
+67792	nicht	0		
+67793	bloß	0		
+67794	hoffnungsvolle	0		
+67795	Mühe	0		
+67796	wie	0		
+67797	bisher	0		
+67798	,	0		
+67799	sondern	0		
+67800	ward	0		
+67801	zum	0		
+67802	heitern	0		
+67803	Genusse	0		
+67804	.	0		
+67805	An	0		
+67806	dem	0		
+67807	Gärtner	0	(mention_id=8823|references=(entity=(entity_id=entity_0004|fullname=Gärtner|gender=m)))	(mention_id=8918|references=(entity=(entity_id=9|fullname=der Gärtner|gender=m)))
+67808	aber	0		
+67809	hatte	0		
+67810	sie	0	(mention_id=8824|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=8919|references=(entity=(entity_id=6|fullname=Ottilie|gender=f)))
+67811	zu	0		
+67812	trösten	0		
+67813	über	0		
+67814	manche	0		
+67815	durch	0		
+67816	Lucianens	0	(mention_id=8825|references=(entity=(entity_id=entity_0005|fullname=Luciane|gender=f)))	(mention_id=8920|references=(entity=(entity_id=4|fullname=Luciane|gender=f)))
+67817	Wildheit	0		
+67818	entstandene	0		
+67819	Lücke	0		
+67820	unter	0		
+67821	den	0		
+67822	Topfgewächsen	0		
+67823	,	0		
+67824	über	0		
+67825	die	0		
+67826	zerstörte	0		
+67827	Symmetrie	0		
+67828	mancher	0		
+67829	Baumkrone	0		
+67830	.	0		
+67831	Sie	0	(mention_id=8826|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=8921|references=(entity=(entity_id=6|fullname=Ottilie|gender=f)))
+67832	machte	0		
+67833	ihm	0	(mention_id=8827|references=(entity=(entity_id=entity_0004|fullname=Gärtner|gender=m)))	(mention_id=8922|references=(entity=(entity_id=9|fullname=der Gärtner|gender=m)))
+67834	Mut	0		
+67835	,	0		
+67836	daß	0		
+67837	sich	0		
+67838	das	0		
+67839	alles	0		
+67840	bald	0		
+67841	wieder	0		
+67842	herstellen	0		
+67843	werde	0		
+67844	;	0		
+67845	aber	0		
+67846	er	0	(mention_id=8828|references=(entity=(entity_id=entity_0004|fullname=Gärtner|gender=m)))	(mention_id=8923|references=(entity=(entity_id=9|fullname=der Gärtner|gender=m)))
+67847	hatte	0		
+67848	zu	0		
+67849	ein	0		
+67850	tiefes	0		
+67851	Gefühl	0		
+67852	,	0		
+67853	zu	0		
+67854	einen	0		
+67855	reinen	0		
+67856	Begriff	0		
+67857	von	0		
+67858	seinem	0	(mention_id=8829|references=(entity=(entity_id=entity_0004|fullname=Gärtner|gender=m)))	(mention_id=8924|references=(entity=(entity_id=9|fullname=der Gärtner|gender=m)))
+67859	Handwerk	0		
+67860	,	0		
+67861	als	0		
+67862	daß	0		
+67863	diese	0		
+67864	Trostgründe	0		
+67865	viel	0		
+67866	bei	0		
+67867	ihm	0	(mention_id=8830|references=(entity=(entity_id=entity_0004|fullname=Gärtner|gender=m)))	(mention_id=8925|references=(entity=(entity_id=9|fullname=der Gärtner|gender=m)))
+67868	hätten	0		
+67869	fruchten	0		
+67870	sollen	0		
+67871	.	0		
+67872	So	0		
+67873	wenig	0		
+67874	der	0		
+67875	Gärtner	0	(mention_id=8831|references=(entity=(entity_id=entity_0004|fullname=Gärtner|gender=m)))	(mention_id=8926|references=(entity=(entity_id=generic_0001|fullname=ein Gärtner im Allgemeinen|gender=u|specialcase_entity=generic)))
+67876	sich	0	(mention_id=8832|references=(entity=(entity_id=entity_0004|fullname=Gärtner|gender=m)))	(mention_id=8927|references=(entity=(entity_id=generic_0002|fullname=ein Gärtner im Allgemeinen|gender=u|specialcase_entity=generic)))
+67877	durch	0		
+67878	andere	0		
+67879	Liebhabereien	0		
+67880	und	0		
+67881	Neigungen	0		
+67882	zerstreuen	0		
+67883	darf	0		
+67884	,	0		
+67885	so	0		
+67886	wenig	0		
+67887	darf	0		
+67888	der	0		
+67889	ruhige	0		
+67890	Gang	0		
+67891	unterbrochen	0		
+67892	werden	0		
+67893	,	0		
+67894	den	0		
+67895	die	0		
+67896	Pflanze	0		
+67897	zur	0		
+67898	dauernden	0		
+67899	oder	0		
+67900	zur	0		
+67901	vorübergehenden	0		
+67902	Vollendung	0		
+67903	nimmt	0		
+67904	.	0		
+67905	Die	0		
+67906	Pflanze	0		
+67907	gleicht	0		
+67908	den	0		
+67909	eigensinnigen	0		
+67910	Menschen	0	(mention_id=8833|references=(entity=(entity_id=generic_0939|fullname=eigensinnige Menschen|gender=u|specialcase_entity=generic)))	(mention_id=8928|references=(entity=(entity_id=generic_0004|fullname=Menschen im Allgemeinen|gender=u|specialcase_entity=generic)))
+67911	,	0		
+67912	von	0		
+67913	denen	0	(mention_id=8834|references=(entity=(entity_id=generic_0940|fullname=eigensinnige Menschen|gender=u|specialcase_entity=generic)))	(mention_id=8929|references=(entity=(entity_id=generic_0005|fullname=Menschen im Allgemeinen|gender=u|specialcase_entity=generic)))
+67914	man	0		
+67915	alles	0		
+67916	erhalten	0		
+67917	kann	0		
+67918	,	0		
+67919	wenn	0		
+67920	man	0		
+67921	sie	0		
+67922	nach	0		
+67923	ihrer	0	(mention_id=8835|references=(entity=(entity_id=generic_0941|fullname=eigensinnige Menschen|gender=u|specialcase_entity=generic)))	(mention_id=8930|references=(entity=(entity_id=generic_0006|fullname=Menschen im Allgemeinen|gender=u|specialcase_entity=generic)))
+67924	Art	0		
+67925	behandelt	0		
+67926	.	0		
+67927	Ein	0		
+67928	ruhiger	0		
+67929	Blick	0		
+67930	,	0		
+67931	eine	0		
+67932	stille	0		
+67933	Konsequenz	0		
+67934	,	0		
+67935	in	0		
+67936	jeder	0		
+67937	Jahrszeit	0		
+67938	,	0		
+67939	in	0		
+67940	jeder	0		
+67941	Stunde	0		
+67942	das	0		
+67943	ganz	0		
+67944	Gehörige	0		
+67945	zu	0		
+67946	tun	0		
+67947	,	0		
+67948	wird	0		
+67949	vielleicht	0		
+67950	von	0		
+67951	niemand	0		
+67952	mehr	0		
+67953	als	0		
+67954	vom	0		
+67955	Gärtner	0	(mention_id=8836|references=(entity=(entity_id=generic_0942|fullname=Gärtner allgemein|gender=u|specialcase_entity=generic)))	(mention_id=8931|references=(entity=(entity_id=generic_0003|fullname=ein Gärtner im Allgemeinen|gender=u|specialcase_entity=generic)))
+67956	verlangt	0		
+67957	.	0		
+67958	Diese	0		
+67959	Eigenschaften	0		
+67960	besaß	0		
+67961	der	0		
+67962	gute	0		
+67963	Mann	0	(mention_id=8837|references=(entity=(entity_id=entity_0004|fullname=Gärtner|gender=m)))	(mention_id=8932|references=(entity=(entity_id=9|fullname=der Gärtner|gender=m)))
+67964	in	0		
+67965	einem	0		
+67966	hohen	0		
+67967	Grade	0		
+67968	,	0		
+67969	deswegen	0		
+67970	auch	0		
+67971	Ottilie	0	(mention_id=8838|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=8933|references=(entity=(entity_id=6|fullname=Ottilie|gender=f)))
+67972	so	0		
+67973	gern	0		
+67974	mit	0		
+67975	ihm	0	(mention_id=8839|references=(entity=(entity_id=entity_0004|fullname=Gärtner|gender=m)))	(mention_id=8934|references=(entity=(entity_id=9|fullname=der Gärtner|gender=m)))
+67976	wirkte	0		
+67977	;	0		
+67978	aber	0		
+67979	sein	0	(mention_id=8840|references=(entity=(entity_id=entity_0004|fullname=Gärtner|gender=m)))	(mention_id=8935|references=(entity=(entity_id=9|fullname=der Gärtner|gender=m)))
+67980	eigentliches	0		
+67981	Talent	0		
+67982	konnte	0		
+67983	er	0	(mention_id=8841|references=(entity=(entity_id=entity_0004|fullname=Gärtner|gender=m)))	(mention_id=8936|references=(entity=(entity_id=9|fullname=der Gärtner|gender=m)))
+67984	schon	0		
+67985	einige	0		
+67986	Zeit	0		
+67987	nicht	0		
+67988	mehr	0		
+67989	mit	0		
+67990	Behaglichkeit	0		
+67991	ausüben	0		
+67992	.	0		
+67993	Denn	0		
+67994	ob	0		
+67995	er	0	(mention_id=8842|references=(entity=(entity_id=entity_0004|fullname=Gärtner|gender=m)))	(mention_id=8937|references=(entity=(entity_id=9|fullname=der Gärtner|gender=m)))
+67996	gleich	0		
+67997	alles	0		
+67998	,	0		
+67999	was	0		
+68000	die	0		
+68001	Baum-	0		
+68002	und	0		
+68003	Küchengärtnerei	0		
+68004	betraf	0		
+68005	,	0		
+68006	auch	0		
+68007	die	0		
+68008	Erfordernisse	0		
+68009	eines	0		
+68010	ältern	0		
+68011	Ziergartens	0		
+68012	,	0		
+68013	vollkommen	0		
+68014	zu	0		
+68015	leisten	0		
+68016	verstand	0		
+68017	,	0		
+68018	wie	0		
+68019	denn	0		
+68020	überhaupt	0		
+68021	einem	0	(mention_id=8843|references=(entity=(entity_id=entity_0004|fullname=Gärtner|gender=m)))	(mention_id=8938|references=(entity=(entity_id=generic_0007|fullname=jemand im Allgemeinen|gender=u|specialcase_entity=generic)))
+68022	vor	0		
+68023	dem	0		
+68024	andern	0	(mention_id=8844|references=(entity=(entity_id=entity_0004|fullname=Gärtner|gender=m)))	(mention_id=8939|references=(entity=(entity_id=generic_0008|fullname=jemand im Allgemeinen|gender=u|specialcase_entity=generic)))
+68025	dieses	0		
+68026	oder	0		
+68027	jenes	0		
+68028	gelingt	0		
+68029	,	0		
+68030	ob	0		
+68031	er	0	(mention_id=8845|references=(entity=(entity_id=entity_0004|fullname=Gärtner|gender=m)))	(mention_id=8940|references=(entity=(entity_id=9|fullname=der Gärtner|gender=m)))
+68032	schon	0		
+68033	in	0		
+68034	Behandlung	0		
+68035	der	0		
+68036	Orangerie	0		
+68037	der	0		
+68038	Blumenzwiebeln	0		
+68039	,	0		
+68040	der	0		
+68041	Nelken-	0		
+68042	und	0		
+68043	Aurikelnstöcke	0		
+68044	die	0		
+68045	Natur	0		
+68046	selbst	0		
+68047	hätte	0		
+68048	herausfordern	0		
+68049	können	0		
+68050	,	0		
+68051	so	0		
+68052	waren	0		
+68053	ihm	0	(mention_id=8846|references=(entity=(entity_id=entity_0004|fullname=Gärtner|gender=m)))	(mention_id=8941|references=(entity=(entity_id=9|fullname=der Gärtner|gender=m)))
+68054	doch	0		
+68055	die	0		
+68056	neuen	0		
+68057	Zierbäume	0		
+68058	und	0		
+68059	Modeblumen	0		
+68060	einigermaßen	0		
+68061	fremd	0		
+68062	geblieben	0		
+68063	,	0		
+68064	und	0		
+68065	er	0	(mention_id=8847|references=(entity=(entity_id=entity_0004|fullname=Gärtner|gender=m)))	(mention_id=8942|references=(entity=(entity_id=9|fullname=der Gärtner|gender=m)))
+68066	hatte	0		
+68067	vor	0		
+68068	dem	0		
+68069	unendlichen	0		
+68070	Felde	0		
+68071	der	0		
+68072	Botanik	0		
+68073	,	0		
+68074	das	0		
+68075	sich	0		
+68076	nach	0		
+68077	der	0		
+68078	Zeit	0		
+68079	auftat	0		
+68080	,	0		
+68081	und	0		
+68082	den	0		
+68083	darin	0		
+68084	herumsummenden	0		
+68085	fremden	0		
+68086	Namen	0		
+68087	eine	0		
+68088	Art	0		
+68089	von	0		
+68090	Scheu	0		
+68091	,	0		
+68092	die	0		
+68093	ihn	0	(mention_id=8848|references=(entity=(entity_id=entity_0004|fullname=Gärtner|gender=m)))	(mention_id=8943|references=(entity=(entity_id=9|fullname=der Gärtner|gender=m)))
+68094	verdrießlich	0		
+68095	machte	0		
+68096	.	0		
+68097	Was	0		
+68098	die	0		
+68099	Herrschaft	0		(mention_id=8944|references=(entity=(entity_id=13|fullname=die Herrschaft|gender=mf|specialcase_entity=group)))
+68100	voriges	0		
+68101	Jahr	0		
+68102	zu	0		
+68103	verschreiben	0		
+68104	angefangen	0		
+68105	,	0		
+68106	hielt	0		
+68107	er	0	(mention_id=8849|references=(entity=(entity_id=entity_0004|fullname=Gärtner|gender=m)))	(mention_id=8945|references=(entity=(entity_id=9|fullname=der Gärtner|gender=m)))
+68108	um	0		
+68109	so	0		
+68110	mehr	0		
+68111	für	0		
+68112	unnützen	0		
+68113	Aufwand	0		
+68114	und	0		
+68115	Verschwendung	0		
+68116	,	0		
+68117	als	0		
+68118	er	0	(mention_id=8850|references=(entity=(entity_id=entity_0004|fullname=Gärtner|gender=m)))	(mention_id=8946|references=(entity=(entity_id=9|fullname=der Gärtner|gender=m)))
+68119	gar	0		
+68120	manche	0		
+68121	kostbare	0		
+68122	Pflanze	0		
+68123	ausgehen	0		
+68124	sah	0		
+68125	und	0		
+68126	mit	0		
+68127	den	0		
+68128	Handelsgärtnern	0	(mention_id=8851|references=(entity=(entity_id=entity_0372|fullname=Handelsgärtner|gender=m|specialcase_entity=group)))	(mention_id=8947|references=(entity=(entity_id=12|fullname=die Handelsgärtner|gender=m|specialcase_entity=group)))
+68129	,	0		
+68130	die	0	(mention_id=8852|references=(entity=(entity_id=entity_0372|fullname=Handelsgärtner|gender=m|specialcase_entity=group)))	(mention_id=8948|references=(entity=(entity_id=12|fullname=die Handelsgärtner|gender=m|specialcase_entity=group)))
+68131	ihn	0	(mention_id=8853|references=(entity=(entity_id=entity_0004|fullname=Gärtner|gender=m)))	(mention_id=8949|references=(entity=(entity_id=9|fullname=der Gärtner|gender=m)))
+68132	,	0		
+68133	wie	0		
+68134	er	0	(mention_id=8854|references=(entity=(entity_id=entity_0004|fullname=Gärtner|gender=m)))	(mention_id=8950|references=(entity=(entity_id=9|fullname=der Gärtner|gender=m)))
+68135	glaubte	0		
+68136	,	0		
+68137	nicht	0		
+68138	redlich	0		
+68139	genug	0		
+68140	bedienten	0		
+68141	,	0		
+68142	in	0		
+68143	keinem	0		
+68144	sonderlichen	0		
+68145	Verhältnisse	0		
+68146	stand	0		
+68147	.	0		
+68148	Er	0	(mention_id=8855|references=(entity=(entity_id=entity_0004|fullname=Gärtner|gender=m)))	(mention_id=8951|references=(entity=(entity_id=9|fullname=der Gärtner|gender=m)))
+68149	hatte	0		
+68150	sich	0	(mention_id=8856|references=(entity=(entity_id=entity_0004|fullname=Gärtner|gender=m)))	(mention_id=8952|references=(entity=(entity_id=9|fullname=der Gärtner|gender=m)))
+68151	darüber	0		
+68152	nach	0		
+68153	mancherlei	0		
+68154	Versuchen	0		
+68155	eine	0		
+68156	Art	0		
+68157	von	0		
+68158	Plan	0		
+68159	gemacht	0		
+68160	,	0		
+68161	in	0		
+68162	welchem	0		
+68163	ihn	0	(mention_id=8857|references=(entity=(entity_id=entity_0004|fullname=Gärtner|gender=m)))	(mention_id=8953|references=(entity=(entity_id=9|fullname=der Gärtner|gender=m)))
+68164	Ottilie	0	(mention_id=8858|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=8954|references=(entity=(entity_id=6|fullname=Ottilie|gender=f)))
+68165	um	0		
+68166	so	0		
+68167	mehr	0		
+68168	bestärkte	0		
+68169	,	0		
+68170	als	0		
+68171	er	0	(mention_id=8859|references=(entity=(entity_id=entity_0004|fullname=Gärtner|gender=m)))	(mention_id=8955|references=(entity=(entity_id=9|fullname=der Gärtner|gender=m)))
+68172	auf	0		
+68173	die	0		
+68174	Wiederkehr	0		
+68175	Eduards	0	(mention_id=8860|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))	(mention_id=8956|references=(entity=(entity_id=1|fullname=Eduard|gender=m)))
+68176	eigentlich	0		
+68177	gegründet	0		
+68178	war	0		
+68179	,	0		
+68180	dessen	0	(mention_id=8861|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))	(mention_id=8957|references=(entity=(entity_id=1|fullname=Eduard|gender=m)))
+68181	Abwesenheit	0		
+68182	man	0		
+68183	in	0		
+68184	diesem	0		
+68185	wie	0		
+68186	in	0		
+68187	manchem	0		
+68188	andern	0		
+68189	Falle	0		
+68190	täglich	0		
+68191	nachteiliger	0		
+68192	empfinden	0		
+68193	mußte	0		
+68194	.	0		
+68195	Indem	0		
+68196	nun	0		
+68197	die	0		
+68198	Pflanzen	0		
+68199	immer	0		
+68200	mehr	0		
+68201	Wurzel	0		
+68202	schlugen	0		
+68203	und	0		
+68204	Zweige	0		
+68205	trieben	0		
+68206	,	0		
+68207	fühlte	0		
+68208	sich	0	(mention_id=8862|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=8958|references=(entity=(entity_id=6|fullname=Ottilie|gender=f)))
+68209	auch	0		
+68210	Ottilie	0	(mention_id=8863|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=8959|references=(entity=(entity_id=6|fullname=Ottilie|gender=f)))
+68211	immer	0		
+68212	mehr	0		
+68213	an	0		
+68214	diese	0		
+68215	Räume	0		
+68216	gefesselt	0		
+68217	.	0		
+68218	Gerade	0		
+68219	vor	0		
+68220	einem	0		
+68221	Jahre	0		
+68222	trat	0		
+68223	sie	0	(mention_id=8864|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=8960|references=(entity=(entity_id=6|fullname=Ottilie|gender=f)))
+68224	als	0		
+68225	Fremdling	0	(mention_id=8865|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=8961|references=(entity=(entity_id=6|fullname=Ottilie|gender=f)))
+68226	,	0		
+68227	als	0		
+68228	ein	0		
+68229	unbedeutendes	0		
+68230	Wesen	0	(mention_id=8866|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=8962|references=(entity=(entity_id=6|fullname=Ottilie|gender=f)))
+68231	hier	0		
+68232	ein	0		
+68233	;	0		
+68234	wieviel	0		
+68235	hatte	0		
+68236	sie	0	(mention_id=8867|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=8963|references=(entity=(entity_id=6|fullname=Ottilie|gender=f)))
+68237	sich	0	(mention_id=8868|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=8964|references=(entity=(entity_id=6|fullname=Ottilie|gender=f)))
+68238	seit	0		
+68239	jener	0		
+68240	Zeit	0		
+68241	nicht	0		
+68242	erworben	0		
+68243	!	0		
+68244	aber	0		
+68245	leider	0		
+68246	wieviel	0		
+68247	hatte	0		
+68248	sie	0	(mention_id=8869|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=8965|references=(entity=(entity_id=6|fullname=Ottilie|gender=f)))
+68249	nicht	0		
+68250	auch	0		
+68251	seit	0		
+68252	jener	0		
+68253	Zeit	0		
+68254	wieder	0		
+68255	verloren	0		
+68256	!	0		
+68257	Sie	0	(mention_id=8870|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=8966|references=(entity=(entity_id=6|fullname=Ottilie|gender=f)))
+68258	war	0		
+68259	nie	0		
+68260	so	0		
+68261	reich	0		
+68262	und	0		
+68263	nie	0		
+68264	so	0		
+68265	arm	0		
+68266	gewesen	0		
+68267	.	0		
+68268	Das	0		
+68269	Gefühl	0		
+68270	von	0		
+68271	beidem	0		
+68272	wechselte	0		
+68273	augenblicklich	0		
+68274	miteinander	0		
+68275	ab	0		
+68276	,	0		
+68277	ja	0		
+68278	durchkreuzte	0		
+68279	sich	0		
+68280	aufs	0		
+68281	innigste	0		
+68282	,	0		
+68283	so	0		
+68284	daß	0		
+68285	sie	0	(mention_id=8871|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=8967|references=(entity=(entity_id=6|fullname=Ottilie|gender=f)))
+68286	sich	0	(mention_id=8872|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=8968|references=(entity=(entity_id=6|fullname=Ottilie|gender=f)))
+68287	nicht	0		
+68288	anders	0		
+68289	zu	0		
+68290	helfen	0		
+68291	wußte	0		
+68292	,	0		
+68293	als	0		
+68294	daß	0		
+68295	sie	0	(mention_id=8873|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=8969|references=(entity=(entity_id=6|fullname=Ottilie|gender=f)))
+68296	immer	0		
+68297	wieder	0		
+68298	das	0		
+68299	Nächste	0		
+68300	mit	0		
+68301	Anteil	0		
+68302	,	0		
+68303	ja	0		
+68304	mit	0		
+68305	Leidenschaft	0		
+68306	ergriff	0		
+68307	.	0		
+68308	Daß	0		
+68309	alles	0		
+68310	,	0		
+68311	was	0		
+68312	Eduarden	0	(mention_id=8874|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))	(mention_id=8970|references=(entity=(entity_id=1|fullname=Eduard|gender=m)))
+68313	besonders	0		
+68314	lieb	0		
+68315	war	0		
+68316	,	0		
+68317	auch	0		
+68318	ihre	0	(mention_id=8875|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=8971|references=(entity=(entity_id=6|fullname=Ottilie|gender=f)))
+68319	Sorgfalt	0		
+68320	am	0		
+68321	stärksten	0		
+68322	an	0		
+68323	sich	0		
+68324	zog	0		
+68325	,	0		
+68326	läßt	0		
+68327	sich	0		
+68328	denken	0		
+68329	;	0		
+68330	ja	0		
+68331	warum	0		
+68332	sollte	0		
+68333	sie	0	(mention_id=8876|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=8972|references=(entity=(entity_id=6|fullname=Ottilie|gender=f)))
+68334	nicht	0		
+68335	hoffen	0		
+68336	,	0		
+68337	daß	0		
+68338	er	0	(mention_id=8877|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))	(mention_id=8973|references=(entity=(entity_id=1|fullname=Eduard|gender=m)))
+68339	selbst	0		
+68340	nun	0		
+68341	bald	0		
+68342	wiederkommen	0		
+68343	,	0		
+68344	daß	0		
+68345	er	0	(mention_id=8878|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))	(mention_id=8974|references=(entity=(entity_id=1|fullname=Eduard|gender=m)))
+68346	die	0		
+68347	fürsorgliche	0		
+68348	Dienstlichkeit	0		
+68349	,	0		
+68350	die	0		
+68351	sie	0	(mention_id=8879|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=8975|references=(entity=(entity_id=6|fullname=Ottilie|gender=f)))
+68352	dem	0		
+68353	Abwesenden	0	(mention_id=8880|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))	(mention_id=8976|references=(entity=(entity_id=1|fullname=Eduard|gender=m)))
+68354	geleistet	0		
+68355	,	0		
+68356	dankbar	0		
+68357	gegenwärtig	0		
+68358	bemerken	0		
+68359	werde	0		
+68360	?	0		
+68361	Aber	0		
+68362	noch	0		
+68363	auf	0		
+68364	eine	0		
+68365	viel	0		
+68366	andre	0		
+68367	Weise	0		
+68368	war	0		
+68369	sie	0	(mention_id=8881|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=8977|references=(entity=(entity_id=6|fullname=Ottilie|gender=f)))
+68370	veranlaßt	0		
+68371	für	0		
+68372	ihn	0	(mention_id=8882|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))	(mention_id=8978|references=(entity=(entity_id=1|fullname=Eduard|gender=m)))
+68373	zu	0		
+68374	wirken	0		
+68375	.	0		
+68376	Sie	0	(mention_id=8883|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=8979|references=(entity=(entity_id=6|fullname=Ottilie|gender=f)))
+68377	hatte	0		
+68378	vorzüglich	0		
+68379	die	0		
+68380	Sorge	0		
+68381	für	0		
+68382	das	0		
+68383	Kind	0	(mention_id=8884|references=(entity=(entity_id=generic_0943|fullname=Kind|gender=u|specialcase_entity=generic)))	(mention_id=8980|references=(entity=(entity_id=8|fullname=das Kind|gender=u)))
+68384	übernommen	0		
+68385	,	0		
+68386	dessen	0	(mention_id=8885|references=(entity=(entity_id=generic_0944|fullname=Kind|gender=u|specialcase_entity=generic)))	(mention_id=8981|references=(entity=(entity_id=8|fullname=das Kind|gender=u)))
+68387	unmittelbare	0		
+68388	Pflegerin	0	(mention_id=8886|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=8982|references=(entity=(entity_id=6|fullname=Ottilie|gender=f)))
+68389	sie	0	(mention_id=8887|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=8983|references=(entity=(entity_id=6|fullname=Ottilie|gender=f)))
+68390	um	0		
+68391	so	0		
+68392	mehr	0		
+68393	werden	0		
+68394	konnte	0		
+68395	,	0		
+68396	als	0		
+68397	man	0		
+68398	es	0	(mention_id=8888|references=(entity=(entity_id=generic_0945|fullname=Kind|gender=u|specialcase_entity=generic)))	(mention_id=8984|references=(entity=(entity_id=8|fullname=das Kind|gender=u)))
+68399	keiner	0		
+68400	Amme	0		
+68401	übergeben	0		
+68402	,	0		
+68403	sondern	0		
+68404	mit	0		
+68405	Milch	0		
+68406	und	0		
+68407	Wasser	0		
+68408	aufzuziehen	0		
+68409	sich	0	(mention_id=8889|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	
+68410	entschieden	0		
+68411	hatte	0		
+68412	.	0		
+68413	Es	0	(mention_id=8890|references=(entity=(entity_id=generic_0946|fullname=Kind|gender=u|specialcase_entity=generic)))	(mention_id=8985|references=(entity=(entity_id=8|fullname=das Kind|gender=u)))
+68414	sollte	0		
+68415	in	0		
+68416	jener	0		
+68417	schönen	0		
+68418	Zeit	0		
+68419	der	0		
+68420	freien	0		
+68421	Luft	0		
+68422	genießen	0		
+68423	;	0		
+68424	und	0		
+68425	so	0		
+68426	trug	0		
+68427	sie	0	(mention_id=8891|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=8986|references=(entity=(entity_id=6|fullname=Ottilie|gender=f)))
+68428	es	0	(mention_id=8892|references=(entity=(entity_id=generic_0947|fullname=Kind|gender=u|specialcase_entity=generic)))	(mention_id=8987|references=(entity=(entity_id=8|fullname=das Kind|gender=u)))
+68429	am	0		
+68430	liebsten	0		
+68431	selbst	0		
+68432	heraus	0		
+68433	,	0		
+68434	trug	0		
+68435	das	0		
+68436	schlafende	0	(mention_id=8893|references=(entity=(entity_id=generic_0948|fullname=Kind|gender=u|specialcase_entity=generic)))	
+68437	,	0		
+68438	unbewußte	0	(mention_id=8894|references=(entity=(entity_id=generic_0949|fullname=Kind|gender=u|specialcase_entity=generic)))	
+68439	zwischen	0		
+68440	Blumen	0		
+68441	und	0		
+68442	Blüten	0		
+68443	her	0		
+68444	,	0		
+68445	die	0		
+68446	dereinst	0		
+68447	seiner	0	(mention_id=8895|references=(entity=(entity_id=generic_0950|fullname=Kind|gender=u|specialcase_entity=generic)))	(mention_id=8988|references=(entity=(entity_id=8|fullname=das Kind|gender=u)))
+68448	Kindheit	0		
+68449	so	0		
+68450	freundlich	0		
+68451	entgegenlachen	0		
+68452	sollten	0		
+68453	,	0		
+68454	zwischen	0		
+68455	jungen	0		
+68456	Sträuchen	0		
+68457	und	0		
+68458	Pflanzen	0		
+68459	,	0		
+68460	die	0		
+68461	mit	0		
+68462	ihm	0	(mention_id=8896|references=(entity=(entity_id=generic_0951|fullname=Kind|gender=u|specialcase_entity=generic)))	(mention_id=8989|references=(entity=(entity_id=8|fullname=das Kind|gender=u)))
+68463	in	0		
+68464	die	0		
+68465	Höhe	0		
+68466	zu	0		
+68467	wachsen	0		
+68468	durch	0		
+68469	ihre	0		
+68470	Jugend	0		
+68471	bestimmt	0		
+68472	schienen	0		
+68473	.	0		
+68474	Wenn	0		
+68475	sie	0	(mention_id=8897|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=8990|references=(entity=(entity_id=6|fullname=Ottilie|gender=f)))
+68476	um	0		
+68477	sich	0	(mention_id=8898|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=8991|references=(entity=(entity_id=6|fullname=Ottilie|gender=f)))
+68478	her	0		
+68479	sah	0		
+68480	,	0		
+68481	so	0		
+68482	verbarg	0		
+68483	sie	0	(mention_id=8899|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=8992|references=(entity=(entity_id=6|fullname=Ottilie|gender=f)))
+68484	sich	0	(mention_id=8900|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=8993|references=(entity=(entity_id=6|fullname=Ottilie|gender=f)))
+68485	nicht	0		
+68486	,	0		
+68487	zu	0		
+68488	welchem	0		
+68489	großen	0		
+68490	,	0		
+68491	reichen	0		
+68492	Zustande	0		
+68493	das	0		
+68494	Kind	0	(mention_id=8901|references=(entity=(entity_id=generic_0952|fullname=Kind|gender=u|specialcase_entity=generic)))	(mention_id=8994|references=(entity=(entity_id=8|fullname=das Kind|gender=u)))
+68495	geboren	0		
+68496	sei	0		
+68497	;	0		
+68498	denn	0		
+68499	fast	0		
+68500	alles	0		
+68501	,	0		
+68502	wohin	0		
+68503	das	0		
+68504	Auge	0		
+68505	blickte	0		
+68506	,	0		
+68507	sollte	0		
+68508	dereinst	0		
+68509	ihm	0	(mention_id=8902|references=(entity=(entity_id=generic_0953|fullname=Kind|gender=u|specialcase_entity=generic)))	(mention_id=8995|references=(entity=(entity_id=8|fullname=das Kind|gender=u)))
+68510	gehören	0		
+68511	.	0		
+68512	Wie	0		
+68513	wünschenswert	0		
+68514	war	0		
+68515	es	0		
+68516	zu	0		
+68517	diesem	0		
+68518	allen	0		
+68519	,	0		
+68520	daß	0		
+68521	es	0		(mention_id=8996|references=(entity=(entity_id=8|fullname=das Kind|gender=u)))
+68522	vor	0		
+68523	den	0		
+68524	Augen	0		
+68525	des	0		
+68526	Vaters	0	(mention_id=8903|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))	(mention_id=8997|references=(entity=(entity_id=1|fullname=Eduard|gender=m)))
+68527	,	0		
+68528	der	0		
+68529	Mutter	0	(mention_id=8904|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)))	(mention_id=8998|references=(entity=(entity_id=6|fullname=Ottilie|gender=f)))
+68530	aufwüchse	0		
+68531	und	0		
+68532	eine	0		
+68533	erneute	0		
+68534	,	0		
+68535	frohe	0		
+68536	Verbindung	0		
+68537	bestätigte	0		
+68538	!	0		
+68539	Ottilie	0	(mention_id=8905|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=8999|references=(entity=(entity_id=6|fullname=Ottilie|gender=f)))
+68540	fühlte	0		
+68541	dies	0		
+68542	alles	0		
+68543	so	0		
+68544	rein	0		
+68545	,	0		
+68546	daß	0		
+68547	sie	0	(mention_id=8906|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=9000|references=(entity=(entity_id=6|fullname=Ottilie|gender=f)))
+68548	sichs	0	(mention_id=8907|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=9001|references=(entity=(entity_id=6|fullname=Ottilie|gender=f)))
+68549	als	0		
+68550	entschieden	0		
+68551	wirklich	0		
+68552	dachte	0		
+68553	und	0		
+68554	sich	0	(mention_id=8908|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=9002|references=(entity=(entity_id=6|fullname=Ottilie|gender=f)))
+68555	selbst	0		
+68556	dabei	0		
+68557	gar	0		
+68558	nicht	0		
+68559	empfand	0		
+68560	.	0		
+68561	Unter	0		
+68562	diesem	0		
+68563	klaren	0		
+68564	Himmel	0		
+68565	,	0		
+68566	bei	0		
+68567	diesem	0		
+68568	hellen	0		
+68569	Sonnenschein	0		
+68570	ward	0		
+68571	es	0		
+68572	ihr	0	(mention_id=8909|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=9003|references=(entity=(entity_id=6|fullname=Ottilie|gender=f)))
+68573	auf	0		
+68574	einmal	0		
+68575	klar	0		
+68576	,	0		
+68577	daß	0		
+68578	ihre	0	(mention_id=8910|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=9004|references=(entity=(entity_id=6|fullname=Ottilie|gender=f)))
+68579	Liebe	0		
+68580	,	0		
+68581	um	0		
+68582	sich	0		
+68583	zu	0		
+68584	vollenden	0		
+68585	,	0		
+68586	völlig	0		
+68587	uneigennützig	0		
+68588	werden	0		
+68589	müsse	0		
+68590	;	0		
+68591	ja	0		
+68592	in	0		
+68593	manchen	0		
+68594	Augenblicken	0		
+68595	glaubte	0		
+68596	sie	0	(mention_id=8911|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=9005|references=(entity=(entity_id=6|fullname=Ottilie|gender=f)))
+68597	diese	0		
+68598	Höhe	0		
+68599	schon	0		
+68600	erreicht	0		
+68601	zu	0		
+68602	haben	0		
+68603	.	0		
+68604	Sie	0	(mention_id=8912|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=9006|references=(entity=(entity_id=6|fullname=Ottilie|gender=f)))
+68605	wünschte	0		
+68606	nur	0		
+68607	das	0		
+68608	Wohl	0		
+68609	ihres	0	(mention_id=8913|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=9007|references=(entity=(entity_id=6|fullname=Ottilie|gender=f)))
+68610	Freundes	0	(mention_id=8914|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))	(mention_id=9008|references=(entity=(entity_id=1|fullname=Eduard|gender=m)))
+68611	,	0		
+68612	sie	0	(mention_id=8915|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=9009|references=(entity=(entity_id=6|fullname=Ottilie|gender=f)))
+68613	glaubte	0		
+68614	sich	0	(mention_id=8916|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=9010|references=(entity=(entity_id=6|fullname=Ottilie|gender=f)))
+68615	fähig	0		
+68616	,	0		
+68617	ihm	0	(mention_id=8917|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))	(mention_id=9011|references=(entity=(entity_id=1|fullname=Eduard|gender=m)))
+68618	zu	0		
+68619	entsagen	0		
+68620	,	0		
+68621	sogar	0		
+68622	ihn	0	(mention_id=8918|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))	(mention_id=9012|references=(entity=(entity_id=1|fullname=Eduard|gender=m)))
+68623	niemals	0		
+68624	wiederzusehen	0		
+68625	,	0		
+68626	wenn	0		
+68627	sie	0	(mention_id=8919|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=9013|references=(entity=(entity_id=6|fullname=Ottilie|gender=f)))
+68628	ihn	0	(mention_id=8920|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))	(mention_id=9014|references=(entity=(entity_id=1|fullname=Eduard|gender=m)))
+68629	nur	0		
+68630	glücklich	0		
+68631	wisse	0		
+68632	.	0		
+68633	Aber	0		
+68634	ganz	0		
+68635	entschieden	0		
+68636	war	0		
+68637	sie	0	(mention_id=8921|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=9015|references=(entity=(entity_id=6|fullname=Ottilie|gender=f)))
+68638	für	0		
+68639	sich	0	(mention_id=8922|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=9016|references=(entity=(entity_id=6|fullname=Ottilie|gender=f)))
+68640	,	0		
+68641	niemals	0		
+68642	einem	0		
+68643	andern	0		
+68644	anzugehören	0		
+68645	.	0		
+68646	Daß	0		
+68647	der	0		
+68648	Herbst	0		
+68649	ebenso	0		
+68650	herrlich	0		
+68651	würde	0		
+68652	wie	0		
+68653	der	0		
+68654	Frühling	0		
+68655	,	0		
+68656	dafür	0		
+68657	war	0		
+68658	gesorgt	0		
+68659	.	0		
+68660	Alle	0		
+68661	sogenannten	0		
+68662	Sommergewächse	0		
+68663	,	0		
+68664	alles	0		
+68665	,	0		
+68666	was	0		
+68667	im	0		
+68668	Herbst	0		
+68669	mit	0		
+68670	Blühen	0		
+68671	nicht	0		
+68672	enden	0		
+68673	kann	0		
+68674	und	0		
+68675	sich	0		
+68676	der	0		
+68677	Kälte	0		
+68678	noch	0		
+68679	keck	0		
+68680	entgegenentwickelt	0		
+68681	,	0		
+68682	Astern	0		
+68683	besonders	0		
+68684	,	0		
+68685	waren	0		
+68686	in	0		
+68687	der	0		
+68688	größten	0		
+68689	Mannigfaltigkeit	0		
+68690	gesäet	0		
+68691	und	0		
+68692	sollten	0		
+68693	nun	0		
+68694	,	0		
+68695	überallhinverpflanzt	0		
+68696	,	0		
+68697	einen	0		
+68698	Sternhimmel	0		
+68699	über	0		
+68700	die	0		
+68701	Erde	0		
+68702	bilden	0		
+68703	.	0		
+68704	Aus	0		
+68705	Ottiliens	0	(mention_id=8923|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=9017|references=(entity=(entity_id=6|fullname=Ottilie|gender=f)))
+68706	Tagebuche	0		
+68707	Einen	0		
+68708	guten	0		
+68709	Gedanken	0		
+68710	,	0		
+68711	den	0		
+68712	wir	0	(mention_id=8924|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)),(entity=(entity_id=generic_0957|fullname=Menschen allgemein|gender=u|specialcase_entity=generic)))	(mention_id=9018|references=(entity=(entity_id=generic_0011|fullname=der Leser|gender=u|specialcase_entity=generic)))
+68713	gelesen	0		
+68714	,	0		
+68715	etwas	0		
+68716	Auffallendes	0		
+68717	,	0		
+68718	das	0		
+68719	wir	0	(mention_id=8925|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)),(entity=(entity_id=generic_0958|fullname=Menschen allgemein|gender=u|specialcase_entity=generic)))	(mention_id=9019|references=(entity=(entity_id=generic_0012|fullname=der Leser|gender=u|specialcase_entity=generic)))
+68720	gehört	0		
+68721	,	0		
+68722	tragen	0		
+68723	wir	0	(mention_id=8926|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)),(entity=(entity_id=generic_0959|fullname=Menschen allgemein|gender=u|specialcase_entity=generic)))	(mention_id=9020|references=(entity=(entity_id=generic_0013|fullname=der Leser|gender=u|specialcase_entity=generic)))
+68724	wohl	0		
+68725	in	0		
+68726	unser	0	(mention_id=8927|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)),(entity=(entity_id=generic_0960|fullname=Menschen allgemein|gender=u|specialcase_entity=generic)))	(mention_id=9021|references=(entity=(entity_id=generic_0014|fullname=der Leser|gender=u|specialcase_entity=generic)))
+68727	Tagebuch	0		
+68728	.	0		
+68729	Nähmen	0		
+68730	wir	0	(mention_id=8928|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)),(entity=(entity_id=generic_0961|fullname=Menschen allgemein|gender=u|specialcase_entity=generic)))	(mention_id=9022|references=(entity=(entity_id=generic_0015|fullname=der Leser|gender=u|specialcase_entity=generic)))
+68731	uns	0	(mention_id=8929|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)),(entity=(entity_id=generic_0962|fullname=Menschen allgemein|gender=u|specialcase_entity=generic)))	(mention_id=9023|references=(entity=(entity_id=generic_0016|fullname=der Leser|gender=u|specialcase_entity=generic)))
+68732	aber	0		
+68733	zugleich	0		
+68734	die	0		
+68735	Mühe	0		
+68736	,	0		
+68737	aus	0		
+68738	den	0		
+68739	Briefen	0		
+68740	unserer	0	(mention_id=8930|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)),(entity=(entity_id=generic_0963|fullname=Menschen allgemein|gender=u|specialcase_entity=generic)))	(mention_id=9024|references=(entity=(entity_id=generic_0017|fullname=der Leser|gender=u|specialcase_entity=generic)))
+68741	Freunde	0	(mention_id=8931|references=(entity=(entity_id=generic_0978|fullname=Freunde allgemein|gender=u|specialcase_entity=generic)))	(mention_id=9025|references=(entity=(entity_id=generic_0028|fullname=Freunde im Allgemeinen|gender=u|specialcase_entity=generic)))
+68742	eigentümliche	0		
+68743	Bemerkungen	0		
+68744	,	0		
+68745	originelle	0		
+68746	Ansichten	0		
+68747	,	0		
+68748	flüchtige	0		
+68749	geistreiche	0		
+68750	Worte	0		
+68751	auszuzeichnen	0		
+68752	,	0		
+68753	so	0		
+68754	würden	0		
+68755	wir	0	(mention_id=8932|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=9026|references=(entity=(entity_id=generic_0018|fullname=der Leser|gender=u|specialcase_entity=generic)))
+68756	sehr	0		
+68757	reich	0		
+68758	werden	0		
+68759	.	0		
+68760	Briefe	0		
+68761	hebt	0		
+68762	man	0		
+68763	auf	0		
+68764	,	0		
+68765	um	0		
+68766	sie	0		
+68767	nie	0		
+68768	wieder	0		
+68769	zu	0		
+68770	lesen	0		
+68771	;	0		
+68772	man	0		
+68773	zerstört	0		
+68774	sie	0		
+68775	zuletzt	0		
+68776	einmal	0		
+68777	aus	0		
+68778	Diskretion	0		
+68779	,	0		
+68780	und	0		
+68781	so	0		
+68782	verschwindet	0		
+68783	der	0		
+68784	schönste	0		
+68785	,	0		
+68786	unmittelbarste	0		
+68787	Lebenshauch	0		
+68788	unwiederbringlich	0		
+68789	für	0		
+68790	uns	0	(mention_id=8933|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)),(entity=(entity_id=generic_0964|fullname=Menschen allgemein|gender=u|specialcase_entity=generic)))	(mention_id=9027|references=(entity=(entity_id=generic_0019|fullname=der Leser|gender=u|specialcase_entity=generic)))
+68791	und	0		
+68792	andre	0		(mention_id=9028|references=(entity=(entity_id=generic_0029|fullname=andere Menschen im Allgemeinen|gender=u|specialcase_entity=generic)))
+68793	.	0		
+68794	Ich	0	(mention_id=8934|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=9029|references=(entity=(entity_id=6|fullname=Ottilie|gender=f)))
+68795	nehme	0		
+68796	mir	0	(mention_id=8935|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=9030|references=(entity=(entity_id=6|fullname=Ottilie|gender=f)))
+68797	vor	0		
+68798	,	0		
+68799	dieses	0		
+68800	Versäumnis	0		
+68801	wiedergutzumachen	0		
+68802	.	0		
+68803	So	0		
+68804	wiederholt	0		
+68805	sich	0		
+68806	denn	0		
+68807	abermals	0		
+68808	das	0		
+68809	Jahresmärchen	0		
+68810	von	0		
+68811	vorn	0		
+68812	.	0		
+68813	Wir	0	(mention_id=8936|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=9031|references=(entity=(entity_id=generic_0020|fullname=der Leser|gender=u|specialcase_entity=generic)))
+68814	sind	0		
+68815	nun	0		
+68816	wieder	0		
+68817	,	0		
+68818	Gott	0		
+68819	sei	0		
+68820	Dank	0		
+68821	!	0		
+68822	an	0		
+68823	seinem	0		
+68824	artigsten	0		
+68825	Kapitel	0		
+68826	.	0		
+68827	Veilchen	0		
+68828	und	0		
+68829	Maiblumen	0		
+68830	sind	0		
+68831	wie	0		
+68832	Überschriften	0		
+68833	oder	0		
+68834	Vignetten	0		
+68835	dazu	0		
+68836	.	0		
+68837	Es	0		
+68838	macht	0		
+68839	uns	0	(mention_id=8937|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)),(entity=(entity_id=generic_0965|fullname=Menschen allgemein|gender=u|specialcase_entity=generic)))	(mention_id=9032|references=(entity=(entity_id=generic_0021|fullname=der Leser|gender=u|specialcase_entity=generic)))
+68840	immer	0		
+68841	einen	0		
+68842	angenehmen	0		
+68843	Eindruck	0		
+68844	,	0		
+68845	wenn	0		
+68846	wir	0	(mention_id=8938|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)),(entity=(entity_id=generic_0966|fullname=Menschen allgemein|gender=u|specialcase_entity=generic)))	(mention_id=9033|references=(entity=(entity_id=generic_0022|fullname=der Leser|gender=u|specialcase_entity=generic)))
+68847	sie	0		
+68848	in	0		
+68849	dem	0		
+68850	Buche	0		
+68851	des	0		
+68852	Lebens	0		
+68853	wieder	0		
+68854	aufschlagen	0		
+68855	.	0		
+68856	Wir	0	(mention_id=8939|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)),(entity=(entity_id=generic_0967|fullname=Menschen allgemein|gender=u|specialcase_entity=generic)))	(mention_id=9034|references=(entity=(entity_id=generic_0023|fullname=der Leser|gender=u|specialcase_entity=generic)))
+68857	schelten	0		
+68858	die	0		
+68859	Armen	0	(mention_id=8940|references=(entity=(entity_id=generic_0979|fullname=Arme|gender=u|specialcase_entity=generic)))	(mention_id=9035|references=(entity=(entity_id=generic_0030|fullname=die Armen im Allgemeinen|gender=u|specialcase_entity=generic)))
+68860	,	0		
+68861	besonders	0		
+68862	die	0		
+68863	Unmündigen	0	(mention_id=8941|references=(entity=(entity_id=generic_0983|fullname=Unmündige|gender=u|specialcase_entity=generic)))	(mention_id=9036|references=(entity=(entity_id=generic_0034|fullname=die Unmündigen im Allgemeinen|gender=u|specialcase_entity=generic)))
+68864	,	0		
+68865	wenn	0		
+68866	sie	0	(mention_id=8942|references=(entity=(entity_id=generic_0980|fullname=Arme|gender=u|specialcase_entity=generic)),(entity=(entity_id=generic_0984|fullname=Unmündige|gender=u|specialcase_entity=generic)))	(mention_id=9037|references=(entity=(entity_id=generic_0031|fullname=die Armen im Allgemeinen|gender=u|specialcase_entity=generic)),(entity=(entity_id=generic_0035|fullname=die Unmündigen im Allgemeinen|gender=u|specialcase_entity=generic)))
+68867	sich	0	(mention_id=8943|references=(entity=(entity_id=generic_0981|fullname=Arme|gender=u|specialcase_entity=generic)),(entity=(entity_id=generic_0985|fullname=Unmündige|gender=u|specialcase_entity=generic)))	(mention_id=9038|references=(entity=(entity_id=generic_0032|fullname=die Armen im Allgemeinen|gender=u|specialcase_entity=generic)),(entity=(entity_id=generic_0036|fullname=die Unmündigen im Allgemeinen|gender=u|specialcase_entity=generic)))
+68868	an	0		
+68869	den	0		
+68870	Straßen	0		
+68871	herumlegen	0		
+68872	und	0		
+68873	betteln	0		
+68874	.	0		
+68875	Bemerken	0		
+68876	wir	0	(mention_id=8944|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=9039|references=(entity=(entity_id=generic_0024|fullname=der Leser|gender=u|specialcase_entity=generic)))
+68877	nicht	0		
+68878	,	0		
+68879	daß	0		
+68880	sie	0	(mention_id=8945|references=(entity=(entity_id=generic_0982|fullname=Arme|gender=u|specialcase_entity=generic)),(entity=(entity_id=generic_0986|fullname=Unmündige|gender=u|specialcase_entity=generic)))	(mention_id=9040|references=(entity=(entity_id=generic_0033|fullname=die Armen im Allgemeinen|gender=u|specialcase_entity=generic)),(entity=(entity_id=generic_0037|fullname=die Unmündigen im Allgemeinen|gender=u|specialcase_entity=generic)))
+68881	gleich	0		
+68882	tätig	0		
+68883	sind	0		
+68884	,	0		
+68885	sobald	0		
+68886	es	0		
+68887	was	0		
+68888	zu	0		
+68889	tun	0		
+68890	gibt	0		
+68891	?	0		
+68892	Kaum	0		
+68893	entfaltet	0		
+68894	die	0		
+68895	Natur	0		
+68896	ihre	0		
+68897	freundlichen	0		
+68898	Schätze	0		
+68899	,	0		
+68900	so	0		
+68901	sind	0		
+68902	die	0		
+68903	Kinder	0	(mention_id=8946|references=(entity=(entity_id=generic_0987|fullname=Kinder|gender=u|specialcase_entity=generic)))	(mention_id=9041|references=(entity=(entity_id=generic_0038|fullname=Kinder im Allgemeinen|gender=u|specialcase_entity=generic)))
+68904	dahinterher	0		
+68905	,	0		
+68906	um	0		
+68907	ein	0		
+68908	Gewerbe	0		
+68909	zu	0		
+68910	eröffnen	0		
+68911	;	0		
+68912	keines	0		
+68913	bettelt	0		
+68914	mehr	0		
+68915	,	0		
+68916	jedes	0	(mention_id=8947|references=(entity=(entity_id=generic_0954|fullname=Kind|gender=u|specialcase_entity=generic)))	
+68917	reicht	0		
+68918	dir	0	(mention_id=8948|references=(entity=(entity_id=generic_0968|fullname=Menschen allgemein|gender=u|specialcase_entity=generic)),(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=9042|references=(entity=(entity_id=generic_0025|fullname=der Leser|gender=u|specialcase_entity=generic)))
+68919	einen	0		
+68920	Strauß	0		
+68921	;	0		
+68922	es	0	(mention_id=8949|references=(entity=(entity_id=generic_0955|fullname=Kind|gender=u|specialcase_entity=generic)))	(mention_id=9043|references=(entity=(entity_id=generic_0039|fullname=ein Kind im Allgemeinen|gender=u|specialcase_entity=generic)))
+68923	hat	0		
+68924	ihn	0		
+68925	gepflückt	0		
+68926	,	0		
+68927	ehe	0		
+68928	du	0	(mention_id=8950|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)),(entity=(entity_id=generic_0969|fullname=Menschen allgemein|gender=u|specialcase_entity=generic)))	(mention_id=9044|references=(entity=(entity_id=generic_0026|fullname=der Leser|gender=u|specialcase_entity=generic)))
+68929	vom	0		
+68930	Schlaf	0		
+68931	erwachtest	0		
+68932	,	0		
+68933	und	0		
+68934	das	0		
+68935	Bittende	0	(mention_id=8951|references=(entity=(entity_id=generic_0956|fullname=Kind|gender=u|specialcase_entity=generic)))	
+68936	sieht	0		
+68937	dich	0	(mention_id=8952|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)),(entity=(entity_id=generic_0970|fullname=Menschen allgemein|gender=u|specialcase_entity=generic)))	(mention_id=9045|references=(entity=(entity_id=generic_0027|fullname=der Leser|gender=u|specialcase_entity=generic)))
+68938	so	0		
+68939	freundlich	0		
+68940	an	0		
+68941	wie	0		
+68942	die	0		
+68943	Gabe	0		
+68944	.	0		
+68945	Niemand	0		
+68946	sieht	0		
+68947	erbärmlich	0		
+68948	aus	0		
+68949	,	0		
+68950	der	0		(mention_id=9046|references=(entity=(entity_id=generic_0009|fullname=jemand im Allgemeinen|gender=u|specialcase_entity=generic)))
+68951	sich	0		(mention_id=9047|references=(entity=(entity_id=generic_0010|fullname=jemand im Allgemeinen|gender=u|specialcase_entity=generic)))
+68952	einiges	0		
+68953	Recht	0		
+68954	fühlt	0		
+68955	,	0		
+68956	fordern	0		
+68957	zu	0		
+68958	dürfen	0		
+68959	.	0		
+68960	Warum	0		
+68961	nur	0		
+68962	das	0		
+68963	Jahr	0		
+68964	manchmal	0		
+68965	so	0		
+68966	kurz	0		
+68967	,	0		
+68968	manchmal	0		
+68969	so	0		
+68970	lang	0		
+68971	ist	0		
+68972	,	0		
+68973	warum	0		
+68974	es	0		
+68975	so	0		
+68976	kurz	0		
+68977	scheint	0		
+68978	und	0		
+68979	so	0		
+68980	lang	0		
+68981	in	0		
+68982	der	0		
+68983	Erinnerung	0		
+68984	!	0		
+68985	Mir	0	(mention_id=8953|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=9048|references=(entity=(entity_id=6|fullname=Ottilie|gender=f)))
+68986	ist	0		
+68987	es	0		
+68988	mit	0		
+68989	dem	0		
+68990	vergangenen	0		
+68991	so	0		
+68992	,	0		
+68993	und	0		
+68994	nirgends	0		
+68995	auffallender	0		
+68996	als	0		
+68997	im	0		
+68998	Garten	0		
+68999	,	0		
+69000	wie	0		
+69001	Vergängliches	0		
+69002	und	0		
+69003	Dauerndes	0		
+69004	ineinandergreift	0		
+69005	.	0		
+69006	Und	0		
+69007	doch	0		
+69008	ist	0		
+69009	nichts	0		
+69010	so	0		
+69011	flüchtig	0		
+69012	,	0		
+69013	das	0		
+69014	nicht	0		
+69015	eine	0		
+69016	Spur	0		
+69017	,	0		
+69018	das	0		
+69019	nicht	0		
+69020	seinesgleichen	0		
+69021	zurücklasse	0		
+69022	.	0		
+69023	Man	0		
+69024	läßt	0		
+69025	sich	0		(mention_id=9049|references=(entity=(entity_id=generic_0040|fullname=man im Allgemeinen|gender=u|specialcase_entity=generic)))
+69026	den	0		
+69027	Winter	0		
+69028	auch	0		
+69029	gefallen	0		
+69030	.	0		
+69031	Man	0	(mention_id=8954|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)),(entity=(entity_id=generic_0971|fullname=Menschen allgemein|gender=u|specialcase_entity=generic)))	(mention_id=9050|references=(entity=(entity_id=generic_0041|fullname=man im Allgemeinen|gender=u|specialcase_entity=generic)))
+69032	glaubt	0		
+69033	sich	0	(mention_id=8955|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)),(entity=(entity_id=generic_0972|fullname=Menschen allgemein|gender=u|specialcase_entity=generic)))	
+69034	freier	0		
+69035	auszubreiten	0		
+69036	,	0		
+69037	wenn	0		
+69038	die	0		
+69039	Bäume	0		
+69040	so	0		
+69041	geisterhaft	0		
+69042	,	0		
+69043	so	0		
+69044	durchsichtig	0		
+69045	vor	0		
+69046	uns	0	(mention_id=8956|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)),(entity=(entity_id=generic_0973|fullname=Menschen allgemein|gender=u|specialcase_entity=generic)))	(mention_id=9051|references=(entity=(entity_id=generic_0042|fullname=man im Allgemeinen|gender=u|specialcase_entity=generic)))
+69047	stehen	0		
+69048	.	0		
+69049	Sie	0		
+69050	sind	0		
+69051	nichts	0		
+69052	,	0		
+69053	aber	0		
+69054	sie	0		
+69055	decken	0		
+69056	auch	0		
+69057	nichts	0		
+69058	zu	0		
+69059	.	0		
+69060	Wie	0		
+69061	aber	0		
+69062	einmal	0		
+69063	Knospen	0		
+69064	und	0		
+69065	Blüten	0		
+69066	kommen	0		
+69067	,	0		
+69068	dann	0		
+69069	wird	0		
+69070	man	0	(mention_id=8957|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)),(entity=(entity_id=generic_0974|fullname=Menschen allgemein|gender=u|specialcase_entity=generic)))	
+69071	ungeduldig	0		
+69072	,	0		
+69073	bis	0		
+69074	das	0		
+69075	volle	0		
+69076	Laub	0		
+69077	hervortritt	0		
+69078	,	0		
+69079	bis	0		
+69080	die	0		
+69081	Landschaft	0		
+69082	sich	0		
+69083	verkörpert	0		
+69084	und	0		
+69085	der	0		
+69086	Baum	0		
+69087	sich	0		
+69088	als	0		
+69089	eine	0		
+69090	Gestalt	0		
+69091	uns	0	(mention_id=8958|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)),(entity=(entity_id=generic_0975|fullname=Menschen allgemein|gender=u|specialcase_entity=generic)))	(mention_id=9052|references=(entity=(entity_id=generic_0043|fullname=man im Allgemeinen|gender=u|specialcase_entity=generic)))
+69092	entgegendrängt	0		
+69093	.	0		
+69094	Alles	0		
+69095	Vollkommene	0		
+69096	in	0		
+69097	seiner	0		
+69098	Art	0		
+69099	muß	0		
+69100	über	0		
+69101	seine	0		
+69102	Art	0		
+69103	hinausgehen	0		
+69104	,	0		
+69105	es	0		
+69106	muß	0		
+69107	etwas	0		
+69108	anderes	0		
+69109	,	0		
+69110	Unvergleichbares	0		
+69111	werden	0		
+69112	.	0		
+69113	In	0		
+69114	manchen	0		
+69115	Tönen	0		
+69116	ist	0		
+69117	die	0		
+69118	Nachtigall	0		
+69119	noch	0		
+69120	Vogel	0		
+69121	;	0		
+69122	dann	0		
+69123	steigt	0		
+69124	sie	0		
+69125	über	0		
+69126	ihre	0		
+69127	Klasse	0		
+69128	hinüber	0		
+69129	und	0		
+69130	scheint	0		
+69131	jedem	0		
+69132	Gefiederten	0		
+69133	andeuten	0		
+69134	zu	0		
+69135	wollen	0		
+69136	,	0		
+69137	was	0		
+69138	eigentlich	0		
+69139	singen	0		
+69140	heiße	0		
+69141	.	0		
+69142	Ein	0		
+69143	Leben	0		
+69144	ohne	0		
+69145	Liebe	0		
+69146	,	0		
+69147	ohne	0		
+69148	die	0		
+69149	Nähe	0		
+69150	des	0		
+69151	Geliebten	0	(mention_id=8959|references=(entity=(entity_id=generic_0988|fullname=Geliebter allgemein|gender=u|specialcase_entity=generic)))	
+69152	ist	0		
+69153	nur	0		
+69154	eine	0		
+69155	»	0		
+69156	Comédie	0		
+69157	à	0		
+69158	tiroir	0		
+69159	«	0		
+69160	,	0		
+69161	ein	0		
+69162	schlechtes	0		
+69163	Schubladenstück	0		
+69164	.	0		
+69165	Man	0	(mention_id=8960|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)),(entity=(entity_id=generic_0976|fullname=Menschen allgemein|gender=u|specialcase_entity=generic)))	
+69166	schiebt	0		
+69167	eine	0		
+69168	nach	0		
+69169	der	0		
+69170	andern	0		
+69171	heraus	0		
+69172	und	0		
+69173	wieder	0		
+69174	hinein	0		
+69175	und	0		
+69176	eilt	0		
+69177	zur	0		
+69178	folgenden	0		
+69179	.	0		
+69180	Alles	0		
+69181	,	0		
+69182	was	0		
+69183	auch	0		
+69184	Gutes	0		
+69185	und	0		
+69186	Bedeutendes	0		
+69187	vorkommt	0		
+69188	,	0		
+69189	hängt	0		
+69190	nur	0		
+69191	kümmerlich	0		
+69192	zusammen	0		
+69193	.	0		
+69194	Man	0	(mention_id=8961|references=(entity=(entity_id=generic_0977|fullname=Menschen allgemein|gender=u|specialcase_entity=generic)),(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=9053|references=(entity=(entity_id=generic_0044|fullname=man im Allgemeinen|gender=u|specialcase_entity=generic)))
+69195	muß	0		
+69196	überall	0		
+69197	von	0		
+69198	vorn	0		
+69199	anfangen	0		
+69200	und	0		
+69201	möchte	0		
+69202	überall	0		
+69203	enden	0		
+69204	.	0		
