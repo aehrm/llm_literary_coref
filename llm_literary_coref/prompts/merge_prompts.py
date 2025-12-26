@@ -10,6 +10,7 @@ import pandas
 
 from llm_literary_coref.mention import Mention, Reference, Entity
 from llm_literary_coref.prompts.prompt import Prompt
+from llm_literary_coref.util import make_generic_entity_factory, split_generics_into_singletons
 
 logger = logging.getLogger(__name__)
 
@@ -134,11 +135,6 @@ class BasicMergePrompt(MergePrompt):
 
         i = 0
         for (segment_id, _),  references in sorted(self.entities.items(), key=lambda x: x[0][0]):
-            entity = references[0][1].entity
-
-            #if 'generic' in entity.specialcase_entity:
-            #    continue
-
             str_references = [
                 ' '.join(self.tokens[mention.token_idx])
                 for mention, reference in references
@@ -197,6 +193,10 @@ class BasicMergePrompt(MergePrompt):
             entries = self.entities[(segment_id, old_entity_id)]
             for _, reference in entries:
                 reference.entity.id = f'figur_{entity_counter:04d}'
+
+        # generic entities between different segments might re-use the same ID; we split them here
+        generic_entity_factory = make_generic_entity_factory()
+        split_generics_into_singletons(self.mentions, generic_entity_factory)
 
 
         return self.mentions
