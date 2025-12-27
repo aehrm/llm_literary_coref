@@ -879,46 +879,46 @@
     },
     "muc": {
       "aggregated": {
-        "precision": 0.9170754614139687,
-        "recall": 0.916325185067726,
-        "f1": 0.9167001697243214,
+        "precision": 0.944276296334951,
+        "recall": 0.9146393370110415,
+        "f1": 0.9292215635202951,
         "support_key": 119821,
-        "support_response": 119253
+        "support_response": 114978
       },
       "Fischer_Gustav": {
-        "precision": 0.9565744784085396,
-        "recall": 0.9480174081237911,
-        "f1": 0.9522767203942274,
+        "precision": 0.9685332011892963,
+        "recall": 0.9465667311411993,
+        "f1": 0.9574239868891202,
         "support_key": 4136,
-        "support_response": 4122
+        "support_response": 4036
       },
       "Goethe_Wahlverwandtschaften": {
-        "precision": 0.885304117869286,
-        "recall": 0.9211045364891519,
-        "f1": 0.902849570803837,
+        "precision": 0.9637049455155071,
+        "recall": 0.9151873767258383,
+        "f1": 0.9388197403158732,
         "support_key": 12675,
-        "support_response": 13235
+        "support_response": 11930
       },
       "Heimburg_Trudchen": {
-        "precision": 0.9588105726872247,
-        "recall": 0.9526627218934911,
-        "f1": 0.9557267606574948,
+        "precision": 0.9713901043419724,
+        "recall": 0.9502520271751042,
+        "f1": 0.9607048062586594,
         "support_key": 9126,
-        "support_response": 9080
+        "support_response": 8913
       },
       "K\u00fcrnberger_Amerika": {
-        "precision": 0.842082143641555,
-        "recall": 0.8846118256685481,
-        "f1": 0.8628232167246985,
+        "precision": 0.9246785361028684,
+        "recall": 0.8802165263255297,
+        "f1": 0.9018998898707793,
         "support_key": 21614,
-        "support_response": 22765
+        "support_response": 20220
       },
       "Wolff_Wildfangrecht": {
-        "precision": 0.9208556958197899,
-        "recall": 0.9431905419929372,
-        "f1": 0.931889311776621,
+        "precision": 0.9316075668223941,
+        "recall": 0.9428834638415476,
+        "f1": 0.9372116005648403,
         "support_key": 13026,
-        "support_response": 13229
+        "support_response": 13057
       },
       "Fischer_Gustav_segment_0000": {
         "precision": 0.5,
@@ -1756,44 +1756,44 @@
     },
     "bcub": {
       "aggregated": {
-        "precision": 0.8384708693644063,
-        "recall": 0.8018384392147796,
-        "f1": 0.8197456049317526,
+        "precision": 0.8690094676345865,
+        "recall": 0.8013992397802332,
+        "f1": 0.8338360829093032,
         "support_key": 122614,
         "support_response": 122958
       },
       "Fischer_Gustav": {
-        "precision": 0.879380483493073,
-        "recall": 0.8598971134769111,
-        "f1": 0.8695296722282496,
+        "precision": 0.8958678722478253,
+        "recall": 0.859895223183084,
+        "f1": 0.8775130380104429,
         "support_key": 4056,
         "support_response": 4065
       },
       "Goethe_Wahlverwandtschaften": {
-        "precision": 0.8094426414572053,
-        "recall": 0.796433792359045,
-        "f1": 0.802885526006355,
+        "precision": 0.8955630165665629,
+        "recall": 0.7964168706816587,
+        "f1": 0.8430850750976245,
         "support_key": 12541,
         "support_response": 12607
       },
       "Heimburg_Trudchen": {
-        "precision": 0.8959176039151706,
-        "recall": 0.8604152650469208,
-        "f1": 0.8778076140981359,
+        "precision": 0.9112791426029898,
+        "recall": 0.8603465632278522,
+        "f1": 0.8850807209438463,
         "support_key": 8953,
         "support_response": 8977
       },
       "K\u00fcrnberger_Amerika": {
-        "precision": 0.7217220116359128,
-        "recall": 0.6978232984694788,
-        "f1": 0.7095714820126577,
+        "precision": 0.8208165290591306,
+        "recall": 0.6955837322259856,
+        "f1": 0.7530289189898509,
         "support_key": 23638,
         "support_response": 23329
       },
       "Wolff_Wildfangrecht": {
-        "precision": 0.8295346899143574,
-        "recall": 0.8399860399560288,
-        "f1": 0.8347276517392025,
+        "precision": 0.8417375242513124,
+        "recall": 0.839979590296009,
+        "f1": 0.8408576384711569,
         "support_key": 12119,
         "support_response": 12501
       },
@@ -2633,46 +2633,46 @@
     },
     "ceafe": {
       "aggregated": {
-        "precision": 0.651579362748759,
-        "recall": 0.4943808267900053,
-        "f1": 0.5621981409401128,
+        "precision": 0.6814609169734709,
+        "recall": 0.691196654863163,
+        "f1": 0.6862942599760129,
         "support_key": 16729,
-        "support_response": 12693
+        "support_response": 16968
       },
       "Fischer_Gustav": {
-        "precision": 0.6186334044573721,
-        "recall": 0.4327659690374442,
-        "f1": 0.5092707709517154,
+        "precision": 0.6284716711929066,
+        "recall": 0.6820185848819883,
+        "f1": 0.6541511588330469,
         "support_key": 223,
-        "support_response": 156
+        "support_response": 242
       },
       "Goethe_Wahlverwandtschaften": {
-        "precision": 0.5420803501807467,
-        "recall": 0.2067794763013412,
-        "f1": 0.29936467936914646,
+        "precision": 0.6749039645902513,
+        "recall": 0.7743176354307167,
+        "f1": 0.7212010116282817,
         "support_key": 1704,
-        "support_response": 650
+        "support_response": 1955
       },
       "Heimburg_Trudchen": {
-        "precision": 0.5853961131840304,
-        "recall": 0.5037487605557314,
-        "f1": 0.5415121046992304,
+        "precision": 0.5833500523007585,
+        "recall": 0.7583550679909862,
+        "f1": 0.6594391895573792,
         "support_key": 380,
-        "support_response": 327
+        "support_response": 494
       },
       "K\u00fcrnberger_Amerika": {
-        "precision": 0.5477139486483138,
-        "recall": 0.21917449406137882,
-        "f1": 0.31307011789405065,
+        "precision": 0.6947924370591634,
+        "recall": 0.636846071062549,
+        "f1": 0.664558483471941,
         "support_key": 4928,
-        "support_response": 1972
+        "support_response": 4517
       },
       "Wolff_Wildfangrecht": {
-        "precision": 0.41931610588213036,
-        "recall": 0.39576919712849024,
-        "f1": 0.4072025294899799,
+        "precision": 0.4894398051385649,
+        "recall": 0.6437771950958662,
+        "f1": 0.55609858456975,
         "support_key": 463,
-        "support_response": 437
+        "support_response": 609
       },
       "Fischer_Gustav_segment_0000": {
         "precision": 0.85,
@@ -3510,44 +3510,44 @@
     },
     "lea": {
       "aggregated": {
-        "precision": 0.8162919063230463,
-        "recall": 0.7386670217166647,
-        "f1": 0.775541913579938,
+        "precision": 0.8416951457209664,
+        "recall": 0.762819439588266,
+        "f1": 0.800318582631381,
         "support_key": 136550,
         "support_response": 131946
       },
       "Fischer_Gustav": {
-        "precision": 0.8653873746481944,
-        "recall": 0.8207499210104543,
-        "f1": 0.8424777996604381,
+        "precision": 0.8799580463016151,
+        "recall": 0.8358892485551028,
+        "f1": 0.8573577290798426,
         "support_key": 4359,
         "support_response": 4278
       },
       "Goethe_Wahlverwandtschaften": {
-        "precision": 0.7947655302250656,
-        "recall": 0.6879655699752778,
-        "f1": 0.7375191913410497,
+        "precision": 0.8651569083533839,
+        "recall": 0.7564510936045112,
+        "f1": 0.8071604095111118,
         "support_key": 14379,
         "support_response": 13885
       },
       "Heimburg_Trudchen": {
-        "precision": 0.8876629015768709,
-        "recall": 0.8369095098548321,
-        "f1": 0.8615393809509951,
+        "precision": 0.8974499201286391,
+        "recall": 0.8471418924266767,
+        "f1": 0.8715705510303597,
         "support_key": 9506,
         "support_response": 9407
       },
       "K\u00fcrnberger_Amerika": {
-        "precision": 0.6998306375751114,
-        "recall": 0.5636506826545552,
-        "f1": 0.6244018178916678,
+        "precision": 0.7847085812097645,
+        "recall": 0.640098473428931,
+        "f1": 0.7050649605975234,
         "support_key": 26542,
         "support_response": 24737
       },
       "Wolff_Wildfangrecht": {
-        "precision": 0.8156479294699394,
-        "recall": 0.8066793346080736,
-        "f1": 0.8111388418207881,
+        "precision": 0.8244614836735125,
+        "recall": 0.8156437275114644,
+        "f1": 0.8200289019839628,
         "support_key": 13489,
         "support_response": 13666
       },
@@ -4387,44 +4387,44 @@
     },
     "ceafm": {
       "aggregated": {
-        "precision": 0.8436102648052991,
-        "recall": 0.81516660563896,
-        "f1": 0.8291445682617246,
+        "precision": 0.8663165234262501,
+        "recall": 0.8371072867081655,
+        "f1": 0.8514614742863954,
         "support_key": 136550,
         "support_response": 131946
       },
       "Fischer_Gustav": {
-        "precision": 0.8999532491818607,
-        "recall": 0.8832300986464785,
-        "f1": 0.8915132569179113,
+        "precision": 0.9093034128097242,
+        "recall": 0.8924065152557926,
+        "f1": 0.9007757323144611,
         "support_key": 4359,
         "support_response": 4278
       },
       "Goethe_Wahlverwandtschaften": {
-        "precision": 0.8055455527547714,
-        "recall": 0.7778705055984422,
-        "f1": 0.7914661760543448,
+        "precision": 0.8698595606769896,
+        "recall": 0.8399749634884206,
+        "f1": 0.8546560996320408,
         "support_key": 14379,
         "support_response": 13885
       },
       "Heimburg_Trudchen": {
-        "precision": 0.9129371744445626,
-        "recall": 0.9034294130023143,
-        "f1": 0.9081584095595622,
+        "precision": 0.921760391198044,
+        "recall": 0.9121607405848937,
+        "f1": 0.9169354412308994,
         "support_key": 9506,
         "support_response": 9407
       },
       "K\u00fcrnberger_Amerika": {
-        "precision": 0.7160124509843554,
-        "recall": 0.6673197196895486,
-        "f1": 0.6908091031416369,
+        "precision": 0.7920119658810688,
+        "recall": 0.7381508552482857,
+        "f1": 0.7641334659412234,
         "support_key": 26542,
         "support_response": 24737
       },
       "Wolff_Wildfangrecht": {
-        "precision": 0.863895799795112,
-        "recall": 0.8752316702498332,
-        "f1": 0.8695267906462899,
+        "precision": 0.8712132299136544,
+        "recall": 0.8826451182444955,
+        "f1": 0.8768919167740747,
         "support_key": 13489,
         "support_response": 13666
       },
@@ -6143,46 +6143,46 @@
     },
     "muc": {
       "aggregated": {
-        "precision": 0.8928244386652504,
-        "recall": 0.9308320206215094,
-        "f1": 0.9114321637399567,
+        "precision": 0.9275509912722358,
+        "recall": 0.930402405842761,
+        "f1": 0.9289745105141747,
         "support_key": 104745,
-        "support_response": 109204
+        "support_response": 105067
       },
       "Fischer_Gustav": {
-        "precision": 0.9406145107152079,
-        "recall": 0.9581799053129931,
-        "f1": 0.9493159609120522,
+        "precision": 0.9599367422245652,
+        "recall": 0.9579168858495528,
+        "f1": 0.9589257503949445,
         "support_key": 3802,
-        "support_response": 3873
+        "support_response": 3794
       },
       "Goethe_Wahlverwandtschaften": {
-        "precision": 0.8501642381874842,
-        "recall": 0.9350625289485873,
-        "f1": 0.8905946709017117,
+        "precision": 0.9478334429927625,
+        "recall": 0.9341361741547013,
+        "f1": 0.9409349631426706,
         "support_key": 10795,
-        "support_response": 11873
+        "support_response": 10639
       },
       "Heimburg_Trudchen": {
-        "precision": 0.9469036830486813,
-        "recall": 0.9569097099917812,
-        "f1": 0.9518804017752862,
+        "precision": 0.9651658767772512,
+        "recall": 0.9564400610543619,
+        "f1": 0.9607831573981246,
         "support_key": 8517,
-        "support_response": 8607
+        "support_response": 8440
       },
       "K\u00fcrnberger_Amerika": {
-        "precision": 0.7923109660944815,
-        "recall": 0.9046487770638735,
-        "f1": 0.8447615206211556,
+        "precision": 0.8962597792305219,
+        "recall": 0.9030829868797581,
+        "f1": 0.8996584460640616,
         "support_key": 18521,
-        "support_response": 21147
+        "support_response": 18662
       },
       "Wolff_Wildfangrecht": {
-        "precision": 0.9096158674366056,
-        "recall": 0.942344373157621,
-        "f1": 0.9256909253502534,
+        "precision": 0.9228156576377685,
+        "recall": 0.9422576729668806,
+        "f1": 0.9324353309596327,
         "support_key": 11534,
-        "support_response": 11949
+        "support_response": 11777
       },
       "Fischer_Gustav_segment_0000": {
         "precision": 0.5,
@@ -7020,44 +7020,44 @@
     },
     "bcub": {
       "aggregated": {
-        "precision": 0.8283689897728982,
-        "recall": 0.8387033073423654,
-        "f1": 0.8335041169175489,
+        "precision": 0.8587486872841137,
+        "recall": 0.8382230711806726,
+        "f1": 0.8483617460774587,
         "support_key": 122614,
         "support_response": 122958
       },
       "Fischer_Gustav": {
-        "precision": 0.876804169121606,
-        "recall": 0.8774923157915616,
-        "f1": 0.8771481074891359,
+        "precision": 0.8933232343122589,
+        "recall": 0.8774920284392032,
+        "f1": 0.885336865360589,
         "support_key": 4056,
         "support_response": 4065
       },
       "Goethe_Wahlverwandtschaften": {
-        "precision": 0.8032995332050247,
-        "recall": 0.8353912831071818,
-        "f1": 0.819031169374287,
+        "precision": 0.8879558510686228,
+        "recall": 0.8353903308800278,
+        "f1": 0.8608714139979753,
         "support_key": 12541,
         "support_response": 12607
       },
       "Heimburg_Trudchen": {
-        "precision": 0.8907662619784097,
-        "recall": 0.8765915303577818,
-        "f1": 0.8836220534004943,
+        "precision": 0.9066161869349424,
+        "recall": 0.876527504680651,
+        "f1": 0.8913179883076814,
         "support_key": 8953,
         "support_response": 8977
       },
       "K\u00fcrnberger_Amerika": {
-        "precision": 0.7038388781343049,
-        "recall": 0.7525087992701714,
-        "f1": 0.7273605846763888,
+        "precision": 0.8026772303766484,
+        "recall": 0.7500432099889696,
+        "f1": 0.7754681278170003,
         "support_key": 23638,
         "support_response": 23329
       },
       "Wolff_Wildfangrecht": {
-        "precision": 0.8284669549365663,
-        "recall": 0.8609288532478048,
-        "f1": 0.844386024887542,
+        "precision": 0.8407003723816685,
+        "recall": 0.8609275537980566,
+        "f1": 0.8506937432516251,
         "support_key": 12119,
         "support_response": 12501
       },
@@ -7897,46 +7897,46 @@
     },
     "ceafe": {
       "aggregated": {
-        "precision": 0.6750898395682731,
-        "recall": 0.5196253653490418,
-        "f1": 0.5872425546862744,
+        "precision": 0.7000112793276793,
+        "recall": 0.7008731209609665,
+        "f1": 0.7004419350364379,
         "support_key": 17869,
-        "support_response": 13754
+        "support_response": 17891
       },
       "Fischer_Gustav": {
-        "precision": 0.6553042059170554,
-        "recall": 0.49534806116564817,
-        "f1": 0.5642081055429357,
+        "precision": 0.65743628388524,
+        "recall": 0.7014379249326773,
+        "f1": 0.6787246968872382,
         "support_key": 254,
-        "support_response": 192
+        "support_response": 271
       },
       "Goethe_Wahlverwandtschaften": {
-        "precision": 0.564994010577009,
-        "recall": 0.23751752792870828,
-        "f1": 0.3344400030351005,
+        "precision": 0.6871861337300443,
+        "recall": 0.7745603156819745,
+        "f1": 0.7282618800111617,
         "support_key": 1746,
-        "support_response": 734
+        "support_response": 1968
       },
       "Heimburg_Trudchen": {
-        "precision": 0.6178704626189085,
-        "recall": 0.524339612772927,
-        "f1": 0.5672756108411816,
+        "precision": 0.6066340186115325,
+        "recall": 0.7471616238403509,
+        "f1": 0.6696042507592866,
         "support_key": 436,
-        "support_response": 370
+        "support_response": 537
       },
       "K\u00fcrnberger_Amerika": {
-        "precision": 0.577965725023724,
-        "recall": 0.24645714520261203,
-        "f1": 0.3455599978084027,
+        "precision": 0.7065214751088342,
+        "recall": 0.644388455019138,
+        "f1": 0.6740261088170338,
         "support_key": 5117,
-        "support_response": 2182
+        "support_response": 4667
       },
       "Wolff_Wildfangrecht": {
-        "precision": 0.4920807538733797,
-        "recall": 0.46432235237283004,
-        "f1": 0.4777987267161048,
+        "precision": 0.5344699988908848,
+        "recall": 0.6614637251230778,
+        "f1": 0.5912242615691375,
         "support_key": 585,
-        "support_response": 552
+        "support_response": 724
       },
       "Fischer_Gustav_segment_0000": {
         "precision": 0.85,
@@ -8774,44 +8774,44 @@
     },
     "lea": {
       "aggregated": {
-        "precision": 0.8036399463150378,
-        "recall": 0.7800063695247353,
-        "f1": 0.7916468098469878,
+        "precision": 0.8306025468100995,
+        "recall": 0.8063638860701571,
+        "f1": 0.8183037647841062,
         "support_key": 122614,
         "support_response": 122958
       },
       "Fischer_Gustav": {
-        "precision": 0.8650488650248622,
-        "recall": 0.8503155570763458,
-        "f1": 0.8576189386752682,
+        "precision": 0.8798910134463465,
+        "recall": 0.8653547172881904,
+        "f1": 0.8725623283602795,
         "support_key": 4056,
         "support_response": 4065
       },
       "Goethe_Wahlverwandtschaften": {
-        "precision": 0.7828783091879868,
-        "recall": 0.7355143141833048,
-        "f1": 0.7584575870671665,
+        "precision": 0.8587126406154411,
+        "recall": 0.8118230655992098,
+        "f1": 0.8346097910745824,
         "support_key": 12541,
         "support_response": 12607
       },
       "Heimburg_Trudchen": {
-        "precision": 0.8803095064800699,
-        "recall": 0.8542724785287055,
-        "f1": 0.8670955774619166,
+        "precision": 0.8911018406543804,
+        "recall": 0.8651438667983009,
+        "f1": 0.8779310194050229,
         "support_key": 8953,
         "support_response": 8977
       },
       "K\u00fcrnberger_Amerika": {
-        "precision": 0.6750696243792782,
-        "recall": 0.6115645666156396,
-        "f1": 0.6417498697895657,
+        "precision": 0.7642783669440104,
+        "recall": 0.6959836368505337,
+        "f1": 0.7285339699446427,
         "support_key": 23638,
         "support_response": 23329
       },
       "Wolff_Wildfangrecht": {
-        "precision": 0.8144086128842031,
-        "recall": 0.8372967845202106,
-        "f1": 0.8256941146103759,
+        "precision": 0.8240764108889341,
+        "recall": 0.8472797968961596,
+        "f1": 0.8355170379510998,
         "support_key": 12119,
         "support_response": 12501
       },
@@ -9651,44 +9651,44 @@
     },
     "ceafm": {
       "aggregated": {
-        "precision": 0.8406285072951739,
-        "recall": 0.8429869346077936,
-        "f1": 0.8418060690958252,
+        "precision": 0.8645797752077945,
+        "recall": 0.8670053990572039,
+        "f1": 0.8657908882120111,
         "support_key": 122614,
         "support_response": 122958
       },
       "Fischer_Gustav": {
-        "precision": 0.8991389913899139,
-        "recall": 0.9011341222879684,
-        "f1": 0.9001354512991011,
+        "precision": 0.9087330873308733,
+        "recall": 0.9107495069033531,
+        "f1": 0.9097401797808151,
         "support_key": 4056,
         "support_response": 4065
       },
       "Goethe_Wahlverwandtschaften": {
-        "precision": 0.7983659871499961,
-        "recall": 0.8025675783430348,
-        "f1": 0.8004612692858278,
+        "precision": 0.8668200206234632,
+        "recall": 0.871381867474683,
+        "f1": 0.8690949578495308,
         "support_key": 12541,
         "support_response": 12607
       },
       "Heimburg_Trudchen": {
-        "precision": 0.909212431770079,
-        "recall": 0.9116497263487099,
-        "f1": 0.9104294478527607,
+        "precision": 0.9185696780661691,
+        "recall": 0.9210320562939797,
+        "f1": 0.9197992191857222,
         "support_key": 8953,
         "support_response": 8977
       },
       "K\u00fcrnberger_Amerika": {
-        "precision": 0.7137897038021347,
-        "recall": 0.7044589220746256,
-        "f1": 0.7090936189239252,
+        "precision": 0.7934330661408547,
+        "recall": 0.7830611726880446,
+        "f1": 0.7882130006174548,
         "support_key": 23638,
         "support_response": 23329
       },
       "Wolff_Wildfangrecht": {
-        "precision": 0.8666506679465643,
-        "recall": 0.8939681491872267,
-        "f1": 0.8800974817221772,
+        "precision": 0.8747300215982722,
+        "recall": 0.9023021701460516,
+        "f1": 0.8883021933387492,
         "support_key": 12119,
         "support_response": 12501
       },
@@ -11407,11 +11407,11 @@
     },
     "muc": {
       "aggregated": {
-        "precision": 0.9544456982416235,
-        "recall": 0.9394833629007832,
-        "f1": 0.9469054281783406,
+        "precision": 0.9543532338308458,
+        "recall": 0.9394747090130241,
+        "f1": 0.946855526170456,
         "support_key": 115555,
-        "support_response": 112547
+        "support_response": 112560
       },
       "Fischer_Gustav": {
         "precision": 0.9712140175219024,
@@ -11435,11 +11435,11 @@
         "support_response": 8894
       },
       "K\u00fcrnberger_Amerika": {
-        "precision": 0.946773775589531,
-        "recall": 0.9196820852051143,
-        "f1": 0.933031311847883,
+        "precision": 0.9462399005593536,
+        "recall": 0.9196327195537345,
+        "f1": 0.9327466020149998,
         "support_key": 20257,
-        "support_response": 19295
+        "support_response": 19308
       },
       "Wolff_Wildfangrecht": {
         "precision": 0.9355509355509356,
@@ -12284,9 +12284,9 @@
     },
     "bcub": {
       "aggregated": {
-        "precision": 0.8791963310040439,
-        "recall": 0.8353271868246254,
-        "f1": 0.8567005237399488,
+        "precision": 0.87938909728368,
+        "recall": 0.8348393912055414,
+        "f1": 0.8565353609962645,
         "support_key": 110074,
         "support_response": 110754
       },
@@ -12312,9 +12312,9 @@
         "support_response": 8737
       },
       "K\u00fcrnberger_Amerika": {
-        "precision": 0.830361625282605,
-        "recall": 0.7341324536136381,
-        "f1": 0.7792875992031868,
+        "precision": 0.8314557490224099,
+        "recall": 0.7313842902921595,
+        "f1": 0.7782161419089285,
         "support_key": 19538,
         "support_response": 19513
       },
@@ -13161,11 +13161,11 @@
     },
     "ceafe": {
       "aggregated": {
-        "precision": 0.5996589717353109,
-        "recall": 0.7336633993369823,
-        "f1": 0.6599271851899251,
+        "precision": 0.6001539806104924,
+        "recall": 0.7328584315753508,
+        "f1": 0.659900689465733,
         "support_key": 5531,
-        "support_response": 6767
+        "support_response": 6754
       },
       "Fischer_Gustav": {
         "precision": 0.6584238764902653,
@@ -13189,11 +13189,11 @@
         "support_response": 273
       },
       "K\u00fcrnberger_Amerika": {
-        "precision": 0.540590876776986,
-        "recall": 0.6871994856762021,
-        "f1": 0.6051420239854765,
+        "precision": 0.5423066693875908,
+        "recall": 0.6834612180946883,
+        "f1": 0.6047565458772465,
         "support_key": 1191,
-        "support_response": 1514
+        "support_response": 1501
       },
       "Wolff_Wildfangrecht": {
         "precision": 0.3755561651271044,
@@ -14038,9 +14038,9 @@
     },
     "lea": {
       "aggregated": {
-        "precision": 0.8654134767445437,
-        "recall": 0.812447489279033,
-        "f1": 0.8380944793484916,
+        "precision": 0.8656025899988417,
+        "recall": 0.8119954703652801,
+        "f1": 0.8379425308383552,
         "support_key": 121086,
         "support_response": 119314
       },
@@ -14066,9 +14066,9 @@
         "support_response": 9167
       },
       "K\u00fcrnberger_Amerika": {
-        "precision": 0.8133947144297522,
-        "recall": 0.7048656638699612,
-        "f1": 0.755251225111883,
+        "precision": 0.8144790461527237,
+        "recall": 0.7023137633575277,
+        "f1": 0.7542491505666685,
         "support_key": 21448,
         "support_response": 20809
       },
@@ -14915,9 +14915,9 @@
     },
     "ceafm": {
       "aggregated": {
-        "precision": 0.8876913019427729,
-        "recall": 0.8747006260013545,
-        "f1": 0.8811480865224627,
+        "precision": 0.8872890021288365,
+        "recall": 0.8743042135341823,
+        "f1": 0.8807487520798668,
         "support_key": 121086,
         "support_response": 119314
       },
@@ -14943,9 +14943,9 @@
         "support_response": 9167
       },
       "K\u00fcrnberger_Amerika": {
-        "precision": 0.8163294728242587,
-        "recall": 0.7920085788884744,
-        "f1": 0.8039851385569255,
+        "precision": 0.8140227786054112,
+        "recall": 0.7897706079820962,
+        "f1": 0.8017133256028587,
         "support_key": 21448,
         "support_response": 20809
       },
@@ -15794,46 +15794,46 @@
   "clusters_nosingletons": {
     "mentions": {
       "aggregated": {
-        "precision": 0.9618151784894925,
-        "recall": 0.9699058864900381,
-        "f1": 0.9658435891646815,
-        "support_key": 108061,
-        "support_response": 108970
+        "precision": 0.9658883060210761,
+        "recall": 0.9696876485556891,
+        "f1": 0.9677842484231678,
+        "support_key": 107283,
+        "support_response": 107705
       },
       "Fischer_Gustav": {
-        "precision": 0.9754350051177073,
-        "recall": 0.9807049138152817,
-        "f1": 0.9780628608082104,
-        "support_key": 3887,
-        "support_response": 3908
+        "precision": 0.979026411185914,
+        "recall": 0.9805497925311203,
+        "f1": 0.9797875097175434,
+        "support_key": 3856,
+        "support_response": 3862
       },
       "Goethe_Wahlverwandtschaften": {
-        "precision": 0.9646310888252149,
-        "recall": 0.9765228426395939,
-        "f1": 0.9705405405405405,
-        "support_key": 11032,
-        "support_response": 11168
+        "precision": 0.9812180381218039,
+        "recall": 0.9760451350351461,
+        "f1": 0.9786247507766497,
+        "support_key": 10812,
+        "support_response": 10755
       },
       "Heimburg_Trudchen": {
-        "precision": 0.9785467128027682,
-        "recall": 0.9802426343154246,
-        "f1": 0.9793939393939394,
-        "support_key": 8655,
-        "support_response": 8670
+        "precision": 0.981462049667716,
+        "recall": 0.9800908138316451,
+        "f1": 0.9807759524641734,
+        "support_key": 8589,
+        "support_response": 8577
       },
       "K\u00fcrnberger_Amerika": {
-        "precision": 0.9487429952187548,
-        "recall": 0.9555716652858326,
-        "f1": 0.9521450868095865,
-        "support_key": 19312,
-        "support_response": 19451
+        "precision": 0.9592834741933769,
+        "recall": 0.9546151811690029,
+        "f1": 0.9569436343390423,
+        "support_key": 18905,
+        "support_response": 18813
       },
       "Wolff_Wildfangrecht": {
-        "precision": 0.9442198201171714,
-        "recall": 0.9754496632853125,
-        "f1": 0.9595807127882601,
-        "support_key": 11731,
-        "support_response": 12119
+        "precision": 0.9456160743938891,
+        "recall": 0.975336130855528,
+        "f1": 0.9602461953543274,
+        "support_key": 11677,
+        "support_response": 12044
       },
       "Fischer_Gustav_segment_0000": {
         "precision": 0.6666666666666666,
@@ -16671,46 +16671,46 @@
     },
     "muc": {
       "aggregated": {
-        "precision": 0.950914766246054,
-        "recall": 0.9407266933374898,
-        "f1": 0.9457932941408285,
-        "support_key": 115482,
-        "support_response": 113089
+        "precision": 0.9577502475048832,
+        "recall": 0.9468711560103641,
+        "f1": 0.9522796313749409,
+        "support_key": 114627,
+        "support_response": 112119
       },
       "Fischer_Gustav": {
-        "precision": 0.9691004236232246,
-        "recall": 0.9541891229789319,
-        "f1": 0.9615869695015158,
-        "support_key": 4082,
-        "support_response": 4013
+        "precision": 0.9721874216988223,
+        "recall": 0.9652949925632127,
+        "f1": 0.9687289475153845,
+        "support_key": 4034,
+        "support_response": 3991
       },
       "Goethe_Wahlverwandtschaften": {
-        "precision": 0.9518152363545734,
-        "recall": 0.9352803171264461,
-        "f1": 0.9434753364357842,
-        "support_key": 12361,
-        "support_response": 12037
+        "precision": 0.9738461538461538,
+        "recall": 0.9516488966030251,
+        "f1": 0.9626195793674961,
+        "support_key": 12099,
+        "support_response": 11700
       },
       "Heimburg_Trudchen": {
-        "precision": 0.9694425789120215,
-        "recall": 0.9595043151139633,
-        "f1": 0.9644478451968861,
-        "support_key": 9038,
-        "support_response": 8934
+        "precision": 0.9757445848375451,
+        "recall": 0.9656748021843308,
+        "f1": 0.9706835784624943,
+        "support_key": 8973,
+        "support_response": 8864
       },
       "K\u00fcrnberger_Amerika": {
-        "precision": 0.9309801929913661,
-        "recall": 0.9113540954798399,
-        "f1": 0.9210626073700781,
-        "support_key": 20486,
-        "support_response": 19690
+        "precision": 0.9511610954909924,
+        "recall": 0.928329346092504,
+        "f1": 0.9396065425710288,
+        "support_key": 20064,
+        "support_response": 19206
       },
       "Wolff_Wildfangrecht": {
-        "precision": 0.9335022652230669,
-        "recall": 0.9499032133178474,
-        "f1": 0.9416313284400566,
-        "support_key": 12915,
-        "support_response": 13023
+        "precision": 0.9369119234922104,
+        "recall": 0.9541106012289026,
+        "f1": 0.9454330521562824,
+        "support_key": 12857,
+        "support_response": 12966
       },
       "Fischer_Gustav_segment_0000": {
         "precision": 0.5,
@@ -17548,46 +17548,46 @@
     },
     "bcub": {
       "aggregated": {
-        "precision": 0.8775743379392699,
-        "recall": 0.8354336222334634,
-        "f1": 0.8559856404284416,
-        "support_key": 108061,
-        "support_response": 108970
+        "precision": 0.8861679960481424,
+        "recall": 0.8440335939850744,
+        "f1": 0.8645877600478975,
+        "support_key": 107283,
+        "support_response": 107705
       },
       "Fischer_Gustav": {
-        "precision": 0.8994306602090965,
-        "recall": 0.8745774154234442,
-        "f1": 0.886829945097962,
-        "support_key": 3887,
-        "support_response": 3908
+        "precision": 0.9058349607754842,
+        "recall": 0.8863587480414865,
+        "f1": 0.8959910279956947,
+        "support_key": 3856,
+        "support_response": 3862
       },
       "Goethe_Wahlverwandtschaften": {
-        "precision": 0.8890846245931608,
-        "recall": 0.8160031953882348,
-        "f1": 0.8509777457051853,
-        "support_key": 11032,
-        "support_response": 11168
+        "precision": 0.9188886162643449,
+        "recall": 0.8427128119505918,
+        "f1": 0.8791537033052782,
+        "support_key": 10812,
+        "support_response": 10755
       },
       "Heimburg_Trudchen": {
-        "precision": 0.9129149654048866,
-        "recall": 0.873321125438443,
-        "f1": 0.8926792254439126,
-        "support_key": 8655,
-        "support_response": 8670
+        "precision": 0.9205522581688624,
+        "recall": 0.8835459828258947,
+        "f1": 0.9016695778583911,
+        "support_key": 8589,
+        "support_response": 8577
       },
       "K\u00fcrnberger_Amerika": {
-        "precision": 0.8167880551880656,
-        "recall": 0.718743084934241,
-        "f1": 0.7646354426606411,
-        "support_key": 19312,
-        "support_response": 19451
+        "precision": 0.8397753473216372,
+        "recall": 0.7393973427865489,
+        "f1": 0.786396148105539,
+        "support_key": 18905,
+        "support_response": 18813
       },
       "Wolff_Wildfangrecht": {
-        "precision": 0.8444209892327829,
-        "recall": 0.849861455030937,
-        "f1": 0.8471324872635383,
-        "support_key": 11731,
-        "support_response": 12119
+        "precision": 0.8485821722681669,
+        "recall": 0.8552440811306851,
+        "f1": 0.851900102768845,
+        "support_key": 11677,
+        "support_response": 12044
       },
       "Fischer_Gustav_segment_0000": {
         "precision": 0.4444444444444444,
@@ -18425,46 +18425,46 @@
     },
     "ceafe": {
       "aggregated": {
-        "precision": 0.5967229972205388,
-        "recall": 0.7540687134203673,
-        "f1": 0.6662317206091546,
-        "support_key": 3508,
-        "support_response": 4433
+        "precision": 0.6402270144494294,
+        "recall": 0.7621396186522816,
+        "f1": 0.695884173405012,
+        "support_key": 3445,
+        "support_response": 4101
       },
       "Fischer_Gustav": {
-        "precision": 0.48882259948642875,
-        "recall": 0.7416618750828574,
-        "f1": 0.5892655993809004,
-        "support_key": 58,
-        "support_response": 88
+        "precision": 0.6924081539676722,
+        "recall": 0.7652932228063746,
+        "f1": 0.7270285616660559,
+        "support_key": 57,
+        "support_response": 63
       },
       "Goethe_Wahlverwandtschaften": {
-        "precision": 0.4255651717588666,
-        "recall": 0.6311347886254378,
-        "f1": 0.5083543007358475,
-        "support_key": 236,
-        "support_response": 350
+        "precision": 0.5803538546715276,
+        "recall": 0.6678044355124426,
+        "f1": 0.6210155897122078,
+        "support_key": 219,
+        "support_response": 252
       },
       "Heimburg_Trudchen": {
-        "precision": 0.5667194543848066,
-        "recall": 0.7914530311236092,
-        "f1": 0.6604931770527962,
-        "support_key": 116,
-        "support_response": 162
+        "precision": 0.6413147245560996,
+        "recall": 0.8331097823672696,
+        "f1": 0.7247377781568931,
+        "support_key": 107,
+        "support_response": 139
       },
       "K\u00fcrnberger_Amerika": {
-        "precision": 0.48239781642452184,
-        "recall": 0.6909848240618988,
-        "f1": 0.5681515284251386,
-        "support_key": 747,
-        "support_response": 1070
+        "precision": 0.5569635245742184,
+        "recall": 0.7026309079243986,
+        "f1": 0.621374272314094,
+        "support_key": 715,
+        "support_response": 902
       },
       "Wolff_Wildfangrecht": {
-        "precision": 0.40629873996517624,
-        "recall": 0.7307531294337702,
-        "f1": 0.5222348842740054,
-        "support_key": 139,
-        "support_response": 250
+        "precision": 0.43282891236340776,
+        "recall": 0.7438245012467452,
+        "f1": 0.5472278347046898,
+        "support_key": 135,
+        "support_response": 232
       },
       "Fischer_Gustav_segment_0000": {
         "precision": 0.8,
@@ -19302,46 +19302,46 @@
     },
     "lea": {
       "aggregated": {
-        "precision": 0.869776891956155,
-        "recall": 0.8168397109672404,
-        "f1": 0.8424775420804026,
-        "support_key": 118990,
-        "support_response": 117522
+        "precision": 0.8794817763176985,
+        "recall": 0.8265203414554152,
+        "f1": 0.8521789867585535,
+        "support_key": 118072,
+        "support_response": 116220
       },
       "Fischer_Gustav": {
-        "precision": 0.8906650889063095,
-        "recall": 0.8584091978745495,
-        "f1": 0.8742397167704979,
-        "support_key": 4140,
-        "support_response": 4101
+        "precision": 0.9007211779033972,
+        "recall": 0.8753301745521839,
+        "f1": 0.887844177238392,
+        "support_key": 4091,
+        "support_response": 4054
       },
       "Goethe_Wahlverwandtschaften": {
-        "precision": 0.8803386868201263,
-        "recall": 0.7865271531441027,
-        "f1": 0.830793054301372,
-        "support_key": 12597,
-        "support_response": 12387
+        "precision": 0.9117232192606742,
+        "recall": 0.8165465086998172,
+        "f1": 0.8615141485656804,
+        "support_key": 12318,
+        "support_response": 11952
       },
       "Heimburg_Trudchen": {
-        "precision": 0.9093022171449773,
-        "recall": 0.8658435795005971,
-        "f1": 0.8870409270364077,
-        "support_key": 9154,
-        "support_response": 9096
+        "precision": 0.9183540529356087,
+        "recall": 0.8773377056811655,
+        "f1": 0.8973774412443306,
+        "support_key": 9080,
+        "support_response": 9003
       },
       "K\u00fcrnberger_Amerika": {
-        "precision": 0.8051995840208684,
-        "recall": 0.6945681763203697,
-        "f1": 0.7458034789600312,
-        "support_key": 21233,
-        "support_response": 20760
+        "precision": 0.8316955214228855,
+        "recall": 0.717080994449854,
+        "f1": 0.7701473330325436,
+        "support_key": 20779,
+        "support_response": 20108
       },
       "Wolff_Wildfangrecht": {
-        "precision": 0.8363468555080543,
-        "recall": 0.8328288043858844,
-        "f1": 0.834584122523001,
-        "support_key": 13054,
-        "support_response": 13273
+        "precision": 0.8410742900306919,
+        "recall": 0.8385657799557513,
+        "f1": 0.8398181617874948,
+        "support_key": 12992,
+        "support_response": 13198
       },
       "Fischer_Gustav_segment_0000": {
         "precision": 0.3333333333333333,
@@ -20179,46 +20179,46 @@
     },
     "ceafm": {
       "aggregated": {
-        "precision": 0.888072020557853,
-        "recall": 0.877115724010421,
-        "f1": 0.8825598701122987,
-        "support_key": 118990,
-        "support_response": 117522
+        "precision": 0.8968421958354844,
+        "recall": 0.8827749169997967,
+        "f1": 0.8897529578474723,
+        "support_key": 118072,
+        "support_response": 116220
       },
       "Fischer_Gustav": {
-        "precision": 0.9168495488905145,
-        "recall": 0.9082125603864735,
-        "f1": 0.91251061764349,
-        "support_key": 4140,
-        "support_response": 4101
+        "precision": 0.9272323630981747,
+        "recall": 0.9188462478611586,
+        "f1": 0.9230202578268877,
+        "support_key": 4091,
+        "support_response": 4054
       },
       "Goethe_Wahlverwandtschaften": {
-        "precision": 0.8758375716476952,
-        "recall": 0.861236802413273,
-        "f1": 0.8684758245276978,
-        "support_key": 12597,
-        "support_response": 12387
+        "precision": 0.9055388219544847,
+        "recall": 0.878632894950479,
+        "f1": 0.8918829831067162,
+        "support_key": 12318,
+        "support_response": 11952
       },
       "Heimburg_Trudchen": {
-        "precision": 0.9302990325417766,
-        "recall": 0.9244046318549268,
-        "f1": 0.9273424657534247,
-        "support_key": 9154,
-        "support_response": 9096
+        "precision": 0.9386871042985672,
+        "recall": 0.930726872246696,
+        "f1": 0.9346900403694078,
+        "support_key": 9080,
+        "support_response": 9003
       },
       "K\u00fcrnberger_Amerika": {
-        "precision": 0.8032273603082851,
-        "recall": 0.7853341496726793,
-        "f1": 0.7941799823780153,
-        "support_key": 21233,
-        "support_response": 20760
+        "precision": 0.8245971752536304,
+        "recall": 0.7979691034217239,
+        "f1": 0.8110646415731162,
+        "support_key": 20779,
+        "support_response": 20108
       },
       "Wolff_Wildfangrecht": {
-        "precision": 0.880886009191592,
-        "recall": 0.8956641642408457,
-        "f1": 0.8882136209974552,
-        "support_key": 13054,
-        "support_response": 13273
+        "precision": 0.8855129565085619,
+        "recall": 0.8995535714285714,
+        "f1": 0.8924780450553647,
+        "support_key": 12992,
+        "support_response": 13198
       },
       "Fischer_Gustav_segment_0000": {
         "precision": 0.6666666666666666,
@@ -21058,11 +21058,11 @@
   "entity_attributes_all_unrestricted": {
     "gender:m": {
       "aggregated": {
-        "precision": 0.5958851917703836,
-        "recall": 0.7543408360128617,
-        "f1": 0.6658152405278842,
+        "precision": 0.5961783439490446,
+        "recall": 0.752411575562701,
+        "f1": 0.6652452025586355,
         "support_key": 3110,
-        "support_response": 3937
+        "support_response": 3925
       },
       "Fischer_Gustav": {
         "precision": 0.53125,
@@ -21072,9 +21072,9 @@
         "support_response": 64
       },
       "Goethe_Wahlverwandtschaften": {
-        "precision": 0.47345132743362833,
-        "recall": 0.6645962732919255,
-        "f1": 0.5529715762273902,
+        "precision": 0.4646017699115044,
+        "recall": 0.6521739130434783,
+        "f1": 0.5426356589147288,
         "support_key": 161,
         "support_response": 226
       },
@@ -21086,11 +21086,11 @@
         "support_response": 140
       },
       "K\u00fcrnberger_Amerika": {
-        "precision": 0.4977698483496878,
-        "recall": 0.7342105263157894,
-        "f1": 0.5933014354066986,
+        "precision": 0.4995491433724076,
+        "recall": 0.7289473684210527,
+        "f1": 0.5928303905831996,
         "support_key": 760,
-        "support_response": 1121
+        "support_response": 1109
       },
       "Wolff_Wildfangrecht": {
         "precision": 0.3347107438016529,
@@ -21935,11 +21935,11 @@
     },
     "gender:f": {
       "aggregated": {
-        "precision": 0.6995341614906833,
-        "recall": 0.8131768953068592,
-        "f1": 0.7520868113522536,
+        "precision": 0.6986831913245546,
+        "recall": 0.8140794223826715,
+        "f1": 0.7519799916631931,
         "support_key": 1108,
-        "support_response": 1288
+        "support_response": 1291
       },
       "Fischer_Gustav": {
         "precision": 0.5454545454545454,
@@ -21949,9 +21949,9 @@
         "support_response": 33
       },
       "Goethe_Wahlverwandtschaften": {
-        "precision": 0.6631578947368421,
-        "recall": 0.7682926829268293,
-        "f1": 0.7118644067796609,
+        "precision": 0.6736842105263158,
+        "recall": 0.7804878048780488,
+        "f1": 0.7231638418079096,
         "support_key": 82,
         "support_response": 95
       },
@@ -21963,11 +21963,11 @@
         "support_response": 84
       },
       "K\u00fcrnberger_Amerika": {
-        "precision": 0.5956284153005464,
+        "precision": 0.5860215053763441,
         "recall": 0.7364864864864865,
-        "f1": 0.6586102719033233,
+        "f1": 0.6526946107784432,
         "support_key": 148,
-        "support_response": 183
+        "support_response": 186
       },
       "Wolff_Wildfangrecht": {
         "precision": 0.48333333333333334,
@@ -24566,46 +24566,46 @@
     },
     "gender:u": {
       "aggregated": {
-        "precision": 0.6610559631707668,
-        "recall": 0.3741247353851164,
-        "f1": 0.47782457234960746,
+        "precision": 0.6728971962616822,
+        "recall": 0.6155349291646312,
+        "f1": 0.6429391504018369,
         "support_key": 12282,
-        "support_response": 6951
+        "support_response": 11235
       },
       "Fischer_Gustav": {
-        "precision": 0.6551724137931034,
-        "recall": 0.2602739726027397,
-        "f1": 0.3725490196078431,
+        "precision": 0.5486111111111112,
+        "recall": 0.541095890410959,
+        "f1": 0.5448275862068965,
         "support_key": 146,
-        "support_response": 58
+        "support_response": 144
       },
       "Goethe_Wahlverwandtschaften": {
-        "precision": 0.7407407407407407,
-        "recall": 0.16551724137931034,
-        "f1": 0.2705749718151071,
+        "precision": 0.6826273787599755,
+        "recall": 0.766896551724138,
+        "f1": 0.722312439103605,
         "support_key": 1450,
-        "support_response": 324
+        "support_response": 1629
       },
       "Heimburg_Trudchen": {
-        "precision": 0.46601941747572817,
-        "recall": 0.26229508196721313,
-        "f1": 0.3356643356643357,
+        "precision": 0.45925925925925926,
+        "recall": 0.6775956284153005,
+        "f1": 0.5474613686534217,
         "support_key": 183,
-        "support_response": 103
+        "support_response": 270
       },
       "K\u00fcrnberger_Amerika": {
-        "precision": 0.639269406392694,
-        "recall": 0.10505252626313157,
-        "f1": 0.1804511278195489,
+        "precision": 0.7172220492058549,
+        "recall": 0.5760380190095048,
+        "f1": 0.638923567762519,
         "support_key": 3998,
-        "support_response": 657
+        "support_response": 3211
       },
       "Wolff_Wildfangrecht": {
-        "precision": 0.366412213740458,
-        "recall": 0.16271186440677965,
-        "f1": 0.22535211267605632,
+        "precision": 0.46534653465346537,
+        "recall": 0.47796610169491527,
+        "f1": 0.47157190635451507,
         "support_key": 295,
-        "support_response": 131
+        "support_response": 303
       },
       "Fischer_Gustav_segment_0000": {
         "precision": 0.8571428571428571,
@@ -25443,46 +25443,46 @@
     },
     "generic": {
       "aggregated": {
-        "precision": 0.7130518234165067,
-        "recall": 0.34347263313609466,
-        "f1": 0.46362161487582676,
+        "precision": 0.6929879974731522,
+        "recall": 0.608542899408284,
+        "f1": 0.6480259919267499,
         "support_key": 10816,
-        "support_response": 5210
+        "support_response": 9498
       },
       "Fischer_Gustav": {
-        "precision": 0.9090909090909091,
-        "recall": 0.24793388429752067,
-        "f1": 0.38961038961038963,
+        "precision": 0.5966386554621849,
+        "recall": 0.5867768595041323,
+        "f1": 0.5916666666666667,
         "support_key": 121,
-        "support_response": 33
+        "support_response": 119
       },
       "Goethe_Wahlverwandtschaften": {
-        "precision": 0.89375,
-        "recall": 0.11522965350523771,
-        "f1": 0.20413990007137758,
+        "precision": 0.6662116040955631,
+        "recall": 0.7864625302175665,
+        "f1": 0.7213599408721361,
         "support_key": 1241,
-        "support_response": 160
+        "support_response": 1465
       },
       "Heimburg_Trudchen": {
-        "precision": 0.7380952380952381,
-        "recall": 0.22794117647058823,
-        "f1": 0.34831460674157305,
+        "precision": 0.45454545454545453,
+        "recall": 0.6985294117647058,
+        "f1": 0.5507246376811594,
         "support_key": 136,
-        "support_response": 42
+        "support_response": 209
       },
       "K\u00fcrnberger_Amerika": {
-        "precision": 0.9794871794871794,
-        "recall": 0.05225718194254446,
-        "f1": 0.09922077922077922,
+        "precision": 0.737740646567381,
+        "recall": 0.5556771545827633,
+        "f1": 0.6338951310861424,
         "support_key": 3655,
-        "support_response": 195
+        "support_response": 2753
       },
       "Wolff_Wildfangrecht": {
-        "precision": 0.9354838709677419,
-        "recall": 0.11372549019607843,
-        "f1": 0.2027972027972028,
+        "precision": 0.5812807881773399,
+        "recall": 0.4627450980392157,
+        "f1": 0.5152838427947597,
         "support_key": 255,
-        "support_response": 31
+        "support_response": 203
       },
       "Fischer_Gustav_segment_0000": {
         "precision": 0.8571428571428571,
@@ -26320,11 +26320,11 @@
     },
     "group": {
       "aggregated": {
-        "precision": 0.43885994483604046,
-        "recall": 0.6710402999062793,
-        "f1": 0.5306651843616824,
+        "precision": 0.4363692118981907,
+        "recall": 0.6668228678537957,
+        "f1": 0.5275254865616311,
         "support_key": 2134,
-        "support_response": 3263
+        "support_response": 3261
       },
       "Fischer_Gustav": {
         "precision": 0.5416666666666666,
@@ -26334,9 +26334,9 @@
         "support_response": 48
       },
       "Goethe_Wahlverwandtschaften": {
-        "precision": 0.607773851590106,
-        "recall": 0.6142857142857143,
-        "f1": 0.6110124333925401,
+        "precision": 0.6007067137809188,
+        "recall": 0.6071428571428571,
+        "f1": 0.6039076376554174,
         "support_key": 280,
         "support_response": 283
       },
@@ -26348,16 +26348,16 @@
         "support_response": 87
       },
       "K\u00fcrnberger_Amerika": {
-        "precision": 0.418331374853114,
-        "recall": 0.6484517304189436,
-        "f1": 0.5085714285714287,
+        "precision": 0.4122497055359246,
+        "recall": 0.6375227686703097,
+        "f1": 0.5007153075822603,
         "support_key": 549,
-        "support_response": 851
+        "support_response": 849
       },
       "Wolff_Wildfangrecht": {
-        "precision": 0.2701612903225806,
-        "recall": 0.8072289156626506,
-        "f1": 0.40483383685800595,
+        "precision": 0.2661290322580645,
+        "recall": 0.7951807228915663,
+        "f1": 0.39879154078549844,
         "support_key": 83,
         "support_response": 248
       },
@@ -27197,11 +27197,11 @@
     },
     "nonfact": {
       "aggregated": {
-        "precision": 0.10412757973733583,
-        "recall": 0.4141791044776119,
-        "f1": 0.1664167916041979,
+        "precision": 0.10338345864661654,
+        "recall": 0.41044776119402987,
+        "f1": 0.16516516516516516,
         "support_key": 268,
-        "support_response": 1066
+        "support_response": 1064
       },
       "Fischer_Gustav": {
         "precision": 0.23076923076923078,
@@ -27225,11 +27225,11 @@
         "support_response": 40
       },
       "K\u00fcrnberger_Amerika": {
-        "precision": 0.048859934853420196,
-        "recall": 0.3125,
-        "f1": 0.08450704225352113,
+        "precision": 0.04590163934426229,
+        "recall": 0.2916666666666667,
+        "f1": 0.07932011331444759,
         "support_key": 48,
-        "support_response": 307
+        "support_response": 305
       },
       "Wolff_Wildfangrecht": {
         "precision": 0.15625,
@@ -28076,11 +28076,11 @@
   "entity_attributes_all_restrictonmatch": {
     "gender:m": {
       "aggregated": {
-        "precision": 0.75,
-        "recall": 0.8796400449943758,
-        "f1": 0.8096635030198448,
-        "support_key": 2667,
-        "support_response": 3128
+        "precision": 0.7512038523274478,
+        "recall": 0.8565153733528551,
+        "f1": 0.8004104669061057,
+        "support_key": 2732,
+        "support_response": 3115
       },
       "Fischer_Gustav": {
         "precision": 0.6296296296296297,
@@ -28090,32 +28090,32 @@
         "support_response": 54
       },
       "Goethe_Wahlverwandtschaften": {
-        "precision": 0.6079545454545454,
-        "recall": 0.8991596638655462,
-        "f1": 0.7254237288135594,
-        "support_key": 119,
-        "support_response": 176
+        "precision": 0.6069364161849711,
+        "recall": 0.7777777777777778,
+        "f1": 0.6818181818181819,
+        "support_key": 135,
+        "support_response": 173
       },
       "Heimburg_Trudchen": {
         "precision": 0.7904761904761904,
-        "recall": 0.9325842696629213,
-        "f1": 0.8556701030927835,
-        "support_key": 89,
+        "recall": 0.8736842105263158,
+        "f1": 0.8300000000000001,
+        "support_key": 95,
         "support_response": 105
       },
       "K\u00fcrnberger_Amerika": {
-        "precision": 0.6413793103448275,
-        "recall": 0.9238410596026491,
-        "f1": 0.7571234735413839,
-        "support_key": 604,
-        "support_response": 870
+        "precision": 0.6434378629500581,
+        "recall": 0.8629283489096573,
+        "f1": 0.7371922821024618,
+        "support_key": 642,
+        "support_response": 861
       },
       "Wolff_Wildfangrecht": {
-        "precision": 0.5869565217391305,
-        "recall": 0.8709677419354839,
-        "f1": 0.7012987012987013,
-        "support_key": 93,
-        "support_response": 138
+        "precision": 0.5912408759124088,
+        "recall": 0.826530612244898,
+        "f1": 0.6893617021276597,
+        "support_key": 98,
+        "support_response": 137
       },
       "Fischer_Gustav_segment_0000": {
         "precision": 0,
@@ -28953,45 +28953,45 @@
     },
     "gender:f": {
       "aggregated": {
-        "precision": 0.9073514602215509,
-        "recall": 0.923155737704918,
-        "f1": 0.915185373285932,
-        "support_key": 976,
+        "precision": 0.9083585095669687,
+        "recall": 0.9092741935483871,
+        "f1": 0.908816120906801,
+        "support_key": 992,
         "support_response": 993
       },
       "Fischer_Gustav": {
-        "precision": 0.72,
+        "precision": 0.75,
         "recall": 0.8571428571428571,
-        "f1": 0.782608695652174,
+        "f1": 0.7999999999999999,
         "support_key": 21,
-        "support_response": 25
+        "support_response": 24
       },
       "Goethe_Wahlverwandtschaften": {
-        "precision": 0.9402985074626866,
-        "recall": 0.9264705882352942,
-        "f1": 0.9333333333333335,
-        "support_key": 68,
-        "support_response": 67
+        "precision": 0.9411764705882353,
+        "recall": 0.9142857142857143,
+        "f1": 0.9275362318840579,
+        "support_key": 70,
+        "support_response": 68
       },
       "Heimburg_Trudchen": {
         "precision": 0.9166666666666666,
-        "recall": 0.9166666666666666,
-        "f1": 0.9166666666666666,
-        "support_key": 60,
+        "recall": 0.8870967741935484,
+        "f1": 0.9016393442622951,
+        "support_key": 62,
         "support_response": 60
       },
       "K\u00fcrnberger_Amerika": {
         "precision": 0.872,
-        "recall": 0.9396551724137931,
-        "f1": 0.9045643153526971,
-        "support_key": 116,
+        "recall": 0.872,
+        "f1": 0.872,
+        "support_key": 125,
         "support_response": 125
       },
       "Wolff_Wildfangrecht": {
         "precision": 0.725,
-        "recall": 0.9666666666666667,
-        "f1": 0.8285714285714285,
-        "support_key": 30,
+        "recall": 0.8787878787878788,
+        "f1": 0.7945205479452054,
+        "support_key": 33,
         "support_response": 40
       },
       "Fischer_Gustav_segment_0000": {
@@ -30708,9 +30708,9 @@
     "gender:mf": {
       "aggregated": {
         "precision": 0.17073170731707318,
-        "recall": 0.30601092896174864,
-        "f1": 0.21917808219178084,
-        "support_key": 183,
+        "recall": 0.2978723404255319,
+        "f1": 0.21705426356589147,
+        "support_key": 188,
         "support_response": 328
       },
       "Fischer_Gustav": {
@@ -30724,7 +30724,7 @@
         "precision": 0,
         "recall": 0.0,
         "f1": 0,
-        "support_key": 5,
+        "support_key": 9,
         "support_response": 0
       },
       "Heimburg_Trudchen": {
@@ -30738,7 +30738,7 @@
         "precision": 0,
         "recall": 0.0,
         "f1": 0,
-        "support_key": 15,
+        "support_key": 16,
         "support_response": 0
       },
       "Wolff_Wildfangrecht": {
@@ -31584,46 +31584,46 @@
     },
     "gender:u": {
       "aggregated": {
-        "precision": 0.9180819180819181,
-        "recall": 0.8158735795454546,
-        "f1": 0.8639654037792612,
-        "support_key": 5632,
-        "support_response": 5005
+        "precision": 0.9377325725626395,
+        "recall": 0.880093131548312,
+        "f1": 0.9079990391544559,
+        "support_key": 8590,
+        "support_response": 8062
       },
       "Fischer_Gustav": {
-        "precision": 0.8085106382978723,
-        "recall": 0.6031746031746031,
-        "f1": 0.6909090909090909,
-        "support_key": 63,
-        "support_response": 47
+        "precision": 0.8977272727272727,
+        "recall": 0.7669902912621359,
+        "f1": 0.8272251308900525,
+        "support_key": 103,
+        "support_response": 88
       },
       "Goethe_Wahlverwandtschaften": {
-        "precision": 0.933852140077821,
-        "recall": 0.7741935483870968,
-        "f1": 0.8465608465608466,
-        "support_key": 310,
-        "support_response": 257
+        "precision": 0.9644405897658282,
+        "recall": 0.9407783417935702,
+        "f1": 0.9524625267665953,
+        "support_key": 1182,
+        "support_response": 1153
       },
       "Heimburg_Trudchen": {
-        "precision": 0.7384615384615385,
-        "recall": 0.6666666666666666,
-        "f1": 0.7007299270072994,
-        "support_key": 72,
-        "support_response": 65
+        "precision": 0.8322147651006712,
+        "recall": 0.8378378378378378,
+        "f1": 0.8350168350168351,
+        "support_key": 148,
+        "support_response": 149
       },
       "K\u00fcrnberger_Amerika": {
-        "precision": 0.8786610878661087,
-        "recall": 0.5706521739130435,
-        "f1": 0.6919275123558484,
-        "support_key": 736,
-        "support_response": 478
+        "precision": 0.9544135930377123,
+        "recall": 0.8810252486610558,
+        "f1": 0.9162522379152576,
+        "support_key": 2614,
+        "support_response": 2413
       },
       "Wolff_Wildfangrecht": {
-        "precision": 0.7384615384615385,
-        "recall": 0.48484848484848486,
-        "f1": 0.5853658536585367,
-        "support_key": 99,
-        "support_response": 65
+        "precision": 0.8493975903614458,
+        "recall": 0.7382198952879581,
+        "f1": 0.7899159663865546,
+        "support_key": 191,
+        "support_response": 166
       },
       "Fischer_Gustav_segment_0000": {
         "precision": 1.0,
@@ -32461,46 +32461,46 @@
     },
     "generic": {
       "aggregated": {
-        "precision": 0.9355326114328885,
-        "recall": 0.8098975365162415,
-        "f1": 0.8681935031549427,
-        "support_key": 4587,
-        "support_response": 3971
+        "precision": 0.9360068259385665,
+        "recall": 0.883489932885906,
+        "f1": 0.9089904709294296,
+        "support_key": 7450,
+        "support_response": 7032
       },
       "Fischer_Gustav": {
-        "precision": 0.9375,
-        "recall": 0.6976744186046512,
-        "f1": 0.8000000000000002,
-        "support_key": 43,
-        "support_response": 32
+        "precision": 0.9726027397260274,
+        "recall": 0.8554216867469879,
+        "f1": 0.9102564102564102,
+        "support_key": 83,
+        "support_response": 73
       },
       "Goethe_Wahlverwandtschaften": {
-        "precision": 0.9470198675496688,
-        "recall": 0.7988826815642458,
-        "f1": 0.8666666666666666,
-        "support_key": 179,
-        "support_response": 151
+        "precision": 0.9312977099236641,
+        "recall": 0.9644268774703557,
+        "f1": 0.9475728155339807,
+        "support_key": 1012,
+        "support_response": 1048
       },
       "Heimburg_Trudchen": {
-        "precision": 0.8857142857142857,
-        "recall": 0.6739130434782609,
-        "f1": 0.7654320987654321,
-        "support_key": 46,
-        "support_response": 35
+        "precision": 0.7983193277310925,
+        "recall": 0.8636363636363636,
+        "f1": 0.8296943231441049,
+        "support_key": 110,
+        "support_response": 119
       },
       "K\u00fcrnberger_Amerika": {
-        "precision": 0.9947916666666666,
-        "recall": 0.37087378640776697,
-        "f1": 0.5403111739745403,
-        "support_key": 515,
-        "support_response": 192
+        "precision": 0.9535211267605633,
+        "recall": 0.8635204081632653,
+        "f1": 0.9062918340026774,
+        "support_key": 2352,
+        "support_response": 2130
       },
       "Wolff_Wildfangrecht": {
-        "precision": 0.9354838709677419,
-        "recall": 0.4264705882352941,
-        "f1": 0.5858585858585859,
-        "support_key": 68,
-        "support_response": 31
+        "precision": 0.8939393939393939,
+        "recall": 0.7515923566878981,
+        "f1": 0.8166089965397925,
+        "support_key": 157,
+        "support_response": 132
       },
       "Fischer_Gustav_segment_0000": {
         "precision": 1.0,
@@ -33338,11 +33338,11 @@
     },
     "group": {
       "aggregated": {
-        "precision": 0.6185745140388769,
-        "recall": 0.8806888068880688,
-        "f1": 0.7267191068256788,
-        "support_key": 1626,
-        "support_response": 2315
+        "precision": 0.6176215277777778,
+        "recall": 0.8206459054209919,
+        "f1": 0.7048043585933631,
+        "support_key": 1734,
+        "support_response": 2304
       },
       "Fischer_Gustav": {
         "precision": 0.65,
@@ -33352,32 +33352,32 @@
         "support_response": 40
       },
       "Goethe_Wahlverwandtschaften": {
-        "precision": 0.8075117370892019,
-        "recall": 0.945054945054945,
-        "f1": 0.8708860759493671,
-        "support_key": 182,
-        "support_response": 213
+        "precision": 0.8056872037914692,
+        "recall": 0.7623318385650224,
+        "f1": 0.7834101382488478,
+        "support_key": 223,
+        "support_response": 211
       },
       "Heimburg_Trudchen": {
         "precision": 0.5964912280701754,
-        "recall": 1.0,
-        "f1": 0.7472527472527472,
-        "support_key": 34,
+        "recall": 0.7391304347826086,
+        "f1": 0.6601941747572816,
+        "support_key": 46,
         "support_response": 57
       },
       "K\u00fcrnberger_Amerika": {
-        "precision": 0.5510835913312694,
-        "recall": 0.9442970822281167,
-        "f1": 0.6959921798631477,
-        "support_key": 377,
-        "support_response": 646
+        "precision": 0.54858934169279,
+        "recall": 0.8158508158508159,
+        "f1": 0.6560449859418931,
+        "support_key": 429,
+        "support_response": 638
       },
       "Wolff_Wildfangrecht": {
-        "precision": 0.6036036036036037,
-        "recall": 0.9710144927536232,
-        "f1": 0.7444444444444446,
-        "support_key": 69,
-        "support_response": 111
+        "precision": 0.6,
+        "recall": 0.9166666666666666,
+        "f1": 0.7252747252747253,
+        "support_key": 72,
+        "support_response": 110
       },
       "Fischer_Gustav_segment_0000": {
         "precision": 0,
@@ -34215,11 +34215,11 @@
     },
     "nonfact": {
       "aggregated": {
-        "precision": 0.21022727272727273,
-        "recall": 0.5967741935483871,
-        "f1": 0.31092436974789917,
-        "support_key": 186,
-        "support_response": 528
+        "precision": 0.20872865275142316,
+        "recall": 0.5472636815920398,
+        "f1": 0.30219780219780223,
+        "support_key": 201,
+        "support_response": 527
       },
       "Fischer_Gustav": {
         "precision": 0.4,
@@ -34230,31 +34230,31 @@
       },
       "Goethe_Wahlverwandtschaften": {
         "precision": 0.27586206896551724,
-        "recall": 0.6153846153846154,
-        "f1": 0.380952380952381,
-        "support_key": 13,
+        "recall": 0.5333333333333333,
+        "f1": 0.36363636363636365,
+        "support_key": 15,
         "support_response": 29
       },
       "Heimburg_Trudchen": {
         "precision": 0.5,
-        "recall": 0.6923076923076923,
-        "f1": 0.5806451612903226,
-        "support_key": 13,
+        "recall": 0.6,
+        "f1": 0.5454545454545454,
+        "support_key": 15,
         "support_response": 18
       },
       "K\u00fcrnberger_Amerika": {
-        "precision": 0.09803921568627451,
-        "recall": 0.5172413793103449,
-        "f1": 0.16483516483516483,
-        "support_key": 29,
+        "precision": 0.0915032679738562,
+        "recall": 0.4,
+        "f1": 0.14893617021276595,
+        "support_key": 35,
         "support_response": 153
       },
       "Wolff_Wildfangrecht": {
-        "precision": 0.4,
-        "recall": 0.9090909090909091,
-        "f1": 0.5555555555555556,
-        "support_key": 11,
-        "support_response": 25
+        "precision": 0.4166666666666667,
+        "recall": 0.625,
+        "f1": 0.5,
+        "support_key": 16,
+        "support_response": 24
       },
       "Fischer_Gustav_segment_0000": {
         "precision": 0,
@@ -35094,11 +35094,11 @@
   "entity_attributes_nogroup_unrestricted": {
     "gender:m": {
       "aggregated": {
-        "precision": 0.7247311827956989,
-        "recall": 0.8338144329896907,
-        "f1": 0.7754554170661553,
+        "precision": 0.7256382596188421,
+        "recall": 0.8321649484536082,
+        "f1": 0.7752593161736457,
         "support_key": 2425,
-        "support_response": 2790
+        "support_response": 2781
       },
       "Fischer_Gustav": {
         "precision": 0.7692307692307693,
@@ -35108,10 +35108,10 @@
         "support_response": 39
       },
       "Goethe_Wahlverwandtschaften": {
-        "precision": 0.6846846846846847,
-        "recall": 0.7307692307692307,
-        "f1": 0.7069767441860465,
-        "support_key": 104,
+        "precision": 0.6666666666666666,
+        "recall": 0.7184466019417476,
+        "f1": 0.6915887850467289,
+        "support_key": 103,
         "support_response": 111
       },
       "Heimburg_Trudchen": {
@@ -35122,11 +35122,11 @@
         "support_response": 112
       },
       "K\u00fcrnberger_Amerika": {
-        "precision": 0.6543026706231454,
-        "recall": 0.8166666666666667,
-        "f1": 0.7265238879736409,
-        "support_key": 540,
-        "support_response": 674
+        "precision": 0.6601503759398496,
+        "recall": 0.8114602587800369,
+        "f1": 0.7280265339966833,
+        "support_key": 541,
+        "support_response": 665
       },
       "Wolff_Wildfangrecht": {
         "precision": 0.6355140186915887,
@@ -35971,11 +35971,11 @@
     },
     "gender:f": {
       "aggregated": {
-        "precision": 0.75,
-        "recall": 0.8666666666666667,
-        "f1": 0.8041237113402062,
-        "support_key": 855,
-        "support_response": 988
+        "precision": 0.750252780586451,
+        "recall": 0.866822429906542,
+        "f1": 0.8043360433604335,
+        "support_key": 856,
+        "support_response": 989
       },
       "Fischer_Gustav": {
         "precision": 0.6,
@@ -35985,10 +35985,10 @@
         "support_response": 25
       },
       "Goethe_Wahlverwandtschaften": {
-        "precision": 0.65,
-        "recall": 0.8863636363636364,
-        "f1": 0.75,
-        "support_key": 44,
+        "precision": 0.6666666666666666,
+        "recall": 0.8888888888888888,
+        "f1": 0.761904761904762,
+        "support_key": 45,
         "support_response": 60
       },
       "Heimburg_Trudchen": {
@@ -35999,11 +35999,11 @@
         "support_response": 73
       },
       "K\u00fcrnberger_Amerika": {
-        "precision": 0.6153846153846154,
+        "precision": 0.6106870229007634,
         "recall": 0.8080808080808081,
-        "f1": 0.6986899563318778,
+        "f1": 0.6956521739130436,
         "support_key": 99,
-        "support_response": 130
+        "support_response": 131
       },
       "Wolff_Wildfangrecht": {
         "precision": 0.6666666666666666,
@@ -38602,46 +38602,46 @@
     },
     "gender:u": {
       "aggregated": {
-        "precision": 0.7014925373134329,
-        "recall": 0.36510981106742113,
-        "f1": 0.48025734830326733,
-        "support_key": 10427,
-        "support_response": 5427
+        "precision": 0.6984887962480458,
+        "recall": 0.642692750287687,
+        "f1": 0.6694301553213804,
+        "support_key": 10428,
+        "support_response": 9595
       },
       "Fischer_Gustav": {
-        "precision": 0.7209302325581395,
-        "recall": 0.26956521739130435,
-        "f1": 0.3924050632911392,
+        "precision": 0.5581395348837209,
+        "recall": 0.6260869565217392,
+        "f1": 0.5901639344262295,
         "support_key": 115,
-        "support_response": 43
+        "support_response": 129
       },
       "Goethe_Wahlverwandtschaften": {
-        "precision": 0.8241758241758241,
-        "recall": 0.1214574898785425,
-        "f1": 0.21171489061397317,
+        "precision": 0.6862880886426593,
+        "recall": 0.8024291497975709,
+        "f1": 0.7398282941396044,
         "support_key": 1235,
-        "support_response": 182
+        "support_response": 1444
       },
       "Heimburg_Trudchen": {
-        "precision": 0.6363636363636364,
-        "recall": 0.2536231884057971,
-        "f1": 0.3626943005181347,
+        "precision": 0.49047619047619045,
+        "recall": 0.7463768115942029,
+        "f1": 0.5919540229885057,
         "support_key": 138,
-        "support_response": 55
+        "support_response": 210
       },
       "K\u00fcrnberger_Amerika": {
-        "precision": 0.696551724137931,
-        "recall": 0.058584686774941996,
-        "f1": 0.10807918673087213,
-        "support_key": 3448,
-        "support_response": 290
+        "precision": 0.7373519913885899,
+        "recall": 0.595824876775877,
+        "f1": 0.6590763309813984,
+        "support_key": 3449,
+        "support_response": 2787
       },
       "Wolff_Wildfangrecht": {
-        "precision": 0.6326530612244898,
-        "recall": 0.1336206896551724,
-        "f1": 0.22064056939501778,
+        "precision": 0.5668202764976958,
+        "recall": 0.5301724137931034,
+        "f1": 0.5478841870824053,
         "support_key": 232,
-        "support_response": 49
+        "support_response": 217
       },
       "Fischer_Gustav_segment_0000": {
         "precision": 0.8571428571428571,
@@ -39479,46 +39479,46 @@
     },
     "generic": {
       "aggregated": {
-        "precision": 0.7330307813733228,
-        "recall": 0.3669498222046622,
-        "f1": 0.489073196419168,
-        "support_key": 10124,
-        "support_response": 5068
+        "precision": 0.7124147635025435,
+        "recall": 0.650074074074074,
+        "f1": 0.6798182193761618,
+        "support_key": 10125,
+        "support_response": 9239
       },
       "Fischer_Gustav": {
-        "precision": 0.9090909090909091,
-        "recall": 0.2702702702702703,
-        "f1": 0.4166666666666667,
+        "precision": 0.5966386554621849,
+        "recall": 0.6396396396396397,
+        "f1": 0.6173913043478261,
         "support_key": 111,
-        "support_response": 33
+        "support_response": 119
       },
       "Goethe_Wahlverwandtschaften": {
-        "precision": 0.934640522875817,
-        "recall": 0.1176954732510288,
-        "f1": 0.20906432748538012,
+        "precision": 0.6897526501766784,
+        "recall": 0.8032921810699588,
+        "f1": 0.7422053231939163,
         "support_key": 1215,
-        "support_response": 153
+        "support_response": 1415
       },
       "Heimburg_Trudchen": {
-        "precision": 0.7380952380952381,
-        "recall": 0.25203252032520324,
-        "f1": 0.37575757575757573,
+        "precision": 0.48223350253807107,
+        "recall": 0.7723577235772358,
+        "f1": 0.5937499999999999,
         "support_key": 123,
-        "support_response": 42
+        "support_response": 197
       },
       "K\u00fcrnberger_Amerika": {
-        "precision": 0.9794871794871794,
-        "recall": 0.056192997940570755,
-        "f1": 0.10628825820812464,
-        "support_key": 3399,
-        "support_response": 195
+        "precision": 0.7536178107606679,
+        "recall": 0.5973529411764706,
+        "f1": 0.6664479081214111,
+        "support_key": 3400,
+        "support_response": 2695
       },
       "Wolff_Wildfangrecht": {
-        "precision": 0.9666666666666667,
-        "recall": 0.13063063063063063,
-        "f1": 0.23015873015873017,
+        "precision": 0.5959595959595959,
+        "recall": 0.5315315315315315,
+        "f1": 0.5619047619047619,
         "support_key": 222,
-        "support_response": 30
+        "support_response": 198
       },
       "Fischer_Gustav_segment_0000": {
         "precision": 0.8571428571428571,
@@ -41233,11 +41233,11 @@
     },
     "nonfact": {
       "aggregated": {
-        "precision": 0.09978768577494693,
-        "recall": 0.46534653465346537,
-        "f1": 0.16433566433566432,
+        "precision": 0.09893617021276596,
+        "recall": 0.4603960396039604,
+        "f1": 0.1628721541155867,
         "support_key": 202,
-        "support_response": 942
+        "support_response": 940
       },
       "Fischer_Gustav": {
         "precision": 0.3,
@@ -41261,11 +41261,11 @@
         "support_response": 36
       },
       "K\u00fcrnberger_Amerika": {
-        "precision": 0.045283018867924525,
-        "recall": 0.41379310344827586,
-        "f1": 0.08163265306122448,
+        "precision": 0.04182509505703422,
+        "recall": 0.3793103448275862,
+        "f1": 0.07534246575342464,
         "support_key": 29,
-        "support_response": 265
+        "support_response": 263
       },
       "Wolff_Wildfangrecht": {
         "precision": 0.15,
@@ -42112,11 +42112,11 @@
   "entity_attributes_nogroup_restrictonmatch": {
     "gender:m": {
       "aggregated": {
-        "precision": 0.8990662516674077,
-        "recall": 0.9488503050211169,
-        "f1": 0.9232876712328767,
-        "support_key": 2131,
-        "support_response": 2249
+        "precision": 0.8996879179670084,
+        "recall": 0.9316712834718375,
+        "f1": 0.9154003175323202,
+        "support_key": 2166,
+        "support_response": 2243
       },
       "Fischer_Gustav": {
         "precision": 0.9090909090909091,
@@ -42126,31 +42126,31 @@
         "support_response": 33
       },
       "Goethe_Wahlverwandtschaften": {
-        "precision": 0.8941176470588236,
-        "recall": 0.95,
-        "f1": 0.9212121212121211,
-        "support_key": 80,
-        "support_response": 85
+        "precision": 0.891566265060241,
+        "recall": 0.8314606741573034,
+        "f1": 0.8604651162790697,
+        "support_key": 89,
+        "support_response": 83
       },
       "Heimburg_Trudchen": {
         "precision": 0.9397590361445783,
-        "recall": 0.9512195121951219,
-        "f1": 0.9454545454545454,
-        "support_key": 82,
+        "recall": 0.9176470588235294,
+        "f1": 0.9285714285714286,
+        "support_key": 85,
         "support_response": 83
       },
       "K\u00fcrnberger_Amerika": {
-        "precision": 0.861328125,
-        "recall": 0.9865771812080537,
-        "f1": 0.9197080291970804,
-        "support_key": 447,
-        "support_response": 512
+        "precision": 0.8641732283464567,
+        "recall": 0.938034188034188,
+        "f1": 0.8995901639344263,
+        "support_key": 468,
+        "support_response": 508
       },
       "Wolff_Wildfangrecht": {
         "precision": 0.918918918918919,
-        "recall": 0.9577464788732394,
-        "f1": 0.9379310344827587,
-        "support_key": 71,
+        "recall": 0.9315068493150684,
+        "f1": 0.9251700680272108,
+        "support_key": 73,
         "support_response": 74
       },
       "Fischer_Gustav_segment_0000": {
@@ -42989,45 +42989,45 @@
     },
     "gender:f": {
       "aggregated": {
-        "precision": 0.9586028460543338,
-        "recall": 0.9598445595854922,
-        "f1": 0.9592233009708738,
-        "support_key": 772,
+        "precision": 0.9598965071151359,
+        "recall": 0.9476372924648787,
+        "f1": 0.9537275064267352,
+        "support_key": 783,
         "support_response": 773
       },
       "Fischer_Gustav": {
-        "precision": 0.8333333333333334,
+        "precision": 0.8823529411764706,
         "recall": 0.8333333333333334,
-        "f1": 0.8333333333333334,
+        "f1": 0.8571428571428571,
         "support_key": 18,
-        "support_response": 18
+        "support_response": 17
       },
       "Goethe_Wahlverwandtschaften": {
-        "precision": 0.975,
-        "recall": 1.0,
-        "f1": 0.9873417721518987,
-        "support_key": 39,
-        "support_response": 40
+        "precision": 0.975609756097561,
+        "recall": 0.9523809523809523,
+        "f1": 0.963855421686747,
+        "support_key": 42,
+        "support_response": 41
       },
       "Heimburg_Trudchen": {
         "precision": 0.98,
-        "recall": 0.9423076923076923,
-        "f1": 0.9607843137254902,
-        "support_key": 52,
+        "recall": 0.9245283018867925,
+        "f1": 0.9514563106796116,
+        "support_key": 53,
         "support_response": 50
       },
       "K\u00fcrnberger_Amerika": {
         "precision": 0.9411764705882353,
-        "recall": 0.963855421686747,
-        "f1": 0.9523809523809523,
-        "support_key": 83,
+        "recall": 0.9195402298850575,
+        "f1": 0.9302325581395349,
+        "support_key": 87,
         "support_response": 85
       },
       "Wolff_Wildfangrecht": {
         "precision": 0.8695652173913043,
-        "recall": 1.0,
-        "f1": 0.9302325581395349,
-        "support_key": 20,
+        "recall": 0.8695652173913043,
+        "f1": 0.8695652173913043,
+        "support_key": 23,
         "support_response": 23
       },
       "Fischer_Gustav_segment_0000": {
@@ -45620,46 +45620,46 @@
     },
     "gender:u": {
       "aggregated": {
-        "precision": 0.9696892511462047,
-        "recall": 0.9395360315893386,
-        "f1": 0.9543745299573828,
-        "support_key": 4052,
-        "support_response": 3926
+        "precision": 0.9755458515283842,
+        "recall": 0.9651497695852534,
+        "f1": 0.9703199652526423,
+        "support_key": 6944,
+        "support_response": 6870
       },
       "Fischer_Gustav": {
-        "precision": 0.8857142857142857,
-        "recall": 0.8857142857142857,
-        "f1": 0.8857142857142857,
-        "support_key": 35,
-        "support_response": 35
+        "precision": 0.9473684210526315,
+        "recall": 0.96,
+        "f1": 0.9536423841059603,
+        "support_key": 75,
+        "support_response": 76
       },
       "Goethe_Wahlverwandtschaften": {
-        "precision": 0.9803921568627451,
-        "recall": 0.9316770186335404,
-        "f1": 0.9554140127388535,
-        "support_key": 161,
-        "support_response": 153
+        "precision": 0.9841112214498511,
+        "recall": 0.9890219560878244,
+        "f1": 0.9865604778496765,
+        "support_key": 1002,
+        "support_response": 1007
       },
       "Heimburg_Trudchen": {
-        "precision": 0.875,
-        "recall": 0.8974358974358975,
-        "f1": 0.8860759493670887,
-        "support_key": 39,
-        "support_response": 40
+        "precision": 0.9196428571428571,
+        "recall": 0.9626168224299065,
+        "f1": 0.9406392694063926,
+        "support_key": 107,
+        "support_response": 112
       },
       "K\u00fcrnberger_Amerika": {
-        "precision": 0.9619047619047619,
-        "recall": 0.7318840579710145,
-        "f1": 0.8312757201646092,
-        "support_key": 276,
-        "support_response": 210
+        "precision": 0.9832535885167464,
+        "recall": 0.9661495063469676,
+        "f1": 0.9746265117382026,
+        "support_key": 2127,
+        "support_response": 2090
       },
       "Wolff_Wildfangrecht": {
-        "precision": 0.9393939393939394,
-        "recall": 0.7948717948717948,
-        "f1": 0.8611111111111112,
-        "support_key": 39,
-        "support_response": 33
+        "precision": 0.9461538461538461,
+        "recall": 0.9389312977099237,
+        "f1": 0.9425287356321839,
+        "support_key": 131,
+        "support_response": 130
       },
       "Fischer_Gustav_segment_0000": {
         "precision": 1.0,
@@ -46497,46 +46497,46 @@
     },
     "generic": {
       "aggregated": {
-        "precision": 0.9702272133716375,
-        "recall": 0.9537869062901155,
-        "f1": 0.9619368203003625,
-        "support_key": 3895,
-        "support_response": 3829
+        "precision": 0.9717997932969142,
+        "recall": 0.9738126941855304,
+        "f1": 0.9728052024830032,
+        "support_key": 6759,
+        "support_response": 6773
       },
       "Fischer_Gustav": {
-        "precision": 0.9375,
-        "recall": 0.9090909090909091,
-        "f1": 0.923076923076923,
-        "support_key": 33,
-        "support_response": 32
+        "precision": 0.9726027397260274,
+        "recall": 0.9726027397260274,
+        "f1": 0.9726027397260274,
+        "support_key": 73,
+        "support_response": 73
       },
       "Goethe_Wahlverwandtschaften": {
-        "precision": 0.9930555555555556,
-        "recall": 0.934640522875817,
-        "f1": 0.962962962962963,
-        "support_key": 153,
-        "support_response": 144
+        "precision": 0.9779559118236473,
+        "recall": 0.9898580121703854,
+        "f1": 0.9838709677419354,
+        "support_key": 986,
+        "support_response": 998
       },
       "Heimburg_Trudchen": {
-        "precision": 0.8857142857142857,
-        "recall": 0.9393939393939394,
-        "f1": 0.9117647058823529,
-        "support_key": 33,
-        "support_response": 35
+        "precision": 0.8878504672897196,
+        "recall": 0.979381443298969,
+        "f1": 0.9313725490196078,
+        "support_key": 97,
+        "support_response": 107
       },
       "K\u00fcrnberger_Amerika": {
-        "precision": 0.9947916666666666,
-        "recall": 0.7374517374517374,
-        "f1": 0.8470066518847006,
-        "support_key": 259,
-        "support_response": 192
+        "precision": 0.9802123552123552,
+        "recall": 0.9685264663805436,
+        "f1": 0.9743343727512593,
+        "support_key": 2097,
+        "support_response": 2072
       },
       "Wolff_Wildfangrecht": {
-        "precision": 0.9666666666666667,
-        "recall": 0.8285714285714286,
-        "f1": 0.8923076923076922,
-        "support_key": 35,
-        "support_response": 30
+        "precision": 0.9291338582677166,
+        "recall": 0.9516129032258065,
+        "f1": 0.9402390438247011,
+        "support_key": 124,
+        "support_response": 127
       },
       "Fischer_Gustav_segment_0000": {
         "precision": 1.0,
@@ -48251,10 +48251,10 @@
     },
     "nonfact": {
       "aggregated": {
-        "precision": 0.21658986175115208,
-        "recall": 0.6911764705882353,
-        "f1": 0.32982456140350874,
-        "support_key": 136,
+        "precision": 0.21428571428571427,
+        "recall": 0.6283783783783784,
+        "f1": 0.3195876288659794,
+        "support_key": 148,
         "support_response": 434
       },
       "Fischer_Gustav": {
@@ -48266,30 +48266,30 @@
       },
       "Goethe_Wahlverwandtschaften": {
         "precision": 0.25,
-        "recall": 0.8571428571428571,
-        "f1": 0.3870967741935483,
-        "support_key": 7,
+        "recall": 0.6666666666666666,
+        "f1": 0.36363636363636365,
+        "support_key": 9,
         "support_response": 24
       },
       "Heimburg_Trudchen": {
         "precision": 0.5,
-        "recall": 0.6363636363636364,
-        "f1": 0.56,
-        "support_key": 11,
+        "recall": 0.5833333333333334,
+        "f1": 0.5384615384615384,
+        "support_key": 12,
         "support_response": 14
       },
       "K\u00fcrnberger_Amerika": {
-        "precision": 0.096,
-        "recall": 0.7058823529411765,
-        "f1": 0.16901408450704228,
-        "support_key": 17,
+        "precision": 0.088,
+        "recall": 0.5238095238095238,
+        "f1": 0.1506849315068493,
+        "support_key": 21,
         "support_response": 125
       },
       "Wolff_Wildfangrecht": {
         "precision": 0.4090909090909091,
-        "recall": 1.0,
-        "f1": 0.5806451612903226,
-        "support_key": 9,
+        "recall": 0.6428571428571429,
+        "f1": 0.5000000000000001,
+        "support_key": 14,
         "support_response": 22
       },
       "Fischer_Gustav_segment_0000": {
@@ -49130,11 +49130,11 @@
   "entity_attributes_nogroupnosingletons_unrestricted": {
     "gender:m": {
       "aggregated": {
-        "precision": 0.831493317838466,
-        "recall": 0.9274141283214518,
-        "f1": 0.8768382352941178,
-        "support_key": 1543,
-        "support_response": 1721
+        "precision": 0.8328479906814211,
+        "recall": 0.9370904325032765,
+        "f1": 0.8818994757940178,
+        "support_key": 1526,
+        "support_response": 1717
       },
       "Fischer_Gustav": {
         "precision": 0.8571428571428571,
@@ -49145,24 +49145,24 @@
       },
       "Goethe_Wahlverwandtschaften": {
         "precision": 0.8095238095238095,
-        "recall": 0.864406779661017,
-        "f1": 0.8360655737704918,
-        "support_key": 59,
+        "recall": 0.8947368421052632,
+        "f1": 0.8500000000000001,
+        "support_key": 57,
         "support_response": 63
       },
       "Heimburg_Trudchen": {
         "precision": 0.7333333333333333,
-        "recall": 0.8979591836734694,
-        "f1": 0.8073394495412844,
-        "support_key": 49,
+        "recall": 0.9565217391304348,
+        "f1": 0.8301886792452831,
+        "support_key": 46,
         "support_response": 60
       },
       "K\u00fcrnberger_Amerika": {
-        "precision": 0.7777777777777778,
-        "recall": 0.8963414634146342,
-        "f1": 0.8328611898016997,
-        "support_key": 328,
-        "support_response": 378
+        "precision": 0.7834224598930482,
+        "recall": 0.9272151898734177,
+        "f1": 0.8492753623188406,
+        "support_key": 316,
+        "support_response": 374
       },
       "Wolff_Wildfangrecht": {
         "precision": 0.7611940298507462,
@@ -50007,24 +50007,24 @@
     },
     "gender:f": {
       "aggregated": {
-        "precision": 0.843108504398827,
-        "recall": 0.9349593495934959,
-        "f1": 0.8866615265998459,
-        "support_key": 615,
-        "support_response": 682
+        "precision": 0.8406432748538012,
+        "recall": 0.9426229508196722,
+        "f1": 0.8887171561051004,
+        "support_key": 610,
+        "support_response": 684
       },
       "Fischer_Gustav": {
         "precision": 0.631578947368421,
-        "recall": 0.8571428571428571,
-        "f1": 0.7272727272727273,
-        "support_key": 14,
+        "recall": 0.9230769230769231,
+        "f1": 0.7499999999999999,
+        "support_key": 13,
         "support_response": 19
       },
       "Goethe_Wahlverwandtschaften": {
         "precision": 0.7931034482758621,
-        "recall": 0.8518518518518519,
-        "f1": 0.8214285714285715,
-        "support_key": 27,
+        "recall": 0.8846153846153846,
+        "f1": 0.8363636363636363,
+        "support_key": 26,
         "support_response": 29
       },
       "Heimburg_Trudchen": {
@@ -50035,17 +50035,17 @@
         "support_response": 45
       },
       "K\u00fcrnberger_Amerika": {
-        "precision": 0.7058823529411765,
-        "recall": 0.8955223880597015,
-        "f1": 0.7894736842105264,
-        "support_key": 67,
-        "support_response": 85
+        "precision": 0.6896551724137931,
+        "recall": 0.9230769230769231,
+        "f1": 0.7894736842105263,
+        "support_key": 65,
+        "support_response": 87
       },
       "Wolff_Wildfangrecht": {
         "precision": 0.7619047619047619,
-        "recall": 0.8888888888888888,
-        "f1": 0.8205128205128205,
-        "support_key": 18,
+        "recall": 0.9411764705882353,
+        "f1": 0.8421052631578947,
+        "support_key": 17,
         "support_response": 21
       },
       "Fischer_Gustav_segment_0000": {
@@ -52638,45 +52638,45 @@
     },
     "gender:u": {
       "aggregated": {
-        "precision": 0.13178294573643412,
-        "recall": 0.11888111888111888,
-        "f1": 0.12500000000000003,
-        "support_key": 143,
-        "support_response": 129
+        "precision": 0.13709677419354838,
+        "recall": 0.12781954887218044,
+        "f1": 0.13229571984435798,
+        "support_key": 133,
+        "support_response": 124
       },
       "Fischer_Gustav": {
         "precision": 0.0,
         "recall": 0.0,
         "f1": 0,
         "support_key": 1,
-        "support_response": 4
+        "support_response": 3
       },
       "Goethe_Wahlverwandtschaften": {
         "precision": 0.2727272727272727,
-        "recall": 0.375,
-        "f1": 0.3157894736842105,
-        "support_key": 8,
+        "recall": 0.6,
+        "f1": 0.37499999999999994,
+        "support_key": 5,
         "support_response": 11
       },
       "Heimburg_Trudchen": {
         "precision": 0.0,
         "recall": 0.0,
         "f1": 0,
-        "support_key": 6,
-        "support_response": 2
+        "support_key": 4,
+        "support_response": 1
       },
       "K\u00fcrnberger_Amerika": {
-        "precision": 0.05263157894736842,
-        "recall": 0.07407407407407407,
-        "f1": 0.06153846153846154,
-        "support_key": 27,
-        "support_response": 38
+        "precision": 0.05714285714285714,
+        "recall": 0.08333333333333333,
+        "f1": 0.06779661016949153,
+        "support_key": 24,
+        "support_response": 35
       },
       "Wolff_Wildfangrecht": {
         "precision": 0.2,
-        "recall": 0.25,
-        "f1": 0.22222222222222224,
-        "support_key": 4,
+        "recall": 0.5,
+        "f1": 0.28571428571428575,
+        "support_key": 2,
         "support_response": 5
       },
       "Fischer_Gustav_segment_0000": {
@@ -53515,18 +53515,18 @@
     },
     "generic": {
       "aggregated": {
-        "precision": 0.0,
+        "precision": 0,
         "recall": 0,
         "f1": 0,
         "support_key": 0,
-        "support_response": 2
+        "support_response": 0
       },
       "Fischer_Gustav": {
-        "precision": 0.0,
+        "precision": 0,
         "recall": 0,
         "f1": 0,
         "support_key": 0,
-        "support_response": 1
+        "support_response": 0
       },
       "Goethe_Wahlverwandtschaften": {
         "precision": 0,
@@ -53536,11 +53536,11 @@
         "support_response": 0
       },
       "Heimburg_Trudchen": {
-        "precision": 0.0,
+        "precision": 0,
         "recall": 0,
         "f1": 0,
         "support_key": 0,
-        "support_response": 1
+        "support_response": 0
       },
       "K\u00fcrnberger_Amerika": {
         "precision": 0,
@@ -55269,45 +55269,45 @@
     },
     "nonfact": {
       "aggregated": {
-        "precision": 0.14596273291925466,
-        "recall": 0.5340909090909091,
-        "f1": 0.2292682926829268,
-        "support_key": 88,
-        "support_response": 322
+        "precision": 0.14641744548286603,
+        "recall": 0.5802469135802469,
+        "f1": 0.23383084577114424,
+        "support_key": 81,
+        "support_response": 321
       },
       "Fischer_Gustav": {
         "precision": 0.5555555555555556,
-        "recall": 0.8333333333333334,
-        "f1": 0.6666666666666667,
-        "support_key": 6,
+        "recall": 1.0,
+        "f1": 0.7142857142857143,
+        "support_key": 5,
         "support_response": 9
       },
       "Goethe_Wahlverwandtschaften": {
         "precision": 0.15,
-        "recall": 0.75,
-        "f1": 0.24999999999999997,
-        "support_key": 4,
+        "recall": 1.0,
+        "f1": 0.2608695652173913,
+        "support_key": 3,
         "support_response": 20
       },
       "Heimburg_Trudchen": {
         "precision": 0.42857142857142855,
-        "recall": 0.375,
-        "f1": 0.39999999999999997,
-        "support_key": 8,
+        "recall": 0.42857142857142855,
+        "f1": 0.42857142857142855,
+        "support_key": 7,
         "support_response": 7
       },
       "K\u00fcrnberger_Amerika": {
-        "precision": 0.030303030303030304,
-        "recall": 0.3333333333333333,
-        "f1": 0.05555555555555555,
-        "support_key": 9,
-        "support_response": 99
+        "precision": 0.030612244897959183,
+        "recall": 0.375,
+        "f1": 0.056603773584905655,
+        "support_key": 8,
+        "support_response": 98
       },
       "Wolff_Wildfangrecht": {
         "precision": 0.3333333333333333,
-        "recall": 0.5833333333333334,
-        "f1": 0.4242424242424242,
-        "support_key": 12,
+        "recall": 0.7777777777777778,
+        "f1": 0.4666666666666666,
+        "support_key": 9,
         "support_response": 21
       },
       "Fischer_Gustav_segment_0000": {
@@ -56148,11 +56148,11 @@
   "entity_attributes_nogroupnosingletons_restrictonmatch": {
     "gender:m": {
       "aggregated": {
-        "precision": 0.9604026845637584,
-        "recall": 0.9721467391304348,
-        "f1": 0.9662390276839973,
-        "support_key": 1472,
-        "support_response": 1490
+        "precision": 0.9603760913364674,
+        "recall": 0.9727891156462585,
+        "f1": 0.9665427509293679,
+        "support_key": 1470,
+        "support_response": 1489
       },
       "Fischer_Gustav": {
         "precision": 1.0,
@@ -56170,17 +56170,17 @@
       },
       "Heimburg_Trudchen": {
         "precision": 0.9166666666666666,
-        "recall": 0.9565217391304348,
-        "f1": 0.9361702127659574,
-        "support_key": 46,
+        "recall": 0.9777777777777777,
+        "f1": 0.946236559139785,
+        "support_key": 45,
         "support_response": 48
       },
       "K\u00fcrnberger_Amerika": {
-        "precision": 0.9639344262295082,
-        "recall": 0.9865771812080537,
-        "f1": 0.9751243781094528,
-        "support_key": 298,
-        "support_response": 305
+        "precision": 0.9638157894736842,
+        "recall": 0.9865319865319865,
+        "f1": 0.9750415973377704,
+        "support_key": 297,
+        "support_response": 304
       },
       "Wolff_Wildfangrecht": {
         "precision": 1.0,
@@ -57026,16 +57026,16 @@
     "gender:f": {
       "aggregated": {
         "precision": 0.9762308998302207,
-        "recall": 0.9862778730703259,
-        "f1": 0.9812286689419796,
-        "support_key": 583,
+        "recall": 0.9879725085910653,
+        "f1": 0.982066609735269,
+        "support_key": 582,
         "support_response": 589
       },
       "Fischer_Gustav": {
         "precision": 0.8571428571428571,
-        "recall": 0.9230769230769231,
-        "f1": 0.888888888888889,
-        "support_key": 13,
+        "recall": 1.0,
+        "f1": 0.923076923076923,
+        "support_key": 12,
         "support_response": 14
       },
       "Goethe_Wahlverwandtschaften": {
@@ -59656,18 +59656,18 @@
     },
     "gender:u": {
       "aggregated": {
-        "precision": 0.34,
+        "precision": 0.3541666666666667,
         "recall": 0.2236842105263158,
-        "f1": 0.2698412698412698,
+        "f1": 0.2741935483870968,
         "support_key": 76,
-        "support_response": 50
+        "support_response": 48
       },
       "Fischer_Gustav": {
         "precision": 0.0,
         "recall": 0.0,
         "f1": 0,
         "support_key": 1,
-        "support_response": 3
+        "support_response": 2
       },
       "Goethe_Wahlverwandtschaften": {
         "precision": 0.6,
@@ -59681,7 +59681,7 @@
         "recall": 0.0,
         "f1": 0,
         "support_key": 3,
-        "support_response": 2
+        "support_response": 1
       },
       "K\u00fcrnberger_Amerika": {
         "precision": 0.2857142857142857,
@@ -60533,18 +60533,18 @@
     },
     "generic": {
       "aggregated": {
-        "precision": 0.0,
+        "precision": 0,
         "recall": 0,
         "f1": 0,
         "support_key": 0,
-        "support_response": 2
+        "support_response": 0
       },
       "Fischer_Gustav": {
-        "precision": 0.0,
+        "precision": 0,
         "recall": 0,
         "f1": 0,
         "support_key": 0,
-        "support_response": 1
+        "support_response": 0
       },
       "Goethe_Wahlverwandtschaften": {
         "precision": 0,
@@ -60554,11 +60554,11 @@
         "support_response": 0
       },
       "Heimburg_Trudchen": {
-        "precision": 0.0,
+        "precision": 0,
         "recall": 0,
         "f1": 0,
         "support_key": 0,
-        "support_response": 1
+        "support_response": 0
       },
       "K\u00fcrnberger_Amerika": {
         "precision": 0,
@@ -62288,16 +62288,16 @@
     "nonfact": {
       "aggregated": {
         "precision": 0.27647058823529413,
-        "recall": 0.7580645161290323,
-        "f1": 0.4051724137931034,
-        "support_key": 62,
+        "recall": 0.7704918032786885,
+        "f1": 0.4069264069264069,
+        "support_key": 61,
         "support_response": 170
       },
       "Fischer_Gustav": {
         "precision": 0.8333333333333334,
-        "recall": 0.8333333333333334,
-        "f1": 0.8333333333333334,
-        "support_key": 6,
+        "recall": 1.0,
+        "f1": 0.9090909090909091,
+        "support_key": 5,
         "support_response": 6
       },
       "Goethe_Wahlverwandtschaften": {

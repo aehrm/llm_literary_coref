@@ -38,7 +38,7 @@
         }
       },
       "finish_reason": "stop",
-      "request_id": "gen-1766633443-gPGxdBPgVoRm2T7OQE7C"
+      "request_id": "gen-1766781436-8PFsEiuRoXDXxSte1lqT"
     }
   ],
   "json_output": [
@@ -7512,7 +7512,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0002",
+            "id": "generic_0024",
             "fullname": "Leibeigene",
             "gender": "u",
             "specialcase_entity": [
@@ -8804,7 +8804,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0003",
+            "id": "generic_0046",
             "fullname": "Gegner",
             "gender": "u",
             "specialcase_entity": [
@@ -9083,7 +9083,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0005",
+            "id": "generic_0067",
             "fullname": "Pf\u00e4lzer",
             "gender": "u",
             "specialcase_entity": [
@@ -9341,7 +9341,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0006",
+            "id": "generic_0088",
             "fullname": "Bekannte",
             "gender": "u",
             "specialcase_entity": [
@@ -9365,7 +9365,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0007",
+            "id": "generic_0109",
             "fullname": "Ratgeber",
             "gender": "u",
             "specialcase_entity": [
@@ -9499,7 +9499,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0008",
+            "id": "generic_0129",
             "fullname": "Parlament\u00e4r",
             "gender": "u",
             "specialcase_entity": [
@@ -12328,7 +12328,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0009",
+            "id": "generic_0149",
             "fullname": "Lohgerber",
             "gender": "u",
             "specialcase_entity": [
@@ -12352,7 +12352,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0010",
+            "id": "generic_0168",
             "fullname": "Lohgerber",
             "gender": "u",
             "specialcase_entity": [
@@ -12903,7 +12903,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0004",
+            "id": "generic_0186",
             "fullname": "Gegner",
             "gender": "u",
             "specialcase_entity": [
@@ -13060,7 +13060,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0011",
+            "id": "generic_0207",
             "fullname": "H\u00f6rige",
             "gender": "u",
             "specialcase_entity": [
@@ -15800,7 +15800,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0012",
+            "id": "generic_0223",
             "fullname": "jedem",
             "gender": "u",
             "specialcase_entity": [
@@ -16750,7 +16750,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0013",
+            "id": "generic_0238",
             "fullname": "Rufer",
             "gender": "u",
             "specialcase_entity": [
@@ -17349,7 +17349,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0014",
+            "id": "generic_0253",
             "fullname": "Vork\u00e4mpfer",
             "gender": "u",
             "specialcase_entity": [
@@ -17618,7 +17618,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0015",
+            "id": "generic_0266",
             "fullname": "dritter",
             "gender": "u",
             "specialcase_entity": [
@@ -19390,8 +19390,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0001",
-            "fullname": "ein Mensch im Allgemeinen",
+            "id": "generic_0002",
+            "fullname": "Sorgenbrecher",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -36823,8 +36823,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0001",
-            "fullname": "Zeugenaussagen",
+            "id": "generic_0003",
+            "fullname": "Sorgenbrecher",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -37892,8 +37892,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0002",
-            "fullname": "der Alte",
+            "id": "generic_0025",
+            "fullname": "Leibeigene",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -39946,8 +39946,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0001",
-            "fullname": "vielen",
+            "id": "generic_0004",
+            "fullname": "Sorgenbrecher",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -40795,8 +40795,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0002",
-            "fullname": "Wachenheim im Allgemeinen",
+            "id": "generic_0026",
+            "fullname": "Leibeigene",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -41907,8 +41907,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0005",
-            "fullname": "Menschen im Allgemeinen",
+            "id": "generic_0068",
+            "fullname": "Pf\u00e4lzer",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -42352,8 +42352,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0007",
-            "fullname": "Wildfangrecht",
+            "id": "generic_0110",
+            "fullname": "Ratgeber",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -42775,8 +42775,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0008",
-            "fullname": "Opfer",
+            "id": "generic_0130",
+            "fullname": "Parlament\u00e4r",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -43832,8 +43832,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0009",
-            "fullname": "Friedfertigen im Allgemeinen",
+            "id": "generic_0150",
+            "fullname": "Lohgerber",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -44262,8 +44262,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0010",
-            "fullname": "Paaren",
+            "id": "generic_0169",
+            "fullname": "Lohgerber",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -45932,8 +45932,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0011",
-            "fullname": "Bote",
+            "id": "generic_0208",
+            "fullname": "H\u00f6rige",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -49423,8 +49423,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0006",
-            "fullname": "Menschen im Allgemeinen",
+            "id": "generic_0089",
+            "fullname": "Bekannte",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -49669,8 +49669,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0012",
-            "fullname": "Sklavin",
+            "id": "generic_0224",
+            "fullname": "jedem",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -49819,8 +49819,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0003",
-            "fullname": "Wachenheim im Allgemeinen",
+            "id": "generic_0047",
+            "fullname": "Gegner",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -50039,8 +50039,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0004",
-            "fullname": "Wachenheim im Allgemeinen",
+            "id": "generic_0187",
+            "fullname": "Gegner",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -54130,8 +54130,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0013",
-            "fullname": "Tausend",
+            "id": "generic_0239",
+            "fullname": "Rufer",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -55630,8 +55630,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0014",
-            "fullname": "mancher",
+            "id": "generic_0254",
+            "fullname": "Vork\u00e4mpfer",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -55676,8 +55676,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0015",
-            "fullname": "mancher",
+            "id": "generic_0267",
+            "fullname": "dritter",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -59192,8 +59192,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0001",
-            "fullname": "F\u00fcrsten im Allgemeinen",
+            "id": "generic_0005",
+            "fullname": "Sorgenbrecher",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -59216,8 +59216,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0002",
-            "fullname": "F\u00fcrsten im Allgemeinen",
+            "id": "generic_0027",
+            "fullname": "Leibeigene",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -59285,8 +59285,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0003",
-            "fullname": "Kinder des Pfalzgrafen",
+            "id": "generic_0048",
+            "fullname": "Gegner",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -63676,8 +63676,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0004",
-            "fullname": "Deidesheimer Hofst\u00fcck",
+            "id": "generic_0188",
+            "fullname": "Gegner",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -63722,8 +63722,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0005",
-            "fullname": "Deidesheimer Hofst\u00fcck",
+            "id": "generic_0069",
+            "fullname": "Pf\u00e4lzer",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -64260,8 +64260,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0006",
-            "fullname": "Deidesheimer Hofst\u00fcck",
+            "id": "generic_0090",
+            "fullname": "Bekannte",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -64528,8 +64528,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0007",
-            "fullname": "R\u00f6mer",
+            "id": "generic_0111",
+            "fullname": "Ratgeber",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -66536,8 +66536,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0008",
-            "fullname": "Herr",
+            "id": "generic_0131",
+            "fullname": "Parlament\u00e4r",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -70245,8 +70245,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0009",
-            "fullname": "ein anderer",
+            "id": "generic_0151",
+            "fullname": "Lohgerber",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -74273,8 +74273,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0001",
-            "fullname": "Frauen im Allgemeinen",
+            "id": "generic_0006",
+            "fullname": "Sorgenbrecher",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -74297,8 +74297,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0002",
-            "fullname": "M\u00e4nner im Allgemeinen",
+            "id": "generic_0028",
+            "fullname": "Leibeigene",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -75685,8 +75685,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0003",
-            "fullname": "Winzer im Allgemeinen",
+            "id": "generic_0049",
+            "fullname": "Gegner",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -75709,8 +75709,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0004",
-            "fullname": "Winzer im Allgemeinen",
+            "id": "generic_0189",
+            "fullname": "Gegner",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -75733,8 +75733,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0007",
-            "fullname": "ein Winzer",
+            "id": "generic_0112",
+            "fullname": "Ratgeber",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -75757,8 +75757,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0008",
-            "fullname": "ein anderer Winzer",
+            "id": "generic_0132",
+            "fullname": "Parlament\u00e4r",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -76276,8 +76276,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0009",
-            "fullname": "Bauerngeschlecht im Allgemeinen",
+            "id": "generic_0152",
+            "fullname": "Lohgerber",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -76368,8 +76368,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0010",
-            "fullname": "Christoph Armbrusters Altvordern",
+            "id": "generic_0170",
+            "fullname": "Lohgerber",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -76414,8 +76414,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0011",
-            "fullname": "Christoph Armbrusters Altvordern",
+            "id": "generic_0209",
+            "fullname": "H\u00f6rige",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -76438,8 +76438,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0015",
-            "fullname": "Bauern im Allgemeinen",
+            "id": "generic_0268",
+            "fullname": "dritter",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -76462,8 +76462,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0005",
-            "fullname": "Winzer im Allgemeinen",
+            "id": "generic_0070",
+            "fullname": "Pf\u00e4lzer",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -76486,8 +76486,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0012",
-            "fullname": "Christoph Armbrusters Altvordern",
+            "id": "generic_0225",
+            "fullname": "jedem",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -76510,8 +76510,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0013",
-            "fullname": "Christoph Armbrusters Altvordern",
+            "id": "generic_0240",
+            "fullname": "Rufer",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -76534,8 +76534,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0014",
-            "fullname": "Christoph Armbrusters Altvordern",
+            "id": "generic_0255",
+            "fullname": "Vork\u00e4mpfer",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -76624,7 +76624,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0016",
+            "id": "generic_0278",
             "fullname": "Bauer im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
@@ -76648,7 +76648,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0019",
+            "id": "generic_0288",
             "fullname": "B\u00fcrgermeister im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
@@ -76738,7 +76738,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0020",
+            "id": "generic_0296",
             "fullname": "B\u00fcrgermeister im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
@@ -77246,7 +77246,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0021",
+            "id": "generic_0303",
             "fullname": "B\u00fcrgermeister im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
@@ -77270,7 +77270,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0017",
+            "id": "generic_0309",
             "fullname": "Bauer im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
@@ -77294,7 +77294,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0018",
+            "id": "generic_0319",
             "fullname": "Bauer im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
@@ -77384,7 +77384,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0025",
+            "id": "generic_0327",
             "fullname": "Wingertsmann im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
@@ -77660,7 +77660,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0026",
+            "id": "generic_0332",
             "fullname": "Haupt der Gemeinde",
             "gender": "u",
             "specialcase_entity": [
@@ -77754,7 +77754,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0027",
+            "id": "generic_0336",
             "fullname": "ein Mitb\u00fcrger von Wachenheim",
             "gender": "u",
             "specialcase_entity": [
@@ -78002,8 +78002,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0006",
-            "fullname": "Winzer im Allgemeinen",
+            "id": "generic_0091",
+            "fullname": "Bekannte",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -78459,7 +78459,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0028",
+            "id": "generic_0340",
             "fullname": "Mitglied des Stadtrats",
             "gender": "u",
             "specialcase_entity": [
@@ -79893,7 +79893,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0029",
+            "id": "generic_0344",
             "fullname": "ein Knecht",
             "gender": "u",
             "specialcase_entity": [
@@ -81535,7 +81535,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0030",
+            "id": "generic_0348",
             "fullname": "Schwaben im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
@@ -81559,7 +81559,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0031",
+            "id": "generic_0351",
             "fullname": "Schwaben im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
@@ -81607,7 +81607,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0032",
+            "id": "generic_0354",
             "fullname": "Schwaben im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
@@ -81631,7 +81631,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0033",
+            "id": "generic_0357",
             "fullname": "Schwaben im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
@@ -81655,7 +81655,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0022",
+            "id": "generic_0360",
             "fullname": "B\u00fcrgermeister im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
@@ -81679,7 +81679,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0023",
+            "id": "generic_0366",
             "fullname": "B\u00fcrgermeister im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
@@ -82786,7 +82786,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0024",
+            "id": "generic_0371",
             "fullname": "B\u00fcrgermeister im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
@@ -83371,7 +83371,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0034",
+            "id": "generic_0376",
             "fullname": "Stadt",
             "gender": "u",
             "specialcase_entity": [
@@ -83587,7 +83587,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0035",
+            "id": "generic_0379",
             "fullname": "Dionysos",
             "gender": "u",
             "specialcase_entity": [
@@ -83659,8 +83659,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0001",
-            "fullname": "Winzer im Allgemeinen",
+            "id": "generic_0007",
+            "fullname": "Sorgenbrecher",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -83705,8 +83705,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0002",
-            "fullname": "anderen Winzern im Allgemeinen",
+            "id": "generic_0029",
+            "fullname": "Leibeigene",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -84864,8 +84864,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0003",
-            "fullname": "W\u00fcrzburger im Allgemeinen",
+            "id": "generic_0050",
+            "fullname": "Gegner",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -84946,8 +84946,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0004",
-            "fullname": "W\u00fcrzburger im Allgemeinen",
+            "id": "generic_0190",
+            "fullname": "Gegner",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -84970,8 +84970,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0005",
-            "fullname": "W\u00fcrzburger im Allgemeinen",
+            "id": "generic_0071",
+            "fullname": "Pf\u00e4lzer",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -88062,8 +88062,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0007",
-            "fullname": "Mann im Allgemeinen",
+            "id": "generic_0113",
+            "fullname": "Ratgeber",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -88086,8 +88086,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0008",
-            "fullname": "Mann im Allgemeinen",
+            "id": "generic_0133",
+            "fullname": "Parlament\u00e4r",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -89078,8 +89078,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0006",
-            "fullname": "W\u00fcrzburger im Allgemeinen",
+            "id": "generic_0092",
+            "fullname": "Bekannte",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -90303,8 +90303,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0001",
-            "fullname": "Pf\u00e4lzer im Allgemeinen",
+            "id": "generic_0008",
+            "fullname": "Sorgenbrecher",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -90349,8 +90349,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0002",
-            "fullname": "Pf\u00e4lzer im Allgemeinen",
+            "id": "generic_0030",
+            "fullname": "Leibeigene",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -90373,8 +90373,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0003",
-            "fullname": "Pf\u00e4lzer im Allgemeinen",
+            "id": "generic_0051",
+            "fullname": "Gegner",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -90397,8 +90397,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0004",
-            "fullname": "Pf\u00e4lzer im Allgemeinen",
+            "id": "generic_0191",
+            "fullname": "Gegner",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -90421,8 +90421,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0007",
-            "fullname": "Gaubauern im Allgemeinen",
+            "id": "generic_0114",
+            "fullname": "Ratgeber",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -90445,8 +90445,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0008",
-            "fullname": "Gaubauern im Allgemeinen",
+            "id": "generic_0134",
+            "fullname": "Parlament\u00e4r",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -90469,8 +90469,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0009",
-            "fullname": "Gaubauern im Allgemeinen",
+            "id": "generic_0153",
+            "fullname": "Lohgerber",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -90541,8 +90541,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0010",
-            "fullname": "Jedermann im Allgemeinen",
+            "id": "generic_0171",
+            "fullname": "Lohgerber",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -90635,8 +90635,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0011",
-            "fullname": "Teilnehmer im Allgemeinen",
+            "id": "generic_0210",
+            "fullname": "H\u00f6rige",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -90659,8 +90659,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0012",
-            "fullname": "M\u00e4dchen im Allgemeinen",
+            "id": "generic_0226",
+            "fullname": "jedem",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -90683,7 +90683,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0063",
+            "id": "generic_0382",
             "fullname": "Junggesellen im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
@@ -90707,7 +90707,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0064",
+            "id": "generic_0383",
             "fullname": "Junggesellen im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
@@ -90731,7 +90731,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0065",
+            "id": "generic_0384",
             "fullname": "M\u00fctter im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
@@ -90755,7 +90755,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0066",
+            "id": "generic_0385",
             "fullname": "M\u00fctter im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
@@ -90779,7 +90779,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0067",
+            "id": "generic_0386",
             "fullname": "Jugend im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
@@ -90803,7 +90803,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0068",
+            "id": "generic_0387",
             "fullname": "Spinnerinnen im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
@@ -90827,7 +90827,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0069",
+            "id": "generic_0388",
             "fullname": "Spinnerinnen im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
@@ -90873,7 +90873,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0070",
+            "id": "generic_0389",
             "fullname": "Dirnen im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
@@ -90897,7 +90897,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0071",
+            "id": "generic_0390",
             "fullname": "Dirnen im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
@@ -90921,7 +90921,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0072",
+            "id": "generic_0391",
             "fullname": "Burschen im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
@@ -90945,7 +90945,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0073",
+            "id": "generic_0392",
             "fullname": "Burschen im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
@@ -90969,7 +90969,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0094",
+            "id": "generic_0393",
             "fullname": "Auserw\u00e4hlten im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
@@ -90993,7 +90993,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0095",
+            "id": "generic_0394",
             "fullname": "ein Mann im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
@@ -91017,7 +91017,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0096",
+            "id": "generic_0395",
             "fullname": "ein Mann im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
@@ -91041,7 +91041,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0097",
+            "id": "generic_0396",
             "fullname": "ein Mann im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
@@ -91065,7 +91065,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0098",
+            "id": "generic_0397",
             "fullname": "ein Mann im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
@@ -91089,7 +91089,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0099",
+            "id": "generic_0398",
             "fullname": "ein Mann im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
@@ -91137,7 +91137,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0100",
+            "id": "generic_0399",
             "fullname": "ein Mann im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
@@ -91161,7 +91161,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0101",
+            "id": "generic_0400",
             "fullname": "ein Mann im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
@@ -91185,7 +91185,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0102",
+            "id": "generic_0401",
             "fullname": "ein Mann im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
@@ -91209,7 +91209,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0103",
+            "id": "generic_0402",
             "fullname": "ein Mann im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
@@ -91439,7 +91439,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0104",
+            "id": "generic_0403",
             "fullname": "Unbekannte im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
@@ -91795,7 +91795,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0105",
+            "id": "generic_0404",
             "fullname": "Altersgenossinnen im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
@@ -91819,7 +91819,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0106",
+            "id": "generic_0405",
             "fullname": "Altersgenossinnen im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
@@ -92011,7 +92011,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0107",
+            "id": "generic_0406",
             "fullname": "Wachenheimerinnen im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
@@ -92058,8 +92058,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0013",
-            "fullname": "M\u00e4dchen im Allgemeinen",
+            "id": "generic_0241",
+            "fullname": "Rufer",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -92290,7 +92290,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0074",
+            "id": "generic_0407",
             "fullname": "Burschen im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
@@ -92314,7 +92314,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0075",
+            "id": "generic_0408",
             "fullname": "Burschen im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
@@ -94816,7 +94816,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0076",
+            "id": "generic_0409",
             "fullname": "Burschen im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
@@ -96117,8 +96117,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0014",
-            "fullname": "M\u00e4dchen im Allgemeinen",
+            "id": "generic_0256",
+            "fullname": "Vork\u00e4mpfer",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -96141,8 +96141,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0015",
-            "fullname": "M\u00e4dchen im Allgemeinen",
+            "id": "generic_0269",
+            "fullname": "dritter",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -96165,8 +96165,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0016",
-            "fullname": "M\u00e4dchen im Allgemeinen",
+            "id": "generic_0279",
+            "fullname": "Bauer im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -96189,8 +96189,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0017",
-            "fullname": "M\u00e4dchen im Allgemeinen",
+            "id": "generic_0310",
+            "fullname": "Bauer im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -96213,7 +96213,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0108",
+            "id": "generic_0410",
             "fullname": "jeder",
             "gender": "u",
             "specialcase_entity": [
@@ -96259,7 +96259,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0109",
+            "id": "generic_0411",
             "fullname": "Buben im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
@@ -96283,8 +96283,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0018",
-            "fullname": "M\u00e4dchen im Allgemeinen",
+            "id": "generic_0320",
+            "fullname": "Bauer im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -96307,8 +96307,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0019",
-            "fullname": "M\u00e4dchen im Allgemeinen",
+            "id": "generic_0289",
+            "fullname": "B\u00fcrgermeister im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -96331,7 +96331,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0110",
+            "id": "generic_0412",
             "fullname": "Buben im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
@@ -96401,8 +96401,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0020",
-            "fullname": "M\u00e4dchen im Allgemeinen",
+            "id": "generic_0297",
+            "fullname": "B\u00fcrgermeister im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -96471,8 +96471,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0005",
-            "fullname": "Pf\u00e4lzer im Allgemeinen",
+            "id": "generic_0072",
+            "fullname": "Pf\u00e4lzer",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -96517,8 +96517,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0006",
-            "fullname": "Pf\u00e4lzer im Allgemeinen",
+            "id": "generic_0093",
+            "fullname": "Bekannte",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -96541,8 +96541,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0021",
-            "fullname": "M\u00e4dchen im Allgemeinen",
+            "id": "generic_0304",
+            "fullname": "B\u00fcrgermeister im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -97591,7 +97591,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0111",
+            "id": "generic_0413",
             "fullname": "M\u00e4nner im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
@@ -97637,8 +97637,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0022",
-            "fullname": "M\u00e4dchen im Allgemeinen",
+            "id": "generic_0361",
+            "fullname": "B\u00fcrgermeister im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -97683,8 +97683,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0023",
-            "fullname": "M\u00e4dchen im Allgemeinen",
+            "id": "generic_0367",
+            "fullname": "B\u00fcrgermeister im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -97707,8 +97707,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0024",
-            "fullname": "M\u00e4dchen im Allgemeinen",
+            "id": "generic_0372",
+            "fullname": "B\u00fcrgermeister im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -98642,7 +98642,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0077",
+            "id": "generic_0414",
             "fullname": "Burschen im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
@@ -98777,7 +98777,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0112",
+            "id": "generic_0415",
             "fullname": "Volk im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
@@ -99168,7 +99168,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0078",
+            "id": "generic_0416",
             "fullname": "Burschen im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
@@ -99698,7 +99698,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0079",
+            "id": "generic_0417",
             "fullname": "Burschen im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
@@ -99722,7 +99722,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0080",
+            "id": "generic_0418",
             "fullname": "Burschen im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
@@ -99990,8 +99990,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0025",
-            "fullname": "M\u00e4dchen im Allgemeinen",
+            "id": "generic_0328",
+            "fullname": "Wingertsmann im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -100036,8 +100036,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0026",
-            "fullname": "M\u00e4dchen im Allgemeinen",
+            "id": "generic_0333",
+            "fullname": "Haupt der Gemeinde",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -100082,8 +100082,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0027",
-            "fullname": "M\u00e4dchen im Allgemeinen",
+            "id": "generic_0337",
+            "fullname": "ein Mitb\u00fcrger von Wachenheim",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -100106,8 +100106,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0028",
-            "fullname": "M\u00e4dchen im Allgemeinen",
+            "id": "generic_0341",
+            "fullname": "Mitglied des Stadtrats",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -100152,8 +100152,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0029",
-            "fullname": "M\u00e4dchen im Allgemeinen",
+            "id": "generic_0345",
+            "fullname": "ein Knecht",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -100176,7 +100176,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0081",
+            "id": "generic_0419",
             "fullname": "Burschen im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
@@ -100200,8 +100200,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0030",
-            "fullname": "M\u00e4dchen im Allgemeinen",
+            "id": "generic_0349",
+            "fullname": "Schwaben im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -100268,7 +100268,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0113",
+            "id": "generic_0420",
             "fullname": "Spinnerin im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
@@ -100292,7 +100292,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0114",
+            "id": "generic_0421",
             "fullname": "Spinnerin im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
@@ -100360,7 +100360,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0115",
+            "id": "generic_0422",
             "fullname": "Spinnerin im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
@@ -100384,7 +100384,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0116",
+            "id": "generic_0423",
             "fullname": "Spinnerin im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
@@ -100408,7 +100408,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0117",
+            "id": "generic_0424",
             "fullname": "Spinnerin im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
@@ -100432,7 +100432,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0118",
+            "id": "generic_0425",
             "fullname": "Spinnerin im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
@@ -100646,7 +100646,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0119",
+            "id": "generic_0426",
             "fullname": "Spinnerin im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
@@ -100670,7 +100670,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0120",
+            "id": "generic_0427",
             "fullname": "Spinnerin im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
@@ -100718,7 +100718,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0121",
+            "id": "generic_0428",
             "fullname": "Spinnerin im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
@@ -100742,7 +100742,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0122",
+            "id": "generic_0429",
             "fullname": "Spinnerin im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
@@ -100790,7 +100790,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0123",
+            "id": "generic_0430",
             "fullname": "Spinnerin im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
@@ -100814,7 +100814,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0124",
+            "id": "generic_0431",
             "fullname": "Spinnerin im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
@@ -100838,7 +100838,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0125",
+            "id": "generic_0432",
             "fullname": "Spinnerin im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
@@ -100898,7 +100898,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0126",
+            "id": "generic_0433",
             "fullname": "Spinnerin im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
@@ -100922,7 +100922,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0127",
+            "id": "generic_0434",
             "fullname": "Spinnerin im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
@@ -100946,7 +100946,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0128",
+            "id": "generic_0435",
             "fullname": "Spinnerin im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
@@ -100970,7 +100970,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0129",
+            "id": "generic_0436",
             "fullname": "Spinnerin im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
@@ -101010,7 +101010,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0130",
+            "id": "generic_0437",
             "fullname": "Spinnerin im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
@@ -101058,7 +101058,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0131",
+            "id": "generic_0438",
             "fullname": "Spinnerin im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
@@ -101082,7 +101082,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0132",
+            "id": "generic_0439",
             "fullname": "Spinnerin im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
@@ -101106,7 +101106,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0133",
+            "id": "generic_0440",
             "fullname": "Spinnerin im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
@@ -101130,7 +101130,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0134",
+            "id": "generic_0441",
             "fullname": "Spinnerin im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
@@ -101314,8 +101314,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0031",
-            "fullname": "M\u00e4dchen im Allgemeinen",
+            "id": "generic_0352",
+            "fullname": "Schwaben im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -101338,7 +101338,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0135",
+            "id": "generic_0442",
             "fullname": "der B\u00f6se",
             "gender": "u",
             "specialcase_entity": [
@@ -101362,7 +101362,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0136",
+            "id": "generic_0443",
             "fullname": "der B\u00f6se",
             "gender": "u",
             "specialcase_entity": [
@@ -101386,8 +101386,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0032",
-            "fullname": "M\u00e4dchen im Allgemeinen",
+            "id": "generic_0355",
+            "fullname": "Schwaben im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -101410,8 +101410,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0015",
-            "fullname": "Deibel",
+            "id": "generic_0270",
+            "fullname": "dritter",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -101434,7 +101434,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0137",
+            "id": "generic_0444",
             "fullname": "der B\u00f6se",
             "gender": "u",
             "specialcase_entity": [
@@ -101458,7 +101458,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0138",
+            "id": "generic_0445",
             "fullname": "der B\u00f6se",
             "gender": "u",
             "specialcase_entity": [
@@ -101482,8 +101482,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0033",
-            "fullname": "M\u00e4dchen im Allgemeinen",
+            "id": "generic_0358",
+            "fullname": "Schwaben im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -101506,7 +101506,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0139",
+            "id": "generic_0446",
             "fullname": "der B\u00f6se",
             "gender": "u",
             "specialcase_entity": [
@@ -101530,8 +101530,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0034",
-            "fullname": "M\u00e4dchen im Allgemeinen",
+            "id": "generic_0377",
+            "fullname": "Stadt",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -101554,8 +101554,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0035",
-            "fullname": "M\u00e4dchen im Allgemeinen",
+            "id": "generic_0380",
+            "fullname": "Dionysos",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -101578,7 +101578,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0036",
+            "id": "generic_0447",
             "fullname": "M\u00e4dchen im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
@@ -101602,7 +101602,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0037",
+            "id": "generic_0449",
             "fullname": "M\u00e4dchen im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
@@ -101626,7 +101626,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0038",
+            "id": "generic_0451",
             "fullname": "M\u00e4dchen im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
@@ -101650,7 +101650,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0140",
+            "id": "generic_0453",
             "fullname": "Todfeindin",
             "gender": "u",
             "specialcase_entity": [
@@ -101696,7 +101696,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0141",
+            "id": "generic_0454",
             "fullname": "einen",
             "gender": "u",
             "specialcase_entity": [
@@ -101720,7 +101720,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0039",
+            "id": "generic_0455",
             "fullname": "M\u00e4dchen im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
@@ -101856,7 +101856,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0040",
+            "id": "generic_0457",
             "fullname": "M\u00e4dchen im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
@@ -101880,7 +101880,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0082",
+            "id": "generic_0459",
             "fullname": "Burschen im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
@@ -101904,7 +101904,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0041",
+            "id": "generic_0460",
             "fullname": "M\u00e4dchen im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
@@ -101950,7 +101950,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0083",
+            "id": "generic_0462",
             "fullname": "Burschen im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
@@ -101974,7 +101974,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0042",
+            "id": "generic_0463",
             "fullname": "M\u00e4dchen im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
@@ -101998,7 +101998,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0043",
+            "id": "generic_0465",
             "fullname": "M\u00e4dchen im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
@@ -102022,7 +102022,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0084",
+            "id": "generic_0467",
             "fullname": "Burschen im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
@@ -102046,7 +102046,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0085",
+            "id": "generic_0468",
             "fullname": "Burschen im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
@@ -102070,7 +102070,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0044",
+            "id": "generic_0469",
             "fullname": "M\u00e4dchen im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
@@ -102094,7 +102094,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0045",
+            "id": "generic_0471",
             "fullname": "M\u00e4dchen im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
@@ -102118,7 +102118,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0086",
+            "id": "generic_0473",
             "fullname": "Burschen im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
@@ -102142,7 +102142,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0046",
+            "id": "generic_0474",
             "fullname": "M\u00e4dchen im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
@@ -102166,7 +102166,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0047",
+            "id": "generic_0476",
             "fullname": "M\u00e4dchen im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
@@ -102212,7 +102212,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0048",
+            "id": "generic_0478",
             "fullname": "M\u00e4dchen im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
@@ -102236,7 +102236,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0087",
+            "id": "generic_0479",
             "fullname": "Burschen im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
@@ -102260,7 +102260,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0049",
+            "id": "generic_0480",
             "fullname": "M\u00e4dchen im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
@@ -102284,7 +102284,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0088",
+            "id": "generic_0481",
             "fullname": "Burschen im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
@@ -102308,7 +102308,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0050",
+            "id": "generic_0482",
             "fullname": "M\u00e4dchen im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
@@ -102332,7 +102332,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0051",
+            "id": "generic_0483",
             "fullname": "M\u00e4dchen im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
@@ -102356,7 +102356,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0052",
+            "id": "generic_0484",
             "fullname": "M\u00e4dchen im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
@@ -102380,7 +102380,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0089",
+            "id": "generic_0485",
             "fullname": "Burschen im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
@@ -102404,7 +102404,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0053",
+            "id": "generic_0486",
             "fullname": "M\u00e4dchen im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
@@ -102428,7 +102428,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0054",
+            "id": "generic_0487",
             "fullname": "M\u00e4dchen im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
@@ -102474,7 +102474,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0055",
+            "id": "generic_0488",
             "fullname": "M\u00e4dchen im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
@@ -102498,7 +102498,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0090",
+            "id": "generic_0489",
             "fullname": "Burschen im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
@@ -102522,7 +102522,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0056",
+            "id": "generic_0490",
             "fullname": "M\u00e4dchen im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
@@ -102546,7 +102546,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0057",
+            "id": "generic_0491",
             "fullname": "M\u00e4dchen im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
@@ -102570,7 +102570,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0091",
+            "id": "generic_0492",
             "fullname": "Burschen im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
@@ -102594,7 +102594,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0058",
+            "id": "generic_0493",
             "fullname": "M\u00e4dchen im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
@@ -102618,7 +102618,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0142",
+            "id": "generic_0494",
             "fullname": "Mann im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
@@ -102642,7 +102642,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0143",
+            "id": "generic_0495",
             "fullname": "Mann im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
@@ -102666,7 +102666,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0059",
+            "id": "generic_0496",
             "fullname": "M\u00e4dchen im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
@@ -102690,7 +102690,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0060",
+            "id": "generic_0497",
             "fullname": "M\u00e4dchen im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
@@ -102808,7 +102808,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0061",
+            "id": "generic_0498",
             "fullname": "M\u00e4dchen im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
@@ -102898,7 +102898,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0092",
+            "id": "generic_0499",
             "fullname": "Burschen im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
@@ -102922,7 +102922,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0062",
+            "id": "generic_0500",
             "fullname": "M\u00e4dchen im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
@@ -102970,7 +102970,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0144",
+            "id": "generic_0501",
             "fullname": "der",
             "gender": "u",
             "specialcase_entity": [
@@ -102986,7 +102986,7 @@
         },
         {
           "entity": {
-            "id": "generic_0147",
+            "id": "generic_0502",
             "fullname": "die",
             "gender": "u",
             "specialcase_entity": [
@@ -103010,7 +103010,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0145",
+            "id": "generic_0503",
             "fullname": "der",
             "gender": "u",
             "specialcase_entity": [
@@ -103034,7 +103034,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0148",
+            "id": "generic_0504",
             "fullname": "die",
             "gender": "u",
             "specialcase_entity": [
@@ -103174,7 +103174,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0146",
+            "id": "generic_0505",
             "fullname": "der",
             "gender": "u",
             "specialcase_entity": [
@@ -103190,7 +103190,7 @@
         },
         {
           "entity": {
-            "id": "generic_0149",
+            "id": "generic_0506",
             "fullname": "die",
             "gender": "u",
             "specialcase_entity": [
@@ -103967,7 +103967,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0150",
+            "id": "generic_0507",
             "fullname": "Tanzmeister im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
@@ -103991,7 +103991,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0151",
+            "id": "generic_0508",
             "fullname": "Tanzmeister im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
@@ -104747,7 +104747,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0093",
+            "id": "generic_0509",
             "fullname": "Burschen im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
@@ -105240,7 +105240,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0152",
+            "id": "generic_0510",
             "fullname": "anderer",
             "gender": "u",
             "specialcase_entity": [
@@ -106312,7 +106312,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0153",
+            "id": "generic_0511",
             "fullname": "einer",
             "gender": "u",
             "specialcase_entity": [
@@ -106336,7 +106336,7 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0154",
+            "id": "generic_0512",
             "fullname": "einer",
             "gender": "u",
             "specialcase_entity": [
@@ -106581,8 +106581,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0001",
-            "fullname": "ein Spielmann im Allgemeinen",
+            "id": "generic_0009",
+            "fullname": "Sorgenbrecher",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -107299,8 +107299,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0004",
-            "fullname": "Spielleuten im Allgemeinen",
+            "id": "generic_0192",
+            "fullname": "Gegner",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -107395,8 +107395,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0005",
-            "fullname": "Alchimisten im Allgemeinen",
+            "id": "generic_0073",
+            "fullname": "Pf\u00e4lzer",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -107441,8 +107441,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0006",
-            "fullname": "Goldmacher und Schwarzk\u00fcnstler im Allgemeinen",
+            "id": "generic_0094",
+            "fullname": "Bekannte",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -107555,8 +107555,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0007",
-            "fullname": "Winzer im Allgemeinen",
+            "id": "generic_0115",
+            "fullname": "Ratgeber",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -107689,8 +107689,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0009",
-            "fullname": "Quacksalber im Allgemeinen",
+            "id": "generic_0154",
+            "fullname": "Lohgerber",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -107783,8 +107783,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0010",
-            "fullname": "Gimmeldingern im Allgemeinen",
+            "id": "generic_0172",
+            "fullname": "Lohgerber",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -108071,8 +108071,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0008",
-            "fullname": "Winzer im Allgemeinen",
+            "id": "generic_0135",
+            "fullname": "Parlament\u00e4r",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -108271,8 +108271,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0011",
-            "fullname": "Weinbauern im Allgemeinen",
+            "id": "generic_0211",
+            "fullname": "H\u00f6rige",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -108383,8 +108383,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0012",
-            "fullname": "Abnehmer im Allgemeinen",
+            "id": "generic_0227",
+            "fullname": "jedem",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -109129,8 +109129,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0013",
-            "fullname": "Menschen im Allgemeinen",
+            "id": "generic_0242",
+            "fullname": "Rufer",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -109373,8 +109373,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0015",
-            "fullname": "B\u00fcrger im Allgemeinen",
+            "id": "generic_0271",
+            "fullname": "dritter",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -109509,8 +109509,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0014",
-            "fullname": "Menschen im Allgemeinen",
+            "id": "generic_0257",
+            "fullname": "Vork\u00e4mpfer",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -109865,8 +109865,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0002",
-            "fullname": "ein Spielmann im Allgemeinen",
+            "id": "generic_0031",
+            "fullname": "Leibeigene",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -110767,8 +110767,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0016",
-            "fullname": "M\u00e4dchen im Allgemeinen",
+            "id": "generic_0280",
+            "fullname": "Bauer im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -110813,8 +110813,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0027",
-            "fullname": "Buben im Allgemeinen",
+            "id": "generic_0338",
+            "fullname": "ein Mitb\u00fcrger von Wachenheim",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -111438,8 +111438,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0028",
-            "fullname": "man im Allgemeinen",
+            "id": "generic_0342",
+            "fullname": "Mitglied des Stadtrats",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -111658,8 +111658,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0017",
-            "fullname": "M\u00e4dchen im Allgemeinen",
+            "id": "generic_0311",
+            "fullname": "Bauer im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -111874,8 +111874,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0030",
-            "fullname": "jedem im Hause",
+            "id": "generic_0350",
+            "fullname": "Schwaben im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -111942,8 +111942,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0018",
-            "fullname": "M\u00e4dchen im Allgemeinen",
+            "id": "generic_0321",
+            "fullname": "Bauer im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -112512,8 +112512,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0019",
-            "fullname": "M\u00e4dchen im Allgemeinen",
+            "id": "generic_0290",
+            "fullname": "B\u00fcrgermeister im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -112560,8 +112560,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0031",
-            "fullname": "Bauer im Allgemeinen",
+            "id": "generic_0353",
+            "fullname": "Schwaben im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -113228,8 +113228,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0032",
-            "fullname": "Burschen im Allgemeinen",
+            "id": "generic_0356",
+            "fullname": "Schwaben im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -114736,8 +114736,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0020",
-            "fullname": "M\u00e4dchen im Allgemeinen",
+            "id": "generic_0298",
+            "fullname": "B\u00fcrgermeister im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -114870,8 +114870,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0036",
-            "fullname": "M\u00fctter im Allgemeinen",
+            "id": "generic_0448",
+            "fullname": "M\u00e4dchen im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -114938,8 +114938,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0037",
-            "fullname": "T\u00f6chter im Allgemeinen",
+            "id": "generic_0450",
+            "fullname": "M\u00e4dchen im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -115028,8 +115028,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0038",
-            "fullname": "Bauerndirn im Allgemeinen",
+            "id": "generic_0452",
+            "fullname": "M\u00e4dchen im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -115096,8 +115096,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0039",
-            "fullname": "M\u00e4nner im Allgemeinen",
+            "id": "generic_0456",
+            "fullname": "M\u00e4dchen im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -115494,8 +115494,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0021",
-            "fullname": "M\u00e4dchen im Allgemeinen",
+            "id": "generic_0305",
+            "fullname": "B\u00fcrgermeister im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -115914,8 +115914,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0041",
-            "fullname": "Partnerin",
+            "id": "generic_0461",
+            "fullname": "M\u00e4dchen im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -116953,8 +116953,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0033",
-            "fullname": "Burschen im Allgemeinen",
+            "id": "generic_0359",
+            "fullname": "Schwaben im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -116977,8 +116977,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0022",
-            "fullname": "M\u00e4dchen im Allgemeinen",
+            "id": "generic_0362",
+            "fullname": "B\u00fcrgermeister im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -118573,8 +118573,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0023",
-            "fullname": "M\u00e4dchen im Allgemeinen",
+            "id": "generic_0368",
+            "fullname": "B\u00fcrgermeister im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -118619,8 +118619,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0034",
-            "fullname": "Burschen im Allgemeinen",
+            "id": "generic_0378",
+            "fullname": "Stadt",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -119165,8 +119165,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0042",
-            "fullname": "Jeden",
+            "id": "generic_0464",
+            "fullname": "M\u00e4dchen im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -119247,8 +119247,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0043",
-            "fullname": "andere",
+            "id": "generic_0466",
+            "fullname": "M\u00e4dchen im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -119293,8 +119293,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0044",
-            "fullname": "jedem",
+            "id": "generic_0470",
+            "fullname": "M\u00e4dchen im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -119537,8 +119537,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0024",
-            "fullname": "M\u00e4dchen im Allgemeinen",
+            "id": "generic_0373",
+            "fullname": "B\u00fcrgermeister im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -119561,8 +119561,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0035",
-            "fullname": "Burschen im Allgemeinen",
+            "id": "generic_0381",
+            "fullname": "Dionysos",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -119585,8 +119585,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0003",
-            "fullname": "ein Spielmann im Allgemeinen",
+            "id": "generic_0052",
+            "fullname": "Gegner",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -120182,8 +120182,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0045",
-            "fullname": "wer",
+            "id": "generic_0472",
+            "fullname": "M\u00e4dchen im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -121217,8 +121217,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0025",
-            "fullname": "M\u00e4dchen im Allgemeinen",
+            "id": "generic_0329",
+            "fullname": "Wingertsmann im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -121241,8 +121241,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0040",
-            "fullname": "M\u00e4nner im Allgemeinen",
+            "id": "generic_0458",
+            "fullname": "M\u00e4dchen im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -121287,8 +121287,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0046",
-            "fullname": "Kenner im Allgemeinen",
+            "id": "generic_0475",
+            "fullname": "M\u00e4dchen im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -123349,8 +123349,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0047",
-            "fullname": "jeder",
+            "id": "generic_0477",
+            "fullname": "M\u00e4dchen im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -123859,8 +123859,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0029",
-            "fullname": "man im Allgemeinen",
+            "id": "generic_0346",
+            "fullname": "ein Knecht",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -123929,8 +123929,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0026",
-            "fullname": "M\u00e4dchen im Allgemeinen",
+            "id": "generic_0334",
+            "fullname": "Haupt der Gemeinde",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -124698,8 +124698,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0001",
-            "fullname": "Winzer im Allgemeinen",
+            "id": "generic_0010",
+            "fullname": "Sorgenbrecher",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -124722,8 +124722,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0002",
-            "fullname": "Winzer im Allgemeinen",
+            "id": "generic_0032",
+            "fullname": "Leibeigene",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -124746,8 +124746,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0003",
-            "fullname": "Winzer im Allgemeinen",
+            "id": "generic_0053",
+            "fullname": "Gegner",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -124770,8 +124770,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0004",
-            "fullname": "Winzer im Allgemeinen",
+            "id": "generic_0193",
+            "fullname": "Gegner",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -125076,8 +125076,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0006",
-            "fullname": "Leute im Allgemeinen",
+            "id": "generic_0095",
+            "fullname": "Bekannte",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -125321,8 +125321,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0007",
-            "fullname": "Leute im Allgemeinen",
+            "id": "generic_0116",
+            "fullname": "Ratgeber",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -125457,8 +125457,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0005",
-            "fullname": "Neidh\u00e4mmel im Allgemeinen",
+            "id": "generic_0074",
+            "fullname": "Pf\u00e4lzer",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -125625,8 +125625,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0008",
-            "fullname": "Leute im Allgemeinen",
+            "id": "generic_0136",
+            "fullname": "Parlament\u00e4r",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -125869,8 +125869,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0009",
-            "fullname": "Leute im Allgemeinen",
+            "id": "generic_0155",
+            "fullname": "Lohgerber",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -128610,8 +128610,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0001",
-            "fullname": "ein Abt im Allgemeinen",
+            "id": "generic_0011",
+            "fullname": "Sorgenbrecher",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -129360,8 +129360,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0016",
-            "fullname": "Mitb\u00fcrger",
+            "id": "generic_0281",
+            "fullname": "Bauer im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -129604,8 +129604,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0017",
-            "fullname": "Gegner",
+            "id": "generic_0312",
+            "fullname": "Bauer im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -131062,8 +131062,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0002",
-            "fullname": "ein Abt im Allgemeinen",
+            "id": "generic_0033",
+            "fullname": "Leibeigene",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -132852,8 +132852,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0006",
-            "fullname": "jemand im Allgemeinen",
+            "id": "generic_0096",
+            "fullname": "Bekannte",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -132876,8 +132876,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0007",
-            "fullname": "jemand im Allgemeinen",
+            "id": "generic_0117",
+            "fullname": "Ratgeber",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -132922,8 +132922,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0008",
-            "fullname": "Geborene im Allgemeinen",
+            "id": "generic_0137",
+            "fullname": "Parlament\u00e4r",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -132946,8 +132946,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0009",
-            "fullname": "Mann im Allgemeinen",
+            "id": "generic_0156",
+            "fullname": "Lohgerber",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -132970,8 +132970,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0010",
-            "fullname": "Weib im Allgemeinen",
+            "id": "generic_0173",
+            "fullname": "Lohgerber",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -132994,8 +132994,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0011",
-            "fullname": "Wildfang im Allgemeinen",
+            "id": "generic_0212",
+            "fullname": "H\u00f6rige",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -133018,8 +133018,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0012",
-            "fullname": "Wildfang im Allgemeinen",
+            "id": "generic_0228",
+            "fullname": "jedem",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -133042,8 +133042,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0013",
-            "fullname": "Wildfang im Allgemeinen",
+            "id": "generic_0243",
+            "fullname": "Rufer",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -133112,8 +133112,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0014",
-            "fullname": "Wildfang im Allgemeinen",
+            "id": "generic_0258",
+            "fullname": "Vork\u00e4mpfer",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -133136,8 +133136,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0015",
-            "fullname": "Wildfang im Allgemeinen",
+            "id": "generic_0272",
+            "fullname": "dritter",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -133182,8 +133182,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0016",
-            "fullname": "Wildfang im Allgemeinen",
+            "id": "generic_0282",
+            "fullname": "Bauer im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -133228,8 +133228,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0017",
-            "fullname": "Wildfang im Allgemeinen",
+            "id": "generic_0313",
+            "fullname": "Bauer im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -133252,8 +133252,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0018",
-            "fullname": "Wildfang im Allgemeinen",
+            "id": "generic_0322",
+            "fullname": "Bauer im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -133654,8 +133654,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0020",
-            "fullname": "Wer im Allgemeinen",
+            "id": "generic_0299",
+            "fullname": "B\u00fcrgermeister im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -133678,8 +133678,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0019",
-            "fullname": "Wildfang im Allgemeinen",
+            "id": "generic_0291",
+            "fullname": "B\u00fcrgermeister im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -136094,8 +136094,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0003",
-            "fullname": "Pfalzgrafen",
+            "id": "generic_0054",
+            "fullname": "Gegner",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -136997,8 +136997,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0001",
-            "fullname": "Hexe im Allgemeinen",
+            "id": "generic_0012",
+            "fullname": "Sorgenbrecher",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -137021,8 +137021,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0002",
-            "fullname": "Hexe im Allgemeinen",
+            "id": "generic_0034",
+            "fullname": "Leibeigene",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -137600,8 +137600,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0003",
-            "fullname": "Wein",
+            "id": "generic_0055",
+            "fullname": "Gegner",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -137624,8 +137624,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0004",
-            "fullname": "Wein",
+            "id": "generic_0194",
+            "fullname": "Gegner",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -138634,8 +138634,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0005",
-            "fullname": "Wandergenossen im Allgemeinen",
+            "id": "generic_0075",
+            "fullname": "Pf\u00e4lzer",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -138658,8 +138658,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0006",
-            "fullname": "Wandergenossen im Allgemeinen",
+            "id": "generic_0097",
+            "fullname": "Bekannte",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -140264,8 +140264,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0007",
-            "fullname": "Burschen im Allgemeinen",
+            "id": "generic_0118",
+            "fullname": "Ratgeber",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -141040,8 +141040,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0004",
-            "fullname": "Landsknechten",
+            "id": "generic_0195",
+            "fullname": "Gegner",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -141418,8 +141418,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0009",
-            "fullname": "B\u00fcrgermeister",
+            "id": "generic_0157",
+            "fullname": "Lohgerber",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -141442,8 +141442,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0010",
-            "fullname": "B\u00fcrgermeister",
+            "id": "generic_0174",
+            "fullname": "Lohgerber",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -143928,8 +143928,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0008",
-            "fullname": "Burschen im Allgemeinen",
+            "id": "generic_0138",
+            "fullname": "Parlament\u00e4r",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -143952,8 +143952,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0011",
-            "fullname": "M\u00e4dchen im Allgemeinen",
+            "id": "generic_0213",
+            "fullname": "H\u00f6rige",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -153488,8 +153488,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0001",
-            "fullname": "ein Mensch im Allgemeinen",
+            "id": "generic_0013",
+            "fullname": "Sorgenbrecher",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -153778,8 +153778,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0005",
-            "fullname": "Leute im Allgemeinen",
+            "id": "generic_0076",
+            "fullname": "Pf\u00e4lzer",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -155848,8 +155848,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0002",
-            "fullname": "ein Mann im Allgemeinen",
+            "id": "generic_0035",
+            "fullname": "Leibeigene",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -155872,8 +155872,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0003",
-            "fullname": "ein Mann im Allgemeinen",
+            "id": "generic_0056",
+            "fullname": "Gegner",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -155896,8 +155896,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0004",
-            "fullname": "ein Mann im Allgemeinen",
+            "id": "generic_0196",
+            "fullname": "Gegner",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -155921,8 +155921,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0005",
-            "fullname": "ein Mann im Allgemeinen",
+            "id": "generic_0077",
+            "fullname": "Pf\u00e4lzer",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -155945,8 +155945,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0006",
-            "fullname": "ein Mann im Allgemeinen",
+            "id": "generic_0098",
+            "fullname": "Bekannte",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -155991,8 +155991,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0007",
-            "fullname": "ein Mann im Allgemeinen",
+            "id": "generic_0119",
+            "fullname": "Ratgeber",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -156285,8 +156285,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0010",
-            "fullname": "Bewohner der Pfalz",
+            "id": "generic_0175",
+            "fullname": "Lohgerber",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -156685,8 +156685,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0008",
-            "fullname": "ein Gast im Allgemeinen",
+            "id": "generic_0139",
+            "fullname": "Parlament\u00e4r",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -156709,8 +156709,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0009",
-            "fullname": "ein Gast im Allgemeinen",
+            "id": "generic_0158",
+            "fullname": "Lohgerber",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -156755,8 +156755,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0010",
-            "fullname": "ein Gast im Allgemeinen",
+            "id": "generic_0176",
+            "fullname": "Lohgerber",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -156779,8 +156779,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0011",
-            "fullname": "ein Gast im Allgemeinen",
+            "id": "generic_0214",
+            "fullname": "H\u00f6rige",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -158413,8 +158413,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0012",
-            "fullname": "Kaiserslauterer im Allgemeinen",
+            "id": "generic_0229",
+            "fullname": "jedem",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -158773,8 +158773,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0011",
-            "fullname": "Bettelleute im Allgemeinen",
+            "id": "generic_0215",
+            "fullname": "H\u00f6rige",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -160948,8 +160948,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0013",
-            "fullname": "ein Kind im Allgemeinen",
+            "id": "generic_0244",
+            "fullname": "Rufer",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -160972,8 +160972,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0014",
-            "fullname": "ein Kind im Allgemeinen",
+            "id": "generic_0259",
+            "fullname": "Vork\u00e4mpfer",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -161308,8 +161308,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0012",
-            "fullname": "Kurf\u00fcrsten",
+            "id": "generic_0230",
+            "fullname": "jedem",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -162130,8 +162130,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0015",
-            "fullname": "ein anderer im Allgemeinen",
+            "id": "generic_0273",
+            "fullname": "dritter",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -162176,8 +162176,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0016",
-            "fullname": "ein anderer im Allgemeinen",
+            "id": "generic_0283",
+            "fullname": "Bauer im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -162200,8 +162200,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0017",
-            "fullname": "ein anderer im Allgemeinen",
+            "id": "generic_0314",
+            "fullname": "Bauer im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -163903,8 +163903,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0018",
-            "fullname": "Wachenheimer",
+            "id": "generic_0323",
+            "fullname": "Bauer im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -164147,8 +164147,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0019",
-            "fullname": "Wachenheimer",
+            "id": "generic_0292",
+            "fullname": "B\u00fcrgermeister im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -164886,8 +164886,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0020",
-            "fullname": "Wachenheimer",
+            "id": "generic_0300",
+            "fullname": "B\u00fcrgermeister im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -165884,8 +165884,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0021",
-            "fullname": "Wachenheimer",
+            "id": "generic_0306",
+            "fullname": "B\u00fcrgermeister im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -166308,8 +166308,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0001",
-            "fullname": "Eingeweihte",
+            "id": "generic_0014",
+            "fullname": "Sorgenbrecher",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -166403,8 +166403,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0022",
-            "fullname": "Wachenheimer",
+            "id": "generic_0363",
+            "fullname": "B\u00fcrgermeister im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -166517,8 +166517,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0002",
-            "fullname": "Urheber von Trudis Kummer",
+            "id": "generic_0036",
+            "fullname": "Leibeigene",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -166911,8 +166911,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0023",
-            "fullname": "Wachenheimer",
+            "id": "generic_0369",
+            "fullname": "B\u00fcrgermeister im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -168127,8 +168127,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0003",
-            "fullname": "Schulbube",
+            "id": "generic_0057",
+            "fullname": "Gegner",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -168557,8 +168557,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0004",
-            "fullname": "der alte Grobian",
+            "id": "generic_0197",
+            "fullname": "Gegner",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -172331,8 +172331,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0024",
-            "fullname": "H\u00e4scher",
+            "id": "generic_0374",
+            "fullname": "B\u00fcrgermeister im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -172860,8 +172860,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0005",
-            "fullname": "der alte R\u00e4nkespinner",
+            "id": "generic_0078",
+            "fullname": "Pf\u00e4lzer",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -174295,8 +174295,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0006",
-            "fullname": "meisten Menschen",
+            "id": "generic_0099",
+            "fullname": "Bekannte",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -176203,8 +176203,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0001",
-            "fullname": "Menschen im Allgemeinen",
+            "id": "generic_0015",
+            "fullname": "Sorgenbrecher",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -176227,8 +176227,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0002",
-            "fullname": "Menschen im Allgemeinen",
+            "id": "generic_0037",
+            "fullname": "Leibeigene",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -176251,8 +176251,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0003",
-            "fullname": "Menschen im Allgemeinen",
+            "id": "generic_0058",
+            "fullname": "Gegner",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -176275,8 +176275,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0005",
-            "fullname": "Pf\u00e4lzer im Allgemeinen",
+            "id": "generic_0079",
+            "fullname": "Pf\u00e4lzer",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -176299,8 +176299,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0006",
-            "fullname": "Pf\u00e4lzer im Allgemeinen",
+            "id": "generic_0100",
+            "fullname": "Bekannte",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -177284,8 +177284,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0007",
-            "fullname": "Mensch im Allgemeinen",
+            "id": "generic_0120",
+            "fullname": "Ratgeber",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -177330,8 +177330,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0008",
-            "fullname": "Erdenkinde im Allgemeinen",
+            "id": "generic_0140",
+            "fullname": "Parlament\u00e4r",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -177376,8 +177376,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0009",
-            "fullname": "Erdenkinde im Allgemeinen",
+            "id": "generic_0159",
+            "fullname": "Lohgerber",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -182646,8 +182646,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0004",
-            "fullname": "Menschen im Allgemeinen",
+            "id": "generic_0198",
+            "fullname": "Gegner",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -183328,8 +183328,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0010",
-            "fullname": "Landstreicher im Allgemeinen",
+            "id": "generic_0177",
+            "fullname": "Lohgerber",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -195195,8 +195195,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0001",
-            "fullname": "der Versucher",
+            "id": "generic_0016",
+            "fullname": "Sorgenbrecher",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -195219,8 +195219,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0002",
-            "fullname": "die zu Verf\u00fchrenden im Allgemeinen",
+            "id": "generic_0038",
+            "fullname": "Leibeigene",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -196219,8 +196219,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0003",
-            "fullname": "eine Fremde im Allgemeinen",
+            "id": "generic_0059",
+            "fullname": "Gegner",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -196465,8 +196465,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0004",
-            "fullname": "eine Pf\u00e4lzerin im Allgemeinen",
+            "id": "generic_0199",
+            "fullname": "Gegner",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -196797,8 +196797,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0005",
-            "fullname": "eine Pf\u00e4lzerin im Allgemeinen",
+            "id": "generic_0080",
+            "fullname": "Pf\u00e4lzer",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -198961,8 +198961,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0007",
-            "fullname": "der Hochaufhorchende",
+            "id": "generic_0121",
+            "fullname": "Ratgeber",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -199205,8 +199205,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0008",
-            "fullname": "eine Zugewanderte im Allgemeinen",
+            "id": "generic_0141",
+            "fullname": "Parlament\u00e4r",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -199537,8 +199537,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0010",
-            "fullname": "wer von au\u00dfen reinkommt",
+            "id": "generic_0178",
+            "fullname": "Lohgerber",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -199561,8 +199561,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0011",
-            "fullname": "wer von au\u00dfen reinkommt",
+            "id": "generic_0216",
+            "fullname": "H\u00f6rige",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -200169,8 +200169,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0012",
-            "fullname": "der Deibel",
+            "id": "generic_0231",
+            "fullname": "jedem",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -200567,8 +200567,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0009",
-            "fullname": "eine Zugewanderte im Allgemeinen",
+            "id": "generic_0160",
+            "fullname": "Lohgerber",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -201944,8 +201944,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0006",
-            "fullname": "eine Pf\u00e4lzerin im Allgemeinen",
+            "id": "generic_0101",
+            "fullname": "Bekannte",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -202190,8 +202190,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0013",
-            "fullname": "jeder von uns",
+            "id": "generic_0245",
+            "fullname": "Rufer",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -202643,8 +202643,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0014",
-            "fullname": "ein Wachenheimer Riesling",
+            "id": "generic_0260",
+            "fullname": "Vork\u00e4mpfer",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -203592,8 +203592,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0025",
-            "fullname": "Versammelten",
+            "id": "generic_0330",
+            "fullname": "Wingertsmann im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -204090,8 +204090,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0001",
-            "fullname": "Freund im Allgemeinen",
+            "id": "generic_0017",
+            "fullname": "Sorgenbrecher",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -204114,8 +204114,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0002",
-            "fullname": "Feind im Allgemeinen",
+            "id": "generic_0039",
+            "fullname": "Leibeigene",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -206271,8 +206271,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0003",
-            "fullname": "Spielmann im Allgemeinen",
+            "id": "generic_0060",
+            "fullname": "Gegner",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -206295,8 +206295,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0004",
-            "fullname": "Spielleute im Allgemeinen",
+            "id": "generic_0200",
+            "fullname": "Gegner",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -206343,8 +206343,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0005",
-            "fullname": "Menschen im Allgemeinen",
+            "id": "generic_0081",
+            "fullname": "Pf\u00e4lzer",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -211053,8 +211053,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0006",
-            "fullname": "anderen Personen",
+            "id": "generic_0102",
+            "fullname": "Bekannte",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -211443,8 +211443,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0007",
-            "fullname": "Himmel",
+            "id": "generic_0122",
+            "fullname": "Ratgeber",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -211667,8 +211667,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0008",
-            "fullname": "Wildfang im Allgemeinen",
+            "id": "generic_0142",
+            "fullname": "Parlament\u00e4r",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -211691,8 +211691,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0010",
-            "fullname": "jemand im Allgemeinen",
+            "id": "generic_0179",
+            "fullname": "Lohgerber",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -211715,8 +211715,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0014",
-            "fullname": "Mannsbild im Allgemeinen",
+            "id": "generic_0261",
+            "fullname": "Vork\u00e4mpfer",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -211739,8 +211739,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0015",
-            "fullname": "Weibsbild im Allgemeinen",
+            "id": "generic_0274",
+            "fullname": "dritter",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -211787,8 +211787,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0011",
-            "fullname": "jemand im Allgemeinen",
+            "id": "generic_0217",
+            "fullname": "H\u00f6rige",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -211811,8 +211811,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0012",
-            "fullname": "jemand im Allgemeinen",
+            "id": "generic_0232",
+            "fullname": "jedem",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -211835,8 +211835,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0013",
-            "fullname": "jemand im Allgemeinen",
+            "id": "generic_0246",
+            "fullname": "Rufer",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -212318,8 +212318,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0016",
-            "fullname": "Magd im Allgemeinen",
+            "id": "generic_0284",
+            "fullname": "Bauer im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -215427,8 +215427,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0009",
-            "fullname": "Wildfang im Allgemeinen",
+            "id": "generic_0161",
+            "fullname": "Lohgerber",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -215473,8 +215473,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0017",
-            "fullname": "Wachenheimer im Allgemeinen",
+            "id": "generic_0315",
+            "fullname": "Bauer im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -216742,8 +216742,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0001",
-            "fullname": "Kinder im Allgemeinen",
+            "id": "generic_0018",
+            "fullname": "Sorgenbrecher",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -216766,8 +216766,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0003",
-            "fullname": "Enkel im Allgemeinen",
+            "id": "generic_0061",
+            "fullname": "Gegner",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -220898,8 +220898,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0004",
-            "fullname": "Mensch im Allgemeinen",
+            "id": "generic_0201",
+            "fullname": "Gegner",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -220966,8 +220966,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0010",
-            "fullname": "H\u00f6rige im Allgemeinen",
+            "id": "generic_0180",
+            "fullname": "Lohgerber",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -221324,8 +221324,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0013",
-            "fullname": "Rittergeschlechtes",
+            "id": "generic_0247",
+            "fullname": "Rufer",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -221498,8 +221498,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0005",
-            "fullname": "Mensch im Allgemeinen",
+            "id": "generic_0082",
+            "fullname": "Pf\u00e4lzer",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -221522,8 +221522,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0006",
-            "fullname": "Mensch im Allgemeinen",
+            "id": "generic_0103",
+            "fullname": "Bekannte",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -221546,8 +221546,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0007",
-            "fullname": "Mensch im Allgemeinen",
+            "id": "generic_0123",
+            "fullname": "Ratgeber",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -221570,8 +221570,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0008",
-            "fullname": "Mensch im Allgemeinen",
+            "id": "generic_0143",
+            "fullname": "Parlament\u00e4r",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -221594,8 +221594,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0012",
-            "fullname": "Man im Allgemeinen",
+            "id": "generic_0233",
+            "fullname": "jedem",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -221654,8 +221654,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0013",
-            "fullname": "Man im Allgemeinen",
+            "id": "generic_0248",
+            "fullname": "Rufer",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -221678,8 +221678,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0021",
-            "fullname": "Untertan im Allgemeinen",
+            "id": "generic_0307",
+            "fullname": "B\u00fcrgermeister im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -221702,8 +221702,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0014",
-            "fullname": "Man im Allgemeinen",
+            "id": "generic_0262",
+            "fullname": "Vork\u00e4mpfer",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -221726,8 +221726,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0015",
-            "fullname": "Man im Allgemeinen",
+            "id": "generic_0275",
+            "fullname": "dritter",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -221750,8 +221750,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0016",
-            "fullname": "Man im Allgemeinen",
+            "id": "generic_0285",
+            "fullname": "Bauer im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -221774,8 +221774,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0017",
-            "fullname": "Man im Allgemeinen",
+            "id": "generic_0316",
+            "fullname": "Bauer im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -221798,8 +221798,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0018",
-            "fullname": "Man im Allgemeinen",
+            "id": "generic_0324",
+            "fullname": "Bauer im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -221822,8 +221822,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0019",
-            "fullname": "Man im Allgemeinen",
+            "id": "generic_0293",
+            "fullname": "B\u00fcrgermeister im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -221846,8 +221846,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0002",
-            "fullname": "Kinder im Allgemeinen",
+            "id": "generic_0040",
+            "fullname": "Leibeigene",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -221870,8 +221870,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0020",
-            "fullname": "Man im Allgemeinen",
+            "id": "generic_0301",
+            "fullname": "B\u00fcrgermeister im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -221916,8 +221916,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0022",
-            "fullname": "Wer im Allgemeinen",
+            "id": "generic_0364",
+            "fullname": "B\u00fcrgermeister im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -221940,8 +221940,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0023",
-            "fullname": "Wer im Allgemeinen",
+            "id": "generic_0370",
+            "fullname": "B\u00fcrgermeister im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -224240,8 +224240,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0024",
-            "fullname": "Stadtgeklatsch",
+            "id": "generic_0375",
+            "fullname": "B\u00fcrgermeister im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -225572,8 +225572,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0025",
-            "fullname": "Junggesell im Allgemeinen",
+            "id": "generic_0331",
+            "fullname": "Wingertsmann im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -225728,8 +225728,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0009",
-            "fullname": "Mensch im Allgemeinen",
+            "id": "generic_0162",
+            "fullname": "Lohgerber",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -226628,8 +226628,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0014",
-            "fullname": "Bauernfamilie",
+            "id": "generic_0263",
+            "fullname": "Vork\u00e4mpfer",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -227825,8 +227825,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0026",
-            "fullname": "Junge im Allgemeinen",
+            "id": "generic_0335",
+            "fullname": "Haupt der Gemeinde",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -232051,8 +232051,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0011",
-            "fullname": "H\u00f6rige im Allgemeinen",
+            "id": "generic_0218",
+            "fullname": "H\u00f6rige",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -232253,8 +232253,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0027",
-            "fullname": "Menschen im Allgemeinen",
+            "id": "generic_0339",
+            "fullname": "ein Mitb\u00fcrger von Wachenheim",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -232623,8 +232623,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0028",
-            "fullname": "Jeder im Allgemeinen",
+            "id": "generic_0343",
+            "fullname": "Mitglied des Stadtrats",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -232647,8 +232647,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0029",
-            "fullname": "Jeder im Allgemeinen",
+            "id": "generic_0347",
+            "fullname": "ein Knecht",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -233692,8 +233692,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0001",
-            "fullname": "Reisige im Allgemeinen",
+            "id": "generic_0019",
+            "fullname": "Sorgenbrecher",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -233760,8 +233760,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0002",
-            "fullname": "anderen Menschen im Allgemeinen",
+            "id": "generic_0041",
+            "fullname": "Leibeigene",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -233966,8 +233966,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0003",
-            "fullname": "manchen Menschen im Allgemeinen",
+            "id": "generic_0062",
+            "fullname": "Gegner",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -233990,8 +233990,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0004",
-            "fullname": "manchen Menschen im Allgemeinen",
+            "id": "generic_0202",
+            "fullname": "Gegner",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -234014,8 +234014,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0005",
-            "fullname": "manchen Menschen im Allgemeinen",
+            "id": "generic_0083",
+            "fullname": "Pf\u00e4lzer",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -234625,8 +234625,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0006",
-            "fullname": "G\u00e4ste im Allgemeinen",
+            "id": "generic_0104",
+            "fullname": "Bekannte",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -235754,8 +235754,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0007",
-            "fullname": "ein Mann im Allgemeinen",
+            "id": "generic_0124",
+            "fullname": "Ratgeber",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -235778,8 +235778,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0008",
-            "fullname": "eine Frau im Allgemeinen",
+            "id": "generic_0144",
+            "fullname": "Parlament\u00e4r",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -238703,8 +238703,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0009",
-            "fullname": "Fremdlinge in der Pfalz",
+            "id": "generic_0163",
+            "fullname": "Lohgerber",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -241670,8 +241670,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0010",
-            "fullname": "Kaiser im Allgemeinen",
+            "id": "generic_0181",
+            "fullname": "Lohgerber",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -249523,8 +249523,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0011",
-            "fullname": "jeder Mann",
+            "id": "generic_0219",
+            "fullname": "H\u00f6rige",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -250493,8 +250493,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0012",
-            "fullname": "eingedrungene Feinde",
+            "id": "generic_0234",
+            "fullname": "jedem",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -252560,8 +252560,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0013",
-            "fullname": "\u00dcberrumpelte im Allgemeinen",
+            "id": "generic_0249",
+            "fullname": "Rufer",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -254556,8 +254556,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0001",
-            "fullname": "ein Fremder im Allgemeinen",
+            "id": "generic_0020",
+            "fullname": "Sorgenbrecher",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -254602,8 +254602,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0002",
-            "fullname": "ein Fremder im Allgemeinen",
+            "id": "generic_0042",
+            "fullname": "Leibeigene",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -254626,8 +254626,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0003",
-            "fullname": "ein Fremder im Allgemeinen",
+            "id": "generic_0063",
+            "fullname": "Gegner",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -254886,8 +254886,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0004",
-            "fullname": "eine H\u00f6rige im Allgemeinen",
+            "id": "generic_0203",
+            "fullname": "Gegner",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -256556,8 +256556,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0008",
-            "fullname": "ein Wildfang im Allgemeinen",
+            "id": "generic_0145",
+            "fullname": "Parlament\u00e4r",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -258479,8 +258479,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0005",
-            "fullname": "eine H\u00f6rige im Allgemeinen",
+            "id": "generic_0084",
+            "fullname": "Pf\u00e4lzer",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -258635,8 +258635,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0009",
-            "fullname": "Menschen im Allgemeinen",
+            "id": "generic_0164",
+            "fullname": "Lohgerber",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -259457,8 +259457,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0010",
-            "fullname": "jedem in der Familie",
+            "id": "generic_0182",
+            "fullname": "Lohgerber",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -259857,8 +259857,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0006",
-            "fullname": "eine H\u00f6rige im Allgemeinen",
+            "id": "generic_0105",
+            "fullname": "Bekannte",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -261437,8 +261437,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0011",
-            "fullname": "eine Dienende im Allgemeinen",
+            "id": "generic_0220",
+            "fullname": "H\u00f6rige",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -261597,8 +261597,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0012",
-            "fullname": "Knechte im Allgemeinen",
+            "id": "generic_0235",
+            "fullname": "jedem",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -261621,8 +261621,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0013",
-            "fullname": "M\u00e4gde im Allgemeinen",
+            "id": "generic_0250",
+            "fullname": "Rufer",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -261975,8 +261975,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0001",
-            "fullname": "der m\u00fcde Mensch im Allgemeinen",
+            "id": "generic_0021",
+            "fullname": "Sorgenbrecher",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -262248,8 +262248,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0002",
-            "fullname": "der willkommene Mensch im Allgemeinen",
+            "id": "generic_0043",
+            "fullname": "Leibeigene",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -265061,8 +265061,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0003",
-            "fullname": "Wachenheimer im Allgemeinen",
+            "id": "generic_0064",
+            "fullname": "Gegner",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -265329,8 +265329,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0004",
-            "fullname": "Wachenheimer im Allgemeinen",
+            "id": "generic_0204",
+            "fullname": "Gegner",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -265573,8 +265573,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0005",
-            "fullname": "Wachenheimer im Allgemeinen",
+            "id": "generic_0085",
+            "fullname": "Pf\u00e4lzer",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -265941,8 +265941,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0007",
-            "fullname": "eine H\u00f6rige im Allgemeinen",
+            "id": "generic_0125",
+            "fullname": "Ratgeber",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -267485,8 +267485,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0006",
-            "fullname": "Kirchg\u00e4nger im Allgemeinen",
+            "id": "generic_0106",
+            "fullname": "Bekannte",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -267821,8 +267821,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0001",
-            "fullname": "Menschen im Allgemeinen",
+            "id": "generic_0022",
+            "fullname": "Sorgenbrecher",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -267845,8 +267845,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0004",
-            "fullname": "Leute im Allgemeinen",
+            "id": "generic_0205",
+            "fullname": "Gegner",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -268287,8 +268287,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0005",
-            "fullname": "Lauschenden im Allgemeinen",
+            "id": "generic_0086",
+            "fullname": "Pf\u00e4lzer",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -268405,8 +268405,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0006",
-            "fullname": "Parteien im Allgemeinen",
+            "id": "generic_0107",
+            "fullname": "Bekannte",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -268658,8 +268658,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0007",
-            "fullname": "Fremde im Allgemeinen",
+            "id": "generic_0126",
+            "fullname": "Ratgeber",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -268682,8 +268682,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0008",
-            "fullname": "Freie im Allgemeinen",
+            "id": "generic_0146",
+            "fullname": "Parlament\u00e4r",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -268706,8 +268706,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0009",
-            "fullname": "H\u00f6rige im Allgemeinen",
+            "id": "generic_0165",
+            "fullname": "Lohgerber",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -268976,8 +268976,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0010",
-            "fullname": "Mann gegen Mann im Allgemeinen",
+            "id": "generic_0183",
+            "fullname": "Lohgerber",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -269022,8 +269022,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0011",
-            "fullname": "Mann gegen Mann im Allgemeinen",
+            "id": "generic_0221",
+            "fullname": "H\u00f6rige",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -269639,8 +269639,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0012",
-            "fullname": "Alle im Allgemeinen",
+            "id": "generic_0236",
+            "fullname": "jedem",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -270168,8 +270168,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0013",
-            "fullname": "Alten im Allgemeinen",
+            "id": "generic_0251",
+            "fullname": "Rufer",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -271207,8 +271207,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0014",
-            "fullname": "ein Versto\u00dfener im Allgemeinen",
+            "id": "generic_0264",
+            "fullname": "Vork\u00e4mpfer",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -271363,8 +271363,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0007",
-            "fullname": "Streitende im Allgemeinen",
+            "id": "generic_0127",
+            "fullname": "Ratgeber",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -271607,8 +271607,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0008",
-            "fullname": "Streitende im Allgemeinen",
+            "id": "generic_0147",
+            "fullname": "Parlament\u00e4r",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -271653,8 +271653,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0015",
-            "fullname": "Mitb\u00fcrger im Allgemeinen",
+            "id": "generic_0276",
+            "fullname": "dritter",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -272153,8 +272153,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0009",
-            "fullname": "Pf\u00e4lzer im Allgemeinen",
+            "id": "generic_0166",
+            "fullname": "Lohgerber",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -272397,8 +272397,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0010",
-            "fullname": "Frauen im Allgemeinen",
+            "id": "generic_0184",
+            "fullname": "Lohgerber",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -274789,8 +274789,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0016",
-            "fullname": "Hofbauer im Allgemeinen",
+            "id": "generic_0286",
+            "fullname": "Bauer im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -276335,8 +276335,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0017",
-            "fullname": "ein Spieler im Allgemeinen",
+            "id": "generic_0317",
+            "fullname": "Bauer im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -276359,8 +276359,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0018",
-            "fullname": "ein Spieler im Allgemeinen",
+            "id": "generic_0325",
+            "fullname": "Bauer im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -278152,8 +278152,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0019",
-            "fullname": "Gott",
+            "id": "generic_0294",
+            "fullname": "B\u00fcrgermeister im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -278176,8 +278176,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0002",
-            "fullname": "Menschen im Allgemeinen",
+            "id": "generic_0044",
+            "fullname": "Leibeigene",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -282348,8 +282348,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0003",
-            "fullname": "Menschen im Allgemeinen",
+            "id": "generic_0065",
+            "fullname": "Gegner",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -283610,8 +283610,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0001",
-            "fullname": "die M\u00e4dchen im Allgemeinen",
+            "id": "generic_0023",
+            "fullname": "Sorgenbrecher",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -283718,8 +283718,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0002",
-            "fullname": "Menschen im Allgemeinen",
+            "id": "generic_0045",
+            "fullname": "Leibeigene",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -283912,8 +283912,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0006",
-            "fullname": "Kinder im Allgemeinen",
+            "id": "generic_0108",
+            "fullname": "Bekannte",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -285205,8 +285205,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0008",
-            "fullname": "Wachenheim",
+            "id": "generic_0148",
+            "fullname": "Parlament\u00e4r",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -287038,8 +287038,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0003",
-            "fullname": "Menschen im Allgemeinen",
+            "id": "generic_0066",
+            "fullname": "Gegner",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -287429,8 +287429,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0009",
-            "fullname": "Traubenwirt",
+            "id": "generic_0167",
+            "fullname": "Lohgerber",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -287922,8 +287922,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0010",
-            "fullname": "Einheimische im Allgemeinen",
+            "id": "generic_0185",
+            "fullname": "Lohgerber",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -287946,8 +287946,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0011",
-            "fullname": "Durchreisende im Allgemeinen",
+            "id": "generic_0222",
+            "fullname": "H\u00f6rige",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -287970,8 +287970,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0012",
-            "fullname": "Fuhrleute im Allgemeinen",
+            "id": "generic_0237",
+            "fullname": "jedem",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -288016,8 +288016,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0013",
-            "fullname": "Reiter im Allgemeinen",
+            "id": "generic_0252",
+            "fullname": "Rufer",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -289032,8 +289032,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0014",
-            "fullname": "Burschen im Allgemeinen",
+            "id": "generic_0265",
+            "fullname": "Vork\u00e4mpfer",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -289078,8 +289078,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0015",
-            "fullname": "Burschen im Allgemeinen",
+            "id": "generic_0277",
+            "fullname": "dritter",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -290086,8 +290086,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0004",
-            "fullname": "Menschen im Allgemeinen",
+            "id": "generic_0206",
+            "fullname": "Gegner",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -290154,8 +290154,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0016",
-            "fullname": "Kometlein",
+            "id": "generic_0287",
+            "fullname": "Bauer im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -290178,8 +290178,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0017",
-            "fullname": "Kometlein",
+            "id": "generic_0318",
+            "fullname": "Bauer im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -291007,8 +291007,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0018",
-            "fullname": "Altarleute des Klosters",
+            "id": "generic_0326",
+            "fullname": "Bauer im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -292959,8 +292959,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0019",
-            "fullname": "N\u00fcrnberger im Allgemeinen",
+            "id": "generic_0295",
+            "fullname": "B\u00fcrgermeister im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -292983,8 +292983,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0020",
-            "fullname": "N\u00fcrnberger im Allgemeinen",
+            "id": "generic_0302",
+            "fullname": "B\u00fcrgermeister im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -293007,8 +293007,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0021",
-            "fullname": "N\u00fcrnberger im Allgemeinen",
+            "id": "generic_0308",
+            "fullname": "B\u00fcrgermeister im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -293812,8 +293812,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0022",
-            "fullname": "Schulthei\u00df",
+            "id": "generic_0365",
+            "fullname": "B\u00fcrgermeister im Allgemeinen",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -295771,8 +295771,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0005",
-            "fullname": "Menschen im Allgemeinen",
+            "id": "generic_0087",
+            "fullname": "Pf\u00e4lzer",
             "gender": "u",
             "specialcase_entity": [
               "generic"
@@ -296582,8 +296582,8 @@
       "references": [
         {
           "entity": {
-            "id": "generic_0007",
-            "fullname": "Kinder im Allgemeinen",
+            "id": "generic_0128",
+            "fullname": "Ratgeber",
             "gender": "u",
             "specialcase_entity": [
               "generic"

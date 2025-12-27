@@ -11,17 +11,17 @@ i	token	is_sent_start	is_para_start	is_section_start	tag	lemma	morph	gold	pred	i
 9	]	0	0	0	$(	]	AdpType=Prep|PunctType=Brck			0
 10	Man	0	0	0	PIS	man	Case=Nom|Gender=*|Number=Sing|PronType=Ind,Neg,Tot	(mention_id=1|references=(entity=(entity_id=generic_0122|fullname=generic_0001|gender=u|specialcase_entity=generic)))		0
 11	erzählt	0	0	0	VVFIN	erzählen	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin			0
-12	uns	0	0	0	PPER	uns	Case=Acc|Gender=*|Number=Plur|Person=1|PronType=Prs	(mention_id=2|references=(entity=(entity_id=generic_0123|fullname=generic_0002|gender=u|specialcase_entity=generic)))	(mention_id=2|references=(entity=(entity_id=generic_0001|fullname=Leser im Allgemeinen|gender=u|specialcase_entity=generic)))	0
+12	uns	0	0	0	PPER	uns	Case=Acc|Gender=*|Number=Plur|Person=1|PronType=Prs	(mention_id=2|references=(entity=(entity_id=generic_0123|fullname=generic_0002|gender=u|specialcase_entity=generic)))	(mention_id=2|references=(entity=(entity_id=generic_0103|fullname=Männer im Allgemeinen|gender=u|specialcase_entity=generic)))	0
 13	oft	0	0	0	ADV	oft	_			0
 14	,	0	0	0	$,	,	PunctType=Comm			0
 15	was	0	0	0	PWS	was	Case=Acc|Gender=Neut|Number=Sing|PronType=Int			0
 16	die	0	0	0	ART	der	Case=Nom|Gender=Masc|Number=Plur|PronType=Art			0
-17	Menschen	0	0	0	NN	Mensch	Case=Nom|Gender=Masc|Number=Plur	(mention_id=3|references=(entity=(entity_id=generic_0124|fullname=generic_0003|gender=u|specialcase_entity=generic)))	(mention_id=3|references=(entity=(entity_id=generic_0004|fullname=Menschen im Allgemeinen|gender=u|specialcase_entity=generic)))	0
+17	Menschen	0	0	0	NN	Mensch	Case=Nom|Gender=Masc|Number=Plur	(mention_id=3|references=(entity=(entity_id=generic_0124|fullname=generic_0003|gender=u|specialcase_entity=generic)))	(mention_id=3|references=(entity=(entity_id=generic_0052|fullname=Frauenzimmer im Allgemeinen|gender=u|specialcase_entity=generic)))	0
 18	sind	0	0	0	VAFIN	sein	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin			0
 19	;	0	0	0	$.	;	PunctType=Peri			0
 20	man	0	0	0	PIS	man	Case=Nom|Gender=*|Number=Sing|PronType=Ind,Neg,Tot	(mention_id=4|references=(entity=(entity_id=generic_0125|fullname=generic_0004|gender=u|specialcase_entity=generic)))		0
 21	beschreibt	0	0	0	VVFIN	beschreiben	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin			0
-22	uns	0	0	0	PPER	uns	Case=Dat|Gender=*|Number=Plur|Person=1|PronType=Prs	(mention_id=5|references=(entity=(entity_id=generic_0126|fullname=generic_0005|gender=u|specialcase_entity=generic)))	(mention_id=4|references=(entity=(entity_id=generic_0002|fullname=Leser im Allgemeinen|gender=u|specialcase_entity=generic)))	0
+22	uns	0	0	0	PPER	uns	Case=Dat|Gender=*|Number=Plur|Person=1|PronType=Prs	(mention_id=5|references=(entity=(entity_id=generic_0126|fullname=generic_0005|gender=u|specialcase_entity=generic)))	(mention_id=4|references=(entity=(entity_id=generic_0112|fullname=Männer im Allgemeinen|gender=u|specialcase_entity=generic)))	0
 23	noch	0	0	0	ADV	noch	_			0
 24	öfter	0	0	0	ADV	oft	Degree=Comp|Variant=Short			0
 25	–	0	0	0	$(	–	PunctType=Brck			0
@@ -31,14 +31,14 @@ i	token	is_sent_start	is_para_start	is_section_start	tag	lemma	morph	gold	pred	i
 29	zu	0	0	0	PTKA	zu	_			0
 30	oft	0	0	0	ADV	oft	_			0
 31	wie	0	0	0	KOKOM	wie	ConjType=Comp			0
-32	sie	0	0	0	PPER	sie	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	(mention_id=6|references=(entity=(entity_id=generic_0127|fullname=generic_0006|gender=u|specialcase_entity=generic)))	(mention_id=5|references=(entity=(entity_id=generic_0005|fullname=Menschen im Allgemeinen|gender=u|specialcase_entity=generic)))	0
+32	sie	0	0	0	PPER	sie	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	(mention_id=6|references=(entity=(entity_id=generic_0127|fullname=generic_0006|gender=u|specialcase_entity=generic)))	(mention_id=5|references=(entity=(entity_id=generic_0012|fullname=jeder der von ihr spricht|gender=u|specialcase_entity=generic)))	0
 33	seyn	0	0	0	PDS	seyn	PronType=Dem|VerbForm=Inf			0
 34	sollen	0	0	0	VMFIN	sollen	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Mod			0
 35	;	0	0	0	$.	;	PunctType=Peri			0
 36	aber	0	0	0	KON	aber	_			0
 37	man	0	0	0	PIS	man	Case=Nom|Gender=*|Number=Sing|PronType=Ind,Neg,Tot	(mention_id=7|references=(entity=(entity_id=generic_0128|fullname=generic_0007|gender=u|specialcase_entity=generic)))		0
 38	sagt	0	0	0	VVFIN	sagen	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin			0
-39	uns	0	0	0	PPER	uns	Case=Dat|Gender=*|Number=Plur|Person=1|PronType=Prs		(mention_id=6|references=(entity=(entity_id=generic_0003|fullname=Leser im Allgemeinen|gender=u|specialcase_entity=generic)))	0
+39	uns	0	0	0	PPER	uns	Case=Dat|Gender=*|Number=Plur|Person=1|PronType=Prs		(mention_id=6|references=(entity=(entity_id=generic_0006|fullname=Frauenzimmer im Allgemeinen|gender=u|specialcase_entity=generic)))	0
 40	,	0	0	0	$,	,	PunctType=Comm			0
 41	wie	0	0	0	PWAV	wie	PronType=Int			0
 42	mich	0	0	0	PPER	mich	Case=Acc|Gender=*|Number=Sing|Person=1|PronType=Prs	(mention_id=8|references=(entity=(entity_id=entity_0001|fullname=Herausgeber|gender=u)))	(mention_id=7|references=(entity=(entity_id=figur_0001|fullname=Auguste Fischer|gender=f)))	0
@@ -53,12 +53,12 @@ i	token	is_sent_start	is_para_start	is_section_start	tag	lemma	morph	gold	pred	i
 51	auf	0	0	0	APPR	auf	AdpType=Prep			0
 52	welche	0	0	0	PWAT	welcher	Case=Acc|Gender=Fem|Number=Sing|PronType=Int			0
 53	Weise	0	0	0	NN	Weise	Case=Acc|Gender=Fem|Number=Sing			0
-54	sie	0	0	0	PPER	sie	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	(mention_id=9|references=(entity=(entity_id=generic_0129|fullname=generic_0008|gender=u|specialcase_entity=generic)))	(mention_id=8|references=(entity=(entity_id=generic_0006|fullname=Menschen im Allgemeinen|gender=u|specialcase_entity=generic)))	0
+54	sie	0	0	0	PPER	sie	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	(mention_id=9|references=(entity=(entity_id=generic_0129|fullname=generic_0008|gender=u|specialcase_entity=generic)))	(mention_id=8|references=(entity=(entity_id=generic_0018|fullname=der Andere|gender=u|specialcase_entity=generic)))	0
 55	das	0	0	0	PDS	der	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem			0
 56	werden	0	0	0	VAFIN	werden	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin			0
 57	,	0	0	0	$,	,	PunctType=Comm			0
 58	was	0	0	0	PWS	wer	Case=Acc|Gender=Neut|Number=Sing|PronType=Rel			0
-59	sie	0	0	0	PPER	sie	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	(mention_id=10|references=(entity=(entity_id=generic_0130|fullname=generic_0009|gender=u|specialcase_entity=generic)))	(mention_id=9|references=(entity=(entity_id=generic_0007|fullname=Menschen im Allgemeinen|gender=u|specialcase_entity=generic)))	0
+59	sie	0	0	0	PPER	sie	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	(mention_id=10|references=(entity=(entity_id=generic_0130|fullname=generic_0009|gender=u|specialcase_entity=generic)))	(mention_id=9|references=(entity=(entity_id=generic_0024|fullname=Mann im Allgemeinen|gender=u|specialcase_entity=generic)))	0
 60	sind	0	0	0	VAFIN	sein	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin			0
 61	.	0	0	0	$.	.	PunctType=Peri			0
 62	Ist	1	0	0	VAFIN	sein	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin			0
@@ -185,7 +185,7 @@ i	token	is_sent_start	is_para_start	is_section_start	tag	lemma	morph	gold	pred	i
 183	ganze	0	0	0	ADJA	ganz	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing			0
 184	Kraft	0	0	0	NN	Kraft	Case=Acc|Gender=Fem|Number=Sing			0
 185	eines	0	0	0	ART	ein	Case=Gen|Gender=Masc|Number=Sing|PronType=Art			0
-186	Mannes	0	0	0	NN	Mann	Case=Gen|Gender=Masc|Number=Sing	(mention_id=35|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))	(mention_id=33|references=(entity=(entity_id=generic_0001|fullname=ein Mann im Allgemeinen|gender=u|specialcase_entity=generic)))	0
+186	Mannes	0	0	0	NN	Mann	Case=Gen|Gender=Masc|Number=Sing	(mention_id=35|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))	(mention_id=33|references=(entity=(entity_id=generic_0106|fullname=Männer im Allgemeinen|gender=u|specialcase_entity=generic)))	0
 187	zu	0	0	0	PTKZU	zu	PartType=Inf			0
 188	haben	0	0	0	VAINF	haben	VerbForm=Inf			0
 189	.	0	0	0	$.	.	PunctType=Peri			0
@@ -206,7 +206,7 @@ i	token	is_sent_start	is_para_start	is_section_start	tag	lemma	morph	gold	pred	i
 204	,	0	0	0	$,	,	PunctType=Comm			0
 205	als	0	0	0	KOKOM	als	ConjType=Comp			0
 206	alle	0	0	0	PIAT	aller	Case=Nom|Gender=Neut|Number=Plur|PronType=Ind,Neg,Tot			0
-207	Mädchen	0	0	0	NN	Mädchen	Case=Nom|Gender=Neut|Number=Plur	(mention_id=38|references=(entity=(entity_id=generic_0131|fullname=generic_0010|gender=u|specialcase_entity=generic)))	(mention_id=36|references=(entity=(entity_id=generic_0002|fullname=Mädchen im Allgemeinen|gender=u|specialcase_entity=generic)))	0
+207	Mädchen	0	0	0	NN	Mädchen	Case=Nom|Gender=Neut|Number=Plur	(mention_id=38|references=(entity=(entity_id=generic_0131|fullname=generic_0010|gender=u|specialcase_entity=generic)))	(mention_id=36|references=(entity=(entity_id=generic_0111|fullname=Männer im Allgemeinen|gender=u|specialcase_entity=generic)))	0
 208	in	0	0	0	APPR	in	AdpType=Prep			0
 209	der	0	0	0	ART	der	Case=Dat|Gender=Fem|Number=Sing|PronType=Art			0
 210	Welt	0	0	0	NN	Welt	Case=Dat|Gender=Fem|Number=Sing			0
@@ -990,7 +990,7 @@ i	token	is_sent_start	is_para_start	is_section_start	tag	lemma	morph	gold	pred	i
 988	die	0	0	0	ART	der	Case=Nom|Gender=Masc|Number=Plur|PronType=Art			0
 989	Blicke	0	0	0	NN	Blick	Case=Nom|Gender=Masc|Number=Plur			0
 990	der	0	0	0	ART	der	Case=Gen|Gender=Neut|Number=Plur|PronType=Art			0
-991	Mädchen	0	0	0	NN	Mädchen	Case=Gen|Gender=Neut|Number=Plur	(mention_id=141|references=(entity=(entity_id=generic_0133|fullname=generic_0012|gender=u|specialcase_entity=generic)))	(mention_id=136|references=(entity=(entity_id=generic_0003|fullname=Mädchen im Allgemeinen|gender=u|specialcase_entity=generic)))	0
+991	Mädchen	0	0	0	NN	Mädchen	Case=Gen|Gender=Neut|Number=Plur	(mention_id=141|references=(entity=(entity_id=generic_0133|fullname=generic_0012|gender=u|specialcase_entity=generic)))	(mention_id=136|references=(entity=(entity_id=generic_0002|fullname=Frauenzimmer im Allgemeinen|gender=u|specialcase_entity=generic)))	0
 992	nicht	0	0	0	PTKNEG	nicht	Polarity=Neg			0
 993	oft	0	0	0	ADV	oft	_			0
 994	genug	0	0	0	ADV	genug	_			0
@@ -2660,16 +2660,16 @@ i	token	is_sent_start	is_para_start	is_section_start	tag	lemma	morph	gold	pred	i
 2658	Entzücken	0	0	0	NN	entzücken	Case=Dat|Gender=Neut|Number=Sing			0
 2659	?	0	0	0	$.	?	PunctType=Peri			0
 2660	–	1	0	0	$(	–	PunctType=Brck			0
-2661	Ihr	0	0	0	PPER	ihr	Case=Nom|Gender=*|Number=Plur|Person=2|PronType=Prs		(mention_id=364|references=(entity=(entity_id=generic_0004|fullname=Leser im Allgemeinen|gender=u|specialcase_entity=generic)))	0
+2661	Ihr	0	0	0	PPER	ihr	Case=Nom|Gender=*|Number=Plur|Person=2|PronType=Prs		(mention_id=364|references=(entity=(entity_id=generic_0054|fullname=Frauenzimmer im Allgemeinen|gender=u|specialcase_entity=generic)))	0
 2662	,	0	0	0	$,	,	PunctType=Comm			0
 2663	die	0	0	0	PRELS	der	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	(mention_id=375|references=(entity=(entity_id=generic_0136|fullname=generic_0015|gender=u|specialcase_entity=generic)))		0
-2664	ihr	0	0	0	PPER	ihr	Case=Dat|Gender=Fem|Number=Sing|Person=3|PronType=Prs	(mention_id=376|references=(entity=(entity_id=generic_0137|fullname=generic_0016|gender=u|specialcase_entity=generic)))	(mention_id=365|references=(entity=(entity_id=generic_0005|fullname=Leser im Allgemeinen|gender=u|specialcase_entity=generic)))	0
+2664	ihr	0	0	0	PPER	ihr	Case=Dat|Gender=Fem|Number=Sing|Person=3|PronType=Prs	(mention_id=376|references=(entity=(entity_id=generic_0137|fullname=generic_0016|gender=u|specialcase_entity=generic)))	(mention_id=365|references=(entity=(entity_id=generic_0011|fullname=jeder der von ihr spricht|gender=u|specialcase_entity=generic)))	0
 2665	die	0	0	0	ART	der	Case=Acc|Gender=Fem|Number=Sing|PronType=Art			0
 2666	wahre	0	0	0	ADJA	wahr	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing			0
 2667	Liebe	0	0	0	NN	Liebe	Case=Acc|Gender=Fem|Number=Sing			0
 2668	kanntet	0	0	0	VVFIN	kannten	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin			0
 2669	,	0	0	0	$,	,	PunctType=Comm			0
-2670	ihr	0	0	0	PPER	ihr	Case=Nom|Gender=*|Number=Plur|Person=2|PronType=Prs	(mention_id=377|references=(entity=(entity_id=generic_0138|fullname=generic_0017|gender=u|specialcase_entity=generic)))	(mention_id=366|references=(entity=(entity_id=generic_0006|fullname=Leser im Allgemeinen|gender=u|specialcase_entity=generic)))	0
+2670	ihr	0	0	0	PPER	ihr	Case=Nom|Gender=*|Number=Plur|Person=2|PronType=Prs	(mention_id=377|references=(entity=(entity_id=generic_0138|fullname=generic_0017|gender=u|specialcase_entity=generic)))	(mention_id=366|references=(entity=(entity_id=generic_0017|fullname=der Andere|gender=u|specialcase_entity=generic)))	0
 2671	mögt	0	0	0	VMFIN	mögen	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|VerbType=Mod			0
 2672	entscheiden	0	0	0	VVINF	entscheiden	VerbForm=Inf			0
 2673	.	0	0	0	$.	.	PunctType=Peri			0
@@ -3865,7 +3865,7 @@ i	token	is_sent_start	is_para_start	is_section_start	tag	lemma	morph	gold	pred	i
 3863	weder	0	0	0	KON	weder	_			0
 3864	mir	0	0	0	PPER	mir	Case=Dat|Gender=*|Number=Sing|Person=1|PronType=Prs	(mention_id=568|references=(entity=(entity_id=entity_0004|fullname=Heinrich|gender=m)))	(mention_id=557|references=(entity=(entity_id=figur_0016|fullname=Heinrich|gender=m)))	0
 3865	noch	0	0	0	KON	noch	_			0
-3866	andern	0	0	0	ADJA	andern	_		(mention_id=558|references=(entity=(entity_id=generic_0007|fullname=andere Menschen im Allgemeinen|gender=u|specialcase_entity=generic)))	0
+3866	andern	0	0	0	ADJA	andern	_		(mention_id=558|references=(entity=(entity_id=generic_0023|fullname=Mann im Allgemeinen|gender=u|specialcase_entity=generic)))	0
 3867	schaden	0	0	0	VVINF	schaden	VerbForm=Inf			0
 3868	kann	0	0	0	VMFIN	können	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Mod			0
 3869	,	0	0	0	$,	,	PunctType=Comm			0
@@ -4465,10 +4465,10 @@ i	token	is_sent_start	is_para_start	is_section_start	tag	lemma	morph	gold	pred	i
 4463	und	0	0	0	KON	und	_			0
 4464	der	0	0	0	ART	der	Case=Nom|Gender=Masc|Number=Sing|PronType=Art			0
 4465	sinnlichste	0	0	0	ADJA	sinnlich	Case=Nom|Degree=Sup|Gender=Masc|Number=Sing			0
-4466	Mensch	0	0	0	NN	Mensch	Case=Nom|Gender=Masc|Number=Sing	(mention_id=665|references=(entity=(entity_id=generic_0140|fullname=generic_0019|gender=u|specialcase_entity=generic)))	(mention_id=659|references=(entity=(entity_id=generic_0008|fullname=Mensch im Allgemeinen|gender=u|specialcase_entity=generic)))	0
+4466	Mensch	0	0	0	NN	Mensch	Case=Nom|Gender=Masc|Number=Sing	(mention_id=665|references=(entity=(entity_id=generic_0140|fullname=generic_0019|gender=u|specialcase_entity=generic)))	(mention_id=659|references=(entity=(entity_id=generic_0029|fullname=Mann im Allgemeinen|gender=u|specialcase_entity=generic)))	0
 4467	begreift	0	0	0	VVFIN	begreifen	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin			0
 4468	bey	0	0	0	NE	bey	AdpType=Prep			0
-4469	ihrem	0	0	0	PPOSAT	ihr	Case=Dat|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs		(mention_id=660|references=(entity=(entity_id=generic_0009|fullname=weibliche Schönheit im Allgemeinen|gender=u|specialcase_entity=generic)))	0
+4469	ihrem	0	0	0	PPOSAT	ihr	Case=Dat|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs		(mention_id=660|references=(entity=(entity_id=generic_0062|fullname=Mann im Allgemeinen|gender=u|specialcase_entity=generic)))	0
 4470	Anblicke	0	0	0	NN	Anblick	Case=Dat|Gender=Masc|Number=Sing			0
 4471	:	0	0	0	$.	:	PunctType=Peri			0
 4472	daß	0	0	0	KOUS	daß	_			0
@@ -6090,7 +6090,7 @@ i	token	is_sent_start	is_para_start	is_section_start	tag	lemma	morph	gold	pred	i
 6088	Ihr	1	0	0	PPER	ihr	Case=Nom|Gender=*|Number=Plur|Person=2|PronType=Prs	(mention_id=953|references=(entity=(entity_id=entity_0004|fullname=Heinrich|gender=m)),(entity=(entity_id=generic_0141|fullname=generic_0020|gender=u|specialcase_entity=generic)))	(mention_id=954|references=(entity=(entity_id=figur_0016|fullname=Heinrich|gender=m)))	0
 6089	,	0	0	0	$,	,	PunctType=Comm			0
 6090	Ihr	0	0	0	PPOSAT	ihr	Case=Nom|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	(mention_id=954|references=(entity=(entity_id=entity_0004|fullname=Heinrich|gender=m)),(entity=(entity_id=generic_0142|fullname=generic_0021|gender=u|specialcase_entity=generic)))	(mention_id=955|references=(entity=(entity_id=figur_0016|fullname=Heinrich|gender=m)),(entity=(entity_id=figur_0031|fullname=Herr Hofmeister|gender=m)))	0
-6091	Alle	0	0	0	PIS	alle	Case=Nom|Gender=Neut|Number=Sing|PronType=Ind,Neg,Tot	(mention_id=955|references=(entity=(entity_id=entity_0004|fullname=Heinrich|gender=m)),(entity=(entity_id=generic_0143|fullname=generic_0022|gender=u|specialcase_entity=generic)))	(mention_id=956|references=(entity=(entity_id=figur_0016|fullname=Heinrich|gender=m)),(entity=(entity_id=figur_0031|fullname=Herr Hofmeister|gender=m)),(entity=(entity_id=generic_0001|fullname=die Gesellschaft im Allgemeinen|gender=u|specialcase_entity=generic)))	0
+6091	Alle	0	0	0	PIS	alle	Case=Nom|Gender=Neut|Number=Sing|PronType=Ind,Neg,Tot	(mention_id=955|references=(entity=(entity_id=entity_0004|fullname=Heinrich|gender=m)),(entity=(entity_id=generic_0143|fullname=generic_0022|gender=u|specialcase_entity=generic)))	(mention_id=956|references=(entity=(entity_id=figur_0016|fullname=Heinrich|gender=m)),(entity=(entity_id=figur_0031|fullname=Herr Hofmeister|gender=m)),(entity=(entity_id=generic_0107|fullname=Männer im Allgemeinen|gender=u|specialcase_entity=generic)))	0
 6092	!	0	0	0	$.	!	PunctType=Peri			0
 6093	mein	0	0	0	PPOSAT	mein	Case=Nom|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	(mention_id=956|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))	(mention_id=957|references=(entity=(entity_id=figur_0002|fullname=Gustav|gender=u)))	0
 6094	steifer	0	0	0	ADJA	steif	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing			0
@@ -6154,7 +6154,7 @@ i	token	is_sent_start	is_para_start	is_section_start	tag	lemma	morph	gold	pred	i
 6152	!	0	0	0	$.	!	PunctType=Peri			0
 6153	–	0	0	0	$(	–	AdpType=Prep|PunctType=Brck			0
 6154	der	0	0	0	ART	der	Case=Nom|Gender=Masc|Number=Sing|PronType=Art			0
-6155	Henker	0	0	0	NN	Henker	Case=Nom|Gender=Masc|Number=Sing		(mention_id=964|references=(entity=(entity_id=generic_0002|fullname=Henker im Allgemeinen|gender=u|specialcase_entity=generic)))	0
+6155	Henker	0	0	0	NN	Henker	Case=Nom|Gender=Masc|Number=Sing		(mention_id=964|references=(entity=(entity_id=generic_0113|fullname=Männer im Allgemeinen|gender=u|specialcase_entity=generic)))	0
 6156	hole	0	0	0	VVFIN	holen	Mood=Subj|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin			0
 6157	Eure	0	0	0	PPOSAT	euer	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	(mention_id=963|references=(entity=(entity_id=entity_0021|fullname=Hofmeister|gender=m)),(entity=(entity_id=entity_0004|fullname=Heinrich|gender=m)))	(mention_id=965|references=(entity=(entity_id=figur_0016|fullname=Heinrich|gender=m)),(entity=(entity_id=figur_0031|fullname=Herr Hofmeister|gender=m)))	0
 6158	Pflicht	0	0	0	NN	Pflicht	Case=Acc|Gender=Fem|Number=Sing			0
@@ -6627,7 +6627,7 @@ i	token	is_sent_start	is_para_start	is_section_start	tag	lemma	morph	gold	pred	i
 6625	zwecklose	0	0	0	ADJA	zwecklos	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing			0
 6626	Verfolgen	0	0	0	NN	verfolgen	Case=Nom|Gender=Neut|Number=Sing			0
 6627	der	0	0	0	ART	der	Case=Gen|Gender=Neut|Number=Plur|PronType=Art			0
-6628	Frauenzimmer	0	0	0	NN	Frauenzimmer	Case=Gen|Gender=Neut|Number=Plur		(mention_id=1037|references=(entity=(entity_id=generic_0003|fullname=Frauenzimmer im Allgemeinen|gender=u|specialcase_entity=generic)))	0
+6628	Frauenzimmer	0	0	0	NN	Frauenzimmer	Case=Gen|Gender=Neut|Number=Plur		(mention_id=1037|references=(entity=(entity_id=generic_0001|fullname=Frauenzimmer im Allgemeinen|gender=u|specialcase_entity=generic)))	0
 6629	,	0	0	0	$,	,	PunctType=Comm			0
 6630	erwarben	0	0	0	VVFIN	erwerben	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin			0
 6631	mir	0	0	0	PPER	mir	Case=Dat|Gender=*|Number=Sing|Person=1|PronType=Prs	(mention_id=1034|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))	(mention_id=1038|references=(entity=(entity_id=figur_0002|fullname=Gustav|gender=u)))	0
@@ -7097,7 +7097,7 @@ i	token	is_sent_start	is_para_start	is_section_start	tag	lemma	morph	gold	pred	i
 7095	wie	0	0	0	KOKOM	wie	ConjType=Comp			0
 7096	jeder	0	0	0	PIS	jeder	Case=Nom|Gender=Masc|Number=Sing|PronType=Ind,Neg,Tot	(mention_id=1111|references=(entity=(entity_id=generic_0149|fullname=generic_0028|gender=u|specialcase_entity=generic)))		0
 7097	,	0	0	0	$,	,	PunctType=Comm			0
-7098	der	0	0	0	PRELS	der	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	(mention_id=1112|references=(entity=(entity_id=generic_0150|fullname=generic_0029|gender=u|specialcase_entity=generic)))	(mention_id=1118|references=(entity=(entity_id=generic_0005|fullname=jeder der von ihr spricht|gender=u|specialcase_entity=generic)))	0
+7098	der	0	0	0	PRELS	der	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	(mention_id=1112|references=(entity=(entity_id=generic_0150|fullname=generic_0029|gender=u|specialcase_entity=generic)))	(mention_id=1118|references=(entity=(entity_id=generic_0007|fullname=jeder der von ihr spricht|gender=u|specialcase_entity=generic)))	0
 7099	von	0	0	0	APPR	von	AdpType=Prep			0
 7100	ihr	0	0	0	PPER	ihr	Case=Dat|Gender=Fem|Number=Sing|Person=3|PronType=Prs	(mention_id=1113|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))	(mention_id=1119|references=(entity=(entity_id=figur_0028|fullname=Sophie|gender=f)))	0
 7101	spricht	0	0	0	VVFIN	sprechen	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin			0
@@ -7274,7 +7274,7 @@ i	token	is_sent_start	is_para_start	is_section_start	tag	lemma	morph	gold	pred	i
 7272	die	0	0	0	ART	der	Case=Acc|Gender=Fem|Number=Sing|PronType=Art			0
 7273	Seele	0	0	0	NN	Seele	Case=Acc|Gender=Fem|Number=Sing			0
 7274	des	0	0	0	ART	der	Case=Gen|Gender=Masc|Number=Sing|PronType=Art			0
-7275	Andern	0	0	0	NN	Andern	Case=Gen|Gender=Masc|Number=Sing		(mention_id=1151|references=(entity=(entity_id=generic_0006|fullname=der Andere|gender=u|specialcase_entity=generic)))	0
+7275	Andern	0	0	0	NN	Andern	Case=Gen|Gender=Masc|Number=Sing		(mention_id=1151|references=(entity=(entity_id=generic_0013|fullname=der Andere|gender=u|specialcase_entity=generic)))	0
 7276	überging	0	0	0	VVFIN	übergehen	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin			0
 7277	.	0	0	0	$.	.	PunctType=Peri			0
 7278	In	1	0	0	APPR	in	AdpType=Prep			0
@@ -7467,9 +7467,9 @@ i	token	is_sent_start	is_para_start	is_section_start	tag	lemma	morph	gold	pred	i
 7465	Interesse	0	0	0	NN	Interesse	Case=Acc|Gender=Neut|Number=Sing			0
 7466	vermag	0	0	0	VVFIN	vermögen	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin			0
 7467	kein	0	0	0	PIAT	kein	Case=Nom|Gender=Masc|Number=Sing|PronType=Ind,Neg,Tot			0
-7468	Mann	0	0	0	NN	Mann	Case=Nom|Gender=Masc|Number=Sing		(mention_id=1180|references=(entity=(entity_id=generic_0007|fullname=Mann im Allgemeinen|gender=u|specialcase_entity=generic)))	0
+7468	Mann	0	0	0	NN	Mann	Case=Nom|Gender=Masc|Number=Sing		(mention_id=1180|references=(entity=(entity_id=generic_0019|fullname=Mann im Allgemeinen|gender=u|specialcase_entity=generic)))	0
 7469	von	0	0	0	APPR	von	AdpType=Prep			0
-7470	sich	0	0	0	PRF	sich	Case=Dat|Number=Sing|Person=3|PronType=Prs|Reflex=Yes		(mention_id=1181|references=(entity=(entity_id=generic_0008|fullname=Mann im Allgemeinen|gender=u|specialcase_entity=generic)))	0
+7470	sich	0	0	0	PRF	sich	Case=Dat|Number=Sing|Person=3|PronType=Prs|Reflex=Yes		(mention_id=1181|references=(entity=(entity_id=generic_0025|fullname=Mann im Allgemeinen|gender=u|specialcase_entity=generic)))	0
 7471	zucrzwingen	0	0	0	VVINF	zucrzwingen	VerbForm=Inf			0
 7472	.	0	0	0	$.	.	PunctType=Peri			0
 7473	Mein	1	0	0	PPOSAT	mein	Case=Nom|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	(mention_id=1174|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))	(mention_id=1182|references=(entity=(entity_id=figur_0002|fullname=Gustav|gender=u)))	0
@@ -8598,7 +8598,7 @@ i	token	is_sent_start	is_para_start	is_section_start	tag	lemma	morph	gold	pred	i
 8596	das	0	0	0	ART	der	Case=Nom|Gender=Neut|Number=Sing|PronType=Art			0
 8597	Herz	0	0	0	NN	Herz	Case=Nom|Gender=Neut|Number=Sing			0
 8598	eines	0	0	0	ART	ein	Case=Gen|Gender=Masc|Number=Sing|PronType=Art			0
-8599	Engels	0	0	0	NN	Engel	Case=Gen|Gender=Masc|Number=Sing		(mention_id=1365|references=(entity=(entity_id=generic_0013|fullname=Engel im Allgemeinen|gender=u|specialcase_entity=generic)))	0
+8599	Engels	0	0	0	NN	Engel	Case=Gen|Gender=Masc|Number=Sing		(mention_id=1365|references=(entity=(entity_id=generic_0030|fullname=Engel im Allgemeinen|gender=u|specialcase_entity=generic)))	0
 8600	!	0	0	0	$.	!	PunctType=Peri			0
 8601	»	1	0	0	$(	»	PunctType=Brck			0
 8602	Welche	0	0	0	PWAT	welche	Case=Acc|Gender=Fem|Number=Sing|PronType=Int	(mention_id=1357|references=(entity=(entity_id=entity_0003|fullname=Marie|gender=f)),(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))		0
@@ -8673,7 +8673,7 @@ i	token	is_sent_start	is_para_start	is_section_start	tag	lemma	morph	gold	pred	i
 8671	das	0	0	0	ART	der	Case=Acc|Gender=Neut|Number=Sing|PronType=Art			0
 8672	Herz	0	0	0	NN	Herz	Case=Acc|Gender=Neut|Number=Sing			0
 8673	eines	0	0	0	ART	ein	Case=Gen|Gender=Masc|Number=Sing|PronType=Art			0
-8674	Engels	0	0	0	NN	Engel	Case=Gen|Gender=Masc|Number=Sing		(mention_id=1385|references=(entity=(entity_id=generic_0014|fullname=Engel im Allgemeinen|gender=u|specialcase_entity=generic)))	0
+8674	Engels	0	0	0	NN	Engel	Case=Gen|Gender=Masc|Number=Sing		(mention_id=1385|references=(entity=(entity_id=generic_0034|fullname=Engel im Allgemeinen|gender=u|specialcase_entity=generic)))	0
 8675	?	0	0	0	$.	?	PunctType=Peri			0
 8676	und	0	0	0	KON	und	_			0
 8677	was	0	0	0	PWS	was	Case=Nom|Gender=Neut|Number=Sing|PronType=Int			0
@@ -9001,7 +9001,7 @@ i	token	is_sent_start	is_para_start	is_section_start	tag	lemma	morph	gold	pred	i
 8999	!	0	0	0	$.	!	PunctType=Peri			0
 9000	–	0	0	0	$(	–	AdpType=Prep|PunctType=Brck			0
 9001	arme	0	0	0	ADJA	arm	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur			0
-9002	Weiber	0	0	0	NN	Weiber	Case=Acc|Gender=Fem|Number=Sing	(mention_id=1434|references=(entity=(entity_id=generic_0151|fullname=generic_0030|gender=u|specialcase_entity=generic)),(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))	(mention_id=1444|references=(entity=(entity_id=generic_0015|fullname=Weiber im Allgemeinen|gender=u|specialcase_entity=generic)))	0
+9002	Weiber	0	0	0	NN	Weiber	Case=Acc|Gender=Fem|Number=Sing	(mention_id=1434|references=(entity=(entity_id=generic_0151|fullname=generic_0030|gender=u|specialcase_entity=generic)),(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))	(mention_id=1444|references=(entity=(entity_id=generic_0038|fullname=Weiber im Allgemeinen|gender=u|specialcase_entity=generic)))	0
 9003	!	0	0	0	$.	!	PunctType=Peri			0
 9004	Wie	1	0	0	PWAV	wie	PronType=Int			0
 9005	oft	0	0	0	ADV	oft	_			0
@@ -9011,13 +9011,13 @@ i	token	is_sent_start	is_para_start	is_section_start	tag	lemma	morph	gold	pred	i
 9009	Fall	0	0	0	NN	Fall	Case=Nom|Gender=Masc|Number=Sing			0
 9010	bey	0	0	0	NE	bey	AdpType=Prep			0
 9011	uns	0	0	0	PPER	uns	Case=Dat|Gender=*|Number=Plur|Person=1|PronType=Prs	(mention_id=1435|references=(entity=(entity_id=generic_0152|fullname=generic_0031|gender=u|specialcase_entity=generic)),(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))		0
-9012	Männern	0	0	0	NN	Mann	Case=Dat|Gender=Masc|Number=Plur	(mention_id=1436|references=(entity=(entity_id=generic_0153|fullname=generic_0032|gender=u|specialcase_entity=generic)),(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))	(mention_id=1445|references=(entity=(entity_id=generic_0023|fullname=Männer im Allgemeinen|gender=u|specialcase_entity=generic)))	0
+9012	Männern	0	0	0	NN	Mann	Case=Dat|Gender=Masc|Number=Plur	(mention_id=1436|references=(entity=(entity_id=generic_0153|fullname=generic_0032|gender=u|specialcase_entity=generic)),(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))	(mention_id=1445|references=(entity=(entity_id=generic_0042|fullname=Männer im Allgemeinen|gender=u|specialcase_entity=generic)))	0
 9013	,	0	0	0	$,	,	PunctType=Comm			0
 9014	und	0	0	0	KON	und	_			0
 9015	wie	0	0	0	PWAV	wie	PronType=Int			0
 9016	schrecklich	0	0	0	ADJD	schrecklich	Degree=Pos|Variant=Short			0
 9017	müßt	0	0	0	VMFIN	müssen	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|VerbType=Mod			0
-9018	ihr	0	0	0	PPER	ihr	Case=Dat|Gender=Fem|Number=Sing|Person=3|PronType=Prs	(mention_id=1437|references=(entity=(entity_id=generic_0154|fullname=generic_0033|gender=u|specialcase_entity=generic)),(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))	(mention_id=1446|references=(entity=(entity_id=generic_0016|fullname=Weiber im Allgemeinen|gender=u|specialcase_entity=generic)))	0
+9018	ihr	0	0	0	PPER	ihr	Case=Dat|Gender=Fem|Number=Sing|Person=3|PronType=Prs	(mention_id=1437|references=(entity=(entity_id=generic_0154|fullname=generic_0033|gender=u|specialcase_entity=generic)),(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))	(mention_id=1446|references=(entity=(entity_id=generic_0045|fullname=Weiber im Allgemeinen|gender=u|specialcase_entity=generic)))	0
 9019	für	0	0	0	APPR	für	AdpType=Prep			0
 9020	diesen	0	0	0	PDAT	dieser	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem			0
 9021	Irrthum	0	0	0	NN	Irrthum	Case=Acc|Gender=Masc|Number=Sing			0
@@ -9116,7 +9116,7 @@ i	token	is_sent_start	is_para_start	is_section_start	tag	lemma	morph	gold	pred	i
 9114	ich	0	0	0	PPER	ich	Case=Nom|Gender=*|Number=Sing|Person=1|PronType=Prs	(mention_id=1448|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))	(mention_id=1457|references=(entity=(entity_id=figur_0002|fullname=Gustav|gender=u)))	0
 9115	auf	0	0	0	APPR	auf	AdpType=Prep			0
 9116	andere	0	0	0	ADJA	anderer	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur			0
-9117	Frauenzimmer	0	0	0	NN	Frauenzimmer	Case=Acc|Gender=Neut|Number=Plur	(mention_id=1449|references=(entity=(entity_id=generic_0155|fullname=generic_0034|gender=u|specialcase_entity=generic)))	(mention_id=1458|references=(entity=(entity_id=generic_0004|fullname=Frauenzimmer im Allgemeinen|gender=u|specialcase_entity=generic)))	0
+9117	Frauenzimmer	0	0	0	NN	Frauenzimmer	Case=Acc|Gender=Neut|Number=Plur	(mention_id=1449|references=(entity=(entity_id=generic_0155|fullname=generic_0034|gender=u|specialcase_entity=generic)))	(mention_id=1458|references=(entity=(entity_id=generic_0049|fullname=Frauenzimmer im Allgemeinen|gender=u|specialcase_entity=generic)))	0
 9118	machte	0	0	0	VVFIN	machen	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin			0
 9119	;	0	0	0	$.	;	PunctType=Peri			0
 9120	und	0	0	0	KON	und	_			0
@@ -9182,7 +9182,7 @@ i	token	is_sent_start	is_para_start	is_section_start	tag	lemma	morph	gold	pred	i
 9180	was	0	0	0	PWS	wer	Case=Acc|Gender=Neut|Number=Sing|PronType=Rel			0
 9181	sie	0	0	0	PPER	sie	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	(mention_id=1458|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))	(mention_id=1467|references=(entity=(entity_id=figur_0028|fullname=Sophie|gender=f)))	0
 9182	für	0	0	0	APPR	für	AdpType=Prep			0
-9183	Alle	0	0	0	PIS	alle	Case=Acc|Gender=*|Number=Plur|PronType=Ind,Neg,Tot	(mention_id=1459|references=(entity=(entity_id=generic_0156|fullname=generic_0035|gender=u|specialcase_entity=generic)))	(mention_id=1468|references=(entity=(entity_id=generic_0026|fullname=Alle im Allgemeinen|gender=u|specialcase_entity=generic)))	0
+9183	Alle	0	0	0	PIS	alle	Case=Acc|Gender=*|Number=Plur|PronType=Ind,Neg,Tot	(mention_id=1459|references=(entity=(entity_id=generic_0156|fullname=generic_0035|gender=u|specialcase_entity=generic)))	(mention_id=1468|references=(entity=(entity_id=generic_0055|fullname=Alle im Allgemeinen|gender=u|specialcase_entity=generic)))	0
 9184	empfand	0	0	0	VVFIN	empfinden	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin			0
 9185	?	0	0	0	$.	?	PunctType=Peri			0
 9186	–	1	0	0	$(	-	PunctType=Brck			0
@@ -9425,7 +9425,7 @@ i	token	is_sent_start	is_para_start	is_section_start	tag	lemma	morph	gold	pred	i
 9423	runzelte	0	0	0	VVFIN	runzeln	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin			0
 9424	.	0	0	0	$.	.	PunctType=Peri			0
 9425	Welcher	1	0	0	PWAT	welcher	Case=Nom|Gender=Masc|Number=Sing|PronType=Int			0
-9426	Mann	0	0	0	NN	Mann	Case=Nom|Gender=Masc|Number=Sing	(mention_id=1499|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)),(entity=(entity_id=generic_0158|fullname=generic_0037|gender=u|specialcase_entity=generic)))	(mention_id=1505|references=(entity=(entity_id=generic_0009|fullname=Mann im Allgemeinen|gender=u|specialcase_entity=generic)))	0
+9426	Mann	0	0	0	NN	Mann	Case=Nom|Gender=Masc|Number=Sing	(mention_id=1499|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)),(entity=(entity_id=generic_0158|fullname=generic_0037|gender=u|specialcase_entity=generic)))	(mention_id=1505|references=(entity=(entity_id=generic_0058|fullname=Mann im Allgemeinen|gender=u|specialcase_entity=generic)))	0
 9427	hätte	0	0	0	VAFIN	haben	Mood=Subj|Number=Sing|Person=3|Tense=Past|VerbForm=Fin			0
 9428	ein	0	0	0	ART	ein	Case=Acc|Gender=Neut|Number=Sing|PronType=Art			0
 9429	solches	0	0	0	PIAT	solcher	Case=Acc|Gender=Neut|Number=Sing|PronType=Ind,Neg,Tot			0
@@ -9434,7 +9434,7 @@ i	token	is_sent_start	is_para_start	is_section_start	tag	lemma	morph	gold	pred	i
 9432	ertragen	0	0	0	VVINF	ertragen	VerbForm=Inf			0
 9433	,	0	0	0	$,	,	PunctType=Comm			0
 9434	welcher	0	0	0	PWAT	welcher	Case=Nom|Gender=Masc|Number=Sing|PronType=Int			0
-9435	Mann	0	0	0	NN	Mann	Case=Nom|Gender=Masc|Number=Sing	(mention_id=1500|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)),(entity=(entity_id=generic_0159|fullname=generic_0038|gender=u|specialcase_entity=generic)))	(mention_id=1506|references=(entity=(entity_id=generic_0010|fullname=Mann im Allgemeinen|gender=u|specialcase_entity=generic)))	0
+9435	Mann	0	0	0	NN	Mann	Case=Nom|Gender=Masc|Number=Sing	(mention_id=1500|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)),(entity=(entity_id=generic_0159|fullname=generic_0038|gender=u|specialcase_entity=generic)))	(mention_id=1506|references=(entity=(entity_id=generic_0063|fullname=Mann im Allgemeinen|gender=u|specialcase_entity=generic)))	0
 9436	hätte	0	0	0	VAFIN	haben	Mood=Subj|Number=Sing|Person=3|Tense=Past|VerbForm=Fin			0
 9437	es	0	0	0	PPER	es	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs			0
 9438	verdienen	0	0	0	VVINF	verdienen	VerbForm=Inf			0
@@ -9534,28 +9534,28 @@ i	token	is_sent_start	is_para_start	is_section_start	tag	lemma	morph	gold	pred	i
 9532	zerstört	0	0	0	VVPP	zerstören	Aspect=Perf|VerbForm=Part			0
 9533	war	0	0	0	VAFIN	sein	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin			0
 9534	.	0	0	0	$.	.	PunctType=Peri			0
-9535	Ihr	1	0	0	PPOSAT	ihr	Case=Nom|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs		(mention_id=1522|references=(entity=(entity_id=figur_0028|fullname=Sophie|gender=f)),(entity=(entity_id=generic_0017|fullname=Weiber im Allgemeinen|gender=u|specialcase_entity=generic)))	0
+9535	Ihr	1	0	0	PPOSAT	ihr	Case=Nom|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs		(mention_id=1522|references=(entity=(entity_id=figur_0028|fullname=Sophie|gender=f)),(entity=(entity_id=generic_0067|fullname=Weiber im Allgemeinen|gender=u|specialcase_entity=generic)))	0
 9536	unglücklichen	0	0	0	ADJA	unglücklich	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing			0
-9537	Weiber	0	0	0	NN	Weiber	Case=Dat|Gender=Fem|Number=Sing	(mention_id=1516|references=(entity=(entity_id=generic_0160|fullname=generic_0039|gender=u|specialcase_entity=generic)),(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))	(mention_id=1523|references=(entity=(entity_id=generic_0018|fullname=Weiber im Allgemeinen|gender=u|specialcase_entity=generic)),(entity=(entity_id=23|fullname=Sophie|gender=f)))	0
+9537	Weiber	0	0	0	NN	Weiber	Case=Dat|Gender=Fem|Number=Sing	(mention_id=1516|references=(entity=(entity_id=generic_0160|fullname=generic_0039|gender=u|specialcase_entity=generic)),(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))	(mention_id=1523|references=(entity=(entity_id=generic_0070|fullname=Weiber im Allgemeinen|gender=u|specialcase_entity=generic)),(entity=(entity_id=23|fullname=Sophie|gender=f)))	0
 9538	!	0	0	0	$.	!	PunctType=Peri			0
 9539	wie	0	0	0	KOKOM	wie	ConjType=Comp|PronType=Int			0
 9540	könnt	0	0	0	VMFIN	können	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|VerbType=Mod			0
-9541	ihr	0	0	0	PPER	ihr	Case=Dat|Gender=Fem|Number=Sing|Person=3|PronType=Prs	(mention_id=1517|references=(entity=(entity_id=generic_0161|fullname=generic_0040|gender=u|specialcase_entity=generic)),(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))	(mention_id=1524|references=(entity=(entity_id=figur_0028|fullname=Sophie|gender=f)),(entity=(entity_id=generic_0019|fullname=Weiber im Allgemeinen|gender=u|specialcase_entity=generic)))	0
+9541	ihr	0	0	0	PPER	ihr	Case=Dat|Gender=Fem|Number=Sing|Person=3|PronType=Prs	(mention_id=1517|references=(entity=(entity_id=generic_0161|fullname=generic_0040|gender=u|specialcase_entity=generic)),(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))	(mention_id=1524|references=(entity=(entity_id=figur_0028|fullname=Sophie|gender=f)),(entity=(entity_id=generic_0073|fullname=Weiber im Allgemeinen|gender=u|specialcase_entity=generic)))	0
 9542	so	0	0	0	ADV	so	_			0
 9543	thöricht	0	0	0	NE	thöricht	Degree=Pos|Variant=Short			0
 9544	seyn	0	0	0	VVFIN	seyn	Mood=Ind|VerbForm=Inf			0
 9545	,	0	0	0	$,	,	PunctType=Comm			0
-9546	eure	0	0	0	PPOSAT	dein	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	(mention_id=1518|references=(entity=(entity_id=generic_0162|fullname=generic_0041|gender=u|specialcase_entity=generic)),(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))	(mention_id=1525|references=(entity=(entity_id=figur_0028|fullname=Sophie|gender=f)),(entity=(entity_id=generic_0020|fullname=Weiber im Allgemeinen|gender=u|specialcase_entity=generic)))	0
+9546	eure	0	0	0	PPOSAT	dein	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	(mention_id=1518|references=(entity=(entity_id=generic_0162|fullname=generic_0041|gender=u|specialcase_entity=generic)),(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))	(mention_id=1525|references=(entity=(entity_id=figur_0028|fullname=Sophie|gender=f)),(entity=(entity_id=generic_0076|fullname=Weiber im Allgemeinen|gender=u|specialcase_entity=generic)))	0
 9547	ganze	0	0	0	ADJA	ganz	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing			0
 9548	Glückseligkeit	0	0	0	NN	Glückseligkeit	Case=Nom|Gender=Fem|Number=Sing			0
 9549	den	0	0	0	ART	der	Case=Dat|Gender=Fem|Number=Plur|PronType=Art			0
 9550	Händen	0	0	0	NN	Hand	Case=Dat|Gender=Fem|Number=Plur			0
 9551	eines	0	0	0	ART	ein	Case=Gen|Gender=Masc|Number=Sing|PronType=Art			0
-9552	Mannes	0	0	0	NN	Mann	Case=Gen|Gender=Masc|Number=Sing	(mention_id=1519|references=(entity=(entity_id=generic_0163|fullname=generic_0042|gender=u|specialcase_entity=generic)),(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))	(mention_id=1526|references=(entity=(entity_id=generic_0011|fullname=Mann im Allgemeinen|gender=u|specialcase_entity=generic)))	0
+9552	Mannes	0	0	0	NN	Mann	Case=Gen|Gender=Masc|Number=Sing	(mention_id=1519|references=(entity=(entity_id=generic_0163|fullname=generic_0042|gender=u|specialcase_entity=generic)),(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))	(mention_id=1526|references=(entity=(entity_id=generic_0079|fullname=Mann im Allgemeinen|gender=u|specialcase_entity=generic)))	0
 9553	,	0	0	0	$,	,	PunctType=Comm			0
 9554	eines	0	0	0	ART	ein	Case=Gen|Gender=Masc|Number=Sing|PronType=Art			0
 9555	angebohrnen	0	0	0	ADJA	angeborrn	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing			0
-9556	Feindes	0	0	0	NN	Feind	Case=Gen|Gender=Masc|Number=Sing	(mention_id=1520|references=(entity=(entity_id=generic_0164|fullname=generic_0043|gender=u|specialcase_entity=generic)),(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))	(mention_id=1527|references=(entity=(entity_id=generic_0012|fullname=Mann im Allgemeinen|gender=u|specialcase_entity=generic)))	0
+9556	Feindes	0	0	0	NN	Feind	Case=Gen|Gender=Masc|Number=Sing	(mention_id=1520|references=(entity=(entity_id=generic_0164|fullname=generic_0043|gender=u|specialcase_entity=generic)),(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))	(mention_id=1527|references=(entity=(entity_id=generic_0083|fullname=Mann im Allgemeinen|gender=u|specialcase_entity=generic)))	0
 9557	,	0	0	0	$,	,	PunctType=Comm			0
 9558	zu	0	0	0	PTKZU	zu	PartType=Inf			0
 9559	vertrauen	0	0	0	VVINF	vertrauen	VerbForm=Inf			0
@@ -9564,8 +9564,8 @@ i	token	is_sent_start	is_para_start	is_section_start	tag	lemma	morph	gold	pred	i
 9562	Nein	0	0	0	PTKANT	nein	PartType=Res			0
 9563	,	0	0	0	$,	,	PunctType=Comm			0
 9564	wollt	0	0	0	VMFIN	wollen	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|VerbType=Mod			0
-9565	ihr	0	0	0	PPOSAT	ihr	Case=Nom|Gender=*|Number=Plur|Person=2|Poss=Yes|PronType=Prs	(mention_id=1521|references=(entity=(entity_id=generic_0165|fullname=generic_0044|gender=u|specialcase_entity=generic)),(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))	(mention_id=1528|references=(entity=(entity_id=figur_0028|fullname=Sophie|gender=f)),(entity=(entity_id=generic_0021|fullname=Weiber im Allgemeinen|gender=u|specialcase_entity=generic)))	0
-9566	euch	0	0	0	PPER	euch	Case=Acc|Gender=*|Number=Plur|Person=2|PronType=Prs	(mention_id=1522|references=(entity=(entity_id=generic_0166|fullname=generic_0045|gender=u|specialcase_entity=generic)),(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))	(mention_id=1529|references=(entity=(entity_id=figur_0028|fullname=Sophie|gender=f)),(entity=(entity_id=generic_0022|fullname=Weiber im Allgemeinen|gender=u|specialcase_entity=generic)))	0
+9565	ihr	0	0	0	PPOSAT	ihr	Case=Nom|Gender=*|Number=Plur|Person=2|Poss=Yes|PronType=Prs	(mention_id=1521|references=(entity=(entity_id=generic_0165|fullname=generic_0044|gender=u|specialcase_entity=generic)),(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))	(mention_id=1528|references=(entity=(entity_id=figur_0028|fullname=Sophie|gender=f)),(entity=(entity_id=generic_0087|fullname=Weiber im Allgemeinen|gender=u|specialcase_entity=generic)))	0
+9566	euch	0	0	0	PPER	euch	Case=Acc|Gender=*|Number=Plur|Person=2|PronType=Prs	(mention_id=1522|references=(entity=(entity_id=generic_0166|fullname=generic_0045|gender=u|specialcase_entity=generic)),(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))	(mention_id=1529|references=(entity=(entity_id=figur_0028|fullname=Sophie|gender=f)),(entity=(entity_id=generic_0090|fullname=Weiber im Allgemeinen|gender=u|specialcase_entity=generic)))	0
 9567	nicht	0	0	0	PTKNEG	nicht	Polarity=Neg			0
 9568	dem	0	0	0	ART	der	Case=Dat|Gender=Masc|Number=Sing|PronType=Art			0
 9569	schrecklichsten	0	0	0	ADJA	schrecklich	Case=Dat|Degree=Sup|Gender=Masc|Number=Sing			0
@@ -9575,7 +9575,7 @@ i	token	is_sent_start	is_para_start	is_section_start	tag	lemma	morph	gold	pred	i
 9573	:	0	0	0	$.	:	PunctType=Peri			0
 9574	sucht	0	0	0	VVFIN	suchen	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin			0
 9575	immerhin	0	0	0	ADV	immerhin	_			0
-9576	uns	0	0	0	PPER	uns	Case=Dat|Gender=*|Number=Plur|Person=1|PronType=Prs	(mention_id=1523|references=(entity=(entity_id=generic_0167|fullname=generic_0046|gender=u|specialcase_entity=generic)),(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))	(mention_id=1530|references=(entity=(entity_id=generic_0024|fullname=Männer im Allgemeinen|gender=u|specialcase_entity=generic)))	0
+9576	uns	0	0	0	PPER	uns	Case=Dat|Gender=*|Number=Plur|Person=1|PronType=Prs	(mention_id=1523|references=(entity=(entity_id=generic_0167|fullname=generic_0046|gender=u|specialcase_entity=generic)),(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))	(mention_id=1530|references=(entity=(entity_id=generic_0093|fullname=Männer im Allgemeinen|gender=u|specialcase_entity=generic)))	0
 9577	glücklich	0	0	0	ADJD	glücklich	Degree=Pos|Variant=Short			0
 9578	zu	0	0	0	PTKZU	zu	PartType=Inf			0
 9579	machen	0	0	0	VVINF	machen	VerbForm=Inf			0
@@ -9585,7 +9585,7 @@ i	token	is_sent_start	is_para_start	is_section_start	tag	lemma	morph	gold	pred	i
 9583	es	0	0	0	PPER	es	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs			0
 9584	nie	0	0	0	ADV	nie	_			0
 9585	durch	0	0	0	APPR	durch	AdpType=Prep			0
-9586	uns	0	0	0	PPER	uns	Case=Acc|Gender=*|Number=Plur|Person=1|PronType=Prs	(mention_id=1524|references=(entity=(entity_id=generic_0168|fullname=generic_0047|gender=u|specialcase_entity=generic)),(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))	(mention_id=1531|references=(entity=(entity_id=generic_0025|fullname=Männer im Allgemeinen|gender=u|specialcase_entity=generic)))	0
+9586	uns	0	0	0	PPER	uns	Case=Acc|Gender=*|Number=Plur|Person=1|PronType=Prs	(mention_id=1524|references=(entity=(entity_id=generic_0168|fullname=generic_0047|gender=u|specialcase_entity=generic)),(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))	(mention_id=1531|references=(entity=(entity_id=generic_0096|fullname=Männer im Allgemeinen|gender=u|specialcase_entity=generic)))	0
 9587	zu	0	0	0	PTKZU	zu	PartType=Inf			0
 9588	werden	0	0	0	VAINF	werden	VerbForm=Inf			0
 9589	.	0	0	0	$.	.	PunctType=Peri			0
@@ -9918,7 +9918,7 @@ i	token	is_sent_start	is_para_start	is_section_start	tag	lemma	morph	gold	pred	i
 9916	so	0	0	0	ADV	so	_			0
 9917	ganz	0	0	0	ADV	ganz	_			0
 9918	zum	0	0	0	APPRART	zu	AdpType=Prep|Case=Dat|Gender=Neut|Number=Sing|PronType=Art			0
-9919	Kinde	0	0	0	NN	Kind	Case=Dat|Gender=Neut|Number=Sing	(mention_id=1575|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))	(mention_id=1584|references=(entity=(entity_id=generic_0027|fullname=Kind im Allgemeinen|gender=u|specialcase_entity=generic)))	0
+9919	Kinde	0	0	0	NN	Kind	Case=Dat|Gender=Neut|Number=Sing	(mention_id=1575|references=(entity=(entity_id=entity_0018|fullname=Sophie|gender=f)))	(mention_id=1584|references=(entity=(entity_id=generic_0099|fullname=Kind im Allgemeinen|gender=u|specialcase_entity=generic)))	0
 9920	geworden	0	0	0	VAPP	werden	Aspect=Perf|VerbForm=Part			0
 9921	seyn	0	0	0	ADV	seyn	VerbForm=Inf			0
 9922	!	0	0	0	$.	!	PunctType=Peri			0
@@ -10585,7 +10585,7 @@ i	token	is_sent_start	is_para_start	is_section_start	tag	lemma	morph	gold	pred	i
 10583	Rede	0	0	0	NN	Rede	Case=Nom|Gender=Fem|Number=Sing			0
 10584	von	0	0	0	APPR	von	AdpType=Prep			0
 10585	den	0	0	0	ART	der	Case=Dat|Gender=Masc|Number=Plur|PronType=Art			0
-10586	Männern	0	0	0	NN	Mann	Case=Dat|Gender=Masc|Number=Plur	(mention_id=1686|references=(entity=(entity_id=generic_0169|fullname=generic_0048|gender=u|specialcase_entity=generic)))	(mention_id=1694|references=(entity=(entity_id=generic_0001|fullname=Männer im Allgemeinen|gender=u|specialcase_entity=generic)))	0
+10586	Männern	0	0	0	NN	Mann	Case=Dat|Gender=Masc|Number=Plur	(mention_id=1686|references=(entity=(entity_id=generic_0169|fullname=generic_0048|gender=u|specialcase_entity=generic)))	(mention_id=1694|references=(entity=(entity_id=generic_0102|fullname=Männer im Allgemeinen|gender=u|specialcase_entity=generic)))	0
 10587	war	0	0	0	VAFIN	sein	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin			0
 10588	.	0	0	0	$.	.	PunctType=Peri			0
 10589	Die	1	0	0	ART	der	Case=Nom|Gender=*|Number=Plur|PronType=Art			0
@@ -10619,7 +10619,7 @@ i	token	is_sent_start	is_para_start	is_section_start	tag	lemma	morph	gold	pred	i
 10617	dazu	0	0	0	PROAV	dazu	PronType=Dem			0
 10618	habe	0	0	0	VAFIN	haben	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin			0
 10619	ich	0	0	0	PPER	ich	Case=Nom|Gender=*|Number=Sing|Person=1|PronType=Prs	(mention_id=1692|references=(entity=(entity_id=entity_0040|fullname=Gräfin B.|gender=f)))	(mention_id=1697|references=(entity=(entity_id=figur_0005|fullname=Maries Begleiterin|gender=f)))	0
-10620	sie	0	0	0	PPER	sie	Case=Acc|Gender=*|Number=Plur|Person=3|PronType=Prs	(mention_id=1693|references=(entity=(entity_id=generic_0171|fullname=generic_0050|gender=u|specialcase_entity=generic)))	(mention_id=1698|references=(entity=(entity_id=generic_0002|fullname=Männer im Allgemeinen|gender=u|specialcase_entity=generic)))	0
+10620	sie	0	0	0	PPER	sie	Case=Acc|Gender=*|Number=Plur|Person=3|PronType=Prs	(mention_id=1693|references=(entity=(entity_id=generic_0171|fullname=generic_0050|gender=u|specialcase_entity=generic)))	(mention_id=1698|references=(entity=(entity_id=generic_0108|fullname=Männer im Allgemeinen|gender=u|specialcase_entity=generic)))	0
 10621	gebraucht	0	0	0	VVPP	brauchen	Aspect=Perf|VerbForm=Part			0
 10622	«	0	0	0	$.	«	PunctType=Peri			0
 10623	.	0	0	0	$.	.	PunctType=Peri			0
@@ -10662,9 +10662,9 @@ i	token	is_sent_start	is_para_start	is_section_start	tag	lemma	morph	gold	pred	i
 10660	daß	0	0	0	KOUS	daß	_			0
 10661	es	0	0	0	PPER	es	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs			0
 10662	jemahls	0	0	0	ADV	jemahls	_			0
-10663	Einer	0	0	0	PIS	einer	Case=Nom|Gender=Masc|Number=Sing|PronType=Ind,Neg,Tot	(mention_id=1699|references=(entity=(entity_id=generic_0172|fullname=generic_0051|gender=u|specialcase_entity=generic)))	(mention_id=1701|references=(entity=(entity_id=generic_0010|fullname=ein Mann im Allgemeinen|gender=u|specialcase_entity=generic)))	0
+10663	Einer	0	0	0	PIS	einer	Case=Nom|Gender=Masc|Number=Sing|PronType=Ind,Neg,Tot	(mention_id=1699|references=(entity=(entity_id=generic_0172|fullname=generic_0051|gender=u|specialcase_entity=generic)))	(mention_id=1701|references=(entity=(entity_id=generic_0064|fullname=Mann im Allgemeinen|gender=u|specialcase_entity=generic)))	0
 10664	von	0	0	0	APPR	von	AdpType=Prep			0
-10665	ihnen	0	0	0	PPER	ihnen	Case=Dat|Gender=*|Number=Plur|Person=3|PronType=Prs	(mention_id=1700|references=(entity=(entity_id=generic_0173|fullname=generic_0052|gender=u|specialcase_entity=generic)))	(mention_id=1702|references=(entity=(entity_id=generic_0003|fullname=Männer im Allgemeinen|gender=u|specialcase_entity=generic)))	0
+10665	ihnen	0	0	0	PPER	ihnen	Case=Dat|Gender=*|Number=Plur|Person=3|PronType=Prs	(mention_id=1700|references=(entity=(entity_id=generic_0173|fullname=generic_0052|gender=u|specialcase_entity=generic)))	(mention_id=1702|references=(entity=(entity_id=generic_0003|fullname=Frauenzimmer im Allgemeinen|gender=u|specialcase_entity=generic)))	0
 10666	redlich	0	0	0	ADJD	redlich	Degree=Pos|Variant=Short			0
 10667	mit	0	0	0	APPR	mit	AdpType=Prep			0
 10668	uns	0	0	0	PPER	uns	Case=Dat|Gender=*|Number=Plur|Person=1|PronType=Prs	(mention_id=1701|references=(entity=(entity_id=entity_0044|fullname=Begleiterin der Gräfin|gender=f)),(entity=(entity_id=entity_0040|fullname=Gräfin B.|gender=f)))	(mention_id=1703|references=(entity=(entity_id=figur_0005|fullname=Maries Begleiterin|gender=f)),(entity=(entity_id=figur_0005|fullname=Maries Begleiterin|gender=f)))	0
@@ -10685,7 +10685,7 @@ i	token	is_sent_start	is_para_start	is_section_start	tag	lemma	morph	gold	pred	i
 10683	so	0	0	0	ADV	so	_			0
 10684	lange	0	0	0	ADV	lange	_			0
 10685	wir	0	0	0	PPER	wir	Case=Nom|Gender=*|Number=Plur|Person=1|PronType=Prs	(mention_id=1704|references=(entity=(entity_id=entity_0044|fullname=Begleiterin der Gräfin|gender=f)),(entity=(entity_id=entity_0040|fullname=Gräfin B.|gender=f)),(entity=(entity_id=generic_0174|fullname=generic_0053|gender=u|specialcase_entity=generic)))	(mention_id=1705|references=(entity=(entity_id=figur_0005|fullname=Maries Begleiterin|gender=f)),(entity=(entity_id=figur_0005|fullname=Maries Begleiterin|gender=f)))	0
-10686	ihre	0	0	0	PPOSAT	ihr	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	(mention_id=1705|references=(entity=(entity_id=generic_0175|fullname=generic_0054|gender=u|specialcase_entity=generic)))	(mention_id=1706|references=(entity=(entity_id=generic_0004|fullname=Männer im Allgemeinen|gender=u|specialcase_entity=generic)))	0
+10686	ihre	0	0	0	PPOSAT	ihr	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	(mention_id=1705|references=(entity=(entity_id=generic_0175|fullname=generic_0054|gender=u|specialcase_entity=generic)))	(mention_id=1706|references=(entity=(entity_id=generic_0050|fullname=Frauenzimmer im Allgemeinen|gender=u|specialcase_entity=generic)))	0
 10687	Sinnlichkeit	0	0	0	NN	Sinnlichkeit	Case=Acc|Gender=Fem|Number=Sing			0
 10688	beschäftigen	0	0	0	VVINF	beschäftigen	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin			0
 10689	.	0	0	0	$.	.	PunctType=Peri			0
@@ -10711,9 +10711,9 @@ i	token	is_sent_start	is_para_start	is_section_start	tag	lemma	morph	gold	pred	i
 10709	geht	0	0	0	VVFIN	gehen	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin			0
 10710	,	0	0	0	$,	,	PunctType=Comm			0
 10711	sind	0	0	0	VAFIN	sein	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin			0
-10712	sie	0	0	0	PPER	sie	Case=Nom|Gender=*|Number=Plur|Person=3|PronType=Prs	(mention_id=1709|references=(entity=(entity_id=generic_0177|fullname=generic_0056|gender=u|specialcase_entity=generic)))	(mention_id=1709|references=(entity=(entity_id=generic_0005|fullname=Männer im Allgemeinen|gender=u|specialcase_entity=generic)))	0
+10712	sie	0	0	0	PPER	sie	Case=Nom|Gender=*|Number=Plur|Person=3|PronType=Prs	(mention_id=1709|references=(entity=(entity_id=generic_0177|fullname=generic_0056|gender=u|specialcase_entity=generic)))	(mention_id=1709|references=(entity=(entity_id=generic_0008|fullname=jeder der von ihr spricht|gender=u|specialcase_entity=generic)))	0
 10713	alle	0	0	0	PIAT	aller	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind,Neg,Tot			0
-10714	Freunde	0	0	0	NN	Freund	Case=Nom|Gender=Masc|Number=Plur	(mention_id=1710|references=(entity=(entity_id=generic_0178|fullname=generic_0057|gender=u|specialcase_entity=generic)))	(mention_id=1710|references=(entity=(entity_id=generic_0006|fullname=Männer im Allgemeinen|gender=u|specialcase_entity=generic)))	0
+10714	Freunde	0	0	0	NN	Freund	Case=Nom|Gender=Masc|Number=Plur	(mention_id=1710|references=(entity=(entity_id=generic_0178|fullname=generic_0057|gender=u|specialcase_entity=generic)))	(mention_id=1710|references=(entity=(entity_id=generic_0014|fullname=der Andere|gender=u|specialcase_entity=generic)))	0
 10715	!	0	0	0	$.	!	PunctType=Peri			0
 10716	Abermahls	1	0	0	NN	abermahls	_			0
 10717	das	0	0	0	ART	der	Case=Nom|Gender=Neut|Number=Sing|PronType=Art			0
@@ -10932,7 +10932,7 @@ i	token	is_sent_start	is_para_start	is_section_start	tag	lemma	morph	gold	pred	i
 10930	immer	0	0	0	ADV	immer	_			0
 10931	über	0	0	0	APPR	über	AdpType=Prep			0
 10932	die	0	0	0	ART	der	Case=Acc|Gender=Masc|Number=Plur|PronType=Art			0
-10933	Männer	0	0	0	NN	Mann	Case=Acc|Gender=Masc|Number=Plur	(mention_id=1740|references=(entity=(entity_id=generic_0179|fullname=generic_0058|gender=u|specialcase_entity=generic)))	(mention_id=1737|references=(entity=(entity_id=generic_0007|fullname=Männer im Allgemeinen|gender=u|specialcase_entity=generic)))	0
+10933	Männer	0	0	0	NN	Mann	Case=Acc|Gender=Masc|Number=Plur	(mention_id=1740|references=(entity=(entity_id=generic_0179|fullname=generic_0058|gender=u|specialcase_entity=generic)))	(mention_id=1737|references=(entity=(entity_id=generic_0020|fullname=Mann im Allgemeinen|gender=u|specialcase_entity=generic)))	0
 10934	her	0	0	0	PTKVZ	her	PartType=Vbp			0
 10935	;	0	0	0	$.	;	PunctType=Peri			0
 10936	ein	0	0	0	ART	ein	Case=Nom|Gender=Masc|Number=Sing|PronType=Art			0
@@ -11636,7 +11636,7 @@ i	token	is_sent_start	is_para_start	is_section_start	tag	lemma	morph	gold	pred	i
 11634	habe	0	0	0	VAFIN	haben	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin			0
 11635	zwar	0	0	0	ADV	zwar	_			0
 11636	über	0	0	0	APPR	über	AdpType=Prep			0
-11637	sie	0	0	0	PPER	sie	Case=Acc|Gender=*|Number=Plur|Person=3|PronType=Prs	(mention_id=1834|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))	(mention_id=1830|references=(entity=(entity_id=generic_0008|fullname=Männer im Allgemeinen|gender=u|specialcase_entity=generic)))	0
+11637	sie	0	0	0	PPER	sie	Case=Acc|Gender=*|Number=Plur|Person=3|PronType=Prs	(mention_id=1834|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))	(mention_id=1830|references=(entity=(entity_id=generic_0026|fullname=Mann im Allgemeinen|gender=u|specialcase_entity=generic)))	0
 11638	gelacht	0	0	0	VVPP	lachen	Aspect=Perf|VerbForm=Part			0
 11639	,	0	0	0	$,	,	PunctType=Comm			0
 11640	«	0	0	0	$(	«	PronType=Int|PunctType=Brck			0
@@ -12341,7 +12341,7 @@ i	token	is_sent_start	is_para_start	is_section_start	tag	lemma	morph	gold	pred	i
 12339	–	0	0	0	$(	sein	Mood=Ind|Number=Sing|Person=1|PunctType=Brck|Tense=Pres|VerbForm=Fin			0
 12340	»	0	0	0	$(	pflichtbewußt	Mood=Ind|Number=Sing|Person=1|PunctType=Brck|Tense=Pres|VerbForm=Fin			0
 12341	was	0	0	0	PWS	was	Case=Acc|Gender=Neut|Number=Sing|PronType=Int			0
-12342	Henker	0	0	0	NN	Henker	Case=Nom|Gender=Masc|Number=Sing		(mention_id=1928|references=(entity=(entity_id=generic_0012|fullname=Henker im Allgemeinen|gender=u|specialcase_entity=generic)))	0
+12342	Henker	0	0	0	NN	Henker	Case=Nom|Gender=Masc|Number=Sing		(mention_id=1928|references=(entity=(entity_id=generic_0084|fullname=Mann im Allgemeinen|gender=u|specialcase_entity=generic)))	0
 12343	!	0	0	0	$.	!	PunctType=Peri			0
 12344	«	0	0	0	$.	-	PunctType=Peri			0
 12345	–	1	0	0	$(	–	PunctType=Brck			0
@@ -12753,7 +12753,7 @@ i	token	is_sent_start	is_para_start	is_section_start	tag	lemma	morph	gold	pred	i
 12751	Sie	0	0	0	PPER	sie	Case=Nom|Gender=*|Number=Plur|Person=3|PronType=Prs	(mention_id=1988|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))	(mention_id=1992|references=(entity=(entity_id=figur_0002|fullname=Gustav|gender=m)))	0
 12752	für	0	0	0	APPR	für	AdpType=Prep			0
 12753	einen	0	0	0	ART	ein	Case=Acc|Gender=Masc|Number=Sing|PronType=Art			0
-12754	Mann	0	0	0	NN	Mann	Case=Acc|Gender=Masc|Number=Sing	(mention_id=1989|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))	(mention_id=1993|references=(entity=(entity_id=generic_0011|fullname=ein Mann im Allgemeinen|gender=u|specialcase_entity=generic)))	0
+12754	Mann	0	0	0	NN	Mann	Case=Acc|Gender=Masc|Number=Sing	(mention_id=1989|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))	(mention_id=1993|references=(entity=(entity_id=generic_0080|fullname=Mann im Allgemeinen|gender=u|specialcase_entity=generic)))	0
 12755	gelten	0	0	0	VVINF	gelten	VerbForm=Inf			0
 12756	wollen	0	0	0	VMFIN	wollen	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Mod			0
 12757	,	0	0	0	$,	,	PunctType=Comm			0
@@ -12775,7 +12775,7 @@ i	token	is_sent_start	is_para_start	is_section_start	tag	lemma	morph	gold	pred	i
 12773	Ihnen	0	0	0	PPER	ihnen	Case=Dat|Gender=*|Number=Plur|Person=3|PronType=Prs	(mention_id=1992|references=(entity=(entity_id=entity_0040|fullname=Gräfin B.|gender=f)))	(mention_id=1996|references=(entity=(entity_id=figur_0042|fullname=Gräfin B.|gender=f)))	0
 12774	doch	0	0	0	ADV	doch	_			0
 12775	die	0	0	0	ART	der	Case=Nom|Gender=Masc|Number=Plur|PronType=Art			0
-12776	Männer	0	0	0	NN	Mann	Case=Nom|Gender=Masc|Number=Plur	(mention_id=1993|references=(entity=(entity_id=generic_0181|fullname=generic_0060|gender=u|specialcase_entity=generic)))	(mention_id=1997|references=(entity=(entity_id=generic_0009|fullname=Männer im Allgemeinen|gender=u|specialcase_entity=generic)))	0
+12776	Männer	0	0	0	NN	Mann	Case=Nom|Gender=Masc|Number=Plur	(mention_id=1993|references=(entity=(entity_id=generic_0181|fullname=generic_0060|gender=u|specialcase_entity=generic)))	(mention_id=1997|references=(entity=(entity_id=generic_0059|fullname=Mann im Allgemeinen|gender=u|specialcase_entity=generic)))	0
 12777	gethan	0	0	0	VVPP	gethan	Aspect=Perf|VerbForm=Part			0
 12778	?	0	0	0	$.	?	PunctType=Peri			0
 12779	–	1	0	0	$(	-	PunctType=Brck			0
@@ -12849,7 +12849,7 @@ i	token	is_sent_start	is_para_start	is_section_start	tag	lemma	morph	gold	pred	i
 12847	Leute	0	0	0	NN	Leute	Case=Acc|Gender=*|Number=Plur	(mention_id=2011|references=(entity=(entity_id=entity_0055|fullname=Bedienstete des Ehemanns der Gräfin B.|gender=u|members=entity_0041,entity_0042|all_members_given=False|specialcase_entity=group)))	(mention_id=2015|references=(entity=(entity_id=figur_0051|fullname=Leute des Lords|gender=u|specialcase_entity=group)))	0
 12848	wie	0	0	0	KOKOM	wie	ConjType=Comp			0
 12849	ein	0	0	0	ART	ein	Case=Nom|Gender=Masc|Number=Sing|PronType=Art			0
-12850	Vater	0	0	0	NN	Vater	Case=Nom|Gender=Masc|Number=Sing	(mention_id=2012|references=(entity=(entity_id=entity_0043|fullname=Verstorbener Ehemann der Gräfin B.|gender=m)))	(mention_id=2016|references=(entity=(entity_id=generic_0013|fullname=ein Vater im Allgemeinen|gender=u|specialcase_entity=generic)))	0
+12850	Vater	0	0	0	NN	Vater	Case=Nom|Gender=Masc|Number=Sing	(mention_id=2012|references=(entity=(entity_id=entity_0043|fullname=Verstorbener Ehemann der Gräfin B.|gender=m)))	(mention_id=2016|references=(entity=(entity_id=generic_0031|fullname=Engel im Allgemeinen|gender=u|specialcase_entity=generic)))	0
 12851	,	0	0	0	$,	,	PunctType=Comm			0
 12852	und	0	0	0	KON	und	_			0
 12853	betete	0	0	0	VVFIN	beten	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin			0
@@ -13151,7 +13151,7 @@ i	token	is_sent_start	is_para_start	is_section_start	tag	lemma	morph	gold	pred	i
 13149	und	0	0	0	KON	und	_			0
 13150	auch	0	0	0	ADV	auch	_			0
 13151	ein	0	0	0	ART	ein	Case=Acc|Gender=Neut|Number=Sing|PronType=Art			0
-13152	Mädchen	0	0	0	NN	Mädchen	Case=Acc|Gender=Neut|Number=Sing	(mention_id=2065|references=(entity=(entity_id=entity_0041|fullname=Milly|gender=f)))	(mention_id=2069|references=(entity=(entity_id=generic_0014|fullname=ein Mädchen im Allgemeinen|gender=u|specialcase_entity=generic)))	0
+13152	Mädchen	0	0	0	NN	Mädchen	Case=Acc|Gender=Neut|Number=Sing	(mention_id=2065|references=(entity=(entity_id=entity_0041|fullname=Milly|gender=f)))	(mention_id=2069|references=(entity=(entity_id=generic_0035|fullname=Engel im Allgemeinen|gender=u|specialcase_entity=generic)))	0
 13153	unglücklich	0	0	0	ADJD	unglücklich	Degree=Pos|Variant=Short			0
 13154	machen	0	0	0	VVINF	machen	VerbForm=Inf			0
 13155	lassen	0	0	0	VVINF	lassen	VerbForm=Inf			0
@@ -14672,7 +14672,7 @@ i	token	is_sent_start	is_para_start	is_section_start	tag	lemma	morph	gold	pred	i
 14670	der	0	0	0	ART	der	Case=Dat|Gender=Fem|Number=Sing|PronType=Art			0
 14671	Angst	0	0	0	NN	Angst	Case=Dat|Gender=Fem|Number=Sing			0
 14672	eines	0	0	0	ART	ein	Case=Gen|Gender=Masc|Number=Sing|PronType=Art			0
-14673	Mörders	0	0	0	NN	Mörder	Case=Gen|Gender=Masc|Number=Sing	(mention_id=2301|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))	(mention_id=2305|references=(entity=(entity_id=generic_0015|fullname=ein Mörder im Allgemeinen|gender=u|specialcase_entity=generic)))	0
+14673	Mörders	0	0	0	NN	Mörder	Case=Gen|Gender=Masc|Number=Sing	(mention_id=2301|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))	(mention_id=2305|references=(entity=(entity_id=generic_0039|fullname=Weiber im Allgemeinen|gender=u|specialcase_entity=generic)))	0
 14674	.	0	0	0	$.	.	PunctType=Peri			0
 14675	Ich	1	0	0	PPER	ich	Case=Nom|Gender=*|Number=Sing|Person=1|PronType=Prs	(mention_id=2302|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))	(mention_id=2306|references=(entity=(entity_id=figur_0002|fullname=Gustav|gender=m)))	0
 14676	stand	0	0	0	VVFIN	stehen	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin			0
@@ -15127,7 +15127,7 @@ i	token	is_sent_start	is_para_start	is_section_start	tag	lemma	morph	gold	pred	i
 15125	dem	0	0	0	ART	der	Case=Dat|Gender=Neut|Number=Sing|PronType=Art			0
 15126	ganzen	0	0	0	ADJA	ganz	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing			0
 15127	weiblichen	0	0	0	ADJA	weiblich	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing			0
-15128	Geschlechte	0	0	0	NN	Geschlecht	Case=Dat|Gender=Neut|Number=Sing	(mention_id=2378|references=(entity=(entity_id=generic_0182|fullname=generic_0061|gender=u|specialcase_entity=generic)),(entity=(entity_id=entity_0040|fullname=Gräfin B.|gender=f)))	(mention_id=2383|references=(entity=(entity_id=generic_0016|fullname=weibliches Geschlecht im Allgemeinen|gender=u|specialcase_entity=generic)))	0
+15128	Geschlechte	0	0	0	NN	Geschlecht	Case=Dat|Gender=Neut|Number=Sing	(mention_id=2378|references=(entity=(entity_id=generic_0182|fullname=generic_0061|gender=u|specialcase_entity=generic)),(entity=(entity_id=entity_0040|fullname=Gräfin B.|gender=f)))	(mention_id=2383|references=(entity=(entity_id=generic_0046|fullname=Weiber im Allgemeinen|gender=u|specialcase_entity=generic)))	0
 15129	zu	0	0	0	PTKZU	zu	PartType=Inf			0
 15130	nehmen	0	0	0	VVINF	nehmen	VerbForm=Inf			0
 15131	.	0	0	0	$.	.	PunctType=Peri			0
@@ -15271,7 +15271,7 @@ i	token	is_sent_start	is_para_start	is_section_start	tag	lemma	morph	gold	pred	i
 15269	–	0	0	0	$(	-	PunctType=Brck			0
 15270	eher	0	0	0	ADV	eher	_			0
 15271	einen	0	0	0	ART	ein	Case=Acc|Gender=Masc|Number=Sing|PronType=Art			0
-15272	Mann	0	0	0	NN	Mann	Case=Acc|Gender=Masc|Number=Sing	(mention_id=2399|references=(entity=(entity_id=generic_0183|fullname=generic_0062|gender=u|specialcase_entity=generic)))	(mention_id=2404|references=(entity=(entity_id=generic_0001|fullname=ein Mann im Allgemeinen|gender=u|specialcase_entity=generic)))	0
+15272	Mann	0	0	0	NN	Mann	Case=Acc|Gender=Masc|Number=Sing	(mention_id=2399|references=(entity=(entity_id=generic_0183|fullname=generic_0062|gender=u|specialcase_entity=generic)))	(mention_id=2404|references=(entity=(entity_id=generic_0104|fullname=Männer im Allgemeinen|gender=u|specialcase_entity=generic)))	0
 15273	zu	0	0	0	APPR	zu	AdpType=Prep			0
 15274	ihren	0	0	0	PPOSAT	ihr	Case=Dat|Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	(mention_id=2400|references=(entity=(entity_id=entity_0008|fullname=Kammerjungfer|gender=f)))	(mention_id=2405|references=(entity=(entity_id=figur_0055|fullname=Röschen|gender=f)))	0
 15275	Füssen	0	0	0	NN	Fuß	Case=Dat|Gender=Masc|Number=Plur			0
@@ -15283,7 +15283,7 @@ i	token	is_sent_start	is_para_start	is_section_start	tag	lemma	morph	gold	pred	i
 15281	mitleidigen	0	0	0	ADJA	mitleidig	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing			0
 15282	Blick	0	0	0	NN	Blick	Case=Acc|Gender=Masc|Number=Sing			0
 15283	auf	0	0	0	APPR	auf	AdpType=Prep			0
-15284	ihn	0	0	0	PPER	ihn	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	(mention_id=2401|references=(entity=(entity_id=generic_0184|fullname=generic_0063|gender=u|specialcase_entity=generic)))	(mention_id=2406|references=(entity=(entity_id=generic_0002|fullname=ein Mann im Allgemeinen|gender=u|specialcase_entity=generic)))	0
+15284	ihn	0	0	0	PPER	ihn	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	(mention_id=2401|references=(entity=(entity_id=generic_0184|fullname=generic_0063|gender=u|specialcase_entity=generic)))	(mention_id=2406|references=(entity=(entity_id=generic_0109|fullname=Männer im Allgemeinen|gender=u|specialcase_entity=generic)))	0
 15285	werfen	0	0	0	VVINF	werfen	VerbForm=Inf			0
 15286	.	0	0	0	$.	.	PunctType=Peri			0
 15287	»	1	0	0	$(	»	PunctType=Brck			0
@@ -15403,12 +15403,12 @@ i	token	is_sent_start	is_para_start	is_section_start	tag	lemma	morph	gold	pred	i
 15401	ja	0	0	0	ADV	ja	_			0
 15402	der	0	0	0	ART	der	Case=Gen|Gender=Neut|Number=Plur|PronType=Art			0
 15403	hübschen	0	0	0	ADJA	hübsch	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur			0
-15404	Mädchen	0	0	0	NN	Mädchen	Case=Gen|Gender=Neut|Number=Plur	(mention_id=2420|references=(entity=(entity_id=generic_0186|fullname=generic_0065|gender=u|specialcase_entity=generic)))	(mention_id=2425|references=(entity=(entity_id=generic_0006|fullname=Mädchen im Allgemeinen|gender=u|specialcase_entity=generic)))	0
+15404	Mädchen	0	0	0	NN	Mädchen	Case=Gen|Gender=Neut|Number=Plur	(mention_id=2420|references=(entity=(entity_id=generic_0186|fullname=generic_0065|gender=u|specialcase_entity=generic)))	(mention_id=2425|references=(entity=(entity_id=generic_0015|fullname=der Andere|gender=u|specialcase_entity=generic)))	0
 15405	mehr	0	0	0	ADV	mehr	_			0
 15406	;	0	0	0	$.	;	PunctType=Peri			0
 15407	und	0	0	0	KON	und	_			0
 15408	ein	0	0	0	ART	ein	Case=Nom|Gender=Masc|Number=Sing|PronType=Art			0
-15409	Bursche	0	0	0	NN	Bursche	Case=Nom|Gender=Masc|Number=Sing	(mention_id=2421|references=(entity=(entity_id=entity_0059|fullname=Friedrich|gender=m)))	(mention_id=2426|references=(entity=(entity_id=generic_0007|fullname=ein Bursche im Allgemeinen|gender=u|specialcase_entity=generic)))	0
+15409	Bursche	0	0	0	NN	Bursche	Case=Nom|Gender=Masc|Number=Sing	(mention_id=2421|references=(entity=(entity_id=entity_0059|fullname=Friedrich|gender=m)))	(mention_id=2426|references=(entity=(entity_id=generic_0021|fullname=Mann im Allgemeinen|gender=u|specialcase_entity=generic)))	0
 15410	wie	0	0	0	KOKOM	wie	ConjType=Comp			0
 15411	du	0	0	0	PPER	du	Case=Nom|Gender=*|Number=Sing|Person=2|PronType=Prs	(mention_id=2422|references=(entity=(entity_id=entity_0059|fullname=Friedrich|gender=m)))	(mention_id=2427|references=(entity=(entity_id=figur_0057|fullname=Friedrich|gender=m)))	0
 15412	,	0	0	0	$,	,	PunctType=Comm			0
@@ -15416,7 +15416,7 @@ i	token	is_sent_start	is_para_start	is_section_start	tag	lemma	morph	gold	pred	i
 15414	allenthalben	0	0	0	ADV	allenthalben	_			0
 15415	noch	0	0	0	ADV	noch	_			0
 15416	eine	0	0	0	ART	ein	Case=Acc|Gender=Fem|Number=Sing|PronType=Art			0
-15417	Frau	0	0	0	NN	Frau	Case=Acc|Gender=Fem|Number=Sing	(mention_id=2423|references=(entity=(entity_id=entity_0082|fullname=Frau für Friedrich|gender=f|specialcase_entity=nonfact)))	(mention_id=2428|references=(entity=(entity_id=generic_0008|fullname=eine Frau im Allgemeinen|gender=u|specialcase_entity=generic)))	0
+15417	Frau	0	0	0	NN	Frau	Case=Acc|Gender=Fem|Number=Sing	(mention_id=2423|references=(entity=(entity_id=entity_0082|fullname=Frau für Friedrich|gender=f|specialcase_entity=nonfact)))	(mention_id=2428|references=(entity=(entity_id=generic_0027|fullname=Mann im Allgemeinen|gender=u|specialcase_entity=generic)))	0
 15418	.	0	0	0	$.	.	PunctType=Peri			0
 15419	«	0	0	0	$.	«	PunctType=Peri			0
 15420	»	1	0	0	$(	»	PunctType=Brck			0
@@ -15439,7 +15439,7 @@ i	token	is_sent_start	is_para_start	is_section_start	tag	lemma	morph	gold	pred	i
 15437	wenn	0	0	0	KOUS	wenn	_			0
 15438	man	0	0	0	PIS	man	Case=Nom|Gender=*|Number=Sing|PronType=Ind,Neg,Tot	(mention_id=2426|references=(entity=(entity_id=entity_0059|fullname=Friedrich|gender=m)))		0
 15439	einmal	0	0	0	ADV	einmal	_			0
-15440	seinen	0	0	0	PPOSAT	sein	Case=Acc|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs		(mention_id=2431|references=(entity=(entity_id=generic_0003|fullname=ein Mann im Allgemeinen|gender=u|specialcase_entity=generic)))	0
+15440	seinen	0	0	0	PPOSAT	sein	Case=Acc|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs		(mention_id=2431|references=(entity=(entity_id=generic_0004|fullname=Frauenzimmer im Allgemeinen|gender=u|specialcase_entity=generic)))	0
 15441	Kopf	0	0	0	NN	Kopf	Case=Acc|Gender=Masc|Number=Sing			0
 15442	darauf	0	0	0	PROAV	darauf	PronType=Dem			0
 15443	gesetzt	0	0	0	VVPP	setzen	Aspect=Perf|VerbForm=Part			0
@@ -15462,7 +15462,7 @@ i	token	is_sent_start	is_para_start	is_section_start	tag	lemma	morph	gold	pred	i
 15460	dachte	0	0	0	VVFIN	denken	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin			0
 15461	ich	0	0	0	PPER	ich	Case=Nom|Gender=*|Number=Sing|Person=1|PronType=Prs	(mention_id=2429|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))	(mention_id=2433|references=(entity=(entity_id=figur_0002|fullname=Gustav|gender=m)))	0
 15462	–	0	0	0	$(	–	AdpType=Prep|PunctType=Brck			0
-15463	seinen	0	0	0	PPOSAT	sein	Case=Acc|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	(mention_id=2430|references=(entity=(entity_id=entity_0059|fullname=Friedrich|gender=m)))	(mention_id=2434|references=(entity=(entity_id=generic_0004|fullname=ein Mann im Allgemeinen|gender=u|specialcase_entity=generic)))	0
+15463	seinen	0	0	0	PPOSAT	sein	Case=Acc|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	(mention_id=2430|references=(entity=(entity_id=entity_0059|fullname=Friedrich|gender=m)))	(mention_id=2434|references=(entity=(entity_id=generic_0051|fullname=Frauenzimmer im Allgemeinen|gender=u|specialcase_entity=generic)))	0
 15464	Kopf	0	0	0	NN	Kopf	Case=Acc|Gender=Masc|Number=Sing			0
 15465	muß	0	0	0	VMFIN	müssen	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|VerbType=Mod			0
 15466	man	0	0	0	PIS	man	Case=Nom|Gender=*|Number=Sing|PronType=Ind,Neg,Tot	(mention_id=2431|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))		0
@@ -15549,7 +15549,7 @@ i	token	is_sent_start	is_para_start	is_section_start	tag	lemma	morph	gold	pred	i
 15547	!	0	0	0	$.	!	PunctType=Peri			0
 15548	bringst	0	0	0	VVFIN	bringst	Mood=Ind|VerbForm=Fin			0
 15549	alle	0	0	0	PIAT	aller	Case=Acc|Gender=Masc|Number=Plur|PronType=Ind,Neg,Tot			0
-15550	Männer	0	0	0	NN	Mann	Case=Acc|Gender=Masc|Number=Plur	(mention_id=2446|references=(entity=(entity_id=entity_0063|fullname=Bedienstete|gender=u|members=entity_0059|all_members_given=False|specialcase_entity=group)),(entity=(entity_id=generic_0187|fullname=generic_0066|gender=u|specialcase_entity=generic)))	(mention_id=2447|references=(entity=(entity_id=generic_0009|fullname=Männer im Allgemeinen|gender=u|specialcase_entity=generic)))	0
+15550	Männer	0	0	0	NN	Mann	Case=Acc|Gender=Masc|Number=Plur	(mention_id=2446|references=(entity=(entity_id=entity_0063|fullname=Bedienstete|gender=u|members=entity_0059|all_members_given=False|specialcase_entity=group)),(entity=(entity_id=generic_0187|fullname=generic_0066|gender=u|specialcase_entity=generic)))	(mention_id=2447|references=(entity=(entity_id=generic_0060|fullname=Mann im Allgemeinen|gender=u|specialcase_entity=generic)))	0
 15551	zur	0	0	0	APPRART	zu	AdpType=Prep|Case=Dat|Gender=Fem|Number=Sing|PronType=Art			0
 15552	Verzweiflung	0	0	0	NN	Verzweiflung	Case=Dat|Gender=Fem|Number=Sing			0
 15553	.	0	0	0	$.	.	PunctType=Peri			0
@@ -16915,7 +16915,7 @@ i	token	is_sent_start	is_para_start	is_section_start	tag	lemma	morph	gold	pred	i
 16913	sie	0	0	0	PPER	sie	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs			0
 16914	sind	0	0	0	VAFIN	sein	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin			0
 16915	in	0	0	0	APPR	in	AdpType=Prep			0
-16916	unserm	0	0	0	PPOSAT	unser	Case=Dat|Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	(mention_id=2665|references=(entity=(entity_id=generic_0188|fullname=generic_0067|gender=u|specialcase_entity=generic)),(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))	(mention_id=2668|references=(entity=(entity_id=generic_0010|fullname=die Menschen im Allgemeinen|gender=u|specialcase_entity=generic)))	0
+16916	unserm	0	0	0	PPOSAT	unser	Case=Dat|Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	(mention_id=2665|references=(entity=(entity_id=generic_0188|fullname=generic_0067|gender=u|specialcase_entity=generic)),(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))	(mention_id=2668|references=(entity=(entity_id=generic_0065|fullname=Mann im Allgemeinen|gender=u|specialcase_entity=generic)))	0
 16917	eigenem	0	0	0	ADJA	eigen	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing			0
 16918	Herzen	0	0	0	NN	Herz	Case=Dat|Gender=Neut|Number=Sing			0
 16919	!	0	0	0	$.	!	PunctType=Peri			0
@@ -17588,7 +17588,7 @@ i	token	is_sent_start	is_para_start	is_section_start	tag	lemma	morph	gold	pred	i
 17586	was	0	0	0	PRELS	wer	Case=Nom|Gender=Neut|Number=Sing|PronType=Rel			0
 17587	einem	0	0	0	ART	ein	Case=Dat|Gender=Masc|Number=Sing|PronType=Art			0
 17588	deutschen	0	0	0	ADJA	deutsch	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing			0
-17589	Manne	0	0	0	NN	Mann	Case=Dat|Gender=Masc|Number=Sing	(mention_id=2774|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))	(mention_id=2777|references=(entity=(entity_id=generic_0013|fullname=ein deutscher Mann im Allgemeinen|gender=u|specialcase_entity=generic)))	0
+17589	Manne	0	0	0	NN	Mann	Case=Dat|Gender=Masc|Number=Sing	(mention_id=2774|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))	(mention_id=2777|references=(entity=(entity_id=generic_0032|fullname=Engel im Allgemeinen|gender=u|specialcase_entity=generic)))	0
 17590	ähnlich	0	0	0	ADJD	ähnlich	Degree=Pos|Variant=Short			0
 17591	sieht	0	0	0	VVFIN	sehen	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin			0
 17592	,	0	0	0	$,	,	PunctType=Comm			0
@@ -17667,7 +17667,7 @@ i	token	is_sent_start	is_para_start	is_section_start	tag	lemma	morph	gold	pred	i
 17665	am	0	0	0	PTKA	am	_			0
 17666	meisten	0	0	0	PIS	meister	Case=Dat|Gender=Neut|Number=Sing|PronType=Ind,Neg,Tot			0
 17667	auf	0	0	0	APPR	auf	AdpType=Prep			0
-17668	seiner	0	0	0	PPOSAT	sein	Case=Dat|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs		(mention_id=2788|references=(entity=(entity_id=generic_0005|fullname=ein Mann im Allgemeinen|gender=u|specialcase_entity=generic)))	0
+17668	seiner	0	0	0	PPOSAT	sein	Case=Dat|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs		(mention_id=2788|references=(entity=(entity_id=generic_0009|fullname=jeder der von ihr spricht|gender=u|specialcase_entity=generic)))	0
 17669	Huth	0	0	0	NE	Huth	Case=Dat|Gender=Fem|Number=Sing			0
 17670	zu	0	0	0	PTKZU	zu	PartType=Inf			0
 17671	seyn	0	0	0	ADJA	seyn	VerbForm=Inf			0
@@ -17675,8 +17675,8 @@ i	token	is_sent_start	is_para_start	is_section_start	tag	lemma	morph	gold	pred	i
 17673	.	0	0	0	$.	.	PunctType=Peri			0
 17674	Bald	1	0	0	ADV	bald	_			0
 17675	sah	0	0	0	VVFIN	sehen	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin			0
-17676	man	0	0	0	PIS	man	Case=Nom|Gender=*|Number=Sing|PronType=Ind,Neg,Tot	(mention_id=2786|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))	(mention_id=2789|references=(entity=(entity_id=generic_0011|fullname=die Menschen im Allgemeinen|gender=u|specialcase_entity=generic)))	0
-17677	sich	0	0	0	PRF	sich	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	(mention_id=2787|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))	(mention_id=2790|references=(entity=(entity_id=generic_0012|fullname=die Menschen im Allgemeinen|gender=u|specialcase_entity=generic)))	0
+17676	man	0	0	0	PIS	man	Case=Nom|Gender=*|Number=Sing|PronType=Ind,Neg,Tot	(mention_id=2786|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))	(mention_id=2789|references=(entity=(entity_id=generic_0081|fullname=Mann im Allgemeinen|gender=u|specialcase_entity=generic)))	0
+17677	sich	0	0	0	PRF	sich	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	(mention_id=2787|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))	(mention_id=2790|references=(entity=(entity_id=generic_0085|fullname=Mann im Allgemeinen|gender=u|specialcase_entity=generic)))	0
 17678	gefesselt	0	0	0	VVPP	gefesselt	Aspect=Perf|Degree=Pos|Variant=Short|VerbForm=Part			0
 17679	,	0	0	0	$,	,	PunctType=Comm			0
 17680	und	0	0	0	KON	und	_			0
@@ -17762,17 +17762,17 @@ i	token	is_sent_start	is_para_start	is_section_start	tag	lemma	morph	gold	pred	i
 17760	lassen	0	0	0	VVINF	lassen	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin			0
 17761	.	0	0	0	$.	.	PunctType=Peri			0
 17762	Die	1	0	0	ART	der	Case=Nom|Gender=Fem|Number=Sing|PronType=Art			0
-17763	Deutsche	0	0	0	NN	deutsche	Case=Nom|Gender=Fem|Number=Sing	(mention_id=2797|references=(entity=(entity_id=generic_0196|fullname=generic_0075|gender=u|specialcase_entity=generic)))	(mention_id=2799|references=(entity=(entity_id=generic_0014|fullname=eine deutsche Frau im Allgemeinen|gender=u|specialcase_entity=generic)))	0
+17763	Deutsche	0	0	0	NN	deutsche	Case=Nom|Gender=Fem|Number=Sing	(mention_id=2797|references=(entity=(entity_id=generic_0196|fullname=generic_0075|gender=u|specialcase_entity=generic)))	(mention_id=2799|references=(entity=(entity_id=generic_0036|fullname=Engel im Allgemeinen|gender=u|specialcase_entity=generic)))	0
 17764	ist	0	0	0	VAFIN	sein	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin			0
 17765	glücklich	0	0	0	ADJD	glücklich	Degree=Pos|Variant=Short			0
 17766	,	0	0	0	$,	,	PunctType=Comm			0
 17767	wenn	0	0	0	KOUS	wenn	_			0
-17768	sie	0	0	0	PPER	sie	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	(mention_id=2798|references=(entity=(entity_id=generic_0197|fullname=generic_0076|gender=u|specialcase_entity=generic)))	(mention_id=2800|references=(entity=(entity_id=generic_0015|fullname=eine deutsche Frau im Allgemeinen|gender=u|specialcase_entity=generic)))	0
+17768	sie	0	0	0	PPER	sie	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	(mention_id=2798|references=(entity=(entity_id=generic_0197|fullname=generic_0076|gender=u|specialcase_entity=generic)))	(mention_id=2800|references=(entity=(entity_id=generic_0040|fullname=Weiber im Allgemeinen|gender=u|specialcase_entity=generic)))	0
 17769	umarmt	0	0	0	VVPP	umarmen	Aspect=Perf|VerbForm=Part			0
 17770	wird	0	0	0	VAFIN	werden	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin			0
 17771	–	0	0	0	$(	–	AdpType=Prep|PunctType=Brck			0
 17772	die	0	0	0	ART	der	Case=Nom|Gender=Fem|Number=Sing|PronType=Art			0
-17773	Italiänerin	0	0	0	NN	Italiänerin	Case=Nom|Gender=Fem|Number=Sing	(mention_id=2799|references=(entity=(entity_id=generic_0198|fullname=generic_0077|gender=u|specialcase_entity=generic)),(entity=(entity_id=entity_0058|fullname=Marquise P.|gender=f)))	(mention_id=2801|references=(entity=(entity_id=generic_0016|fullname=eine Italienerin im Allgemeinen|gender=u|specialcase_entity=generic)))	0
+17773	Italiänerin	0	0	0	NN	Italiänerin	Case=Nom|Gender=Fem|Number=Sing	(mention_id=2799|references=(entity=(entity_id=generic_0198|fullname=generic_0077|gender=u|specialcase_entity=generic)),(entity=(entity_id=entity_0058|fullname=Marquise P.|gender=f)))	(mention_id=2801|references=(entity=(entity_id=generic_0047|fullname=Weiber im Allgemeinen|gender=u|specialcase_entity=generic)))	0
 17774	will	0	0	0	VMFIN	wollen	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Mod			0
 17775	selbst	0	0	0	ADV	selbst	_			0
 17776	umarmen	0	0	0	VVINF	umarmen	VerbForm=Inf			0
@@ -17997,10 +17997,10 @@ i	token	is_sent_start	is_para_start	is_section_start	tag	lemma	morph	gold	pred	i
 17995	–	1	0	0	$(	–	PunctType=Brck			0
 17996	Liebe	0	0	0	VVFIN	Liebe	Case=Nom|Gender=Fem|Mood=Ind|Number=Sing|VerbForm=Fin			0
 17997	die	0	0	0	ART	der	Case=Nom|Gender=Fem|Number=Sing|PronType=Art			0
-17998	Person	0	0	0	NN	Person	Case=Nom|Gender=Fem|Number=Sing	(mention_id=2827|references=(entity=(entity_id=entity_0081|fullname=von Heinrich geliebte Person|gender=f|specialcase_entity=nonfact)))	(mention_id=2830|references=(entity=(entity_id=generic_0017|fullname=eine Person im Allgemeinen|gender=u|specialcase_entity=generic)))	0
+17998	Person	0	0	0	NN	Person	Case=Nom|Gender=Fem|Number=Sing	(mention_id=2827|references=(entity=(entity_id=entity_0081|fullname=von Heinrich geliebte Person|gender=f|specialcase_entity=nonfact)))	(mention_id=2830|references=(entity=(entity_id=generic_0068|fullname=Weiber im Allgemeinen|gender=u|specialcase_entity=generic)))	0
 17999	,	0	0	0	$,	,	PunctType=Comm			0
 18000	mit	0	0	0	APPR	mit	AdpType=Prep			0
-18001	der	0	0	0	PRELS	der	Case=Dat|Gender=Fem|Number=Sing|PronType=Rel	(mention_id=2828|references=(entity=(entity_id=entity_0081|fullname=von Heinrich geliebte Person|gender=f|specialcase_entity=nonfact)))	(mention_id=2831|references=(entity=(entity_id=generic_0018|fullname=eine Person im Allgemeinen|gender=u|specialcase_entity=generic)))	0
+18001	der	0	0	0	PRELS	der	Case=Dat|Gender=Fem|Number=Sing|PronType=Rel	(mention_id=2828|references=(entity=(entity_id=entity_0081|fullname=von Heinrich geliebte Person|gender=f|specialcase_entity=nonfact)))	(mention_id=2831|references=(entity=(entity_id=generic_0071|fullname=Weiber im Allgemeinen|gender=u|specialcase_entity=generic)))	0
 18002	du	0	0	0	PPER	du	Case=Nom|Gender=*|Number=Sing|Person=2|PronType=Prs	(mention_id=2829|references=(entity=(entity_id=entity_0004|fullname=Heinrich|gender=m)))	(mention_id=2832|references=(entity=(entity_id=figur_0016|fullname=Heinrich|gender=m)))	0
 18003	dich	0	0	0	PPER	sich	Case=Acc|Number=Sing|Person=2|PronType=Prs|Reflex=Yes	(mention_id=2830|references=(entity=(entity_id=entity_0004|fullname=Heinrich|gender=m)))	(mention_id=2833|references=(entity=(entity_id=figur_0016|fullname=Heinrich|gender=m)))	0
 18004	sinnlich	0	0	0	ADJD	sinnlich	Degree=Pos|Variant=Short			0
@@ -18030,12 +18030,12 @@ i	token	is_sent_start	is_para_start	is_section_start	tag	lemma	morph	gold	pred	i
 18028	Wie	0	0	0	PWAV	wie	PronType=Int			0
 18029	kann	0	0	0	VMFIN	können	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|VerbType=Mod			0
 18030	ich	0	0	0	PPER	ich	Case=Nom|Gender=*|Number=Sing|Person=1|PronType=Prs	(mention_id=2833|references=(entity=(entity_id=entity_0004|fullname=Heinrich|gender=m)))	(mention_id=2836|references=(entity=(entity_id=figur_0016|fullname=Heinrich|gender=m)))	0
-18031	sie	0	0	0	PPER	sie	Case=Acc|Gender=*|Number=Plur|Person=3|PronType=Prs	(mention_id=2834|references=(entity=(entity_id=entity_0081|fullname=von Heinrich geliebte Person|gender=f|specialcase_entity=nonfact)))	(mention_id=2837|references=(entity=(entity_id=generic_0019|fullname=eine Person im Allgemeinen|gender=u|specialcase_entity=generic)))	0
+18031	sie	0	0	0	PPER	sie	Case=Acc|Gender=*|Number=Plur|Person=3|PronType=Prs	(mention_id=2834|references=(entity=(entity_id=entity_0081|fullname=von Heinrich geliebte Person|gender=f|specialcase_entity=nonfact)))	(mention_id=2837|references=(entity=(entity_id=generic_0074|fullname=Weiber im Allgemeinen|gender=u|specialcase_entity=generic)))	0
 18032	lieben	0	0	0	VVINF	lieben	VerbForm=Inf			0
 18033	,	0	0	0	$,	,	PunctType=Comm			0
 18034	wenn	0	0	0	KOUS	wenn	_			0
 18035	ich	0	0	0	PPER	ich	Case=Nom|Gender=*|Number=Sing|Person=1|PronType=Prs	(mention_id=2835|references=(entity=(entity_id=entity_0004|fullname=Heinrich|gender=m)))	(mention_id=2838|references=(entity=(entity_id=figur_0016|fullname=Heinrich|gender=m)))	0
-18036	sie	0	0	0	PPER	sein	Mood=Ind|Number=Sing|Person=1|PronType=Prs|Tense=Pres|VerbForm=Fin	(mention_id=2836|references=(entity=(entity_id=entity_0081|fullname=von Heinrich geliebte Person|gender=f|specialcase_entity=nonfact)))	(mention_id=2839|references=(entity=(entity_id=generic_0020|fullname=eine Person im Allgemeinen|gender=u|specialcase_entity=generic)))	0
+18036	sie	0	0	0	PPER	sein	Mood=Ind|Number=Sing|Person=1|PronType=Prs|Tense=Pres|VerbForm=Fin	(mention_id=2836|references=(entity=(entity_id=entity_0081|fullname=von Heinrich geliebte Person|gender=f|specialcase_entity=nonfact)))	(mention_id=2839|references=(entity=(entity_id=generic_0077|fullname=Weiber im Allgemeinen|gender=u|specialcase_entity=generic)))	0
 18037	nicht	0	0	0	PTKNEG	nicht	Polarity=Neg			0
 18038	achte	0	0	0	VVFIN	achten	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin			0
 18039	!	0	0	0	$.	!	PunctType=Peri			0
@@ -18043,12 +18043,12 @@ i	token	is_sent_start	is_para_start	is_section_start	tag	lemma	morph	gold	pred	i
 18041	Wie	0	0	0	PWAV	wie	PronType=Int			0
 18042	kann	0	0	0	VMFIN	können	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|VerbType=Mod			0
 18043	ich	0	0	0	PPER	ich	Case=Nom|Gender=*|Number=Sing|Person=1|PronType=Prs	(mention_id=2837|references=(entity=(entity_id=entity_0004|fullname=Heinrich|gender=m)))	(mention_id=2840|references=(entity=(entity_id=figur_0016|fullname=Heinrich|gender=m)))	0
-18044	sie	0	0	0	PPER	sie	Case=Acc|Gender=*|Number=*|Person=3|PronType=Prs	(mention_id=2838|references=(entity=(entity_id=entity_0081|fullname=von Heinrich geliebte Person|gender=f|specialcase_entity=nonfact)))	(mention_id=2841|references=(entity=(entity_id=generic_0021|fullname=eine Person im Allgemeinen|gender=u|specialcase_entity=generic)))	0
+18044	sie	0	0	0	PPER	sie	Case=Acc|Gender=*|Number=*|Person=3|PronType=Prs	(mention_id=2838|references=(entity=(entity_id=entity_0081|fullname=von Heinrich geliebte Person|gender=f|specialcase_entity=nonfact)))	(mention_id=2841|references=(entity=(entity_id=generic_0088|fullname=Weiber im Allgemeinen|gender=u|specialcase_entity=generic)))	0
 18045	achten	0	0	0	VVINF	achten	VerbForm=Inf			0
 18046	und	0	0	0	KON	und	_			0
 18047	lieben	0	0	0	VVINF	lieben	VerbForm=Inf			0
 18048	und	0	0	0	KON	und	_			0
-18049	sie	0	0	0	PPER	sie	Case=Acc|Gender=*|Number=*|Person=3|PronType=Prs	(mention_id=2839|references=(entity=(entity_id=entity_0081|fullname=von Heinrich geliebte Person|gender=f|specialcase_entity=nonfact)))	(mention_id=2842|references=(entity=(entity_id=generic_0022|fullname=eine Person im Allgemeinen|gender=u|specialcase_entity=generic)))	0
+18049	sie	0	0	0	PPER	sie	Case=Acc|Gender=*|Number=*|Person=3|PronType=Prs	(mention_id=2839|references=(entity=(entity_id=entity_0081|fullname=von Heinrich geliebte Person|gender=f|specialcase_entity=nonfact)))	(mention_id=2842|references=(entity=(entity_id=generic_0091|fullname=Weiber im Allgemeinen|gender=u|specialcase_entity=generic)))	0
 18050	unglücklich	0	0	0	ADJD	unglücklich	Degree=Pos|Variant=Short			0
 18051	machen	0	0	0	VVINF	machen	VerbForm=Inf			0
 18052	wollen	0	0	0	VMFIN	wollen	Mood=Ind|VerbForm=Inf|VerbType=Mod			0
@@ -18057,7 +18057,7 @@ i	token	is_sent_start	is_para_start	is_section_start	tag	lemma	morph	gold	pred	i
 18055	Ich	0	0	0	PPER	ich	Case=Nom|Gender=*|Number=Sing|Person=1|PronType=Prs	(mention_id=2840|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))	(mention_id=2843|references=(entity=(entity_id=figur_0002|fullname=Gustav|gender=m)))	0
 18056	.	0	0	0	$.	.	PunctType=Peri			0
 18057	Mache	1	0	0	VVFIN	machen	Mood=Subj|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin			0
-18058	sie	0	0	0	PPER	sie	Case=Acc|Gender=*|Number=*|Person=3|PronType=Prs	(mention_id=2841|references=(entity=(entity_id=entity_0081|fullname=von Heinrich geliebte Person|gender=f|specialcase_entity=nonfact)))	(mention_id=2844|references=(entity=(entity_id=generic_0023|fullname=eine Person im Allgemeinen|gender=u|specialcase_entity=generic)))	0
+18058	sie	0	0	0	PPER	sie	Case=Acc|Gender=*|Number=*|Person=3|PronType=Prs	(mention_id=2841|references=(entity=(entity_id=entity_0081|fullname=von Heinrich geliebte Person|gender=f|specialcase_entity=nonfact)))	(mention_id=2844|references=(entity=(entity_id=generic_0043|fullname=Männer im Allgemeinen|gender=u|specialcase_entity=generic)))	0
 18059	glücklich	0	0	0	ADJD	glücklich	Degree=Pos|Variant=Short			0
 18060	!	0	0	0	$.	!	PunctType=Peri			0
 18061	das	0	0	0	PDS	der	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem			0
@@ -18133,7 +18133,7 @@ i	token	is_sent_start	is_para_start	is_section_start	tag	lemma	morph	gold	pred	i
 18131	,	0	0	0	$,	,	PunctType=Comm			0
 18132	was	0	0	0	PRELS	wer	Case=Nom|Gender=Neut|Number=Sing|PronType=Rel			0
 18133	den	0	0	0	ART	der	Case=Acc|Gender=Masc|Number=Sing|PronType=Art			0
-18134	Menschen	0	0	0	NN	Mensch	Case=Acc|Gender=Masc|Number=Sing	(mention_id=2852|references=(entity=(entity_id=generic_0199|fullname=generic_0078|gender=u|specialcase_entity=generic)))	(mention_id=2856|references=(entity=(entity_id=generic_0024|fullname=der Mensch im Allgemeinen|gender=u|specialcase_entity=generic)))	0
+18134	Menschen	0	0	0	NN	Mensch	Case=Acc|Gender=Masc|Number=Sing	(mention_id=2852|references=(entity=(entity_id=generic_0199|fullname=generic_0078|gender=u|specialcase_entity=generic)))	(mention_id=2856|references=(entity=(entity_id=generic_0094|fullname=Männer im Allgemeinen|gender=u|specialcase_entity=generic)))	0
 18135	veredelt	0	0	0	VVPP	veredeln	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin			0
 18136	,	0	0	0	$,	,	PunctType=Comm			0
 18137	ist	0	0	0	VAFIN	sein	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin			0
@@ -18585,7 +18585,7 @@ i	token	is_sent_start	is_para_start	is_section_start	tag	lemma	morph	gold	pred	i
 18583	mehr	0	0	0	PIS	mehr	Case=*|Gender=*|Number=*|PronType=Ind,Neg,Tot			0
 18584	als	0	0	0	KOKOM	als	ConjType=Comp			0
 18585	ein	0	0	0	ART	ein	Case=Nom|Gender=Masc|Number=Sing|PronType=Art			0
-18586	Mensch	0	0	0	NN	Mensch	Case=Nom|Gender=Masc|Number=Sing	(mention_id=2929|references=(entity=(entity_id=entity_0004|fullname=Heinrich|gender=m)))	(mention_id=2935|references=(entity=(entity_id=generic_0025|fullname=der Mensch im Allgemeinen|gender=u|specialcase_entity=generic)))	0
+18586	Mensch	0	0	0	NN	Mensch	Case=Nom|Gender=Masc|Number=Sing	(mention_id=2929|references=(entity=(entity_id=entity_0004|fullname=Heinrich|gender=m)))	(mention_id=2935|references=(entity=(entity_id=generic_0097|fullname=Männer im Allgemeinen|gender=u|specialcase_entity=generic)))	0
 18587	!	0	0	0	$.	!	PunctType=Peri			0
 18588	er	0	0	0	PPER	er	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	(mention_id=2930|references=(entity=(entity_id=entity_0004|fullname=Heinrich|gender=m)))	(mention_id=2936|references=(entity=(entity_id=figur_0016|fullname=Heinrich|gender=m)))	0
 18589	hat	0	0	0	VAFIN	haben	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin			0
@@ -18598,7 +18598,7 @@ i	token	is_sent_start	is_para_start	is_section_start	tag	lemma	morph	gold	pred	i
 18596	er	0	0	0	PPER	er	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	(mention_id=2932|references=(entity=(entity_id=entity_0004|fullname=Heinrich|gender=m)))	(mention_id=2938|references=(entity=(entity_id=figur_0016|fullname=Heinrich|gender=m)))	0
 18597	wie	0	0	0	KOKOM	wie	ConjType=Comp			0
 18598	ein	0	0	0	ART	ein	Case=Acc|Gender=Neut|Number=Sing|PronType=Art			0
-18599	Kind	0	0	0	NN	Kind	Case=Acc|Gender=Neut|Number=Sing	(mention_id=2933|references=(entity=(entity_id=entity_0061|fullname=Greis|gender=m)|specialcase_reference=figurative))	(mention_id=2939|references=(entity=(entity_id=generic_0027|fullname=ein Kind im Allgemeinen|gender=u|specialcase_entity=generic)))	0
+18599	Kind	0	0	0	NN	Kind	Case=Acc|Gender=Neut|Number=Sing	(mention_id=2933|references=(entity=(entity_id=entity_0061|fullname=Greis|gender=m)|specialcase_reference=figurative))	(mention_id=2939|references=(entity=(entity_id=generic_0100|fullname=Kind im Allgemeinen|gender=u|specialcase_entity=generic)))	0
 18600	wohin	0	0	0	PWAV	wohin	PronType=Int			0
 18601	er	0	0	0	PPER	er	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	(mention_id=2934|references=(entity=(entity_id=entity_0004|fullname=Heinrich|gender=m)))	(mention_id=2940|references=(entity=(entity_id=figur_0016|fullname=Heinrich|gender=m)))	0
 18602	will	0	0	0	VMFIN	wollen	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Mod			0
@@ -18674,7 +18674,7 @@ i	token	is_sent_start	is_para_start	is_section_start	tag	lemma	morph	gold	pred	i
 18672	es	0	0	0	PPER	es	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs			0
 18673	doch	0	0	0	ADV	doch	_			0
 18674	einen	0	0	0	ART	ein	Case=Acc|Gender=Masc|Number=Sing|PronType=Art			0
-18675	Menschen	0	0	0	NN	Mensch	Case=Acc|Gender=Masc|Number=Sing	(mention_id=2950|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))	(mention_id=2955|references=(entity=(entity_id=generic_0026|fullname=der Mensch im Allgemeinen|gender=u|specialcase_entity=generic)))	0
+18675	Menschen	0	0	0	NN	Mensch	Case=Acc|Gender=Masc|Number=Sing	(mention_id=2950|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)))	(mention_id=2955|references=(entity=(entity_id=generic_0056|fullname=Alle im Allgemeinen|gender=u|specialcase_entity=generic)))	0
 18676	habe	0	0	0	VAFIN	haben	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin			0
 18677	erzählen	0	0	0	VVINF	erzählen	VerbForm=Inf			0
 18678	könne	0	0	0	VMFIN	können	Mood=Subj|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Mod			0
@@ -20072,7 +20072,7 @@ i	token	is_sent_start	is_para_start	is_section_start	tag	lemma	morph	gold	pred	i
 20070	glaubt	0	0	0	VVFIN	glauben	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin			0
 20071	der	0	0	0	ART	der	Case=Nom|Gender=Masc|Number=Sing|PronType=Art			0
 20072	prüfende	0	0	0	ADJA	prüfend	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing			0
-20073	Mensch	0	0	0	NN	Mensch	Case=Nom|Gender=Masc|Number=Sing	(mention_id=3169|references=(entity=(entity_id=generic_0201|fullname=generic_0080|gender=u|specialcase_entity=generic)))	(mention_id=3177|references=(entity=(entity_id=generic_0001|fullname=der prüfende Mensch im Allgemeinen|gender=u|specialcase_entity=generic)))	0
+20073	Mensch	0	0	0	NN	Mensch	Case=Nom|Gender=Masc|Number=Sing	(mention_id=3169|references=(entity=(entity_id=generic_0201|fullname=generic_0080|gender=u|specialcase_entity=generic)))	(mention_id=3177|references=(entity=(entity_id=generic_0105|fullname=Männer im Allgemeinen|gender=u|specialcase_entity=generic)))	0
 20074	nur	0	0	0	ADV	nur	_			0
 20075	dann	0	0	0	ADV	dann	_			0
 20076	erst	0	0	0	ADV	erst	_			0
@@ -20081,10 +20081,10 @@ i	token	is_sent_start	is_para_start	is_section_start	tag	lemma	morph	gold	pred	i
 20079	Göttliche	0	0	0	NN	göttliche	Case=Acc|Gender=Neut|Number=Sing			0
 20080	,	0	0	0	$,	,	PunctType=Comm			0
 20081	wenn	0	0	0	KOUS	wenn	_			0
-20082	er	0	0	0	PPER	er	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	(mention_id=3170|references=(entity=(entity_id=generic_0202|fullname=generic_0081|gender=u|specialcase_entity=generic)))	(mention_id=3178|references=(entity=(entity_id=generic_0002|fullname=der prüfende Mensch im Allgemeinen|gender=u|specialcase_entity=generic)))	0
+20082	er	0	0	0	PPER	er	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	(mention_id=3170|references=(entity=(entity_id=generic_0202|fullname=generic_0081|gender=u|specialcase_entity=generic)))	(mention_id=3178|references=(entity=(entity_id=generic_0110|fullname=Männer im Allgemeinen|gender=u|specialcase_entity=generic)))	0
 20083	es	0	0	0	PPER	es	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs			0
 20084	in	0	0	0	APPR	in	AdpType=Prep			0
-20085	seinem	0	0	0	PPOSAT	sein	Case=Dat|Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	(mention_id=3171|references=(entity=(entity_id=generic_0203|fullname=generic_0082|gender=u|specialcase_entity=generic)))	(mention_id=3179|references=(entity=(entity_id=generic_0003|fullname=der prüfende Mensch im Allgemeinen|gender=u|specialcase_entity=generic)))	0
+20085	seinem	0	0	0	PPOSAT	sein	Case=Dat|Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	(mention_id=3171|references=(entity=(entity_id=generic_0203|fullname=generic_0082|gender=u|specialcase_entity=generic)))	(mention_id=3179|references=(entity=(entity_id=generic_0005|fullname=Frauenzimmer im Allgemeinen|gender=u|specialcase_entity=generic)))	0
 20086	eigenen	0	0	0	ADJA	eigen	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing			0
 20087	Herzen	0	0	0	NN	Herz	Case=Dat|Gender=Neut|Number=Sing			0
 20088	entdeckt	0	0	0	VVPP	entdecken	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin			0
@@ -20095,11 +20095,11 @@ i	token	is_sent_start	is_para_start	is_section_start	tag	lemma	morph	gold	pred	i
 20093	vom	0	0	0	APPRART	von	AdpType=Prep|Case=Dat|Gender=Masc|Number=Sing|PronType=Art			0
 20094	Anfange	0	0	0	NN	Anfang	Case=Dat|Gender=Masc|Number=Sing			0
 20095	in	0	0	0	APPR	in	AdpType=Prep			0
-20096	ihm	0	0	0	PPER	ihm	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	(mention_id=3172|references=(entity=(entity_id=generic_0204|fullname=generic_0083|gender=u|specialcase_entity=generic)))	(mention_id=3180|references=(entity=(entity_id=generic_0004|fullname=der prüfende Mensch im Allgemeinen|gender=u|specialcase_entity=generic)))	0
+20096	ihm	0	0	0	PPER	ihm	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	(mention_id=3172|references=(entity=(entity_id=generic_0204|fullname=generic_0083|gender=u|specialcase_entity=generic)))	(mention_id=3180|references=(entity=(entity_id=generic_0053|fullname=Frauenzimmer im Allgemeinen|gender=u|specialcase_entity=generic)))	0
 20097	war	0	0	0	VAFIN	sein	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin			0
 20098	,	0	0	0	$,	,	PunctType=Comm			0
 20099	bleibt	0	0	0	VVFIN	bleiben	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin			0
-20100	ihm	0	0	0	PPER	ihm	Case=Dat|Gender=*|Number=Sing|Person=3|PronType=Prs	(mention_id=3173|references=(entity=(entity_id=generic_0205|fullname=generic_0084|gender=u|specialcase_entity=generic)))	(mention_id=3181|references=(entity=(entity_id=generic_0005|fullname=der prüfende Mensch im Allgemeinen|gender=u|specialcase_entity=generic)))	0
+20100	ihm	0	0	0	PPER	ihm	Case=Dat|Gender=*|Number=Sing|Person=3|PronType=Prs	(mention_id=3173|references=(entity=(entity_id=generic_0205|fullname=generic_0084|gender=u|specialcase_entity=generic)))	(mention_id=3181|references=(entity=(entity_id=generic_0010|fullname=jeder der von ihr spricht|gender=u|specialcase_entity=generic)))	0
 20101	auf	0	0	0	APPR	auf	AdpType=Prep			0
 20102	ewig	0	0	0	ADJD	ewig	Degree=Pos|Variant=Short			0
 20103	verborgen	0	0	0	VVPP	verbergen	Aspect=Perf|VerbForm=Part			0
@@ -20108,12 +20108,12 @@ i	token	is_sent_start	is_para_start	is_section_start	tag	lemma	morph	gold	pred	i
 20106	Die	0	0	0	ART	der	Case=Nom|Gender=Neut|Number=Plur|PronType=Art			0
 20107	Dinge	0	0	0	NN	Ding	Case=Nom|Gender=Neut|Number=Plur			0
 20108	sind	0	0	0	VAFIN	sein	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin			0
-20109	ihm	0	0	0	PPER	ihm	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	(mention_id=3174|references=(entity=(entity_id=generic_0206|fullname=generic_0085|gender=u|specialcase_entity=generic)))	(mention_id=3182|references=(entity=(entity_id=generic_0006|fullname=der prüfende Mensch im Allgemeinen|gender=u|specialcase_entity=generic)))	0
+20109	ihm	0	0	0	PPER	ihm	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	(mention_id=3174|references=(entity=(entity_id=generic_0206|fullname=generic_0085|gender=u|specialcase_entity=generic)))	(mention_id=3182|references=(entity=(entity_id=generic_0016|fullname=der Andere|gender=u|specialcase_entity=generic)))	0
 20110	nur	0	0	0	ADV	nur	_			0
 20111	das	0	0	0	PDS	der	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem			0
 20112	,	0	0	0	$,	,	PunctType=Comm			0
 20113	was	0	0	0	PRELS	wer	Case=Acc|Gender=Neut|Number=Sing|PronType=Rel			0
-20114	er	0	0	0	PPER	er	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	(mention_id=3175|references=(entity=(entity_id=generic_0207|fullname=generic_0086|gender=u|specialcase_entity=generic)))	(mention_id=3183|references=(entity=(entity_id=generic_0007|fullname=der prüfende Mensch im Allgemeinen|gender=u|specialcase_entity=generic)))	0
+20114	er	0	0	0	PPER	er	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	(mention_id=3175|references=(entity=(entity_id=generic_0207|fullname=generic_0086|gender=u|specialcase_entity=generic)))	(mention_id=3183|references=(entity=(entity_id=generic_0022|fullname=Mann im Allgemeinen|gender=u|specialcase_entity=generic)))	0
 20115	sie	0	0	0	PPER	sie	Case=Acc|Gender=Neut|Number=Plur|Person=3|PronType=Prs			0
 20116	werden	0	0	0	VAINF	werden	VerbForm=Inf			0
 20117	läßt	0	0	0	VVFIN	lassen	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin			0
@@ -20122,28 +20122,28 @@ i	token	is_sent_start	is_para_start	is_section_start	tag	lemma	morph	gold	pred	i
 20120	sie	0	0	0	PPER	sie	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs			0
 20121	,	0	0	0	$,	,	PunctType=Comm			0
 20122	nur	0	0	0	ADV	nur	_			0
-20123	sich	0	0	0	PRF	sich	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	(mention_id=3176|references=(entity=(entity_id=generic_0208|fullname=generic_0087|gender=u|specialcase_entity=generic)))	(mention_id=3184|references=(entity=(entity_id=generic_0008|fullname=der prüfende Mensch im Allgemeinen|gender=u|specialcase_entity=generic)))	0
+20123	sich	0	0	0	PRF	sich	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	(mention_id=3176|references=(entity=(entity_id=generic_0208|fullname=generic_0087|gender=u|specialcase_entity=generic)))	(mention_id=3184|references=(entity=(entity_id=generic_0028|fullname=Mann im Allgemeinen|gender=u|specialcase_entity=generic)))	0
 20124	selbst	0	0	0	ADV	selbst	_			0
 20125	erkennt	0	0	0	VVFIN	erkennen	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin			0
-20126	er	0	0	0	PPER	er	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	(mention_id=3177|references=(entity=(entity_id=generic_0209|fullname=generic_0088|gender=u|specialcase_entity=generic)))	(mention_id=3185|references=(entity=(entity_id=generic_0009|fullname=der prüfende Mensch im Allgemeinen|gender=u|specialcase_entity=generic)))	0
+20126	er	0	0	0	PPER	er	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	(mention_id=3177|references=(entity=(entity_id=generic_0209|fullname=generic_0088|gender=u|specialcase_entity=generic)))	(mention_id=3185|references=(entity=(entity_id=generic_0061|fullname=Mann im Allgemeinen|gender=u|specialcase_entity=generic)))	0
 20127	in	0	0	0	APPR	in	AdpType=Prep			0
 20128	ihnen	0	0	0	PPER	ihnen	Case=Dat|Gender=*|Number=Plur|Person=3|PronType=Prs			0
 20129	.	0	0	0	$.	.	PunctType=Peri			0
 20130	Von	1	0	0	APPR	von	AdpType=Prep			0
 20131	allem	0	0	0	PIS	alle	Case=Dat|Gender=Neut|Number=Sing|PronType=Ind,Neg,Tot			0
 20132	was	0	0	0	PRELS	was	Case=Nom|Gender=Neut|Number=Sing|PronType=Int			0
-20133	ihn	0	0	0	PPER	ihn	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	(mention_id=3178|references=(entity=(entity_id=generic_0210|fullname=generic_0089|gender=u|specialcase_entity=generic)))	(mention_id=3186|references=(entity=(entity_id=generic_0010|fullname=der prüfende Mensch im Allgemeinen|gender=u|specialcase_entity=generic)))	0
+20133	ihn	0	0	0	PPER	ihn	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	(mention_id=3178|references=(entity=(entity_id=generic_0210|fullname=generic_0089|gender=u|specialcase_entity=generic)))	(mention_id=3186|references=(entity=(entity_id=generic_0066|fullname=Mann im Allgemeinen|gender=u|specialcase_entity=generic)))	0
 20134	umgiebt	0	0	0	VVFIN	umgieben	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin			0
 20135	,	0	0	0	$,	,	PunctType=Comm			0
 20136	kann	0	0	0	VMFIN	können	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Mod			0
-20137	er	0	0	0	PPER	er	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	(mention_id=3179|references=(entity=(entity_id=generic_0211|fullname=generic_0090|gender=u|specialcase_entity=generic)))	(mention_id=3187|references=(entity=(entity_id=generic_0011|fullname=der prüfende Mensch im Allgemeinen|gender=u|specialcase_entity=generic)))	0
+20137	er	0	0	0	PPER	er	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	(mention_id=3179|references=(entity=(entity_id=generic_0211|fullname=generic_0090|gender=u|specialcase_entity=generic)))	(mention_id=3187|references=(entity=(entity_id=generic_0082|fullname=Mann im Allgemeinen|gender=u|specialcase_entity=generic)))	0
 20138	nur	0	0	0	ADV	nur	_			0
 20139	sagen	0	0	0	VVFIN	sagen	Mood=Ind|VerbForm=Inf			0
 20140	es	0	0	0	PPER	es	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs			0
 20141	scheint	0	0	0	VVFIN	scheinen	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin			0
 20142	–	0	0	0	$(	–	AdpType=Prep|PunctType=Brck			0
 20143	von	0	0	0	APPR	von	AdpType=Prep			0
-20144	seinem	0	0	0	PPOSAT	sein	Case=Dat|Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	(mention_id=3180|references=(entity=(entity_id=generic_0212|fullname=generic_0091|gender=u|specialcase_entity=generic)))	(mention_id=3188|references=(entity=(entity_id=generic_0012|fullname=der prüfende Mensch im Allgemeinen|gender=u|specialcase_entity=generic)))	0
+20144	seinem	0	0	0	PPOSAT	sein	Case=Dat|Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	(mention_id=3180|references=(entity=(entity_id=generic_0212|fullname=generic_0091|gender=u|specialcase_entity=generic)))	(mention_id=3188|references=(entity=(entity_id=generic_0086|fullname=Mann im Allgemeinen|gender=u|specialcase_entity=generic)))	0
 20145	Gewissen	0	0	0	NN	Gewissen	Case=Dat|Gender=Neut|Number=Sing			0
 20146	allein	0	0	0	ADV	allein	_			0
 20147	es	0	0	0	PPER	es	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs			0
@@ -20233,10 +20233,10 @@ i	token	is_sent_start	is_para_start	is_section_start	tag	lemma	morph	gold	pred	i
 20231	dadurch	0	0	0	PROAV	dadurch	PronType=Dem			0
 20232	stürzt	0	0	0	VVFIN	stürzen	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin			0
 20233	ihr	0	0	0	PPOSAT	ihr	Case=Nom|Gender=*|Number=Plur|Person=2|Poss=Yes|PronType=Prs	(mention_id=3194|references=(entity=(entity_id=entity_0004|fullname=Heinrich|gender=m)),(entity=(entity_id=generic_0214|fullname=generic_0093|gender=u|specialcase_entity=generic)))	(mention_id=3202|references=(entity=(entity_id=figur_0002|fullname=Gustav|gender=m)),(entity=(entity_id=figur_0016|fullname=Heinrich|gender=m)))	0
-20234	uns	0	0	0	PPER	uns	Case=Dat|Gender=*|Number=Plur|Person=1|PronType=Prs	(mention_id=3195|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)),(entity=(entity_id=generic_0215|fullname=generic_0094|gender=u|specialcase_entity=generic)))	(mention_id=3203|references=(entity=(entity_id=generic_0013|fullname=Menschen im Allgemeinen|gender=u|specialcase_entity=generic)))	0
+20234	uns	0	0	0	PPER	uns	Case=Dat|Gender=*|Number=Plur|Person=1|PronType=Prs	(mention_id=3195|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)),(entity=(entity_id=generic_0215|fullname=generic_0094|gender=u|specialcase_entity=generic)))	(mention_id=3203|references=(entity=(entity_id=generic_0033|fullname=Engel im Allgemeinen|gender=u|specialcase_entity=generic)))	0
 20235	arme	0	0	0	ADJA	arm	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur			0
 20236	sinnliche	0	0	0	ADJA	sinnlich	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur			0
-20237	Menschen	0	0	0	NN	Mensch	Case=Acc|Gender=Masc|Number=Plur	(mention_id=3196|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)),(entity=(entity_id=generic_0216|fullname=generic_0095|gender=u|specialcase_entity=generic)))	(mention_id=3204|references=(entity=(entity_id=generic_0014|fullname=Menschen im Allgemeinen|gender=u|specialcase_entity=generic)))	0
+20237	Menschen	0	0	0	NN	Mensch	Case=Acc|Gender=Masc|Number=Plur	(mention_id=3196|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)),(entity=(entity_id=generic_0216|fullname=generic_0095|gender=u|specialcase_entity=generic)))	(mention_id=3204|references=(entity=(entity_id=generic_0037|fullname=Engel im Allgemeinen|gender=u|specialcase_entity=generic)))	0
 20238	.	0	0	0	$.	.	PunctType=Peri			0
 20239	Eure	1	0	0	PPOSAT	euer	Case=Nom|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	(mention_id=3197|references=(entity=(entity_id=entity_0004|fullname=Heinrich|gender=m)),(entity=(entity_id=generic_0217|fullname=generic_0096|gender=u|specialcase_entity=generic)))	(mention_id=3205|references=(entity=(entity_id=figur_0002|fullname=Gustav|gender=m)),(entity=(entity_id=figur_0016|fullname=Heinrich|gender=m)))	0
 20240	Tugend	0	0	0	NN	Tugend	Case=Nom|Gender=Fem|Number=Sing			0
@@ -20255,13 +20255,13 @@ i	token	is_sent_start	is_para_start	is_section_start	tag	lemma	morph	gold	pred	i
 20253	Ungeheuer	0	0	0	NN	Ungeheuer	Case=Nom|Gender=Neut|Number=Sing			0
 20254	.	0	0	0	$.	.	PunctType=Peri			0
 20255	Ach	1	0	0	ITJ	ach	_			0
-20256	wir	0	0	0	PPER	wir	Case=Nom|Gender=*|Number=Plur|Person=1|PronType=Prs	(mention_id=3199|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)),(entity=(entity_id=generic_0219|fullname=generic_0098|gender=u|specialcase_entity=generic)))	(mention_id=3207|references=(entity=(entity_id=generic_0015|fullname=Menschen im Allgemeinen|gender=u|specialcase_entity=generic)))	0
-20257	Unglücklichen	0	0	0	NN	unglückliche	Case=Nom|Gender=*|Number=Plur	(mention_id=3200|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)),(entity=(entity_id=generic_0220|fullname=generic_0099|gender=u|specialcase_entity=generic)))	(mention_id=3208|references=(entity=(entity_id=generic_0016|fullname=Menschen im Allgemeinen|gender=u|specialcase_entity=generic)))	0
+20256	wir	0	0	0	PPER	wir	Case=Nom|Gender=*|Number=Plur|Person=1|PronType=Prs	(mention_id=3199|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)),(entity=(entity_id=generic_0219|fullname=generic_0098|gender=u|specialcase_entity=generic)))	(mention_id=3207|references=(entity=(entity_id=generic_0041|fullname=Weiber im Allgemeinen|gender=u|specialcase_entity=generic)))	0
+20257	Unglücklichen	0	0	0	NN	unglückliche	Case=Nom|Gender=*|Number=Plur	(mention_id=3200|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)),(entity=(entity_id=generic_0220|fullname=generic_0099|gender=u|specialcase_entity=generic)))	(mention_id=3208|references=(entity=(entity_id=generic_0048|fullname=Weiber im Allgemeinen|gender=u|specialcase_entity=generic)))	0
 20258	!	0	0	0	$.	!	PunctType=Peri			0
 20259	so	0	0	0	ADV	so	_			0
 20260	erscheint	0	0	0	VVFIN	erscheinen	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin			0
 20261	es	0	0	0	PPER	es	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs			0
-20262	uns	0	0	0	PPER	uns	Case=Dat|Gender=*|Number=Plur|Person=1|PronType=Prs	(mention_id=3201|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)),(entity=(entity_id=generic_0221|fullname=generic_0100|gender=u|specialcase_entity=generic)))	(mention_id=3209|references=(entity=(entity_id=generic_0017|fullname=Menschen im Allgemeinen|gender=u|specialcase_entity=generic)))	0
+20262	uns	0	0	0	PPER	uns	Case=Dat|Gender=*|Number=Plur|Person=1|PronType=Prs	(mention_id=3201|references=(entity=(entity_id=entity_0002|fullname=Gustav von S.|gender=m)),(entity=(entity_id=generic_0221|fullname=generic_0100|gender=u|specialcase_entity=generic)))	(mention_id=3209|references=(entity=(entity_id=generic_0069|fullname=Weiber im Allgemeinen|gender=u|specialcase_entity=generic)))	0
 20263	nicht	0	0	0	PTKNEG	nicht	Polarity=Neg			0
 20264	!	0	0	0	$.	!	PunctType=Peri			0
 20265	–	1	0	0	$(	-	PunctType=Brck			0
@@ -20516,7 +20516,7 @@ i	token	is_sent_start	is_para_start	is_section_start	tag	lemma	morph	gold	pred	i
 20514	Er	1	0	0	PPER	er	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	(mention_id=3240|references=(entity=(entity_id=entity_0004|fullname=Heinrich|gender=m)))	(mention_id=3248|references=(entity=(entity_id=figur_0016|fullname=Heinrich|gender=m)))	0
 20515	.	0	0	0	$.	.	PunctType=Peri			0
 20516	Lieben	1	0	0	NN	lieb	Case=Acc|Degree=Pos|Gender=*|Number=Plur			0
-20517	Leute	0	0	0	NN	Leute	Case=Nom|Gender=*|Number=Plur	(mention_id=3241|references=(entity=(entity_id=entity_0102|fullname=ein Chinese|gender=m|specialcase_entity=nonfact)),(entity=(entity_id=entity_0101|fullname=ein N|gender=m|specialcase_entity=nonfact)),(entity=(entity_id=entity_0104|fullname=ein Feuerländer|gender=m|specialcase_entity=nonfact)))	(mention_id=3249|references=(entity=(entity_id=generic_0018|fullname=die Leute im Allgemeinen|gender=u|specialcase_entity=generic)))	0
+20517	Leute	0	0	0	NN	Leute	Case=Nom|Gender=*|Number=Plur	(mention_id=3241|references=(entity=(entity_id=entity_0102|fullname=ein Chinese|gender=m|specialcase_entity=nonfact)),(entity=(entity_id=entity_0101|fullname=ein N|gender=m|specialcase_entity=nonfact)),(entity=(entity_id=entity_0104|fullname=ein Feuerländer|gender=m|specialcase_entity=nonfact)))	(mention_id=3249|references=(entity=(entity_id=generic_0072|fullname=Weiber im Allgemeinen|gender=u|specialcase_entity=generic)))	0
 20518	,	0	0	0	$,	,	PunctType=Comm			0
 20519	würde	0	0	0	VAFIN	werden	Mood=Subj|Number=Sing|Person=3|Tense=Past|VerbForm=Fin			0
 20520	er	0	0	0	PPER	er	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	(mention_id=3242|references=(entity=(entity_id=entity_0103|fullname=ein Grieche|gender=m|specialcase_entity=nonfact)))	(mention_id=3250|references=(entity=(entity_id=figur_0016|fullname=Heinrich|gender=m)))	0
@@ -20530,16 +20530,16 @@ i	token	is_sent_start	is_para_start	is_section_start	tag	lemma	morph	gold	pred	i
 20528	:	0	0	0	$.	:	PunctType=Peri			0
 20529	so	0	0	0	ADV	so	_			0
 20530	nennt	0	0	0	VVFIN	nennen	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin			0
-20531	Ihr	0	0	0	PPER	ihr	Case=Nom|Gender=*|Number=Plur|Person=2|PronType=Prs	(mention_id=3244|references=(entity=(entity_id=entity_0102|fullname=ein Chinese|gender=m|specialcase_entity=nonfact)),(entity=(entity_id=entity_0104|fullname=ein Feuerländer|gender=m|specialcase_entity=nonfact)),(entity=(entity_id=entity_0101|fullname=ein N|gender=m|specialcase_entity=nonfact)))	(mention_id=3252|references=(entity=(entity_id=generic_0019|fullname=die Leute im Allgemeinen|gender=u|specialcase_entity=generic)))	0
-20532	Euch	0	0	0	PPER	euch	Case=Dat|Gender=*|Number=Plur|Person=2|PronType=Prs	(mention_id=3245|references=(entity=(entity_id=entity_0102|fullname=ein Chinese|gender=m|specialcase_entity=nonfact)),(entity=(entity_id=entity_0104|fullname=ein Feuerländer|gender=m|specialcase_entity=nonfact)),(entity=(entity_id=entity_0101|fullname=ein N|gender=m|specialcase_entity=nonfact)))	(mention_id=3253|references=(entity=(entity_id=generic_0020|fullname=die Leute im Allgemeinen|gender=u|specialcase_entity=generic)))	0
-20533	Menschen	0	0	0	NN	Mensch	Case=Acc|Gender=Masc|Number=Plur	(mention_id=3246|references=(entity=(entity_id=entity_0102|fullname=ein Chinese|gender=m|specialcase_entity=nonfact)),(entity=(entity_id=entity_0104|fullname=ein Feuerländer|gender=m|specialcase_entity=nonfact)),(entity=(entity_id=entity_0101|fullname=ein N|gender=m|specialcase_entity=nonfact)))	(mention_id=3254|references=(entity=(entity_id=generic_0021|fullname=die Leute im Allgemeinen|gender=u|specialcase_entity=generic)))	0
+20531	Ihr	0	0	0	PPER	ihr	Case=Nom|Gender=*|Number=Plur|Person=2|PronType=Prs	(mention_id=3244|references=(entity=(entity_id=entity_0102|fullname=ein Chinese|gender=m|specialcase_entity=nonfact)),(entity=(entity_id=entity_0104|fullname=ein Feuerländer|gender=m|specialcase_entity=nonfact)),(entity=(entity_id=entity_0101|fullname=ein N|gender=m|specialcase_entity=nonfact)))	(mention_id=3252|references=(entity=(entity_id=generic_0075|fullname=Weiber im Allgemeinen|gender=u|specialcase_entity=generic)))	0
+20532	Euch	0	0	0	PPER	euch	Case=Dat|Gender=*|Number=Plur|Person=2|PronType=Prs	(mention_id=3245|references=(entity=(entity_id=entity_0102|fullname=ein Chinese|gender=m|specialcase_entity=nonfact)),(entity=(entity_id=entity_0104|fullname=ein Feuerländer|gender=m|specialcase_entity=nonfact)),(entity=(entity_id=entity_0101|fullname=ein N|gender=m|specialcase_entity=nonfact)))	(mention_id=3253|references=(entity=(entity_id=generic_0078|fullname=Weiber im Allgemeinen|gender=u|specialcase_entity=generic)))	0
+20533	Menschen	0	0	0	NN	Mensch	Case=Acc|Gender=Masc|Number=Plur	(mention_id=3246|references=(entity=(entity_id=entity_0102|fullname=ein Chinese|gender=m|specialcase_entity=nonfact)),(entity=(entity_id=entity_0104|fullname=ein Feuerländer|gender=m|specialcase_entity=nonfact)),(entity=(entity_id=entity_0101|fullname=ein N|gender=m|specialcase_entity=nonfact)))	(mention_id=3254|references=(entity=(entity_id=generic_0089|fullname=Weiber im Allgemeinen|gender=u|specialcase_entity=generic)))	0
 20534	,	0	0	0	$,	,	PunctType=Comm			0
 20535	weil	0	0	0	KOUS	weil	_			0
-20536	Ihr	0	0	0	PPER	ihr	Case=Nom|Gender=*|Number=Plur|Person=2|PronType=Prs	(mention_id=3247|references=(entity=(entity_id=entity_0102|fullname=ein Chinese|gender=m|specialcase_entity=nonfact)),(entity=(entity_id=entity_0104|fullname=ein Feuerländer|gender=m|specialcase_entity=nonfact)),(entity=(entity_id=entity_0101|fullname=ein N|gender=m|specialcase_entity=nonfact)))	(mention_id=3255|references=(entity=(entity_id=generic_0022|fullname=die Leute im Allgemeinen|gender=u|specialcase_entity=generic)))	0
+20536	Ihr	0	0	0	PPER	ihr	Case=Nom|Gender=*|Number=Plur|Person=2|PronType=Prs	(mention_id=3247|references=(entity=(entity_id=entity_0102|fullname=ein Chinese|gender=m|specialcase_entity=nonfact)),(entity=(entity_id=entity_0104|fullname=ein Feuerländer|gender=m|specialcase_entity=nonfact)),(entity=(entity_id=entity_0101|fullname=ein N|gender=m|specialcase_entity=nonfact)))	(mention_id=3255|references=(entity=(entity_id=generic_0092|fullname=Weiber im Allgemeinen|gender=u|specialcase_entity=generic)))	0
 20537	durch	0	0	0	APPR	durch	AdpType=Prep			0
 20538	einen	0	0	0	ART	ein	Case=Acc|Gender=Masc|Number=Sing|PronType=Art			0
 20539	Nahmen	0	0	0	NN	Nahme	Case=Acc|Gender=Masc|Number=Sing			0
-20540	Euren	0	0	0	PPOSAT	euer	Case=Acc|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	(mention_id=3248|references=(entity=(entity_id=entity_0102|fullname=ein Chinese|gender=m|specialcase_entity=nonfact)),(entity=(entity_id=entity_0104|fullname=ein Feuerländer|gender=m|specialcase_entity=nonfact)),(entity=(entity_id=entity_0101|fullname=ein N|gender=m|specialcase_entity=nonfact)))	(mention_id=3256|references=(entity=(entity_id=generic_0023|fullname=die Leute im Allgemeinen|gender=u|specialcase_entity=generic)))	0
+20540	Euren	0	0	0	PPOSAT	euer	Case=Acc|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	(mention_id=3248|references=(entity=(entity_id=entity_0102|fullname=ein Chinese|gender=m|specialcase_entity=nonfact)),(entity=(entity_id=entity_0104|fullname=ein Feuerländer|gender=m|specialcase_entity=nonfact)),(entity=(entity_id=entity_0101|fullname=ein N|gender=m|specialcase_entity=nonfact)))	(mention_id=3256|references=(entity=(entity_id=generic_0044|fullname=Männer im Allgemeinen|gender=u|specialcase_entity=generic)))	0
 20541	Unterschied	0	0	0	NN	Unterschied	Case=Acc|Gender=Masc|Number=Sing			0
 20542	von	0	0	0	APPR	von	AdpType=Prep			0
 20543	den	0	0	0	ART	der	Case=Dat|Gender=Neut|Number=Plur|PronType=Art			0
@@ -20563,7 +20563,7 @@ i	token	is_sent_start	is_para_start	is_section_start	tag	lemma	morph	gold	pred	i
 20561	glauben	0	0	0	VVINF	glauben	VerbForm=Inf			0
 20562	:	0	0	0	$.	:	PunctType=Peri			0
 20563	daß	0	0	0	KOUS	daß	_			0
-20564	Ihr	0	0	0	PPER	ihr	Case=Nom|Gender=*|Number=Plur|Person=2|PronType=Prs	(mention_id=3252|references=(entity=(entity_id=entity_0102|fullname=ein Chinese|gender=m|specialcase_entity=nonfact)),(entity=(entity_id=entity_0104|fullname=ein Feuerländer|gender=m|specialcase_entity=nonfact)),(entity=(entity_id=entity_0101|fullname=ein N|gender=m|specialcase_entity=nonfact)))	(mention_id=3260|references=(entity=(entity_id=generic_0024|fullname=die Leute im Allgemeinen|gender=u|specialcase_entity=generic)))	0
+20564	Ihr	0	0	0	PPER	ihr	Case=Nom|Gender=*|Number=Plur|Person=2|PronType=Prs	(mention_id=3252|references=(entity=(entity_id=entity_0102|fullname=ein Chinese|gender=m|specialcase_entity=nonfact)),(entity=(entity_id=entity_0104|fullname=ein Feuerländer|gender=m|specialcase_entity=nonfact)),(entity=(entity_id=entity_0101|fullname=ein N|gender=m|specialcase_entity=nonfact)))	(mention_id=3260|references=(entity=(entity_id=generic_0095|fullname=Männer im Allgemeinen|gender=u|specialcase_entity=generic)))	0
 20565	um	0	0	0	APPR	um	AdpType=Prep			0
 20566	so	0	0	0	ADV	so	_			0
 20567	mehr	0	0	0	PIAT	mehr	PronType=Ind,Neg,Tot			0
@@ -20573,8 +20573,8 @@ i	token	is_sent_start	is_para_start	is_section_start	tag	lemma	morph	gold	pred	i
 20571	,	0	0	0	$,	,	PunctType=Comm			0
 20572	je	0	0	0	ADV	je	_			0
 20573	mehr	0	0	0	ADV	mehr	Case=*|Gender=*|Number=*|PronType=Ind,Neg,Tot			0
-20574	Ihr	0	0	0	PPOSAT	ihr	Case=Nom|Gender=*|Number=Plur|Person=2|Poss=Yes|PronType=Prs	(mention_id=3253|references=(entity=(entity_id=entity_0102|fullname=ein Chinese|gender=m|specialcase_entity=nonfact)),(entity=(entity_id=entity_0104|fullname=ein Feuerländer|gender=m|specialcase_entity=nonfact)),(entity=(entity_id=entity_0101|fullname=ein N|gender=m|specialcase_entity=nonfact)))	(mention_id=3261|references=(entity=(entity_id=generic_0025|fullname=die Leute im Allgemeinen|gender=u|specialcase_entity=generic)))	0
-20575	Euch	0	0	0	PPER	sich	Case=Acc|Number=Plur|Person=2|PronType=Prs|Reflex=Yes	(mention_id=3254|references=(entity=(entity_id=entity_0102|fullname=ein Chinese|gender=m|specialcase_entity=nonfact)),(entity=(entity_id=entity_0104|fullname=ein Feuerländer|gender=m|specialcase_entity=nonfact)),(entity=(entity_id=entity_0101|fullname=ein N|gender=m|specialcase_entity=nonfact)))	(mention_id=3262|references=(entity=(entity_id=generic_0026|fullname=die Leute im Allgemeinen|gender=u|specialcase_entity=generic)))	0
+20574	Ihr	0	0	0	PPOSAT	ihr	Case=Nom|Gender=*|Number=Plur|Person=2|Poss=Yes|PronType=Prs	(mention_id=3253|references=(entity=(entity_id=entity_0102|fullname=ein Chinese|gender=m|specialcase_entity=nonfact)),(entity=(entity_id=entity_0104|fullname=ein Feuerländer|gender=m|specialcase_entity=nonfact)),(entity=(entity_id=entity_0101|fullname=ein N|gender=m|specialcase_entity=nonfact)))	(mention_id=3261|references=(entity=(entity_id=generic_0098|fullname=Männer im Allgemeinen|gender=u|specialcase_entity=generic)))	0
+20575	Euch	0	0	0	PPER	sich	Case=Acc|Number=Plur|Person=2|PronType=Prs|Reflex=Yes	(mention_id=3254|references=(entity=(entity_id=entity_0102|fullname=ein Chinese|gender=m|specialcase_entity=nonfact)),(entity=(entity_id=entity_0104|fullname=ein Feuerländer|gender=m|specialcase_entity=nonfact)),(entity=(entity_id=entity_0101|fullname=ein N|gender=m|specialcase_entity=nonfact)))	(mention_id=3262|references=(entity=(entity_id=generic_0057|fullname=Alle im Allgemeinen|gender=u|specialcase_entity=generic)))	0
 20576	wirklich	0	0	0	ADJD	wirklich	Degree=Pos|Variant=Short			0
 20577	von	0	0	0	APPR	von	AdpType=Prep			0
 20578	den	0	0	0	ART	der	Case=Dat|Gender=Neut|Number=Plur|PronType=Art			0
@@ -20793,10 +20793,10 @@ i	token	is_sent_start	is_para_start	is_section_start	tag	lemma	morph	gold	pred	i
 20791	Gott	0	0	0	NN	Gott	Case=Acc|Gender=Masc|Number=Sing	(mention_id=3302|references=(entity=(entity_id=entity_0086|fullname=Apoll|gender=m)))		0
 20792	,	0	0	0	$,	,	PunctType=Comm			0
 20793	und	0	0	0	KON	und	_			0
-20794	denjenigen	0	0	0	PDS	derjenige	Case=Dat|Gender=*|Number=Plur|PronType=Dem	(mention_id=3303|references=(entity=(entity_id=generic_0234|fullname=generic_0113|gender=u|specialcase_entity=generic)))	(mention_id=3309|references=(entity=(entity_id=generic_0027|fullname=derjenige der sich dem Ideal nähert|gender=u|specialcase_entity=generic)))	0
+20794	denjenigen	0	0	0	PDS	derjenige	Case=Dat|Gender=*|Number=Plur|PronType=Dem	(mention_id=3303|references=(entity=(entity_id=generic_0234|fullname=generic_0113|gender=u|specialcase_entity=generic)))	(mention_id=3309|references=(entity=(entity_id=generic_0101|fullname=Kind im Allgemeinen|gender=u|specialcase_entity=generic)))	0
 20795	,	0	0	0	$,	,	PunctType=Comm			0
-20796	der	0	0	0	PRELS	der	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	(mention_id=3304|references=(entity=(entity_id=generic_0235|fullname=generic_0114|gender=u|specialcase_entity=generic)))	(mention_id=3310|references=(entity=(entity_id=generic_0028|fullname=derjenige der sich dem Ideal nähert|gender=u|specialcase_entity=generic)))	0
-20797	sich	0	0	0	PRF	sich	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	(mention_id=3305|references=(entity=(entity_id=generic_0236|fullname=generic_0115|gender=u|specialcase_entity=generic)))	(mention_id=3311|references=(entity=(entity_id=generic_0029|fullname=derjenige der sich dem Ideal nähert|gender=u|specialcase_entity=generic)))	0
+20796	der	0	0	0	PRELS	der	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	(mention_id=3304|references=(entity=(entity_id=generic_0235|fullname=generic_0114|gender=u|specialcase_entity=generic)))	(mention_id=3310|references=(entity=(entity_id=generic_0114|fullname=derjenige der sich dem Ideal nähert|gender=u|specialcase_entity=generic)))	0
+20797	sich	0	0	0	PRF	sich	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	(mention_id=3305|references=(entity=(entity_id=generic_0236|fullname=generic_0115|gender=u|specialcase_entity=generic)))	(mention_id=3311|references=(entity=(entity_id=generic_0115|fullname=derjenige der sich dem Ideal nähert|gender=u|specialcase_entity=generic)))	0
 20798	diesem	0	0	0	PDAT	dieser	Case=Dat|Gender=Neut|Number=Sing|PronType=Dem			0
 20799	Ideale	0	0	0	NN	Ideal	Case=Dat|Gender=Neut|Number=Sing			0
 20800	zu	0	0	0	PTKZU	zu	PartType=Inf			0
@@ -20805,7 +20805,7 @@ i	token	is_sent_start	is_para_start	is_section_start	tag	lemma	morph	gold	pred	i
 20803	,	0	0	0	$,	,	PunctType=Comm			0
 20804	einen	0	0	0	ART	ein	Case=Acc|Gender=Masc|Number=Sing|PronType=Art			0
 20805	werdenden	0	0	0	ADJA	werdend	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing			0
-20806	Gott	0	0	0	NN	Gott	Case=Acc|Gender=Masc|Number=Sing	(mention_id=3306|references=(entity=(entity_id=generic_0237|fullname=generic_0116|gender=u|specialcase_entity=generic)))	(mention_id=3312|references=(entity=(entity_id=generic_0030|fullname=derjenige der sich dem Ideal nähert|gender=u|specialcase_entity=generic)))	0
+20806	Gott	0	0	0	NN	Gott	Case=Acc|Gender=Masc|Number=Sing	(mention_id=3306|references=(entity=(entity_id=generic_0237|fullname=generic_0116|gender=u|specialcase_entity=generic)))	(mention_id=3312|references=(entity=(entity_id=generic_0116|fullname=derjenige der sich dem Ideal nähert|gender=u|specialcase_entity=generic)))	0
 20807	–	0	0	0	$(	–	Case=Nom|Gender=*|Number=Sing|Person=1|PronType=Prs|PunctType=Brck			0
 20808	ich	0	0	0	PPER	ich	Case=Nom|Gender=*|Number=Sing|Person=1|PronType=Prs	(mention_id=3307|references=(entity=(entity_id=entity_0004|fullname=Heinrich|gender=m)))	(mention_id=3313|references=(entity=(entity_id=figur_0016|fullname=Heinrich|gender=m)))	0
 20809	habe	0	0	0	VAFIN	haben	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin			0
@@ -21475,7 +21475,7 @@ i	token	is_sent_start	is_para_start	is_section_start	tag	lemma	morph	gold	pred	i
 21473	unerbittlich	0	0	0	ADJD	unerbittlich	Degree=Pos|Variant=Short			0
 21474	gegen	0	0	0	APPR	gegen	AdpType=Prep			0
 21475	den	0	0	0	PDS	der	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem			0
-21476	der	0	0	0	ART	der	Case=Gen|Gender=Fem|Number=Sing|PronType=Dem		(mention_id=3435|references=(entity=(entity_id=generic_0031|fullname=derjenige der zu spät wiederkehrt|gender=u|specialcase_entity=generic)))	0
+21476	der	0	0	0	ART	der	Case=Gen|Gender=Fem|Number=Sing|PronType=Dem		(mention_id=3435|references=(entity=(entity_id=generic_0117|fullname=derjenige der zu spät wiederkehrt|gender=u|specialcase_entity=generic)))	0
 21477	zu	0	0	0	PTKA	zu	_			0
 21478	spät	0	0	0	ADJD	spät	Degree=Pos|Variant=Short			0
 21479	wiederkehrt	0	0	0	VVFIN	wiederkehren	Aspect=Perf|Mood=Ind|VerbForm=Part			0
@@ -22631,10 +22631,10 @@ i	token	is_sent_start	is_para_start	is_section_start	tag	lemma	morph	gold	pred	i
 22629	!	0	0	0	$.	!	PunctType=Peri			0
 22630	–	0	0	0	$(	–	PunctType=Brck			0
 22631	der	0	0	0	ART	der	Case=Nom|Gender=Masc|Number=Sing|PronType=Art			0
-22632	Mann	0	0	0	NN	Mann	Case=Nom|Gender=Masc|Number=Sing	(mention_id=3658|references=(entity=(entity_id=generic_0238|fullname=generic_0117|gender=u|specialcase_entity=generic)),(entity=(entity_id=entity_0004|fullname=Heinrich|gender=m)))	(mention_id=3664|references=(entity=(entity_id=generic_0032|fullname=der Mann im Allgemeinen|gender=u|specialcase_entity=generic)))	0
+22632	Mann	0	0	0	NN	Mann	Case=Nom|Gender=Masc|Number=Sing	(mention_id=3658|references=(entity=(entity_id=generic_0238|fullname=generic_0117|gender=u|specialcase_entity=generic)),(entity=(entity_id=entity_0004|fullname=Heinrich|gender=m)))	(mention_id=3664|references=(entity=(entity_id=generic_0118|fullname=der Mann im Allgemeinen|gender=u|specialcase_entity=generic)))	0
 22633	liebt	0	0	0	VVFIN	lieben	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin			0
 22634	nur	0	0	0	ADV	nur	_			0
-22635	sich	0	0	0	PRF	sich	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	(mention_id=3659|references=(entity=(entity_id=generic_0239|fullname=generic_0118|gender=u|specialcase_entity=generic)),(entity=(entity_id=entity_0004|fullname=Heinrich|gender=m)))	(mention_id=3665|references=(entity=(entity_id=generic_0033|fullname=der Mann im Allgemeinen|gender=u|specialcase_entity=generic)))	0
+22635	sich	0	0	0	PRF	sich	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	(mention_id=3659|references=(entity=(entity_id=generic_0239|fullname=generic_0118|gender=u|specialcase_entity=generic)),(entity=(entity_id=entity_0004|fullname=Heinrich|gender=m)))	(mention_id=3665|references=(entity=(entity_id=generic_0119|fullname=der Mann im Allgemeinen|gender=u|specialcase_entity=generic)))	0
 22636	selbst	0	0	0	ADV	selbst	_			0
 22637	.	0	0	0	$.	.	PunctType=Peri			0
 22638	«	0	0	0	$(	«	PunctType=Peri			0
