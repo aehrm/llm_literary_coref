@@ -1,0 +1,359 @@
+{
+  "model": "google/gemini-3-flash-preview",
+  "request_args": {
+    "seed": 123,
+    "temperature": 0,
+    "reasoning": {
+      "enabled": false
+    }
+  },
+  "raw_input": "\n# Entit\u00e4tsannotation in literarischen Texten\n\n## Aufgabe\nAnnotiere JEDE markierte Entit\u00e4ts-Erw\u00e4hnung im Text. F\u00fcr jede Erw\u00e4hnung (jede Zeile im Input B) musst du das \"Annotation\"-Feld als ein Array von Objekten bef\u00fcllen. Halte dich exakt an die vorgegebenen Kernprinzipien, die Struktur und die Logik der Sonderf\u00e4lle.\n\n## Zentrales Konzept: Die Entit\u00e4t\nEine **Entit\u00e4t** ist das konzeptionelle Ding, auf das im Text verwiesen wird. F\u00fcr diese Aufgabe gibt es zwei Arten von Entit\u00e4ten:\n1.  **Einzelfigur:** Ein einzelner menschlicher oder menschen\u00e4hnlicher Charakter (dies schlie\u00dft auch hypothetische Figuren mit ein).\n2.  **Gruppe als Einheit:** Eine Gruppe, die im Text als ein zusammenh\u00e4ngender Akteur handelt ODER als eine spezifische, aber nicht in ihre Mitglieder aufgel\u00f6ste Menge von Personen erscheint (siehe \"Fall 1\" bei den Gruppenregeln).\n\n## Input\nDu erh\u00e4ltst:\n1.  Den vollst\u00e4ndigen Text (A).\n2.  Eine Liste der zu annotierenden Erw\u00e4hnungen (B) als JSON Lines. Jede Erw\u00e4hnung ist ein einzelnes Wort.\n\n## Kernprinzipien der Annotation\n1.  **Konsistenz der `entity_id`:** Die wichtigste Regel! Verwende f\u00fcr dieselbe Entit\u00e4t (egal ob Einzelfigur oder Gruppe als Einheit) \u00fcber den gesamten Text hinweg **IMMER** die exakt gleiche `entity_id`.\n2.  **Namenswahl f\u00fcr `entity_id`:**\n    -   Bei Einzelfiguren mit Eigennamen: Verwende den Vornamen.\n    -   Bei Einzelfiguren ohne Namen: Erstelle eine kurze, pr\u00e4zise, textnahe Umschreibung (z.B. \"der alte Mann\", \"die Tante\").\n    -   Bei Gruppen als Einheit (Fall 1): Verwende eine passende Gruppenbezeichnung (z.B. \"Familie Armbruster\", \"die Wachen\").\n3.  **Referenz-Logik:** Jede Erw\u00e4hnung referenziert eine oder mehrere Entit\u00e4ten. Deine Aufgabe ist es, diese im \"Annotation\"-Array vollst\u00e4ndig und korrekt abzubilden.\n\n## Attribute im Annotationsobjekt\n-   `gender`: (String, nur bei erster Nennung) `m`, `f`, `nb` (nicht-bin\u00e4r), `u` (unbekannt), `mf` (nur bei Gruppen, falls diese aus m\u00e4nnlichen und weiblichen Mitgliedern besteht).\n-   `specialcase_entity`: (**Array von Strings**, nur bei erster Nennung) Sonderf\u00e4lle, die die Natur der Entit\u00e4t beschreiben. Alle diese Attribute sind unabh\u00e4ngig voneinander und k\u00f6nnen parallel auftreten.\n    -   `nonfact`: nicht-faktische Entit\u00e4t, siehe unten.\n    -   `group`: Gruppe, siehe unten.\n    -   `generic`: Generische Entit\u00e4t, siehe unten.\n    -   Falls keine dieser Attribute zutrifft, dann setze bei der ersten Nennung `\"specialcase_entity\": []`. Beachte, dass diese in der ersten Nennung angegebenen Attribute auch f\u00fcr alle folgenden Nennungen gelten m\u00fcssen, da diese Attribute sich auf die Entit\u00e4t beziehen.\n    \n## Logik der Sonderf\u00e4lle: Eine Entscheidungshierarchie\n\n**WICHTIG:** Gehe bei jeder Erw\u00e4hnung diese Schritte in der angegebenen Reihenfolge durch. Annotiere gem\u00e4\u00df der **ersten zutreffenden Regel** und ignoriere die folgenden f\u00fcr diese eine Erw\u00e4hnung, au\u00dfer es wird explizit anders angegeben (wie bei dualen Referenzen). Die korrekte Unterscheidung von spezifischen, nicht-faktischen und generischen Entit\u00e4ten ist entscheidend.\n\n### Schritt 1: Pr\u00fcfung auf spezifische Referenz (H\u00f6chste Priorit\u00e4t)\n*Frage dich:* Kann diese Erw\u00e4hnung auf eine **konkrete, bereits bekannte Figur** im Text zur\u00fcckgef\u00fchrt werden, selbst wenn ein allgemeiner Begriff (wie \"der Mann\", \"der Schuldige\"), ein Reflexivpronomen (\"sich\") oder das unpers\u00f6nliche Pronomen \"man\" verwendet wird?\n-   **Typischer Fall:** Eine Figur spricht \u00fcber sich selbst oder eine andere Figur in verallgemeinernder Weise.\n-   **Beispiel 1:** Hans reflektiert \u00fcber seine eigene Schuld und sagt: \"...zeigt sich **dem Schuldigen** wie eine strenge Richterin\". Hier ist \"dem Schuldigen\" **keine** generische Entit\u00e4t, sondern eine Referenz auf `Hans`.\n-   **Beispiel 2:** Eine Figur sagt \"wenn **man** glaubte...\". Pr\u00fcfe scharf, ob `man` hier nicht f\u00fcr \"ich\" (also die sprechende Figur) steht. \n-   **Anweisung:** Wenn ja, l\u00f6se die Koreferenz zur spezifischen Figur auf. Diese Entit\u00e4t ist **NICHT `generic` und NICHT `nonfact`**.\n\n### Schritt 2: Pr\u00fcfung auf nicht-faktische Entit\u00e4t (Mittlere Priorit\u00e4t)\n*Frage dich:* Wenn die Erw\u00e4hnung sich nicht auf eine bekannte Figur bezieht, handelt es sich dann um eine **hypothetische, gew\u00fcnschte, negierte oder als Beispiel genannte Einzelfigur oder eine kleine, definierte Gruppe?** Existiert diese Entit\u00e4t zum Zeitpunkt der Erw\u00e4hnung nicht *real* in der erz\u00e4hlten Welt, wird aber als individuelles Konzept behandelt?\n-   **Typischer Fall:** Gedankenexperimente, W\u00fcnsche, Pl\u00e4ne, Warnungen.\n-   **Beispiel 1:** \"Anna w\u00fcnschte sich eine **Tochter**\". Diese Tochter existiert nicht, ist aber eine hypothetische Einzelperson. -> `specialcase_entity: [\"nonfact\"]`.\n-   **Beispiel 2:** In einem philosophischen Dialog wird gesagt: \"was w\u00fcrde ein **Grieche**... einem **Chineser** antworten?\". Diese Personen sind keine allgemeinen Kategorien, sondern **hypothetische Beispiele** in einer Argumentation. -> `specialcase_entity: [\"nonfact\"]`.\n-   **Anweisung:** Wenn ja, erstelle eine neue Entit\u00e4t und f\u00fcge `\"nonfact\"` zum `specialcase_entity`-Array hinzu. Diese Entit\u00e4t ist **NICHT `generic`**.\n\n### Schritt 3: Pr\u00fcfung auf generische Entit\u00e4t (Niedrigste Priorit\u00e4t)\n*Frage dich:* Nur wenn Schritt 1 und 2 NICHT zutreffen: Bezieht sich die Erw\u00e4hnung auf eine **abstrakte Kategorie von Menschen** oder wird eine allgemeing\u00fcltige, gesetzm\u00e4\u00dfige Aussage \u00fcber eine Art von Mensch gemacht? L\u00e4sst sich die Entit\u00e4t als \"XXX im Allgemeinen\" beschreiben, ohne dass sie ein spezifisches oder hypothetisches Individuum im Kontext meint?\n-   **Typischer Fall:** Sentenzen, allgemeine Aussagen, die sich nicht auf den unmittelbaren Kontext zur\u00fcckf\u00fchren lassen.\n-   **Beispiel:** \"Ein **K\u00f6nig** muss stets gerecht sein.\" (Wenn dies als allgemeine Regel und nicht bezogen auf einen bestimmten K\u00f6nig gesagt wird).\n-   **Anweisung:** Nur in diesem Fall, f\u00fcge `\"generic\"` zum `specialcase_entity`-Array hinzu. Der Name der Entit\u00e4t muss von der Form \"XXX im Allgemeinen\" sein.\n\n### Sonderfall: Duale Referenz (Generisch + Spezifisch)\n*Frage dich:* Spricht eine Figur eine allgemeine Gruppe an (\"ihr Frauen\", \"ihr Elenden\"), meint damit aber **gleichzeitig** und erkennbar auch eine **spezifische Figur** im Raum?\n-   **Typischer Fall:** Eine Apostrophe (Anrede), die eine allgemeine Aussage mit einer direkten, pers\u00f6nlichen Ansprache verbindet.\n-   **Beispiel:** Gustav sagt zu Sophie: \"**Ihr** ungl\u00fccklichen **Weiber**! wie k\u00f6nnt **ihr** so th\u00f6richt seyn...\".\n-   **Anweisung:** In diesem seltenen Fall soll die Erw\u00e4hnung **mehrere Annotationsobjekte** im Array erhalten, da es sich um eine Gruppe von Fall 2 handelt: Eines f\u00fcr die generische Entit\u00e4t (\"Weiber im Allgemeinen\") und eines f\u00fcr jede spezifische Figur, die mitgemeint ist (hier: \"Sophie\").\n\n### Handhabung von Gruppen\n\n**Fall 1: Gruppe als Einheit (Eine Annotation)**\n-   **Logik:** Erw\u00e4hnungen im Plural, die sich auf eine **konkrete, aber anonyme oder nicht weiter aufgeschl\u00fcsselte Menge von Personen** in der Welt der Erz\u00e4hlung beziehen. Auch wenn die Mitglieder unbekannt sind, ist es eine spezifische Gruppe im Text. *Beispiele: \"meine Freunde\", \"die P\u00e4chter\", \"die Wachen am Tor\".*\n-   **Umsetzung:** Das `Annotation`-Array enth\u00e4lt **ein einziges Objekt**.\n    -   Dieses Objekt bekommt eine eigene Gruppen-`entity_id` (z.B. \"manche t\u00e4tige Freunde\").\n    -   Bei ihrer ersten Nennung, setze `specialcase_entity: [\"group\"]`.\n\n**Fall 2: Aufl\u00f6sbare Gruppe (Mehrere Annotationen)**\n-   **Logik:** Die Erw\u00e4hnung (oft ein Pronomen wie \"sie\", \"ihnen\" oder \"beide\") verweist klar auf **mehrere, individuelle Entit\u00e4ten, die im unmittelbaren Kontext bekannt sind**.\n-   **Umsetzung:** Das `Annotation`-Array enth\u00e4lt **mehrere Objekte**, eines f\u00fcr jede referenzierte Entit\u00e4t.\n    -   Jedes Objekt enth\u00e4lt die `entity_id` des jeweiligen Mitglieds.\n    -   Erfinde keine neuen Einzelfiguren. Wenn die Mitglieder nicht klar aus dem Kontext hervorgehen, ist es Fall 1.\n    - Beachte, dass in diesem Fall das Feld \"Annotation\" aus mehreren Objekten besteht. Auf keinen Fall darf das Feld \"entity_id\" aus einer Liste von Namen bestehen.\n\n## Ausgabeformat\n-   Gib EXAKT so viele Zeilen aus, wie Du im Input (B) erhalten hast. KEINE Zeilen \u00fcberspringen.\n-   Das Format ist JSON Lines (ein komplettes und valides JSON-Objekt pro Zeile).\n-   Gib NUR die aktualisierte Liste B zur\u00fcck.\n-   Keine Code-Fences, Kommentare oder Erkl\u00e4rungen in der Ausgabe.\n\n## Beispiele\n\n**Beispiel-Text:**\n[Hans][1] und [Anna][2] sa\u00dfen im Garten. [Sie][3] w\u00fcnschte [sich][4] eine [Tochter][5]. [Hans][6] stellte [sich][7] vor, dass ein [K\u00f6nig][8] stets gerecht sein muss. Sp\u00e4ter gingen [sie][9] gemeinsam ins Haus.\n\n**Input B:**\n{\"ID\": 1, \"Position\": 0, \"Text\": \"Hans\", \"Annotation\": []}\n{\"ID\": 2, \"Position\": 2, \"Text\": \"Anna\", \"Annotation\": []}\n{\"ID\": 3, \"Position\": 7, \"Text\": \"Sie\", \"Annotation\": []}\n{\"ID\": 4, \"Position\": 9, \"Text\": \"sich\", \"Annotation\": []}\n{\"ID\": 5, \"Position\": 11, \"Text\": \"Tochter\", \"Annotation\": []}\n{\"ID\": 6, \"Position\": 14, \"Text\": \"Hans\", \"Annotation\": []}\n{\"ID\": 7, \"Position\": 16, \"Text\": \"sich\", \"Annotation\": []}\n{\"ID\": 8, \"Position\": 21, \"Text\": \"K\u00f6nig\", \"Annotation\": []}\n{\"ID\": 9, \"Position\": 30, \"Text\": \"sie\", \"Annotation\": []}\n\n**Erwartete Ausgabe:**\n{\"ID\": 1, \"Position\": 0, \"Text\": \"Hans\", \"Annotation\": [{\"entity_id\": \"Hans\", \"gender\": \"m\"}]}\n{\"ID\": 2, \"Position\": 2, \"Text\": \"Anna\", \"Annotation\": [{\"entity_id\": \"Anna\", \"gender\": \"f\"}]}\n{\"ID\": 3, \"Position\": 7, \"Text\": \"Sie\", \"Annotation\": [{\"entity_id\": \"Anna\"}]}\n{\"ID\": 4, \"Position\": 9, \"Text\": \"sich\", \"Annotation\": [{\"entity_id\": \"Anna\"}]}\n{\"ID\": 5, \"Position\": 11, \"Text\": \"Tochter\", \"Annotation\": [{\"entity_id\": \"gew\u00fcnschte Tochter\", \"gender\": \"f\", \"specialcase_entity\": [\"nonfact\"]}]}\n{\"ID\": 6, \"Position\": 14, \"Text\": \"Hans\", \"Annotation\": [{\"entity_id\": \"Hans\"}]}\n{\"ID\": 7, \"Position\": 16, \"Text\": \"sich\", \"Annotation\": [{\"entity_id\": \"Hans\"}]}\n{\"ID\": 8, \"Position\": 21, \"Text\": \"K\u00f6nig\", \"Annotation\": [{\"entity_id\": \"ein K\u00f6nig im Allgemeinen\", \"gender\": \"m\", \"specialcase_entity\": [\"generic\"]}]}\n{\"ID\": 9, \"Position\": 30, \"Text\": \"sie\", \"Annotation\": [{\"entity_id\": \"Hans\"}, {\"entity_id\": \"Anna\"}]}\n\n---\n\n**Hier ist der zu annotierende Text:**\nInput A:\nCaroline [Auguste Fischer][1] Gustavs Verirrungen Ein Roman [ Vorbemerkung ] Man erz\u00e4hlt [uns][2] oft , was die [Menschen][3] sind ; man beschreibt [uns][4] noch \u00f6fter \u2013 vielleicht ein wenig zu oft wie [sie][5] seyn sollen ; aber man sagt [uns][6] , wie [mich][7] d\u00fcnkt , noch immer nicht oft genug : auf welche Weise [sie][8] das werden , was [sie][9] sind . Ist diese letzte Bemerkung richtig , so hoffe [ich][10] , sie werde eine Entschuldigung f\u00fcr die Herausgabe des gegenw\u00e4rtigen kleinen Romans enthalten .\n\nInput B:\n{\"ID\": 1, \"Position\": 1, \"Text\": \"Auguste Fischer\", \"Annotation\": []}\n{\"ID\": 2, \"Position\": 12, \"Text\": \"uns\", \"Annotation\": []}\n{\"ID\": 3, \"Position\": 17, \"Text\": \"Menschen\", \"Annotation\": []}\n{\"ID\": 4, \"Position\": 22, \"Text\": \"uns\", \"Annotation\": []}\n{\"ID\": 5, \"Position\": 32, \"Text\": \"sie\", \"Annotation\": []}\n{\"ID\": 6, \"Position\": 39, \"Text\": \"uns\", \"Annotation\": []}\n{\"ID\": 7, \"Position\": 42, \"Text\": \"mich\", \"Annotation\": []}\n{\"ID\": 8, \"Position\": 54, \"Text\": \"sie\", \"Annotation\": []}\n{\"ID\": 9, \"Position\": 59, \"Text\": \"sie\", \"Annotation\": []}\n{\"ID\": 10, \"Position\": 70, \"Text\": \"ich\", \"Annotation\": []}\n",
+  "raw_output": "{\"ID\": 1, \"Position\": 1, \"Text\": \"Auguste Fischer\", \"Annotation\": [{\"entity_id\": \"Caroline Auguste Fischer\", \"gender\": \"f\", \"specialcase_entity\": []}]}\n{\"ID\": 2, \"Position\": 12, \"Text\": \"uns\", \"Annotation\": [{\"entity_id\": \"Leserschaft im Allgemeinen\", \"gender\": \"mf\", \"specialcase_entity\": [\"generic\", \"group\"]}]}\n{\"ID\": 3, \"Position\": 17, \"Text\": \"Menschen\", \"Annotation\": [{\"entity_id\": \"Menschen im Allgemeinen\", \"gender\": \"mf\", \"specialcase_entity\": [\"generic\", \"group\"]}]}\n{\"ID\": 4, \"Position\": 22, \"Text\": \"uns\", \"Annotation\": [{\"entity_id\": \"Leserschaft im Allgemeinen\"}]}\n{\"ID\": 5, \"Position\": 32, \"Text\": \"sie\", \"Annotation\": [{\"entity_id\": \"Menschen im Allgemeinen\"}]}\n{\"ID\": 6, \"Position\": 39, \"Text\": \"uns\", \"Annotation\": [{\"entity_id\": \"Leserschaft im Allgemeinen\"}]}\n{\"ID\": 7, \"Position\": 42, \"Text\": \"mich\", \"Annotation\": [{\"entity_id\": \"Caroline Auguste Fischer\"}]}\n{\"ID\": 8, \"Position\": 54, \"Text\": \"sie\", \"Annotation\": [{\"entity_id\": \"Menschen im Allgemeinen\"}]}\n{\"ID\": 9, \"Position\": 59, \"Text\": \"sie\", \"Annotation\": [{\"entity_id\": \"Menschen im Allgemeinen\"}]}\n",
+  "generation_details": [
+    {
+      "usage": {
+        "prompt_tokens": 3334,
+        "completion_tokens": 401,
+        "total_tokens": 3735,
+        "cost": 0.00287,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.001667,
+          "upstream_inference_completions_cost": 0.001203
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      },
+      "finish_reason": "stop",
+      "request_id": "gen-1766846572-J0VPCkjAysVKCFXFnfE4"
+    }
+  ],
+  "json_output": [
+    {
+      "ID": 1,
+      "Position": 1,
+      "Text": "Auguste Fischer",
+      "Annotation": [
+        {
+          "entity_id": "Caroline Auguste Fischer",
+          "gender": "f",
+          "specialcase_entity": []
+        }
+      ]
+    },
+    {
+      "ID": 2,
+      "Position": 12,
+      "Text": "uns",
+      "Annotation": [
+        {
+          "entity_id": "Leserschaft im Allgemeinen",
+          "gender": "mf",
+          "specialcase_entity": [
+            "generic",
+            "group"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 3,
+      "Position": 17,
+      "Text": "Menschen",
+      "Annotation": [
+        {
+          "entity_id": "Menschen im Allgemeinen",
+          "gender": "mf",
+          "specialcase_entity": [
+            "generic",
+            "group"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 4,
+      "Position": 22,
+      "Text": "uns",
+      "Annotation": [
+        {
+          "entity_id": "Leserschaft im Allgemeinen"
+        }
+      ]
+    },
+    {
+      "ID": 5,
+      "Position": 32,
+      "Text": "sie",
+      "Annotation": [
+        {
+          "entity_id": "Menschen im Allgemeinen"
+        }
+      ]
+    },
+    {
+      "ID": 6,
+      "Position": 39,
+      "Text": "uns",
+      "Annotation": [
+        {
+          "entity_id": "Leserschaft im Allgemeinen"
+        }
+      ]
+    },
+    {
+      "ID": 7,
+      "Position": 42,
+      "Text": "mich",
+      "Annotation": [
+        {
+          "entity_id": "Caroline Auguste Fischer"
+        }
+      ]
+    },
+    {
+      "ID": 8,
+      "Position": 54,
+      "Text": "sie",
+      "Annotation": [
+        {
+          "entity_id": "Menschen im Allgemeinen"
+        }
+      ]
+    },
+    {
+      "ID": 9,
+      "Position": 59,
+      "Text": "sie",
+      "Annotation": [
+        {
+          "entity_id": "Menschen im Allgemeinen"
+        }
+      ]
+    }
+  ],
+  "output": [
+    {
+      "id": "1",
+      "token_idx": [
+        1,
+        2
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 1,
+            "fullname": "Caroline Auguste Fischer",
+            "gender": "f",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "token_idx": [
+        12
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": "generic_0001",
+            "fullname": "Leserschaft im Allgemeinen",
+            "gender": "u",
+            "specialcase_entity": [
+              "generic"
+            ],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "token_idx": [
+        17
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": "generic_0004",
+            "fullname": "Menschen im Allgemeinen",
+            "gender": "u",
+            "specialcase_entity": [
+              "generic"
+            ],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "token_idx": [
+        22
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": "generic_0002",
+            "fullname": "Leserschaft im Allgemeinen",
+            "gender": "u",
+            "specialcase_entity": [
+              "generic"
+            ],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "token_idx": [
+        32
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": "generic_0005",
+            "fullname": "Menschen im Allgemeinen",
+            "gender": "u",
+            "specialcase_entity": [
+              "generic"
+            ],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "token_idx": [
+        39
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": "generic_0003",
+            "fullname": "Leserschaft im Allgemeinen",
+            "gender": "u",
+            "specialcase_entity": [
+              "generic"
+            ],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "token_idx": [
+        42
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 1,
+            "fullname": "Caroline Auguste Fischer",
+            "gender": "f",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "token_idx": [
+        54
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": "generic_0006",
+            "fullname": "Menschen im Allgemeinen",
+            "gender": "u",
+            "specialcase_entity": [
+              "generic"
+            ],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "token_idx": [
+        59
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": "generic_0007",
+            "fullname": "Menschen im Allgemeinen",
+            "gender": "u",
+            "specialcase_entity": [
+              "generic"
+            ],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    }
+  ],
+  "exception": null
+}

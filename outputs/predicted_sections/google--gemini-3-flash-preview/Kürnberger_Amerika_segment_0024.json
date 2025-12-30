@@ -1,0 +1,3912 @@
+{
+  "model": "google/gemini-3-flash-preview",
+  "request_args": {
+    "seed": 123,
+    "temperature": 0,
+    "reasoning": {
+      "enabled": false
+    }
+  },
+  "raw_input": "\n# Entit\u00e4tsannotation in literarischen Texten\n\n## Aufgabe\nAnnotiere JEDE markierte Entit\u00e4ts-Erw\u00e4hnung im Text. F\u00fcr jede Erw\u00e4hnung (jede Zeile im Input B) musst du das \"Annotation\"-Feld als ein Array von Objekten bef\u00fcllen. Halte dich exakt an die vorgegebenen Kernprinzipien, die Struktur und die Logik der Sonderf\u00e4lle.\n\n## Zentrales Konzept: Die Entit\u00e4t\nEine **Entit\u00e4t** ist das konzeptionelle Ding, auf das im Text verwiesen wird. F\u00fcr diese Aufgabe gibt es zwei Arten von Entit\u00e4ten:\n1.  **Einzelfigur:** Ein einzelner menschlicher oder menschen\u00e4hnlicher Charakter (dies schlie\u00dft auch hypothetische Figuren mit ein).\n2.  **Gruppe als Einheit:** Eine Gruppe, die im Text als ein zusammenh\u00e4ngender Akteur handelt ODER als eine spezifische, aber nicht in ihre Mitglieder aufgel\u00f6ste Menge von Personen erscheint (siehe \"Fall 1\" bei den Gruppenregeln).\n\n## Input\nDu erh\u00e4ltst:\n1.  Den vollst\u00e4ndigen Text (A).\n2.  Eine Liste der zu annotierenden Erw\u00e4hnungen (B) als JSON Lines. Jede Erw\u00e4hnung ist ein einzelnes Wort.\n\n## Kernprinzipien der Annotation\n1.  **Konsistenz der `entity_id`:** Die wichtigste Regel! Verwende f\u00fcr dieselbe Entit\u00e4t (egal ob Einzelfigur oder Gruppe als Einheit) \u00fcber den gesamten Text hinweg **IMMER** die exakt gleiche `entity_id`.\n2.  **Namenswahl f\u00fcr `entity_id`:**\n    -   Bei Einzelfiguren mit Eigennamen: Verwende den Vornamen.\n    -   Bei Einzelfiguren ohne Namen: Erstelle eine kurze, pr\u00e4zise, textnahe Umschreibung (z.B. \"der alte Mann\", \"die Tante\").\n    -   Bei Gruppen als Einheit (Fall 1): Verwende eine passende Gruppenbezeichnung (z.B. \"Familie Armbruster\", \"die Wachen\").\n3.  **Referenz-Logik:** Jede Erw\u00e4hnung referenziert eine oder mehrere Entit\u00e4ten. Deine Aufgabe ist es, diese im \"Annotation\"-Array vollst\u00e4ndig und korrekt abzubilden.\n\n## Attribute im Annotationsobjekt\n-   `gender`: (String, nur bei erster Nennung) `m`, `f`, `nb` (nicht-bin\u00e4r), `u` (unbekannt), `mf` (nur bei Gruppen, falls diese aus m\u00e4nnlichen und weiblichen Mitgliedern besteht).\n-   `specialcase_entity`: (**Array von Strings**, nur bei erster Nennung) Sonderf\u00e4lle, die die Natur der Entit\u00e4t beschreiben. Alle diese Attribute sind unabh\u00e4ngig voneinander und k\u00f6nnen parallel auftreten.\n    -   `nonfact`: nicht-faktische Entit\u00e4t, siehe unten.\n    -   `group`: Gruppe, siehe unten.\n    -   `generic`: Generische Entit\u00e4t, siehe unten.\n    -   Falls keine dieser Attribute zutrifft, dann setze bei der ersten Nennung `\"specialcase_entity\": []`. Beachte, dass diese in der ersten Nennung angegebenen Attribute auch f\u00fcr alle folgenden Nennungen gelten m\u00fcssen, da diese Attribute sich auf die Entit\u00e4t beziehen.\n    \n## Logik der Sonderf\u00e4lle: Eine Entscheidungshierarchie\n\n**WICHTIG:** Gehe bei jeder Erw\u00e4hnung diese Schritte in der angegebenen Reihenfolge durch. Annotiere gem\u00e4\u00df der **ersten zutreffenden Regel** und ignoriere die folgenden f\u00fcr diese eine Erw\u00e4hnung, au\u00dfer es wird explizit anders angegeben (wie bei dualen Referenzen). Die korrekte Unterscheidung von spezifischen, nicht-faktischen und generischen Entit\u00e4ten ist entscheidend.\n\n### Schritt 1: Pr\u00fcfung auf spezifische Referenz (H\u00f6chste Priorit\u00e4t)\n*Frage dich:* Kann diese Erw\u00e4hnung auf eine **konkrete, bereits bekannte Figur** im Text zur\u00fcckgef\u00fchrt werden, selbst wenn ein allgemeiner Begriff (wie \"der Mann\", \"der Schuldige\"), ein Reflexivpronomen (\"sich\") oder das unpers\u00f6nliche Pronomen \"man\" verwendet wird?\n-   **Typischer Fall:** Eine Figur spricht \u00fcber sich selbst oder eine andere Figur in verallgemeinernder Weise.\n-   **Beispiel 1:** Hans reflektiert \u00fcber seine eigene Schuld und sagt: \"...zeigt sich **dem Schuldigen** wie eine strenge Richterin\". Hier ist \"dem Schuldigen\" **keine** generische Entit\u00e4t, sondern eine Referenz auf `Hans`.\n-   **Beispiel 2:** Eine Figur sagt \"wenn **man** glaubte...\". Pr\u00fcfe scharf, ob `man` hier nicht f\u00fcr \"ich\" (also die sprechende Figur) steht. \n-   **Anweisung:** Wenn ja, l\u00f6se die Koreferenz zur spezifischen Figur auf. Diese Entit\u00e4t ist **NICHT `generic` und NICHT `nonfact`**.\n\n### Schritt 2: Pr\u00fcfung auf nicht-faktische Entit\u00e4t (Mittlere Priorit\u00e4t)\n*Frage dich:* Wenn die Erw\u00e4hnung sich nicht auf eine bekannte Figur bezieht, handelt es sich dann um eine **hypothetische, gew\u00fcnschte, negierte oder als Beispiel genannte Einzelfigur oder eine kleine, definierte Gruppe?** Existiert diese Entit\u00e4t zum Zeitpunkt der Erw\u00e4hnung nicht *real* in der erz\u00e4hlten Welt, wird aber als individuelles Konzept behandelt?\n-   **Typischer Fall:** Gedankenexperimente, W\u00fcnsche, Pl\u00e4ne, Warnungen.\n-   **Beispiel 1:** \"Anna w\u00fcnschte sich eine **Tochter**\". Diese Tochter existiert nicht, ist aber eine hypothetische Einzelperson. -> `specialcase_entity: [\"nonfact\"]`.\n-   **Beispiel 2:** In einem philosophischen Dialog wird gesagt: \"was w\u00fcrde ein **Grieche**... einem **Chineser** antworten?\". Diese Personen sind keine allgemeinen Kategorien, sondern **hypothetische Beispiele** in einer Argumentation. -> `specialcase_entity: [\"nonfact\"]`.\n-   **Anweisung:** Wenn ja, erstelle eine neue Entit\u00e4t und f\u00fcge `\"nonfact\"` zum `specialcase_entity`-Array hinzu. Diese Entit\u00e4t ist **NICHT `generic`**.\n\n### Schritt 3: Pr\u00fcfung auf generische Entit\u00e4t (Niedrigste Priorit\u00e4t)\n*Frage dich:* Nur wenn Schritt 1 und 2 NICHT zutreffen: Bezieht sich die Erw\u00e4hnung auf eine **abstrakte Kategorie von Menschen** oder wird eine allgemeing\u00fcltige, gesetzm\u00e4\u00dfige Aussage \u00fcber eine Art von Mensch gemacht? L\u00e4sst sich die Entit\u00e4t als \"XXX im Allgemeinen\" beschreiben, ohne dass sie ein spezifisches oder hypothetisches Individuum im Kontext meint?\n-   **Typischer Fall:** Sentenzen, allgemeine Aussagen, die sich nicht auf den unmittelbaren Kontext zur\u00fcckf\u00fchren lassen.\n-   **Beispiel:** \"Ein **K\u00f6nig** muss stets gerecht sein.\" (Wenn dies als allgemeine Regel und nicht bezogen auf einen bestimmten K\u00f6nig gesagt wird).\n-   **Anweisung:** Nur in diesem Fall, f\u00fcge `\"generic\"` zum `specialcase_entity`-Array hinzu. Der Name der Entit\u00e4t muss von der Form \"XXX im Allgemeinen\" sein.\n\n### Sonderfall: Duale Referenz (Generisch + Spezifisch)\n*Frage dich:* Spricht eine Figur eine allgemeine Gruppe an (\"ihr Frauen\", \"ihr Elenden\"), meint damit aber **gleichzeitig** und erkennbar auch eine **spezifische Figur** im Raum?\n-   **Typischer Fall:** Eine Apostrophe (Anrede), die eine allgemeine Aussage mit einer direkten, pers\u00f6nlichen Ansprache verbindet.\n-   **Beispiel:** Gustav sagt zu Sophie: \"**Ihr** ungl\u00fccklichen **Weiber**! wie k\u00f6nnt **ihr** so th\u00f6richt seyn...\".\n-   **Anweisung:** In diesem seltenen Fall soll die Erw\u00e4hnung **mehrere Annotationsobjekte** im Array erhalten, da es sich um eine Gruppe von Fall 2 handelt: Eines f\u00fcr die generische Entit\u00e4t (\"Weiber im Allgemeinen\") und eines f\u00fcr jede spezifische Figur, die mitgemeint ist (hier: \"Sophie\").\n\n### Handhabung von Gruppen\n\n**Fall 1: Gruppe als Einheit (Eine Annotation)**\n-   **Logik:** Erw\u00e4hnungen im Plural, die sich auf eine **konkrete, aber anonyme oder nicht weiter aufgeschl\u00fcsselte Menge von Personen** in der Welt der Erz\u00e4hlung beziehen. Auch wenn die Mitglieder unbekannt sind, ist es eine spezifische Gruppe im Text. *Beispiele: \"meine Freunde\", \"die P\u00e4chter\", \"die Wachen am Tor\".*\n-   **Umsetzung:** Das `Annotation`-Array enth\u00e4lt **ein einziges Objekt**.\n    -   Dieses Objekt bekommt eine eigene Gruppen-`entity_id` (z.B. \"manche t\u00e4tige Freunde\").\n    -   Bei ihrer ersten Nennung, setze `specialcase_entity: [\"group\"]`.\n\n**Fall 2: Aufl\u00f6sbare Gruppe (Mehrere Annotationen)**\n-   **Logik:** Die Erw\u00e4hnung (oft ein Pronomen wie \"sie\", \"ihnen\" oder \"beide\") verweist klar auf **mehrere, individuelle Entit\u00e4ten, die im unmittelbaren Kontext bekannt sind**.\n-   **Umsetzung:** Das `Annotation`-Array enth\u00e4lt **mehrere Objekte**, eines f\u00fcr jede referenzierte Entit\u00e4t.\n    -   Jedes Objekt enth\u00e4lt die `entity_id` des jeweiligen Mitglieds.\n    -   Erfinde keine neuen Einzelfiguren. Wenn die Mitglieder nicht klar aus dem Kontext hervorgehen, ist es Fall 1.\n    - Beachte, dass in diesem Fall das Feld \"Annotation\" aus mehreren Objekten besteht. Auf keinen Fall darf das Feld \"entity_id\" aus einer Liste von Namen bestehen.\n\n## Ausgabeformat\n-   Gib EXAKT so viele Zeilen aus, wie Du im Input (B) erhalten hast. KEINE Zeilen \u00fcberspringen.\n-   Das Format ist JSON Lines (ein komplettes und valides JSON-Objekt pro Zeile).\n-   Gib NUR die aktualisierte Liste B zur\u00fcck.\n-   Keine Code-Fences, Kommentare oder Erkl\u00e4rungen in der Ausgabe.\n\n## Beispiele\n\n**Beispiel-Text:**\n[Hans][1] und [Anna][2] sa\u00dfen im Garten. [Sie][3] w\u00fcnschte [sich][4] eine [Tochter][5]. [Hans][6] stellte [sich][7] vor, dass ein [K\u00f6nig][8] stets gerecht sein muss. Sp\u00e4ter gingen [sie][9] gemeinsam ins Haus.\n\n**Input B:**\n{\"ID\": 1, \"Position\": 0, \"Text\": \"Hans\", \"Annotation\": []}\n{\"ID\": 2, \"Position\": 2, \"Text\": \"Anna\", \"Annotation\": []}\n{\"ID\": 3, \"Position\": 7, \"Text\": \"Sie\", \"Annotation\": []}\n{\"ID\": 4, \"Position\": 9, \"Text\": \"sich\", \"Annotation\": []}\n{\"ID\": 5, \"Position\": 11, \"Text\": \"Tochter\", \"Annotation\": []}\n{\"ID\": 6, \"Position\": 14, \"Text\": \"Hans\", \"Annotation\": []}\n{\"ID\": 7, \"Position\": 16, \"Text\": \"sich\", \"Annotation\": []}\n{\"ID\": 8, \"Position\": 21, \"Text\": \"K\u00f6nig\", \"Annotation\": []}\n{\"ID\": 9, \"Position\": 30, \"Text\": \"sie\", \"Annotation\": []}\n\n**Erwartete Ausgabe:**\n{\"ID\": 1, \"Position\": 0, \"Text\": \"Hans\", \"Annotation\": [{\"entity_id\": \"Hans\", \"gender\": \"m\"}]}\n{\"ID\": 2, \"Position\": 2, \"Text\": \"Anna\", \"Annotation\": [{\"entity_id\": \"Anna\", \"gender\": \"f\"}]}\n{\"ID\": 3, \"Position\": 7, \"Text\": \"Sie\", \"Annotation\": [{\"entity_id\": \"Anna\"}]}\n{\"ID\": 4, \"Position\": 9, \"Text\": \"sich\", \"Annotation\": [{\"entity_id\": \"Anna\"}]}\n{\"ID\": 5, \"Position\": 11, \"Text\": \"Tochter\", \"Annotation\": [{\"entity_id\": \"gew\u00fcnschte Tochter\", \"gender\": \"f\", \"specialcase_entity\": [\"nonfact\"]}]}\n{\"ID\": 6, \"Position\": 14, \"Text\": \"Hans\", \"Annotation\": [{\"entity_id\": \"Hans\"}]}\n{\"ID\": 7, \"Position\": 16, \"Text\": \"sich\", \"Annotation\": [{\"entity_id\": \"Hans\"}]}\n{\"ID\": 8, \"Position\": 21, \"Text\": \"K\u00f6nig\", \"Annotation\": [{\"entity_id\": \"ein K\u00f6nig im Allgemeinen\", \"gender\": \"m\", \"specialcase_entity\": [\"generic\"]}]}\n{\"ID\": 9, \"Position\": 30, \"Text\": \"sie\", \"Annotation\": [{\"entity_id\": \"Hans\"}, {\"entity_id\": \"Anna\"}]}\n\n---\n\n**Hier ist der zu annotierende Text:**\nInput A:\nin der That scherzweise so \u2014 hatte ein Kr\u00e4nzchen der fashionablesten [Cavaliere][1] gewettet , [wer][2] unter [ihnen][3] in der kostbarsten und originellsten Maske erscheinen w\u00fcrde . Der [Reichsgraf][4] setzte zum Besten Griechenlands Zwanzig Tausend Francs , da\u00df [er][5] die Wette gewinnen wolle . [Er][6] erschien aber im Habit eines \u2014 [Hausirers][7] , trug das Tuch und die W\u00e4sche eines servirenden Laden-Commis , dazu nur noch am gr\u00fcnen Bande [seinen][8] Tabulettkasten von Ebenholz vor [sich][9] an der Brust . Mit diesen Kasten promenirte [er][10] ausrufend durch die Appartements \u2014 [Messieurs][11] et [Mesdames][12] , achetez , achetez , s'il [vous][13] plait ! Objets de toilette , objets de fantaisie , bijoux , parfums , avancez , [Messieurs][14] et [Mesdames][15] ! Lachend und glossirend dr\u00e4ngten [sich][16] die reizenden [Damen][17] des Balls um die drollige Charaktermaske , der [Graf][18] theilte nach links und rechts [seine][19] Quelquechoserien aus , und die Waare fand um so schnelleren Abgang , als man sie ohne Zweifel f\u00fcr un\u00e4cht hielt . Aber , \u2014 welch ein angenehmes Staunen wogte , erst fl\u00fcsternd , dann laut und immer lauter , durch die S\u00e4le , als man die Entdeckung machte , da\u00df der blitzende Inhalt der vielerlei Sch\u00e4chtelchen und K\u00e4stchen , da\u00df die Bonbonni\u00e8ren mit T\u00fcrkissen oder Rubinen , die Ringe und Ohrringe , die damascirten Flacons mit ihren Steinen , die reichbesetzten Damenuhren von Breguet , die Colliers von [Bot ,][20] mit gro\u00dfen Chrysoprasen geschm\u00fcckt , die massiven antik gearbeiteten Armspangen , die modernen Berliner Eiseng\u00fcrtel mit Sapphiren oder Amethysten \u00e0 jour gefa\u00dft , kurz , da\u00df der ganze Galanteriekram \u00e4cht war ! In Wahrheit , [Madame][21] , der [Graf][22] hat an jenem Abend einen Werth von Hundert Tausend Francs verschenkt f\u00fcr Zwanzig Tausend Francs zu Gunsten Griechenlands und \u2014 f\u00fcr den Nachruf : Der artige deutsche [Cavalier][23] ! \u2014 [Wir][24] wollen nun sehen , schlo\u00df [Moorfeld][25] aufstehend , wo [wir][26] in Amerika die Stelle finden , dies Treiben des lustigen alten Europa m\u00f6glichst originalgetreu fortzusetzen . Aber , bitte , [Madame][27] , verrathen [Sie][28] [mich][29] nicht . [Wir][30] m\u00f6chten den Cynismus der Land-Jobberei nicht vor der Zeit aufregen , und dann \u2014 kommt ja Alles noch , wie gesagt , auf [mein][31] und [meiner][32] [Collegen][33] Referat an . In diesem Augenblicke kam [Mr. Braubacher][34] mit [Anhorst][35] zur\u00fcck , hinter [ihnen][36] zwei schmalleibige [Knaben][37] mit matten Augen und bleichen Gesichtern , verz\u00e4rtelte [Newyorker-Spr\u00f6\u00dflinge][38] . [Einer][39] [derselben][40] pflanzte [sich][41] sogleich vor [Moorfeld][42] hin und rief : [Ma][43] , ist das auch ein [Dutchman][44] ? Aber die [Ma][45] klapste mit eigener feiner Hand den [Frager][46] auf den Mund und z\u00fcrnte sehr ernsthaft : [Unartiger][47] ! Wie oft habe [ich][48] [dir][49] gesagt : German hei\u00dft ein [Deutscher][50] , nicht [Dutchman][51] ! Dann wandte [sie][52] [sich][53] mit einem verzerrten L\u00e4cheln zu [Moorfeld][54] : Entschuldigung , [Sir][55] ! deutsch \u2014 dutch \u2014 es liegt den [Kindern][56] so im Munde . \u2014 Hat nichts zu sagen , [Madame][57] ; [ich][58] werde es an [meiner][59] Bem\u00fchung nicht fehlen lassen , den lieben [Kleinen][60] einen regelm\u00e4\u00dfigen deutschen Sprachunterricht zu verschaffen . \u2014 O , [ich][61] w\u00e4re unendlich dankbar , [Sir][62] , grinste [Lady Morgan][63] \u00fcbers\u00fc\u00df . Die [Kinder][64] aber staunten [ihre][65] [Ma][66] , [Mister Brubaker][67] [seine][68] [Mistre\u00df][69] , [Anhorst][70] [seinen][71] [Moorfeld][72] an , und [Moorfeld][73] griff mit einer cavalierm\u00e4\u00dfigen tour de main nach [seinem][74] Hut , und empfahl [sich][75] nach allen Seiten im herzlichsten Einverst\u00e4ndni\u00df . [Unser][76] [Paar][77] hatte den Farm lange hinter [sich][78] , als [Anhorst][79] endlich eine Art versteinertes Schweigen brach : Darf [ich][80] [mir][81] erlauben , [Sir][82] , [Ihrer \u2014][83] [wickedness][84] [meine][85] ganze Huldigung darzubringen ? Bitte ! [Ich][86] habe der [Gans][87] blo\u00df ein wenig Vogeldunst gestreut , antwortete [Moorfeld][88] . [Er][89] erz\u00e4hlte [seinen][90] Einfall . [Sie][91] hat nun ein Jahr lang Besserungsfrist , sagte [er][92] , und kommt der [Reichsgraf][93] nicht , so kommt vielleicht doch die Karbatsche . [Ihren][94] [Mann][95] will [ich][96] inzwischen auch noch ein wenig abrichten . [Anhorst][97] bezeigte [sich][98] ungemein erfreut \u00fcber das Geh\u00f6rte . Vielleicht gefiel [ihm][99] [Moorfeld's][100] Puff darum so ungew\u00f6hnlich , weil er nicht blo\u00df ein m\u00fcssiges Spiel des Witzes , sondern eine praktische That mit einem bestimmten sittlichen Zwecke war . Unter diesem Gesichtspunkte begriff [er][101] das Geistreiche leicht und lebhaft . Es war das Erstemal , auf dem abendlichen und theilweise n\u00e4chtlichen Nachhauseritt , da\u00df diese so ungleich gearteten [M\u00e4nner][102] [sich][103] besser als je verstanden . [Jeder][104] schien bei [sich][105] selbst gegen den Andern zu widerrufen , da\u00df [er][106] ausschlie\u00dflich Prosaiker oder ausschlie\u00dflich Sch\u00f6ngeist sei . Diese Meinung transpirirte mit einer warmen Ausstrahlung durch [ihr][107] Gespr\u00e4ch . [Anhorst's][108] und [Moorfeld's][109] Unterhaltung in dieser Stunde war von jener Art , welche dauernde Freundschaften zu begr\u00fcnden pflegt . So erreichten [sie][110] [ihren][111] einsamen Waldwinkel .\n\nInput B:\n{\"ID\": 1, \"Position\": 11, \"Text\": \"Cavaliere\", \"Annotation\": []}\n{\"ID\": 2, \"Position\": 14, \"Text\": \"wer\", \"Annotation\": []}\n{\"ID\": 3, \"Position\": 16, \"Text\": \"ihnen\", \"Annotation\": []}\n{\"ID\": 4, \"Position\": 27, \"Text\": \"Reichsgraf\", \"Annotation\": []}\n{\"ID\": 5, \"Position\": 37, \"Text\": \"er\", \"Annotation\": []}\n{\"ID\": 6, \"Position\": 43, \"Text\": \"Er\", \"Annotation\": []}\n{\"ID\": 7, \"Position\": 50, \"Text\": \"Hausirers\", \"Annotation\": []}\n{\"ID\": 8, \"Position\": 68, \"Text\": \"seinen\", \"Annotation\": []}\n{\"ID\": 9, \"Position\": 73, \"Text\": \"sich\", \"Annotation\": []}\n{\"ID\": 10, \"Position\": 82, \"Text\": \"er\", \"Annotation\": []}\n{\"ID\": 11, \"Position\": 88, \"Text\": \"Messieurs\", \"Annotation\": []}\n{\"ID\": 12, \"Position\": 90, \"Text\": \"Mesdames\", \"Annotation\": []}\n{\"ID\": 13, \"Position\": 97, \"Text\": \"vous\", \"Annotation\": []}\n{\"ID\": 14, \"Position\": 114, \"Text\": \"Messieurs\", \"Annotation\": []}\n{\"ID\": 15, \"Position\": 116, \"Text\": \"Mesdames\", \"Annotation\": []}\n{\"ID\": 16, \"Position\": 122, \"Text\": \"sich\", \"Annotation\": []}\n{\"ID\": 17, \"Position\": 125, \"Text\": \"Damen\", \"Annotation\": []}\n{\"ID\": 18, \"Position\": 134, \"Text\": \"Graf\", \"Annotation\": []}\n{\"ID\": 19, \"Position\": 140, \"Text\": \"seine\", \"Annotation\": []}\n{\"ID\": 20, \"Position\": 229, \"Text\": \"Bot ,\", \"Annotation\": []}\n{\"ID\": 21, \"Position\": 266, \"Text\": \"Madame\", \"Annotation\": []}\n{\"ID\": 22, \"Position\": 269, \"Text\": \"Graf\", \"Annotation\": []}\n{\"ID\": 23, \"Position\": 297, \"Text\": \"Cavalier\", \"Annotation\": []}\n{\"ID\": 24, \"Position\": 300, \"Text\": \"Wir\", \"Annotation\": []}\n{\"ID\": 25, \"Position\": 306, \"Text\": \"Moorfeld\", \"Annotation\": []}\n{\"ID\": 26, \"Position\": 310, \"Text\": \"wir\", \"Annotation\": []}\n{\"ID\": 27, \"Position\": 331, \"Text\": \"Madame\", \"Annotation\": []}\n{\"ID\": 28, \"Position\": 334, \"Text\": \"Sie\", \"Annotation\": []}\n{\"ID\": 29, \"Position\": 335, \"Text\": \"mich\", \"Annotation\": []}\n{\"ID\": 30, \"Position\": 338, \"Text\": \"Wir\", \"Annotation\": []}\n{\"ID\": 31, \"Position\": 362, \"Text\": \"mein\", \"Annotation\": []}\n{\"ID\": 32, \"Position\": 364, \"Text\": \"meiner\", \"Annotation\": []}\n{\"ID\": 33, \"Position\": 365, \"Text\": \"Collegen\", \"Annotation\": []}\n{\"ID\": 34, \"Position\": 373, \"Text\": \"Mr. Braubacher\", \"Annotation\": []}\n{\"ID\": 35, \"Position\": 376, \"Text\": \"Anhorst\", \"Annotation\": []}\n{\"ID\": 36, \"Position\": 380, \"Text\": \"ihnen\", \"Annotation\": []}\n{\"ID\": 37, \"Position\": 383, \"Text\": \"Knaben\", \"Annotation\": []}\n{\"ID\": 38, \"Position\": 392, \"Text\": \"Newyorker-Spr\\u00f6\\u00dflinge\", \"Annotation\": []}\n{\"ID\": 39, \"Position\": 394, \"Text\": \"Einer\", \"Annotation\": []}\n{\"ID\": 40, \"Position\": 395, \"Text\": \"derselben\", \"Annotation\": []}\n{\"ID\": 41, \"Position\": 397, \"Text\": \"sich\", \"Annotation\": []}\n{\"ID\": 42, \"Position\": 400, \"Text\": \"Moorfeld\", \"Annotation\": []}\n{\"ID\": 43, \"Position\": 405, \"Text\": \"Ma\", \"Annotation\": []}\n{\"ID\": 44, \"Position\": 411, \"Text\": \"Dutchman\", \"Annotation\": []}\n{\"ID\": 45, \"Position\": 415, \"Text\": \"Ma\", \"Annotation\": []}\n{\"ID\": 46, \"Position\": 422, \"Text\": \"Frager\", \"Annotation\": []}\n{\"ID\": 47, \"Position\": 431, \"Text\": \"Unartiger\", \"Annotation\": []}\n{\"ID\": 48, \"Position\": 436, \"Text\": \"ich\", \"Annotation\": []}\n{\"ID\": 49, \"Position\": 437, \"Text\": \"dir\", \"Annotation\": []}\n{\"ID\": 50, \"Position\": 443, \"Text\": \"Deutscher\", \"Annotation\": []}\n{\"ID\": 51, \"Position\": 446, \"Text\": \"Dutchman\", \"Annotation\": []}\n{\"ID\": 52, \"Position\": 450, \"Text\": \"sie\", \"Annotation\": []}\n{\"ID\": 53, \"Position\": 451, \"Text\": \"sich\", \"Annotation\": []}\n{\"ID\": 54, \"Position\": 457, \"Text\": \"Moorfeld\", \"Annotation\": []}\n{\"ID\": 55, \"Position\": 461, \"Text\": \"Sir\", \"Annotation\": []}\n{\"ID\": 56, \"Position\": 470, \"Text\": \"Kindern\", \"Annotation\": []}\n{\"ID\": 57, \"Position\": 481, \"Text\": \"Madame\", \"Annotation\": []}\n{\"ID\": 58, \"Position\": 483, \"Text\": \"ich\", \"Annotation\": []}\n{\"ID\": 59, \"Position\": 487, \"Text\": \"meiner\", \"Annotation\": []}\n{\"ID\": 60, \"Position\": 495, \"Text\": \"Kleinen\", \"Annotation\": []}\n{\"ID\": 61, \"Position\": 506, \"Text\": \"ich\", \"Annotation\": []}\n{\"ID\": 62, \"Position\": 511, \"Text\": \"Sir\", \"Annotation\": []}\n{\"ID\": 63, \"Position\": 514, \"Text\": \"Lady Morgan\", \"Annotation\": []}\n{\"ID\": 64, \"Position\": 519, \"Text\": \"Kinder\", \"Annotation\": []}\n{\"ID\": 65, \"Position\": 522, \"Text\": \"ihre\", \"Annotation\": []}\n{\"ID\": 66, \"Position\": 523, \"Text\": \"Ma\", \"Annotation\": []}\n{\"ID\": 67, \"Position\": 525, \"Text\": \"Mister Brubaker\", \"Annotation\": []}\n{\"ID\": 68, \"Position\": 527, \"Text\": \"seine\", \"Annotation\": []}\n{\"ID\": 69, \"Position\": 528, \"Text\": \"Mistre\\u00df\", \"Annotation\": []}\n{\"ID\": 70, \"Position\": 530, \"Text\": \"Anhorst\", \"Annotation\": []}\n{\"ID\": 71, \"Position\": 531, \"Text\": \"seinen\", \"Annotation\": []}\n{\"ID\": 72, \"Position\": 532, \"Text\": \"Moorfeld\", \"Annotation\": []}\n{\"ID\": 73, \"Position\": 536, \"Text\": \"Moorfeld\", \"Annotation\": []}\n{\"ID\": 74, \"Position\": 545, \"Text\": \"seinem\", \"Annotation\": []}\n{\"ID\": 75, \"Position\": 550, \"Text\": \"sich\", \"Annotation\": []}\n{\"ID\": 76, \"Position\": 558, \"Text\": \"Unser\", \"Annotation\": []}\n{\"ID\": 77, \"Position\": 559, \"Text\": \"Paar\", \"Annotation\": []}\n{\"ID\": 78, \"Position\": 565, \"Text\": \"sich\", \"Annotation\": []}\n{\"ID\": 79, \"Position\": 568, \"Text\": \"Anhorst\", \"Annotation\": []}\n{\"ID\": 80, \"Position\": 577, \"Text\": \"ich\", \"Annotation\": []}\n{\"ID\": 81, \"Position\": 578, \"Text\": \"mir\", \"Annotation\": []}\n{\"ID\": 82, \"Position\": 581, \"Text\": \"Sir\", \"Annotation\": []}\n{\"ID\": 83, \"Position\": 583, \"Text\": \"Ihrer \\u2014\", \"Annotation\": []}\n{\"ID\": 84, \"Position\": 585, \"Text\": \"wickedness\", \"Annotation\": []}\n{\"ID\": 85, \"Position\": 586, \"Text\": \"meine\", \"Annotation\": []}\n{\"ID\": 86, \"Position\": 593, \"Text\": \"Ich\", \"Annotation\": []}\n{\"ID\": 87, \"Position\": 596, \"Text\": \"Gans\", \"Annotation\": []}\n{\"ID\": 88, \"Position\": 604, \"Text\": \"Moorfeld\", \"Annotation\": []}\n{\"ID\": 89, \"Position\": 606, \"Text\": \"Er\", \"Annotation\": []}\n{\"ID\": 90, \"Position\": 608, \"Text\": \"seinen\", \"Annotation\": []}\n{\"ID\": 91, \"Position\": 611, \"Text\": \"Sie\", \"Annotation\": []}\n{\"ID\": 92, \"Position\": 620, \"Text\": \"er\", \"Annotation\": []}\n{\"ID\": 93, \"Position\": 625, \"Text\": \"Reichsgraf\", \"Annotation\": []}\n{\"ID\": 94, \"Position\": 635, \"Text\": \"Ihren\", \"Annotation\": []}\n{\"ID\": 95, \"Position\": 636, \"Text\": \"Mann\", \"Annotation\": []}\n{\"ID\": 96, \"Position\": 638, \"Text\": \"ich\", \"Annotation\": []}\n{\"ID\": 97, \"Position\": 646, \"Text\": \"Anhorst\", \"Annotation\": []}\n{\"ID\": 98, \"Position\": 648, \"Text\": \"sich\", \"Annotation\": []}\n{\"ID\": 99, \"Position\": 657, \"Text\": \"ihm\", \"Annotation\": []}\n{\"ID\": 100, \"Position\": 658, \"Text\": \"Moorfeld's\", \"Annotation\": []}\n{\"ID\": 101, \"Position\": 689, \"Text\": \"er\", \"Annotation\": []}\n{\"ID\": 102, \"Position\": 714, \"Text\": \"M\\u00e4nner\", \"Annotation\": []}\n{\"ID\": 103, \"Position\": 715, \"Text\": \"sich\", \"Annotation\": []}\n{\"ID\": 104, \"Position\": 721, \"Text\": \"Jeder\", \"Annotation\": []}\n{\"ID\": 105, \"Position\": 724, \"Text\": \"sich\", \"Annotation\": []}\n{\"ID\": 106, \"Position\": 733, \"Text\": \"er\", \"Annotation\": []}\n{\"ID\": 107, \"Position\": 749, \"Text\": \"ihr\", \"Annotation\": []}\n{\"ID\": 108, \"Position\": 752, \"Text\": \"Anhorst's\", \"Annotation\": []}\n{\"ID\": 109, \"Position\": 754, \"Text\": \"Moorfeld's\", \"Annotation\": []}\n{\"ID\": 110, \"Position\": 773, \"Text\": \"sie\", \"Annotation\": []}\n{\"ID\": 111, \"Position\": 774, \"Text\": \"ihren\", \"Annotation\": []}\n",
+  "raw_output": "{\"ID\": 1, \"Position\": 11, \"Text\": \"Cavaliere\", \"Annotation\": [{\"entity_id\": \"Cavaliere\", \"gender\": \"m\", \"specialcase_entity\": [\"group\"]}]}\n{\"ID\": 2, \"Position\": 14, \"Text\": \"wer\", \"Annotation\": [{\"entity_id\": \"Cavaliere\"}]}\n{\"ID\": 3, \"Position\": 16, \"Text\": \"ihnen\", \"Annotation\": [{\"entity_id\": \"Cavaliere\"}]}\n{\"ID\": 4, \"Position\": 27, \"Text\": \"Reichsgraf\", \"Annotation\": [{\"entity_id\": \"Reichsgraf\", \"gender\": \"m\", \"specialcase_entity\": []}]}\n{\"ID\": 5, \"Position\": 37, \"Text\": \"er\", \"Annotation\": [{\"entity_id\": \"Reichsgraf\"}]}\n{\"ID\": 6, \"Position\": 43, \"Text\": \"Er\", \"Annotation\": [{\"entity_id\": \"Reichsgraf\"}]}\n{\"ID\": 7, \"Position\": 50, \"Text\": \"Hausirers\", \"Annotation\": [{\"entity_id\": \"Reichsgraf\"}]}\n{\"ID\": 8, \"Position\": 68, \"Text\": \"seinen\", \"Annotation\": [{\"entity_id\": \"Reichsgraf\"}]}\n{\"ID\": 9, \"Position\": 73, \"Text\": \"sich\", \"Annotation\": [{\"entity_id\": \"Reichsgraf\"}]}\n{\"ID\": 10, \"Position\": 82, \"Text\": \"er\", \"Annotation\": [{\"entity_id\": \"Reichsgraf\"}]}\n{\"ID\": 11, \"Position\": 88, \"Text\": \"Messieurs\", \"Annotation\": [{\"entity_id\": \"Herren im Allgemeinen\", \"gender\": \"m\", \"specialcase_entity\": [\"generic\"]}]}\n{\"ID\": 12, \"Position\": 90, \"Text\": \"Mesdames\", \"Annotation\": [{\"entity_id\": \"Damen im Allgemeinen\", \"gender\": \"f\", \"specialcase_entity\": [\"generic\"]}]}\n{\"ID\": 13, \"Position\": 97, \"Text\": \"vous\", \"Annotation\": [{\"entity_id\": \"Herren im Allgemeinen\"}, {\"entity_id\": \"Damen im Allgemeinen\"}]}\n{\"ID\": 14, \"Position\": 114, \"Text\": \"Messieurs\", \"Annotation\": [{\"entity_id\": \"Herren im Allgemeinen\"}]}\n{\"ID\": 15, \"Position\": 116, \"Text\": \"Mesdames\", \"Annotation\": [{\"entity_id\": \"Damen im Allgemeinen\"}]}\n{\"ID\": 16, \"Position\": 122, \"Text\": \"sich\", \"Annotation\": [{\"entity_id\": \"Damen des Balls\", \"gender\": \"f\", \"specialcase_entity\": [\"group\"]}]}\n{\"ID\": 17, \"Position\": 125, \"Text\": \"Damen\", \"Annotation\": [{\"entity_id\": \"Damen des Balls\"}]}\n{\"ID\": 18, \"Position\": 134, \"Text\": \"Graf\", \"Annotation\": [{\"entity_id\": \"Reichsgraf\"}]}\n{\"ID\": 19, \"Position\": 140, \"Text\": \"seine\", \"Annotation\": [{\"entity_id\": \"Reichsgraf\"}]}\n{\"ID\": 20, \"Position\": 229, \"Text\": \"Bot ,\", \"Annotation\": [{\"entity_id\": \"Bot\", \"gender\": \"m\", \"specialcase_entity\": []}]}\n{\"ID\": 21, \"Position\": 266, \"Text\": \"Madame\", \"Annotation\": [{\"entity_id\": \"Lady Morgan\", \"gender\": \"f\", \"specialcase_entity\": []}]}\n{\"ID\": 22, \"Position\": 269, \"Text\": \"Graf\", \"Annotation\": [{\"entity_id\": \"Reichsgraf\"}]}\n{\"ID\": 23, \"Position\": 297, \"Text\": \"Cavalier\", \"Annotation\": [{\"entity_id\": \"Reichsgraf\"}]}\n{\"ID\": 24, \"Position\": 300, \"Text\": \"Wir\", \"Annotation\": [{\"entity_id\": \"Moorfeld\", \"gender\": \"m\", \"specialcase_entity\": []}, {\"entity_id\": \"Anhorst\", \"gender\": \"m\", \"specialcase_entity\": []}]}\n{\"ID\": 25, \"Position\": 306, \"Text\": \"Moorfeld\", \"Annotation\": [{\"entity_id\": \"Moorfeld\"}]}\n{\"ID\": 26, \"Position\": 310, \"Text\": \"wir\", \"Annotation\": [{\"entity_id\": \"Moorfeld\"}, {\"entity_id\": \"Anhorst\"}]}\n{\"ID\": 27, \"Position\": 331, \"Text\": \"Madame\", \"Annotation\": [{\"entity_id\": \"Lady Morgan\"}]}\n{\"ID\": 28, \"Position\": 334, \"Text\": \"Sie\", \"Annotation\": [{\"entity_id\": \"Lady Morgan\"}]}\n{\"ID\": 29, \"Position\": 335, \"Text\": \"mich\", \"Annotation\": [{\"entity_id\": \"Moorfeld\"}]}\n{\"ID\": 30, \"Position\": 338, \"Text\": \"Wir\", \"Annotation\": [{\"entity_id\": \"Moorfeld\"}, {\"entity_id\": \"Anhorst\"}]}\n{\"ID\": 31, \"Position\": 362, \"Text\": \"mein\", \"Annotation\": [{\"entity_id\": \"Moorfeld\"}]}\n{\"ID\": 32, \"Position\": 364, \"Text\": \"meiner\", \"Annotation\": [{\"entity_id\": \"Moorfeld\"}]}\n{\"ID\": 33, \"Position\": 365, \"Text\": \"Collegen\", \"Annotation\": [{\"entity_id\": \"Collegen\", \"gender\": \"m\", \"specialcase_entity\": [\"group\"]}]}\n{\"ID\": 34, \"Position\": 373, \"Text\": \"Mr. Braubacher\", \"Annotation\": [{\"entity_id\": \"Mr. Braubacher\", \"gender\": \"m\", \"specialcase_entity\": []}]}\n{\"ID\": 35, \"Position\": 376, \"Text\": \"Anhorst\", \"Annotation\": [{\"entity_id\": \"Anhorst\"}]}\n{\"ID\": 36, \"Position\": 380, \"Text\": \"ihnen\", \"Annotation\": [{\"entity_id\": \"Mr. Braubacher\"}, {\"entity_id\": \"Anhorst\"}]}\n{\"ID\": 37, \"Position\": 383, \"Text\": \"Knaben\", \"Annotation\": [{\"entity_id\": \"Newyorker-Spr\u00f6\u00dflinge\", \"gender\": \"m\", \"specialcase_entity\": [\"group\"]}]}\n{\"ID\": 38, \"Position\": 392, \"Text\": \"Newyorker-Spr\\u00f6\\u00dflinge\", \"Annotation\": [{\"entity_id\": \"Newyorker-Spr\u00f6\u00dflinge\"}]}\n{\"ID\": 39, \"Position\": 394, \"Text\": \"Einer\", \"Annotation\": [{\"entity_id\": \"einer der Knaben\", \"gender\": \"m\", \"specialcase_entity\": []}]}\n{\"ID\": 40, \"Position\": 395, \"Text\": \"derselben\", \"Annotation\": [{\"entity_id\": \"Newyorker-Spr\u00f6\u00dflinge\"}]}\n{\"ID\": 41, \"Position\": 397, \"Text\": \"sich\", \"Annotation\": [{\"entity_id\": \"einer der Knaben\"}]}\n{\"ID\": 42, \"Position\": 400, \"Text\": \"Moorfeld\", \"Annotation\": [{\"entity_id\": \"Moorfeld\"}]}\n{\"ID\": 43, \"Position\": 405, \"Text\": \"Ma\", \"Annotation\": [{\"entity_id\": \"Lady Morgan\"}]}\n{\"ID\": 44, \"Position\": 411, \"Text\": \"Dutchman\", \"Annotation\": [{\"entity_id\": \"Moorfeld\"}]}\n{\"ID\": 45, \"Position\": 415, \"Text\": \"Ma\", \"Annotation\": [{\"entity_id\": \"Lady Morgan\"}]}\n{\"ID\": 46, \"Position\": 422, \"Text\": \"Frager\", \"Annotation\": [{\"entity_id\": \"einer der Knaben\"}]}\n{\"ID\": 47, \"Position\": 431, \"Text\": \"Unartiger\", \"Annotation\": [{\"entity_id\": \"einer der Knaben\"}]}\n{\"ID\": 48, \"Position\": 436, \"Text\": \"ich\", \"Annotation\": [{\"entity_id\": \"Lady Morgan\"}]}\n{\"ID\": 49, \"Position\": 437, \"Text\": \"dir\", \"Annotation\": [{\"entity_id\": \"einer der Knaben\"}]}\n{\"ID\": 50, \"Position\": 443, \"Text\": \"Deutscher\", \"Annotation\": [{\"entity_id\": \"ein Deutscher im Allgemeinen\", \"gender\": \"m\", \"specialcase_entity\": [\"generic\"]}]}\n{\"ID\": 51, \"Position\": 446, \"Text\": \"Dutchman\", \"Annotation\": [{\"entity_id\": \"ein Dutchman im Allgemeinen\", \"gender\": \"m\", \"specialcase_entity\": [\"generic\"]}]}\n{\"ID\": 52, \"Position\": 450, \"Text\": \"sie\", \"Annotation\": [{\"entity_id\": \"Lady Morgan\"}]}\n{\"ID\": 53, \"Position\": 451, \"Text\": \"sich\", \"Annotation\": [{\"entity_id\": \"Lady Morgan\"}]}\n{\"ID\": 54, \"Position\": 457, \"Text\": \"Moorfeld\", \"Annotation\": [{\"entity_id\": \"Moorfeld\"}]}\n{\"ID\": 55, \"Position\": 461, \"Text\": \"Sir\", \"Annotation\": [{\"entity_id\": \"Moorfeld\"}]}\n{\"ID\": 56, \"Position\": 470, \"Text\": \"Kindern\", \"Annotation\": [{\"entity_id\": \"Newyorker-Spr\u00f6\u00dflinge\"}]}\n{\"ID\": 57, \"Position\": 481, \"Text\": \"Madame\", \"Annotation\": [{\"entity_id\": \"Lady Morgan\"}]}\n{\"ID\": 58, \"Position\": 483, \"Text\": \"ich\", \"Annotation\": [{\"entity_id\": \"Moorfeld\"}]}\n{\"ID\": 59, \"Position\": 487, \"Text\": \"meiner\", \"Annotation\": [{\"entity_id\": \"Moorfeld\"}]}\n{\"ID\": 60, \"Position\": 495, \"Text\": \"Kleinen\", \"Annotation\": [{\"entity_id\": \"Newyorker-Spr\u00f6\u00dflinge\"}]}\n{\"ID\": 61, \"Position\": 506, \"Text\": \"ich\", \"Annotation\": [{\"entity_id\": \"Lady Morgan\"}]}\n{\"ID\": 62, \"Position\": 511, \"Text\": \"Sir\", \"Annotation\": [{\"entity_id\": \"Moorfeld\"}]}\n{\"ID\": 63, \"Position\": 514, \"Text\": \"Lady Morgan\", \"Annotation\": [{\"entity_id\": \"Lady Morgan\"}]}\n{\"ID\": 64, \"Position\": 519, \"Text\": \"Kinder\", \"Annotation\": [{\"entity_id\": \"Newyorker-Spr\u00f6\u00dflinge\"}]}\n{\"ID\": 65, \"Position\": 522, \"Text\": \"ihre\", \"Annotation\": [{\"entity_id\": \"Newyorker-Spr\u00f6\u00dflinge\"}]}\n{\"ID\": 66, \"Position\": 523, \"Text\": \"Ma\", \"Annotation\": [{\"entity_id\": \"Lady Morgan\"}]}\n{\"ID\": 67, \"Position\": 525, \"Text\": \"Mister Brubaker\", \"Annotation\": [{\"entity_id\": \"Mr. Braubacher\"}]}\n{\"ID\": 68, \"Position\": 527, \"Text\": \"seine\", \"Annotation\": [{\"entity_id\": \"Mr. Braubacher\"}]}\n{\"ID\": 69, \"Position\": 528, \"Text\": \"Mistre\\u00df\", \"Annotation\": [{\"entity_id\": \"Lady Morgan\"}]}\n{\"ID\": 70, \"Position\": 530, \"Text\": \"Anhorst\", \"Annotation\": [{\"entity_id\": \"Anhorst\"}]}\n{\"ID\": 71, \"Position\": 531, \"Text\": \"seinen\", \"Annotation\": [{\"entity_id\": \"Anhorst\"}]}\n{\"ID\": 72, \"Position\": 532, \"Text\": \"Moorfeld\", \"Annotation\": [{\"entity_id\": \"Moorfeld\"}]}\n{\"ID\": 73, \"Position\": 536, \"Text\": \"Moorfeld\", \"Annotation\": [{\"entity_id\": \"Moorfeld\"}]}\n{\"ID\": 74, \"Position\": 545, \"Text\": \"seinem\", \"Annotation\": [{\"entity_id\": \"Moorfeld\"}]}\n{\"ID\": 75, \"Position\": 550, \"Text\": \"sich\", \"Annotation\": [{\"entity_id\": \"Moorfeld\"}]}\n{\"ID\": 76, \"Position\": 558, \"Text\": \"Unser\", \"Annotation\": [{\"entity_id\": \"Moorfeld\"}, {\"entity_id\": \"Anhorst\"}]}\n{\"ID\": 77, \"Position\": 559, \"Text\": \"Paar\", \"Annotation\": [{\"entity_id\": \"Moorfeld\"}, {\"entity_id\": \"Anhorst\"}]}\n{\"ID\": 78, \"Position\": 565, \"Text\": \"sich\", \"Annotation\": [{\"entity_id\": \"Moorfeld\"}, {\"entity_id\": \"Anhorst\"}]}\n{\"ID\": 79, \"Position\": 568, \"Text\": \"Anhorst\", \"Annotation\": [{\"entity_id\": \"Anhorst\"}]}\n{\"ID\": 80, \"Position\": 577, \"Text\": \"ich\", \"Annotation\": [{\"entity_id\": \"Anhorst\"}]}\n{\"ID\": 81, \"Position\": 578, \"Text\": \"mir\", \"Annotation\": [{\"entity_id\": \"Anhorst\"}]}\n{\"ID\": 82, \"Position\": 581, \"Text\": \"Sir\", \"Annotation\": [{\"entity_id\": \"Moorfeld\"}]}\n{\"ID\": 83, \"Position\": 583, \"Text\": \"Ihrer \\u2014\", \"Annotation\": [{\"entity_id\": \"Moorfeld\"}]}\n{\"ID\": 84, \"Position\": 585, \"Text\": \"wickedness\", \"Annotation\": [{\"entity_id\": \"Moorfeld\"}]}\n{\"ID\": 85, \"Position\": 586, \"Text\": \"meine\", \"Annotation\": [{\"entity_id\": \"Anhorst\"}]}\n{\"ID\": 86, \"Position\": 593, \"Text\": \"Ich\", \"Annotation\": [{\"entity_id\": \"Moorfeld\"}]}\n{\"ID\": 87, \"Position\": 596, \"Text\": \"Gans\", \"Annotation\": [{\"entity_id\": \"Lady Morgan\"}]}\n{\"ID\": 88, \"Position\": 604, \"Text\": \"Moorfeld\", \"Annotation\": [{\"entity_id\": \"Moorfeld\"}]}\n{\"ID\": 89, \"Position\": 606, \"Text\": \"Er\", \"Annotation\": [{\"entity_id\": \"Moorfeld\"}]}\n{\"ID\": 90, \"Position\": 608, \"Text\": \"seinen\", \"Annotation\": [{\"entity_id\": \"Moorfeld\"}]}\n{\"ID\": 91, \"Position\": 611, \"Text\": \"Sie\", \"Annotation\": [{\"entity_id\": \"Lady Morgan\"}]}\n{\"ID\": 92, \"Position\": 620, \"Text\": \"er\", \"Annotation\": [{\"entity_id\": \"Moorfeld\"}]}\n{\"ID\": 93, \"Position\": 625, \"Text\": \"Reichsgraf\", \"Annotation\": [{\"entity_id\": \"Reichsgraf\"}]}\n{\"ID\": 94, \"Position\": 635, \"Text\": \"Ihren\", \"Annotation\": [{\"entity_id\": \"Lady Morgan\"}]}\n{\"ID\": 95, \"Position\": 636, \"Text\": \"Mann\", \"Annotation\": [{\"entity_id\": \"Mr. Braubacher\"}]}\n{\"ID\": 96, \"Position\": 638, \"Text\": \"ich\", \"Annotation\": [{\"entity_id\": \"Moorfeld\"}]}\n{\"ID\": 97, \"Position\": 646, \"Text\": \"Anhorst\", \"Annotation\": [{\"entity_id\": \"Anhorst\"}]}\n{\"ID\": 98, \"Position\": 648, \"Text\": \"sich\", \"Annotation\": [{\"entity_id\": \"Anhorst\"}]}\n{\"ID\": 99, \"Position\": 657, \"Text\": \"ihm\", \"Annotation\": [{\"entity_id\": \"Anhorst\"}]}\n{\"ID\": 100, \"Position\": 658, \"Text\": \"Moorfeld's\", \"Annotation\": [{\"entity_id\": \"Moorfeld\"}]}\n{\"ID\": 101, \"Position\": 689, \"Text\": \"er\", \"Annotation\": [{\"entity_id\": \"Anhorst\"}]}\n{\"ID\": 102, \"Position\": 714, \"Text\": \"M\\u00e4nner\", \"Annotation\": [{\"entity_id\": \"Moorfeld\"}, {\"entity_id\": \"Anhorst\"}]}\n{\"ID\": 103, \"Position\": 715, \"Text\": \"sich\", \"Annotation\": [{\"entity_id\": \"Moorfeld\"}, {\"entity_id\": \"Anhorst\"}]}\n{\"ID\": 104, \"Position\": 721, \"Text\": \"Jeder\", \"Annotation\": [{\"entity_id\": \"Moorfeld\"}, {\"entity_id\": \"Anhorst\"}]}\n{\"ID\": 105, \"Position\": 724, \"Text\": \"sich\", \"Annotation\": [{\"entity_id\": \"Moorfeld\"}, {\"entity_id\": \"Anhorst\"}]}\n{\"ID\": 106, \"Position\": 733, \"Text\": \"er\", \"Annotation\": [{\"entity_id\": \"Moorfeld\"}, {\"entity_id\": \"Anhorst\"}]}\n{\"ID\": 107, \"Position\": 749, \"Text\": \"ihr\", \"Annotation\": [{\"entity_id\": \"Moorfeld\"}, {\"entity_id\": \"Anhorst\"}]}\n{\"ID\": 108, \"Position\": 752, \"Text\": \"Anhorst's\", \"Annotation\": [{\"entity_id\": \"Anhorst\"}]}\n{\"ID\": 109, \"Position\": 754, \"Text\": \"Moorfeld's\", \"Annotation\": [{\"entity_id\": \"Moorfeld\"}]}\n{\"ID\": 110, \"Position\": 773, \"Text\": \"sie\", \"Annotation\": [{\"entity_id\": \"Moorfeld\"}, {\"entity_id\": \"Anhorst\"}]}\n",
+  "generation_details": [
+    {
+      "usage": {
+        "prompt_tokens": 7803,
+        "completion_tokens": 4530,
+        "total_tokens": 12333,
+        "cost": 0.0174915,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.0039015,
+          "upstream_inference_completions_cost": 0.01359
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      },
+      "finish_reason": "stop",
+      "request_id": "gen-1766855619-GtibHVMrYZ8ETzuQ7ZvG"
+    }
+  ],
+  "json_output": [
+    {
+      "ID": 1,
+      "Position": 11,
+      "Text": "Cavaliere",
+      "Annotation": [
+        {
+          "entity_id": "Cavaliere",
+          "gender": "m",
+          "specialcase_entity": [
+            "group"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 2,
+      "Position": 14,
+      "Text": "wer",
+      "Annotation": [
+        {
+          "entity_id": "Cavaliere"
+        }
+      ]
+    },
+    {
+      "ID": 3,
+      "Position": 16,
+      "Text": "ihnen",
+      "Annotation": [
+        {
+          "entity_id": "Cavaliere"
+        }
+      ]
+    },
+    {
+      "ID": 4,
+      "Position": 27,
+      "Text": "Reichsgraf",
+      "Annotation": [
+        {
+          "entity_id": "Reichsgraf",
+          "gender": "m",
+          "specialcase_entity": []
+        }
+      ]
+    },
+    {
+      "ID": 5,
+      "Position": 37,
+      "Text": "er",
+      "Annotation": [
+        {
+          "entity_id": "Reichsgraf"
+        }
+      ]
+    },
+    {
+      "ID": 6,
+      "Position": 43,
+      "Text": "Er",
+      "Annotation": [
+        {
+          "entity_id": "Reichsgraf"
+        }
+      ]
+    },
+    {
+      "ID": 7,
+      "Position": 50,
+      "Text": "Hausirers",
+      "Annotation": [
+        {
+          "entity_id": "Reichsgraf"
+        }
+      ]
+    },
+    {
+      "ID": 8,
+      "Position": 68,
+      "Text": "seinen",
+      "Annotation": [
+        {
+          "entity_id": "Reichsgraf"
+        }
+      ]
+    },
+    {
+      "ID": 9,
+      "Position": 73,
+      "Text": "sich",
+      "Annotation": [
+        {
+          "entity_id": "Reichsgraf"
+        }
+      ]
+    },
+    {
+      "ID": 10,
+      "Position": 82,
+      "Text": "er",
+      "Annotation": [
+        {
+          "entity_id": "Reichsgraf"
+        }
+      ]
+    },
+    {
+      "ID": 11,
+      "Position": 88,
+      "Text": "Messieurs",
+      "Annotation": [
+        {
+          "entity_id": "Herren im Allgemeinen",
+          "gender": "m",
+          "specialcase_entity": [
+            "generic"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 12,
+      "Position": 90,
+      "Text": "Mesdames",
+      "Annotation": [
+        {
+          "entity_id": "Damen im Allgemeinen",
+          "gender": "f",
+          "specialcase_entity": [
+            "generic"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 13,
+      "Position": 97,
+      "Text": "vous",
+      "Annotation": [
+        {
+          "entity_id": "Herren im Allgemeinen"
+        },
+        {
+          "entity_id": "Damen im Allgemeinen"
+        }
+      ]
+    },
+    {
+      "ID": 14,
+      "Position": 114,
+      "Text": "Messieurs",
+      "Annotation": [
+        {
+          "entity_id": "Herren im Allgemeinen"
+        }
+      ]
+    },
+    {
+      "ID": 15,
+      "Position": 116,
+      "Text": "Mesdames",
+      "Annotation": [
+        {
+          "entity_id": "Damen im Allgemeinen"
+        }
+      ]
+    },
+    {
+      "ID": 16,
+      "Position": 122,
+      "Text": "sich",
+      "Annotation": [
+        {
+          "entity_id": "Damen des Balls",
+          "gender": "f",
+          "specialcase_entity": [
+            "group"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 17,
+      "Position": 125,
+      "Text": "Damen",
+      "Annotation": [
+        {
+          "entity_id": "Damen des Balls"
+        }
+      ]
+    },
+    {
+      "ID": 18,
+      "Position": 134,
+      "Text": "Graf",
+      "Annotation": [
+        {
+          "entity_id": "Reichsgraf"
+        }
+      ]
+    },
+    {
+      "ID": 19,
+      "Position": 140,
+      "Text": "seine",
+      "Annotation": [
+        {
+          "entity_id": "Reichsgraf"
+        }
+      ]
+    },
+    {
+      "ID": 20,
+      "Position": 229,
+      "Text": "Bot ,",
+      "Annotation": [
+        {
+          "entity_id": "Bot",
+          "gender": "m",
+          "specialcase_entity": []
+        }
+      ]
+    },
+    {
+      "ID": 21,
+      "Position": 266,
+      "Text": "Madame",
+      "Annotation": [
+        {
+          "entity_id": "Lady Morgan",
+          "gender": "f",
+          "specialcase_entity": []
+        }
+      ]
+    },
+    {
+      "ID": 22,
+      "Position": 269,
+      "Text": "Graf",
+      "Annotation": [
+        {
+          "entity_id": "Reichsgraf"
+        }
+      ]
+    },
+    {
+      "ID": 23,
+      "Position": 297,
+      "Text": "Cavalier",
+      "Annotation": [
+        {
+          "entity_id": "Reichsgraf"
+        }
+      ]
+    },
+    {
+      "ID": 24,
+      "Position": 300,
+      "Text": "Wir",
+      "Annotation": [
+        {
+          "entity_id": "Moorfeld",
+          "gender": "m",
+          "specialcase_entity": []
+        },
+        {
+          "entity_id": "Anhorst",
+          "gender": "m",
+          "specialcase_entity": []
+        }
+      ]
+    },
+    {
+      "ID": 25,
+      "Position": 306,
+      "Text": "Moorfeld",
+      "Annotation": [
+        {
+          "entity_id": "Moorfeld"
+        }
+      ]
+    },
+    {
+      "ID": 26,
+      "Position": 310,
+      "Text": "wir",
+      "Annotation": [
+        {
+          "entity_id": "Moorfeld"
+        },
+        {
+          "entity_id": "Anhorst"
+        }
+      ]
+    },
+    {
+      "ID": 27,
+      "Position": 331,
+      "Text": "Madame",
+      "Annotation": [
+        {
+          "entity_id": "Lady Morgan"
+        }
+      ]
+    },
+    {
+      "ID": 28,
+      "Position": 334,
+      "Text": "Sie",
+      "Annotation": [
+        {
+          "entity_id": "Lady Morgan"
+        }
+      ]
+    },
+    {
+      "ID": 29,
+      "Position": 335,
+      "Text": "mich",
+      "Annotation": [
+        {
+          "entity_id": "Moorfeld"
+        }
+      ]
+    },
+    {
+      "ID": 30,
+      "Position": 338,
+      "Text": "Wir",
+      "Annotation": [
+        {
+          "entity_id": "Moorfeld"
+        },
+        {
+          "entity_id": "Anhorst"
+        }
+      ]
+    },
+    {
+      "ID": 31,
+      "Position": 362,
+      "Text": "mein",
+      "Annotation": [
+        {
+          "entity_id": "Moorfeld"
+        }
+      ]
+    },
+    {
+      "ID": 32,
+      "Position": 364,
+      "Text": "meiner",
+      "Annotation": [
+        {
+          "entity_id": "Moorfeld"
+        }
+      ]
+    },
+    {
+      "ID": 33,
+      "Position": 365,
+      "Text": "Collegen",
+      "Annotation": [
+        {
+          "entity_id": "Collegen",
+          "gender": "m",
+          "specialcase_entity": [
+            "group"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 34,
+      "Position": 373,
+      "Text": "Mr. Braubacher",
+      "Annotation": [
+        {
+          "entity_id": "Mr. Braubacher",
+          "gender": "m",
+          "specialcase_entity": []
+        }
+      ]
+    },
+    {
+      "ID": 35,
+      "Position": 376,
+      "Text": "Anhorst",
+      "Annotation": [
+        {
+          "entity_id": "Anhorst"
+        }
+      ]
+    },
+    {
+      "ID": 36,
+      "Position": 380,
+      "Text": "ihnen",
+      "Annotation": [
+        {
+          "entity_id": "Mr. Braubacher"
+        },
+        {
+          "entity_id": "Anhorst"
+        }
+      ]
+    },
+    {
+      "ID": 37,
+      "Position": 383,
+      "Text": "Knaben",
+      "Annotation": [
+        {
+          "entity_id": "Newyorker-Spr\u00f6\u00dflinge",
+          "gender": "m",
+          "specialcase_entity": [
+            "group"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 38,
+      "Position": 392,
+      "Text": "Newyorker-Spr\u00f6\u00dflinge",
+      "Annotation": [
+        {
+          "entity_id": "Newyorker-Spr\u00f6\u00dflinge"
+        }
+      ]
+    },
+    {
+      "ID": 39,
+      "Position": 394,
+      "Text": "Einer",
+      "Annotation": [
+        {
+          "entity_id": "einer der Knaben",
+          "gender": "m",
+          "specialcase_entity": []
+        }
+      ]
+    },
+    {
+      "ID": 40,
+      "Position": 395,
+      "Text": "derselben",
+      "Annotation": [
+        {
+          "entity_id": "Newyorker-Spr\u00f6\u00dflinge"
+        }
+      ]
+    },
+    {
+      "ID": 41,
+      "Position": 397,
+      "Text": "sich",
+      "Annotation": [
+        {
+          "entity_id": "einer der Knaben"
+        }
+      ]
+    },
+    {
+      "ID": 42,
+      "Position": 400,
+      "Text": "Moorfeld",
+      "Annotation": [
+        {
+          "entity_id": "Moorfeld"
+        }
+      ]
+    },
+    {
+      "ID": 43,
+      "Position": 405,
+      "Text": "Ma",
+      "Annotation": [
+        {
+          "entity_id": "Lady Morgan"
+        }
+      ]
+    },
+    {
+      "ID": 44,
+      "Position": 411,
+      "Text": "Dutchman",
+      "Annotation": [
+        {
+          "entity_id": "Moorfeld"
+        }
+      ]
+    },
+    {
+      "ID": 45,
+      "Position": 415,
+      "Text": "Ma",
+      "Annotation": [
+        {
+          "entity_id": "Lady Morgan"
+        }
+      ]
+    },
+    {
+      "ID": 46,
+      "Position": 422,
+      "Text": "Frager",
+      "Annotation": [
+        {
+          "entity_id": "einer der Knaben"
+        }
+      ]
+    },
+    {
+      "ID": 47,
+      "Position": 431,
+      "Text": "Unartiger",
+      "Annotation": [
+        {
+          "entity_id": "einer der Knaben"
+        }
+      ]
+    },
+    {
+      "ID": 48,
+      "Position": 436,
+      "Text": "ich",
+      "Annotation": [
+        {
+          "entity_id": "Lady Morgan"
+        }
+      ]
+    },
+    {
+      "ID": 49,
+      "Position": 437,
+      "Text": "dir",
+      "Annotation": [
+        {
+          "entity_id": "einer der Knaben"
+        }
+      ]
+    },
+    {
+      "ID": 50,
+      "Position": 443,
+      "Text": "Deutscher",
+      "Annotation": [
+        {
+          "entity_id": "ein Deutscher im Allgemeinen",
+          "gender": "m",
+          "specialcase_entity": [
+            "generic"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 51,
+      "Position": 446,
+      "Text": "Dutchman",
+      "Annotation": [
+        {
+          "entity_id": "ein Dutchman im Allgemeinen",
+          "gender": "m",
+          "specialcase_entity": [
+            "generic"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 52,
+      "Position": 450,
+      "Text": "sie",
+      "Annotation": [
+        {
+          "entity_id": "Lady Morgan"
+        }
+      ]
+    },
+    {
+      "ID": 53,
+      "Position": 451,
+      "Text": "sich",
+      "Annotation": [
+        {
+          "entity_id": "Lady Morgan"
+        }
+      ]
+    },
+    {
+      "ID": 54,
+      "Position": 457,
+      "Text": "Moorfeld",
+      "Annotation": [
+        {
+          "entity_id": "Moorfeld"
+        }
+      ]
+    },
+    {
+      "ID": 55,
+      "Position": 461,
+      "Text": "Sir",
+      "Annotation": [
+        {
+          "entity_id": "Moorfeld"
+        }
+      ]
+    },
+    {
+      "ID": 56,
+      "Position": 470,
+      "Text": "Kindern",
+      "Annotation": [
+        {
+          "entity_id": "Newyorker-Spr\u00f6\u00dflinge"
+        }
+      ]
+    },
+    {
+      "ID": 57,
+      "Position": 481,
+      "Text": "Madame",
+      "Annotation": [
+        {
+          "entity_id": "Lady Morgan"
+        }
+      ]
+    },
+    {
+      "ID": 58,
+      "Position": 483,
+      "Text": "ich",
+      "Annotation": [
+        {
+          "entity_id": "Moorfeld"
+        }
+      ]
+    },
+    {
+      "ID": 59,
+      "Position": 487,
+      "Text": "meiner",
+      "Annotation": [
+        {
+          "entity_id": "Moorfeld"
+        }
+      ]
+    },
+    {
+      "ID": 60,
+      "Position": 495,
+      "Text": "Kleinen",
+      "Annotation": [
+        {
+          "entity_id": "Newyorker-Spr\u00f6\u00dflinge"
+        }
+      ]
+    },
+    {
+      "ID": 61,
+      "Position": 506,
+      "Text": "ich",
+      "Annotation": [
+        {
+          "entity_id": "Lady Morgan"
+        }
+      ]
+    },
+    {
+      "ID": 62,
+      "Position": 511,
+      "Text": "Sir",
+      "Annotation": [
+        {
+          "entity_id": "Moorfeld"
+        }
+      ]
+    },
+    {
+      "ID": 63,
+      "Position": 514,
+      "Text": "Lady Morgan",
+      "Annotation": [
+        {
+          "entity_id": "Lady Morgan"
+        }
+      ]
+    },
+    {
+      "ID": 64,
+      "Position": 519,
+      "Text": "Kinder",
+      "Annotation": [
+        {
+          "entity_id": "Newyorker-Spr\u00f6\u00dflinge"
+        }
+      ]
+    },
+    {
+      "ID": 65,
+      "Position": 522,
+      "Text": "ihre",
+      "Annotation": [
+        {
+          "entity_id": "Newyorker-Spr\u00f6\u00dflinge"
+        }
+      ]
+    },
+    {
+      "ID": 66,
+      "Position": 523,
+      "Text": "Ma",
+      "Annotation": [
+        {
+          "entity_id": "Lady Morgan"
+        }
+      ]
+    },
+    {
+      "ID": 67,
+      "Position": 525,
+      "Text": "Mister Brubaker",
+      "Annotation": [
+        {
+          "entity_id": "Mr. Braubacher"
+        }
+      ]
+    },
+    {
+      "ID": 68,
+      "Position": 527,
+      "Text": "seine",
+      "Annotation": [
+        {
+          "entity_id": "Mr. Braubacher"
+        }
+      ]
+    },
+    {
+      "ID": 69,
+      "Position": 528,
+      "Text": "Mistre\u00df",
+      "Annotation": [
+        {
+          "entity_id": "Lady Morgan"
+        }
+      ]
+    },
+    {
+      "ID": 70,
+      "Position": 530,
+      "Text": "Anhorst",
+      "Annotation": [
+        {
+          "entity_id": "Anhorst"
+        }
+      ]
+    },
+    {
+      "ID": 71,
+      "Position": 531,
+      "Text": "seinen",
+      "Annotation": [
+        {
+          "entity_id": "Anhorst"
+        }
+      ]
+    },
+    {
+      "ID": 72,
+      "Position": 532,
+      "Text": "Moorfeld",
+      "Annotation": [
+        {
+          "entity_id": "Moorfeld"
+        }
+      ]
+    },
+    {
+      "ID": 73,
+      "Position": 536,
+      "Text": "Moorfeld",
+      "Annotation": [
+        {
+          "entity_id": "Moorfeld"
+        }
+      ]
+    },
+    {
+      "ID": 74,
+      "Position": 545,
+      "Text": "seinem",
+      "Annotation": [
+        {
+          "entity_id": "Moorfeld"
+        }
+      ]
+    },
+    {
+      "ID": 75,
+      "Position": 550,
+      "Text": "sich",
+      "Annotation": [
+        {
+          "entity_id": "Moorfeld"
+        }
+      ]
+    },
+    {
+      "ID": 76,
+      "Position": 558,
+      "Text": "Unser",
+      "Annotation": [
+        {
+          "entity_id": "Moorfeld"
+        },
+        {
+          "entity_id": "Anhorst"
+        }
+      ]
+    },
+    {
+      "ID": 77,
+      "Position": 559,
+      "Text": "Paar",
+      "Annotation": [
+        {
+          "entity_id": "Moorfeld"
+        },
+        {
+          "entity_id": "Anhorst"
+        }
+      ]
+    },
+    {
+      "ID": 78,
+      "Position": 565,
+      "Text": "sich",
+      "Annotation": [
+        {
+          "entity_id": "Moorfeld"
+        },
+        {
+          "entity_id": "Anhorst"
+        }
+      ]
+    },
+    {
+      "ID": 79,
+      "Position": 568,
+      "Text": "Anhorst",
+      "Annotation": [
+        {
+          "entity_id": "Anhorst"
+        }
+      ]
+    },
+    {
+      "ID": 80,
+      "Position": 577,
+      "Text": "ich",
+      "Annotation": [
+        {
+          "entity_id": "Anhorst"
+        }
+      ]
+    },
+    {
+      "ID": 81,
+      "Position": 578,
+      "Text": "mir",
+      "Annotation": [
+        {
+          "entity_id": "Anhorst"
+        }
+      ]
+    },
+    {
+      "ID": 82,
+      "Position": 581,
+      "Text": "Sir",
+      "Annotation": [
+        {
+          "entity_id": "Moorfeld"
+        }
+      ]
+    },
+    {
+      "ID": 83,
+      "Position": 583,
+      "Text": "Ihrer \u2014",
+      "Annotation": [
+        {
+          "entity_id": "Moorfeld"
+        }
+      ]
+    },
+    {
+      "ID": 84,
+      "Position": 585,
+      "Text": "wickedness",
+      "Annotation": [
+        {
+          "entity_id": "Moorfeld"
+        }
+      ]
+    },
+    {
+      "ID": 85,
+      "Position": 586,
+      "Text": "meine",
+      "Annotation": [
+        {
+          "entity_id": "Anhorst"
+        }
+      ]
+    },
+    {
+      "ID": 86,
+      "Position": 593,
+      "Text": "Ich",
+      "Annotation": [
+        {
+          "entity_id": "Moorfeld"
+        }
+      ]
+    },
+    {
+      "ID": 87,
+      "Position": 596,
+      "Text": "Gans",
+      "Annotation": [
+        {
+          "entity_id": "Lady Morgan"
+        }
+      ]
+    },
+    {
+      "ID": 88,
+      "Position": 604,
+      "Text": "Moorfeld",
+      "Annotation": [
+        {
+          "entity_id": "Moorfeld"
+        }
+      ]
+    },
+    {
+      "ID": 89,
+      "Position": 606,
+      "Text": "Er",
+      "Annotation": [
+        {
+          "entity_id": "Moorfeld"
+        }
+      ]
+    },
+    {
+      "ID": 90,
+      "Position": 608,
+      "Text": "seinen",
+      "Annotation": [
+        {
+          "entity_id": "Moorfeld"
+        }
+      ]
+    },
+    {
+      "ID": 91,
+      "Position": 611,
+      "Text": "Sie",
+      "Annotation": [
+        {
+          "entity_id": "Lady Morgan"
+        }
+      ]
+    },
+    {
+      "ID": 92,
+      "Position": 620,
+      "Text": "er",
+      "Annotation": [
+        {
+          "entity_id": "Moorfeld"
+        }
+      ]
+    },
+    {
+      "ID": 93,
+      "Position": 625,
+      "Text": "Reichsgraf",
+      "Annotation": [
+        {
+          "entity_id": "Reichsgraf"
+        }
+      ]
+    },
+    {
+      "ID": 94,
+      "Position": 635,
+      "Text": "Ihren",
+      "Annotation": [
+        {
+          "entity_id": "Lady Morgan"
+        }
+      ]
+    },
+    {
+      "ID": 95,
+      "Position": 636,
+      "Text": "Mann",
+      "Annotation": [
+        {
+          "entity_id": "Mr. Braubacher"
+        }
+      ]
+    },
+    {
+      "ID": 96,
+      "Position": 638,
+      "Text": "ich",
+      "Annotation": [
+        {
+          "entity_id": "Moorfeld"
+        }
+      ]
+    },
+    {
+      "ID": 97,
+      "Position": 646,
+      "Text": "Anhorst",
+      "Annotation": [
+        {
+          "entity_id": "Anhorst"
+        }
+      ]
+    },
+    {
+      "ID": 98,
+      "Position": 648,
+      "Text": "sich",
+      "Annotation": [
+        {
+          "entity_id": "Anhorst"
+        }
+      ]
+    },
+    {
+      "ID": 99,
+      "Position": 657,
+      "Text": "ihm",
+      "Annotation": [
+        {
+          "entity_id": "Anhorst"
+        }
+      ]
+    },
+    {
+      "ID": 100,
+      "Position": 658,
+      "Text": "Moorfeld's",
+      "Annotation": [
+        {
+          "entity_id": "Moorfeld"
+        }
+      ]
+    },
+    {
+      "ID": 101,
+      "Position": 689,
+      "Text": "er",
+      "Annotation": [
+        {
+          "entity_id": "Anhorst"
+        }
+      ]
+    },
+    {
+      "ID": 102,
+      "Position": 714,
+      "Text": "M\u00e4nner",
+      "Annotation": [
+        {
+          "entity_id": "Moorfeld"
+        },
+        {
+          "entity_id": "Anhorst"
+        }
+      ]
+    },
+    {
+      "ID": 103,
+      "Position": 715,
+      "Text": "sich",
+      "Annotation": [
+        {
+          "entity_id": "Moorfeld"
+        },
+        {
+          "entity_id": "Anhorst"
+        }
+      ]
+    },
+    {
+      "ID": 104,
+      "Position": 721,
+      "Text": "Jeder",
+      "Annotation": [
+        {
+          "entity_id": "Moorfeld"
+        },
+        {
+          "entity_id": "Anhorst"
+        }
+      ]
+    },
+    {
+      "ID": 105,
+      "Position": 724,
+      "Text": "sich",
+      "Annotation": [
+        {
+          "entity_id": "Moorfeld"
+        },
+        {
+          "entity_id": "Anhorst"
+        }
+      ]
+    },
+    {
+      "ID": 106,
+      "Position": 733,
+      "Text": "er",
+      "Annotation": [
+        {
+          "entity_id": "Moorfeld"
+        },
+        {
+          "entity_id": "Anhorst"
+        }
+      ]
+    },
+    {
+      "ID": 107,
+      "Position": 749,
+      "Text": "ihr",
+      "Annotation": [
+        {
+          "entity_id": "Moorfeld"
+        },
+        {
+          "entity_id": "Anhorst"
+        }
+      ]
+    },
+    {
+      "ID": 108,
+      "Position": 752,
+      "Text": "Anhorst's",
+      "Annotation": [
+        {
+          "entity_id": "Anhorst"
+        }
+      ]
+    },
+    {
+      "ID": 109,
+      "Position": 754,
+      "Text": "Moorfeld's",
+      "Annotation": [
+        {
+          "entity_id": "Moorfeld"
+        }
+      ]
+    },
+    {
+      "ID": 110,
+      "Position": 773,
+      "Text": "sie",
+      "Annotation": [
+        {
+          "entity_id": "Moorfeld"
+        },
+        {
+          "entity_id": "Anhorst"
+        }
+      ]
+    }
+  ],
+  "output": [
+    {
+      "id": "15838",
+      "token_idx": [
+        135999
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 3,
+            "fullname": "Cavaliere",
+            "gender": "m",
+            "specialcase_entity": [
+              "group"
+            ],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "15839",
+      "token_idx": [
+        136002
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 3,
+            "fullname": "Cavaliere",
+            "gender": "m",
+            "specialcase_entity": [
+              "group"
+            ],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "15840",
+      "token_idx": [
+        136004
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 3,
+            "fullname": "Cavaliere",
+            "gender": "m",
+            "specialcase_entity": [
+              "group"
+            ],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "15841",
+      "token_idx": [
+        136015
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 12,
+            "fullname": "Reichsgraf",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "15842",
+      "token_idx": [
+        136025
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 12,
+            "fullname": "Reichsgraf",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "15843",
+      "token_idx": [
+        136031
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 12,
+            "fullname": "Reichsgraf",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "15844",
+      "token_idx": [
+        136038
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 12,
+            "fullname": "Reichsgraf",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "15845",
+      "token_idx": [
+        136056
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 12,
+            "fullname": "Reichsgraf",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "15846",
+      "token_idx": [
+        136061
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 12,
+            "fullname": "Reichsgraf",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "15847",
+      "token_idx": [
+        136070
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 12,
+            "fullname": "Reichsgraf",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "15848",
+      "token_idx": [
+        136076
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": "generic_0001",
+            "fullname": "Herren im Allgemeinen",
+            "gender": "u",
+            "specialcase_entity": [
+              "generic"
+            ],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "15849",
+      "token_idx": [
+        136078
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": "generic_0004",
+            "fullname": "Damen im Allgemeinen",
+            "gender": "u",
+            "specialcase_entity": [
+              "generic"
+            ],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "15850",
+      "token_idx": [
+        136085
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": "generic_0002",
+            "fullname": "Herren im Allgemeinen",
+            "gender": "u",
+            "specialcase_entity": [
+              "generic"
+            ],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        },
+        {
+          "entity": {
+            "id": "generic_0005",
+            "fullname": "Damen im Allgemeinen",
+            "gender": "u",
+            "specialcase_entity": [
+              "generic"
+            ],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "15851",
+      "token_idx": [
+        136102
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": "generic_0003",
+            "fullname": "Herren im Allgemeinen",
+            "gender": "u",
+            "specialcase_entity": [
+              "generic"
+            ],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "15852",
+      "token_idx": [
+        136104
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": "generic_0006",
+            "fullname": "Damen im Allgemeinen",
+            "gender": "u",
+            "specialcase_entity": [
+              "generic"
+            ],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "15853",
+      "token_idx": [
+        136110
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 5,
+            "fullname": "Damen des Balls",
+            "gender": "f",
+            "specialcase_entity": [
+              "group"
+            ],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "15854",
+      "token_idx": [
+        136113
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 5,
+            "fullname": "Damen des Balls",
+            "gender": "f",
+            "specialcase_entity": [
+              "group"
+            ],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "15855",
+      "token_idx": [
+        136122
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 12,
+            "fullname": "Reichsgraf",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "15856",
+      "token_idx": [
+        136128
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 12,
+            "fullname": "Reichsgraf",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "15857",
+      "token_idx": [
+        136217,
+        136218
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 2,
+            "fullname": "Bot",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "15858",
+      "token_idx": [
+        136254
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 8,
+            "fullname": "Lady Morgan",
+            "gender": "f",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "15859",
+      "token_idx": [
+        136257
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 12,
+            "fullname": "Reichsgraf",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "15860",
+      "token_idx": [
+        136285
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 12,
+            "fullname": "Reichsgraf",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "15861",
+      "token_idx": [
+        136288
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 9,
+            "fullname": "Moorfeld",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        },
+        {
+          "entity": {
+            "id": 1,
+            "fullname": "Anhorst",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "15862",
+      "token_idx": [
+        136294
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 9,
+            "fullname": "Moorfeld",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "15863",
+      "token_idx": [
+        136298
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 9,
+            "fullname": "Moorfeld",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        },
+        {
+          "entity": {
+            "id": 1,
+            "fullname": "Anhorst",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "15864",
+      "token_idx": [
+        136319
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 8,
+            "fullname": "Lady Morgan",
+            "gender": "f",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "15865",
+      "token_idx": [
+        136322
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 8,
+            "fullname": "Lady Morgan",
+            "gender": "f",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "15866",
+      "token_idx": [
+        136323
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 9,
+            "fullname": "Moorfeld",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "15867",
+      "token_idx": [
+        136326
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 9,
+            "fullname": "Moorfeld",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        },
+        {
+          "entity": {
+            "id": 1,
+            "fullname": "Anhorst",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "15868",
+      "token_idx": [
+        136350
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 9,
+            "fullname": "Moorfeld",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "15869",
+      "token_idx": [
+        136352
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 9,
+            "fullname": "Moorfeld",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "15870",
+      "token_idx": [
+        136353
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 4,
+            "fullname": "Collegen",
+            "gender": "m",
+            "specialcase_entity": [
+              "group"
+            ],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "15871",
+      "token_idx": [
+        136361,
+        136362
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 10,
+            "fullname": "Mr Braubacher",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "15872",
+      "token_idx": [
+        136364
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 1,
+            "fullname": "Anhorst",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "15873",
+      "token_idx": [
+        136368
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 10,
+            "fullname": "Mr Braubacher",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        },
+        {
+          "entity": {
+            "id": 1,
+            "fullname": "Anhorst",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "15874",
+      "token_idx": [
+        136371
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 11,
+            "fullname": "NewyorkerSpr\u00f6\u00dflinge",
+            "gender": "m",
+            "specialcase_entity": [
+              "group"
+            ],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "15875",
+      "token_idx": [
+        136380
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 11,
+            "fullname": "NewyorkerSpr\u00f6\u00dflinge",
+            "gender": "m",
+            "specialcase_entity": [
+              "group"
+            ],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "15876",
+      "token_idx": [
+        136382
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 15,
+            "fullname": "einer der Knaben",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "15877",
+      "token_idx": [
+        136383
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 11,
+            "fullname": "NewyorkerSpr\u00f6\u00dflinge",
+            "gender": "m",
+            "specialcase_entity": [
+              "group"
+            ],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "15878",
+      "token_idx": [
+        136385
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 15,
+            "fullname": "einer der Knaben",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "15879",
+      "token_idx": [
+        136388
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 9,
+            "fullname": "Moorfeld",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "15880",
+      "token_idx": [
+        136393
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 8,
+            "fullname": "Lady Morgan",
+            "gender": "f",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "15881",
+      "token_idx": [
+        136399
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 9,
+            "fullname": "Moorfeld",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "15882",
+      "token_idx": [
+        136403
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 8,
+            "fullname": "Lady Morgan",
+            "gender": "f",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "15883",
+      "token_idx": [
+        136410
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 15,
+            "fullname": "einer der Knaben",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "15884",
+      "token_idx": [
+        136419
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 15,
+            "fullname": "einer der Knaben",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "15885",
+      "token_idx": [
+        136424
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 8,
+            "fullname": "Lady Morgan",
+            "gender": "f",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "15886",
+      "token_idx": [
+        136425
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 15,
+            "fullname": "einer der Knaben",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "15887",
+      "token_idx": [
+        136431
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": "generic_0007",
+            "fullname": "ein Deutscher im Allgemeinen",
+            "gender": "u",
+            "specialcase_entity": [
+              "generic"
+            ],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "15888",
+      "token_idx": [
+        136434
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": "generic_0008",
+            "fullname": "ein Dutchman im Allgemeinen",
+            "gender": "u",
+            "specialcase_entity": [
+              "generic"
+            ],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "15889",
+      "token_idx": [
+        136438
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 8,
+            "fullname": "Lady Morgan",
+            "gender": "f",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "15890",
+      "token_idx": [
+        136439
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 8,
+            "fullname": "Lady Morgan",
+            "gender": "f",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "15891",
+      "token_idx": [
+        136445
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 9,
+            "fullname": "Moorfeld",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "15892",
+      "token_idx": [
+        136449
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 9,
+            "fullname": "Moorfeld",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "15893",
+      "token_idx": [
+        136458
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 11,
+            "fullname": "NewyorkerSpr\u00f6\u00dflinge",
+            "gender": "m",
+            "specialcase_entity": [
+              "group"
+            ],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "15894",
+      "token_idx": [
+        136469
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 8,
+            "fullname": "Lady Morgan",
+            "gender": "f",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "15895",
+      "token_idx": [
+        136471
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 9,
+            "fullname": "Moorfeld",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "15896",
+      "token_idx": [
+        136475
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 9,
+            "fullname": "Moorfeld",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "15897",
+      "token_idx": [
+        136483
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 11,
+            "fullname": "NewyorkerSpr\u00f6\u00dflinge",
+            "gender": "m",
+            "specialcase_entity": [
+              "group"
+            ],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "15898",
+      "token_idx": [
+        136494
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 8,
+            "fullname": "Lady Morgan",
+            "gender": "f",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "15899",
+      "token_idx": [
+        136499
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 9,
+            "fullname": "Moorfeld",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "15900",
+      "token_idx": [
+        136502,
+        136503
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 8,
+            "fullname": "Lady Morgan",
+            "gender": "f",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "15901",
+      "token_idx": [
+        136507
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 11,
+            "fullname": "NewyorkerSpr\u00f6\u00dflinge",
+            "gender": "m",
+            "specialcase_entity": [
+              "group"
+            ],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "15902",
+      "token_idx": [
+        136510
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 11,
+            "fullname": "NewyorkerSpr\u00f6\u00dflinge",
+            "gender": "m",
+            "specialcase_entity": [
+              "group"
+            ],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "15903",
+      "token_idx": [
+        136511
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 8,
+            "fullname": "Lady Morgan",
+            "gender": "f",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "15904",
+      "token_idx": [
+        136513,
+        136514
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 10,
+            "fullname": "Mr Braubacher",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "15905",
+      "token_idx": [
+        136515
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 10,
+            "fullname": "Mr Braubacher",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "15906",
+      "token_idx": [
+        136516
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 8,
+            "fullname": "Lady Morgan",
+            "gender": "f",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "15907",
+      "token_idx": [
+        136518
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 1,
+            "fullname": "Anhorst",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "15908",
+      "token_idx": [
+        136519
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 1,
+            "fullname": "Anhorst",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "15909",
+      "token_idx": [
+        136520
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 9,
+            "fullname": "Moorfeld",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "15910",
+      "token_idx": [
+        136524
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 9,
+            "fullname": "Moorfeld",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "15911",
+      "token_idx": [
+        136533
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 9,
+            "fullname": "Moorfeld",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "15912",
+      "token_idx": [
+        136538
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 9,
+            "fullname": "Moorfeld",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "15913",
+      "token_idx": [
+        136546
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 9,
+            "fullname": "Moorfeld",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        },
+        {
+          "entity": {
+            "id": 1,
+            "fullname": "Anhorst",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "15914",
+      "token_idx": [
+        136547
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 9,
+            "fullname": "Moorfeld",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        },
+        {
+          "entity": {
+            "id": 1,
+            "fullname": "Anhorst",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "15915",
+      "token_idx": [
+        136553
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 9,
+            "fullname": "Moorfeld",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        },
+        {
+          "entity": {
+            "id": 1,
+            "fullname": "Anhorst",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "15916",
+      "token_idx": [
+        136556
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 1,
+            "fullname": "Anhorst",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "15917",
+      "token_idx": [
+        136565
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 1,
+            "fullname": "Anhorst",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "15918",
+      "token_idx": [
+        136566
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 1,
+            "fullname": "Anhorst",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "15919",
+      "token_idx": [
+        136569
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 9,
+            "fullname": "Moorfeld",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "15920",
+      "token_idx": [
+        136571,
+        136572
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 9,
+            "fullname": "Moorfeld",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "15921",
+      "token_idx": [
+        136573
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 9,
+            "fullname": "Moorfeld",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "15922",
+      "token_idx": [
+        136574
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 1,
+            "fullname": "Anhorst",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "15923",
+      "token_idx": [
+        136581
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 9,
+            "fullname": "Moorfeld",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "15924",
+      "token_idx": [
+        136584
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 8,
+            "fullname": "Lady Morgan",
+            "gender": "f",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "15925",
+      "token_idx": [
+        136592
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 9,
+            "fullname": "Moorfeld",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "15926",
+      "token_idx": [
+        136594
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 9,
+            "fullname": "Moorfeld",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "15927",
+      "token_idx": [
+        136596
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 9,
+            "fullname": "Moorfeld",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "15928",
+      "token_idx": [
+        136599
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 8,
+            "fullname": "Lady Morgan",
+            "gender": "f",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "15929",
+      "token_idx": [
+        136608
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 9,
+            "fullname": "Moorfeld",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "15930",
+      "token_idx": [
+        136613
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 12,
+            "fullname": "Reichsgraf",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "15931",
+      "token_idx": [
+        136623
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 8,
+            "fullname": "Lady Morgan",
+            "gender": "f",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "15932",
+      "token_idx": [
+        136624
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 10,
+            "fullname": "Mr Braubacher",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "15933",
+      "token_idx": [
+        136626
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 9,
+            "fullname": "Moorfeld",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "15934",
+      "token_idx": [
+        136634
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 1,
+            "fullname": "Anhorst",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "15935",
+      "token_idx": [
+        136636
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 1,
+            "fullname": "Anhorst",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "15936",
+      "token_idx": [
+        136645
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 1,
+            "fullname": "Anhorst",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "15937",
+      "token_idx": [
+        136646
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 9,
+            "fullname": "Moorfeld",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "15938",
+      "token_idx": [
+        136677
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 1,
+            "fullname": "Anhorst",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "15939",
+      "token_idx": [
+        136702
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 9,
+            "fullname": "Moorfeld",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        },
+        {
+          "entity": {
+            "id": 1,
+            "fullname": "Anhorst",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "15940",
+      "token_idx": [
+        136703
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 9,
+            "fullname": "Moorfeld",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        },
+        {
+          "entity": {
+            "id": 1,
+            "fullname": "Anhorst",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "15941",
+      "token_idx": [
+        136709
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 9,
+            "fullname": "Moorfeld",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        },
+        {
+          "entity": {
+            "id": 1,
+            "fullname": "Anhorst",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "15942",
+      "token_idx": [
+        136712
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 9,
+            "fullname": "Moorfeld",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        },
+        {
+          "entity": {
+            "id": 1,
+            "fullname": "Anhorst",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "15943",
+      "token_idx": [
+        136721
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 9,
+            "fullname": "Moorfeld",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        },
+        {
+          "entity": {
+            "id": 1,
+            "fullname": "Anhorst",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "15944",
+      "token_idx": [
+        136737
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 9,
+            "fullname": "Moorfeld",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        },
+        {
+          "entity": {
+            "id": 1,
+            "fullname": "Anhorst",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "15945",
+      "token_idx": [
+        136740
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 1,
+            "fullname": "Anhorst",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "15946",
+      "token_idx": [
+        136742
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 9,
+            "fullname": "Moorfeld",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    },
+    {
+      "id": "15947",
+      "token_idx": [
+        136761
+      ],
+      "references": [
+        {
+          "entity": {
+            "id": 9,
+            "fullname": "Moorfeld",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        },
+        {
+          "entity": {
+            "id": 1,
+            "fullname": "Anhorst",
+            "gender": "m",
+            "specialcase_entity": [],
+            "borderline_entity": [],
+            "possible_identity_with": null,
+            "members": null,
+            "all_members_given": null
+          },
+          "borderline_reference": [],
+          "specialcase_reference": []
+        }
+      ]
+    }
+  ],
+  "exception": null
+}

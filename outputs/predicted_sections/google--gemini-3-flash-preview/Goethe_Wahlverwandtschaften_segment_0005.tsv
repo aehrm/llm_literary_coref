@@ -1,0 +1,1586 @@
+i	token	is_section_start	gold	pred
+13405	Fünftes	1		
+13406	Kapitel	0		
+13407	Brief	0		
+13408	der	0		
+13409	Vorsteherin	0	(mention_id=1736|references=(entity=(entity_id=entity_0023|fullname=Vorsteherin der Pension|gender=f)))	(mention_id=1781|references=(entity=(entity_id=16|fullname=die Vorsteherin|gender=f)))
+13410	»	0		
+13411	Euer	0	(mention_id=1737|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)))	(mention_id=1782|references=(entity=(entity_id=1|fullname=Charlotte|gender=f)))
+13412	Gnaden	0	(mention_id=1737|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)))	(mention_id=1782|references=(entity=(entity_id=1|fullname=Charlotte|gender=f)))
+13413	werden	0		
+13414	verzeihen	0		
+13415	,	0		
+13416	wenn	0		
+13417	ich	0	(mention_id=1738|references=(entity=(entity_id=entity_0023|fullname=Vorsteherin der Pension|gender=f)))	(mention_id=1783|references=(entity=(entity_id=16|fullname=die Vorsteherin|gender=f)))
+13418	mich	0	(mention_id=1739|references=(entity=(entity_id=entity_0023|fullname=Vorsteherin der Pension|gender=f)))	(mention_id=1784|references=(entity=(entity_id=16|fullname=die Vorsteherin|gender=f)))
+13419	heute	0		
+13420	ganz	0		
+13421	kurz	0		
+13422	fasse	0		
+13423	;	0		
+13424	denn	0		
+13425	ich	0	(mention_id=1740|references=(entity=(entity_id=entity_0023|fullname=Vorsteherin der Pension|gender=f)))	(mention_id=1785|references=(entity=(entity_id=16|fullname=die Vorsteherin|gender=f)))
+13426	habe	0		
+13427	nach	0		
+13428	vollendeter	0		
+13429	öffentlicher	0		
+13430	Prüfung	0		
+13431	dessen	0		
+13432	,	0		
+13433	was	0		
+13434	wir	0	(mention_id=1741|references=(entity=(entity_id=entity_0053|fullname=alle Erziehenden der Pension|gender=mfu|members=entity_0023,entity_0037|all_members_given=False|specialcase_entity=group)))	(mention_id=1786|references=(entity=(entity_id=16|fullname=die Vorsteherin|gender=f)),(entity=(entity_id=12|fullname=der Gehülfe|gender=m)),(entity=(entity_id=generic_0001|fullname=Lehrer im Allgemeinen|gender=u|specialcase_entity=generic)))
+13435	im	0		
+13436	vergangenen	0		
+13437	Jahr	0		
+13438	an	0		
+13439	unsern	0	(mention_id=1742|references=(entity=(entity_id=entity_0053|fullname=alle Erziehenden der Pension|gender=mfu|members=entity_0023,entity_0037|all_members_given=False|specialcase_entity=group)))	(mention_id=1787|references=(entity=(entity_id=16|fullname=die Vorsteherin|gender=f)),(entity=(entity_id=12|fullname=der Gehülfe|gender=m)))
+13440	Zöglingen	0	(mention_id=1743|references=(entity=(entity_id=entity_0038|fullname=alle Schülerinnen der Pension zur Zeit als Ottilie und Luciane dort sind|gender=f|members=entity_0005,entity_0006|all_members_given=False|specialcase_entity=group)))	(mention_id=1788|references=(entity=(entity_id=17|fullname=die Zöglinge|gender=mf|specialcase_entity=group)))
+13441	geleistet	0		
+13442	haben	0		
+13443	,	0		
+13444	an	0		
+13445	die	0		
+13446	sämtlichen	0		
+13447	Eltern	0	(mention_id=1744|references=(entity=(entity_id=entity_0042|fullname=Eltern aller Schülerinnen der Pension|gender=mf|members=entity_0002|all_members_given=False|specialcase_entity=group)))	(mention_id=1789|references=(entity=(entity_id=generic_0003|fullname=Eltern im Allgemeinen|gender=u|specialcase_entity=generic)))
+13448	und	0		
+13449	Vorgesetzten	0	(mention_id=1745|references=(entity=(entity_id=entity_0045|fullname=Vorgesetzte aller Schülerinnen der Anstalt|gender=u|members=entity_0002|all_members_given=False|specialcase_entity=group)))	(mention_id=1790|references=(entity=(entity_id=generic_0005|fullname=Vorgesetzte im Allgemeinen|gender=u|specialcase_entity=generic)))
+13450	den	0		
+13451	Verlauf	0		
+13452	zu	0		
+13453	melden	0		
+13454	;	0		
+13455	auch	0		
+13456	darf	0		
+13457	ich	0	(mention_id=1746|references=(entity=(entity_id=entity_0023|fullname=Vorsteherin der Pension|gender=f)))	(mention_id=1791|references=(entity=(entity_id=16|fullname=die Vorsteherin|gender=f)))
+13458	wohl	0		
+13459	kurz	0		
+13460	sein	0		
+13461	,	0		
+13462	weil	0		
+13463	ich	0	(mention_id=1747|references=(entity=(entity_id=entity_0023|fullname=Vorsteherin der Pension|gender=f)))	(mention_id=1792|references=(entity=(entity_id=16|fullname=die Vorsteherin|gender=f)))
+13464	mit	0		
+13465	wenigem	0		
+13466	viel	0		
+13467	sagen	0		
+13468	kann	0		
+13469	.	0		
+13470	Ihre	0	(mention_id=1748|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)))	(mention_id=1793|references=(entity=(entity_id=1|fullname=Charlotte|gender=f)))
+13471	Fräulein	0	(mention_id=1749|references=(entity=(entity_id=entity_0005|fullname=Luciane|gender=f)))	(mention_id=1794|references=(entity=(entity_id=6|fullname=Luciane|gender=f)))
+13472	Tochter	0	(mention_id=1749|references=(entity=(entity_id=entity_0005|fullname=Luciane|gender=f)))	(mention_id=1794|references=(entity=(entity_id=6|fullname=Luciane|gender=f)))
+13473	hat	0		
+13474	sich	0	(mention_id=1750|references=(entity=(entity_id=entity_0005|fullname=Luciane|gender=f)))	(mention_id=1795|references=(entity=(entity_id=6|fullname=Luciane|gender=f)))
+13475	in	0		
+13476	jedem	0		
+13477	Sinne	0		
+13478	als	0		
+13479	die	0		
+13480	Erste	0	(mention_id=1751|references=(entity=(entity_id=entity_0005|fullname=Luciane|gender=f)))	(mention_id=1796|references=(entity=(entity_id=6|fullname=Luciane|gender=f)))
+13481	bewiesen	0		
+13482	.	0		
+13483	Die	0		
+13484	beiliegenden	0		
+13485	Zeugnisse	0		
+13486	,	0		
+13487	ihr	0	(mention_id=1752|references=(entity=(entity_id=entity_0005|fullname=Luciane|gender=f)))	(mention_id=1797|references=(entity=(entity_id=6|fullname=Luciane|gender=f)))
+13488	eigner	0		
+13489	Brief	0		
+13490	,	0		
+13491	der	0		
+13492	die	0		
+13493	Beschreibung	0		
+13494	der	0		
+13495	Preise	0		
+13496	enthält	0		
+13497	,	0		
+13498	die	0		
+13499	ihr	0	(mention_id=1753|references=(entity=(entity_id=entity_0005|fullname=Luciane|gender=f)))	(mention_id=1798|references=(entity=(entity_id=6|fullname=Luciane|gender=f)))
+13500	geworden	0		
+13501	sind	0		
+13502	,	0		
+13503	und	0		
+13504	zugleich	0		
+13505	das	0		
+13506	Vergnügen	0		
+13507	ausdrückt	0		
+13508	,	0		
+13509	das	0		
+13510	sie	0	(mention_id=1754|references=(entity=(entity_id=entity_0005|fullname=Luciane|gender=f)))	(mention_id=1799|references=(entity=(entity_id=6|fullname=Luciane|gender=f)))
+13511	über	0		
+13512	ein	0		
+13513	so	0		
+13514	glückliches	0		
+13515	Gelingen	0		
+13516	empfindet	0		
+13517	,	0		
+13518	wird	0		
+13519	Ihnen	0	(mention_id=1755|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)))	(mention_id=1800|references=(entity=(entity_id=1|fullname=Charlotte|gender=f)))
+13520	zur	0		
+13521	Beruhigung	0		
+13522	,	0		
+13523	ja	0		
+13524	zur	0		
+13525	Freude	0		
+13526	gereichen	0		
+13527	.	0		
+13528	Die	0		
+13529	meinige	0	(mention_id=1756|references=(entity=(entity_id=entity_0023|fullname=Vorsteherin der Pension|gender=f)))	(mention_id=1801|references=(entity=(entity_id=16|fullname=die Vorsteherin|gender=f)))
+13530	wird	0		
+13531	dadurch	0		
+13532	einigermaßen	0		
+13533	gemindert	0		
+13534	,	0		
+13535	daß	0		
+13536	ich	0	(mention_id=1757|references=(entity=(entity_id=entity_0023|fullname=Vorsteherin der Pension|gender=f)))	(mention_id=1802|references=(entity=(entity_id=16|fullname=die Vorsteherin|gender=f)))
+13537	voraussehe	0		
+13538	,	0		
+13539	wir	0	(mention_id=1758|references=(entity=(entity_id=entity_0053|fullname=alle Erziehenden der Pension|gender=mfu|members=entity_0023,entity_0037|all_members_given=False|specialcase_entity=group)))	(mention_id=1803|references=(entity=(entity_id=16|fullname=die Vorsteherin|gender=f)),(entity=(entity_id=12|fullname=der Gehülfe|gender=m)))
+13540	werden	0		
+13541	nicht	0		
+13542	lange	0		
+13543	mehr	0		
+13544	Ursache	0		
+13545	haben	0		
+13546	,	0		
+13547	ein	0		
+13548	so	0		
+13549	weit	0		
+13550	vorgeschrittenes	0		
+13551	Frauenzimmer	0	(mention_id=1759|references=(entity=(entity_id=entity_0005|fullname=Luciane|gender=f)))	(mention_id=1804|references=(entity=(entity_id=6|fullname=Luciane|gender=f)))
+13552	bei	0		
+13553	uns	0	(mention_id=1760|references=(entity=(entity_id=entity_0053|fullname=alle Erziehenden der Pension|gender=mfu|members=entity_0023,entity_0037|all_members_given=False|specialcase_entity=group)))	(mention_id=1805|references=(entity=(entity_id=16|fullname=die Vorsteherin|gender=f)),(entity=(entity_id=12|fullname=der Gehülfe|gender=m)))
+13554	zurückzuhalten	0		
+13555	.	0		
+13556	Ich	0	(mention_id=1761|references=(entity=(entity_id=entity_0023|fullname=Vorsteherin der Pension|gender=f)))	(mention_id=1806|references=(entity=(entity_id=16|fullname=die Vorsteherin|gender=f)))
+13557	empfehle	0		
+13558	mich	0	(mention_id=1762|references=(entity=(entity_id=entity_0023|fullname=Vorsteherin der Pension|gender=f)))	(mention_id=1807|references=(entity=(entity_id=16|fullname=die Vorsteherin|gender=f)))
+13559	zu	0		
+13560	Gnaden	0	(mention_id=1763|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)))	(mention_id=1808|references=(entity=(entity_id=1|fullname=Charlotte|gender=f)))
+13561	und	0		
+13562	nehme	0		
+13563	mir	0	(mention_id=1764|references=(entity=(entity_id=entity_0023|fullname=Vorsteherin der Pension|gender=f)))	(mention_id=1809|references=(entity=(entity_id=16|fullname=die Vorsteherin|gender=f)))
+13564	die	0		
+13565	Freiheit	0		
+13566	,	0		
+13567	nächstens	0		
+13568	meine	0	(mention_id=1765|references=(entity=(entity_id=entity_0023|fullname=Vorsteherin der Pension|gender=f)))	(mention_id=1810|references=(entity=(entity_id=16|fullname=die Vorsteherin|gender=f)))
+13569	Gedanken	0		
+13570	über	0		
+13571	das	0		
+13572	,	0		
+13573	was	0		
+13574	ich	0	(mention_id=1766|references=(entity=(entity_id=entity_0023|fullname=Vorsteherin der Pension|gender=f)))	(mention_id=1811|references=(entity=(entity_id=16|fullname=die Vorsteherin|gender=f)))
+13575	am	0		
+13576	vorteilhaftesten	0		
+13577	für	0		
+13578	sie	0	(mention_id=1767|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=1812|references=(entity=(entity_id=6|fullname=Luciane|gender=f)))
+13579	halte	0		
+13580	,	0		
+13581	zu	0		
+13582	eröffnen	0		
+13583	.	0		
+13584	Von	0		
+13585	Ottilien	0	(mention_id=1768|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=1813|references=(entity=(entity_id=7|fullname=Ottilie|gender=f)))
+13586	schreibt	0		
+13587	mein	0	(mention_id=1769|references=(entity=(entity_id=entity_0023|fullname=Vorsteherin der Pension|gender=f)))	(mention_id=1814|references=(entity=(entity_id=16|fullname=die Vorsteherin|gender=f)))
+13588	freundlicher	0		
+13589	Gehülfe	0	(mention_id=1770|references=(entity=(entity_id=entity_0037|fullname=Gehülfe|gender=m)))	(mention_id=1815|references=(entity=(entity_id=12|fullname=der Gehülfe|gender=m)))
+13590	.	0		
+13591	«	0		
+13592	Brief	0		
+13593	des	0		
+13594	Gehülfen	0	(mention_id=1771|references=(entity=(entity_id=entity_0037|fullname=Gehülfe|gender=m)))	(mention_id=1816|references=(entity=(entity_id=12|fullname=der Gehülfe|gender=m)))
+13595	»	0		
+13596	Von	0		
+13597	Ottilien	0	(mention_id=1772|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=1817|references=(entity=(entity_id=7|fullname=Ottilie|gender=f)))
+13598	läßt	0		
+13599	mich	0	(mention_id=1773|references=(entity=(entity_id=entity_0037|fullname=Gehülfe|gender=m)))	(mention_id=1818|references=(entity=(entity_id=12|fullname=der Gehülfe|gender=m)))
+13600	unsre	0	(mention_id=1774|references=(entity=(entity_id=entity_0037|fullname=Gehülfe|gender=m)),(entity=(entity_id=entity_0023|fullname=Vorsteherin der Pension|gender=f)))	(mention_id=1819|references=(entity=(entity_id=12|fullname=der Gehülfe|gender=m)),(entity=(entity_id=16|fullname=die Vorsteherin|gender=f)))
+13601	ehrwürdige	0		
+13602	Vorsteherin	0	(mention_id=1775|references=(entity=(entity_id=entity_0023|fullname=Vorsteherin der Pension|gender=f)))	(mention_id=1820|references=(entity=(entity_id=16|fullname=die Vorsteherin|gender=f)))
+13603	schreiben	0		
+13604	,	0		
+13605	teils	0		
+13606	weil	0		
+13607	es	0		
+13608	ihr	0	(mention_id=1776|references=(entity=(entity_id=entity_0023|fullname=Vorsteherin der Pension|gender=f)))	(mention_id=1821|references=(entity=(entity_id=16|fullname=die Vorsteherin|gender=f)))
+13609	,	0		
+13610	nach	0		
+13611	ihrer	0	(mention_id=1777|references=(entity=(entity_id=entity_0023|fullname=Vorsteherin der Pension|gender=f)))	(mention_id=1822|references=(entity=(entity_id=16|fullname=die Vorsteherin|gender=f)))
+13612	Art	0		
+13613	zu	0		
+13614	denken	0		
+13615	,	0		
+13616	peinlich	0		
+13617	wäre	0		
+13618	,	0		
+13619	dasjenige	0		
+13620	,	0		
+13621	was	0		
+13622	zu	0		
+13623	melden	0		
+13624	ist	0		
+13625	,	0		
+13626	zu	0		
+13627	melden	0		
+13628	,	0		
+13629	teils	0		
+13630	auch	0		
+13631	,	0		
+13632	weil	0		
+13633	sie	0	(mention_id=1778|references=(entity=(entity_id=entity_0023|fullname=Vorsteherin der Pension|gender=f)))	(mention_id=1823|references=(entity=(entity_id=16|fullname=die Vorsteherin|gender=f)))
+13634	selbst	0		
+13635	einer	0		
+13636	Entschuldigung	0		
+13637	bedarf	0		
+13638	,	0		
+13639	die	0		
+13640	sie	0	(mention_id=1779|references=(entity=(entity_id=entity_0023|fullname=Vorsteherin der Pension|gender=f)))	(mention_id=1824|references=(entity=(entity_id=16|fullname=die Vorsteherin|gender=f)))
+13641	lieber	0		
+13642	mir	0	(mention_id=1780|references=(entity=(entity_id=entity_0037|fullname=Gehülfe|gender=m)))	(mention_id=1825|references=(entity=(entity_id=12|fullname=der Gehülfe|gender=m)))
+13643	in	0		
+13644	den	0		
+13645	Mund	0		
+13646	legen	0		
+13647	mag.	0		
+13648	Da	0		
+13649	ich	0	(mention_id=1781|references=(entity=(entity_id=entity_0037|fullname=Gehülfe|gender=m)))	(mention_id=1826|references=(entity=(entity_id=12|fullname=der Gehülfe|gender=m)))
+13650	nur	0		
+13651	allzuwohl	0		
+13652	weiß	0		
+13653	,	0		
+13654	wie	0		
+13655	wenig	0		
+13656	die	0		
+13657	gute	0		
+13658	Ottilie	0	(mention_id=1782|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=1827|references=(entity=(entity_id=7|fullname=Ottilie|gender=f)))
+13659	das	0		
+13660	zu	0		
+13661	äußern	0		
+13662	imstande	0		
+13663	ist	0		
+13664	,	0		
+13665	was	0		
+13666	in	0		
+13667	ihr	0	(mention_id=1783|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=1828|references=(entity=(entity_id=7|fullname=Ottilie|gender=f)))
+13668	liegt	0		
+13669	und	0		
+13670	was	0		
+13671	sie	0	(mention_id=1784|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=1829|references=(entity=(entity_id=7|fullname=Ottilie|gender=f)))
+13672	vermag	0		
+13673	,	0		
+13674	so	0		
+13675	war	0		
+13676	mir	0	(mention_id=1785|references=(entity=(entity_id=entity_0037|fullname=Gehülfe|gender=m)))	(mention_id=1830|references=(entity=(entity_id=12|fullname=der Gehülfe|gender=m)))
+13677	vor	0		
+13678	der	0		
+13679	öffentlichen	0		
+13680	Prüfung	0		
+13681	einigermaßen	0		
+13682	bange	0		
+13683	,	0		
+13684	um	0		
+13685	so	0		
+13686	mehr	0		
+13687	,	0		
+13688	als	0		
+13689	überhaupt	0		
+13690	dabei	0		
+13691	keine	0		
+13692	Vorbereitung	0		
+13693	möglich	0		
+13694	ist	0		
+13695	,	0		
+13696	und	0		
+13697	auch	0		
+13698	,	0		
+13699	wenn	0		
+13700	es	0		
+13701	nach	0		
+13702	der	0		
+13703	gewöhnlichen	0		
+13704	Weise	0		
+13705	sein	0		
+13706	könnte	0		
+13707	,	0		
+13708	Ottilie	0	(mention_id=1786|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=1831|references=(entity=(entity_id=7|fullname=Ottilie|gender=f)))
+13709	auf	0		
+13710	den	0		
+13711	Schein	0		
+13712	nicht	0		
+13713	vorzubereiten	0		
+13714	wäre	0		
+13715	.	0		
+13716	Der	0		
+13717	Ausgang	0		
+13718	hat	0		
+13719	meine	0	(mention_id=1787|references=(entity=(entity_id=entity_0037|fullname=Gehülfe|gender=m)))	(mention_id=1832|references=(entity=(entity_id=12|fullname=der Gehülfe|gender=m)))
+13720	Sorge	0		
+13721	nur	0		
+13722	zu	0		
+13723	sehr	0		
+13724	gerechtfertigt	0		
+13725	;	0		
+13726	sie	0	(mention_id=1788|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=1833|references=(entity=(entity_id=7|fullname=Ottilie|gender=f)))
+13727	hat	0		
+13728	keinen	0		
+13729	Preis	0		
+13730	erhalten	0		
+13731	und	0		
+13732	ist	0		
+13733	auch	0		
+13734	unter	0		
+13735	denen	0	(mention_id=1789|references=(entity=(entity_id=entity_0055|fullname=Schülerinnen die kein Zeugnis empfangen haben|gender=f|members=entity_0006|all_members_given=False|specialcase_entity=group)))	(mention_id=1834|references=(entity=(entity_id=9|fullname=Schülerinnen ohne Zeugnis|gender=f|specialcase_entity=group)))
+13736	,	0		
+13737	die	0	(mention_id=1790|references=(entity=(entity_id=entity_0055|fullname=Schülerinnen die kein Zeugnis empfangen haben|gender=f|members=entity_0006|all_members_given=False|specialcase_entity=group)))	(mention_id=1835|references=(entity=(entity_id=9|fullname=Schülerinnen ohne Zeugnis|gender=f|specialcase_entity=group)))
+13738	kein	0		
+13739	Zeugnis	0		
+13740	empfangen	0		
+13741	haben	0		
+13742	.	0		
+13743	Was	0		
+13744	soll	0		
+13745	ich	0	(mention_id=1791|references=(entity=(entity_id=entity_0037|fullname=Gehülfe|gender=m)))	(mention_id=1836|references=(entity=(entity_id=12|fullname=der Gehülfe|gender=m)))
+13746	viel	0		
+13747	sagen	0		
+13748	?	0		
+13749	Im	0		
+13750	Schreiben	0		
+13751	hatten	0		
+13752	andere	0	(mention_id=1792|references=(entity=(entity_id=entity_0059|fullname=andere Schülerinnen außer Ottilie|gender=f|specialcase_entity=group)))	(mention_id=1837|references=(entity=(entity_id=11|fullname=andere Schülerinnen|gender=f|specialcase_entity=group)))
+13753	kaum	0		
+13754	so	0		
+13755	wohlgeformte	0		
+13756	Buchstaben	0		
+13757	,	0		
+13758	doch	0		
+13759	viel	0		
+13760	freiere	0		
+13761	Züge	0		
+13762	;	0		
+13763	im	0		
+13764	Rechnen	0		
+13765	waren	0		
+13766	alle	0	(mention_id=1793|references=(entity=(entity_id=entity_0039|fullname=alle Schülerinnen der Pension außer Ottilie zur Zeit als Luciane und Ottilie dort sind|gender=f|members=entity_0005|all_members_given=False|specialcase_entity=group)))	(mention_id=1838|references=(entity=(entity_id=11|fullname=andere Schülerinnen|gender=f|specialcase_entity=group)))
+13767	schneller	0		
+13768	,	0		
+13769	und	0		
+13770	an	0		
+13771	schwierige	0		
+13772	Aufgaben	0		
+13773	,	0		
+13774	welche	0		
+13775	sie	0	(mention_id=1794|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=1839|references=(entity=(entity_id=7|fullname=Ottilie|gender=f)))
+13776	besser	0		
+13777	löst	0		
+13778	,	0		
+13779	kam	0		
+13780	es	0		
+13781	bei	0		
+13782	der	0		
+13783	Untersuchung	0		
+13784	nicht	0		
+13785	.	0		
+13786	Im	0		
+13787	Französischen	0		
+13788	überparlierten	0		
+13789	und	0		
+13790	überexponierten	0		
+13791	sie	0	(mention_id=1795|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=1840|references=(entity=(entity_id=11|fullname=andere Schülerinnen|gender=f|specialcase_entity=group)))
+13792	manche	0	(mention_id=1796|references=(entity=(entity_id=entity_0060|fullname=manche Schülerinnen außer Ottilie|gender=f|specialcase_entity=group)))	
+13793	;	0		
+13794	in	0		
+13795	der	0		
+13796	Geschichte	0		
+13797	waren	0		
+13798	ihr	0	(mention_id=1797|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=1841|references=(entity=(entity_id=7|fullname=Ottilie|gender=f)))
+13799	Namen	0		
+13800	und	0		
+13801	Jahrzahlen	0		
+13802	nicht	0		
+13803	gleich	0		
+13804	bei	0		
+13805	der	0		
+13806	Hand	0		
+13807	;	0		
+13808	bei	0		
+13809	der	0		
+13810	Geographie	0		
+13811	vermißte	0		
+13812	man	0		
+13813	Aufmerksamkeit	0		
+13814	auf	0		
+13815	die	0		
+13816	politische	0		
+13817	Einteilung	0		
+13818	.	0		
+13819	Zum	0		
+13820	musikalischen	0		
+13821	Vortrag	0		
+13822	ihrer	0	(mention_id=1798|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=1842|references=(entity=(entity_id=7|fullname=Ottilie|gender=f)))
+13823	wenigen	0		
+13824	bescheidenen	0		
+13825	Melodien	0		
+13826	fand	0		
+13827	sich	0		
+13828	weder	0		
+13829	Zeit	0		
+13830	noch	0		
+13831	Ruhe	0		
+13832	.	0		
+13833	Im	0		
+13834	Zeichnen	0		
+13835	hätte	0		
+13836	sie	0	(mention_id=1799|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=1843|references=(entity=(entity_id=7|fullname=Ottilie|gender=f)))
+13837	gewiß	0		
+13838	den	0		
+13839	Preis	0		
+13840	davongetragen	0		
+13841	;	0		
+13842	ihre	0	(mention_id=1800|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=1844|references=(entity=(entity_id=7|fullname=Ottilie|gender=f)))
+13843	Umrisse	0		
+13844	waren	0		
+13845	rein	0		
+13846	und	0		
+13847	die	0		
+13848	Ausführung	0		
+13849	bei	0		
+13850	vieler	0		
+13851	Sorgfalt	0		
+13852	geistreich	0		
+13853	.	0		
+13854	Leider	0		
+13855	hatte	0		
+13856	sie	0	(mention_id=1801|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=1845|references=(entity=(entity_id=7|fullname=Ottilie|gender=f)))
+13857	etwas	0		
+13858	zu	0		
+13859	Großes	0		
+13860	unternommen	0		
+13861	und	0		
+13862	war	0		
+13863	nicht	0		
+13864	fertig	0		
+13865	geworden	0		
+13866	.	0		
+13867	Als	0		
+13868	die	0		
+13869	Schülerinnen	0	(mention_id=1802|references=(entity=(entity_id=entity_0038|fullname=alle Schülerinnen der Pension zur Zeit als Ottilie und Luciane dort sind|gender=f|members=entity_0005,entity_0006|all_members_given=False|specialcase_entity=group)))	(mention_id=1846|references=(entity=(entity_id=17|fullname=die Zöglinge|gender=mf|specialcase_entity=group)))
+13870	abgetreten	0		
+13871	waren	0		
+13872	,	0		
+13873	die	0		
+13874	Prüfenden	0	(mention_id=1803|references=(entity=(entity_id=entity_0052|fullname=Externe Prüfende der Pension|gender=m|members=entity_0061|all_members_given=False|specialcase_entity=group)))	(mention_id=1847|references=(entity=(entity_id=15|fullname=die Prüfenden|gender=m|specialcase_entity=group)))
+13875	zusammen	0		
+13876	Rat	0		
+13877	hielten	0		
+13878	und	0		
+13879	uns	0	(mention_id=1804|references=(entity=(entity_id=entity_0056|fullname=alle Lehrer der Pension|gender=u|members=entity_0037|all_members_given=False|specialcase_entity=group)))	(mention_id=1848|references=(entity=(entity_id=12|fullname=der Gehülfe|gender=m)),(entity=(entity_id=16|fullname=die Vorsteherin|gender=f)))
+13880	Lehrern	0	(mention_id=1805|references=(entity=(entity_id=entity_0056|fullname=alle Lehrer der Pension|gender=u|members=entity_0037|all_members_given=False|specialcase_entity=group)))	(mention_id=1849|references=(entity=(entity_id=12|fullname=der Gehülfe|gender=m)),(entity=(entity_id=16|fullname=die Vorsteherin|gender=f)))
+13881	wenigstens	0		
+13882	einiges	0		
+13883	Wort	0		
+13884	dabei	0		
+13885	gönnten	0		
+13886	,	0		
+13887	merkte	0		
+13888	ich	0	(mention_id=1806|references=(entity=(entity_id=entity_0037|fullname=Gehülfe|gender=m)))	(mention_id=1850|references=(entity=(entity_id=12|fullname=der Gehülfe|gender=m)))
+13889	wohl	0		
+13890	bald	0		
+13891	,	0		
+13892	daß	0		
+13893	von	0		
+13894	Ottilien	0	(mention_id=1807|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=1851|references=(entity=(entity_id=7|fullname=Ottilie|gender=f)))
+13895	gar	0		
+13896	nicht	0		
+13897	und	0		
+13898	,	0		
+13899	wenn	0		
+13900	es	0		
+13901	geschah	0		
+13902	,	0		
+13903	wo	0		
+13904	nicht	0		
+13905	mit	0		
+13906	Mißbilligung	0		
+13907	,	0		
+13908	doch	0		
+13909	mit	0		
+13910	Gleichgültigkeit	0		
+13911	gesprochen	0		
+13912	wurde	0		
+13913	.	0		
+13914	Ich	0	(mention_id=1808|references=(entity=(entity_id=entity_0037|fullname=Gehülfe|gender=m)))	(mention_id=1852|references=(entity=(entity_id=12|fullname=der Gehülfe|gender=m)))
+13915	hoffte	0		
+13916	,	0		
+13917	durch	0		
+13918	eine	0		
+13919	offne	0		
+13920	Darstellung	0		
+13921	ihrer	0	(mention_id=1809|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=1853|references=(entity=(entity_id=7|fullname=Ottilie|gender=f)))
+13922	Art	0		
+13923	zu	0		
+13924	sein	0		
+13925	einige	0		
+13926	Gunst	0		
+13927	zu	0		
+13928	erregen	0		
+13929	,	0		
+13930	und	0		
+13931	wagte	0		
+13932	mich	0	(mention_id=1810|references=(entity=(entity_id=entity_0037|fullname=Gehülfe|gender=m)))	(mention_id=1854|references=(entity=(entity_id=12|fullname=der Gehülfe|gender=m)))
+13933	daran	0		
+13934	mit	0		
+13935	doppeltem	0		
+13936	Eifer	0		
+13937	,	0		
+13938	einmal	0		
+13939	,	0		
+13940	weil	0		
+13941	ich	0	(mention_id=1811|references=(entity=(entity_id=entity_0037|fullname=Gehülfe|gender=m)))	(mention_id=1855|references=(entity=(entity_id=12|fullname=der Gehülfe|gender=m)))
+13942	nach	0		
+13943	meiner	0	(mention_id=1812|references=(entity=(entity_id=entity_0037|fullname=Gehülfe|gender=m)))	(mention_id=1856|references=(entity=(entity_id=12|fullname=der Gehülfe|gender=m)))
+13944	Überzeugung	0		
+13945	sprechen	0		
+13946	konnte	0		
+13947	,	0		
+13948	und	0		
+13949	sodann	0		
+13950	,	0		
+13951	weil	0		
+13952	ich	0	(mention_id=1813|references=(entity=(entity_id=entity_0037|fullname=Gehülfe|gender=m)))	(mention_id=1857|references=(entity=(entity_id=12|fullname=der Gehülfe|gender=m)))
+13953	mich	0	(mention_id=1814|references=(entity=(entity_id=entity_0037|fullname=Gehülfe|gender=m)))	(mention_id=1858|references=(entity=(entity_id=12|fullname=der Gehülfe|gender=m)))
+13954	in	0		
+13955	jüngeren	0		
+13956	Jahren	0		
+13957	in	0		
+13958	eben	0		
+13959	demselben	0		
+13960	traurigen	0		
+13961	Fall	0		
+13962	befunden	0		
+13963	hatte	0		
+13964	.	0		
+13965	Man	0		
+13966	hörte	0		
+13967	mich	0	(mention_id=1815|references=(entity=(entity_id=entity_0037|fullname=Gehülfe|gender=m)))	(mention_id=1859|references=(entity=(entity_id=12|fullname=der Gehülfe|gender=m)))
+13968	mit	0		
+13969	Aufmerksamkeit	0		
+13970	an	0		
+13971	;	0		
+13972	doch	0		
+13973	als	0		
+13974	ich	0	(mention_id=1816|references=(entity=(entity_id=entity_0037|fullname=Gehülfe|gender=m)))	(mention_id=1860|references=(entity=(entity_id=12|fullname=der Gehülfe|gender=m)))
+13975	geendigt	0		
+13976	hatte	0		
+13977	,	0		
+13978	sagte	0		
+13979	mir	0	(mention_id=1817|references=(entity=(entity_id=entity_0037|fullname=Gehülfe|gender=m)))	(mention_id=1861|references=(entity=(entity_id=12|fullname=der Gehülfe|gender=m)))
+13980	der	0		
+13981	vorsitzende	0	(mention_id=1818|references=(entity=(entity_id=entity_0061|fullname=vorsitzender Prüfender|gender=m)))	
+13982	Prüfende	0	(mention_id=1818|references=(entity=(entity_id=entity_0061|fullname=vorsitzender Prüfender|gender=m)))	(mention_id=1862|references=(entity=(entity_id=14|fullname=der vorsitzende Prüfende|gender=m)))
+13983	zwar	0		
+13984	freundlich	0		
+13985	,	0		
+13986	aber	0		
+13987	lakonisch	0		
+13988	:	0		
+13989	›	0		
+13990	Fähigkeiten	0		
+13991	werden	0		
+13992	vorausgesetzt	0		
+13993	,	0		
+13994	sie	0		
+13995	sollen	0		
+13996	zu	0		
+13997	Fertigkeiten	0		
+13998	werden	0		
+13999	.	0		
+14000	Dies	0		
+14001	ist	0		
+14002	der	0		
+14003	Zweck	0		
+14004	aller	0		
+14005	Erziehung	0		
+14006	,	0		
+14007	dies	0		
+14008	ist	0		
+14009	die	0		
+14010	laute	0		
+14011	,	0		
+14012	deutliche	0		
+14013	Absicht	0		
+14014	der	0		
+14015	Eltern	0	(mention_id=1819|references=(entity=(entity_id=generic_0127|fullname=Eltern allgemein|gender=u|specialcase_entity=generic)))	(mention_id=1863|references=(entity=(entity_id=generic_0004|fullname=Eltern im Allgemeinen|gender=u|specialcase_entity=generic)))
+14016	und	0		
+14017	Vorgesetzten	0	(mention_id=1820|references=(entity=(entity_id=generic_0128|fullname=Vorgesetzte allgemein|gender=u|specialcase_entity=generic)))	(mention_id=1864|references=(entity=(entity_id=generic_0006|fullname=Vorgesetzte im Allgemeinen|gender=u|specialcase_entity=generic)))
+14018	,	0		
+14019	die	0		
+14020	stille	0		
+14021	,	0		
+14022	nur	0		
+14023	halb	0		
+14024	bewußte	0		
+14025	der	0		
+14026	Kinder	0	(mention_id=1821|references=(entity=(entity_id=generic_0129|fullname=Kinder allgemein|gender=u|specialcase_entity=generic)))	(mention_id=1865|references=(entity=(entity_id=generic_0007|fullname=Kinder im Allgemeinen|gender=u|specialcase_entity=generic)))
+14027	selbst	0		
+14028	.	0		
+14029	Dies	0		
+14030	ist	0		
+14031	auch	0		
+14032	der	0		
+14033	Gegenstand	0		
+14034	der	0		
+14035	Prüfung	0		
+14036	,	0		
+14037	wobei	0		
+14038	zugleich	0		
+14039	Lehrer	0	(mention_id=1822|references=(entity=(entity_id=generic_0130|fullname=Lehrer allgemein|gender=u|specialcase_entity=generic)))	(mention_id=1866|references=(entity=(entity_id=generic_0002|fullname=Lehrer im Allgemeinen|gender=u|specialcase_entity=generic)))
+14040	und	0		
+14041	Schüler	0	(mention_id=1823|references=(entity=(entity_id=generic_0131|fullname=Schüler allgemein|gender=u|specialcase_entity=generic)))	(mention_id=1867|references=(entity=(entity_id=generic_0008|fullname=Schüler im Allgemeinen|gender=u|specialcase_entity=generic)))
+14042	beurteilt	0		
+14043	werden	0		
+14044	.	0		
+14045	Aus	0		
+14046	dem	0		
+14047	,	0		
+14048	was	0		
+14049	wir	0	(mention_id=1824|references=(entity=(entity_id=entity_0052|fullname=Externe Prüfende der Pension|gender=m|members=entity_0061|all_members_given=False|specialcase_entity=group)))	(mention_id=1868|references=(entity=(entity_id=15|fullname=die Prüfenden|gender=m|specialcase_entity=group)))
+14050	von	0		
+14051	Ihnen	0	(mention_id=1825|references=(entity=(entity_id=entity_0037|fullname=Gehülfe|gender=m)))	(mention_id=1869|references=(entity=(entity_id=12|fullname=der Gehülfe|gender=m)))
+14052	vernehmen	0		
+14053	,	0		
+14054	schöpfen	0		
+14055	wir	0	(mention_id=1826|references=(entity=(entity_id=entity_0052|fullname=Externe Prüfende der Pension|gender=m|members=entity_0061|all_members_given=False|specialcase_entity=group)))	(mention_id=1870|references=(entity=(entity_id=15|fullname=die Prüfenden|gender=m|specialcase_entity=group)))
+14056	gute	0		
+14057	Hoffnung	0		
+14058	von	0		
+14059	dem	0		
+14060	Kinde	0	(mention_id=1827|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=1871|references=(entity=(entity_id=7|fullname=Ottilie|gender=f)))
+14061	,	0		
+14062	und	0		
+14063	Sie	0	(mention_id=1828|references=(entity=(entity_id=entity_0037|fullname=Gehülfe|gender=m)))	(mention_id=1872|references=(entity=(entity_id=12|fullname=der Gehülfe|gender=m)))
+14064	sind	0		
+14065	allerdings	0		
+14066	lobenswürdig	0		
+14067	,	0		
+14068	indem	0		
+14069	Sie	0	(mention_id=1829|references=(entity=(entity_id=entity_0037|fullname=Gehülfe|gender=m)))	(mention_id=1873|references=(entity=(entity_id=12|fullname=der Gehülfe|gender=m)))
+14070	auf	0		
+14071	die	0		
+14072	Fähigkeiten	0		
+14073	der	0		
+14074	Schülerinnen	0	(mention_id=1830|references=(entity=(entity_id=entity_0038|fullname=alle Schülerinnen der Pension zur Zeit als Ottilie und Luciane dort sind|gender=f|members=entity_0005,entity_0006|all_members_given=False|specialcase_entity=group)))	(mention_id=1874|references=(entity=(entity_id=17|fullname=die Zöglinge|gender=mf|specialcase_entity=group)))
+14075	genau	0		
+14076	achtgeben	0		
+14077	.	0		
+14078	Verwandeln	0		
+14079	Sie	0	(mention_id=1831|references=(entity=(entity_id=entity_0037|fullname=Gehülfe|gender=m)))	(mention_id=1875|references=(entity=(entity_id=12|fullname=der Gehülfe|gender=m)))
+14080	solche	0		
+14081	übers	0		
+14082	Jahr	0		
+14083	in	0		
+14084	Fertigkeiten	0		
+14085	,	0		
+14086	so	0		
+14087	wird	0		
+14088	es	0		
+14089	Ihnen	0	(mention_id=1832|references=(entity=(entity_id=entity_0037|fullname=Gehülfe|gender=m)))	(mention_id=1876|references=(entity=(entity_id=12|fullname=der Gehülfe|gender=m)))
+14090	und	0		
+14091	Ihrer	0	(mention_id=1833|references=(entity=(entity_id=entity_0037|fullname=Gehülfe|gender=m)))	(mention_id=1877|references=(entity=(entity_id=12|fullname=der Gehülfe|gender=m)))
+14092	begünstigten	0		
+14093	Schülerin	0	(mention_id=1834|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=1878|references=(entity=(entity_id=7|fullname=Ottilie|gender=f)))
+14094	nicht	0		
+14095	an	0		
+14096	Beifall	0		
+14097	mangeln	0		
+14098	.	0		
+14099	‹	0		
+14100	In	0		
+14101	das	0		
+14102	,	0		
+14103	was	0		
+14104	hierauf	0		
+14105	folgte	0		
+14106	,	0		
+14107	hatte	0		
+14108	ich	0	(mention_id=1835|references=(entity=(entity_id=entity_0037|fullname=Gehülfe|gender=m)))	(mention_id=1879|references=(entity=(entity_id=12|fullname=der Gehülfe|gender=m)))
+14109	mich	0	(mention_id=1836|references=(entity=(entity_id=entity_0037|fullname=Gehülfe|gender=m)))	(mention_id=1880|references=(entity=(entity_id=12|fullname=der Gehülfe|gender=m)))
+14110	schon	0		
+14111	ergeben	0		
+14112	,	0		
+14113	aber	0		
+14114	ein	0		
+14115	noch	0		
+14116	Übleres	0		
+14117	nicht	0		
+14118	befürchtet	0		
+14119	,	0		
+14120	das	0		
+14121	sich	0		
+14122	bald	0		
+14123	darauf	0		
+14124	zutrug	0		
+14125	.	0		
+14126	Unsere	0	(mention_id=1837|references=(entity=(entity_id=entity_0037|fullname=Gehülfe|gender=m)))	(mention_id=1881|references=(entity=(entity_id=12|fullname=der Gehülfe|gender=m)))
+14127	gute	0		
+14128	Vorsteherin	0	(mention_id=1838|references=(entity=(entity_id=entity_0023|fullname=Vorsteherin der Pension|gender=f)))	(mention_id=1882|references=(entity=(entity_id=16|fullname=die Vorsteherin|gender=f)))
+14129	,	0		
+14130	die	0	(mention_id=1839|references=(entity=(entity_id=entity_0023|fullname=Vorsteherin der Pension|gender=f)))	(mention_id=1883|references=(entity=(entity_id=16|fullname=die Vorsteherin|gender=f)))
+14131	wie	0		
+14132	ein	0		
+14133	guter	0		
+14134	Hirte	0	(mention_id=1840|references=(entity=(entity_id=entity_0023|fullname=Vorsteherin der Pension|gender=f)|specialcase_reference=figurative))	(mention_id=1884|references=(entity=(entity_id=generic_0009|fullname=ein guter Hirte im Allgemeinen|gender=u|specialcase_entity=generic)))
+14135	auch	0		
+14136	nicht	0		
+14137	eins	0		
+14138	von	0		
+14139	ihren	0	(mention_id=1841|references=(entity=(entity_id=entity_0023|fullname=Vorsteherin der Pension|gender=f)))	(mention_id=1885|references=(entity=(entity_id=16|fullname=die Vorsteherin|gender=f)))
+14140	Schäfchen	0	(mention_id=1842|references=(entity=(entity_id=entity_0038|fullname=alle Schülerinnen der Pension zur Zeit als Ottilie und Luciane dort sind|gender=f|members=entity_0005,entity_0006|all_members_given=False|specialcase_entity=group)|specialcase_reference=figurative))	
+14141	verloren	0		
+14142	oder	0		
+14143	,	0		
+14144	wie	0		
+14145	es	0		
+14146	hier	0		
+14147	der	0		
+14148	Fall	0		
+14149	war	0		
+14150	,	0		
+14151	ungeschmückt	0		
+14152	sehen	0		
+14153	möchte	0		
+14154	,	0		
+14155	konnte	0		
+14156	,	0		
+14157	nachdem	0		
+14158	die	0		
+14159	Herren	0	(mention_id=1843|references=(entity=(entity_id=entity_0052|fullname=Externe Prüfende der Pension|gender=m|members=entity_0061|all_members_given=False|specialcase_entity=group)))	(mention_id=1886|references=(entity=(entity_id=15|fullname=die Prüfenden|gender=m|specialcase_entity=group)))
+14160	sich	0	(mention_id=1844|references=(entity=(entity_id=entity_0052|fullname=Externe Prüfende der Pension|gender=m|members=entity_0061|all_members_given=False|specialcase_entity=group)))	(mention_id=1887|references=(entity=(entity_id=15|fullname=die Prüfenden|gender=m|specialcase_entity=group)))
+14161	entfernt	0		
+14162	hatten	0		
+14163	,	0		
+14164	ihren	0	(mention_id=1845|references=(entity=(entity_id=entity_0023|fullname=Vorsteherin der Pension|gender=f)))	(mention_id=1888|references=(entity=(entity_id=16|fullname=die Vorsteherin|gender=f)))
+14165	Unwillen	0		
+14166	nicht	0		
+14167	bergen	0		
+14168	und	0		
+14169	sagte	0		
+14170	zu	0		
+14171	Ottilien	0	(mention_id=1846|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=1889|references=(entity=(entity_id=7|fullname=Ottilie|gender=f)))
+14172	,	0		
+14173	die	0	(mention_id=1847|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=1890|references=(entity=(entity_id=7|fullname=Ottilie|gender=f)))
+14174	ganz	0		
+14175	ruhig	0		
+14176	,	0		
+14177	indem	0		
+14178	die	0		
+14179	andern	0	(mention_id=1848|references=(entity=(entity_id=entity_0054|fullname=Schülerinnen die Preise erhalten haben|gender=f|members=entity_0005|all_members_given=False|borderline_entity=members|specialcase_entity=group)))	(mention_id=1891|references=(entity=(entity_id=11|fullname=andere Schülerinnen|gender=f|specialcase_entity=group)))
+14180	sich	0	(mention_id=1849|references=(entity=(entity_id=entity_0054|fullname=Schülerinnen die Preise erhalten haben|gender=f|members=entity_0005|all_members_given=False|borderline_entity=members|specialcase_entity=group)))	(mention_id=1892|references=(entity=(entity_id=11|fullname=andere Schülerinnen|gender=f|specialcase_entity=group)))
+14181	über	0		
+14182	ihre	0	(mention_id=1850|references=(entity=(entity_id=entity_0054|fullname=Schülerinnen die Preise erhalten haben|gender=f|members=entity_0005|all_members_given=False|borderline_entity=members|specialcase_entity=group)))	(mention_id=1893|references=(entity=(entity_id=11|fullname=andere Schülerinnen|gender=f|specialcase_entity=group)))
+14183	Preise	0		
+14184	freuten	0		
+14185	,	0		
+14186	am	0		
+14187	Fenster	0		
+14188	stand	0		
+14189	:	0		
+14190	›	0		
+14191	Aber	0		
+14192	sagen	0		
+14193	Sie	0	(mention_id=1851|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=1894|references=(entity=(entity_id=7|fullname=Ottilie|gender=f)))
+14194	mir	0	(mention_id=1852|references=(entity=(entity_id=entity_0023|fullname=Vorsteherin der Pension|gender=f)))	(mention_id=1895|references=(entity=(entity_id=16|fullname=die Vorsteherin|gender=f)))
+14195	,	0		
+14196	um's	0		
+14197	Himmels	0		
+14198	willen	0		
+14199	!	0		
+14200	wie	0		
+14201	kann	0		
+14202	man	0		
+14203	so	0		
+14204	dumm	0		
+14205	aussehen	0		
+14206	,	0		
+14207	wenn	0		
+14208	man	0		(mention_id=1896|references=(entity=(entity_id=7|fullname=Ottilie|gender=f)))
+14209	es	0		
+14210	nicht	0		
+14211	ist	0		
+14212	?	0		
+14213	‹	0		
+14214	Ottilie	0	(mention_id=1853|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=1897|references=(entity=(entity_id=7|fullname=Ottilie|gender=f)))
+14215	versetzte	0		
+14216	ganz	0		
+14217	gelassen	0		
+14218	:	0		
+14219	›	0		
+14220	Verzeihen	0		
+14221	Sie	0	(mention_id=1854|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=1898|references=(entity=(entity_id=16|fullname=die Vorsteherin|gender=f)))
+14222	,	0		
+14223	liebe	0		
+14224	Mutter	0	(mention_id=1855|references=(entity=(entity_id=entity_0023|fullname=Vorsteherin der Pension|gender=f)))	(mention_id=1899|references=(entity=(entity_id=16|fullname=die Vorsteherin|gender=f)))
+14225	,	0		
+14226	ich	0	(mention_id=1856|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=1900|references=(entity=(entity_id=7|fullname=Ottilie|gender=f)))
+14227	habe	0		
+14228	gerade	0		
+14229	heute	0		
+14230	wieder	0		
+14231	mein	0	(mention_id=1857|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=1901|references=(entity=(entity_id=7|fullname=Ottilie|gender=f)))
+14232	Kopfweh	0		
+14233	,	0		
+14234	und	0		
+14235	ziemlich	0		
+14236	stark	0		
+14237	.	0		
+14238	‹	0		
+14239	–	0		
+14240	›	0		
+14241	Das	0		
+14242	kann	0		
+14243	niemand	0		
+14244	wissen	0		
+14245	!	0		
+14246	‹	0		
+14247	versetzte	0		
+14248	die	0		
+14249	sonst	0		
+14250	so	0		
+14251	teilnehmende	0		
+14252	Frau	0	(mention_id=1858|references=(entity=(entity_id=entity_0023|fullname=Vorsteherin der Pension|gender=f)))	(mention_id=1902|references=(entity=(entity_id=16|fullname=die Vorsteherin|gender=f)))
+14253	und	0		
+14254	kehrte	0		
+14255	sich	0	(mention_id=1859|references=(entity=(entity_id=entity_0023|fullname=Vorsteherin der Pension|gender=f)))	(mention_id=1903|references=(entity=(entity_id=16|fullname=die Vorsteherin|gender=f)))
+14256	verdrießlich	0		
+14257	um	0		
+14258	.	0		
+14259	Nun	0		
+14260	es	0		
+14261	ist	0		
+14262	wahr	0		
+14263	:	0		
+14264	niemand	0		
+14265	kann	0		
+14266	es	0		
+14267	wissen	0		
+14268	;	0		
+14269	denn	0		
+14270	Ottilie	0	(mention_id=1860|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=1904|references=(entity=(entity_id=7|fullname=Ottilie|gender=f)))
+14271	verändert	0		
+14272	das	0		
+14273	Gesicht	0		
+14274	nicht	0		
+14275	,	0		
+14276	und	0		
+14277	ich	0	(mention_id=1861|references=(entity=(entity_id=entity_0037|fullname=Gehülfe|gender=m)))	(mention_id=1905|references=(entity=(entity_id=12|fullname=der Gehülfe|gender=m)))
+14278	habe	0		
+14279	auch	0		
+14280	nicht	0		
+14281	gesehen	0		
+14282	,	0		
+14283	daß	0		
+14284	sie	0	(mention_id=1862|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=1906|references=(entity=(entity_id=7|fullname=Ottilie|gender=f)))
+14285	einmal	0		
+14286	die	0		
+14287	Hand	0		
+14288	nach	0		
+14289	dem	0		
+14290	Schlafe	0		
+14291	zu	0		
+14292	bewegt	0		
+14293	hätte	0		
+14294	.	0		
+14295	Das	0		
+14296	war	0		
+14297	noch	0		
+14298	nicht	0		
+14299	alles	0		
+14300	.	0		
+14301	Ihre	0	(mention_id=1863|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)))	(mention_id=1907|references=(entity=(entity_id=1|fullname=Charlotte|gender=f)))
+14302	Fräulein	0	(mention_id=1864|references=(entity=(entity_id=entity_0005|fullname=Luciane|gender=f)))	(mention_id=1908|references=(entity=(entity_id=6|fullname=Luciane|gender=f)))
+14303	Tochter	0	(mention_id=1864|references=(entity=(entity_id=entity_0005|fullname=Luciane|gender=f)))	(mention_id=1908|references=(entity=(entity_id=6|fullname=Luciane|gender=f)))
+14304	,	0		
+14305	gnädige	0		
+14306	Frau	0	(mention_id=1865|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)))	(mention_id=1909|references=(entity=(entity_id=1|fullname=Charlotte|gender=f)))
+14307	,	0		
+14308	sonst	0		
+14309	lebhaft	0		
+14310	und	0		
+14311	freimütig	0		
+14312	,	0		
+14313	war	0		
+14314	im	0		
+14315	Gefühl	0		
+14316	ihres	0	(mention_id=1866|references=(entity=(entity_id=entity_0005|fullname=Luciane|gender=f)))	(mention_id=1910|references=(entity=(entity_id=6|fullname=Luciane|gender=f)))
+14317	heutigen	0		
+14318	Triumphs	0		
+14319	ausgelassen	0		
+14320	und	0		
+14321	übermütig	0		
+14322	.	0		
+14323	Sie	0	(mention_id=1867|references=(entity=(entity_id=entity_0005|fullname=Luciane|gender=f)))	(mention_id=1911|references=(entity=(entity_id=6|fullname=Luciane|gender=f)))
+14324	sprang	0		
+14325	mit	0		
+14326	ihren	0	(mention_id=1868|references=(entity=(entity_id=entity_0005|fullname=Luciane|gender=f)))	(mention_id=1912|references=(entity=(entity_id=6|fullname=Luciane|gender=f)))
+14327	Preisen	0		
+14328	und	0		
+14329	Zeugnissen	0		
+14330	in	0		
+14331	den	0		
+14332	Zimmern	0		
+14333	herum	0		
+14334	und	0		
+14335	schüttelte	0		
+14336	sie	0		
+14337	auch	0		
+14338	Ottilien	0	(mention_id=1869|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=1913|references=(entity=(entity_id=7|fullname=Ottilie|gender=f)))
+14339	vor	0		
+14340	dem	0		
+14341	Gesicht	0		
+14342	.	0		
+14343	›	0		
+14344	Du	0	(mention_id=1870|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=1914|references=(entity=(entity_id=7|fullname=Ottilie|gender=f)))
+14345	bist	0		
+14346	heute	0		
+14347	schlecht	0		
+14348	gefahren	0		
+14349	!	0		
+14350	‹	0		
+14351	rief	0		
+14352	sie	0	(mention_id=1871|references=(entity=(entity_id=entity_0005|fullname=Luciane|gender=f)))	(mention_id=1915|references=(entity=(entity_id=6|fullname=Luciane|gender=f)))
+14353	aus	0		
+14354	.	0		
+14355	Ganz	0		
+14356	gelassen	0		
+14357	antwortete	0		
+14358	Ottilie	0	(mention_id=1872|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=1916|references=(entity=(entity_id=7|fullname=Ottilie|gender=f)))
+14359	:	0		
+14360	›	0		
+14361	Es	0		
+14362	ist	0		
+14363	noch	0		
+14364	nicht	0		
+14365	der	0		
+14366	letzte	0		
+14367	Prüfungstag	0		
+14368	.	0		
+14369	‹	0		
+14370	–	0		
+14371	›	0		
+14372	Und	0		
+14373	doch	0		
+14374	wirst	0		
+14375	du	0	(mention_id=1873|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=1917|references=(entity=(entity_id=7|fullname=Ottilie|gender=f)))
+14376	immer	0		
+14377	die	0		
+14378	Letzte	0	(mention_id=1874|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=1918|references=(entity=(entity_id=7|fullname=Ottilie|gender=f)))
+14379	bleiben	0		
+14380	!	0		
+14381	‹	0		
+14382	rief	0		
+14383	das	0		
+14384	Fräulein	0	(mention_id=1875|references=(entity=(entity_id=entity_0005|fullname=Luciane|gender=f)))	(mention_id=1919|references=(entity=(entity_id=6|fullname=Luciane|gender=f)))
+14385	und	0		
+14386	sprang	0		
+14387	hinweg	0		
+14388	.	0		
+14389	Ottilie	0	(mention_id=1876|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=1920|references=(entity=(entity_id=7|fullname=Ottilie|gender=f)))
+14390	schien	0		
+14391	gelassen	0		
+14392	für	0		
+14393	jeden	0		
+14394	andern	0	(mention_id=1877|references=(entity=(entity_id=entity_0057|fullname=alle Erziehenden außer Gehülfe|gender=u|members=entity_0023|all_members_given=False|borderline_entity=members|specialcase_entity=group)))	
+14395	,	0		
+14396	nur	0		
+14397	nicht	0		
+14398	für	0		
+14399	mich	0	(mention_id=1878|references=(entity=(entity_id=entity_0037|fullname=Gehülfe|gender=m)))	(mention_id=1921|references=(entity=(entity_id=12|fullname=der Gehülfe|gender=m)))
+14400	.	0		
+14401	Eine	0		
+14402	innere	0		
+14403	,	0		
+14404	unangenehme	0		
+14405	,	0		
+14406	lebhafte	0		
+14407	Bewegung	0		
+14408	,	0		
+14409	der	0		
+14410	sie	0	(mention_id=1879|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=1922|references=(entity=(entity_id=7|fullname=Ottilie|gender=f)))
+14411	widersteht	0		
+14412	,	0		
+14413	zeigt	0		
+14414	sich	0		
+14415	durch	0		
+14416	eine	0		
+14417	ungleiche	0		
+14418	Farbe	0		
+14419	des	0		
+14420	Gesichts	0		
+14421	.	0		
+14422	Die	0		
+14423	linke	0		
+14424	Wange	0		
+14425	wird	0		
+14426	auf	0		
+14427	einen	0		
+14428	Augenblick	0		
+14429	rot	0		
+14430	,	0		
+14431	indem	0		
+14432	die	0		
+14433	rechte	0		
+14434	bleich	0		
+14435	wird	0		
+14436	.	0		
+14437	Ich	0	(mention_id=1880|references=(entity=(entity_id=entity_0037|fullname=Gehülfe|gender=m)))	(mention_id=1923|references=(entity=(entity_id=12|fullname=der Gehülfe|gender=m)))
+14438	sah	0		
+14439	dies	0		
+14440	Zeichen	0		
+14441	,	0		
+14442	und	0		
+14443	meine	0	(mention_id=1881|references=(entity=(entity_id=entity_0037|fullname=Gehülfe|gender=m)))	(mention_id=1924|references=(entity=(entity_id=12|fullname=der Gehülfe|gender=m)))
+14444	Teilnehmung	0		
+14445	konnte	0		
+14446	sich	0		
+14447	nicht	0		
+14448	zurückhalten	0		
+14449	.	0		
+14450	Ich	0	(mention_id=1882|references=(entity=(entity_id=entity_0037|fullname=Gehülfe|gender=m)))	(mention_id=1925|references=(entity=(entity_id=12|fullname=der Gehülfe|gender=m)))
+14451	führte	0		
+14452	unsre	0	(mention_id=1883|references=(entity=(entity_id=entity_0037|fullname=Gehülfe|gender=m)))	(mention_id=1926|references=(entity=(entity_id=12|fullname=der Gehülfe|gender=m)))
+14453	Vorsteherin	0	(mention_id=1884|references=(entity=(entity_id=entity_0023|fullname=Vorsteherin der Pension|gender=f)))	(mention_id=1927|references=(entity=(entity_id=16|fullname=die Vorsteherin|gender=f)))
+14454	beiseite	0		
+14455	,	0		
+14456	sprach	0		
+14457	ernsthaft	0		
+14458	mit	0		
+14459	ihr	0	(mention_id=1885|references=(entity=(entity_id=entity_0023|fullname=Vorsteherin der Pension|gender=f)))	(mention_id=1928|references=(entity=(entity_id=16|fullname=die Vorsteherin|gender=f)))
+14460	über	0		
+14461	die	0		
+14462	Sache	0		
+14463	.	0		
+14464	Die	0		
+14465	treffliche	0		
+14466	Frau	0	(mention_id=1886|references=(entity=(entity_id=entity_0023|fullname=Vorsteherin der Pension|gender=f)))	(mention_id=1929|references=(entity=(entity_id=16|fullname=die Vorsteherin|gender=f)))
+14467	erkannte	0		
+14468	ihren	0	(mention_id=1887|references=(entity=(entity_id=entity_0023|fullname=Vorsteherin der Pension|gender=f)))	(mention_id=1930|references=(entity=(entity_id=16|fullname=die Vorsteherin|gender=f)))
+14469	Fehler	0		
+14470	.	0		
+14471	Wir	0	(mention_id=1888|references=(entity=(entity_id=entity_0037|fullname=Gehülfe|gender=m)),(entity=(entity_id=entity_0023|fullname=Vorsteherin der Pension|gender=f)))	(mention_id=1931|references=(entity=(entity_id=12|fullname=der Gehülfe|gender=m)),(entity=(entity_id=16|fullname=die Vorsteherin|gender=f)))
+14472	berieten	0		
+14473	,	0		
+14474	wir	0	(mention_id=1889|references=(entity=(entity_id=entity_0037|fullname=Gehülfe|gender=m)),(entity=(entity_id=entity_0023|fullname=Vorsteherin der Pension|gender=f)))	(mention_id=1932|references=(entity=(entity_id=12|fullname=der Gehülfe|gender=m)),(entity=(entity_id=16|fullname=die Vorsteherin|gender=f)))
+14475	besprachen	0		
+14476	uns	0	(mention_id=1890|references=(entity=(entity_id=entity_0037|fullname=Gehülfe|gender=m)),(entity=(entity_id=entity_0023|fullname=Vorsteherin der Pension|gender=f)))	(mention_id=1933|references=(entity=(entity_id=12|fullname=der Gehülfe|gender=m)),(entity=(entity_id=16|fullname=die Vorsteherin|gender=f)))
+14477	lange	0		
+14478	,	0		
+14479	und	0		
+14480	ohne	0		
+14481	deshalb	0		
+14482	weitläufiger	0		
+14483	zu	0		
+14484	sein	0		
+14485	,	0		
+14486	will	0		
+14487	ich	0	(mention_id=1891|references=(entity=(entity_id=entity_0037|fullname=Gehülfe|gender=m)))	(mention_id=1934|references=(entity=(entity_id=12|fullname=der Gehülfe|gender=m)))
+14488	Euer	0	(mention_id=1892|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)))	(mention_id=1935|references=(entity=(entity_id=1|fullname=Charlotte|gender=f)))
+14489	Gnaden	0	(mention_id=1892|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)))	(mention_id=1935|references=(entity=(entity_id=1|fullname=Charlotte|gender=f)))
+14490	unsern	0	(mention_id=1893|references=(entity=(entity_id=entity_0037|fullname=Gehülfe|gender=m)),(entity=(entity_id=entity_0023|fullname=Vorsteherin der Pension|gender=f)))	(mention_id=1936|references=(entity=(entity_id=12|fullname=der Gehülfe|gender=m)),(entity=(entity_id=16|fullname=die Vorsteherin|gender=f)))
+14491	Beschluß	0		
+14492	und	0		
+14493	unsre	0	(mention_id=1894|references=(entity=(entity_id=entity_0037|fullname=Gehülfe|gender=m)),(entity=(entity_id=entity_0023|fullname=Vorsteherin der Pension|gender=f)))	(mention_id=1937|references=(entity=(entity_id=12|fullname=der Gehülfe|gender=m)),(entity=(entity_id=16|fullname=die Vorsteherin|gender=f)))
+14494	Bitte	0		
+14495	vortragen	0		
+14496	:	0		
+14497	Ottilien	0	(mention_id=1895|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=1938|references=(entity=(entity_id=7|fullname=Ottilie|gender=f)))
+14498	auf	0		
+14499	einige	0		
+14500	Zeit	0		
+14501	zu	0		
+14502	sich	0	(mention_id=1896|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)))	(mention_id=1939|references=(entity=(entity_id=1|fullname=Charlotte|gender=f)))
+14503	zu	0		
+14504	nehmen	0		
+14505	.	0		
+14506	Die	0		
+14507	Gründe	0		
+14508	werden	0		
+14509	Sie	0	(mention_id=1897|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)))	(mention_id=1940|references=(entity=(entity_id=1|fullname=Charlotte|gender=f)))
+14510	sich	0	(mention_id=1898|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)))	(mention_id=1941|references=(entity=(entity_id=1|fullname=Charlotte|gender=f)))
+14511	selbst	0		
+14512	am	0		
+14513	besten	0		
+14514	entfalten	0		
+14515	.	0		
+14516	Bestimmen	0		
+14517	Sie	0	(mention_id=1899|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)))	(mention_id=1942|references=(entity=(entity_id=1|fullname=Charlotte|gender=f)))
+14518	sich	0	(mention_id=1900|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)))	(mention_id=1943|references=(entity=(entity_id=1|fullname=Charlotte|gender=f)))
+14519	hiezu	0		
+14520	,	0		
+14521	so	0		
+14522	sage	0		
+14523	ich	0	(mention_id=1901|references=(entity=(entity_id=entity_0037|fullname=Gehülfe|gender=m)))	(mention_id=1944|references=(entity=(entity_id=12|fullname=der Gehülfe|gender=m)))
+14524	mehr	0		
+14525	über	0		
+14526	die	0		
+14527	Behandlung	0		
+14528	des	0		
+14529	guten	0		
+14530	Kindes	0	(mention_id=1902|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=1945|references=(entity=(entity_id=7|fullname=Ottilie|gender=f)))
+14531	.	0		
+14532	Verläßt	0		
+14533	uns	0	(mention_id=1903|references=(entity=(entity_id=entity_0037|fullname=Gehülfe|gender=m)),(entity=(entity_id=entity_0023|fullname=Vorsteherin der Pension|gender=f)))	(mention_id=1946|references=(entity=(entity_id=12|fullname=der Gehülfe|gender=m)),(entity=(entity_id=16|fullname=die Vorsteherin|gender=f)))
+14534	dann	0		
+14535	Ihre	0	(mention_id=1904|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)))	(mention_id=1947|references=(entity=(entity_id=1|fullname=Charlotte|gender=f)))
+14536	Fräulein	0	(mention_id=1905|references=(entity=(entity_id=entity_0005|fullname=Luciane|gender=f)))	(mention_id=1948|references=(entity=(entity_id=6|fullname=Luciane|gender=f)))
+14537	Tochter	0	(mention_id=1905|references=(entity=(entity_id=entity_0005|fullname=Luciane|gender=f)))	(mention_id=1948|references=(entity=(entity_id=6|fullname=Luciane|gender=f)))
+14538	,	0		
+14539	wie	0		
+14540	zu	0		
+14541	vermuten	0		
+14542	steht	0		
+14543	,	0		
+14544	so	0		
+14545	sehen	0		
+14546	wir	0	(mention_id=1906|references=(entity=(entity_id=entity_0037|fullname=Gehülfe|gender=m)),(entity=(entity_id=entity_0023|fullname=Vorsteherin der Pension|gender=f)))	(mention_id=1949|references=(entity=(entity_id=12|fullname=der Gehülfe|gender=m)),(entity=(entity_id=16|fullname=die Vorsteherin|gender=f)))
+14547	Ottilien	0	(mention_id=1907|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=1950|references=(entity=(entity_id=7|fullname=Ottilie|gender=f)))
+14548	mit	0		
+14549	Freuden	0		
+14550	zurückkehren	0		
+14551	.	0		
+14552	Noch	0		
+14553	eins	0		
+14554	,	0		
+14555	das	0		
+14556	ich	0	(mention_id=1908|references=(entity=(entity_id=entity_0037|fullname=Gehülfe|gender=m)))	(mention_id=1951|references=(entity=(entity_id=12|fullname=der Gehülfe|gender=m)))
+14557	vielleicht	0		
+14558	in	0		
+14559	der	0		
+14560	Folge	0		
+14561	vergessen	0		
+14562	könnte	0		
+14563	:	0		
+14564	ich	0	(mention_id=1909|references=(entity=(entity_id=entity_0037|fullname=Gehülfe|gender=m)))	(mention_id=1952|references=(entity=(entity_id=12|fullname=der Gehülfe|gender=m)))
+14565	habe	0		
+14566	nie	0		
+14567	gesehen	0		
+14568	,	0		
+14569	daß	0		
+14570	Ottilie	0	(mention_id=1910|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=1953|references=(entity=(entity_id=7|fullname=Ottilie|gender=f)))
+14571	etwas	0		
+14572	verlangt	0		
+14573	oder	0		
+14574	gar	0		
+14575	um	0		
+14576	etwas	0		
+14577	dringend	0		
+14578	gebeten	0		
+14579	hätte	0		
+14580	.	0		
+14581	Dagegen	0		
+14582	kommen	0		
+14583	Fälle	0		
+14584	,	0		
+14585	wiewohl	0		
+14586	selten	0		
+14587	,	0		
+14588	daß	0		
+14589	sie	0	(mention_id=1911|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=1954|references=(entity=(entity_id=7|fullname=Ottilie|gender=f)))
+14590	etwas	0		
+14591	abzulehnen	0		
+14592	sucht	0		
+14593	,	0		
+14594	was	0		
+14595	man	0		
+14596	von	0		
+14597	ihr	0	(mention_id=1912|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=1955|references=(entity=(entity_id=7|fullname=Ottilie|gender=f)))
+14598	fordert	0		
+14599	.	0		
+14600	Sie	0	(mention_id=1913|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=1956|references=(entity=(entity_id=7|fullname=Ottilie|gender=f)))
+14601	tut	0		
+14602	das	0		
+14603	mit	0		
+14604	einer	0		
+14605	Gebärde	0		
+14606	,	0		
+14607	die	0		
+14608	für	0		
+14609	den	0	(mention_id=1914|references=(entity=(entity_id=entity_0037|fullname=Gehülfe|gender=m)))	(mention_id=1957|references=(entity=(entity_id=19|fullname=hypothetischer Beobachter|gender=m|specialcase_entity=nonfact)))
+14610	,	0		
+14611	der	0	(mention_id=1915|references=(entity=(entity_id=entity_0037|fullname=Gehülfe|gender=m)))	(mention_id=1958|references=(entity=(entity_id=19|fullname=hypothetischer Beobachter|gender=m|specialcase_entity=nonfact)))
+14612	den	0		
+14613	Sinn	0		
+14614	davon	0		
+14615	gefaßt	0		
+14616	hat	0		
+14617	,	0		
+14618	unwiderstehlich	0		
+14619	ist	0		
+14620	.	0		
+14621	Sie	0	(mention_id=1916|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=1959|references=(entity=(entity_id=7|fullname=Ottilie|gender=f)))
+14622	drückt	0		
+14623	die	0		
+14624	flachen	0		
+14625	Hände	0		
+14626	,	0		
+14627	die	0		
+14628	sie	0	(mention_id=1917|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=1960|references=(entity=(entity_id=7|fullname=Ottilie|gender=f)))
+14629	in	0		
+14630	die	0		
+14631	Höhe	0		
+14632	hebt	0		
+14633	,	0		
+14634	zusammen	0		
+14635	und	0		
+14636	führt	0		
+14637	sie	0		
+14638	gegen	0		
+14639	die	0		
+14640	Brust	0		
+14641	,	0		
+14642	indem	0		
+14643	sie	0	(mention_id=1918|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=1961|references=(entity=(entity_id=7|fullname=Ottilie|gender=f)))
+14644	sich	0	(mention_id=1919|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=1962|references=(entity=(entity_id=7|fullname=Ottilie|gender=f)))
+14645	nur	0		
+14646	wenig	0		
+14647	vorwärts	0		
+14648	neigt	0		
+14649	und	0		
+14650	den	0		
+14651	dringend	0		
+14652	Fordernden	0		(mention_id=1963|references=(entity=(entity_id=20|fullname=hypothetischer Fordernder|gender=m|specialcase_entity=nonfact)))
+14653	mit	0		
+14654	einem	0		
+14655	solchen	0		
+14656	Blick	0		
+14657	ansieht	0		
+14658	,	0		
+14659	daß	0		
+14660	er	0	(mention_id=1920|references=(entity=(entity_id=generic_0132|fullname=Jemand der von Ottilie etwas fordert allgemein|gender=u|specialcase_entity=generic)))	(mention_id=1964|references=(entity=(entity_id=20|fullname=hypothetischer Fordernder|gender=m|specialcase_entity=nonfact)))
+14661	gern	0		
+14662	von	0		
+14663	allem	0		
+14664	absteht	0		
+14665	,	0		
+14666	was	0		
+14667	er	0	(mention_id=1921|references=(entity=(entity_id=generic_0133|fullname=Jemand der von Ottilie etwas fordert allgemein|gender=u|specialcase_entity=generic)))	(mention_id=1965|references=(entity=(entity_id=20|fullname=hypothetischer Fordernder|gender=m|specialcase_entity=nonfact)))
+14668	verlangen	0		
+14669	oder	0		
+14670	wünschen	0		
+14671	möchte	0		
+14672	.	0		
+14673	Sehen	0		
+14674	Sie	0	(mention_id=1922|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)))	(mention_id=1966|references=(entity=(entity_id=1|fullname=Charlotte|gender=f)))
+14675	jemals	0		
+14676	diese	0		
+14677	Gebärde	0		
+14678	,	0		
+14679	gnädige	0		
+14680	Frau	0	(mention_id=1923|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)))	(mention_id=1967|references=(entity=(entity_id=1|fullname=Charlotte|gender=f)))
+14681	,	0		
+14682	wie	0		
+14683	es	0		
+14684	bei	0		
+14685	Ihrer	0	(mention_id=1924|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)))	(mention_id=1968|references=(entity=(entity_id=1|fullname=Charlotte|gender=f)))
+14686	Behandlung	0		
+14687	nicht	0		
+14688	wahrscheinlich	0		
+14689	ist	0		
+14690	,	0		
+14691	so	0		
+14692	gedenken	0		
+14693	Sie	0	(mention_id=1925|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)))	(mention_id=1969|references=(entity=(entity_id=1|fullname=Charlotte|gender=f)))
+14694	meiner	0	(mention_id=1926|references=(entity=(entity_id=entity_0037|fullname=Gehülfe|gender=m)))	(mention_id=1970|references=(entity=(entity_id=12|fullname=der Gehülfe|gender=m)))
+14695	und	0		
+14696	schonen	0		
+14697	Ottilien	0	(mention_id=1927|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=1971|references=(entity=(entity_id=7|fullname=Ottilie|gender=f)))
+14698	.	0		
+14699	«	0		
+14700	Eduard	0	(mention_id=1928|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))	(mention_id=1972|references=(entity=(entity_id=2|fullname=Eduard|gender=m)))
+14701	hatte	0		
+14702	diese	0		
+14703	Briefe	0		
+14704	vorgelesen	0		
+14705	,	0		
+14706	nicht	0		
+14707	ohne	0		
+14708	Lächeln	0		
+14709	und	0		
+14710	Kopfschütteln	0		
+14711	.	0		
+14712	Auch	0		
+14713	konnte	0		
+14714	es	0		
+14715	an	0		
+14716	Bemerkungen	0		
+14717	über	0		
+14718	die	0		
+14719	Personen	0	(mention_id=1929|references=(entity=(entity_id=entity_0058|fullname=Personen in der Pension|gender=u|members=entity_0005,entity_0006,entity_0023,entity_0037|all_members_given=False|borderline_entity=members|specialcase_entity=group)))	(mention_id=1973|references=(entity=(entity_id=16|fullname=die Vorsteherin|gender=f)),(entity=(entity_id=12|fullname=der Gehülfe|gender=m)),(entity=(entity_id=7|fullname=Ottilie|gender=f)),(entity=(entity_id=6|fullname=Luciane|gender=f)))
+14720	und	0		
+14721	über	0		
+14722	die	0		
+14723	Lage	0		
+14724	der	0		
+14725	Sache	0		
+14726	nicht	0		
+14727	fehlen	0		
+14728	.	0		
+14729	»	0		
+14730	Genug	0		
+14731	!	0		
+14732	«	0		
+14733	rief	0		
+14734	Eduard	0	(mention_id=1930|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))	(mention_id=1974|references=(entity=(entity_id=2|fullname=Eduard|gender=m)))
+14735	endlich	0		
+14736	aus	0		
+14737	;	0		
+14738	»	0		
+14739	es	0		
+14740	ist	0		
+14741	entschieden	0		
+14742	,	0		
+14743	sie	0	(mention_id=1931|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=1975|references=(entity=(entity_id=7|fullname=Ottilie|gender=f)))
+14744	kommt	0		
+14745	!	0		
+14746	Für	0		
+14747	dich	0	(mention_id=1932|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)))	(mention_id=1976|references=(entity=(entity_id=1|fullname=Charlotte|gender=f)))
+14748	wäre	0		
+14749	gesorgt	0		
+14750	,	0		
+14751	meine	0	(mention_id=1933|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))	(mention_id=1977|references=(entity=(entity_id=2|fullname=Eduard|gender=m)))
+14752	Liebe	0	(mention_id=1934|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)))	(mention_id=1978|references=(entity=(entity_id=1|fullname=Charlotte|gender=f)))
+14753	,	0		
+14754	und	0		
+14755	wir	0	(mention_id=1935|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)),(entity=(entity_id=entity_0003|fullname=Hauptmann|gender=m|possible_identity_with=entity_0374)))	(mention_id=1979|references=(entity=(entity_id=2|fullname=Eduard|gender=m)),(entity=(entity_id=1|fullname=Charlotte|gender=f)))
+14756	dürfen	0		
+14757	nun	0		
+14758	auch	0		
+14759	mit	0		
+14760	unserm	0	(mention_id=1936|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)),(entity=(entity_id=entity_0003|fullname=Hauptmann|gender=m|possible_identity_with=entity_0374)))	(mention_id=1980|references=(entity=(entity_id=2|fullname=Eduard|gender=m)),(entity=(entity_id=1|fullname=Charlotte|gender=f)))
+14761	Vorschlag	0		
+14762	hervorrücken	0		
+14763	.	0		
+14764	Es	0		
+14765	wird	0		
+14766	höchst	0		
+14767	nötig	0		
+14768	,	0		
+14769	daß	0		
+14770	ich	0	(mention_id=1937|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))	(mention_id=1981|references=(entity=(entity_id=2|fullname=Eduard|gender=m)))
+14771	zu	0		
+14772	dem	0		
+14773	Hauptmann	0	(mention_id=1938|references=(entity=(entity_id=entity_0003|fullname=Hauptmann|gender=m|possible_identity_with=entity_0374)))	(mention_id=1982|references=(entity=(entity_id=13|fullname=der Hauptmann|gender=m)))
+14774	auf	0		
+14775	den	0		
+14776	rechten	0		
+14777	Flügel	0		
+14778	hinüberziehe	0		
+14779	.	0		
+14780	Sowohl	0		
+14781	abends	0		
+14782	als	0		
+14783	morgens	0		
+14784	ist	0		
+14785	erst	0		
+14786	die	0		
+14787	rechte	0		
+14788	Zeit	0		
+14789	,	0		
+14790	zusammen	0		
+14791	zu	0		
+14792	arbeiten	0		
+14793	.	0		
+14794	Du	0	(mention_id=1939|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)))	(mention_id=1983|references=(entity=(entity_id=1|fullname=Charlotte|gender=f)))
+14795	erhältst	0		
+14796	dagegen	0		
+14797	für	0		
+14798	dich	0	(mention_id=1940|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)))	(mention_id=1984|references=(entity=(entity_id=1|fullname=Charlotte|gender=f)))
+14799	und	0		
+14800	Ottilien	0	(mention_id=1941|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=1985|references=(entity=(entity_id=7|fullname=Ottilie|gender=f)))
+14801	auf	0		
+14802	deiner	0	(mention_id=1942|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)))	(mention_id=1986|references=(entity=(entity_id=1|fullname=Charlotte|gender=f)))
+14803	Seite	0		
+14804	den	0		
+14805	schönsten	0		
+14806	Raum	0		
+14807	.	0		
+14808	«	0		
+14809	Charlotte	0	(mention_id=1943|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)))	(mention_id=1987|references=(entity=(entity_id=1|fullname=Charlotte|gender=f)))
+14810	ließ	0		
+14811	sichs	0		(mention_id=1988|references=(entity=(entity_id=1|fullname=Charlotte|gender=f)))
+14812	gefallen	0		
+14813	,	0		
+14814	und	0		
+14815	Eduard	0	(mention_id=1944|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))	(mention_id=1989|references=(entity=(entity_id=2|fullname=Eduard|gender=m)))
+14816	schilderte	0		
+14817	ihre	0	(mention_id=1945|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)))	(mention_id=1990|references=(entity=(entity_id=2|fullname=Eduard|gender=m)),(entity=(entity_id=1|fullname=Charlotte|gender=f)))
+14818	künftige	0		
+14819	Lebensart	0		
+14820	.	0		
+14821	Unter	0		
+14822	andern	0		
+14823	rief	0		
+14824	er	0	(mention_id=1946|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))	(mention_id=1991|references=(entity=(entity_id=2|fullname=Eduard|gender=m)))
+14825	aus	0		
+14826	:	0		
+14827	»	0		
+14828	Es	0		
+14829	ist	0		
+14830	doch	0		
+14831	recht	0		
+14832	zuvorkommend	0		
+14833	von	0		
+14834	der	0		
+14835	Nichte	0	(mention_id=1947|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=1992|references=(entity=(entity_id=7|fullname=Ottilie|gender=f)))
+14836	,	0		
+14837	ein	0		
+14838	wenig	0		
+14839	Kopfweh	0		
+14840	auf	0		
+14841	der	0		
+14842	linken	0		
+14843	Seite	0		
+14844	zu	0		
+14845	haben	0		
+14846	;	0		
+14847	ich	0	(mention_id=1948|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))	(mention_id=1993|references=(entity=(entity_id=2|fullname=Eduard|gender=m)))
+14848	habe	0		
+14849	es	0		
+14850	manchmal	0		
+14851	auf	0		
+14852	der	0		
+14853	rechten	0		
+14854	.	0		
+14855	Trifft	0		
+14856	es	0		
+14857	zusammen	0		
+14858	und	0		
+14859	wir	0	(mention_id=1949|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)),(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=1994|references=(entity=(entity_id=2|fullname=Eduard|gender=m)),(entity=(entity_id=7|fullname=Ottilie|gender=f)))
+14860	sitzen	0		
+14861	gegeneinander	0		
+14862	,	0		
+14863	ich	0	(mention_id=1950|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))	(mention_id=1995|references=(entity=(entity_id=2|fullname=Eduard|gender=m)))
+14864	auf	0		
+14865	den	0		
+14866	rechten	0		
+14867	Ellbogen	0		
+14868	,	0		
+14869	sie	0	(mention_id=1951|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=1996|references=(entity=(entity_id=7|fullname=Ottilie|gender=f)))
+14870	auf	0		
+14871	den	0		
+14872	linken	0		
+14873	gestützt	0		
+14874	und	0		
+14875	die	0		
+14876	Köpfe	0		
+14877	nach	0		
+14878	verschiedenen	0		
+14879	Seiten	0		
+14880	in	0		
+14881	die	0		
+14882	Hand	0		
+14883	gelegt	0		
+14884	,	0		
+14885	so	0		
+14886	muß	0		
+14887	das	0		
+14888	ein	0		
+14889	Paar	0		(mention_id=1997|references=(entity=(entity_id=2|fullname=Eduard|gender=m)),(entity=(entity_id=7|fullname=Ottilie|gender=f)))
+14890	artige	0		
+14891	Gegenbilder	0		
+14892	geben	0		
+14893	.	0		
+14894	«	0		
+14895	Der	0		
+14896	Hauptmann	0	(mention_id=1952|references=(entity=(entity_id=entity_0003|fullname=Hauptmann|gender=m|possible_identity_with=entity_0374)))	(mention_id=1998|references=(entity=(entity_id=13|fullname=der Hauptmann|gender=m)))
+14897	wollte	0		
+14898	das	0		
+14899	gefährlich	0		
+14900	finden	0		
+14901	.	0		
+14902	Eduard	0	(mention_id=1953|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))	(mention_id=1999|references=(entity=(entity_id=2|fullname=Eduard|gender=m)))
+14903	hingegen	0		
+14904	rief	0		
+14905	aus	0		
+14906	:	0		
+14907	»	0		
+14908	Nehmen	0		
+14909	Sie	0	(mention_id=1954|references=(entity=(entity_id=entity_0003|fullname=Hauptmann|gender=m|possible_identity_with=entity_0374)))	(mention_id=2000|references=(entity=(entity_id=13|fullname=der Hauptmann|gender=m)))
+14910	sich	0	(mention_id=1955|references=(entity=(entity_id=entity_0003|fullname=Hauptmann|gender=m|possible_identity_with=entity_0374)))	(mention_id=2001|references=(entity=(entity_id=13|fullname=der Hauptmann|gender=m)))
+14911	nur	0		
+14912	,	0		
+14913	lieber	0		
+14914	Freund	0	(mention_id=1956|references=(entity=(entity_id=entity_0003|fullname=Hauptmann|gender=m|possible_identity_with=entity_0374)))	(mention_id=2002|references=(entity=(entity_id=13|fullname=der Hauptmann|gender=m)))
+14915	,	0		
+14916	vor	0		
+14917	dem	0		
+14918	D	0	(mention_id=1957|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)|specialcase_reference=figurative))	(mention_id=2003|references=(entity=(entity_id=13|fullname=der Hauptmann|gender=m)))
+14919	in	0		
+14920	acht	0		
+14921	!	0		
+14922	Was	0		
+14923	sollte	0		
+14924	B	0	(mention_id=1958|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)|specialcase_reference=figurative))	(mention_id=2004|references=(entity=(entity_id=2|fullname=Eduard|gender=m)))
+14925	denn	0		
+14926	anfangen	0		
+14927	,	0		
+14928	wenn	0		
+14929	ihm	0	(mention_id=1959|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))	(mention_id=2005|references=(entity=(entity_id=2|fullname=Eduard|gender=m)))
+14930	C	0	(mention_id=1960|references=(entity=(entity_id=entity_0003|fullname=Hauptmann|gender=m|possible_identity_with=entity_0374)|specialcase_reference=figurative))	(mention_id=2006|references=(entity=(entity_id=1|fullname=Charlotte|gender=f)))
+14931	entrissen	0		
+14932	würde	0		
+14933	?	0		
+14934	«	0		
+14935	»	0		
+14936	Nun	0		
+14937	,	0		
+14938	ich	0	(mention_id=1961|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)))	(mention_id=2007|references=(entity=(entity_id=1|fullname=Charlotte|gender=f)))
+14939	dächte	0		
+14940	doch	0		
+14941	,	0		
+14942	«	0		
+14943	versetzte	0		
+14944	Charlotte	0	(mention_id=1962|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)))	(mention_id=2008|references=(entity=(entity_id=1|fullname=Charlotte|gender=f)))
+14945	,	0		
+14946	»	0		
+14947	das	0		
+14948	verstünde	0		
+14949	sich	0	(mention_id=1963|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)))	
+14950	von	0		
+14951	selbst	0		
+14952	.	0		
+14953	«	0		
+14954	»	0		
+14955	Freilich	0		
+14956	,	0		
+14957	«	0		
+14958	rief	0		
+14959	Eduard	0	(mention_id=1964|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))	(mention_id=2009|references=(entity=(entity_id=2|fullname=Eduard|gender=m)))
+14960	;	0		
+14961	»	0		
+14962	es	0		
+14963	kehrte	0		
+14964	zu	0		
+14965	seinem	0	(mention_id=1965|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))	(mention_id=2010|references=(entity=(entity_id=2|fullname=Eduard|gender=m)))
+14966	A	0	(mention_id=1966|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)|specialcase_reference=figurative))	
+14967	zurück	0		
+14968	,	0		
+14969	zu	0		
+14970	seinem	0	(mention_id=1967|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))	(mention_id=2011|references=(entity=(entity_id=2|fullname=Eduard|gender=m)))
+14971	A	0	(mention_id=1968|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)|specialcase_reference=figurative))	
+14972	und	0	(mention_id=1968|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)|specialcase_reference=figurative))	
+14973	O	0	(mention_id=1968|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)|specialcase_reference=figurative))	
+14974	!	0		
+14975	«	0		
+14976	rief	0		
+14977	er	0	(mention_id=1969|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))	(mention_id=2012|references=(entity=(entity_id=2|fullname=Eduard|gender=m)))
+14978	,	0		
+14979	indem	0		
+14980	er	0	(mention_id=1970|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))	(mention_id=2013|references=(entity=(entity_id=2|fullname=Eduard|gender=m)))
+14981	aufsprang	0		
+14982	und	0		
+14983	Charlotten	0	(mention_id=1971|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)))	(mention_id=2014|references=(entity=(entity_id=1|fullname=Charlotte|gender=f)))
+14984	fest	0		
+14985	an	0		
+14986	seine	0	(mention_id=1972|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))	
+14987	Brust	0		
+14988	drückte	0		
+14989	.	0		

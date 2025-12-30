@@ -1,0 +1,2049 @@
+i	token	is_section_start	gold	pred
+44829	Erstes	1		
+44830	Kapitel	0		
+44831	Im	0		
+44832	gemeinen	0		
+44833	Leben	0		
+44834	begegnet	0		
+44835	uns	0	(mention_id=5972|references=(entity=(entity_id=entity_0016|fullname=Erzählinstanz|gender=u)),(entity=(entity_id=entity_0195|fullname=Leser|gender=u)))	(mention_id=6024|references=(entity=(entity_id=generic_0001|fullname=Leser und Erzähler im Allgemeinen|gender=u|specialcase_entity=generic)))
+44836	oft	0		
+44837	,	0		
+44838	was	0		
+44839	wir	0	(mention_id=5973|references=(entity=(entity_id=entity_0016|fullname=Erzählinstanz|gender=u)),(entity=(entity_id=entity_0195|fullname=Leser|gender=u)))	(mention_id=6025|references=(entity=(entity_id=generic_0002|fullname=Leser und Erzähler im Allgemeinen|gender=u|specialcase_entity=generic)))
+44840	in	0		
+44841	der	0		
+44842	Epopöe	0		
+44843	als	0		
+44844	Kunstgriff	0		
+44845	des	0		
+44846	Dichters	0	(mention_id=5974|references=(entity=(entity_id=generic_0316|fullname=Dichter|gender=u|specialcase_entity=generic)))	(mention_id=6026|references=(entity=(entity_id=generic_0007|fullname=ein Dichter im Allgemeinen|gender=u|specialcase_entity=generic)))
+44847	zu	0		
+44848	rühmen	0		
+44849	pflegen	0		
+44850	,	0		
+44851	daß	0		
+44852	nämlich	0		
+44853	,	0		
+44854	wenn	0		
+44855	die	0		
+44856	Hauptfiguren	0	(mention_id=5975|references=(entity=(entity_id=entity_0003|fullname=Hauptmann|gender=m|possible_identity_with=entity_0374)),(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)),(entity=(entity_id=generic_0317|fullname=Hauptfiguren in Epopöe|gender=u|specialcase_entity=generic)))	(mention_id=6027|references=(entity=(entity_id=generic_0008|fullname=Hauptfiguren im Allgemeinen|gender=u|specialcase_entity=generic)))
+44857	sich	0	(mention_id=5976|references=(entity=(entity_id=entity_0003|fullname=Hauptmann|gender=m|possible_identity_with=entity_0374)),(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)),(entity=(entity_id=generic_0318|fullname=Hauptfiguren in Epopöe|gender=u|specialcase_entity=generic)))	(mention_id=6028|references=(entity=(entity_id=generic_0009|fullname=Hauptfiguren im Allgemeinen|gender=u|specialcase_entity=generic)))
+44858	entfernen	0		
+44859	,	0		
+44860	verbergen	0		
+44861	,	0		
+44862	sich	0	(mention_id=5977|references=(entity=(entity_id=entity_0003|fullname=Hauptmann|gender=m|possible_identity_with=entity_0374)),(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)),(entity=(entity_id=generic_0319|fullname=Hauptfiguren in Epopöe|gender=u|specialcase_entity=generic)))	(mention_id=6029|references=(entity=(entity_id=generic_0010|fullname=Hauptfiguren im Allgemeinen|gender=u|specialcase_entity=generic)))
+44863	der	0		
+44864	Untätigkeit	0		
+44865	hingeben	0		
+44866	,	0		
+44867	gleich	0		
+44868	sodann	0		
+44869	schon	0		
+44870	ein	0		
+44871	Zweiter	0	(mention_id=5978|references=(entity=(entity_id=generic_0320|fullname=ein Zweiter in der Epopöe|gender=u|specialcase_entity=generic)))	(mention_id=6030|references=(entity=(entity_id=generic_0011|fullname=ein Zweiter im Allgemeinen|gender=u|specialcase_entity=generic)))
+44872	,	0		
+44873	Dritter	0	(mention_id=5979|references=(entity=(entity_id=generic_0322|fullname=ein Dritter in der Epopöe|gender=u|specialcase_entity=generic)))	(mention_id=6031|references=(entity=(entity_id=generic_0012|fullname=ein Dritter im Allgemeinen|gender=u|specialcase_entity=generic)))
+44874	,	0		
+44875	bisher	0		
+44876	kaum	0		
+44877	Bemerkter	0	(mention_id=5980|references=(entity=(entity_id=generic_0321|fullname=ein Zweiter in der Epopöe|gender=u|specialcase_entity=generic)),(entity=(entity_id=generic_0323|fullname=ein Dritter in der Epopöe|gender=u|specialcase_entity=generic)),(entity=(entity_id=entity_0147|fullname=Architekt|gender=m)))	(mention_id=6032|references=(entity=(entity_id=generic_0013|fullname=ein Bemerkter im Allgemeinen|gender=u|specialcase_entity=generic)))
+44878	den	0		
+44879	Platz	0		
+44880	füllt	0		
+44881	und	0		
+44882	,	0		
+44883	indem	0		
+44884	er	0		(mention_id=6033|references=(entity=(entity_id=generic_0014|fullname=ein Bemerkter im Allgemeinen|gender=u|specialcase_entity=generic)))
+44885	seine	0		(mention_id=6034|references=(entity=(entity_id=generic_0015|fullname=ein Bemerkter im Allgemeinen|gender=u|specialcase_entity=generic)))
+44886	ganze	0		
+44887	Tätigkeit	0		
+44888	äußert	0		
+44889	,	0		
+44890	uns	0	(mention_id=5981|references=(entity=(entity_id=entity_0016|fullname=Erzählinstanz|gender=u)),(entity=(entity_id=entity_0195|fullname=Leser|gender=u)))	(mention_id=6035|references=(entity=(entity_id=generic_0003|fullname=Leser und Erzähler im Allgemeinen|gender=u|specialcase_entity=generic)))
+44891	gleichfalls	0		
+44892	der	0		
+44893	Aufmerksamkeit	0		
+44894	,	0		
+44895	der	0		
+44896	Teilnahme	0		
+44897	,	0		
+44898	ja	0		
+44899	des	0		
+44900	Lobes	0		
+44901	und	0		
+44902	Preises	0		
+44903	würdig	0		
+44904	erscheint	0		
+44905	.	0		
+44906	So	0		
+44907	zeigte	0		
+44908	sich	0		
+44909	gleich	0		
+44910	nach	0		
+44911	der	0		
+44912	Entfernung	0		
+44913	des	0		
+44914	Hauptmanns	0	(mention_id=5982|references=(entity=(entity_id=entity_0003|fullname=Hauptmann|gender=m|possible_identity_with=entity_0374)))	(mention_id=6036|references=(entity=(entity_id=18|fullname=Hauptmann|gender=m)))
+44915	und	0		
+44916	Eduards	0	(mention_id=5983|references=(entity=(entity_id=entity_0001|fullname=Eduard|gender=m)))	(mention_id=6037|references=(entity=(entity_id=7|fullname=Eduard|gender=m)))
+44917	jener	0		
+44918	Architekt	0	(mention_id=5984|references=(entity=(entity_id=entity_0147|fullname=Architekt|gender=m)))	(mention_id=6038|references=(entity=(entity_id=2|fullname=Architekt|gender=m)))
+44919	täglich	0		
+44920	bedeutender	0		
+44921	,	0		
+44922	von	0		
+44923	welchem	0	(mention_id=5985|references=(entity=(entity_id=entity_0147|fullname=Architekt|gender=m)))	(mention_id=6039|references=(entity=(entity_id=2|fullname=Architekt|gender=m)))
+44924	die	0		
+44925	Anordnung	0		
+44926	und	0		
+44927	Ausführung	0		
+44928	so	0		
+44929	manches	0		
+44930	Unternehmens	0		
+44931	allein	0		
+44932	abhing	0		
+44933	,	0		
+44934	wobei	0		
+44935	er	0	(mention_id=5986|references=(entity=(entity_id=entity_0147|fullname=Architekt|gender=m)))	(mention_id=6040|references=(entity=(entity_id=2|fullname=Architekt|gender=m)))
+44936	sich	0	(mention_id=5987|references=(entity=(entity_id=entity_0147|fullname=Architekt|gender=m)))	(mention_id=6041|references=(entity=(entity_id=2|fullname=Architekt|gender=m)))
+44937	genau	0		
+44938	,	0		
+44939	verständig	0		
+44940	und	0		
+44941	tätig	0		
+44942	erwies	0		
+44943	und	0		
+44944	zugleich	0		
+44945	den	0		
+44946	Damen	0	(mention_id=5988|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)),(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=6042|references=(entity=(entity_id=41|fullname=die Damen|gender=f|specialcase_entity=group)))
+44947	auf	0		
+44948	mancherlei	0		
+44949	Art	0		
+44950	beistand	0		
+44951	und	0		
+44952	in	0		
+44953	stillen	0		
+44954	,	0		
+44955	langwierigen	0		
+44956	Stunden	0		
+44957	sie	0	(mention_id=5989|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)),(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)))	(mention_id=6043|references=(entity=(entity_id=41|fullname=die Damen|gender=f|specialcase_entity=group)))
+44958	zu	0		
+44959	unterhalten	0		
+44960	wußte	0		
+44961	.	0		
+44962	Schon	0		
+44963	sein	0	(mention_id=5990|references=(entity=(entity_id=entity_0147|fullname=Architekt|gender=m)))	(mention_id=6044|references=(entity=(entity_id=2|fullname=Architekt|gender=m)))
+44964	Äußeres	0		
+44965	war	0		
+44966	von	0		
+44967	der	0		
+44968	Art	0		
+44969	,	0		
+44970	daß	0		
+44971	es	0		
+44972	Zutrauen	0		
+44973	einflößte	0		
+44974	und	0		
+44975	Neigung	0		
+44976	erweckte	0		
+44977	.	0		
+44978	Ein	0		
+44979	Jüngling	0	(mention_id=5991|references=(entity=(entity_id=entity_0147|fullname=Architekt|gender=m)))	(mention_id=6045|references=(entity=(entity_id=2|fullname=Architekt|gender=m)))
+44980	im	0		
+44981	vollen	0		
+44982	Sinne	0		
+44983	des	0		
+44984	Wortes	0		
+44985	,	0		
+44986	wohlgebaut	0		
+44987	,	0		
+44988	schlank	0		
+44989	,	0		
+44990	eher	0		
+44991	ein	0		
+44992	wenig	0		
+44993	zu	0		
+44994	groß	0		
+44995	,	0		
+44996	bescheiden	0		
+44997	ohne	0		
+44998	ängstlich	0		
+44999	,	0		
+45000	zutraulich	0		
+45001	ohne	0		
+45002	zudringend	0		
+45003	zu	0		
+45004	sein	0		
+45005	.	0		
+45006	Freudig	0		
+45007	übernahm	0		
+45008	er	0	(mention_id=5992|references=(entity=(entity_id=entity_0147|fullname=Architekt|gender=m)))	(mention_id=6046|references=(entity=(entity_id=2|fullname=Architekt|gender=m)))
+45009	jede	0		
+45010	Sorge	0		
+45011	und	0		
+45012	Bemühung	0		
+45013	,	0		
+45014	und	0		
+45015	weil	0		
+45016	er	0	(mention_id=5993|references=(entity=(entity_id=entity_0147|fullname=Architekt|gender=m)))	(mention_id=6047|references=(entity=(entity_id=2|fullname=Architekt|gender=m)))
+45017	mit	0		
+45018	großer	0		
+45019	Leichtigkeit	0		
+45020	rechnete	0		
+45021	,	0		
+45022	so	0		
+45023	war	0		
+45024	ihm	0	(mention_id=5994|references=(entity=(entity_id=entity_0147|fullname=Architekt|gender=m)))	(mention_id=6048|references=(entity=(entity_id=2|fullname=Architekt|gender=m)))
+45025	bald	0		
+45026	das	0		
+45027	ganze	0		
+45028	Hauswesen	0		
+45029	kein	0		
+45030	Geheimnis	0		
+45031	,	0		
+45032	und	0		
+45033	überallhin	0		
+45034	verbreitete	0		
+45035	sich	0		
+45036	sein	0	(mention_id=5995|references=(entity=(entity_id=entity_0147|fullname=Architekt|gender=m)))	(mention_id=6049|references=(entity=(entity_id=2|fullname=Architekt|gender=m)))
+45037	günstiger	0		
+45038	Einfluß	0		
+45039	.	0		
+45040	Die	0		
+45041	Fremden	0	(mention_id=5996|references=(entity=(entity_id=generic_0324|fullname=Fremde|gender=u|specialcase_entity=generic)))	(mention_id=6050|references=(entity=(entity_id=42|fullname=die Fremden|gender=mf|specialcase_entity=group)))
+45042	ließ	0		
+45043	man	0		
+45044	ihn	0	(mention_id=5997|references=(entity=(entity_id=entity_0147|fullname=Architekt|gender=m)))	(mention_id=6051|references=(entity=(entity_id=2|fullname=Architekt|gender=m)))
+45045	gewöhnlich	0		
+45046	empfangen	0		
+45047	,	0		
+45048	und	0		
+45049	er	0	(mention_id=5998|references=(entity=(entity_id=entity_0147|fullname=Architekt|gender=m)))	(mention_id=6052|references=(entity=(entity_id=2|fullname=Architekt|gender=m)))
+45050	wußte	0		
+45051	einen	0		
+45052	unerwarteten	0		
+45053	Besuch	0	(mention_id=5999|references=(entity=(entity_id=generic_0326|fullname=unerwarteter Besuch|gender=u|specialcase_entity=generic)))	
+45054	entweder	0		
+45055	abzulehnen	0		
+45056	oder	0		
+45057	die	0		
+45058	Frauen	0	(mention_id=6000|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)),(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=6053|references=(entity=(entity_id=41|fullname=die Damen|gender=f|specialcase_entity=group)))
+45059	wenigstens	0		
+45060	dergestalt	0		
+45061	darauf	0		
+45062	vorzubereiten	0		
+45063	,	0		
+45064	daß	0		
+45065	ihnen	0	(mention_id=6001|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)),(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=6054|references=(entity=(entity_id=41|fullname=die Damen|gender=f|specialcase_entity=group)))
+45066	keine	0		
+45067	Unbequemlichkeit	0		
+45068	daraus	0		
+45069	entsprang	0		
+45070	.	0		
+45071	Unter	0		
+45072	andern	0		
+45073	gab	0		
+45074	ihm	0	(mention_id=6002|references=(entity=(entity_id=entity_0147|fullname=Architekt|gender=m)))	(mention_id=6055|references=(entity=(entity_id=2|fullname=Architekt|gender=m)))
+45075	eines	0		
+45076	Tages	0		
+45077	ein	0		
+45078	junger	0		
+45079	Rechtsgelehrter	0	(mention_id=6003|references=(entity=(entity_id=entity_0202|fullname=junger Rechtsgelehrter|gender=m)))	(mention_id=6056|references=(entity=(entity_id=39|fullname=der junge Rechtsgelehrte|gender=m)))
+45080	viel	0		
+45081	zu	0		
+45082	schaffen	0		
+45083	,	0		
+45084	der	0	(mention_id=6004|references=(entity=(entity_id=entity_0202|fullname=junger Rechtsgelehrter|gender=m)))	(mention_id=6057|references=(entity=(entity_id=39|fullname=der junge Rechtsgelehrte|gender=m)))
+45085	,	0		
+45086	von	0		
+45087	einem	0		
+45088	benachbarten	0		
+45089	Edelmann	0	(mention_id=6005|references=(entity=(entity_id=entity_0208|fullname=benachbarter Edelmann|gender=m)))	(mention_id=6058|references=(entity=(entity_id=38|fullname=der benachbarte Edelmann|gender=m)))
+45090	gesendet	0		
+45091	,	0		
+45092	eine	0		
+45093	Sache	0		
+45094	zur	0		
+45095	Sprache	0		
+45096	brachte	0		
+45097	,	0		
+45098	die	0		
+45099	,	0		
+45100	zwar	0		
+45101	von	0		
+45102	keiner	0		
+45103	sonderlichen	0		
+45104	Bedeutung	0		
+45105	,	0		
+45106	Charlotten	0	(mention_id=6006|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)))	(mention_id=6059|references=(entity=(entity_id=6|fullname=Charlotte|gender=f)))
+45107	dennoch	0		
+45108	innig	0		
+45109	berührte	0		
+45110	.	0		
+45111	Wir	0	(mention_id=6007|references=(entity=(entity_id=entity_0016|fullname=Erzählinstanz|gender=u)),(entity=(entity_id=entity_0195|fullname=Leser|gender=u)))	(mention_id=6060|references=(entity=(entity_id=generic_0004|fullname=Leser und Erzähler im Allgemeinen|gender=u|specialcase_entity=generic)))
+45112	müssen	0		
+45113	dieses	0		
+45114	Vorfalls	0		
+45115	gedenken	0		
+45116	,	0		
+45117	weil	0		
+45118	er	0		
+45119	verschiedenen	0		
+45120	Dingen	0		
+45121	einen	0		
+45122	Anstoß	0		
+45123	gab	0		
+45124	,	0		
+45125	die	0		
+45126	sonst	0		
+45127	vielleicht	0		
+45128	lange	0		
+45129	geruht	0		
+45130	hätten	0		
+45131	.	0		
+45132	Wir	0	(mention_id=6008|references=(entity=(entity_id=entity_0016|fullname=Erzählinstanz|gender=u)),(entity=(entity_id=entity_0195|fullname=Leser|gender=u)))	(mention_id=6061|references=(entity=(entity_id=generic_0005|fullname=Leser und Erzähler im Allgemeinen|gender=u|specialcase_entity=generic)))
+45133	erinnern	0		
+45134	uns	0	(mention_id=6009|references=(entity=(entity_id=entity_0016|fullname=Erzählinstanz|gender=u)),(entity=(entity_id=entity_0195|fullname=Leser|gender=u)))	(mention_id=6062|references=(entity=(entity_id=generic_0006|fullname=Leser und Erzähler im Allgemeinen|gender=u|specialcase_entity=generic)))
+45135	jener	0		
+45136	Veränderung	0		
+45137	,	0		
+45138	welche	0		
+45139	Charlotte	0	(mention_id=6010|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)))	(mention_id=6063|references=(entity=(entity_id=6|fullname=Charlotte|gender=f)))
+45140	mit	0		
+45141	dem	0		
+45142	Kirchhofe	0		
+45143	vorgenommen	0		
+45144	hatte	0		
+45145	.	0		
+45146	Die	0		
+45147	sämtlichen	0		
+45148	Monumente	0		
+45149	waren	0		
+45150	von	0		
+45151	ihrer	0		
+45152	Stelle	0		
+45153	gerückt	0		
+45154	und	0		
+45155	hatten	0		
+45156	an	0		
+45157	der	0		
+45158	Mauer	0		
+45159	,	0		
+45160	an	0		
+45161	dem	0		
+45162	Sockel	0		
+45163	der	0		
+45164	Kirche	0		
+45165	Platz	0		
+45166	gefunden	0		
+45167	.	0		
+45168	Der	0		
+45169	übrige	0		
+45170	Raum	0		
+45171	war	0		
+45172	geebnet	0		
+45173	.	0		
+45174	Außer	0		
+45175	einem	0		
+45176	breiten	0		
+45177	Wege	0		
+45178	,	0		
+45179	der	0		
+45180	zur	0		
+45181	Kirche	0		
+45182	und	0		
+45183	an	0		
+45184	derselben	0		
+45185	vorbei	0		
+45186	zu	0		
+45187	dem	0		
+45188	jenseitigen	0		
+45189	Pförtchen	0		
+45190	führte	0		
+45191	,	0		
+45192	war	0		
+45193	das	0		
+45194	übrige	0		
+45195	alles	0		
+45196	mit	0		
+45197	verschiedenen	0		
+45198	Arten	0		
+45199	Klee	0		
+45200	besäet	0		
+45201	,	0		
+45202	der	0		
+45203	auf	0		
+45204	das	0		
+45205	schönste	0		
+45206	grünte	0		
+45207	und	0		
+45208	blühte	0		
+45209	.	0		
+45210	Nach	0		
+45211	einer	0		
+45212	gewissen	0		
+45213	Ordnung	0		
+45214	sollten	0		
+45215	vom	0		
+45216	Ende	0		
+45217	heran	0		
+45218	die	0		
+45219	neuen	0		
+45220	Gräber	0		
+45221	bestellt	0		
+45222	,	0		
+45223	doch	0		
+45224	der	0		
+45225	Platz	0		
+45226	jederzeit	0		
+45227	wieder	0		
+45228	verglichen	0		
+45229	und	0		
+45230	ebenfalls	0		
+45231	besäet	0		
+45232	werden	0		
+45233	.	0		
+45234	Niemand	0		
+45235	konnte	0		
+45236	leugnen	0		
+45237	,	0		
+45238	daß	0		
+45239	diese	0		
+45240	Anstalt	0		
+45241	beim	0		
+45242	sonn-	0		
+45243	und	0		
+45244	festtägigen	0		
+45245	Kirchgang	0		
+45246	eine	0		
+45247	heitere	0		
+45248	und	0		
+45249	würdige	0		
+45250	Ansicht	0		
+45251	gewährte	0		
+45252	.	0		
+45253	Sogar	0		
+45254	der	0		
+45255	betagte	0		
+45256	und	0		
+45257	an	0		
+45258	alten	0		
+45259	Gewohnheiten	0		
+45260	haftende	0		
+45261	Geistliche	0	(mention_id=6011|references=(entity=(entity_id=entity_0203|fullname=Geistlicher|gender=m)))	(mention_id=6064|references=(entity=(entity_id=37|fullname=der Geistliche|gender=m)))
+45262	,	0		
+45263	der	0	(mention_id=6012|references=(entity=(entity_id=entity_0203|fullname=Geistlicher|gender=m)))	(mention_id=6065|references=(entity=(entity_id=37|fullname=der Geistliche|gender=m)))
+45264	anfänglich	0		
+45265	mit	0		
+45266	der	0		
+45267	Einrichtung	0		
+45268	nicht	0		
+45269	sonderlich	0		
+45270	zufrieden	0		
+45271	gewesen	0		
+45272	,	0		
+45273	hatte	0		
+45274	nunmehr	0		
+45275	seine	0	(mention_id=6013|references=(entity=(entity_id=entity_0203|fullname=Geistlicher|gender=m)))	(mention_id=6066|references=(entity=(entity_id=37|fullname=der Geistliche|gender=m)))
+45276	Freude	0		
+45277	daran	0		
+45278	,	0		
+45279	wenn	0		
+45280	er	0	(mention_id=6014|references=(entity=(entity_id=entity_0203|fullname=Geistlicher|gender=m)))	(mention_id=6067|references=(entity=(entity_id=37|fullname=der Geistliche|gender=m)))
+45281	unter	0		
+45282	den	0		
+45283	alten	0		
+45284	Linden	0		
+45285	,	0		
+45286	gleich	0		
+45287	Philemon	0	(mention_id=6015|references=(entity=(entity_id=entity_0203|fullname=Geistlicher|gender=m)|specialcase_reference=figurative))	(mention_id=6068|references=(entity=(entity_id=28|fullname=Philemon|gender=m|specialcase_entity=nonfact)))
+45288	,	0		
+45289	mit	0		
+45290	seiner	0	(mention_id=6016|references=(entity=(entity_id=entity_0203|fullname=Geistlicher|gender=m)|specialcase_reference=figurative))	(mention_id=6069|references=(entity=(entity_id=37|fullname=der Geistliche|gender=m)))
+45291	Baucis	0		(mention_id=6070|references=(entity=(entity_id=3|fullname=Baucis|gender=f|specialcase_entity=nonfact)))
+45292	vor	0		
+45293	der	0		
+45294	Hintertüre	0		
+45295	ruhend	0		
+45296	,	0		
+45297	statt	0		
+45298	der	0		
+45299	holprigen	0		
+45300	Grabstätten	0		
+45301	einen	0		
+45302	schönen	0		
+45303	,	0		
+45304	bunten	0		
+45305	Teppich	0		
+45306	vor	0		
+45307	sich	0	(mention_id=6017|references=(entity=(entity_id=entity_0203|fullname=Geistlicher|gender=m)))	(mention_id=6071|references=(entity=(entity_id=37|fullname=der Geistliche|gender=m)))
+45308	sah	0		
+45309	,	0		
+45310	der	0		
+45311	noch	0		
+45312	überdies	0		
+45313	seinem	0	(mention_id=6018|references=(entity=(entity_id=entity_0203|fullname=Geistlicher|gender=m)))	(mention_id=6072|references=(entity=(entity_id=37|fullname=der Geistliche|gender=m)))
+45314	Haushalt	0		
+45315	zugute	0		
+45316	kommen	0		
+45317	sollte	0		
+45318	,	0		
+45319	indem	0		
+45320	Charlotte	0	(mention_id=6019|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)))	(mention_id=6073|references=(entity=(entity_id=6|fullname=Charlotte|gender=f)))
+45321	die	0		
+45322	Nutzung	0		
+45323	dieses	0		
+45324	Fleckes	0		
+45325	der	0		
+45326	Pfarre	0		
+45327	zusichern	0		
+45328	lassen	0		
+45329	.	0		
+45330	Allein	0		
+45331	desungeachtet	0		
+45332	hatten	0		
+45333	schon	0		
+45334	manche	0		
+45335	Gemeindeglieder	0	(mention_id=6020|references=(entity=(entity_id=entity_0205|fullname=missbilligende Gemeindeglieder|gender=u|specialcase_entity=group)))	(mention_id=6074|references=(entity=(entity_id=43|fullname=die Gemeindeglieder|gender=mf|specialcase_entity=group)))
+45336	früher	0		
+45337	gemißbilligt	0		
+45338	,	0		
+45339	daß	0		
+45340	man	0		
+45341	die	0		
+45342	Bezeichnung	0		
+45343	der	0		
+45344	Stelle	0		
+45345	,	0		
+45346	wo	0		
+45347	ihre	0	(mention_id=6021|references=(entity=(entity_id=entity_0205|fullname=missbilligende Gemeindeglieder|gender=u|specialcase_entity=group)))	(mention_id=6075|references=(entity=(entity_id=43|fullname=die Gemeindeglieder|gender=mf|specialcase_entity=group)))
+45348	Vorfahren	0	(mention_id=6022|references=(entity=(entity_id=entity_0209|fullname=Vorfahren der missbilligenden Gemeindeglieder|gender=u|specialcase_entity=group)))	(mention_id=6076|references=(entity=(entity_id=45|fullname=die Vorfahren|gender=mf|specialcase_entity=group)))
+45349	ruhten	0		
+45350	,	0		
+45351	aufgehoben	0		
+45352	und	0		
+45353	das	0		
+45354	Andenken	0		
+45355	dadurch	0		
+45356	gleichsam	0		
+45357	ausgelöscht	0		
+45358	;	0		
+45359	denn	0		
+45360	die	0		
+45361	wohlerhaltenen	0		
+45362	Monumente	0		
+45363	zeigen	0		
+45364	zwar	0		
+45365	an	0		
+45366	,	0		
+45367	wer	0	(mention_id=6023|references=(entity=(entity_id=generic_0327|fullname=Begrabene|gender=u|specialcase_entity=generic)))	(mention_id=6077|references=(entity=(entity_id=generic_0016|fullname=ein Toter im Allgemeinen|gender=u|specialcase_entity=generic)))
+45368	begraben	0		
+45369	sei	0		
+45370	,	0		
+45371	aber	0		
+45372	nicht	0		
+45373	,	0		
+45374	wo	0		
+45375	er	0	(mention_id=6024|references=(entity=(entity_id=generic_0328|fullname=Begrabene|gender=u|specialcase_entity=generic)))	(mention_id=6078|references=(entity=(entity_id=generic_0017|fullname=ein Toter im Allgemeinen|gender=u|specialcase_entity=generic)))
+45376	begraben	0		
+45377	sei	0		
+45378	,	0		
+45379	und	0		
+45380	auf	0		
+45381	das	0		
+45382	Wo	0		
+45383	komme	0		
+45384	es	0		
+45385	eigentlich	0		
+45386	an	0		
+45387	,	0		
+45388	wie	0		
+45389	viele	0	(mention_id=6025|references=(entity=(entity_id=entity_0205|fullname=missbilligende Gemeindeglieder|gender=u|specialcase_entity=group)))	(mention_id=6079|references=(entity=(entity_id=43|fullname=die Gemeindeglieder|gender=mf|specialcase_entity=group)))
+45390	behaupteten	0		
+45391	.	0		
+45392	Von	0		
+45393	ebensolcher	0		
+45394	Gesinnung	0		
+45395	war	0		
+45396	eine	0		
+45397	benachbarte	0		
+45398	Familie	0	(mention_id=6026|references=(entity=(entity_id=entity_0204|fullname=benachbarte Familie|gender=u|members=entity_0208|all_members_given=False|specialcase_entity=group)))	(mention_id=6080|references=(entity=(entity_id=46|fullname=die benachbarte Familie|gender=mf|specialcase_entity=group)))
+45399	,	0		
+45400	die	0	(mention_id=6027|references=(entity=(entity_id=entity_0204|fullname=benachbarte Familie|gender=u|members=entity_0208|all_members_given=False|specialcase_entity=group)))	(mention_id=6081|references=(entity=(entity_id=46|fullname=die benachbarte Familie|gender=mf|specialcase_entity=group)))
+45401	sich	0	(mention_id=6028|references=(entity=(entity_id=entity_0204|fullname=benachbarte Familie|gender=u|members=entity_0208|all_members_given=False|specialcase_entity=group)))	(mention_id=6082|references=(entity=(entity_id=46|fullname=die benachbarte Familie|gender=mf|specialcase_entity=group)))
+45402	und	0		
+45403	den	0		
+45404	Ihrigen	0	(mention_id=6029|references=(entity=(entity_id=entity_0204|fullname=benachbarte Familie|gender=u|members=entity_0208|all_members_given=False|specialcase_entity=group)))	(mention_id=6083|references=(entity=(entity_id=40|fullname=die Angehörigen der Familie|gender=mf|specialcase_entity=group)))
+45405	einen	0		
+45406	Raum	0		
+45407	auf	0		
+45408	dieser	0		
+45409	allgemeinen	0		
+45410	Ruhestätte	0		
+45411	vor	0		
+45412	mehreren	0		
+45413	Jahren	0		
+45414	ausbedungen	0		
+45415	und	0		
+45416	dafür	0		
+45417	der	0		
+45418	Kirche	0		
+45419	eine	0		
+45420	kleine	0		
+45421	Stiftung	0		
+45422	zugewendet	0		
+45423	hatte	0		
+45424	.	0		
+45425	Nun	0		
+45426	war	0		
+45427	der	0		
+45428	junge	0		
+45429	Rechtsgelehrte	0	(mention_id=6030|references=(entity=(entity_id=entity_0202|fullname=junger Rechtsgelehrter|gender=m)))	(mention_id=6084|references=(entity=(entity_id=39|fullname=der junge Rechtsgelehrte|gender=m)))
+45430	abgesendet	0		
+45431	,	0		
+45432	um	0		
+45433	die	0		
+45434	Stiftung	0		
+45435	zu	0		
+45436	widerrufen	0		
+45437	und	0		
+45438	anzuzeigen	0		
+45439	,	0		
+45440	daß	0		
+45441	man	0		
+45442	nicht	0		
+45443	weiterzahlen	0		
+45444	werde	0		
+45445	,	0		
+45446	weil	0		
+45447	die	0		
+45448	Bedingung	0		
+45449	,	0		
+45450	unter	0		
+45451	welcher	0		
+45452	dieses	0		
+45453	bisher	0		
+45454	geschehen	0		
+45455	,	0		
+45456	einseitig	0		
+45457	aufgehoben	0		
+45458	und	0		
+45459	auf	0		
+45460	alle	0		
+45461	Vorstellungen	0		
+45462	und	0		
+45463	Widerreden	0		
+45464	nicht	0		
+45465	geachtet	0		
+45466	worden	0		
+45467	.	0		
+45468	Charlotte	0	(mention_id=6031|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)))	(mention_id=6085|references=(entity=(entity_id=6|fullname=Charlotte|gender=f)))
+45469	,	0		
+45470	die	0		
+45471	Urheberin	0	(mention_id=6032|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)))	(mention_id=6086|references=(entity=(entity_id=6|fullname=Charlotte|gender=f)))
+45472	dieser	0		
+45473	Veränderung	0		
+45474	,	0		
+45475	wollte	0		
+45476	den	0		
+45477	jungen	0		
+45478	Mann	0	(mention_id=6033|references=(entity=(entity_id=entity_0202|fullname=junger Rechtsgelehrter|gender=m)))	(mention_id=6087|references=(entity=(entity_id=39|fullname=der junge Rechtsgelehrte|gender=m)))
+45479	selbst	0		
+45480	sprechen	0		
+45481	,	0		
+45482	der	0	(mention_id=6034|references=(entity=(entity_id=entity_0202|fullname=junger Rechtsgelehrter|gender=m)))	(mention_id=6088|references=(entity=(entity_id=39|fullname=der junge Rechtsgelehrte|gender=m)))
+45483	zwar	0		
+45484	lebhaft	0		
+45485	,	0		
+45486	aber	0		
+45487	nicht	0		
+45488	allzu	0		
+45489	vorlaut	0		
+45490	seine	0	(mention_id=6035|references=(entity=(entity_id=entity_0202|fullname=junger Rechtsgelehrter|gender=m)))	(mention_id=6089|references=(entity=(entity_id=39|fullname=der junge Rechtsgelehrte|gender=m)))
+45491	und	0		
+45492	seines	0	(mention_id=6036|references=(entity=(entity_id=entity_0202|fullname=junger Rechtsgelehrter|gender=m)))	(mention_id=6090|references=(entity=(entity_id=39|fullname=der junge Rechtsgelehrte|gender=m)))
+45493	Prinzipals	0	(mention_id=6037|references=(entity=(entity_id=entity_0206|fullname=Prinzipal des jungen Rechtsgelehrten|gender=m)))	
+45494	Gründe	0		
+45495	darlegte	0		
+45496	und	0		
+45497	der	0		
+45498	Gesellschaft	0	(mention_id=6038|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)),(entity=(entity_id=entity_0147|fullname=Architekt|gender=m)))	(mention_id=6091|references=(entity=(entity_id=44|fullname=die Gesellschaft|gender=mf|specialcase_entity=group)))
+45499	manches	0		
+45500	zu	0		
+45501	denken	0		
+45502	gab	0		
+45503	.	0		
+45504	»	0		
+45505	Sie	0	(mention_id=6039|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)))	(mention_id=6092|references=(entity=(entity_id=6|fullname=Charlotte|gender=f)),(entity=(entity_id=2|fullname=Architekt|gender=m)),(entity=(entity_id=27|fullname=Ottilie|gender=f)))
+45506	sehen	0		
+45507	,	0		
+45508	«	0		
+45509	sprach	0		
+45510	er	0	(mention_id=6040|references=(entity=(entity_id=entity_0202|fullname=junger Rechtsgelehrter|gender=m)))	(mention_id=6093|references=(entity=(entity_id=39|fullname=der junge Rechtsgelehrte|gender=m)))
+45511	nach	0		
+45512	einem	0		
+45513	kurzen	0		
+45514	Eingang	0		
+45515	,	0		
+45516	in	0		
+45517	welchem	0		
+45518	er	0	(mention_id=6041|references=(entity=(entity_id=entity_0202|fullname=junger Rechtsgelehrter|gender=m)))	(mention_id=6094|references=(entity=(entity_id=39|fullname=der junge Rechtsgelehrte|gender=m)))
+45519	seine	0	(mention_id=6042|references=(entity=(entity_id=entity_0202|fullname=junger Rechtsgelehrter|gender=m)))	(mention_id=6095|references=(entity=(entity_id=39|fullname=der junge Rechtsgelehrte|gender=m)))
+45520	Zudringlichkeit	0		
+45521	zu	0		
+45522	rechtfertigen	0		
+45523	wußte	0		
+45524	,	0		
+45525	»	0		
+45526	Sie	0	(mention_id=6043|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)))	(mention_id=6096|references=(entity=(entity_id=6|fullname=Charlotte|gender=f)),(entity=(entity_id=2|fullname=Architekt|gender=m)),(entity=(entity_id=27|fullname=Ottilie|gender=f)))
+45527	sehen	0		
+45528	,	0		
+45529	daß	0		
+45530	dem	0		
+45531	Geringsten	0	(mention_id=6044|references=(entity=(entity_id=generic_0331|fullname=Geringste|gender=u|specialcase_entity=generic)))	(mention_id=6097|references=(entity=(entity_id=generic_0018|fullname=ein Geringster im Allgemeinen|gender=u|specialcase_entity=generic)))
+45532	wie	0		
+45533	dem	0		
+45534	Höchsten	0	(mention_id=6045|references=(entity=(entity_id=generic_0332|fullname=Höchster|gender=u|specialcase_entity=generic)))	(mention_id=6098|references=(entity=(entity_id=generic_0019|fullname=ein Höchster im Allgemeinen|gender=u|specialcase_entity=generic)))
+45535	daran	0		
+45536	gelegen	0		
+45537	ist	0		
+45538	,	0		
+45539	den	0		
+45540	Ort	0		
+45541	zu	0		
+45542	bezeichnen	0		
+45543	,	0		
+45544	der	0		
+45545	die	0		
+45546	Seinigen	0	(mention_id=6046|references=(entity=(entity_id=generic_0333|fullname=Angehörige des Geringsten wie des Höchsten|gender=u|specialcase_entity=generic)))	(mention_id=6099|references=(entity=(entity_id=generic_0020|fullname=Angehörige im Allgemeinen|gender=u|specialcase_entity=generic)))
+45547	aufbewahrt	0		
+45548	.	0		
+45549	Dem	0		
+45550	ärmsten	0		
+45551	Landmann	0	(mention_id=6047|references=(entity=(entity_id=generic_0334|fullname=ärmster Landmann|gender=u|specialcase_entity=generic)))	(mention_id=6100|references=(entity=(entity_id=generic_0023|fullname=ein Landmann im Allgemeinen|gender=u|specialcase_entity=generic)))
+45552	,	0		
+45553	der	0	(mention_id=6048|references=(entity=(entity_id=generic_0335|fullname=ärmster Landmann|gender=u|specialcase_entity=generic)))	(mention_id=6101|references=(entity=(entity_id=generic_0024|fullname=ein Landmann im Allgemeinen|gender=u|specialcase_entity=generic)))
+45554	ein	0		
+45555	Kind	0	(mention_id=6049|references=(entity=(entity_id=generic_0336|fullname=Kind des ärmsten Landmanns|gender=u|specialcase_entity=generic)))	(mention_id=6102|references=(entity=(entity_id=generic_0025|fullname=ein Kind im Allgemeinen|gender=u|specialcase_entity=generic)))
+45556	begräbt	0		
+45557	,	0		
+45558	ist	0		
+45559	es	0		
+45560	eine	0		
+45561	Art	0		
+45562	von	0		
+45563	Trost	0		
+45564	,	0		
+45565	ein	0		
+45566	schwaches	0		
+45567	hölzernes	0		
+45568	Kreuz	0		
+45569	auf	0		
+45570	das	0		
+45571	Grab	0		
+45572	zu	0		
+45573	stellen	0		
+45574	,	0		
+45575	es	0		
+45576	mit	0		
+45577	einem	0		
+45578	Kranze	0		
+45579	zu	0		
+45580	zieren	0		
+45581	,	0		
+45582	um	0		
+45583	wenigstens	0		
+45584	das	0		
+45585	Andenken	0		
+45586	so	0		
+45587	lange	0		
+45588	zu	0		
+45589	erhalten	0		
+45590	,	0		
+45591	als	0		
+45592	der	0		
+45593	Schmerz	0		
+45594	währt	0		
+45595	,	0		
+45596	wenn	0		
+45597	auch	0		
+45598	ein	0		
+45599	solches	0		
+45600	Merkzeichen	0		
+45601	,	0		
+45602	wie	0		
+45603	die	0		
+45604	Trauer	0		
+45605	selbst	0		
+45606	,	0		
+45607	durch	0		
+45608	die	0		
+45609	Zeit	0		
+45610	aufgehoben	0		
+45611	wird	0		
+45612	.	0		
+45613	Wohlhabende	0	(mention_id=6050|references=(entity=(entity_id=generic_0337|fullname=Wohlhabende|gender=u|specialcase_entity=generic)))	(mention_id=6103|references=(entity=(entity_id=generic_0026|fullname=Wohlhabende im Allgemeinen|gender=u|specialcase_entity=generic)))
+45614	verwandeln	0		
+45615	diese	0		
+45616	Kreuze	0		
+45617	in	0		
+45618	eiserne	0		
+45619	,	0		
+45620	befestigen	0		
+45621	und	0		
+45622	schützen	0		
+45623	sie	0		
+45624	auf	0		
+45625	mancherlei	0		
+45626	Weise	0		
+45627	,	0		
+45628	und	0		
+45629	hier	0		
+45630	ist	0		
+45631	schon	0		
+45632	Dauer	0		
+45633	für	0		
+45634	mehrere	0		
+45635	Jahre	0		
+45636	.	0		
+45637	Doch	0		
+45638	weil	0		
+45639	auch	0		
+45640	diese	0		
+45641	endlich	0		
+45642	sinken	0		
+45643	und	0		
+45644	unscheinbar	0		
+45645	werden	0		
+45646	,	0		
+45647	so	0		
+45648	haben	0		
+45649	Begüterte	0	(mention_id=6051|references=(entity=(entity_id=generic_0338|fullname=Wohlhabende|gender=u|specialcase_entity=generic)))	(mention_id=6104|references=(entity=(entity_id=generic_0027|fullname=Begüterte im Allgemeinen|gender=u|specialcase_entity=generic)))
+45650	nichts	0		
+45651	Angelegeneres	0		
+45652	,	0		
+45653	als	0		
+45654	einen	0		
+45655	Stein	0		
+45656	aufzurichten	0		
+45657	,	0		
+45658	der	0		
+45659	für	0		
+45660	mehrere	0		
+45661	Generationen	0		
+45662	zu	0		
+45663	dauern	0		
+45664	verspricht	0		
+45665	und	0		
+45666	von	0		
+45667	den	0		
+45668	Nachkommen	0	(mention_id=6052|references=(entity=(entity_id=generic_0339|fullname=Nachkommen der Wohlhabenden|gender=u|specialcase_entity=generic)))	(mention_id=6105|references=(entity=(entity_id=generic_0028|fullname=Nachkommen im Allgemeinen|gender=u|specialcase_entity=generic)))
+45669	erneut	0		
+45670	und	0		
+45671	aufgefrischt	0		
+45672	werden	0		
+45673	kann	0		
+45674	.	0		
+45675	Aber	0		
+45676	dieser	0		
+45677	Stein	0		
+45678	ist	0		
+45679	es	0		
+45680	nicht	0		
+45681	,	0		
+45682	der	0		
+45683	uns	0	(mention_id=6053|references=(entity=(entity_id=generic_0340|fullname=Menschen allgemein|gender=u|specialcase_entity=generic)),(entity=(entity_id=entity_0202|fullname=junger Rechtsgelehrter|gender=m)))	(mention_id=6106|references=(entity=(entity_id=generic_0029|fullname=Menschen im Allgemeinen|gender=u|specialcase_entity=generic)))
+45684	anzieht	0		
+45685	,	0		
+45686	sondern	0		
+45687	das	0		
+45688	darunter	0		
+45689	Enthaltene	0		
+45690	,	0		
+45691	das	0		
+45692	daneben	0		
+45693	der	0		
+45694	Erde	0		
+45695	Vertraute	0		
+45696	.	0		
+45697	Es	0		
+45698	ist	0		
+45699	nicht	0		
+45700	sowohl	0		
+45701	vom	0		
+45702	Andenken	0		
+45703	die	0		
+45704	Rede	0		
+45705	als	0		
+45706	von	0		
+45707	der	0		
+45708	Person	0	(mention_id=6054|references=(entity=(entity_id=generic_0341|fullname=Verstorbene|gender=u|specialcase_entity=generic)))	
+45709	selbst	0		
+45710	,	0		
+45711	nicht	0		
+45712	von	0		
+45713	der	0		
+45714	Erinnerung	0		
+45715	,	0		
+45716	sondern	0		
+45717	von	0		
+45718	der	0		
+45719	Gegenwart	0		
+45720	.	0		
+45721	Ein	0		
+45722	geliebtes	0	(mention_id=6055|references=(entity=(entity_id=generic_0342|fullname=geliebte verstorbene Person|gender=u|specialcase_entity=generic)))	
+45723	Abgeschiedenes	0		(mention_id=6107|references=(entity=(entity_id=generic_0052|fullname=ein Abgeschiedener im Allgemeinen|gender=u|specialcase_entity=generic)))
+45724	umarme	0		
+45725	ich	0	(mention_id=6056|references=(entity=(entity_id=entity_0202|fullname=junger Rechtsgelehrter|gender=m)))	(mention_id=6108|references=(entity=(entity_id=39|fullname=der junge Rechtsgelehrte|gender=m)))
+45726	weit	0		
+45727	eher	0		
+45728	und	0		
+45729	inniger	0		
+45730	im	0		
+45731	Grabhügel	0		
+45732	als	0		
+45733	im	0		
+45734	Denkmal	0		
+45735	,	0		
+45736	denn	0		
+45737	dieses	0		
+45738	ist	0		
+45739	für	0		
+45740	sich	0		
+45741	eigentlich	0		
+45742	nur	0		
+45743	wenig	0		
+45744	;	0		
+45745	aber	0		
+45746	um	0		
+45747	dasselbe	0		
+45748	her	0		
+45749	sollen	0		
+45750	sich	0	(mention_id=6057|references=(entity=(entity_id=generic_0343|fullname=Gatten Verstorbener|gender=u|specialcase_entity=generic)),(entity=(entity_id=generic_0345|fullname=Verwandte Verstorbener|gender=u|specialcase_entity=generic)),(entity=(entity_id=generic_0347|fullname=Freunde Verstorbener|gender=u|specialcase_entity=generic)))	
+45751	wie	0		
+45752	um	0		
+45753	einen	0		
+45754	Markstein	0		
+45755	Gatten	0	(mention_id=6058|references=(entity=(entity_id=generic_0344|fullname=Gatten Verstorbener|gender=u|specialcase_entity=generic)))	(mention_id=6109|references=(entity=(entity_id=generic_0053|fullname=Gatten im Allgemeinen|gender=u|specialcase_entity=generic)))
+45756	,	0		
+45757	Verwandte	0	(mention_id=6059|references=(entity=(entity_id=generic_0346|fullname=Verwandte Verstorbener|gender=u|specialcase_entity=generic)))	(mention_id=6110|references=(entity=(entity_id=generic_0055|fullname=Verwandte im Allgemeinen|gender=u|specialcase_entity=generic)))
+45758	,	0		
+45759	Freunde	0	(mention_id=6060|references=(entity=(entity_id=generic_0348|fullname=Freunde Verstorbener|gender=u|specialcase_entity=generic)))	(mention_id=6111|references=(entity=(entity_id=generic_0057|fullname=Freunde im Allgemeinen|gender=u|specialcase_entity=generic)))
+45760	selbst	0		
+45761	nach	0		
+45762	ihrem	0	(mention_id=6061|references=(entity=(entity_id=generic_0349|fullname=Verstorbene 2|gender=u|specialcase_entity=generic)))	(mention_id=6112|references=(entity=(entity_id=generic_0054|fullname=Gatten im Allgemeinen|gender=u|specialcase_entity=generic)),(entity=(entity_id=generic_0056|fullname=Verwandte im Allgemeinen|gender=u|specialcase_entity=generic)),(entity=(entity_id=generic_0058|fullname=Freunde im Allgemeinen|gender=u|specialcase_entity=generic)))
+45763	Hinscheiden	0		
+45764	noch	0		
+45765	versammeln	0		
+45766	,	0		
+45767	und	0		
+45768	der	0		
+45769	Lebende	0	(mention_id=6062|references=(entity=(entity_id=generic_0350|fullname=Lebende|gender=u|specialcase_entity=generic)))	(mention_id=6113|references=(entity=(entity_id=generic_0059|fullname=ein Lebender im Allgemeinen|gender=u|specialcase_entity=generic)))
+45770	soll	0		
+45771	das	0		
+45772	Recht	0		
+45773	behalten	0		
+45774	,	0		
+45775	Fremde	0	(mention_id=6063|references=(entity=(entity_id=generic_0325|fullname=Fremde|gender=u|specialcase_entity=generic)))	(mention_id=6114|references=(entity=(entity_id=generic_0061|fullname=Fremde im Allgemeinen|gender=u|specialcase_entity=generic)))
+45776	und	0		
+45777	Mißwollende	0	(mention_id=6064|references=(entity=(entity_id=generic_0355|fullname=Mißwollende|gender=u|specialcase_entity=generic)))	(mention_id=6115|references=(entity=(entity_id=generic_0062|fullname=Mißwollende im Allgemeinen|gender=u|specialcase_entity=generic)))
+45778	auch	0		
+45779	von	0		
+45780	der	0		
+45781	Seite	0		
+45782	seiner	0	(mention_id=6065|references=(entity=(entity_id=generic_0351|fullname=Lebende|gender=u|specialcase_entity=generic)))	(mention_id=6116|references=(entity=(entity_id=generic_0060|fullname=ein Lebender im Allgemeinen|gender=u|specialcase_entity=generic)))
+45783	geliebten	0		
+45784	Ruhenden	0	(mention_id=6066|references=(entity=(entity_id=generic_0356|fullname=Verstorbene 3|gender=u|specialcase_entity=generic)))	(mention_id=6117|references=(entity=(entity_id=generic_0063|fullname=Ruhende im Allgemeinen|gender=u|specialcase_entity=generic)))
+45785	abzuweisen	0		
+45786	und	0		
+45787	zu	0		
+45788	entfernen	0		
+45789	.	0		
+45790	Ich	0	(mention_id=6067|references=(entity=(entity_id=entity_0202|fullname=junger Rechtsgelehrter|gender=m)))	(mention_id=6118|references=(entity=(entity_id=39|fullname=der junge Rechtsgelehrte|gender=m)))
+45791	halte	0		
+45792	deswegen	0		
+45793	dafür	0		
+45794	,	0		
+45795	daß	0		
+45796	mein	0	(mention_id=6068|references=(entity=(entity_id=entity_0202|fullname=junger Rechtsgelehrter|gender=m)))	(mention_id=6119|references=(entity=(entity_id=39|fullname=der junge Rechtsgelehrte|gender=m)))
+45797	Prinzipal	0	(mention_id=6069|references=(entity=(entity_id=entity_0206|fullname=Prinzipal des jungen Rechtsgelehrten|gender=m)))	(mention_id=6120|references=(entity=(entity_id=38|fullname=der benachbarte Edelmann|gender=m)))
+45798	völlig	0		
+45799	recht	0		
+45800	habe	0		
+45801	,	0		
+45802	die	0		
+45803	Stiftung	0		
+45804	zurückzunehmen	0		
+45805	;	0		
+45806	und	0		
+45807	dies	0		
+45808	ist	0		
+45809	noch	0		
+45810	billig	0		
+45811	genug	0		
+45812	,	0		
+45813	denn	0		
+45814	die	0		
+45815	Glieder	0	(mention_id=6070|references=(entity=(entity_id=entity_0204|fullname=benachbarte Familie|gender=u|members=entity_0208|all_members_given=False|specialcase_entity=group)))	(mention_id=6121|references=(entity=(entity_id=46|fullname=die benachbarte Familie|gender=mf|specialcase_entity=group)))
+45816	der	0		
+45817	Familie	0		(mention_id=6122|references=(entity=(entity_id=46|fullname=die benachbarte Familie|gender=mf|specialcase_entity=group)))
+45818	sind	0		
+45819	auf	0		
+45820	eine	0		
+45821	Weise	0		
+45822	verletzt	0		
+45823	,	0		
+45824	wofür	0		
+45825	gar	0		
+45826	kein	0		
+45827	Ersatz	0		
+45828	zu	0		
+45829	denken	0		
+45830	ist	0		
+45831	.	0		
+45832	Sie	0	(mention_id=6071|references=(entity=(entity_id=entity_0204|fullname=benachbarte Familie|gender=u|members=entity_0208|all_members_given=False|specialcase_entity=group)))	(mention_id=6123|references=(entity=(entity_id=46|fullname=die benachbarte Familie|gender=mf|specialcase_entity=group)))
+45833	sollen	0		
+45834	das	0		
+45835	schmerzlich	0		
+45836	süße	0		
+45837	Gefühl	0		
+45838	entbehren	0		
+45839	,	0		
+45840	ihren	0	(mention_id=6072|references=(entity=(entity_id=entity_0204|fullname=benachbarte Familie|gender=u|members=entity_0208|all_members_given=False|specialcase_entity=group)))	(mention_id=6124|references=(entity=(entity_id=46|fullname=die benachbarte Familie|gender=mf|specialcase_entity=group)))
+45841	Geliebten	0	(mention_id=6073|references=(entity=(entity_id=entity_0207|fullname=Verstorbene der benachbarten Familie|gender=u|specialcase_entity=group)))	(mention_id=6125|references=(entity=(entity_id=40|fullname=die Angehörigen der Familie|gender=mf|specialcase_entity=group)))
+45842	ein	0		
+45843	Totenopfer	0		
+45844	zu	0		
+45845	bringen	0		
+45846	,	0		
+45847	die	0		
+45848	tröstliche	0		
+45849	Hoffnung	0		
+45850	,	0		
+45851	dereinst	0		
+45852	unmittelbar	0		
+45853	neben	0		
+45854	ihnen	0	(mention_id=6074|references=(entity=(entity_id=entity_0204|fullname=benachbarte Familie|gender=u|members=entity_0208|all_members_given=False|specialcase_entity=group)))	(mention_id=6126|references=(entity=(entity_id=40|fullname=die Angehörigen der Familie|gender=mf|specialcase_entity=group)))
+45855	zu	0		
+45856	ruhen	0		
+45857	.	0		
+45858	«	0		
+45859	»	0		
+45860	Die	0		
+45861	Sache	0		
+45862	ist	0		
+45863	nicht	0		
+45864	von	0		
+45865	der	0		
+45866	Bedeutung	0		
+45867	,	0		
+45868	«	0		
+45869	versetzte	0		
+45870	Charlotte	0	(mention_id=6075|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)))	(mention_id=6127|references=(entity=(entity_id=6|fullname=Charlotte|gender=f)))
+45871	,	0		
+45872	»	0		
+45873	daß	0		
+45874	man	0		
+45875	sich	0		
+45876	deshalb	0		
+45877	durch	0		
+45878	einen	0		
+45879	Rechtshandel	0		
+45880	beunruhigen	0		
+45881	sollte	0		
+45882	.	0		
+45883	Meine	0	(mention_id=6076|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)))	(mention_id=6128|references=(entity=(entity_id=6|fullname=Charlotte|gender=f)))
+45884	Anstalt	0		
+45885	reut	0		
+45886	mich	0	(mention_id=6077|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)))	(mention_id=6129|references=(entity=(entity_id=6|fullname=Charlotte|gender=f)))
+45887	so	0		
+45888	wenig	0		
+45889	,	0		
+45890	daß	0		
+45891	ich	0	(mention_id=6078|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)))	(mention_id=6130|references=(entity=(entity_id=6|fullname=Charlotte|gender=f)))
+45892	die	0		
+45893	Kirche	0		
+45894	gern	0		
+45895	wegen	0		
+45896	dessen	0		
+45897	,	0		
+45898	was	0		
+45899	ihr	0		
+45900	entgeht	0		
+45901	,	0		
+45902	entschädigen	0		
+45903	will	0		
+45904	.	0		
+45905	Nur	0		
+45906	muß	0		
+45907	ich	0	(mention_id=6079|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)))	(mention_id=6131|references=(entity=(entity_id=6|fullname=Charlotte|gender=f)))
+45908	Ihnen	0	(mention_id=6080|references=(entity=(entity_id=entity_0202|fullname=junger Rechtsgelehrter|gender=m)))	(mention_id=6132|references=(entity=(entity_id=39|fullname=der junge Rechtsgelehrte|gender=m)))
+45909	aufrichtig	0		
+45910	gestehen	0		
+45911	:	0		
+45912	Ihre	0	(mention_id=6081|references=(entity=(entity_id=entity_0202|fullname=junger Rechtsgelehrter|gender=m)))	(mention_id=6133|references=(entity=(entity_id=39|fullname=der junge Rechtsgelehrte|gender=m)))
+45913	Argumente	0		
+45914	haben	0		
+45915	mich	0	(mention_id=6082|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)))	(mention_id=6134|references=(entity=(entity_id=6|fullname=Charlotte|gender=f)))
+45916	nicht	0		
+45917	überzeugt	0		
+45918	.	0		
+45919	Das	0		
+45920	reine	0		
+45921	Gefühl	0		
+45922	einer	0		
+45923	endlichen	0		
+45924	allgemeinen	0		
+45925	Gleichheit	0		
+45926	,	0		
+45927	wenigstens	0		
+45928	nach	0		
+45929	dem	0		
+45930	Tode	0		
+45931	,	0		
+45932	scheint	0		
+45933	mir	0	(mention_id=6083|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)))	(mention_id=6135|references=(entity=(entity_id=6|fullname=Charlotte|gender=f)))
+45934	beruhigender	0		
+45935	als	0		
+45936	dieses	0		
+45937	eigensinnige	0		
+45938	,	0		
+45939	starre	0		
+45940	Fort	0		
+45941	setzen	0		
+45942	unserer	0	(mention_id=6084|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)),(entity=(entity_id=entity_0202|fullname=junger Rechtsgelehrter|gender=m)))	(mention_id=6136|references=(entity=(entity_id=generic_0030|fullname=Menschen im Allgemeinen|gender=u|specialcase_entity=generic)))
+45943	Persönlichkeiten	0		(mention_id=6137|references=(entity=(entity_id=generic_0031|fullname=Menschen im Allgemeinen|gender=u|specialcase_entity=generic)))
+45944	,	0		
+45945	Anhänglichkeiten	0		
+45946	und	0		
+45947	Lebensverhältnisse	0		
+45948	.	0		
+45949	–	0		
+45950	Und	0		
+45951	was	0		
+45952	sagen	0		
+45953	Sie	0	(mention_id=6085|references=(entity=(entity_id=entity_0147|fullname=Architekt|gender=m)))	(mention_id=6138|references=(entity=(entity_id=2|fullname=Architekt|gender=m)))
+45954	hierzu	0		
+45955	?	0		
+45956	«	0		
+45957	richtete	0		
+45958	sie	0	(mention_id=6086|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)))	(mention_id=6139|references=(entity=(entity_id=6|fullname=Charlotte|gender=f)))
+45959	ihre	0	(mention_id=6087|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)))	(mention_id=6140|references=(entity=(entity_id=6|fullname=Charlotte|gender=f)))
+45960	Frage	0		
+45961	an	0		
+45962	den	0		
+45963	Architekten	0	(mention_id=6088|references=(entity=(entity_id=entity_0147|fullname=Architekt|gender=m)))	(mention_id=6141|references=(entity=(entity_id=2|fullname=Architekt|gender=m)))
+45964	.	0		
+45965	»	0		
+45966	Ich	0	(mention_id=6089|references=(entity=(entity_id=entity_0147|fullname=Architekt|gender=m)))	(mention_id=6142|references=(entity=(entity_id=2|fullname=Architekt|gender=m)))
+45967	möchte	0		
+45968	«	0		
+45969	,	0		
+45970	versetzte	0		
+45971	dieser	0	(mention_id=6090|references=(entity=(entity_id=entity_0147|fullname=Architekt|gender=m)))	(mention_id=6143|references=(entity=(entity_id=2|fullname=Architekt|gender=m)))
+45972	,	0		
+45973	»	0		
+45974	in	0		
+45975	einer	0		
+45976	solchen	0		
+45977	Sache	0		
+45978	weder	0		
+45979	streiten	0		
+45980	noch	0		
+45981	den	0		
+45982	Ausschlag	0		
+45983	geben	0		
+45984	.	0		
+45985	Lassen	0		
+45986	Sie	0	(mention_id=6091|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)))	(mention_id=6144|references=(entity=(entity_id=6|fullname=Charlotte|gender=f)))
+45987	mich	0	(mention_id=6092|references=(entity=(entity_id=entity_0147|fullname=Architekt|gender=m)))	(mention_id=6145|references=(entity=(entity_id=2|fullname=Architekt|gender=m)))
+45988	das	0		
+45989	,	0		
+45990	was	0		
+45991	meiner	0	(mention_id=6093|references=(entity=(entity_id=entity_0147|fullname=Architekt|gender=m)))	(mention_id=6146|references=(entity=(entity_id=2|fullname=Architekt|gender=m)))
+45992	Kunst	0		
+45993	,	0		
+45994	meiner	0	(mention_id=6094|references=(entity=(entity_id=entity_0147|fullname=Architekt|gender=m)))	(mention_id=6147|references=(entity=(entity_id=2|fullname=Architekt|gender=m)))
+45995	Denkweise	0		
+45996	am	0		
+45997	nächsten	0		
+45998	liegt	0		
+45999	,	0		
+46000	bescheidentlich	0		
+46001	äußern	0		
+46002	.	0		
+46003	Seitdem	0		
+46004	wir	0	(mention_id=6095|references=(entity=(entity_id=entity_0147|fullname=Architekt|gender=m)),(entity=(entity_id=generic_0357|fullname=Menschen allgemein 2|gender=u|specialcase_entity=generic)))	(mention_id=6148|references=(entity=(entity_id=generic_0032|fullname=Menschen im Allgemeinen|gender=u|specialcase_entity=generic)))
+46005	nicht	0		
+46006	mehr	0		
+46007	so	0		
+46008	glücklich	0		
+46009	sind	0		
+46010	,	0		
+46011	die	0		
+46012	Reste	0		
+46013	eines	0		
+46014	geliebten	0		
+46015	Gegenstandes	0		
+46016	eingeurnt	0		
+46017	an	0		
+46018	unsere	0	(mention_id=6096|references=(entity=(entity_id=entity_0147|fullname=Architekt|gender=m)),(entity=(entity_id=generic_0358|fullname=Menschen allgemein 2|gender=u|specialcase_entity=generic)))	(mention_id=6149|references=(entity=(entity_id=generic_0033|fullname=Menschen im Allgemeinen|gender=u|specialcase_entity=generic)))
+46019	Brust	0		
+46020	zu	0		
+46021	drücken	0		
+46022	,	0		
+46023	da	0		
+46024	wir	0	(mention_id=6097|references=(entity=(entity_id=entity_0147|fullname=Architekt|gender=m)),(entity=(entity_id=generic_0359|fullname=Menschen allgemein 2|gender=u|specialcase_entity=generic)))	(mention_id=6150|references=(entity=(entity_id=generic_0034|fullname=Menschen im Allgemeinen|gender=u|specialcase_entity=generic)))
+46025	weder	0		
+46026	reich	0		
+46027	noch	0		
+46028	heiter	0		
+46029	genug	0		
+46030	sind	0		
+46031	,	0		
+46032	sie	0		(mention_id=6151|references=(entity=(entity_id=generic_0064|fullname=Ruhende im Allgemeinen|gender=u|specialcase_entity=generic)))
+46033	unversehrt	0		
+46034	in	0		
+46035	großen	0		
+46036	,	0		
+46037	wohlausgezierten	0		
+46038	Sarkophagen	0		
+46039	zu	0		
+46040	verwahren	0		
+46041	,	0		
+46042	ja	0		
+46043	da	0		
+46044	wir	0	(mention_id=6098|references=(entity=(entity_id=entity_0147|fullname=Architekt|gender=m)),(entity=(entity_id=generic_0360|fullname=Menschen allgemein 2|gender=u|specialcase_entity=generic)))	(mention_id=6152|references=(entity=(entity_id=generic_0035|fullname=Menschen im Allgemeinen|gender=u|specialcase_entity=generic)))
+46045	nicht	0		
+46046	einmal	0		
+46047	in	0		
+46048	den	0		
+46049	Kirchen	0		
+46050	mehr	0		
+46051	Platz	0		
+46052	für	0		
+46053	uns	0	(mention_id=6099|references=(entity=(entity_id=entity_0147|fullname=Architekt|gender=m)),(entity=(entity_id=generic_0361|fullname=Menschen allgemein 2|gender=u|specialcase_entity=generic)))	(mention_id=6153|references=(entity=(entity_id=generic_0036|fullname=Menschen im Allgemeinen|gender=u|specialcase_entity=generic)))
+46054	und	0		
+46055	für	0		
+46056	die	0		
+46057	Unsrigen	0	(mention_id=6100|references=(entity=(entity_id=generic_0364|fullname=Angehörige allgemein|gender=u|specialcase_entity=generic)))	(mention_id=6154|references=(entity=(entity_id=generic_0021|fullname=Angehörige im Allgemeinen|gender=u|specialcase_entity=generic)))
+46058	finden	0		
+46059	,	0		
+46060	sondern	0		
+46061	hinaus	0		
+46062	ins	0		
+46063	Freie	0		
+46064	gewiesen	0		
+46065	sind	0		
+46066	,	0		
+46067	so	0		
+46068	haben	0		
+46069	wir	0	(mention_id=6101|references=(entity=(entity_id=entity_0147|fullname=Architekt|gender=m)),(entity=(entity_id=generic_0362|fullname=Menschen allgemein 2|gender=u|specialcase_entity=generic)))	(mention_id=6155|references=(entity=(entity_id=generic_0037|fullname=Menschen im Allgemeinen|gender=u|specialcase_entity=generic)))
+46070	alle	0		
+46071	Ursache	0		
+46072	,	0		
+46073	die	0		
+46074	Art	0		
+46075	und	0		
+46076	Weise	0		
+46077	,	0		
+46078	die	0		
+46079	Sie	0	(mention_id=6102|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)))	(mention_id=6156|references=(entity=(entity_id=6|fullname=Charlotte|gender=f)))
+46080	,	0		
+46081	meine	0	(mention_id=6103|references=(entity=(entity_id=entity_0147|fullname=Architekt|gender=m)))	(mention_id=6157|references=(entity=(entity_id=2|fullname=Architekt|gender=m)))
+46082	gnädige	0		
+46083	Frau	0	(mention_id=6104|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)))	(mention_id=6158|references=(entity=(entity_id=6|fullname=Charlotte|gender=f)))
+46084	,	0		
+46085	eingeleitet	0		
+46086	haben	0		
+46087	,	0		
+46088	zu	0		
+46089	billigen	0		
+46090	.	0		
+46091	Wenn	0		
+46092	die	0		
+46093	Glieder	0	(mention_id=6105|references=(entity=(entity_id=generic_0365|fullname=Gemeindeglieder|gender=u|specialcase_entity=generic)))	(mention_id=6159|references=(entity=(entity_id=generic_0065|fullname=Glieder einer Gemeinde im Allgemeinen|gender=u|specialcase_entity=generic)))
+46094	einer	0		
+46095	Gemeinde	0	(mention_id=6106|references=(entity=(entity_id=generic_0366|fullname=Gemeindeglieder|gender=u|specialcase_entity=generic)))	(mention_id=6160|references=(entity=(entity_id=generic_0067|fullname=eine Gemeinde im Allgemeinen|gender=u|specialcase_entity=generic)))
+46096	reihenweise	0		
+46097	nebeneinander	0		
+46098	liegen	0		
+46099	,	0		
+46100	so	0		
+46101	ruhen	0		
+46102	sie	0	(mention_id=6107|references=(entity=(entity_id=generic_0367|fullname=Gemeindeglieder|gender=u|specialcase_entity=generic)))	(mention_id=6161|references=(entity=(entity_id=generic_0066|fullname=Glieder einer Gemeinde im Allgemeinen|gender=u|specialcase_entity=generic)))
+46103	bei	0		
+46104	und	0		
+46105	unter	0		
+46106	den	0		
+46107	Ihrigen	0	(mention_id=6108|references=(entity=(entity_id=generic_0368|fullname=Angehörige der Gemeindeglieder|gender=u|specialcase_entity=generic)))	(mention_id=6162|references=(entity=(entity_id=generic_0022|fullname=Angehörige im Allgemeinen|gender=u|specialcase_entity=generic)))
+46108	;	0		
+46109	und	0		
+46110	wenn	0		
+46111	die	0		
+46112	Erde	0		
+46113	uns	0	(mention_id=6109|references=(entity=(entity_id=entity_0147|fullname=Architekt|gender=m)),(entity=(entity_id=generic_0363|fullname=Menschen allgemein 2|gender=u|specialcase_entity=generic)))	(mention_id=6163|references=(entity=(entity_id=generic_0038|fullname=Menschen im Allgemeinen|gender=u|specialcase_entity=generic)))
+46114	einmal	0		
+46115	aufnehmen	0		
+46116	soll	0		
+46117	,	0		
+46118	so	0		
+46119	finde	0		
+46120	ich	0	(mention_id=6110|references=(entity=(entity_id=entity_0147|fullname=Architekt|gender=m)))	(mention_id=6164|references=(entity=(entity_id=2|fullname=Architekt|gender=m)))
+46121	nichts	0		
+46122	natürlicher	0		
+46123	und	0		
+46124	reinlicher	0		
+46125	,	0		
+46126	als	0		
+46127	daß	0		
+46128	man	0		
+46129	die	0		
+46130	zufällig	0		
+46131	entstandenen	0		
+46132	,	0		
+46133	nach	0		
+46134	und	0		
+46135	nach	0		
+46136	zusammensinkenden	0		
+46137	Hügel	0		
+46138	ungesäumt	0		
+46139	vergleiche	0		
+46140	und	0		
+46141	so	0		
+46142	die	0		
+46143	Decke	0		
+46144	,	0		
+46145	indem	0		
+46146	alle	0	(mention_id=6111|references=(entity=(entity_id=generic_0329|fullname=Begrabene|gender=u|specialcase_entity=generic)))	
+46147	sie	0		
+46148	tragen	0		
+46149	,	0		
+46150	einem	0		
+46151	jeden	0	(mention_id=6112|references=(entity=(entity_id=generic_0330|fullname=Begrabene|gender=u|specialcase_entity=generic)))	
+46152	leichter	0		
+46153	gemacht	0		
+46154	werde	0		
+46155	.	0		
+46156	«	0		
+46157	»	0		
+46158	Und	0		
+46159	ohne	0		
+46160	irgendein	0		
+46161	Zeichen	0		
+46162	des	0		
+46163	Andenkens	0		
+46164	,	0		
+46165	ohne	0		
+46166	irgend	0		
+46167	etwas	0		
+46168	,	0		
+46169	das	0		
+46170	der	0		
+46171	Erinnerung	0		
+46172	entgegenkäme	0		
+46173	,	0		
+46174	sollte	0		
+46175	das	0		
+46176	alles	0		
+46177	so	0		
+46178	vorübergehen	0		
+46179	?	0		
+46180	«	0		
+46181	versetzte	0		
+46182	Ottilie	0	(mention_id=6113|references=(entity=(entity_id=entity_0006|fullname=Ottilie|gender=f)))	(mention_id=6165|references=(entity=(entity_id=27|fullname=Ottilie|gender=f)))
+46183	.	0		
+46184	»	0		
+46185	Keineswegs	0		
+46186	!	0		
+46187	«	0		
+46188	fuhr	0		
+46189	der	0		
+46190	Architekt	0	(mention_id=6114|references=(entity=(entity_id=entity_0147|fullname=Architekt|gender=m)))	(mention_id=6166|references=(entity=(entity_id=2|fullname=Architekt|gender=m)))
+46191	fort	0		
+46192	;	0		
+46193	»	0		
+46194	nicht	0		
+46195	vom	0		
+46196	Andenken	0		
+46197	,	0		
+46198	nur	0		
+46199	vom	0		
+46200	Platze	0		
+46201	soll	0		
+46202	man	0		
+46203	sich	0		
+46204	lossagen	0		
+46205	.	0		
+46206	Der	0		
+46207	Baukünstler	0	(mention_id=6115|references=(entity=(entity_id=generic_0369|fullname=Baukünstler|gender=u|specialcase_entity=generic)))	(mention_id=6167|references=(entity=(entity_id=generic_0068|fullname=ein Baukünstler im Allgemeinen|gender=u|specialcase_entity=generic)))
+46208	,	0		
+46209	der	0		
+46210	Bildhauer	0	(mention_id=6116|references=(entity=(entity_id=generic_0373|fullname=Bildhauer|gender=u|specialcase_entity=generic)))	(mention_id=6168|references=(entity=(entity_id=generic_0072|fullname=ein Bildhauer im Allgemeinen|gender=u|specialcase_entity=generic)))
+46211	sind	0		
+46212	höchlich	0		
+46213	interessiert	0		
+46214	,	0		
+46215	daß	0		
+46216	der	0		
+46217	Mensch	0	(mention_id=6117|references=(entity=(entity_id=generic_0377|fullname=Mensch allgemein|gender=u|specialcase_entity=generic)))	(mention_id=6169|references=(entity=(entity_id=generic_0076|fullname=ein Mensch im Allgemeinen|gender=u|specialcase_entity=generic)))
+46218	von	0		
+46219	ihnen	0	(mention_id=6118|references=(entity=(entity_id=generic_0370|fullname=Baukünstler|gender=u|specialcase_entity=generic)),(entity=(entity_id=generic_0374|fullname=Bildhauer|gender=u|specialcase_entity=generic)))	(mention_id=6170|references=(entity=(entity_id=generic_0069|fullname=ein Baukünstler im Allgemeinen|gender=u|specialcase_entity=generic)),(entity=(entity_id=generic_0073|fullname=ein Bildhauer im Allgemeinen|gender=u|specialcase_entity=generic)))
+46220	,	0		
+46221	von	0		
+46222	ihrer	0	(mention_id=6119|references=(entity=(entity_id=generic_0371|fullname=Baukünstler|gender=u|specialcase_entity=generic)),(entity=(entity_id=generic_0375|fullname=Bildhauer|gender=u|specialcase_entity=generic)))	(mention_id=6171|references=(entity=(entity_id=generic_0070|fullname=ein Baukünstler im Allgemeinen|gender=u|specialcase_entity=generic)),(entity=(entity_id=generic_0074|fullname=ein Bildhauer im Allgemeinen|gender=u|specialcase_entity=generic)))
+46223	Kunst	0		
+46224	,	0		
+46225	von	0		
+46226	ihrer	0	(mention_id=6120|references=(entity=(entity_id=generic_0372|fullname=Baukünstler|gender=u|specialcase_entity=generic)),(entity=(entity_id=generic_0376|fullname=Bildhauer|gender=u|specialcase_entity=generic)))	(mention_id=6172|references=(entity=(entity_id=generic_0071|fullname=ein Baukünstler im Allgemeinen|gender=u|specialcase_entity=generic)),(entity=(entity_id=generic_0075|fullname=ein Bildhauer im Allgemeinen|gender=u|specialcase_entity=generic)))
+46227	Hand	0		
+46228	eine	0		
+46229	Dauer	0		
+46230	seines	0	(mention_id=6121|references=(entity=(entity_id=generic_0378|fullname=Mensch allgemein|gender=u|specialcase_entity=generic)))	(mention_id=6173|references=(entity=(entity_id=generic_0077|fullname=ein Mensch im Allgemeinen|gender=u|specialcase_entity=generic)))
+46231	Daseins	0		
+46232	erwarte	0		
+46233	;	0		
+46234	und	0		
+46235	deswegen	0		
+46236	wünschte	0		
+46237	ich	0	(mention_id=6122|references=(entity=(entity_id=entity_0147|fullname=Architekt|gender=m)))	(mention_id=6174|references=(entity=(entity_id=2|fullname=Architekt|gender=m)))
+46238	gut	0		
+46239	gedachte	0		
+46240	,	0		
+46241	gut	0		
+46242	ausgeführte	0		
+46243	Monumente	0		
+46244	,	0		
+46245	nicht	0		
+46246	einzeln	0		
+46247	und	0		
+46248	zufällig	0		
+46249	ausgesäet	0		
+46250	,	0		
+46251	sondern	0		
+46252	an	0		
+46253	einem	0		
+46254	Orte	0		
+46255	aufgestellt	0		
+46256	,	0		
+46257	wo	0		
+46258	sie	0		
+46259	sich	0		
+46260	Dauer	0		
+46261	versprechen	0		
+46262	können	0		
+46263	.	0		
+46264	Da	0		
+46265	selbst	0		
+46266	die	0		
+46267	Frommen	0	(mention_id=6123|references=(entity=(entity_id=generic_0379|fullname=Fromme|gender=u|specialcase_entity=generic)))	(mention_id=6175|references=(entity=(entity_id=generic_0081|fullname=Fromme im Allgemeinen|gender=u|specialcase_entity=generic)))
+46268	und	0		
+46269	Hohen	0	(mention_id=6124|references=(entity=(entity_id=generic_0380|fullname=Hohe|gender=u|specialcase_entity=generic)))	(mention_id=6176|references=(entity=(entity_id=generic_0082|fullname=Hohe im Allgemeinen|gender=u|specialcase_entity=generic)))
+46270	auf	0		
+46271	das	0		
+46272	Vorrecht	0		
+46273	Verzicht	0		
+46274	tun	0		
+46275	,	0		
+46276	in	0		
+46277	den	0		
+46278	Kirchen	0		
+46279	persönlich	0		
+46280	zu	0		
+46281	ruhen	0		
+46282	,	0		
+46283	so	0		
+46284	stelle	0		
+46285	man	0		
+46286	wenigstens	0		
+46287	dort	0		
+46288	oder	0		
+46289	in	0		
+46290	schönen	0		
+46291	Hallen	0		
+46292	um	0		
+46293	die	0		
+46294	Begräbnisplätze	0		
+46295	Denkzeichen	0		
+46296	,	0		
+46297	Denkschriften	0		
+46298	auf	0		
+46299	.	0		
+46300	Es	0		
+46301	gibt	0		
+46302	tausenderlei	0		
+46303	Formen	0		
+46304	,	0		
+46305	die	0		
+46306	man	0		
+46307	ihnen	0		
+46308	vorschreiben	0		
+46309	,	0		
+46310	tausenderlei	0		
+46311	Zieraten	0		
+46312	,	0		
+46313	womit	0		
+46314	man	0		
+46315	sie	0		
+46316	ausschmücken	0		
+46317	kann	0		
+46318	.	0		
+46319	«	0		
+46320	»	0		
+46321	Wenn	0		
+46322	die	0		
+46323	Künstler	0	(mention_id=6125|references=(entity=(entity_id=generic_0381|fullname=Künstler|gender=u|specialcase_entity=generic)))	(mention_id=6177|references=(entity=(entity_id=generic_0083|fullname=Künstler im Allgemeinen|gender=u|specialcase_entity=generic)))
+46324	so	0		
+46325	reich	0		
+46326	sind	0		
+46327	,	0		
+46328	«	0		
+46329	versetzte	0		
+46330	Charlotte	0	(mention_id=6126|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)))	(mention_id=6178|references=(entity=(entity_id=6|fullname=Charlotte|gender=f)))
+46331	,	0		
+46332	»	0		
+46333	so	0		
+46334	sagen	0		
+46335	Sie	0	(mention_id=6127|references=(entity=(entity_id=entity_0147|fullname=Architekt|gender=m)))	(mention_id=6179|references=(entity=(entity_id=2|fullname=Architekt|gender=m)))
+46336	mir	0	(mention_id=6128|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)))	(mention_id=6180|references=(entity=(entity_id=6|fullname=Charlotte|gender=f)))
+46337	doch	0		
+46338	:	0		
+46339	Wie	0		
+46340	kann	0		
+46341	man	0		
+46342	sich	0		
+46343	niemals	0		
+46344	aus	0		
+46345	der	0		
+46346	Form	0		
+46347	eines	0		
+46348	kleinlichen	0		
+46349	Obelisken	0		
+46350	,	0		
+46351	einer	0		
+46352	abgestutzten	0		
+46353	Säule	0		
+46354	und	0		
+46355	eines	0		
+46356	Aschenkrugs	0		
+46357	herausfinden	0		
+46358	?	0		
+46359	Anstatt	0		
+46360	der	0		
+46361	tausend	0		
+46362	Erfindungen	0		
+46363	,	0		
+46364	deren	0		
+46365	Sie	0	(mention_id=6129|references=(entity=(entity_id=entity_0147|fullname=Architekt|gender=m)))	(mention_id=6181|references=(entity=(entity_id=2|fullname=Architekt|gender=m)))
+46366	sich	0	(mention_id=6130|references=(entity=(entity_id=entity_0147|fullname=Architekt|gender=m)))	(mention_id=6182|references=(entity=(entity_id=2|fullname=Architekt|gender=m)))
+46367	rühmen	0		
+46368	,	0		
+46369	habe	0		
+46370	ich	0	(mention_id=6131|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)))	(mention_id=6183|references=(entity=(entity_id=6|fullname=Charlotte|gender=f)))
+46371	immer	0		
+46372	nur	0		
+46373	tausend	0		
+46374	Wiederholungen	0		
+46375	gesehen	0		
+46376	.	0		
+46377	«	0		
+46378	»	0		
+46379	Das	0		
+46380	ist	0		
+46381	wohl	0		
+46382	bei	0		
+46383	uns	0	(mention_id=6132|references=(entity=(entity_id=entity_0147|fullname=Architekt|gender=m)),(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)))	(mention_id=6184|references=(entity=(entity_id=generic_0039|fullname=Menschen im Allgemeinen|gender=u|specialcase_entity=generic)))
+46384	so	0		
+46385	,	0		
+46386	«	0		
+46387	entgegnete	0		
+46388	ihr	0	(mention_id=6133|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)))	(mention_id=6185|references=(entity=(entity_id=6|fullname=Charlotte|gender=f)))
+46389	der	0		
+46390	Architekt	0	(mention_id=6134|references=(entity=(entity_id=entity_0147|fullname=Architekt|gender=m)))	(mention_id=6186|references=(entity=(entity_id=2|fullname=Architekt|gender=m)))
+46391	,	0		
+46392	»	0		
+46393	aber	0		
+46394	nicht	0		
+46395	überall	0		
+46396	.	0		
+46397	Und	0		
+46398	überhaupt	0		
+46399	mag	0		
+46400	es	0		
+46401	mit	0		
+46402	der	0		
+46403	Erfindung	0		
+46404	und	0		
+46405	der	0		
+46406	schicklichen	0		
+46407	Anwendung	0		
+46408	eine	0		
+46409	eigne	0		
+46410	Sache	0		
+46411	sein	0		
+46412	.	0		
+46413	Besonders	0		
+46414	hat	0		
+46415	es	0		
+46416	in	0		
+46417	diesem	0		
+46418	Falle	0		
+46419	manche	0		
+46420	Schwierigkeit	0		
+46421	,	0		
+46422	einen	0		
+46423	ernsten	0		
+46424	Gegen	0		
+46425	stand	0		
+46426	zu	0		
+46427	erheitern	0		
+46428	und	0		
+46429	bei	0		
+46430	einem	0		
+46431	unerfreulichen	0		
+46432	nicht	0		
+46433	ins	0		
+46434	Unerfreuliche	0		
+46435	zu	0		
+46436	geraten	0		
+46437	.	0		
+46438	Was	0		
+46439	Entwürfe	0		
+46440	zu	0		
+46441	Monumenten	0		
+46442	aller	0		
+46443	Art	0		
+46444	betrifft	0		
+46445	,	0		
+46446	deren	0		
+46447	habe	0		
+46448	ich	0	(mention_id=6135|references=(entity=(entity_id=entity_0147|fullname=Architekt|gender=m)))	(mention_id=6187|references=(entity=(entity_id=2|fullname=Architekt|gender=m)))
+46449	viele	0		
+46450	gesammelt	0		
+46451	und	0		
+46452	zeige	0		
+46453	sie	0		
+46454	gelegentlich	0		
+46455	;	0		
+46456	doch	0		
+46457	bleibt	0		
+46458	immer	0		
+46459	das	0		
+46460	schönste	0		
+46461	Denkmal	0		
+46462	des	0		
+46463	Menschen	0	(mention_id=6136|references=(entity=(entity_id=generic_0382|fullname=verstorbener Mensch allgemein|gender=u|specialcase_entity=generic)))	(mention_id=6188|references=(entity=(entity_id=generic_0078|fullname=ein Mensch im Allgemeinen|gender=u|specialcase_entity=generic)))
+46464	eigenes	0		
+46465	Bildnis	0		
+46466	.	0		
+46467	Dieses	0		
+46468	gibt	0		
+46469	mehr	0		
+46470	als	0		
+46471	irgend	0		
+46472	etwas	0		
+46473	anders	0		
+46474	einen	0		
+46475	Begriff	0		
+46476	von	0		
+46477	dem	0		
+46478	,	0		
+46479	was	0		
+46480	er	0	(mention_id=6137|references=(entity=(entity_id=generic_0383|fullname=verstorbener Mensch allgemein|gender=u|specialcase_entity=generic)))	(mention_id=6189|references=(entity=(entity_id=generic_0079|fullname=ein Mensch im Allgemeinen|gender=u|specialcase_entity=generic)))
+46481	war	0		
+46482	;	0		
+46483	es	0		
+46484	ist	0		
+46485	der	0		
+46486	beste	0		
+46487	Text	0		
+46488	zu	0		
+46489	vielen	0		
+46490	oder	0		
+46491	wenigen	0		
+46492	Noten	0		
+46493	;	0		
+46494	nur	0		
+46495	müßte	0		
+46496	es	0		
+46497	aber	0		
+46498	auch	0		
+46499	in	0		
+46500	seiner	0		
+46501	besten	0		
+46502	Zeit	0		
+46503	gemacht	0		
+46504	sein	0		
+46505	,	0		
+46506	welches	0		
+46507	gewöhnlich	0		
+46508	versäumt	0		
+46509	wird	0		
+46510	.	0		
+46511	Niemand	0		
+46512	denkt	0		
+46513	daran	0		
+46514	,	0		
+46515	lebende	0		
+46516	Formen	0		
+46517	zu	0		
+46518	erhalten	0		
+46519	,	0		
+46520	und	0		
+46521	wenn	0		
+46522	es	0		
+46523	geschieht	0		
+46524	,	0		
+46525	so	0		
+46526	geschieht	0		
+46527	es	0		
+46528	auf	0		
+46529	unzulängliche	0		
+46530	Weise	0		
+46531	.	0		
+46532	Da	0		
+46533	wird	0		
+46534	ein	0		
+46535	Toter	0	(mention_id=6138|references=(entity=(entity_id=generic_0384|fullname=Toter|gender=u|specialcase_entity=generic)))	
+46536	geschwind	0		
+46537	noch	0		
+46538	abgegossen	0		
+46539	und	0		
+46540	eine	0		
+46541	solche	0		
+46542	Maske	0		
+46543	auf	0		
+46544	einen	0		
+46545	Block	0		
+46546	gesetzt	0		
+46547	,	0		
+46548	und	0		
+46549	das	0		
+46550	heißt	0		
+46551	man	0		
+46552	eine	0		
+46553	Büste	0		
+46554	.	0		
+46555	Wie	0		
+46556	selten	0		
+46557	ist	0		
+46558	der	0		
+46559	Künstler	0	(mention_id=6139|references=(entity=(entity_id=generic_0385|fullname=Künstler allgemein 2|gender=u|specialcase_entity=generic)))	(mention_id=6190|references=(entity=(entity_id=generic_0084|fullname=ein Künstler im Allgemeinen|gender=u|specialcase_entity=generic)))
+46560	imstande	0		
+46561	,	0		
+46562	sie	0		
+46563	völlig	0		
+46564	wiederzubeleben	0		
+46565	!	0		
+46566	«	0		
+46567	»	0		
+46568	Sie	0	(mention_id=6140|references=(entity=(entity_id=entity_0147|fullname=Architekt|gender=m)))	(mention_id=6191|references=(entity=(entity_id=2|fullname=Architekt|gender=m)))
+46569	haben	0		
+46570	,	0		
+46571	ohne	0		
+46572	es	0		
+46573	vielleicht	0		
+46574	zu	0		
+46575	wissen	0		
+46576	und	0		
+46577	zu	0		
+46578	wollen	0		
+46579	,	0		
+46580	«	0		
+46581	versetzte	0		
+46582	Charlotte	0	(mention_id=6141|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)))	(mention_id=6192|references=(entity=(entity_id=6|fullname=Charlotte|gender=f)))
+46583	,	0		
+46584	»	0		
+46585	dies	0		
+46586	Gespräch	0		
+46587	ganz	0		
+46588	zu	0		
+46589	meinen	0	(mention_id=6142|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)))	(mention_id=6193|references=(entity=(entity_id=6|fullname=Charlotte|gender=f)))
+46590	Gunsten	0		
+46591	gelenkt	0		
+46592	.	0		
+46593	Das	0		
+46594	Bild	0		
+46595	eines	0		
+46596	Menschen	0	(mention_id=6143|references=(entity=(entity_id=generic_0386|fullname=verstorbener Mensch allgemein 2|gender=u|specialcase_entity=generic)))	(mention_id=6194|references=(entity=(entity_id=generic_0080|fullname=ein Mensch im Allgemeinen|gender=u|specialcase_entity=generic)))
+46597	ist	0		
+46598	doch	0		
+46599	wohl	0		
+46600	unabhängig	0		
+46601	;	0		
+46602	überall	0		
+46603	,	0		
+46604	wo	0		
+46605	es	0		
+46606	steht	0		
+46607	,	0		
+46608	steht	0		
+46609	es	0		
+46610	für	0		
+46611	sich	0		
+46612	,	0		
+46613	und	0		
+46614	wir	0	(mention_id=6144|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)))	(mention_id=6195|references=(entity=(entity_id=generic_0040|fullname=Menschen im Allgemeinen|gender=u|specialcase_entity=generic)))
+46615	werden	0		
+46616	von	0		
+46617	ihm	0		
+46618	nicht	0		
+46619	verlangen	0		
+46620	,	0		
+46621	daß	0		
+46622	es	0		
+46623	die	0		
+46624	eigentliche	0		
+46625	Grabstätte	0		
+46626	bezeichne	0		
+46627	.	0		
+46628	Aber	0		
+46629	soll	0		
+46630	ich	0	(mention_id=6145|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)))	(mention_id=6196|references=(entity=(entity_id=6|fullname=Charlotte|gender=f)))
+46631	Ihnen	0	(mention_id=6146|references=(entity=(entity_id=entity_0147|fullname=Architekt|gender=m)))	(mention_id=6197|references=(entity=(entity_id=2|fullname=Architekt|gender=m)))
+46632	eine	0		
+46633	wunderliche	0		
+46634	Empfindung	0		
+46635	bekennen	0		
+46636	?	0		
+46637	Selbst	0		
+46638	gegen	0		
+46639	die	0		
+46640	Bildnisse	0		
+46641	habe	0		
+46642	ich	0	(mention_id=6147|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)))	(mention_id=6198|references=(entity=(entity_id=6|fullname=Charlotte|gender=f)))
+46643	eine	0		
+46644	Art	0		
+46645	von	0		
+46646	Abneigung	0		
+46647	;	0		
+46648	denn	0		
+46649	sie	0		
+46650	scheinen	0		
+46651	mir	0	(mention_id=6148|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)))	(mention_id=6199|references=(entity=(entity_id=6|fullname=Charlotte|gender=f)))
+46652	immer	0		
+46653	einen	0		
+46654	stillen	0		
+46655	Vorwurf	0		
+46656	zu	0		
+46657	machen	0		
+46658	;	0		
+46659	sie	0		
+46660	deuten	0		
+46661	auf	0		
+46662	etwas	0		
+46663	Entferntes	0		
+46664	,	0		
+46665	Abgeschiedenes	0		
+46666	und	0		
+46667	erinnern	0		
+46668	mich	0	(mention_id=6149|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)))	(mention_id=6200|references=(entity=(entity_id=6|fullname=Charlotte|gender=f)))
+46669	,	0		
+46670	wie	0		
+46671	schwer	0		
+46672	es	0		
+46673	sei	0		
+46674	,	0		
+46675	die	0		
+46676	Gegenwart	0		
+46677	recht	0		
+46678	zu	0		
+46679	ehren	0		
+46680	.	0		
+46681	Gedenkt	0		
+46682	man	0	(mention_id=6150|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)))	
+46683	,	0		
+46684	wieviel	0		
+46685	Menschen	0	(mention_id=6151|references=(entity=(entity_id=generic_0387|fullname=Menschen die man gekannt hat|gender=u|specialcase_entity=generic)))	(mention_id=6201|references=(entity=(entity_id=generic_0041|fullname=Menschen im Allgemeinen|gender=u|specialcase_entity=generic)))
+46686	man	0	(mention_id=6152|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)))	
+46687	gesehen	0		
+46688	,	0		
+46689	gekannt	0		
+46690	,	0		
+46691	und	0		
+46692	gesteht	0		
+46693	sich	0	(mention_id=6153|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)))	
+46694	,	0		
+46695	wie	0		
+46696	wenig	0		
+46697	wir	0	(mention_id=6154|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)))	(mention_id=6202|references=(entity=(entity_id=generic_0042|fullname=Menschen im Allgemeinen|gender=u|specialcase_entity=generic)))
+46698	ihnen	0	(mention_id=6155|references=(entity=(entity_id=generic_0388|fullname=Menschen die man gekannt hat|gender=u|specialcase_entity=generic)))	(mention_id=6203|references=(entity=(entity_id=generic_0043|fullname=Menschen im Allgemeinen|gender=u|specialcase_entity=generic)))
+46699	,	0		
+46700	wie	0		
+46701	wenig	0		
+46702	sie	0	(mention_id=6156|references=(entity=(entity_id=generic_0389|fullname=Menschen die man gekannt hat|gender=u|specialcase_entity=generic)))	(mention_id=6204|references=(entity=(entity_id=generic_0044|fullname=Menschen im Allgemeinen|gender=u|specialcase_entity=generic)))
+46703	uns	0	(mention_id=6157|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)))	(mention_id=6205|references=(entity=(entity_id=generic_0045|fullname=Menschen im Allgemeinen|gender=u|specialcase_entity=generic)))
+46704	gewesen	0		
+46705	,	0		
+46706	wie	0		
+46707	wird	0		
+46708	uns	0	(mention_id=6158|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)))	(mention_id=6206|references=(entity=(entity_id=generic_0046|fullname=Menschen im Allgemeinen|gender=u|specialcase_entity=generic)))
+46709	da	0		
+46710	zumute	0		
+46711	!	0		
+46712	Wir	0	(mention_id=6159|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)))	(mention_id=6207|references=(entity=(entity_id=generic_0047|fullname=Menschen im Allgemeinen|gender=u|specialcase_entity=generic)))
+46713	begegnen	0		
+46714	dem	0		
+46715	Geistreichen	0	(mention_id=6160|references=(entity=(entity_id=generic_0390|fullname=Geistreicher|gender=u|specialcase_entity=generic)))	(mention_id=6208|references=(entity=(entity_id=generic_0085|fullname=ein Geistreicher im Allgemeinen|gender=u|specialcase_entity=generic)))
+46716	,	0		
+46717	ohne	0		
+46718	uns	0	(mention_id=6161|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)))	(mention_id=6209|references=(entity=(entity_id=generic_0048|fullname=Menschen im Allgemeinen|gender=u|specialcase_entity=generic)))
+46719	mit	0		
+46720	ihm	0	(mention_id=6162|references=(entity=(entity_id=generic_0391|fullname=Geistreicher|gender=u|specialcase_entity=generic)))	(mention_id=6210|references=(entity=(entity_id=generic_0086|fullname=ein Geistreicher im Allgemeinen|gender=u|specialcase_entity=generic)))
+46721	zu	0		
+46722	unterhalten	0		
+46723	,	0		
+46724	dem	0		
+46725	Gelehrten	0	(mention_id=6163|references=(entity=(entity_id=generic_0392|fullname=Gelehrter|gender=u|specialcase_entity=generic)))	(mention_id=6211|references=(entity=(entity_id=generic_0087|fullname=ein Gelehrter im Allgemeinen|gender=u|specialcase_entity=generic)))
+46726	,	0		
+46727	ohne	0		
+46728	von	0		
+46729	ihm	0	(mention_id=6164|references=(entity=(entity_id=generic_0393|fullname=Gelehrter|gender=u|specialcase_entity=generic)))	(mention_id=6212|references=(entity=(entity_id=generic_0088|fullname=ein Gelehrter im Allgemeinen|gender=u|specialcase_entity=generic)))
+46730	zu	0		
+46731	lernen	0		
+46732	,	0		
+46733	dem	0		
+46734	Gereisten	0	(mention_id=6165|references=(entity=(entity_id=generic_0394|fullname=Gereiste|gender=u|specialcase_entity=generic)))	(mention_id=6213|references=(entity=(entity_id=generic_0089|fullname=ein Gereister im Allgemeinen|gender=u|specialcase_entity=generic)))
+46735	,	0		
+46736	ohne	0		
+46737	uns	0	(mention_id=6166|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)))	(mention_id=6214|references=(entity=(entity_id=generic_0049|fullname=Menschen im Allgemeinen|gender=u|specialcase_entity=generic)))
+46738	zu	0		
+46739	unterrichten	0		
+46740	,	0		
+46741	dem	0		
+46742	Liebevollen	0	(mention_id=6167|references=(entity=(entity_id=generic_0395|fullname=Liebevoller|gender=u|specialcase_entity=generic)))	(mention_id=6215|references=(entity=(entity_id=generic_0090|fullname=ein Liebevoller im Allgemeinen|gender=u|specialcase_entity=generic)))
+46743	,	0		
+46744	ohne	0		
+46745	ihm	0	(mention_id=6168|references=(entity=(entity_id=generic_0396|fullname=Liebevoller|gender=u|specialcase_entity=generic)))	(mention_id=6216|references=(entity=(entity_id=generic_0091|fullname=ein Liebevoller im Allgemeinen|gender=u|specialcase_entity=generic)))
+46746	etwas	0		
+46747	Angenehmes	0		
+46748	zu	0		
+46749	erzeigen	0		
+46750	.	0		
+46751	Und	0		
+46752	leider	0		
+46753	ereignet	0		
+46754	sich	0		
+46755	dies	0		
+46756	nicht	0		
+46757	bloß	0		
+46758	mit	0		
+46759	den	0		
+46760	Vorübergehenden	0	(mention_id=6169|references=(entity=(entity_id=generic_0397|fullname=Vorübergehende|gender=u|specialcase_entity=generic)))	(mention_id=6217|references=(entity=(entity_id=generic_0092|fullname=Vorübergehende im Allgemeinen|gender=u|specialcase_entity=generic)))
+46761	.	0		
+46762	Gesellschaften	0		(mention_id=6218|references=(entity=(entity_id=generic_0093|fullname=Gesellschaften im Allgemeinen|gender=u|specialcase_entity=generic)))
+46763	und	0		
+46764	Familien	0		(mention_id=6219|references=(entity=(entity_id=generic_0096|fullname=Familien im Allgemeinen|gender=u|specialcase_entity=generic)))
+46765	betragen	0		
+46766	sich	0		(mention_id=6220|references=(entity=(entity_id=generic_0094|fullname=Gesellschaften im Allgemeinen|gender=u|specialcase_entity=generic)),(entity=(entity_id=generic_0097|fullname=Familien im Allgemeinen|gender=u|specialcase_entity=generic)))
+46767	so	0		
+46768	gegen	0		
+46769	ihre	0		(mention_id=6221|references=(entity=(entity_id=generic_0095|fullname=Gesellschaften im Allgemeinen|gender=u|specialcase_entity=generic)),(entity=(entity_id=generic_0098|fullname=Familien im Allgemeinen|gender=u|specialcase_entity=generic)))
+46770	liebsten	0		
+46771	Glieder	0	(mention_id=6170|references=(entity=(entity_id=generic_0398|fullname=Familienmitglieder|gender=u|specialcase_entity=generic)))	(mention_id=6222|references=(entity=(entity_id=generic_0099|fullname=Glieder von GesellschaftenFamilien im Allgemeinen|gender=u|specialcase_entity=generic)))
+46772	,	0		
+46773	Städte	0		
+46774	gegen	0		
+46775	ihre	0		(mention_id=6223|references=(entity=(entity_id=generic_0100|fullname=Städte im Allgemeinen|gender=u|specialcase_entity=generic)))
+46776	würdigsten	0		
+46777	Bürger	0	(mention_id=6171|references=(entity=(entity_id=generic_0399|fullname=Bürger|gender=u|specialcase_entity=generic)))	(mention_id=6224|references=(entity=(entity_id=generic_0101|fullname=Bürger im Allgemeinen|gender=u|specialcase_entity=generic)))
+46778	,	0		
+46779	Völker	0	(mention_id=6172|references=(entity=(entity_id=generic_0400|fullname=Völker|gender=u|specialcase_entity=generic)))	(mention_id=6225|references=(entity=(entity_id=generic_0102|fullname=Völker im Allgemeinen|gender=u|specialcase_entity=generic)))
+46780	gegen	0		
+46781	ihre	0	(mention_id=6173|references=(entity=(entity_id=generic_0401|fullname=Völker|gender=u|specialcase_entity=generic)))	(mention_id=6226|references=(entity=(entity_id=generic_0103|fullname=Völker im Allgemeinen|gender=u|specialcase_entity=generic)))
+46782	trefflichsten	0		
+46783	Fürsten	0	(mention_id=6174|references=(entity=(entity_id=generic_0402|fullname=Fürsten|gender=u|specialcase_entity=generic)))	(mention_id=6227|references=(entity=(entity_id=generic_0104|fullname=Fürsten im Allgemeinen|gender=u|specialcase_entity=generic)))
+46784	,	0		
+46785	Nationen	0		(mention_id=6228|references=(entity=(entity_id=generic_0105|fullname=Nationen im Allgemeinen|gender=u|specialcase_entity=generic)))
+46786	gegen	0		
+46787	ihre	0		(mention_id=6229|references=(entity=(entity_id=generic_0106|fullname=Nationen im Allgemeinen|gender=u|specialcase_entity=generic)))
+46788	vorzüglichsten	0		
+46789	Menschen	0	(mention_id=6175|references=(entity=(entity_id=generic_0403|fullname=Menschen einer Nation|gender=u|specialcase_entity=generic)))	(mention_id=6230|references=(entity=(entity_id=generic_0107|fullname=vorzüglichste Menschen im Allgemeinen|gender=u|specialcase_entity=generic)))
+46790	.	0		
+46791	Ich	0	(mention_id=6176|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)))	(mention_id=6231|references=(entity=(entity_id=6|fullname=Charlotte|gender=f)))
+46792	hörte	0		
+46793	fragen	0		
+46794	,	0		
+46795	warum	0		
+46796	man	0		
+46797	von	0		
+46798	den	0		
+46799	Toten	0	(mention_id=6177|references=(entity=(entity_id=generic_0404|fullname=Tote|gender=u|specialcase_entity=generic)))	(mention_id=6232|references=(entity=(entity_id=31|fullname=Tote im Allgemeinen|gender=u)))
+46800	so	0		
+46801	unbewunden	0		
+46802	Gutes	0		
+46803	sage	0		
+46804	,	0		
+46805	von	0		
+46806	den	0		
+46807	Lebenden	0	(mention_id=6178|references=(entity=(entity_id=generic_0352|fullname=Lebende|gender=u|specialcase_entity=generic)))	(mention_id=6233|references=(entity=(entity_id=21|fullname=Lebende im Allgemeinen|gender=u)))
+46808	immer	0		
+46809	mit	0		
+46810	einer	0		
+46811	gewissen	0		
+46812	Vorsicht	0		
+46813	.	0		
+46814	Es	0		
+46815	wurde	0		
+46816	geantwortet	0		
+46817	:	0		
+46818	weil	0		
+46819	wir	0	(mention_id=6179|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)),(entity=(entity_id=generic_0407|fullname=Menschen allgemein 3|gender=u|specialcase_entity=generic)))	(mention_id=6234|references=(entity=(entity_id=generic_0050|fullname=Menschen im Allgemeinen|gender=u|specialcase_entity=generic)))
+46820	von	0		
+46821	jenen	0	(mention_id=6180|references=(entity=(entity_id=generic_0405|fullname=Tote|gender=u|specialcase_entity=generic)))	(mention_id=6235|references=(entity=(entity_id=31|fullname=Tote im Allgemeinen|gender=u)))
+46822	nichts	0		
+46823	zu	0		
+46824	befürchten	0		
+46825	haben	0		
+46826	und	0		
+46827	diese	0	(mention_id=6181|references=(entity=(entity_id=generic_0353|fullname=Lebende|gender=u|specialcase_entity=generic)))	(mention_id=6236|references=(entity=(entity_id=21|fullname=Lebende im Allgemeinen|gender=u)))
+46828	uns	0	(mention_id=6182|references=(entity=(entity_id=entity_0002|fullname=Charlotte|gender=f)))	(mention_id=6237|references=(entity=(entity_id=generic_0051|fullname=Menschen im Allgemeinen|gender=u|specialcase_entity=generic)))
+46829	noch	0		
+46830	irgendwo	0		
+46831	in	0		
+46832	den	0		
+46833	Weg	0		
+46834	kommen	0		
+46835	könnten	0		
+46836	.	0		
+46837	So	0		
+46838	unrein	0		
+46839	ist	0		
+46840	die	0		
+46841	Sorge	0		
+46842	für	0		
+46843	das	0		
+46844	Andenken	0		
+46845	der	0		
+46846	andern	0	(mention_id=6183|references=(entity=(entity_id=generic_0406|fullname=Tote|gender=u|specialcase_entity=generic)))	(mention_id=6238|references=(entity=(entity_id=generic_0108|fullname=andere Menschen im Allgemeinen|gender=u|specialcase_entity=generic)))
+46847	;	0		
+46848	es	0		
+46849	ist	0		
+46850	meist	0		
+46851	nur	0		
+46852	ein	0		
+46853	selbstischer	0		
+46854	Scherz	0		
+46855	,	0		
+46856	wenn	0		
+46857	es	0		
+46858	dagegen	0		
+46859	ein	0		
+46860	heiliger	0		
+46861	Ernst	0		
+46862	wäre	0		
+46863	,	0		
+46864	seine	0		
+46865	Verhältnisse	0		
+46866	gegen	0		
+46867	die	0		
+46868	Überbliebenen	0	(mention_id=6184|references=(entity=(entity_id=generic_0354|fullname=Lebende|gender=u|specialcase_entity=generic)))	
+46869	immer	0		
+46870	lebendig	0		
+46871	und	0		
+46872	tätig	0		
+46873	zu	0		
+46874	erhalten	0		
+46875	.	0		
+46876	«	0		
