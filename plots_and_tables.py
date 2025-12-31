@@ -9,7 +9,7 @@ import pandas
 import json
 from pathlib import Path
 from matplotlib import pyplot as plt
-from matplotlib.ticker import FormatStrFormatter, FuncFormatter
+from matplotlib.ticker import FormatStrFormatter, FuncFormatter, LogFormatter
 import matplotlib
 from scipy.optimize import linear_sum_assignment
 from scipy.stats import linregress
@@ -168,6 +168,16 @@ print(df[['count', 'average', 'proportion']].to_string(na_rep=''))
 
 #%%
 
+generic_table = pandas.DataFrame(index=ordering, columns=['generic singletons', 'non-generic singletons'])
+for doc_id, entities in document_entities.items():
+    num_entities = len(entities)
+    generic_table.loc[doc_id, 'generic singletons'] = sum(1 for references in entities.values() if 'generic' in references[0][1].entity.specialcase_entity) / len(entities)
+    generic_table.loc[doc_id, 'non-generic singletons'] = sum(1 for references in entities.values() if len(references) == 1 and 'generic' not in references[0][1].entity.specialcase_entity) / len(entities)
+
+print(generic_table.loc[['Fischer_Gustav', 'Goethe_Wahlverwandtschaften', 'Kürnberger_Amerika', 'Heimburg_Trudchen', 'Wolff_Wildfangrecht'],:].to_string())
+
+#%%
+
 gender_statistics = []
 for entities in document_entities.values():
     for references in entities.values():
@@ -238,7 +248,7 @@ for doc, g in sorted(entity_sizes.groupby('doc'), key=lambda x: ordering.index(x
     y = g['num_references']
 
     color = next(cycler)['color']
-    ax.scatter(x, y, marker='o', facecolors='none', edgecolors=color, linewidth=plt.rcParams["lines.linewidth"])
+    ax.scatter(x, y, marker='o', facecolors='none', edgecolors=color, linewidth=plt.rcParams["lines.linewidth"], alpha=0.5)
 
     # Calculate trend line using log-transformed values
     log_x = np.log(x)
@@ -276,7 +286,7 @@ for doc, doc_df in entity_sizes.groupby('doc'):
     y = g['num_references'].cumsum()/sum(doc_df['num_references'])
 
     color = next(cycler)['color']
-    ax.scatter(x, y, marker='o', facecolors='none', edgecolors=color, label=doc_title[doc], linewidth=plt.rcParams["lines.linewidth"])
+    ax.scatter(x, y, marker='o', facecolors='none', edgecolors=color, label=doc_title[doc], linewidth=plt.rcParams["lines.linewidth"], alpha=0.5)
 
 ax.set_xscale('log')
 ax.set_yscale('log')
@@ -333,7 +343,7 @@ for ax, (doc, doc_df) in zip(axs, sorted(spreads.groupby('doc'), key=lambda x: o
     x = g['num_references']#/sum(doc_df['num_references'])
     y = g['spread']#/len(documents[doc])
     color = next(cycler)['color']
-    ax.scatter(x, y, marker='o', facecolors='none', edgecolors=color)
+    ax.scatter(x, y, marker='o', facecolors='none', edgecolors=color, alpha=0.7)
     ax.axhline(len(documents[doc]), ls='--', color=color, alpha=0.5, linewidth=1.3)
     ax.set_xscale('log')
     ax.set_yscale('log')
@@ -732,7 +742,7 @@ for (variant, model, doc_id) in cluster_table.index:
 
 #%%
 
-print(cluster_table.groupby(level=[0,1]).mean().rename(cluster_variants).rename({'precision': 'P', 'recall': 'R', 'f1': 'F1'}, axis=1).to_string(na_rep='--', float_format=lambda x: f"{x*100:.2f}"))
+print(cluster_table.groupby(level=[0,1]).mean().rename(cluster_variants).rename({'precision': 'P', 'recall': 'R', 'f1': 'F1'}, axis=1).to_string(na_rep='--', float_format=lambda x: f"{x*100:.1f}"))
 
 
 #%%
