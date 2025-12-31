@@ -77,7 +77,7 @@ doc_title = dict(doc_title)
 # load files
 
 
-annotations_dir = ROOT_DIR / "annotations"
+annotations_dir = ROOT_DIR / "gerfun_corpus"
 document_files = (annotations_dir / "annotated_tsv").glob('*.tsv')
 
 documents = {}
@@ -455,7 +455,7 @@ plt.show()
 #%%
 
 ## IAA
-with open(ROOT_DIR / 'annotations' / 'evaluation_reports' / 'iaa_report.json') as f:
+with open(ROOT_DIR / 'gerfun_corpus' / 'evaluation_reports' / 'iaa_report.json') as f:
     iaa_report = json.load(f)
 
 #%%

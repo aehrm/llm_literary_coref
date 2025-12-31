@@ -175,7 +175,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Run mention detection on TSV files.")
     parser.add_argument("--input_files", type=Path, nargs="+", required=True, help="Path to input TSV file.")
     parser.add_argument("--model_id", type=str, required=True, help="Path to HuggingFace model or Hub ID.")
-    parser.add_argument("--output_dir", type=Path, default="outputs/mention_detection", help="Directory to save output TSVs.")
+    parser.add_argument("--output_dir", type=Path, default="llm_outputs/mention_detection", help="Directory to save output TSVs.")
     parser.add_argument("--max_segment_length", type=int, default=8192, help="Maximum segment length. If section is longer than this quantity, section will be split into multiple segments of this length.")
     parser.add_argument("--device", type=str, default="cuda" if torch.cuda.is_available() else "cpu",
                         help="Device (cuda/cpu).")
