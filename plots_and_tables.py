@@ -22,6 +22,8 @@ from llm_literary_coref.mention import parse_mentions
 
 #%%
 
+matplotlib.rcParams['font.family'] = 'Fira Sans'
+
 from cycler import cycler
 matplotlib.rcParams['axes.prop_cycle'] = cycler(color=
 [(0.4, 0.7607843137254902, 0.6470588235294118), (0.9882352941176471, 0.5529411764705883, 0.3843137254901961), (0.5529411764705883, 0.6274509803921569, 0.796078431372549), (0.9058823529411765, 0.5411764705882353, 0.7647058823529411), (0.6509803921568628, 0.8470588235294118, 0.32941176470588235), (1.0, 0.8509803921568627, 0.1843137254901961), (0.8980392156862745, 0.7686274509803922, 0.5803921568627451), (0.7019607843137254, 0.7019607843137254, 0.7019607843137254)]
@@ -263,9 +265,24 @@ for doc, g in sorted(entity_sizes.groupby('doc'), key=lambda x: ordering.index(x
 ax.set_xscale('log')
 ax.set_yscale('log')
 
+def log_number_fmt(x, pos=None):
+    if 1 <= x <= 100:
+        return f"{x:.0f}"
+    elif 100 < x <= 1_000_000:
+        return f"{x/1000:.0f}K"
+    elif 1_000_000 < x:
+        return f"{x/1_000_000:.0f}M"
+    elif 0.01 <= x < 1:
+        return f"{x}"
+    else:
+        return f"{x:.2g}"
+        # fx = np.log10(x)
+        # return f"$\mathdefault{{10^{{{fx}}}}}$"
+
 ax.set_xlabel('Entity rank')
 ax.set_ylabel('Number of references')
 ax.xaxis.set_major_formatter(FormatStrFormatter("%.0f"))
+ax.yaxis.set_major_formatter(FuncFormatter(log_number_fmt))
 ax.legend(frameon=False)
 
 # Zipf Plot, cumulative and proportional
@@ -331,12 +348,12 @@ print(spreads[spreads['num_references'] > 1]['spread'].describe(percentiles=[0.5
 
 #%%
 
-fig, ax = plt.subplots(ncols=2, nrows=len(ordering)//2+(1 if len(ordering)%2>0 else 0), sharex=True, sharey=True, figsize=(5.3, 2.4*len(ordering)//2))
+fig, ax_grid = plt.subplots(ncols=2, nrows=len(ordering)//2+(1 if len(ordering)%2>0 else 0), sharex=True, sharey=True, figsize=(5.3, 2.4*len(ordering)//2))
 
-axs = ax.flatten()
+axs = ax_grid.flatten()
 
 cycler = iter(plt.rcParams['axes.prop_cycle'])
-for ax, (doc, doc_df) in zip(axs, sorted(spreads.groupby('doc'), key=lambda x: ordering.index(x[0]))):
+for i, (ax, (doc, doc_df)) in enumerate(zip(axs, sorted(spreads.groupby('doc'), key=lambda x: ordering.index(x[0])))):
     sel = (doc_df['num_references'] > 1)
     g = doc_df.loc[sel]
 
@@ -347,12 +364,18 @@ for ax, (doc, doc_df) in zip(axs, sorted(spreads.groupby('doc'), key=lambda x: o
     ax.axhline(len(documents[doc]), ls='--', color=color, alpha=0.5, linewidth=1.3)
     ax.set_xscale('log')
     ax.set_yscale('log')
+    ax.yaxis.set_major_formatter(FuncFormatter(log_number_fmt))
+    ax.xaxis.set_major_formatter(FuncFormatter(log_number_fmt))
     ax.set_title(doc_title[doc])
     ax.set_ylabel('Spread in Tokens')
     ax.set_xlabel('Number of References')
 
 for ax in axs[len(ordering):]:
     fig.delaxes(ax)
+
+for ax in axs[len(ordering)-2:len(ordering)]:
+    ax.tick_params(labelbottom=True)
+
 
 plt.tight_layout()
 plt.savefig('/tmp/jcls_figures/entity_spread.pdf')
@@ -409,10 +432,10 @@ print(df.describe(percentiles=[0.5, 0.9, .95, .99, .999]).to_string())
 
 #%%
 
-x = [1,2,5] + list(np.logspace(np.log10(10), np.log10(30000), 20))
+x = [1,2,5] + list(np.logspace(np.log10(10), np.log10(30000), 25))
 
 cycler = iter(plt.rcParams['axes.prop_cycle'])
-fig, ax = plt.subplots(figsize=(4, 2))
+fig, ax = plt.subplots(figsize=(5, 2))
 for doc, g in sorted(df.groupby('doc'), key=lambda x: ordering.index(x[0])):
     surv = pandas.DataFrame(index=x)
     surv['dist_to_mention'] = np.nan
@@ -437,13 +460,7 @@ def percent_format(x, pos=None):
     else:
         return f'{x * 100:.3g}%'
 
-def tokencount_format(x, pos=None):
-    if x < 1000:
-        return f'{x:.0f}'
-    else:
-        return f'{x//1000:.0f}k'
-
-ax.xaxis.set_major_formatter(FuncFormatter(tokencount_format))
+ax.xaxis.set_major_formatter(FuncFormatter(log_number_fmt))
 ax.yaxis.set_major_formatter(FuncFormatter(percent_format))
 
 ax.legend(frameon=False)
@@ -576,7 +593,7 @@ print(aggregated_scores_df.to_string(na_rep='--', float_format=lambda x: f"{x*10
 #%%
 
 ## DROC Performance + IAA
-model_output_dir = ROOT_DIR / "outputs"
+model_output_dir = ROOT_DIR / "llm_outputs"
 
 models = ['google--gemini-2.5-flash-lite', 'google--gemini-2.5-flash']
 
@@ -656,8 +673,8 @@ boxplot_kwargs = dict(patch_artist=True, boxprops=dict(fc='black', edgecolor='bl
 metrics = ['conll', 'lea']
 metric_labels = {'conll': "CoNLL", 'lea': "LEA"}
 models = ['google--gemini-2.5-flash-lite', 'google--gemini-2.5-flash', 'iaa']
-model_labels = {'google--gemini-2.5-flash-lite': "gemini-2.5-flash-lite",
-                'google--gemini-2.5-flash': "gemini-2.5-flash",
+model_labels = {'google--gemini-2.5-flash-lite': "Gemini 2.5 Flash Lite",
+                'google--gemini-2.5-flash': "Gemini 2.5 Flash",
                 'iaa': "Human vs. Human"}
 
 maverick_baseline_scores = pandas.Series({
@@ -696,15 +713,15 @@ models = [
     # 'google--gemini-2.5-flash',
     'google--gemini-3-flash-preview',
 ]
-model_labels = {'google--gemini-2.5-flash-lite': "gemini-2.5-flash-lite",
+model_labels = {'google--gemini-2.5-flash-lite': "Gemini 2.5 Flash Lite",
                 # 'google--gemini-2.5-flash': "gemini-2.5-flash",
-                'google--gemini-3-flash-preview': "gemini-3-flash",
-                'qwen--qwen3-30b-a3b-instruct-2507': 'qwen3-30b-a3b-instruct',
-                'qwen--qwen3-vl-235b-a22b-instruct': 'qwen3-vl-235b-a22b-instruct',
+                'google--gemini-3-flash-preview': "Gemini 3 Flash",
+                # 'qwen--qwen3-30b-a3b-instruct-2507': 'qwen3-30b-a3b-instruct',
+                # 'qwen--qwen3-vl-235b-a22b-instruct': 'qwen3-vl-235b-a22b-instruct',
                 }
 
 llm_eval_reports = {}
-for model_dir in (ROOT_DIR / "outputs" / "merged").iterdir():
+for model_dir in (ROOT_DIR / "llm_outputs" / "merged").iterdir():
     if not model_dir.is_dir():
         continue
     if not (model_dir / "evaluation_report.json").is_file():
@@ -747,41 +764,49 @@ print(cluster_table.groupby(level=[0,1]).mean().rename(cluster_variants).rename(
 
 #%%
 
-fig, axs = plt.subplots(nrows=len(metrics), figsize=(4, 3.0), dpi=300)
-for ax, metric in zip(axs, metrics):
-    ticks = np.arange(len(models))
+handles = []
 
-    cycler = iter(plt.rcParams['axes.prop_cycle'])
-    for doc in ordering:
-        X = 100*cluster_table.loc[('all', models, doc), (metric, 'f1')].values
-        color = next(cycler)['color']
-        ax.scatter(X, ticks, facecolors='none', edgecolors=color, s=18, linewidth=plt.rcParams["lines.linewidth"], label=doc_title[doc])
+fig, axs = plt.subplots(ncols=len(metrics), nrows=2, figsize=(5.0, 2.5), dpi=300, height_ratios=[1,0])
+for ax, metric in zip(axs[0], metrics):
+    tick_pos = []
+    for j, model in enumerate(models):
+        cycler = iter(plt.rcParams['axes.prop_cycle'])
+        ax.set_ylabel(metric_labels[metric])
+        start_x = (len(ordering) + 0.3)*j
+        for i, doc in enumerate(ordering):
+            color = next(cycler)['color']
+            X = 100*cluster_table.loc[('all', model, doc), (metric, 'f1')]
+            l = ax.scatter(start_x + i, X, label=doc_title[doc], color=color)
+            handles.append(l)
 
-    # minX = [100*cluster_table.loc[('all', m), (metric, 'f1')].min() for m in models]
-    # maxX = [100*cluster_table.loc[('all', m), (metric, 'f1')].max() for m in models]
-    # ax.hlines(ticks, minX, maxX, color='black', alpha=0.4)
+        avg = 100 * cluster_table.loc[('all', model, ordering), (metric, 'f1')].mean()
+        l, = ax.plot([start_x, start_x + len(ordering)], [avg, avg], color='black', ls='--', label='avg', alpha=0.5)
+        handles.append(l)
+        tick_pos.append(start_x + len(ordering)/2)
+    ax.set_xticks(tick_pos, [model_labels[x] for x in models])
+    ax.set_ylim((30, 100))
 
+# axs[1].legend(frameon=False, ncol=2, loc='upper center', bbox_to_anchor=(0.5, -0.25),
+#              handles=handles[:len(ordering)+1])
+gs = axs[0, 0].get_gridspec()
+for ax in axs[1,:]:
+    ax.remove()
 
+axbig = fig.add_subplot(gs[1,:])
+axbig.spines['top'].set_visible(False)
+axbig.spines['right'].set_visible(False)
+axbig.spines['bottom'].set_visible(False)
+axbig.spines['left'].set_visible(False)
+axbig.get_xaxis().set_ticks([])
+axbig.get_yaxis().set_ticks([])
 
-    avg = [100 * cluster_table.loc[('all', m, ordering), (metric, 'f1')].mean() for m in models]
-    ax.scatter(avg, ticks, s=40, marker='+', facecolors='black', label='avg')
-
-    # ax.axvline(100* iaa_cluster_table.loc['all', metric], ls='--', color='black', label='IAA')
-    ax.yaxis.set_inverted(True)
-    ax.set_xlabel(metric_labels[metric])
-    ax.set_yticks(ticks, [model_labels[m] for m in models])
-    ax.set_ymargin(.7)
-
-    # ax.spines['top'].set_visible(False)
-    # ax.spines['right'].set_visible(False)
-    # ax.spines['left'].set_visible(False)
-    ax.tick_params(axis='y', which=u'both', length=0)
-
-axs[1].legend(frameon=False, ncol=2, loc='upper center', bbox_to_anchor=(0.3, -0.75))
+axbig.legend(frameon=False, ncol=2, loc='upper center', bbox_to_anchor=(0.5, -0.75),
+             handles=handles[:len(ordering)+1])
 
 plt.tight_layout()
 plt.savefig('/tmp/jcls_figures/gerfun_performance.pdf')
 plt.show()
+
 
 #%%
 
@@ -789,7 +814,7 @@ plt.show()
 
 segment_lengths = {}
 for doc_id in documents.keys():
-    for f in (ROOT_DIR / "outputs" / "mention_detection").glob(f'{doc_id}*.tsv'):
+    for f in (ROOT_DIR / "llm_outputs" / "mention_detection").glob(f'{doc_id}*.tsv'):
         segment_lengths[f.stem] = len(pandas.read_csv(f, sep='\t'))
 
 fig, axs = plt.subplots(ncols=2, sharey=True)
@@ -834,13 +859,27 @@ plt.show()
 
 #%%
 
+df = pandas.DataFrame(index=pandas.MultiIndex.from_product([segment_lengths.keys(), models]))
+for segment_id, model in df.index:
+    reports = llm_eval_reports[model]['clusters_all']
+    for metric, scores in reports.items():
+        if segment_id in scores.keys():
+            df.loc[(segment_id, model), metric] = scores[segment_id]['f1']
+
+df['conll'] = df[['muc', 'bcub', 'ceafe']].mean(axis=1)
+
+print(df.groupby(level=1).apply(lambda x: x.describe()).to_string())
+
+
+#%%
+
 # Inference Cost
 
 cost_overview = pandas.DataFrame(index=pandas.MultiIndex(levels=[[], [], []], codes=[[], [], []]), columns=['prompt_tokens', 'completion_tokens', 'cost'])
 
 for model in llm_eval_reports.keys():
-    for pred_json_file in list((ROOT_DIR / "outputs" / "predicted_sections" / model.replace('/', '--')).glob('*.json'))\
-            + list((ROOT_DIR / "outputs" / "merged" / model.replace('/', '--')).glob('*.json')):
+    for pred_json_file in list((ROOT_DIR / "llm_outputs" / "predicted_sections" / model.replace('/', '--')).glob('*.json'))\
+            + list((ROOT_DIR / "llm_outputs" / "merged" / model.replace('/', '--')).glob('*.json')):
 
         if 'evaluation_report' in pred_json_file.stem: continue
         with open(pred_json_file) as f:
@@ -944,7 +983,7 @@ lea_model = "google--gemini-3-flash-preview"
 entity_recall = {}
 for doc_id in to_plot:
     key_mentions = document_mentions[doc_id]
-    df = pandas.read_csv(ROOT_DIR / "outputs" / "merged" / lea_model / (doc_id + ".tsv"), sep='\t', index_col='i', keep_default_na=False)['pred'].sort_index()
+    df = pandas.read_csv(ROOT_DIR / "llm_outputs" / "merged" / lea_model / (doc_id + ".tsv"), sep='\t', index_col='i', keep_default_na=False)['pred'].sort_index()
     sys_mentions = list(parse_mentions(df))
     key_clusters = mentions_to_clusters(key_mentions, doc_id='doc')
     sys_clusters = mentions_to_clusters(sys_mentions, doc_id='doc')
@@ -1027,7 +1066,7 @@ for ax, doc_id in zip(axs, to_plot):
     height.append(relevance)
     cur = cur + relevance
     labels.append('generic singletons')
-    color.append('#e0a0a0')
+    color.append('#f0a3a3')
 
     relevance = sum(recall[x][1] for x in group_entities)
     resolution = sum(recall[x][0] * recall[x][1] for x in group_entities) / relevance
@@ -1036,12 +1075,12 @@ for ax, doc_id in zip(axs, to_plot):
     height.append(relevance)
     cur = cur + relevance
     labels.append('group entities')
-    color.append('#a0a0e0')
+    color.append('#a0cfe0')
 
     ax.barh(X, height=height, width=width, color=color, align='edge', edgecolor='white', linewidth=0.6)
 
     ax.set_yticks(np.array(X) + np.array(height)/2, labels)
-    ax.tick_params(axis='y', length=0, labelsize=6)
+    ax.tick_params(axis='y', length=0, labelsize=5)
 
     ax.set_xlabel("LEA Resolution")
     ax.set_xlim((0, 1))
@@ -1067,7 +1106,7 @@ with tqdm(total=len(models) * sum(len(x) for x in document_mentions.values())) a
     for model in models:
         for doc_id, key_mentions in document_mentions.items():
             print(model, doc_id)
-            inference = pandas.read_csv(ROOT_DIR / "outputs" / "merged" / model / (doc_id + ".tsv"), sep='\t', index_col='i',
+            inference = pandas.read_csv(ROOT_DIR / "llm_outputs" / "merged" / model / (doc_id + ".tsv"), sep='\t', index_col='i',
                          keep_default_na=False)['pred'].sort_index()
             sys_mentions = list(parse_mentions(inference))
             key_clusters = mentions_to_clusters(key_mentions, doc_id='doc')
@@ -1111,6 +1150,7 @@ axs[1].set_xticks(range(len(bins)), labels)
 axs[1].bar_label(p, label_type='edge')
 axs[1].set_ylim((0, 70_000))
 axs[1].set_ylabel("Num. key mentions")
+axs[1].yaxis.set_major_formatter(FuncFormatter(log_number_fmt))
 
 plt.tight_layout()
 plt.savefig('/tmp/jcls_figures/llm_plurals.pdf')
