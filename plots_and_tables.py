@@ -859,14 +859,16 @@ plt.show()
 
 #%%
 
-df = pandas.DataFrame(index=pandas.MultiIndex.from_product([segment_lengths.keys(), models]))
+df = pandas.DataFrame(index=pandas.MultiIndex.from_product([segment_lengths.keys(), models]), columns=pandas.MultiIndex.from_product([[], []]))
 for segment_id, model in df.index:
-    reports = llm_eval_reports[model]['clusters_all']
-    for metric, scores in reports.items():
-        if segment_id in scores.keys():
-            df.loc[(segment_id, model), metric] = scores[segment_id]['f1']
+    reports = llm_eval_reports[model]
+    for k, v in reports.items():
+        if 'cluster' not in k: continue
+        for metric, scores in v.items():
+            if segment_id in scores.keys():
+                df.loc[(segment_id, model), (k, metric)] = scores[segment_id]['f1']
 
-df['conll'] = df[['muc', 'bcub', 'ceafe']].mean(axis=1)
+# df['conll'] = df[['muc', 'bcub', 'ceafe']].mean(axis=1)
 
 print(df.groupby(level=1).apply(lambda x: x.describe()).to_string())
 
@@ -1016,9 +1018,9 @@ for ax, doc_id in zip(axs, to_plot):
 
     generic_entities = {x for x in doc_entities.keys() if 'generic' in doc_entities[x].specialcase_entity}
     singleton_entities = {x for x in doc_entities.keys() if recall[x][1] == 1}
-    large_entities = {x for x in doc_entities.keys() if recall[x][1] > 1 and not any(recall[x][1] in r for r in small_groups[doc_id])}
     group_entities = {x for x in doc_entities.keys() if 'group' in doc_entities[x].specialcase_entity} - generic_entities
 
+    core_entities = doc_entities.keys() - singleton_entities - group_entities
 
     cur = 0
     labels = []
@@ -1028,8 +1030,8 @@ for ax, doc_id in zip(axs, to_plot):
     color = []
     edgecolor = []
 
-    core_entities = sorted(large_entities - singleton_entities, key=lambda x: recall[x][1], reverse=True)
-    for i, entity_id in enumerate(core_entities):
+    large_entities = {x for x in core_entities if all(recall[x][1] not in r for r in small_groups[doc_id])}
+    for entity_id in sorted(large_entities, key=lambda x: recall[x][1], reverse=True):
         resolution, relevance = recall[entity_id]
         X.append(cur)
         width.append(resolution)
@@ -1039,7 +1041,7 @@ for ax, doc_id in zip(axs, to_plot):
         color.append(next(cycler)['color'])
 
     for ran in sorted(small_groups[doc_id], key=lambda x: x.start, reverse=True):
-        small_entities = {x for x in doc_entities.keys() if recall[x][1] in ran}
+        small_entities = {x for x in core_entities if recall[x][1] in ran}
         relevance = sum(recall[x][1] for x in small_entities)
         resolution = sum(recall[x][0] * recall[x][1] for x in small_entities) / relevance
         X.append(cur)
@@ -1068,8 +1070,8 @@ for ax, doc_id in zip(axs, to_plot):
     labels.append('generic singletons')
     color.append('#f0a3a3')
 
-    relevance = sum(recall[x][1] for x in group_entities)
-    resolution = sum(recall[x][0] * recall[x][1] for x in group_entities) / relevance
+    relevance = sum(recall[x][1] for x in group_entities - singleton_entities)
+    resolution = sum(recall[x][0] * recall[x][1] for x in group_entities - singleton_entities) / relevance
     X.append(cur)
     width.append(resolution)
     height.append(relevance)
@@ -1090,7 +1092,7 @@ for ax, doc_id in zip(axs, to_plot):
     ax.set_title(doc_title[doc_id])
     ax.xaxis.set_major_formatter(FuncFormatter(percent_format))
 
-    print(doc_id, sum(h*w for h, w in zip(height, width))/ sum(height))
+    print(doc_id, sum(height), sum(x for _, x in recall.values()), sum(h*w for h, w in zip(height, width))/ sum(height), cluster_table.loc[('all', lea_model, doc_id), ('lea', 'recall')])
 
 plt.tight_layout()
 plt.savefig("/tmp/jcls_figures/llm_lea_plot.pdf")
