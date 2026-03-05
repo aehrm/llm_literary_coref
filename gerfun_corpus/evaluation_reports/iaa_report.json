@@ -113,7 +113,7 @@
     },
     "ceafe": {
       "aggregated": {
-        "precision": 0.8269635232319503,
+        "precision": 0.8269635232319501,
         "recall": 0.8167540970192102,
         "f1": 0.8218271038329941,
         "support_key": 162,
@@ -141,7 +141,7 @@
         "support_response": 86
       },
       "Wolff_Wildfangrecht_chapter_2_first_2000": {
-        "precision": 0.7774297738931153,
+        "precision": 0.7774297738931151,
         "recall": 0.655956371722316,
         "f1": 0.7115458947496309,
         "support_key": 32,
@@ -561,9 +561,9 @@
     },
     "ceafe": {
       "aggregated": {
-        "precision": 0.8720839961131461,
+        "precision": 0.8720839961131459,
         "recall": 0.8230905131854412,
-        "f1": 0.8468792563410898,
+        "f1": 0.8468792563410897,
         "support_key": 89,
         "support_response": 84
       },
@@ -589,7 +589,7 @@
         "support_response": 27
       },
       "Wolff_Wildfangrecht_chapter_2_first_2000": {
-        "precision": 0.7774297738931153,
+        "precision": 0.7774297738931151,
         "recall": 0.655956371722316,
         "f1": 0.7115458947496309,
         "support_key": 32,

@@ -7,13 +7,13 @@ from typing import Optional, Literal, List
 from scipy.optimize import linear_sum_assignment
 import numpy as np
 
-from llm_literary_coref.eval.metrics import mention_metric, lea_metric, bcubed_metric, ceafe_metric, ceafm_metric, \
-    attribute_metric, Clusters, EvalMention, MentionAssignment, muc_metric
+from llm_literary_coref.eval.metrics import mention_recall, lea_recall, bcubed_recall, ceafe_recall, ceafm_recall, \
+    attribute_recall, Clusters, EvalMention, MentionAssignment, muc_recall
 from llm_literary_coref.mention import Mention, Reference, Entity
 
 
 def mentions_to_clusters(mentions: List[Mention], doc_id: str,
-                                   ignore_spans: Optional[set] = None) -> Clusters:
+                         ignore_spans: Optional[set] = None) -> Clusters:
     """Convert mentions to clusters, ignoring specified spans."""
     clusters = collections.defaultdict(list)
     for mention in mentions:
@@ -26,7 +26,6 @@ def mentions_to_clusters(mentions: List[Mention], doc_id: str,
     return dict(clusters)
 
 
-
 def get_mention_assignments(inp_clusters: Clusters, out_clusters: Clusters) -> MentionAssignment:
     """Map mentions to their entity IDs in out_clusters."""
     out_dic = collections.defaultdict(list)
@@ -35,7 +34,7 @@ def get_mention_assignments(inp_clusters: Clusters, out_clusters: Clusters) -> M
             out_dic[m].append(eid)
 
     return {m: out_dic[m] for mentions in inp_clusters.values()
-            for m in mentions if m in out_dic}
+        for m in mentions if m in out_dic}
 
 
 def get_self_assignments(clusters: Clusters) -> MentionAssignment:
@@ -67,13 +66,13 @@ def compute_entity_mapping(key_clusters: Clusters, sys_clusters: Clusters) -> di
 
 def get_generic_spans(mentions: List[Mention]) -> set:
     return {(m.token_idx[0], m.token_idx[-1]) for m in mentions
-            for ref in m.references if 'generic' in ref.entity.specialcase_entity}
+        for ref in m.references if 'generic' in ref.entity.specialcase_entity}
 
 
 def get_singleton_spans(mentions: List[Mention]) -> set:
     entity_size = collections.Counter(ref.entity.id for m in mentions for ref in m.references)
     return {(m.token_idx[0], m.token_idx[-1]) for m in mentions
-            for ref in m.references if entity_size[ref.entity.id] == 1}
+        for ref in m.references if entity_size[ref.entity.id] == 1}
 
 
 def _replace_plurals(mentions: List[Mention]) -> List[Mention]:
@@ -132,7 +131,7 @@ class Scorer:
 
     def results_by_doc(self) -> dict[str, dict]:
         return {doc_id: self._compute_prf(*scores, self.beta) 
-                for doc_id, scores in self.doc_scores.items()}
+            for doc_id, scores in self.doc_scores.items()}
 
     def results(self):
         return {'aggregated': self.results_aggregated()} | self.results_by_doc()
@@ -140,13 +139,14 @@ class Scorer:
 
 
 CLUSTER_METRICS = {
-    'mentions': mention_metric,
-    'muc': muc_metric,
-    'bcub': bcubed_metric,
-    'ceafe': ceafe_metric,
-    'lea': lea_metric,
-    'ceafm': ceafm_metric,
+    'mentions': mention_recall,
+    'muc': muc_recall,
+    'bcub': bcubed_recall,
+    'ceafe': ceafe_recall,
+    'lea': lea_recall,
+    'ceafm': ceafm_recall,
 }
+
 
 ENTITY_ATTRIBUTES = {
     'gender:m': lambda e: e.gender == 'm',
@@ -176,15 +176,15 @@ class Evaluator:
                 k: Scorer() for k in CLUSTER_METRICS.keys()
             } for variant in ["all", "replaceplural", "nogeneric", "nosingletons"]
         } | {
-            f"entity_attributes_{variant}_{restrict_on_matches}": {
-                k: Scorer() for k in ENTITY_ATTRIBUTES.keys()
-            } for variant in ["all", "nogroup", "nogroupnosingletons"]
-            for restrict_on_matches in ["unrestricted", "restrictonmatch"]
-        } | {
-            "mention_attributes": {
-                k: Scorer() for k in MENTION_ATTRIBUTES.keys()
+                f"entity_attributes_{variant}_{restrict_on_matches}": {
+                    k: Scorer() for k in ENTITY_ATTRIBUTES.keys()
+                } for variant in ["all", "nogroup", "nogroupnosingletons"]
+                for restrict_on_matches in ["unrestricted", "restrictonmatch"]
+            } | {
+                "mention_attributes": {
+                    k: Scorer() for k in MENTION_ATTRIBUTES.keys()
+                }
             }
-        }
         self.seen_documents = []
 
     def report(self, as_dict=False, print_individual_doc_scores=False, print_support: Optional[Literal["all", "key", "response"]] = None) -> dict | str:
@@ -261,7 +261,6 @@ class Evaluator:
         return f.getvalue()
 
 
-
     def add_document(self, key_mentions: List[Mention], sys_mentions: List[Mention],
                      doc_id: str = "doc"):
         for variant in ["all", "nogeneric", "nosingletons", "replaceplural"]:
@@ -303,19 +302,31 @@ class Evaluator:
         key_mention_key = get_self_assignments(key_clusters)
         sys_mention_sys = get_self_assignments(sys_clusters)
 
-        kwargs = dict(key_clusters=key_clusters, sys_clusters=sys_clusters,
-                      key_mention_sys=key_mention_sys, sys_mention_key=sys_mention_key,
-                      key_mention_key=key_mention_key, sys_mention_sys=sys_mention_sys)
-        for name, metric_fn in CLUSTER_METRICS.items():
-            res = metric_fn(**kwargs)
-            self.scorers[f"clusters_{variant}"][name].update(res, doc_id)
+        for name, recall_fn in CLUSTER_METRICS.items():
+            # Recall: key is source, sys is target
+            r_num, r_den = recall_fn(
+                source_clusters=key_clusters, 
+                target_clusters=sys_clusters,
+                mention_to_target=key_mention_sys, 
+                mention_to_source=key_mention_key
+            )
+
+            # Precision: sys is source, key is target
+            p_num, p_den = recall_fn(
+                source_clusters=sys_clusters, 
+                target_clusters=key_clusters,
+                mention_to_target=sys_mention_key, 
+                mention_to_source=sys_mention_sys
+            )
+
+            self.scorers[f"clusters_{variant}"][name].update((p_num, p_den, r_num, r_den), doc_id)
+
 
     def _update_entity_attribute_metrics(self, key_mentions: List[Mention], sys_mentions: List[Mention],
                                          entity_filter: Literal["all", "nogroup", "nogroupnosingletons"],
                                          restrict_to_matches=False, doc_id: str = "doc"):
         key_clusters = mentions_to_clusters(key_mentions, doc_id)
         sys_clusters = mentions_to_clusters(sys_mentions, doc_id)
-
 
         key_entities = {ref.entity.id: ref.entity for m in key_mentions for ref in m.references}
         sys_entities = {ref.entity.id: ref.entity for m in sys_mentions for ref in m.references}
@@ -341,18 +352,40 @@ class Evaluator:
 
         restrictkey = "restrictonmatch" if restrict_to_matches else "unrestricted"
         scorer_key = f'entity_attributes_{entity_filter}_{restrictkey}'
+
         for name in self.scorers[scorer_key].keys():
             attribute_fn = ENTITY_ATTRIBUTES[name]
-            res = attribute_metric(key_entities, sys_entities, entity_mapping, attribute_fn)
-            self.scorers[scorer_key][name].update(res, doc_id)
+
+            # Recall
+            r_num, r_den = attribute_recall(
+                source_items=key_entities, 
+                target_items=sys_entities, 
+                mapping=entity_mapping, 
+                extract_fn=attribute_fn
+            )
+
+            # Precision
+            p_num, p_den = attribute_recall(
+                source_items=sys_entities, 
+                target_items=key_entities, 
+                mapping=inverse_entity_mapping, 
+                extract_fn=attribute_fn
+            )
+
+            self.scorers[scorer_key][name].update((p_num, p_den, r_num, r_den), doc_id)
 
     def _update_mention_attribute_metrics(self, key_mentions: List[Mention], sys_mentions: List[Mention], doc_id: str = "doc"):
         key_spans = {(m.token_idx[0], m.token_idx[-1]): m.references for m in key_mentions}
         sys_spans = {(m.token_idx[0], m.token_idx[-1]): m.references for m in sys_mentions}
 
-        # Identity mapping for overlapping spans
+        # Identity mappings for overlapping spans
         mapping = {s: s for s in set(key_spans) & set(sys_spans)}
+        inverse_mapping = {v: k for k, v in mapping.items()}
 
         for name, attribute_fn in MENTION_ATTRIBUTES.items():
-            res = attribute_metric(key_spans, sys_spans, mapping, attribute_fn)
-            self.scorers['mention_attributes'][name].update(res, doc_id)
+            # Recall
+            r_num, r_den = attribute_recall(key_spans, sys_spans, mapping, attribute_fn)
+            # Precision
+            p_num, p_den = attribute_recall(sys_spans, key_spans, inverse_mapping, attribute_fn)
+
+            self.scorers['mention_attributes'][name].update((p_num, p_den, r_num, r_den), doc_id)
