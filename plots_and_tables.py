@@ -69,8 +69,8 @@ doc_title = [
     ('Fischer_Gustav', 'Gustavs Verirrungen'),
     ('Heimburg_Trudchen', 'Trudchens Heirat'),
     ('Wolff_Wildfangrecht', 'Wildfangrecht'),
-    ('Goethe_Wahlverwandtschaften', 'Wahlverwandtschaften'),
     ('Kürnberger_Amerika', 'Amerika-Müde'),
+    ('Goethe_Wahlverwandtschaften', 'Wahlverwandtschaften'),
 ]
 ordering = [x[0] for x in doc_title]
 doc_title = dict(doc_title)
@@ -126,8 +126,8 @@ for doc, df in sorted(documents.items(), key=lambda x: len(x[1])):
 
 df = pandas.DataFrame(statistics, columns=['doc', 'label', 'count']).pivot(index='doc', columns='label').droplevel(0, axis=1)
 df = df.rename(doc_title)
-df.loc['total'] = df.sum()
 df.loc['average'] = df.sum() / len(df)
+df.loc['total'] = df.sum()
 print(df[['Num. tokens', 'Num. sentences', 'Num. mentions', 'Num. references', 'Num. entities']].to_string(na_rep=''))
 
 #%%
@@ -184,9 +184,9 @@ gender_statistics = []
 for entities in document_entities.values():
     for references in entities.values():
         e = references[0][1].entity
-        gender_statistics.append((e.gender, 'generic' in e.specialcase_entity, 'group' in e.specialcase_entity, len(references)))
+        gender_statistics.append((e.gender, 'generic' in e.specialcase_entity, 'group' in e.specialcase_entity, e.specialcase_entity != [], len(references)))
 
-gender_statistics = pandas.DataFrame(gender_statistics, columns=['gender', 'generic', 'group', 'num_references'])
+gender_statistics = pandas.DataFrame(gender_statistics, columns=['gender', 'generic', 'group', 'specialcase', 'num_references'])
 gender_statistics.loc[gender_statistics['gender'].apply(lambda x: 'o' in x or 'u' in x), 'gender'] = 'u'
 
 gender_by_entity = pandas.pivot_table(gender_statistics, index=['gender'], columns=['generic', 'group'], aggfunc=len)
@@ -206,14 +206,14 @@ entity_sizes = []
 for doc, entities in document_entities.items():
     for entity_id, mentions in entities.items():
         entity = mentions[0][1].entity
-        entity_sizes.append((doc, entity.fullname, len(mentions), 'generic' in entity.specialcase_entity, 'group' in entity.specialcase_entity))
+        entity_sizes.append((doc, entity.fullname, len(mentions), 'generic' in entity.specialcase_entity, 'group' in entity.specialcase_entity, entity.specialcase_entity != []))
 
-entity_sizes = pandas.DataFrame(entity_sizes, columns=['doc', 'entity', 'num_references', 'generic', 'group'])
+entity_sizes = pandas.DataFrame(entity_sizes, columns=['doc', 'entity', 'num_references', 'generic', 'group', 'specialcase'])
 
 statistics = []
 statistics.append(['All entities', len(entity_sizes), sum(entity_sizes['num_references'])])
-sel = ~entity_sizes['group']&(entity_sizes['num_references'] > 1)
-statistics.append(['Non-singleton individuals', len(entity_sizes.loc[sel]), sum(entity_sizes.loc[sel, 'num_references'])])
+sel = ~entity_sizes['specialcase']&(entity_sizes['num_references'] > 1)
+statistics.append(['Core entities', len(entity_sizes.loc[sel]), sum(entity_sizes.loc[sel, 'num_references'])])
 sel = (entity_sizes['group'])
 statistics.append(['Group entities', len(entity_sizes.loc[sel]), sum(entity_sizes.loc[sel, 'num_references'])])
 sel = entity_sizes['generic']
@@ -290,7 +290,7 @@ ax.legend(frameon=False)
 
 ax = ax2
 cycler = iter(plt.rcParams['axes.prop_cycle'])
-for doc, doc_df in entity_sizes.groupby('doc'):
+for doc, doc_df in sorted(entity_sizes.groupby('doc'), key=lambda x: ordering.index(x[0])):
     sel = ~entity_sizes['group'] & (entity_sizes['num_references'] > 1)
     g = doc_df.loc[sel]
     # g = doc_df
@@ -671,7 +671,7 @@ boxplot_kwargs = dict(patch_artist=True, boxprops=dict(fc='black', edgecolor='bl
                       flierprops=dict(markersize=4, markeredgewidth=.6))
 
 metrics = ['conll', 'lea']
-metric_labels = {'conll': "CoNLL", 'lea': "LEA"}
+metric_labels = {'conll': "CoNLL F1", 'lea': "LEA F1"}
 models = ['google--gemini-2.5-flash-lite', 'google--gemini-2.5-flash', 'iaa']
 model_labels = {'google--gemini-2.5-flash-lite': "Gemini 2.5 Flash Lite",
                 'google--gemini-2.5-flash': "Gemini 2.5 Flash",
@@ -705,7 +705,7 @@ plt.show()
 
 
 metrics = ['conll', 'lea']
-metric_labels = {'conll': "CoNLL", 'lea': "LEA"}
+metric_labels = {'conll': "CoNLL F1", 'lea': "LEA F1"}
 models = [
     # 'qwen--qwen3-30b-a3b-instruct-2507',
     # 'qwen--qwen3-vl-235b-a22b-instruct',
