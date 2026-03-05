@@ -292,32 +292,32 @@ class Evaluator:
             filter_key = set()
             filter_response = set()
 
-        mentions_to_filter = filter_key | filter_response
-
-        key_clusters = mentions_to_clusters(key_mentions, doc_id, ignore_spans=mentions_to_filter)
-        sys_clusters = mentions_to_clusters(sys_mentions, doc_id, ignore_spans=mentions_to_filter)
-
-        key_mention_sys = get_mention_assignments(key_clusters, sys_clusters)
-        sys_mention_key = get_mention_assignments(sys_clusters, key_clusters)
-        key_mention_key = get_self_assignments(key_clusters)
-        sys_mention_sys = get_self_assignments(sys_clusters)
-
         for name, recall_fn in CLUSTER_METRICS.items():
-            # Recall: key is source, sys is target
-            r_num, r_den = recall_fn(
-                source_clusters=key_clusters, 
-                target_clusters=sys_clusters,
-                mention_to_target=key_mention_sys, 
-                mention_to_source=key_mention_key
-            )
+            r_num, r_den, p_num, p_den = None, None, None, None
+            for p_or_r in ['precision', 'recall']:
+                key_clusters = mentions_to_clusters(key_mentions, doc_id,
+                                                    ignore_spans=filter_key if p_or_r == 'recall' else None)
+                sys_clusters = mentions_to_clusters(sys_mentions, doc_id,
+                                                    ignore_spans=filter_response if p_or_r == 'precision' else None)
+                key_mention_sys = get_mention_assignments(key_clusters, sys_clusters)
+                sys_mention_key = get_mention_assignments(sys_clusters, key_clusters)
+                key_mention_key = get_self_assignments(key_clusters)
+                sys_mention_sys = get_self_assignments(sys_clusters)
 
-            # Precision: sys is source, key is target
-            p_num, p_den = recall_fn(
-                source_clusters=sys_clusters, 
-                target_clusters=key_clusters,
-                mention_to_target=sys_mention_key, 
-                mention_to_source=sys_mention_sys
-            )
+                if p_or_r == 'recall':
+                    r_num, r_den = recall_fn(
+                        source_clusters=key_clusters, 
+                        target_clusters=sys_clusters,
+                        mention_to_target=key_mention_sys, 
+                        mention_to_source=key_mention_key
+                    )
+                else:
+                    p_num, p_den = recall_fn(
+                        source_clusters=sys_clusters, 
+                        target_clusters=key_clusters,
+                        mention_to_target=sys_mention_key, 
+                        mention_to_source=sys_mention_sys
+                    )
 
             self.scorers[f"clusters_{variant}"][name].update((p_num, p_den, r_num, r_den), doc_id)
 
