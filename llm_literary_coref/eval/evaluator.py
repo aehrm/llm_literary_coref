@@ -276,7 +276,6 @@ class Evaluator:
 
     def _update_cluster_metrics(self, key_mentions: List[Mention], sys_mentions: List[Mention],
                                 variant: Literal["all", "replaceplural", "nogeneric", "nosingletons"], doc_id: str = "doc"):
-        print(f"running cluster metrics for {variant=}...")
         if variant == "replaceplural":
             filter_key = set()
             filter_response = set()
@@ -314,7 +313,6 @@ class Evaluator:
     def _update_entity_attribute_metrics(self, key_mentions: List[Mention], sys_mentions: List[Mention],
                                          entity_filter: Literal["all", "nogroup", "nogroupnosingletons"],
                                          restrict_to_matches=False, doc_id: str = "doc"):
-        print(f"running entity metrics for {entity_filter=}, {restrict_to_matches=}...")
         key_clusters = mentions_to_clusters(key_mentions, doc_id)
         sys_clusters = mentions_to_clusters(sys_mentions, doc_id)
 
@@ -341,14 +339,6 @@ class Evaluator:
         key_entities = {k: e for k, e in key_entities.items() if not key_filter(k) and (not restrict_to_matches or k in entity_mapping.keys())}
         sys_entities = {k: e for k, e in sys_entities.items() if not sys_filter(k) and (not restrict_to_matches or k in inverse_entity_mapping.keys())}
 
-        # print(f"---- {entity_filter}, {restrict_to_matches=} ----")
-        # for k in key_entities.keys() & entity_mapping.keys():
-        #     print(f"{key_entities[k].fullname:<30} {key_entities[k].gender}  ->  {sys_entities[entity_mapping[k]].gender} {sys_entities[entity_mapping[k]].fullname}")
-        # for k in key_entities.keys() - entity_mapping.keys():
-        #     print(f"{key_entities[k].fullname:<30} {key_entities[k].gender}  ->  None")
-        # for r in sys_entities.keys() - inverse_entity_mapping.keys():
-        #     print(f"{"None":<30}    ->  {sys_entities[r].gender} {sys_entities[r].fullname}")
-
         restrictkey = "restrictonmatch" if restrict_to_matches else "unrestricted"
         scorer_key = f'entity_attributes_{entity_filter}_{restrictkey}'
         for name in self.scorers[scorer_key].keys():
@@ -357,7 +347,6 @@ class Evaluator:
             self.scorers[scorer_key][name].update(res, doc_id)
 
     def _update_mention_attribute_metrics(self, key_mentions: List[Mention], sys_mentions: List[Mention], doc_id: str = "doc"):
-        print(f"running mention metrics...")
         key_spans = {(m.token_idx[0], m.token_idx[-1]): m.references for m in key_mentions}
         sys_spans = {(m.token_idx[0], m.token_idx[-1]): m.references for m in sys_mentions}
 

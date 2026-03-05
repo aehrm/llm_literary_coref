@@ -22,7 +22,7 @@ def main():
 
     keyfn = lambda x: re.search(r'^[^_]+_(.*)\.tsv$', x.name).group(1)
     for doc_name, pair in itertools.groupby(sorted(iaa_files, key=keyfn), keyfn):
-        pair = list(pair)
+        pair = list(sorted(pair))
         assert len(pair) == 2, f"There are more than two documents with the same suffix {doc_name}."
 
         print(f"Comparing {pair[0].name} with {pair[1].name}")
