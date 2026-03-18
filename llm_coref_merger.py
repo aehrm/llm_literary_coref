@@ -88,8 +88,8 @@ def merge_segments(gold_file: Path, input_files: List[Path], annotator: LLMRunne
 
 def main():
     parser = argparse.ArgumentParser(description="Run LLM-based annotation on TSV text segments. Groups input files according to their name")
-    parser.add_argument('--gold_files', type=Path, nargs='+', required=True, help='List of gold TSV files to process.' )
-    parser.add_argument('--input_files', type=Path, nargs='+', required=True, help='List of input TSV files to process.' )
+    parser.add_argument('--novel_files', type=Path, nargs='+', required=True, help='List of full novel TSV files to process.' )
+    parser.add_argument('--segment_files', type=Path, nargs='+', required=True, help='List of input TSV files to process.' )
     parser.add_argument('--output_dir', type=Path, required=True, help='Output directory for merged TSV files.' )
     parser.add_argument('--model', type=str, required=True, help='LLM Model string (e.g., "openai/gpt-4-turbo", "anthropic/claude-3-opus").')
     parser.add_argument('--prompt_type', type=str, default="default", help=f'Key for the prompt class to use. Options: {list(PROMPT_REGISTRY.keys())}' )
