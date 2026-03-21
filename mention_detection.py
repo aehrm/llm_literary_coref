@@ -172,9 +172,10 @@ def process_sections(sections, basename, model_id, output_dir, device='cuda'):
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Run mention detection on TSV files.")
+    parser = argparse.ArgumentParser(description="Run mention detection on TSV files.",
+                                     formatter_class=argparse.ArgumentDefaultsHelpFormatter)
     parser.add_argument("--input_files", type=Path, nargs="+", required=True, help="Path to input TSV file.")
-    parser.add_argument("--model_id", type=str, required=True, help="Path to HuggingFace model or Hub ID.")
+    parser.add_argument("--model_id", type=str, default="aehrm/moderngbert-droc-tagger", help="Path to HuggingFace model or Hub ID.")
     parser.add_argument("--output_dir", type=Path, default="llm_outputs/mention_detection", help="Directory to save output TSVs.")
     parser.add_argument("--max_segment_length", type=int, default=8192, help="Maximum segment length. If section is longer than this quantity, section will be split into multiple segments of this length.")
     parser.add_argument("--device", type=str, default="cuda" if torch.cuda.is_available() else "cpu",
