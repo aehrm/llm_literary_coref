@@ -2,7 +2,7 @@
 
 This is the accompagnying repository to the paper [Coreference Resolution for Full German Novels using Large Language Models](https://doi.org/10.26083/tuda-7983) (2026, JCLS, preprint) and contains
 
-1. the GerFuN (German Full Novel) coreference dataset, and
+1. the GerFuN (German Full Novel) coreference dataset in folder [`gerfun_corpus/`](./gerfun_corpus/README.md) ([guidelines](https://zenodo.org/records/20364509)), and
 2. a pipeline for detecting character mentions and resolving coreference chains in literary texts using LLMs (via OpenRouter).
 
 ## Repository Structure
