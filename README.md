@@ -121,3 +121,11 @@ uv run python eval_llm_inference.py \
 ```
 
 NOTE: Evaluations compare the column `pred` with the column `gold` (copied in step 3).
+
+## License
+
+The repository and dataset is licensed under the terms of the Creative Commons Attribution 4.0 International (<https://creativecommons.org/licenses/by/4.0/>).
+
+If you use this repository and/or dataset, please consider citing the corresponding paper:
+
+> Agnes Hilger and Anton Ehrmanntraut. "Coreference Resolution for Full German Novels using Large Language Models." *Journal for Computational Literary Studies* (2026). https://doi.org/10.26083/tuda-7983
