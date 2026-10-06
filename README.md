@@ -35,7 +35,7 @@ The first step uses a BERT-based model to find character mention spans. This div
 ```bash
 uv run python mention_detection.py \
     --input_files my_novel.tsv \
-    --model_id "aehrm/moderngbert-fun-mention-detection" \
+    --model_id "aehrm/moderngbert-droc-tagger" \
     --output_dir llm_outputs/mention_detection
 # generates files 
 # llm_outputs/mention_detection/my_novel_segment_0000.tsv
@@ -73,7 +73,7 @@ Run the BERT-based mention detector on your source TSVs. This creates segments w
 ```bash
 uv run python mention_detection.py \
     --input_files gerfun_corpus/sources/*.tsv \
-    --model_id "aehrm/moderngbert-fun-mention-detection" \
+    --model_id "aehrm/moderngbert-droc-tagger" \
     --output_dir llm_outputs/mention_detection
 # generates files 
 # llm_outputs/mention_detection/Goethe_Wahlverwandtschaften_segment_0000.tsv
